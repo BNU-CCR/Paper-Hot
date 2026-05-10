@@ -175,6 +175,36 @@ def export_public_data(config: Optional[Config] = None):
     print(f"已导出公开数据到: {export_path}")
 
 
+def publish_paper(config: Optional[Config], paper_id: int, is_public: bool):
+    """设置论文公开状态"""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    success = storage.set_paper_publication(paper_id, is_public)
+    if not success:
+        print(f"未找到论文 ID: {paper_id}")
+        return 1
+
+    paper = storage.get_paper_by_id(paper_id)
+    action = "已设为公开发布" if is_public else "已取消公开发布"
+    title = paper.title if paper else str(paper_id)
+    print(f"{action}: [{paper_id}] {title}")
+    return 0
+
+
+def list_public_papers(config: Optional[Config] = None):
+    """列出已公开论文"""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    papers = storage.get_public_papers()
+    print(f"已公开论文: {len(papers)}")
+    for paper in papers:
+        print(f"- [{paper.id}] {paper.title} | {paper.relevance} | {paper.journal}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="计算传播论文追踪系统")
     parser.add_argument("--config", type=str, help="配置文件目录")
@@ -185,6 +215,11 @@ def main():
     subparsers.add_parser("stats", help="显示统计")
     subparsers.add_parser("export", help="导出CSV")
     subparsers.add_parser("export-public", help="导出公开站 JSON 数据")
+    publish_parser = subparsers.add_parser("publish", help="将论文设为公开发布")
+    publish_parser.add_argument("paper_id", type=int, help="论文 ID")
+    unpublish_parser = subparsers.add_parser("unpublish", help="取消论文公开发布")
+    unpublish_parser.add_argument("paper_id", type=int, help="论文 ID")
+    subparsers.add_parser("list-public", help="列出已公开论文")
 
     args = parser.parse_args()
 
@@ -203,6 +238,12 @@ def main():
         export_csv(config)
     elif args.command == "export-public":
         export_public_data(config)
+    elif args.command == "publish":
+        sys.exit(publish_paper(config, args.paper_id, True))
+    elif args.command == "unpublish":
+        sys.exit(publish_paper(config, args.paper_id, False))
+    elif args.command == "list-public":
+        list_public_papers(config)
     else:
         # 默认运行完整流程
         run_full_pipeline(config, args.max_papers)

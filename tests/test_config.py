@@ -55,6 +55,26 @@ claude_model: "claude-test-model"
                 ["llm communication", "platform politics", "misinformation"],
             )
 
+    def test_config_uses_database_path_relative_to_custom_config_dir(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            config_dir.mkdir()
+
+            write_file(config_dir / "journals.yaml", "journals: []")
+            write_file(config_dir / "prompts.yaml", "{}")
+            write_file(
+                config_dir / "settings.yaml",
+                """
+database:
+  path: "data/papers.db"
+""".strip(),
+            )
+
+            config = Config(config_dir)
+
+            self.assertEqual(config.database_path, project_dir / "data" / "papers.db")
+
 
 if __name__ == "__main__":
     unittest.main()

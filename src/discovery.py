@@ -6,6 +6,7 @@
 """
 
 import requests
+import time
 from typing import List, Dict, Any, Optional
 from dataclasses import dataclass
 
@@ -73,6 +74,10 @@ class PaperDiscovery:
         "Science Communication",
     ]
 
+    MAX_RETRIES = 3
+    RETRY_BACKOFF_SECONDS = 1.0
+    SEARCH_PAUSE_SECONDS = 0.2
+
     def __init__(self, api_key: Optional[str] = None):
         """
         初始化论文发现模块
@@ -86,8 +91,8 @@ class PaperDiscovery:
         self.session.headers.update({
             "Accept": "application/json"
         })
-        if api_key:
-            self.session.headers["x-api-key"] = api_key
+        if self.api_key:
+            self.session.headers["x-api-key"] = self.api_key
 
     def search_papers(
         self,
@@ -117,13 +122,7 @@ class PaperDiscovery:
         }
 
         try:
-            response = self.session.get(
-                f"{self.SEMANTIC_SCHOLAR_API}/paper/search",
-                params=params,
-                timeout=30
-            )
-            response.raise_for_status()
-            data = response.json()
+            data = self._get_json("/paper/search", params)
 
             papers = []
             for item in data.get("data", []):
@@ -209,11 +208,18 @@ class PaperDiscovery:
         """
         if keywords is None:
             keywords = get_config().get_discovery_keywords() or self.DEFAULT_KEYWORDS
+        if not keywords or limit <= 0:
+            return []
+
+        selected_keywords = keywords[: min(len(keywords), limit)]
+        per_keyword_limit = max(1, limit // len(selected_keywords))
 
         all_papers = []
-        for keyword in keywords:
-            papers = self.search_papers(keyword, limit=limit // len(keywords))
+        for index, keyword in enumerate(selected_keywords):
+            papers = self.search_papers(keyword, limit=per_keyword_limit)
             all_papers.extend(papers)
+            if index < len(selected_keywords) - 1:
+                time.sleep(self.SEARCH_PAUSE_SECONDS)
 
         # 去重（按DOI）
         seen_dois = set()
@@ -242,13 +248,7 @@ class PaperDiscovery:
         }
 
         try:
-            response = self.session.get(
-                f"{self.SEMANTIC_SCHOLAR_API}/paper/DOI:{doi}",
-                params=params,
-                timeout=30
-            )
-            response.raise_for_status()
-            item = response.json()
+            item = self._get_json(f"/paper/DOI:{doi}", params)
 
             journal = ""
             if item.get("journal"):
@@ -306,13 +306,7 @@ class PaperDiscovery:
             if not paper_id.startswith("DOI:"):
                 paper_id = f"DOI:{paper_id}"
 
-            response = self.session.get(
-                f"{self.SEMANTIC_SCHOLAR_API}/paper/{paper_id}/citations",
-                params=params,
-                timeout=30
-            )
-            response.raise_for_status()
-            data = response.json()
+            data = self._get_json(f"/paper/{paper_id}/citations", params)
 
             papers = []
             for item in data.get("data", []):
@@ -339,3 +333,36 @@ class PaperDiscovery:
         except requests.RequestException as e:
             print(f"获取引用列表时出错: {e}")
             return []
+
+    def _get_json(self, path: str, params: Dict[str, Any]) -> Dict[str, Any]:
+        """执行带有限流重试的 JSON 请求"""
+        last_error: Optional[requests.RequestException] = None
+
+        for attempt in range(self.MAX_RETRIES):
+            try:
+                response = self.session.get(
+                    f"{self.SEMANTIC_SCHOLAR_API}{path}",
+                    params=params,
+                    timeout=30,
+                )
+                response.raise_for_status()
+                return response.json()
+            except requests.HTTPError as error:
+                last_error = error
+                if not self._is_rate_limited(error) or attempt == self.MAX_RETRIES - 1:
+                    raise
+                time.sleep(self.RETRY_BACKOFF_SECONDS * (2 ** attempt))
+            except requests.RequestException as error:
+                last_error = error
+                raise
+
+        if last_error:
+            raise last_error
+        raise requests.RequestException("未知的请求失败")
+
+    def _is_rate_limited(self, error: requests.HTTPError) -> bool:
+        """判断错误是否为 429 限流"""
+        response = getattr(error, "response", None)
+        if response is not None and getattr(response, "status_code", None) == 429:
+            return True
+        return "429" in str(error)

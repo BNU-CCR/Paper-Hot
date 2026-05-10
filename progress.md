@@ -16,3 +16,9 @@
 - 重写 `README.md`，使其与当前工程状态一致。
 - 初始化本地 Git 仓库并创建首个提交 `f2f2ecb Bootstrap engineered journal tracker`。
 - 已连接并推送到 GitHub 仓库 `https://github.com/572200469/Paper-Hot.git`。
+- 为 `src/discovery.py` 增加了 `429` 限流重试、指数退避和更稳的批量关键词策略。
+- 新增 `tests/test_discovery.py`，验证限流重试和 `search_recent_papers()` 的分配逻辑。
+- 使用用户提供的 `Semantic Scholar API key` 做真实联网测试，最小搜索已成功返回 3 篇论文。
+- 新增发布管理命令：`publish`、`unpublish`、`list-public`。
+- 修复 `--config` 模式下数据库路径仍指向仓库根目录的问题。
+- 更新 README 与 CLAUDE 文档，加入发布管理命令说明。

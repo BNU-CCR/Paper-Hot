@@ -118,6 +118,14 @@ python -m src.main export
 python -m src.main export-public
 ```
 
+发布论文到公开站：
+
+```bash
+python -m src.main publish <paper_id>
+python -m src.main unpublish <paper_id>
+python -m src.main list-public
+```
+
 ## 数据模型
 
 当前 `papers` 表核心字段包括：
@@ -130,7 +138,7 @@ python -m src.main export-public
 说明：
 
 - `is_public = 1` 的论文才会进入 `public/data/papers.json`
-- 当前项目还没有单独的发布管理界面
+- 当前项目还没有单独的发布管理界面，但已经有最小命令行发布管理能力
 
 ## 验证
 

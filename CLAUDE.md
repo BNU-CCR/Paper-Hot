@@ -55,7 +55,15 @@ Claude Code (调度中心)
 ```
 将已发布论文导出为公开站 JSON 数据。
 
-### 7. 查看待读论文
+### 7. 发布论文
+```
+"发布论文 [ID]"
+"取消发布论文 [ID]"
+"查看已发布论文"
+```
+管理公开站中可见的论文。
+
+### 8. 查看待读论文
 ```
 "显示待读论文"
 "查看 High 相关论文"
@@ -114,6 +122,7 @@ AI筛选模块，使用Claude API判断论文相关性：
 - `get_public_papers(limit)` - 获取已发布论文
 - `get_statistics()` - 获取统计信息
 - `export_to_csv(filepath, relevance)` - 导出CSV
+- `set_paper_publication(paper_id, is_public)` - 设置公开发布状态
 
 ### src.notification.NotificationSender
 通知推送模块：

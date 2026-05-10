@@ -13,6 +13,7 @@ class Config:
         if config_dir is None:
             config_dir = Path(__file__).parent.parent / "config"
         self.config_dir = Path(config_dir)
+        self.project_root = self.config_dir.parent
         self._load_configs()
 
     def _load_configs(self):
@@ -44,19 +45,20 @@ class Config:
     @property
     def data_dir(self) -> Path:
         """数据目录"""
-        data_dir = Path(__file__).parent.parent / "data"
+        data_dir = self.database_path.parent
         data_dir.mkdir(exist_ok=True)
         return data_dir
 
     @property
     def database_path(self) -> Path:
         """数据库路径"""
-        return self.data_dir / "papers.db"
+        configured_path = self.settings.get("database", {}).get("path", "data/papers.db")
+        return self.project_root / configured_path
 
     @property
     def public_data_dir(self) -> Path:
         """公开数据导出目录"""
-        public_dir = Path(__file__).parent.parent / "public" / "data"
+        public_dir = self.project_root / "public" / "data"
         public_dir.mkdir(parents=True, exist_ok=True)
         return public_dir
 

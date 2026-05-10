@@ -140,6 +140,16 @@ class PaperStorage:
                 return Paper(**self._normalize_row(dict(row)))
             return None
 
+    def get_paper_by_id(self, paper_id: int) -> Optional[Paper]:
+        """通过 ID 获取论文"""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM papers WHERE id = ?", (paper_id,))
+            row = cursor.fetchone()
+            if row:
+                return Paper(**self._normalize_row(dict(row)))
+            return None
+
     def get_papers(
         self,
         relevance: Optional[str] = None,
@@ -187,6 +197,7 @@ class PaperStorage:
                 WHERE id = ?
             """, (int(is_public), now, paper_id))
             conn.commit()
+            return cursor.rowcount > 0
 
     def get_public_papers(self, limit: int = 1000) -> List[Paper]:
         """获取已发布的公开论文"""
