@@ -1,0 +1,22 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local data and secrets
+.env
+.env.*
+data/*.db
+data/*.sqlite*
+
+# Local tool state
+.claude/settings.local.json
+.superpowers/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

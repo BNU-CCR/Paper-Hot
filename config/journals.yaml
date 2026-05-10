@@ -1,0 +1,73 @@
+# 期刊配置
+# 用于论文追踪系统
+
+journals:
+  - name: "Human Communication Research"
+    abbr: "HCR"
+    publisher: "Oxford University Press"
+    website: "https://academic.oup.com/hcr"
+    keywords:
+      - "computational communication"
+      - "social media communication"
+      - "health communication technology"
+      - "communication theory"
+    search_strategy: "journal"
+
+  - name: "Communication Research"
+    abbr: "CR"
+    publisher: "SAGE"
+    website: "https://journals.sagepub.com/home/crx"
+    keywords:
+      - "communication research methods"
+      - "media research"
+      - "interpersonal communication"
+      - "organizational communication"
+    search_strategy: "journal"
+
+  - name: "Information, Communication & Society"
+    abbr: "ICS"
+    publisher: "Taylor & Francis"
+    website: "https://www.tandfonline.com/journals/rics20"
+    keywords:
+      - "digital media"
+      - "internet and society"
+      - "information technology"
+      - "media policy"
+    search_strategy: "journal"
+
+  - name: "New Media & Society"
+    abbr: "NM&S"
+    publisher: "SAGE"
+    website: "https://journals.sagepub.com/home/nms"
+    keywords:
+      - "new media"
+      - "digital culture"
+      - "online communication"
+      - "social media studies"
+    search_strategy: "journal"
+
+  - name: "Journal of Computer-Mediated Communication"
+    abbr: "JCMC"
+    publisher: "Oxford University Press"
+    website: "https://academic.oup.com/jcmc"
+    keywords:
+      - "computer-mediated communication"
+      - "online interaction"
+      - "digital communication"
+      - "CMC"
+    search_strategy: "journal"
+
+# 全局搜索关键词（用于补充搜索）
+global_keywords:
+  - "computational communication"
+  - "social media computation"
+  - "digital communication methods"
+  - "network analysis communication"
+  - "natural language processing social media"
+  - "machine learning communication"
+  - "AI social communication"
+  - "algorithm media effects"
+  - "social network analysis"
+  - "big data communication research"
+  - "computational social science"
+  - "text mining communication"

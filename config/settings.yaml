@@ -1,0 +1,54 @@
+# 全局设置
+# 注意：敏感信息（如API Key）应通过环境变量设置
+
+# Anthropic API 配置
+anthropic_api_key: ""  # 建议通过环境变量 ANTHROPIC_API_KEY 设置
+
+# Claude 模型配置
+claude_model: "claude-sonnet-4-5-20250929"
+max_tokens: 500
+
+# Semantic Scholar API (可选)
+semantic_scholar_api_key: ""
+
+# 通知配置
+notification:
+  enable_wechat: false
+  enable_email: false
+  email_to: ""
+
+  # Server酱配置
+  serverchan_sckey: ""  # 通过环境变量 SERVERCHAN_SCKEY 设置
+
+# 追踪设置
+tracking:
+  # 每次运行最大处理论文数
+  max_papers_per_run: 20
+
+  # 搜索时间范围（天数）
+  search_days_back: 7
+
+  # 是否启用去重
+  enable_dedup: true
+
+  # 筛选阈值（只处理 High 和 Medium）
+  relevance_threshold: "Medium"
+
+# 数据库设置
+database:
+  # SQLite 数据库路径（相对于项目根目录）
+  path: "data/papers.db"
+
+# 定时任务设置
+scheduler:
+  # 是否启用定时任务
+  enabled: false
+
+  # cron 表达式（本地运行时使用）
+  # 默认每天上午9点运行
+  cron: "0 9 * * *"
+
+# 日志设置
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
