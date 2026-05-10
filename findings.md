@@ -76,3 +76,20 @@
 - `public/data/papers.json` 已能生成。
 - 当前导出结果是空数组 `[]`，因为数据库里现有测试论文没有被标记为 `is_public=1`。
 - 这符合当前发布设计，但也说明下一步需要补“发布管理”动作或脚本。
+
+## 2026-05-10 仓库整理
+
+### 已删除
+
+- `.superpowers/` 预览与临时文件。
+- `src/__pycache__/`
+- `tests/__pycache__/`
+- 重复的 `prompts/filter_system.md`
+
+### Git 状态
+
+- 仓库已初始化。
+- 默认分支：`main`
+- 首个提交：`f2f2ecb Bootstrap engineered journal tracker`
+- 远端已连接并推送：
+  - `origin = https://github.com/572200469/Paper-Hot.git`

@@ -12,3 +12,7 @@
 - 扩展 `papers` 表字段以支持发布：新增 `score`、`is_public`，并加入旧库兼容迁移逻辑。
 - 新增 `export-public` 命令，导出 `public/data/papers.json`。
 - 使用 `unittest` 验证配置读取和公开导出行为，测试通过。
+- 清理了临时与重复文件：`.superpowers/`、`__pycache__/`、重复 Prompt 文档。
+- 重写 `README.md`，使其与当前工程状态一致。
+- 初始化本地 Git 仓库并创建首个提交 `f2f2ecb Bootstrap engineered journal tracker`。
+- 已连接并推送到 GitHub 仓库 `https://github.com/572200469/Paper-Hot.git`。
