@@ -17,6 +17,9 @@ data/*.sqlite*
 .claude/settings.local.json
 .superpowers/
 
+# Build artifacts
+*.egg-info/
+
 # OS/editor noise
 .DS_Store
 Thumbs.db

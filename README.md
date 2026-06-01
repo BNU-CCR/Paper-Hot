@@ -1,22 +1,23 @@
 # 计算传播论文追踪
 
-一个面向计算传播研究的论文追踪项目。当前阶段的目标是把“本地脚本原型”整理成可版本控制、可验证、可扩展、后续可公开部署的论文情报应用。
+一个面向计算传播研究的论文追踪项目。当前阶段的目标是把"本地脚本原型"整理成可版本控制、可验证、可扩展、后续可公开部署的论文情报应用。
 
 ## 当前状态
 
 目前项目已经具备这些能力：
 
-- 使用 Semantic Scholar API 搜索论文。
+- 使用 Semantic Scholar API 搜索论文（已验证最小搜索可返回结果）。
 - 使用 Claude API 为论文生成 `High / Medium / Low` 相关性判断、摘要、推荐理由和标签。
 - 将结果存入本地 SQLite 数据库。
 - 导出 CSV。
 - 导出公开站使用的 JSON 数据文件。
+- CLI 发布管理：`publish` / `unpublish` / `list-public`。
+- 7 个单元测试全部通过（配置、公开导出、发现限流）。
+- 依赖已安装（`anthropic`, `pyyaml`, `requests`）。
 
 目前还没有完成这些部分：
 
-- 真实联网环境下的论文获取验证。
-- 论文“公开发布”管理流程。
-- 公开前端 UI。
+- 公开前端 UI（设计 spec 和实现计划已写好，见下方路线）。
 - 自动部署和 GitHub Actions。
 
 ## 当前目录结构
@@ -30,7 +31,12 @@
 ├── data/
 │   └── papers.db             # 本地 SQLite 数据库（默认不提交）
 ├── docs/
-│   └── superpowers/specs/    # 设计文档
+│   └── superpowers/          # 设计文档与实现计划
+│       ├── specs/
+│       │   ├── 2026-05-10-paper-hot-public-site-design.md
+│       │   └── 2026-05-20-paper-hot-static-site-v1-design.md
+│       └── plans/
+│           └── 2026-05-20-paper-hot-static-site-v1.md
 ├── public/
 │   └── data/
 │       └── papers.json       # 公开站数据导出
@@ -46,8 +52,10 @@
 │   └── storage.py            # SQLite 存储
 ├── tests/
 │   ├── test_config.py
+│   ├── test_discovery.py
 │   └── test_publication.py
-├── CLAUDE.md
+├── web/                      # 静态公开站前端（开发中）
+├── CLAUDE.md                 # Claude Code 使用指引
 ├── findings.md
 ├── progress.md
 ├── task_plan.md
@@ -138,22 +146,28 @@ python -m src.main list-public
 说明：
 
 - `is_public = 1` 的论文才会进入 `public/data/papers.json`
-- 当前项目还没有单独的发布管理界面，但已经有最小命令行发布管理能力
+- 当前项目还没有单独的发布管理界面，但已有最小命令行发布管理能力
 
 ## 验证
 
-当前已落地的本地验证命令：
+运行全部测试：
 
 ```bash
-python -m unittest tests.test_config tests.test_publication -v
+python -m unittest tests.test_config tests.test_publication tests.test_discovery -v
+```
+
+查看数据库统计和已公开论文：
+
+```bash
 python -m src.main stats
+python -m src.main list-public
 python -m src.main export-public
 ```
 
 说明：
 
-- 这些命令验证配置读取、公开数据导出和 CLI 基础行为。
-- 论文搜索是否能真正拿回线上数据，仍取决于本机网络权限和 API 可达性。
+- 测试覆盖配置读取、公开数据导出、发现模块限流重试。
+- 论文搜索在本地环境已验证最小搜索可返回结果，取决于网络权限和 API 可达性。
 
 ## GitHub 准备情况
 
@@ -162,11 +176,12 @@ python -m src.main export-public
 - 已添加 `.gitignore`
 - 已移除 `__pycache__`、临时预览文件和重复 Prompt 文档
 - `data/*.db`、`.claude/settings.local.json`、`.superpowers/` 默认不会进入版本控制
+- 已推送到 GitHub 私有仓库
 
 建议：
 
 - GitHub 仓库先设为私有
-- 在真实采集链路跑通、公开站上线前，再决定是否开源
+- 在公开站上线前，再决定是否开源
 
 ## 当前进展
 
@@ -174,23 +189,27 @@ python -m src.main export-public
 
 - 项目结构初步工程化
 - 配置与代码解耦的第一轮整理
-- 公开 JSON 导出模块
-- 基础测试
-- 公开站设计 spec
+- 公开 JSON 导出模块与发布管理 CLI
+- 基础测试（7 个全部通过）
+- 真实 Semantic Scholar 最小搜索已跑通
+- 公开站设计 spec 与实现计划
+- 依赖安装完成
+
+正在进行：
+
+- 构建公开前端 UI（第一版静态站）
 
 还未完成：
 
-- 跑通真实论文获取
-- 设计并实现“发布管理”
-- 构建公开前端
+- 公开前端 UI 实现
 - 部署与自动更新
 
 ## 近期路线
 
 建议按这个顺序继续：
 
-1. 初始化 Git 仓库并推送到 GitHub 私有仓库。
-2. 在真实网络环境下验证 `search`。
-3. 增加“设置论文为公开发布”的命令或脚本。
-4. 固定公开 JSON 字段结构。
-5. 再开始公开前端 UI。
+1. 实现第一版公开前端 UI（`web/` 静态站，读取 `public/data/papers.json`）。
+2. 本地预览验证：主题切换、搜索筛选、标签过滤。
+3. 部署到静态托管（GitHub Pages / Vercel / Cloudflare Pages）。
+4. 跑通真实完整采集 → 筛选 → 发布 → 部署的闭环。
+5. 后续扩展：详情页、周报、RSS、小红书分享卡片。
