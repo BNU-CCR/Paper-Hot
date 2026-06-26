@@ -243,6 +243,8 @@ def run_doctor(config: Optional[Config] = None) -> int:
             failed += 1
 
     print("\n当前数据")
+    print(f"- AI Base URL: {config.anthropic_base_url or 'Anthropic default'}")
+    print(f"- AI Model: {config.claude_model}")
     print(f"- 数据库: {config.database_path}")
     print(f"- 论文总数: {stats['total']}")
     print(f"- 公开 JSON: {public_json}")

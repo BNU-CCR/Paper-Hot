@@ -7,7 +7,7 @@
 目前项目已经具备这些能力：
 
 - 使用 Semantic Scholar API 搜索论文（已验证最小搜索可返回结果）。
-- 使用 Claude API 为论文生成 `High / Medium / Low` 相关性判断、摘要、推荐理由和标签。
+- 使用 DeepSeek Anthropic-compatible API 为论文生成 `High / Medium / Low` 相关性判断、摘要、推荐理由和标签。
 - 将结果存入本地 SQLite 数据库。
 - 导出 CSV。
 - 导出公开站使用的 JSON 数据文件。
@@ -87,11 +87,24 @@ py -m pip install -e .
 
 ```bash
 ANTHROPIC_API_KEY=...
+ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+AI_MODEL=deepseek-v4-flash
 SEMANTIC_SCHOLAR_API_KEY=...
 SERVERCHAN_SCKEY=...
 ```
 
-本地开发也可以复制 `.env.example` 为 `.env`，然后在 `.env` 里填写密钥。`.env` 已被 `.gitignore` 排除，不会提交到仓库。
+本地开发推荐复制 `.env.example` 为 `.env`，然后在 `.env` 里填写密钥。`.env` 已被 `.gitignore` 排除，不会提交到仓库。
+
+当前默认使用 DeepSeek 的 Anthropic 兼容接口：
+
+```env
+ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+ANTHROPIC_API_KEY=你的 DeepSeek API key
+AI_MODEL=deepseek-v4-flash
+SEMANTIC_SCHOLAR_API_KEY=你的 Semantic Scholar API key
+```
+
+说明：这里仍使用 `ANTHROPIC_*` 变量名，是因为项目沿用 `anthropic` Python SDK，DeepSeek 官方提供 Anthropic API 格式兼容。
 
 配置文件：
 

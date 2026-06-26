@@ -1,4 +1,4 @@
-"""AI筛选模块 - Claude API"""
+"""AI筛选模块 - Anthropic 兼容 API（Claude / DeepSeek）"""
 
 import json
 import anthropic
@@ -8,7 +8,7 @@ from .config import get_config
 
 
 class PaperFilter:
-    """使用Claude API进行论文AI筛选"""
+    """使用 Anthropic 兼容 API 进行论文 AI 筛选"""
 
     DEFAULT_SYSTEM_PROMPT = """你是一个计算传播学领域的学术审稿人。你的任务是判断一篇论文是否属于计算传播领域。
 
@@ -75,12 +75,16 @@ class PaperFilter:
         self.api_key = api_key or config.anthropic_api_key
         if not self.api_key:
             raise ValueError("ANTHROPIC_API_KEY is required")
+        self.base_url = config.anthropic_base_url
         self.model = config.claude_model
         self.system_prompt = config.filter_system_prompt or self.DEFAULT_SYSTEM_PROMPT
         self.user_prompt_template = (
             config.filter_user_template or self.DEFAULT_USER_PROMPT_TEMPLATE
         )
-        self.client = anthropic.Anthropic(api_key=self.api_key)
+        client_kwargs = {"api_key": self.api_key}
+        if self.base_url:
+            client_kwargs["base_url"] = self.base_url
+        self.client = anthropic.Anthropic(**client_kwargs)
 
     def filter_paper(
         self,

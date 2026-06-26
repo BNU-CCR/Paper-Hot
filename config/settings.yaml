@@ -1,11 +1,14 @@
 # 全局设置
 # 注意：敏感信息（如API Key）应通过环境变量设置
 
-# Anthropic API 配置
-anthropic_api_key: ""  # 建议通过环境变量 ANTHROPIC_API_KEY 设置
+# Anthropic 兼容 API 配置
+# 当前默认使用 DeepSeek 的 Anthropic 兼容接口。
+# API Key 建议通过 .env 或环境变量 ANTHROPIC_API_KEY 设置。
+anthropic_api_key: ""
+anthropic_base_url: "https://api.deepseek.com/anthropic"
 
-# Claude 模型配置
-claude_model: "claude-sonnet-4-5-20250929"
+# AI 筛选模型配置
+claude_model: "deepseek-v4-flash"
 max_tokens: 500
 
 # Semantic Scholar API (可选)

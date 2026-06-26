@@ -80,32 +80,54 @@ class Config:
 
     @property
     def anthropic_api_key(self) -> str:
-        """获取 Anthropic API Key"""
-        # 优先从环境变量读取
-        api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+        """获取 Anthropic 兼容 API Key，可用于 Claude 或 DeepSeek。"""
+        api_key = self.env_file.get("ANTHROPIC_API_KEY", "")
         if api_key:
             return api_key
-        api_key = self.env_file.get("ANTHROPIC_API_KEY", "")
+        api_key = os.environ.get("ANTHROPIC_API_KEY", "")
         if api_key:
             return api_key
         # 从设置中读取
         return self.settings.get("anthropic_api_key", "")
 
     @property
+    def anthropic_base_url(self) -> str:
+        """获取 Anthropic 兼容 API Base URL。"""
+        base_url = self.env_file.get("ANTHROPIC_BASE_URL", "")
+        if base_url:
+            return base_url
+        base_url = self.settings.get("anthropic_base_url", "")
+        if base_url:
+            return base_url
+        base_url = os.environ.get("ANTHROPIC_BASE_URL", "")
+        if base_url:
+            return base_url
+        return ""
+
+    @property
     def semantic_scholar_api_key(self) -> str:
         """获取 Semantic Scholar API Key"""
-        api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY", "")
+        api_key = self.env_file.get("SEMANTIC_SCHOLAR_API_KEY", "")
         if api_key:
             return api_key
-        api_key = self.env_file.get("SEMANTIC_SCHOLAR_API_KEY", "")
+        api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY", "")
         if api_key:
             return api_key
         return self.settings.get("semantic_scholar_api_key", "")
 
     @property
     def claude_model(self) -> str:
-        """获取 Claude 模型名"""
-        return self.settings.get("claude_model", "claude-sonnet-4-5-20250929")
+        """获取筛选模型名，兼容 Claude/DeepSeek Anthropic API。"""
+        model = self.env_file.get("AI_MODEL") or self.env_file.get("ANTHROPIC_MODEL", "")
+        if model:
+            return model
+        model = self.settings.get("claude_model", "")
+        if model:
+            return model
+        model = os.environ.get("AI_MODEL") or os.environ.get("ANTHROPIC_MODEL", "")
+        if model:
+            return model
+        return "deepseek-v4-flash"
 
     @property
     def filter_system_prompt(self) -> str:

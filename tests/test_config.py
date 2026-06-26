@@ -91,14 +91,18 @@ database:
                 project_dir / ".env",
                 """
 ANTHROPIC_API_KEY=anthropic-from-env-file
+ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+AI_MODEL=deepseek-v4-flash
 SEMANTIC_SCHOLAR_API_KEY=semantic-from-env-file
 """.strip(),
             )
 
-            with patch.dict("os.environ", {}, clear=True):
+            with patch("src.config.os.environ", {}):
                 config = Config(config_dir)
 
             self.assertEqual(config.anthropic_api_key, "anthropic-from-env-file")
+            self.assertEqual(config.anthropic_base_url, "https://api.deepseek.com/anthropic")
+            self.assertEqual(config.claude_model, "deepseek-v4-flash")
             self.assertEqual(config.semantic_scholar_api_key, "semantic-from-env-file")
 
     def test_cli_doctor_reports_local_env_keys(self) -> None:
@@ -121,12 +125,13 @@ global_keywords:
                 project_dir / ".env",
                 """
 ANTHROPIC_API_KEY=anthropic-from-env-file
+ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
 SEMANTIC_SCHOLAR_API_KEY=semantic-from-env-file
 """.strip(),
             )
 
             stdout = io.StringIO()
-            with patch.dict("os.environ", {}, clear=True):
+            with patch("src.config.os.environ", {}):
                 with patch("sys.argv", ["main", "--config", str(config_dir), "doctor"]):
                     with patch("sys.stdout", stdout):
                         with self.assertRaises(SystemExit) as exit_info:
@@ -136,6 +141,7 @@ SEMANTIC_SCHOLAR_API_KEY=semantic-from-env-file
             output = stdout.getvalue()
             self.assertIn("Anthropic API Key: OK", output)
             self.assertIn("Semantic Scholar API Key: OK", output)
+            self.assertIn("AI Base URL: https://api.deepseek.com/anthropic", output)
 
 
 if __name__ == "__main__":
