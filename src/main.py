@@ -114,6 +114,9 @@ def run_full_pipeline(
         print("\n[通知] 发送汇总通知...")
         notifier.send_batch_notification(filtered)
 
+    print("\n[公开站] 刷新公开数据...")
+    publish_high_papers(config)
+
     print("\n" + "=" * 50)
     print(f"完成! 处理了 {saved_count} 篇新论文")
     print("=" * 50)
@@ -222,6 +225,39 @@ def publish_high_papers(config: Optional[Config] = None) -> int:
     print(f"已公开 High 论文: {published_count}")
     print(f"已刷新公开站数据: {export_path}")
     return 0
+
+
+def update_public_workflow(config: Optional[Config] = None, refilter_limit: int = 20) -> int:
+    """重筛错误论文，公开 High 论文，并刷新公开站数据。"""
+    if config is None:
+        config = get_config()
+
+    print("Paper HOT 公开数据刷新")
+    print("=" * 40)
+    refilter_error_papers(config, limit=refilter_limit)
+    publish_high_papers(config)
+    print("公开刷新完成")
+    return 0
+
+
+def show_workflow_status(config: Optional[Config] = None) -> None:
+    """显示采集、筛选、公开发布相关的工作流状态。"""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    stats = storage.get_statistics()
+    public_count = len(storage.get_public_papers(limit=10000))
+    filter_error_count = len(storage.get_filter_error_papers(limit=10000))
+
+    print("Paper HOT 工作流状态")
+    print("=" * 40)
+    print(f"总计论文: {stats['total']}")
+    print(f"High: {stats['relevance'].get('High', 0)}")
+    print(f"Medium: {stats['relevance'].get('Medium', 0)}")
+    print(f"Low: {stats['relevance'].get('Low', 0)}")
+    print(f"已公开论文: {public_count}")
+    print(f"筛选错误: {filter_error_count}")
 
 
 def list_public_papers(config: Optional[Config] = None):
@@ -353,6 +389,9 @@ def main():
     unpublish_parser.add_argument("paper_id", type=int, help="论文 ID")
     subparsers.add_parser("publish-high", help="公开所有 High 论文并刷新公开站 JSON")
     subparsers.add_parser("list-public", help="列出已公开论文")
+    update_public_parser = subparsers.add_parser("update-public", help="重筛错误论文、公开 High 论文并刷新公开站 JSON")
+    update_public_parser.add_argument("--refilter-limit", type=int, default=20, help="最多重筛错误论文数")
+    subparsers.add_parser("workflow-status", help="显示采集、筛选、公开发布工作流状态")
 
     args = parser.parse_args()
 
@@ -385,6 +424,10 @@ def main():
         sys.exit(publish_high_papers(config))
     elif args.command == "list-public":
         list_public_papers(config)
+    elif args.command == "update-public":
+        sys.exit(update_public_workflow(config, args.refilter_limit))
+    elif args.command == "workflow-status":
+        show_workflow_status(config)
     else:
         # 默认运行完整流程
         run_full_pipeline(config, args.max_papers)

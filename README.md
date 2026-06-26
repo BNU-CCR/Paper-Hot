@@ -1,81 +1,65 @@
-# 计算传播论文追踪
+# 计算传播期刊追踪 / Paper HOT
 
-一个面向计算传播研究的论文追踪项目。当前阶段的目标是把"本地脚本原型"整理成可版本控制、可验证、可扩展、后续可公开部署的论文情报应用。
+面向计算传播研究的论文追踪与公开展示项目。目标是实现一个类似 AI HOT 的论文情报站：自动发现计算传播相关期刊论文，调用 AI 完成筛选、摘要、标签和推荐理由生成，再发布到公开网站，并在后续接入定期推送。
 
 ## 当前状态
 
-目前项目已经具备这些能力：
+目前已经跑通一条最小闭环：
 
-- 使用 Semantic Scholar API 搜索论文（已验证最小搜索可返回结果）。
-- 使用 DeepSeek Anthropic-compatible API 为论文生成 `High / Medium / Low` 相关性判断、摘要、推荐理由和标签。
-- 将结果存入本地 SQLite 数据库。
-- 导出 CSV。
-- 导出公开站使用的 JSON 数据文件。
-- CLI 发布管理：`publish` / `unpublish` / `list-public`。
-- 7 个单元测试全部通过（配置、公开导出、发现限流）。
-- 依赖已安装（`anthropic`, `pyyaml`, `requests`）。
+- Semantic Scholar 论文发现。
+- DeepSeek Anthropic-compatible API 论文筛选，输出 `High / Medium / Low`、摘要、标签和推荐理由。
+- SQLite 本地存储与去重。
+- 公开站 JSON 导出：`public/data/papers.json`。
+- 静态公开站：`web/index.html` 读取 JSON 并展示论文流。
+- CLI 发布管理：`publish`、`unpublish`、`publish-high`、`update-public`、`list-public`。
+- 工作流体检与状态查看：`doctor`、`workflow-status`。
+- 当前真实库状态：7 篇论文，其中 3 篇 High，公开站发布 2 篇真实 High 论文。
+- 自动化测试覆盖配置、发现限流、AI 响应解析、公开导出、通知开关和工作流命令。
 
-目前还没有完成这些部分：
+尚未完成的核心部分：
 
-- 公开前端 UI（设计 spec 和实现计划已写好，见下方路线）。
-- 自动部署和 GitHub Actions。
+- AI 筛选质量、推荐理由和标签体系优化。
+- Semantic Scholar 429/500 等真实接口波动的更稳健处理。
+- 自动部署到公开 URL。
+- 定期推送闭环。
+- 私有后台或更方便的人工编辑入口。
 
-## 当前目录结构
+## 目录结构
 
 ```text
 .
 ├── config/
-│   ├── journals.yaml         # 期刊和关键词配置
-│   ├── prompts.yaml          # AI 筛选 Prompt 配置
-│   └── settings.yaml         # 全局设置
+│   ├── journals.yaml
+│   ├── prompts.yaml
+│   └── settings.yaml
 ├── data/
-│   └── papers.db             # 本地 SQLite 数据库（默认不提交）
+│   └── papers.db              # 本地 SQLite 数据库，默认不提交
 ├── docs/
-│   └── superpowers/          # 设计文档与实现计划
+│   └── superpowers/
 │       ├── specs/
-│       │   ├── 2026-05-10-paper-hot-public-site-design.md
-│       │   └── 2026-05-20-paper-hot-static-site-v1-design.md
 │       └── plans/
-│           └── 2026-05-20-paper-hot-static-site-v1.md
 ├── public/
 │   └── data/
-│       └── papers.json       # 公开站数据导出
+│       └── papers.json        # 公开站读取的数据
 ├── scripts/
-│   └── run_tracker.sh        # 定时运行脚本
+│   └── run_tracker.sh
 ├── src/
-│   ├── config.py             # 配置读取
-│   ├── discovery.py          # 论文发现
-│   ├── filter.py             # AI 筛选
-│   ├── main.py               # CLI 入口
-│   ├── notification.py       # 通知发送
-│   ├── publication.py        # 公开数据导出
-│   └── storage.py            # SQLite 存储
+│   ├── config.py
+│   ├── discovery.py
+│   ├── filter.py
+│   ├── main.py
+│   ├── notification.py
+│   ├── publication.py
+│   └── storage.py
 ├── tests/
-│   ├── test_config.py
-│   ├── test_discovery.py
-│   └── test_publication.py
-├── web/                      # 静态公开站前端（开发中）
-├── CLAUDE.md                 # Claude Code 使用指引
-├── findings.md
-├── progress.md
-├── task_plan.md
-└── pyproject.toml
+└── web/
+    ├── index.html
+    ├── app.js
+    ├── styles.css
+    └── app.test.cjs
 ```
 
-## 环境要求
-
-- Python 3.9+
-- `anthropic`
-- `pyyaml`
-- `requests`
-
-安装依赖：
-
-```bash
-pip install -e .
-```
-
-如果 Windows 环境里没有 `python` 命令，也可以使用：
+## 安装
 
 ```bash
 py -m pip install -e .
@@ -83,157 +67,107 @@ py -m pip install -e .
 
 ## 配置
 
-建议通过环境变量注入密钥，不要写入仓库文件。
-
-```bash
-ANTHROPIC_API_KEY=...
-ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
-AI_MODEL=deepseek-v4-flash
-SEMANTIC_SCHOLAR_API_KEY=...
-SERVERCHAN_SCKEY=...
-```
-
-本地开发推荐复制 `.env.example` 为 `.env`，然后在 `.env` 里填写密钥。也可以直接使用 `key.env`。`.env` 和 `key.env` 都已被 `.gitignore` 排除，不会提交到仓库。
-
-当前默认使用 DeepSeek 的 Anthropic 兼容接口：
+本地密钥写入 `key.env`，不要提交到仓库。项目会读取 `.env` 或 `key.env`，这两个文件都已被 `.gitignore` 排除。
 
 ```env
-ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
 ANTHROPIC_API_KEY=你的 DeepSeek API key
+ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
 AI_MODEL=deepseek-v4-flash
 SEMANTIC_SCHOLAR_API_KEY=你的 Semantic Scholar API key
+SERVERCHAN_SCKEY=可选
 ```
 
-说明：这里仍使用 `ANTHROPIC_*` 变量名，是因为项目沿用 `anthropic` Python SDK，DeepSeek 官方提供 Anthropic API 格式兼容。
+说明：变量名仍保留 `ANTHROPIC_*`，是因为项目沿用 `anthropic` Python SDK，DeepSeek 提供 Anthropic API 格式兼容接口。
 
-配置文件：
+## 常用命令
 
-- `config/journals.yaml`
-  - 维护期刊、关键词和全局发现关键词。
-- `config/prompts.yaml`
-  - 维护筛选 `system prompt` 和 `user template`。
-- `config/settings.yaml`
-  - 维护模型名、通知配置、追踪参数等。
-
-## 命令行用法
-
-完整流程：
+完整采集、筛选、入库流程：
 
 ```bash
-python -m src.main
+py -m src.main
 ```
 
-搜索论文：
+查看环境配置：
 
 ```bash
-python -m src.main search
+py -m src.main doctor
 ```
 
-查看统计：
+查看工作流状态：
 
 ```bash
-python -m src.main stats
+py -m src.main workflow-status
 ```
 
-导出 CSV：
+搜索论文但不入库：
 
 ```bash
-python -m src.main export
+py -m src.main search
 ```
 
-导出公开站 JSON：
+列出本地论文：
 
 ```bash
-python -m src.main export-public
+py -m src.main list
 ```
 
-发布论文到公开站：
+发布管理：
 
 ```bash
-python -m src.main publish <paper_id>
-python -m src.main unpublish <paper_id>
-python -m src.main list-public
+py -m src.main publish <paper_id>
+py -m src.main unpublish <paper_id>
+py -m src.main publish-high
+py -m src.main list-public
 ```
 
-说明：`publish` 和 `unpublish` 成功后会自动刷新 `public/data/papers.json`，公开站重新加载后即可看到最新发布状态。
+一键刷新公开站数据：
 
-## 数据模型
+```bash
+py -m src.main update-public
+```
 
-当前 `papers` 表核心字段包括：
+`update-public` 会先重筛之前 AI 筛选失败的论文，再公开所有 High 论文，并刷新 `public/data/papers.json`。如果没有筛选错误，不会调用 AI API。
 
-- 论文元信息：`title`、`authors`、`journal`、`published_date`、`link`、`doi`
-- AI 筛选结果：`relevance`、`reason`、`tags`、`summary`
-- 发布相关：`score`、`is_public`
-- 本地管理：`status`、`created_at`、`updated_at`
+导出数据：
 
-说明：
+```bash
+py -m src.main export
+py -m src.main export-public
+```
 
-- `is_public = 1` 的论文才会进入 `public/data/papers.json`
-- 当前项目还没有单独的发布管理界面，但已有最小命令行发布管理能力
+本地预览公开站：
+
+```bash
+py -m http.server 8000
+```
+
+然后打开：
+
+```text
+http://127.0.0.1:8000/web/index.html
+```
 
 ## 验证
 
-运行全部测试：
+Python 测试：
 
 ```bash
-python -m unittest tests.test_config tests.test_publication tests.test_discovery -v
+py -m unittest tests.test_config tests.test_publication tests.test_discovery tests.test_filter tests.test_notification -v
 ```
 
-查看数据库统计和已公开论文：
+前端逻辑测试：
 
 ```bash
-python -m src.main doctor
-python -m src.main stats
-python -m src.main list-public
-python -m src.main export-public
+node web\app.test.cjs
 ```
 
-说明：
-
-- 测试覆盖配置读取、公开数据导出、发现模块限流重试。
-- 论文搜索在本地环境已验证最小搜索可返回结果，取决于网络权限和 API 可达性。
-
-## GitHub 准备情况
-
-当前仓库已经做了基础整理：
-
-- 已添加 `.gitignore`
-- 已移除 `__pycache__`、临时预览文件和重复 Prompt 文档
-- `data/*.db`、`.claude/settings.local.json`、`.superpowers/` 默认不会进入版本控制
-- 已推送到 GitHub 私有仓库
-
-建议：
-
-- GitHub 仓库先设为私有
-- 在公开站上线前，再决定是否开源
-
-## 当前进展
-
-截至现在，已经完成：
-
-- 项目结构初步工程化
-- 配置与代码解耦的第一轮整理
-- 公开 JSON 导出模块与发布管理 CLI
-- 基础测试（7 个全部通过）
-- 真实 Semantic Scholar 最小搜索已跑通
-- 公开站设计 spec 与实现计划
-- 依赖安装完成
-
-正在进行：
-
-- 构建公开前端 UI（第一版静态站）
-
-还未完成：
-
-- 公开前端 UI 实现
-- 部署与自动更新
+当前最近一次验证结果：21 个 Python 测试通过，前端逻辑测试通过。
 
 ## 近期路线
 
-建议按这个顺序继续：
-
-1. 实现第一版公开前端 UI（`web/` 静态站，读取 `public/data/papers.json`）。
-2. 本地预览验证：主题切换、搜索筛选、标签过滤。
-3. 部署到静态托管（GitHub Pages / Vercel / Cloudflare Pages）。
-4. 跑通真实完整采集 → 筛选 → 发布 → 部署的闭环。
-5. 后续扩展：详情页、周报、RSS、小红书分享卡片。
+1. 稳定真实数据闭环：采集、筛选、入库、公开刷新。
+2. 优化接口稳健性：Semantic Scholar 限流退避、失败恢复、运行日志。
+3. 优化 AI 筛选质量：更清晰的评分标准、推荐理由、标签体系。
+4. 部署公开站：GitHub Pages / Vercel / Cloudflare Pages 任选其一。
+5. 加入推送：周报、RSS、Server 酱或邮件。
+6. 增加私有编辑入口：人工调整标题、摘要、标签、公开状态和 score。

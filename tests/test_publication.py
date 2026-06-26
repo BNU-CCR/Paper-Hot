@@ -262,6 +262,171 @@ class PublicPaperExporterTests(unittest.TestCase):
         finally:
             shutil.rmtree(tmp_dir, ignore_errors=True)
 
+    def test_cli_update_public_publishes_high_and_refreshes_json(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            storage.add_paper(
+                Paper(
+                    title="Workflow High Paper",
+                    authors="Alice Smith",
+                    journal="Journal A",
+                    link="https://example.org/workflow-high-paper",
+                    relevance="High",
+                    is_public=False,
+                )
+            )
+            storage.add_paper(
+                Paper(
+                    title="Workflow Low Paper",
+                    authors="Bob Lee",
+                    journal="Journal B",
+                    link="https://example.org/workflow-low-paper",
+                    relevance="Low",
+                    is_public=False,
+                )
+            )
+
+            stdout = io.StringIO()
+            with patch("sys.argv", ["main", "--config", str(config_dir), "update-public"]):
+                with patch("sys.stdout", stdout):
+                    with self.assertRaises(SystemExit) as exit_info:
+                        main_module.main()
+
+            self.assertEqual(exit_info.exception.code, 0)
+            self.assertIn("公开刷新完成", stdout.getvalue())
+            exported = json.loads(
+                (project_dir / "public" / "data" / "papers.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual([paper["title"] for paper in exported], ["Workflow High Paper"])
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
+    def test_full_pipeline_publishes_high_papers_to_public_json(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            class FakeDiscovery:
+                def __init__(self, api_key: str = "") -> None:
+                    self.api_key = api_key
+
+                def search_recent_papers(self, limit: int = 20):
+                    return [
+                        Paper(
+                            title="Pipeline High Paper",
+                            authors="Alice Smith",
+                            abstract="Computational communication abstract",
+                            journal="Journal A",
+                            published_date="2026-05-10",
+                            link="https://example.org/pipeline-high-paper",
+                            relevance="",
+                        )
+                    ]
+
+            class FakeFilter:
+                def filter_papers(self, papers):
+                    filtered = []
+                    for paper in papers:
+                        filtered.append(
+                            {
+                                **paper,
+                                "relevance": "High",
+                                "reason": "Strong match",
+                                "tags": ["methods"],
+                                "summary": "Short summary",
+                            }
+                        )
+                    return filtered
+
+            class FakeNotifier:
+                def send_paper_notification(self, paper):
+                    return True
+
+                def send_batch_notification(self, papers):
+                    return True
+
+            with patch.object(main_module, "PaperDiscovery", FakeDiscovery):
+                with patch.object(main_module, "PaperFilter", FakeFilter):
+                    with patch.object(main_module, "NotificationSender", FakeNotifier):
+                        with patch("sys.stdout", io.StringIO()):
+                            saved_count = main_module.run_full_pipeline(
+                                main_module.Config(config_dir),
+                                max_papers=1,
+                            )
+
+            self.assertEqual(saved_count, 1)
+            exported = json.loads(
+                (project_dir / "public" / "data" / "papers.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual([paper["title"] for paper in exported], ["Pipeline High Paper"])
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
+    def test_cli_workflow_status_reports_public_and_error_counts(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            storage.add_paper(
+                Paper(
+                    title="Public High Paper",
+                    authors="Alice Smith",
+                    journal="Journal A",
+                    link="https://example.org/public-high-paper",
+                    relevance="High",
+                    reason="Good match",
+                    is_public=True,
+                )
+            )
+            storage.add_paper(
+                Paper(
+                    title="Failed Paper",
+                    authors="Bob Lee",
+                    journal="Journal B",
+                    link="https://example.org/failed-paper",
+                    relevance="Low",
+                    reason="筛选出错: API",
+                    is_public=False,
+                )
+            )
+
+            stdout = io.StringIO()
+            with patch("sys.argv", ["main", "--config", str(config_dir), "workflow-status"]):
+                with patch("sys.stdout", stdout):
+                    main_module.main()
+
+            output = stdout.getvalue()
+            self.assertIn("总计论文: 2", output)
+            self.assertIn("已公开论文: 1", output)
+            self.assertIn("筛选错误: 1", output)
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
     def test_cli_refilter_errors_updates_failed_filter_results(self) -> None:
         tmp_dir = tempfile.mkdtemp()
         try:
