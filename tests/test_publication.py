@@ -130,6 +130,42 @@ class PublicPaperExporterTests(unittest.TestCase):
         finally:
             shutil.rmtree(tmp_dir, ignore_errors=True)
 
+    def test_cli_can_list_all_papers(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            storage.add_paper(
+                Paper(
+                    title="List All Paper",
+                    authors="Alice Smith",
+                    journal="Journal A",
+                    link="https://example.org/list-all-paper",
+                    relevance="High",
+                    is_public=False,
+                )
+            )
+
+            stdout = io.StringIO()
+            with patch("sys.argv", ["main", "--config", str(config_dir), "list"]):
+                with patch("sys.stdout", stdout):
+                    main_module.main()
+
+            output = stdout.getvalue()
+            self.assertIn("全部论文: 1", output)
+            self.assertIn("List All Paper", output)
+            self.assertIn("public=0", output)
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
     def test_cli_publish_refreshes_public_json(self) -> None:
         tmp_dir = tempfile.mkdtemp()
         try:

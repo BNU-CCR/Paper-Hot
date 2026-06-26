@@ -1,5 +1,25 @@
 [
   {
+    "id": 6,
+    "title": "ON THE TERMİNOLOGY OF THE COMPUTATIONAL COMMUNICATION",
+    "authors": [
+      "Ali Kerem İngeç"
+    ],
+    "journal": "Gümüşhane Üniversitesi İletişim Fakültesi Elektronik Dergisi",
+    "published_date": "2025",
+    "relevance": "Low",
+    "score": null,
+    "summary": "论文质疑'计算传播'术语的准确性，提出替代名称，属于学科定义的理论探讨，未涉及实际计算研究。",
+    "reason": "纯理论术语讨论，无经验数据或计算方法应用",
+    "tags": [
+      "术语学",
+      "理论思辨"
+    ],
+    "doi": "10.19145/e-gifder.1582826",
+    "source_url": "https://www.semanticscholar.org/paper/2a90d03c275d72a18222b0c9808ea88cffd27387",
+    "detail_slug": "on-the-termi-nology-of-the-computational-communication"
+  },
+  {
     "id": 2,
     "title": "Network-based computational communication",
     "authors": [
@@ -23,5 +43,112 @@
     "doi": "10.1209/0295-5075/ade337",
     "source_url": "https://www.semanticscholar.org/paper/48db86acc4ea49b51e078b106149083bdf5b44ea",
     "detail_slug": "network-based-computational-communication"
+  },
+  {
+    "id": 7,
+    "title": "Between Innovation and Standardization: Best Practices and Inclusive Guidelines in Computational Communication Science",
+    "authors": [
+      "A. Waldherr",
+      "M. Weber",
+      "Shangyuan Wu",
+      "Mario Haim",
+      "M. A. van der Velden et al."
+    ],
+    "journal": "Journalism & Mass Communication Quarterly",
+    "published_date": "2024",
+    "relevance": "High",
+    "score": null,
+    "summary": "论坛文章汇集计算传播学者，讨论标准化与创新的平衡，提出数据收集、共享和文档的实践指南，强调高标准与包容性可共存以推动领域发展。",
+    "reason": "论文直接讨论计算传播学领域的方法论标准和最佳实践，属于领域元研究，选题高度相关。",
+    "tags": [
+      "计算传播学",
+      "方法论",
+      "标准"
+    ],
+    "doi": "10.1177/10776990241301676",
+    "source_url": "https://www.semanticscholar.org/paper/a6f40a71cf07e0037dffb0d70d2da583b5e50cdf",
+    "detail_slug": "between-innovation-and-standardization-best-practices-and-inclusive-guidelines-in-computational-communication-science"
+  },
+  {
+    "id": 3,
+    "title": "Social media communication, consumer attitude and purchase intention in lifestyle category products: a PLS-SEM modeling",
+    "authors": [
+      "Sumanjeet Singh",
+      "Dhani Shanker Chaubey",
+      "Rohit Raj",
+      "Vimal Kumar",
+      "Minakshi Paliwal et al."
+    ],
+    "journal": "Marketing Intelligence &amp; Planning",
+    "published_date": "2024",
+    "relevance": "Low",
+    "score": null,
+    "summary": "研究社交媒体沟通对消费者态度和购买意愿的影响，采用PLS-SEM建模分析问卷数据，但方法传统，无计算元素。",
+    "reason": "使用了传统PLS-SEM问卷调查，未涉及计算方法或大数据分析。",
+    "tags": [
+      "社交媒体",
+      "消费者行为",
+      "PLS-SEM"
+    ],
+    "doi": "10.1108/mip-11-2023-0626",
+    "source_url": "https://www.semanticscholar.org/paper/65bf187ea2c27fda6e07367abedc0ca6f445eaa7",
+    "detail_slug": "social-media-communication-consumer-attitude-and-purchase-intention-in-lifestyle-category-products-a-pls-sem-modeling"
+  },
+  {
+    "id": 4,
+    "title": "Health Information and Health Communication Technology: Impacts and Implications",
+    "authors": [
+      "B. Olofin"
+    ],
+    "journal": "Social Science Research Network",
+    "published_date": "2020",
+    "relevance": "Low",
+    "score": null,
+    "summary": "通过问卷调查28名尼日利亚健康工作者，描述其对健康信息技术的认知和使用情况，仅用频率和百分比分析。",
+    "reason": "纯传统问卷调查，无任何计算元素（如文本分析、网络分析、机器学习等）",
+    "tags": [
+      "健康传播",
+      "传统问卷"
+    ],
+    "doi": "10.2139/ssrn.3686187",
+    "source_url": "https://www.semanticscholar.org/paper/458ffc87471bd8b94cc7518dbd8ba2af53370d32",
+    "detail_slug": "health-information-and-health-communication-technology-impacts-and-implications"
+  },
+  {
+    "id": 5,
+    "title": "Communication theory of secrecy systems",
+    "authors": [
+      "C. Shannon"
+    ],
+    "journal": "Bell Syst. Tech. J.",
+    "published_date": "1949",
+    "relevance": "Low",
+    "score": null,
+    "summary": "香农提出保密系统的通信理论，属于数学通信模型，非人类传播研究",
+    "reason": "论文属于通信工程/密码学，未涉及计算传播议题或方法",
+    "tags": [
+      "信息论",
+      "密码学"
+    ],
+    "doi": "10.1002/J.1538-7305.1949.TB00928.X",
+    "source_url": "https://www.semanticscholar.org/paper/e073a7c5a6418d96fc16d8337a6056a457e75c1e",
+    "detail_slug": "communication-theory-of-secrecy-systems"
+  },
+  {
+    "id": 1,
+    "title": "Test Paper",
+    "authors": [
+      "Test Author"
+    ],
+    "journal": "Test Journal",
+    "published_date": "",
+    "relevance": "High",
+    "score": null,
+    "summary": "",
+    "reason": "",
+    "tags": [],
+    "doi": "",
+    "source_url": "https://example.com/test",
+    "detail_slug": "test-paper"
   }
 ]

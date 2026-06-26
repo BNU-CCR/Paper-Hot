@@ -22,6 +22,12 @@ from .notification import NotificationSender
 from .publication import PublicPaperExporter
 
 
+def safe_print(message: str = "") -> None:
+    """在 Windows 非 UTF-8 控制台中安全打印包含特殊字符的论文标题。"""
+    encoding = sys.stdout.encoding or "utf-8"
+    print(str(message).encode(encoding, errors="replace").decode(encoding))
+
+
 def run_full_pipeline(
     config: Optional[Config] = None,
     max_papers: int = 20
@@ -190,7 +196,7 @@ def publish_paper(config: Optional[Config], paper_id: int, is_public: bool):
     paper = storage.get_paper_by_id(paper_id)
     action = "已设为公开发布" if is_public else "已取消公开发布"
     title = paper.title if paper else str(paper_id)
-    print(f"{action}: [{paper_id}] {title}")
+    safe_print(f"{action}: [{paper_id}] {title}")
     export_path = config.public_data_dir / "papers.json"
     PublicPaperExporter(storage).export_json(export_path)
     print(f"已刷新公开站数据: {export_path}")
@@ -206,7 +212,23 @@ def list_public_papers(config: Optional[Config] = None):
     papers = storage.get_public_papers()
     print(f"已公开论文: {len(papers)}")
     for paper in papers:
-        print(f"- [{paper.id}] {paper.title} | {paper.relevance} | {paper.journal}")
+        safe_print(f"- [{paper.id}] {paper.title} | {paper.relevance} | {paper.journal}")
+
+
+def list_all_papers(config: Optional[Config] = None, limit: int = 100):
+    """列出数据库中的论文，便于人工发布管理"""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    papers = storage.get_papers(limit=limit)
+    print(f"全部论文: {len(papers)}")
+    for paper in papers:
+        public_flag = int(paper.is_public)
+        safe_print(
+            f"- [{paper.id}] {paper.relevance} | public={public_flag} | "
+            f"{paper.journal} | {paper.title}"
+        )
 
 
 def refilter_error_papers(config: Optional[Config] = None, limit: int = 20) -> int:
@@ -300,6 +322,8 @@ def main():
     subparsers.add_parser("export", help="导出CSV")
     subparsers.add_parser("export-public", help="导出公开站 JSON 数据")
     subparsers.add_parser("doctor", help="检查 API key、数据库、公开 JSON 和关键词配置")
+    list_parser = subparsers.add_parser("list", help="列出数据库中的论文")
+    list_parser.add_argument("--limit", type=int, default=100, help="最多列出论文数")
     refilter_parser = subparsers.add_parser("refilter-errors", help="重筛之前 AI 筛选失败的论文")
     refilter_parser.add_argument("--limit", type=int, default=20, help="最多重筛论文数")
     publish_parser = subparsers.add_parser("publish", help="将论文设为公开发布")
@@ -327,6 +351,8 @@ def main():
         export_public_data(config)
     elif args.command == "doctor":
         sys.exit(run_doctor(config))
+    elif args.command == "list":
+        list_all_papers(config, args.limit)
     elif args.command == "refilter-errors":
         sys.exit(refilter_error_papers(config, args.limit))
     elif args.command == "publish":
