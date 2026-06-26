@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper HOT - 计算传播论文精选</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="system">
+  <aside class="sidebar">
+    <div class="brand" aria-label="Paper HOT">
+      <span class="brand-word">Paper</span>
+      <span class="brand-orbit" aria-hidden="true"></span>
+      <span class="brand-word">HOT</span>
+    </div>
+
+    <nav class="nav" aria-label="主导航">
+      <a href="#featured" class="nav-item active">精选论文</a>
+      <a href="#topics" class="nav-item">主题标签</a>
+      <a href="#about" class="nav-item">关于</a>
+    </nav>
+
+    <div class="theme-switch" aria-label="主题切换">
+      <button class="theme-button" type="button" data-theme-value="dark" title="深色" aria-label="深色主题">☾</button>
+      <button class="theme-button active" type="button" data-theme-value="system" title="跟随系统" aria-label="跟随系统主题">◐</button>
+      <button class="theme-button" type="button" data-theme-value="light" title="浅色" aria-label="浅色主题">☼</button>
+    </div>
+  </aside>
+
+  <main class="main" id="featured">
+    <header class="hero">
+      <div class="hero-kicker">AI 辅助整理 · 计算传播论文精选</div>
+      <div class="hero-title-row">
+        <div>
+          <h1>Paper HOT</h1>
+          <p>追踪计算传播研究的新论文，保留 AI 筛选后的摘要、标签和推荐理由。</p>
+        </div>
+        <div class="stats" id="stats" aria-live="polite">
+          <span>0 篇公开</span>
+          <span>0 个主题</span>
+        </div>
+      </div>
+
+      <div class="toolbar" aria-label="论文筛选工具">
+        <div class="segmented" role="group" aria-label="相关性筛选">
+          <button class="segment active" type="button" data-relevance="all">全部</button>
+          <button class="segment" type="button" data-relevance="High">High</button>
+          <button class="segment" type="button" data-relevance="Medium">Medium</button>
+        </div>
+        <label class="search-box">
+          <span class="sr-only">搜索论文</span>
+          <input id="searchInput" type="search" placeholder="搜索标题、摘要、作者、期刊、标签">
+        </label>
+      </div>
+    </header>
+
+    <section class="topics-panel" id="topics" aria-labelledby="topicsTitle">
+      <div class="section-heading">
+        <h2 id="topicsTitle">主题标签</h2>
+        <button class="clear-filter hidden" type="button" id="clearTagButton">清除标签筛选</button>
+      </div>
+      <div class="tag-cloud" id="tagCloud" aria-live="polite"></div>
+    </section>
+
+    <section class="feed" aria-labelledby="feedTitle">
+      <div class="section-heading">
+        <h2 id="feedTitle">最新精选</h2>
+        <span class="feed-count" id="feedCount">加载中</span>
+      </div>
+      <div class="timeline" id="timeline" aria-live="polite"></div>
+      <div class="empty-state hidden" id="emptyState">
+        <strong>没有匹配当前条件的论文</strong>
+        <span>可以清除搜索词、标签或相关性筛选后再试。</span>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="aboutTitle">
+      <h2 id="aboutTitle">关于</h2>
+      <p>本站第一版只展示已导出的公开字段，不读取 Prompt、API Key、私有配置或未发布候选论文。</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
