@@ -55,6 +55,7 @@ def run_full_pipeline(
     print("\n[1/4] 搜索论文...")
     papers = discovery.search_recent_papers(limit=max_papers)
     print(f"   发现 {len(papers)} 篇论文")
+    _print_discovery_report(getattr(discovery, "last_run_report", {}))
 
     if not papers:
         print("   没有发现新论文")
@@ -124,6 +125,26 @@ def run_full_pipeline(
     return saved_count
 
 
+def _print_discovery_report(report: dict) -> None:
+    """打印最近一次发现运行的轻量报告。"""
+    if not report:
+        return
+    print(
+        "   发现请求: "
+        f"{report.get('requested_queries', 0)} | "
+        f"成功: {report.get('successful_queries', 0)} | "
+        f"空结果: {report.get('empty_queries', 0)} | "
+        f"失败: {report.get('failed_queries', 0)}"
+    )
+    if report.get("duplicate_papers"):
+        print(f"   去重论文: {report.get('duplicate_papers', 0)}")
+    errors = report.get("errors") or []
+    if errors:
+        print("   发现错误:")
+        for error in errors[:3]:
+            safe_print(f"   - {error}")
+
+
 def search_only(config: Optional[Config] = None):
     """仅搜索并显示论文"""
     if config is None:
@@ -135,10 +156,10 @@ def search_only(config: Optional[Config] = None):
 
     print(f"\n发现 {len(papers)} 篇论文:\n")
     for i, p in enumerate(papers, 1):
-        print(f"{i}. {p.title}")
-        print(f"   Authors: {p.authors}")
-        print(f"   Journal: {p.journal} ({p.published_date})")
-        print(f"   DOI: {p.doi}")
+        safe_print(f"{i}. {p.title}")
+        safe_print(f"   Authors: {p.authors}")
+        safe_print(f"   Journal: {p.journal} ({p.published_date})")
+        safe_print(f"   DOI: {p.doi}")
         print()
 
 

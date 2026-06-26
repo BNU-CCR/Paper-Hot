@@ -14,12 +14,12 @@
 - CLI 发布管理：`publish`、`unpublish`、`publish-high`、`update-public`、`list-public`。
 - 工作流体检与状态查看：`doctor`、`workflow-status`。
 - 当前真实库状态：7 篇论文，其中 3 篇 High，公开站发布 2 篇真实 High 论文。
-- 自动化测试覆盖配置、发现限流、AI 响应解析、公开导出、通知开关和工作流命令。
+- 自动化测试覆盖配置、发现限流与临时错误重试、AI 响应解析、公开导出、通知开关和工作流命令。
 
 尚未完成的核心部分：
 
 - AI 筛选质量、推荐理由和标签体系优化。
-- Semantic Scholar 429/500 等真实接口波动的更稳健处理。
+- Semantic Scholar 采集日志、查询质量和关键词策略继续优化。
 - 自动部署到公开 URL。
 - 定期推送闭环。
 - 私有后台或更方便的人工编辑入口。
@@ -161,12 +161,12 @@ py -m unittest tests.test_config tests.test_publication tests.test_discovery tes
 node web\app.test.cjs
 ```
 
-当前最近一次验证结果：21 个 Python 测试通过，前端逻辑测试通过。
+当前最近一次验证结果：26 个 Python 测试通过，前端逻辑测试通过；真实 `search` 命令可返回 Semantic Scholar 结果。
 
 ## 近期路线
 
 1. 稳定真实数据闭环：采集、筛选、入库、公开刷新。
-2. 优化接口稳健性：Semantic Scholar 限流退避、失败恢复、运行日志。
+2. 优化接口稳健性：采集报告、失败恢复、运行日志和关键词策略。
 3. 优化 AI 筛选质量：更清晰的评分标准、推荐理由、标签体系。
 4. 部署公开站：GitHub Pages / Vercel / Cloudflare Pages 任选其一。
 5. 加入推送：周报、RSS、Server 酱或邮件。

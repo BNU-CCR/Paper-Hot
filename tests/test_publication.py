@@ -12,6 +12,20 @@ from src.storage import Paper, PaperStorage
 
 
 class PublicPaperExporterTests(unittest.TestCase):
+    class GbkStrictStream:
+        encoding = "gbk"
+
+        def __init__(self) -> None:
+            self.value = ""
+
+        def write(self, text: str) -> int:
+            text.encode(self.encoding)
+            self.value += text
+            return len(text)
+
+        def flush(self) -> None:
+            return None
+
     def test_public_export_only_includes_published_papers(self) -> None:
         tmp_dir = tempfile.mkdtemp()
         try:
@@ -262,6 +276,40 @@ class PublicPaperExporterTests(unittest.TestCase):
         finally:
             shutil.rmtree(tmp_dir, ignore_errors=True)
 
+    def test_search_only_handles_non_gbk_titles(self) -> None:
+        class FakeDiscovery:
+            def __init__(self, api_key: str = "") -> None:
+                self.api_key = api_key
+
+            def search_recent_papers(self, limit: int = 20):
+                return [
+                    Paper(
+                        title="Networked İstanbul communication",
+                        authors="Alice Smith",
+                        journal="Journal A",
+                        published_date="2026",
+                        link="https://example.org/non-gbk",
+                        doi="10.1000/non-gbk",
+                    )
+                ]
+
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            config_dir = Path(tmp_dir) / "config"
+            config_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+            stream = self.GbkStrictStream()
+
+            with patch.object(main_module, "PaperDiscovery", FakeDiscovery):
+                with patch("sys.stdout", stream):
+                    main_module.search_only(main_module.Config(config_dir))
+
+            self.assertIn("Networked ?stanbul communication", stream.value)
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
     def test_cli_update_public_publishes_high_and_refreshes_json(self) -> None:
         tmp_dir = tempfile.mkdtemp()
         try:
@@ -326,8 +374,16 @@ class PublicPaperExporterTests(unittest.TestCase):
             class FakeDiscovery:
                 def __init__(self, api_key: str = "") -> None:
                     self.api_key = api_key
+                    self.last_run_report = {}
 
                 def search_recent_papers(self, limit: int = 20):
+                    self.last_run_report = {
+                        "requested_queries": 1,
+                        "successful_queries": 1,
+                        "empty_queries": 0,
+                        "failed_queries": 0,
+                        "returned_papers": 1,
+                    }
                     return [
                         Paper(
                             title="Pipeline High Paper",
@@ -365,13 +421,16 @@ class PublicPaperExporterTests(unittest.TestCase):
             with patch.object(main_module, "PaperDiscovery", FakeDiscovery):
                 with patch.object(main_module, "PaperFilter", FakeFilter):
                     with patch.object(main_module, "NotificationSender", FakeNotifier):
-                        with patch("sys.stdout", io.StringIO()):
+                        stdout = io.StringIO()
+                        with patch("sys.stdout", stdout):
                             saved_count = main_module.run_full_pipeline(
                                 main_module.Config(config_dir),
                                 max_papers=1,
                             )
 
             self.assertEqual(saved_count, 1)
+            self.assertIn("发现请求: 1", stdout.getvalue())
+            self.assertIn("成功: 1", stdout.getvalue())
             exported = json.loads(
                 (project_dir / "public" / "data" / "papers.json").read_text(encoding="utf-8")
             )

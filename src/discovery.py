@@ -94,6 +94,8 @@ class PaperDiscovery:
         })
         if self.api_key:
             self.session.headers["x-api-key"] = self.api_key
+        self.last_run_report: Dict[str, Any] = self._empty_run_report()
+        self.last_query_error: Optional[str] = None
 
     def search_papers(
         self,
@@ -122,6 +124,7 @@ class PaperDiscovery:
             "fields": "title,abstract,authors,year,journal,venue,externalIds,url,citationCount"
         }
 
+        self.last_query_error = None
         try:
             data = self._get_json("/paper/search", params)
 
@@ -167,6 +170,7 @@ class PaperDiscovery:
             return papers
 
         except requests.RequestException as e:
+            self.last_query_error = str(e)
             print(f"搜索论文时出错: {e}")
             return []
 
@@ -217,8 +221,25 @@ class PaperDiscovery:
         request_limits = self._allocate_limits(limit, query_count)
 
         all_papers = []
+        report = self._empty_run_report()
+        report["requested_queries"] = len(selected_keywords)
+        report["query_limits"] = dict(zip(selected_keywords, request_limits))
         for index, keyword in enumerate(selected_keywords):
-            papers = self.search_papers(keyword, limit=request_limits[index])
+            self.last_query_error = None
+            query_error: Optional[str] = None
+            try:
+                papers = self.search_papers(keyword, limit=request_limits[index])
+            except requests.RequestException as error:
+                query_error = str(error)
+                papers = []
+            query_error = query_error or getattr(self, "last_query_error", None)
+            if query_error:
+                report["failed_queries"] += 1
+                report["errors"].append(f"{keyword}: {query_error}")
+            elif papers:
+                report["successful_queries"] += 1
+            else:
+                report["empty_queries"] += 1
             all_papers.extend(papers)
             if index < len(selected_keywords) - 1:
                 time.sleep(self.SEARCH_PAUSE_SECONDS)
@@ -233,7 +254,12 @@ class PaperDiscovery:
             elif not paper.doi:
                 unique_papers.append(paper)
 
-        return unique_papers[:limit]
+        result = unique_papers[:limit]
+        report["raw_papers"] = len(all_papers)
+        report["returned_papers"] = len(result)
+        report["duplicate_papers"] = max(0, len(all_papers) - len(unique_papers))
+        self.last_run_report = report
+        return result
 
     def _allocate_limits(self, total_limit: int, query_count: int) -> List[int]:
         """把总数量分配到有限关键词请求中，避免大量 limit=1 请求。"""
@@ -243,6 +269,20 @@ class PaperDiscovery:
             max(1, base + (1 if index < remainder else 0))
             for index in range(query_count)
         ]
+
+    def _empty_run_report(self) -> Dict[str, Any]:
+        """构造最近一次发现运行的轻量报告。"""
+        return {
+            "requested_queries": 0,
+            "successful_queries": 0,
+            "empty_queries": 0,
+            "failed_queries": 0,
+            "raw_papers": 0,
+            "duplicate_papers": 0,
+            "returned_papers": 0,
+            "query_limits": {},
+            "errors": [],
+        }
 
     def get_paper_by_doi(self, doi: str) -> Optional[DiscoveredPaper]:
         """
@@ -360,9 +400,9 @@ class PaperDiscovery:
                 return response.json()
             except requests.HTTPError as error:
                 last_error = error
-                if not self._is_rate_limited(error) or attempt == self.MAX_RETRIES - 1:
+                if not self._is_retryable_http_error(error) or attempt == self.MAX_RETRIES - 1:
                     raise
-                time.sleep(self.RETRY_BACKOFF_SECONDS * (2 ** attempt))
+                time.sleep(self._retry_delay_seconds(error, attempt))
             except requests.RequestException as error:
                 last_error = error
                 raise
@@ -371,9 +411,23 @@ class PaperDiscovery:
             raise last_error
         raise requests.RequestException("未知的请求失败")
 
-    def _is_rate_limited(self, error: requests.HTTPError) -> bool:
-        """判断错误是否为 429 限流"""
+    def _is_retryable_http_error(self, error: requests.HTTPError) -> bool:
+        """判断错误是否适合短暂退避后重试。"""
         response = getattr(error, "response", None)
-        if response is not None and getattr(response, "status_code", None) == 429:
+        status_code = getattr(response, "status_code", None)
+        if status_code in {429, 500, 502, 503, 504}:
             return True
-        return "429" in str(error)
+        error_text = str(error)
+        return any(code in error_text for code in ("429", "500", "502", "503", "504"))
+
+    def _retry_delay_seconds(self, error: requests.HTTPError, attempt: int) -> float:
+        """优先使用 Retry-After；否则使用指数退避。"""
+        response = getattr(error, "response", None)
+        headers = getattr(response, "headers", {}) if response is not None else {}
+        retry_after = headers.get("Retry-After") if headers else None
+        if retry_after:
+            try:
+                return max(0.0, float(retry_after))
+            except ValueError:
+                pass
+        return self.RETRY_BACKOFF_SECONDS * (2 ** attempt)

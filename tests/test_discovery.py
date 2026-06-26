@@ -1,15 +1,17 @@
+import io
 import unittest
 from unittest.mock import Mock, patch
 
 import requests
 
-from src.discovery import PaperDiscovery
+from src.discovery import DiscoveredPaper, PaperDiscovery
 
 
 class FakeResponse:
-    def __init__(self, payload=None, status_error=None):
+    def __init__(self, payload=None, status_error=None, headers=None):
         self._payload = payload or {}
         self._status_error = status_error
+        self.headers = headers or {}
 
     def raise_for_status(self):
         if self._status_error:
@@ -51,6 +53,35 @@ class PaperDiscoveryTests(unittest.TestCase):
         self.assertEqual(discovery.session.get.call_count, 2)
         mock_sleep.assert_called_once_with(1.0)
 
+    def test_search_retries_after_temporary_server_error(self) -> None:
+        discovery = PaperDiscovery(api_key="test-key")
+        server_error = requests.HTTPError("503 Server Error")
+        server_error.response = FakeResponse(headers={})
+        success = FakeResponse(payload={"data": [{"title": "Recovered after 503"}]})
+        discovery.session.get = Mock(side_effect=[FakeResponse(status_error=server_error), success])
+
+        with patch("src.discovery.time.sleep") as mock_sleep:
+            papers = discovery.search_papers("computational communication", limit=1)
+
+        self.assertEqual(len(papers), 1)
+        self.assertEqual(papers[0].title, "Recovered after 503")
+        self.assertEqual(discovery.session.get.call_count, 2)
+        mock_sleep.assert_called_once_with(1.0)
+
+    def test_rate_limit_retry_uses_retry_after_header(self) -> None:
+        discovery = PaperDiscovery(api_key="test-key")
+        rate_limit_error = requests.HTTPError("429 Client Error")
+        rate_limit_error.response = FakeResponse(headers={"Retry-After": "7"})
+        success = FakeResponse(payload={"data": [{"title": "Recovered with retry after"}]})
+        discovery.session.get = Mock(side_effect=[FakeResponse(status_error=rate_limit_error), success])
+
+        with patch("src.discovery.time.sleep") as mock_sleep:
+            papers = discovery.search_papers("computational communication", limit=1)
+
+        self.assertEqual(len(papers), 1)
+        self.assertEqual(papers[0].title, "Recovered with retry after")
+        mock_sleep.assert_called_once_with(7.0)
+
     def test_search_recent_papers_spreads_limit_without_zero_sized_queries(self) -> None:
         discovery = PaperDiscovery(api_key="test-key")
         recorded_limits = []
@@ -86,6 +117,51 @@ class PaperDiscoveryTests(unittest.TestCase):
         self.assertEqual(len(recorded_limits), 3)
         self.assertGreaterEqual(sum(recorded_limits), 5)
         self.assertTrue(all(limit > 0 for limit in recorded_limits))
+
+    def test_search_recent_papers_records_run_report(self) -> None:
+        discovery = PaperDiscovery(api_key="test-key")
+
+        def fake_search(query, year=None, limit=10):
+            if query == "k2":
+                return []
+            return [
+                DiscoveredPaper(
+                    title=f"{query} paper",
+                    abstract="",
+                    authors="",
+                    journal="",
+                    published_date="2026",
+                    link=f"https://example.org/{query}",
+                    doi="",
+                )
+            ]
+
+        discovery.search_papers = fake_search
+
+        papers = discovery.search_recent_papers(
+            keywords=["k1", "k2", "k3"],
+            limit=3,
+        )
+
+        self.assertEqual(len(papers), 2)
+        self.assertEqual(discovery.last_run_report["requested_queries"], 3)
+        self.assertEqual(discovery.last_run_report["successful_queries"], 2)
+        self.assertEqual(discovery.last_run_report["empty_queries"], 1)
+        self.assertEqual(discovery.last_run_report["failed_queries"], 0)
+        self.assertEqual(discovery.last_run_report["returned_papers"], 2)
+
+    def test_search_recent_report_counts_request_errors_as_failures(self) -> None:
+        discovery = PaperDiscovery(api_key="test-key")
+        discovery._get_json = Mock(side_effect=requests.RequestException("network down"))
+
+        with patch("src.discovery.time.sleep"):
+            with patch("sys.stdout", io.StringIO()):
+                papers = discovery.search_recent_papers(keywords=["k1"], limit=1)
+
+        self.assertEqual(papers, [])
+        self.assertEqual(discovery.last_run_report["failed_queries"], 1)
+        self.assertEqual(discovery.last_run_report["empty_queries"], 0)
+        self.assertEqual(discovery.last_run_report["errors"], ["k1: network down"])
 
 
 if __name__ == "__main__":
