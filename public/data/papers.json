@@ -1,19 +1,27 @@
 [
   {
-    "id": 1,
-    "title": "Test Paper",
+    "id": 2,
+    "title": "Network-based computational communication",
     "authors": [
-      "Test Author"
+      "Ming Huang",
+      "Jun-Ling Wang",
+      "Zi-Ke Zhang"
     ],
-    "journal": "Test Journal",
-    "published_date": "",
+    "journal": "Europhysics Letters",
+    "published_date": "2025",
     "relevance": "High",
     "score": null,
-    "summary": "",
-    "reason": "",
-    "tags": [],
-    "doi": "",
-    "source_url": "https://example.com/test",
-    "detail_slug": "test-paper"
+    "summary": "论文综合探讨网络计算传播在个体、群体和算法层面的进展，强调网络结构、群体行为、算法机制对意见极化的影响，并展望大语言模型在模拟中的应用。",
+    "reason": "标题和摘要明确聚焦网络计算传播，涉及意见极化、算法和大语言模型，符合计算传播领域所有纳入标准。",
+    "tags": [
+      "网络分析",
+      "计算传播",
+      "大语言模型",
+      "意见极化",
+      "社交模拟"
+    ],
+    "doi": "10.1209/0295-5075/ade337",
+    "source_url": "https://www.semanticscholar.org/paper/48db86acc4ea49b51e078b106149083bdf5b44ea",
+    "detail_slug": "network-based-computational-communication"
   }
 ]

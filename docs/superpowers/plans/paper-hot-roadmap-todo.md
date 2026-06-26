@@ -16,11 +16,12 @@
 
 ## Phase 2: 真实数据闭环
 
-- [ ] 稳定运行 `search -> filter -> save`。
-- [ ] 验证 Claude 筛选结果质量。
-- [ ] 验证去重逻辑和重复运行行为。
+- [x] 初步跑通 `search -> filter -> save`。
+- [ ] 优化 AI 筛选结果质量和推荐理由表达。
+- [x] 验证去重逻辑和重复运行行为。
 - [x] 形成 `publish -> export-public -> website refresh` 流程。
-- [ ] 将测试论文替换为真实公开论文数据。
+- [x] 将测试论文替换为真实公开论文数据。
+- [ ] 优化 Semantic Scholar 429 限流处理和采集节奏。
 
 ## Phase 3: 推送闭环
 
