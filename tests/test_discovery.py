@@ -68,6 +68,25 @@ class PaperDiscoveryTests(unittest.TestCase):
 
         self.assertEqual(recorded_limits, [1, 1, 1])
 
+    def test_search_recent_papers_limits_small_batch_query_count(self) -> None:
+        discovery = PaperDiscovery(api_key="test-key")
+        recorded_limits = []
+
+        def fake_search(query, year=None, limit=10):
+            recorded_limits.append(limit)
+            return []
+
+        discovery.search_papers = fake_search
+
+        discovery.search_recent_papers(
+            keywords=["k1", "k2", "k3", "k4", "k5", "k6"],
+            limit=5,
+        )
+
+        self.assertEqual(len(recorded_limits), 3)
+        self.assertGreaterEqual(sum(recorded_limits), 5)
+        self.assertTrue(all(limit > 0 for limit in recorded_limits))
+
 
 if __name__ == "__main__":
     unittest.main()

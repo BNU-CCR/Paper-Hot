@@ -118,6 +118,8 @@ class NotificationSender:
         """
         if not papers:
             return 0
+        if not self.config.get("enable_wechat", False):
+            return 0
 
         success_count = 0
         high_papers = [p for p in papers if p.get("relevance") == "High"]

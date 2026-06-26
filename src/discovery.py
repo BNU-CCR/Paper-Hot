@@ -76,7 +76,8 @@ class PaperDiscovery:
 
     MAX_RETRIES = 3
     RETRY_BACKOFF_SECONDS = 1.0
-    SEARCH_PAUSE_SECONDS = 0.2
+    SEARCH_PAUSE_SECONDS = 0.8
+    MAX_RECENT_SEARCH_QUERIES = 3
 
     def __init__(self, api_key: Optional[str] = None):
         """
@@ -211,12 +212,13 @@ class PaperDiscovery:
         if not keywords or limit <= 0:
             return []
 
-        selected_keywords = keywords[: min(len(keywords), limit)]
-        per_keyword_limit = max(1, limit // len(selected_keywords))
+        query_count = min(len(keywords), limit, self.MAX_RECENT_SEARCH_QUERIES)
+        selected_keywords = keywords[:query_count]
+        request_limits = self._allocate_limits(limit, query_count)
 
         all_papers = []
         for index, keyword in enumerate(selected_keywords):
-            papers = self.search_papers(keyword, limit=per_keyword_limit)
+            papers = self.search_papers(keyword, limit=request_limits[index])
             all_papers.extend(papers)
             if index < len(selected_keywords) - 1:
                 time.sleep(self.SEARCH_PAUSE_SECONDS)
@@ -232,6 +234,15 @@ class PaperDiscovery:
                 unique_papers.append(paper)
 
         return unique_papers[:limit]
+
+    def _allocate_limits(self, total_limit: int, query_count: int) -> List[int]:
+        """把总数量分配到有限关键词请求中，避免大量 limit=1 请求。"""
+        base = total_limit // query_count
+        remainder = total_limit % query_count
+        return [
+            max(1, base + (1 if index < remainder else 0))
+            for index in range(query_count)
+        ]
 
     def get_paper_by_doi(self, doi: str) -> Optional[DiscoveredPaper]:
         """
