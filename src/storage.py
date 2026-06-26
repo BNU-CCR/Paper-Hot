@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import List, Optional, Dict, Any
 from dataclasses import dataclass, asdict
 from datetime import datetime
+from contextlib import contextmanager
 
 
 @dataclass
@@ -39,11 +40,15 @@ class PaperStorage:
         self.db_path = Path(db_path)
         self._init_database()
 
-    def _get_connection(self) -> sqlite3.Connection:
+    @contextmanager
+    def _get_connection(self):
         """获取数据库连接"""
         conn = sqlite3.connect(self.db_path)
         conn.row_factory = sqlite3.Row
-        return conn
+        try:
+            yield conn
+        finally:
+            conn.close()
 
     def _init_database(self):
         """初始化数据库表"""

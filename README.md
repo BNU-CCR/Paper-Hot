@@ -75,6 +75,12 @@
 pip install -e .
 ```
 
+如果 Windows 环境里没有 `python` 命令，也可以使用：
+
+```bash
+py -m pip install -e .
+```
+
 ## 配置
 
 建议通过环境变量注入密钥，不要写入仓库文件。
@@ -84,6 +90,8 @@ ANTHROPIC_API_KEY=...
 SEMANTIC_SCHOLAR_API_KEY=...
 SERVERCHAN_SCKEY=...
 ```
+
+本地开发也可以复制 `.env.example` 为 `.env`，然后在 `.env` 里填写密钥。`.env` 已被 `.gitignore` 排除，不会提交到仓库。
 
 配置文件：
 
@@ -161,6 +169,7 @@ python -m unittest tests.test_config tests.test_publication tests.test_discovery
 查看数据库统计和已公开论文：
 
 ```bash
+python -m src.main doctor
 python -m src.main stats
 python -m src.main list-public
 python -m src.main export-public

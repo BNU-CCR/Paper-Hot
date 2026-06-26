@@ -14,7 +14,23 @@ class Config:
             config_dir = Path(__file__).parent.parent / "config"
         self.config_dir = Path(config_dir)
         self.project_root = self.config_dir.parent
+        self.env_file = self._load_env_file()
         self._load_configs()
+
+    def _load_env_file(self) -> dict:
+        """读取项目根目录 .env，便于本地安全注入 API key。"""
+        env_path = self.project_root / ".env"
+        if not env_path.exists():
+            return {}
+
+        values = {}
+        for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+            line = raw_line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            values[key.strip()] = value.strip().strip('"').strip("'")
+        return values
 
     def _load_configs(self):
         """加载所有配置文件"""
@@ -69,6 +85,9 @@ class Config:
         api_key = os.environ.get("ANTHROPIC_API_KEY", "")
         if api_key:
             return api_key
+        api_key = self.env_file.get("ANTHROPIC_API_KEY", "")
+        if api_key:
+            return api_key
         # 从设置中读取
         return self.settings.get("anthropic_api_key", "")
 
@@ -76,6 +95,9 @@ class Config:
     def semantic_scholar_api_key(self) -> str:
         """获取 Semantic Scholar API Key"""
         api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY", "")
+        if api_key:
+            return api_key
+        api_key = self.env_file.get("SEMANTIC_SCHOLAR_API_KEY", "")
         if api_key:
             return api_key
         return self.settings.get("semantic_scholar_api_key", "")

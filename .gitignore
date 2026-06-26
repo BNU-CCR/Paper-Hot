@@ -10,6 +10,7 @@ venv/
 # Local data and secrets
 .env
 .env.*
+!.env.example
 data/*.db
 data/*.sqlite*
 

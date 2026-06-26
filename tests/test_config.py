@@ -1,7 +1,10 @@
 import unittest
+import io
 from pathlib import Path
 from tempfile import TemporaryDirectory
+from unittest.mock import patch
 
+from src import main as main_module
 from src.config import Config
 
 
@@ -74,6 +77,65 @@ database:
             config = Config(config_dir)
 
             self.assertEqual(config.database_path, project_dir / "data" / "papers.db")
+
+    def test_config_reads_api_keys_from_local_env_file(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            config_dir.mkdir()
+
+            write_file(config_dir / "journals.yaml", "journals: []")
+            write_file(config_dir / "prompts.yaml", "{}")
+            write_file(config_dir / "settings.yaml", "{}")
+            write_file(
+                project_dir / ".env",
+                """
+ANTHROPIC_API_KEY=anthropic-from-env-file
+SEMANTIC_SCHOLAR_API_KEY=semantic-from-env-file
+""".strip(),
+            )
+
+            with patch.dict("os.environ", {}, clear=True):
+                config = Config(config_dir)
+
+            self.assertEqual(config.anthropic_api_key, "anthropic-from-env-file")
+            self.assertEqual(config.semantic_scholar_api_key, "semantic-from-env-file")
+
+    def test_cli_doctor_reports_local_env_keys(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            config_dir.mkdir()
+
+            write_file(
+                config_dir / "journals.yaml",
+                """
+journals: []
+global_keywords:
+  - computational communication
+""".strip(),
+            )
+            write_file(config_dir / "prompts.yaml", "{}")
+            write_file(config_dir / "settings.yaml", "{}")
+            write_file(
+                project_dir / ".env",
+                """
+ANTHROPIC_API_KEY=anthropic-from-env-file
+SEMANTIC_SCHOLAR_API_KEY=semantic-from-env-file
+""".strip(),
+            )
+
+            stdout = io.StringIO()
+            with patch.dict("os.environ", {}, clear=True):
+                with patch("sys.argv", ["main", "--config", str(config_dir), "doctor"]):
+                    with patch("sys.stdout", stdout):
+                        with self.assertRaises(SystemExit) as exit_info:
+                            main_module.main()
+
+            self.assertEqual(exit_info.exception.code, 0)
+            output = stdout.getvalue()
+            self.assertIn("Anthropic API Key: OK", output)
+            self.assertIn("Semantic Scholar API Key: OK", output)
 
 
 if __name__ == "__main__":

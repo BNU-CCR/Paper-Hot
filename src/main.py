@@ -35,6 +35,7 @@ def run_full_pipeline(
     if config is None:
         config = get_config()
 
+    config.database_path.parent.mkdir(parents=True, exist_ok=True)
     storage = PaperStorage(config.database_path)
     discovery = PaperDiscovery(config.semantic_scholar_api_key)
     paper_filter = PaperFilter()
@@ -208,6 +209,48 @@ def list_public_papers(config: Optional[Config] = None):
         print(f"- [{paper.id}] {paper.title} | {paper.relevance} | {paper.journal}")
 
 
+def run_doctor(config: Optional[Config] = None) -> int:
+    """运行真实采集前的本地环境预检"""
+    if config is None:
+        config = get_config()
+
+    config.database_path.parent.mkdir(parents=True, exist_ok=True)
+    storage = PaperStorage(config.database_path)
+    stats = storage.get_statistics()
+    public_json = config.public_data_dir / "papers.json"
+    keywords = config.get_discovery_keywords()
+
+    checks = [
+        ("Anthropic API Key", bool(config.anthropic_api_key), "ANTHROPIC_API_KEY 或 .env", True),
+        (
+            "Semantic Scholar API Key",
+            bool(config.semantic_scholar_api_key),
+            "SEMANTIC_SCHOLAR_API_KEY 或 .env",
+            True,
+        ),
+        ("Database", config.database_path.exists(), str(config.database_path), True),
+        ("Public JSON", public_json.exists(), str(public_json), False),
+        ("Discovery keywords", bool(keywords), f"{len(keywords)} keywords", True),
+    ]
+
+    print("Paper HOT 环境预检")
+    print("=" * 40)
+    failed = 0
+    for name, ok, detail, required in checks:
+        status = "OK" if ok else "MISSING"
+        print(f"{name}: {status} ({detail})")
+        if required and not ok:
+            failed += 1
+
+    print("\n当前数据")
+    print(f"- 数据库: {config.database_path}")
+    print(f"- 论文总数: {stats['total']}")
+    print(f"- 公开 JSON: {public_json}")
+    print(f"- 发现关键词: {len(keywords)}")
+
+    return 0 if failed == 0 else 1
+
+
 def main():
     parser = argparse.ArgumentParser(description="计算传播论文追踪系统")
     parser.add_argument("--config", type=str, help="配置文件目录")
@@ -218,6 +261,7 @@ def main():
     subparsers.add_parser("stats", help="显示统计")
     subparsers.add_parser("export", help="导出CSV")
     subparsers.add_parser("export-public", help="导出公开站 JSON 数据")
+    subparsers.add_parser("doctor", help="检查 API key、数据库、公开 JSON 和关键词配置")
     publish_parser = subparsers.add_parser("publish", help="将论文设为公开发布")
     publish_parser.add_argument("paper_id", type=int, help="论文 ID")
     unpublish_parser = subparsers.add_parser("unpublish", help="取消论文公开发布")
@@ -241,6 +285,8 @@ def main():
         export_csv(config)
     elif args.command == "export-public":
         export_public_data(config)
+    elif args.command == "doctor":
+        sys.exit(run_doctor(config))
     elif args.command == "publish":
         sys.exit(publish_paper(config, args.paper_id, True))
     elif args.command == "unpublish":
