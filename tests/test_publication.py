@@ -203,6 +203,65 @@ class PublicPaperExporterTests(unittest.TestCase):
         finally:
             shutil.rmtree(tmp_dir, ignore_errors=True)
 
+    def test_cli_publish_high_only_publishes_high_papers(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            storage.add_paper(
+                Paper(
+                    title="High Paper",
+                    authors="Alice Smith",
+                    journal="Journal A",
+                    link="https://example.org/high-paper",
+                    relevance="High",
+                    is_public=False,
+                )
+            )
+            storage.add_paper(
+                Paper(
+                    title="Low Paper",
+                    authors="Bob Lee",
+                    journal="Journal B",
+                    link="https://example.org/low-paper",
+                    relevance="Low",
+                    is_public=False,
+                )
+            )
+            storage.add_paper(
+                Paper(
+                    title="Test Paper",
+                    authors="Test Author",
+                    journal="Test Journal",
+                    link="https://example.org/test-paper",
+                    relevance="High",
+                    is_public=False,
+                )
+            )
+
+            stdout = io.StringIO()
+            with patch("sys.argv", ["main", "--config", str(config_dir), "publish-high"]):
+                with patch("sys.stdout", stdout):
+                    with self.assertRaises(SystemExit) as exit_info:
+                        main_module.main()
+
+            self.assertEqual(exit_info.exception.code, 0)
+            self.assertIn("已公开 High 论文: 1", stdout.getvalue())
+            exported = json.loads(
+                (project_dir / "public" / "data" / "papers.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual([paper["title"] for paper in exported], ["High Paper"])
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
     def test_cli_refilter_errors_updates_failed_filter_results(self) -> None:
         tmp_dir = tempfile.mkdtemp()
         try:

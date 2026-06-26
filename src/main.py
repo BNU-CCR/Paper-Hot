@@ -203,6 +203,27 @@ def publish_paper(config: Optional[Config], paper_id: int, is_public: bool):
     return 0
 
 
+def publish_high_papers(config: Optional[Config] = None) -> int:
+    """公开所有 High 论文，并刷新公开站数据"""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    high_papers = storage.get_papers(relevance="High", limit=10000)
+    published_count = 0
+    for paper in high_papers:
+        if paper.title.strip().lower() == "test paper":
+            continue
+        if not paper.is_public and storage.set_paper_publication(paper.id, True):
+            published_count += 1
+
+    export_path = config.public_data_dir / "papers.json"
+    PublicPaperExporter(storage).export_json(export_path)
+    print(f"已公开 High 论文: {published_count}")
+    print(f"已刷新公开站数据: {export_path}")
+    return 0
+
+
 def list_public_papers(config: Optional[Config] = None):
     """列出已公开论文"""
     if config is None:
@@ -330,6 +351,7 @@ def main():
     publish_parser.add_argument("paper_id", type=int, help="论文 ID")
     unpublish_parser = subparsers.add_parser("unpublish", help="取消论文公开发布")
     unpublish_parser.add_argument("paper_id", type=int, help="论文 ID")
+    subparsers.add_parser("publish-high", help="公开所有 High 论文并刷新公开站 JSON")
     subparsers.add_parser("list-public", help="列出已公开论文")
 
     args = parser.parse_args()
@@ -359,6 +381,8 @@ def main():
         sys.exit(publish_paper(config, args.paper_id, True))
     elif args.command == "unpublish":
         sys.exit(publish_paper(config, args.paper_id, False))
+    elif args.command == "publish-high":
+        sys.exit(publish_high_papers(config))
     elif args.command == "list-public":
         list_public_papers(config)
     else:
