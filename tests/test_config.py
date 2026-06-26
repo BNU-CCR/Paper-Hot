@@ -105,6 +105,33 @@ SEMANTIC_SCHOLAR_API_KEY=semantic-from-env-file
             self.assertEqual(config.claude_model, "deepseek-v4-flash")
             self.assertEqual(config.semantic_scholar_api_key, "semantic-from-env-file")
 
+    def test_config_reads_api_keys_from_key_env_file(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            config_dir.mkdir()
+
+            write_file(config_dir / "journals.yaml", "journals: []")
+            write_file(config_dir / "prompts.yaml", "{}")
+            write_file(config_dir / "settings.yaml", "{}")
+            write_file(
+                project_dir / "key.env",
+                """
+ANTHROPIC_API_KEY=deepseek-from-key-env
+ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+AI_MODEL=deepseek-v4-flash
+SEMANTIC_SCHOLAR_API_KEY=semantic-from-key-env
+""".strip(),
+            )
+
+            with patch("src.config.os.environ", {}):
+                config = Config(config_dir)
+
+            self.assertEqual(config.anthropic_api_key, "deepseek-from-key-env")
+            self.assertEqual(config.anthropic_base_url, "https://api.deepseek.com/anthropic")
+            self.assertEqual(config.claude_model, "deepseek-v4-flash")
+            self.assertEqual(config.semantic_scholar_api_key, "semantic-from-key-env")
+
     def test_cli_doctor_reports_local_env_keys(self) -> None:
         with TemporaryDirectory() as tmp_dir:
             project_dir = Path(tmp_dir)

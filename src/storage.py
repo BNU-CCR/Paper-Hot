@@ -192,6 +192,39 @@ class PaperStorage:
             """, (status, now, paper_id))
             conn.commit()
 
+    def update_filter_result(
+        self,
+        paper_id: int,
+        relevance: str,
+        reason: str,
+        tags: str,
+        summary: str,
+    ) -> bool:
+        """更新论文 AI 筛选结果"""
+        now = datetime.now().isoformat()
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                UPDATE papers
+                SET relevance = ?, reason = ?, tags = ?, summary = ?, updated_at = ?
+                WHERE id = ?
+            """, (relevance, reason, tags, summary, now, paper_id))
+            conn.commit()
+            return cursor.rowcount > 0
+
+    def get_filter_error_papers(self, limit: int = 20) -> List[Paper]:
+        """获取筛选失败后需要重筛的论文"""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT * FROM papers
+                WHERE reason LIKE '筛选出错%'
+                ORDER BY updated_at DESC, created_at DESC
+                LIMIT ?
+            """, (limit,))
+            rows = cursor.fetchall()
+            return [Paper(**self._normalize_row(dict(row))) for row in rows]
+
     def set_paper_publication(self, paper_id: int, is_public: bool):
         """设置论文公开发布状态"""
         now = datetime.now().isoformat()

@@ -18,8 +18,10 @@ class Config:
         self._load_configs()
 
     def _load_env_file(self) -> dict:
-        """读取项目根目录 .env，便于本地安全注入 API key。"""
+        """读取项目根目录本地 env 文件，便于安全注入 API key。"""
         env_path = self.project_root / ".env"
+        if not env_path.exists():
+            env_path = self.project_root / "key.env"
         if not env_path.exists():
             return {}
 

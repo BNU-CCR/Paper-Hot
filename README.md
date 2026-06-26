@@ -93,7 +93,7 @@ SEMANTIC_SCHOLAR_API_KEY=...
 SERVERCHAN_SCKEY=...
 ```
 
-本地开发推荐复制 `.env.example` 为 `.env`，然后在 `.env` 里填写密钥。`.env` 已被 `.gitignore` 排除，不会提交到仓库。
+本地开发推荐复制 `.env.example` 为 `.env`，然后在 `.env` 里填写密钥。也可以直接使用 `key.env`。`.env` 和 `key.env` 都已被 `.gitignore` 排除，不会提交到仓库。
 
 当前默认使用 DeepSeek 的 Anthropic 兼容接口：
 

@@ -209,6 +209,42 @@ def list_public_papers(config: Optional[Config] = None):
         print(f"- [{paper.id}] {paper.title} | {paper.relevance} | {paper.journal}")
 
 
+def refilter_error_papers(config: Optional[Config] = None, limit: int = 20) -> int:
+    """重筛之前 AI 筛选失败的论文"""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    papers = storage.get_filter_error_papers(limit=limit)
+    if not papers:
+        print("没有需要重筛的错误论文")
+        return 0
+
+    paper_filter = PaperFilter()
+    updated_count = 0
+    for paper in papers:
+        result = paper_filter.filter_paper(
+            title=paper.title,
+            abstract=paper.abstract,
+            authors=paper.authors,
+            journal=paper.journal,
+        )
+        tags = result.get("tags", [])
+        tags_text = ",".join(tags) if isinstance(tags, list) else str(tags or "")
+        if storage.update_filter_result(
+            paper_id=paper.id,
+            relevance=result.get("relevance", "Low"),
+            reason=result.get("reason", ""),
+            tags=tags_text,
+            summary=result.get("summary", ""),
+        ):
+            updated_count += 1
+            print(f"已重筛: [{paper.id}] {paper.title} -> {result.get('relevance', 'Low')}")
+
+    print(f"已重筛 {updated_count} 篇")
+    return 0
+
+
 def run_doctor(config: Optional[Config] = None) -> int:
     """运行真实采集前的本地环境预检"""
     if config is None:
@@ -221,11 +257,11 @@ def run_doctor(config: Optional[Config] = None) -> int:
     keywords = config.get_discovery_keywords()
 
     checks = [
-        ("Anthropic API Key", bool(config.anthropic_api_key), "ANTHROPIC_API_KEY 或 .env", True),
+        ("Anthropic API Key", bool(config.anthropic_api_key), "ANTHROPIC_API_KEY 或 .env/key.env", True),
         (
             "Semantic Scholar API Key",
             bool(config.semantic_scholar_api_key),
-            "SEMANTIC_SCHOLAR_API_KEY 或 .env",
+            "SEMANTIC_SCHOLAR_API_KEY 或 .env/key.env",
             True,
         ),
         ("Database", config.database_path.exists(), str(config.database_path), True),
@@ -264,6 +300,8 @@ def main():
     subparsers.add_parser("export", help="导出CSV")
     subparsers.add_parser("export-public", help="导出公开站 JSON 数据")
     subparsers.add_parser("doctor", help="检查 API key、数据库、公开 JSON 和关键词配置")
+    refilter_parser = subparsers.add_parser("refilter-errors", help="重筛之前 AI 筛选失败的论文")
+    refilter_parser.add_argument("--limit", type=int, default=20, help="最多重筛论文数")
     publish_parser = subparsers.add_parser("publish", help="将论文设为公开发布")
     publish_parser.add_argument("paper_id", type=int, help="论文 ID")
     unpublish_parser = subparsers.add_parser("unpublish", help="取消论文公开发布")
@@ -289,6 +327,8 @@ def main():
         export_public_data(config)
     elif args.command == "doctor":
         sys.exit(run_doctor(config))
+    elif args.command == "refilter-errors":
+        sys.exit(refilter_error_papers(config, args.limit))
     elif args.command == "publish":
         sys.exit(publish_paper(config, args.paper_id, True))
     elif args.command == "unpublish":

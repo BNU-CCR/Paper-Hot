@@ -167,6 +167,56 @@ class PublicPaperExporterTests(unittest.TestCase):
         finally:
             shutil.rmtree(tmp_dir, ignore_errors=True)
 
+    def test_cli_refilter_errors_updates_failed_filter_results(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            paper_id = storage.add_paper(
+                Paper(
+                    title="Failed Filter Paper",
+                    authors="Alice Smith",
+                    abstract="Computational communication abstract",
+                    journal="Journal A",
+                    link="https://example.org/failed-filter-paper",
+                    relevance="Low",
+                    reason="筛选出错: ThinkingBlock",
+                )
+            )
+
+            fake_filter = patch("src.main.PaperFilter").start()
+            fake_filter.return_value.filter_paper.return_value = {
+                "relevance": "High",
+                "reason": "计算传播相关",
+                "tags": ["计算传播", "AI"],
+                "summary": "使用 AI 方法研究传播问题。",
+            }
+            try:
+                stdout = io.StringIO()
+                with patch("sys.argv", ["main", "--config", str(config_dir), "refilter-errors"]):
+                    with patch("sys.stdout", stdout):
+                        with self.assertRaises(SystemExit) as exit_info:
+                            main_module.main()
+            finally:
+                patch.stopall()
+
+            self.assertEqual(exit_info.exception.code, 0)
+            updated = PaperStorage(data_dir / "papers.db").get_paper_by_id(paper_id)
+            self.assertEqual(updated.relevance, "High")
+            self.assertEqual(updated.reason, "计算传播相关")
+            self.assertEqual(updated.tags, "计算传播,AI")
+            self.assertIn("已重筛 1 篇", stdout.getvalue())
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
 
 if __name__ == "__main__":
     unittest.main()

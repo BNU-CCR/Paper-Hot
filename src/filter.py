@@ -123,8 +123,8 @@ class PaperFilter:
             ]
         )
 
-        # 解析响应
-        response_text = response.content[0].text.strip()
+        # 解析响应。DeepSeek Anthropic-compatible API 可能先返回 thinking block。
+        response_text = self._extract_response_text(response)
 
         # 尝试提取JSON
         try:
@@ -158,6 +158,14 @@ class PaperFilter:
             result["relevance"] = "Low"
 
         return result
+
+    def _extract_response_text(self, response) -> str:
+        """从 Anthropic 兼容响应中提取文本内容，跳过 thinking/tool 等非文本块。"""
+        for block in getattr(response, "content", []):
+            text = getattr(block, "text", None)
+            if text:
+                return text.strip()
+        raise ValueError("AI响应中没有可解析的文本内容")
 
     def filter_papers(self, papers: list) -> list:
         """批量筛选论文"""
