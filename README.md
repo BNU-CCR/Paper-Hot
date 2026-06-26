@@ -134,6 +134,8 @@ python -m src.main unpublish <paper_id>
 python -m src.main list-public
 ```
 
+说明：`publish` 和 `unpublish` 成功后会自动刷新 `public/data/papers.json`，公开站重新加载后即可看到最新发布状态。
+
 ## 数据模型
 
 当前 `papers` 表核心字段包括：

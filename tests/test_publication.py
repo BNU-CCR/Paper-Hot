@@ -130,6 +130,43 @@ class PublicPaperExporterTests(unittest.TestCase):
         finally:
             shutil.rmtree(tmp_dir, ignore_errors=True)
 
+    def test_cli_publish_refreshes_public_json(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            paper_id = storage.add_paper(
+                Paper(
+                    title="Website Refresh Paper",
+                    authors="Alice Smith",
+                    journal="Journal A",
+                    link="https://example.org/website-refresh-paper",
+                    relevance="High",
+                    summary="Ready for public website",
+                )
+            )
+
+            with patch("sys.argv", ["main", "--config", str(config_dir), "publish", str(paper_id)]):
+                with patch("sys.stdout", io.StringIO()):
+                    with self.assertRaises(SystemExit) as exit_info:
+                        main_module.main()
+
+            self.assertEqual(exit_info.exception.code, 0)
+            public_json = project_dir / "public" / "data" / "papers.json"
+            exported = json.loads(public_json.read_text(encoding="utf-8"))
+            self.assertEqual(len(exported), 1)
+            self.assertEqual(exported[0]["title"], "Website Refresh Paper")
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
 
 if __name__ == "__main__":
     unittest.main()

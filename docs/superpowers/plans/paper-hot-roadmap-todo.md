@@ -19,7 +19,7 @@
 - [ ] 稳定运行 `search -> filter -> save`。
 - [ ] 验证 Claude 筛选结果质量。
 - [ ] 验证去重逻辑和重复运行行为。
-- [ ] 形成 `publish -> export-public -> website refresh` 流程。
+- [x] 形成 `publish -> export-public -> website refresh` 流程。
 - [ ] 将测试论文替换为真实公开论文数据。
 
 ## Phase 3: 推送闭环

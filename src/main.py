@@ -190,6 +190,9 @@ def publish_paper(config: Optional[Config], paper_id: int, is_public: bool):
     action = "已设为公开发布" if is_public else "已取消公开发布"
     title = paper.title if paper else str(paper_id)
     print(f"{action}: [{paper_id}] {title}")
+    export_path = config.public_data_dir / "papers.json"
+    PublicPaperExporter(storage).export_json(export_path)
+    print(f"已刷新公开站数据: {export_path}")
     return 0
 
 
