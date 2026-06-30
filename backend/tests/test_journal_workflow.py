@@ -1,14 +1,14 @@
-import unittest
+﻿import unittest
 import io
 import json
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import Mock, patch
 
-from src import main as main_module
-from src.config import Config
-from src.discovery import DiscoveredPaper
-from src.storage import PaperStorage
+from journal_tracker import main as main_module
+from journal_tracker.config import Config
+from journal_tracker.discovery import DiscoveredPaper
+from journal_tracker.storage import PaperStorage
 
 
 def write_file(path: Path, content: str) -> None:
@@ -54,7 +54,7 @@ database:
             ]
             fake_openalex.last_run_report = {"requested_queries": 1, "returned_papers": 1}
 
-            with patch("src.main.OpenAlexDiscovery", return_value=fake_openalex):
+            with patch("journal_tracker.main.OpenAlexDiscovery", return_value=fake_openalex):
                 with patch("sys.stdout", io.StringIO()):
                     saved_count = main_module.ingest_journal_updates(config, limit_per_journal=1)
 
@@ -69,7 +69,7 @@ database:
 
     def test_fetch_journals_cli_returns_normally_when_papers_are_saved(self) -> None:
         with patch("sys.argv", ["main", "fetch-journals", "--limit-per-journal", "1"]):
-            with patch("src.main.ingest_journal_updates", return_value=2) as ingest:
+            with patch("journal_tracker.main.ingest_journal_updates", return_value=2) as ingest:
                 main_module.main()
 
         ingest.assert_called_once()
@@ -103,7 +103,7 @@ journals:
                 "journals": [],
             }
 
-            with patch("src.main.CoverageVerifier", return_value=fake_verifier):
+            with patch("journal_tracker.main.CoverageVerifier", return_value=fake_verifier):
                 stdout = io.StringIO()
                 with patch("sys.stdout", stdout):
                     with patch("sys.argv", ["main", "--config", str(config_dir), "verify-coverage"]):

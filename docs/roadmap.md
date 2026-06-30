@@ -1,4 +1,4 @@
-# Paper HOT Roadmap
+﻿# Paper HOT Roadmap
 
 本文件是当前唯一维护中的 TODO / 路线文档。历史计划、早期审计和视觉方案已归档到 `docs/archive/`。
 
@@ -14,14 +14,14 @@ Paper HOT 目标是做一个类似 AI HOT 的计算传播论文情报站：
 
 ## Current State
 
-- Red-list journals are configured in `config/journals.yaml`.
+- Red-list journals are configured in `backend/config/journals.yaml`.
 - OpenAlex source/ISSN ingestion is implemented through `fetch-journals`.
 - Local SQLite storage supports provenance and queue states: `pending`, `screened`, `quarantined`.
 - Historical dirty rows are quarantined with `repair-queue`; they are not physically deleted.
 - AI screening runs from the local queue with `screen-pending`.
 - Public site data exports:
-  - `public/data/papers.json`: published High papers.
-  - `public/data/all_papers.json`: all red-list OpenAlex journal updates.
+  - `frontend/public/data/papers.json`: published High papers.
+  - `frontend/public/data/all_papers.json`: all red-list OpenAlex journal updates.
 - Website supports Featured / All Updates switching.
 - Crossref coverage verification is implemented with `verify-coverage`.
 
@@ -37,8 +37,8 @@ Latest verified local state:
 
 ## Phase 1: Public Site V1
 
-- [x] Implement static site in `web/`.
-- [x] Render public featured papers from `public/data/papers.json`.
+- [x] Implement static site in `frontend/web/`.
+- [x] Render public featured papers from `frontend/public/data/papers.json`.
 - [x] Support relevance, tag, and search filters.
 - [x] Support light / dark / system theme switching.
 - [x] Add Featured / All Updates data switching.
@@ -77,8 +77,8 @@ Latest verified local state:
 ## Phase 5: Deployment And Push
 
 - [ ] Choose static deployment target: GitHub Pages, Vercel, or Cloudflare Pages.
-- [ ] Verify public URL can read `public/data/papers.json`.
-- [ ] Verify public URL can read `public/data/all_papers.json`.
+- [ ] Verify public URL can read `frontend/public/data/papers.json`.
+- [ ] Verify public URL can read `frontend/public/data/all_papers.json`.
 - [ ] Choose push channel: Feishu, email, RSS, ServerChan, or another feed.
 - [ ] Design weekly push template.
 
@@ -94,10 +94,10 @@ Latest verified local state:
 Run a deeper OpenAlex fetch before spending more effort on AI prompt quality:
 
 ```bash
-py -m src.main fetch-journals --limit-per-journal 100
-py -m src.main repair-queue
-py -m src.main export-public
-py -m src.main verify-coverage
+py -m journal_tracker.main fetch-journals --limit-per-journal 100
+py -m journal_tracker.main repair-queue
+py -m journal_tracker.main export-public
+py -m journal_tracker.main verify-coverage
 ```
 
 Only after the local all-updates inventory is closer to Crossref coverage should new pending papers be screened in bulk.

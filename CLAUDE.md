@@ -1,4 +1,4 @@
-# Agent Notes
+﻿# Agent Notes
 
 This repository is now maintained around three current documents:
 
@@ -23,26 +23,26 @@ Keyword search and Semantic Scholar are supplemental, not the primary ingestion 
 
 ## Safety Notes
 
-- Do not commit `key.env`.
-- Do not commit `data/papers.db`.
+- Do not commit `.local/key.env`.
+- Do not commit `backend/data/papers.db`.
 - Do not commit local Feishu QR code images or `.agents/` state.
-- `public/data/papers.json` and `public/data/all_papers.json` are static website snapshots and can be committed.
+- `frontend/public/data/papers.json` and `frontend/public/data/all_papers.json` are static website snapshots and can be committed.
 
 ## Useful Commands
 
 ```bash
-py -m src.main workflow-status
-py -m src.main fetch-journals --limit-per-journal 100
-py -m src.main repair-queue
-py -m src.main screen-pending --limit 20
-py -m src.main export-public
-py -m src.main verify-coverage
-py -m src.main update-public
+py -m journal_tracker.main workflow-status
+py -m journal_tracker.main fetch-journals --limit-per-journal 100
+py -m journal_tracker.main repair-queue
+py -m journal_tracker.main screen-pending --limit 20
+py -m journal_tracker.main export-public
+py -m journal_tracker.main verify-coverage
+py -m journal_tracker.main update-public
 ```
 
 Verification:
 
 ```bash
-py -m unittest tests.test_config tests.test_publication tests.test_discovery tests.test_openalex_discovery tests.test_filter tests.test_notification tests.test_journal_workflow tests.test_storage_workflow tests.test_coverage -v
-node web\app.test.cjs
+py -m unittest discover backend/tests -v
+node frontend\web\app.test.cjs
 ```

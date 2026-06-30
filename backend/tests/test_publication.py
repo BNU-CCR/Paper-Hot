@@ -1,4 +1,4 @@
-import json
+﻿import json
 import io
 import shutil
 import tempfile
@@ -6,9 +6,9 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from src import main as main_module
-from src.publication import PublicPaperExporter
-from src.storage import Paper, PaperStorage
+from journal_tracker import main as main_module
+from journal_tracker.publication import PublicPaperExporter
+from journal_tracker.storage import Paper, PaperStorage
 
 
 class PublicPaperExporterTests(unittest.TestCase):
@@ -663,7 +663,7 @@ class PublicPaperExporterTests(unittest.TestCase):
                 )
             )
 
-            fake_filter = patch("src.main.PaperFilter").start()
+            fake_filter = patch("journal_tracker.main.PaperFilter").start()
             fake_filter.return_value.filter_paper.return_value = {
                 "relevance": "High",
                 "reason": "Strong computational communication match",
@@ -715,7 +715,7 @@ class PublicPaperExporterTests(unittest.TestCase):
                 )
             )
 
-            fake_filter = patch("src.main.PaperFilter").start()
+            fake_filter = patch("journal_tracker.main.PaperFilter").start()
             fake_filter.return_value.filter_paper.return_value = {
                 "relevance": "High",
                 "reason": "计算传播相关",

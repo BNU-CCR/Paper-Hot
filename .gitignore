@@ -15,6 +15,12 @@ key.env
 data/*.db
 data/*.sqlite*
 data/reports/*.json
+backend/data/*.db
+backend/data/*.sqlite*
+backend/data/reports/*.json
+backend/data/*.db
+backend/data/*.sqlite*
+backend/data/reports/*.json
 
 # Local tool state
 .local/

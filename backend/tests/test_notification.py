@@ -1,7 +1,7 @@
-import unittest
+﻿import unittest
 from unittest.mock import patch
 
-from src.notification import NotificationSender
+from journal_tracker.notification import NotificationSender
 
 
 class FakeConfig:
@@ -12,7 +12,7 @@ class FakeConfig:
 class NotificationSenderTests(unittest.TestCase):
     def test_batch_notification_does_not_send_when_wechat_disabled(self) -> None:
         with patch(
-            "src.notification.get_config",
+            "journal_tracker.notification.get_config",
             return_value=FakeConfig({"enable_wechat": False}),
         ):
             sender = NotificationSender()

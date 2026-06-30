@@ -1,7 +1,7 @@
-import unittest
+﻿import unittest
 from unittest.mock import Mock, patch
 
-from src.filter import PaperFilter
+from journal_tracker.filter import PaperFilter
 
 
 class FakeConfig:
@@ -14,8 +14,8 @@ class FakeConfig:
 
 class PaperFilterTests(unittest.TestCase):
     def test_filter_initializes_anthropic_client_with_deepseek_base_url(self) -> None:
-        with patch("src.filter.get_config", return_value=FakeConfig()):
-            with patch("src.filter.anthropic.Anthropic", return_value=Mock()) as mock_client:
+        with patch("journal_tracker.filter.get_config", return_value=FakeConfig()):
+            with patch("journal_tracker.filter.anthropic.Anthropic", return_value=Mock()) as mock_client:
                 paper_filter = PaperFilter()
 
         self.assertEqual(paper_filter.model, "deepseek-v4-flash")
@@ -40,8 +40,8 @@ class PaperFilterTests(unittest.TestCase):
         client = Mock()
         client.messages.create.return_value = Mock(content=[thinking_block, text_block])
 
-        with patch("src.filter.get_config", return_value=FakeConfig()):
-            with patch("src.filter.anthropic.Anthropic", return_value=client):
+        with patch("journal_tracker.filter.get_config", return_value=FakeConfig()):
+            with patch("journal_tracker.filter.anthropic.Anthropic", return_value=client):
                 paper_filter = PaperFilter()
 
         result = paper_filter.filter_paper(

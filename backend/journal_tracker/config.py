@@ -11,18 +11,25 @@ class Config:
 
     def __init__(self, config_dir: Optional[Path] = None):
         if config_dir is None:
-            config_dir = Path(__file__).parent.parent / "config"
+            config_dir = Path(__file__).resolve().parents[1] / "config"
         self.config_dir = Path(config_dir)
-        self.project_root = self.config_dir.parent
+        self.backend_root = self.config_dir.parent
+        if self.backend_root.name == "backend":
+            self.project_root = self.backend_root.parent
+        else:
+            self.project_root = self.backend_root
         self.env_file = self._load_env_file()
         self._load_configs()
 
     def _load_env_file(self) -> dict:
         """读取项目根目录本地 env 文件，便于安全注入 API key。"""
-        env_path = self.project_root / ".env"
-        if not env_path.exists():
-            env_path = self.project_root / "key.env"
-        if not env_path.exists():
+        env_candidates = [
+            self.project_root / ".env",
+            self.project_root / "key.env",
+            self.project_root / ".local" / "key.env",
+        ]
+        env_path = next((path for path in env_candidates if path.exists()), None)
+        if env_path is None:
             return {}
 
         values = {}
@@ -71,12 +78,18 @@ class Config:
     def database_path(self) -> Path:
         """数据库路径"""
         configured_path = self.settings.get("database", {}).get("path", "data/papers.db")
-        return self.project_root / configured_path
+        path = Path(configured_path)
+        if path.is_absolute():
+            return path
+        return self.backend_root / path
 
     @property
     def public_data_dir(self) -> Path:
         """公开数据导出目录"""
-        public_dir = self.project_root / "public" / "data"
+        if self.backend_root.name == "backend":
+            public_dir = self.project_root / "frontend" / "public" / "data"
+        else:
+            public_dir = self.project_root / "public" / "data"
         public_dir.mkdir(parents=True, exist_ok=True)
         return public_dir
 

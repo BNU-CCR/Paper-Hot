@@ -1,11 +1,11 @@
-import json
+﻿import json
 import unittest
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import Mock
 
-from src.coverage import CoverageVerifier, CrossrefClient, normalize_doi
-from src.storage import Paper, PaperStorage
+from journal_tracker.coverage import CoverageVerifier, CrossrefClient, normalize_doi
+from journal_tracker.storage import Paper, PaperStorage
 
 
 class CoverageVerifierTests(unittest.TestCase):

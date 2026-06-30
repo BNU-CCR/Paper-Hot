@@ -1,9 +1,9 @@
-import unittest
+﻿import unittest
 import csv
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from src.storage import Paper, PaperStorage
+from journal_tracker.storage import Paper, PaperStorage
 
 
 class StorageWorkflowTests(unittest.TestCase):

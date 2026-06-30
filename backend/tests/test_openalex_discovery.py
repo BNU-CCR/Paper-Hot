@@ -1,7 +1,7 @@
-import unittest
+﻿import unittest
 from unittest.mock import Mock
 
-from src.discovery import OpenAlexDiscovery
+from journal_tracker.discovery import OpenAlexDiscovery
 
 
 class OpenAlexDiscoveryTests(unittest.TestCase):

@@ -1,12 +1,12 @@
-"""
+﻿"""
 计算传播论文追踪系统 - 主入口
 
 用法:
-    python -m src.main                    # 运行完整流程
-    python -m src.main --search            # 仅搜索论文
-    python -m src.main --filter            # 仅筛选
-    python -m src.main --stats             # 查看统计
-    python -m src.main --export            # 导出CSV
+    py -m journal_tracker.main                       # 运行完整流程
+    py -m journal_tracker.main search                # 仅搜索论文
+    py -m journal_tracker.main screen-pending        # 筛选待处理论文
+    py -m journal_tracker.main workflow-status       # 查看状态
+    py -m journal_tracker.main export-public         # 导出公开 JSON
 """
 
 import argparse
@@ -536,11 +536,11 @@ def run_doctor(config: Optional[Config] = None) -> int:
     keywords = config.get_discovery_keywords()
 
     checks = [
-        ("Anthropic API Key", bool(config.anthropic_api_key), "ANTHROPIC_API_KEY 或 .env/key.env", True),
+        ("Anthropic API Key", bool(config.anthropic_api_key), "ANTHROPIC_API_KEY 或 .env/key.env/.local/key.env", True),
         (
             "Semantic Scholar API Key",
             bool(config.semantic_scholar_api_key),
-            "SEMANTIC_SCHOLAR_API_KEY 或 .env/key.env",
+            "SEMANTIC_SCHOLAR_API_KEY 或 .env/key.env/.local/key.env",
             True,
         ),
         ("Database", config.database_path.exists(), str(config.database_path), True),

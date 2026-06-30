@@ -236,7 +236,7 @@ async function loadPapers() {
     document.getElementById("timeline").innerHTML = `
       <div class="empty-state">
         <strong>论文数据加载失败</strong>
-        <span>请确认已运行 python -m src.main export-public，并从项目根目录启动静态服务器。</span>
+        <span>请确认已运行 py -m journal_tracker.main export-public，并从项目根目录启动静态服务器。</span>
       </div>
     `;
     document.getElementById("feedCount").textContent = "加载失败";

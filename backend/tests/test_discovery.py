@@ -1,10 +1,10 @@
-import io
+﻿import io
 import unittest
 from unittest.mock import Mock, patch
 
 import requests
 
-from src.discovery import DiscoveredPaper, PaperDiscovery
+from journal_tracker.discovery import DiscoveredPaper, PaperDiscovery
 
 
 class FakeResponse:
@@ -45,7 +45,7 @@ class PaperDiscoveryTests(unittest.TestCase):
         )
         discovery.session.get = Mock(side_effect=[rate_limited, success])
 
-        with patch("src.discovery.time.sleep") as mock_sleep:
+        with patch("journal_tracker.discovery.time.sleep") as mock_sleep:
             papers = discovery.search_papers("computational communication", limit=1)
 
         self.assertEqual(len(papers), 1)
@@ -60,7 +60,7 @@ class PaperDiscoveryTests(unittest.TestCase):
         success = FakeResponse(payload={"data": [{"title": "Recovered after 503"}]})
         discovery.session.get = Mock(side_effect=[FakeResponse(status_error=server_error), success])
 
-        with patch("src.discovery.time.sleep") as mock_sleep:
+        with patch("journal_tracker.discovery.time.sleep") as mock_sleep:
             papers = discovery.search_papers("computational communication", limit=1)
 
         self.assertEqual(len(papers), 1)
@@ -75,7 +75,7 @@ class PaperDiscoveryTests(unittest.TestCase):
         success = FakeResponse(payload={"data": [{"title": "Recovered with retry after"}]})
         discovery.session.get = Mock(side_effect=[FakeResponse(status_error=rate_limit_error), success])
 
-        with patch("src.discovery.time.sleep") as mock_sleep:
+        with patch("journal_tracker.discovery.time.sleep") as mock_sleep:
             papers = discovery.search_papers("computational communication", limit=1)
 
         self.assertEqual(len(papers), 1)
@@ -154,7 +154,7 @@ class PaperDiscoveryTests(unittest.TestCase):
         discovery = PaperDiscovery(api_key="test-key")
         discovery._get_json = Mock(side_effect=requests.RequestException("network down"))
 
-        with patch("src.discovery.time.sleep"):
+        with patch("journal_tracker.discovery.time.sleep"):
             with patch("sys.stdout", io.StringIO()):
                 papers = discovery.search_recent_papers(keywords=["k1"], limit=1)
 

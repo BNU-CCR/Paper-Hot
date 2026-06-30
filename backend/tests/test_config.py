@@ -1,11 +1,11 @@
-import unittest
+﻿import unittest
 import io
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import patch
 
-from src import main as main_module
-from src.config import Config
+from journal_tracker import main as main_module
+from journal_tracker.config import Config
 
 
 def write_file(path: Path, content: str) -> None:
@@ -97,7 +97,7 @@ SEMANTIC_SCHOLAR_API_KEY=semantic-from-env-file
 """.strip(),
             )
 
-            with patch("src.config.os.environ", {}):
+            with patch("journal_tracker.config.os.environ", {}):
                 config = Config(config_dir)
 
             self.assertEqual(config.anthropic_api_key, "anthropic-from-env-file")
@@ -124,7 +124,7 @@ SEMANTIC_SCHOLAR_API_KEY=semantic-from-key-env
 """.strip(),
             )
 
-            with patch("src.config.os.environ", {}):
+            with patch("journal_tracker.config.os.environ", {}):
                 config = Config(config_dir)
 
             self.assertEqual(config.anthropic_api_key, "deepseek-from-key-env")
@@ -190,7 +190,7 @@ SEMANTIC_SCHOLAR_API_KEY=semantic-from-env-file
             )
 
             stdout = io.StringIO()
-            with patch("src.config.os.environ", {}):
+            with patch("journal_tracker.config.os.environ", {}):
                 with patch("sys.argv", ["main", "--config", str(config_dir), "doctor"]):
                     with patch("sys.stdout", stdout):
                         with self.assertRaises(SystemExit) as exit_info:

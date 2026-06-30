@@ -1,4 +1,4 @@
-# Paper HOT / 计算传播期刊追踪
+﻿# Paper HOT / 计算传播期刊追踪
 
 Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是：以团队红榜期刊为稳定数据源，定期抓取 2026 年以来的论文更新，保留期刊全量更新，再用 AI 筛选出计算传播相关论文，生成摘要、标签和推荐理由，并发布到静态网站和后续推送渠道。
 
@@ -15,15 +15,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 
 已完成：
 
-- 红榜期刊配置：`config/journals.yaml`
+- 红榜期刊配置：`backend/config/journals.yaml`
 - OpenAlex source/ISSN 期刊抓取：`fetch-journals`
-- 本地 SQLite 存储和去重：`data/papers.db`
+- 本地 SQLite 存储和去重：`backend/data/papers.db`
 - 队列状态：`pending`、`screened`、`quarantined`
 - 历史废数据隔离：`repair-queue`
 - DeepSeek / Anthropic-compatible AI 筛选：`screen-pending`
-- 精选论文导出：`public/data/papers.json`
-- 红榜期刊全量更新导出：`public/data/all_papers.json`
-- 静态网站：`web/index.html`
+- 精选论文导出：`frontend/public/data/papers.json`
+- 红榜期刊全量更新导出：`frontend/public/data/all_papers.json`
+- 静态网站：`frontend/web/index.html`
 - Featured / All Updates 切换
 - OpenAlex / Crossref DOI 覆盖验证：`verify-coverage`
 
@@ -47,16 +47,19 @@ All journal update rows exported: 23
 
 ```text
 .
-├── config/                 # journals, prompts, settings
-├── data/                   # local database and generated local reports
+├── backend/
+│   ├── config/             # journals, prompts, settings
+│   ├── data/               # local database and generated local reports
+│   ├── journal_tracker/    # Python CLI and workflow modules
+│   ├── scripts/            # backend helper scripts
+│   └── tests/              # unittest test suite
 ├── docs/
 │   ├── project-map.md      # what each file/folder does
 │   ├── roadmap.md          # current TODO and development phases
 │   └── archive/            # historical plans/specs
-├── public/data/            # JSON consumed by the static website
-├── src/                    # Python CLI and workflow modules
-├── tests/                  # unittest test suite
-├── web/                    # static website
+├── frontend/
+│   ├── public/data/        # JSON consumed by the static website
+│   └── web/                # static website
 ├── README.md
 └── pyproject.toml
 ```
@@ -69,7 +72,7 @@ Install the package in editable mode:
 py -m pip install -e .
 ```
 
-Local secrets go in `key.env`, which is ignored by git:
+Local secrets go in `.local/key.env`, which is ignored by git:
 
 ```env
 ANTHROPIC_API_KEY=your DeepSeek API key
@@ -86,43 +89,43 @@ OpenAlex and Crossref do not require local API keys.
 Check current state:
 
 ```bash
-py -m src.main workflow-status
+py -m journal_tracker.main workflow-status
 ```
 
 Fetch red-list journal updates:
 
 ```bash
-py -m src.main fetch-journals --limit-per-journal 100
+py -m journal_tracker.main fetch-journals --limit-per-journal 100
 ```
 
 Repair local queue and quarantine dirty legacy rows:
 
 ```bash
-py -m src.main repair-queue
+py -m journal_tracker.main repair-queue
 ```
 
 Screen pending papers with AI:
 
 ```bash
-py -m src.main screen-pending --limit 20
+py -m journal_tracker.main screen-pending --limit 20
 ```
 
 Export website data:
 
 ```bash
-py -m src.main export-public
+py -m journal_tracker.main export-public
 ```
 
 Verify OpenAlex coverage against Crossref:
 
 ```bash
-py -m src.main verify-coverage
+py -m journal_tracker.main verify-coverage
 ```
 
 Publish all High papers and refresh website JSON:
 
 ```bash
-py -m src.main update-public
+py -m journal_tracker.main update-public
 ```
 
 Preview the website locally:
@@ -134,7 +137,7 @@ py -m http.server 8000
 Then open:
 
 ```text
-http://127.0.0.1:8000/web/index.html
+http://127.0.0.1:8000/frontend/web/index.html
 ```
 
 ## Recommended Next Run
@@ -142,10 +145,10 @@ http://127.0.0.1:8000/web/index.html
 Because the current local inventory was created with a shallow fetch, run a deeper OpenAlex fetch before further AI prompt work:
 
 ```bash
-py -m src.main fetch-journals --limit-per-journal 100
-py -m src.main repair-queue
-py -m src.main export-public
-py -m src.main verify-coverage
+py -m journal_tracker.main fetch-journals --limit-per-journal 100
+py -m journal_tracker.main repair-queue
+py -m journal_tracker.main export-public
+py -m journal_tracker.main verify-coverage
 ```
 
 After checking how many new `pending` rows appear, run `screen-pending` in batches.
@@ -155,31 +158,31 @@ After checking how many new `pending` rows appear, run `screen-pending` in batch
 Python tests:
 
 ```bash
-py -m unittest tests.test_config tests.test_publication tests.test_discovery tests.test_openalex_discovery tests.test_filter tests.test_notification tests.test_journal_workflow tests.test_storage_workflow tests.test_coverage -v
+py -m unittest discover backend/tests -v
 ```
 
 Frontend logic tests:
 
 ```bash
-node web\app.test.cjs
+node frontend\web\app.test.cjs
 ```
 
 ## Git Notes
 
 Committed:
 
-- Source code in `src/`
-- Tests in `tests/`
-- Config templates and journal metadata in `config/`
-- Static site in `web/`
-- Public website JSON snapshots in `public/data/`
+- Backend source code in `backend/journal_tracker/`
+- Backend tests in `backend/tests/`
+- Config templates and journal metadata in `backend/config/`
+- Static site in `frontend/web/`
+- Public website JSON snapshots in `frontend/public/data/`
 - Current docs in `docs/`
 
 Ignored:
 
-- `key.env`
-- `data/papers.db`
-- `data/reports/*.json`
+- `.local/key.env`
+- `backend/data/papers.db`
+- `backend/data/reports/*.json`
 - Feishu QR code images
 - `.local/` local tool artifacts
 - `.agents/`, `.codex/`, `.claude/`

@@ -20,15 +20,15 @@ dev = [
 ]
 
 [project.scripts]
-journal-tracker = "src.main:main"
+journal-tracker = "journal_tracker.main:main"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["src*"]
+where = ["backend"]
+include = ["journal_tracker*"]
 
 [tool.black]
 line-length = 100
