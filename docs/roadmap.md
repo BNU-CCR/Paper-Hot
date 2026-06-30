@@ -24,6 +24,7 @@ Paper HOT 目标是做一个类似 AI HOT 的计算传播论文情报站：
   - `frontend/public/data/all_papers.json`: all red-list OpenAlex journal updates.
 - Website supports Featured / All Updates switching.
 - Crossref coverage verification is implemented with `verify-coverage`.
+- The journal-first weekly workflow is implemented with `weekly-run`.
 
 Latest verified local state:
 
@@ -58,7 +59,7 @@ Latest verified local state:
 - [x] Add OpenAlex / Crossref DOI coverage verification.
 - [x] Increase OpenAlex fetch depth and refresh local journal inventory.
 - [x] Re-run coverage verification after deeper OpenAlex fetch.
-- [ ] Make the default full pipeline journal-first; keep keyword search as supplemental.
+- [x] Make the default full pipeline journal-first; keep keyword search as supplemental.
 
 ## Phase 3: AI Screening Quality
 
@@ -70,9 +71,9 @@ Latest verified local state:
 
 ## Phase 4: Automation And Logs
 
-- [ ] Persist ingestion run reports as JSON logs.
-- [ ] Persist screening run reports as JSON logs.
-- [ ] Add a single weekly command that runs fetch, repair, screen, export, and coverage verification.
+- [x] Persist ingestion run reports as JSON logs.
+- [x] Persist screening run reports as JSON logs.
+- [x] Add a single weekly command that runs fetch, repair, screen, export, and coverage verification.
 - [ ] Decide whether scheduling should be local cron / Task Scheduler, GitHub Actions, or external automation.
 
 ## Phase 5: Deployment And Push
@@ -92,14 +93,10 @@ Latest verified local state:
 
 ## Immediate Next Step
 
-The deep fetch and bulk screening round is complete. Next, convert the manual commands into a robust journal-first weekly workflow:
+The deep fetch, bulk screening round, and journal-first weekly command are complete. Next, decide where the weekly command should run automatically:
 
 ```bash
-py -m journal_tracker.main fetch-journals --limit-per-journal 100
-py -m journal_tracker.main repair-queue
-py -m journal_tracker.main screen-pending --limit 50
-py -m journal_tracker.main update-public --refilter-limit 10
-py -m journal_tracker.main verify-coverage
+py -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
 ```
 
-Before automating it, improve error handling for malformed AI responses and keep `refilter-errors` as a recovery step.
+Practical scheduling options are local Windows Task Scheduler, GitHub Actions, or an external service. The current blocker is choosing where secrets and runtime database state should live in production.

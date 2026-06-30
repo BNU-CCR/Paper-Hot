@@ -26,6 +26,7 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 - 静态网站：`frontend/web/index.html`
 - Featured / All Updates 切换
 - OpenAlex / Crossref DOI 覆盖验证：`verify-coverage`
+- 每周期刊优先工作流：`weekly-run`
 
 最近一次本地状态：
 
@@ -123,6 +124,12 @@ Verify OpenAlex coverage against Crossref:
 py -m journal_tracker.main verify-coverage
 ```
 
+Run the journal-first weekly workflow:
+
+```bash
+py -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
+```
+
 Publish all High papers and refresh website JSON:
 
 ```bash
@@ -146,12 +153,7 @@ http://127.0.0.1:8000/frontend/web/index.html
 The latest deep fetch and bulk screening have completed. For the next routine refresh, run:
 
 ```bash
-py -m journal_tracker.main fetch-journals --limit-per-journal 100
-py -m journal_tracker.main repair-queue
-py -m journal_tracker.main screen-pending --limit 50
-py -m journal_tracker.main update-public --refilter-limit 10
-py -m journal_tracker.main export-public
-py -m journal_tracker.main verify-coverage
+py -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
 ```
 
 Before the next large screening run, improve the AI response parser and prompt because one paper still remains in `screening_status = error` after retries.

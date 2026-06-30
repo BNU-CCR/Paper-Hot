@@ -10,6 +10,7 @@
 """
 
 import argparse
+import json
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -440,6 +441,105 @@ def update_public_workflow(config: Optional[Config] = None, refilter_limit: int 
     return 0
 
 
+def run_weekly_journal_workflow(
+    config: Optional[Config] = None,
+    limit_per_journal: int = 100,
+    screen_limit: int = 50,
+    max_screen_batches: int = 10,
+    refilter_limit: int = 10,
+    verify: bool = True,
+) -> int:
+    """Run the journal-first weekly workflow and persist a machine-readable report."""
+    if config is None:
+        config = get_config()
+
+    started_at = datetime.now()
+    storage = PaperStorage(config.database_path)
+    before_stats = storage.get_statistics()
+    report = {
+        "started_at": started_at.isoformat(),
+        "finished_at": "",
+        "steps": {},
+        "before": before_stats,
+        "after": {},
+    }
+
+    print("Paper HOT weekly journal workflow")
+    print("=" * 40)
+
+    saved_count = ingest_journal_updates(config, limit_per_journal)
+    report["steps"]["fetch_journals"] = {
+        "limit_per_journal": limit_per_journal,
+        "saved_new_papers": saved_count,
+    }
+
+    repair_report = repair_local_screening_queue(config)
+    report["steps"]["repair_queue"] = repair_report
+
+    screening_batches = []
+    for batch_index in range(max_screen_batches):
+        stats = storage.get_statistics()
+        pending_count = stats.get("screening_status", {}).get("pending", 0)
+        if pending_count <= 0:
+            break
+        before_batch = storage.get_statistics()
+        screen_pending_papers(config, limit=screen_limit)
+        after_batch = storage.get_statistics()
+        before_screening = before_batch.get("screening_status", {})
+        after_screening = after_batch.get("screening_status", {})
+        screening_batches.append(
+            {
+                "batch": batch_index + 1,
+                "requested_limit": screen_limit,
+                "pending_before": pending_count,
+                "screened_delta": after_screening.get("screened", 0)
+                - before_screening.get("screened", 0),
+                "error_delta": after_screening.get("error", 0)
+                - before_screening.get("error", 0),
+                "pending_after": after_screening.get("pending", 0),
+            }
+        )
+    report["steps"]["screen_pending"] = {
+        "screen_limit": screen_limit,
+        "max_screen_batches": max_screen_batches,
+        "batches": screening_batches,
+    }
+
+    update_public_workflow(config, refilter_limit=refilter_limit)
+    public_count = len(storage.get_public_papers(limit=10000))
+    report["steps"]["update_public"] = {
+        "refilter_limit": refilter_limit,
+        "public_papers": public_count,
+    }
+
+    if verify:
+        verify_coverage(config)
+        latest_coverage = config.data_dir / "reports" / "coverage_latest.json"
+        if latest_coverage.exists():
+            coverage_report = json.loads(latest_coverage.read_text(encoding="utf-8"))
+            report["steps"]["verify_coverage"] = coverage_report.get("summary", {})
+    else:
+        report["steps"]["verify_coverage"] = {"skipped": True}
+
+    report["after"] = storage.get_statistics()
+    report["finished_at"] = datetime.now().isoformat()
+    report_path = _write_weekly_run_report(config, report)
+    print(f"Weekly report: {report_path}")
+    return 0
+
+
+def _write_weekly_run_report(config: Config, report: dict) -> Path:
+    reports_dir = config.data_dir / "reports"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    dated_path = reports_dir / f"weekly_run_{timestamp}.json"
+    latest_path = reports_dir / "weekly_run_latest.json"
+    payload = json.dumps(report, ensure_ascii=False, indent=2)
+    dated_path.write_text(payload, encoding="utf-8")
+    latest_path.write_text(payload, encoding="utf-8")
+    return dated_path
+
+
 def show_workflow_status(config: Optional[Config] = None) -> None:
     """显示采集、筛选、公开发布相关的工作流状态。"""
     if config is None:
@@ -644,6 +744,12 @@ def main():
     update_public_parser = subparsers.add_parser("update-public", help="重筛错误论文、公开 High 论文并刷新公开站 JSON")
     update_public_parser.add_argument("--refilter-limit", type=int, default=20, help="最多重筛错误论文数")
     subparsers.add_parser("workflow-status", help="显示采集、筛选、公开发布工作流状态")
+    weekly_parser = subparsers.add_parser("weekly-run", help="运行期刊优先的每周采集、筛选、发布和覆盖验证")
+    weekly_parser.add_argument("--limit-per-journal", type=int, default=100, help="每本期刊最多抓取论文数")
+    weekly_parser.add_argument("--screen-limit", type=int, default=50, help="每批最多筛选 pending 论文数")
+    weekly_parser.add_argument("--max-screen-batches", type=int, default=10, help="本次最多筛选批次数")
+    weekly_parser.add_argument("--refilter-limit", type=int, default=10, help="最多重筛错误论文数")
+    weekly_parser.add_argument("--skip-coverage", action="store_true", help="跳过 Crossref 覆盖验证")
 
     args = parser.parse_args()
 
@@ -680,6 +786,17 @@ def main():
         sys.exit(update_public_workflow(config, args.refilter_limit))
     elif args.command == "workflow-status":
         show_workflow_status(config)
+    elif args.command == "weekly-run":
+        sys.exit(
+            run_weekly_journal_workflow(
+                config,
+                limit_per_journal=args.limit_per_journal,
+                screen_limit=args.screen_limit,
+                max_screen_batches=args.max_screen_batches,
+                refilter_limit=args.refilter_limit,
+                verify=not args.skip_coverage,
+            )
+        )
     else:
         # 默认运行完整流程
         run_full_pipeline(config, args.max_papers)

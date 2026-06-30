@@ -8,7 +8,7 @@ from unittest.mock import Mock, patch
 from journal_tracker import main as main_module
 from journal_tracker.config import Config
 from journal_tracker.discovery import DiscoveredPaper
-from journal_tracker.storage import PaperStorage
+from journal_tracker.storage import Paper, PaperStorage
 
 
 def write_file(path: Path, content: str) -> None:
@@ -116,6 +116,79 @@ journals:
             saved = json.loads(report_path.read_text(encoding="utf-8"))
             self.assertEqual(saved["summary"]["journals_checked"], 1)
             self.assertIn("Coverage report", stdout.getvalue())
+
+    def test_weekly_run_cli_writes_report_and_runs_journal_first_steps(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            write_file(config_dir / "journals.yaml", "journals: []\n")
+            write_file(config_dir / "prompts.yaml", "{}")
+            write_file(config_dir / "settings.yaml", "database:\n  path: \"data/papers.db\"\n")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            storage.add_paper(
+                Paper(
+                    title="Pending weekly paper",
+                    journal="Communication Research",
+                    link="https://example.org/pending-weekly-paper",
+                    source_type="openalex",
+                    screening_status="pending",
+                )
+            )
+
+            calls = []
+
+            def fake_fetch(config, limit_per_journal):
+                calls.append(("fetch", limit_per_journal))
+                return 3
+
+            def fake_repair(config):
+                calls.append(("repair", None))
+                return {"pending": 1, "quarantined": 0}
+
+            def fake_screen(config, limit):
+                calls.append(("screen", limit))
+                return 0
+
+            def fake_update(config, refilter_limit):
+                calls.append(("update", refilter_limit))
+                return 0
+
+            stdout = io.StringIO()
+            with patch("journal_tracker.main.ingest_journal_updates", side_effect=fake_fetch):
+                with patch("journal_tracker.main.repair_local_screening_queue", side_effect=fake_repair):
+                    with patch("journal_tracker.main.screen_pending_papers", side_effect=fake_screen):
+                        with patch("journal_tracker.main.update_public_workflow", side_effect=fake_update):
+                            with patch("sys.argv", [
+                                "main",
+                                "--config",
+                                str(config_dir),
+                                "weekly-run",
+                                "--limit-per-journal",
+                                "7",
+                                "--screen-limit",
+                                "5",
+                                "--max-screen-batches",
+                                "1",
+                                "--refilter-limit",
+                                "2",
+                                "--skip-coverage",
+                            ]):
+                                with patch("sys.stdout", stdout):
+                                    with self.assertRaises(SystemExit) as exit_info:
+                                        main_module.main()
+
+            self.assertEqual(exit_info.exception.code, 0)
+            self.assertEqual(calls, [("fetch", 7), ("repair", None), ("screen", 5), ("update", 2)])
+            report_path = data_dir / "reports" / "weekly_run_latest.json"
+            self.assertTrue(report_path.exists())
+            report = json.loads(report_path.read_text(encoding="utf-8"))
+            self.assertEqual(report["steps"]["fetch_journals"]["saved_new_papers"], 3)
+            self.assertEqual(report["steps"]["verify_coverage"], {"skipped": True})
+            self.assertIn("Weekly report:", stdout.getvalue())
 
 
 if __name__ == "__main__":
