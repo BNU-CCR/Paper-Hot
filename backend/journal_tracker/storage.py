@@ -276,6 +276,23 @@ class PaperStorage:
             conn.commit()
             return cursor.rowcount > 0
 
+    def mark_filter_error(self, paper_id: int, error_message: str) -> bool:
+        """Mark one paper as failed during AI screening without blocking the batch."""
+        now = datetime.now().isoformat()
+        reason = f"筛选出错: {error_message[:500]}"
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                UPDATE papers
+                SET relevance = 'Low',
+                    reason = ?,
+                    screening_status = 'error',
+                    updated_at = ?
+                WHERE id = ?
+            """, (reason, now, paper_id))
+            conn.commit()
+            return cursor.rowcount > 0
+
     def get_pending_screening_papers(
         self,
         limit: int = 100,
@@ -364,7 +381,8 @@ class PaperStorage:
             cursor = conn.cursor()
             cursor.execute("""
                 SELECT * FROM papers
-                WHERE reason LIKE '筛选出错%'
+                WHERE screening_status = 'error'
+                   OR reason LIKE '筛选出错%'
                 ORDER BY updated_at DESC, created_at DESC
                 LIMIT ?
             """, (limit,))

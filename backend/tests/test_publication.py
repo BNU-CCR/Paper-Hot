@@ -690,6 +690,76 @@ class PublicPaperExporterTests(unittest.TestCase):
         finally:
             shutil.rmtree(tmp_dir, ignore_errors=True)
 
+    def test_cli_screen_pending_marks_error_and_continues_batch(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            failed_id = storage.add_paper(
+                Paper(
+                    title="Broken AI Response Paper",
+                    journal="Communication Research",
+                    link="https://example.org/broken-ai-response",
+                    source_type="openalex",
+                    screening_status="pending",
+                )
+            )
+            screened_id = storage.add_paper(
+                Paper(
+                    title="Next Paper",
+                    abstract="Computational communication abstract",
+                    journal="Communication Research",
+                    link="https://example.org/next-paper",
+                    source_type="openalex",
+                    screening_status="pending",
+                )
+            )
+
+            fake_filter = patch("journal_tracker.main.PaperFilter").start()
+            fake_filter.return_value.filter_paper.side_effect = [
+                ValueError("truncated JSON"),
+                {
+                    "relevance": "High",
+                    "reason": "Strong computational communication match",
+                    "tags": ["computational communication"],
+                    "summary": "Uses computational methods.",
+                },
+            ]
+            try:
+                stdout = io.StringIO()
+                with patch("sys.argv", ["main", "--config", str(config_dir), "screen-pending", "--limit", "2"]):
+                    with patch("sys.stdout", stdout):
+                        with self.assertRaises(SystemExit) as exit_info:
+                            main_module.main()
+            finally:
+                patch.stopall()
+
+            self.assertEqual(exit_info.exception.code, 0)
+            updated_storage = PaperStorage(data_dir / "papers.db")
+            updated_papers = [
+                updated_storage.get_paper_by_id(failed_id),
+                updated_storage.get_paper_by_id(screened_id),
+            ]
+            self.assertEqual(
+                sorted(paper.screening_status for paper in updated_papers),
+                ["error", "screened"],
+            )
+            error_paper = next(paper for paper in updated_papers if paper.screening_status == "error")
+            screened_paper = next(paper for paper in updated_papers if paper.screening_status == "screened")
+            self.assertIn("筛选出错", error_paper.reason)
+            self.assertEqual(screened_paper.relevance, "High")
+            self.assertIn("Screening errors: 1", stdout.getvalue())
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
     def test_cli_refilter_errors_updates_failed_filter_results(self) -> None:
         tmp_dir = tempfile.mkdtemp()
         try:

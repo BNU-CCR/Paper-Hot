@@ -27,13 +27,14 @@ Paper HOT 目标是做一个类似 AI HOT 的计算传播论文情报站：
 
 Latest verified local state:
 
-- Total rows: 50
-- Screened: 30
+- Total rows: 575
+- Screened: 554
 - Quarantined: 20
 - Pending: 0
-- Public featured papers: 8
-- All journal update rows currently exported: 23
-- Coverage report indicates current OpenAlex local inventory is still shallow because the last real journal fetch used `--limit-per-journal 1`.
+- Public featured papers: 139
+- All journal update rows currently exported: 548
+- Screening errors: 1
+- Coverage report: OpenAlex DOI total 548, Crossref DOI total 582, matched DOI total 543, missing in OpenAlex 39.
 
 ## Phase 1: Public Site V1
 
@@ -55,8 +56,8 @@ Latest verified local state:
 - [x] Export public featured JSON.
 - [x] Export all journal updates JSON.
 - [x] Add OpenAlex / Crossref DOI coverage verification.
-- [ ] Increase OpenAlex fetch depth and refresh local journal inventory.
-- [ ] Re-run coverage verification after deeper OpenAlex fetch.
+- [x] Increase OpenAlex fetch depth and refresh local journal inventory.
+- [x] Re-run coverage verification after deeper OpenAlex fetch.
 - [ ] Make the default full pipeline journal-first; keep keyword search as supplemental.
 
 ## Phase 3: AI Screening Quality
@@ -91,13 +92,14 @@ Latest verified local state:
 
 ## Immediate Next Step
 
-Run a deeper OpenAlex fetch before spending more effort on AI prompt quality:
+The deep fetch and bulk screening round is complete. Next, convert the manual commands into a robust journal-first weekly workflow:
 
 ```bash
 py -m journal_tracker.main fetch-journals --limit-per-journal 100
 py -m journal_tracker.main repair-queue
-py -m journal_tracker.main export-public
+py -m journal_tracker.main screen-pending --limit 50
+py -m journal_tracker.main update-public --refilter-limit 10
 py -m journal_tracker.main verify-coverage
 ```
 
-Only after the local all-updates inventory is closer to Crossref coverage should new pending papers be screened in bulk.
+Before automating it, improve error handling for malformed AI responses and keep `refilter-errors` as a recovery step.

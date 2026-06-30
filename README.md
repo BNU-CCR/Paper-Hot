@@ -30,18 +30,19 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 最近一次本地状态：
 
 ```text
-Total rows: 50
-High: 9
-Medium: 3
-Low: 18
+Total rows: 575
+High: 140
+Medium: 69
+Low: 346
 Pending: 0
-Screened: 30
+Screened: 554
 Quarantined: 20
-Published featured papers: 8
-All journal update rows exported: 23
+Published featured papers: 139
+All journal update rows exported: 548
+Screening errors: 1
 ```
 
-最近一次覆盖验证显示：本地 OpenAlex 库只有 23 个 DOI，而 Crossref 在红榜期刊中查到 581 个 DOI。主要原因是上一次真实 OpenAlex 抓取使用了 `--limit-per-journal 1`，所以当前全量页还不是完整全量。下一步应先提高抓取深度。
+最近一次覆盖验证显示：本地 OpenAlex 库有 548 个 DOI，Crossref 在红榜期刊中查到 582 个 DOI，匹配 543 个 DOI，仍有 39 个 Crossref DOI 未进入 OpenAlex 本地库。深度抓取已经完成，下一步重点转向筛选质量、错误重试和自动化工作流。
 
 ## Project Layout
 
@@ -142,16 +143,18 @@ http://127.0.0.1:8000/frontend/web/index.html
 
 ## Recommended Next Run
 
-Because the current local inventory was created with a shallow fetch, run a deeper OpenAlex fetch before further AI prompt work:
+The latest deep fetch and bulk screening have completed. For the next routine refresh, run:
 
 ```bash
 py -m journal_tracker.main fetch-journals --limit-per-journal 100
 py -m journal_tracker.main repair-queue
+py -m journal_tracker.main screen-pending --limit 50
+py -m journal_tracker.main update-public --refilter-limit 10
 py -m journal_tracker.main export-public
 py -m journal_tracker.main verify-coverage
 ```
 
-After checking how many new `pending` rows appear, run `screen-pending` in batches.
+Before the next large screening run, improve the AI response parser and prompt because one paper still remains in `screening_status = error` after retries.
 
 ## Verification
 

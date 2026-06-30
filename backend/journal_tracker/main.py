@@ -253,13 +253,20 @@ def screen_pending_papers(config: Optional[Config] = None, limit: int = 20) -> i
 
     paper_filter = PaperFilter()
     screened_count = 0
+    error_count = 0
     for paper in papers:
-        result = paper_filter.filter_paper(
-            title=paper.title,
-            abstract=paper.abstract,
-            authors=paper.authors,
-            journal=paper.journal,
-        )
+        try:
+            result = paper_filter.filter_paper(
+                title=paper.title,
+                abstract=paper.abstract,
+                authors=paper.authors,
+                journal=paper.journal,
+            )
+        except Exception as exc:
+            error_count += 1
+            storage.mark_filter_error(paper.id, str(exc))
+            safe_print(f"Screening error [{paper.id}] | {paper.title} | {exc}")
+            continue
         tags = result.get("tags", [])
         tags_text = ",".join(tags) if isinstance(tags, list) else str(tags or "")
         if storage.update_filter_result(
@@ -275,6 +282,7 @@ def screen_pending_papers(config: Optional[Config] = None, limit: int = 20) -> i
             )
 
     print(f"Screened pending papers: {screened_count}")
+    print(f"Screening errors: {error_count}")
     return 0
 
 
@@ -501,13 +509,20 @@ def refilter_error_papers(config: Optional[Config] = None, limit: int = 20) -> i
 
     paper_filter = PaperFilter()
     updated_count = 0
+    error_count = 0
     for paper in papers:
-        result = paper_filter.filter_paper(
-            title=paper.title,
-            abstract=paper.abstract,
-            authors=paper.authors,
-            journal=paper.journal,
-        )
+        try:
+            result = paper_filter.filter_paper(
+                title=paper.title,
+                abstract=paper.abstract,
+                authors=paper.authors,
+                journal=paper.journal,
+            )
+        except Exception as exc:
+            error_count += 1
+            storage.mark_filter_error(paper.id, str(exc))
+            safe_print(f"重筛失败: [{paper.id}] {paper.title} | {exc}")
+            continue
         tags = result.get("tags", [])
         tags_text = ",".join(tags) if isinstance(tags, list) else str(tags or "")
         if storage.update_filter_result(
@@ -521,6 +536,7 @@ def refilter_error_papers(config: Optional[Config] = None, limit: int = 20) -> i
             print(f"已重筛: [{paper.id}] {paper.title} -> {result.get('relevance', 'Low')}")
 
     print(f"已重筛 {updated_count} 篇")
+    print(f"重筛仍失败 {error_count} 篇")
     return 0
 
 
