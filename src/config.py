@@ -2,7 +2,7 @@
 
 import os
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Optional, Sequence
 import yaml
 
 
@@ -152,6 +152,23 @@ class Config:
             if journal.get("name") == journal_name:
                 return journal.get("keywords", [])
         return []
+
+    def get_tracked_journals(
+        self,
+        include_priorities: Sequence[str] = ("core", "watch"),
+    ) -> List[dict]:
+        """Return red-list journals that should be fetched by default."""
+        allowed = set(include_priorities)
+        tracked = []
+        for journal in self.journals.get("journals", []):
+            priority = journal.get("priority", "core")
+            if priority not in allowed:
+                continue
+            normalized = dict(journal)
+            normalized.setdefault("priority", priority)
+            normalized.setdefault("track_from_year", 2026)
+            tracked.append(normalized)
+        return tracked
 
     def get_all_keywords(self) -> List[str]:
         """获取所有期刊的关键词"""

@@ -1,5 +1,158 @@
 [
   {
+    "id": 42,
+    "title": "AI as “Artificial Immigrants”? A Content Analysis of the U.S. News Media Framing of AI Threats",
+    "authors": [
+      "Yingqi Pan",
+      "Stephanie Herrera",
+      "Yifei Wang"
+    ],
+    "journal": "Journal of Broadcasting & Electronic Media",
+    "published_date": "2026-06-26",
+    "relevance": "High",
+    "score": null,
+    "summary": "基于整合威胁理论，分析美国新闻媒体对AI威胁的框架，发现现实威胁强调多于象征威胁，技术报道偏向现实框架。",
+    "reason": "研究AI威胁的媒体框架，采用内容分析方法并包含多对应分析，议题与方法均属计算传播范畴。",
+    "tags": [
+      "AI框架",
+      "内容分析",
+      "媒体威胁"
+    ],
+    "doi": "10.1080/08838151.2026.2692543",
+    "source_url": "https://doi.org/10.1080/08838151.2026.2692543",
+    "detail_slug": "ai-as-artificial-immigrants-a-content-analysis-of-the-u-s-news-media-framing-of-ai-threats",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Broadcasting & Electronic Media"
+  },
+  {
+    "id": 37,
+    "title": "Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology",
+    "authors": [
+      "Bingyu Chen",
+      "Ruolan Deng",
+      "Saifuddin Ahmed"
+    ],
+    "journal": "Journal of Information Technology & Politics",
+    "published_date": "2026-06-26",
+    "relevance": "High",
+    "score": null,
+    "summary": "探讨用户对ChatGPT的信任度及其在政治信息消费中的影响，分析使用行为、感知威胁和政治意识形态的作用",
+    "reason": "研究ChatGPT信任与政治信息消费，属于AI社会影响，符合AI/大模型特别条款",
+    "tags": [
+      "ChatGPT",
+      "AI信任",
+      "政治信息消费",
+      "大语言模型"
+    ],
+    "doi": "10.1080/19331681.2026.2682924",
+    "source_url": "https://doi.org/10.1080/19331681.2026.2682924",
+    "detail_slug": "trust-in-chatgpt-for-political-information-consumption-the-roles-of-use-perceived-threat-and-political-ideology",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Information Technology & Politics"
+  },
+  {
+    "id": 31,
+    "title": "Weapon, wonder or both? Political framings of AI in global north and south media",
+    "authors": [
+      "Bárbara Maria Farias Mota"
+    ],
+    "journal": "Information Communication & Society",
+    "published_date": "2026-06-26",
+    "relevance": "High",
+    "score": null,
+    "summary": "研究全球北方和南方媒体如何政治性地框架化AI，分析其作为武器或奇迹等不同叙事，属于计算传播中AI社会影响议题",
+    "reason": "AI议题在媒体中的框架分析，属于计算传播核心议题，且期刊为计算传播领域期刊",
+    "tags": [
+      "AI媒体框架",
+      "全球南北比较",
+      "政治框架"
+    ],
+    "doi": "10.1080/1369118x.2026.2691775",
+    "source_url": "https://doi.org/10.1080/1369118x.2026.2691775",
+    "detail_slug": "weapon-wonder-or-both-political-framings-of-ai-in-global-north-and-south-media",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Information, Communication & Society"
+  },
+  {
+    "id": 35,
+    "title": "NEClass: a lightweight LLM pipeline for measuring Foreign news coverage",
+    "authors": [
+      "Tobias Schmidt"
+    ],
+    "journal": "Communication Methods and Measures",
+    "published_date": "2026-06-24",
+    "relevance": "High",
+    "score": null,
+    "summary": "提出NEClass流水线，结合NER和微调LLM自动识别新闻中实体国家归属，用于分析跨国新闻覆盖，验证有效并案例研究欧元区危机报道。",
+    "reason": "使用NER和LLM的文本分析方法研究国际新闻覆盖，明确属于计算传播学。",
+    "tags": [
+      "计算传播学",
+      "LLM",
+      "命名实体识别",
+      "国际新闻覆盖"
+    ],
+    "doi": "10.1080/19312458.2026.2692353",
+    "source_url": "https://doi.org/10.1080/19312458.2026.2692353",
+    "detail_slug": "neclass-a-lightweight-llm-pipeline-for-measuring-foreign-news-coverage",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication Methods and Measures"
+  },
+  {
+    "id": 30,
+    "title": "Fifty Years of Diversity in Communication and Media Studies (1974–2023): The Intertwined Trends in Geographic, Gender, and Methodological Representation",
+    "authors": [
+      "Mark Boukes",
+      "Irina Lock",
+      "Shujun Liu"
+    ],
+    "journal": "Communication Research",
+    "published_date": "2026-06-22",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过自动化内容分析1974-2023年传播与媒体研究期刊，探索地理、性别和方法多样性趋势，发现非WEIRD国家第一作者增加、女性作者升至54%、定性方法增多，且这些趋势相互交织。",
+    "reason": "使用自动化内容分析（计算方法）研究传播学领域的多样性趋势，方法相关且议题在传播学内。",
+    "tags": [
+      "自动化内容分析",
+      "多样性研究",
+      "计算方法"
+    ],
+    "doi": "10.1177/00936502261454813",
+    "source_url": "https://doi.org/10.1177/00936502261454813",
+    "detail_slug": "fifty-years-of-diversity-in-communication-and-media-studies-1974-2023-the-intertwined-trends-in-geographic-gender-and-methodological-representation",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication Research"
+  },
+  {
+    "id": 44,
+    "title": "Constructing war in news: Discursive logics of the Pahalgam crisis in the Indian and Pakistani press",
+    "authors": [
+      "Muhammad Awais"
+    ],
+    "journal": "Media War & Conflict",
+    "published_date": "2026-06-04",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过计算文本分析印度和巴基斯坦报纸对2025年Pahalgam危机的报道，检验归因、条约安全化和情绪框架三个假设，发现两国报道存在显著差异。",
+    "reason": "使用计算文本分析方法分析新闻框架，属于计算方法+传播议题",
+    "tags": [
+      "计算文本分析",
+      "新闻框架",
+      "战争报道",
+      "印度巴基斯坦"
+    ],
+    "doi": "10.1177/17506352261432936",
+    "source_url": "https://doi.org/10.1177/17506352261432936",
+    "detail_slug": "constructing-war-in-news-discursive-logics-of-the-pahalgam-crisis-in-the-indian-and-pakistani-press",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Media, War & Conflict"
+  },
+  {
     "id": 2,
     "title": "Network-based computational communication",
     "authors": [
@@ -22,7 +175,10 @@
     ],
     "doi": "10.1209/0295-5075/ade337",
     "source_url": "https://www.semanticscholar.org/paper/48db86acc4ea49b51e078b106149083bdf5b44ea",
-    "detail_slug": "network-based-computational-communication"
+    "detail_slug": "network-based-computational-communication",
+    "source_type": "legacy",
+    "screening_status": "screened",
+    "tracked_journal": null
   },
   {
     "id": 7,
@@ -47,6 +203,9 @@
     ],
     "doi": "10.1177/10776990241301676",
     "source_url": "https://www.semanticscholar.org/paper/a6f40a71cf07e0037dffb0d70d2da583b5e50cdf",
-    "detail_slug": "between-innovation-and-standardization-best-practices-and-inclusive-guidelines-in-computational-communication-science"
+    "detail_slug": "between-innovation-and-standardization-best-practices-and-inclusive-guidelines-in-computational-communication-science",
+    "source_type": "legacy",
+    "screening_status": "screened",
+    "tracked_journal": null
   }
 ]

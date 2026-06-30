@@ -163,6 +163,72 @@ class PaperDiscoveryTests(unittest.TestCase):
         self.assertEqual(discovery.last_run_report["empty_queries"], 0)
         self.assertEqual(discovery.last_run_report["errors"], ["k1: network down"])
 
+    def test_search_journal_updates_queries_each_tracked_journal_from_year(self) -> None:
+        discovery = PaperDiscovery(api_key="test-key")
+        searched = []
+
+        def fake_search(journal, year=None, limit=10):
+            searched.append((journal, year, limit))
+            if journal == "Journal A":
+                return [
+                    DiscoveredPaper(
+                        title="Journal A paper",
+                        abstract="",
+                        authors="",
+                        journal="Journal A",
+                        published_date="2026",
+                        link="https://example.org/a",
+                        doi="10.1000/a",
+                    )
+                ]
+            return []
+
+        discovery.search_by_journal = fake_search
+
+        papers = discovery.search_journal_updates(
+            journals=[
+                {"name": "Journal A", "track_from_year": 2026},
+                {"name": "Journal B", "track_from_year": 2026},
+            ],
+            limit_per_journal=2,
+        )
+
+        self.assertEqual([paper.title for paper in papers], ["Journal A paper"])
+        self.assertEqual(searched, [("Journal A", 2026, 2), ("Journal B", 2026, 2)])
+        self.assertEqual(discovery.last_run_report["requested_queries"], 2)
+        self.assertEqual(discovery.last_run_report["successful_queries"], 1)
+        self.assertEqual(discovery.last_run_report["empty_queries"], 1)
+        self.assertEqual(discovery.last_run_report["returned_papers"], 1)
+
+    def test_search_by_journal_filters_out_non_matching_venues(self) -> None:
+        discovery = PaperDiscovery(api_key="test-key")
+        discovery.search_papers = Mock(
+            return_value=[
+                DiscoveredPaper(
+                    title="Correct venue paper",
+                    abstract="",
+                    authors="",
+                    journal="Communication Research",
+                    published_date="2026",
+                    link="https://example.org/correct",
+                    doi="10.1000/correct",
+                ),
+                DiscoveredPaper(
+                    title="Wrong venue paper",
+                    abstract="",
+                    authors="",
+                    journal="Communication Research Reports",
+                    published_date="2026",
+                    link="https://example.org/wrong",
+                    doi="10.1000/wrong",
+                ),
+            ]
+        )
+
+        papers = discovery.search_by_journal("Communication Research", year=2026, limit=2)
+
+        self.assertEqual([paper.title for paper in papers], ["Correct venue paper"])
+
 
 if __name__ == "__main__":
     unittest.main()

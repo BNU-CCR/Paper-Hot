@@ -1,63 +1,277 @@
-# 期刊配置
-# 用于论文追踪系统
-
 journals:
   - name: "Human Communication Research"
     abbr: "HCR"
     publisher: "Oxford University Press"
-    website: "https://academic.oup.com/hcr"
-    keywords:
-      - "computational communication"
-      - "social media communication"
-      - "health communication technology"
-      - "communication theory"
-    search_strategy: "journal"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S195553305"
+    issn_l: "0360-3989"
+    issn: ["0360-3989", "1468-2958"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
 
   - name: "Communication Research"
     abbr: "CR"
     publisher: "SAGE"
-    website: "https://journals.sagepub.com/home/crx"
-    keywords:
-      - "communication research methods"
-      - "media research"
-      - "interpersonal communication"
-      - "organizational communication"
-    search_strategy: "journal"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S28604305"
+    issn_l: "0093-6502"
+    issn: ["0093-6502", "1552-3810"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
 
   - name: "Information, Communication & Society"
     abbr: "ICS"
     publisher: "Taylor & Francis"
-    website: "https://www.tandfonline.com/journals/rics20"
-    keywords:
-      - "digital media"
-      - "internet and society"
-      - "information technology"
-      - "media policy"
-    search_strategy: "journal"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S70010600"
+    issn_l: "1369-118X"
+    issn: ["1369-118X", "1468-4462"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
 
-  - name: "New Media & Society"
-    abbr: "NM&S"
+  - name: "Journal of Language and Social Psychology"
+    abbr: "JLSP"
     publisher: "SAGE"
-    website: "https://journals.sagepub.com/home/nms"
-    keywords:
-      - "new media"
-      - "digital culture"
-      - "online communication"
-      - "social media studies"
-    search_strategy: "journal"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S111893742"
+    issn_l: "0261-927X"
+    issn: ["0261-927X", "1552-6526"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
 
-  - name: "Journal of Computer-Mediated Communication"
-    abbr: "JCMC"
+  - name: "The International Journal of Press/Politics"
+    abbr: "IJPP"
+    publisher: "SAGE"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S161861253"
+    issn_l: "1040-1620"
+    issn: ["1040-1620", "1940-1612", "1940-1620"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "Revista Icono 14-Revista Cientifica de Comunicacion y Tecnologias"
+    abbr: "Icono14"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S2737100467"
+    issn_l: "1697-8293"
+    issn: ["1697-8293"]
+    openalex_aliases: ["Revista ICONO14"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "Communication Methods and Measures"
+    abbr: "CMM"
+    publisher: "Taylor & Francis"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S193040567"
+    issn_l: "1931-2458"
+    issn: ["1931-2458", "1931-2466"]
+    source: "feishu_redlist"
+    notes: "Method-focused red-list journal."
+
+  - name: "Political Communication"
+    abbr: "PC"
+    publisher: "Taylor & Francis"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S27211427"
+    issn_l: "1058-4609"
+    issn: ["1058-4609", "1091-7675"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "Journal of Information Technology & Politics"
+    abbr: "JITP"
+    publisher: "Taylor & Francis"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S104369171"
+    issn_l: "1933-1681"
+    issn: ["1933-1681", "1933-169X"]
+    source: "feishu_redlist"
+    notes: "Also search as Journal of Information Technology and Politics if needed."
+
+  - name: "Social Media + Society"
+    abbr: "SMS"
+    publisher: "SAGE"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S2764570952"
+    issn_l: "2056-3051"
+    issn: ["2056-3051"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "Journal of Media Economics"
+    abbr: "JME"
+    publisher: "Taylor & Francis"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S76295336"
+    issn_l: "0899-7764"
+    issn: ["0899-7764", "1532-7736"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "Visual Communication"
+    abbr: "VC"
+    publisher: "SAGE"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S105153031"
+    issn_l: "1470-3572"
+    issn: ["1470-3572", "1741-3214"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "Asian Journal of Communication"
+    abbr: "AJC"
+    publisher: "Taylor & Francis"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S148413113"
+    issn_l: "0129-2986"
+    issn: ["0129-2986", "1742-0911"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "Journal of Broadcasting & Electronic Media"
+    abbr: "JOBEM"
+    publisher: "Taylor & Francis"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S143982487"
+    issn_l: "0883-8151"
+    issn: ["0883-8151", "1550-6878"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "International Journal of Strategic Communication"
+    abbr: "IJSC"
+    publisher: "Taylor & Francis"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S136172864"
+    issn_l: "1553-118X"
+    issn: ["1553-118X", "1553-1198"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "Media, War & Conflict"
+    abbr: "MWC"
+    publisher: "SAGE"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S48783313"
+    issn_l: "1750-6352"
+    issn: ["1750-6352", "1750-6360"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "Communication Research Reports"
+    abbr: "CRR"
+    publisher: "Taylor & Francis"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S91956071"
+    issn_l: "0882-4096"
+    issn: ["0882-4096", "1746-4099"]
+    source: "feishu_redlist"
+    notes: "Feishu note also mentioned singular title variant."
+
+  - name: "Communication and the Public"
+    abbr: "CAP"
+    publisher: "SAGE"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S4210168585"
+    issn_l: "2057-0481"
+    issn: ["2057-0473", "2057-0481"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "Communication Reports"
+    abbr: "CRP"
+    publisher: "Taylor & Francis"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S143032485"
+    issn_l: "0893-4215"
+    issn: ["0893-4215", "1745-1043"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "International Journal of Mobile Communications"
+    abbr: "IJMC"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S11933594"
+    issn_l: "1470-949X"
+    issn: ["1470-949X", "1741-5217"]
+    source: "feishu_redlist"
+    notes: "Feishu red-list note marked this as direct pass."
+
+  - name: "Global Media and Communication"
+    abbr: "GMC"
+    publisher: "SAGE"
+    priority: "core"
+    track_from_year: 2026
+    openalex_source_id: "S121442443"
+    issn_l: "1742-7665"
+    issn: ["1742-7665", "1742-7673"]
+    source: "feishu_redlist"
+    notes: "Red-list journal for weekly tracking."
+
+  - name: "International Journal of Public Opinion Research"
+    abbr: "IJPOR"
     publisher: "Oxford University Press"
-    website: "https://academic.oup.com/jcmc"
-    keywords:
-      - "computer-mediated communication"
-      - "online interaction"
-      - "digital communication"
-      - "CMC"
-    search_strategy: "journal"
+    priority: "watch"
+    track_from_year: 2026
+    openalex_source_id: "S12175909"
+    issn_l: "0954-2892"
+    issn: ["0954-2892", "1471-6909"]
+    source: "feishu_redlist"
+    notes: "Feishu note says trackable."
 
-# 全局搜索关键词（用于补充搜索）
+  - name: "International Journal of Communication"
+    abbr: "IJoC"
+    priority: "skip"
+    track_from_year: 2026
+    openalex_source_id: "S191319304"
+    issn_l: "1932-8036"
+    issn: ["1932-8036"]
+    source: "feishu_redlist"
+    notes: "Feishu note says not necessary for routine tracking."
+
+  - name: "Communication Studies"
+    abbr: "CS"
+    publisher: "Taylor & Francis"
+    priority: "skip"
+    track_from_year: 2026
+    openalex_source_id: "S4210190227"
+    issn_l: "1051-0974"
+    issn: ["1051-0974", "1745-1035"]
+    source: "feishu_redlist"
+    notes: "Feishu note says not necessary for regular tracking."
+
+  - name: "International Journal on Media Management"
+    abbr: "IJMM"
+    publisher: "Taylor & Francis"
+    priority: "skip"
+    track_from_year: 2026
+    openalex_source_id: "S4210228212"
+    issn_l: "1424-1250"
+    issn: ["1424-1250", "1424-1277"]
+    source: "feishu_redlist"
+    notes: "Feishu note was not favorable / struck-through."
+
 global_keywords:
   - "computational communication"
   - "social media computation"

@@ -1,173 +1,184 @@
-# 计算传播期刊追踪 / Paper HOT
+# Paper HOT / 计算传播期刊追踪
 
-面向计算传播研究的论文追踪与公开展示项目。目标是实现一个类似 AI HOT 的论文情报站：自动发现计算传播相关期刊论文，调用 AI 完成筛选、摘要、标签和推荐理由生成，再发布到公开网站，并在后续接入定期推送。
+Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是：以团队红榜期刊为稳定数据源，定期抓取 2026 年以来的论文更新，保留期刊全量更新，再用 AI 筛选出计算传播相关论文，生成摘要、标签和推荐理由，并发布到静态网站和后续推送渠道。
 
-## 当前状态
+## Where To Start
 
-目前已经跑通一条最小闭环：
+- 文件地图：[`docs/project-map.md`](docs/project-map.md)
+- 当前路线：[`docs/roadmap.md`](docs/roadmap.md)
+- 早期设计和过程文档：[`docs/archive/`](docs/archive/)
 
-- Semantic Scholar 论文发现。
-- DeepSeek Anthropic-compatible API 论文筛选，输出 `High / Medium / Low`、摘要、标签和推荐理由。
-- SQLite 本地存储与去重。
-- 公开站 JSON 导出：`public/data/papers.json`。
-- 静态公开站：`web/index.html` 读取 JSON 并展示论文流。
-- CLI 发布管理：`publish`、`unpublish`、`publish-high`、`update-public`、`list-public`。
-- 工作流体检与状态查看：`doctor`、`workflow-status`。
-- 当前真实库状态：7 篇论文，其中 3 篇 High，公开站发布 2 篇真实 High 论文。
-- 自动化测试覆盖配置、发现限流与临时错误重试、AI 响应解析、公开导出、通知开关和工作流命令。
+根目录只保留项目入口和必要配置。旧的 `task_plan.md`、`findings.md`、`progress.md` 已归档到 `docs/archive/2026-05-10-architecture-review/`。
 
-尚未完成的核心部分：
+## Current State
 
-- AI 筛选质量、推荐理由和标签体系优化。
-- Semantic Scholar 采集日志、查询质量和关键词策略继续优化。
-- 自动部署到公开 URL。
-- 定期推送闭环。
-- 私有后台或更方便的人工编辑入口。
+已完成：
 
-## 目录结构
+- 红榜期刊配置：`config/journals.yaml`
+- OpenAlex source/ISSN 期刊抓取：`fetch-journals`
+- 本地 SQLite 存储和去重：`data/papers.db`
+- 队列状态：`pending`、`screened`、`quarantined`
+- 历史废数据隔离：`repair-queue`
+- DeepSeek / Anthropic-compatible AI 筛选：`screen-pending`
+- 精选论文导出：`public/data/papers.json`
+- 红榜期刊全量更新导出：`public/data/all_papers.json`
+- 静态网站：`web/index.html`
+- Featured / All Updates 切换
+- OpenAlex / Crossref DOI 覆盖验证：`verify-coverage`
+
+最近一次本地状态：
+
+```text
+Total rows: 50
+High: 9
+Medium: 3
+Low: 18
+Pending: 0
+Screened: 30
+Quarantined: 20
+Published featured papers: 8
+All journal update rows exported: 23
+```
+
+最近一次覆盖验证显示：本地 OpenAlex 库只有 23 个 DOI，而 Crossref 在红榜期刊中查到 581 个 DOI。主要原因是上一次真实 OpenAlex 抓取使用了 `--limit-per-journal 1`，所以当前全量页还不是完整全量。下一步应先提高抓取深度。
+
+## Project Layout
 
 ```text
 .
-├── config/
-│   ├── journals.yaml
-│   ├── prompts.yaml
-│   └── settings.yaml
-├── data/
-│   └── papers.db              # 本地 SQLite 数据库，默认不提交
+├── config/                 # journals, prompts, settings
+├── data/                   # local database and generated local reports
 ├── docs/
-│   └── superpowers/
-│       ├── specs/
-│       └── plans/
-├── public/
-│   └── data/
-│       └── papers.json        # 公开站读取的数据
-├── scripts/
-│   └── run_tracker.sh
-├── src/
-│   ├── config.py
-│   ├── discovery.py
-│   ├── filter.py
-│   ├── main.py
-│   ├── notification.py
-│   ├── publication.py
-│   └── storage.py
-├── tests/
-└── web/
-    ├── index.html
-    ├── app.js
-    ├── styles.css
-    └── app.test.cjs
+│   ├── project-map.md      # what each file/folder does
+│   ├── roadmap.md          # current TODO and development phases
+│   └── archive/            # historical plans/specs
+├── public/data/            # JSON consumed by the static website
+├── src/                    # Python CLI and workflow modules
+├── tests/                  # unittest test suite
+├── web/                    # static website
+├── README.md
+└── pyproject.toml
 ```
 
-## 安装
+## Local Setup
+
+Install the package in editable mode:
 
 ```bash
 py -m pip install -e .
 ```
 
-## 配置
-
-本地密钥写入 `key.env`，不要提交到仓库。项目会读取 `.env` 或 `key.env`，这两个文件都已被 `.gitignore` 排除。
+Local secrets go in `key.env`, which is ignored by git:
 
 ```env
-ANTHROPIC_API_KEY=你的 DeepSeek API key
+ANTHROPIC_API_KEY=your DeepSeek API key
 ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
 AI_MODEL=deepseek-v4-flash
-SEMANTIC_SCHOLAR_API_KEY=你的 Semantic Scholar API key
-SERVERCHAN_SCKEY=可选
+SEMANTIC_SCHOLAR_API_KEY=your Semantic Scholar API key
+SERVERCHAN_SCKEY=optional
 ```
 
-说明：变量名仍保留 `ANTHROPIC_*`，是因为项目沿用 `anthropic` Python SDK，DeepSeek 提供 Anthropic API 格式兼容接口。
+OpenAlex and Crossref do not require local API keys.
 
-## 常用命令
+## Main Commands
 
-完整采集、筛选、入库流程：
-
-```bash
-py -m src.main
-```
-
-查看环境配置：
-
-```bash
-py -m src.main doctor
-```
-
-查看工作流状态：
+Check current state:
 
 ```bash
 py -m src.main workflow-status
 ```
 
-搜索论文但不入库：
+Fetch red-list journal updates:
 
 ```bash
-py -m src.main search
+py -m src.main fetch-journals --limit-per-journal 100
 ```
 
-列出本地论文：
+Repair local queue and quarantine dirty legacy rows:
 
 ```bash
-py -m src.main list
+py -m src.main repair-queue
 ```
 
-发布管理：
+Screen pending papers with AI:
 
 ```bash
-py -m src.main publish <paper_id>
-py -m src.main unpublish <paper_id>
-py -m src.main publish-high
-py -m src.main list-public
+py -m src.main screen-pending --limit 20
 ```
 
-一键刷新公开站数据：
+Export website data:
+
+```bash
+py -m src.main export-public
+```
+
+Verify OpenAlex coverage against Crossref:
+
+```bash
+py -m src.main verify-coverage
+```
+
+Publish all High papers and refresh website JSON:
 
 ```bash
 py -m src.main update-public
 ```
 
-`update-public` 会先重筛之前 AI 筛选失败的论文，再公开所有 High 论文，并刷新 `public/data/papers.json`。如果没有筛选错误，不会调用 AI API。
-
-导出数据：
-
-```bash
-py -m src.main export
-py -m src.main export-public
-```
-
-本地预览公开站：
+Preview the website locally:
 
 ```bash
 py -m http.server 8000
 ```
 
-然后打开：
+Then open:
 
 ```text
 http://127.0.0.1:8000/web/index.html
 ```
 
-## 验证
+## Recommended Next Run
 
-Python 测试：
+Because the current local inventory was created with a shallow fetch, run a deeper OpenAlex fetch before further AI prompt work:
 
 ```bash
-py -m unittest tests.test_config tests.test_publication tests.test_discovery tests.test_filter tests.test_notification -v
+py -m src.main fetch-journals --limit-per-journal 100
+py -m src.main repair-queue
+py -m src.main export-public
+py -m src.main verify-coverage
 ```
 
-前端逻辑测试：
+After checking how many new `pending` rows appear, run `screen-pending` in batches.
+
+## Verification
+
+Python tests:
+
+```bash
+py -m unittest tests.test_config tests.test_publication tests.test_discovery tests.test_openalex_discovery tests.test_filter tests.test_notification tests.test_journal_workflow tests.test_storage_workflow tests.test_coverage -v
+```
+
+Frontend logic tests:
 
 ```bash
 node web\app.test.cjs
 ```
 
-当前最近一次验证结果：26 个 Python 测试通过，前端逻辑测试通过；真实 `search` 命令可返回 Semantic Scholar 结果。
+## Git Notes
 
-## 近期路线
+Committed:
 
-1. 稳定真实数据闭环：采集、筛选、入库、公开刷新。
-2. 优化接口稳健性：采集报告、失败恢复、运行日志和关键词策略。
-3. 优化 AI 筛选质量：更清晰的评分标准、推荐理由、标签体系。
-4. 部署公开站：GitHub Pages / Vercel / Cloudflare Pages 任选其一。
-5. 加入推送：周报、RSS、Server 酱或邮件。
-6. 增加私有编辑入口：人工调整标题、摘要、标签、公开状态和 score。
+- Source code in `src/`
+- Tests in `tests/`
+- Config templates and journal metadata in `config/`
+- Static site in `web/`
+- Public website JSON snapshots in `public/data/`
+- Current docs in `docs/`
+
+Ignored:
+
+- `key.env`
+- `data/papers.db`
+- `data/reports/*.json`
+- Feishu QR code images
+- `.agents/`, `.codex/`, `.claude/`
+- build/cache artifacts

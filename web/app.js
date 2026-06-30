@@ -1,5 +1,8 @@
 const state = {
   papers: [],
+  featuredPapers: [],
+  allPapers: [],
+  mode: "featured",
   relevance: "all",
   tag: null,
   query: "",
@@ -33,6 +36,13 @@ function getAllTags(papers) {
   return Array.from(counts.entries())
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"))
     .map(([tag]) => tag);
+}
+
+function getDatasetPapers(viewState) {
+  if (viewState.mode === "all") {
+    return viewState.allPapers || [];
+  }
+  return viewState.featuredPapers || viewState.papers || [];
 }
 
 function filterPapers(papers, filters) {
@@ -135,9 +145,10 @@ function createPaperCard(paper) {
 }
 
 function renderStats() {
-  const tags = getAllTags(state.papers);
+  const papers = getDatasetPapers(state);
+  const tags = getAllTags(papers);
   document.getElementById("stats").innerHTML = `
-    <span>${state.papers.length} 篇公开</span>
+    <span>${papers.length} 篇</span>
     <span>${tags.length} 个主题</span>
   `;
 }
@@ -145,7 +156,7 @@ function renderStats() {
 function renderTags() {
   const tagCloud = document.getElementById("tagCloud");
   const clearButton = document.getElementById("clearTagButton");
-  const tags = getAllTags(state.papers);
+  const tags = getAllTags(getDatasetPapers(state));
 
   if (tags.length === 0) {
     tagCloud.innerHTML = '<span class="feed-count">暂无标签</span>';
@@ -166,7 +177,7 @@ function renderTimeline() {
   const timeline = document.getElementById("timeline");
   const emptyState = document.getElementById("emptyState");
   const feedCount = document.getElementById("feedCount");
-  const papers = filterPapers(state.papers, state);
+  const papers = filterPapers(getDatasetPapers(state), state);
 
   feedCount.textContent = `${papers.length} 篇`;
 
@@ -208,12 +219,18 @@ function render() {
 
 async function loadPapers() {
   try {
-    const response = await fetch("../public/data/papers.json", { cache: "no-store" });
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
+    const [featuredResponse, allResponse] = await Promise.all([
+      fetch("../public/data/papers.json", { cache: "no-store" }),
+      fetch("../public/data/all_papers.json", { cache: "no-store" }),
+    ]);
+    if (!featuredResponse.ok) {
+      throw new Error(`HTTP ${featuredResponse.status}`);
     }
-    const payload = await response.json();
-    state.papers = Array.isArray(payload) ? payload : [];
+    const featuredPayload = await featuredResponse.json();
+    const allPayload = allResponse.ok ? await allResponse.json() : featuredPayload;
+    state.featuredPapers = Array.isArray(featuredPayload) ? featuredPayload : [];
+    state.allPapers = Array.isArray(allPayload) ? allPayload : state.featuredPapers;
+    state.papers = state.featuredPapers;
     render();
   } catch (error) {
     document.getElementById("timeline").innerHTML = `
@@ -252,9 +269,9 @@ function initTheme() {
 }
 
 function bindEvents() {
-  document.querySelectorAll(".segment").forEach((button) => {
+  document.querySelectorAll(".segment[data-relevance]").forEach((button) => {
     button.addEventListener("click", () => {
-      document.querySelectorAll(".segment").forEach((item) => item.classList.remove("active"));
+      document.querySelectorAll(".segment[data-relevance]").forEach((item) => item.classList.remove("active"));
       button.classList.add("active");
       state.relevance = button.dataset.relevance;
       renderTimeline();
@@ -264,6 +281,16 @@ function bindEvents() {
   document.getElementById("searchInput").addEventListener("input", (event) => {
     state.query = event.target.value;
     renderTimeline();
+  });
+
+  document.querySelectorAll(".mode-segment").forEach((button) => {
+    button.addEventListener("click", () => {
+      document.querySelectorAll(".mode-segment").forEach((item) => item.classList.remove("active"));
+      button.classList.add("active");
+      state.mode = button.dataset.mode;
+      state.tag = null;
+      render();
+    });
   });
 
   document.getElementById("tagCloud").addEventListener("click", (event) => {
@@ -302,6 +329,7 @@ if (typeof module !== "undefined") {
     escapeHtml,
     filterPapers,
     getAllTags,
+    getDatasetPapers,
     groupPapersByDate,
     normalizeText,
   };

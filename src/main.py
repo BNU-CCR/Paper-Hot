@@ -11,15 +11,17 @@
 
 import argparse
 import sys
+from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
 from .config import Config, get_config
 from .storage import PaperStorage, Paper
-from .discovery import PaperDiscovery
+from .discovery import OpenAlexDiscovery, PaperDiscovery
 from .filter import PaperFilter
 from .notification import NotificationSender
 from .publication import PublicPaperExporter
+from .coverage import CoverageVerifier
 
 
 def safe_print(message: str = "") -> None:
@@ -163,6 +165,169 @@ def search_only(config: Optional[Config] = None):
         print()
 
 
+def ingest_journal_updates(
+    config: Optional[Config] = None,
+    limit_per_journal: int = 10,
+) -> int:
+    """Fetch red-list journal updates and save them before AI screening."""
+    if config is None:
+        config = get_config()
+
+    config.database_path.parent.mkdir(parents=True, exist_ok=True)
+    storage = PaperStorage(config.database_path)
+    discovery = OpenAlexDiscovery()
+    journals = config.get_tracked_journals()
+    source_run_id = f"openalex-{datetime.now().strftime('%Y%m%d%H%M%S')}"
+    tracked_by_name = {
+        _normalize_journal_name(journal.get("name", "")): journal
+        for journal in journals
+    }
+
+    print("Red-list journal update fetch")
+    print("=" * 40)
+    print(f"Tracked journals: {len(journals)}")
+    print(f"Limit per journal: {limit_per_journal}")
+
+    papers = discovery.search_journal_updates(
+        journals=journals,
+        limit_per_journal=limit_per_journal,
+    )
+    print(f"Discovered papers: {len(papers)}")
+    _print_discovery_report(getattr(discovery, "last_run_report", {}))
+
+    saved_count = 0
+    for discovered in papers:
+        if storage.paper_exists(link=discovered.link, doi=discovered.doi):
+            safe_print(f"Skip existing: {discovered.title[:60]}")
+            continue
+        paper = Paper(
+            title=discovered.title,
+            authors=discovered.authors,
+            abstract=discovered.abstract,
+            journal=discovered.journal,
+            published_date=discovered.published_date,
+            link=discovered.link,
+            doi=discovered.doi,
+            relevance="",
+            reason="Pending AI screening",
+            source_type="openalex",
+            source_run_id=source_run_id,
+            tracked_journal=_tracked_journal_name(discovered.journal, tracked_by_name),
+            openalex_id=discovered.openalex_id,
+            screening_status="pending",
+        )
+        if storage.add_paper(paper):
+            saved_count += 1
+
+    print(f"Saved new papers: {saved_count}")
+    return saved_count
+
+
+def repair_local_screening_queue(config: Optional[Config] = None) -> dict:
+    """Classify historical unscreened rows into pending or quarantined."""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    report = storage.repair_unscreened_queue(config.get_tracked_journals())
+    print("Screening queue repair")
+    print("=" * 40)
+    print(f"Pending red-list papers: {report['pending']}")
+    print(f"Quarantined non-red-list papers: {report['quarantined']}")
+    return report
+
+
+def screen_pending_papers(config: Optional[Config] = None, limit: int = 20) -> int:
+    """Run AI screening for papers currently waiting in the local queue."""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    papers = storage.get_pending_screening_papers(limit=limit)
+    print("Pending paper screening")
+    print("=" * 40)
+    print(f"Pending papers loaded: {len(papers)}")
+    if not papers:
+        print("Screened pending papers: 0")
+        return 0
+
+    paper_filter = PaperFilter()
+    screened_count = 0
+    for paper in papers:
+        result = paper_filter.filter_paper(
+            title=paper.title,
+            abstract=paper.abstract,
+            authors=paper.authors,
+            journal=paper.journal,
+        )
+        tags = result.get("tags", [])
+        tags_text = ",".join(tags) if isinstance(tags, list) else str(tags or "")
+        if storage.update_filter_result(
+            paper_id=paper.id,
+            relevance=result.get("relevance", "Low"),
+            reason=result.get("reason", ""),
+            tags=tags_text,
+            summary=result.get("summary", ""),
+        ):
+            screened_count += 1
+            safe_print(
+                f"Screened [{paper.id}] {result.get('relevance', 'Low')} | {paper.title}"
+            )
+
+    print(f"Screened pending papers: {screened_count}")
+    return 0
+
+
+def verify_coverage(config: Optional[Config] = None) -> int:
+    """Verify local OpenAlex journal coverage against Crossref DOI coverage."""
+    if config is None:
+        config = get_config()
+
+    config.database_path.parent.mkdir(parents=True, exist_ok=True)
+    storage = PaperStorage(config.database_path)
+    reports_dir = config.data_dir / "reports"
+    dated_path = reports_dir / f"coverage_{datetime.now().strftime('%Y%m%d')}.json"
+    latest_path = reports_dir / "coverage_latest.json"
+    verifier = CoverageVerifier(storage)
+    report = verifier.verify(config.get_tracked_journals(), output_path=dated_path)
+    if not dated_path.exists():
+        dated_path.parent.mkdir(parents=True, exist_ok=True)
+        import json
+        dated_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    latest_path.write_text(dated_path.read_text(encoding="utf-8"), encoding="utf-8")
+    summary = report["summary"]
+
+    print("Coverage report")
+    print("=" * 40)
+    print(f"Journals checked: {summary.get('journals_checked', 0)}")
+    print(f"OpenAlex DOI total: {summary.get('total_openalex_dois', 0)}")
+    print(f"Crossref DOI total: {summary.get('total_crossref_dois', 0)}")
+    print(f"Matched DOI total: {summary.get('total_matched', 0)}")
+    print(f"Missing in OpenAlex: {summary.get('total_missing_in_openalex', 0)}")
+    print(f"Missing in Crossref: {summary.get('total_missing_in_crossref', 0)}")
+    print(f"Report: {dated_path}")
+    if summary.get("errors"):
+        print("Errors:")
+        for error in summary["errors"][:5]:
+            safe_print(f"- {error}")
+    return 0
+
+
+def _normalize_journal_name(name: str) -> str:
+    import re
+
+    normalized = (name or "").lower().replace("&", " and ")
+    normalized = re.sub(r"[^a-z0-9]+", " ", normalized)
+    return " ".join(normalized.split())
+
+
+def _tracked_journal_name(journal_name: str, tracked_by_name: dict) -> str:
+    journal = tracked_by_name.get(_normalize_journal_name(journal_name))
+    if journal:
+        return journal.get("name", "")
+    return journal_name
+
+
 def show_stats(config: Optional[Config] = None):
     """显示统计信息"""
     if config is None:
@@ -203,6 +368,8 @@ def export_public_data(config: Optional[Config] = None):
     storage = PaperStorage(config.database_path)
     export_path = config.public_data_dir / "papers.json"
     PublicPaperExporter(storage).export_json(export_path)
+    all_export_path = config.public_data_dir / "all_papers.json"
+    PublicPaperExporter(storage).export_all_journal_updates_json(all_export_path)
     print(f"已导出公开数据到: {export_path}")
 
 
@@ -223,6 +390,8 @@ def publish_paper(config: Optional[Config], paper_id: int, is_public: bool):
     safe_print(f"{action}: [{paper_id}] {title}")
     export_path = config.public_data_dir / "papers.json"
     PublicPaperExporter(storage).export_json(export_path)
+    all_export_path = config.public_data_dir / "all_papers.json"
+    PublicPaperExporter(storage).export_all_journal_updates_json(all_export_path)
     print(f"已刷新公开站数据: {export_path}")
     return 0
 
@@ -243,6 +412,8 @@ def publish_high_papers(config: Optional[Config] = None) -> int:
 
     export_path = config.public_data_dir / "papers.json"
     PublicPaperExporter(storage).export_json(export_path)
+    all_export_path = config.public_data_dir / "all_papers.json"
+    PublicPaperExporter(storage).export_all_journal_updates_json(all_export_path)
     print(f"已公开 High 论文: {published_count}")
     print(f"已刷新公开站数据: {export_path}")
     return 0
@@ -270,6 +441,10 @@ def show_workflow_status(config: Optional[Config] = None) -> None:
     stats = storage.get_statistics()
     public_count = len(storage.get_public_papers(limit=10000))
     filter_error_count = len(storage.get_filter_error_papers(limit=10000))
+    screening_stats = stats.get("screening_status", {})
+    pending_count = screening_stats.get("pending", 0)
+    screened_count = screening_stats.get("screened", 0)
+    quarantined_count = screening_stats.get("quarantined", 0)
 
     print("Paper HOT 工作流状态")
     print("=" * 40)
@@ -277,6 +452,9 @@ def show_workflow_status(config: Optional[Config] = None) -> None:
     print(f"High: {stats['relevance'].get('High', 0)}")
     print(f"Medium: {stats['relevance'].get('Medium', 0)}")
     print(f"Low: {stats['relevance'].get('Low', 0)}")
+    print(f"Pending screening: {pending_count}")
+    print(f"Screened: {screened_count}")
+    print(f"Quarantined: {quarantined_count}")
     print(f"已公开论文: {public_count}")
     print(f"筛选错误: {filter_error_count}")
 
@@ -304,7 +482,8 @@ def list_all_papers(config: Optional[Config] = None, limit: int = 100):
     for paper in papers:
         public_flag = int(paper.is_public)
         safe_print(
-            f"- [{paper.id}] {paper.relevance} | public={public_flag} | "
+            f"- [{paper.id}] {paper.relevance or paper.screening_status} | "
+            f"source={paper.source_type or 'unknown'} | public={public_flag} | "
             f"{paper.journal} | {paper.title}"
         )
 
@@ -390,6 +569,42 @@ def run_doctor(config: Optional[Config] = None) -> int:
 
 
 def main():
+    if "fetch-journals" in sys.argv[1:]:
+        pre_parser = argparse.ArgumentParser(description="Fetch red-list journal updates")
+        pre_parser.add_argument("--config", type=str, help="Config directory")
+        pre_parser.add_argument("command", choices=["fetch-journals"])
+        pre_parser.add_argument("--limit-per-journal", type=int, default=10)
+        pre_args = pre_parser.parse_args()
+        config = Config(Path(pre_args.config)) if pre_args.config else get_config()
+        ingest_journal_updates(config, pre_args.limit_per_journal)
+        return
+
+    if "repair-queue" in sys.argv[1:]:
+        pre_parser = argparse.ArgumentParser(description="Repair local screening queue")
+        pre_parser.add_argument("--config", type=str, help="Config directory")
+        pre_parser.add_argument("command", choices=["repair-queue"])
+        pre_args = pre_parser.parse_args()
+        config = Config(Path(pre_args.config)) if pre_args.config else get_config()
+        repair_local_screening_queue(config)
+        return
+
+    if "screen-pending" in sys.argv[1:]:
+        pre_parser = argparse.ArgumentParser(description="Screen papers waiting in the local queue")
+        pre_parser.add_argument("--config", type=str, help="Config directory")
+        pre_parser.add_argument("command", choices=["screen-pending"])
+        pre_parser.add_argument("--limit", type=int, default=20)
+        pre_args = pre_parser.parse_args()
+        config = Config(Path(pre_args.config)) if pre_args.config else get_config()
+        sys.exit(screen_pending_papers(config, pre_args.limit))
+
+    if "verify-coverage" in sys.argv[1:]:
+        pre_parser = argparse.ArgumentParser(description="Verify OpenAlex coverage against Crossref")
+        pre_parser.add_argument("--config", type=str, help="Config directory")
+        pre_parser.add_argument("command", choices=["verify-coverage"])
+        pre_args = pre_parser.parse_args()
+        config = Config(Path(pre_args.config)) if pre_args.config else get_config()
+        sys.exit(verify_coverage(config))
+
     parser = argparse.ArgumentParser(description="计算传播论文追踪系统")
     parser.add_argument("--config", type=str, help="配置文件目录")
     parser.add_argument("--max-papers", type=int, default=20, help="最大处理论文数")

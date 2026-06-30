@@ -78,6 +78,58 @@ class PublicPaperExporterTests(unittest.TestCase):
         finally:
             shutil.rmtree(tmp_dir, ignore_errors=True)
 
+    def test_all_journal_export_includes_openalex_papers_and_excludes_quarantine(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            base_dir = Path(tmp_dir)
+            storage = PaperStorage(base_dir / "papers.db")
+            storage.add_paper(
+                Paper(
+                    title="OpenAlex High Paper",
+                    journal="Communication Research",
+                    published_date="2026-06-10",
+                    link="https://example.org/openalex-high",
+                    relevance="High",
+                    source_type="openalex",
+                    screening_status="screened",
+                    is_public=True,
+                )
+            )
+            storage.add_paper(
+                Paper(
+                    title="OpenAlex Low Paper",
+                    journal="Communication Research",
+                    published_date="2026-05-10",
+                    link="https://example.org/openalex-low",
+                    relevance="Low",
+                    source_type="openalex",
+                    screening_status="screened",
+                    is_public=False,
+                )
+            )
+            storage.add_paper(
+                Paper(
+                    title="Quarantined Legacy Paper",
+                    journal="Random Journal",
+                    link="https://example.org/quarantined-legacy",
+                    source_type="legacy",
+                    screening_status="quarantined",
+                )
+            )
+
+            export_path = base_dir / "all-papers.json"
+            PublicPaperExporter(storage).export_all_journal_updates_json(export_path)
+            exported = json.loads(export_path.read_text(encoding="utf-8"))
+
+            self.assertEqual(
+                [paper["title"] for paper in exported],
+                ["OpenAlex High Paper", "OpenAlex Low Paper"],
+            )
+            self.assertEqual(exported[0]["screening_status"], "screened")
+            self.assertEqual(exported[0]["source_type"], "openalex")
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
     def test_storage_can_toggle_publication_status(self) -> None:
         tmp_dir = tempfile.mkdtemp()
         try:
@@ -483,6 +535,158 @@ class PublicPaperExporterTests(unittest.TestCase):
             self.assertIn("总计论文: 2", output)
             self.assertIn("已公开论文: 1", output)
             self.assertIn("筛选错误: 1", output)
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
+    def test_cli_workflow_status_reports_screening_queue_counts(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            storage.add_paper(
+                Paper(
+                    title="Pending Paper",
+                    journal="Communication Research",
+                    link="https://example.org/pending-paper",
+                    source_type="openalex",
+                    screening_status="pending",
+                )
+            )
+            storage.add_paper(
+                Paper(
+                    title="Quarantined Paper",
+                    journal="Random Journal",
+                    link="https://example.org/quarantined-paper",
+                    screening_status="quarantined",
+                )
+            )
+
+            stdout = io.StringIO()
+            with patch("sys.argv", ["main", "--config", str(config_dir), "workflow-status"]):
+                with patch("sys.stdout", stdout):
+                    main_module.main()
+
+            output = stdout.getvalue()
+            self.assertIn("Pending screening: 1", output)
+            self.assertIn("Quarantined: 1", output)
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
+    def test_cli_repair_queue_marks_redlist_pending_and_other_quarantined(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text(
+                "journals:\n"
+                "  - name: Communication Research\n"
+                "    openalex_source_id: S28604305\n",
+                encoding="utf-8",
+            )
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            redlist_id = storage.add_paper(
+                Paper(
+                    title="Redlist Legacy Paper",
+                    journal="Communication Research",
+                    link="https://example.org/redlist-legacy-paper",
+                    relevance="Unscreened",
+                )
+            )
+            dirty_id = storage.add_paper(
+                Paper(
+                    title="Dirty Legacy Paper",
+                    journal="Random Journal",
+                    link="https://example.org/dirty-legacy-paper",
+                    relevance="Unscreened",
+                )
+            )
+
+            stdout = io.StringIO()
+            with patch("sys.argv", ["main", "--config", str(config_dir), "repair-queue"]):
+                with patch("sys.stdout", stdout):
+                    main_module.main()
+
+            repaired_storage = PaperStorage(data_dir / "papers.db")
+            redlist = repaired_storage.get_paper_by_id(redlist_id)
+            dirty = repaired_storage.get_paper_by_id(dirty_id)
+            self.assertEqual(redlist.screening_status, "pending")
+            self.assertEqual(redlist.source_type, "openalex")
+            self.assertEqual(dirty.screening_status, "quarantined")
+            self.assertIn("Pending red-list papers: 1", stdout.getvalue())
+            self.assertIn("Quarantined non-red-list papers: 1", stdout.getvalue())
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
+    def test_cli_screen_pending_filters_only_pending_queue(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            pending_id = storage.add_paper(
+                Paper(
+                    title="Pending AI Paper",
+                    abstract="Computational communication abstract",
+                    journal="Communication Research",
+                    link="https://example.org/pending-ai-paper",
+                    source_type="openalex",
+                    screening_status="pending",
+                )
+            )
+            quarantined_id = storage.add_paper(
+                Paper(
+                    title="Quarantined Paper",
+                    journal="Random Journal",
+                    link="https://example.org/quarantined-ai-paper",
+                    screening_status="quarantined",
+                )
+            )
+
+            fake_filter = patch("src.main.PaperFilter").start()
+            fake_filter.return_value.filter_paper.return_value = {
+                "relevance": "High",
+                "reason": "Strong computational communication match",
+                "tags": ["computational communication"],
+                "summary": "Uses computational methods.",
+            }
+            try:
+                stdout = io.StringIO()
+                with patch("sys.argv", ["main", "--config", str(config_dir), "screen-pending"]):
+                    with patch("sys.stdout", stdout):
+                        with self.assertRaises(SystemExit) as exit_info:
+                            main_module.main()
+            finally:
+                patch.stopall()
+
+            self.assertEqual(exit_info.exception.code, 0)
+            updated_storage = PaperStorage(data_dir / "papers.db")
+            pending = updated_storage.get_paper_by_id(pending_id)
+            quarantined = updated_storage.get_paper_by_id(quarantined_id)
+            self.assertEqual(pending.screening_status, "screened")
+            self.assertEqual(pending.relevance, "High")
+            self.assertEqual(quarantined.screening_status, "quarantined")
+            self.assertIn("Screened pending papers: 1", stdout.getvalue())
         finally:
             shutil.rmtree(tmp_dir, ignore_errors=True)
 

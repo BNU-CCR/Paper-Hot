@@ -1,0 +1,577 @@
+[
+  {
+    "id": 42,
+    "title": "AI as “Artificial Immigrants”? A Content Analysis of the U.S. News Media Framing of AI Threats",
+    "authors": [
+      "Yingqi Pan",
+      "Stephanie Herrera",
+      "Yifei Wang"
+    ],
+    "journal": "Journal of Broadcasting & Electronic Media",
+    "published_date": "2026-06-26",
+    "relevance": "High",
+    "score": null,
+    "summary": "基于整合威胁理论，分析美国新闻媒体对AI威胁的框架，发现现实威胁强调多于象征威胁，技术报道偏向现实框架。",
+    "reason": "研究AI威胁的媒体框架，采用内容分析方法并包含多对应分析，议题与方法均属计算传播范畴。",
+    "tags": [
+      "AI框架",
+      "内容分析",
+      "媒体威胁"
+    ],
+    "doi": "10.1080/08838151.2026.2692543",
+    "source_url": "https://doi.org/10.1080/08838151.2026.2692543",
+    "detail_slug": "ai-as-artificial-immigrants-a-content-analysis-of-the-u-s-news-media-framing-of-ai-threats",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Broadcasting & Electronic Media"
+  },
+  {
+    "id": 41,
+    "title": "Shifting the balance: perceived online surveillance, fear of reprisal, and journalistic self-censorship among Vietnamese journalists",
+    "authors": [
+      "Ta Thi Nguỵet Trang",
+      "Phạm Chiến Thắng"
+    ],
+    "journal": "Asian Journal of Communication",
+    "published_date": "2026-06-26",
+    "relevance": "Low",
+    "score": null,
+    "summary": "研究越南记者对在线监控的感知与自我审查，方法可能为传统问卷调查，无计算元素",
+    "reason": "主题为新闻自我审查，未涉及计算方法或传播技术，属于传统新闻研究",
+    "tags": [
+      "新闻自我审查",
+      "在线监控"
+    ],
+    "doi": "10.1080/01292986.2026.2693999",
+    "source_url": "https://doi.org/10.1080/01292986.2026.2693999",
+    "detail_slug": "shifting-the-balance-perceived-online-surveillance-fear-of-reprisal-and-journalistic-self-censorship-among-vietnamese-journalists",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Asian Journal of Communication"
+  },
+  {
+    "id": 37,
+    "title": "Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology",
+    "authors": [
+      "Bingyu Chen",
+      "Ruolan Deng",
+      "Saifuddin Ahmed"
+    ],
+    "journal": "Journal of Information Technology & Politics",
+    "published_date": "2026-06-26",
+    "relevance": "High",
+    "score": null,
+    "summary": "探讨用户对ChatGPT的信任度及其在政治信息消费中的影响，分析使用行为、感知威胁和政治意识形态的作用",
+    "reason": "研究ChatGPT信任与政治信息消费，属于AI社会影响，符合AI/大模型特别条款",
+    "tags": [
+      "ChatGPT",
+      "AI信任",
+      "政治信息消费",
+      "大语言模型"
+    ],
+    "doi": "10.1080/19331681.2026.2682924",
+    "source_url": "https://doi.org/10.1080/19331681.2026.2682924",
+    "detail_slug": "trust-in-chatgpt-for-political-information-consumption-the-roles-of-use-perceived-threat-and-political-ideology",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Information Technology & Politics"
+  },
+  {
+    "id": 31,
+    "title": "Weapon, wonder or both? Political framings of AI in global north and south media",
+    "authors": [
+      "Bárbara Maria Farias Mota"
+    ],
+    "journal": "Information Communication & Society",
+    "published_date": "2026-06-26",
+    "relevance": "High",
+    "score": null,
+    "summary": "研究全球北方和南方媒体如何政治性地框架化AI，分析其作为武器或奇迹等不同叙事，属于计算传播中AI社会影响议题",
+    "reason": "AI议题在媒体中的框架分析，属于计算传播核心议题，且期刊为计算传播领域期刊",
+    "tags": [
+      "AI媒体框架",
+      "全球南北比较",
+      "政治框架"
+    ],
+    "doi": "10.1080/1369118x.2026.2691775",
+    "source_url": "https://doi.org/10.1080/1369118x.2026.2691775",
+    "detail_slug": "weapon-wonder-or-both-political-framings-of-ai-in-global-north-and-south-media",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Information, Communication & Society"
+  },
+  {
+    "id": 36,
+    "title": "The Joe Rogan Experience: Epistemic Style Over Ideological Extremity in the Manosphere",
+    "authors": [
+      "Dominik Stecuła",
+      "Dannagal G. Young",
+      "Michael W. Wagner",
+      "Dhavan V. Shah"
+    ],
+    "journal": "Political Communication",
+    "published_date": "2026-06-24",
+    "relevance": "Low",
+    "score": null,
+    "summary": "通过两次全国概率样本调查，分析Joe Rogan播客听众的认知取向、信息环境及意识形态等特征，但方法为传统统计，无计算元素。",
+    "reason": "使用传统问卷调查，未涉及计算分析方法",
+    "tags": [
+      "播客",
+      "调查",
+      "认知取向"
+    ],
+    "doi": "10.1080/10584609.2026.2690998",
+    "source_url": "https://doi.org/10.1080/10584609.2026.2690998",
+    "detail_slug": "the-joe-rogan-experience-epistemic-style-over-ideological-extremity-in-the-manosphere",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Political Communication"
+  },
+  {
+    "id": 35,
+    "title": "NEClass: a lightweight LLM pipeline for measuring Foreign news coverage",
+    "authors": [
+      "Tobias Schmidt"
+    ],
+    "journal": "Communication Methods and Measures",
+    "published_date": "2026-06-24",
+    "relevance": "High",
+    "score": null,
+    "summary": "提出NEClass流水线，结合NER和微调LLM自动识别新闻中实体国家归属，用于分析跨国新闻覆盖，验证有效并案例研究欧元区危机报道。",
+    "reason": "使用NER和LLM的文本分析方法研究国际新闻覆盖，明确属于计算传播学。",
+    "tags": [
+      "计算传播学",
+      "LLM",
+      "命名实体识别",
+      "国际新闻覆盖"
+    ],
+    "doi": "10.1080/19312458.2026.2692353",
+    "source_url": "https://doi.org/10.1080/19312458.2026.2692353",
+    "detail_slug": "neclass-a-lightweight-llm-pipeline-for-measuring-foreign-news-coverage",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication Methods and Measures"
+  },
+  {
+    "id": 39,
+    "title": "Decision-making under risk conditions in television knowledge competition",
+    "authors": [
+      "Alžběta Vesecká",
+      "Vojtěch Kotrba"
+    ],
+    "journal": "Journal of Media Economics",
+    "published_date": "2026-06-23",
+    "relevance": "Low",
+    "score": null,
+    "summary": "研究捷克版《百万富翁》节目中参赛者的风险决策行为，发现婚姻状况和子女数量与风险接受相关，性别无显著影响。",
+    "reason": "议题为电视节目风险决策，非典型传播议题；方法为传统逻辑回归，无计算元素",
+    "tags": [
+      "风险决策",
+      "电视节目",
+      "逻辑回归"
+    ],
+    "doi": "10.1080/08997764.2026.2692348",
+    "source_url": "https://doi.org/10.1080/08997764.2026.2692348",
+    "detail_slug": "decision-making-under-risk-conditions-in-television-knowledge-competition",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Media Economics"
+  },
+  {
+    "id": 33,
+    "title": "Attitudes or Emotions as News Compasses? Comparing Attitudinal and Emotional Guidance in Selecting News About Migration",
+    "authors": [
+      "Nico Spreen",
+      "Pablo Jost"
+    ],
+    "journal": "The International Journal of Press/Politics",
+    "published_date": "2026-06-23",
+    "relevance": "Low",
+    "score": null,
+    "summary": "通过在线实验比较政治态度与情绪对移民新闻选择的影响，发现态度引导强于情绪，未涉及计算方法。",
+    "reason": "方法为传统在线实验，无计算技术（如NLP/ML/网络分析），主题虽涉及新闻选择但未聚焦平台或算法",
+    "tags": [
+      "政治传播",
+      "选择性曝光",
+      "实验方法"
+    ],
+    "doi": "10.1177/19401612261456367",
+    "source_url": "https://doi.org/10.1177/19401612261456367",
+    "detail_slug": "attitudes-or-emotions-as-news-compasses-comparing-attitudinal-and-emotional-guidance-in-selecting-news-about-migration",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "The International Journal of Press/Politics"
+  },
+  {
+    "id": 48,
+    "title": "Investigating cloud-diffusion capabilities impacts on firm performance via inter- and intra-organisational processes",
+    "authors": [
+      "Siyi Dong",
+      "June Wei",
+      "Yuan Liu"
+    ],
+    "journal": "International Journal of Mobile Communications",
+    "published_date": "2026-06-22",
+    "relevance": "Low",
+    "score": null,
+    "summary": "研究云扩散能力通过组织内外部过程对企业绩效的影响，属于管理信息系统范畴，非计算传播学",
+    "reason": "论文主题为企业云计算采纳与绩效关系，不涉及计算传播领域议题或方法",
+    "tags": [
+      "云计算",
+      "企业绩效",
+      "信息系统"
+    ],
+    "doi": "10.1504/ijmc.2027.10079261",
+    "source_url": "https://doi.org/10.1504/ijmc.2027.10079261",
+    "detail_slug": "investigating-cloud-diffusion-capabilities-impacts-on-firm-performance-via-inter-and-intra-organisational-processes",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "International Journal of Mobile Communications"
+  },
+  {
+    "id": 30,
+    "title": "Fifty Years of Diversity in Communication and Media Studies (1974–2023): The Intertwined Trends in Geographic, Gender, and Methodological Representation",
+    "authors": [
+      "Mark Boukes",
+      "Irina Lock",
+      "Shujun Liu"
+    ],
+    "journal": "Communication Research",
+    "published_date": "2026-06-22",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过自动化内容分析1974-2023年传播与媒体研究期刊，探索地理、性别和方法多样性趋势，发现非WEIRD国家第一作者增加、女性作者升至54%、定性方法增多，且这些趋势相互交织。",
+    "reason": "使用自动化内容分析（计算方法）研究传播学领域的多样性趋势，方法相关且议题在传播学内。",
+    "tags": [
+      "自动化内容分析",
+      "多样性研究",
+      "计算方法"
+    ],
+    "doi": "10.1177/00936502261454813",
+    "source_url": "https://doi.org/10.1177/00936502261454813",
+    "detail_slug": "fifty-years-of-diversity-in-communication-and-media-studies-1974-2023-the-intertwined-trends-in-geographic-gender-and-methodological-representation",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication Research"
+  },
+  {
+    "id": 34,
+    "title": "Construcción del discurso de odio antimusulmán en X:",
+    "authors": [
+      "Daría Mottareale",
+      "Catalina Argüello‐Gutiérrez",
+      "Ángela Martín‐Gutiérrez"
+    ],
+    "journal": "Revista ICONO14",
+    "published_date": "2026-06-19",
+    "relevance": "Medium",
+    "score": null,
+    "summary": "研究西班牙媒体X平台评论中的反穆斯林仇恨言论，手动编码53787条评论，分析意识形态差异，发现右翼媒体占比高，多为低强度隐性仇恨。",
+    "reason": "议题涉及社交媒体仇恨言论，但方法为手动编码+卡方检验，无计算技术，属传统内容分析",
+    "tags": [
+      "社交媒体",
+      "仇恨言论",
+      "内容分析"
+    ],
+    "doi": "10.7195/ri14.v24i1.2347",
+    "source_url": "https://doi.org/10.7195/ri14.v24i1.2347",
+    "detail_slug": "construcci-n-del-discurso-de-odio-antimusulm-n-en-x",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Revista Icono 14-Revista Cientifica de Comunicacion y Tecnologias"
+  },
+  {
+    "id": 49,
+    "title": "Book Review: Cosmopolitan Communication Studies: Toward Deep Internationalization RichterCarolaMelanieRadueChristineHorz-IshakAnnaLitvinenkoHananBadrAnkeFiedler (ed.). (2025). Cosmopolitan Communication Studies: Toward Deep Internationalization. Bielefeld: Transcript Verlag, 318 pp. ISBN 978-3-8376-7677-8.",
+    "authors": [
+      "Mistura A. Salaudeen"
+    ],
+    "journal": "Global Media and Communication",
+    "published_date": "2026-06-18",
+    "relevance": "Low",
+    "score": null,
+    "summary": "该书评介绍一本关于国际化传播研究的书籍，无经验数据或计算方法，不属于计算传播领域。",
+    "reason": "书评，无计算元素，不涉及计算方法或计算传播议题",
+    "tags": [
+      "书评",
+      "非研究论文",
+      "不相关"
+    ],
+    "doi": "10.1177/17427665261458904",
+    "source_url": "https://doi.org/10.1177/17427665261458904",
+    "detail_slug": "book-review-cosmopolitan-communication-studies-toward-deep-internationalization-richtercarolamelanieraduechristinehorz-ishakannalitvinenkohananbadrankefiedler-ed-2025-cosmopolitan-communication-studies-toward-deep-internationalization-bielefeld-transcript-verlag-318-pp-isbn-978-3-8376-7677-8",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Global Media and Communication"
+  },
+  {
+    "id": 46,
+    "title": "Corrigendum to “Borrowing microphones: The instrumentalisation of media partnerships in China’s public diplomacy efforts in Latin America”",
+    "authors": [],
+    "journal": "Communication and the Public",
+    "published_date": "2026-06-17",
+    "relevance": "Low",
+    "score": null,
+    "summary": "论文讨论中国在拉丁美洲公共外交中媒体伙伴关系，属定性研究，非计算传播学。",
+    "reason": "标题和期刊显示为传统传播学定性分析，无计算方法或计算议题。",
+    "tags": [
+      "公共外交",
+      "媒体伙伴关系"
+    ],
+    "doi": "10.1177/20570473261440623",
+    "source_url": "https://doi.org/10.1177/20570473261440623",
+    "detail_slug": "corrigendum-to-borrowing-microphones-the-instrumentalisation-of-media-partnerships-in-china-s-public-diplomacy-efforts-in-latin-america",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication and the Public"
+  },
+  {
+    "id": 43,
+    "title": "Civil Society Nonprofit Organization Communication Ecology: A Case Study of Communication Strategies in Ghana",
+    "authors": [
+      "Stella Jing Zhang",
+      "S. Senyo Ofori-Parku"
+    ],
+    "journal": "International Journal of Strategic Communication",
+    "published_date": "2026-06-11",
+    "relevance": "Low",
+    "score": null,
+    "summary": "通过访谈和文档分析，研究加纳非营利组织的传播策略，强调生态框架，未使用计算方法",
+    "reason": "纯定性案例研究，无计算方法和数据，不涉及计算传播议题",
+    "tags": [
+      "传播生态",
+      "非营利组织",
+      "案例研究"
+    ],
+    "doi": "10.1080/1553118x.2026.2680952",
+    "source_url": "https://doi.org/10.1080/1553118x.2026.2680952",
+    "detail_slug": "civil-society-nonprofit-organization-communication-ecology-a-case-study-of-communication-strategies-in-ghana",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "International Journal of Strategic Communication"
+  },
+  {
+    "id": 44,
+    "title": "Constructing war in news: Discursive logics of the Pahalgam crisis in the Indian and Pakistani press",
+    "authors": [
+      "Muhammad Awais"
+    ],
+    "journal": "Media War & Conflict",
+    "published_date": "2026-06-04",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过计算文本分析印度和巴基斯坦报纸对2025年Pahalgam危机的报道，检验归因、条约安全化和情绪框架三个假设，发现两国报道存在显著差异。",
+    "reason": "使用计算文本分析方法分析新闻框架，属于计算方法+传播议题",
+    "tags": [
+      "计算文本分析",
+      "新闻框架",
+      "战争报道",
+      "印度巴基斯坦"
+    ],
+    "doi": "10.1177/17506352261432936",
+    "source_url": "https://doi.org/10.1177/17506352261432936",
+    "detail_slug": "constructing-war-in-news-discursive-logics-of-the-pahalgam-crisis-in-the-indian-and-pakistani-press",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Media, War & Conflict"
+  },
+  {
+    "id": 45,
+    "title": "We’re just chatting: perceptions of everyday communication with chatbots",
+    "authors": [
+      "Jess Dominguez"
+    ],
+    "journal": "Communication Research Reports",
+    "published_date": "2026-05-27",
+    "relevance": "Medium",
+    "score": null,
+    "summary": "基于美国全国样本，研究聊天机器人日常沟通中沟通偶然性对感知回应性、参与度和满意度的影响，发现陪伴感调节了偶然性与参与度的关系。",
+    "reason": "选题涉及AI聊天机器人日常交流，符合AI特别条款，但方法为传统调查，无计算元素。",
+    "tags": [
+      "人工智能",
+      "聊天机器人",
+      "人机交互",
+      "沟通满意度"
+    ],
+    "doi": "10.1080/08824096.2026.2679966",
+    "source_url": "https://doi.org/10.1080/08824096.2026.2679966",
+    "detail_slug": "we-re-just-chatting-perceptions-of-everyday-communication-with-chatbots",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication Research Reports"
+  },
+  {
+    "id": 40,
+    "title": "Multimodal semiotic content analysis: combining quantitative large-data analysis with qualitative semiotic coding",
+    "authors": [
+      "Chiao‐I Tseng",
+      "Emily Fielder",
+      "Luise Charlotte Claire Wenk"
+    ],
+    "journal": "Visual Communication",
+    "published_date": "2026-05-22",
+    "relevance": "Medium",
+    "score": null,
+    "summary": "提出整合定性符号学编码与定量大规模数据分析的框架，分析277个抑郁症迷因，发现语义资源和抑郁主题的统计关联。",
+    "reason": "议题涉及社交媒体迷因，但方法为传统内容分析与统计，非典型计算传播方法。",
+    "tags": [
+      "多模态内容分析",
+      "社交媒体",
+      "混合方法",
+      "统计方法"
+    ],
+    "doi": "10.1177/14703572261418120",
+    "source_url": "https://doi.org/10.1177/14703572261418120",
+    "detail_slug": "multimodal-semiotic-content-analysis-combining-quantitative-large-data-analysis-with-qualitative-semiotic-coding",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Visual Communication"
+  },
+  {
+    "id": 32,
+    "title": "Should I Stay or Should I Go? Inclusive Language in Organizational Communication as a Buffer Against Employees’ Intentions to Resign",
+    "authors": [
+      "Denise Ruggieri",
+      "Monica Rubini",
+      "Michela Menegatti"
+    ],
+    "journal": "Journal of Language and Social Psychology",
+    "published_date": "2026-05-22",
+    "relevance": "Low",
+    "score": null,
+    "summary": "通过两项问卷调查，研究组织正式与非正式沟通中的包容性语言对员工离职意向的影响，发现通过感知包容性和工作满意度间接降低离职意向。",
+    "reason": "方法为传统问卷调查，无计算元素；议题为组织传播，非计算传播核心领域。",
+    "tags": [
+      "组织沟通",
+      "性别语言",
+      "问卷调查"
+    ],
+    "doi": "10.1177/0261927x261453390",
+    "source_url": "https://doi.org/10.1177/0261927x261453390",
+    "detail_slug": "should-i-stay-or-should-i-go-inclusive-language-in-organizational-communication-as-a-buffer-against-employees-intentions-to-resign",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Language and Social Psychology"
+  },
+  {
+    "id": 47,
+    "title": "Starting a New Job is Supposed to Be Exciting: An Exploration of Friendship and Well-Being Following Employment Change",
+    "authors": [
+      "Autumn Buzzetta",
+      "Natalie Pennington",
+      "Amanda J. Holmstrom"
+    ],
+    "journal": "Communication Reports",
+    "published_date": "2026-05-16",
+    "relevance": "Low",
+    "score": null,
+    "summary": "通过问卷调查1327名就业变动的美国人，研究就业变化对友谊满意度和幸福感的影响，未使用计算方法。",
+    "reason": "传统问卷调查方法，无任何计算成分，研究就业变化与友谊/幸福感的关系",
+    "tags": [
+      "传统调查",
+      "就业变化",
+      "友谊",
+      "幸福感"
+    ],
+    "doi": "10.1080/08934215.2026.2670264",
+    "source_url": "https://doi.org/10.1080/08934215.2026.2670264",
+    "detail_slug": "starting-a-new-job-is-supposed-to-be-exciting-an-exploration-of-friendship-and-well-being-following-employment-change",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication Reports"
+  },
+  {
+    "id": 38,
+    "title": "Broken Connections: Fieldnotes from the Old Internet",
+    "authors": [
+      "Alice E. Marwick"
+    ],
+    "journal": "Social Media + Society",
+    "published_date": "2026-04-01",
+    "relevance": "Low",
+    "score": null,
+    "summary": "基于作者90年代至2000年代初的个人网络经历，反思早期互联网的亲密社区与现代平台异化，主张非必然的技术发展轨迹。",
+    "reason": "纯个人反思与批判分析，无计算方法或经验数据支持",
+    "tags": [
+      "批判分析",
+      "文化研究",
+      "早期互联网"
+    ],
+    "doi": "10.1177/20563051261434796",
+    "source_url": "https://doi.org/10.1177/20563051261434796",
+    "detail_slug": "broken-connections-fieldnotes-from-the-old-internet",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Social Media + Society"
+  },
+  {
+    "id": 29,
+    "title": "The invisible labor of assimilation by individuals with stigmatized identities: a qualitative study of autistic workers’ organizational socialization",
+    "authors": [
+      "Young Ji Kim",
+      "Margot Plunkett"
+    ],
+    "journal": "Human Communication Research",
+    "published_date": "2026-03-26",
+    "relevance": "Low",
+    "score": null,
+    "summary": "通过访谈31名自闭症员工，研究其在组织社会化中为适应规范所付出的隐形努力，提出‘同化劳动’概念。",
+    "reason": "使用定性访谈方法，无计算元素，主题不涉及计算传播典型议题",
+    "tags": [
+      "组织社会化",
+      "定性研究",
+      "自闭症"
+    ],
+    "doi": "10.1093/hcr/hqag002",
+    "source_url": "https://doi.org/10.1093/hcr/hqag002",
+    "detail_slug": "the-invisible-labor-of-assimilation-by-individuals-with-stigmatized-identities-a-qualitative-study-of-autistic-workers-organizational-socialization",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Human Communication Research"
+  },
+  {
+    "id": 50,
+    "title": "WAPOR News 2025",
+    "authors": [
+      "World Association for Public Opinion Research"
+    ],
+    "journal": "International Journal of Public Opinion Research",
+    "published_date": "2026-01-01",
+    "relevance": "Low",
+    "score": null,
+    "summary": "WAPOR News 2025 是世界公众舆论研究协会的新闻通讯，非计算传播学研究论文。",
+    "reason": "无摘要，标题和作者表明为协会新闻，非研究论文，不涉及计算传播学",
+    "tags": [],
+    "doi": "10.1093/ijpor/edag007",
+    "source_url": "https://doi.org/10.1093/ijpor/edag007",
+    "detail_slug": "wapor-news-2025",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "International Journal of Public Opinion Research"
+  },
+  {
+    "id": 28,
+    "title": "The Space of the World, Data Colonialism, and Social Contract: Reconstructing Digital Futures—A Dialogue with Nick Couldry",
+    "authors": [
+      "N. Couldry",
+      "Guofei Gao"
+    ],
+    "journal": "Communication and the Public",
+    "published_date": "2026",
+    "relevance": "Low",
+    "score": null,
+    "summary": "与Nick Couldry的对话，探讨其三部著作中关于社交媒体空间、数据殖民主义和AI的社会影响，但无计算方法和经验数据。",
+    "reason": "纯理论对话，无经验数据和计算方法，属于批判性分析。",
+    "tags": [
+      "理论对话",
+      "数据殖民主义",
+      "社交媒体批判"
+    ],
+    "doi": "10.1177/20570473261424566",
+    "source_url": "https://www.semanticscholar.org/paper/bfe3ba4754d77a0c18b6c3ddb95df20842dc3bd3",
+    "detail_slug": "the-space-of-the-world-data-colonialism-and-social-contract-reconstructing-digital-futures-a-dialogue-with-nick-couldry",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication and the Public"
+  }
+]

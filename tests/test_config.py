@@ -132,6 +132,38 @@ SEMANTIC_SCHOLAR_API_KEY=semantic-from-key-env
             self.assertEqual(config.claude_model, "deepseek-v4-flash")
             self.assertEqual(config.semantic_scholar_api_key, "semantic-from-key-env")
 
+    def test_config_returns_tracked_redlist_journals_by_priority(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            config_dir = Path(tmp_dir) / "config"
+            config_dir.mkdir()
+
+            write_file(
+                config_dir / "journals.yaml",
+                """
+journals:
+  - name: "Core Journal"
+    priority: "core"
+    track_from_year: 2026
+  - name: "Watch Journal"
+    priority: "watch"
+    track_from_year: 2026
+  - name: "Skip Journal"
+    priority: "skip"
+    track_from_year: 2026
+""".strip(),
+            )
+            write_file(config_dir / "prompts.yaml", "{}")
+            write_file(config_dir / "settings.yaml", "{}")
+
+            config = Config(config_dir)
+
+            tracked = config.get_tracked_journals()
+            self.assertEqual([journal["name"] for journal in tracked], ["Core Journal", "Watch Journal"])
+            self.assertTrue(all(journal["track_from_year"] == 2026 for journal in tracked))
+
+            core_only = config.get_tracked_journals(include_priorities=("core",))
+            self.assertEqual([journal["name"] for journal in core_only], ["Core Journal"])
+
     def test_cli_doctor_reports_local_env_keys(self) -> None:
         with TemporaryDirectory() as tmp_dir:
             project_dir = Path(tmp_dir)

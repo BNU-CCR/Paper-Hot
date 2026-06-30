@@ -17,6 +17,14 @@ class PublicPaperExporter:
     def export_json(self, output_path: Path) -> None:
         papers = self.storage.get_public_papers()
         payload = [self._serialize_paper(paper) for paper in papers]
+        self._write_json(output_path, payload)
+
+    def export_all_journal_updates_json(self, output_path: Path) -> None:
+        papers = self.storage.get_all_journal_update_papers()
+        payload = [self._serialize_paper(paper) for paper in papers]
+        self._write_json(output_path, payload)
+
+    def _write_json(self, output_path: Path, payload: List[Dict[str, Any]]) -> None:
         output_path.parent.mkdir(parents=True, exist_ok=True)
         output_path.write_text(
             json.dumps(payload, ensure_ascii=False, indent=2),
@@ -38,6 +46,9 @@ class PublicPaperExporter:
             "doi": paper.doi,
             "source_url": paper.link,
             "detail_slug": self._slugify(paper.title),
+            "source_type": paper.source_type,
+            "screening_status": paper.screening_status,
+            "tracked_journal": paper.tracked_journal,
         }
 
     def _split_csv_field(self, value: str) -> List[str]:

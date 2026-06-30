@@ -4,6 +4,7 @@ const {
   escapeHtml,
   filterPapers,
   getAllTags,
+  getDatasetPapers,
   groupPapersByDate,
 } = require("./app.js");
 
@@ -69,6 +70,12 @@ assert.deepEqual(Array.from(groupPapersByDate(papers).keys()), [
   "2026-05-10",
   "日期待补充",
 ]);
+
+assert.deepEqual(getDatasetPapers({ featuredPapers: [papers[0]], allPapers: papers, mode: "featured" }), [
+  papers[0],
+]);
+
+assert.deepEqual(getDatasetPapers({ featuredPapers: [papers[0]], allPapers: papers, mode: "all" }), papers);
 
 const card = createPaperCard({
   title: "<Unsafe>",

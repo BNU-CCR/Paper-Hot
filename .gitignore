@@ -14,11 +14,16 @@ venv/
 key.env
 data/*.db
 data/*.sqlite*
+data/reports/*.json
 
 # Local tool state
 .claude/
 .claude/settings.local.json
 .superpowers/
+.agents/
+.codex/
+skills-lock.json
+lark-*-qrcode*.png
 
 # Build artifacts
 *.egg-info/
