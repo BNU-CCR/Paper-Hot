@@ -80,6 +80,7 @@
 | --- | --- |
 | `docs/roadmap.md` | 当前唯一 TODO / 多阶段路线。 |
 | `docs/project-map.md` | 当前文件地图。 |
+| `docs/automation.md` | 本地 Windows Task Scheduler 自动化方案。 |
 | `docs/archive/2026-05-10-architecture-review/` | 早期项目结构审计过程文档。 |
 | `docs/archive/2026-05-static-site-design/` | 早期静态站设计和实现方案。 |
 
@@ -94,6 +95,7 @@ py -m journal_tracker.main export-public
 py -m journal_tracker.main verify-coverage
 py -m journal_tracker.main update-public
 py -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
+powershell -NoProfile -ExecutionPolicy Bypass -File .\backend\scripts\run_weekly.ps1
 ```
 
 ## Current Caveats

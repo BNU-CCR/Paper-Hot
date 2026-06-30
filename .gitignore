@@ -18,9 +18,7 @@ data/reports/*.json
 backend/data/*.db
 backend/data/*.sqlite*
 backend/data/reports/*.json
-backend/data/*.db
-backend/data/*.sqlite*
-backend/data/reports/*.json
+backend/data/logs/
 
 # Local tool state
 .local/

@@ -39,6 +39,7 @@ py -m journal_tracker.main export-public
 py -m journal_tracker.main verify-coverage
 py -m journal_tracker.main update-public
 py -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
+powershell -NoProfile -ExecutionPolicy Bypass -File .\backend\scripts\run_weekly.ps1
 ```
 
 Verification:

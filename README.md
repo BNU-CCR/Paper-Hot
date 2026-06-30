@@ -7,6 +7,7 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 - 文件地图：[`docs/project-map.md`](docs/project-map.md)
 - 当前路线：[`docs/roadmap.md`](docs/roadmap.md)
 - 文件夹结构复盘：[`docs/workspace-structure-review.md`](docs/workspace-structure-review.md)
+- 自动化运行：[`docs/automation.md`](docs/automation.md)
 - 早期设计和过程文档：[`docs/archive/`](docs/archive/)
 
 根目录只保留项目入口和必要配置。旧的 `task_plan.md`、`findings.md`、`progress.md` 已归档到 `docs/archive/2026-05-10-architecture-review/`。
@@ -27,6 +28,7 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 - Featured / All Updates 切换
 - OpenAlex / Crossref DOI 覆盖验证：`verify-coverage`
 - 每周期刊优先工作流：`weekly-run`
+- Windows Task Scheduler 本地调度脚本：`backend/scripts/run_weekly.ps1`
 
 最近一次本地状态：
 
@@ -128,6 +130,12 @@ Run the journal-first weekly workflow:
 
 ```bash
 py -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
+```
+
+Run the same workflow through the Windows automation wrapper:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\backend\scripts\run_weekly.ps1
 ```
 
 Publish all High papers and refresh website JSON:

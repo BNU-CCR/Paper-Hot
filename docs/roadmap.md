@@ -25,6 +25,7 @@ Paper HOT 目标是做一个类似 AI HOT 的计算传播论文情报站：
 - Website supports Featured / All Updates switching.
 - Crossref coverage verification is implemented with `verify-coverage`.
 - The journal-first weekly workflow is implemented with `weekly-run`.
+- Windows Task Scheduler wrapper scripts are available under `backend/scripts/`.
 
 Latest verified local state:
 
@@ -74,7 +75,7 @@ Latest verified local state:
 - [x] Persist ingestion run reports as JSON logs.
 - [x] Persist screening run reports as JSON logs.
 - [x] Add a single weekly command that runs fetch, repair, screen, export, and coverage verification.
-- [ ] Decide whether scheduling should be local cron / Task Scheduler, GitHub Actions, or external automation.
+- [x] Decide whether scheduling should be local cron / Task Scheduler, GitHub Actions, or external automation.
 
 ## Phase 5: Deployment And Push
 
@@ -93,10 +94,10 @@ Latest verified local state:
 
 ## Immediate Next Step
 
-The deep fetch, bulk screening round, and journal-first weekly command are complete. Next, decide where the weekly command should run automatically:
+The deep fetch, bulk screening round, journal-first weekly command, and local scheduling wrapper are complete. The current automation default is Windows Task Scheduler because API keys and `papers.db` are local.
 
 ```bash
-py -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
+powershell -NoProfile -ExecutionPolicy Bypass -File .\backend\scripts\run_weekly.ps1
 ```
 
-Practical scheduling options are local Windows Task Scheduler, GitHub Actions, or an external service. The current blocker is choosing where secrets and runtime database state should live in production.
+Next, move to deployment: choose GitHub Pages, Vercel, or Cloudflare Pages, then decide whether scheduled runs should also push refreshed public JSON.
