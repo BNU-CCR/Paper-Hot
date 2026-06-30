@@ -6,6 +6,7 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 
 - 文件地图：[`docs/project-map.md`](docs/project-map.md)
 - 当前路线：[`docs/roadmap.md`](docs/roadmap.md)
+- 文件夹结构复盘：[`docs/workspace-structure-review.md`](docs/workspace-structure-review.md)
 - 早期设计和过程文档：[`docs/archive/`](docs/archive/)
 
 根目录只保留项目入口和必要配置。旧的 `task_plan.md`、`findings.md`、`progress.md` 已归档到 `docs/archive/2026-05-10-architecture-review/`。
@@ -180,5 +181,6 @@ Ignored:
 - `data/papers.db`
 - `data/reports/*.json`
 - Feishu QR code images
+- `.local/` local tool artifacts
 - `.agents/`, `.codex/`, `.claude/`
 - build/cache artifacts

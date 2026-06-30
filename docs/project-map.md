@@ -12,6 +12,15 @@
 | `.gitignore` | 忽略本地数据库、密钥、飞书二维码、工具状态和生成报告。 |
 | `key.env` | 本地 API key 文件，已忽略，不应提交。 |
 
+## Local-Only Workspace Files
+
+| Path | Role | Commit? |
+| --- | --- | --- |
+| `.local/feishu/` | 飞书登录、授权过程中生成的二维码图片。 | No |
+| `.local/tool-state/` | 本地工具 lock/state 文件，例如 `skills-lock.json`。 | No |
+| `.agents/`, `.claude/`, `.codex/` | 本地 AI agent / Codex / Claude 工具状态。 | No |
+| `journal_tracker.egg-info/` | Python editable install/build 生成物。 | No |
+
 ## Core Source Code
 
 | Path | Role |

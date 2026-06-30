@@ -17,6 +17,7 @@ data/*.sqlite*
 data/reports/*.json
 
 # Local tool state
+.local/
 .claude/
 .claude/settings.local.json
 .superpowers/
