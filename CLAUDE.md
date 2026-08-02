@@ -8,6 +8,8 @@ This repository is now maintained around three current documents:
 
 Historical planning documents are under `docs/archive/`.
 
+Frontend UI design conventions (shadcn, single heading per section, no placeholder hints) live in `AGENTS.md` — read it before touching frontend code.
+
 ## Current Product Direction
 
 Use the journal-first workflow as the default:
