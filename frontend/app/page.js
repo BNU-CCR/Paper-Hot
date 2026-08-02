@@ -1,6 +1,12 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { AppSidebar } from "../components/app-sidebar";
+import { Button } from "../components/ui/button";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "../components/ui/collapsible";
+import { Input } from "../components/ui/input";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
+import { Tabs, TabsList, TabsTrigger } from "../components/ui/tabs";
 
 const GITHUB_URL = "https://github.com/BNU-CCR/Paper-Hot";
 
@@ -61,19 +67,7 @@ export default function HomePage() {
   const [tag, setTag] = useState(null);
   const [query, setQuery] = useState("");
   const [tagsOpen, setTagsOpen] = useState(false);
-  const [theme, setTheme] = useState("system");
   const [loadingError, setLoadingError] = useState("");
-
-  useEffect(() => {
-    const stored = window.localStorage.getItem("paper-hot-theme") || "system";
-    setTheme(stored);
-  }, []);
-
-  useEffect(() => {
-    const resolved = theme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : theme === "system" ? "light" : theme;
-    document.documentElement.dataset.theme = resolved;
-    window.localStorage.setItem("paper-hot-theme", theme);
-  }, [theme]);
 
   useEffect(() => {
     Promise.all([fetch("data/papers.json", { cache: "no-store" }), fetch("data/all_papers.json", { cache: "no-store" })])
@@ -104,30 +98,24 @@ export default function HomePage() {
 
   return (
     <div className="shell">
-      <aside className="sidebar">
-        <a className="brand" href="./"><span>Paper</span><i /><span>HOT</span></a>
-        <nav aria-label="主导航"><a className="active" href="./">精选论文</a><a href="journals/">期刊书库</a><a href="about/">关于项目</a></nav>
-        <a className="github-link" href={GITHUB_URL} target="_blank" rel="noreferrer">GitHub ↗</a>
-        <div className="theme-switch" aria-label="主题切换">
-          {[['dark', '☾'], ['system', '◐'], ['light', '☼']].map(([value, icon]) => <button key={value} className={theme === value ? "active" : ""} onClick={() => setTheme(value)} aria-label={`${value} theme`}>{icon}</button>)}
-        </div>
-      </aside>
+      <AppSidebar activePath="/" />
       <main className="main">
         <section className="hero">
           <div className="eyebrow">AI 辅助整理 · 计算传播论文精选</div>
           <div className="headline"><div><h1>Paper HOT</h1><p>追踪计算传播研究的新论文，保留可复核的摘要、主题和推荐理由。</p></div><div className="stats"><span>{source.length} 篇公开</span><span>{tags.length} 个主题</span></div></div>
-          <div className="toolbar">
-            <div className="segmented" aria-label="数据范围"><button className={mode === "featured" ? "active" : ""} onClick={() => setMode("featured")}>精选</button><button className={mode === "all" ? "active" : ""} onClick={() => setMode("all")}>期刊全量</button></div>
-            <div className="segmented" aria-label="相关性筛选">{["all", "High", "Medium"].map((item) => <button key={item} className={relevance === item ? "active" : ""} onClick={() => setRelevance(item)}>{item === "all" ? "全部" : item}</button>)}</div>
-            <label className="select-label">期刊<select value={journal} onChange={(event) => setJournal(event.target.value)}><option value="all">全部期刊</option>{journals.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
-            <label className="search"><span className="sr-only">搜索论文</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索标题、摘要、作者、期刊、标签" /></label>
+          <div className="toolbar shadcn-controls">
+            <Tabs value={mode} onValueChange={setMode}><TabsList aria-label="数据范围"><TabsTrigger value="featured">精选</TabsTrigger><TabsTrigger value="all">期刊全量</TabsTrigger></TabsList></Tabs>
+            <Tabs value={relevance} onValueChange={setRelevance}><TabsList aria-label="相关性筛选"><TabsTrigger value="all">全部</TabsTrigger><TabsTrigger value="High">High</TabsTrigger><TabsTrigger value="Medium">Medium</TabsTrigger></TabsList></Tabs>
+            <Select value={journal} onValueChange={setJournal}><SelectTrigger aria-label="期刊筛选"><SelectValue placeholder="全部期刊" /></SelectTrigger><SelectContent><SelectItem value="all">全部期刊</SelectItem>{journals.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select>
+            <label className="search"><span className="sr-only">搜索论文</span><Input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索标题、摘要、作者、期刊、标签" /></label>
           </div>
         </section>
 
-        <section className="topics-panel">
-          <div className="section-heading"><div><p className="eyebrow">按主题浏览</p><h2>主题标签</h2></div><div className="section-actions"><button className="text-button" onClick={() => setTagsOpen((value) => !value)} aria-expanded={tagsOpen}>{tagsOpen ? "收起标签" : `展开全部 ${tags.length} 个标签`}</button>{tag && <button className="text-button" onClick={() => setTag(null)}>清除筛选</button>}</div></div>
-          <div className={`tag-cloud ${tagsOpen ? "open" : ""}`}>{tags.map(([item, count], index) => <button key={item} className={`tag ${tag === item ? "active" : ""} ${index > 11 ? "overflow-tag" : ""}`} onClick={() => setTag(tag === item ? null : item)}>{item}<small>{count}</small></button>)}</div>
-        </section>
+        <Collapsible className="topics-panel" open={tagsOpen} onOpenChange={setTagsOpen}>
+          <div className="section-heading"><div><p className="eyebrow">按主题浏览</p><h2>主题标签</h2></div><div className="section-actions"><CollapsibleTrigger asChild><Button variant="ghost" size="sm">{tagsOpen ? "收起标签" : `展开全部 ${tags.length} 个标签`}</Button></CollapsibleTrigger>{tag && <Button variant="ghost" size="sm" onClick={() => setTag(null)}>清除筛选</Button>}</div></div>
+          <div className="tag-cloud">{tags.slice(0, 12).map(([item, count]) => <Button key={item} variant="outline" size="sm" className={`tag ${tag === item ? "active" : ""}`} onClick={() => setTag(tag === item ? null : item)}>{item}<small>{count}</small></Button>)}</div>
+          <CollapsibleContent><div className="tag-cloud extra-tags">{tags.slice(12).map(([item, count]) => <Button key={item} variant="outline" size="sm" className={`tag ${tag === item ? "active" : ""}`} onClick={() => setTag(tag === item ? null : item)}>{item}<small>{count}</small></Button>)}</div></CollapsibleContent>
+        </Collapsible>
 
         <section className="feed"><div className="section-heading"><div><p className="eyebrow">最新更新</p><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2></div><span className="count">{papers.length} 篇</span></div>
           {loadingError ? <div className="empty-state"><b>论文数据加载失败</b><span>{loadingError}</span></div> : papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : <div className="timeline">{Object.entries(papers.reduce((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</section>)}</div>}
