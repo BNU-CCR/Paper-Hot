@@ -7,7 +7,9 @@ import { journals } from "../../src/journal-covers";
 const GITHUB_URL = "https://github.com/BNU-CCR/Paper-Hot";
 
 function BookCover({ journal }) {
-  const titleSize = Math.max(0.72, Math.min(1.12, (1.12 * 48) / journal.name.length));
+  // Keep every cover's title inside the shared cover canvas: longer names scale
+  // down instead of creating a taller card or being truncated.
+  const titleSize = Math.max(0.58, Math.min(1.08, (1.08 * 42) / journal.name.length));
   return <div className="book-cover" style={{ "--cover": journal.cover.background, "--cover-accent": journal.cover.accent, "--cover-title-size": `${titleSize}rem` }}>
     <span className="cover-issn">ISSN {journal.issn}</span>
     <div className="cover-rule" />
