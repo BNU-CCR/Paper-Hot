@@ -1,0 +1,1 @@
+.paper-masonry{display:flex;width:auto;margin-left:-16px}.paper-masonry-column{min-width:0;padding-left:16px;background-clip:padding-box}.paper-masonry-column>.paper-card{margin-bottom:16px}@media(max-width:680px){.paper-masonry{margin-left:0}.paper-masonry-column{padding-left:0}.paper-masonry-column>.paper-card{margin-bottom:12px}}
