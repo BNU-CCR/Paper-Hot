@@ -1,14 +1,15 @@
+import type { Metadata } from "next";
 import "./globals.css";
 import "./library.css";
 import "./sidebar.css";
 import "./masonry.css";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Paper HOT",
   description: "追踪计算传播研究的新论文，提供 AI 辅助整理的精选、摘要和主题标签。",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh-CN" suppressHydrationWarning>
       <body>{children}</body>

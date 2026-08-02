@@ -37,6 +37,10 @@ frontend/.next/
 frontend/out/
 .next/
 
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
 # OS/editor noise
 .DS_Store
 Thumbs.db

@@ -1,23 +1,23 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Masonry from "react-masonry-css";
 import { ChevronDown } from "lucide-react";
-import { AppSidebar } from "../components/app-sidebar";
-import { Button } from "../components/ui/button";
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "../components/ui/collapsible";
-import { Input } from "../components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
-import { Tabs, TabsList, TabsTrigger } from "../components/ui/tabs";
+import type { Paper } from "../types/paper";
+import { AppSidebar } from "./app-sidebar";
+import { Button } from "./ui/button";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
+import { Input } from "./ui/input";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
+import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
 
-const GITHUB_URL = "https://github.com/BNU-CCR/Paper-Hot";
 const masonryColumns = { default: 3, 1080: 2, 680: 1 };
 
-function asText(value) {
+function asText(value: unknown): string {
   return Array.isArray(value) ? value.join(" ") : String(value || "");
 }
 
-function sortPapers(papers) {
+function sortPapers(papers: Paper[]): Paper[] {
   return [...papers].sort((a, b) => {
     const aDate = Date.parse(a.published_date || "");
     const bDate = Date.parse(b.published_date || "");
@@ -27,7 +27,7 @@ function sortPapers(papers) {
   });
 }
 
-function displayDate(value) {
+function displayDate(value: string): string {
   if (!value) return "日期待补充";
   const date = new Date(value);
   return Number.isNaN(date.getTime())
@@ -35,7 +35,7 @@ function displayDate(value) {
     : date.toLocaleDateString("zh-CN", { year: "numeric", month: "long", day: "numeric", weekday: "short" });
 }
 
-function PaperCard({ paper }) {
+function PaperCard({ paper }: { paper: Paper }) {
   const relevance = paper.relevance || "Unrated";
   const score = paper.score == null ? relevance : `${relevance} ${paper.score}`;
   return (
@@ -61,33 +61,23 @@ function PaperCard({ paper }) {
   );
 }
 
-export default function HomePage() {
-  const [featured, setFeatured] = useState([]);
-  const [allPapers, setAllPapers] = useState([]);
+interface HomeFeedProps {
+  featured: Paper[];
+  allPapers: Paper[];
+}
+
+export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
   const [mode, setMode] = useState("featured");
   const [relevance, setRelevance] = useState("all");
   const [journal, setJournal] = useState("all");
-  const [tag, setTag] = useState(null);
+  const [tag, setTag] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [tagsOpen, setTagsOpen] = useState(false);
-  const [loadingError, setLoadingError] = useState("");
-
-  useEffect(() => {
-    Promise.all([fetch("data/papers.json", { cache: "no-store" }), fetch("data/all_papers.json", { cache: "no-store" })])
-      .then(async ([featuredResponse, allResponse]) => {
-        if (!featuredResponse.ok) throw new Error(`精选数据 HTTP ${featuredResponse.status}`);
-        const featuredData = await featuredResponse.json();
-        const allData = allResponse.ok ? await allResponse.json() : featuredData;
-        setFeatured(Array.isArray(featuredData) ? featuredData : []);
-        setAllPapers(Array.isArray(allData) ? allData : featuredData);
-      })
-      .catch((error) => setLoadingError(error.message));
-  }, []);
 
   const source = mode === "all" ? allPapers : featured;
-  const journals = useMemo(() => [...new Set(source.map((paper) => paper.journal).filter(Boolean))].sort((a, b) => a.localeCompare(b, "zh-CN")), [source]);
+  const journals = useMemo(() => [...new Set(source.map((paper) => paper.journal).filter((item): item is string => Boolean(item)))].sort((a, b) => a.localeCompare(b, "zh-CN")), [source]);
   const tags = useMemo(() => {
-    const count = new Map();
+    const count = new Map<string, number>();
     source.forEach((paper) => (paper.tags || []).forEach((item) => count.set(item, (count.get(item) || 0) + 1)));
     return [...count.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"));
   }, [source]);
@@ -119,7 +109,7 @@ export default function HomePage() {
         </Collapsible>
 
         <section className="feed"><div className="section-heading"><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2><span className="count">{papers.length} 篇</span></div>
-          {loadingError ? <div className="empty-state"><b>论文数据加载失败</b><span>{loadingError}</span></div> : papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</section>)}</div>}
+          {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</section>)}</div>}
         </section>
       </main>
     </div>

@@ -57,12 +57,20 @@
 | Path | Role |
 | --- | --- |
 | `frontend/package.json` | Next.js / React 前端脚本和锁定依赖。 |
-| `frontend/app/page.js` | 首页：精选/全量切换、搜索、相关性、期刊和可收起主题标签筛选。 |
-| `frontend/app/about/page.js` | 独立关于页和 GitHub 项目链接。 |
-| `frontend/app/journals/page.js` | 独立期刊书库页：书架浏览、出版社和追踪等级筛选。 |
-| `frontend/app/globals.css` | 页面视觉样式、主题和响应式布局。 |
-| `frontend/src/journal-covers.js` | 期刊封面视觉资产、ISSN、出版社来源和书库元数据。 |
-| `frontend/next.config.mjs` | 静态导出与 GitHub Pages 子路径配置。 |
+| `frontend/app/page.tsx` | 首页 RSC：构建时读数据并渲染 `HomeFeed`。 |
+| `frontend/components/home-feed.tsx` | 首页 client 组件：精选/全量切换、搜索、相关性、期刊和可收起主题标签筛选。 |
+| `frontend/app/hotspots/page.tsx` | 当期热点页（纯 RSC，构建时读数据）。 |
+| `frontend/app/journals/page.tsx` | 独立期刊书库页：书架浏览、出版社和追踪等级筛选。 |
+| `frontend/app/journals/[slug]/page.tsx` | 期刊精读页 RSC：读数据并渲染 `JournalReadingList`。 |
+| `frontend/app/about/page.tsx` | 独立关于页和 GitHub 项目链接。 |
+| `frontend/components/journal-reading-list.tsx` | 期刊精读 client 组件：精选/全部切换、按日期或按 Issue 分组。 |
+| `frontend/components/app-sidebar.tsx` | 侧边栏与移动端抽屉导航、主题切换。 |
+| `frontend/components/ui/` | shadcn/ui v4 封装组件（Button / Input / Select / Tabs / Sheet / Collapsible）。 |
+| `frontend/lib/data.ts` | 构建时读取 `public/data/*.json` 的 server-only 数据模块。 |
+| `frontend/types/` | 共享 TypeScript 类型（`paper.ts`、`journal.ts`、`hotspot.ts`）。 |
+| `frontend/app/globals.css` | Tailwind v4 入口、`@theme inline` token 映射、页面视觉样式和响应式布局。 |
+| `frontend/src/journal-covers.ts` | 期刊封面视觉资产、ISSN、出版社来源和书库元数据。 |
+| `frontend/next.config.mts` | 静态导出与 GitHub Pages 子路径配置。 |
 
 ## Tests
 
