@@ -15,10 +15,10 @@ from .storage import PaperStorage
 DEFAULT_SYSTEM_PROMPT = """你是计算传播研究的编辑。请从近一个月已公开的论文中归纳当期主要研究议题。
 
 要求：
-- 归纳 3 到 8 个互不重复、具有解释力的研究议题，而不是简单罗列关键词。
-- 每个议题都必须关联 2 到 5 篇候选论文；若候选论文不足，可关联 1 篇。
+- 归纳 4 到 6 个互不重复、具有解释力的研究议题，而不是简单罗列关键词。
+- 每个议题都必须关联 2 到 3 篇候选论文；若候选论文不足，可关联 1 篇。
 - 只能使用输入中给出的论文 ID，不能编造论文、作者、研究发现或日期。
-- 议题标题和说明使用简洁中文；说明不超过 80 字。
+- 议题标题和说明使用简洁中文；说明不超过 50 字。
 - 优先呈现计算传播、平台、AI、算法、数字方法、网络与信息环境中的可辨识趋势。
 
 严格只输出 JSON：
@@ -45,9 +45,9 @@ class MonthlyHotspotGenerator:
 
     def generate(self, papers: List[Dict[str, Any]], anchor_date: date) -> List[Dict[str, Any]]:
         # Keep the aggregation prompt comfortably below the context/output limits of
-        # Anthropic-compatible reasoning models. Eighty recent public papers are
+        # Anthropic-compatible reasoning models. Forty recent public papers are
         # sufficient to identify monthly trends without losing the final JSON block.
-        candidates = papers[:80]
+        candidates = papers[:40]
         if not candidates:
             return []
         lines = []
@@ -57,12 +57,12 @@ class MonthlyHotspotGenerator:
                 "title": paper["title"],
                 "journal": paper["journal"],
                 "published_date": paper["published_date"],
-                "summary": paper["summary"][:240],
+                "summary": paper["summary"][:160],
                 "tags": paper["tags"],
             }, ensure_ascii=False))
         response = self.client.messages.create(
             model=self.model,
-            max_tokens=4000,
+            max_tokens=8000,
             system=self.system_prompt,
             messages=[{
                 "role": "user",
