@@ -146,6 +146,13 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
   // step (which spun up a second, temporary DuckDB-WASM engine just to
   // re-shape 300-ish rows) is unnecessary — skipping it halves the WASM
   // heap footprint and drops the runtime CDN fetch.
+  //
+  // Only upload the columns Cosmograph actually reads. Shipping every field
+  // (`["*"]`) pulls in sparse numeric columns such as `paperId` / `growth`,
+  // and the internal `SUMMARIZE` step then throws `STDDEV_SAMP is out of
+  // range` inside `_rebuildGraph` — leaving its status spinner stuck on top
+  // of the rendered map. Restricting the columns both fixes that and keeps
+  // the DuckDB table (and heap) small.
   const mergedConfig = useMemo<CosmographConfig>(() => {
     return {
       points: graph.points as unknown as Record<string, unknown>[],
@@ -163,7 +170,8 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
       pointXBy: "x",
       pointYBy: "y",
       pointClusterBy: "topic",
-      pointIncludeColumns: ["*"],
+      pointIncludeColumns: ["id", "type", "topic", "topicId", "label", "heat", "x", "y", "shape"],
+      linkIncludeColumns: ["source", "target"],
       enableSimulation: false,
       backgroundColor: themeVars.card,
       unknownColor: NOISE_COLOR,
