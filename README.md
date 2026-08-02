@@ -1,6 +1,21 @@
-﻿# Paper HOT / 计算传播期刊追踪
+# Paper HOT / 计算传播期刊追踪
 
 Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是：以团队红榜期刊为稳定数据源，定期抓取 2026 年以来的论文更新，保留期刊全量更新，再用 AI 筛选出计算传播相关论文，生成摘要、标签和推荐理由，并发布到静态网站和后续推送渠道。
+
+<!-- paper-hot:auto-preview:start -->
+## 本期精选（自动更新）
+
+> 更新于 2026-08-02 10:45 GMT+8，展示最新 5 篇精选论文。
+
+| 日期 | 论文 | 期刊 | 推荐摘要 |
+| --- | --- | --- | --- |
+| 2026-06-28 | [Is Flattery in AI Fact-Checking Helpful or Harmful? Effects on Tool Favorability and Epistemic Verification](<https://doi.org/10.1080/08838151.2026.2694043>) | Journal of Broadcasting & Electronic Media | 实验研究AI事实核查中奉承语气的影响，发现其提升工具偏好但降低信息回忆与参考核查，无关初始答案正确性。 |
+| 2026-06-26 | [Beyond the Black Box: Human-AI Collaboration and Algorithmic Accountability in Arabic-Language Fact-Checking](<https://doi.org/10.1080/08838151.2026.2694044>) | Journal of Broadcasting & Electronic Media | 通过访谈和案例分析，研究AI在阿拉伯语事实核查中的整合，强调人机混合模式、透明性和文化适配性。 |
+| 2026-06-26 | [From Mass Media and Social Media to AI: A Multilevel Framework for Understanding Trust in Generative AI](<https://doi.org/10.1080/08838151.2026.2694048>) | Journal of Broadcasting & Electronic Media | 提出多层次框架，从大众媒体、社交媒体到AI，分析对生成式AI的信任构建机制。 |
+| 2026-06-26 | [AI as “Artificial Immigrants”? A Content Analysis of the U.S. News Media Framing of AI Threats](<https://doi.org/10.1080/08838151.2026.2692543>) | Journal of Broadcasting & Electronic Media | 基于整合威胁理论，分析美国新闻媒体对AI威胁的框架，发现现实威胁强调多于象征威胁，技术报道偏向现实框架。 |
+| 2026-06-26 | [Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology](<https://doi.org/10.1080/19331681.2026.2682924>) | Journal of Information Technology & Politics | 探讨用户对ChatGPT的信任度及其在政治信息消费中的影响，分析使用行为、感知威胁和政治意识形态的作用 |
+
+<!-- paper-hot:auto-preview:end -->
 
 ## Where To Start
 
@@ -30,22 +45,21 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 - 每周期刊优先工作流：`weekly-run`
 - Windows Task Scheduler 本地调度脚本：`backend/scripts/run_weekly.ps1`
 
-最近一次本地状态：
+<!-- paper-hot:auto-stats:start -->
+### 自动更新状态
 
-```text
-Total rows: 575
-High: 140
-Medium: 69
-Low: 346
-Pending: 0
-Screened: 554
-Quarantined: 20
-Published featured papers: 139
-All journal update rows exported: 548
-Screening errors: 1
-```
+> 最近更新：2026-08-02 10:45 GMT+8
 
-最近一次覆盖验证显示：本地 OpenAlex 库有 548 个 DOI，Crossref 在红榜期刊中查到 582 个 DOI，匹配 543 个 DOI，仍有 39 个 Crossref DOI 未进入 OpenAlex 本地库。深度抓取已经完成，下一步重点转向筛选质量、错误重试和自动化工作流。
+| 指标 | 数量 |
+| --- | ---: |
+| 数据库论文 | 548 |
+| 当期新增 | 0 |
+| High / Medium / Low | 137 / 69 / 342 |
+| Pending / Screened / Quarantined / Error | 0 / 547 / 0 / 1 |
+| 已发布精选 | 139 |
+| 期刊全量导出 | 548 |
+
+<!-- paper-hot:auto-stats:end -->
 
 ## Project Layout
 
@@ -124,6 +138,12 @@ Export website data:
 python -m journal_tracker.main export-public
 ```
 
+Refresh the README statistics and featured preview:
+
+```bash
+python -m journal_tracker.readme_update
+```
+
 Verify OpenAlex coverage against Crossref:
 
 ```bash
@@ -187,7 +207,7 @@ node frontend\web\app.test.cjs
 ## GitHub Actions
 
 - `CI` runs the Python test suite on Python 3.9 and 3.12, smoke-tests a fresh database, and runs the frontend tests on every push and pull request.
-- `Weekly paper update` runs every Monday at 09:00 Asia/Shanghai and supports manual runs with smaller limits.
+- `Weekly paper update` runs every Monday at 13:00 GMT+8 (Asia/Shanghai), refreshes this README preview and statistics, and supports manual runs with smaller limits.
 - Configure the required `ANTHROPIC_API_KEY` Actions secret before starting the weekly workflow. See [`docs/automation.md`](docs/automation.md) for permissions, optional variables, database caching, and recovery details.
 
 ## Git Notes
