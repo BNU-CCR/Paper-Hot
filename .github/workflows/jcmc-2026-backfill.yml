@@ -1,0 +1,118 @@
+name: Backfill JCMC 2026 papers
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit_per_journal:
+        description: Maximum JCMC records to retrieve from OpenAlex
+        required: true
+        default: "100"
+      screen_limit:
+        description: Papers screened in each AI batch
+        required: true
+        default: "50"
+      max_screen_batches:
+        description: Maximum AI screening batches
+        required: true
+        default: "10"
+      commit_public_data:
+        description: Commit refreshed public JSON to main
+        type: boolean
+        required: true
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-hot-jcmc-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      ANTHROPIC_BASE_URL: ${{ vars.ANTHROPIC_BASE_URL }}
+      AI_MODEL: ${{ vars.AI_MODEL }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Restore the latest working database
+        uses: actions/cache/restore@v4
+        with:
+          path: backend/data/papers.db
+          key: paper-hot-db-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            paper-hot-db-${{ runner.os }}-
+
+      - name: Install package
+        run: python -m pip install -e .
+
+      - name: Check required configuration
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          test -n "$ANTHROPIC_API_KEY" || (echo "Missing repository secret: ANTHROPIC_API_KEY" >&2; exit 1)
+          journal-tracker doctor
+
+      - name: Create a JCMC-only runtime configuration
+        run: |
+          mkdir -p backend/.jcmc-backfill-config
+          cp backend/config/prompts.yaml backend/.jcmc-backfill-config/prompts.yaml
+          cp backend/config/settings.yaml backend/.jcmc-backfill-config/settings.yaml
+          python - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          source = yaml.safe_load(Path("backend/config/journals.yaml").read_text(encoding="utf-8"))
+          journal = next(item for item in source["journals"] if item["abbr"] == "JCMC")
+          Path("backend/.jcmc-backfill-config/journals.yaml").write_text(
+              yaml.safe_dump({"journals": [journal], "global_keywords": source.get("global_keywords", [])}, allow_unicode=True, sort_keys=False),
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Fetch, screen, and publish all JCMC 2026 records
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+        run: |
+          journal-tracker --config backend/.jcmc-backfill-config weekly-run \
+            --limit-per-journal "${{ inputs.limit_per_journal }}" \
+            --screen-limit "${{ inputs.screen_limit }}" \
+            --max-screen-batches "${{ inputs.max_screen_batches }}" \
+            --refilter-limit 10 \
+            --skip-coverage
+
+      - name: Validate generated public data
+        run: |
+          python -m journal_tracker.readme_update
+          python -m json.tool frontend/public/data/papers.json >/dev/null
+          python -m json.tool frontend/public/data/all_papers.json >/dev/null
+
+      - name: Save the updated working database
+        uses: actions/cache/save@v4
+        with:
+          path: backend/data/papers.db
+          key: paper-hot-db-${{ runner.os }}-${{ github.run_id }}
+
+      - name: Commit refreshed public data
+        if: inputs.commit_public_data == true
+        run: |
+          git add README.md frontend/public/data/papers.json frontend/public/data/all_papers.json
+          if git diff --cached --quiet; then
+            echo "No public data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): backfill JCMC 2026 papers"
+          git push origin HEAD:main

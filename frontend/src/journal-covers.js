@@ -16,6 +16,7 @@ const palettes = [
 
 const rawJournals = [
   ["HCR", "Human Communication Research", "Oxford University Press", "core", "0360-3989"],
+  ["JCMC", "Journal of Computer-Mediated Communication", "Oxford University Press", "core", "1083-6101"],
   ["CR", "Communication Research", "SAGE", "core", "0093-6502"],
   ["ICS", "Information, Communication & Society", "Taylor & Francis", "core", "1369-118X"],
   ["JLSP", "Journal of Language and Social Psychology", "SAGE", "core", "0261-927X"],
