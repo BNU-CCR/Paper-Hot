@@ -9,7 +9,7 @@ Pipeline:
   5. Leiden community detection → topic clusters
   6. Match clusters with historical topics via the Hungarian algorithm
   7. Score topic "hotness" from recent vs baseline share shifts
-  8. Compute a fixed 2-D layout for the topic-level graph
+  8. Reduce paper embeddings to 2-D with UMAP (fixed coords for the map)
   9. Generate Chinese labels via the Anthropic-compatible LLM
   10. Write validated static JSON to frontend/public/data/hotspots/
 """
@@ -243,6 +243,58 @@ def _compute_embeddings(
     candidates[:] = [candidates[i] for i in valid_indices]
 
     return np.stack(embeddings, axis=0).astype(np.float32)
+
+
+# ── step 2b: UMAP 2-D reduction + per-paper recency heat ─────────────
+
+def _compute_umap(
+    embeddings: np.ndarray,
+    n_neighbors: int = 15,
+    min_dist: float = 0.1,
+    random_state: int = 42,
+) -> np.ndarray:
+    """Reduce paper embeddings to normalized 2-D coordinates with UMAP.
+
+    Returns an (N, 2) float array normalized to roughly [-1, 1]. The random
+    state is fixed so identical inputs produce identical maps across runs.
+    """
+    import umap
+
+    reducer = umap.UMAP(
+        n_components=2,
+        n_neighbors=n_neighbors,
+        min_dist=min_dist,
+        metric="cosine",
+        random_state=random_state,
+        verbose=False,
+    )
+    coords = reducer.fit_transform(embeddings).astype(np.float64)
+    max_abs = np.max(np.abs(coords)) or 1.0
+    return (coords / max_abs).round(4)
+
+
+def _paper_recency_heat(
+    candidates: List[Dict[str, Any]],
+    anchor_date: date,
+    half_life_days: float = 45.0,
+) -> List[float]:
+    """Per-paper 0-100 recency heat (exponential decay from anchor date).
+
+    Used as the particle-dot size so recent papers read brighter in the map.
+    Papers without a parseable date get a middle value.
+    """
+    heats: List[float] = []
+    for cand in candidates:
+        raw = str(cand.get("published_date") or "")
+        try:
+            pub = datetime.strptime(raw, "%Y-%m-%d").date()
+        except ValueError:
+            heats.append(50.0)
+            continue
+        days = max(0.0, (anchor_date - pub).days)
+        score = math.exp(-days / half_life_days) * 100.0
+        heats.append(round(score, 1))
+    return heats
 
 
 # ── step 3: mutual kNN graph ─────────────────────────────────────────
@@ -685,35 +737,16 @@ def _compute_topic_graph(
     return normalized
 
 
-def _compute_layout(
+def _compute_anchor_positions(
     topics: List[Dict[str, Any]],
-    topic_edges: List[Tuple[int, int, float]],
+    umap_coords: np.ndarray,
     previous_topics: List[Dict[str, Any]],
-    seed: int = 42,
 ) -> Dict[int, Tuple[float, float]]:
-    """Compute fixed 2-D positions for topic nodes."""
-    import igraph as ig
+    """Topic-cloud anchor positions = centroid of member papers' UMAP coords.
 
-    n = len(topics)
-    if n == 0:
-        return {}
-
-    # Map topic indices for igraph
-    idx_map = {t["cluster_id"]: i for i, t in enumerate(topics)}
-
-    g = ig.Graph(n=n, directed=False)
-    if topic_edges:
-        edge_list = [(idx_map[i], idx_map[j]) for i, j, _ in topic_edges]
-        weights = [w for _, _, w in topic_edges]
-        g.add_edges(edge_list)
-        g.es["weight"] = weights
-    else:
-        # Fully connect with small weight if no edges
-        for i in range(n):
-            for j in range(i + 1, n):
-                g.add_edge(i, j, weight=0.01)
-
-    # Set initial positions from previous run when possible
+    Nudged 30% toward the previous run's anchor when the topic persisted, so
+    clouds don't jump between weekly updates.
+    """
     prev_pos: Dict[str, Tuple[float, float]] = {}
     for pt in previous_topics:
         tid = pt.get("topic_id")
@@ -722,39 +755,19 @@ def _compute_layout(
         if tid and x is not None and y is not None:
             prev_pos[tid] = (float(x), float(y))
 
-    # Deterministic layout: igraph 1.0 expects a matrix (not an int) as seed.
-    rng = np.random.RandomState(seed)
-    initial_positions = rng.normal(0.0, 1.0, (n, 2))
-
-    layout = g.layout_fruchterman_reingold(
-        weights="weight",
-        niter=800,
-        seed=initial_positions,
-    )
-
-    # Normalize to [-1, 1]
-    coords = np.array(layout.coords)
-    max_abs = np.max(np.abs(coords)) or 1.0
-    coords = coords / max_abs
-
     result: Dict[int, Tuple[float, float]] = {}
-    for i, topic in enumerate(topics):
-        if i < len(coords):
-            tid = topic.get("topic_id", "")
-            # Nudge toward previous position if available
-            if tid in prev_pos:
-                px, py = prev_pos[tid]
-                cx, cy = float(coords[i][0]), float(coords[i][1])
-                result[topic["cluster_id"]] = (
-                    round(0.3 * px + 0.7 * cx, 4),
-                    round(0.3 * py + 0.7 * cy, 4),
-                )
-            else:
-                result[topic["cluster_id"]] = (
-                    round(float(coords[i][0]), 4),
-                    round(float(coords[i][1]), 4),
-                )
-
+    for topic in topics:
+        members = topic.get("paper_indices", [])
+        if members:
+            cx = float(np.mean(umap_coords[members, 0]))
+            cy = float(np.mean(umap_coords[members, 1]))
+        else:
+            cx, cy = 0.0, 0.0
+        tid = topic.get("topic_id", "")
+        if tid in prev_pos:
+            px, py = prev_pos[tid]
+            cx, cy = 0.3 * px + 0.7 * cx, 0.3 * py + 0.7 * cy
+        result[topic["cluster_id"]] = (round(cx, 4), round(cy, 4))
     return result
 
 
@@ -763,62 +776,80 @@ def _compute_layout(
 def _build_output(
     topics: List[Dict[str, Any]],
     topic_edges: List[Tuple[int, int, float]],
-    layout: Dict[int, Tuple[float, float]],
+    anchor_positions: Dict[int, Tuple[float, float]],
+    umap_coords: np.ndarray,
+    paper_heat: List[float],
     candidates: List[Dict[str, Any]],
     config: Dict[str, Any],
     anchor_date: date,
     embedding_model: str,
     embedding_dim: int,
+    umap_config: Dict[str, Any],
     temp_dir: Path,
 ) -> Path:
-    """Write graph.json, trends.json, manifest.json, and per-topic files."""
+    """Write graph.json (semantic map), trends.json, manifest.json, topics/.
+
+    graph.json now holds a paper-level semantic map: every analysis paper is
+    a small point positioned by its UMAP coordinate, colored by topic group;
+    one topic anchor point per cloud sits at the member centroid and carries
+    the display label. Topic-relation links connect cloud anchors.
+    """
     max_topics = int(config.get("max_topics", 40))
 
     # Sort by hot_score descending, keep top N
     sorted_topics = sorted(topics, key=lambda t: t.get("hot_score", 0), reverse=True)
     displayed = sorted_topics[:max_topics]
 
-    # Build graph.json nodes
-    nodes: List[Dict[str, Any]] = []
-    edges_out: List[Dict[str, Any]] = []
-    topic_meta: List[Dict[str, Any]] = []
-    paper_index: Dict[int, int] = {int(c["id"]): i for i, c in enumerate(candidates)}
+    # topic index = position in `displayed` (stable color / cluster group)
+    cid_to_idx = {t["cluster_id"]: i for i, t in enumerate(displayed)}
 
-    size_min, size_max = 12.0, 48.0
-    scores = [t["hot_score"] for t in displayed]
-    score_min, score_max = (min(scores), max(scores)) if scores else (0, 1)
-
+    # Map candidate index -> its displayed topic (None = noise paper)
+    cand_to_topic: List[Optional[Dict[str, Any]]] = [None] * len(candidates)
     for t in displayed:
-        cid = t["cluster_id"]
-        x, y = layout.get(cid, (0.0, 0.0))
+        for p_idx in t["paper_indices"]:
+            cand_to_topic[p_idx] = t
 
-        # Scale node size
-        if score_max > score_min:
-            frac = (t["hot_score"] - score_min) / (score_max - score_min)
-        else:
-            frac = 0.5
-        size = round(size_min + frac * (size_max - size_min), 1)
+    points: List[Dict[str, Any]] = []
+    topic_meta: List[Dict[str, Any]] = []
 
-        # Border width from growth
-        border = round(1.0 + t.get("growth", 0) * 8.0, 1)
-
-        topic_slug = t["topic_id"]
-
-        nodes.append({
-            "id": topic_slug,
-            "label": t.get("label_zh") or t.get("label_en", topic_slug),
-            "x": x,
-            "y": y,
-            "size": size,
-            "hotScore": t["display_score"],
-            "growth": round(t.get("growth", 0), 3),
-            "recentCount": t["recent_count"],
-            "paperCount": t["size"],
-            "journalCount": t["journal_count"],
-            "status": t.get("lineage_status", "new"),
-            "detailFile": f"topics/{topic_slug}.json",
+    # Paper points — every analysis paper, positioned by UMAP.
+    for i, cand in enumerate(candidates):
+        topic = cand_to_topic[i]
+        points.append({
+            "id": f"p_{cand['id']}",
+            "type": "paper",
+            "shape": 0,
+            "paperId": int(cand["id"]),
+            "title": str(cand.get("title") or ""),
+            "topic": cid_to_idx[topic["cluster_id"]] if topic else -1,
+            "topicId": topic["topic_id"] if topic else "noise",
+            "label": "",
+            "heat": round(paper_heat[i], 1),
+            "x": round(float(umap_coords[i, 0]), 4),
+            "y": round(float(umap_coords[i, 1]), 4),
         })
 
+    # Topic anchor points — one per cloud at the centroid, only these label.
+    for i, t in enumerate(displayed):
+        cid = t["cluster_id"]
+        x, y = anchor_positions.get(cid, (0.0, 0.0))
+        topic_slug = t["topic_id"]
+        points.append({
+            "id": topic_slug,
+            "type": "topic",
+            "shape": 6,
+            "topicId": topic_slug,
+            "topic": i,
+            "label": t.get("label_zh") or t.get("label_en", topic_slug),
+            "heat": t["display_score"],
+            "paperCount": t["size"],
+            "journalCount": t["journal_count"],
+            "growth": round(t.get("growth", 0), 3),
+            "status": t.get("lineage_status", "new"),
+            "detailFile": f"topics/{topic_slug}.json",
+            "x": x,
+            "y": y,
+        })
         topic_meta.append({
             "topic_id": topic_slug,
             "cluster_id": cid,
@@ -830,8 +861,9 @@ def _build_output(
             "y": y,
         })
 
-    # Build edges
+    # Topic-relation links (cluster_id -> topic_id, both in displayed)
     cid_to_slug = {t["cluster_id"]: t["topic_id"] for t in displayed}
+    edges_out: List[Dict[str, Any]] = []
     for ti, tj, weight in topic_edges:
         si = cid_to_slug.get(ti)
         sj = cid_to_slug.get(tj)
@@ -852,12 +884,17 @@ def _build_output(
 
     # Write graph.json
     graph_data = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "embedding_model": embedding_model,
         "embedding_dimension": embedding_dim,
-        "nodes": nodes,
-        "edges": edges_out,
+        "umap": {
+            "n_neighbors": int(umap_config.get("n_neighbors", 15)),
+            "min_dist": float(umap_config.get("min_dist", 0.1)),
+            "random_state": int(umap_config.get("random_state", 42)),
+        },
+        "points": points,
+        "links": edges_out,
         "topics_meta": topic_meta,
     }
     (temp_dir / "graph.json").write_text(
@@ -884,7 +921,7 @@ def _build_output(
 
     # Write manifest.json
     manifest = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "embedding_model": embedding_model,
         "embedding_dimension": embedding_dim,
@@ -968,6 +1005,14 @@ def build_hotspot_network(
     drift_threshold = float(net_config.get("topic_drift_threshold", 0.55))
     min_recent = int(net_config.get("min_recent_papers_for_hot", 3))
     min_total = int(net_config.get("min_total_papers_for_topic", 4))
+    umap_n_neighbors = int(net_config.get("umap_n_neighbors", 15))
+    umap_min_dist = float(net_config.get("umap_min_dist", 0.1))
+    umap_seed = int(net_config.get("umap_seed", 42))
+    umap_config = {
+        "n_neighbors": umap_n_neighbors,
+        "min_dist": umap_min_dist,
+        "random_state": umap_seed,
+    }
     if max_topics > 0:
         net_config = {**net_config, "max_topics": max_topics}
 
@@ -992,6 +1037,11 @@ def build_hotspot_network(
     embeddings = _compute_embeddings(candidates, storage, embedding_model, cache_dir)
     dim = int(embeddings.shape[1])
     print(f"       {embeddings.shape[0]} papers × {dim} dimensions")
+
+    # 2b. UMAP 2-D coords + per-paper recency heat for the semantic map
+    print(f"[2b] Reducing to 2-D with UMAP (n_neighbors={umap_n_neighbors}, min_dist={umap_min_dist})...")
+    umap_coords = _compute_umap(embeddings, umap_n_neighbors, umap_min_dist, umap_seed)
+    paper_heat = _paper_recency_heat(candidates, anchor_date)
 
     # 3. Build mutual kNN
     print(f"[3/9] Building mutual k-NN graph (k={knn_k}, min_sim={min_sem_sim})...")
@@ -1053,13 +1103,14 @@ def build_hotspot_network(
             t.setdefault("why_hot", "")
             t.setdefault("keywords", [])
 
-    # 10. Layout + output
-    print("[10/10] Computing layout and writing output...")
+    # 10. Topic anchors + output
+    print("[10/10] Computing anchors and writing output...")
     topic_graph_edges = _compute_topic_graph(topics, candidates, hybrid_edges)
-    layout = _compute_layout(topics, topic_graph_edges, previous)
+    anchor_positions = _compute_anchor_positions(topics, umap_coords, previous)
     _build_output(
-        topics, topic_graph_edges, layout, candidates, net_config,
-        anchor_date, embedding_model, dim, temp_dir,
+        topics, topic_graph_edges, anchor_positions, umap_coords, paper_heat,
+        candidates, net_config, anchor_date, embedding_model, dim, umap_config,
+        temp_dir,
     )
 
     # Atomic replace

@@ -78,3 +78,7 @@ hotspot_network:
   min_recent_papers_for_hot: 3
   min_total_papers_for_topic: 4
   max_topics: 40
+  # 语义地图坐标：论文 embedding 的 UMAP 二维降维参数
+  umap_n_neighbors: 15
+  umap_min_dist: 0.1
+  umap_seed: 42

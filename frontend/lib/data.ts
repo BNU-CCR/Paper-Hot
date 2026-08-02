@@ -37,16 +37,18 @@ export function getHotspots(): HotspotsData {
 
 // ── Hotspot network data ──
 
-/** Build-time: load the hotspot network graph. */
+/** Build-time: load the hotspot semantic-map graph (normalized shape). */
 export function getHotspotGraph(): GraphData {
-  return readJson<GraphData>("hotspots/graph.json", {
-    schema_version: 0,
-    generated_at: "",
-    embedding_model: "",
-    embedding_dimension: 0,
-    nodes: [],
-    edges: [],
-  });
+  const data = readJson<Partial<GraphData>>("hotspots/graph.json", {});
+  return {
+    schema_version: typeof data.schema_version === "number" ? data.schema_version : 0,
+    generated_at: data.generated_at ?? "",
+    embedding_model: data.embedding_model ?? "",
+    embedding_dimension: data.embedding_dimension ?? 0,
+    umap: data.umap ?? { n_neighbors: 0, min_dist: 0, random_state: 0 },
+    points: Array.isArray(data.points) ? data.points : [],
+    links: Array.isArray(data.links) ? data.links : [],
+  };
 }
 
 /** Build-time: load the hotspot manifest. */

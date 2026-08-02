@@ -8,7 +8,7 @@ import { HotspotDetailPanel } from "../../components/hotspots/hotspot-detail-pan
 import { HotspotTrendTable } from "../../components/hotspots/hotspot-trend-table";
 import type {
   GraphData,
-  GraphNode,
+  GraphPoint,
   TrendItem,
   ManifestData,
   HotspotsData,
@@ -70,22 +70,22 @@ export function HotspotPageClient({
   byId,
   topics,
 }: HotspotPageClientProps) {
-  const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
+  const [selectedNode, setSelectedNode] = useState<GraphPoint | null>(null);
   const [activeTab, setActiveTab] = useState("graph");
 
-  const handleSelectNode = useCallback((node: GraphNode | null) => {
+  const handleSelectNode = useCallback((node: GraphPoint | null) => {
     setSelectedNode(node);
   }, []);
 
   const handleSelectTopic = useCallback(
     (topicId: string) => {
-      const node = graph.nodes.find((n) => n.id === topicId);
-      if (node) {
-        setSelectedNode(node);
+      const point = graph.points.find((p) => p.type === "topic" && p.id === topicId);
+      if (point) {
+        setSelectedNode(point);
         setActiveTab("graph");
       }
     },
-    [graph.nodes],
+    [graph.points],
   );
 
   return (

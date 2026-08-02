@@ -41,8 +41,8 @@ def validate_hotspot_data(data_dir: Path) -> List[str]:
 
     # ── manifest.json ────────────────────────────────────────────
     manifest = _read_json(data_dir / "manifest.json")
-    _check(manifest.get("schema_version") == 1,
-           "manifest.schema_version must be 1", errors)
+    _check(manifest.get("schema_version") == 2,
+           "manifest.schema_version must be 2", errors)
     _check(isinstance(manifest.get("topic_count"), int) and manifest["topic_count"] >= 0,
            "manifest.topic_count must be a non-negative integer", errors)
     _check(isinstance(manifest.get("paper_count"), int) and manifest["paper_count"] >= 0,
@@ -50,52 +50,67 @@ def validate_hotspot_data(data_dir: Path) -> List[str]:
     _check(isinstance(manifest.get("edge_count"), int) and manifest["edge_count"] >= 0,
            "manifest.edge_count must be a non-negative integer", errors)
 
-    # ── graph.json ───────────────────────────────────────────────
+    # ── graph.json (semantic map) ────────────────────────────────
     graph = _read_json(data_dir / "graph.json")
-    nodes: List[Dict[str, Any]] = graph.get("nodes", [])
-    edges: List[Dict[str, Any]] = graph.get("edges", [])
+    points: List[Dict[str, Any]] = graph.get("points", [])
+    links: List[Dict[str, Any]] = graph.get("links", [])
 
-    # Node checks
-    _check(3 <= len(nodes) <= 60,
-           f"Node count {len(nodes)} must be in [3, 60]", errors)
+    # Point checks
+    _check(3 <= len(points),
+           f"Point count {len(points)} must be >= 3", errors)
 
-    node_ids: set = set()
-    for node in nodes:
-        nid = node.get("id", "")
-        _check(isinstance(nid, str) and nid, "Every node must have a non-empty id", errors)
-        _check(nid not in node_ids, f"Duplicate node id: {nid}", errors)
-        node_ids.add(nid)
+    point_ids: set = set()
+    topic_points: List[Dict[str, Any]] = []
+    for point in points:
+        pid = point.get("id", "")
+        _check(isinstance(pid, str) and pid, "Every point must have a non-empty id", errors)
+        _check(pid not in point_ids, f"Duplicate point id: {pid}", errors)
+        point_ids.add(pid)
 
-        x, y = node.get("x"), node.get("y")
+        ptype = point.get("type")
+        _check(ptype in ("paper", "topic"),
+               f"Point {pid} has unknown type: {ptype}", errors)
+
+        x, y = point.get("x"), point.get("y")
         _check(isinstance(x, (int, float)) and math.isfinite(float(x)),
-               f"Node {nid} has non-finite x coordinate: {x}", errors)
+               f"Point {pid} has non-finite x coordinate: {x}", errors)
         _check(isinstance(y, (int, float)) and math.isfinite(float(y)),
-               f"Node {nid} has non-finite y coordinate: {y}", errors)
+               f"Point {pid} has non-finite y coordinate: {y}", errors)
 
-        hot = node.get("hotScore")
-        _check(isinstance(hot, (int, float)) and 0 <= float(hot) <= 100,
-               f"Node {nid} hotScore {hot} must be in [0, 100]", errors)
+        heat = point.get("heat")
+        _check(isinstance(heat, (int, float)) and math.isfinite(float(heat)) and 0 <= float(heat) <= 100,
+               f"Point {pid} heat {heat} must be a finite number in [0, 100]", errors)
 
-        size = node.get("size")
-        _check(isinstance(size, (int, float)) and float(size) > 0,
-               f"Node {nid} size {size} must be positive", errors)
+        if ptype == "topic":
+            topic_points.append(point)
 
-    # Edge checks
-    edge_ids: set = set()
-    for edge in edges:
-        eid = edge.get("id", "")
-        _check(isinstance(eid, str) and eid, "Every edge must have a non-empty id", errors)
-        _check(eid not in edge_ids, f"Duplicate edge id: {eid}", errors)
-        edge_ids.add(eid)
+    # Every topic cloud should have at least one paper point in its group
+    # (soft warning — a fresh topic may briefly have all papers as noise).
+    paper_groups = {
+        p.get("topic") for p in points
+        if p.get("type") == "paper" and isinstance(p.get("topic"), int) and p["topic"] >= 0
+    }
+    for point in topic_points:
+        _check(point.get("topic") in paper_groups,
+               f"Topic point {point.get('id')} has no paper points in its group",
+               warnings)
 
-        src, tgt = edge.get("source"), edge.get("target")
-        _check(src in node_ids, f"Edge {eid} source '{src}' not in nodes", errors)
-        _check(tgt in node_ids, f"Edge {eid} target '{tgt}' not in nodes", errors)
-        _check(src != tgt, f"Edge {eid} is a self-loop", errors)
+    # Link checks
+    link_ids: set = set()
+    for link in links:
+        lid = link.get("id", "")
+        _check(isinstance(lid, str) and lid, "Every link must have a non-empty id", errors)
+        _check(lid not in link_ids, f"Duplicate link id: {lid}", errors)
+        link_ids.add(lid)
 
-        weight = edge.get("weight")
+        src, tgt = link.get("source"), link.get("target")
+        _check(src in point_ids, f"Link {lid} source '{src}' not in points", errors)
+        _check(tgt in point_ids, f"Link {lid} target '{tgt}' not in points", errors)
+        _check(src != tgt, f"Link {lid} is a self-loop", errors)
+
+        weight = link.get("weight")
         _check(isinstance(weight, (int, float)) and math.isfinite(float(weight)),
-               f"Edge {eid} has non-finite weight: {weight}", errors)
+               f"Link {lid} has non-finite weight: {weight}", errors)
 
     # ── trends.json ──────────────────────────────────────────────
     trends = _read_json(data_dir / "trends.json")
@@ -109,8 +124,8 @@ def validate_hotspot_data(data_dir: Path) -> List[str]:
     _check(topics_dir.is_dir(), "topics/ directory missing", errors)
 
     if topics_dir.is_dir():
-        for node in nodes:
-            detail_file = node.get("detailFile", "")
+        for point in topic_points:
+            detail_file = point.get("detailFile", "")
             if detail_file:
                 detail_path = data_dir / detail_file
                 _check(detail_path.is_file(),
@@ -119,7 +134,7 @@ def validate_hotspot_data(data_dir: Path) -> List[str]:
                     detail = _read_json(detail_path)
                     papers = detail.get("papers", [])
                     _check(len(papers) >= 2,
-                           f"Topic {node['id']} has only {len(papers)} papers (min 2)",
+                           f"Topic {point['id']} has only {len(papers)} papers (min 2)",
                            warnings)  # warning, not error
 
     # ── Retraction check ─────────────────────────────────────────

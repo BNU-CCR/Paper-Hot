@@ -1,172 +1,160 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import type { GraphData, GraphNode } from "../../types/hotspot";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Cosmograph, usePreparedCosmographData } from "@cosmograph/react";
+import type { CosmographConfig } from "@cosmograph/react";
+import type { GraphData, GraphPoint } from "../../types/hotspot";
 
-/** Read a CSS variable from the document root. */
+/**
+ * Hotspot semantic map rendered with Cosmograph (WebGL).
+ *
+ * Every analysis paper is a small point colored by topic and positioned by its
+ * UMAP coordinate; one star-shaped anchor per topic sits at the cloud centroid
+ * and carries the display label. Positions are fixed (enableSimulation=false)
+ * so the UMAP layout is preserved. Clicking a topic (or a paper inside it)
+ * highlights the whole cloud and opens the detail panel.
+ */
+
+const TOPIC_PALETTE = [
+  "#4f8ff7", "#f28e2c", "#59a14f", "#e15759", "#76b7b2",
+  "#edc949", "#af7aa1", "#ff9da7", "#9c755f", "#bab0ab",
+  "#86bdf5", "#f6b26b", "#8fd18f", "#f1948a", "#a6d3cf",
+  "#f5d76e", "#c39bd3", "#f4a7b9", "#b8a89a", "#d5d8dc",
+];
+const NOISE_COLOR = "#9aa0a6";
+
 function cssVar(name: string): string {
   if (typeof document === "undefined") return "#000";
   return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || "#000";
 }
 
-function themeColors() {
-  return {
-    nodeColor: cssVar("--foreground"),
-    nodeBg: cssVar("--background"),
-    edgeColor: cssVar("--border"),
-    accent: cssVar("--primary"),
-    muted: cssVar("--muted-foreground"),
-  };
+function buildColorMap(points: GraphPoint[]): Record<string, string> {
+  const map: Record<string, string> = {};
+  const seen = new Set<number>();
+  for (const p of points) {
+    if (p.topic < 0 || seen.has(p.topic)) continue;
+    seen.add(p.topic);
+    map[String(p.topic)] = TOPIC_PALETTE[p.topic % TOPIC_PALETTE.length];
+  }
+  map["-1"] = NOISE_COLOR;
+  return map;
 }
 
 interface HotspotNetworkProps {
   graph: GraphData;
   selectedNodeId: string | null;
-  onSelectNode: (node: GraphNode | null) => void;
+  onSelectNode: (node: GraphPoint | null) => void;
 }
 
 export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotNetworkProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const instanceRef = useRef<{
-    sigma: { kill: () => void; refresh: () => void };
-    graph: {
-      getNodeAttributes: (id: string) => Record<string, unknown>;
-      setNodeAttribute: (id: string, key: string, value: unknown) => void;
-      forEachNode: (cb: (id: string) => void) => void;
-    };
+  const cosmographRef = useRef<{
+    selectPoints: (indices: number[] | null, addToSelection?: boolean) => void;
+    unselectAllPoints: () => void;
+    setFocusedPoint: (index?: number) => void;
+    zoomToPoint: (index: number, duration?: number, scale?: number, canZoomOut?: boolean) => void;
   } | null>(null);
+  const [mounted, setMounted] = useState(false);
   const onSelectRef = useRef(onSelectNode);
   onSelectRef.current = onSelectNode;
 
-  // ── Initialize Sigma once ──────────────────────────────────────
+  const anchorIds = useMemo(
+    () => graph.points.filter((p) => p.type === "topic").map((p) => p.id),
+    [graph],
+  );
+  const colorMap = useMemo(() => buildColorMap(graph.points), [graph]);
+
+  // Re-read theme colors when the `[data-theme]` attribute changes.
+  const [themeVars, setThemeVars] = useState({ fg: "#111", card: "#fff" });
   useEffect(() => {
-    const container = containerRef.current;
-    if (!container || !graph.nodes.length) return;
+    const read = () =>
+      setThemeVars({ fg: cssVar("--foreground"), card: cssVar("--card") });
+    read();
+    const obs = new MutationObserver(read);
+    obs.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+    return () => obs.disconnect();
+  }, []);
 
-    let cancelled = false;
-    let resizeObserver: ResizeObserver | null = null;
+  // Prepare raw points/links into Cosmograph's internal format (async, once).
+  const { config, isLoading, error } = usePreparedCosmographData(
+    { points: { pointIdBy: "id" }, links: { linkSourceBy: "source", linkTargetsBy: ["target"] } },
+    graph.points as unknown as Record<string, unknown>[],
+    graph.links as unknown as Record<string, unknown>[],
+  );
 
-    async function init() {
-      const [Graph, Sigma] = await Promise.all([
-        import("graphology").then((m) => m.default),
-        import("sigma").then((m) => m.default),
-      ]);
+  const mergedConfig = useMemo<CosmographConfig>(() => {
+    return {
+      ...config,
+      pointLabelBy: "label",
+      pointColorBy: "topic",
+      pointColorStrategy: "map",
+      pointColorByMap: colorMap,
+      pointSizeBy: "heat",
+      pointSizeRange: [3, 16],
+      pointShapeBy: "shape",
+      pointXBy: "x",
+      pointYBy: "y",
+      pointClusterBy: "topic",
+      pointIncludeColumns: ["*"],
+      enableSimulation: false,
+      backgroundColor: themeVars.card,
+      unknownColor: NOISE_COLOR,
+      pointDefaultColor: NOISE_COLOR,
+      pointGreyoutOpacity: 0.18,
+      pointLabelColor: themeVars.fg,
+      pointLabelFontSize: 14,
+      pointLabelPosition: "center",
+      showLabels: true,
+      showLabelsFor: anchorIds,
+      showTopLabels: false,
+      showDynamicLabels: false,
+      showHoveredPointLabel: true,
+      showFocusedPointLabel: true,
+      selectPointOnClick: false,
+      focusPointOnClick: false,
+      resetSelectionOnEmptyCanvasClick: true,
+      fitViewDuration: 300,
+      fitViewPadding: 0.12,
+      // These callbacks live in the underlying cosmos engine config and are
+      // passed through the React wrapper.
+      onPointClick: (index?: number) => {
+        if (typeof index !== "number") return;
+        const pt = graph.points[index];
+        if (!pt) return;
+        if (pt.type === "topic") {
+          onSelectRef.current(pt);
+        } else {
+          const anchor = graph.points.find((q) => q.type === "topic" && q.topicId === pt.topicId);
+          onSelectRef.current(anchor ?? pt);
+        }
+      },
+      onBackgroundClick: () => onSelectRef.current(null),
+    } as CosmographConfig;
+  }, [config, colorMap, anchorIds, graph, themeVars]);
 
-      if (cancelled || !container) return;
-
-      const g = new Graph({ type: "undirected", multi: false, allowSelfLoops: false });
-      const { nodeColor, nodeBg, edgeColor } = themeColors();
-
-      for (const node of graph.nodes) {
-        g.addNode(node.id, {
-          x: node.x * 400,
-          y: node.y * 400,
-          size: node.size,
-          label: node.label,
-          color: nodeBg,
-          borderColor: nodeColor,
-          _data: node,
-        });
+  // Highlight the selected topic cloud (external selection or trend-table click).
+  useEffect(() => {
+    const inst = cosmographRef.current;
+    if (!inst || !mounted) return;
+    if (selectedNodeId) {
+      const indices: number[] = [];
+      let anchorIdx = -1;
+      graph.points.forEach((p, i) => {
+        if (p.topicId === selectedNodeId) {
+          indices.push(i);
+          if (p.type === "topic") anchorIdx = i;
+        }
+      });
+      if (indices.length) inst.selectPoints(indices, false);
+      if (anchorIdx >= 0) {
+        inst.setFocusedPoint(anchorIdx);
+        inst.zoomToPoint(anchorIdx, 300);
       }
-
-      for (const edge of graph.edges) {
-        if (!g.hasNode(edge.source) || !g.hasNode(edge.target)) continue;
-        g.addEdgeWithKey(edge.id, edge.source, edge.target, {
-          size: Math.max(0.5, edge.width),
-          color: edgeColor,
-        });
-      }
-
-      const w = container.clientWidth || 800;
-      const h = container.clientHeight || 600;
-      const scale = Math.min(w, h) / 2.6;
-
-      const sigma = new Sigma(g, container as HTMLElement, {
-        renderEdgeLabels: false,
-        labelRenderedSizeThreshold: 10,
-        defaultEdgeType: "line",
-        labelColor: { color: nodeColor },
-        stagePadding: 40,
-      });
-
-      // Set initial camera to center the graph
-      sigma.getCamera().setState({
-        x: 0,
-        y: 0,
-        ratio: 1 / scale,
-        angle: 0,
-      });
-
-      sigma.on("clickNode", ({ node }) => {
-        const attrs = g.getNodeAttributes(node);
-        const data = (attrs as Record<string, unknown>)._data as GraphNode | undefined;
-        onSelectRef.current(data || null);
-      });
-
-      sigma.on("clickStage", () => {
-        onSelectRef.current(null);
-      });
-
-      resizeObserver = new ResizeObserver(() => sigma.refresh());
-      resizeObserver.observe(container as Element);
-
-      instanceRef.current = { sigma, graph: g };
+    } else {
+      inst.unselectAllPoints();
     }
+  }, [selectedNodeId, graph, mounted]);
 
-    init();
-
-    return () => {
-      cancelled = true;
-      resizeObserver?.disconnect();
-      instanceRef.current?.sigma.kill();
-      instanceRef.current = null;
-    };
-    // Only re-init when the graph data identity changes
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [graph]);
-
-  // ── Update selection highlight ─────────────────────────────────
-  useEffect(() => {
-    const inst = instanceRef.current;
-    if (!inst) return;
-
-    const { nodeColor, nodeBg, accent } = themeColors();
-
-    inst.graph.forEachNode((id: string) => {
-      const isSelected = id === selectedNodeId;
-      inst.graph.setNodeAttribute(id, "color", isSelected ? accent : nodeBg);
-      inst.graph.setNodeAttribute(id, "borderColor", isSelected ? accent : nodeColor);
-    });
-
-    inst.sigma.refresh();
-  }, [selectedNodeId]);
-
-  // ── Theme change → refresh colors ──────────────────────────────
-  useEffect(() => {
-    const onThemeChange = () => {
-      const inst = instanceRef.current;
-      if (!inst) return;
-
-      const { nodeColor, nodeBg, edgeColor, accent } = themeColors();
-      const selected = selectedNodeId;
-
-      inst.graph.forEachNode((id: string) => {
-        const isSelected = id === selected;
-        inst.graph.setNodeAttribute(id, "color", isSelected ? accent : nodeBg);
-        inst.graph.setNodeAttribute(id, "borderColor", isSelected ? accent : nodeColor);
-      });
-      inst.sigma.refresh();
-    };
-
-    const observer = new MutationObserver(onThemeChange);
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["data-theme"],
-    });
-    return () => observer.disconnect();
-  }, [selectedNodeId]);
-
-  if (!graph.nodes.length) {
+  if (!graph.points.length) {
     return (
       <div className="empty-state">
         <b>图谱数据暂未生成</b>
@@ -175,11 +163,36 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
     );
   }
 
+  if (error) {
+    return (
+      <div className="empty-state">
+        <b>图谱渲染失败</b>
+        <span>{String((error as Error).message || error)}</span>
+      </div>
+    );
+  }
+
   return (
-    <div
-      ref={containerRef}
-      className="hotspot-network-canvas"
-      style={{ width: "100%", height: "100%", minHeight: 480 }}
-    />
+    <div className="hotspot-network-canvas" style={{ width: "100%", height: "100%", minHeight: 480 }}>
+      {isLoading ? (
+        <div className="empty-state">
+          <b>图谱加载中…</b>
+        </div>
+      ) : (
+        <Cosmograph
+          onMount={(inst) => {
+            cosmographRef.current = inst as typeof cosmographRef.current;
+            setMounted(true);
+            // Fit the whole semantic map once the data table is uploaded.
+            void inst
+              .dataUploaded()
+              .then(() => inst.fitView(0, 0.12))
+              .catch(() => {});
+          }}
+          {...mergedConfig}
+          style={{ width: "100%", height: "100%" }}
+        />
+      )}
+    </div>
   );
 }

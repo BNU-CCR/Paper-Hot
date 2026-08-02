@@ -21,7 +21,7 @@ export default function HotspotsPage() {
   const byId = new Map(papers.map((paper) => [Number(paper.id), paper]));
   const topics: HotspotTopic[] = Array.isArray(hotspots?.topics) ? hotspots.topics : [];
 
-  const hasGraph = graph.nodes.length > 0;
+  const hasGraph = graph.points.length > 0;
   const hasTrends = trends.length > 0;
 
   const topicCount = hasGraph ? manifest.topic_count : topics.length;

@@ -21,7 +21,9 @@ try:
         _form_topics,
         _compute_heat_scores,
         _compute_topic_graph,
-        _compute_layout,
+        _compute_anchor_positions,
+        _compute_umap,
+        _paper_recency_heat,
         build_hotspot_network,
     )
     HAVE_ANALYSIS = True
@@ -56,25 +58,49 @@ class HotspotNetworkUnitTests(unittest.TestCase):
         self.assertEqual(by_size[2], "emerging")
         self.assertEqual(by_size[4], "formal")
 
-    def test_topic_graph_and_layout_use_cluster_ids_not_indices(self):
+    def test_topic_graph_and_anchor_positions_use_cluster_ids(self):
         # Regression: _compute_topic_graph previously keyed edges by the
-        # enumerate index of each topic, while _compute_layout and
-        # _build_output look edges up by cluster_id. With non-contiguous
-        # Leiden cluster ids (e.g. 10/20/30) the two never match, so the
-        # real pipeline crashed with KeyError at layout time.
+        # enumerate index of each topic, while _compute_anchor_positions and
+        # _build_output look edges/anchors up by cluster_id. With non-contiguous
+        # Leiden cluster ids (e.g. 10/20/30) the two never matched, so the real
+        # pipeline crashed with KeyError at layout time.
         topics = [
-            {"cluster_id": 10, "paper_indices": [0, 1, 2, 3], "size": 4, "status": "formal"},
-            {"cluster_id": 20, "paper_indices": [4, 5, 6, 7], "size": 4, "status": "formal"},
-            {"cluster_id": 30, "paper_indices": [8, 9, 10, 11], "size": 4, "status": "formal"},
+            {"cluster_id": 10, "topic_id": "topic_a", "paper_indices": [0, 1, 2, 3], "size": 4, "status": "formal"},
+            {"cluster_id": 20, "topic_id": "topic_b", "paper_indices": [4, 5, 6, 7], "size": 4, "status": "formal"},
+            {"cluster_id": 30, "topic_id": "topic_c", "paper_indices": [8, 9, 10, 11], "size": 4, "status": "formal"},
         ]
         candidates = [{"id": i} for i in range(12)]
         # paper 0 -> cluster 10, paper 4 -> cluster 20, paper 8 -> cluster 30
         paper_edges = [(0, 4, 0.5), (4, 8, 0.5)]
         edges = _compute_topic_graph(topics, candidates, paper_edges)
         self.assertEqual({(a, b) for a, b, _ in edges}, {(10, 20), (20, 30)})
-        # Layout must place every topic without KeyError.
-        layout = _compute_layout(topics, edges, previous_topics=[])
-        self.assertEqual(set(layout.keys()), {10, 20, 30})
+
+        # Anchors sit at the centroid of each topic's member UMAP coords.
+        umap_coords = np.array([[float(i), float(i + 1)] for i in range(12)])
+        anchors = _compute_anchor_positions(topics, umap_coords, previous_topics=[])
+        self.assertEqual(set(anchors.keys()), {10, 20, 30})
+        # members 0..3 of coords [(0,1),(1,2),(2,3),(3,4)] -> centroid (1.5, 2.5)
+        self.assertEqual(anchors[10], (1.5, 2.5))
+
+    def test_umap_is_deterministic_and_normalized(self):
+        rng = np.random.RandomState(7)
+        embeddings = rng.normal(0, 1, (40, 8)).astype(np.float32)
+        a = _compute_umap(embeddings, n_neighbors=8, min_dist=0.1, random_state=42)
+        b = _compute_umap(embeddings, n_neighbors=8, min_dist=0.1, random_state=42)
+        np.testing.assert_allclose(a, b)
+        self.assertEqual(a.shape, (40, 2))
+        self.assertLessEqual(float(np.max(np.abs(a))), 1.0)
+
+    def test_paper_recency_heat_decays_with_age(self):
+        anchor = date.today()
+        candidates = [
+            {"id": 1, "published_date": anchor.isoformat()},
+            {"id": 2, "published_date": (anchor - timedelta(days=100)).isoformat()},
+            {"id": 3, "published_date": "not-a-date"},
+        ]
+        heats = _paper_recency_heat(candidates, anchor)
+        self.assertGreater(heats[0], heats[1])
+        self.assertEqual(heats[2], 50.0)
 
     def test_heat_scores_finite_and_bounded(self):
         anchor = date.today()
@@ -192,12 +218,15 @@ class HotspotNetworkPipelineTests(unittest.TestCase):
             self.assertTrue((output_dir / "trends.json").is_file())
 
             graph = json.loads((output_dir / "graph.json").read_text(encoding="utf-8"))
-            self.assertGreaterEqual(len(graph["nodes"]), 3)
-            self.assertLessEqual(len(graph["nodes"]), 60)
-            node_ids = {n["id"] for n in graph["nodes"]}
-            for edge in graph["edges"]:
-                self.assertIn(edge["source"], node_ids)
-                self.assertIn(edge["target"], node_ids)
+            self.assertEqual(graph["schema_version"], 2)
+            # 16 paper points + 4 topic anchors
+            self.assertGreaterEqual(len(graph["points"]), 3)
+            point_ids = {p["id"] for p in graph["points"]}
+            topic_points = [p for p in graph["points"] if p["type"] == "topic"]
+            self.assertGreaterEqual(len(topic_points), 3)
+            for link in graph["links"]:
+                self.assertIn(link["source"], point_ids)
+                self.assertIn(link["target"], point_ids)
 
             # Validate via the validation module
             from journal_tracker.hotspot_validation import validate_hotspot_data
@@ -222,17 +251,17 @@ class HotspotNetworkPipelineTests(unittest.TestCase):
 
         first, second = results
         # Topic UUIDs are random each run, so compare stable structure:
-        # cluster labels and fixed layout coordinates.
+        # point type/label and fixed UMAP coordinates.
         def structural(graph):
             return sorted(
-                (n["label"], round(n["x"], 2), round(n["y"], 2))
-                for n in graph["nodes"]
+                (p["type"], p["label"], round(p["x"], 2), round(p["y"], 2))
+                for p in graph["points"]
             )
 
         self.assertEqual(structural(first), structural(second))
         self.assertEqual(
-            {e["weight"] for e in first["edges"]},
-            {e["weight"] for e in second["edges"]},
+            {l["weight"] for l in first["links"]},
+            {l["weight"] for l in second["links"]},
         )
 
 

@@ -2,12 +2,12 @@
 
 import { useEffect, useState } from "react";
 import { X, ExternalLink, BookOpen, TrendingUp, Calendar } from "lucide-react";
-import type { GraphNode, TopicDetail } from "../../types/hotspot";
+import type { GraphPoint, TopicDetail } from "../../types/hotspot";
 import { publicDataUrl } from "../../lib/data-url";
 import { Button } from "../ui/button";
 
 interface HotspotDetailPanelProps {
-  node: GraphNode | null;
+  node: GraphPoint | null;
   onClose: () => void;
 }
 
@@ -58,8 +58,11 @@ export function HotspotDetailPanel({ node, onClose }: HotspotDetailPanelProps) {
 
   if (!node) return null;
 
-  const growthPercent = node.growth > 0 ? `+${Math.round(node.growth * 100)}%` : `${Math.round(node.growth * 100)}%`;
-  const growthClass = node.growth > 0.3 ? "trend-up" : node.growth > 0 ? "trend-stable" : "trend-down";
+  const growth = detail?.growth ?? node.growth ?? 0;
+  const growthPercent = growth > 0 ? `+${Math.round(growth * 100)}%` : `${Math.round(growth * 100)}%`;
+  const growthClass = growth > 0.3 ? "trend-up" : growth > 0 ? "trend-stable" : "trend-down";
+  const paperTotal = detail?.papers.length ?? node.paperCount ?? 0;
+  const paperRecent = detail?.recent_count ?? paperTotal;
 
   return (
     <aside className="hotspot-detail-panel">
@@ -71,10 +74,10 @@ export function HotspotDetailPanel({ node, onClose }: HotspotDetailPanelProps) {
       </div>
 
       <div className="detail-stats">
-        <StatBadge label="热度" value={node.hotScore} />
+        <StatBadge label="热度" value={detail?.hot_score ?? node.heat} />
         <StatBadge label="环比" value={growthPercent} />
-        <StatBadge label="论文" value={`${node.recentCount}/${node.paperCount}`} />
-        <StatBadge label="期刊" value={node.journalCount} />
+        <StatBadge label="论文" value={`${paperRecent}/${paperTotal}`} />
+        <StatBadge label="期刊" value={detail?.journal_count ?? node.journalCount ?? 0} />
       </div>
 
       {loading && (
