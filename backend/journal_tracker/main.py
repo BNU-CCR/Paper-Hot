@@ -295,6 +295,61 @@ def backfill_openalex_bibliography(config: Optional[Config] = None, limit: int =
     return report
 
 
+def backfill_openalex_features(config: Optional[Config] = None, limit: int = 10000) -> dict:
+    """Fill missing paper_features (topics, keywords, references, citations) from OpenAlex."""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    discovery = OpenAlexDiscovery()
+    paper_ids = storage.get_papers_missing_features(limit=limit)
+    report = {"requested": len(paper_ids), "enriched": 0, "empty": 0, "failed": 0}
+    print(f"OpenAlex features backfill: {len(paper_ids)} papers missing features")
+
+    for index, paper_id in enumerate(paper_ids):
+        paper = storage.get_paper_by_id(paper_id)
+        if not paper:
+            report["failed"] += 1
+            continue
+        try:
+            enrichment = discovery.get_work_enrichment(paper.openalex_id, paper.doi)
+        except Exception as error:
+            report["failed"] += 1
+            safe_print(f"Features backfill failed [{paper_id}]: {paper.title[:60]} | {error}")
+            continue
+
+        has_data = (
+            enrichment["openalex_topics"] != "[]"
+            or enrichment["openalex_keywords"] != "[]"
+            or enrichment["referenced_works"] != "[]"
+        )
+        storage.upsert_paper_features(PaperFeatures(
+            paper_id=paper_id,
+            openalex_topics_json=enrichment["openalex_topics"],
+            openalex_keywords_json=enrichment["openalex_keywords"],
+            referenced_works_json=enrichment["referenced_works"],
+            cited_by_count=enrichment["cited_by_count"],
+            is_retracted=enrichment["is_retracted"],
+        ))
+        if enrichment["openalex_id"] and not paper.openalex_id:
+            storage.update_paper_bibliography(paper_id, paper.volume, paper.issue, enrichment["openalex_id"])
+
+        if has_data:
+            report["enriched"] += 1
+        else:
+            report["empty"] += 1
+
+        if index < len(paper_ids) - 1:
+            time.sleep(OpenAlexDiscovery.SEARCH_PAUSE_SECONDS)
+
+    print(
+        "Features backfill complete: "
+        f"{report['enriched']} enriched, {report['empty']} still empty, "
+        f"{report['failed']} failed"
+    )
+    return report
+
+
 def screen_pending_papers(config: Optional[Config] = None, limit: int = 20) -> int:
     """Run AI screening for papers currently waiting in the local queue."""
     if config is None:
@@ -562,6 +617,9 @@ def run_weekly_journal_workflow(
         "batches": screening_batches,
     }
 
+    features_report = backfill_openalex_features(config, limit=500)
+    report["steps"]["backfill_features"] = features_report
+
     update_public_workflow(config, refilter_limit=refilter_limit)
     public_count = len(storage.get_public_papers(limit=10000))
     report["steps"]["update_public"] = {
@@ -793,6 +851,8 @@ def main():
     subparsers.add_parser("generate-hotspots", help="从近一个月公开论文生成当期热点 JSON")
     bibliography_parser = subparsers.add_parser("backfill-bibliography", help="用 OpenAlex 回填卷号和期号")
     bibliography_parser.add_argument("--limit", type=int, default=10000, help="最多回填论文数")
+    features_parser = subparsers.add_parser("backfill-features", help="用 OpenAlex 回填 topics/keywords/references/citations")
+    features_parser.add_argument("--limit", type=int, default=10000, help="最多回填论文数")
     subparsers.add_parser("doctor", help="检查 API key、数据库、公开 JSON 和关键词配置")
     list_parser = subparsers.add_parser("list", help="列出数据库中的论文")
     list_parser.add_argument("--limit", type=int, default=100, help="最多列出论文数")
@@ -843,6 +903,8 @@ def main():
         print(f"已生成当期热点数据: {generate_monthly_hotspots(config)}")
     elif args.command == "backfill-bibliography":
         backfill_openalex_bibliography(config, args.limit)
+    elif args.command == "backfill-features":
+        backfill_openalex_features(config, args.limit)
     elif args.command == "doctor":
         sys.exit(run_doctor(config))
     elif args.command == "list":

@@ -736,6 +736,40 @@ class OpenAlexDiscovery:
             "issue": str(biblio.get("issue") or ""),
         }
 
+    def get_work_enrichment(self, openalex_id: str = "", doi: str = "") -> Dict[str, Any]:
+        """Fetch topics, keywords, referenced_works, and cited_by_count for one work.
+
+        Used by the features backfill to populate paper_features for papers that
+        were ingested before enrichment was added or whose OpenAlex topics were
+        not yet assigned at discovery time.
+        """
+        identifier = (openalex_id or "").strip()
+        if not identifier:
+            normalized_doi = self._normalize_doi(doi)
+            if not normalized_doi:
+                return {
+                    "openalex_id": "",
+                    "openalex_topics": "[]",
+                    "openalex_keywords": "[]",
+                    "referenced_works": "[]",
+                    "cited_by_count": 0,
+                    "is_retracted": False,
+                }
+            identifier = f"https://doi.org/{normalized_doi}"
+
+        item = self._get_json(
+            f"/works/{identifier}",
+            {"select": "id,topics,keywords,referenced_works,cited_by_count,is_retracted"},
+        )
+        return {
+            "openalex_id": (item.get("id", "") or "").rsplit("/", 1)[-1],
+            "openalex_topics": self._serialize_topics(item.get("topics")),
+            "openalex_keywords": self._serialize_keywords(item.get("keywords")),
+            "referenced_works": self._serialize_referenced_works(item.get("referenced_works")),
+            "cited_by_count": item.get("cited_by_count", 0) or 0,
+            "is_retracted": bool(item.get("is_retracted", False)),
+        }
+
     def _abstract_from_inverted_index(self, inverted_index: Optional[Dict[str, List[int]]]) -> str:
         if not inverted_index:
             return ""
