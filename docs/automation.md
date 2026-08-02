@@ -3,7 +3,7 @@
 Paper HOT now has two GitHub Actions workflows:
 
 - `.github/workflows/ci.yml` runs Python tests on 3.9 and 3.12, exercises a fresh SQLite database, and runs the frontend logic tests for every push and pull request.
-- `.github/workflows/weekly-update.yml` runs every Monday at 09:00 Asia/Shanghai and can also be started manually from the Actions page.
+- `.github/workflows/weekly-update.yml` runs every Monday at 13:00 GMT+8 (Asia/Shanghai) and can also be started manually from the Actions page.
 
 ## GitHub Repository Setup
 
@@ -23,7 +23,7 @@ Do not place the real key in `weekly-update.yml`, `settings.yaml`, `.env.example
 
 The working SQLite database is restored from the latest Actions cache and saved under a run-specific cache key. Public JSON and run reports are also retained as a 30-day workflow artifact. The cache is operational state rather than a permanent backup; if it expires, the workflow safely rebuilds a database from the journal fetch.
 
-The scheduled run performs the existing journal-first workflow, commits public JSON only when it changed, and never commits the SQLite database or API keys.
+The scheduled run performs the existing journal-first workflow, refreshes the README statistics and featured preview, commits public JSON and README only when they changed, and never commits the SQLite database or API keys.
 
 For the first cloud run, start the workflow manually with `commit_public_data` disabled. This lets the job verify the secret, build the cached database, and upload artifacts without replacing the current public feed. Run it again as needed until the cached queue is healthy, inspect the artifact, then enable `commit_public_data` for the first intentional publication. As an additional guard, a scheduled run that starts without a restored database initializes the cache but does not publish; later scheduled runs with restored cloud state commit changed public JSON automatically.
 
@@ -54,6 +54,7 @@ It runs:
 4. Error retry, High-paper publication, and website JSON export.
 5. Crossref coverage verification.
 6. JSON report export to `backend/data/reports/weekly_run_*.json`.
+7. README statistics and latest featured-paper preview refresh.
 
 ## Manual Windows Run
 

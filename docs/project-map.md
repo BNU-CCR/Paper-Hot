@@ -32,6 +32,7 @@
 | `backend/journal_tracker/storage.py` | SQLite 存储。维护 papers 表、去重、队列状态、发布状态和统计。 |
 | `backend/journal_tracker/publication.py` | 公开 JSON 导出：精选论文和全量期刊更新。 |
 | `backend/journal_tracker/coverage.py` | OpenAlex 本地库存与 Crossref DOI 覆盖验证。 |
+| `backend/journal_tracker/readme_update.py` | 根据公开 JSON 和每周报告更新 README 统计与当期精选预览。 |
 | `backend/journal_tracker/notification.py` | 通知发送，占位保留。 |
 
 ## Configuration
@@ -73,6 +74,7 @@
 | `backend/tests/test_journal_workflow.py` | 红榜抓取、coverage CLI 等工作流入口。 |
 | `backend/tests/test_coverage.py` | Crossref 覆盖验证逻辑。 |
 | `backend/tests/test_notification.py` | 通知开关和空发送行为。 |
+| `backend/tests/test_readme_update.py` | README 自动统计、精选预览和标记替换。 |
 
 ## Documentation
 
@@ -95,6 +97,7 @@ python -m journal_tracker.main export-public
 python -m journal_tracker.main verify-coverage
 python -m journal_tracker.main update-public
 python -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
+python -m journal_tracker.readme_update
 powershell -NoProfile -ExecutionPolicy Bypass -File .\backend\scripts\run_weekly.ps1
 ```
 
