@@ -1,16 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { BookOpen, GitFork, House, Info, Library, Menu, Monitor, Moon, PanelLeftClose, PanelLeftOpen, Sun } from "lucide-react";
+import { BookOpen, Flame, GitFork, House, Info, Library, Menu, Monitor, Moon, PanelLeftClose, PanelLeftOpen, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 
 const GITHUB_URL = "https://github.com/BNU-CCR/Paper-Hot";
-const links = [["/", "精选论文", House], ["/journals/", "期刊书库", Library], ["/about/", "关于项目", Info]];
+const links = [["/", "精选论文", House], ["/#hotspots", "当期热点", Flame], ["/journals/", "期刊书库", Library], ["/about/", "关于项目", Info]];
 
 function Navigation({ activePath, collapsed = false, onNavigate }) {
-  return <nav className="sidebar-nav" aria-label="主导航">{links.map(([href, label, Icon]) => <Link key={href} className={activePath === href ? "active" : ""} href={href} onClick={onNavigate} title={collapsed ? label : undefined}><Icon size={17} strokeWidth={1.8} /><span className="sidebar-label">{label}</span></Link>)}</nav>;
+  const [hotspotsActive, setHotspotsActive] = useState(false);
+  useEffect(() => { const update = () => setHotspotsActive(window.location.hash === "#hotspots"); update(); window.addEventListener("hashchange", update); return () => window.removeEventListener("hashchange", update); }, []);
+  return <nav className="sidebar-nav" aria-label="主导航">{links.map(([href, label, Icon]) => <Link key={href} className={(href === "/#hotspots" ? hotspotsActive : activePath === href) ? "active" : ""} href={href} onClick={onNavigate} title={collapsed ? label : undefined}><Icon size={17} strokeWidth={1.8} /><span className="sidebar-label">{label}</span></Link>)}</nav>;
 }
 
 function ThemeSwitch() {
