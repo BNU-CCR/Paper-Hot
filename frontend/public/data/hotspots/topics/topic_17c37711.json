@@ -1,0 +1,35 @@
+{
+  "topic_id": "topic_17c37711",
+  "label": "历史叙事与威权怀旧",
+  "description": "研究YouTube上历史竞争叙事及媒体对威权怀旧和极右政治的推动。",
+  "why_hot": "数字平台成为记忆政治与极右动员的新场域。",
+  "hot_score": 31,
+  "growth": 0.531,
+  "recent_count": 0,
+  "baseline_count": 2,
+  "journal_count": 2,
+  "lineage_status": "new",
+  "keywords": [
+    "历史叙事",
+    "怀旧",
+    "极右",
+    "YouTube"
+  ],
+  "papers": [
+    {
+      "id": 532,
+      "title": "Reframing the past? Competing narratives of the Greek Civil War on YouTube",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-02-26",
+      "summary": "论文分析YouTube视频如何重构希腊内战叙事，提出“结构性修正主义”概念，指出平台逻辑简化历史复杂性，重塑集体记忆为碎片化、去政治化的叙事。"
+    },
+    {
+      "id": 187,
+      "title": "The Promise of a Better Past: Media, Authoritarian Nostalgia, and the Far Right",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-02-15",
+      "summary": "研究西班牙和葡萄牙媒体消费与威权怀旧及极右投票的关系，通过调查数据和报纸内容分析揭示媒体叙事影响历史认知与选举行为。"
+    }
+  ],
+  "paper_edges": []
+}

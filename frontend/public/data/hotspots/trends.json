@@ -1,0 +1,211 @@
+[
+  {
+    "topic_id": "topic_1fb343f7",
+    "label": "数字行动主义与平台迁移",
+    "hot_score": 83,
+    "growth": 0.774,
+    "recent_count": 6,
+    "baseline_count": 22,
+    "journal_count": 10,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_0e10a101",
+    "label": "媒介效果与数字融入",
+    "hot_score": 75,
+    "growth": 0.59,
+    "recent_count": 6,
+    "baseline_count": 30,
+    "journal_count": 11,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_7ceef858",
+    "label": "大语言模型研究方法论",
+    "hot_score": 69,
+    "growth": 0.965,
+    "recent_count": 2,
+    "baseline_count": 3,
+    "journal_count": 4,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_2c3061a6",
+    "label": "平台基础设施与数字治理",
+    "hot_score": 68,
+    "growth": 0.641,
+    "recent_count": 4,
+    "baseline_count": 19,
+    "journal_count": 9,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_48dca2de",
+    "label": "平台政治讨论与情感极化",
+    "hot_score": 67,
+    "growth": 0.494,
+    "recent_count": 5,
+    "baseline_count": 29,
+    "journal_count": 11,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_bd7d8c32",
+    "label": "算法与受众感知体验",
+    "hot_score": 64,
+    "growth": 0.993,
+    "recent_count": 2,
+    "baseline_count": 1,
+    "journal_count": 2,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_56f5bfc0",
+    "label": "认知战与战略叙事",
+    "hot_score": 60,
+    "growth": 0.543,
+    "recent_count": 3,
+    "baseline_count": 17,
+    "journal_count": 4,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_873da034",
+    "label": "传播学术多样性与传媒生产",
+    "hot_score": 55,
+    "growth": 0.973,
+    "recent_count": 1,
+    "baseline_count": 1,
+    "journal_count": 2,
+    "lineage_status": "new",
+    "is_hot": false
+  },
+  {
+    "topic_id": "topic_5bc0b040",
+    "label": "媒介市场与财经传播",
+    "hot_score": 54,
+    "growth": 0.993,
+    "recent_count": 2,
+    "baseline_count": 1,
+    "journal_count": 1,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_9cb4ef05",
+    "label": "生成式AI采纳与治理",
+    "hot_score": 52,
+    "growth": 0.627,
+    "recent_count": 1,
+    "baseline_count": 6,
+    "journal_count": 4,
+    "lineage_status": "new",
+    "is_hot": false
+  },
+  {
+    "topic_id": "topic_15d0f24a",
+    "label": "AI信息与回音室效应",
+    "hot_score": 52,
+    "growth": 0.342,
+    "recent_count": 3,
+    "baseline_count": 23,
+    "journal_count": 8,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_81f5e828",
+    "label": "AI接受度与数字鸿沟",
+    "hot_score": 49,
+    "growth": 0.269,
+    "recent_count": 3,
+    "baseline_count": 26,
+    "journal_count": 11,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_997f19cf",
+    "label": "网络公众与身份话语",
+    "hot_score": 49,
+    "growth": 0.269,
+    "recent_count": 3,
+    "baseline_count": 26,
+    "journal_count": 9,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_3281c774",
+    "label": "虚假信息与事实核查",
+    "hot_score": 48,
+    "growth": 0.23,
+    "recent_count": 3,
+    "baseline_count": 28,
+    "journal_count": 8,
+    "lineage_status": "new",
+    "is_hot": true
+  },
+  {
+    "topic_id": "topic_465b0136",
+    "label": "新兴视觉形态与媒体事件",
+    "hot_score": 32,
+    "growth": 0.531,
+    "recent_count": 0,
+    "baseline_count": 2,
+    "journal_count": 2,
+    "lineage_status": "new",
+    "is_hot": false
+  },
+  {
+    "topic_id": "topic_964f5e57",
+    "label": "日本政治传播与媒体信任",
+    "hot_score": 31,
+    "growth": 0.531,
+    "recent_count": 0,
+    "baseline_count": 2,
+    "journal_count": 2,
+    "lineage_status": "new",
+    "is_hot": false
+  },
+  {
+    "topic_id": "topic_72f5f2b8",
+    "label": "数字追踪数据与新闻使用",
+    "hot_score": 31,
+    "growth": 0.531,
+    "recent_count": 0,
+    "baseline_count": 2,
+    "journal_count": 2,
+    "lineage_status": "new",
+    "is_hot": false
+  },
+  {
+    "topic_id": "topic_1e1b4f04",
+    "label": "娱乐叙事与商业传播",
+    "hot_score": 31,
+    "growth": 0.531,
+    "recent_count": 0,
+    "baseline_count": 2,
+    "journal_count": 2,
+    "lineage_status": "new",
+    "is_hot": false
+  },
+  {
+    "topic_id": "topic_17c37711",
+    "label": "历史叙事与威权怀旧",
+    "hot_score": 31,
+    "growth": 0.531,
+    "recent_count": 0,
+    "baseline_count": 2,
+    "journal_count": 2,
+    "lineage_status": "new",
+    "is_hot": false
+  }
+]

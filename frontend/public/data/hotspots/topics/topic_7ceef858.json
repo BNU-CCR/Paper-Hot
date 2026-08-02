@@ -1,0 +1,56 @@
+{
+  "topic_id": "topic_7ceef858",
+  "label": "大语言模型研究方法论",
+  "description": "探索LLM在事件预测、自动编码和新闻测量中的应用并反思其局限。",
+  "why_hot": "LLM正在重塑计算传播研究的工具与边界。",
+  "hot_score": 69,
+  "growth": 0.965,
+  "recent_count": 2,
+  "baseline_count": 3,
+  "journal_count": 4,
+  "lineage_status": "new",
+  "keywords": [
+    "大语言模型",
+    "自动编码",
+    "计算方法",
+    "研究批判"
+  ],
+  "papers": [
+    {
+      "id": 247,
+      "title": "An experiment in forecasting out-of-sample coup events with artificial intelligence",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-18",
+      "summary": "实验测试ChatGPT-4在不同提示词、参数和语言条件下对撒哈拉以南非洲政变的样本外预测能力，发现AI作为政治预测工具有显著但非决定性潜力。"
+    },
+    {
+      "id": 198,
+      "title": "Introducing HALC: a general pipeline for the systematic and reliable construction of prompts for automated coding with LLMs in the computational social sciences",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-07-07",
+      "summary": "提出HALC流程，系统构建LLM提示词以可靠完成内容分析编码，基于大量请求验证其适用性，并讨论局限与发展。"
+    },
+    {
+      "id": 199,
+      "title": "NEClass: a lightweight LLM pipeline for measuring Foreign news coverage",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-06-24",
+      "summary": "论文提出NEClass流水线，结合NER和微调LLM分类新闻中实体的国家归属，验证其高准确性并通过欧元区危机案例展示应用，为国际新闻覆盖研究提供可复现工具。"
+    },
+    {
+      "id": 77,
+      "title": "Driving the hype: LLMs as ‘general-purpose’ promise in the autonomous vehicle industry",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-22",
+      "summary": "通过分析Nvidia GTC 2024和41份灰色文献，研究Wayve和Waabi如何利用LLM的通用性话语克服自动驾驶行业困境，揭示其投机性炒作和行业嵌入策略。"
+    },
+    {
+      "id": 232,
+      "title": "Newer, Larger, Better? A Critique of the Unreflective LLM Adoption in Communication Research",
+      "journal": "Political Communication",
+      "published_date": "2026-02-20",
+      "summary": "评论文章批判政治传播研究中无反思地采用LLM，讨论其在文本分析、合成数据与实验中的局限，倡导批判性反思与方法论严谨性。"
+    }
+  ],
+  "paper_edges": []
+}

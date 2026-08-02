@@ -1,0 +1,42 @@
+{
+  "topic_id": "topic_5bc0b040",
+  "label": "媒介市场与财经传播",
+  "description": "涉及流媒体并购、企业丑闻报道与媒体情绪对资本市场的影响。",
+  "why_hot": "平台并购与媒体情绪成为财经传播热点。",
+  "hot_score": 54,
+  "growth": 0.993,
+  "recent_count": 2,
+  "baseline_count": 1,
+  "journal_count": 1,
+  "lineage_status": "new",
+  "keywords": [
+    "媒介市场",
+    "并购",
+    "媒体情绪",
+    "IPO"
+  ],
+  "papers": [
+    {
+      "id": 11,
+      "title": "Unilateral effects in the US video streaming market: a merger simulation of the Netflix-HBO Max and HBO Max-Paramount+ consolidations",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-07-19",
+      "summary": "通过校准的结构性合并模拟评估Netflix-HBO Max等合并案的单边效应，发现市场主导者收购会显著提价并加剧集中，而次级竞争者合并影响较小。"
+    },
+    {
+      "id": 340,
+      "title": "Going global or fleeing abroad? Scandal coverage and corporate internationalization in China",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-07-13",
+      "summary": "利用中国A股上市公司数据，发现丑闻报道强度促进企业国际化，机制包括监管压力、融资中断和声誉损害，且影响受媒体报道范围与负面情绪调节。"
+    },
+    {
+      "id": 345,
+      "title": "Media sentiment and IPO underpricing: evidence from China",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-04-29",
+      "summary": "研究中国媒体情绪对IPO抑价的影响，属于媒体经济学领域，可能结合文本情感分析与计量方法，但计算传播属性较弱。"
+    }
+  ],
+  "paper_edges": []
+}

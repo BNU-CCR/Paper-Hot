@@ -1,0 +1,35 @@
+{
+  "topic_id": "topic_72f5f2b8",
+  "label": "数字追踪数据与新闻使用",
+  "description": "开发基于数字痕迹的时间动态分析与访谈混合方法。",
+  "why_hot": "数字痕迹数据为媒介使用研究提供新机遇。",
+  "hot_score": 31,
+  "growth": 0.531,
+  "recent_count": 0,
+  "baseline_count": 2,
+  "journal_count": 2,
+  "lineage_status": "new",
+  "keywords": [
+    "数字痕迹",
+    "时序分析",
+    "新闻使用",
+    "方法创新"
+  ],
+  "papers": [
+    {
+      "id": 200,
+      "title": "Exploring temporal dynamics in digital trace data: mining user-sequences for communication research",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-05-09",
+      "summary": "论文系统梳理了利用数字追踪数据中的时间信息进行传播研究的方法，介绍序列分析、事件史分析、隐马尔可夫模型等六种方法，并以30万条用户序列数据为例进行演示。"
+    },
+    {
+      "id": 127,
+      "title": "Evaluating the potential and limits of trace-based interviews when studying news use",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-08",
+      "summary": "论文评估基于数字追踪的访谈法在新闻使用研究中的潜力与局限，基于英巴73次访谈，揭示该方法能反映习惯性、偶然性及跨平台新闻实践。"
+    }
+  ],
+  "paper_edges": []
+}

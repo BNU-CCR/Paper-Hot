@@ -1,0 +1,217 @@
+{
+  "topic_id": "topic_1fb343f7",
+  "label": "数字行动主义与平台迁移",
+  "description": "社交媒体驱动抗议、抵抗与跨平台迁徙，重塑集体行动。",
+  "why_hot": "平台政策变动催生TikTok难民等新型数字迁移现象。",
+  "hot_score": 83,
+  "growth": 0.774,
+  "recent_count": 6,
+  "baseline_count": 22,
+  "journal_count": 10,
+  "lineage_status": "new",
+  "keywords": [
+    "社交媒体",
+    "抗议",
+    "平台迁移",
+    "集体行动"
+  ],
+  "papers": [
+    {
+      "id": 13,
+      "title": "Social media, social identity, and the construction of perceived gender conflict: evidence from a national survey in South Korea",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
+    },
+    {
+      "id": 15,
+      "title": "Inclusive Crisis Communication: Addressing Diverse Audiences in the Digital Age",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-07-27",
+      "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
+    },
+    {
+      "id": 244,
+      "title": "From marginality to mobilization: the emergence of a pro-Russian digital community in the Spanish-speaking sphere",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-24",
+      "summary": "探讨西班牙语圈亲俄数字社区如何从边缘走向动员，分析其形成机制与传播动态。"
+    },
+    {
+      "id": 488,
+      "title": "Social media and protest planning: An examination of the 2024 #EndBadGovernance protests in Nigeria",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-07-23",
+      "summary": "基于尼日利亚400份调查数据，检验Instagram、Facebook、WhatsApp和X在2024年#EndBadGovernance抗议规划中的作用，发现前三者增加首日参与概率，X则降低，强调平台使用因国家而异。"
+    },
+    {
+      "id": 395,
+      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-19",
+      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
+    },
+    {
+      "id": 248,
+      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-13",
+      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
+    },
+    {
+      "id": 251,
+      "title": "Disinformation, social inequalities and young people’s digital citizenship during conflict and crisis in Ethiopia",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-02",
+      "summary": "研究埃塞俄比亚冲突期间青年数字公民身份中的性别与地域不平等，探讨其如何影响虚假信息传播及政治参与。"
+    },
+    {
+      "id": 253,
+      "title": "No time or tech for online news: How social and digital inequalities contribute to gender gaps in online news consumption",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-29",
+      "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
+    },
+    {
+      "id": 74,
+      "title": "From records to actions: mediating civic data and environmental activism in Taiwan",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-26",
+      "summary": "基于台湾环保NGO与公民科技社群合作的案例，探讨环境数据行动主义中NGO作为公民数据中介的角色，提出数据正义的实践理论。"
+    },
+    {
+      "id": 256,
+      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-15",
+      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
+    },
+    {
+      "id": 88,
+      "title": "Mediated information grounds: living with(in) <i>pareshani</i> , social networks and gendered media practices among the Rohingya refugees",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-08",
+      "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
+    },
+    {
+      "id": 258,
+      "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-05",
+      "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
+    },
+    {
+      "id": 217,
+      "title": "Moving Targets, Moving Politics: The State of Play in Social Media Data Access",
+      "journal": "Political Communication",
+      "published_date": "2026-05-30",
+      "summary": "论文探讨社交媒体数据获取的现状与挑战，涉及数据访问政策及其对政治传播研究的影响。"
+    },
+    {
+      "id": 93,
+      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-27",
+      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
+    },
+    {
+      "id": 95,
+      "title": "Price, proficiency, or permission: assessing platform data access for election research",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-27",
+      "summary": "论文评估平台数据访问的价格、技能和权限因素，探讨其对选举研究的影响，关注平台API及数据可得性问题。"
+    },
+    {
+      "id": 507,
+      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-05-02",
+      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
+    },
+    {
+      "id": 452,
+      "title": "Of Scams and Failures: Analyzing International Environmental NGOs’ Narratives After COP 29",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-04-30",
+      "summary": "研究WWF和绿色和平在COP29后如何通过网站和社交媒体传播失败叙事，采用主题分析揭示叙事差异，属于战略传播研究。"
+    },
+    {
+      "id": 112,
+      "title": "Temporal stability and cross-topic re-emergence of ideological divides on X",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-29",
+      "summary": "研究德国语境下X平台三类危机话语中极化社区的结构持续性，结合回声室分数与定性分析发现，回声室在议题内稳定并在跨议题中重现，少数高可见用户通过激活熟悉叙事起核心作用。"
+    },
+    {
+      "id": 510,
+      "title": "‘Don’t Thai to me’: A critical discourse and linguistic analysis of border crisis in the Cambodia–Thailand armed conflict",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-24",
+      "summary": "研究2025年柬泰武装冲突中的‘Don’t Thai to me’话语，分析柬埔寨官方媒体及Facebook内容，结合Fairclough话语分析探讨民族身份污名化及数字传播下的舆论动员。"
+    },
+    {
+      "id": 117,
+      "title": "Protest movements and the mainstreaming of radical and extremist ideologies: the case of COVID-19 protests",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-16",
+      "summary": "研究德国新冠抗议运动‘Querdenken’如何通过社交媒体促进激进和极端意识形态的主流化，使用内容分析、URL分析和网络分析三角验证，揭示其反精英和阴谋叙事及与极右翼社区的连接。"
+    },
+    {
+      "id": 184,
+      "title": "Evaluating the Impact of China’s “Wolf Warrior Diplomacy” in East Asia: An Experimental Approach",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-02",
+      "summary": "通过在日本、韩国、台湾的预注册在线实验，检验中国‘战狼外交’信息对三地公众对华态度的影响，发现负面效果有限但存在，分享意愿低。"
+    },
+    {
+      "id": 303,
+      "title": "Going Viral or Building a Community: The Dynamics of Environmental Activism on TikTok",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过民族志和访谈研究60个西语生态网红账号，分析其在TikTok上应对病毒式传播与社区建设的矛盾，提出“扁平病毒式传播”概念。"
+    },
+    {
+      "id": 307,
+      "title": "Afghanistan’s Digital Diaspora: Conflicted Constructions of Nation and Identity",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该论文通过民族志方法分析2021-2024年间X平台关于阿富汗的帖子，探讨离散社群与国内用户如何围绕民族、标签和语言展开排斥性话语，重塑族群分裂。"
+    },
+    {
+      "id": 309,
+      "title": "Preventing Radicalisation, or Forcing Ideological Consent? Crises, Uncertainty Reduction and Collective Identity Negotiation in Collaborative Communities of Online Third Spaces",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "研究在线第三方空间（育儿论坛）在危机事件中的集体身份协商，分析近2500条帖子，发现论坛虽提供支持但排斥少数意见，可能导致边缘化激进化。"
+    },
+    {
+      "id": 136,
+      "title": "Mobilization in motion: how radical movements adapt their communication on Telegram amid evolving crises",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-29",
+      "summary": "研究分析德国极右翼和Querdenken运动在2022年危机变化下如何通过Telegram调整传播策略，基于151个频道8852条消息的内容分析，发现不同运动的适应模式差异。"
+    },
+    {
+      "id": 144,
+      "title": "‘Spread kindness not virus’: theorising the vulnerability of online mutual aid communities",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-20",
+      "summary": "通过数字民族志研究Facebook互助社区Caremunity，运用Serres寄生虫逻辑识别三种干扰形式，探讨数字化对互助社区团结与资源分配的挑战。"
+    },
+    {
+      "id": 527,
+      "title": "Monitoring the consensus or driving polarization? Comparing journalistic coverage of anti-Green pass and anti-war protests in France and Italy (2021–2024)",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-03-13",
+      "summary": "比较意大利和法国媒体如何报道反疫苗和反战抗议，基于790篇文章的人工编码，发现意大利报道更极化，且支持共识的记者更常偏离中立规范。"
+    },
+    {
+      "id": 616,
+      "title": "Digital dissent and social grass-roots mobilization on X: The impact of #MahsaAmini on digital political activism in the Islamic Republic of Iran",
+      "journal": "Global Media and Communication",
+      "published_date": "2026-03-12",
+      "summary": "论文分析2022年伊朗#MahsaAmini抗议期间波斯语X上的异议与社会动员，发现平台既报告事件又协调行动与构建政治诉求，揭示受限环境下的数字传播作用。"
+    }
+  ],
+  "paper_edges": []
+}

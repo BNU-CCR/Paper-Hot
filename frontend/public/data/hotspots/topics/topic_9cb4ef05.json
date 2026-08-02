@@ -1,0 +1,70 @@
+{
+  "topic_id": "topic_9cb4ef05",
+  "label": "生成式AI采纳与治理",
+  "description": "从用户成瘾、组织应用到选举规范，探讨生成式AI的社会影响与制度回应。",
+  "why_hot": "生成式AI快速渗透各领域，治理框架亟待建立。",
+  "hot_score": 52,
+  "growth": 0.627,
+  "recent_count": 1,
+  "baseline_count": 6,
+  "journal_count": 4,
+  "lineage_status": "new",
+  "keywords": [
+    "生成式AI",
+    "技术采纳",
+    "治理",
+    "选举规范"
+  ],
+  "papers": [
+    {
+      "id": 573,
+      "title": "Examining university students addiction toward generative AI: an I-PACE perspective",
+      "journal": "International Journal of Mobile Communications",
+      "published_date": "2026-07-23",
+      "summary": "该论文基于I-PACE模型，探讨大学生对生成式AI的成瘾现象及其影响因素，属于AI使用行为研究。"
+    },
+    {
+      "id": 406,
+      "title": "From Mass Media and Social Media to AI: A Multilevel Framework for Understanding Trust in Generative AI",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-26",
+      "summary": "论文提出一个多层次框架，从大众媒体、社交媒体到AI，系统理解用户对生成式AI的信任形成机制。"
+    },
+    {
+      "id": 578,
+      "title": "Uncovering users switching from government service applications to government WeChat mini-programs: Based on push-pull-mooring framework",
+      "journal": "International Journal of Mobile Communications",
+      "published_date": "2026-05-12",
+      "summary": "基于推拉锚定框架，探究用户从政府服务应用转向政府微信小程序的影响因素，属于移动平台用户行为研究。"
+    },
+    {
+      "id": 113,
+      "title": "Generative AI governance: from regulatory design to institutional reordering",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-26",
+      "summary": "特刊探讨生成式AI治理作为多地点争议过程，强调劳动、知识与价值在制度中的重排，揭示治理在机构、地理和基础设施间的分布。"
+    },
+    {
+      "id": 139,
+      "title": "Infusion of generative artificial intelligence: boosting organizational agility and effectiveness",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-29",
+      "summary": "基于TOE框架，通过615份问卷和结构方程模型，检验生成式AI融入对组织敏捷性和有效性的影响，发现AI融入、市场敏捷性和组织学习是有效性的主要预测因素。"
+    },
+    {
+      "id": 141,
+      "title": "Protecting democracy: comparing codes of conduct for generative AI use during elections",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-23",
+      "summary": "比较11国2024年选举中生成式AI使用准则，分析其对民主诚信的威胁界定与责任机制，指出存在执行力不足、一致性缺失等问题。"
+    },
+    {
+      "id": 233,
+      "title": "Artificial Intelligence in Election Campaigns: Perceptions, Penalties, and Implications",
+      "journal": "Political Communication",
+      "published_date": "2026-02-19",
+      "summary": "通过三项预注册实验（N>7600）研究美国公众对AI在选举中不同用途的反应，发现公众厌恶欺骗性AI但政党支持率不受影响，反而增加对严格监管和禁止AI的支持。"
+    }
+  ],
+  "paper_edges": []
+}

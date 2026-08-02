@@ -1,0 +1,34 @@
+{
+  "topic_id": "topic_465b0136",
+  "label": "新兴视觉形态与媒体事件",
+  "description": "关注AI生成图像的认知加工及媒体风暴的类型建构。",
+  "why_hot": "视觉技术革新要求重新理解受众认知。",
+  "hot_score": 32,
+  "growth": 0.531,
+  "recent_count": 0,
+  "baseline_count": 2,
+  "journal_count": 2,
+  "lineage_status": "new",
+  "keywords": [
+    "AI图像",
+    "认知加工",
+    "媒体风暴"
+  ],
+  "papers": [
+    {
+      "id": 401,
+      "title": "Implications of Cognitive Processing in Visually Complex Emerging AI-Generated TV Weathercast Graphics",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-02",
+      "summary": "探讨AI和AR技术在电视天气图形设计中的应用，分析视觉复杂性对观众理解与记忆预报的影响，提出基于理论的传播改进建议，呼吁未来研究结合个体差异。"
+    },
+    {
+      "id": 226,
+      "title": "From Showers to Hurricanes: A Typology of Media Storms",
+      "journal": "Political Communication",
+      "published_date": "2026-04-21",
+      "summary": "基于美国二十年新闻数据，用半监督方法和时间序列聚类提出媒体风暴三类型：主导高原、爆发性爆发、慢沸，并验证其理论意义。"
+    }
+  ],
+  "paper_edges": []
+}

@@ -1,0 +1,182 @@
+{
+  "topic_id": "topic_2c3061a6",
+  "label": "平台基础设施与数字治理",
+  "description": "关注平台作为基础设施的权力运作、数字主权与民主化可能。",
+  "why_hot": "平台权力延伸至公共服务与日常生活，治理争议凸显。",
+  "hot_score": 68,
+  "growth": 0.641,
+  "recent_count": 4,
+  "baseline_count": 19,
+  "journal_count": 9,
+  "lineage_status": "new",
+  "keywords": [
+    "平台基础设施",
+    "数字主权",
+    "数据化",
+    "治理"
+  ],
+  "papers": [
+    {
+      "id": 243,
+      "title": "Navigating the hybrid media landscape? Danish green NGOs’ use of digital platforms for internal and external communication",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-27",
+      "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
+    },
+    {
+      "id": 246,
+      "title": "Digital transformation and contested sovereignty in humanitarian action",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-23",
+      "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
+    },
+    {
+      "id": 63,
+      "title": "Platforming pocket money: family finance apps and the datafication of child economies",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-15",
+      "summary": "分析儿童理财APP的特征，探讨其如何通过数据追踪与管理重塑儿童的经济参与，并讨论数据化对儿童金融主体与客体的构建。"
+    },
+    {
+      "id": 69,
+      "title": "Selling speed, suspending citizenship: data throttling, instantaneous downgrading, and the politics of connectivity in China",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-07",
+      "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
+    },
+    {
+      "id": 71,
+      "title": "Infrastructural hubris and platform power: the failed scalability of Google Stadia",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-30",
+      "summary": "通过分析170份专业媒体、Reddit和YouTube文档，探讨Google Stadia云游戏平台失败原因，提出“基础设施傲慢”概念，强调技术能力需配合平台层面的利益相关者参与。"
+    },
+    {
+      "id": 212,
+      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
+      "journal": "Political Communication",
+      "published_date": "2026-06-30",
+      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
+    },
+    {
+      "id": 614,
+      "title": "The digital panopticon: China’s Social Credit System and the postmodern surveillance state",
+      "journal": "Global Media and Communication",
+      "published_date": "2026-06-29",
+      "summary": "论文以福柯全景监狱理论分析中国社会信用体系，认为其融合儒家道德治理与算法监控，强化国家权力与意识形态，但缺乏经验数据支撑。"
+    },
+    {
+      "id": 375,
+      "title": "Depicting digital authoritarianism in China and Vietnam: a mixed-method analysis of convergent and divergent patterns in cybersecurity narratives",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-05-13",
+      "summary": "通过混合方法比较中越国家媒体网络安全话语，揭示两种数字威权主义的沟通逻辑，分别强调全球竞争与内部安全化。"
+    },
+    {
+      "id": 102,
+      "title": "Clustered governance: how Chinese social media platforms curate and control influencers’ content creation",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-12",
+      "summary": "研究小红书通过“集群治理”组织网红群体，结合人工与算法策展控制内容创作，削弱创作者自主性，基于访谈与民族志方法。"
+    },
+    {
+      "id": 105,
+      "title": "From player to asset: venture labor in axie infinity",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-08",
+      "summary": "通过爬取Discord社区数据，分析Axie Infinity奖学金申请者的申请文本，揭示其自我资产化策略，即玩家将劳动与困境呈现为投资资产以争取机会。"
+    },
+    {
+      "id": 554,
+      "title": "Polycentric Power Plays: Gulf Agency and the Dynamics of China’s AI Diplomacy",
+      "journal": "Communication and the Public",
+      "published_date": "2026-04-21",
+      "summary": "首个系统比较中国对海湾六国AI外交的研究，提出多中心谈判框架，分析海湾国家如何选择性吸收、过滤或调整中国技术供给与监管模式，突出其数字主权与战略对冲，揭示区域内分歧及对AI规范扩散的影响。"
+    },
+    {
+      "id": 114,
+      "title": "Signalling sustainability under uncertainty: how institutionalized digital platforms shape corporate green transformation in China",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-19",
+      "summary": "研究利用2007-2023年3851家中国上市公司及340万条微博帖子数据，通过DID设计发现国家运营的环境微薄平台通过政策信号和声誉压力促进企业绿色转型，增加环保投资并提高披露质量。"
+    },
+    {
+      "id": 115,
+      "title": "Reshaping platform governmentality: the curious case of the moderation strike on the stack exchange",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-19",
+      "summary": "以福柯政府性概念分析Stack Exchange审核罢工，探讨平台所有者与社区间的权力动态，以及AI政策如何引发抵抗并重塑平台机制。"
+    },
+    {
+      "id": 122,
+      "title": "Online interactions and the gravity model",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-13",
+      "summary": "论文基于《帝国时代II》2500万场多人比赛数据，构建在线互动模型并用结构重力模型估计，发现文化邻近性和外部社交网络对跨国在线互动有重要影响，为数字全球化和在线社区研究提供实证。"
+    },
+    {
+      "id": 556,
+      "title": "From digital diplomacy to AI-driven diplomacies? Mapping the potential impact of AI on Diplomacy",
+      "journal": "Communication and the Public",
+      "published_date": "2026-04-02",
+      "summary": "论文分析12年数字外交研究，提出AI驱动外交的三种情景和两大悖论，探讨AI对当代外交的潜在影响。"
+    },
+    {
+      "id": 293,
+      "title": "The Platformization of Everything: From the End of the Like Button to AI Infrastructure in Space",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "文章追溯平台化概念演变，从早期社交网络到AI中心平台模式，以Facebook点赞按钮退役和谷歌太空AI项目为例，重新定义平台化为平台特有的'转码'过程。"
+    },
+    {
+      "id": 296,
+      "title": "Gamification, Datafication, and Performativity: How Interface Design Builds “Stardew Valley” in Rural Governance",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "以川善治平台为案例，从游戏化、数据化和展演性视角分析中国乡村数字治理的界面设计如何构建特定乡村愿景。"
+    },
+    {
+      "id": 145,
+      "title": "<i>“ … I sort of laid it all out … ”:</i> qualitatively exploring Canadian campaigners’ informational practices and strategic decisions in medical and housing-related crowdfunding campaigns",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-14",
+      "summary": "通过访谈36名加拿大GoFundMe用户，探讨其在医疗和住房众筹中的信息分享策略，识别出放大、精炼和省略三种实践，揭示隐私与筹款之间的平衡。"
+    },
+    {
+      "id": 185,
+      "title": "Harnessing Star Power: Sequential Political Cooptation of Entertainment Celebrities in China",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-03-05",
+      "summary": "基于1993-2023年2898名娱乐明星数据，分析中国如何通过演出机会和正式任命逐步吸纳明星，揭示媒体可见性转化为政治资本的机制。"
+    },
+    {
+      "id": 227,
+      "title": "Political Communication Special Issue Introduction: Multi-Platform Research",
+      "journal": "Political Communication",
+      "published_date": "2026-03-04",
+      "summary": "特刊导言探讨政治传播学者如何进行多平台研究，提出比较研究与系统研究框架，强调多平台互嵌对政治传播分析的重要性。"
+    },
+    {
+      "id": 383,
+      "title": "Embedded governance in China’s screen culture industry: from infiltration to co-optation",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-03-04",
+      "summary": "通过机构分析和双模网络映射，研究中国电视剧产业中党政部门通过精英吸纳实现嵌入式治理的机制，提出三种关系控制模式。"
+    },
+    {
+      "id": 643,
+      "title": "Human–algorithm interactions in platform governance: how Chinese moderators balance conflicting logics in algorithm-assisted decision-making",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-02-23",
+      "summary": "通过在中国三大超级平台的田野调查，分析国家逻辑与商业逻辑如何嵌入内容审核流程，揭示算法决策的三种可供性帮助审核员平衡冲突逻辑，强调人机互动的积极潜力。"
+    },
+    {
+      "id": 272,
+      "title": "Borderless surveillance in hard states: digital monitoring and the shifting politics of control in Central Asia",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-02-17",
+      "summary": "探讨中亚国家采用中国数字丝绸之路监控技术，通过地理空间分析、数字民族志等方法，分析监控基础设施如何嵌入不同政治空间，并引发公民抵抗，揭示监控作为权力争夺场域。"
+    }
+  ],
+  "paper_edges": []
+}

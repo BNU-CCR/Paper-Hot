@@ -1,0 +1,238 @@
+{
+  "topic_id": "topic_3281c774",
+  "label": "虚假信息与事实核查",
+  "description": "分析事实核查的效能、审查感知及AI虚假信息的受众解读。",
+  "why_hot": "生成式AI加剧虚假信息治理挑战。",
+  "hot_score": 48,
+  "growth": 0.23,
+  "recent_count": 3,
+  "baseline_count": 28,
+  "journal_count": 8,
+  "lineage_status": "new",
+  "keywords": [
+    "事实核查",
+    "虚假信息",
+    "深度伪造",
+    "政治信任"
+  ],
+  "papers": [
+    {
+      "id": 394,
+      "title": "The Costs of Governing Truth: Fact-Checking, Perceived Censorship, and Political Participation Across Governance Contexts",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-27",
+      "summary": "基于新加坡、中国、美国调查数据，探讨深度伪造担忧、事实核查与感知审查如何影响社交媒体政治参与，发现感知审查是参与退出的关键条件。"
+    },
+    {
+      "id": 207,
+      "title": "Studying Propaganda as a Social Process",
+      "journal": "Political Communication",
+      "published_date": "2026-07-22",
+      "summary": "论文主张将虚假信息置于更广泛的宣传社会过程中研究，提出关注宣传的反民主目标，并勾勒未来研究议程，属理论性干预文章。"
+    },
+    {
+      "id": 208,
+      "title": "Political Fact-Checking Efforts are Constrained by Deficiencies in Coverage, Speed, and Reach",
+      "journal": "Political Communication",
+      "published_date": "2026-07-19",
+      "summary": "研究评估2022年美国中期选举期间政治事实核查的局限性，发现其覆盖不足、发布滞后、在党派社群中传播受限，并反驳党派偏见假设。"
+    },
+    {
+      "id": 281,
+      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
+    },
+    {
+      "id": 286,
+      "title": "Making Sense of AI-Generated Disinformation: How Audience Interpretations Influence the Impact of Deepfakes in Kenya",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过肯尼亚7000人调查实验，考察社交评论对政治深度伪造效果的影响，发现质疑评论可部分恢复政治家支持，且党派偏见影响判断，强调集体意义建构的作用。"
+    },
+    {
+      "id": 254,
+      "title": "Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-26",
+      "summary": "探讨ChatGPT使用频率、对大语言模型的威胁感知及政治意识形态如何影响用户对ChatGPT用于政治信息消费的信任，发现使用与信任正相关，威胁感知负相关，且存在交互效应。"
+    },
+    {
+      "id": 79,
+      "title": "Inaccuracies, omissions, and bullshit: 2024 U.S. elections through the eyes of ChatGPT",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-22",
+      "summary": "通过审计ChatGPT-4o mini在2024年美国大选前的输出，发现其存在不准确、遗漏和胡扯等问题，提出从 curative governance 到 generative governance 的转变，揭示生成式AI对民主信息环境的潜在危害。"
+    },
+    {
+      "id": 84,
+      "title": "Fixing election interference, safeguarding election integrity? Developments and dynamics of election-related policies on social media platforms",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-14",
+      "summary": "论文比较分析YouTube、Facebook等平台的选举相关政策及其演变，划分三个阶段，并探讨平台责任话语变化及美国选举影响。"
+    },
+    {
+      "id": 216,
+      "title": "Multi-Platform Referrers of Misinformation: A Comparative Analysis of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok",
+      "journal": "Political Communication",
+      "published_date": "2026-06-09",
+      "summary": "论文提出嵌入参考范式，用美国1240人3个月2100万次网页浏览数据，评估七种社交媒体平台在直接和嵌入范式下对错误信息访问的影响，发现直接范式低估了社交媒体的作用。"
+    },
+    {
+      "id": 101,
+      "title": "Examining the influence of social media cues and platform perceptions on fake news detection",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-14",
+      "summary": "通过在线实验探究来源可信度、集体社会认可和用户对Twitter有用性感知对虚假新闻检测的影响，发现真实性偏差及平台感知降低虚假新闻识别准确性。"
+    },
+    {
+      "id": 261,
+      "title": "Mapping persuasion strategies of Turkish anti-vaccine advocates on Instagram: a McGuire-based analysis of digital misinformation and political discourse",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-05-13",
+      "summary": ""
+    },
+    {
+      "id": 108,
+      "title": "Bridging disinformation and cybersecurity in the social sciences: a scoping review",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-04",
+      "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
+    },
+    {
+      "id": 41,
+      "title": "Gains, Limits, and Side-Effects of Disinformation Interventions: Corrective Information and Self-Affirmation Assessed With Signal Detection Theory",
+      "journal": "Communication Research",
+      "published_date": "2026-04-30",
+      "summary": "通过两波在线实验考察纠正信息和自我肯定对政治声明评估的影响，使用信号检测理论区分真相辨别力和反应偏差，发现纠正信息提升辨别力但可能增加怀疑倾向。"
+    },
+    {
+      "id": 182,
+      "title": "“Liar, Liar, Pants on Fire!” An Automated Analysis of Polarities of Mediated Truth Contestation in Austrian and Czech News Media",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-30",
+      "summary": "本文分析奥地利和捷克新闻媒体中关于移民报道的真相争议，基于16万篇新闻文章，使用自动化内容分析和命名实体识别，探讨媒体类型和政治背景对真伪表述的影响。"
+    },
+    {
+      "id": 116,
+      "title": "How civil society coalition-building affects information integrity during elections: evidence from four African countries",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-17",
+      "summary": "基于四个非洲国家的36次访谈，探讨公民社会联盟如何通过合作促进选举期间信息完整性，涉及平台问责与政策框架。"
+    },
+    {
+      "id": 269,
+      "title": "Generative artificial intelligence, misinformation and political polarization: a content analysis of deepfake propaganda during the 2024 US presidential election",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-04-07",
+      "summary": "该研究通过定性内容分析，考察2024年美国大选期间AI深度伪造内容在社交媒体X上的框架与极化讨论，提出Deepfake-Driven Framing and Polarization Framework，揭示深度伪造如何嵌入并再生产政治极化叙事。"
+    },
+    {
+      "id": 425,
+      "title": "AI-Assisted Mapping of Political Orientation in Fact-Checked News: Evidence from South Korea",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-04-07",
+      "summary": "研究利用韩国预训练语言模型，对选举期间的事实核查文章进行政治倾向映射分析，比较模型在目标、证据和评估维度上的表现，并验证结合外部知识可提升效果。"
+    },
+    {
+      "id": 131,
+      "title": "What counter-disinformation funders got wrong: Global South critiques of the field",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-06",
+      "summary": "论文批判主流反虚假信息领域的北方主导、自上而下和提取式协作，基于2022-2024年百余名全球南方参与者的项目经验，主张南南方法论和社区驱动干预。"
+    },
+    {
+      "id": 295,
+      "title": "We Are Equally Vulnerable? An Examination of the Third-Person Effect in AI-Generated Misinformation",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "基于726份问卷，考察个体对AI生成虚假信息的感知，发现人们认为自己同样易受影响，且感知影响正向关联纠错行为。"
+    },
+    {
+      "id": 300,
+      "title": "A Multi-Mechanism Socio-Technical Theory of Wellness Misinformation: Aesthetic, Affective, and Algorithmic Dynamics",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "提出Algorithmic–Affective Misinformation Model，结合访谈与跨平台观察，分析TikTok和RED上健康错误信息通过审美合法化、情感脆弱性与算法强化三种机制获得可信度的过程。"
+    },
+    {
+      "id": 310,
+      "title": "I Don’t Believe Misinformation, But I Might Share It: Inoculation Effects in Messenger Communication",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过在线实验检验接种理论在即时通讯中减少错误信息可信度与分享意愿的效果，发现仅特定内容接种有效，且无调节变量。"
+    },
+    {
+      "id": 137,
+      "title": "Tailored and trust-based: strategies of information intermediaries countering health misinformation during the COVID-19 pandemic",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-29",
+      "summary": "研究通过15位信息中介的重建访谈，分析其在疫情期间为弱势群体提供准确健康信息、对抗错误信息的策略，强调信任建立和非对抗方式。"
+    },
+    {
+      "id": 138,
+      "title": "Between disclosure and conspiracy: the transparency effect on r/UFO and r/UAP subreddits",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-29",
+      "summary": "论文分析UFO/UAP子版块的帖子和评论，结合政府披露时间线，用时间序列模型检验官方透明度是否减少阴谋论叙事，发现披露能缓解信任侵蚀，并讨论披露概念的局限。"
+    },
+    {
+      "id": 140,
+      "title": "Diagnosing multimodal disinformation: the integrative ‘Three-M' framework of multimodality, manipulation, and malintent",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-25",
+      "summary": "提出整合性“三M”框架分析短视频平台多模态虚假信息的建构、传播与政治化，并以2023年法国骚乱相关中文平台案例验证，揭示“织真”策略。"
+    },
+    {
+      "id": 642,
+      "title": "Unequal penalties: user status dynamics in the spread of social media misinformation",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-03-14",
+      "summary": "基于Reddit面板数据，分析用户地位如何影响虚假信息帖子的互动（投票与话语分歧），发现低地位用户虚假信息获更少赞同和更多分歧，高地位用户则相反。"
+    },
+    {
+      "id": 147,
+      "title": "The (Un)desirable shield: consequences of perceived effects of warning labels on AI-generated political disinformation",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-12",
+      "summary": "基于2024美国大选全国调查(N=2373)，检验AI生成政治虚假信息警告标签对感知与行为的影响，发现其增强对自身和公众的感知效应，并影响政策支持与预防行为，拓展第三人效果理论。"
+    },
+    {
+      "id": 52,
+      "title": "Radical Right-Wing Political Deepfakes Can Successfully Delegitimize Targeted Political Actors: Evidence From Three-wave Experiments in the US and The Netherlands",
+      "journal": "Communication Research",
+      "published_date": "2026-03-04",
+      "summary": "通过美国和荷兰的三波预注册实验，考察政治深度伪造对目标政治人物的去合法化影响，发现其降低支持率且事实核查难以消除影响。"
+    },
+    {
+      "id": 228,
+      "title": "Disinformation as Cultural Narrative: Conceptualizing Disinformation as Cross-Platform, Identity-Affirming, Cathartic Stories",
+      "journal": "Political Communication",
+      "published_date": "2026-03-04",
+      "summary": "将虚假信息概念化为跨平台、身份认同和宣泄性的文化叙事，基于Facebook和Twitter广泛分享的URL内容数据集，分析三个案例，发现成功虚假信息符合叙事标准，具有情感和道德维度。"
+    },
+    {
+      "id": 229,
+      "title": "Negativity and Misinformation",
+      "journal": "Political Communication",
+      "published_date": "2026-02-25",
+      "summary": "论文利用自动化文本分析检验美国六大电视网20余年失业报道的准确性，发现负面偏差显著关联报道不准确，为新闻错误信息提供解释。"
+    },
+    {
+      "id": 231,
+      "title": "Truth-Seeking vs. Balance: The Credibility Dilemma in Correcting Political Misinformation",
+      "journal": "Political Communication",
+      "published_date": "2026-02-20",
+      "summary": "研究政治误导信息纠正中的'真相-平衡困境'，通过事实核查数据、全国调查和实验，发现不对称纠错会损害新闻可信度，且效果取决于受众对误导信息来源的归因。"
+    },
+    {
+      "id": 234,
+      "title": "Elected officials’ Online Sharing of Misinformation: Institutional and Ideological Checks",
+      "journal": "Political Communication",
+      "published_date": "2026-02-04",
+      "summary": "分析美国州议员2020-2021年近50万条Facebook帖子，验证并应用低事实内容检测方法，发现共和党议员及某些州分享虚假信息较多，机构能力与分享倾向负相关。"
+    }
+  ],
+  "paper_edges": []
+}

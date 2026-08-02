@@ -1,0 +1,161 @@
+{
+  "topic_id": "topic_56f5bfc0",
+  "label": "认知战与战略叙事",
+  "description": "围绕战争与冲突的叙事操控、认知域博弈成为传播研究焦点。",
+  "why_hot": "地缘冲突频发推动认知战、战略传播研究升温。",
+  "hot_score": 60,
+  "growth": 0.543,
+  "recent_count": 3,
+  "baseline_count": 17,
+  "journal_count": 4,
+  "lineage_status": "new",
+  "keywords": [
+    "认知战",
+    "战略传播",
+    "冲突叙事",
+    "公共外交"
+  ],
+  "papers": [
+    {
+      "id": 483,
+      "title": "Weaponized narratives: A social psychological theory of story-based influence in cognitive warfare",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-07-30",
+      "summary": "论文提出武器化叙事的四阶段心理影响模型，涵盖身份、威胁、道德和阴谋叙事策略，并以俄罗斯2014年克里米亚叙事行动为例，探讨AI在叙事扩散中的放大作用及反叙事策略。"
+    },
+    {
+      "id": 210,
+      "title": "Vengeance or Hope? A Role-Based Analysis of Hashtag Activism for the War in Gaza",
+      "journal": "Political Communication",
+      "published_date": "2026-07-14",
+      "summary": "基于X平台跨语言趋势数据，采用角色分析框架研究加沙战争期间亲巴勒斯坦与亲以色列哈希标签行动主义的修辞分布与不对称性，提出权力中心解释。"
+    },
+    {
+      "id": 489,
+      "title": "Beyond naval manoeuvres: Perception as battlespace in <i>Mare Aperto 2025</i> – strategic communication and cognitive warfare in joint-force training",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-07-13",
+      "summary": "论文通过多方法分析（NLP、社交网络分析）研究Mare Aperto 2025军事演习中封闭社交媒体平台的互动，探讨战略模糊如何影响注意力和归因，并促进冲突升级。"
+    },
+    {
+      "id": 490,
+      "title": "Billboard murals as adversarial public diplomacy: Remediation and sacred typology in Iran’s “True Promise” campaigns",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-07-02",
+      "summary": "分析伊朗2024-2025年对以军事冲突中的广告牌壁画与数字图像，探讨其作为对抗性公共外交的多语言、危机同步与跨平台修复机制，属于定性视觉传播研究。"
+    },
+    {
+      "id": 252,
+      "title": "Hybrid conflict in the Afghanistan – Pakistan context: digital war mechanisms, media geopolitics, and the dynamics of online radicalization",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-01",
+      "summary": "研究阿富汗-巴基斯坦背景下的混合冲突，分析四平台2400条帖文的虚假信息传播与反国家叙事，结合300人调查，发现数字冲突加剧。"
+    },
+    {
+      "id": 492,
+      "title": "Constructing war in news: Discursive logics of the Pahalgam crisis in the Indian and Pakistani press",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-06-04",
+      "summary": "通过计算文本分析印巴媒体对2025年Pahalgam危机的报道，检验归因、条约安全化和情感框架假设，发现前两项成立而第三项逆转。"
+    },
+    {
+      "id": 494,
+      "title": "Social media as functional actors in securitization: Institutionalizing Israel’s digital strategy during the 2014 Gaza War",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-06-03",
+      "summary": "论文研究2014年加沙战争中以色列国防军的社交媒体数字战略，分析其多平台传播内容，探讨社交媒体作为安全化行为体的功能角色，采用混合方法分析大量帖文与视频。"
+    },
+    {
+      "id": 495,
+      "title": "Uniting the world behind Ukraine: The platformization of United24 Media’s narratives on Instagram and YouTube and the in/visibilization of war",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-05-30",
+      "summary": "研究乌克兰宣传组织United24 Media如何适应Instagram和YouTube的平台特性，通过定性分析2500余条短视频，揭示不同平台叙事策略差异及战争合法化机制。"
+    },
+    {
+      "id": 498,
+      "title": "Visual moralization of conflict on TikTok: A typology of journalistic framing",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-05-27",
+      "summary": "提出冲突视觉道德化类型学，分析六家媒体736个以色列-加沙战争视频，发现不同道德维度及其参与度差异，扩展MFT并建立可复制多模态模型。"
+    },
+    {
+      "id": 502,
+      "title": "Beyond neutrality? Australian media coverage of the Israel–Gaza war",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-05-19",
+      "summary": "研究澳大利亚五家主流媒体对以色列-加沙冲突的报道框架，分析5183篇文章，发现从外交政治框架转向危机冲突框架，提出冲突启动理论。"
+    },
+    {
+      "id": 506,
+      "title": "Not only compatriots: A typology of foreign Facebook audiences engaging with Russia’s domestic news",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-05-07",
+      "summary": "分析912个外国Facebook公共空间分享俄罗斯国内新闻的情况，构建基于俄罗斯联系和主题倾向的类型学，揭示语言邻近性、意识形态空间和前社会主义国家空间的传播模式。"
+    },
+    {
+      "id": 223,
+      "title": "“Everything for the Front, Everything for Victory”? Elite Incentives and Rhetorical Adaptation of Russia’s Members of Parliament on Social Media",
+      "journal": "Political Communication",
+      "published_date": "2026-05-05",
+      "summary": "研究俄罗斯议员在2022-23年乌克兰冲突期间社交媒体帖子的修辞适应，基于14.4万条帖子，用词嵌入和主题分类发现议员帖子反映官方宣传及个人政治激励，揭示威权体制下政治沟通与外部冲突的关系。"
+    },
+    {
+      "id": 514,
+      "title": "Constructing childhood in the Russian-Ukrainian War: UNICEF’s Instagram representations of children",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-16",
+      "summary": "研究UNICEF在Instagram上如何呈现俄乌战争中受影响的儿童，通过150个帖子的历史-历时多模态批判话语分析，发现儿童形象从脆弱受害者转为有韧性个体，传统人道主义意象仍占主导。"
+    },
+    {
+      "id": 266,
+      "title": "Media disinformation in the Russia-Ukraine conflict: A corpus-assisted critical discourse analysis",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-04-13",
+      "summary": "该研究基于EUvsDisinfo数据库构建英语语料，结合语料库语言学和批判性话语分析，检验亲克里姆林宫新闻中的虚假信息语言标记，揭示其话语策略。"
+    },
+    {
+      "id": 123,
+      "title": "Platforms, journalism and the amplification of terror: an ecological account",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-11",
+      "summary": "从生态视角探讨平台化放大如何通过注意力竞争、目击内容和算法信息流强化恐怖主义报道，间接助力恐怖主义目标。"
+    },
+    {
+      "id": 523,
+      "title": "Strategic framing in conflict communication: ISPR’s use of X during Pakistan’s War on Terror",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-03-27",
+      "summary": "研究巴基斯坦ISPR在X平台上的战略框架使用，通过内容分析识别动机、诊断和预后框架，并分析受众回应，揭示军事沟通与公共话语的互动。"
+    },
+    {
+      "id": 525,
+      "title": "From laughing to learning: How TikTok genres influence American youth understanding and sentiments about the war in Ukraine",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-03-19",
+      "summary": "通过实验（N=794）考察TikTok讽刺视频和解释视频对美国青年关于俄乌战争的愤世嫉俗、政治效能、共情和知识的影响，发现视频增加愤世嫉俗和知识，且政治派别调节效果。"
+    },
+    {
+      "id": 271,
+      "title": "Repression through anti-repression tools: an analysis of the coordinated campaign of Iranian Telegram channels at times of crisis",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-03-18",
+      "summary": "研究伊朗Telegram频道在2025年以伊战争期间如何协调传播宣传与虚假信息，通过分析47,567条帖子，发现政治新闻频道为核心枢纽，娱乐频道作为放大层，混合使用幽默和讽刺包装信息以扩大传播。"
+    },
+    {
+      "id": 274,
+      "title": "State apparatus vs. surrogate sphere: a comparative analysis of domestic and international media in Turkish elections",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-02-13",
+      "summary": "分析土耳其国内外公共媒体在四次选举中的推文差异，发现国内媒体强烈偏向执政党，国际媒体相对平衡，实证揭示媒体党派化与替代公共领域。"
+    },
+    {
+      "id": 537,
+      "title": "Strategic synchrony? The co-projection of identity narratives by the Russian Ministry of Foreign Affairs and Sputnik Latvia",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-02-03",
+      "summary": "研究比较俄罗斯外交部与Sputnik Latvia 2019-2021年关于拉脱维亚的身份叙事，揭示两者协同投射，将俄罗斯塑造成正义保护者，拉脱维亚为恐俄反派，并运用故事与话语理论分析叙事说服力。"
+    }
+  ],
+  "paper_edges": []
+}

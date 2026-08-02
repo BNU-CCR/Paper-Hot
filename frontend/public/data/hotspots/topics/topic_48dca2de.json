@@ -1,0 +1,259 @@
+{
+  "topic_id": "topic_48dca2de",
+  "label": "平台政治讨论与情感极化",
+  "description": "考察推荐系统和社交平台如何影响政治讨论、公共参与与情感极化。",
+  "why_hot": "平台算法与情感公众正在重塑政治传播生态。",
+  "hot_score": 67,
+  "growth": 0.494,
+  "recent_count": 5,
+  "baseline_count": 29,
+  "journal_count": 11,
+  "lineage_status": "new",
+  "keywords": [
+    "推荐系统",
+    "政治讨论",
+    "情感极化",
+    "平台公众"
+  ],
+  "papers": [
+    {
+      "id": 14,
+      "title": "Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-29",
+      "summary": "基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。"
+    },
+    {
+      "id": 205,
+      "title": "Common Identities and Political Talk: Evaluating Cross-Cutting Political Discussions in Sports Communities on Reddit",
+      "journal": "Political Communication",
+      "published_date": "2026-07-23",
+      "summary": "通过计算分析比较Reddit政治与体育社区中跨党派政治讨论的数量、语气和内容，发现体育社区更促进跨党派讨论，但毒性水平无显著差异。"
+    },
+    {
+      "id": 206,
+      "title": "Affective Publics in the YouTube Live Chat: Multimodal Emotional Contagion During the 2024 U.S. Presidential Debate",
+      "journal": "Political Communication",
+      "published_date": "2026-07-22",
+      "summary": "研究2024年美国总统辩论期间YouTube直播聊天中的多模态情绪传染，结合面部、语音、文本情绪识别与时间序列分析（N=53,095），发现候选人情绪影响观众，且效果因参与度和政治立场而异。"
+    },
+    {
+      "id": 66,
+      "title": "Measuring partisan community dynamics: a longitudinal analysis of affective engagement in pro-Bolsonaro Facebook networks",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-08",
+      "summary": "研究2021-2023年巴西亲博尔索纳罗Facebook群组的纵向情感参与模式，使用LLM分类和回归分析发现重大政治事件导致情感极化波动，挑战了传播极化稳定性的假设。"
+    },
+    {
+      "id": 211,
+      "title": "Does the Method Affect the Outcome? How Measures of Partisan Slant of Media Outlets and Affective Polarization Drive Results About Polarization in the United States",
+      "journal": "Political Communication",
+      "published_date": "2026-07-05",
+      "summary": "基于2020年美国大选调查数据，系统检验测量党派媒体倾向和极化的不同方法如何影响研究结果，通过504种操作化方式的规范曲线分析发现方法选择显著影响关系强度。"
+    },
+    {
+      "id": 287,
+      "title": "Divisive or Bridging? Personal Stories in Cross-Cutting Political Discussions on Reddit",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过分析2015-2021年Reddit上约40万次政治互动，发现跨立场讨论中带个人故事的评论获得更多正面评价和回复，但未能减少毒性回复，且用户较少分享个人故事，影响有限。"
+    },
+    {
+      "id": 29,
+      "title": "Partisanship in Context: The (A)symmetric Influence of Local Newspaper Availability and Selective Exposure on Political Misperceptions in the U.S.",
+      "journal": "Communication Research",
+      "published_date": "2026-06-29",
+      "summary": "利用准实验设计，比较有无本地报纸的县域居民，发现缺乏本地报纸减少主流媒体使用，加剧自由派选择性接触，并影响两党虚假信息信念。"
+    },
+    {
+      "id": 78,
+      "title": "The consequences of alternative media and disinformation-prone alternative media consumption on political beliefs over the course of the COVID-19 pandemic",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-22",
+      "summary": "基于捷克2019-2024面板调查，区分另类媒体（AM）与易散布虚假信息的另类媒体（DPAM），发现DPAM消费增加政治犬儒主义和内在效能，AM则降低犬儒主义，挑战对另类媒体一概负面的假设。"
+    },
+    {
+      "id": 255,
+      "title": "The multimodal use of Instagram in Italian politics: how do candidates use verbal and non-verbal strategies during regional elections?",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-16",
+      "summary": "研究意大利地方选举中候选人如何在Instagram上运用言语和非言语策略，量化分析1194条帖子，发现候选人主要通过平台展示专业性和政策，但不同阵营和性别存在策略差异，且多模态表达常不一致。"
+    },
+    {
+      "id": 83,
+      "title": "Drivers of professional and private personalization: investigating political actors, social media platforms, and their interplay",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-14",
+      "summary": "研究奥地利大选中政治人物与政党账号在 Facebook 和 Instagram 上的专业与私人个性化策略，基于2028条帖子的定量内容分析和混合效应逻辑回归，发现候选账号更倾向私人个性化，且平台间无显著差异。"
+    },
+    {
+      "id": 18,
+      "title": "How Mass and Social Media (De) polarize America: Exposure to News Media, Expression on Social Media, and Affective Polarization",
+      "journal": "Communication and the Public",
+      "published_date": "2026-06-12",
+      "summary": "基于2020年美国大选两波面板调查，检验大众媒体、社交媒体和人际讨论对情感极化的影响，发现同质新闻加剧极化，跨域新闻缓解极化。"
+    },
+    {
+      "id": 34,
+      "title": "Two Forms of Media Distrust: Cynicism, Skepticism, and Online News Exposure",
+      "journal": "Communication Research",
+      "published_date": "2026-06-10",
+      "summary": "研究区分犬儒主义与怀疑主义两种媒体不信任，结合调查与739名德国选民网页追踪数据，发现二者在人格、政治取向及实际新闻消费上存在差异。"
+    },
+    {
+      "id": 173,
+      "title": "Identity–Policy Fusion and Polarization in United States House Campaign Language",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-06-04",
+      "summary": "研究提出身份-政策融合框架，分析美国众议院候选人竞选语言。通过计算文本分析4万余条政策声明，发现融合策略与语言极化显著相关，且共和党效应更强，揭示精英信息加剧党派界限的机制。"
+    },
+    {
+      "id": 90,
+      "title": "Mistrust as a precondition for critical thinking and media literacy",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-03",
+      "summary": "通过两项在线调查（n=2115）研究不信任、新闻消费与媒体素养教育对信息核实信心和实际能力的影响，发现不信任预测信心，新闻消费预测实际辨别能力。"
+    },
+    {
+      "id": 218,
+      "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
+      "journal": "Political Communication",
+      "published_date": "2026-05-27",
+      "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
+    },
+    {
+      "id": 260,
+      "title": "Heat and affiliation: platform incentives in party leaders’ Facebook communication during COVID-19",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-05-16",
+      "summary": "分析挪威政党领袖疫情期间的Facebook帖子，识别情感反应（怒、悲、爱、关心）与危机传播策略的关系，揭示不同情感信号对传播激励的影响。"
+    },
+    {
+      "id": 100,
+      "title": "Targeting and/or tailoring?! A theoretical framework and its application to political social media advertising",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-14",
+      "summary": "提出targeting与tailoring的理论框架，基于2021年德国大选Facebook和Instagram广告数据，测量政党广告策略及其对曝光量的影响。"
+    },
+    {
+      "id": 37,
+      "title": "Political Identity Threats on Social Media",
+      "journal": "Communication Research",
+      "published_date": "2026-05-08",
+      "summary": "研究社交媒体上政治身份威胁的识别与影响，通过两个实验发现威胁类型非离散且对强党派身份者影响更大。"
+    },
+    {
+      "id": 156,
+      "title": "Understanding Polarizing Language: Developing a Coding Instrument",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-04-29",
+      "summary": "论文开发并验证极化语言编码工具，识别八种语言策略，通过四项研究（州长演讲、受众感知、国会推文）结合手动和计算方法验证框架的效度与泛化性。"
+    },
+    {
+      "id": 158,
+      "title": "Splitting Evaluative Association Measures Reveals How Sociolinguistic Context Shapes Implicit Attitudes Towards Regional and Minority Languages",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-04-16",
+      "summary": "通过三项研究使用GNAT测量三个双语社区对地区/少数语言的内隐态度，发现社会语言学情境影响语言态度激活，并采用分裂分析细化结果。"
+    },
+    {
+      "id": 43,
+      "title": "Disentangling the Longitudinal Relationship Between Social Media Use, Political Expression and Political Participation: What Do We Really Know?",
+      "journal": "Communication Research",
+      "published_date": "2026-04-09",
+      "summary": "论文使用三波面板数据，通过CLPM与RI-CLPM比较，发现社交媒体使用与政治表达、参与的关系主要源于个体间差异而非个体内变化，挑战以往结论。"
+    },
+    {
+      "id": 267,
+      "title": "Disagreement driven disengagement? Policymaker perceptions of citizen identity and responsiveness to political communication",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-04-09",
+      "summary": "通过调查地方政策制定者和美国公众，研究政策制定者对沟通渠道的回应是否受支持者身份认知影响，发现支持者更可能使用高成本和低成本渠道。"
+    },
+    {
+      "id": 268,
+      "title": "Attributing digital election advertising to races and candidates: a multimodal approach to measuring outside group influence",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-04-08",
+      "summary": "开发可扩展的多模态系统，结合文本与图像归因数字广告至竞选层级，分析2020年140万Meta广告，估算外部团体支出并评估其选举影响。"
+    },
+    {
+      "id": 639,
+      "title": "Designed for discourse: how reactions and replies create trade-offs in political participation",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-02",
+      "summary": "通过定制平台实验（N=1370），考察点赞和回复功能对政治讨论参与、投入和多样性的影响，发现两者存在权衡：点赞促进快速回应和观点多样性，回复则导致对话碎片化。"
+    },
+    {
+      "id": 46,
+      "title": "Adolescents’ Trust in Political Content From Influencers: The Roles of Motive Attribution and Parental Mediation",
+      "journal": "Communication Research",
+      "published_date": "2026-03-30",
+      "summary": "研究探讨青少年对社交媒体影响者政治内容的信任，考察动机归因、数字素养和父母中介的作用，基于三波面板调查数据。"
+    },
+    {
+      "id": 270,
+      "title": "Beyond partisan leaning: a comparative analysis of political bias in large language models",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-03-20",
+      "summary": "提出无角色扮演的二维框架评估43个LLM的政治倾向与参与模式，发现多数模型偏中左，对齐策略比模型规模更影响政治表达。"
+    },
+    {
+      "id": 148,
+      "title": "The cognitive benefits of online microtargeted political ads: explaining attitudes, political interest, and campaign knowledge",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-12",
+      "summary": "通过两波面板调查(N=691)发现，微靶向政治广告的感知匹配度正向影响广告态度，进而提升政治兴趣和竞选知识，挑战了其纯负面观点。"
+    },
+    {
+      "id": 427,
+      "title": "Hostile Media and Friendly Chambers: Social Media Polarization and the 2024 U.S. Campus Protests",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-03-12",
+      "summary": "基于2024年美国校园抗议期间1010名受访者的全国调查，考察敌意媒体感知对策略性社交媒体行为的影响，以及阴谋信念的调节作用。"
+    },
+    {
+      "id": 150,
+      "title": "The impact of metaphorical language on social media engagement: evidence from the presidential run-off and major parliamentary parties during the 2023 Turkish general election",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-11",
+      "summary": "研究2023土耳其大选中政治人物推文的隐喻对用户互动的影响，发现隐喻频率和原创性可小幅提升点赞与转发，回复影响较弱。"
+    },
+    {
+      "id": 230,
+      "title": "Uneven Echoes: Gender’s Divergent Influence on Candidate Personalization and Voter Response in Taiwan",
+      "journal": "Political Communication",
+      "published_date": "2026-02-20",
+      "summary": "研究通过分析台湾候选人Facebook帖子及在线实验，探讨性别对候选人个性化与选民回应的影响，发现女性候选人较少使用个性化信息但选民对其反应积极。"
+    },
+    {
+      "id": 186,
+      "title": "Engaging to Oppose: Cross-Cutting Patterns in Hostile News Commentary",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-02-18",
+      "summary": ""
+    },
+    {
+      "id": 434,
+      "title": "Fake News is Shared by “Them” Not “Us” On Social Media: Perceptual Gaps of Fake News Sharing and Affective Polarization",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-02-16",
+      "summary": "基于台湾两波调查，研究社交媒体新闻消费与政治分歧对虚假信息分享感知差距的影响，并探讨感知差距与情感极化的关联。"
+    },
+    {
+      "id": 275,
+      "title": "Election night’s alright for feeling: emotional appeals by British political parties on Facebook during and outside election campaigns",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-02-09",
+      "summary": "分析英国政党在Facebook上情感诉求的使用及其与用户互动的关联，发现热情和愤怒比恐惧更常见，不同情感预测不同类型的互动。"
+    },
+    {
+      "id": 476,
+      "title": "Hashtags, Protests, and Polycrisis: A Machine Learning Analysis of Kenyans’ Sentiments on the 2024 Finance Bill Protests Using X Data",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-02-04",
+      "summary": "基于肯尼亚2024年财政法案抗议，对99,576条X帖子进行情感分析和主题建模，揭示负面情绪占70.35%，识别出反对法案、经济困境、政治问责等主题，并分析发帖类型与用户影响力对情绪表达的影响。"
+    }
+  ],
+  "paper_edges": []
+}

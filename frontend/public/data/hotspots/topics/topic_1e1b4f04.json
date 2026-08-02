@@ -1,0 +1,35 @@
+{
+  "topic_id": "topic_1e1b4f04",
+  "label": "娱乐叙事与商业传播",
+  "description": "从历史剧接受度到InfoWars多模态销售，分析内容风格与受众/商业效果。",
+  "why_hot": "娱乐化内容与商业政治传播日益交织。",
+  "hot_score": 31,
+  "growth": 0.531,
+  "recent_count": 0,
+  "baseline_count": 2,
+  "journal_count": 2,
+  "lineage_status": "new",
+  "keywords": [
+    "受众接受",
+    "多模态分析",
+    "历史剧",
+    "媒体帝国"
+  ],
+  "papers": [
+    {
+      "id": 424,
+      "title": "Entertaining or Mis/Disinforming? Social Data Analysis of Audience Reception of Historical Accuracy and Creative License in the Netflix Series ‘ <i>Queen Cleopatra</i> ’ on YouTube. A Case Study",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-04-13",
+      "summary": "以Netflix纪录片剧集《Queen Cleopatra》为案例，分析YouTube评论中受众对历史准确性、文化挪用和创意许可的讨论，采用混合方法揭示负面情感主导及“blackwashing”等争议话语。"
+    },
+    {
+      "id": 146,
+      "title": "Style and substance on <i>The Alex Jones Show</i> predict <i>InfoWars</i> sales: a multi-modal analysis of a media empire",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-12",
+      "summary": "结合InfoWars销售数据与电台节目和文章的语言、听觉及主题特征，分析内容风格与话题对次日销售的预测关系，揭示虚假信息生产的经济动因。"
+    }
+  ],
+  "paper_edges": []
+}

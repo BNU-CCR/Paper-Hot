@@ -1,0 +1,35 @@
+{
+  "topic_id": "topic_873da034",
+  "label": "传播学术多样性与传媒生产",
+  "description": "检视性别、地域和方法论在传播研究与内容生产中的代表性变迁。",
+  "why_hot": "学界与业界多样性议程持续升温。",
+  "hot_score": 55,
+  "growth": 0.973,
+  "recent_count": 1,
+  "baseline_count": 1,
+  "journal_count": 2,
+  "lineage_status": "new",
+  "keywords": [
+    "多样性",
+    "性别",
+    "传媒生产",
+    "学术回顾"
+  ],
+  "papers": [
+    {
+      "id": 612,
+      "title": "Ephemeral to empowered? International comparison of women’s participation in web series production, 2012–2019",
+      "journal": "Global Media and Communication",
+      "published_date": "2026-07-14",
+      "summary": "通过国际网络剧档案（2012-2019）分析女性在制片、导演、编剧等职位中的参与度，发现西方国家接近性别平等，但摄影仍不足，并探讨短暂媒介形式对性别歧视的冲击。"
+    },
+    {
+      "id": 31,
+      "title": "Fifty Years of Diversity in Communication and Media Studies (1974–2023): The Intertwined Trends in Geographic, Gender, and Methodological Representation",
+      "journal": "Communication Research",
+      "published_date": "2026-06-22",
+      "summary": "通过自动化内容分析1974-2023年传播学期刊，发现非西方作者比例上升、女性作者增加、定性方法增长，且这些趋势相互交织，高影响因子期刊多样性较低。"
+    }
+  ],
+  "paper_edges": []
+}

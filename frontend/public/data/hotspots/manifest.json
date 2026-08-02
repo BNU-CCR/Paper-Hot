@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-02T12:06:03",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "embedding_dimension": 384,
+  "period": {
+    "recent_start": "2026-07-03",
+    "recent_end": "2026-08-02",
+    "baseline_start": "2026-02-03",
+    "baseline_end": "2026-07-03"
+  },
+  "paper_count": 314,
+  "topic_count": 19,
+  "edge_count": 33
+}
