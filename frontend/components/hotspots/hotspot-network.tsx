@@ -98,6 +98,22 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
     graph.links as unknown as Record<string, unknown>[],
   );
 
+  // Cosmograph's built-in label chip ships a hardcoded dark background
+  // (#24272fe0), which makes dark foreground text unreadable in light theme.
+  // Override it with an inline style (a string containing ":" is applied as
+  // the element's style attribute) built from the current theme tokens so
+  // labels stay legible in both themes. Note: once pointLabelClassName is
+  // set, pointLabelColor is ignored — the text color must live in the style.
+  const labelStyle = useMemo(
+    () =>
+      `background: color-mix(in srgb, ${themeVars.card} 92%, transparent);` +
+      ` color: ${themeVars.fg};` +
+      " border-radius: 6px;" +
+      " font-weight: 600 !important;" +
+      " box-shadow: 0 1px 5px rgba(0,0,0,.22);",
+    [themeVars],
+  );
+
   const mergedConfig = useMemo<CosmographConfig>(() => {
     return {
       ...config,
@@ -117,7 +133,8 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
       unknownColor: NOISE_COLOR,
       pointDefaultColor: NOISE_COLOR,
       pointGreyoutOpacity: 0.18,
-      pointLabelColor: themeVars.fg,
+      pointLabelClassName: labelStyle,
+      hoveredPointLabelClassName: labelStyle,
       pointLabelFontSize: 14,
       pointLabelPosition: "center",
       showLabels: true,
@@ -149,7 +166,7 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
         }
       },
     } as CosmographConfig;
-  }, [config, colorMap, anchorIds, graph, themeVars]);
+  }, [config, colorMap, anchorIds, graph, themeVars, labelStyle]);
 
   // Highlight the selected topic cloud (external selection or trend-table click).
   useEffect(() => {
