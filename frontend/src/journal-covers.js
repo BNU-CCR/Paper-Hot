@@ -44,6 +44,7 @@ const rawJournals = [
 
 export const journals = rawJournals.map(([abbr, name, publisher, priority, issn], index) => ({
   abbr,
+  slug: abbr.toLowerCase(),
   name,
   publisher,
   priority,
