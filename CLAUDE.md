@@ -31,20 +31,20 @@ Keyword search and Semantic Scholar are supplemental, not the primary ingestion 
 ## Useful Commands
 
 ```bash
-py -m journal_tracker.main workflow-status
-py -m journal_tracker.main fetch-journals --limit-per-journal 100
-py -m journal_tracker.main repair-queue
-py -m journal_tracker.main screen-pending --limit 20
-py -m journal_tracker.main export-public
-py -m journal_tracker.main verify-coverage
-py -m journal_tracker.main update-public
-py -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
+python -m journal_tracker.main workflow-status
+python -m journal_tracker.main fetch-journals --limit-per-journal 100
+python -m journal_tracker.main repair-queue
+python -m journal_tracker.main screen-pending --limit 20
+python -m journal_tracker.main export-public
+python -m journal_tracker.main verify-coverage
+python -m journal_tracker.main update-public
+python -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
 powershell -NoProfile -ExecutionPolicy Bypass -File .\backend\scripts\run_weekly.ps1
 ```
 
 Verification:
 
 ```bash
-py -m unittest discover backend/tests -v
+python -m unittest discover backend/tests -v
 node frontend\web\app.test.cjs
 ```

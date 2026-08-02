@@ -73,8 +73,12 @@ Screening errors: 1
 Install the package in editable mode:
 
 ```bash
-py -m pip install -e .
+python3 -m venv venv
+source venv/bin/activate
+python -m pip install -e .
 ```
+
+On Windows, activate with `venv\\Scripts\\activate` and use `py -m pip install -e .`.
 
 Local secrets go in `.local/key.env`, which is ignored by git:
 
@@ -93,43 +97,43 @@ OpenAlex and Crossref do not require local API keys.
 Check current state:
 
 ```bash
-py -m journal_tracker.main workflow-status
+python -m journal_tracker.main workflow-status
 ```
 
 Fetch red-list journal updates:
 
 ```bash
-py -m journal_tracker.main fetch-journals --limit-per-journal 100
+python -m journal_tracker.main fetch-journals --limit-per-journal 100
 ```
 
 Repair local queue and quarantine dirty legacy rows:
 
 ```bash
-py -m journal_tracker.main repair-queue
+python -m journal_tracker.main repair-queue
 ```
 
 Screen pending papers with AI:
 
 ```bash
-py -m journal_tracker.main screen-pending --limit 20
+python -m journal_tracker.main screen-pending --limit 20
 ```
 
 Export website data:
 
 ```bash
-py -m journal_tracker.main export-public
+python -m journal_tracker.main export-public
 ```
 
 Verify OpenAlex coverage against Crossref:
 
 ```bash
-py -m journal_tracker.main verify-coverage
+python -m journal_tracker.main verify-coverage
 ```
 
 Run the journal-first weekly workflow:
 
 ```bash
-py -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
+python -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
 ```
 
 Run the same workflow through the Windows automation wrapper:
@@ -141,13 +145,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\backend\scripts\run_weekly
 Publish all High papers and refresh website JSON:
 
 ```bash
-py -m journal_tracker.main update-public
+python -m journal_tracker.main update-public
 ```
 
 Preview the website locally:
 
 ```bash
-py -m http.server 8000
+python -m http.server 8000
 ```
 
 Then open:
@@ -161,7 +165,7 @@ http://127.0.0.1:8000/frontend/web/index.html
 The latest deep fetch and bulk screening have completed. For the next routine refresh, run:
 
 ```bash
-py -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
+python -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
 ```
 
 Before the next large screening run, improve the AI response parser and prompt because one paper still remains in `screening_status = error` after retries.
@@ -171,7 +175,7 @@ Before the next large screening run, improve the AI response parser and prompt b
 Python tests:
 
 ```bash
-py -m unittest discover backend/tests -v
+python -m unittest discover backend/tests -v
 ```
 
 Frontend logic tests:
@@ -179,6 +183,12 @@ Frontend logic tests:
 ```bash
 node frontend\web\app.test.cjs
 ```
+
+## GitHub Actions
+
+- `CI` runs the Python test suite on Python 3.9 and 3.12, smoke-tests a fresh database, and runs the frontend tests on every push and pull request.
+- `Weekly paper update` runs every Monday at 09:00 Asia/Shanghai and supports manual runs with smaller limits.
+- Configure the required `ANTHROPIC_API_KEY` Actions secret before starting the weekly workflow. See [`docs/automation.md`](docs/automation.md) for permissions, optional variables, database caching, and recovery details.
 
 ## Git Notes
 

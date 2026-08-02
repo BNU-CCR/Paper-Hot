@@ -7,6 +7,15 @@ from journal_tracker.storage import Paper, PaperStorage
 
 
 class StorageWorkflowTests(unittest.TestCase):
+    def test_storage_creates_missing_parent_directory(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            db_path = Path(tmp_dir) / "nested" / "data" / "papers.db"
+
+            storage = PaperStorage(db_path)
+
+            self.assertTrue(db_path.exists())
+            self.assertEqual(storage.get_statistics()["total"], 0)
+
     def test_new_schema_tracks_source_and_screening_status(self) -> None:
         with TemporaryDirectory() as tmp_dir:
             storage = PaperStorage(Path(tmp_dir) / "papers.db")
