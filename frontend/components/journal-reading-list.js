@@ -66,7 +66,9 @@ export function JournalReadingList({ journal }) {
   const allReading = useMemo(() => sortPapers(allPapers.filter((paper) => matchesJournal(paper, journal))), [allPapers, journal]);
   const reading = view === "all" ? allReading : featuredReading;
   const groups = useMemo(() => issueGroups(reading), [reading]);
-  const hasIssues = groups.some((group) => group.issue);
+  // Keep the navigation available for online-first papers too. OpenAlex may
+  // not assign their final issue until a later publisher update.
+  const hasIssues = groups.length > 0;
   const loading = !featured.length && !allPapers.length && !error;
 
   return <div className="shell">
