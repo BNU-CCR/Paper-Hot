@@ -23,6 +23,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: paper-hot-jcmc-backfill
@@ -97,6 +99,36 @@ jobs:
           python -m journal_tracker.readme_update
           python -m json.tool frontend/public/data/papers.json >/dev/null
           python -m json.tool frontend/public/data/all_papers.json >/dev/null
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: frontend/pnpm-lock.yaml
+
+      - name: Build static Next.js site
+        run: |
+          pnpm --dir frontend install --frozen-lockfile
+          pnpm --dir frontend build
+          test -f frontend/out/index.html
+          test -f frontend/out/data/papers.json
+          test -f frontend/out/data/all_papers.json
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/out
+
+      - name: Deploy refreshed public site
+        id: deployment
+        uses: actions/deploy-pages@v4
 
       - name: Save the updated working database
         uses: actions/cache/save@v4
