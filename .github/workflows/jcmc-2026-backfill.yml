@@ -99,6 +99,7 @@ jobs:
           python -m journal_tracker.readme_update
           python -m json.tool frontend/public/data/papers.json >/dev/null
           python -m json.tool frontend/public/data/all_papers.json >/dev/null
+          python -m json.tool frontend/public/data/hotspots.json >/dev/null
 
       - uses: pnpm/action-setup@v4
         with:
@@ -117,6 +118,7 @@ jobs:
           test -f frontend/out/index.html
           test -f frontend/out/data/papers.json
           test -f frontend/out/data/all_papers.json
+          test -f frontend/out/data/hotspots.json
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -139,7 +141,7 @@ jobs:
       - name: Commit refreshed public data
         if: inputs.commit_public_data == true
         run: |
-          git add README.md frontend/public/data/papers.json frontend/public/data/all_papers.json
+          git add README.md frontend/public/data/papers.json frontend/public/data/all_papers.json frontend/public/data/hotspots.json
           if git diff --cached --quiet; then
             echo "No public data changes."
             exit 0

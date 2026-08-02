@@ -23,6 +23,7 @@ from .filter import PaperFilter
 from .notification import NotificationSender
 from .publication import PublicPaperExporter
 from .coverage import CoverageVerifier
+from .hotspots import generate_monthly_hotspots
 
 
 def safe_print(message: str = "") -> None:
@@ -512,6 +513,9 @@ def run_weekly_journal_workflow(
         "public_papers": public_count,
     }
 
+    hotspots_path = generate_monthly_hotspots(config)
+    report["steps"]["generate_hotspots"] = {"output": str(hotspots_path)}
+
     if verify:
         verify_coverage(config)
         latest_coverage = config.data_dir / "reports" / "coverage_latest.json"
@@ -730,6 +734,7 @@ def main():
     subparsers.add_parser("stats", help="显示统计")
     subparsers.add_parser("export", help="导出CSV")
     subparsers.add_parser("export-public", help="导出公开站 JSON 数据")
+    subparsers.add_parser("generate-hotspots", help="从近一个月公开论文生成当期热点 JSON")
     subparsers.add_parser("doctor", help="检查 API key、数据库、公开 JSON 和关键词配置")
     list_parser = subparsers.add_parser("list", help="列出数据库中的论文")
     list_parser.add_argument("--limit", type=int, default=100, help="最多列出论文数")
@@ -768,6 +773,8 @@ def main():
         export_csv(config)
     elif args.command == "export-public":
         export_public_data(config)
+    elif args.command == "generate-hotspots":
+        print(f"已生成当期热点数据: {generate_monthly_hotspots(config)}")
     elif args.command == "doctor":
         sys.exit(run_doctor(config))
     elif args.command == "list":
