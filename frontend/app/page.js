@@ -88,6 +88,13 @@ export default function HomePage() {
   const [loadingError, setLoadingError] = useState("");
 
   useEffect(() => {
+    const selectHotspots = () => { if (window.location.hash === "#hotspots") setMode("hotspots"); };
+    selectHotspots();
+    window.addEventListener("hashchange", selectHotspots);
+    return () => window.removeEventListener("hashchange", selectHotspots);
+  }, []);
+
+  useEffect(() => {
     Promise.all([fetch("data/papers.json", { cache: "no-store" }), fetch("data/all_papers.json", { cache: "no-store" }), fetch("data/hotspots.json", { cache: "no-store" })])
       .then(async ([featuredResponse, allResponse, hotspotsResponse]) => {
         if (!featuredResponse.ok) throw new Error(`精选数据 HTTP ${featuredResponse.status}`);
