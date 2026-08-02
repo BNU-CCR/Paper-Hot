@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-08-02 10:45 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-08-02 11:25 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
-| 2026-06-28 | [Is Flattery in AI Fact-Checking Helpful or Harmful? Effects on Tool Favorability and Epistemic Verification](<https://doi.org/10.1080/08838151.2026.2694043>) | Journal of Broadcasting & Electronic Media | 实验研究AI事实核查中奉承语气的影响，发现其提升工具偏好但降低信息回忆与参考核查，无关初始答案正确性。 |
-| 2026-06-26 | [Beyond the Black Box: Human-AI Collaboration and Algorithmic Accountability in Arabic-Language Fact-Checking](<https://doi.org/10.1080/08838151.2026.2694044>) | Journal of Broadcasting & Electronic Media | 通过访谈和案例分析，研究AI在阿拉伯语事实核查中的整合，强调人机混合模式、透明性和文化适配性。 |
-| 2026-06-26 | [From Mass Media and Social Media to AI: A Multilevel Framework for Understanding Trust in Generative AI](<https://doi.org/10.1080/08838151.2026.2694048>) | Journal of Broadcasting & Electronic Media | 提出多层次框架，从大众媒体、社交媒体到AI，分析对生成式AI的信任构建机制。 |
-| 2026-06-26 | [AI as “Artificial Immigrants”? A Content Analysis of the U.S. News Media Framing of AI Threats](<https://doi.org/10.1080/08838151.2026.2692543>) | Journal of Broadcasting & Electronic Media | 基于整合威胁理论，分析美国新闻媒体对AI威胁的框架，发现现实威胁强调多于象征威胁，技术报道偏向现实框架。 |
-| 2026-06-26 | [Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology](<https://doi.org/10.1080/19331681.2026.2682924>) | Journal of Information Technology & Politics | 探讨用户对ChatGPT的信任度及其在政治信息消费中的影响，分析使用行为、感知威胁和政治意识形态的作用 |
+| 2026-07-30 | [Weaponized narratives: A social psychological theory of story-based influence in cognitive warfare](<https://doi.org/10.1177/17506352261472759>) | Media War & Conflict | 论文提出武器化叙事的四阶段心理影响模型，涵盖身份、威胁、道德和阴谋叙事策略，并以俄罗斯2014年克里米亚叙事行动为例，探讨AI在叙事扩散中的放大作用及反叙事策略。 |
+| 2026-07-29 | [Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy](<https://doi.org/10.1080/08838151.2026.2705972>) | Journal of Broadcasting & Electronic Media | 基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。 |
+| 2026-07-28 | [Search engines in polarized media environment: auditing political information curation on Google and Bing prior to 2024 US elections](<https://doi.org/10.1080/19331681.2026.2701758>) | Journal of Information Technology & Politics | 该研究在2024年美国大选前审计Google和Bing的搜索结果，分析查询主题、用户位置和时间对政治信息偏向的影响，发现两大引擎优先呈现左倾媒体，且不同主题下意识形态偏向程度不同。 |
+| 2026-07-28 | [Examining initial trust development and trusting intentions toward humanoid social robots](<https://doi.org/10.1080/1369118x.2026.2674925>) | Information Communication & Society | 通过375名美国参与者的调查，检验人形社交机器人初始信任形成模型，发现结构保证、感知服务利益和声誉是关键因素，为企业和政策制定者提供见解。 |
+| 2026-07-28 | [The Bio-Functional Audience: Shared Physiological Alignment to Narrative Media](<https://doi.org/10.1177/00936502261472026>) | Communication Research | 通过眼动、心率、皮肤电等生理数据，提出生物功能受众概念，验证叙事内容能引发个体间生理同步，为受众研究提供信号基础。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -48,16 +48,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-08-02 10:45 GMT+8
+> 最近更新：2026-08-02 11:25 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 548 |
-| 当期新增 | 0 |
-| High / Medium / Low | 137 / 69 / 342 |
-| Pending / Screened / Quarantined / Error | 0 / 547 / 0 / 1 |
-| 已发布精选 | 139 |
-| 期刊全量导出 | 548 |
+| 数据库论文 | 631 |
+| 当期新增 | 631 |
+| High / Medium / Low | 224 / 122 / 285 |
+| Pending / Screened / Quarantined / Error | 0 / 625 / 0 / 6 |
+| 已发布精选 | 224 |
+| 期刊全量导出 | 631 |
+
+覆盖验证：OpenAlex DOI 631，Crossref DOI 693，匹配 616，Crossref 中尚缺 77。
 
 <!-- paper-hot:auto-stats:end -->
 
