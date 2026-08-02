@@ -120,6 +120,17 @@ class Config:
         return ""
 
     @property
+    def openalex_api_key(self) -> str:
+        """获取 OpenAlex API Key（可选但推荐，提高请求限制）。"""
+        api_key = self.env_file.get("OPENALEX_API_KEY", "")
+        if api_key:
+            return api_key
+        api_key = os.environ.get("OPENALEX_API_KEY", "")
+        if api_key:
+            return api_key
+        return self.settings.get("openalex_api_key", "")
+
+    @property
     def semantic_scholar_api_key(self) -> str:
         """获取 Semantic Scholar API Key"""
         api_key = self.env_file.get("SEMANTIC_SCHOLAR_API_KEY", "")
@@ -158,6 +169,20 @@ class Config:
     def hotspot_system_prompt(self) -> str:
         """获取当期热点归纳 prompt。"""
         return self.prompts.get("hotspot_system_prompt", "")
+
+    @property
+    def hotspot_network_config(self) -> dict:
+        """获取热点网络构建参数。"""
+        return self.settings.get("hotspot_network", {})
+
+    @property
+    def topic_overrides(self) -> dict:
+        """获取主题人工重命名和合并规则。"""
+        overrides_path = self.config_dir / "topic_overrides.yaml"
+        if overrides_path.exists():
+            with open(overrides_path, "r", encoding="utf-8") as f:
+                return yaml.safe_load(f) or {}
+        return {}
 
     @property
     def notification_config(self) -> dict:

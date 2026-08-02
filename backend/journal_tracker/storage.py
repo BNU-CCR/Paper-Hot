@@ -1,9 +1,10 @@
 """本地存储模块 - SQLite"""
 
+import hashlib
 import sqlite3
 import re
 from pathlib import Path
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Tuple
 from dataclasses import dataclass, asdict
 from datetime import datetime
 from contextlib import contextmanager
@@ -38,9 +39,26 @@ class Paper:
     discovered_at: str = ""
     created_at: str = ""
     updated_at: str = ""
+    is_retracted: bool = False
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
+
+
+@dataclass
+class PaperFeatures:
+    """Per-paper embeddings and OpenAlex enrichment."""
+    paper_id: int
+    text_hash: str = ""
+    embedding_model: str = ""
+    embedding_dim: int = 0
+    embedding_bytes: Optional[bytes] = None
+    openalex_topics_json: str = "[]"
+    openalex_keywords_json: str = "[]"
+    referenced_works_json: str = "[]"
+    cited_by_count: int = 0
+    is_retracted: bool = False
+    updated_at: str = ""
 
 
 class PaperStorage:
@@ -96,6 +114,22 @@ class PaperStorage:
                 )
             """)
             self._ensure_columns(cursor)
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS paper_features (
+                    paper_id INTEGER PRIMARY KEY,
+                    text_hash TEXT NOT NULL DEFAULT '',
+                    embedding_model TEXT NOT NULL DEFAULT '',
+                    embedding_dim INTEGER NOT NULL DEFAULT 0,
+                    embedding BLOB,
+                    openalex_topics_json TEXT NOT NULL DEFAULT '[]',
+                    openalex_keywords_json TEXT NOT NULL DEFAULT '[]',
+                    referenced_works_json TEXT NOT NULL DEFAULT '[]',
+                    cited_by_count INTEGER NOT NULL DEFAULT 0,
+                    is_retracted INTEGER NOT NULL DEFAULT 0,
+                    updated_at TEXT NOT NULL DEFAULT '',
+                    FOREIGN KEY (paper_id) REFERENCES papers(id)
+                )
+            """)
             # 创建索引加速查询
             cursor.execute("""
                 CREATE INDEX IF NOT EXISTS idx_papers_link ON papers(link)
@@ -473,7 +507,122 @@ class PaperStorage:
     def _normalize_row(self, row: Dict[str, Any]) -> Dict[str, Any]:
         """标准化 SQLite 返回数据"""
         row["is_public"] = bool(row.get("is_public", 0))
+        row["is_retracted"] = bool(row.get("is_retracted", 0))
         return row
+
+    # ── paper_features ─────────────────────────────────────────────
+
+    def upsert_paper_features(self, features: PaperFeatures) -> bool:
+        """Insert or update embedding and enrichment data for one paper."""
+        now = datetime.now().isoformat()
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                INSERT INTO paper_features (
+                    paper_id, text_hash, embedding_model, embedding_dim, embedding,
+                    openalex_topics_json, openalex_keywords_json, referenced_works_json,
+                    cited_by_count, is_retracted, updated_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(paper_id) DO UPDATE SET
+                    text_hash = excluded.text_hash,
+                    embedding_model = excluded.embedding_model,
+                    embedding_dim = excluded.embedding_dim,
+                    embedding = excluded.embedding,
+                    openalex_topics_json = excluded.openalex_topics_json,
+                    openalex_keywords_json = excluded.openalex_keywords_json,
+                    referenced_works_json = excluded.referenced_works_json,
+                    cited_by_count = excluded.cited_by_count,
+                    is_retracted = excluded.is_retracted,
+                    updated_at = excluded.updated_at
+            """, (
+                features.paper_id, features.text_hash, features.embedding_model,
+                features.embedding_dim, features.embedding_bytes,
+                features.openalex_topics_json, features.openalex_keywords_json,
+                features.referenced_works_json, features.cited_by_count,
+                int(features.is_retracted), now,
+            ))
+            conn.commit()
+            return cursor.rowcount > 0
+
+    def get_paper_features(self, paper_id: int) -> Optional[PaperFeatures]:
+        """Get enrichment data for a single paper."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                "SELECT * FROM paper_features WHERE paper_id = ?", (paper_id,)
+            )
+            row = cursor.fetchone()
+            if not row:
+                return None
+            return PaperFeatures(
+                paper_id=row["paper_id"],
+                text_hash=row["text_hash"] or "",
+                embedding_model=row["embedding_model"] or "",
+                embedding_dim=row["embedding_dim"] or 0,
+                embedding_bytes=row["embedding"],
+                openalex_topics_json=row["openalex_topics_json"] or "[]",
+                openalex_keywords_json=row["openalex_keywords_json"] or "[]",
+                referenced_works_json=row["referenced_works_json"] or "[]",
+                cited_by_count=row["cited_by_count"] or 0,
+                is_retracted=bool(row["is_retracted"]),
+                updated_at=row["updated_at"] or "",
+            )
+
+    def get_analysis_candidates(
+        self,
+        min_date: str = "",
+        relevance_filter: Tuple[str, ...] = ("High", "Medium"),
+    ) -> List[Dict[str, Any]]:
+        """Return papers suitable for hotspot analysis with their features."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            query = """
+                SELECT
+                    p.id, p.title, p.abstract, p.summary, p.published_date,
+                    p.journal, p.relevance, p.tags,
+                    pf.openalex_topics_json, pf.openalex_keywords_json,
+                    pf.referenced_works_json, pf.cited_by_count,
+                    pf.text_hash, pf.embedding_model, pf.embedding_dim,
+                    pf.embedding, pf.is_retracted
+                FROM papers p
+                LEFT JOIN paper_features pf ON p.id = pf.paper_id
+                WHERE p.screening_status = 'screened'
+                  AND p.relevance IN ({seq})
+                  AND (pf.is_retracted IS NULL OR pf.is_retracted = 0)
+                  {date_clause}
+                ORDER BY p.published_date DESC
+            """.format(
+                seq=",".join("?" for _ in relevance_filter),
+                date_clause="AND p.published_date >= ?" if min_date else "",
+            )
+            params: List[Any] = list(relevance_filter)
+            if min_date:
+                params.append(min_date)
+            cursor.execute(query, params)
+            rows = cursor.fetchall()
+            return [dict(row) for row in rows]
+
+    def get_papers_missing_features(self, limit: int = 1000) -> List[int]:
+        """Return paper IDs missing from paper_features."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT p.id FROM papers p
+                LEFT JOIN paper_features pf ON p.id = pf.paper_id
+                WHERE p.source_type = 'openalex'
+                  AND p.screening_status != 'quarantined'
+                  AND pf.paper_id IS NULL
+                ORDER BY p.id DESC
+                LIMIT ?
+            """, (limit,))
+            return [row[0] for row in cursor.fetchall()]
+
+    def compute_text_hash(
+        self, title: str, abstract: str, embedding_model: str
+    ) -> str:
+        """Deterministic hash for the text that feeds an embedding."""
+        content = f"{title}|{abstract}|{embedding_model}"
+        return hashlib.sha256(content.encode("utf-8")).hexdigest()
 
     def _normalize_name(self, name: str) -> str:
         normalized = (name or "").lower().replace("&", " and ")

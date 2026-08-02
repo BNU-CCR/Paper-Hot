@@ -18,7 +18,7 @@ from pathlib import Path
 from typing import Optional
 
 from .config import Config, get_config
-from .storage import PaperStorage, Paper
+from .storage import PaperStorage, Paper, PaperFeatures
 from .discovery import OpenAlexDiscovery, PaperDiscovery
 from .filter import PaperFilter
 from .notification import NotificationSender
@@ -222,8 +222,19 @@ def ingest_journal_updates(
             bibliography_checked_at=datetime.now().isoformat(),
             screening_status="pending",
         )
-        if storage.add_paper(paper):
+        paper_id = storage.add_paper(paper)
+        if paper_id:
             saved_count += 1
+            # Store OpenAlex enrichment data for hotspot analysis
+            if discovered.openalex_topics or discovered.openalex_keywords:
+                storage.upsert_paper_features(PaperFeatures(
+                    paper_id=paper_id,
+                    openalex_topics_json=discovered.openalex_topics,
+                    openalex_keywords_json=discovered.openalex_keywords,
+                    referenced_works_json=discovered.referenced_works,
+                    cited_by_count=discovered.citation_count,
+                    is_retracted=discovered.is_retracted,
+                ))
 
     print(f"Saved new papers: {saved_count}")
     return saved_count
@@ -803,6 +814,14 @@ def main():
     weekly_parser.add_argument("--refilter-limit", type=int, default=10, help="最多重筛错误论文数")
     weekly_parser.add_argument("--skip-coverage", action="store_true", help="跳过 Crossref 覆盖验证")
 
+    network_parser = subparsers.add_parser("build-hotspot-network", help="构建热点网络图谱静态数据")
+    network_parser.add_argument("--analysis-days", type=int, default=180, help="分析时间窗口（天）")
+    network_parser.add_argument("--recent-days", type=int, default=30, help="近期窗口（天）")
+    network_parser.add_argument("--baseline-days", type=int, default=150, help="基线窗口（天）")
+    network_parser.add_argument("--max-topics", type=int, default=40, help="最多展示主题数")
+
+    subparsers.add_parser("validate-hotspot-data", help="校验已生成的热点静态数据")
+
     args = parser.parse_args()
 
     # 初始化配置
@@ -853,6 +872,27 @@ def main():
                 verify=not args.skip_coverage,
             )
         )
+    elif args.command == "build-hotspot-network":
+        from .hotspot_network import build_hotspot_network
+        try:
+            build_hotspot_network(
+                config,
+                analysis_days=args.analysis_days,
+                recent_days=args.recent_days,
+                baseline_days=args.baseline_days,
+                max_topics=args.max_topics,
+            )
+        except ValueError as exc:
+            safe_print(f"Hotspot network build failed: {exc}")
+            sys.exit(1)
+    elif args.command == "validate-hotspot-data":
+        from .hotspot_validation import validate_and_report
+        data_dir = config.public_data_dir / "hotspots"
+        if not data_dir.is_dir():
+            safe_print(f"Hotspot data directory not found: {data_dir}")
+            sys.exit(1)
+        ok = validate_and_report(data_dir)
+        sys.exit(0 if ok else 1)
     else:
         # 默认运行完整流程
         run_full_pipeline(config, args.max_papers)

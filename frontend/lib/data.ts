@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
-import type { HotspotsData } from "../types/hotspot";
+import type { HotspotsData, ManifestData, GraphData, TrendItem } from "../types/hotspot";
 import type { Paper } from "../types/paper";
 
 /**
@@ -33,4 +33,47 @@ export function getAllPapers(): Paper[] {
 
 export function getHotspots(): HotspotsData {
   return readJson<HotspotsData>("hotspots.json", { topics: [] });
+}
+
+// ── Hotspot network data ──
+
+/** Build-time: load the hotspot network graph. */
+export function getHotspotGraph(): GraphData {
+  return readJson<GraphData>("hotspots/graph.json", {
+    schema_version: 0,
+    generated_at: "",
+    embedding_model: "",
+    embedding_dimension: 0,
+    nodes: [],
+    edges: [],
+  });
+}
+
+/** Build-time: load the hotspot manifest. */
+export function getHotspotManifest(): ManifestData {
+  return readJson<ManifestData>("hotspots/manifest.json", {
+    schema_version: 0,
+    generated_at: "",
+    embedding_model: "",
+    embedding_dimension: 0,
+    period: { recent_start: "", recent_end: "", baseline_start: "", baseline_end: "" },
+    paper_count: 0,
+    topic_count: 0,
+    edge_count: 0,
+  });
+}
+
+/** Build-time: load the trend ranking. */
+export function getHotspotTrends(): TrendItem[] {
+  return readJson<TrendItem[]>("hotspots/trends.json", []);
+}
+
+/**
+ * Runtime (browser) helper: build the URL for a public data file,
+ * accounting for the GitHub Pages basePath.
+ */
+export function publicDataUrl(filePath: string): string {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  const clean = filePath.replace(/^\/+/, "");
+  return `${base}/data/${clean}`;
 }
