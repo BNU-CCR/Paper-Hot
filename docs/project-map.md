@@ -56,10 +56,11 @@
 
 | Path | Role |
 | --- | --- |
-| `frontend/web/index.html` | 静态页面结构。 |
-| `frontend/web/styles.css` | 页面视觉样式和响应式布局。 |
-| `frontend/web/app.js` | 加载 JSON、筛选、搜索、主题切换和 Featured / All Updates 切换。 |
-| `frontend/web/app.test.cjs` | 前端纯逻辑测试。 |
+| `frontend/package.json` | Next.js / React 前端脚本和锁定依赖。 |
+| `frontend/app/page.js` | 首页：精选/全量切换、搜索、相关性、期刊和可收起主题标签筛选。 |
+| `frontend/app/about/page.js` | 独立关于页和 GitHub 项目链接。 |
+| `frontend/app/globals.css` | 页面视觉样式、主题和响应式布局。 |
+| `frontend/next.config.mjs` | 静态导出与 GitHub Pages 子路径配置。 |
 
 ## Tests
 
@@ -98,12 +99,14 @@ python -m journal_tracker.main verify-coverage
 python -m journal_tracker.main update-public
 python -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
 python -m journal_tracker.readme_update
+pnpm --dir frontend install
+pnpm --dir frontend build
 powershell -NoProfile -ExecutionPolicy Bypass -File .\backend\scripts\run_weekly.ps1
 ```
 
 ## Current Caveats
 
 - `backend/data/papers.db` is local state. GitHub does not contain the local database.
-- `frontend/public/data/*.json` are the static website data snapshots and are committed.
+- `frontend/public/data/*.json` are the Next.js static website data snapshots and are committed.
 - `coverage_latest.json` is a generated local report and is ignored by git.
 - The latest coverage report shows the local OpenAlex inventory is shallow because the previous real fetch used `--limit-per-journal 1`.

@@ -32,6 +32,10 @@ lark-*-qrcode*.png
 
 # Build artifacts
 *.egg-info/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+.next/
 
 # OS/editor noise
 .DS_Store

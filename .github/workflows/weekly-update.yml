@@ -105,7 +105,25 @@ jobs:
           python -m journal_tracker.readme_update
           python -m json.tool frontend/public/data/papers.json >/dev/null
           python -m json.tool frontend/public/data/all_papers.json >/dev/null
-          node frontend/web/app.test.cjs
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: frontend/pnpm-lock.yaml
+
+      - name: Build static Next.js site
+        run: |
+          pnpm --dir frontend install --frozen-lockfile
+          pnpm --dir frontend build
+          test -f frontend/out/index.html
+          test -f frontend/out/about/index.html
+          test -f frontend/out/data/papers.json
+          test -f frontend/out/data/all_papers.json
 
       - name: Save the updated working database
         uses: actions/cache/save@v4
