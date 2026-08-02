@@ -2765,7 +2765,7 @@
     "relevance": "Low",
     "score": null,
     "summary": "",
-    "reason": "筛选出错: 无法解析AI响应: {\n  \"relevance\": \"",
+    "reason": "筛选出错: AI响应中没有可解析的文本内容",
     "tags": [],
     "doi": "10.1177/20563051261463859",
     "source_url": "https://doi.org/10.1177/20563051261463859",
@@ -3125,16 +3125,20 @@
     ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-26",
-    "relevance": "Low",
+    "relevance": "High",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: 无法解析AI响应: {\n  \"relevance\": \"Medium\",\n  \"reason\": \"议题涉及生成式AI信任，属于AI社会影响，但无摘要表明使用计算方法或实证数据，可能为理论框架。\",\n  \"tags\": [\"生成式AI\", \"信任\",",
-    "tags": [],
+    "summary": "论文提出一个多层次框架，从大众媒体、社交媒体到AI，系统理解用户对生成式AI的信任形成机制。",
+    "reason": "主题聚焦生成式AI信任，属于AI社会影响与传播议题，符合AI特别条款。",
+    "tags": [
+      "生成式AI",
+      "信任",
+      "传播研究"
+    ],
     "doi": "10.1080/08838151.2026.2694048",
     "source_url": "https://doi.org/10.1080/08838151.2026.2694048",
     "detail_slug": "from-mass-media-and-social-media-to-ai-a-multilevel-framework-for-understanding-trust-in-generative-ai",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Journal of Broadcasting & Electronic Media"
   },
   {
@@ -4594,6 +4598,32 @@
     "tracked_journal": "Information, Communication & Society"
   },
   {
+    "id": 632,
+    "title": "Chatting with confidants or corporations? Privacy management with AI companions",
+    "authors": [
+      "Hsuen-Chi Chiu",
+      "Jeremy Foote"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-06-02",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过访谈15位AI伴侣用户，基于CPM理论分析隐私决策，发现拟人化设计降低披露门槛，用户采用预期性策略如假名，且更担心关系重置而非数据泄露。",
+    "reason": "研究AI伴侣聊天机器人的隐私管理，属AI社会影响议题，符合AI特别条款。",
+    "tags": [
+      "AI伴侣",
+      "隐私管理",
+      "人机传播",
+      "CPM理论"
+    ],
+    "doi": "10.1093/jcmc/zmag014",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag014",
+    "detail_slug": "chatting-with-confidants-or-corporations-privacy-management-with-ai-companions",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
+  },
+  {
     "id": 442,
     "title": "Democracy Under Pressure from Outside and Within: Introducing the Concept of Information Manipulation to Strategic Communication Research",
     "authors": [
@@ -5366,16 +5396,21 @@
     ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-05-23",
-    "relevance": "Low",
+    "relevance": "High",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: 无法解析AI响应: {\n  \"relevance\": \"Low\",\n  \"reason\": \"属于理论性essay，无经验数据或计算方法，虽涉及AI与事实核查但纯理论思辨，按排除标准不纳入。\",\n  \"tags\":",
-    "tags": [],
+    "summary": "文章以Truth-Default Theory为视角，探讨人类与AI、错误信息及算法事实核查的交互，分析人类易受错误信息影响的机制及其对AI应用的启示。",
+    "reason": "讨论AI、错误信息与算法事实核查，属于AI社会影响议题，符合AI特别条款。",
+    "tags": [
+      "AI",
+      "错误信息",
+      "算法事实核查",
+      "Truth-Default Theory"
+    ],
     "doi": "10.1080/08838151.2026.2674814",
     "source_url": "https://doi.org/10.1080/08838151.2026.2674814",
     "detail_slug": "automated-trust-humans-ai-misinformation-and-algorithmic-fact-checking-from-the-perspective-of-truth-default-theory",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Journal of Broadcasting & Electronic Media"
   },
   {
@@ -6351,6 +6386,32 @@
     "source_type": "openalex",
     "screening_status": "screened",
     "tracked_journal": "Communication Research"
+  },
+  {
+    "id": 633,
+    "title": "Chat but verify: Combating misinformation in conversational Generative AI with verification affordance",
+    "authors": [
+      "Mengqi Liao",
+      "S. Shyam Sundar"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-05-08",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过2×4在线实验（N=477）考察Gen-AI对话性线索和验证机制对用户信任虚假信息的影响，发现高对话性线索抑制负面机器启发式而增加信任，验证行为能降低信息可信度。",
+    "reason": "研究生成式AI的对话性线索对信任及虚假信息传播的影响，采用在线实验，属于AI社会影响的计算传播研究。",
+    "tags": [
+      "生成式AI",
+      "虚假信息",
+      "人机传播",
+      "在线实验"
+    ],
+    "doi": "10.1093/jcmc/zmag012",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag012",
+    "detail_slug": "chat-but-verify-combating-misinformation-in-conversational-generative-ai-with-verification-affordance",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
   },
   {
     "id": 569,
@@ -7566,6 +7627,112 @@
     "tracked_journal": "Political Communication"
   },
   {
+    "id": 637,
+    "title": "Intimate surveillance of the ordinary: youth’s negotiation of digital location tracking with parents and peers",
+    "authors": [
+      "Julie Dereymaeker",
+      "Tom De Leyn",
+      "Elodie Devos",
+      "Ralf De Wolf"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-04-23",
+    "relevance": "Medium",
+    "score": null,
+    "summary": "基于比利时147名青少年的21场焦点小组，探讨青年与父母同伴协商数字位置跟踪的边界规则与策略，揭示其对日常监控文化的接受与抵抗。",
+    "reason": "议题涉及数字位置跟踪与隐私协商，属数字传播领域，但采用定性焦点小组方法，无计算元素。",
+    "tags": [
+      "数字位置跟踪",
+      "隐私协商",
+      "青年",
+      "焦点小组"
+    ],
+    "doi": "10.1093/jcmc/zmag010",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag010",
+    "detail_slug": "intimate-surveillance-of-the-ordinary-youth-s-negotiation-of-digital-location-tracking-with-parents-and-peers",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
+  },
+  {
+    "id": 636,
+    "title": "Tactical care infrastructuring: an ethnography on care workers’ mundane digital practices in formal care",
+    "authors": [
+      "Hong Chen"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-04-23",
+    "relevance": "Low",
+    "score": null,
+    "summary": "基于上海养老护理员的两年民族志，提出“战术性照护基础设施化”概念，描述日常数字媒体如何嵌入商品化照护实践，揭示劳动负担与系统性不平等。",
+    "reason": "采用民族志方法，无计算元素；议题为数字护理实践，非典型计算传播议题。",
+    "tags": [
+      "数字护理",
+      "民族志",
+      "基础设施"
+    ],
+    "doi": "10.1093/jcmc/zmag015",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag015",
+    "detail_slug": "tactical-care-infrastructuring-an-ethnography-on-care-workers-mundane-digital-practices-in-formal-care",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
+  },
+  {
+    "id": 635,
+    "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
+    "authors": [
+      "Soo Yun Shin",
+      "Seo Hyeong Kim",
+      "D Lee",
+      "J A Kim"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-04-23",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。",
+    "reason": "研究AI实时情感反馈对在线讨论自我节制的影响，结合AI技术与在线交流实验，属计算传播范畴。",
+    "tags": [
+      "AI反馈",
+      "在线讨论",
+      "自我节制",
+      "情感分析"
+    ],
+    "doi": "10.1093/jcmc/zmag011",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag011",
+    "detail_slug": "real-time-artificial-intelligence-sentiment-feedback-promotes-self-moderation-in-contentious-online-discussion",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
+  },
+  {
+    "id": 634,
+    "title": "Human versus machine as content moderators: examining the effects of moderation strategies on Reddit",
+    "authors": [
+      "M Sun",
+      "Shaojing Sun"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-04-23",
+    "relevance": "High",
+    "score": null,
+    "summary": "基于Reddit 2022年5.3亿条参与记录和1330万条审核动作，分析硬性/软性审核策略、人工/机器审核者身份对不同活跃度用户参与度的影响。",
+    "reason": "使用Reddit大规模数据与计算方法，研究内容审核与用户参与，属于计算传播核心议题。",
+    "tags": [
+      "内容审核",
+      "Reddit",
+      "用户参与",
+      "计算社会科学"
+    ],
+    "doi": "10.1093/jcmc/zmag013",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag013",
+    "detail_slug": "human-versus-machine-as-content-moderators-examining-the-effects-of-moderation-strategies-on-reddit",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
+  },
+  {
     "id": 264,
     "title": "Resistant gratification? National identity and political reactance in TikTok use across Korea and China",
     "authors": [
@@ -7853,6 +8020,32 @@
     "source_type": "openalex",
     "screening_status": "screened",
     "tracked_journal": "Information, Communication & Society"
+  },
+  {
+    "id": 638,
+    "title": "Machine agency attribution in human–AI interaction: developing and validating an analytical framework",
+    "authors": [
+      "Yuheng Wu",
+      "Fei Shen"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-04-17",
+    "relevance": "High",
+    "score": null,
+    "summary": "论文提出并验证了人-AI互动中机器能动性归因的三阶段分析框架，通过两项调查和一项实验揭示感知、推断与评价阶段的关系，深化对AI代理机制的理解。",
+    "reason": "研究AI人机互动中的机器能动性归因，主题涉及AI与传播，符合AI社会影响条款，纳入计算传播。",
+    "tags": [
+      "人机互动",
+      "AI能动性",
+      "机器归因",
+      "传播效果"
+    ],
+    "doi": "10.1093/jcmc/zmag009",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag009",
+    "detail_slug": "machine-agency-attribution-in-human-ai-interaction-developing-and-validating-an-analytical-framework",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
   },
   {
     "id": 423,
@@ -9222,6 +9415,35 @@
     "tracked_journal": "Communication Methods and Measures"
   },
   {
+    "id": 639,
+    "title": "Designed for discourse: how reactions and replies create trade-offs in political participation",
+    "authors": [
+      "Kokil Jaidka",
+      "Alvin Zhou",
+      "Yphtach Lelkes",
+      "Harshit Aneja",
+      "Y Chen"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-04-02",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过定制平台实验（N=1370），考察点赞和回复功能对政治讨论参与、投入和多样性的影响，发现两者存在权衡：点赞促进快速回应和观点多样性，回复则导致对话碎片化。",
+    "reason": "研究社交媒体平台交互功能对政治讨论的影响，采用在线实验，属计算传播范畴。",
+    "tags": [
+      "社交媒体",
+      "政治参与",
+      "交互功能",
+      "在线实验"
+    ],
+    "doi": "10.1093/jcmc/zmag008",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag008",
+    "detail_slug": "designed-for-discourse-how-reactions-and-replies-create-trade-offs-in-political-participation",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
+  },
+  {
     "id": 556,
     "title": "From digital diplomacy to AI-driven diplomacies? Mapping the potential impact of AI on Diplomacy",
     "authors": [
@@ -10353,6 +10575,32 @@
     "tracked_journal": "Communication Research"
   },
   {
+    "id": 640,
+    "title": "Algorithmic relational fracture and pseudo-relational accommodation: how users navigate communication breakdowns with relational AI",
+    "authors": [
+      "Hongyuan Gan",
+      "Tien Ee Dominic Yeo"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-03-27",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过分析RedNote用户故事，提出算法关系断裂与伪关系调适模型，解释用户如何应对与关系型AI的沟通失败。",
+    "reason": "研究AI社交关系中的传播失败，使用主题分析与共现分析等计算方法，议题与方法均属计算传播。",
+    "tags": [
+      "AI",
+      "人机传播",
+      "主题分析",
+      "用户叙事"
+    ],
+    "doi": "10.1093/jcmc/zmag007",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag007",
+    "detail_slug": "algorithmic-relational-fracture-and-pseudo-relational-accommodation-how-users-navigate-communication-breakdowns-with-relational-ai",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
+  },
+  {
     "id": 523,
     "title": "Strategic framing in conflict communication: ISPR’s use of X during Pakistan’s War on Terror",
     "authors": [
@@ -10505,6 +10753,31 @@
     "source_type": "openalex",
     "screening_status": "screened",
     "tracked_journal": "Information, Communication & Society"
+  },
+  {
+    "id": 641,
+    "title": "Talking or typing: how interaction modality influences privacy perceptions and actual disclosure behaviors in human–AI interaction",
+    "authors": [
+      "Junsu Kim",
+      "Yongjun Sung"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-03-20",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过两个实验室实验考察AI交互中语音与文本模态对隐私感知、感知短暂性和披露行为的影响，发现语音降低隐私担忧且感知短暂性起中介作用，但实际披露行为无差异，验证隐私悖论。",
+    "reason": "研究AI交互中的隐私感知与披露行为，属AI社会影响议题，虽用实验法但仍纳入计算传播范畴。",
+    "tags": [
+      "人机交互",
+      "隐私",
+      "AI"
+    ],
+    "doi": "10.1093/jcmc/zmag006",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag006",
+    "detail_slug": "talking-or-typing-how-interaction-modality-influences-privacy-perceptions-and-actual-disclosure-behaviors-in-human-ai-interaction",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
   },
   {
     "id": 524,
@@ -10842,6 +11115,32 @@
     "tracked_journal": "International Journal of Strategic Communication"
   },
   {
+    "id": 642,
+    "title": "Unequal penalties: user status dynamics in the spread of social media misinformation",
+    "authors": [
+      "Soo Young Bae",
+      "David DeFranza"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-03-14",
+    "relevance": "High",
+    "score": null,
+    "summary": "基于Reddit面板数据，分析用户地位如何影响虚假信息帖子的互动（投票与话语分歧），发现低地位用户虚假信息获更少赞同和更多分歧，高地位用户则相反。",
+    "reason": "使用Reddit大数据与计算方法分析社交媒体虚假信息传播及用户地位不平等，属典型计算传播研究。",
+    "tags": [
+      "社交媒体",
+      "虚假信息",
+      "用户地位",
+      "大数据分析"
+    ],
+    "doi": "10.1093/jcmc/zmag005",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag005",
+    "detail_slug": "unequal-penalties-user-status-dynamics-in-the-spread-of-social-media-misinformation",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
+  },
+  {
     "id": 546,
     "title": "Testing a sport-related concussion intervention among high school athletes",
     "authors": [
@@ -11060,16 +11359,21 @@
     ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-03-12",
-    "relevance": "Low",
+    "relevance": "Medium",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: 无法解析AI响应: {\n  \"relevance\": \"Medium\",\n  \"reason\": \"议题涉及社交媒体极化，但方法为传统问卷调查，无计算元素，属于边缘相关。\",\n  \"tags\": [\"社交媒体极化\", \"敌意媒体感知\", \"问卷调查\"],\n  \"summary\": \"基于2024年美国校园抗议期间的全国调查数据",
-    "tags": [],
+    "summary": "基于2024年美国校园抗议期间1010名受访者的全国调查，考察敌意媒体感知对策略性社交媒体行为的影响，以及阴谋信念的调节作用。",
+    "reason": "议题涉及社交媒体极化，但方法为传统问卷调查，无计算元素，属边缘相关。",
+    "tags": [
+      "敌意媒体感知",
+      "社交媒体极化",
+      "问卷调查",
+      "社会运动"
+    ],
     "doi": "10.1080/08838151.2026.2642912",
     "source_url": "https://doi.org/10.1080/08838151.2026.2642912",
     "detail_slug": "hostile-media-and-friendly-chambers-social-media-polarization-and-the-2024-u-s-campus-protests",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Journal of Broadcasting & Electronic Media"
   },
   {
@@ -12044,14 +12348,18 @@
     "published_date": "2026-03-01",
     "relevance": "Low",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: 无法解析AI响应: {\n  \"relevance\": \"Low\",\n  \"reason\": \"纯理论对话与批判性分析，无经验数据和计算方法，",
-    "tags": [],
+    "summary": "与Nick Couldry的学术对话，围绕其三部著作讨论社交媒体空间设计、数据殖民与AI对认知自主性的威胁，属理论批判性讨论。",
+    "reason": "纯理论对话与批判分析，无经验数据和计算方法，属于文化研究取径。",
+    "tags": [
+      "数据殖民主义",
+      "批判理论",
+      "数字平台"
+    ],
     "doi": "10.1177/20570473261424566",
     "source_url": "https://doi.org/10.1177/20570473261424566",
     "detail_slug": "the-space-of-the-world-data-colonialism-and-social-contract-reconstructing-digital-futures-a-dialogue-with-nick-couldry",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Communication and the Public"
   },
   {
@@ -12334,6 +12642,57 @@
     "source_type": "openalex",
     "screening_status": "screened",
     "tracked_journal": "Journal of Language and Social Psychology"
+  },
+  {
+    "id": 644,
+    "title": "Reducing political polarization through conversations with artificial intelligence",
+    "authors": [
+      "Timon M. J. Hruschka",
+      "Markus Appel"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-02-23",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过两项实验(N=1035)让人类与AI聊天机器人实时对话，检验不同沟通风格对政治极化的影响。结果发现逆论点AI能显著降低议题极化，高对话接纳性和积极倾听增强情感去极化、智识谦逊和跨立场对话意愿。",
+    "reason": "使用大语言模型聊天机器人进行实验，涉及AI与政治极化议题，属计算传播核心方向。",
+    "tags": [
+      "AI",
+      "大语言模型",
+      "政治极化",
+      "人机传播"
+    ],
+    "doi": "10.1093/jcmc/zmag003",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag003",
+    "detail_slug": "reducing-political-polarization-through-conversations-with-artificial-intelligence",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
+  },
+  {
+    "id": 643,
+    "title": "Human–algorithm interactions in platform governance: how Chinese moderators balance conflicting logics in algorithm-assisted decision-making",
+    "authors": [
+      "Lu Zhao",
+      "Ruichen Zhang"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-02-23",
+    "relevance": "High",
+    "score": null,
+    "summary": "通过在中国三大超级平台的田野调查，分析国家逻辑与商业逻辑如何嵌入内容审核流程，揭示算法决策的三种可供性帮助审核员平衡冲突逻辑，强调人机互动的积极潜力。",
+    "reason": "研究算法辅助决策与平台治理互动，议题属计算传播核心，虽用质性方法但符合AI社会影响条款。",
+    "tags": [
+      "算法辅助决策",
+      "平台治理",
+      "人机交互"
+    ],
+    "doi": "10.1093/jcmc/zmag004",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag004",
+    "detail_slug": "human-algorithm-interactions-in-platform-governance-how-chinese-moderators-balance-conflicting-logics-in-algorithm-assisted-decision-making",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
   },
   {
     "id": 571,
@@ -13474,6 +13833,31 @@
     "tracked_journal": "Communication Research"
   },
   {
+    "id": 645,
+    "title": "Influencers perceived as digital super peers? Outcomes of adolescents’ use of social media influencers for socio-political information",
+    "authors": [
+      "Ellen Van Houtven",
+      "Desirée Schmuck"
+    ],
+    "journal": "Journal of Computer-Mediated Communication",
+    "published_date": "2026-01-29",
+    "relevance": "Low",
+    "score": null,
+    "summary": "研究青少年接触社交媒体影响者的社会政治内容，提出数字超级同伴概念，通过三波调查发现影响者感知导致错失恐惧，但方法为传统问卷。",
+    "reason": "传统纵向问卷调查，无计算方法或大数据分析，不满足计算传播标准。",
+    "tags": [
+      "社交媒体",
+      "影响者",
+      "青少年"
+    ],
+    "doi": "10.1093/jcmc/zmag002",
+    "source_url": "https://doi.org/10.1093/jcmc/zmag002",
+    "detail_slug": "influencers-perceived-as-digital-super-peers-outcomes-of-adolescents-use-of-social-media-influencers-for-socio-political-information",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Computer-Mediated Communication"
+  },
+  {
     "id": 166,
     "title": "Empathy Mediates the Link Between Extraversion and Latent Semantic Similarity in Computer-Mediated Discussions of a Politically Contentious Topic: Evidence from Abortion-Related Discourse",
     "authors": [
@@ -14005,16 +14389,21 @@
     ],
     "journal": "Political Communication",
     "published_date": "2026-01-12",
-    "relevance": "Low",
+    "relevance": "High",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: 无法解析AI响应: {\n  \"relevance\": \"High\",\n  \"reason\": \"使用大规模历史数据与新闻内容分析，量化检验媒体所有权变更对地方新闻和政治参与的影响，属于典型的计算传播实证研究。\",\n  \"tags\": [\"媒体所有权\", \"地方新闻\", \"内容分析\", \"政治参与",
-    "tags": [],
+    "summary": "考察投资公司收购地方报纸对新闻报道及政治行为的影响，发现其增加全国政治报道、减少本地报道，并降低公民知识与投票率。",
+    "reason": "研究涉及新闻内容量化分析与大样本数据（856例所有权变更），符合计算传播的计算方法标准，且主题关系媒体政治传播。",
+    "tags": [
+      "媒体所有权",
+      "地方新闻",
+      "政治参与",
+      "内容分析"
+    ],
     "doi": "10.1080/10584609.2025.2601736",
     "source_url": "https://doi.org/10.1080/10584609.2025.2601736",
     "detail_slug": "profit-over-public-good-the-impact-of-investment-firm-ownership-on-local-news-and-political-behavior",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Political Communication"
   },
   {
