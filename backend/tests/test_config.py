@@ -13,6 +13,30 @@ def write_file(path: Path, content: str) -> None:
 
 
 class ConfigTests(unittest.TestCase):
+    def test_process_environment_overrides_checked_in_ai_defaults(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            config_dir = Path(tmp_dir) / "config"
+            config_dir.mkdir()
+            write_file(config_dir / "journals.yaml", "journals: []")
+            write_file(config_dir / "prompts.yaml", "{}")
+            write_file(
+                config_dir / "settings.yaml",
+                'anthropic_base_url: "https://checked-in.example/anthropic"\n'
+                'claude_model: "checked-in-model"',
+            )
+
+            with patch.dict(
+                "journal_tracker.config.os.environ",
+                {
+                    "ANTHROPIC_BASE_URL": "https://ci.example/anthropic",
+                    "AI_MODEL": "ci-model",
+                },
+                clear=True,
+            ):
+                config = Config(config_dir)
+                self.assertEqual(config.anthropic_base_url, "https://ci.example/anthropic")
+                self.assertEqual(config.claude_model, "ci-model")
+
     def test_config_reads_discovery_and_filter_settings(self) -> None:
         with TemporaryDirectory() as tmp_dir:
             config_dir = Path(tmp_dir) / "config"

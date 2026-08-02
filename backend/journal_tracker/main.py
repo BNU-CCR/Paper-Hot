@@ -657,7 +657,7 @@ def run_doctor(config: Optional[Config] = None) -> int:
             "Semantic Scholar API Key",
             bool(config.semantic_scholar_api_key),
             "SEMANTIC_SCHOLAR_API_KEY 或 .env/key.env/.local/key.env",
-            True,
+            False,
         ),
         ("Database", config.database_path.exists(), str(config.database_path), True),
         ("Public JSON", public_json.exists(), str(public_json), False),
