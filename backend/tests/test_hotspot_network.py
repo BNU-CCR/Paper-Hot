@@ -77,7 +77,7 @@ class HotspotNetworkUnitTests(unittest.TestCase):
 
         # Anchors sit at the centroid of each topic's member UMAP coords.
         umap_coords = np.array([[float(i), float(i + 1)] for i in range(12)])
-        anchors = _compute_anchor_positions(topics, umap_coords, previous_topics=[])
+        anchors = _compute_anchor_positions(topics, umap_coords)
         self.assertEqual(set(anchors.keys()), {10, 20, 30})
         # members 0..3 of coords [(0,1),(1,2),(2,3),(3,4)] -> centroid (1.5, 2.5)
         self.assertEqual(anchors[10], (1.5, 2.5))

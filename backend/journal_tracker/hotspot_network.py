@@ -740,21 +740,14 @@ def _compute_topic_graph(
 def _compute_anchor_positions(
     topics: List[Dict[str, Any]],
     umap_coords: np.ndarray,
-    previous_topics: List[Dict[str, Any]],
 ) -> Dict[int, Tuple[float, float]]:
     """Topic-cloud anchor positions = centroid of member papers' UMAP coords.
 
-    Nudged 30% toward the previous run's anchor when the topic persisted, so
-    clouds don't jump between weekly updates.
+    Each UMAP run is fit independently, so the coordinate space is NOT stable
+    across weekly updates. Blending in the previous run's anchor coordinates
+    would pull anchors away from the actual point cloud — anchors must be the
+    pure centroid of the current run's member papers.
     """
-    prev_pos: Dict[str, Tuple[float, float]] = {}
-    for pt in previous_topics:
-        tid = pt.get("topic_id")
-        x = pt.get("x")
-        y = pt.get("y")
-        if tid and x is not None and y is not None:
-            prev_pos[tid] = (float(x), float(y))
-
     result: Dict[int, Tuple[float, float]] = {}
     for topic in topics:
         members = topic.get("paper_indices", [])
@@ -763,10 +756,6 @@ def _compute_anchor_positions(
             cy = float(np.mean(umap_coords[members, 1]))
         else:
             cx, cy = 0.0, 0.0
-        tid = topic.get("topic_id", "")
-        if tid in prev_pos:
-            px, py = prev_pos[tid]
-            cx, cy = 0.3 * px + 0.7 * cx, 0.3 * py + 0.7 * cy
         result[topic["cluster_id"]] = (round(cx, 4), round(cy, 4))
     return result
 
@@ -1106,7 +1095,7 @@ def build_hotspot_network(
     # 10. Topic anchors + output
     print("[10/10] Computing anchors and writing output...")
     topic_graph_edges = _compute_topic_graph(topics, candidates, hybrid_edges)
-    anchor_positions = _compute_anchor_positions(topics, umap_coords, previous)
+    anchor_positions = _compute_anchor_positions(topics, umap_coords)
     _build_output(
         topics, topic_graph_edges, anchor_positions, umap_coords, paper_heat,
         candidates, net_config, anchor_date, embedding_model, dim, umap_config,
