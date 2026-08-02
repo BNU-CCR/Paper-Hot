@@ -362,6 +362,8 @@ def _leiden_clusters(
     seed: int = 42,
 ) -> Dict[int, int]:
     """Run Leiden community detection. Returns {paper_idx: cluster_id}."""
+    import random
+
     import igraph as ig
 
     if not edges:
@@ -374,6 +376,8 @@ def _leiden_clusters(
     g = ig.Graph(n=n_papers, edges=edge_list, directed=False)
     g.es["weight"] = weights
 
+    # igraph's Leiden uses a global RNG; seed it for reproducibility.
+    ig.set_random_number_generator(random.Random(seed))
     partition = g.community_leiden(
         objective_function="modularity",
         weights="weight",
