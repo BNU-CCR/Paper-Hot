@@ -23,31 +23,11 @@ export default function HotspotsPage() {
   const topicDetails = getTopicDetails();
 
   const hasGraph = graph.points.length > 0;
-  const hasTrends = trends.length > 0;
-
-  const topicCount = hasGraph ? manifest.topic_count : topics.length;
-  const paperCount = hasGraph ? manifest.paper_count : (hotspots?.source_paper_count || 0);
 
   return (
     <div className="shell">
       <AppSidebar activePath="/hotspots/" />
-      <main className="main">
-        <section className="hero">
-          <div className="headline">
-            <div>
-              <h1>当期热点</h1>
-              <p>从近一个月已公开的计算传播论文中识别主要研究议题，并关联可直接阅读的论文。</p>
-            </div>
-            <div className="stats">
-              <span>{topicCount} 个热点</span>
-              <span>{paperCount} 篇论文</span>
-              {manifest.generated_at && (
-                <span>更新于 {manifest.generated_at.slice(0, 10)}</span>
-              )}
-            </div>
-          </div>
-        </section>
-
+      <main className="main hotspots-main">
         {!hasGraph && !topics.length ? (
           <div className="empty-state">
             <b>当期热点暂未生成</b>

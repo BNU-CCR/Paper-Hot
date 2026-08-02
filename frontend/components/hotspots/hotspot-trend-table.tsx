@@ -6,6 +6,8 @@ import type { TrendItem } from "../../types/hotspot";
 interface HotspotTrendTableProps {
   trends: TrendItem[];
   onSelectTopic?: (topicId: string) => void;
+  /** Currently focused topic id (from the graph selection) — highlights the matching row. */
+  selectedTopicId?: string | null;
 }
 
 function GrowthIcon({ growth }: { growth: number }) {
@@ -31,7 +33,7 @@ function ScoreBar({ score }: { score: number }) {
   );
 }
 
-export function HotspotTrendTable({ trends, onSelectTopic }: HotspotTrendTableProps) {
+export function HotspotTrendTable({ trends, onSelectTopic, selectedTopicId }: HotspotTrendTableProps) {
   if (!trends.length) {
     return (
       <div className="empty-state">
@@ -60,7 +62,10 @@ export function HotspotTrendTable({ trends, onSelectTopic }: HotspotTrendTablePr
           {sorted.map((item, idx) => (
             <tr
               key={item.topic_id}
-              className={item.is_hot ? "row-hot" : ""}
+              className={[
+                item.is_hot ? "row-hot" : "",
+                item.topic_id === selectedTopicId ? "row-selected" : "",
+              ].filter(Boolean).join(" ") || undefined}
               onClick={() => onSelectTopic?.(item.topic_id)}
               role={onSelectTopic ? "button" : undefined}
               tabIndex={onSelectTopic ? 0 : undefined}

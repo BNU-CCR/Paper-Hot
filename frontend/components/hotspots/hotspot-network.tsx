@@ -210,7 +210,7 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
   }
 
   return (
-    <div className="hotspot-network-canvas" style={{ width: "100%", height: "100%", minHeight: 480 }}>
+    <div className="hotspot-network-canvas" style={{ width: "100%", height: "100%" }}>
       {isLoading || !themeReady ? (
         <div className="empty-state">
           <b>图谱加载中…</b>

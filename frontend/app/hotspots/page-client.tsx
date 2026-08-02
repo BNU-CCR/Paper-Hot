@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { GitFork, ListOrdered, LayoutGrid } from "lucide-react";
+import { ChevronDown, GitFork, LayoutGrid } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../components/ui/tabs";
+import { Button } from "../../components/ui/button";
 import { HotspotNetwork } from "../../components/hotspots/hotspot-network";
 import { HotspotDetailPanel } from "../../components/hotspots/hotspot-detail-panel";
 import { HotspotTrendTable } from "../../components/hotspots/hotspot-trend-table";
@@ -75,6 +76,7 @@ export function HotspotPageClient({
 }: HotspotPageClientProps) {
   const [selectedNode, setSelectedNode] = useState<GraphPoint | null>(null);
   const [activeTab, setActiveTab] = useState("graph");
+  const [trendExpanded, setTrendExpanded] = useState(false);
 
   const handleSelectNode = useCallback((node: GraphPoint | null) => {
     setSelectedNode(node);
@@ -92,17 +94,12 @@ export function HotspotPageClient({
   );
 
   return (
-    <Tabs value={activeTab} onValueChange={setActiveTab}>
-      <div className="section-heading">
-        <h2>研究议题</h2>
+    <Tabs value={activeTab} onValueChange={setActiveTab} className="hotspot-tabs">
+      <div className="hotspot-tabs-bar">
         <TabsList>
           <TabsTrigger value="graph">
             <GitFork size={14} />
             热点图谱
-          </TabsTrigger>
-          <TabsTrigger value="trends">
-            <ListOrdered size={14} />
-            趋势排行
           </TabsTrigger>
           <TabsTrigger value="overview">
             <LayoutGrid size={14} />
@@ -111,15 +108,34 @@ export function HotspotPageClient({
         </TabsList>
       </div>
 
-      <TabsContent value="graph">
-        <div className="hotspot-graph-layout">
-          <div className="hotspot-graph-main">
-            <HotspotNetwork
-              graph={graph}
-              selectedNodeId={selectedNode?.id || null}
-              onSelectNode={handleSelectNode}
-            />
+      <TabsContent value="graph" className="hotspot-workspace">
+        <aside className={trendExpanded ? "trend-sidebar expanded" : "trend-sidebar"}>
+          <div className="trend-sidebar-header">
+            <h3>趋势排行</h3>
+            <Button
+              type="button"
+              variant="ghost"
+              size="sm"
+              className="trend-toggle"
+              aria-expanded={trendExpanded}
+              onClick={() => setTrendExpanded((v) => !v)}
+            >
+              <ChevronDown size={14} className={trendExpanded ? "chevron-icon open" : "chevron-icon"} />
+              趋势详情
+            </Button>
           </div>
+          <HotspotTrendTable
+            trends={trends}
+            onSelectTopic={handleSelectTopic}
+            selectedTopicId={selectedNode?.id || null}
+          />
+        </aside>
+        <div className="hotspot-map-area">
+          <HotspotNetwork
+            graph={graph}
+            selectedNodeId={selectedNode?.id || null}
+            onSelectNode={handleSelectNode}
+          />
           <HotspotDetailPanel
             node={selectedNode}
             topicDetails={topicDetails}
@@ -128,11 +144,7 @@ export function HotspotPageClient({
         </div>
       </TabsContent>
 
-      <TabsContent value="trends">
-        <HotspotTrendTable trends={trends} onSelectTopic={handleSelectTopic} />
-      </TabsContent>
-
-      <TabsContent value="overview">
+      <TabsContent value="overview" className="hotspot-overview">
         {!topics.length ? (
           <div className="empty-state">
             <b>议题概览暂未生成</b>
