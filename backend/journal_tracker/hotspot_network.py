@@ -651,25 +651,28 @@ def _compute_heat_scores(
 def _compute_topic_graph(
     topics: List[Dict[str, Any]],
     candidates: List[Dict[str, Any]],
-) -> Tuple[List[Dict[str, Any]], List[Tuple[int, int, float]]]:
-    """Build topic-level graph from paper-level edges."""
+    paper_edges: List[Tuple[int, int, float]],
+) -> List[Tuple[int, int, float]]:
+    """Build the topic-level graph from the paper-level edge set.
+
+    Only paper pairs that already have a real (hybrid) edge contribute to a
+    topic connection, so unrelated topics never get spuriously linked. Each
+    cross-topic paper edge increments the topic-pair count; the final weight
+    is normalized by the geometric mean of the two topic sizes.
+    """
     paper_to_topic: Dict[int, int] = {}
     for t_idx, topic in enumerate(topics):
         for p_idx in topic["paper_indices"]:
             paper_to_topic[p_idx] = t_idx
 
     topic_edges: Dict[Tuple[int, int], float] = {}
-    # Recompute paper edges for topic graph
-    for i, pi in enumerate(candidates):
+    for i, j, _w in paper_edges:
         ti = paper_to_topic.get(i)
-        if ti is None:
+        tj = paper_to_topic.get(j)
+        if ti is None or tj is None or ti == tj:
             continue
-        for j in range(i + 1, len(candidates)):
-            tj = paper_to_topic.get(j)
-            if tj is None or ti == tj:
-                continue
-            key = (min(ti, tj), max(ti, tj))
-            topic_edges[key] = topic_edges.get(key, 0.0) + 1.0
+        key = (min(ti, tj), max(ti, tj))
+        topic_edges[key] = topic_edges.get(key, 0.0) + 1.0
 
     # Normalize by sqrt of topic sizes
     topic_sizes = {t["cluster_id"]: t["size"] for t in topics}
@@ -1052,7 +1055,7 @@ def build_hotspot_network(
 
     # 10. Layout + output
     print("[10/10] Computing layout and writing output...")
-    topic_graph_edges = _compute_topic_graph(topics, candidates)
+    topic_graph_edges = _compute_topic_graph(topics, candidates, hybrid_edges)
     layout = _compute_layout(topics, topic_graph_edges, previous)
     _build_output(
         topics, topic_graph_edges, layout, candidates, net_config,
