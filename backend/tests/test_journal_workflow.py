@@ -162,7 +162,8 @@ journals:
                 with patch("journal_tracker.main.repair_local_screening_queue", side_effect=fake_repair):
                     with patch("journal_tracker.main.screen_pending_papers", side_effect=fake_screen):
                         with patch("journal_tracker.main.update_public_workflow", side_effect=fake_update):
-                            with patch("sys.argv", [
+                            with patch("journal_tracker.main.generate_monthly_hotspots", return_value=data_dir / "hotspots.json"):
+                                with patch("sys.argv", [
                                 "main",
                                 "--config",
                                 str(config_dir),
@@ -176,10 +177,10 @@ journals:
                                 "--refilter-limit",
                                 "2",
                                 "--skip-coverage",
-                            ]):
-                                with patch("sys.stdout", stdout):
-                                    with self.assertRaises(SystemExit) as exit_info:
-                                        main_module.main()
+                                ]):
+                                    with patch("sys.stdout", stdout):
+                                        with self.assertRaises(SystemExit) as exit_info:
+                                            main_module.main()
 
             self.assertEqual(exit_info.exception.code, 0)
             self.assertEqual(calls, [("fetch", 7), ("repair", None), ("screen", 5), ("update", 2)])

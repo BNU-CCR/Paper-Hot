@@ -155,6 +155,11 @@ class Config:
         return self.prompts.get("filter_user_template", "")
 
     @property
+    def hotspot_system_prompt(self) -> str:
+        """获取当期热点归纳 prompt。"""
+        return self.prompts.get("hotspot_system_prompt", "")
+
+    @property
     def notification_config(self) -> dict:
         """获取通知配置"""
         return self.settings.get("notification", {})
