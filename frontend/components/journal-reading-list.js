@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { AppSidebar } from "./app-sidebar";
+import { Button } from "./ui/button";
 import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
 
 function asText(value) { return Array.isArray(value) ? value.join(" ") : String(value || ""); }
@@ -50,6 +51,7 @@ export function JournalReadingList({ journal }) {
   const [featured, setFeatured] = useState([]);
   const [allPapers, setAllPapers] = useState([]);
   const [view, setView] = useState("featured");
+  const [grouping, setGrouping] = useState("date");
   const [error, setError] = useState("");
 
   useEffect(() => {
@@ -67,9 +69,6 @@ export function JournalReadingList({ journal }) {
   const allReading = useMemo(() => sortPapers(allPapers.filter((paper) => matchesJournal(paper, journal))), [allPapers, journal]);
   const reading = view === "all" ? allReading : featuredReading;
   const groups = useMemo(() => issueGroups(reading), [reading]);
-  // Keep the navigation available for online-first papers too. OpenAlex may
-  // not assign their final issue until a later publisher update.
-  const hasIssues = groups.length > 0;
   const loading = !featured.length && !allPapers.length && !error;
 
   return <div className="shell">
@@ -78,10 +77,9 @@ export function JournalReadingList({ journal }) {
       <Link className="back-to-library" href="/journals/"><ArrowLeft size={16} /> 返回期刊书库</Link>
       <header className="journal-reading-header"><p className="eyebrow">期刊精读</p><h1>{journal.name}</h1></header>
       <section className="reading-list" aria-label={`${journal.name} 精读列表`}>
-        <div className="section-heading"><div><p className="eyebrow">期刊论文</p><h2>论文列表</h2></div><Tabs value={view} onValueChange={setView}><TabsList aria-label="论文范围"><TabsTrigger value="featured">精选精读 {featuredReading.length}</TabsTrigger><TabsTrigger value="all">全部论文 {allReading.length}</TabsTrigger></TabsList></Tabs></div>
-        {error ? <div className="empty-state"><b>论文数据加载失败</b><span>{error}</span></div> : loading ? <div className="empty-state"><b>正在加载论文</b></div> : !reading.length ? <div className="empty-state"><b>{view === "all" ? "本期刊暂未有公开论文" : "本期刊暂未有公开精选"}</b></div> : <div className="issue-reading-layout">
-          {hasIssues && <nav className="issue-sidebar" aria-label={`${journal.name} Issue 导航`}><p className="eyebrow">按 Issue 浏览</p><div className="issue-sidebar-list">{groups.map((group) => <a className="issue-sidebar-link" href={`#issue-${group.key}`} key={group.key}><span>{issueLabel(group)}</span><small>{group.papers.length}</small></a>)}</div></nav>}
-          <div className="issue-groups">{groups.map((group) => <section className="issue-group" id={`issue-${group.key}`} key={group.key}><header className="issue-group-heading"><h3>{issueLabel(group)}</h3><span>{group.papers.length} 篇</span></header><div className="timeline">{group.papers.map((paper) => <JournalPaperCard paper={paper} key={paper.id || paper.title} />)}</div></section>)}</div>
+        <div className="section-heading"><div><p className="eyebrow">期刊论文</p><h2>论文列表</h2></div><div className="reading-actions"><Tabs value={view} onValueChange={setView}><TabsList aria-label="论文范围"><TabsTrigger value="featured">精选精读 {featuredReading.length}</TabsTrigger><TabsTrigger value="all">全部论文 {allReading.length}</TabsTrigger></TabsList></Tabs><Button variant="outline" size="sm" onClick={() => setGrouping((current) => current === "date" ? "issue" : "date")} aria-pressed={grouping === "issue"}>{grouping === "date" ? "按 Issue" : "按发布日期"}</Button></div></div>
+        {error ? <div className="empty-state"><b>论文数据加载失败</b><span>{error}</span></div> : loading ? <div className="empty-state"><b>正在加载论文</b></div> : !reading.length ? <div className="empty-state"><b>{view === "all" ? "本期刊暂未有公开论文" : "本期刊暂未有公开精选"}</b></div> : grouping === "date" ? <div className="timeline date-feed">{reading.map((paper) => <JournalPaperCard paper={paper} key={paper.id || paper.title} />)}</div> : <div className="issue-reading-layout">
+          <nav className="issue-sidebar" aria-label={`${journal.name} Issue 导航`}><p className="eyebrow">按 Issue 浏览</p><div className="issue-sidebar-list">{groups.map((group) => <a className="issue-sidebar-link" href={`#issue-${group.key}`} key={group.key}><span>{issueLabel(group)}</span><small>{group.papers.length}</small></a>)}</div></nav><div className="issue-groups">{groups.map((group) => <section className="issue-group" id={`issue-${group.key}`} key={group.key}><header className="issue-group-heading"><h3>{issueLabel(group)}</h3><span>{group.papers.length} 篇</span></header><div className="timeline">{group.papers.map((paper) => <JournalPaperCard paper={paper} key={paper.id || paper.title} />)}</div></section>)}</div>
         </div>}
       </section>
     </main>

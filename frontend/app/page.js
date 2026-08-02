@@ -111,9 +111,10 @@ export default function HomePage() {
         </section>
 
         <Collapsible className="topics-panel" open={tagsOpen} onOpenChange={setTagsOpen}>
-          <div className="section-heading"><div><p className="eyebrow">按主题浏览</p><h2>主题标签</h2></div><div className="section-actions"><CollapsibleTrigger asChild><Button variant="ghost" size="sm">{tagsOpen ? "收起标签" : `展开全部 ${tags.length} 个标签`}</Button></CollapsibleTrigger>{tag && <Button variant="ghost" size="sm" onClick={() => setTag(null)}>清除筛选</Button>}</div></div>
-          <div className="tag-cloud">{tags.slice(0, 12).map(([item, count]) => <Button key={item} variant="outline" size="sm" className={`tag ${tag === item ? "active" : ""}`} onClick={() => setTag(tag === item ? null : item)}>{item}<small>{count}</small></Button>)}</div>
-          <CollapsibleContent><div className="tag-cloud extra-tags">{tags.slice(12).map(([item, count]) => <Button key={item} variant="outline" size="sm" className={`tag ${tag === item ? "active" : ""}`} onClick={() => setTag(tag === item ? null : item)}>{item}<small>{count}</small></Button>)}</div></CollapsibleContent>
+          <div className="section-heading"><div><p className="eyebrow">按主题浏览</p><h2>主题标签</h2></div><div className="section-actions"><CollapsibleTrigger asChild><Button variant="ghost" size="sm">{tagsOpen ? "收起标签" : `展开全部 ${tags.length} 个标签`}</Button></CollapsibleTrigger>{tag && <Button variant="ghost" size="sm" onClick={() => setTag(null)} aria-label={`清除主题筛选：${tag}`}>清除筛选</Button>}</div></div>
+          <div className="tag-cloud">{tags.slice(0, 12).map(([item, count]) => <Button key={item} variant={tag === item ? "secondary" : "outline"} size="sm" className={`tag ${tag === item ? "tag-active" : ""}`} onClick={() => setTag(tag === item ? null : item)} aria-pressed={tag === item}>{item}<small>{count}</small></Button>)}</div>
+          <CollapsibleContent><div className="tag-cloud extra-tags">{tags.slice(12).map(([item, count]) => <Button key={item} variant={tag === item ? "secondary" : "outline"} size="sm" className={`tag ${tag === item ? "tag-active" : ""}`} onClick={() => setTag(tag === item ? null : item)} aria-pressed={tag === item}>{item}<small>{count}</small></Button>)}</div></CollapsibleContent>
+          <div className="topic-filter-status" role="status" aria-live="polite">{tag ? <><span>当前筛选</span><b>{tag}</b><span>{papers.length} 篇</span></> : <span>点击标签筛选论文，再次点击可取消</span>}</div>
         </Collapsible>
 
         <section className="feed"><div className="section-heading"><div><p className="eyebrow">最新更新</p><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2></div><span className="count">{papers.length} 篇</span></div>
