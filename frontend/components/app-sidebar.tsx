@@ -24,7 +24,7 @@ function ThemeSwitch() {
   useEffect(() => setTheme(window.localStorage.getItem("paper-hot-theme") || "system"), []);
   useEffect(() => { const resolved = theme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : theme === "system" ? "light" : theme; document.documentElement.dataset.theme = resolved; window.localStorage.setItem("paper-hot-theme", theme); }, [theme]);
   const options: Array<[string, LucideIcon, string]> = [["dark", Moon, "深色"], ["system", Monitor, "跟随系统"], ["light", Sun, "浅色"]];
-  return <div className="theme-switch" aria-label="主题切换">{options.map(([value, Icon, label]) => <Button key={value} size="icon" variant="ghost" className={theme === value ? "active" : ""} onClick={() => setTheme(value)} aria-label={label} title={label}><Icon size={15} /></Button>)}</div>;
+  return <div className="theme-switch grid grid-cols-3 gap-[3px] rounded-(--radius) border border-border bg-muted p-[3px]" aria-label="主题切换">{options.map(([value, Icon, label]) => <Button key={value} size="icon" variant="ghost" data-active={theme === value || undefined} className="size-7 min-h-0 w-full data-[active]:bg-background data-[active]:text-foreground data-[active]:shadow-sm" onClick={() => setTheme(value)} aria-label={label} title={label}><Icon size={15} /></Button>)}</div>;
 }
 
 function Brand({ collapsed = false }: { collapsed?: boolean }) { return <Link className="brand" href="/" title={collapsed ? "Paper HOT" : undefined}><BookOpen size={18} strokeWidth={1.8} /><span className="brand-label">Paper HOT</span></Link>; }
