@@ -873,7 +873,7 @@ def main():
             )
         )
     elif args.command == "build-hotspot-network":
-        from .hotspot_network import build_hotspot_network
+        from .hotspot_network import NoHotspotCandidatesError, build_hotspot_network
         try:
             build_hotspot_network(
                 config,
@@ -882,15 +882,20 @@ def main():
                 baseline_days=args.baseline_days,
                 max_topics=args.max_topics,
             )
+        except NoHotspotCandidatesError as exc:
+            safe_print(f"No hotspot candidates: {exc}")
+            safe_print("Skipping hotspot network generation for this run.")
+            sys.exit(0)
         except ValueError as exc:
             safe_print(f"Hotspot network build failed: {exc}")
             sys.exit(1)
     elif args.command == "validate-hotspot-data":
         from .hotspot_validation import validate_and_report
         data_dir = config.public_data_dir / "hotspots"
-        if not data_dir.is_dir():
-            safe_print(f"Hotspot data directory not found: {data_dir}")
-            sys.exit(1)
+        required = ["manifest.json", "graph.json", "trends.json"]
+        if not data_dir.is_dir() or not any((data_dir / name).is_file() for name in required):
+            safe_print("No hotspot data generated yet; nothing to validate.")
+            sys.exit(0)
         ok = validate_and_report(data_dir)
         sys.exit(0 if ok else 1)
     else:

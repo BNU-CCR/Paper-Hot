@@ -49,8 +49,9 @@ jobs:
         run: python -m unittest backend/tests/test_hotspot_network.py backend/tests/test_hotspot_validation.py backend/tests/test_paper_features.py -v
       - name: Smoke-test the hotspot CLI against a fresh database
         run: |
-          journal-tracker build-hotspot-network --max-topics 40 > /tmp/hotspot-smoke.log 2>&1 || true
-          echo "Note: build against an empty DB is expected to report no candidates."
+          # Empty DB → the CLI must exit 0 (graceful no-candidates skip)
+          journal-tracker build-hotspot-network --max-topics 40
+          journal-tracker validate-hotspot-data
 
   frontend-tests:
     name: Next.js frontend

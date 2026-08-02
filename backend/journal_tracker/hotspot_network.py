@@ -80,6 +80,14 @@ def _rmtree(dir_path: Path) -> None:
 
 # ── step 1: load candidates ──────────────────────────────────────────
 
+class NoHotspotCandidatesError(ValueError):
+    """Raised when there are no screened papers to analyze.
+
+    This is a graceful-skip condition (e.g. a first run against an empty
+    database), not a build failure. The CLI treats it as a no-op.
+    """
+
+
 def _load_candidates(
     storage: PaperStorage,
     analysis_days: int,
@@ -91,7 +99,7 @@ def _load_candidates(
         relevance_filter=("High", "Medium"),
     )
     if not candidates:
-        raise ValueError(
+        raise NoHotspotCandidatesError(
             f"No screened High/Medium papers found since {min_date}. "
             "Run screen-pending first."
         )
@@ -965,15 +973,16 @@ def build_hotspot_network(
     cache_dir = str(config.project_root / ".cache" / "fastembed")
 
     storage = PaperStorage(config.database_path)
-    temp_dir, final_dir = _ensure_output_dirs(config.public_data_dir)
 
     print("Hotspot network pipeline")
     print("=" * 50)
 
-    # 1. Load candidates
+    # 1. Load candidates — output dirs are only created once we know there is
+    #    data to write, so a graceful no-candidates skip leaves nothing behind.
     print(f"[1/9] Loading candidates (since {min_date})...")
     candidates = _load_candidates(storage, analysis_days, min_date)
     print(f"       {len(candidates)} papers loaded")
+    temp_dir, final_dir = _ensure_output_dirs(config.public_data_dir)
 
     # 2. Compute embeddings
     print(f"[2/9] Computing embeddings ({embedding_model})...")
