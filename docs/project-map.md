@@ -59,7 +59,9 @@
 | `frontend/package.json` | Next.js / React 前端脚本和锁定依赖。 |
 | `frontend/app/page.js` | 首页：精选/全量切换、搜索、相关性、期刊和可收起主题标签筛选。 |
 | `frontend/app/about/page.js` | 独立关于页和 GitHub 项目链接。 |
+| `frontend/app/journals/page.js` | 独立期刊书库页：书架浏览、出版社和追踪等级筛选。 |
 | `frontend/app/globals.css` | 页面视觉样式、主题和响应式布局。 |
+| `frontend/src/journal-covers.js` | 期刊封面视觉资产、ISSN、出版社来源和书库元数据。 |
 | `frontend/next.config.mjs` | 静态导出与 GitHub Pages 子路径配置。 |
 
 ## Tests
