@@ -95,18 +95,19 @@ export function HotspotPageClient({
 
   return (
     <Tabs value={activeTab} onValueChange={setActiveTab} className="hotspot-tabs">
-      <div className="hotspot-tabs-bar">
-        <TabsList>
-          <TabsTrigger value="graph">
-            <GitFork size={14} />
-            热点图谱
-          </TabsTrigger>
-          <TabsTrigger value="overview">
-            <LayoutGrid size={14} />
-            议题概览
-          </TabsTrigger>
-        </TabsList>
-      </div>
+      <TabsList
+        variant="line"
+        className="flex-none self-center border-b border-border px-0 mb-[5px]"
+      >
+        <TabsTrigger value="graph">
+          <GitFork size={14} aria-hidden="true" />
+          热点图谱
+        </TabsTrigger>
+        <TabsTrigger value="overview">
+          <LayoutGrid size={14} aria-hidden="true" />
+          议题推荐
+        </TabsTrigger>
+      </TabsList>
 
       <TabsContent value="graph" className="hotspot-workspace">
         <aside className={trendExpanded ? "trend-sidebar expanded" : "trend-sidebar"}>
@@ -147,7 +148,7 @@ export function HotspotPageClient({
       <TabsContent value="overview" className="hotspot-overview">
         {!topics.length ? (
           <div className="empty-state">
-            <b>议题概览暂未生成</b>
+            <b>议题推荐暂未生成</b>
             <span>当期热点议题将在此显示。</span>
           </div>
         ) : (
