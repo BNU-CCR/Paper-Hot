@@ -45,6 +45,11 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 - OpenAlex / Crossref DOI 覆盖验证：`verify-coverage`
 - 每周期刊优先工作流：`weekly-run`
 - Windows Task Scheduler 本地调度脚本：`backend/scripts/run_weekly.ps1`
+- 热点语义地图 `/hotspots/`：论文 embedding 经 UMAP 降维后由 [Cosmograph](https://cosmograph.app/)（WebGL）渲染为主题云团，Leiden 主题按色区分、云团中央显示主题名，点击突出核心论文与主题关系。
+
+## 许可说明
+
+- 前端热点图谱使用 [`@cosmograph/react`](https://www.npmjs.com/package/@cosmograph/react)，其许可为 **CC-BY-NC-4.0（仅限非商业使用）**。本项目为学术研究用途，符合该条款；若将来用于商业发布，需替换或购买相应许可。
 
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
