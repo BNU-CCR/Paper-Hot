@@ -46,7 +46,6 @@ export default function JournalsPage() {
       <section className="library-heading"><span>共 {visible.length} 本期刊</span><span>点击书封查看精读</span></section>
       <div className="journal-groups">{groups.map((group) => <section className="journal-group" key={group.value} aria-labelledby={`category-${group.value}`}><div className="journal-group-heading"><h2 id={`category-${group.value}`}>{group.label}</h2><span>{group.journals.length} 本</span></div><div className="bookshelf" aria-label={`${group.label}期刊书架`}>{group.journals.map((journal) => <Link key={journal.abbr} className="book" href={`/journals/${journal.slug}/`} aria-label={`查看 ${journal.name} 的精读列表`}><BookCover journal={journal} /><span className="book-caption"><b>{journal.name}</b><span>{journal.publisher} · {journal.priority === "core" ? "核心追踪" : journal.priority === "watch" ? "关注追踪" : "存档期刊"}</span></span></Link>)}</div></section>)}</div>
       {!visible.length && <div className="empty-state"><b>没有匹配的期刊</b><span>试试清除搜索词或调整筛选条件。</span></div>}
-      <p className="library-note">点击书封查看该期刊已公开导出的精选精读；书封视觉资产与期刊元数据集中维护在 <code>frontend/src/journal-covers.js</code>。</p>
     </main>
   </div>;
 }

@@ -104,7 +104,7 @@ export default function HomePage() {
       <main className="main">
         <section className="hero">
           <div className="eyebrow">AI 辅助整理 · 计算传播论文精选</div>
-          <div className="headline"><div><h1>Paper HOT</h1><p>追踪计算传播研究的新论文，保留可复核的摘要、主题和推荐理由。</p></div><div className="stats"><span>{source.length} 篇公开</span><span>{tags.length} 个主题</span></div></div>
+          <div className="headline"><div><h1>Paper HOT</h1></div><div className="stats"><span>{source.length} 篇公开</span><span>{tags.length} 个主题</span></div></div>
           <div className="toolbar shadcn-controls">
             <Tabs value={mode} onValueChange={setMode}><TabsList aria-label="数据范围"><TabsTrigger value="featured">精选</TabsTrigger><TabsTrigger value="all">期刊全量</TabsTrigger></TabsList></Tabs>
             <Tabs value={relevance} onValueChange={setRelevance}><TabsList aria-label="相关性筛选"><TabsTrigger value="all">全部</TabsTrigger><TabsTrigger value="High">High</TabsTrigger><TabsTrigger value="Medium">Medium</TabsTrigger></TabsList></Tabs>
