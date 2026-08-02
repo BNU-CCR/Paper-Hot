@@ -1,6 +1,5 @@
 import type { HotspotTopic } from "../../types/hotspot";
 import type { Paper } from "../../types/paper";
-import { AppSidebar } from "../../components/app-sidebar";
 import { getFeaturedPapers, getHotspots, getHotspotGraph, getHotspotTrends, getHotspotManifest, getTopicDetails } from "../../lib/data";
 import { HotspotPageClient } from "./page-client";
 
@@ -25,9 +24,7 @@ export default function HotspotsPage() {
   const hasGraph = graph.points.length > 0;
 
   return (
-    <div className="shell">
-      <AppSidebar activePath="/hotspots/" />
-      <main className="main hotspots-main">
+    <div className="main hotspots-main">
         {!hasGraph && !topics.length ? (
           <div className="empty-state">
             <b>当期热点暂未生成</b>
@@ -69,7 +66,6 @@ export default function HotspotsPage() {
             </div>
           </section>
         )}
-      </main>
     </div>
   );
 }

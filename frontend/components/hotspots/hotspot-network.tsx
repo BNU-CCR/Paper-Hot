@@ -40,6 +40,50 @@ function buildColorMap(points: GraphPoint[]): Record<string, string> {
   return map;
 }
 
+/**
+ * Screen-pixel shift to apply when focusing a topic, so the focused cloud
+ * lands in the *visible* part of the map instead of behind the floating
+ * detail panel: a right-side overlay on desktop, a bottom sheet on mobile.
+ * Returns `[offsetX, offsetY]` — positive means move the focus left/up.
+ */
+function focusOffset(): [number, number] {
+  const map = document.querySelector(".hotspot-map-area");
+  const panel = document.querySelector(".hotspot-map-area .hotspot-detail-panel");
+  if (!map || !panel) return [0, 0];
+  const m = map.getBoundingClientRect();
+  const p = panel.getBoundingClientRect();
+  if (window.matchMedia("(max-width: 760px)").matches) {
+    const visibleBottom = Math.min(m.bottom, p.top);
+    return [0, (m.top + m.bottom) / 2 - (m.top + Math.max(m.top, visibleBottom)) / 2];
+  }
+  const visibleRight = Math.max(m.left, p.left);
+  return [(m.left + m.right) / 2 - (m.left + visibleRight) / 2, 0];
+}
+
+/**
+ * The cosmograph core keeps the d3-zoom engine under `_cosmos`. `zoomToPoint`
+ * centers a point in the raw canvas; to offset that center (see focusOffset)
+ * we build the same transform cosmograph would use and shift it before
+ * applying. This is internal API — the plain `zoomToPoint` call is the
+ * fallback if any of these internals go away.
+ */
+type CosmographInternals = {
+  points?: { data?: { pointPositions?: Float32Array } };
+  zoomInstance?: {
+    getTransform: (
+      positions: number[],
+      scale?: number,
+      padding?: number,
+    ) => { k: number; x: number; y: number; translate: (dx: number, dy: number) => { k: number; x: number; y: number } };
+    behavior: { transform: (selection: unknown, transform: unknown) => void };
+  };
+  canvasD3Selection?: {
+    transition: () => {
+      duration: (ms: number) => { call: (fn: (...args: unknown[]) => void, ...args: unknown[]) => unknown };
+    };
+  };
+};
+
 interface HotspotNetworkProps {
   graph: GraphData;
   selectedNodeId: string | null;
@@ -52,6 +96,7 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
     unselectAllPoints: () => void;
     setFocusedPoint: (index?: number) => void;
     zoomToPoint: (index: number, duration?: number, scale?: number, canZoomOut?: boolean) => void;
+    fitView: (duration?: number, padding?: number) => void;
   } | null>(null);
   const [mounted, setMounted] = useState(false);
   const onSelectRef = useRef(onSelectNode);
@@ -153,7 +198,10 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
       // canvas clicks.
       onClick: (index?: number) => {
         if (typeof index !== "number") {
+          // Click on empty space: clear the selection and zoom back out to
+          // the whole semantic map (global view).
           onSelectRef.current(null);
+          cosmographRef.current?.fitView(300, 0.12);
           return;
         }
         const pt = graph.points[index];
@@ -184,7 +232,26 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
       if (indices.length) inst.selectPoints(indices, false);
       if (anchorIdx >= 0) {
         inst.setFocusedPoint(anchorIdx);
-        inst.zoomToPoint(anchorIdx, 300);
+        const [offsetX, offsetY] = focusOffset();
+        const cosmos = (inst as unknown as { _cosmos?: CosmographInternals })._cosmos;
+        const positions = cosmos?.points?.data?.pointPositions;
+        const spaceX = positions?.[anchorIdx * 2];
+        const spaceY = positions?.[anchorIdx * 2 + 1];
+        const zoom = cosmos?.zoomInstance;
+        const selection = cosmos?.canvasD3Selection;
+        if (typeof spaceX === "number" && typeof spaceY === "number" && zoom && selection) {
+          // Same transform cosmograph would build for zoomToPoint, shifted so
+          // the focused topic centers in the part of the map the detail panel
+          // doesn't cover.
+          const base = zoom.getTransform([spaceX, spaceY], 3, 0.1);
+          const shifted = base.translate(-offsetX / base.k, -offsetY / base.k);
+          selection
+            .transition()
+            .duration(300)
+            .call(zoom.behavior.transform, shifted);
+        } else {
+          inst.zoomToPoint(anchorIdx, 300);
+        }
       }
     } else {
       inst.unselectAllPoints();
@@ -210,7 +277,10 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
   }
 
   return (
-    <div className="hotspot-network-canvas" style={{ width: "100%", height: "100%" }}>
+    <div
+      className={isLoading || !themeReady ? "hotspot-network-canvas loading" : "hotspot-network-canvas"}
+      style={{ width: "100%", height: "100%" }}
+    >
       {isLoading || !themeReady ? (
         <div className="empty-state">
           <b>图谱加载中…</b>

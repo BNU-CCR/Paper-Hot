@@ -5,7 +5,6 @@ import { ArrowLeft, CalendarDays, ExternalLink, Layers3 } from "lucide-react";
 import { useMemo, useState } from "react";
 import type { Journal } from "../types/journal";
 import type { Paper } from "../types/paper";
-import { AppSidebar } from "./app-sidebar";
 import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
 
 function asText(value: unknown): string { return Array.isArray(value) ? value.join(" ") : String(value || ""); }
@@ -70,9 +69,7 @@ export function JournalReadingList({ journal, featuredPapers, allPapers }: Journ
   const reading = view === "all" ? allReading : featuredReading;
   const groups = useMemo(() => issueGroups(reading), [reading]);
 
-  return <div className="shell">
-    <AppSidebar activePath="/journals/" />
-    <main className="main journal-reading-main">
+  return <div className="main journal-reading-main">
       <Link className="back-to-library" href="/journals/"><ArrowLeft size={16} /> 返回期刊书库</Link>
       <header className="journal-reading-header"><h1>{journal.name}</h1></header>
       <section className="reading-list" aria-label={`${journal.name} 精读列表`}>
@@ -81,6 +78,5 @@ export function JournalReadingList({ journal, featuredPapers, allPapers }: Journ
           <nav className="issue-sidebar" aria-label={`${journal.name} Issue 导航`}><div className="issue-sidebar-list">{groups.map((group) => <a className="issue-sidebar-link" href={`#issue-${group.key}`} key={group.key}><span>{issueLabel(group)}</span><small>{group.papers.length}</small></a>)}</div></nav><div className="issue-groups">{groups.map((group) => <section className="issue-group" id={`issue-${group.key}`} key={group.key}><header className="issue-group-heading"><h3>{issueLabel(group)}</h3><span>{group.papers.length} 篇</span></header><div className="timeline">{group.papers.map((paper) => <JournalPaperCard paper={paper} key={paper.id || paper.title} />)}</div></section>)}</div>
         </div>}
       </section>
-    </main>
   </div>;
 }

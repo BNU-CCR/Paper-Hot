@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./library.css";
-import "./sidebar.css";
 import "./masonry.css";
+import { AppSidebar, MobileBar } from "../components/app-sidebar";
+import { SidebarInset, SidebarProvider } from "../components/ui/sidebar";
 
 export const metadata: Metadata = {
   title: "Paper HOT",
@@ -12,7 +13,15 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh-CN" suppressHydrationWarning>
-      <body>{children}</body>
+      <body>
+        <SidebarProvider>
+          <AppSidebar />
+          <SidebarInset>
+            <MobileBar />
+            {children}
+          </SidebarInset>
+        </SidebarProvider>
+      </body>
     </html>
   );
 }

@@ -1,42 +1,87 @@
 "use client";
 
 import Link from "next/link";
-import { BookOpen, Flame, GitFork, House, Info, Library, Menu, Monitor, Moon, PanelLeftClose, PanelLeftOpen, Sun, type LucideIcon } from "lucide-react";
+import { usePathname } from "next/navigation";
+import { BookOpen, Flame, GitFork, House, Info, Library, Monitor, Moon, Sun, type LucideIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import {
+  Sidebar,
+  SidebarContent,
+  SidebarFooter,
+  SidebarGroup,
+  SidebarGroupContent,
+  SidebarHeader,
+  SidebarInset,
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
+  SidebarRail,
+  SidebarTrigger,
+} from "./ui/sidebar";
 
 const GITHUB_URL = "https://github.com/BNU-CCR/Paper-Hot";
 const links: Array<[string, string, LucideIcon]> = [["/", "精选论文", House], ["/hotspots/", "当期热点", Flame], ["/journals/", "期刊书库", Library], ["/about/", "关于项目", Info]];
-
-interface NavigationProps {
-  activePath: string;
-  collapsed?: boolean;
-  onNavigate?: () => void;
-}
-
-function Navigation({ activePath, collapsed = false, onNavigate }: NavigationProps) {
-  return <nav className="sidebar-nav" aria-label="主导航">{links.map(([href, label, Icon]) => <Link key={href} className={activePath === href ? "active" : ""} href={href} onClick={onNavigate} title={collapsed ? label : undefined}><Icon size={17} strokeWidth={1.8} /><span className="sidebar-label">{label}</span></Link>)}</nav>;
-}
 
 function ThemeSwitch() {
   const [theme, setTheme] = useState("system");
   useEffect(() => setTheme(window.localStorage.getItem("paper-hot-theme") || "system"), []);
   useEffect(() => { const resolved = theme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : theme === "system" ? "light" : theme; document.documentElement.dataset.theme = resolved; window.localStorage.setItem("paper-hot-theme", theme); }, [theme]);
   const options: Array<[string, LucideIcon, string]> = [["dark", Moon, "深色"], ["system", Monitor, "跟随系统"], ["light", Sun, "浅色"]];
-  return <div className="theme-switch grid grid-cols-3 gap-[3px] rounded-(--radius) border border-border bg-muted p-[3px]" aria-label="主题切换">{options.map(([value, Icon, label]) => <Button key={value} size="icon" variant="ghost" data-active={theme === value || undefined} className="size-7 min-h-0 w-full data-[active]:bg-background data-[active]:text-foreground data-[active]:shadow-sm" onClick={() => setTheme(value)} aria-label={label} title={label}><Icon size={15} /></Button>)}</div>;
+  return <div className="grid grid-cols-3 gap-[3px] rounded-(--radius) border border-border bg-muted p-[3px] group-data-[collapsible=icon]:grid-cols-1" aria-label="主题切换">{options.map(([value, Icon, label]) => <Button key={value} size="icon" variant="ghost" data-active={theme === value || undefined} className="size-7 min-h-0 w-full data-[active]:bg-background data-[active]:text-foreground data-[active]:shadow-sm" onClick={() => setTheme(value)} aria-label={label} title={label}><Icon size={15} /></Button>)}</div>;
 }
 
-function Brand({ collapsed = false }: { collapsed?: boolean }) { return <Link className="brand" href="/" title={collapsed ? "Paper HOT" : undefined}><BookOpen size={18} strokeWidth={1.8} /><span className="brand-label">Paper HOT</span></Link>; }
-function GithubLink({ collapsed = false }: { collapsed?: boolean }) { return <a className="github-link" href={GITHUB_URL} target="_blank" rel="noreferrer" title={collapsed ? "GitHub" : undefined}><GitFork size={16} /><span className="sidebar-label">GitHub</span></a>; }
+export function MobileBar() {
+  return (
+    <header className="sticky top-0 z-20 flex items-center gap-2 border-b border-border bg-background px-3 py-2 md:hidden">
+      <SidebarTrigger />
+      <Link className="flex items-center gap-2 text-sm font-bold tracking-tight" href="/">
+        <BookOpen size={17} strokeWidth={1.8} aria-hidden="true" />
+        <span>Paper HOT</span>
+      </Link>
+    </header>
+  );
+}
 
-export function AppSidebar({ activePath }: { activePath: string }) {
-  const [open, setOpen] = useState(false);
-  const [collapsed, setCollapsed] = useState(false);
-  useEffect(() => setCollapsed(window.localStorage.getItem("paper-hot-sidebar") === "collapsed"), []);
-  useEffect(() => { document.documentElement.dataset.sidebarState = collapsed ? "collapsed" : "expanded"; window.localStorage.setItem("paper-hot-sidebar", collapsed ? "collapsed" : "expanded"); }, [collapsed]);
-  return <>
-    <aside className="sidebar" data-collapsed={collapsed}><div className="sidebar-header"><Brand collapsed={collapsed} /><Button className="sidebar-toggle" variant="ghost" size="icon" onClick={() => setCollapsed((value) => !value)} aria-label={collapsed ? "展开侧边栏" : "收起侧边栏"} title={collapsed ? "展开侧边栏" : "收起侧边栏"}>{collapsed ? <PanelLeftOpen size={17} /> : <PanelLeftClose size={17} />}</Button></div><Navigation activePath={activePath} collapsed={collapsed} /><div className="sidebar-footer"><GithubLink collapsed={collapsed} /><ThemeSwitch /></div></aside>
-    <div className="mobile-header"><Brand /><Sheet open={open} onOpenChange={setOpen}><SheetTrigger asChild><Button variant="outline" size="icon" aria-label="打开导航"><Menu size={19} /></Button></SheetTrigger><SheetContent side="left" className="w-[min(300px,86vw)] sm:max-w-[min(300px,86vw)] gap-0 p-[22px_14px]"><div className="mb-[26px]"><Brand /></div><Navigation activePath={activePath} onNavigate={() => setOpen(false)} /><div className="sidebar-footer mt-auto"><GithubLink /><div className="mt-3"><ThemeSwitch /></div></div></SheetContent></Sheet></div>
-  </>;
+export function AppSidebar() {
+  const pathname = usePathname();
+  return (
+    <Sidebar collapsible="icon">
+      <SidebarHeader>
+        <div className="flex items-center gap-1 px-1">
+          <SidebarTrigger className="-ml-1" />
+          <Link className="flex min-w-0 items-center gap-2 text-sm font-bold tracking-tight group-data-[collapsible=icon]:hidden" href="/">
+            <BookOpen size={18} strokeWidth={1.8} aria-hidden="true" />
+            <span className="truncate">Paper HOT</span>
+          </Link>
+        </div>
+      </SidebarHeader>
+      <SidebarContent>
+        <SidebarGroup>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              {links.map(([href, label, Icon]) => (
+                <SidebarMenuItem key={href}>
+                  <SidebarMenuButton asChild isActive={href === "/" ? pathname === "/" : pathname.startsWith(href)} tooltip={label}>
+                    <Link href={href}><Icon aria-hidden="true" /><span>{label}</span></Link>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+      </SidebarContent>
+      <SidebarFooter>
+        <SidebarMenu>
+          <SidebarMenuItem>
+            <SidebarMenuButton asChild tooltip="GitHub">
+              <a href={GITHUB_URL} target="_blank" rel="noreferrer"><GitFork aria-hidden="true" /><span>GitHub</span></a>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+        </SidebarMenu>
+        <ThemeSwitch />
+      </SidebarFooter>
+      <SidebarRail />
+    </Sidebar>
+  );
 }

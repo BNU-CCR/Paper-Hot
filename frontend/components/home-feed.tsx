@@ -4,7 +4,6 @@ import { useMemo, useState } from "react";
 import Masonry from "react-masonry-css";
 import { ChevronDown } from "lucide-react";
 import type { Paper } from "../types/paper";
-import { AppSidebar } from "./app-sidebar";
 import { Button } from "./ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
 import { Input } from "./ui/input";
@@ -90,9 +89,7 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
   })), [source, relevance, journal, tag, query]);
 
   return (
-    <div className="shell">
-      <AppSidebar activePath="/" />
-      <main className="main">
+    <div className="main">
         <section className="hero home-hero">
           <div className="headline"><h1>Paper HOT</h1></div>
           <div className="toolbar shadcn-controls">
@@ -111,7 +108,6 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
         <section className="feed"><div className="section-heading"><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2><span className="count">{papers.length} 篇</span></div>
           {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</section>)}</div>}
         </section>
-      </main>
     </div>
   );
 }
