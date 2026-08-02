@@ -44,7 +44,10 @@ class MonthlyHotspotGenerator:
         self.system_prompt = config.hotspot_system_prompt or DEFAULT_SYSTEM_PROMPT
 
     def generate(self, papers: List[Dict[str, Any]], anchor_date: date) -> List[Dict[str, Any]]:
-        candidates = papers[:160]
+        # Keep the aggregation prompt comfortably below the context/output limits of
+        # Anthropic-compatible reasoning models. Eighty recent public papers are
+        # sufficient to identify monthly trends without losing the final JSON block.
+        candidates = papers[:80]
         if not candidates:
             return []
         lines = []
@@ -54,12 +57,12 @@ class MonthlyHotspotGenerator:
                 "title": paper["title"],
                 "journal": paper["journal"],
                 "published_date": paper["published_date"],
-                "summary": paper["summary"][:420],
+                "summary": paper["summary"][:240],
                 "tags": paper["tags"],
             }, ensure_ascii=False))
         response = self.client.messages.create(
             model=self.model,
-            max_tokens=2400,
+            max_tokens=4000,
             system=self.system_prompt,
             messages=[{
                 "role": "user",
