@@ -13,13 +13,13 @@ journals:
   - name: "Journal of Computer-Mediated Communication"
     abbr: "JCMC"
     publisher: "Oxford University Press"
-    priority: "core"
+    priority: "skip"
     track_from_year: 2026
     openalex_source_id: "S30594836"
     issn_l: "1083-6101"
     issn: ["1083-6101"]
     source: "feishu_redlist"
-    notes: "Core journal. Bootstrap all 2026 records with the dedicated JCMC backfill workflow; weekly updates maintain it afterwards."
+    notes: "Archived: not method-friendly for computational communication research."
 
   - name: "Communication Research"
     abbr: "CR"

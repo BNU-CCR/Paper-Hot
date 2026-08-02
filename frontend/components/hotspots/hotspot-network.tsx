@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Cosmograph, usePreparedCosmographData } from "@cosmograph/react";
+import { Cosmograph } from "@cosmograph/react";
 import type { CosmographConfig } from "@cosmograph/react";
 import type { GraphData, GraphPoint } from "../../types/hotspot";
 
@@ -124,25 +124,6 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
     return () => obs.disconnect();
   }, []);
 
-  // Prepare raw points/links into Cosmograph's internal format (async, once).
-  // The data-prep config must be referentially stable or the hook's effect
-  // re-runs on every render (React "Maximum update depth exceeded").
-  const dataPrepConfig = useMemo(
-    () => ({
-      points: {
-        pointIdBy: "id",
-        pointIncludeColumns: ["type", "topic", "topicId", "label", "heat", "x", "y", "shape"],
-      },
-      links: { linkSourceBy: "source", linkTargetsBy: ["target"] },
-    }),
-    [],
-  );
-  const { config, isLoading, error } = usePreparedCosmographData(
-    dataPrepConfig,
-    graph.points as unknown as Record<string, unknown>[],
-    graph.links as unknown as Record<string, unknown>[],
-  );
-
   // Cosmograph's built-in label chip ships a hardcoded dark background
   // (#24272fe0), which makes dark foreground text unreadable in light theme.
   // Override it with an inline style (a string containing ":" is applied as
@@ -159,9 +140,19 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
     [themeVars],
   );
 
+  // Feed the raw point/link objects straight into Cosmograph. The core
+  // ingests them with its internal DuckDB instance and auto-generates the
+  // point/link index columns, so the separate `usePreparedCosmographData`
+  // step (which spun up a second, temporary DuckDB-WASM engine just to
+  // re-shape 300-ish rows) is unnecessary — skipping it halves the WASM
+  // heap footprint and drops the runtime CDN fetch.
   const mergedConfig = useMemo<CosmographConfig>(() => {
     return {
-      ...config,
+      points: graph.points as unknown as Record<string, unknown>[],
+      links: graph.links as unknown as Record<string, unknown>[],
+      pointIdBy: "id",
+      linkSourceBy: "source",
+      linkTargetBy: "target",
       pointLabelBy: "label",
       pointColorBy: "topic",
       pointColorStrategy: "map",
@@ -214,7 +205,7 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
         }
       },
     } as CosmographConfig;
-  }, [config, colorMap, anchorIds, graph, themeVars, labelStyle]);
+  }, [colorMap, anchorIds, graph, themeVars, labelStyle]);
 
   // Highlight the selected topic cloud (external selection or trend-table click).
   useEffect(() => {
@@ -267,21 +258,12 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
     );
   }
 
-  if (error) {
-    return (
-      <div className="empty-state">
-        <b>图谱渲染失败</b>
-        <span>{String((error as Error).message || error)}</span>
-      </div>
-    );
-  }
-
   return (
     <div
-      className={isLoading || !themeReady ? "hotspot-network-canvas loading" : "hotspot-network-canvas"}
+      className={!themeReady ? "hotspot-network-canvas loading" : "hotspot-network-canvas"}
       style={{ width: "100%", height: "100%" }}
     >
-      {isLoading || !themeReady ? (
+      {!themeReady ? (
         <div className="empty-state">
           <b>图谱加载中…</b>
         </div>

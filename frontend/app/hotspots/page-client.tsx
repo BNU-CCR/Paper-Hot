@@ -1,9 +1,10 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { ChevronDown, GitFork, LayoutGrid } from "lucide-react";
+import { ChevronDown, GitFork, Info, LayoutGrid } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../components/ui/tabs";
 import { Button } from "../../components/ui/button";
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "../../components/ui/hover-card";
 import { HotspotNetwork } from "../../components/hotspots/hotspot-network";
 import { HotspotDetailPanel } from "../../components/hotspots/hotspot-detail-panel";
 import { HotspotTrendTable } from "../../components/hotspots/hotspot-trend-table";
@@ -12,7 +13,6 @@ import type {
   GraphPoint,
   TrendItem,
   ManifestData,
-  HotspotsData,
   HotspotTopic,
   TopicDetail,
 } from "../../types/hotspot";
@@ -57,8 +57,6 @@ interface HotspotPageClientProps {
   graph: GraphData;
   trends: TrendItem[];
   manifest: ManifestData;
-  hotspots: HotspotsData;
-  papers: Paper[];
   byId: Map<number, Paper>;
   topics: HotspotTopic[];
   topicDetails: Record<string, TopicDetail>;
@@ -68,8 +66,6 @@ export function HotspotPageClient({
   graph,
   trends,
   manifest,
-  hotspots,
-  papers,
   byId,
   topics,
   topicDetails,
@@ -130,6 +126,20 @@ export function HotspotPageClient({
             onSelectTopic={handleSelectTopic}
             selectedTopicId={selectedNode?.id || null}
           />
+          <div className="trend-sidebar-footer">
+            <HoverCard openDelay={150} closeDelay={100}>
+              <HoverCardTrigger asChild>
+                <span className="trend-period-info" tabIndex={0}>
+                  <Info size={14} aria-hidden="true" />
+                </span>
+              </HoverCardTrigger>
+              <HoverCardContent side="top" align="start" className="w-auto max-w-[280px] p-3 text-xs leading-relaxed">
+                <p className="font-medium mb-1">计算周期说明</p>
+                <p className="text-muted-foreground">热度窗口：近 30 天（{manifest.period.recent_start} ~ {manifest.period.recent_end}）</p>
+                <p className="text-muted-foreground">分析范围：近 180 天（{manifest.period.baseline_start} ~ {manifest.period.recent_end}）</p>
+              </HoverCardContent>
+            </HoverCard>
+          </div>
         </aside>
         <div className="hotspot-map-area">
           <HotspotNetwork

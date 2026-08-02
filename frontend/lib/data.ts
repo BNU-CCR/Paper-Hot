@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import type { HotspotsData, ManifestData, GraphData, TrendItem, TopicDetail } from "../types/hotspot";
+import type { Journal } from "../types/journal";
 import type { Paper } from "../types/paper";
 
 /**
@@ -23,12 +24,41 @@ function readJson<T>(fileName: string, fallback: T): T {
 
 export function getFeaturedPapers(): Paper[] {
   const data = readJson<unknown>("papers.json", []);
-  return Array.isArray(data) ? (data as Paper[]) : [];
+  return Array.isArray(data) ? (data as Paper[]).map(pickPaper) : [];
 }
 
 export function getAllPapers(): Paper[] {
   const data = readJson<unknown>("all_papers.json", []);
-  return Array.isArray(data) ? (data as Paper[]) : [];
+  return Array.isArray(data) ? (data as Paper[]).map(pickPaper) : [];
+}
+
+/**
+ * Project a raw paper record down to the fields the `Paper` model actually
+ * declares. The backend snapshots carry extra bookkeeping columns
+ * (`detail_slug`, `tracked_journal`, `source_type`, `screening_status`)
+ * that no page renders — dropping them at build time keeps them out of
+ * every RSC flight payload (the home page alone ships 600+ papers).
+ */
+function pickPaper(raw: Paper): Paper {
+  const {
+    id, title, authors, journal, published_date, source_url, doi,
+    relevance, score, summary, reason, tags, volume, issue,
+  } = raw;
+  const paper: Paper = { id, title, authors, journal, published_date, source_url, doi, relevance, score, summary, reason, tags, volume, issue };
+  // Strip `undefined` entries so they don't bloat the serialized payload.
+  return Object.fromEntries(Object.entries(paper).filter(([, v]) => v !== undefined)) as Paper;
+}
+
+/**
+ * Match a paper to a tracked journal, tolerating the name variants the
+ * backend snapshots use (comma spacing, the ICONO14 spelling, etc.).
+ * Server-side only: pages pre-filter with this so client components receive
+ * just the subset they render instead of the whole paper corpus.
+ */
+export function matchesJournal(paper: Paper, journal: Journal): boolean {
+  const aliases = new Set([journal.name, journal.name.replace(", ", " "), journal.name.replace("Revista Icono 14", "Revista ICONO14")]);
+  if (journal.name === "Information, Communication & Society") aliases.add("Information Communication & Society");
+  return aliases.has(paper.journal ?? "");
 }
 
 export function getHotspots(): HotspotsData {

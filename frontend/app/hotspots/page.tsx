@@ -17,6 +17,8 @@ export default function HotspotsPage() {
   const trends = getHotspotTrends();
   const manifest = getHotspotManifest();
 
+  // `papers` stays server-side: the client only gets the `byId` lookup map
+  // it actually renders, not the full array (saves ~290KB of RSC payload).
   const byId = new Map(papers.map((paper) => [Number(paper.id), paper]));
   const topics: HotspotTopic[] = Array.isArray(hotspots?.topics) ? hotspots.topics : [];
   const topicDetails = getTopicDetails();
@@ -35,8 +37,6 @@ export default function HotspotsPage() {
             graph={graph}
             trends={trends}
             manifest={manifest}
-            hotspots={hotspots}
-            papers={papers}
             byId={byId}
             topics={topics}
             topicDetails={topicDetails}

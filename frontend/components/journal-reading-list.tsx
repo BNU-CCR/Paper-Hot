@@ -9,11 +9,6 @@ import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
 
 function asText(value: unknown): string { return Array.isArray(value) ? value.join(" ") : String(value || ""); }
 function sortPapers(papers: Paper[]): Paper[] { return [...papers].sort((a, b) => Date.parse(b.published_date || "0") - Date.parse(a.published_date || "0")); }
-function matchesJournal(paper: Paper, journal: Journal): boolean {
-  const aliases = new Set([journal.name, journal.name.replace(", ", " "), journal.name.replace("Revista Icono 14", "Revista ICONO14")]);
-  if (journal.name === "Information, Communication & Society") aliases.add("Information Communication & Society");
-  return aliases.has(paper.journal ?? "");
-}
 
 interface IssueGroup {
   key: string;
@@ -56,6 +51,7 @@ function JournalPaperCard({ paper }: { paper: Paper }) {
 
 interface JournalReadingListProps {
   journal: Journal;
+  /** Already filtered to this journal on the server. */
   featuredPapers: Paper[];
   allPapers: Paper[];
 }
@@ -64,8 +60,8 @@ export function JournalReadingList({ journal, featuredPapers, allPapers }: Journ
   const [view, setView] = useState("featured");
   const [grouping, setGrouping] = useState("date");
 
-  const featuredReading = useMemo(() => sortPapers(featuredPapers.filter((paper) => matchesJournal(paper, journal))), [featuredPapers, journal]);
-  const allReading = useMemo(() => sortPapers(allPapers.filter((paper) => matchesJournal(paper, journal))), [allPapers, journal]);
+  const featuredReading = useMemo(() => sortPapers(featuredPapers), [featuredPapers]);
+  const allReading = useMemo(() => sortPapers(allPapers), [allPapers]);
   const reading = view === "all" ? allReading : featuredReading;
   const groups = useMemo(() => issueGroups(reading), [reading]);
 
