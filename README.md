@@ -210,6 +210,7 @@ node frontend\web\app.test.cjs
 
 - `CI` runs the Python test suite on Python 3.9 and 3.12, smoke-tests a fresh database, and runs the frontend tests on every push and pull request.
 - `Weekly paper update` runs every Monday at 13:00 GMT+8 (Asia/Shanghai), refreshes this README preview and statistics, and supports manual runs with smaller limits.
+- `Deploy frontend to GitHub Pages` publishes the static website after changes to the frontend or public paper JSON. Once GitHub Pages is enabled for the repository, the site is available at `https://bnu-ccr.github.io/Paper-Hot/`.
 - Configure the required `ANTHROPIC_API_KEY` Actions secret before starting the weekly workflow. See [`docs/automation.md`](docs/automation.md) for permissions, optional variables, database caching, and recovery details.
 
 ## Git Notes
