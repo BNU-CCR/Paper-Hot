@@ -220,28 +220,40 @@ function render() {
 async function loadPapers() {
   try {
     const [featuredResponse, allResponse] = await Promise.all([
-      fetch("../public/data/papers.json", { cache: "no-store" }),
-      fetch("../public/data/all_papers.json", { cache: "no-store" }),
+      loadPublicJson(["data/papers.json", "../public/data/papers.json"]),
+      loadPublicJson(["data/all_papers.json", "../public/data/all_papers.json"]),
     ]);
-    if (!featuredResponse.ok) {
-      throw new Error(`HTTP ${featuredResponse.status}`);
-    }
-    const featuredPayload = await featuredResponse.json();
-    const allPayload = allResponse.ok ? await allResponse.json() : featuredPayload;
-    state.featuredPapers = Array.isArray(featuredPayload) ? featuredPayload : [];
-    state.allPapers = Array.isArray(allPayload) ? allPayload : state.featuredPapers;
+    state.featuredPapers = Array.isArray(featuredResponse) ? featuredResponse : [];
+    state.allPapers = Array.isArray(allResponse) ? allResponse : state.featuredPapers;
     state.papers = state.featuredPapers;
     render();
   } catch (error) {
     document.getElementById("timeline").innerHTML = `
       <div class="empty-state">
         <strong>论文数据加载失败</strong>
-        <span>请确认已运行 py -m journal_tracker.main export-public，并从项目根目录启动静态服务器。</span>
+        <span>请确认公开 JSON 已生成，并从项目根目录启动静态服务器或等待 GitHub Pages 部署完成。</span>
       </div>
     `;
     document.getElementById("feedCount").textContent = "加载失败";
     console.error("Failed to load public papers:", error);
   }
+}
+
+async function loadPublicJson(paths) {
+  let lastError;
+  for (const path of paths) {
+    try {
+      const response = await fetch(path, { cache: "no-store" });
+      if (!response.ok) {
+        lastError = new Error(`${path}: HTTP ${response.status}`);
+        continue;
+      }
+      return response.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError || new Error("Unable to load public paper JSON");
 }
 
 function setTheme(theme) {
