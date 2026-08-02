@@ -1,13 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { X, ExternalLink, BookOpen, TrendingUp, Calendar } from "lucide-react";
+import { X, BookOpen, TrendingUp, Calendar } from "lucide-react";
 import type { GraphPoint, TopicDetail } from "../../types/hotspot";
-import { publicDataUrl } from "../../lib/data-url";
 import { Button } from "../ui/button";
 
 interface HotspotDetailPanelProps {
   node: GraphPoint | null;
+  topicDetails: Record<string, TopicDetail>;
   onClose: () => void;
 }
 
@@ -20,43 +19,10 @@ function StatBadge({ label, value }: { label: string; value: string | number }) 
   );
 }
 
-export function HotspotDetailPanel({ node, onClose }: HotspotDetailPanelProps) {
-  const [detail, setDetail] = useState<TopicDetail | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
-
-  useEffect(() => {
-    if (!node?.detailFile) {
-      setDetail(null);
-      return;
-    }
-
-    let cancelled = false;
-    setLoading(true);
-    setError("");
-
-    const url = publicDataUrl(`hotspots/${node.detailFile}`);
-    fetch(url)
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.json();
-      })
-      .then((data: TopicDetail) => {
-        if (!cancelled) setDetail(data);
-      })
-      .catch((err: Error) => {
-        if (!cancelled) setError(err.message);
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
-      });
-
-    return () => {
-      cancelled = true;
-    };
-  }, [node?.detailFile]);
-
+export function HotspotDetailPanel({ node, topicDetails, onClose }: HotspotDetailPanelProps) {
   if (!node) return null;
+
+  const detail = node.topicId ? topicDetails[node.topicId] ?? null : null;
 
   const growth = detail?.growth ?? node.growth ?? 0;
   const growthPercent = growth > 0 ? `+${Math.round(growth * 100)}%` : `${Math.round(growth * 100)}%`;
@@ -80,15 +46,7 @@ export function HotspotDetailPanel({ node, onClose }: HotspotDetailPanelProps) {
         <StatBadge label="期刊" value={detail?.journal_count ?? node.journalCount ?? 0} />
       </div>
 
-      {loading && (
-        <p className="detail-loading" role="status">加载主题详情…</p>
-      )}
-
-      {error && (
-        <p className="detail-error">无法加载主题详情：{error}</p>
-      )}
-
-      {detail && !loading && (
+      {detail && (
         <>
           {detail.description && (
             <p className="detail-description">{detail.description}</p>

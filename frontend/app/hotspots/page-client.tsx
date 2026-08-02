@@ -13,6 +13,7 @@ import type {
   ManifestData,
   HotspotsData,
   HotspotTopic,
+  TopicDetail,
 } from "../../types/hotspot";
 import type { Paper } from "../../types/paper";
 
@@ -59,6 +60,7 @@ interface HotspotPageClientProps {
   papers: Paper[];
   byId: Map<number, Paper>;
   topics: HotspotTopic[];
+  topicDetails: Record<string, TopicDetail>;
 }
 
 export function HotspotPageClient({
@@ -69,6 +71,7 @@ export function HotspotPageClient({
   papers,
   byId,
   topics,
+  topicDetails,
 }: HotspotPageClientProps) {
   const [selectedNode, setSelectedNode] = useState<GraphPoint | null>(null);
   const [activeTab, setActiveTab] = useState("graph");
@@ -119,6 +122,7 @@ export function HotspotPageClient({
           </div>
           <HotspotDetailPanel
             node={selectedNode}
+            topicDetails={topicDetails}
             onClose={() => setSelectedNode(null)}
           />
         </div>

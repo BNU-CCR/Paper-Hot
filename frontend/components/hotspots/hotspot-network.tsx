@@ -64,11 +64,16 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
   const colorMap = useMemo(() => buildColorMap(graph.points), [graph]);
 
   // Re-read theme colors when the `[data-theme]` attribute changes.
+  // `themeReady` gates the first Cosmograph mount so the WebGL context is
+  // created with the real theme colors instead of the hardcoded fallback —
+  // otherwise a dark-theme user sees a white flash on first paint.
   const [themeVars, setThemeVars] = useState({ fg: "#111", card: "#fff" });
+  const [themeReady, setThemeReady] = useState(false);
   useEffect(() => {
     const read = () =>
       setThemeVars({ fg: cssVar("--foreground"), card: cssVar("--card") });
     read();
+    setThemeReady(true);
     const obs = new MutationObserver(read);
     obs.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
     return () => obs.disconnect();
@@ -189,7 +194,7 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
 
   return (
     <div className="hotspot-network-canvas" style={{ width: "100%", height: "100%", minHeight: 480 }}>
-      {isLoading ? (
+      {isLoading || !themeReady ? (
         <div className="empty-state">
           <b>图谱加载中…</b>
         </div>

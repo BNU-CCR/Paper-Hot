@@ -1,6 +1,6 @@
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
-import type { HotspotsData, ManifestData, GraphData, TrendItem } from "../types/hotspot";
+import type { HotspotsData, ManifestData, GraphData, TrendItem, TopicDetail } from "../types/hotspot";
 import type { Paper } from "../types/paper";
 
 /**
@@ -71,11 +71,25 @@ export function getHotspotTrends(): TrendItem[] {
 }
 
 /**
- * Runtime (browser) helper: build the URL for a public data file,
- * accounting for the GitHub Pages basePath.
+ * Build-time: load every per-topic detail file into a map keyed by topic_id.
+ *
+ * Reading these at build time lets the detail panel render from props
+ * instead of runtime `fetch`, which avoids basePath-mismatch 404s on
+ * GitHub Pages and keeps the page RSC-first.
  */
-export function publicDataUrl(filePath: string): string {
-  const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
-  const clean = filePath.replace(/^\/+/, "");
-  return `${base}/data/${clean}`;
+export function getTopicDetails(): Record<string, TopicDetail> {
+  const dir = path.join(dataDir, "hotspots/topics");
+  let files: string[];
+  try {
+    files = readdirSync(dir);
+  } catch {
+    return {};
+  }
+  const map: Record<string, TopicDetail> = {};
+  for (const name of files) {
+    if (!name.endsWith(".json")) continue;
+    const detail = readJson<TopicDetail>(`hotspots/topics/${name}`, {} as TopicDetail);
+    if (detail && detail.topic_id) map[detail.topic_id] = detail;
+  }
+  return map;
 }

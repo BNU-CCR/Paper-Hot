@@ -1,7 +1,7 @@
 import type { HotspotTopic } from "../../types/hotspot";
 import type { Paper } from "../../types/paper";
 import { AppSidebar } from "../../components/app-sidebar";
-import { getFeaturedPapers, getHotspots, getHotspotGraph, getHotspotTrends, getHotspotManifest } from "../../lib/data";
+import { getFeaturedPapers, getHotspots, getHotspotGraph, getHotspotTrends, getHotspotManifest, getTopicDetails } from "../../lib/data";
 import { HotspotPageClient } from "./page-client";
 
 function asText(value: unknown): string { return Array.isArray(value) ? value.join(" ") : String(value || ""); }
@@ -20,6 +20,7 @@ export default function HotspotsPage() {
 
   const byId = new Map(papers.map((paper) => [Number(paper.id), paper]));
   const topics: HotspotTopic[] = Array.isArray(hotspots?.topics) ? hotspots.topics : [];
+  const topicDetails = getTopicDetails();
 
   const hasGraph = graph.points.length > 0;
   const hasTrends = trends.length > 0;
@@ -61,6 +62,7 @@ export default function HotspotsPage() {
             papers={papers}
             byId={byId}
             topics={topics}
+            topicDetails={topicDetails}
           />
         ) : (
           /* Fallback: legacy LLM-only hotspot view */
