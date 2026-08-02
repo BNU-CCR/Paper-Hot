@@ -75,8 +75,20 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
   }, []);
 
   // Prepare raw points/links into Cosmograph's internal format (async, once).
+  // The data-prep config must be referentially stable or the hook's effect
+  // re-runs on every render (React "Maximum update depth exceeded").
+  const dataPrepConfig = useMemo(
+    () => ({
+      points: {
+        pointIdBy: "id",
+        pointIncludeColumns: ["type", "topic", "topicId", "label", "heat", "x", "y", "shape"],
+      },
+      links: { linkSourceBy: "source", linkTargetsBy: ["target"] },
+    }),
+    [],
+  );
   const { config, isLoading, error } = usePreparedCosmographData(
-    { points: { pointIdBy: "id" }, links: { linkSourceBy: "source", linkTargetsBy: ["target"] } },
+    dataPrepConfig,
     graph.points as unknown as Record<string, unknown>[],
     graph.links as unknown as Record<string, unknown>[],
   );
