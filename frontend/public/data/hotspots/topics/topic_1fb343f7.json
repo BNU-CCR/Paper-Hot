@@ -1,19 +1,20 @@
 {
   "topic_id": "topic_1fb343f7",
-  "label": "数字行动主义与平台迁移",
-  "description": "社交媒体驱动抗议、抵抗与跨平台迁徙，重塑集体行动。",
-  "why_hot": "平台政策变动催生TikTok难民等新型数字迁移现象。",
-  "hot_score": 83,
-  "growth": 0.774,
-  "recent_count": 6,
-  "baseline_count": 22,
+  "label": "数字行动主义与身份认同",
+  "description": "研究社交媒体如何建构集体身份并动员抗议。",
+  "why_hot": "全球抗议浪潮中社交平台成为核心组织工具。",
+  "hot_score": 84,
+  "growth": 0.803,
+  "recent_count": 7,
+  "baseline_count": 24,
   "journal_count": 10,
-  "lineage_status": "new",
+  "lineage_status": "continued",
   "keywords": [
-    "社交媒体",
+    "社会认同",
+    "行动主义",
     "抗议",
-    "平台迁移",
-    "集体行动"
+    "性别冲突",
+    "平台动员"
   ],
   "papers": [
     {
@@ -29,6 +30,13 @@
       "journal": "International Journal of Strategic Communication",
       "published_date": "2026-07-27",
       "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
+    },
+    {
+      "id": 243,
+      "title": "Navigating the hybrid media landscape? Danish green NGOs’ use of digital platforms for internal and external communication",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-27",
+      "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
     },
     {
       "id": 244,
@@ -64,6 +72,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-07-02",
       "summary": "研究埃塞俄比亚冲突期间青年数字公民身份中的性别与地域不平等，探讨其如何影响虚假信息传播及政治参与。"
+    },
+    {
+      "id": 72,
+      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-29",
+      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
     },
     {
       "id": 253,
@@ -190,6 +205,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-03-29",
       "summary": "研究分析德国极右翼和Querdenken运动在2022年危机变化下如何通过Telegram调整传播策略，基于151个频道8852条消息的内容分析，发现不同运动的适应模式差异。"
+    },
+    {
+      "id": 137,
+      "title": "Tailored and trust-based: strategies of information intermediaries countering health misinformation during the COVID-19 pandemic",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-29",
+      "summary": "研究通过15位信息中介的重建访谈，分析其在疫情期间为弱势群体提供准确健康信息、对抗错误信息的策略，强调信任建立和非对抗方式。"
     },
     {
       "id": 144,

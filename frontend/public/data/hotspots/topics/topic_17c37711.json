@@ -1,19 +1,20 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "历史叙事与威权怀旧",
-  "description": "研究YouTube上历史竞争叙事及媒体对威权怀旧和极右政治的推动。",
-  "why_hot": "数字平台成为记忆政治与极右动员的新场域。",
+  "label": "历史叙事与极右翼话语",
+  "description": "比较YouTube上历史叙事竞争及怀旧政治动员。",
+  "why_hot": "极右翼借媒介历史叙事扩大影响，引发警惕。",
   "hot_score": 31,
   "growth": 0.531,
   "recent_count": 0,
   "baseline_count": 2,
   "journal_count": 2,
-  "lineage_status": "new",
+  "lineage_status": "continued",
   "keywords": [
     "历史叙事",
-    "怀旧",
-    "极右",
-    "YouTube"
+    "威权怀旧",
+    "极右翼",
+    "YouTube",
+    "记忆"
   ],
   "papers": [
     {

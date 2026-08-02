@@ -1,18 +1,19 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "认知战与战略叙事",
-  "description": "围绕战争与冲突的叙事操控、认知域博弈成为传播研究焦点。",
-  "why_hot": "地缘冲突频发推动认知战、战略传播研究升温。",
-  "hot_score": 60,
-  "growth": 0.543,
-  "recent_count": 3,
-  "baseline_count": 17,
-  "journal_count": 4,
-  "lineage_status": "new",
+  "label": "叙事、宣传与认知战",
+  "description": "聚焦政治传播中叙事策略、宣传过程与认知战。",
+  "why_hot": "地缘冲突与数字平台交织，认知战研究激增。",
+  "hot_score": 70,
+  "growth": 0.652,
+  "recent_count": 5,
+  "baseline_count": 23,
+  "journal_count": 5,
+  "lineage_status": "continued",
   "keywords": [
     "认知战",
-    "战略传播",
-    "冲突叙事",
+    "宣传",
+    "叙事",
+    "QAnon",
     "公共外交"
   ],
   "papers": [
@@ -22,6 +23,20 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-07-30",
       "summary": "论文提出武器化叙事的四阶段心理影响模型，涵盖身份、威胁、道德和阴谋叙事策略，并以俄罗斯2014年克里米亚叙事行动为例，探讨AI在叙事扩散中的放大作用及反叙事策略。"
+    },
+    {
+      "id": 204,
+      "title": "Networked Counterpublics and Contentious Publicity: A Cross-Platform Analysis of QAnon on Parler and Twitter",
+      "journal": "Political Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于affordance理论，跨平台分析QAnon在Parler和Twitter上2018-2021年的可见性、关联性和持续性实践，探讨极端网络反公众的身份建构与公共竞争动态。"
+    },
+    {
+      "id": 207,
+      "title": "Studying Propaganda as a Social Process",
+      "journal": "Political Communication",
+      "published_date": "2026-07-22",
+      "summary": "论文主张将虚假信息置于更广泛的宣传社会过程中研究，提出关注宣传的反民主目标，并勾勒未来研究议程，属理论性干预文章。"
     },
     {
       "id": 210,
@@ -50,6 +65,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-07-01",
       "summary": "研究阿富汗-巴基斯坦背景下的混合冲突，分析四平台2400条帖文的虚假信息传播与反国家叙事，结合300人调查，发现数字冲突加剧。"
+    },
+    {
+      "id": 281,
+      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
     },
     {
       "id": 492,
@@ -101,6 +123,13 @@
       "summary": "研究俄罗斯议员在2022-23年乌克兰冲突期间社交媒体帖子的修辞适应，基于14.4万条帖子，用词嵌入和主题分类发现议员帖子反映官方宣传及个人政治激励，揭示威权体制下政治沟通与外部冲突的关系。"
     },
     {
+      "id": 108,
+      "title": "Bridging disinformation and cybersecurity in the social sciences: a scoping review",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-04",
+      "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
+    },
+    {
       "id": 514,
       "title": "Constructing childhood in the Russian-Ukrainian War: UNICEF’s Instagram representations of children",
       "journal": "Media War & Conflict",
@@ -122,11 +151,32 @@
       "summary": "从生态视角探讨平台化放大如何通过注意力竞争、目击内容和算法信息流强化恐怖主义报道，间接助力恐怖主义目标。"
     },
     {
+      "id": 291,
+      "title": "Performing Identity: Repetition, Emoji, and Candidate Indicators of Amplified Visibility in Jordanian–Palestinian Facebook Discourse",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
+    },
+    {
+      "id": 138,
+      "title": "Between disclosure and conspiracy: the transparency effect on r/UFO and r/UAP subreddits",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-29",
+      "summary": "论文分析UFO/UAP子版块的帖子和评论，结合政府披露时间线，用时间序列模型检验官方透明度是否减少阴谋论叙事，发现披露能缓解信任侵蚀，并讨论披露概念的局限。"
+    },
+    {
       "id": 523,
       "title": "Strategic framing in conflict communication: ISPR’s use of X during Pakistan’s War on Terror",
       "journal": "Media War & Conflict",
       "published_date": "2026-03-27",
       "summary": "研究巴基斯坦ISPR在X平台上的战略框架使用，通过内容分析识别动机、诊断和预后框架，并分析受众回应，揭示军事沟通与公共话语的互动。"
+    },
+    {
+      "id": 140,
+      "title": "Diagnosing multimodal disinformation: the integrative ‘Three-M' framework of multimodality, manipulation, and malintent",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-25",
+      "summary": "提出整合性“三M”框架分析短视频平台多模态虚假信息的建构、传播与政治化，并以2023年法国骚乱相关中文平台案例验证，揭示“织真”策略。"
     },
     {
       "id": 525,
@@ -141,6 +191,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-03-18",
       "summary": "研究伊朗Telegram频道在2025年以伊战争期间如何协调传播宣传与虚假信息，通过分析47,567条帖子，发现政治新闻频道为核心枢纽，娱乐频道作为放大层，混合使用幽默和讽刺包装信息以扩大传播。"
+    },
+    {
+      "id": 228,
+      "title": "Disinformation as Cultural Narrative: Conceptualizing Disinformation as Cross-Platform, Identity-Affirming, Cathartic Stories",
+      "journal": "Political Communication",
+      "published_date": "2026-03-04",
+      "summary": "将虚假信息概念化为跨平台、身份认同和宣泄性的文化叙事，基于Facebook和Twitter广泛分享的URL内容数据集，分析三个案例，发现成功虚假信息符合叙事标准，具有情感和道德维度。"
     },
     {
       "id": 274,

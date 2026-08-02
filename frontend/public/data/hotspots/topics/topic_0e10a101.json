@@ -1,19 +1,20 @@
 {
   "topic_id": "topic_0e10a101",
-  "label": "媒介效果与数字融入",
-  "description": "从政治传播到数字包容，关注媒介使用的后果与数字公平。",
-  "why_hot": "媒介环境变迁促使效果研究拓展至新兴技术与弱势群体。",
-  "hot_score": 75,
-  "growth": 0.59,
-  "recent_count": 6,
-  "baseline_count": 30,
+  "label": "数字媒介与心理福祉",
+  "description": "探讨媒介使用、智能技术对幸福感、认知与关系的影响。",
+  "why_hot": "数字包容与心理健康成为交叉学科热点。",
+  "hot_score": 80,
+  "growth": 0.725,
+  "recent_count": 7,
+  "baseline_count": 28,
   "journal_count": 11,
-  "lineage_status": "new",
+  "lineage_status": "continued",
   "keywords": [
-    "媒介效果",
-    "数字包容",
-    "媒体使用",
-    "政治传播"
+    "媒介效应",
+    "幸福感",
+    "智能音箱",
+    "屏幕时间",
+    "健康传播"
   ],
   "papers": [
     {
@@ -57,6 +58,13 @@
       "journal": "Communication Methods and Measures",
       "published_date": "2026-07-10",
       "summary": "提出用深度学习方法对智能手机屏幕内容进行分布建模，基于53名青少年六个月的屏幕数据，分析内容模式与心理健康的关系，超越传统屏幕时间测量。"
+    },
+    {
+      "id": 27,
+      "title": "Chatbots and Loneliness: How Linguistic Dynamics in Conversations with Chatbots Shape Young Adults’ Loneliness",
+      "journal": "Communication Research",
+      "published_date": "2026-07-10",
+      "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
     },
     {
       "id": 282,
@@ -150,13 +158,6 @@
       "summary": "提出混合方法框架，整合定性符号学编码与定量大规模数据分析，通过277个抑郁相关网络模因案例，揭示抑郁主题与符号资源的关联模式。"
     },
     {
-      "id": 106,
-      "title": "Bad domains: exposure to malicious content online",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-08",
-      "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
-    },
-    {
       "id": 38,
       "title": "Examining the Effects of Viewing Positive Aging TikTok Videos on Aging Outcomes and Attitudes Among Young, Middle-Aged, and Older Women",
       "journal": "Communication Research",
@@ -199,11 +200,11 @@
       "summary": "研究社会企业如何在社交媒体沟通中呈现双重逻辑，通过分析260家台湾企业的3年Facebook数据和调查，发现高逻辑中心性直接及透过代表性网络间接预测韧性沟通，且受感知逻辑中心性调节。"
     },
     {
-      "id": 297,
-      "title": "Understanding Engagement With Platform Safety Technology for Reducing Exposure to Online Harms",
+      "id": 300,
+      "title": "A Multi-Mechanism Socio-Technical Theory of Wellness Misinformation: Aesthetic, Affective, and Algorithmic Dynamics",
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
-      "summary": "基于英国成人全国调查，考察用户对平台安全技术的认知、使用与满意度，发现在线伤害普遍，事后工具使用率高但满意度低，数字素养和性别影响使用。"
+      "summary": "提出Algorithmic–Affective Misinformation Model，结合访谈与跨平台观察，分析TikTok和RED上健康错误信息通过审美合法化、情感脆弱性与算法强化三种机制获得可信度的过程。"
     },
     {
       "id": 302,
@@ -211,13 +212,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
-    },
-    {
-      "id": 306,
-      "title": "Bystanders and Reporters: Who Acts Against Illegal Online Content?",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "研究德国举报非法在线内容的用户特征，发现其多为年长、高学历、左倾且公民参与度高的人群，将举报视为数字公民参与形式。"
     },
     {
       "id": 308,

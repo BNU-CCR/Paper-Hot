@@ -1,28 +1,22 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "AI信息与回音室效应",
-  "description": "探讨AI新闻与事实核查的可信度，以及过滤气泡对公共讨论的影响。",
-  "why_hot": "AI介入新闻生产引发可信度与知识权威重构。",
-  "hot_score": 52,
-  "growth": 0.342,
-  "recent_count": 3,
+  "label": "AI生成内容的可信度",
+  "description": "研究AI新闻、健康信息及事实核查的感知可信度。",
+  "why_hot": "AI内容大量涌入，用户信任成为关键问题。",
+  "hot_score": 40,
+  "growth": 0.17,
+  "recent_count": 2,
   "baseline_count": 23,
-  "journal_count": 8,
-  "lineage_status": "new",
+  "journal_count": 7,
+  "lineage_status": "continued",
   "keywords": [
     "AI新闻",
     "可信度",
     "事实核查",
-    "回音室"
+    "健康信息",
+    "人机协作"
   ],
   "papers": [
-    {
-      "id": 56,
-      "title": "The echoes from social media: modeling how filter bubbles and network structure shape echo chamber emergence",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-27",
-      "summary": "通过agent-based模型整合社交网络与意见动态，模拟不同同质性和选择性暴露条件下回音室的形成，发现信息暴露显著影响回音室涌现，而算法过滤不一定保证其持续。"
-    },
     {
       "id": 398,
       "title": "Explaining AI-Generated News: How Explanation Strategies and Machine Heuristic Influence Perceived Credibility",

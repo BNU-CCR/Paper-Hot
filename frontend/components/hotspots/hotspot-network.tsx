@@ -114,10 +114,14 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
       resetSelectionOnEmptyCanvasClick: true,
       fitViewDuration: 300,
       fitViewPadding: 0.12,
-      // These callbacks live in the underlying cosmos engine config and are
-      // passed through the React wrapper.
-      onPointClick: (index?: number) => {
-        if (typeof index !== "number") return;
+      // The cosmograph event manager forwards clicks to this callback with
+      // `(pointIndex, position, event)`; pointIndex is undefined on empty
+      // canvas clicks.
+      onClick: (index?: number) => {
+        if (typeof index !== "number") {
+          onSelectRef.current(null);
+          return;
+        }
         const pt = graph.points[index];
         if (!pt) return;
         if (pt.type === "topic") {
@@ -127,7 +131,6 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
           onSelectRef.current(anchor ?? pt);
         }
       },
-      onBackgroundClick: () => onSelectRef.current(null),
     } as CosmographConfig;
   }, [config, colorMap, anchorIds, graph, themeVars]);
 

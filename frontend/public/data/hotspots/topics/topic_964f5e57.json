@@ -1,19 +1,20 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "日本政治传播与媒体信任",
-  "description": "探讨流媒体观看、代际不公感与媒体不信任对选举政治的影响。",
-  "why_hot": "日本政治传播研究提供非西方情境的实证。",
+  "label": "日本政治传播与媒介信任",
+  "description": "分析视频观看、代际公平与媒体怀疑对选举影响。",
+  "why_hot": "日本选举政治数字转型引发对民主质量担忧。",
   "hot_score": 31,
   "growth": 0.531,
   "recent_count": 0,
   "baseline_count": 2,
   "journal_count": 2,
-  "lineage_status": "new",
+  "lineage_status": "continued",
   "keywords": [
     "日本",
     "政治传播",
     "媒体信任",
-    "流媒体"
+    "代际",
+    "选举"
   ],
   "papers": [
     {

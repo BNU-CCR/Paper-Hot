@@ -1,19 +1,20 @@
 {
   "topic_id": "topic_1e1b4f04",
-  "label": "娱乐叙事与商业传播",
-  "description": "从历史剧接受度到InfoWars多模态销售，分析内容风格与受众/商业效果。",
-  "why_hot": "娱乐化内容与商业政治传播日益交织。",
+  "label": "娱乐内容与受众解读",
+  "description": "分析历史剧准确性争议及另类媒体节目风格。",
+  "why_hot": "娱乐与虚假信息交织，受众接收研究重要。",
   "hot_score": 31,
   "growth": 0.531,
   "recent_count": 0,
   "baseline_count": 2,
   "journal_count": 2,
-  "lineage_status": "new",
+  "lineage_status": "continued",
   "keywords": [
-    "受众接受",
-    "多模态分析",
+    "娱乐",
     "历史剧",
-    "媒体帝国"
+    "受众接收",
+    "多模态",
+    "InfoWars"
   ],
   "papers": [
     {

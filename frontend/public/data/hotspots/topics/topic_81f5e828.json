@@ -1,19 +1,20 @@
 {
   "topic_id": "topic_81f5e828",
-  "label": "AI接受度与数字鸿沟",
-  "description": "关注人机信任、AI治理态度以及算法时代的隐私与身份认同。",
-  "why_hot": "AI普及引发信任、公平与隐私的新问题。",
-  "hot_score": 49,
-  "growth": 0.269,
-  "recent_count": 3,
-  "baseline_count": 26,
+  "label": "AI社会中的信任、隐私与不平等",
+  "description": "探讨AI应用中的信任建立、数字鸿沟和身份政治。",
+  "why_hot": "生成式AI快速扩散，社会影响亟待评估。",
+  "hot_score": 39,
+  "growth": 0.14,
+  "recent_count": 2,
+  "baseline_count": 25,
   "journal_count": 11,
-  "lineage_status": "new",
+  "lineage_status": "continued",
   "keywords": [
-    "人机信任",
+    "AI信任",
+    "隐私",
     "数字鸿沟",
-    "生成式AI",
-    "隐私"
+    "ChatGPT",
+    "算法身份"
   ],
   "papers": [
     {
@@ -29,13 +30,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-07-14",
       "summary": "通过21国跨国调查，考察经济困难与AI态度对AI福利决策支持度的影响，并分析国家层面数字鸿沟的调节作用。"
-    },
-    {
-      "id": 27,
-      "title": "Chatbots and Loneliness: How Linguistic Dynamics in Conversations with Chatbots Shape Young Adults’ Loneliness",
-      "journal": "Communication Research",
-      "published_date": "2026-07-10",
-      "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
     },
     {
       "id": 400,
@@ -57,13 +51,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过65个访谈，探讨中国年轻男同性恋者在算法环境下如何协商（不）智能性，提出“liminal intelligibility”概念，强调人机交互与人人交互的交叉。"
-    },
-    {
-      "id": 72,
-      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-29",
-      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
     },
     {
       "id": 73,

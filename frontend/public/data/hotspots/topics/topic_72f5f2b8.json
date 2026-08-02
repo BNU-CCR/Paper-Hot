@@ -1,19 +1,19 @@
 {
   "topic_id": "topic_72f5f2b8",
-  "label": "数字追踪数据与新闻使用",
-  "description": "开发基于数字痕迹的时间动态分析与访谈混合方法。",
-  "why_hot": "数字痕迹数据为媒介使用研究提供新机遇。",
+  "label": "数字踪迹与混合方法",
+  "description": "开发时序挖掘和追踪访谈以研究新闻使用。",
+  "why_hot": "数字痕迹数据推动方法创新，提升生态效度。",
   "hot_score": 31,
   "growth": 0.531,
   "recent_count": 0,
   "baseline_count": 2,
   "journal_count": 2,
-  "lineage_status": "new",
+  "lineage_status": "continued",
   "keywords": [
-    "数字痕迹",
+    "数字追踪",
     "时序分析",
-    "新闻使用",
-    "方法创新"
+    "访谈",
+    "新闻使用"
   ],
   "papers": [
     {

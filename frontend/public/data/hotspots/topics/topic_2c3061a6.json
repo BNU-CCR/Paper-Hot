@@ -1,28 +1,22 @@
 {
   "topic_id": "topic_2c3061a6",
-  "label": "平台基础设施与数字治理",
-  "description": "关注平台作为基础设施的权力运作、数字主权与民主化可能。",
-  "why_hot": "平台权力延伸至公共服务与日常生活，治理争议凸显。",
-  "hot_score": 68,
-  "growth": 0.641,
-  "recent_count": 4,
-  "baseline_count": 19,
+  "label": "平台基础设施与数字主权",
+  "description": "分析平台权力、数据化与国家主权互动。",
+  "why_hot": "跨国平台与民族国家冲突日益显著。",
+  "hot_score": 49,
+  "growth": 0.315,
+  "recent_count": 3,
+  "baseline_count": 24,
   "journal_count": 9,
-  "lineage_status": "new",
+  "lineage_status": "continued",
   "keywords": [
-    "平台基础设施",
-    "数字主权",
+    "平台权力",
     "数据化",
-    "治理"
+    "主权",
+    "基础设施",
+    "中国平台"
   ],
   "papers": [
-    {
-      "id": 243,
-      "title": "Navigating the hybrid media landscape? Danish green NGOs’ use of digital platforms for internal and external communication",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-27",
-      "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
-    },
     {
       "id": 246,
       "title": "Digital transformation and contested sovereignty in humanitarian action",
@@ -45,6 +39,20 @@
       "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
     },
     {
+      "id": 284,
+      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
+    },
+    {
+      "id": 285,
+      "title": "“You Might Like Each Other”: Mass Customization and the Structuring of Sociality Among Chinese Generation Z on the Soul App",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过参与观察和访谈，研究Soul app的算法匹配与标签系统如何重塑中国Z世代社交，既促进情感连接又强化文化经济分层。"
+    },
+    {
       "id": 71,
       "title": "Infrastructural hubris and platform power: the failed scalability of Google Stadia",
       "journal": "Information Communication & Society",
@@ -52,18 +60,18 @@
       "summary": "通过分析170份专业媒体、Reddit和YouTube文档，探讨Google Stadia云游戏平台失败原因，提出“基础设施傲慢”概念，强调技术能力需配合平台层面的利益相关者参与。"
     },
     {
-      "id": 212,
-      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
-      "journal": "Political Communication",
-      "published_date": "2026-06-30",
-      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
-    },
-    {
       "id": 614,
       "title": "The digital panopticon: China’s Social Credit System and the postmodern surveillance state",
       "journal": "Global Media and Communication",
       "published_date": "2026-06-29",
       "summary": "论文以福柯全景监狱理论分析中国社会信用体系，认为其融合儒家道德治理与算法监控，强化国家权力与意识形态，但缺乏经验数据支撑。"
+    },
+    {
+      "id": 218,
+      "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
+      "journal": "Political Communication",
+      "published_date": "2026-05-27",
+      "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
     },
     {
       "id": 375,
@@ -85,6 +93,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-05-08",
       "summary": "通过爬取Discord社区数据，分析Axie Infinity奖学金申请者的申请文本，揭示其自我资产化策略，即玩家将劳动与困境呈现为投资资产以争取机会。"
+    },
+    {
+      "id": 376,
+      "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-05-08",
+      "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
     },
     {
       "id": 554,
@@ -136,6 +151,13 @@
       "summary": "以川善治平台为案例，从游戏化、数据化和展演性视角分析中国乡村数字治理的界面设计如何构建特定乡村愿景。"
     },
     {
+      "id": 304,
+      "title": "“My Non-Existing Organ”: Transitional Objects, Compensatory Romance, and the Affective Enclaves of Chinese Female Idol Fandom",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过多站点数字民族志研究中国女性粉丝在微博、豆瓣、微信群中的身份实践与情感表达，探讨女友粉和妈妈粉的补偿性浪漫及符号抵抗，形成情感飞地。"
+    },
+    {
       "id": 145,
       "title": "<i>“ … I sort of laid it all out … ”:</i> qualitatively exploring Canadian campaigners’ informational practices and strategic decisions in medical and housing-related crowdfunding campaigns",
       "journal": "Information Communication & Society",
@@ -150,18 +172,25 @@
       "summary": "基于1993-2023年2898名娱乐明星数据，分析中国如何通过演出机会和正式任命逐步吸纳明星，揭示媒体可见性转化为政治资本的机制。"
     },
     {
-      "id": 227,
-      "title": "Political Communication Special Issue Introduction: Multi-Platform Research",
-      "journal": "Political Communication",
-      "published_date": "2026-03-04",
-      "summary": "特刊导言探讨政治传播学者如何进行多平台研究，提出比较研究与系统研究框架，强调多平台互嵌对政治传播分析的重要性。"
-    },
-    {
       "id": 383,
       "title": "Embedded governance in China’s screen culture industry: from infiltration to co-optation",
       "journal": "Asian Journal of Communication",
       "published_date": "2026-03-04",
       "summary": "通过机构分析和双模网络映射，研究中国电视剧产业中党政部门通过精英吸纳实现嵌入式治理的机制，提出三种关系控制模式。"
+    },
+    {
+      "id": 384,
+      "title": "Ghost in the livestream: emotional labor and alienation among China's Zhong Zhi Ren",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-03-04",
+      "summary": "通过25位中之人与粉丝的深度访谈，探讨虚拟直播中表演者的情感劳动、异化及平台资本主义剥削逻辑，提出治理框架。"
+    },
+    {
+      "id": 561,
+      "title": "Reaction Media As A Cross-Platform Practice: A Case Study Of Friction And Flow In Uncle Roger’s Reaction Media On Youtube, Tiktok, Douyin, And Bilibili",
+      "journal": "Communication and the Public",
+      "published_date": "2026-02-27",
+      "summary": "通过案例研究，考察Uncle Roger在YouTube、TikTok、抖音和Bilibili上的反应媒体实践，提出反应媒体作为跨平台实践的新定义，强调其动态性和反应性。"
     },
     {
       "id": 643,

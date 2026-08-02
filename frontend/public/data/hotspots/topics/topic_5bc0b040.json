@@ -1,19 +1,20 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "媒介市场与财经传播",
-  "description": "涉及流媒体并购、企业丑闻报道与媒体情绪对资本市场的影响。",
-  "why_hot": "平台并购与媒体情绪成为财经传播热点。",
-  "hot_score": 54,
+  "label": "媒介市场与资本运作",
+  "description": "运用经济学方法分析传媒行业并购与市场效应。",
+  "why_hot": "流媒体竞争加剧，传媒经济研究应用价值凸显。",
+  "hot_score": 53,
   "growth": 0.993,
   "recent_count": 2,
   "baseline_count": 1,
   "journal_count": 1,
-  "lineage_status": "new",
+  "lineage_status": "continued",
   "keywords": [
-    "媒介市场",
+    "流媒体",
     "并购",
     "媒体情绪",
-    "IPO"
+    "IPO",
+    "公司战略"
   ],
   "papers": [
     {

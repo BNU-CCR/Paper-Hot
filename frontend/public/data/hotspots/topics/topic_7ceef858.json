@@ -1,19 +1,20 @@
 {
   "topic_id": "topic_7ceef858",
-  "label": "大语言模型研究方法论",
-  "description": "探索LLM在事件预测、自动编码和新闻测量中的应用并反思其局限。",
-  "why_hot": "LLM正在重塑计算传播研究的工具与边界。",
-  "hot_score": 69,
+  "label": "大语言模型与计算方法",
+  "description": "探索LLM在计算社会科学中的自动化编码与预测。",
+  "why_hot": "LLM革新内容分析，但需反思方法缺陷。",
+  "hot_score": 68,
   "growth": 0.965,
   "recent_count": 2,
   "baseline_count": 3,
   "journal_count": 4,
-  "lineage_status": "new",
+  "lineage_status": "continued",
   "keywords": [
-    "大语言模型",
-    "自动编码",
-    "计算方法",
-    "研究批判"
+    "LLM",
+    "自动化编码",
+    "预测",
+    "内容分析",
+    "方法"
   ],
   "papers": [
     {

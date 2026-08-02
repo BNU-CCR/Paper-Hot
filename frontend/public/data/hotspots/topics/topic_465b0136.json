@@ -1,18 +1,19 @@
 {
   "topic_id": "topic_465b0136",
-  "label": "新兴视觉形态与媒体事件",
-  "description": "关注AI生成图像的认知加工及媒体风暴的类型建构。",
-  "why_hot": "视觉技术革新要求重新理解受众认知。",
+  "label": "视觉传播与认知加工",
+  "description": "探讨AI生成图形的认知处理及媒体风暴分类。",
+  "why_hot": "视觉传播日益复杂，认知科学方法介入。",
   "hot_score": 32,
   "growth": 0.531,
   "recent_count": 0,
   "baseline_count": 2,
   "journal_count": 2,
-  "lineage_status": "new",
+  "lineage_status": "continued",
   "keywords": [
-    "AI图像",
-    "认知加工",
-    "媒体风暴"
+    "AI图形",
+    "认知负荷",
+    "媒体风暴",
+    "视觉传播"
   ],
   "papers": [
     {
