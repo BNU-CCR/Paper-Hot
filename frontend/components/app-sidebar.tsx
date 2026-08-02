@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, Flame, GitFork, House, Info, Library, Monitor, Moon, Sun, type LucideIcon } from "lucide-react";
+import { Flame, GitFork, House, Info, Library, Monitor, Moon, Sun, type LucideIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import {
@@ -36,7 +36,6 @@ export function MobileBar() {
     <header className="sticky top-0 z-20 flex items-center gap-2 border-b border-border bg-background px-3 py-2 md:hidden">
       <SidebarTrigger />
       <Link className="flex items-center gap-2 text-sm font-bold tracking-tight" href="/">
-        <BookOpen size={17} strokeWidth={1.8} aria-hidden="true" />
         <span>Paper HOT</span>
       </Link>
     </header>
@@ -51,7 +50,6 @@ export function AppSidebar() {
         <div className="flex items-center gap-1 px-1">
           <SidebarTrigger className="-ml-1" />
           <Link className="flex min-w-0 items-center gap-2 text-sm font-bold tracking-tight group-data-[collapsible=icon]:hidden" href="/">
-            <BookOpen size={18} strokeWidth={1.8} aria-hidden="true" />
             <span className="truncate">Paper HOT</span>
           </Link>
         </div>
