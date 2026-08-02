@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Masonry from "react-masonry-css";
+import { ChevronDown } from "lucide-react";
 import { AppSidebar } from "../components/app-sidebar";
 import { Button } from "../components/ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "../components/ui/collapsible";
@@ -111,13 +112,13 @@ export default function HomePage() {
         </section>
 
         <Collapsible className="topics-panel" open={tagsOpen} onOpenChange={setTagsOpen}>
-          <div className="section-heading"><div><p className="eyebrow">按主题浏览</p><h2>主题标签</h2></div><div className="section-actions"><CollapsibleTrigger asChild><Button variant="ghost" size="sm">{tagsOpen ? "收起标签" : `展开全部 ${tags.length} 个标签`}</Button></CollapsibleTrigger>{tag && <Button variant="ghost" size="sm" onClick={() => setTag(null)} aria-label={`清除主题筛选：${tag}`}>清除筛选</Button>}</div></div>
+          <div className="section-heading"><h2>主题标签</h2><div className="section-actions"><CollapsibleTrigger asChild><Button variant="ghost" size="sm"><ChevronDown size={14} aria-hidden="true" className={`chevron-icon ${tagsOpen ? "open" : ""}`} />{tagsOpen ? "收起标签" : `展开全部 ${tags.length} 个标签`}</Button></CollapsibleTrigger>{tag && <Button variant="ghost" size="sm" onClick={() => setTag(null)} aria-label={`清除主题筛选：${tag}`}>清除筛选</Button>}</div></div>
           <div className="tag-cloud">{tags.slice(0, 12).map(([item, count]) => <Button key={item} variant={tag === item ? "secondary" : "outline"} size="sm" className={`tag ${tag === item ? "tag-active" : ""}`} onClick={() => setTag(tag === item ? null : item)} aria-pressed={tag === item}>{item}<small>{count}</small></Button>)}</div>
           <CollapsibleContent><div className="tag-cloud extra-tags">{tags.slice(12).map(([item, count]) => <Button key={item} variant={tag === item ? "secondary" : "outline"} size="sm" className={`tag ${tag === item ? "tag-active" : ""}`} onClick={() => setTag(tag === item ? null : item)} aria-pressed={tag === item}>{item}<small>{count}</small></Button>)}</div></CollapsibleContent>
           {tag && <div className="topic-filter-status" role="status" aria-live="polite"><span>当前筛选</span><b>{tag}</b><span>{papers.length} 篇</span></div>}
         </Collapsible>
 
-        <section className="feed"><div className="section-heading"><div><p className="eyebrow">最新更新</p><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2></div><span className="count">{papers.length} 篇</span></div>
+        <section className="feed"><div className="section-heading"><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2><span className="count">{papers.length} 篇</span></div>
           {loadingError ? <div className="empty-state"><b>论文数据加载失败</b><span>{loadingError}</span></div> : papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</section>)}</div>}
         </section>
       </main>

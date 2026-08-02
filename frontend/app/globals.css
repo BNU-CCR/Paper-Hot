@@ -12,3 +12,4 @@
 .journal-reading-main{width:calc(100% - 224px);max-width:none}.journal-reading-main .reading-list{max-width:1440px}.reading-actions{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:8px}.date-feed{margin-top:18px}.topic-filter-status{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:14px;color:var(--muted-foreground);font-size:.78rem}.topic-filter-status b{color:var(--foreground);font-weight:600}.tag-active{border-color:var(--foreground);box-shadow:0 0 0 1px var(--foreground)}.tag-active small{color:inherit}
 @media(max-width:760px){.journal-reading-main{width:100%}.journal-reading-main .reading-list{max-width:none}.reading-actions{justify-content:flex-start}}
 .ui-tabs-trigger{display:inline-flex;align-items:center;gap:6px}
+.chevron-icon{transition:transform .18s ease}.chevron-icon.open{transform:rotate(180deg)}
