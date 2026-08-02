@@ -32,6 +32,9 @@ class Paper:
     tracked_journal: str = ""
     openalex_id: str = ""
     screening_status: str = ""  # pending/screened/error/quarantined
+    volume: str = ""
+    issue: str = ""
+    bibliography_checked_at: str = ""
     discovered_at: str = ""
     created_at: str = ""
     updated_at: str = ""
@@ -84,6 +87,9 @@ class PaperStorage:
                     tracked_journal TEXT,
                     openalex_id TEXT,
                     screening_status TEXT,
+                    volume TEXT,
+                    issue TEXT,
+                    bibliography_checked_at TEXT,
                     discovered_at TEXT,
                     created_at TEXT,
                     updated_at TEXT
@@ -126,6 +132,9 @@ class PaperStorage:
             "openalex_id": "TEXT",
             "screening_status": "TEXT",
             "discovered_at": "TEXT",
+            "volume": "TEXT",
+            "issue": "TEXT",
+            "bibliography_checked_at": "TEXT",
         }
         for column, column_type in new_columns.items():
             if column not in existing_columns:
@@ -169,14 +178,15 @@ class PaperStorage:
                     title, authors, abstract, journal, published_date,
                     link, doi, relevance, reason, tags, summary, score, status,
                     is_public, source_type, source_run_id, tracked_journal, openalex_id,
-                    screening_status, discovered_at, created_at, updated_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    screening_status, volume, issue, bibliography_checked_at, discovered_at, created_at, updated_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 paper.title, paper.authors, paper.abstract, paper.journal,
                 paper.published_date, paper.link, paper.doi, paper.relevance,
                 paper.reason, paper.tags, paper.summary, paper.score, paper.status,
                 int(paper.is_public), paper.source_type, paper.source_run_id,
                 paper.tracked_journal, paper.openalex_id, paper.screening_status,
+                paper.volume, paper.issue, paper.bibliography_checked_at,
                 paper.discovered_at, paper.created_at, paper.updated_at
             ))
             conn.commit()
@@ -428,6 +438,37 @@ class PaperStorage:
             """, (limit,))
             rows = cursor.fetchall()
             return [Paper(**self._normalize_row(dict(row))) for row in rows]
+
+    def get_papers_missing_issue(self, limit: int = 10000) -> List[Paper]:
+        """Return OpenAlex-backed papers that still need volume/issue enrichment."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT * FROM papers
+                WHERE source_type = 'openalex'
+                  AND screening_status != 'quarantined'
+                  AND (issue IS NULL OR issue = '' OR volume IS NULL OR volume = '')
+                  AND (bibliography_checked_at IS NULL OR bibliography_checked_at = '')
+                  AND (openalex_id IS NOT NULL AND openalex_id != '' OR doi IS NOT NULL AND doi != '')
+                ORDER BY published_date DESC, id DESC
+                LIMIT ?
+            """, (limit,))
+            rows = cursor.fetchall()
+            return [Paper(**self._normalize_row(dict(row))) for row in rows]
+
+    def update_paper_bibliography(self, paper_id: int, volume: str, issue: str, openalex_id: str = "") -> bool:
+        """Persist volume and issue metadata returned by OpenAlex."""
+        now = datetime.now().isoformat()
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                UPDATE papers
+                SET volume = ?, issue = ?, openalex_id = COALESCE(NULLIF(?, ''), openalex_id),
+                    bibliography_checked_at = ?, updated_at = ?
+                WHERE id = ?
+            """, (volume, issue, openalex_id, now, now, paper_id))
+            conn.commit()
+            return cursor.rowcount > 0
 
     def _normalize_row(self, row: Dict[str, Any]) -> Dict[str, Any]:
         """标准化 SQLite 返回数据"""

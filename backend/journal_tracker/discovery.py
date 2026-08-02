@@ -26,6 +26,8 @@ class DiscoveredPaper:
     doi: str
     citation_count: int = 0
     openalex_id: str = ""
+    volume: str = ""
+    issue: str = ""
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -38,6 +40,8 @@ class DiscoveredPaper:
             "doi": self.doi,
             "citation_count": self.citation_count,
             "openalex_id": self.openalex_id,
+            "volume": self.volume,
+            "issue": self.issue,
         }
 
 
@@ -607,6 +611,7 @@ class OpenAlexDiscovery:
                 "primary_location",
                 "abstract_inverted_index",
                 "cited_by_count",
+                "biblio",
             ]),
         }
         data = self._get_json("/works", params)
@@ -637,6 +642,7 @@ class OpenAlexDiscovery:
         link = location.get("landing_page_url") or item.get("id", "")
         if doi and not link:
             link = f"https://doi.org/{doi}"
+        biblio = item.get("biblio") or {}
         return DiscoveredPaper(
             title=item.get("title", "") or "",
             abstract=self._abstract_from_inverted_index(item.get("abstract_inverted_index")),
@@ -647,7 +653,29 @@ class OpenAlexDiscovery:
             doi=doi,
             citation_count=item.get("cited_by_count", 0) or 0,
             openalex_id=(item.get("id", "") or "").rsplit("/", 1)[-1],
+            volume=str(biblio.get("volume") or ""),
+            issue=str(biblio.get("issue") or ""),
         )
+
+    def get_bibliography(self, openalex_id: str = "", doi: str = "") -> Dict[str, str]:
+        """Return OpenAlex volume and issue metadata for one known work."""
+        identifier = (openalex_id or "").strip()
+        if not identifier:
+            normalized_doi = self._normalize_doi(doi)
+            if not normalized_doi:
+                return {"openalex_id": "", "volume": "", "issue": ""}
+            identifier = f"https://doi.org/{normalized_doi}"
+
+        item = self._get_json(
+            f"/works/{identifier}",
+            {"select": "id,biblio"},
+        )
+        biblio = item.get("biblio") or {}
+        return {
+            "openalex_id": (item.get("id", "") or "").rsplit("/", 1)[-1],
+            "volume": str(biblio.get("volume") or ""),
+            "issue": str(biblio.get("issue") or ""),
+        }
 
     def _abstract_from_inverted_index(self, inverted_index: Optional[Dict[str, List[int]]]) -> str:
         if not inverted_index:

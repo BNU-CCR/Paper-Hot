@@ -50,6 +50,8 @@ database:
                     published_date="2026",
                     link="https://example.org/journal-first",
                     doi="10.1000/journal-first",
+                    volume="16",
+                    issue="4",
                 )
             ]
             fake_openalex.last_run_report = {"requested_queries": 1, "returned_papers": 1}
@@ -66,6 +68,8 @@ database:
             self.assertEqual(papers[0].reason, "Pending AI screening")
             self.assertEqual(papers[0].source_type, "openalex")
             self.assertEqual(papers[0].screening_status, "pending")
+            self.assertEqual(papers[0].volume, "16")
+            self.assertEqual(papers[0].issue, "4")
 
     def test_fetch_journals_cli_returns_normally_when_papers_are_saved(self) -> None:
         with patch("sys.argv", ["main", "fetch-journals", "--limit-per-journal", "1"]):
