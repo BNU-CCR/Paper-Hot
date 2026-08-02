@@ -1,4 +1,14 @@
-const publisherUrls = {
+import type { Journal, JournalPriority } from "../types/journal";
+
+type PublisherName =
+  | "Oxford University Press"
+  | "SAGE"
+  | "Taylor & Francis"
+  | "Inderscience Publishers"
+  | "International Journal of Communication"
+  | "ICONO14";
+
+const publisherUrls: Record<PublisherName, string> = {
   "Oxford University Press": "https://academic.oup.com/",
   SAGE: "https://journals.sagepub.com/",
   "Taylor & Francis": "https://www.tandfonline.com/",
@@ -7,14 +17,22 @@ const publisherUrls = {
   ICONO14: "https://icono14.net/",
 };
 
-const palettes = [
+const palettes: Array<[string, string]> = [
   ["#112a46", "#75d6e9"], ["#164e43", "#eabf74"], ["#8c202a", "#f1d7a2"],
   ["#5b3f91", "#d7c7ff"], ["#203c73", "#b2cdfc"], ["#a84527", "#f9d4a7"],
   ["#27646c", "#e2c56d"], ["#123e77", "#e8edf6"], ["#654b27", "#f2d7a1"],
   ["#3c385e", "#d4d0ff"], ["#7a3d2d", "#f2c68d"], ["#245866", "#bcecf2"],
 ];
 
-const rawJournals = [
+type JournalRow = [
+  abbr: string,
+  name: string,
+  publisher: PublisherName,
+  priority: JournalPriority,
+  issn: string,
+];
+
+const rawJournals: JournalRow[] = [
   ["HCR", "Human Communication Research", "Oxford University Press", "core", "0360-3989"],
   ["JCMC", "Journal of Computer-Mediated Communication", "Oxford University Press", "core", "1083-6101"],
   ["CR", "Communication Research", "SAGE", "core", "0093-6502"],
@@ -43,7 +61,7 @@ const rawJournals = [
   ["IJMM", "International Journal on Media Management", "Taylor & Francis", "skip", "1424-1254"],
 ];
 
-export const journals = rawJournals.map(([abbr, name, publisher, priority, issn], index) => ({
+export const journals: Journal[] = rawJournals.map(([abbr, name, publisher, priority, issn], index) => ({
   abbr,
   slug: abbr.toLowerCase(),
   name,

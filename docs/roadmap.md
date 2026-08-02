@@ -38,6 +38,16 @@ Latest verified local state:
 - Screening errors: 1
 - Coverage report: OpenAlex DOI total 548, Crossref DOI total 582, matched DOI total 543, missing in OpenAlex 39.
 
+## Frontend Stack Migration
+
+已完成的前端技术栈迁移（小 PR 1–4，2026-08）：
+
+- [x] 全部组件从 JS 迁移到 **TypeScript / TSX**（`strict: true`），新增 `frontend/types/` 共享类型定义。
+- [x] 引入 **Tailwind CSS v4**，CSS 变量通过 `@theme inline` 映射为设计 token；`dark:` 变体绑定 `[data-theme="dark"]`。
+- [x] UI 组件替换为标准 **shadcn/ui v4** 封装（Button / Input / Select / Tabs / Sheet / Collapsible），删除手写 `ui-*` CSS。
+- [x] 数据获取改为 **RSC-first**：`frontend/lib/data.ts` 在构建时读 JSON 预渲染，移除 client `useEffect` fetch。
+- [x] 验证命令 `pnpm --dir frontend typecheck` + `pnpm --dir frontend build` 全部通过。
+
 ## Phase 1: Public Site V1
 
 - [x] Migrate the public site to Next.js / React in `frontend/app/`.

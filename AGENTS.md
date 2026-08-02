@@ -2,18 +2,25 @@
 
 Codex 与 Claude Code 都会自动读取仓库根目录的 `AGENTS.md`。改动前端 UI 前必读；后端/数据相关约定见 `CLAUDE.md`。
 
+## 前端技术栈
+
+- 前端为 Next.js 16 App Router + React 19，**全部组件用 TypeScript**（`.tsx` / `.ts`，`strict: true`）。新代码不要写 `.js` 文件。
+- 样式基于 **Tailwind CSS v4** utilities；颜色/圆角等 token 通过 `app/globals.css` 顶部的 `@theme inline` 映射到 CSS 变量（`--background`、`--primary`、`--radius` 等），不要在组件里写死颜色。布局与纸卡等复杂样式保留在 `app/*.css` 的普通 CSS 规则中。
+- **数据获取 RSC-first**：静态站点在构建时用 `frontend/lib/data.ts` 读 `public/data/*.json`，由 server component 预渲染进 HTML；交互部分拆成 client component（`"use client"`）接收 props。不要在新代码里用 client `useEffect` fetch 数据。
+- 主题切换沿用 `data-theme` + CSS 变量；Tailwind 的 `dark:` 变体已绑定到 `[data-theme="dark"]`。
+
 ## 设计体系
 
-- 组件库为 shadcn/ui 风格：Radix primitives + CSS 变量，包装组件在 `frontend/components/ui/`，类名用 `cn()` 合并。
+- 组件库为 shadcn/ui 风格：Radix primitives + Tailwind utilities，包装组件在 `frontend/components/ui/`，类名用 `cn()` 合并。
 - 图标统一用 `lucide-react`，尺寸 14–16px；装饰性图标加 `aria-hidden="true"`。
 - 标题用衬线（Georgia / "Noto Serif SC" / "Songti SC"），正文用系统无衬线；颜色、圆角、间距沿用现有 CSS 变量（`--radius`、`--border`、`--muted-foreground` 等），不写死值。
 - 亮/暗主题通过 `data-theme` + CSS 变量切换，不要硬编码颜色。
-- 布局：左侧固定 `sidebar`（224px）+ `main` 内容区；页面级 hero 用 `.eyebrow` + `h1`；工具条放 `.toolbar` / `.library-toolbar`（`shadcn-controls`）。
+- 布局：左侧固定 `sidebar`（224px）+ `main` 内容区；页面级 hero 直接用 `h1`；工具条放 `.toolbar` / `.library-toolbar`（`shadcn-controls`）。
 
 ## 标题与标签：一个区块只保留一个标题
 
-- 每个 section 只保留一个语义标题（h2/h3）。禁止 `.eyebrow` 小标签与标题成对表达同一语义（例如“按主题浏览 / 主题标签”“期刊论文 / 论文列表”这种重复写法）。
-- `.eyebrow` 只允许出现在页面级 hero（`h1` 上方）作为补充语境，或作为独立小标注（如 Issue 侧栏），不得与相邻标题语义重复。
+- 每个 section 只保留一个语义标题（h2/h3）。
+- 尽量不要使用 `.eyebrow` 小标签：页面顶部不放装饰性小字（如“期刊目录”“LLM 月度聚合”“ABOUT PAPER HOT”“期刊精读”），也不要 eyebrow + 标题成对表达同一语义（如“按主题浏览 / 主题标签”“期刊论文 / 论文列表”）。
 - 数量、日期等元信息放标题右侧的 `.count` 等辅助元素，不要另起小标题。
 
 ## 不要占位提示
@@ -31,4 +38,5 @@ Codex 与 Claude Code 都会自动读取仓库根目录的 `AGENTS.md`。改动�
 ## 验证与提交
 
 - 前端构建：`pnpm --dir frontend build`（CI 同样会构建并检查 `out` 产物）。
+- 类型检查：`pnpm --dir frontend typecheck`（tsc --noEmit，改动组件后跑一遍）。
 - 提交遵循“小 PR”：基于最新 `main` 建分支，只提交本次改动；CI 通过后合并，GitHub Pages 由 `deploy-pages.yml` 自动部署。

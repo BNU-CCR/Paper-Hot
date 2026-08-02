@@ -1,7 +1,8 @@
-/** @type {import('next').NextConfig} */
+import type { NextConfig } from "next";
+
 const basePath = process.env.GITHUB_ACTIONS === "true" ? "/Paper-Hot" : "";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   output: "export",
   images: { unoptimized: true },
   trailingSlash: true,
