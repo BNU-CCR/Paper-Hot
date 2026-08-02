@@ -103,8 +103,8 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
 
         <Collapsible className="topics-panel" open={tagsOpen} onOpenChange={setTagsOpen}>
           <div className="section-heading"><h2>主题标签</h2><div className="section-actions"><CollapsibleTrigger asChild><Button variant="ghost" size="sm"><ChevronDown size={14} aria-hidden="true" className={`chevron-icon ${tagsOpen ? "open" : ""}`} />{tagsOpen ? "收起标签" : `展开全部 ${tags.length} 个标签`}</Button></CollapsibleTrigger>{tag && <Button variant="ghost" size="sm" onClick={() => setTag(null)} aria-label={`清除主题筛选：${tag}`}>清除筛选</Button>}</div></div>
-          <div className="tag-cloud">{tags.slice(0, 12).map(([item, count]) => <Button key={item} variant={tag === item ? "secondary" : "outline"} size="sm" className={`tag ${tag === item ? "tag-active" : ""}`} onClick={() => setTag(tag === item ? null : item)} aria-pressed={tag === item}>{item}<small>{count}</small></Button>)}</div>
-          <CollapsibleContent><div className="tag-cloud extra-tags">{tags.slice(12).map(([item, count]) => <Button key={item} variant={tag === item ? "secondary" : "outline"} size="sm" className={`tag ${tag === item ? "tag-active" : ""}`} onClick={() => setTag(tag === item ? null : item)} aria-pressed={tag === item}>{item}<small>{count}</small></Button>)}</div></CollapsibleContent>
+          <div className="tag-cloud">{tags.slice(0, 12).map(([item, count]) => <Button key={item} variant={tag === item ? "default" : "outline"} size="sm" className="tag" onClick={() => setTag(tag === item ? null : item)} aria-pressed={tag === item}>{item}<small>{count}</small></Button>)}</div>
+          <CollapsibleContent><div className="tag-cloud extra-tags">{tags.slice(12).map(([item, count]) => <Button key={item} variant={tag === item ? "default" : "outline"} size="sm" className="tag" onClick={() => setTag(tag === item ? null : item)} aria-pressed={tag === item}>{item}<small>{count}</small></Button>)}</div></CollapsibleContent>
           {tag && <div className="topic-filter-status" role="status" aria-live="polite"><span>当前筛选</span><b>{tag}</b><span>{papers.length} 篇</span></div>}
         </Collapsible>
 
