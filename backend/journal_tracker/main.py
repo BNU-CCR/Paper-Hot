@@ -11,6 +11,7 @@
 
 import argparse
 import json
+import time
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -216,6 +217,9 @@ def ingest_journal_updates(
             source_run_id=source_run_id,
             tracked_journal=_tracked_journal_name(discovered.journal, tracked_by_name),
             openalex_id=discovered.openalex_id,
+            volume=discovered.volume,
+            issue=discovered.issue,
+            bibliography_checked_at=datetime.now().isoformat(),
             screening_status="pending",
         )
         if storage.add_paper(paper):
@@ -236,6 +240,47 @@ def repair_local_screening_queue(config: Optional[Config] = None) -> dict:
     print("=" * 40)
     print(f"Pending red-list papers: {report['pending']}")
     print(f"Quarantined non-red-list papers: {report['quarantined']}")
+    return report
+
+
+def backfill_openalex_bibliography(config: Optional[Config] = None, limit: int = 10000) -> dict:
+    """Fill missing volume and issue fields from the OpenAlex work record."""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    discovery = OpenAlexDiscovery()
+    papers = storage.get_papers_missing_issue(limit=limit)
+    report = {"requested": len(papers), "updated": 0, "without_issue": 0, "failed": 0}
+    print(f"OpenAlex bibliography backfill: {len(papers)} papers")
+
+    for index, paper in enumerate(papers):
+        try:
+            bibliography = discovery.get_bibliography(paper.openalex_id, paper.doi)
+        except Exception as error:
+            report["failed"] += 1
+            safe_print(f"Backfill failed [{paper.id}]: {paper.title[:60]} | {error}")
+            continue
+
+        storage.update_paper_bibliography(
+            paper.id,
+            bibliography["volume"],
+            bibliography["issue"],
+            bibliography["openalex_id"],
+        )
+        if bibliography["issue"]:
+            report["updated"] += 1
+        else:
+            report["without_issue"] += 1
+
+        if index < len(papers) - 1:
+            time.sleep(OpenAlexDiscovery.SEARCH_PAUSE_SECONDS)
+
+    print(
+        "Backfill complete: "
+        f"{report['updated']} with issue, {report['without_issue']} still unassigned, "
+        f"{report['failed']} failed"
+    )
     return report
 
 
@@ -735,6 +780,8 @@ def main():
     subparsers.add_parser("export", help="导出CSV")
     subparsers.add_parser("export-public", help="导出公开站 JSON 数据")
     subparsers.add_parser("generate-hotspots", help="从近一个月公开论文生成当期热点 JSON")
+    bibliography_parser = subparsers.add_parser("backfill-bibliography", help="用 OpenAlex 回填卷号和期号")
+    bibliography_parser.add_argument("--limit", type=int, default=10000, help="最多回填论文数")
     subparsers.add_parser("doctor", help="检查 API key、数据库、公开 JSON 和关键词配置")
     list_parser = subparsers.add_parser("list", help="列出数据库中的论文")
     list_parser.add_argument("--limit", type=int, default=100, help="最多列出论文数")
@@ -775,6 +822,8 @@ def main():
         export_public_data(config)
     elif args.command == "generate-hotspots":
         print(f"已生成当期热点数据: {generate_monthly_hotspots(config)}")
+    elif args.command == "backfill-bibliography":
+        backfill_openalex_bibliography(config, args.limit)
     elif args.command == "doctor":
         sys.exit(run_doctor(config))
     elif args.command == "list":

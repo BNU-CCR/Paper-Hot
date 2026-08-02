@@ -46,6 +46,8 @@ class PublicPaperExporterTests(unittest.TestCase):
                     summary="Public summary",
                     score=92,
                     is_public=True,
+                    volume="16",
+                    issue="2",
                 )
             )
             storage.add_paper(
@@ -75,6 +77,8 @@ class PublicPaperExporterTests(unittest.TestCase):
             self.assertEqual(exported[0]["score"], 92)
             self.assertEqual(exported[0]["source_url"], "https://example.org/public-paper")
             self.assertEqual(exported[0]["detail_slug"], "public-llm-paper")
+            self.assertEqual(exported[0]["volume"], "16")
+            self.assertEqual(exported[0]["issue"], "2")
         finally:
             shutil.rmtree(tmp_dir, ignore_errors=True)
 

@@ -18,6 +18,7 @@ class OpenAlexDiscoveryTests(unittest.TestCase):
                         "doi": "https://doi.org/10.1000/openalex",
                         "publication_date": "2026-03-14",
                         "cited_by_count": 7,
+                        "biblio": {"volume": "12", "issue": "3"},
                         "id": "https://openalex.org/W1",
                         "primary_location": {
                             "landing_page_url": "https://example.org/openalex",
@@ -59,6 +60,9 @@ class OpenAlexDiscoveryTests(unittest.TestCase):
         self.assertEqual(papers[0].doi, "10.1000/openalex")
         self.assertEqual(papers[0].link, "https://example.org/openalex")
         self.assertEqual(papers[0].citation_count, 7)
+        self.assertEqual(papers[0].volume, "12")
+        self.assertEqual(papers[0].issue, "3")
+        self.assertIn("biblio", requested[0][1]["select"])
         self.assertEqual(requested[0][0], "/works")
         self.assertIn("primary_location.source.id:S28604305", requested[0][1]["filter"])
         self.assertIn("from_publication_date:2026-01-01", requested[0][1]["filter"])

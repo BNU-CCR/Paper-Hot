@@ -58,6 +58,30 @@ class StorageWorkflowTests(unittest.TestCase):
             self.assertTrue(storage.paper_exists(link="https://example.org/other", doi="10.1000/same"))
             self.assertTrue(storage.paper_exists(link="https://example.org/original", doi="10.1000/other"))
 
+    def test_bibliography_backfill_updates_missing_issue_once(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            storage = PaperStorage(Path(tmp_dir) / "papers.db")
+            paper_id = storage.add_paper(
+                Paper(
+                    title="Issue metadata",
+                    link="https://example.org/issue-metadata",
+                    doi="10.1000/issue-metadata",
+                    source_type="openalex",
+                    screening_status="screened",
+                    openalex_id="W123",
+                )
+            )
+
+            self.assertEqual([paper.id for paper in storage.get_papers_missing_issue()], [paper_id])
+            self.assertTrue(storage.update_paper_bibliography(paper_id, "12", "3", "W456"))
+
+            paper = storage.get_paper_by_id(paper_id)
+            self.assertEqual(paper.volume, "12")
+            self.assertEqual(paper.issue, "3")
+            self.assertEqual(paper.openalex_id, "W456")
+            self.assertTrue(paper.bibliography_checked_at)
+            self.assertEqual(storage.get_papers_missing_issue(), [])
+
     def test_pending_screening_queue_only_returns_openalex_pending_papers(self) -> None:
         with TemporaryDirectory() as tmp_dir:
             storage = PaperStorage(Path(tmp_dir) / "papers.db")

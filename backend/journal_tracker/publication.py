@@ -49,6 +49,8 @@ class PublicPaperExporter:
             "source_type": paper.source_type,
             "screening_status": paper.screening_status,
             "tracked_journal": paper.tracked_journal,
+            "volume": paper.volume,
+            "issue": paper.issue,
         }
 
     def _split_csv_field(self, value: str) -> List[str]:
