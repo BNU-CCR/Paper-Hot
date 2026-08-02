@@ -106,7 +106,7 @@ export default function HomePage() {
     <div className="shell">
       <aside className="sidebar">
         <a className="brand" href="./"><span>Paper</span><i /><span>HOT</span></a>
-        <nav aria-label="主导航"><a className="active" href="./">精选论文</a><a href="about/">关于项目</a></nav>
+        <nav aria-label="主导航"><a className="active" href="./">精选论文</a><a href="journals/">期刊书库</a><a href="about/">关于项目</a></nav>
         <a className="github-link" href={GITHUB_URL} target="_blank" rel="noreferrer">GitHub ↗</a>
         <div className="theme-switch" aria-label="主题切换">
           {[['dark', '☾'], ['system', '◐'], ['light', '☼']].map(([value, icon]) => <button key={value} className={theme === value ? "active" : ""} onClick={() => setTheme(value)} aria-label={`${value} theme`}>{icon}</button>)}

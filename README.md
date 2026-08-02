@@ -40,6 +40,7 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 - 精选论文导出：`frontend/public/data/papers.json`
 - 红榜期刊全量更新导出：`frontend/public/data/all_papers.json`
 - Next.js / React 网站：首页论文筛选与独立关于页
+- 期刊书库：`/journals/` 提供期刊书封、出版社与追踪等级浏览
 - Featured / All Updates 切换
 - OpenAlex / Crossref DOI 覆盖验证：`verify-coverage`
 - 每周期刊优先工作流：`weekly-run`
