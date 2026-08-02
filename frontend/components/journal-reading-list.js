@@ -9,7 +9,8 @@ import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
 function asText(value) { return Array.isArray(value) ? value.join(" ") : String(value || ""); }
 function sortPapers(papers) { return [...papers].sort((a, b) => Date.parse(b.published_date || 0) - Date.parse(a.published_date || 0)); }
 function matchesJournal(paper, journal) {
-  const aliases = new Set([journal.name, journal.name.replace(", ", " "), journal.name.replace("Revista Icono 14", "Revista ICONO14"), "Information Communication & Society"]);
+  const aliases = new Set([journal.name, journal.name.replace(", ", " "), journal.name.replace("Revista Icono 14", "Revista ICONO14")]);
+  if (journal.name === "Information, Communication & Society") aliases.add("Information Communication & Society");
   return aliases.has(paper.journal);
 }
 
