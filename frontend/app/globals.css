@@ -13,3 +13,4 @@
 @media(max-width:760px){.journal-reading-main{width:100%}.journal-reading-main .reading-list{max-width:none}.reading-actions{justify-content:flex-start}}
 .ui-tabs-trigger{display:inline-flex;align-items:center;gap:6px}
 .chevron-icon{transition:transform .18s ease}.chevron-icon.open{transform:rotate(180deg)}
+.feed .section-heading{margin-bottom:18px}
