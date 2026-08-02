@@ -661,9 +661,9 @@ def _compute_topic_graph(
     is normalized by the geometric mean of the two topic sizes.
     """
     paper_to_topic: Dict[int, int] = {}
-    for t_idx, topic in enumerate(topics):
+    for topic in topics:
         for p_idx in topic["paper_indices"]:
-            paper_to_topic[p_idx] = t_idx
+            paper_to_topic[p_idx] = topic["cluster_id"]
 
     topic_edges: Dict[Tuple[int, int], float] = {}
     for i, j, _w in paper_edges:

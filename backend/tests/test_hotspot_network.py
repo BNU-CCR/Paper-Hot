@@ -20,6 +20,8 @@ try:
         _reference_jaccard,
         _form_topics,
         _compute_heat_scores,
+        _compute_topic_graph,
+        _compute_layout,
         build_hotspot_network,
     )
     HAVE_ANALYSIS = True
@@ -53,6 +55,26 @@ class HotspotNetworkUnitTests(unittest.TestCase):
         by_size = {t["size"]: t["status"] for t in topics}
         self.assertEqual(by_size[2], "emerging")
         self.assertEqual(by_size[4], "formal")
+
+    def test_topic_graph_and_layout_use_cluster_ids_not_indices(self):
+        # Regression: _compute_topic_graph previously keyed edges by the
+        # enumerate index of each topic, while _compute_layout and
+        # _build_output look edges up by cluster_id. With non-contiguous
+        # Leiden cluster ids (e.g. 10/20/30) the two never match, so the
+        # real pipeline crashed with KeyError at layout time.
+        topics = [
+            {"cluster_id": 10, "paper_indices": [0, 1, 2, 3], "size": 4, "status": "formal"},
+            {"cluster_id": 20, "paper_indices": [4, 5, 6, 7], "size": 4, "status": "formal"},
+            {"cluster_id": 30, "paper_indices": [8, 9, 10, 11], "size": 4, "status": "formal"},
+        ]
+        candidates = [{"id": i} for i in range(12)]
+        # paper 0 -> cluster 10, paper 4 -> cluster 20, paper 8 -> cluster 30
+        paper_edges = [(0, 4, 0.5), (4, 8, 0.5)]
+        edges = _compute_topic_graph(topics, candidates, paper_edges)
+        self.assertEqual({(a, b) for a, b, _ in edges}, {(10, 20), (20, 30)})
+        # Layout must place every topic without KeyError.
+        layout = _compute_layout(topics, edges, previous_topics=[])
+        self.assertEqual(set(layout.keys()), {10, 20, 30})
 
     def test_heat_scores_finite_and_bounded(self):
         anchor = date.today()
