@@ -49,7 +49,7 @@ The current structure uses one first-level directory per responsibility:
 - Moved backend configuration from `config/` to `backend/config/`.
 - Moved local database state from `data/` to `backend/data/`.
 - Moved helper scripts from `scripts/` to `backend/scripts/`.
-- Moved website files from `web/` to `frontend/web/`.
+- Moved the original website files from `web/` to `frontend/web/`, then migrated the active website to Next.js / React in `frontend/app/`.
 - Moved public website data from `public/data/` to `frontend/public/data/`.
 - Moved local API keys from `key.env` to `.local/key.env`.
 - Moved Python build output into `.local/build-artifacts/`.

@@ -39,7 +39,7 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 - DeepSeek / Anthropic-compatible AI 筛选：`screen-pending`
 - 精选论文导出：`frontend/public/data/papers.json`
 - 红榜期刊全量更新导出：`frontend/public/data/all_papers.json`
-- 静态网站：`frontend/web/index.html`
+- Next.js / React 网站：首页论文筛选与独立关于页
 - Featured / All Updates 切换
 - OpenAlex / Crossref DOI 覆盖验证：`verify-coverage`
 - 每周期刊优先工作流：`weekly-run`
@@ -78,8 +78,9 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 │   ├── roadmap.md          # current TODO and development phases
 │   └── archive/            # historical plans/specs
 ├── frontend/
-│   ├── public/data/        # JSON consumed by the static website
-│   └── web/                # static website
+│   ├── app/                # Next.js App Router pages and components
+│   ├── public/data/        # JSON consumed by the website
+│   └── package.json        # React / Next.js scripts and dependencies
 ├── README.md
 └── pyproject.toml
 ```
@@ -170,17 +171,14 @@ Publish all High papers and refresh website JSON:
 python -m journal_tracker.main update-public
 ```
 
-Preview the website locally:
+Run the website locally:
 
 ```bash
-python -m http.server 8000
+pnpm --dir frontend install
+pnpm --dir frontend dev
 ```
 
-Then open:
-
-```text
-http://127.0.0.1:8000/frontend/web/index.html
-```
+Then open the local URL shown by Next.js (normally `http://localhost:3000`).
 
 ## Recommended Next Run
 
@@ -200,15 +198,15 @@ Python tests:
 python -m unittest discover backend/tests -v
 ```
 
-Frontend logic tests:
+Frontend production build:
 
 ```bash
-node frontend\web\app.test.cjs
+pnpm --dir frontend build
 ```
 
 ## GitHub Actions
 
-- `CI` runs the Python test suite on Python 3.9 and 3.12, smoke-tests a fresh database, and runs the frontend tests on every push and pull request.
+- `CI` runs the Python test suite on Python 3.9 and 3.12, smoke-tests a fresh database, and builds the Next.js frontend on every push and pull request.
 - `Weekly paper update` runs every Monday at 13:00 GMT+8 (Asia/Shanghai), refreshes this README preview and statistics, and supports manual runs with smaller limits.
 - `Deploy frontend to GitHub Pages` publishes the static website after changes to the frontend or public paper JSON. Once GitHub Pages is enabled for the repository, the site is available at `https://bnu-ccr.github.io/Paper-Hot/`.
 - Configure the required `ANTHROPIC_API_KEY` Actions secret before starting the weekly workflow. See [`docs/automation.md`](docs/automation.md) for permissions, optional variables, database caching, and recovery details.
@@ -220,7 +218,7 @@ Committed:
 - Backend source code in `backend/journal_tracker/`
 - Backend tests in `backend/tests/`
 - Config templates and journal metadata in `backend/config/`
-- Static site in `frontend/web/`
+- Next.js / React frontend in `frontend/app/`
 - Public website JSON snapshots in `frontend/public/data/`
 - Current docs in `docs/`
 

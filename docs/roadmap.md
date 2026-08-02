@@ -40,11 +40,12 @@ Latest verified local state:
 
 ## Phase 1: Public Site V1
 
-- [x] Implement static site in `frontend/web/`.
+- [x] Migrate the public site to Next.js / React in `frontend/app/`.
 - [x] Render public featured papers from `frontend/public/data/papers.json`.
 - [x] Support relevance, tag, and search filters.
 - [x] Support light / dark / system theme switching.
 - [x] Add Featured / All Updates data switching.
+- [x] Add journal filtering, collapsible topic tags, and an independent About page.
 - [ ] Add paper detail view or expandable detail state.
 
 ## Phase 2: Journal-First Data Loop

@@ -26,11 +26,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build static Pages artifact
-        run: |
-          mkdir -p _site/data
-          cp frontend/web/index.html frontend/web/app.js frontend/web/styles.css _site/
-          cp frontend/public/data/papers.json frontend/public/data/all_papers.json _site/data/
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: frontend/pnpm-lock.yaml
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Install frontend dependencies
+        run: pnpm --dir frontend install --frozen-lockfile
+
+      - name: Build Next.js Pages artifact
+        run: pnpm --dir frontend build
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -40,7 +50,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: frontend/out
 
       - name: Deploy to GitHub Pages
         id: deployment
