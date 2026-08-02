@@ -26,6 +26,22 @@ Paper HOT 目标是做一个类似 AI HOT 的计算传播论文情报站：
 - Crossref coverage verification is implemented with `verify-coverage`.
 - The journal-first weekly workflow is implemented with `weekly-run`.
 - Windows Task Scheduler wrapper scripts are available under `backend/scripts/`.
+- Hotspot topic network pipeline (`build-hotspot-network`) computes embeddings,
+  Leiden clustering, heat scores, and fixed layouts offline and exports static
+  JSON consumed by the Sigma.js graph on the `/hotspots/` page.
+
+## Hotspot Network Pipeline (PR #37, 2026-08)
+
+- [x] OpenAlex fetch extended with `topics` / `primary_topic` / `keywords` / `referenced_works`.
+- [x] `paper_features` table stores embeddings + OpenAlex enrichment per paper.
+- [x] `hotspot_network.py`: FastEmbed vectors → mutual kNN → hybrid edge weights → Leiden → Hungarian topic matching → heat scoring → fixed layout → atomic static JSON.
+- [x] `hotspot_labels.py`: batched LLM Chinese topic naming with fingerprint caching.
+- [x] `hotspot_validation.py`: pre-replace schema checks; temp-dir + `os.replace` atomic swap.
+- [x] Frontend: Sigma.js + Graphology network graph, topic detail panel, trend ranking table, three-tab `/hotspots/` page.
+- [x] CI `analysis-tests` job installs `.[analysis]` and runs network/validation/features tests.
+- [x] Weekly workflow builds + validates the hotspot network and caches the FastEmbed model.
+- [ ] Wire real OpenAlex topic labels into `_apply_overrides` (currently keyed by OpenAlex topic id).
+- [ ] Confirm topic lineage stability across multiple weekly runs before promoting trends to public.
 
 Latest verified local state:
 
