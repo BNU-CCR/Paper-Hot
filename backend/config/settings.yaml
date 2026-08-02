@@ -55,3 +55,26 @@ scheduler:
 logging:
   level: "INFO"
   format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# OpenAlex API key (optional but recommended for higher rate limits)
+openalex_api_key: ""
+
+# 热点网络构建参数
+hotspot_network:
+  analysis_days: 180
+  recent_days: 30
+  baseline_days: 150
+  embedding_model: "BAAI/bge-small-en-v1.5"
+  knn_k: 8
+  minimum_semantic_similarity: 0.42
+  minimum_edge_weight: 0.45
+  semantic_weight: 0.70
+  topic_weight: 0.20
+  reference_weight: 0.10
+  leiden_resolution: 0.8
+  leiden_iterations: 4
+  topic_match_threshold: 0.72
+  topic_drift_threshold: 0.55
+  min_recent_papers_for_hot: 3
+  min_total_papers_for_topic: 4
+  max_topics: 40

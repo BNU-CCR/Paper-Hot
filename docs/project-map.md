@@ -25,13 +25,16 @@
 
 | Path | Role |
 | --- | --- |
-| `backend/journal_tracker/main.py` | CLI 入口。负责 fetch、repair、screen、publish、export、coverage 等命令编排。 |
-| `backend/journal_tracker/config.py` | 读取 `backend/config/` 和 `.local/key.env`，提供数据库路径、模型、API key、红榜期刊列表。 |
-| `backend/journal_tracker/discovery.py` | 论文发现。包含 Semantic Scholar 关键词检索和 OpenAlex source/ISSN 期刊抓取。 |
+| `backend/journal_tracker/main.py` | CLI 入口。负责 fetch、repair、screen、publish、export、coverage、build-hotspot-network 等命令编排。 |
+| `backend/journal_tracker/config.py` | 读取 `backend/config/` 和 `.local/key.env`，提供数据库路径、模型、API key、红榜期刊列表、热点网络参数。 |
+| `backend/journal_tracker/discovery.py` | 论文发现。包含 Semantic Scholar 关键词检索和 OpenAlex source/ISSN 期刊抓取；OpenAlex 抓取附带 topics/keywords/referenced_works。 |
 | `backend/journal_tracker/filter.py` | AI 筛选。通过 DeepSeek/Anthropic-compatible API 生成 relevance、reason、tags、summary。 |
-| `backend/journal_tracker/storage.py` | SQLite 存储。维护 papers 表、去重、队列状态、发布状态和统计。 |
+| `backend/journal_tracker/storage.py` | SQLite 存储。维护 papers 表、paper_features 表（向量/OpenAlex 增强）、去重、队列状态、发布状态和统计。 |
 | `backend/journal_tracker/publication.py` | 公开 JSON 导出：精选论文和全量期刊更新。 |
 | `backend/journal_tracker/coverage.py` | OpenAlex 本地库存与 Crossref DOI 覆盖验证。 |
+| `backend/journal_tracker/hotspot_network.py` | 热点网络流水线：FastEmbed 向量 → mutual kNN → 混合边权 → Leiden 聚类 → 匈牙利主题匹配 → 热度评分 → 固定布局 → 原子化静态 JSON 输出。 |
+| `backend/journal_tracker/hotspot_labels.py` | LLM 批量中文主题命名，带 SHA256 指纹缓存；失败回退英文名。 |
+| `backend/journal_tracker/hotspot_validation.py` | 热点静态 JSON 的 schema 校验与原子替换前检查。 |
 | `backend/journal_tracker/readme_update.py` | 根据公开 JSON 和每周报告更新 README 统计与当期精选预览。 |
 | `backend/journal_tracker/notification.py` | 通知发送，占位保留。 |
 
@@ -41,7 +44,8 @@
 | --- | --- |
 | `backend/config/journals.yaml` | 红榜期刊、优先级、OpenAlex source id、ISSN、追踪起始年份。 |
 | `backend/config/prompts.yaml` | AI 筛选 prompt 配置。 |
-| `backend/config/settings.yaml` | 数据库、模型、通知等运行配置。 |
+| `backend/config/settings.yaml` | 数据库、模型、通知、热点网络参数等运行配置。 |
+| `backend/config/topic_overrides.yaml` | 热点主题人工重命名与合并规则。 |
 
 ## Data And Generated Outputs
 
@@ -49,8 +53,10 @@
 | --- | --- | --- |
 | `backend/data/papers.db` | 本地 SQLite 数据库。 | No |
 | `backend/data/reports/coverage_*.json` | 本地 Crossref 覆盖验证报告。 | No |
+| `.cache/fastembed/` | 本地嵌入模型缓存（CI 恢复/保存）。 | No |
 | `frontend/public/data/papers.json` | 公开站精选论文数据。 | Yes |
 | `frontend/public/data/all_papers.json` | 公开站红榜期刊全量更新数据。 | Yes |
+| `frontend/public/data/hotspots/` | 热点网络静态数据：manifest.json、graph.json、trends.json、topics/*.json。 | Yes |
 
 ## Website
 
@@ -59,7 +65,12 @@
 | `frontend/package.json` | Next.js / React 前端脚本和锁定依赖。 |
 | `frontend/app/page.tsx` | 首页 RSC：构建时读数据并渲染 `HomeFeed`。 |
 | `frontend/components/home-feed.tsx` | 首页 client 组件：精选/全量切换、搜索、相关性、期刊和可收起主题标签筛选。 |
-| `frontend/app/hotspots/page.tsx` | 当期热点页（纯 RSC，构建时读数据）。 |
+| `frontend/app/hotspots/page.tsx` | 当期热点页 RSC：构建时读图谱/趋势/manifest 数据，交给 `page-client.tsx`。 |
+| `frontend/app/hotspots/page-client.tsx` | 热点页 client 组件：图谱/趋势排行/议题概览三 Tab 切换。 |
+| `frontend/components/hotspots/hotspot-network.tsx` | Sigma.js + Graphology 交互网络图谱组件。 |
+| `frontend/components/hotspots/hotspot-detail-panel.tsx` | 主题详情面板（运行时按需加载 `topics/<id>.json`）。 |
+| `frontend/components/hotspots/hotspot-trend-table.tsx` | 主题趋势排行表格。 |
+| `frontend/lib/data-url.ts` | 浏览器安全的公开数据 URL 构建（含 basePath）。 |
 | `frontend/app/journals/page.tsx` | 独立期刊书库页：书架浏览、出版社和追踪等级筛选。 |
 | `frontend/app/journals/[slug]/page.tsx` | 期刊精读页 RSC：读数据并渲染 `JournalReadingList`。 |
 | `frontend/app/about/page.tsx` | 独立关于页和 GitHub 项目链接。 |
@@ -86,6 +97,9 @@
 | `backend/tests/test_coverage.py` | Crossref 覆盖验证逻辑。 |
 | `backend/tests/test_notification.py` | 通知开关和空发送行为。 |
 | `backend/tests/test_readme_update.py` | README 自动统计、精选预览和标记替换。 |
+| `backend/tests/test_hotspot_network.py` | 热点网络单元测试 + 合成数据库完整流水线集成测试。 |
+| `backend/tests/test_hotspot_validation.py` | 热点静态 JSON 校验逻辑。 |
+| `backend/tests/test_paper_features.py` | paper_features 表存取与分析候选查询。 |
 
 ## Documentation
 
@@ -107,6 +121,8 @@ python -m journal_tracker.main screen-pending --limit 20
 python -m journal_tracker.main export-public
 python -m journal_tracker.main verify-coverage
 python -m journal_tracker.main update-public
+python -m journal_tracker.main build-hotspot-network --analysis-days 180 --recent-days 30 --baseline-days 150 --max-topics 40
+python -m journal_tracker.main validate-hotspot-data
 python -m journal_tracker.main weekly-run --limit-per-journal 100 --screen-limit 50 --max-screen-batches 10 --refilter-limit 10
 python -m journal_tracker.readme_update
 pnpm --dir frontend install

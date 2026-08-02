@@ -5,6 +5,7 @@
 2. Semantic Scholar API - Python脚本直接调用
 """
 
+import json
 import requests
 import time
 import re
@@ -28,6 +29,10 @@ class DiscoveredPaper:
     openalex_id: str = ""
     volume: str = ""
     issue: str = ""
+    openalex_topics: str = "[]"
+    openalex_keywords: str = "[]"
+    referenced_works: str = "[]"
+    is_retracted: bool = False
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -42,6 +47,10 @@ class DiscoveredPaper:
             "openalex_id": self.openalex_id,
             "volume": self.volume,
             "issue": self.issue,
+            "openalex_topics": self.openalex_topics,
+            "openalex_keywords": self.openalex_keywords,
+            "referenced_works": self.referenced_works,
+            "is_retracted": self.is_retracted,
         }
 
 
@@ -612,6 +621,11 @@ class OpenAlexDiscovery:
                 "abstract_inverted_index",
                 "cited_by_count",
                 "biblio",
+                "topics",
+                "primary_topic",
+                "keywords",
+                "referenced_works",
+                "is_retracted",
             ]),
         }
         data = self._get_json("/works", params)
@@ -655,7 +669,52 @@ class OpenAlexDiscovery:
             openalex_id=(item.get("id", "") or "").rsplit("/", 1)[-1],
             volume=str(biblio.get("volume") or ""),
             issue=str(biblio.get("issue") or ""),
+            openalex_topics=self._serialize_topics(item.get("topics")),
+            openalex_keywords=self._serialize_keywords(item.get("keywords")),
+            referenced_works=self._serialize_referenced_works(item.get("referenced_works")),
+            is_retracted=bool(item.get("is_retracted", False)),
         )
+
+    @staticmethod
+    def _serialize_topics(topics: Any) -> str:
+        """Extract id + display_name from OpenAlex topic objects."""
+        if not topics or not isinstance(topics, list):
+            return "[]"
+        compact = []
+        for topic in topics:
+            if not isinstance(topic, dict):
+                continue
+            compact.append({
+                "id": (topic.get("id") or "").rsplit("/", 1)[-1],
+                "name": topic.get("display_name", ""),
+            })
+        return json.dumps(compact, ensure_ascii=False)
+
+    @staticmethod
+    def _serialize_keywords(keywords: Any) -> str:
+        """Extract keyword display_name and score."""
+        if not keywords or not isinstance(keywords, list):
+            return "[]"
+        compact = []
+        for kw in keywords:
+            if not isinstance(kw, dict):
+                continue
+            compact.append({
+                "name": kw.get("display_name", ""),
+                "score": kw.get("score"),
+            })
+        return json.dumps(compact, ensure_ascii=False)
+
+    @staticmethod
+    def _serialize_referenced_works(refs: Any) -> str:
+        """Extract last path segment of each referenced work URL."""
+        if not refs or not isinstance(refs, list):
+            return "[]"
+        compact = []
+        for ref in refs:
+            if isinstance(ref, str):
+                compact.append(ref.rsplit("/", 1)[-1])
+        return json.dumps(compact, ensure_ascii=False)
 
     def get_bibliography(self, openalex_id: str = "", doi: str = "") -> Dict[str, str]:
         """Return OpenAlex volume and issue metadata for one known work."""

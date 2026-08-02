@@ -37,6 +37,9 @@ frontend/.next/
 frontend/out/
 .next/
 
+# Embedding model cache (re-downloaded in CI, never committed)
+.cache/
+
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts

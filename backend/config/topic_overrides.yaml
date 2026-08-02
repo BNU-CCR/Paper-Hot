@@ -1,0 +1,19 @@
+# 主题人工重命名与合并规则
+# 研究团队在此维护主题名称和合并策略；修改后下次 Action 运行即生效。
+
+# 排除某些过于宽泛的 OpenAlex 主题名（不进入热点图谱）
+exclude_topics: []
+  # - "Communication"
+  # - "Social Sciences"
+
+# 主题中文名称人工重写（优先于 LLM 生成）
+rename: {}
+  # T123:
+  #   zh: "算法中介的政治信息环境"
+
+# 主题合并规则：将 sources 中的主题并入 target
+merge: []
+  # - target: T123
+  #   sources:
+  #     - T281
+  #     - T417
