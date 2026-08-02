@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: frontend_config
+title: 前端构建与工程配置
+scope:
+    - frontend/package.json
+    - frontend/tsconfig.json
+    - frontend/next.config.mts
+    - frontend/postcss.config.mjs
+source_files: []
+depends_on: []
+related_to:
+    - path: frontend_app

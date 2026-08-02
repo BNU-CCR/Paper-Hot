@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: backend_tests
+title: Journal Tracker 后端单元测试套件
+scope:
+    - backend/tests/
+source_files: []
+depends_on: []
+related_to:
+    - path: backend_journal_tracker/discovery_filter
+    - path: backend_journal_tracker/hotspot_analysis
+    - path: backend_journal_tracker/publication_notification
+    - path: backend_journal_tracker/storage_config

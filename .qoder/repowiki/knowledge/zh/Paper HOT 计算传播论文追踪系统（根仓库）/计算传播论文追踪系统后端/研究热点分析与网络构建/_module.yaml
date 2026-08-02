@@ -1,0 +1,14 @@
+schema_version: 1
+module_path: backend_journal_tracker/hotspot_analysis
+title: 研究热点分析与网络构建
+scope:
+    - backend/journal_tracker/hotspots.py
+    - backend/journal_tracker/hotspot_network.py
+    - backend/journal_tracker/hotspot_validation.py
+source_files: []
+depends_on: []
+related_to:
+    - path: backend_journal_tracker/discovery_filter
+    - path: backend_journal_tracker/storage_config
+    - path: backend_tests
+    - path: frontend_app/shared_lib_types

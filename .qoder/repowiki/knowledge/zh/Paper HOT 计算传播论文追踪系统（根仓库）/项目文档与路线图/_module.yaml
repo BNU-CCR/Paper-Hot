@@ -1,0 +1,9 @@
+schema_version: 1
+module_path: docs
+title: 项目文档与路线图
+scope:
+    - docs/
+source_files: []
+depends_on: []
+related_to:
+    - path: backend_scripts

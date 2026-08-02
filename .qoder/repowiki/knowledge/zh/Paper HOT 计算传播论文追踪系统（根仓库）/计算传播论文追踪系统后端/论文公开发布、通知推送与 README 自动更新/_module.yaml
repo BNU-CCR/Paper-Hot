@@ -1,0 +1,14 @@
+schema_version: 1
+module_path: backend_journal_tracker/publication_notification
+title: 论文公开发布、通知推送与 README 自动更新
+scope:
+    - backend/journal_tracker/publication.py
+    - backend/journal_tracker/notification.py
+    - backend/journal_tracker/readme_update.py
+source_files: []
+depends_on: []
+related_to:
+    - path: backend_journal_tracker/discovery_filter
+    - path: backend_journal_tracker/storage_config
+    - path: backend_tests
+    - path: frontend_app/shared_lib_types

@@ -1,0 +1,10 @@
+schema_version: 1
+module_path: frontend_app/hotspots_route
+title: 热点议题可视化页面
+scope:
+    - frontend/app/hotspots/
+    - frontend/components/hotspots/
+source_files: []
+depends_on: []
+related_to:
+    - path: frontend_app/shared_lib_types

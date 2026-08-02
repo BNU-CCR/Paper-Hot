@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: frontend_app
+title: Paper HOT 前端应用（Next.js App Router）
+scope:
+    - frontend/app/
+    - frontend/components/
+    - frontend/lib/
+    - frontend/types/
+source_files: []
+depends_on: []
+related_to:
+    - path: frontend_config

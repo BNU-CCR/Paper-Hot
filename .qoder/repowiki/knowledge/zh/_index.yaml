@@ -1,0 +1,198 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: feature/hotspot-network
+nodes_managed: true
+exported_at: "2026-08-02T11:37:07Z"
+modules:
+    "":
+        dir_name: Paper HOT 计算传播论文追踪系统（根仓库）
+        title: Paper HOT 计算传播论文追踪系统（根仓库）
+        scope:
+            - README.md
+            - pyproject.toml
+            - AGENTS.md
+            - CLAUDE.md
+            - .gitignore
+        source_files: []
+        children:
+            - backend_journal_tracker
+            - backend_scripts
+            - backend_tests
+            - docs
+            - frontend_app
+            - frontend_config
+        depends_on: []
+        related_to: []
+    backend_journal_tracker:
+        dir_name: 计算传播论文追踪系统后端
+        title: 计算传播论文追踪系统后端
+        scope:
+            - backend/journal_tracker/
+            - backend/config/
+        source_files: []
+        children:
+            - backend_journal_tracker/discovery_filter
+            - backend_journal_tracker/hotspot_analysis
+            - backend_journal_tracker/publication_notification
+            - backend_journal_tracker/storage_config
+        depends_on: []
+        related_to:
+            - path: backend_scripts
+    backend_journal_tracker/discovery_filter:
+        dir_name: 论文发现与AI筛选核心模块
+        title: 论文发现与AI筛选核心模块
+        scope:
+            - backend/journal_tracker/discovery.py
+            - backend/journal_tracker/filter.py
+            - backend/journal_tracker/main.py
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: backend_journal_tracker/hotspot_analysis
+            - path: backend_journal_tracker/publication_notification
+            - path: backend_journal_tracker/storage_config
+            - path: backend_tests
+    backend_journal_tracker/hotspot_analysis:
+        dir_name: 研究热点分析与网络构建
+        title: 研究热点分析与网络构建
+        scope:
+            - backend/journal_tracker/hotspots.py
+            - backend/journal_tracker/hotspot_network.py
+            - backend/journal_tracker/hotspot_validation.py
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: backend_journal_tracker/discovery_filter
+            - path: backend_journal_tracker/storage_config
+            - path: backend_tests
+            - path: frontend_app/shared_lib_types
+    backend_journal_tracker/publication_notification:
+        dir_name: 论文公开发布、通知推送与 README 自动更新
+        title: 论文公开发布、通知推送与 README 自动更新
+        scope:
+            - backend/journal_tracker/publication.py
+            - backend/journal_tracker/notification.py
+            - backend/journal_tracker/readme_update.py
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: backend_journal_tracker/discovery_filter
+            - path: backend_journal_tracker/storage_config
+            - path: backend_tests
+            - path: frontend_app/shared_lib_types
+    backend_journal_tracker/storage_config:
+        dir_name: 论文追踪存储与配置管理
+        title: 论文追踪存储与配置管理
+        scope:
+            - backend/journal_tracker/storage.py
+            - backend/journal_tracker/config.py
+            - backend/journal_tracker/coverage.py
+            - backend/config/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: backend_journal_tracker/discovery_filter
+            - path: backend_journal_tracker/hotspot_analysis
+            - path: backend_journal_tracker/publication_notification
+            - path: backend_tests
+    backend_scripts:
+        dir_name: 定时任务与自动化运行脚本
+        title: 定时任务与自动化运行脚本
+        scope:
+            - backend/scripts/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: backend_journal_tracker
+            - path: docs
+    backend_tests:
+        dir_name: Journal Tracker 后端单元测试套件
+        title: Journal Tracker 后端单元测试套件
+        scope:
+            - backend/tests/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: backend_journal_tracker/discovery_filter
+            - path: backend_journal_tracker/hotspot_analysis
+            - path: backend_journal_tracker/publication_notification
+            - path: backend_journal_tracker/storage_config
+    docs:
+        dir_name: 项目文档与路线图
+        title: 项目文档与路线图
+        scope:
+            - docs/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: backend_scripts
+    frontend_app:
+        dir_name: Paper HOT 前端应用（Next.js App Router）
+        title: Paper HOT 前端应用（Next.js App Router）
+        scope:
+            - frontend/app/
+            - frontend/components/
+            - frontend/lib/
+            - frontend/types/
+        source_files: []
+        children:
+            - frontend_app/hotspots_route
+            - frontend_app/shared_lib_types
+            - frontend_app/ui_components
+        depends_on: []
+        related_to:
+            - path: frontend_config
+    frontend_app/hotspots_route:
+        dir_name: 热点议题可视化页面
+        title: 热点议题可视化页面
+        scope:
+            - frontend/app/hotspots/
+            - frontend/components/hotspots/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: frontend_app/shared_lib_types
+    frontend_app/shared_lib_types:
+        dir_name: 前端共享类型与静态数据读取工具
+        title: 前端共享类型与静态数据读取工具
+        scope:
+            - frontend/lib/
+            - frontend/types/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: backend_journal_tracker/hotspot_analysis
+            - path: backend_journal_tracker/publication_notification
+            - path: frontend_app/hotspots_route
+    frontend_app/ui_components:
+        dir_name: 基础 UI 组件库（Radix 封装）
+        title: 基础 UI 组件库（Radix 封装）
+        scope:
+            - frontend/components/ui/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    frontend_config:
+        dir_name: 前端构建与工程配置
+        title: 前端构建与工程配置
+        scope:
+            - frontend/package.json
+            - frontend/tsconfig.json
+            - frontend/next.config.mts
+            - frontend/postcss.config.mjs
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: frontend_app

@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: frontend_app/ui_components
+title: 基础 UI 组件库（Radix 封装）
+scope:
+    - frontend/components/ui/
+source_files: []
+depends_on: []
+related_to: []

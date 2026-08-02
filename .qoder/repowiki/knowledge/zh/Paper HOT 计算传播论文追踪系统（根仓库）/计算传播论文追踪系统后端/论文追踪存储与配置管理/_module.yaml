@@ -1,0 +1,15 @@
+schema_version: 1
+module_path: backend_journal_tracker/storage_config
+title: 论文追踪存储与配置管理
+scope:
+    - backend/journal_tracker/storage.py
+    - backend/journal_tracker/config.py
+    - backend/journal_tracker/coverage.py
+    - backend/config/
+source_files: []
+depends_on: []
+related_to:
+    - path: backend_journal_tracker/discovery_filter
+    - path: backend_journal_tracker/hotspot_analysis
+    - path: backend_journal_tracker/publication_notification
+    - path: backend_tests

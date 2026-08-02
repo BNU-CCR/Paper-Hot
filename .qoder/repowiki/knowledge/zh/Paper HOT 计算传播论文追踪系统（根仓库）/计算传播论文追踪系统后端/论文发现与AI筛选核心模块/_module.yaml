@@ -1,0 +1,14 @@
+schema_version: 1
+module_path: backend_journal_tracker/discovery_filter
+title: 论文发现与AI筛选核心模块
+scope:
+    - backend/journal_tracker/discovery.py
+    - backend/journal_tracker/filter.py
+    - backend/journal_tracker/main.py
+source_files: []
+depends_on: []
+related_to:
+    - path: backend_journal_tracker/hotspot_analysis
+    - path: backend_journal_tracker/publication_notification
+    - path: backend_journal_tracker/storage_config
+    - path: backend_tests

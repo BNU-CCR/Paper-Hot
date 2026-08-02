@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: frontend_app/shared_lib_types
+title: 前端共享类型与静态数据读取工具
+scope:
+    - frontend/lib/
+    - frontend/types/
+source_files: []
+depends_on: []
+related_to:
+    - path: backend_journal_tracker/hotspot_analysis
+    - path: backend_journal_tracker/publication_notification
+    - path: frontend_app/hotspots_route

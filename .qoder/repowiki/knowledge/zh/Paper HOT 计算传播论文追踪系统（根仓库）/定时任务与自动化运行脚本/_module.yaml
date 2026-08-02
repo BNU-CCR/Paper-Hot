@@ -1,0 +1,10 @@
+schema_version: 1
+module_path: backend_scripts
+title: 定时任务与自动化运行脚本
+scope:
+    - backend/scripts/
+source_files: []
+depends_on: []
+related_to:
+    - path: backend_journal_tracker
+    - path: docs

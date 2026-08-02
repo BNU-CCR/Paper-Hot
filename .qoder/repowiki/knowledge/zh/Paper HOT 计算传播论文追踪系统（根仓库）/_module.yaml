@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: ""
+title: Paper HOT 计算传播论文追踪系统（根仓库）
+scope:
+    - README.md
+    - pyproject.toml
+    - AGENTS.md
+    - CLAUDE.md
+    - .gitignore
+source_files: []
+depends_on: []
+related_to: []
