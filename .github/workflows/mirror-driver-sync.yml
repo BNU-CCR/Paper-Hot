@@ -1,0 +1,32 @@
+name: Mirror driver: dispatch org syncs
+
+# Fork cron schedules are unreliable on GitHub, so Paper-Hot (a non-fork with
+# reliable cron) dispatches the fork repos' workflows on their behalf.
+# Runs ~20 min after the scrape dispatch so nateafish has committed the fresh
+# data before the BNU-CCR mirrors merge it.
+# Requires a PAT secret MIRROR_PAT (fine-grained, Actions read/write on the 4
+# nateafish/BNU-CCR mirror repos, plus read access to metadata).
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.MIRROR_PAT }}
+    steps:
+      - name: Check MIRROR_PAT secret
+        if: env.GH_TOKEN == ''
+        run: |
+          echo "::error::MIRROR_PAT secret is not set on BNU-CCR/Paper-Hot"
+          exit 1
+
+      - name: Dispatch BNU-CCR mirror syncs
+        run: |
+          for repo in BNU-CCR/trending-in-one BNU-CCR/douyin-hot-hub; do
+            gh workflow run "scheduled update and sync" -R "$repo"
+            echo "dispatched $repo"
+          done
