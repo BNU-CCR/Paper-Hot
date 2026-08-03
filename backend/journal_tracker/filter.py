@@ -1,6 +1,7 @@
 """AI筛选模块 - Anthropic 兼容 API（Claude / DeepSeek）"""
 
 import json
+import time
 import anthropic
 from typing import Optional, Dict, Any
 
@@ -154,20 +155,7 @@ class PaperFilter:
             journal=journal or "未知"
         )
 
-        response = self.client.messages.create(
-            model=self.model,
-            max_tokens=500,
-            system=self.system_prompt,
-            messages=[
-                {
-                    "role": "user",
-                    "content": user_prompt
-                }
-            ]
-        )
-
-        # 解析响应。DeepSeek Anthropic-compatible API 可能先返回 thinking block。
-        response_text = self._extract_response_text(response)
+        response_text = self._call_messages(self.system_prompt, user_prompt, max_tokens=500)
         result = self._parse_json_response(response_text)
 
         # 验证必需字段
@@ -190,9 +178,43 @@ class PaperFilter:
 
         return result
 
+    def _call_messages(self, system_prompt: str, user_prompt: str, max_tokens: int) -> str:
+        """Call the Anthropic-compatible API with retry/backoff.
+
+        DeepSeek's compatible endpoint sometimes returns a response whose content
+        blocks are all thinking blocks (no usable text) under load. Retrying the
+        call a couple of times smooths that over instead of failing the whole
+        batch/pipeline.
+        """
+        last_error: Optional[Exception] = None
+        for attempt in range(3):
+            try:
+                response = self.client.messages.create(
+                    model=self.model,
+                    max_tokens=max_tokens,
+                    system=system_prompt,
+                    messages=[{"role": "user", "content": user_prompt}],
+                )
+                return self._extract_response_text(response)
+            except Exception as exc:
+                last_error = exc
+                if attempt < 2:
+                    time.sleep(1.5 * (2 ** attempt))
+        if last_error:
+            raise last_error
+        raise ValueError("LLM call failed")
+
     def _extract_response_text(self, response) -> str:
         """从 Anthropic 兼容响应中提取文本内容，跳过 thinking/tool 等非文本块。"""
-        for block in getattr(response, "content", []):
+        blocks = getattr(response, "content", [])
+        # Prefer explicit text-type blocks (skips DeepSeek thinking blocks).
+        for block in blocks:
+            if getattr(block, "type", None) == "text":
+                text = getattr(block, "text", None)
+                if text:
+                    return text.strip()
+        # Some providers omit the block type; fall back to the first block with text.
+        for block in blocks:
             text = getattr(block, "text", None)
             if text:
                 return text.strip()
@@ -228,20 +250,14 @@ class PaperFilter:
             authors=authors or "未知",
             journal=journal or "未知",
         )
-        response = self.client.messages.create(
-            model=self.model,
+        response_text = self._call_messages(
+            self.method_system_prompt,
+            user_prompt,
             # Keep the same generous budget as filter_paper: DeepSeek's thinking
             # block consumes tokens and max_tokens=100 truncated the JSON reply.
             max_tokens=500,
-            system=self.method_system_prompt,
-            messages=[
-                {
-                    "role": "user",
-                    "content": user_prompt,
-                }
-            ],
         )
-        result = self._parse_json_response(self._extract_response_text(response))
+        result = self._parse_json_response(response_text)
         method = result.get("method", "")
         return method if method in self.method_labels else ""
 

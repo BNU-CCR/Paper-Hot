@@ -43,6 +43,7 @@ function PaperCard({ paper }: { paper: Paper }) {
       </p>
       {paper.summary && <p className="paper-summary">{paper.summary}</p>}
       <div className="paper-tags">
+        {paper.method && <span className="tag method-tag" title="研究方法">{paper.method}</span>}
         {(paper.tags || []).map((tag) => (
           <span className="tag" key={tag}>
             {tag}

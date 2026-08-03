@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import time
 from typing import Any, Dict, List, Optional
 
 import anthropic
@@ -87,26 +88,37 @@ class TopicLabeler:
 
         batch_text = "\n---\n".join(prompt_parts)
 
-        try:
-            response = self.client.messages.create(
-                model=self.model,
-                max_tokens=4000,
-                system=self.system_prompt,
-                messages=[{
-                    "role": "user",
-                    "content": (
-                        f"请为以下 {len(needs_label)} 个研究主题生成中文名称和说明。\n\n"
-                        f"{batch_text}\n\n"
-                        "严格只输出 JSON 数组，每个元素包含 topic_index, label_zh, "
-                        "description, why_hot, keywords。"
-                    ),
-                }],
-            )
-            text = self._response_text(response)
-            labels = self._parse_label_response(text, len(needs_label))
-        except Exception as exc:
-            print(f"  LLM labeling failed: {exc}")
-            labels = []
+        # Retry with backoff: DeepSeek's compatible endpoint occasionally returns
+        # only thinking blocks (no usable text) or a truncated reply under load.
+        labels: List[Dict[str, Any]] = []
+        last_error: Optional[Exception] = None
+        for attempt in range(3):
+            try:
+                response = self.client.messages.create(
+                    model=self.model,
+                    max_tokens=4000,
+                    system=self.system_prompt,
+                    messages=[{
+                        "role": "user",
+                        "content": (
+                            f"请为以下 {len(needs_label)} 个研究主题生成中文名称和说明。\n\n"
+                            f"{batch_text}\n\n"
+                            "严格只输出 JSON 数组，每个元素包含 topic_index, label_zh, "
+                            "description, why_hot, keywords。"
+                        ),
+                    }],
+                )
+                text = self._response_text(response)
+                labels = self._parse_label_response(text, len(needs_label))
+                if labels:
+                    break
+                last_error = ValueError("LLM labeling response could not be parsed as JSON")
+            except Exception as exc:
+                last_error = exc
+            if attempt < 2:
+                time.sleep(2.0 * (2 ** attempt))
+        if not labels:
+            print(f"  LLM labeling failed: {last_error}")
 
         # Apply labels to topics
         label_by_index: Dict[int, Dict[str, Any]] = {}
@@ -150,7 +162,15 @@ class TopicLabeler:
 
     @staticmethod
     def _response_text(response: Any) -> str:
-        for block in getattr(response, "content", []):
+        blocks = getattr(response, "content", [])
+        # Prefer explicit text-type blocks (skips DeepSeek thinking blocks).
+        for block in blocks:
+            if getattr(block, "type", None) == "text":
+                value = getattr(block, "text", None)
+                if value:
+                    return value.strip()
+        # Some providers omit the block type; fall back to the first block with text.
+        for block in blocks:
             value = getattr(block, "text", None)
             if value:
                 return value.strip()
@@ -160,20 +180,33 @@ class TopicLabeler:
     def _parse_label_response(
         text: str, expected_count: int,
     ) -> List[Dict[str, Any]]:
+        cleaned = text.strip()
+        # Strip a surrounding markdown code fence, if present.
+        if cleaned.startswith("```"):
+            lines = cleaned.splitlines()
+            if lines and lines[0].startswith("```"):
+                lines = lines[1:]
+            if lines and lines[-1].strip() == "```":
+                lines = lines[:-1]
+            cleaned = "\n".join(lines).strip()
         try:
-            result = json.loads(text)
+            result = json.loads(cleaned)
             if isinstance(result, list):
                 return result
-            if isinstance(result, dict) and "topics" in result:
-                return result["topics"]
+            if isinstance(result, dict):
+                if isinstance(result.get("topics"), list):
+                    return result["topics"]
+                # A single topic object without a wrapper array.
+                if "label_zh" in result:
+                    return [result]
             return []
         except json.JSONDecodeError:
-            # Try to extract JSON array from markdown
-            start = text.find("[")
-            end = text.rfind("]") + 1
+            # Try to extract a JSON array from the surrounding text.
+            start = cleaned.find("[")
+            end = cleaned.rfind("]") + 1
             if start >= 0 and end > start:
                 try:
-                    return json.loads(text[start:end])
+                    return json.loads(cleaned[start:end])
                 except json.JSONDecodeError:
                     pass
             return []

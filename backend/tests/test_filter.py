@@ -134,6 +134,35 @@ class PaperFilterTests(unittest.TestCase):
                     paper_filter = PaperFilter()
             self.assertEqual(paper_filter.label_method(title="T", abstract="A"), "")
 
+    def test_extract_response_text_skips_thinking_block_with_text(self) -> None:
+        """DeepSeek may put text on a thinking block; the JSON text block wins."""
+        thinking = Mock(type="thinking", text="让我先思考一下这个主题...")
+        text_block = Mock(type="text", text='{"method": "计算传播学"}')
+        client = Mock()
+        client.messages.create.return_value = Mock(content=[thinking, text_block])
+        config = FakeConfig()
+        config.method_labels = ["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"]
+        with patch("journal_tracker.filter.get_config", return_value=config):
+            with patch("journal_tracker.filter.anthropic.Anthropic", return_value=client):
+                paper_filter = PaperFilter()
+        method = paper_filter.label_method(title="T", abstract="A")
+        self.assertEqual(method, "计算传播学")
+
+    def test_call_messages_retries_when_response_has_no_text(self) -> None:
+        """Transient no-text responses (thinking-only) are retried with backoff."""
+        client = Mock()
+        no_text = Mock(content=[Mock(type="thinking", text=None)])
+        ok_text = Mock(content=[Mock(type="text", text='{"method": "综述"}')])
+        client.messages.create.side_effect = [no_text, no_text, ok_text]
+        config = FakeConfig()
+        config.method_labels = ["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"]
+        with patch("journal_tracker.filter.get_config", return_value=config):
+            with patch("journal_tracker.filter.anthropic.Anthropic", return_value=client):
+                paper_filter = PaperFilter()
+        method = paper_filter.label_method(title="T", abstract="A")
+        self.assertEqual(method, "综述")
+        self.assertEqual(client.messages.create.call_count, 3)
+
 
 if __name__ == "__main__":
     unittest.main()

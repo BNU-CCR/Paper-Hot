@@ -41,6 +41,15 @@ Keyword search and Semantic Scholar are supplemental, not the primary ingestion 
 - Do not commit local Feishu QR code images or `.agents/` state.
 - `frontend/public/data/papers.json` and `frontend/public/data/all_papers.json` are static website snapshots and can be committed.
 
+## Cloud Secrets & LLM Runs
+
+**API keys live only in the cloud.** `ANTHROPIC_API_KEY` (DeepSeek Anthropic-compatible), `SEMANTIC_SCHOLAR_API_KEY`, and the repo variables (`ANTHROPIC_BASE_URL`, `AI_MODEL`) are GitHub Actions secrets / variables — they are **not** present in local `.env` or the sandbox. `backend/data/papers.db` is likewise only on the Actions cache.
+
+Consequence for development:
+
+- Any code path that actually calls the LLM (AI screening, `label-methods`, hotspot topic labeling) **cannot be executed locally** — there is no key. Smoke-test it locally against **mocks** (see `backend/tests/test_filter.py` for the mock-client pattern), then hand the real run to GitHub Actions (weekly-update / backfill-journals / rebuild-hotspot-network).
+- The LLM response layer is fragile against DeepSeek's Anthropic-compatible endpoint: it may return only `thinking` blocks (no usable text) under load. The call sites in `filter.py` (`_call_messages`) and `hotspot_labels.py` retry with backoff and prefer `type == "text"` blocks; keep that behavior when adding new LLM calls.
+
 ## Hotspot Network Data (regenerated via GitHub Actions)
 
 `frontend/public/data/hotspots/` (graph.json / trends.json / manifest.json / topics/*.json) is a **build artifact**, not source — the hotspot semantic map is rebuilt in CI, never edited locally.

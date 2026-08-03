@@ -40,7 +40,7 @@ function PaperCard({ paper }: { paper: Paper }) {
   return (
     <article className="paper-card">
       <div className="paper-topline">
-        <span className="paper-topline-badges"><span className={`badge ${relevance.toLowerCase()}`}>{score}</span>{paper.method && <span className="method-badge">{paper.method}</span>}</span>
+        <span className={`badge ${relevance.toLowerCase()}`}>{score}</span>
         <time>{paper.published_date || "日期待补充"}</time>
       </div>
       {paper.source_url ? (
@@ -48,8 +48,9 @@ function PaperCard({ paper }: { paper: Paper }) {
       ) : <h3 className="paper-title">{paper.title || "Untitled paper"}</h3>}
       {(paper.authors || paper.journal) && <p className="paper-meta">{[asText(paper.authors), paper.journal].filter(Boolean).join(" · ")}</p>}
       {paper.summary && <p className="paper-summary">{paper.summary}</p>}
-      {paper.reason && <p className="paper-reason"><b>推荐理由</b>{paper.reason}</p>}
+      {paper.reason && <p className="paper-reason">{paper.reason}</p>}
       <div className="paper-tags">
+        {paper.method && <span className="tag method-tag" title="研究方法">{paper.method}</span>}
         {(paper.tags || []).map((tag) => <span key={tag} className="tag">{tag}</span>)}
       </div>
       <div className="paper-links">
