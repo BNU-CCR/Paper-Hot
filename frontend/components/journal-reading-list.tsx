@@ -49,7 +49,7 @@ function JournalPaperCard({ paper, featured }: { paper: Paper; featured?: boolea
     {paper.source_url ? <a className="paper-title" href={paper.source_url} target="_blank" rel="noreferrer">{paper.title}</a> : <h3 className="paper-title">{paper.title}</h3>}
     {paper.authors && <p className="paper-meta">{asText(paper.authors)}</p>}
     {paper.summary && <p className="paper-summary">{paper.summary}</p>}
-    {paper.reason && <p className="paper-reason">{paper.reason}</p>}
+    {!featured && paper.reason && <p className="paper-reason">{paper.reason}</p>}
     {(paper.tags || []).length > 0 && <div className="paper-tags">{(paper.tags || []).map((tag) => <span className="tag" key={tag}>{tag}</span>)}{!featured && paper.method && <span className="tag method-tag" title="研究方法">{paper.method}</span>}</div>}
     <div className="paper-links">{paper.doi && <a href={`https://doi.org/${encodeURIComponent(paper.doi)}`} target="_blank" rel="noreferrer">DOI <ExternalLink size={13} /></a>}{paper.source_url && <a href={paper.source_url} target="_blank" rel="noreferrer">原文 <ExternalLink size={13} /></a>}</div>
   </article>;

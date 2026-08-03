@@ -53,7 +53,7 @@ function PaperCard({ paper, featured }: { paper: Paper; featured?: boolean }) {
       ) : <h3 className="paper-title">{paper.title || "Untitled paper"}</h3>}
       {(paper.authors || paper.journal) && <p className="paper-meta">{[asText(paper.authors), paper.journal].filter(Boolean).join(" · ")}</p>}
       {paper.summary && <p className="paper-summary">{paper.summary}</p>}
-      {paper.reason && <p className="paper-reason">{paper.reason}</p>}
+      {!featured && paper.reason && <p className="paper-reason">{paper.reason}</p>}
       <div className="paper-tags">
         {(paper.tags || []).map((tag) => <span key={tag} className="tag">{tag}</span>)}
         {!featured && paper.method && <span className="tag method-tag" title="研究方法">{paper.method}</span>}
