@@ -34,13 +34,18 @@ function displayDate(value: string): string {
     : date.toLocaleDateString("zh-CN", { year: "numeric", month: "long", day: "numeric", weekday: "short" });
 }
 
-function PaperCard({ paper }: { paper: Paper }) {
+function PaperCard({ paper, featured }: { paper: Paper; featured?: boolean }) {
   const relevance = paper.relevance || "Unrated";
   const score = paper.score == null ? relevance : `${relevance} ${paper.score}`;
+  // In the featured feed every paper is High, so the relevance badge is
+  // redundant — surface the method label there instead.
+  const topline = featured
+    ? (paper.method ? <span className="tag method-tag" title="研究方法">{paper.method}</span> : <span className={`badge ${relevance.toLowerCase()}`}>{relevance}</span>)
+    : <span className={`badge ${relevance.toLowerCase()}`}>{score}</span>;
   return (
     <article className="paper-card">
       <div className="paper-topline">
-        <span className={`badge ${relevance.toLowerCase()}`}>{score}</span>
+        {topline}
         <time>{paper.published_date || "日期待补充"}</time>
       </div>
       {paper.source_url ? (
@@ -50,8 +55,8 @@ function PaperCard({ paper }: { paper: Paper }) {
       {paper.summary && <p className="paper-summary">{paper.summary}</p>}
       {paper.reason && <p className="paper-reason">{paper.reason}</p>}
       <div className="paper-tags">
-        {paper.method && <span className="tag method-tag" title="研究方法">{paper.method}</span>}
         {(paper.tags || []).map((tag) => <span key={tag} className="tag">{tag}</span>)}
+        {!featured && paper.method && <span className="tag method-tag" title="研究方法">{paper.method}</span>}
       </div>
       <div className="paper-links">
         {paper.doi && <a href={`https://doi.org/${encodeURIComponent(paper.doi)}`} target="_blank" rel="noreferrer">DOI</a>}
@@ -110,7 +115,7 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
         </Collapsible>
 
         <section className="feed"><div className="section-heading"><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2><span className="count">{papers.length} 篇</span></div>
-          {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</section>)}</div>}
+          {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</section>)}</div>}
         </section>
     </div>
   );
