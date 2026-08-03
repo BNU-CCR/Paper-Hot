@@ -24,6 +24,7 @@ backend/data/logs/
 .local/
 .claude/
 .claude/settings.local.json
+.playwright-mcp/
 .superpowers/
 .agents/
 .codex/
