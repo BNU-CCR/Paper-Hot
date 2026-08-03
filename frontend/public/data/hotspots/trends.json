@@ -1,7 +1,7 @@
 [
   {
     "topic_id": "topic_2c3061a6",
-    "label": "数字包容与危机传播",
+    "label": "数字时代的包容性传播与危机应对",
     "hot_score": 82,
     "growth": 0.5,
     "recent_count": 9,
@@ -13,7 +13,7 @@
   },
   {
     "topic_id": "topic_1fb343f7",
-    "label": "社交媒体身份认同与集体行动",
+    "label": "社交媒体、身份认同与集体行动",
     "hot_score": 70,
     "growth": 0.389,
     "recent_count": 5,
@@ -25,7 +25,7 @@
   },
   {
     "topic_id": "topic_bd7d8c32",
-    "label": "生物传播与叙事受众体验",
+    "label": "媒介体验的生理与情感共振",
     "hot_score": 61,
     "growth": 9.0,
     "recent_count": 2,
@@ -37,7 +37,7 @@
   },
   {
     "topic_id": "topic_48dca2de",
-    "label": "网络极化与回声室效应",
+    "label": "网络极化与回声室动态",
     "hot_score": 55,
     "growth": -0.138,
     "recent_count": 5,
@@ -49,7 +49,7 @@
   },
   {
     "topic_id": "topic_56f5bfc0",
-    "label": "认知战与叙事影响",
+    "label": "认知战与战略叙事",
     "hot_score": 52,
     "growth": -0.167,
     "recent_count": 4,
@@ -61,7 +61,7 @@
   },
   {
     "topic_id": "topic_5bc0b040",
-    "label": "媒体市场竞争与企业声誉",
+    "label": "媒体市场结构与产业策略",
     "hot_score": 51,
     "growth": 9.0,
     "recent_count": 2,
@@ -73,7 +73,7 @@
   },
   {
     "topic_id": "topic_0e10a101",
-    "label": "媒介使用与心理语言动态",
+    "label": "情感传播与媒介心理效应",
     "hot_score": 50,
     "growth": -0.286,
     "recent_count": 5,
@@ -85,7 +85,7 @@
   },
   {
     "topic_id": "topic_3281c774",
-    "label": "算法推荐与事实核查的政治效应",
+    "label": "信息治理与AI使用行为",
     "hot_score": 44,
     "growth": -0.412,
     "recent_count": 4,
@@ -97,7 +97,7 @@
   },
   {
     "topic_id": "topic_997f19cf",
-    "label": "数字反公共领域与话语抗争",
+    "label": "数字反公众与标签行动主义",
     "hot_score": 39,
     "growth": -0.464,
     "recent_count": 3,
@@ -121,7 +121,7 @@
   },
   {
     "topic_id": "topic_15d0f24a",
-    "label": "AI生成内容可信度与讯源感知",
+    "label": "AI生成内容的可信度与受众感知",
     "hot_score": 34,
     "growth": -0.565,
     "recent_count": 2,

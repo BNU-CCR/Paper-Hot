@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_bd7d8c32",
-  "label": "生物传播与叙事受众体验",
-  "description": "从生理同步到传记共鸣，探索受众对媒介内容的具身体验。",
-  "why_hot": "新近涌现生物传感器与叙事研究交叉，增幅显著。",
+  "label": "媒介体验的生理与情感共振",
+  "description": "探索叙事媒体引发的生理同步和音乐引发的传记性共鸣。",
+  "why_hot": "生理测量与情感研究的结合代表传播学新方向。",
   "hot_score": 61,
   "growth": 9.0,
   "growth_rate": 9.0,
@@ -14,10 +14,10 @@
   "lineage_status": "continued",
   "status": "emerging",
   "keywords": [
-    "生理测量",
-    "叙事",
-    "受众",
-    "具身认知"
+    "生理同步",
+    "叙事媒体",
+    "音乐共鸣",
+    "受众体验"
   ],
   "papers": [
     {

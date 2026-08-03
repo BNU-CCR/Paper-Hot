@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_81f5e828",
   "label": "人机信任与AI社会接受",
-  "description": "探讨类人机器人信任及公众对AI福利决策的支持与数字鸿沟。",
-  "why_hot": "AI决策进入公共服务，信任与公平议题受关注。",
+  "description": "研究人形机器人信任建立及AI驱动公共决策的公众支持。",
+  "why_hot": "AI进入社会决策，人机信任成为关键议题。",
   "hot_score": 35,
   "growth": -0.565,
   "growth_rate": -0.565,
@@ -15,8 +15,8 @@
   "status": "emerging",
   "keywords": [
     "人机信任",
-    "社交机器人",
-    "AI治理",
+    "社会机器人",
+    "AI决策",
     "数字鸿沟"
   ],
   "papers": [

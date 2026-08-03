@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "AI生成内容可信度与讯源感知",
-  "description": "考察解释策略、相似性等如何影响AI新闻和健康信息的可信度。",
-  "why_hot": "AI内容普及下，可信度机制成为传播研究焦点。",
+  "label": "AI生成内容的可信度与受众感知",
+  "description": "研究AI生成新闻的解释策略和相似性对可信度的影响。",
+  "why_hot": "生成式AI普及，内容可信度成为传播核心关切。",
   "hot_score": 34,
   "growth": -0.565,
   "growth_rate": -0.565,
