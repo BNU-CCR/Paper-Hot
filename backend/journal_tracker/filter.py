@@ -230,7 +230,9 @@ class PaperFilter:
         )
         response = self.client.messages.create(
             model=self.model,
-            max_tokens=100,
+            # Keep the same generous budget as filter_paper: DeepSeek's thinking
+            # block consumes tokens and max_tokens=100 truncated the JSON reply.
+            max_tokens=500,
             system=self.method_system_prompt,
             messages=[
                 {
