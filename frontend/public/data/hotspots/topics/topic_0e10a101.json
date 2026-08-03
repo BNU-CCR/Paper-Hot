@@ -1,20 +1,23 @@
 {
   "topic_id": "topic_0e10a101",
-  "label": "数字媒介与心理福祉",
-  "description": "探讨媒介使用、智能技术对幸福感、认知与关系的影响。",
-  "why_hot": "数字包容与心理健康成为交叉学科热点。",
-  "hot_score": 80,
-  "growth": 0.725,
-  "recent_count": 7,
-  "baseline_count": 28,
+  "label": "媒介使用、认知与幸福感的多方法研究",
+  "description": "涉及媒介效果、数字包容、亲密关系语言与AI福祉",
+  "why_hot": "论文数量稳定，覆盖媒介心理学与数字不平等议题",
+  "hot_score": 71,
+  "growth": 0.0,
+  "growth_rate": 0.0,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.2,
+  "recent_count": 6,
+  "baseline_count": 30,
   "journal_count": 11,
   "lineage_status": "continued",
+  "status": "hot",
   "keywords": [
-    "媒介效应",
+    "媒介效果",
+    "数字包容",
     "幸福感",
-    "智能音箱",
-    "屏幕时间",
-    "健康传播"
+    "屏幕内容"
   ],
   "papers": [
     {
@@ -58,13 +61,6 @@
       "journal": "Communication Methods and Measures",
       "published_date": "2026-07-10",
       "summary": "提出用深度学习方法对智能手机屏幕内容进行分布建模，基于53名青少年六个月的屏幕数据，分析内容模式与心理健康的关系，超越传统屏幕时间测量。"
-    },
-    {
-      "id": 27,
-      "title": "Chatbots and Loneliness: How Linguistic Dynamics in Conversations with Chatbots Shape Young Adults’ Loneliness",
-      "journal": "Communication Research",
-      "published_date": "2026-07-10",
-      "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
     },
     {
       "id": 282,
@@ -144,18 +140,18 @@
       "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
     },
     {
-      "id": 99,
-      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-24",
-      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
-    },
-    {
       "id": 361,
       "title": "Multimodal semiotic content analysis: combining quantitative large-data analysis with qualitative semiotic coding",
       "journal": "Visual Communication",
       "published_date": "2026-05-22",
       "summary": "提出混合方法框架，整合定性符号学编码与定量大规模数据分析，通过277个抑郁相关网络模因案例，揭示抑郁主题与符号资源的关联模式。"
+    },
+    {
+      "id": 106,
+      "title": "Bad domains: exposure to malicious content online",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-08",
+      "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
     },
     {
       "id": 38,
@@ -200,6 +196,13 @@
       "summary": "研究社会企业如何在社交媒体沟通中呈现双重逻辑，通过分析260家台湾企业的3年Facebook数据和调查，发现高逻辑中心性直接及透过代表性网络间接预测韧性沟通，且受感知逻辑中心性调节。"
     },
     {
+      "id": 297,
+      "title": "Understanding Engagement With Platform Safety Technology for Reducing Exposure to Online Harms",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "基于英国成人全国调查，考察用户对平台安全技术的认知、使用与满意度，发现在线伤害普遍，事后工具使用率高但满意度低，数字素养和性别影响使用。"
+    },
+    {
       "id": 300,
       "title": "A Multi-Mechanism Socio-Technical Theory of Wellness Misinformation: Aesthetic, Affective, and Algorithmic Dynamics",
       "journal": "Social Media + Society",
@@ -212,6 +215,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
+    },
+    {
+      "id": 306,
+      "title": "Bystanders and Reporters: Who Acts Against Illegal Online Content?",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "研究德国举报非法在线内容的用户特征，发现其多为年长、高学历、左倾且公民参与度高的人群，将举报视为数字公民参与形式。"
     },
     {
       "id": 308,

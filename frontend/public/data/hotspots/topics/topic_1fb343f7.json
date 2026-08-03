@@ -1,20 +1,23 @@
 {
   "topic_id": "topic_1fb343f7",
-  "label": "数字行动主义与身份认同",
-  "description": "研究社交媒体如何建构集体身份并动员抗议。",
-  "why_hot": "全球抗议浪潮中社交平台成为核心组织工具。",
-  "hot_score": 84,
-  "growth": 0.803,
-  "recent_count": 7,
+  "label": "社交媒体、身份认同与数字抗争",
+  "description": "关注社交媒体上的群体身份、动员和跨境平台迁移",
+  "why_hot": "论文增速25%，显示数字行动主义与平台迁移研究活跃",
+  "hot_score": 78,
+  "growth": 0.25,
+  "growth_rate": 0.25,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.16,
+  "recent_count": 6,
   "baseline_count": 24,
   "journal_count": 10,
   "lineage_status": "continued",
+  "status": "hot",
   "keywords": [
-    "社会认同",
-    "行动主义",
-    "抗议",
-    "性别冲突",
-    "平台动员"
+    "社交媒体",
+    "身份认同",
+    "数字抗争",
+    "平台迁移"
   ],
   "papers": [
     {
@@ -30,13 +33,6 @@
       "journal": "International Journal of Strategic Communication",
       "published_date": "2026-07-27",
       "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
-    },
-    {
-      "id": 243,
-      "title": "Navigating the hybrid media landscape? Danish green NGOs’ use of digital platforms for internal and external communication",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-27",
-      "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
     },
     {
       "id": 244,

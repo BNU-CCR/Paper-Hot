@@ -1,20 +1,23 @@
 {
   "topic_id": "topic_7ceef858",
-  "label": "大语言模型与计算方法",
-  "description": "探索LLM在计算社会科学中的自动化编码与预测。",
-  "why_hot": "LLM革新内容分析，但需反思方法缺陷。",
-  "hot_score": 68,
-  "growth": 0.965,
+  "label": "计算社科中的AI与LLM方法创新",
+  "description": "引入AI预测政治事件和LLM自动化编码流程，推动计算社科",
+  "why_hot": "近30天2篇，较此前大增，方法创新受关注",
+  "hot_score": 69,
+  "growth": 2.333,
+  "growth_rate": 2.333,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.02,
   "recent_count": 2,
   "baseline_count": 3,
   "journal_count": 4,
   "lineage_status": "continued",
+  "status": "emerging",
   "keywords": [
+    "人工智能",
+    "事件预测",
     "LLM",
-    "自动化编码",
-    "预测",
-    "内容分析",
-    "方法"
+    "自动化编码"
   ],
   "papers": [
     {

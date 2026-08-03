@@ -1,29 +1,25 @@
 {
   "topic_id": "topic_48dca2de",
-  "label": "平台政治参与与情感极化",
-  "description": "研究推荐算法与社交媒体对政治讨论和极化的影响。",
-  "why_hot": "算法与情感互动重塑政治传播环境。",
-  "hot_score": 57,
-  "growth": 0.328,
-  "recent_count": 5,
-  "baseline_count": 37,
+  "label": "党派情感极化与线上公共讨论",
+  "description": "分析社交媒体中的跨群体讨论、情感传染和党派社群动态",
+  "why_hot": "论文数量最多之一，方法反思与纵向设计并行",
+  "hot_score": 49,
+  "growth": -0.429,
+  "growth_rate": -0.429,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.2333,
+  "recent_count": 4,
+  "baseline_count": 35,
   "journal_count": 11,
   "lineage_status": "continued",
+  "status": "hot",
   "keywords": [
-    "推荐系统",
-    "政治参与",
     "情感极化",
     "党派社群",
-    "讨论"
+    "情感公众",
+    "社交媒体"
   ],
   "papers": [
-    {
-      "id": 14,
-      "title": "Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-29",
-      "summary": "基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。"
-    },
     {
       "id": 205,
       "title": "Common Identities and Political Talk: Evaluating Cross-Cutting Political Discussions in Sports Communities on Reddit",
@@ -65,13 +61,6 @@
       "journal": "Communication Research",
       "published_date": "2026-06-29",
       "summary": "利用准实验设计，比较有无本地报纸的县域居民，发现缺乏本地报纸减少主流媒体使用，加剧自由派选择性接触，并影响两党虚假信息信念。"
-    },
-    {
-      "id": 254,
-      "title": "Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-26",
-      "summary": "探讨ChatGPT使用频率、对大语言模型的威胁感知及政治意识形态如何影响用户对ChatGPT用于政治信息消费的信任，发现使用与信任正相关，威胁感知负相关，且存在交互效应。"
     },
     {
       "id": 78,
@@ -226,13 +215,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "通过在线实验检验接种理论在即时通讯中减少错误信息可信度与分享意愿的效果，发现仅特定内容接种有效，且无调节变量。"
-    },
-    {
-      "id": 46,
-      "title": "Adolescents’ Trust in Political Content From Influencers: The Roles of Motive Attribution and Parental Mediation",
-      "journal": "Communication Research",
-      "published_date": "2026-03-30",
-      "summary": "研究探讨青少年对社交媒体影响者政治内容的信任，考察动机归因、数字素养和父母中介的作用，基于三波面板调查数据。"
     },
     {
       "id": 270,

@@ -1,20 +1,23 @@
 {
   "topic_id": "topic_bd7d8c32",
-  "label": "媒介体验与身体共鸣",
-  "description": "从生理和情感角度探讨叙事媒体与音乐体验。",
-  "why_hot": "多模态方法推动受众研究转向具身认知。",
-  "hot_score": 62,
-  "growth": 0.993,
+  "label": "生理同步与受众沉浸体验",
+  "description": "用生理测量和传记共振研究媒介受众的深度投入",
+  "why_hot": "论文数量从1篇增至2篇，增速激增900%，新兴方向",
+  "hot_score": 64,
+  "growth": 9.0,
+  "growth_rate": 9.0,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.0067,
   "recent_count": 2,
   "baseline_count": 1,
   "journal_count": 2,
   "lineage_status": "continued",
+  "status": "emerging",
   "keywords": [
     "生理同步",
+    "受众",
     "叙事媒体",
-    "音乐体验",
-    "算法品味",
-    "受众"
+    "音乐共振"
   ],
   "papers": [
     {

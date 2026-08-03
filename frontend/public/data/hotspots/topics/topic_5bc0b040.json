@@ -1,20 +1,23 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "媒介市场与资本运作",
-  "description": "运用经济学方法分析传媒行业并购与市场效应。",
-  "why_hot": "流媒体竞争加剧，传媒经济研究应用价值凸显。",
-  "hot_score": 53,
-  "growth": 0.993,
+  "label": "媒介市场结构与声誉经济",
+  "description": "运用模拟与内容分析研究流媒体市场集中和企业国际化",
+  "why_hot": "近期从2篇升至3篇，速度大增，媒介经济议题回归",
+  "hot_score": 54,
+  "growth": 9.0,
+  "growth_rate": 9.0,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.0067,
   "recent_count": 2,
   "baseline_count": 1,
   "journal_count": 1,
   "lineage_status": "continued",
+  "status": "emerging",
   "keywords": [
     "流媒体",
-    "并购",
-    "媒体情绪",
-    "IPO",
-    "公司战略"
+    "市场集中",
+    "丑闻报道",
+    "企业国际化"
   ],
   "papers": [
     {

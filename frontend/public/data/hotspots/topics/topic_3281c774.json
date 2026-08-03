@@ -1,22 +1,32 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "事实核查与AI信息治理",
-  "description": "关注虚假信息、深度伪造及平台治理机制。",
-  "why_hot": "生成式AI加剧虚假信息挑战，治理方案待完善。",
-  "hot_score": 54,
-  "growth": 0.433,
-  "recent_count": 3,
-  "baseline_count": 20,
-  "journal_count": 8,
+  "label": "平台治理、事实核查与AI使用",
+  "description": "探讨推荐系统、事实核查、审查感知及生成式AI依赖",
+  "why_hot": "围绕信息效能与治理的实证研究近期集中出现",
+  "hot_score": 62,
+  "growth": -0.048,
+  "growth_rate": -0.048,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.14,
+  "recent_count": 4,
+  "baseline_count": 21,
+  "journal_count": 9,
   "lineage_status": "continued",
+  "status": "hot",
   "keywords": [
+    "推荐系统",
     "事实核查",
-    "虚假信息",
-    "深度伪造",
-    "生成式AI",
-    "平台治理"
+    "感知审查",
+    "AI成瘾"
   ],
   "papers": [
+    {
+      "id": 14,
+      "title": "Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-29",
+      "summary": "基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。"
+    },
     {
       "id": 394,
       "title": "The Costs of Governing Truth: Fact-Checking, Perceived Censorship, and Political Participation Across Governance Contexts",
@@ -39,6 +49,13 @@
       "summary": "研究评估2022年美国中期选举期间政治事实核查的局限性，发现其覆盖不足、发布滞后、在党派社群中传播受限，并反驳党派偏见假设。"
     },
     {
+      "id": 613,
+      "title": "Exploring the forces driving ChatGPT diffusion on X: An integrated theoretical perspective",
+      "journal": "Global Media and Communication",
+      "published_date": "2026-07-02",
+      "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
+    },
+    {
       "id": 286,
       "title": "Making Sense of AI-Generated Disinformation: How Audience Interpretations Influence the Impact of Deepfakes in Kenya",
       "journal": "Social Media + Society",
@@ -46,11 +63,11 @@
       "summary": "通过肯尼亚7000人调查实验，考察社交评论对政治深度伪造效果的影响，发现质疑评论可部分恢复政治家支持，且党派偏见影响判断，强调集体意义建构的作用。"
     },
     {
-      "id": 212,
-      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
-      "journal": "Political Communication",
-      "published_date": "2026-06-30",
-      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
+      "id": 254,
+      "title": "Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-26",
+      "summary": "探讨ChatGPT使用频率、对大语言模型的威胁感知及政治意识形态如何影响用户对ChatGPT用于政治信息消费的信任，发现使用与信任正相关，威胁感知负相关，且存在交互效应。"
     },
     {
       "id": 406,
@@ -123,6 +140,13 @@
       "summary": "论文批判主流反虚假信息领域的北方主导、自上而下和提取式协作，基于2022-2024年百余名全球南方参与者的项目经验，主张南南方法论和社区驱动干预。"
     },
     {
+      "id": 46,
+      "title": "Adolescents’ Trust in Political Content From Influencers: The Roles of Motive Attribution and Parental Mediation",
+      "journal": "Communication Research",
+      "published_date": "2026-03-30",
+      "summary": "研究探讨青少年对社交媒体影响者政治内容的信任，考察动机归因、数字素养和父母中介的作用，基于三波面板调查数据。"
+    },
+    {
       "id": 139,
       "title": "Infusion of generative artificial intelligence: boosting organizational agility and effectiveness",
       "journal": "Information Communication & Society",
@@ -142,13 +166,6 @@
       "journal": "Communication Research",
       "published_date": "2026-03-04",
       "summary": "通过美国和荷兰的三波预注册实验，考察政治深度伪造对目标政治人物的去合法化影响，发现其降低支持率且事实核查难以消除影响。"
-    },
-    {
-      "id": 227,
-      "title": "Political Communication Special Issue Introduction: Multi-Platform Research",
-      "journal": "Political Communication",
-      "published_date": "2026-03-04",
-      "summary": "特刊导言探讨政治传播学者如何进行多平台研究，提出比较研究与系统研究框架，强调多平台互嵌对政治传播分析的重要性。"
     },
     {
       "id": 229,

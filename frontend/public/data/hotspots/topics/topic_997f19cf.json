@@ -1,20 +1,23 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "网络极化与群体对立",
-  "description": "分析算法、标签与框架如何加剧社会分裂。",
-  "why_hot": "平台加剧性别、宗教等群体冲突，引起广泛关注。",
-  "hot_score": 51,
-  "growth": 0.37,
+  "label": "回声室、标签政治与道德框架",
+  "description": "从网络结构、标签策略和道德框架分析在线舆论极化",
+  "why_hot": "结合计算与修辞视角，关注平台舆论形成机制",
+  "hot_score": 52,
+  "growth": -0.211,
+  "growth_rate": -0.211,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.1267,
   "recent_count": 3,
-  "baseline_count": 22,
+  "baseline_count": 19,
   "journal_count": 7,
   "lineage_status": "continued",
+  "status": "hot",
   "keywords": [
     "回声室",
-    "过滤气泡",
-    "仇恨言论",
-    "性别对立",
-    "框架"
+    "标签行动主义",
+    "道德框架",
+    "性别辩论"
   ],
   "papers": [
     {
@@ -74,13 +77,6 @@
       "summary": "通过21次半结构化访谈分析健康领域记者对错误信息的感知，发现其存在第三人效果和自满倾向，未使用计算方法。"
     },
     {
-      "id": 106,
-      "title": "Bad domains: exposure to malicious content online",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-08",
-      "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
-    },
-    {
       "id": 110,
       "title": "Public discourses on sex work in Reddit digital communities: a computational approach",
       "journal": "Information Communication & Society",
@@ -123,13 +119,6 @@
       "summary": "研究分析Reddit用户对两部种族主题剧集的评论，结合主题建模与批判话语分析，揭示用户角色流动及平台匿名性对种族讨论的影响。"
     },
     {
-      "id": 297,
-      "title": "Understanding Engagement With Platform Safety Technology for Reducing Exposure to Online Harms",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "基于英国成人全国调查，考察用户对平台安全技术的认知、使用与满意度，发现在线伤害普遍，事后工具使用率高但满意度低，数字素养和性别影响使用。"
-    },
-    {
       "id": 298,
       "title": "Normative White Internet Practices: Performances at the Edge of a Digital Black Community",
       "journal": "Social Media + Society",
@@ -142,13 +131,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "该论文利用Naver News的3900万条评论数据，训练深度学习模型识别不文明内容，分析两种自动化干预对评论不文明程度和用户参与度的影响，发现干预显著降低不文明内容，但对参与度影响不一。"
-    },
-    {
-      "id": 306,
-      "title": "Bystanders and Reporters: Who Acts Against Illegal Online Content?",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "研究德国举报非法在线内容的用户特征，发现其多为年长、高学历、左倾且公民参与度高的人群，将举报视为数字公民参与形式。"
     },
     {
       "id": 135,

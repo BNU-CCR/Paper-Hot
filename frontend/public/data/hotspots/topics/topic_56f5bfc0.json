@@ -1,20 +1,23 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "叙事、宣传与认知战",
-  "description": "聚焦政治传播中叙事策略、宣传过程与认知战。",
-  "why_hot": "地缘冲突与数字平台交织，认知战研究激增。",
+  "label": "认知战与叙事武器化",
+  "description": "聚焦故事化叙事如何被用作认知战与政治动员工具",
+  "why_hot": "近期论文覆盖认知战、宣传、跨平台行动主义，呈上升趋势",
   "hot_score": 70,
-  "growth": 0.652,
+  "growth": 0.087,
+  "growth_rate": 0.087,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.1533,
   "recent_count": 5,
   "baseline_count": 23,
   "journal_count": 5,
   "lineage_status": "continued",
+  "status": "hot",
   "keywords": [
     "认知战",
+    "叙事武器",
     "宣传",
-    "叙事",
-    "QAnon",
-    "公共外交"
+    "标签行动主义"
   ],
   "papers": [
     {
@@ -130,6 +133,13 @@
       "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
     },
     {
+      "id": 512,
+      "title": "“The architect of the invasion” vs. “a symbol of resilience”: How AI chatbots frame Zelenskyy, Putin and the Russia–Ukraine war",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-19",
+      "summary": "2024年11月对ChatGPT、Copilot、Gemini、Claude四个AI聊天机器人进行定性内容分析，发现其框架与欧美媒体相似，将俄罗斯视为侵略者、乌克兰为受害者，但对俄宣传语境理解不足，存在偏见和可靠性问题。"
+    },
+    {
       "id": 514,
       "title": "Constructing childhood in the Russian-Ukrainian War: UNICEF’s Instagram representations of children",
       "journal": "Media War & Conflict",
@@ -149,6 +159,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-04-11",
       "summary": "从生态视角探讨平台化放大如何通过注意力竞争、目击内容和算法信息流强化恐怖主义报道，间接助力恐怖主义目标。"
+    },
+    {
+      "id": 519,
+      "title": "Artificial intelligence, deepfakes, and wars: How global news media frame actors, threats, and solutions in 19 countries",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-03",
+      "summary": "分析19国308篇新闻对深度伪造的行动者、威胁和解决方案的框架，基于俄乌战争案例，采用定性主题分析，揭示政治、技术、犯罪等主体及多维度威胁和应对措施。"
     },
     {
       "id": 291,
@@ -179,13 +196,6 @@
       "summary": "提出整合性“三M”框架分析短视频平台多模态虚假信息的建构、传播与政治化，并以2023年法国骚乱相关中文平台案例验证，揭示“织真”策略。"
     },
     {
-      "id": 525,
-      "title": "From laughing to learning: How TikTok genres influence American youth understanding and sentiments about the war in Ukraine",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-03-19",
-      "summary": "通过实验（N=794）考察TikTok讽刺视频和解释视频对美国青年关于俄乌战争的愤世嫉俗、政治效能、共情和知识的影响，发现视频增加愤世嫉俗和知识，且政治派别调节效果。"
-    },
-    {
       "id": 271,
       "title": "Repression through anti-repression tools: an analysis of the coordinated campaign of Iranian Telegram channels at times of crisis",
       "journal": "Journal of Information Technology & Politics",
@@ -205,13 +215,6 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-02-13",
       "summary": "分析土耳其国内外公共媒体在四次选举中的推文差异，发现国内媒体强烈偏向执政党，国际媒体相对平衡，实证揭示媒体党派化与替代公共领域。"
-    },
-    {
-      "id": 537,
-      "title": "Strategic synchrony? The co-projection of identity narratives by the Russian Ministry of Foreign Affairs and Sputnik Latvia",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-02-03",
-      "summary": "研究比较俄罗斯外交部与Sputnik Latvia 2019-2021年关于拉脱维亚的身份叙事，揭示两者协同投射，将俄罗斯塑造成正义保护者，拉脱维亚为恐俄反派，并运用故事与话语理论分析叙事说服力。"
     }
   ],
   "paper_edges": []
