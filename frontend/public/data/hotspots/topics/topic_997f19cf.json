@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "网络反公众与标签行动",
-  "description": "跨平台分析QAnon反公众，研究女权标签策略与性别争论框架。",
-  "why_hot": "平台化公众与对抗性话语的互动受到关注。",
+  "label": "数字反公共领域与话语抗争",
+  "description": "跨平台分析边缘群体如何通过标签、框架构建挑战性公共讨论。",
+  "why_hot": "反公共领域与性别议题的框架分析展现出跨平台新动态。",
   "hot_score": 39,
   "growth": -0.464,
   "growth_rate": -0.464,
@@ -14,10 +14,9 @@
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "反公众",
+    "反公共领域",
     "标签行动",
-    "QAnon",
-    "女权主义",
+    "框架",
     "性别争论"
   ],
   "papers": [

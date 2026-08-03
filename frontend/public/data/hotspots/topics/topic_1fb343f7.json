@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_1fb343f7",
-  "label": "社交媒体与社会动员",
-  "description": "从性别冲突感知到抗议动员，再到平台迁移中的身份重构。",
-  "why_hot": "社交媒体成为社会运动和组织化抗议的关键场域。",
+  "label": "社交媒体身份认同与集体行动",
+  "description": "分析平台迁移、数字社群和抗议动员中的身份政治与行动逻辑。",
+  "why_hot": "TikTok难民、跨境平台迁移等新现象引发研究热潮。",
   "hot_score": 70,
   "growth": 0.389,
   "growth_rate": 0.389,
@@ -11,13 +11,12 @@
   "recent_count": 5,
   "baseline_count": 18,
   "journal_count": 9,
-  "lineage_status": "drifted",
+  "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "社交媒体",
-    "社会身份",
-    "动员",
-    "抗议",
+    "身份认同",
+    "集体行动",
     "平台迁移"
   ],
   "papers": [
