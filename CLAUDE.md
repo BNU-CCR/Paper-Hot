@@ -21,6 +21,17 @@ Use the journal-first workflow as the default:
 5. Export public featured papers and all journal updates for the static site.
 6. Verify source coverage against Crossref.
 
+## Method Labels (研究方法标签)
+
+AI 筛选在输出主题标签（`tags`）的同时，还会为每篇论文打一个**单一**研究方法标签（`method`），固定分类学：
+
+- 纯质性分析 / 传统量化分析 / 纯理论分析 / 综述 / 计算传播学
+- 不确定时留空（`""`）
+
+- 新论文在 `screen-pending` 的同一次 AI 调用里带出 method（prompts.yaml 的 `filter_system_prompt` / `method_labels` / `method_system_prompt` / `method_user_template`）。
+- 已筛选的旧论文用 `label-methods` 回填（只更新 method，不扰动 relevance/tags/summary；一次性跑完即可，无需每周执行）。
+- method 会随 `export-public` 写入 papers.json / all_papers.json，前端卡片显示徽章并支持按方法筛选。
+
 Keyword search and Semantic Scholar are supplemental, not the primary ingestion path.
 
 ## Safety Notes
@@ -41,13 +52,26 @@ Keyword search and Semantic Scholar are supplemental, not the primary ingestion 
 - Locally `python -m journal_tracker.main build-hotspot-network` needs the `.[analysis]` extras (fastembed / umap / igraph) and the API key — in a sandbox without them, prefer the CI workflow.
 - Config for the pipeline lives in `backend/config/settings.yaml` under `hotspot_network` (analysis_days / recent_days / min_recent_papers_for_display / min_recent_papers_for_hot / include_inactive_topics / ...). The display filter means topics with `recent_count <= 1` in the last 30 days stay out of the main graph but remain in `topics_meta` for lineage.
 
+## Backfill Journal Data (year-range catch-up, via GitHub Actions)
+
+The weekly update only fetches works dated `>=` each journal's `track_from_year` (2026), so online-first journals like HCR have almost no 2025 content. To import a full year range:
+
+- `backfill-journals.yml` is a **dispatch-only** workflow (Actions → "Backfill journals (year range)" → Run workflow). It restores the cached DB, runs `backfill-run`, screens, method-labels, rebuilds hotspots, and redeploys + commits.
+- Inside `backfill-run` the order is fixed: **backfill → screen → label-methods → publish/export → hotspots** — the method-label update always runs *after* the backfill so newly imported papers get relevance + method in the same pass.
+- The workflow shares the `paper-hot-weekly-update` concurrency group with `weekly-update.yml`, so a manual backfill and the scheduled weekly run serialize on the DB cache (no race).
+- Cloud order for a one-time catch-up: push code to main → run "Backfill journals (year range)" once → the scheduled weekly keeps feeding new papers from the enlarged DB afterwards.
+- `label-methods` is a one-time backfill for papers screened before the method feature existed; new screening already writes `method` in the same AI call, so the weekly update needs no extra step.
+
 ## Useful Commands
 
 ```bash
 python -m journal_tracker.main workflow-status
 python -m journal_tracker.main fetch-journals --limit-per-journal 100
+python -m journal_tracker.main backfill-journals --from-year 2025 --to-year 2026 --limit-per-journal 1000
+python -m journal_tracker.main backfill-run --from-year 2025 --to-year 2026 --screen-limit 50 --max-screen-batches 20 --label-methods-limit 1000
 python -m journal_tracker.main repair-queue
 python -m journal_tracker.main screen-pending --limit 20
+python -m journal_tracker.main label-methods --limit 200
 python -m journal_tracker.main export-public
 python -m journal_tracker.main verify-coverage
 python -m journal_tracker.main update-public

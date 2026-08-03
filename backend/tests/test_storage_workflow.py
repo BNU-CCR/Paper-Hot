@@ -181,6 +181,53 @@ class StorageWorkflowTests(unittest.TestCase):
             self.assertEqual(rows[0]["tracked_journal"], "Communication Research")
             self.assertEqual(rows[0]["openalex_id"], "W123")
             self.assertEqual(rows[0]["screening_status"], "pending")
+            self.assertEqual(rows[0]["method"], "")
+
+    def test_method_label_backfill_query_and_update(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            base_dir = Path(tmp_dir)
+            storage = PaperStorage(base_dir / "papers.db")
+            missing_id = storage.add_paper(
+                Paper(
+                    title="Missing Method",
+                    journal="Communication Research",
+                    link="https://example.org/missing-method",
+                    relevance="High",
+                    source_type="openalex",
+                    screening_status="screened",
+                )
+            )
+            labeled_id = storage.add_paper(
+                Paper(
+                    title="Has Method",
+                    journal="Communication Research",
+                    link="https://example.org/has-method",
+                    relevance="Medium",
+                    method="综述",
+                    source_type="openalex",
+                    screening_status="screened",
+                )
+            )
+            # 未筛选论文不应进入回填队列
+            storage.add_paper(
+                Paper(
+                    title="Still Pending",
+                    journal="Communication Research",
+                    link="https://example.org/still-pending",
+                    source_type="openalex",
+                    screening_status="pending",
+                )
+            )
+
+            missing = storage.get_papers_missing_method()
+            ids = {paper.id for paper in missing}
+            self.assertIn(missing_id, ids)
+            self.assertNotIn(labeled_id, ids)
+
+            self.assertTrue(storage.update_paper_method(missing_id, "计算传播学"))
+            labeled = storage.get_paper_by_id(missing_id)
+            self.assertEqual(labeled.method, "计算传播学")
+            self.assertEqual(storage.get_papers_missing_method(), [])
 
 
 if __name__ == "__main__":

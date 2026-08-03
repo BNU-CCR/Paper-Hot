@@ -82,6 +82,30 @@ claude_model: "claude-test-model"
                 ["llm communication", "platform politics", "misinformation"],
             )
 
+    def test_config_reads_method_label_settings(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            config_dir = Path(tmp_dir) / "config"
+            config_dir.mkdir()
+
+            write_file(config_dir / "journals.yaml", "journals: []")
+            write_file(
+                config_dir / "prompts.yaml",
+                """
+method_labels:
+  - "纯质性分析"
+  - "计算传播学"
+method_system_prompt: "method system prompt from yaml"
+method_user_template: "title={title}"
+""".strip(),
+            )
+            write_file(config_dir / "settings.yaml", "{}")
+
+            config = Config(config_dir)
+
+            self.assertEqual(config.method_labels, ["纯质性分析", "计算传播学"])
+            self.assertEqual(config.method_system_prompt, "method system prompt from yaml")
+            self.assertEqual(config.method_user_template, "title={title}")
+
     def test_config_uses_database_path_relative_to_custom_config_dir(self) -> None:
         with TemporaryDirectory() as tmp_dir:
             project_dir = Path(tmp_dir)

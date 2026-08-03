@@ -25,6 +25,7 @@ class Paper:
     reason: str = ""
     tags: str = ""  # JSON string of tags list
     summary: str = ""
+    method: str = ""  # 研究方法标签（纯质性分析/传统量化分析/纯理论分析/综述/计算传播学/空）
     score: Optional[int] = None
     status: str = "To Read"  # To Read/Reading/Read
     is_public: bool = False
@@ -97,6 +98,7 @@ class PaperStorage:
                     reason TEXT,
                     tags TEXT,
                     summary TEXT,
+                    method TEXT,
                     score INTEGER,
                     status TEXT DEFAULT 'To Read',
                     is_public INTEGER DEFAULT 0,
@@ -169,6 +171,7 @@ class PaperStorage:
             "volume": "TEXT",
             "issue": "TEXT",
             "bibliography_checked_at": "TEXT",
+            "method": "TEXT",
         }
         for column, column_type in new_columns.items():
             if column not in existing_columns:
@@ -210,14 +213,14 @@ class PaperStorage:
             cursor.execute("""
                 INSERT OR IGNORE INTO papers (
                     title, authors, abstract, journal, published_date,
-                    link, doi, relevance, reason, tags, summary, score, status,
+                    link, doi, relevance, reason, tags, summary, method, score, status,
                     is_public, source_type, source_run_id, tracked_journal, openalex_id,
                     screening_status, volume, issue, bibliography_checked_at, discovered_at, created_at, updated_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 paper.title, paper.authors, paper.abstract, paper.journal,
                 paper.published_date, paper.link, paper.doi, paper.relevance,
-                paper.reason, paper.tags, paper.summary, paper.score, paper.status,
+                paper.reason, paper.tags, paper.summary, paper.method, paper.score, paper.status,
                 int(paper.is_public), paper.source_type, paper.source_run_id,
                 paper.tracked_journal, paper.openalex_id, paper.screening_status,
                 paper.volume, paper.issue, paper.bibliography_checked_at,
@@ -307,6 +310,7 @@ class PaperStorage:
         reason: str,
         tags: str,
         summary: str,
+        method: str = "",
     ) -> bool:
         """更新论文 AI 筛选结果"""
         now = datetime.now().isoformat()
@@ -314,10 +318,10 @@ class PaperStorage:
             cursor = conn.cursor()
             cursor.execute("""
                 UPDATE papers
-                SET relevance = ?, reason = ?, tags = ?, summary = ?,
+                SET relevance = ?, reason = ?, tags = ?, summary = ?, method = ?,
                     screening_status = 'screened', updated_at = ?
                 WHERE id = ?
-            """, (relevance, reason, tags, summary, now, paper_id))
+            """, (relevance, reason, tags, summary, method, now, paper_id))
             conn.commit()
             return cursor.rowcount > 0
 
@@ -485,6 +489,32 @@ class PaperStorage:
                   AND (bibliography_checked_at IS NULL OR bibliography_checked_at = '')
                   AND (openalex_id IS NOT NULL AND openalex_id != '' OR doi IS NOT NULL AND doi != '')
                 ORDER BY published_date DESC, id DESC
+                LIMIT ?
+            """, (limit,))
+            rows = cursor.fetchall()
+            return [Paper(**self._normalize_row(dict(row))) for row in rows]
+
+    def update_paper_method(self, paper_id: int, method: str) -> bool:
+        """Persist an AI-generated single research-method label (backfill only)."""
+        now = datetime.now().isoformat()
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                "UPDATE papers SET method = ?, updated_at = ? WHERE id = ?",
+                (method, now, paper_id),
+            )
+            conn.commit()
+            return cursor.rowcount > 0
+
+    def get_papers_missing_method(self, limit: int = 200) -> List[Paper]:
+        """Return screened papers that still lack a research-method label."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT * FROM papers
+                WHERE screening_status = 'screened'
+                  AND (method IS NULL OR method = '')
+                ORDER BY id DESC
                 LIMIT ?
             """, (limit,))
             rows = cursor.fetchall()
@@ -665,6 +695,18 @@ class PaperStorage:
                 for row in cursor.fetchall()
             }
 
+            # 按研究方法标签统计（用于展示回填进度）
+            cursor.execute("""
+                SELECT method, COUNT(*) as count
+                FROM papers
+                WHERE method IS NOT NULL AND method != ''
+                GROUP BY method
+            """)
+            method_stats = {
+                row["method"]: row["count"]
+                for row in cursor.fetchall()
+            }
+
             # 本周新增
             cursor.execute("""
                 SELECT COUNT(*) as count FROM papers
@@ -677,6 +719,7 @@ class PaperStorage:
                 "relevance": relevance_stats,
                 "status": status_stats,
                 "screening_status": screening_stats,
+                "method": method_stats,
                 "this_week": this_week
             }
 
@@ -692,7 +735,7 @@ class PaperStorage:
 
             fieldnames = [
                 "title", "authors", "journal", "published_date",
-                "relevance", "reason", "tags", "summary", "link", "status",
+                "relevance", "reason", "tags", "method", "summary", "link", "status",
                 "source_type", "source_run_id", "tracked_journal", "openalex_id",
                 "screening_status", "discovered_at"
             ]

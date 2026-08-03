@@ -19,6 +19,8 @@ export interface Paper {
   summary?: string;
   reason?: string;
   tags?: string[];
+  /** AI 判定的研究方法标签（纯质性分析/传统量化分析/纯理论分析/综述/计算传播学，可为空）。 */
+  method?: string;
   volume?: string;
   issue?: string;
 }

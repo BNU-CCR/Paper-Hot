@@ -589,50 +589,167 @@ class OpenAlexDiscovery:
         self.last_run_report = report
         return unique_papers
 
+    # Fields selected from the /works endpoint (kept in one place so the
+    # weekly one-page fetch and the year-range backfill page identically).
+    _WORK_SELECT_FIELDS = ",".join([
+        "id",
+        "title",
+        "doi",
+        "publication_date",
+        "authorships",
+        "primary_location",
+        "abstract_inverted_index",
+        "cited_by_count",
+        "biblio",
+        "topics",
+        "primary_topic",
+        "keywords",
+        "referenced_works",
+        "is_retracted",
+    ])
+
     def search_by_journal_config(
         self,
         journal_config: Dict[str, Any],
         from_year: int = 2026,
         limit: int = 10,
     ) -> List[DiscoveredPaper]:
-        """Fetch works for one configured journal."""
+        """Fetch the most recent works for one configured journal (weekly update)."""
         journal_name = journal_config.get("name", "")
         source_filter = self._source_filter(journal_config)
         if not source_filter:
             raise ValueError("missing openalex_source_id or ISSN")
 
         track_from_year = int(journal_config.get("track_from_year", from_year) or from_year)
-        filters = [
-            source_filter,
-            f"from_publication_date:{track_from_year}-01-01",
-            "type:article",
-        ]
-        params = {
-            "filter": ",".join(filters),
-            "sort": "publication_date:desc",
-            "per-page": min(max(1, limit), 100),
-            "select": ",".join([
-                "id",
-                "title",
-                "doi",
-                "publication_date",
-                "authorships",
-                "primary_location",
-                "abstract_inverted_index",
-                "cited_by_count",
-                "biblio",
-                "topics",
-                "primary_topic",
-                "keywords",
-                "referenced_works",
-                "is_retracted",
-            ]),
-        }
+        params = self._work_params(
+            self._works_filters(source_filter, track_from_year),
+            per_page=min(max(1, limit), 100),
+        )
         data = self._get_json("/works", params)
         return [
             self._work_to_paper(item, fallback_journal=journal_name)
             for item in data.get("results", [])
         ]
+
+    def search_all_by_journal_config(
+        self,
+        journal_config: Dict[str, Any],
+        from_year: int,
+        to_year: int,
+        max_per_journal: int = 1000,
+    ) -> List[DiscoveredPaper]:
+        """Fetch ALL works published within [from_year, to_year] for one journal.
+
+        Paginates through OpenAlex (page-based) and ignores each journal's
+        ``track_from_year`` so historical content can be backfilled once.
+        """
+        journal_name = journal_config.get("name", "")
+        source_filter = self._source_filter(journal_config)
+        if not source_filter:
+            raise ValueError("missing openalex_source_id or ISSN")
+
+        filters = self._works_filters(source_filter, from_year, to_year)
+        papers: List[DiscoveredPaper] = []
+        page = 1
+        while True:
+            params = self._work_params(filters, per_page=100)
+            params["page"] = page
+            data = self._get_json("/works", params)
+            results = data.get("results", [])
+            papers.extend(
+                self._work_to_paper(item, fallback_journal=journal_name)
+                for item in results
+            )
+            count = (data.get("meta") or {}).get("count", 0)
+            if not results or len(papers) >= count or len(papers) >= max_per_journal:
+                break
+            page += 1
+            time.sleep(self.SEARCH_PAUSE_SECONDS)
+        return papers[:max_per_journal]
+
+    def backfill_journal_updates(
+        self,
+        journals: Optional[List[Dict[str, Any]]] = None,
+        from_year: int = 2025,
+        to_year: int = 2026,
+        max_per_journal: int = 1000,
+    ) -> List[DiscoveredPaper]:
+        """Fetch all works in [from_year, to_year] for every tracked journal.
+
+        One-time catch-up used to import historical content that the weekly
+        update (which filters by each journal's ``track_from_year``) never sees.
+        """
+        if journals is None:
+            journals = get_config().get_tracked_journals()
+        if not journals or max_per_journal <= 0:
+            self.last_run_report = self._empty_run_report()
+            return []
+
+        all_papers = []
+        report = self._empty_run_report()
+        report["requested_queries"] = len(journals)
+
+        for index, journal_config in enumerate(journals):
+            journal_name = journal_config.get("name", "")
+            report["query_limits"][journal_name] = max_per_journal
+            self.last_query_error = None
+            try:
+                papers = self.search_all_by_journal_config(
+                    journal_config,
+                    from_year=from_year,
+                    to_year=to_year,
+                    max_per_journal=max_per_journal,
+                )
+                query_error = None
+            except requests.RequestException as error:
+                papers = []
+                query_error = str(error)
+            except ValueError as error:
+                papers = []
+                query_error = str(error)
+
+            if query_error:
+                report["failed_queries"] += 1
+                report["errors"].append(f"{journal_name}: {query_error}")
+            elif papers:
+                report["successful_queries"] += 1
+            else:
+                report["empty_queries"] += 1
+
+            all_papers.extend(papers)
+            if index < len(journals) - 1:
+                time.sleep(self.SEARCH_PAUSE_SECONDS)
+
+        unique_papers = self._dedupe_papers(all_papers)
+        report["raw_papers"] = len(all_papers)
+        report["returned_papers"] = len(unique_papers)
+        report["duplicate_papers"] = max(0, len(all_papers) - len(unique_papers))
+        self.last_run_report = report
+        return unique_papers
+
+    @staticmethod
+    def _works_filters(
+        source_filter: str,
+        from_year: int,
+        to_year: Optional[int] = None,
+    ) -> List[str]:
+        """Build the /works filter list for one source and an optional date window."""
+        filters = [
+            source_filter,
+            f"from_publication_date:{from_year}-01-01",
+            "type:article",
+        ]
+        if to_year is not None:
+            filters.append(f"to_publication_date:{to_year}-12-31")
+        return filters
+
+    def _work_params(self, filters: List[str], per_page: int) -> Dict[str, Any]:
+        return {
+            "filter": ",".join(filters),
+            "sort": "publication_date:desc",
+            "per-page": min(max(1, per_page), 100),
+            "select": self._WORK_SELECT_FIELDS,
+        }
 
     def _source_filter(self, journal_config: Dict[str, Any]) -> str:
         source_id = str(journal_config.get("openalex_source_id", "")).strip()

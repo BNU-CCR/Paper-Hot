@@ -40,7 +40,7 @@ function PaperCard({ paper }: { paper: Paper }) {
   return (
     <article className="paper-card">
       <div className="paper-topline">
-        <span className={`badge ${relevance.toLowerCase()}`}>{score}</span>
+        <span className="paper-topline-badges"><span className={`badge ${relevance.toLowerCase()}`}>{score}</span>{paper.method && <span className="method-badge">{paper.method}</span>}</span>
         <time>{paper.published_date || "日期待补充"}</time>
       </div>
       {paper.source_url ? (
@@ -69,12 +69,14 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
   const [mode, setMode] = useState("featured");
   const [relevance, setRelevance] = useState("all");
   const [journal, setJournal] = useState("all");
+  const [method, setMethod] = useState("all");
   const [tag, setTag] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [tagsOpen, setTagsOpen] = useState(false);
 
   const source = mode === "all" ? allPapers : featured;
   const journals = useMemo(() => [...new Set(source.map((paper) => paper.journal).filter((item): item is string => Boolean(item)))].sort((a, b) => a.localeCompare(b, "zh-CN")), [source]);
+  const methods = useMemo(() => [...new Set(source.map((paper) => paper.method).filter((m): m is string => Boolean(m)))].sort((a, b) => a.localeCompare(b, "zh-CN")), [source]);
   const tags = useMemo(() => {
     const count = new Map<string, number>();
     source.forEach((paper) => (paper.tags || []).forEach((item) => count.set(item, (count.get(item) || 0) + 1)));
@@ -83,10 +85,11 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
   const papers = useMemo(() => sortPapers(source.filter((paper) => {
     if (relevance !== "all" && paper.relevance !== relevance) return false;
     if (journal !== "all" && paper.journal !== journal) return false;
+    if (method !== "all" && paper.method !== method) return false;
     if (tag && !(paper.tags || []).some((item) => item.toLowerCase() === tag.toLowerCase())) return false;
     const needle = query.trim().toLowerCase();
-    return !needle || [paper.title, paper.summary, paper.reason, paper.journal, asText(paper.authors), asText(paper.tags)].join(" ").toLowerCase().includes(needle);
-  })), [source, relevance, journal, tag, query]);
+    return !needle || [paper.title, paper.summary, paper.reason, paper.journal, asText(paper.authors), asText(paper.tags), paper.method || ""].join(" ").toLowerCase().includes(needle);
+  })), [source, relevance, journal, method, tag, query]);
 
   return (
     <div className="main">
@@ -94,7 +97,7 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
           <div className="headline"><h1>Paper HOT</h1></div>
           <div className="toolbar shadcn-controls">
             <Tabs value={mode} onValueChange={(value) => { setMode(value); if (value === "featured") setRelevance("all"); }}><TabsList aria-label="数据范围"><TabsTrigger value="featured">精选</TabsTrigger><TabsTrigger value="all">期刊全量</TabsTrigger></TabsList></Tabs>
-            {mode === "all" && <Tabs value={relevance} onValueChange={setRelevance}><TabsList aria-label="相关性筛选"><TabsTrigger value="all">全部</TabsTrigger><TabsTrigger value="High">高相关</TabsTrigger><TabsTrigger value="Medium">其他相似文章</TabsTrigger></TabsList></Tabs>}<Select value={journal} onValueChange={setJournal}><SelectTrigger aria-label="期刊筛选"><SelectValue placeholder="全部期刊" /></SelectTrigger><SelectContent><SelectItem value="all">全部期刊</SelectItem>{journals.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select><label className="search"><span className="sr-only">搜索论文</span><Input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索标题、摘要、作者、期刊、标签" /></label>
+            {mode === "all" && <Tabs value={relevance} onValueChange={setRelevance}><TabsList aria-label="相关性筛选"><TabsTrigger value="all">全部</TabsTrigger><TabsTrigger value="High">高相关</TabsTrigger><TabsTrigger value="Medium">其他相似文章</TabsTrigger></TabsList></Tabs>}<Select value={journal} onValueChange={setJournal}><SelectTrigger aria-label="期刊筛选"><SelectValue placeholder="全部期刊" /></SelectTrigger><SelectContent><SelectItem value="all">全部期刊</SelectItem>{journals.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select><Select value={method} onValueChange={setMethod}><SelectTrigger aria-label="方法筛选"><SelectValue placeholder="全部方法" /></SelectTrigger><SelectContent><SelectItem value="all">全部方法</SelectItem>{methods.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select><label className="search"><span className="sr-only">搜索论文</span><Input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索标题、摘要、作者、期刊、方法、标签" /></label>
           </div>
         </section>
 

@@ -88,12 +88,14 @@ Latest verified local state:
 - [x] Increase OpenAlex fetch depth and refresh local journal inventory.
 - [x] Re-run coverage verification after deeper OpenAlex fetch.
 - [x] Make the default full pipeline journal-first; keep keyword search as supplemental.
+- [x] Year-range backfill (`backfill-journals.yml` + `backfill-run` / `backfill-journals`): import full 2025-2026 OpenAlex window (2170 works) that the `track_from_year: 2026` weekly filter misses, incl. online-first HCR papers dated 2025.
 
 ## Phase 3: AI Screening Quality
 
 - [ ] Define a clearer computational communication screening rubric.
 - [ ] Improve recommendation reasons to avoid generic language.
 - [ ] Normalize tag taxonomy by method, object, platform, theory, and data source.
+- [x] AI 研究方法标签（`method`）：screening 同一次调用输出 + `label-methods` 回填命令 + 前端徽章与按方法筛选。
 - [ ] Add low-confidence / manual-review queue.
 - [ ] Build a small manually labeled benchmark set for prompt regression tests.
 

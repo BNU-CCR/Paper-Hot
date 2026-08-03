@@ -166,6 +166,21 @@ class Config:
         return self.prompts.get("filter_user_template", "")
 
     @property
+    def method_labels(self) -> List[str]:
+        """固定研究方法标签分类（AI 只能从中选择唯一一个）。"""
+        return self.prompts.get("method_labels", [])
+
+    @property
+    def method_system_prompt(self) -> str:
+        """获取方法标签回填 system prompt。"""
+        return self.prompts.get("method_system_prompt", "")
+
+    @property
+    def method_user_template(self) -> str:
+        """获取方法标签回填 user 模板。"""
+        return self.prompts.get("method_user_template", "")
+
+    @property
     def hotspot_system_prompt(self) -> str:
         """获取当期热点归纳 prompt。"""
         return self.prompts.get("hotspot_system_prompt", "")

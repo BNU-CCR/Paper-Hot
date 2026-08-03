@@ -43,6 +43,7 @@ class PublicPaperExporter:
             "summary": paper.summary,
             "reason": paper.reason,
             "tags": self._split_csv_field(paper.tags),
+            "method": paper.method,
             "doi": paper.doi,
             "source_url": paper.link,
             "detail_slug": self._slugify(paper.title),

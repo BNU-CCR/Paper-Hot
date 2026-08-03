@@ -43,6 +43,7 @@ class PublicPaperExporterTests(unittest.TestCase):
                     relevance="High",
                     reason="Strong match",
                     tags="LLM,platform",
+                    method="计算传播学",
                     summary="Public summary",
                     score=92,
                     is_public=True,
@@ -74,6 +75,7 @@ class PublicPaperExporterTests(unittest.TestCase):
             self.assertEqual(exported[0]["title"], "Public LLM Paper")
             self.assertEqual(exported[0]["authors"], ["Alice Smith", "Bob Lee"])
             self.assertEqual(exported[0]["tags"], ["LLM", "platform"])
+            self.assertEqual(exported[0]["method"], "计算传播学")
             self.assertEqual(exported[0]["score"], 92)
             self.assertEqual(exported[0]["source_url"], "https://example.org/public-paper")
             self.assertEqual(exported[0]["detail_slug"], "public-llm-paper")
@@ -673,6 +675,7 @@ class PublicPaperExporterTests(unittest.TestCase):
                 "reason": "Strong computational communication match",
                 "tags": ["computational communication"],
                 "summary": "Uses computational methods.",
+                "method": "计算传播学",
             }
             try:
                 stdout = io.StringIO()
@@ -689,6 +692,7 @@ class PublicPaperExporterTests(unittest.TestCase):
             quarantined = updated_storage.get_paper_by_id(quarantined_id)
             self.assertEqual(pending.screening_status, "screened")
             self.assertEqual(pending.relevance, "High")
+            self.assertEqual(pending.method, "计算传播学")
             self.assertEqual(quarantined.screening_status, "quarantined")
             self.assertIn("Screened pending papers: 1", stdout.getvalue())
         finally:
@@ -735,6 +739,7 @@ class PublicPaperExporterTests(unittest.TestCase):
                     "reason": "Strong computational communication match",
                     "tags": ["computational communication"],
                     "summary": "Uses computational methods.",
+                    "method": "计算传播学",
                 },
             ]
             try:
@@ -760,7 +765,104 @@ class PublicPaperExporterTests(unittest.TestCase):
             screened_paper = next(paper for paper in updated_papers if paper.screening_status == "screened")
             self.assertIn("筛选出错", error_paper.reason)
             self.assertEqual(screened_paper.relevance, "High")
+            self.assertEqual(screened_paper.method, "计算传播学")
             self.assertIn("Screening errors: 1", stdout.getvalue())
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
+    def test_cli_label_methods_backfills_screened_papers(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            unlabeled_id = storage.add_paper(
+                Paper(
+                    title="No Method Label Yet",
+                    journal="Communication Research",
+                    link="https://example.org/unlabeled",
+                    relevance="High",
+                    source_type="openalex",
+                    screening_status="screened",
+                )
+            )
+            labeled_id = storage.add_paper(
+                Paper(
+                    title="Already Labeled",
+                    journal="Communication Research",
+                    link="https://example.org/labeled",
+                    relevance="Medium",
+                    method="综述",
+                    source_type="openalex",
+                    screening_status="screened",
+                )
+            )
+
+            fake_filter = patch("journal_tracker.main.PaperFilter").start()
+            fake_filter.return_value.label_method.return_value = "计算传播学"
+            try:
+                stdout = io.StringIO()
+                with patch("sys.argv", ["main", "--config", str(config_dir), "label-methods"]):
+                    with patch("sys.stdout", stdout):
+                        main_module.main()
+            finally:
+                patch.stopall()
+
+            updated_storage = PaperStorage(data_dir / "papers.db")
+            unlabeled = updated_storage.get_paper_by_id(unlabeled_id)
+            labeled = updated_storage.get_paper_by_id(labeled_id)
+            self.assertEqual(unlabeled.method, "计算传播学")
+            self.assertEqual(labeled.method, "综述")
+            self.assertIn("Backfill complete", stdout.getvalue())
+        finally:
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+
+    def test_cli_label_methods_reports_failures_without_stopping(self) -> None:
+        tmp_dir = tempfile.mkdtemp()
+        try:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            (config_dir / "journals.yaml").write_text("journals: []\n", encoding="utf-8")
+            (config_dir / "prompts.yaml").write_text("{}", encoding="utf-8")
+            (config_dir / "settings.yaml").write_text("{}", encoding="utf-8")
+
+            storage = PaperStorage(data_dir / "papers.db")
+            paper_id = storage.add_paper(
+                Paper(
+                    title="Method Label Fails",
+                    journal="Communication Research",
+                    link="https://example.org/fails",
+                    relevance="High",
+                    source_type="openalex",
+                    screening_status="screened",
+                )
+            )
+
+            fake_filter = patch("journal_tracker.main.PaperFilter").start()
+            fake_filter.return_value.label_method.side_effect = ValueError("API timeout")
+            try:
+                stdout = io.StringIO()
+                with patch("sys.argv", ["main", "--config", str(config_dir), "label-methods"]):
+                    with patch("sys.stdout", stdout):
+                        main_module.main()
+            finally:
+                patch.stopall()
+
+            updated_storage = PaperStorage(data_dir / "papers.db")
+            paper = updated_storage.get_paper_by_id(paper_id)
+            self.assertEqual(paper.method, "")
+            self.assertIn("Method label failed", stdout.getvalue())
+            self.assertIn("1 failed", stdout.getvalue())
         finally:
             shutil.rmtree(tmp_dir, ignore_errors=True)
 

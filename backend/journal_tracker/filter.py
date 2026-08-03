@@ -70,6 +70,42 @@ class PaperFilter:
 
 请按照标准判断，严格只输出JSON格式结果。"""
 
+    # 固定研究方法标签分类（AI 只能从中选择唯一一个，不确定时留空）
+    DEFAULT_METHOD_LABELS = [
+        "纯质性分析",
+        "传统量化分析",
+        "纯理论分析",
+        "综述",
+        "计算传播学",
+    ]
+
+    DEFAULT_METHOD_SYSTEM_PROMPT = """你是计算传播学领域的研究方法分类员。请根据论文的标题、摘要、作者和期刊，从以下固定方法标签中选出唯一一个最匹配的分类：
+- 纯质性分析
+- 传统量化分析
+- 纯理论分析
+- 综述
+- 计算传播学
+
+规则：
+- 只能输出列表中的标签之一，不能自创。
+- 计算传播学指使用大规模数字数据与计算方法（NLP、网络分析、机器学习、API 采集等）的实证研究。
+- 若无法确定或明显不属于任何一类，method 输出空字符串。
+
+严格只输出 JSON：
+{"method": "计算传播学"}"""
+
+    DEFAULT_METHOD_USER_TEMPLATE = """请判断以下论文的研究方法类别：
+
+**标题**：{title}
+
+**摘要**：{abstract}
+
+**作者**：{authors}
+
+**期刊**：{journal}
+
+请从固定方法标签中选出唯一一个，严格只输出JSON结果。"""
+
     def __init__(self, api_key: Optional[str] = None):
         config = get_config()
         self.api_key = api_key or config.anthropic_api_key
@@ -80,6 +116,13 @@ class PaperFilter:
         self.system_prompt = config.filter_system_prompt or self.DEFAULT_SYSTEM_PROMPT
         self.user_prompt_template = (
             config.filter_user_template or self.DEFAULT_USER_PROMPT_TEMPLATE
+        )
+        self.method_labels = config.method_labels or list(self.DEFAULT_METHOD_LABELS)
+        self.method_system_prompt = (
+            config.method_system_prompt or self.DEFAULT_METHOD_SYSTEM_PROMPT
+        )
+        self.method_user_template = (
+            config.method_user_template or self.DEFAULT_METHOD_USER_TEMPLATE
         )
         client_kwargs = {"api_key": self.api_key}
         if self.base_url:
@@ -125,23 +168,7 @@ class PaperFilter:
 
         # 解析响应。DeepSeek Anthropic-compatible API 可能先返回 thinking block。
         response_text = self._extract_response_text(response)
-
-        # 尝试提取JSON
-        try:
-            # 尝试直接解析
-            result = json.loads(response_text)
-        except json.JSONDecodeError:
-            # 尝试从文本中提取JSON
-            try:
-                # 找到JSON块
-                start = response_text.find("{")
-                end = response_text.rfind("}") + 1
-                if start != -1 and end != 0:
-                    result = json.loads(response_text[start:end])
-                else:
-                    raise ValueError(f"无法解析AI响应: {response_text}")
-            except Exception as e:
-                raise ValueError(f"无法解析AI响应: {response_text[:200]}") from e
+        result = self._parse_json_response(response_text)
 
         # 验证必需字段
         if "relevance" not in result:
@@ -157,6 +184,10 @@ class PaperFilter:
         if result["relevance"] not in ["High", "Medium", "Low"]:
             result["relevance"] = "Low"
 
+        # 研究方法标签：只接受固定分类学中的值，缺失/非法/不确定一律归 ""
+        method = result.get("method", "")
+        result["method"] = method if method in self.method_labels else ""
+
         return result
 
     def _extract_response_text(self, response) -> str:
@@ -166,6 +197,51 @@ class PaperFilter:
             if text:
                 return text.strip()
         raise ValueError("AI响应中没有可解析的文本内容")
+
+    def _parse_json_response(self, response_text: str) -> dict:
+        """容错解析 AI 响应中的 JSON：先整段解析，再尝试提取 {} 块。"""
+        try:
+            return json.loads(response_text)
+        except json.JSONDecodeError:
+            start = response_text.find("{")
+            end = response_text.rfind("}") + 1
+            if start != -1 and end != 0:
+                return json.loads(response_text[start:end])
+            raise ValueError(f"无法解析AI响应: {response_text[:200]}") from None
+
+    def label_method(
+        self,
+        title: str,
+        abstract: str,
+        authors: str = "",
+        journal: str = "",
+    ) -> str:
+        """
+        为论文打一个固定的研究方法标签（仅回填用，不影响 relevance/tags/summary）。
+
+        Returns:
+            str: 命中固定分类学的方法标签，无法确定或非法时返回空字符串。
+        """
+        user_prompt = self.method_user_template.format(
+            title=title,
+            abstract=abstract[:2000] if abstract else "无摘要",
+            authors=authors or "未知",
+            journal=journal or "未知",
+        )
+        response = self.client.messages.create(
+            model=self.model,
+            max_tokens=100,
+            system=self.method_system_prompt,
+            messages=[
+                {
+                    "role": "user",
+                    "content": user_prompt,
+                }
+            ],
+        )
+        result = self._parse_json_response(self._extract_response_text(response))
+        method = result.get("method", "")
+        return method if method in self.method_labels else ""
 
     def filter_papers(self, papers: list) -> list:
         """批量筛选论文"""

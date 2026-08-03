@@ -1,0 +1,229 @@
+name: Backfill journals (year range)
+
+# One-shot catch-up for the journal-first pipeline.
+#
+# The weekly update only fetches works dated >= each journal's track_from_year
+# (2026), so HCR and other online-first journals have almost no 2025 content in
+# the database. This workflow backfills the full [from_year, to_year] window
+# (default 2025-2026) for every tracked journal, screens the new pending papers,
+# runs the one-time `label-methods` backfill so papers screened before the method
+# feature also get method badges, then rebuilds hotspots and redeploys the site.
+#
+# Cloud action ordering (see CLAUDE.md):
+#   1. Commit the backfill + method code and push to main.
+#   2. Run this workflow (Actions -> "Backfill journals (year range)" -> Run).
+#      Inside the run the order is: backfill -> screen -> label-methods ->
+#      publish/export -> hotspots -> build/deploy.
+#   3. The scheduled weekly-update keeps feeding new papers from the enlarged DB.
+#
+# Shares the weekly-update concurrency group so a manual backfill and the
+# scheduled weekly run can never race the papers.db cache save/restore — the
+# later run waits for the earlier one to finish.
+
+on:
+  workflow_dispatch:
+    inputs:
+      from_year:
+        description: Backfill start year (inclusive)
+        required: true
+        default: "2025"
+      to_year:
+        description: Backfill end year (inclusive)
+        required: true
+        default: "2026"
+      limit_per_journal:
+        description: Maximum papers fetched per journal
+        required: true
+        default: "1000"
+      screen_limit:
+        description: Papers screened in each AI batch
+        required: true
+        default: "50"
+      max_screen_batches:
+        description: Maximum AI screening batches in this run
+        required: true
+        default: "50"
+      label_methods_limit:
+        description: Previously-screened papers to method-label (one-time backfill)
+        required: true
+        default: "1000"
+      commit_public_data:
+        description: Commit refreshed public JSON and hotspot data to main
+        type: boolean
+        required: true
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: paper-hot-weekly-update
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      ANTHROPIC_BASE_URL: ${{ vars.ANTHROPIC_BASE_URL }}
+      AI_MODEL: ${{ vars.AI_MODEL }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Restore the latest working database
+        uses: actions/cache/restore@v4
+        with:
+          path: backend/data/papers.db
+          key: paper-hot-db-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            paper-hot-db-${{ runner.os }}-
+
+      - name: Restore FastEmbed model cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/fastembed
+          key: fastembed-${{ runner.os }}-bge-small-en-v1.5-v1
+
+      - name: Record whether cloud state was restored
+        id: database-state
+        run: |
+          if [ -f backend/data/papers.db ]; then
+            echo "restored=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "restored=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install package with analysis extras
+        run: python -m pip install -e ".[analysis]"
+
+      - name: Check required configuration
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "Missing repository secret: ANTHROPIC_API_KEY" >&2
+            exit 1
+          fi
+          journal-tracker doctor
+
+      - name: Run backfill workflow (fetch -> screen -> method-label -> publish)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          journal-tracker backfill-run \
+            --from-year "${{ inputs.from_year }}" \
+            --to-year "${{ inputs.to_year }}" \
+            --limit-per-journal "${{ inputs.limit_per_journal }}" \
+            --screen-limit "${{ inputs.screen_limit }}" \
+            --max-screen-batches "${{ inputs.max_screen_batches }}" \
+            --label-methods-limit "${{ inputs.label_methods_limit }}" \
+            --refilter-limit 10
+
+      - name: Build hotspot network data
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          journal-tracker build-hotspot-network \
+            --analysis-days 180 \
+            --recent-days 30 \
+            --baseline-days 150 \
+            --max-topics 40
+
+      - name: Validate hotspot network output
+        run: |
+          journal-tracker validate-hotspot-data
+
+      - name: Validate generated public data
+        run: |
+          python -m journal_tracker.readme_update
+          python -m json.tool frontend/public/data/papers.json >/dev/null
+          python -m json.tool frontend/public/data/all_papers.json >/dev/null
+          python -m json.tool frontend/public/data/hotspots.json >/dev/null
+          python -m json.tool frontend/public/data/hotspots/graph.json >/dev/null
+          python -m json.tool frontend/public/data/hotspots/manifest.json >/dev/null
+          python -m json.tool frontend/public/data/hotspots/trends.json >/dev/null
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: frontend/pnpm-lock.yaml
+
+      - name: Build static Next.js site
+        run: |
+          pnpm --dir frontend install --frozen-lockfile
+          pnpm --dir frontend build
+          test -f frontend/out/index.html
+          test -f frontend/out/about/index.html
+          test -f frontend/out/data/papers.json
+          test -f frontend/out/data/all_papers.json
+          test -f frontend/out/data/hotspots.json
+          test -f frontend/out/data/hotspots/graph.json
+          test -f frontend/out/data/hotspots/manifest.json
+          test -f frontend/out/data/hotspots/trends.json
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/out
+
+      - name: Deploy refreshed public site
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Save FastEmbed model cache
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/fastembed
+          key: fastembed-${{ runner.os }}-bge-small-en-v1.5-v1
+
+      - name: Save the updated working database
+        uses: actions/cache/save@v4
+        with:
+          path: backend/data/papers.db
+          key: paper-hot-db-${{ runner.os }}-${{ github.run_id }}
+
+      - name: Upload run report and public data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-hot-backfill-${{ github.run_id }}
+          path: |
+            backend/data/reports/*.json
+            frontend/public/data/*.json
+            frontend/public/data/hotspots/**
+            README.md
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit refreshed public data
+        if: >-
+          github.ref == 'refs/heads/main' &&
+          inputs.commit_public_data == true &&
+          steps.database-state.outputs.restored == 'true'
+        run: |
+          git add README.md frontend/public/data/papers.json frontend/public/data/all_papers.json frontend/public/data/hotspots.json frontend/public/data/hotspots/
+          if git diff --cached --quiet; then
+            echo "No public data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): backfill journals and refresh public feed + hotspot network"
+          git push origin HEAD:main

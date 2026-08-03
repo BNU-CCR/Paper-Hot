@@ -15,11 +15,11 @@ import time
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Optional
+from typing import List, Optional
 
 from .config import Config, get_config
 from .storage import PaperStorage, Paper, PaperFeatures
-from .discovery import OpenAlexDiscovery, PaperDiscovery
+from .discovery import OpenAlexDiscovery, PaperDiscovery, DiscoveredPaper
 from .filter import PaperFilter
 from .notification import NotificationSender
 from .publication import PublicPaperExporter
@@ -106,6 +106,7 @@ def run_full_pipeline(
             reason=p.get("reason", ""),
             tags=",".join(p.get("tags", [])) if isinstance(p.get("tags"), list) else str(p.get("tags", "")),
             summary=p.get("summary", ""),
+            method=p.get("method", ""),
         )
         paper_id = storage.add_paper(paper)
         if paper_id:
@@ -181,10 +182,7 @@ def ingest_journal_updates(
     discovery = OpenAlexDiscovery()
     journals = config.get_tracked_journals()
     source_run_id = f"openalex-{datetime.now().strftime('%Y%m%d%H%M%S')}"
-    tracked_by_name = {
-        _normalize_journal_name(journal.get("name", "")): journal
-        for journal in journals
-    }
+    tracked_by_name = _tracked_by_name_map(journals)
 
     print("Red-list journal update fetch")
     print("=" * 40)
@@ -198,6 +196,71 @@ def ingest_journal_updates(
     print(f"Discovered papers: {len(papers)}")
     _print_discovery_report(getattr(discovery, "last_run_report", {}))
 
+    saved_count = _save_discovered_papers(storage, papers, source_run_id, tracked_by_name)
+    print(f"Saved new papers: {saved_count}")
+    return saved_count
+
+
+def ingest_journal_backfill(
+    config: Optional[Config] = None,
+    from_year: int = 2025,
+    to_year: int = 2026,
+    max_per_journal: int = 1000,
+) -> int:
+    """Fetch ALL works published within [from_year, to_year] for tracked journals.
+
+    One-time catch-up: imports historical content the weekly update (which filters
+    by each journal's ``track_from_year``) would otherwise never see, and stores it
+    as pending for screening. Safe to re-run — existing DOIs/links are skipped.
+    """
+    if config is None:
+        config = get_config()
+
+    config.database_path.parent.mkdir(parents=True, exist_ok=True)
+    storage = PaperStorage(config.database_path)
+    discovery = OpenAlexDiscovery()
+    journals = config.get_tracked_journals()
+    source_run_id = (
+        f"openalex-backfill-{from_year}-{to_year}-"
+        f"{datetime.now().strftime('%Y%m%d%H%M%S')}"
+    )
+    tracked_by_name = _tracked_by_name_map(journals)
+
+    print("Red-list journal backfill fetch")
+    print("=" * 40)
+    print(f"Tracked journals: {len(journals)}")
+    print(f"Year range: {from_year}-01-01 ~ {to_year}-12-31")
+    print(f"Limit per journal: {max_per_journal}")
+
+    papers = discovery.backfill_journal_updates(
+        journals=journals,
+        from_year=from_year,
+        to_year=to_year,
+        max_per_journal=max_per_journal,
+    )
+    print(f"Discovered papers: {len(papers)}")
+    _print_discovery_report(getattr(discovery, "last_run_report", {}))
+
+    saved_count = _save_discovered_papers(storage, papers, source_run_id, tracked_by_name)
+    print(f"Saved new papers: {saved_count}")
+    return saved_count
+
+
+def _tracked_by_name_map(journals: List[dict]) -> dict:
+    """Map normalized journal names to their configs for tracked_journal attribution."""
+    return {
+        _normalize_journal_name(journal.get("name", "")): journal
+        for journal in journals
+    }
+
+
+def _save_discovered_papers(
+    storage: PaperStorage,
+    papers: List[DiscoveredPaper],
+    source_run_id: str,
+    tracked_by_name: dict,
+) -> int:
+    """Persist discovered papers as pending, skipping existing rows by DOI/link."""
     saved_count = 0
     for discovered in papers:
         if storage.paper_exists(link=discovered.link, doi=discovered.doi):
@@ -235,8 +298,6 @@ def ingest_journal_updates(
                     cited_by_count=discovered.citation_count,
                     is_retracted=discovered.is_retracted,
                 ))
-
-    print(f"Saved new papers: {saved_count}")
     return saved_count
 
 
@@ -350,6 +411,47 @@ def backfill_openalex_features(config: Optional[Config] = None, limit: int = 100
     return report
 
 
+def backfill_method_labels(config: Optional[Config] = None, limit: int = 200) -> dict:
+    """Label already-screened papers with a single AI research-method tag."""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    papers = storage.get_papers_missing_method(limit=limit)
+    report = {"requested": len(papers), "labeled": 0, "uncertain": 0, "failed": 0}
+    print(f"Method-label backfill: {len(papers)} papers")
+    if not papers:
+        print("Backfill complete: 0 papers missing method labels")
+        return report
+
+    paper_filter = PaperFilter()
+    for paper in papers:
+        try:
+            method = paper_filter.label_method(
+                title=paper.title,
+                abstract=paper.abstract,
+                authors=paper.authors,
+                journal=paper.journal,
+            )
+        except Exception as exc:
+            report["failed"] += 1
+            safe_print(f"Method label failed [{paper.id}]: {paper.title[:60]} | {exc}")
+            continue
+        storage.update_paper_method(paper.id, method)
+        if method:
+            report["labeled"] += 1
+        else:
+            report["uncertain"] += 1
+        safe_print(f"Labeled [{paper.id}] {method or '(uncertain)'} | {paper.title[:60]}")
+
+    print(
+        "Backfill complete: "
+        f"{report['labeled']} labeled, {report['uncertain']} uncertain, "
+        f"{report['failed']} failed"
+    )
+    return report
+
+
 def screen_pending_papers(config: Optional[Config] = None, limit: int = 20) -> int:
     """Run AI screening for papers currently waiting in the local queue."""
     if config is None:
@@ -388,6 +490,7 @@ def screen_pending_papers(config: Optional[Config] = None, limit: int = 20) -> i
             reason=result.get("reason", ""),
             tags=tags_text,
             summary=result.get("summary", ""),
+            method=result.get("method", ""),
         ):
             screened_count += 1
             safe_print(
@@ -646,6 +749,128 @@ def run_weekly_journal_workflow(
     return 0
 
 
+def run_backfill_workflow(
+    config: Optional[Config] = None,
+    from_year: int = 2025,
+    to_year: int = 2026,
+    limit_per_journal: int = 1000,
+    screen_limit: int = 50,
+    max_screen_batches: int = 20,
+    refilter_limit: int = 10,
+    label_methods_limit: int = 1000,
+    verify: bool = True,
+) -> int:
+    """Backfill a year range of journal works, screen, method-label, and refresh public data.
+
+    Mirrors run_weekly_journal_workflow but (a) fetches the full [from_year, to_year]
+    window instead of each journal's ``track_from_year`` and (b) runs the one-time
+    ``label-methods`` backfill so papers screened before the method feature also get
+    method badges. Order matters: backfill -> screen -> method-label -> public refresh.
+    """
+    if config is None:
+        config = get_config()
+
+    started_at = datetime.now()
+    storage = PaperStorage(config.database_path)
+    before_stats = storage.get_statistics()
+    report = {
+        "started_at": started_at.isoformat(),
+        "finished_at": "",
+        "steps": {},
+        "before": before_stats,
+        "after": {},
+    }
+
+    print("Paper HOT backfill workflow")
+    print("=" * 40)
+
+    saved_count = ingest_journal_backfill(
+        config,
+        from_year=from_year,
+        to_year=to_year,
+        max_per_journal=limit_per_journal,
+    )
+    report["steps"]["backfill_journals"] = {
+        "from_year": from_year,
+        "to_year": to_year,
+        "limit_per_journal": limit_per_journal,
+        "saved_new_papers": saved_count,
+    }
+
+    repair_report = repair_local_screening_queue(config)
+    report["steps"]["repair_queue"] = repair_report
+
+    screening_batches = []
+    for batch_index in range(max_screen_batches):
+        stats = storage.get_statistics()
+        pending_count = stats.get("screening_status", {}).get("pending", 0)
+        if pending_count <= 0:
+            break
+        before_batch = storage.get_statistics()
+        screen_pending_papers(config, limit=screen_limit)
+        after_batch = storage.get_statistics()
+        before_screening = before_batch.get("screening_status", {})
+        after_screening = after_batch.get("screening_status", {})
+        screening_batches.append(
+            {
+                "batch": batch_index + 1,
+                "requested_limit": screen_limit,
+                "pending_before": pending_count,
+                "screened_delta": after_screening.get("screened", 0)
+                - before_screening.get("screened", 0),
+                "error_delta": after_screening.get("error", 0)
+                - before_screening.get("error", 0),
+                "pending_after": after_screening.get("pending", 0),
+            }
+        )
+    report["steps"]["screen_pending"] = {
+        "screen_limit": screen_limit,
+        "max_screen_batches": max_screen_batches,
+        "batches": screening_batches,
+    }
+
+    # One-time method-label backfill for papers screened before the method feature.
+    label_report = backfill_method_labels(config, limit=label_methods_limit)
+    report["steps"]["label_methods"] = label_report
+
+    update_public_workflow(config, refilter_limit=refilter_limit)
+    public_count = len(storage.get_public_papers(limit=10000))
+    report["steps"]["update_public"] = {
+        "refilter_limit": refilter_limit,
+        "public_papers": public_count,
+    }
+
+    hotspots_path = generate_monthly_hotspots(config)
+    report["steps"]["generate_hotspots"] = {"output": str(hotspots_path)}
+
+    if verify:
+        verify_coverage(config)
+        latest_coverage = config.data_dir / "reports" / "coverage_latest.json"
+        if latest_coverage.exists():
+            coverage_report = json.loads(latest_coverage.read_text(encoding="utf-8"))
+            report["steps"]["verify_coverage"] = coverage_report.get("summary", {})
+    else:
+        report["steps"]["verify_coverage"] = {"skipped": True}
+
+    report["after"] = storage.get_statistics()
+    report["finished_at"] = datetime.now().isoformat()
+    report_path = _write_backfill_run_report(config, report)
+    print(f"Backfill report: {report_path}")
+    return 0
+
+
+def _write_backfill_run_report(config: Config, report: dict) -> Path:
+    reports_dir = config.data_dir / "reports"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    dated_path = reports_dir / f"backfill_run_{timestamp}.json"
+    latest_path = reports_dir / "backfill_run_latest.json"
+    payload = json.dumps(report, ensure_ascii=False, indent=2)
+    dated_path.write_text(payload, encoding="utf-8")
+    latest_path.write_text(payload, encoding="utf-8")
+    return dated_path
+
+
 def _write_weekly_run_report(config: Config, report: dict) -> Path:
     reports_dir = config.data_dir / "reports"
     reports_dir.mkdir(parents=True, exist_ok=True)
@@ -683,6 +908,12 @@ def show_workflow_status(config: Optional[Config] = None) -> None:
     print(f"Quarantined: {quarantined_count}")
     print(f"已公开论文: {public_count}")
     print(f"筛选错误: {filter_error_count}")
+
+    method_stats = stats.get("method", {})
+    labeled_methods = sum(method_stats.values())
+    print(f"方法标签已标注: {labeled_methods}")
+    for method, count in sorted(method_stats.items(), key=lambda item: -item[1]):
+        print(f"  {method}: {count}")
 
 
 def list_public_papers(config: Optional[Config] = None):
@@ -749,6 +980,7 @@ def refilter_error_papers(config: Optional[Config] = None, limit: int = 20) -> i
             reason=result.get("reason", ""),
             tags=tags_text,
             summary=result.get("summary", ""),
+            method=result.get("method", ""),
         ):
             updated_count += 1
             print(f"已重筛: [{paper.id}] {paper.title} -> {result.get('relevance', 'Low')}")
@@ -813,6 +1045,23 @@ def main():
         ingest_journal_updates(config, pre_args.limit_per_journal)
         return
 
+    if "backfill-journals" in sys.argv[1:]:
+        pre_parser = argparse.ArgumentParser(description="Backfill journal works for a year range")
+        pre_parser.add_argument("--config", type=str, help="Config directory")
+        pre_parser.add_argument("command", choices=["backfill-journals"])
+        pre_parser.add_argument("--from-year", type=int, default=2025)
+        pre_parser.add_argument("--to-year", type=int, default=2026)
+        pre_parser.add_argument("--limit-per-journal", type=int, default=1000)
+        pre_args = pre_parser.parse_args()
+        config = Config(Path(pre_args.config)) if pre_args.config else get_config()
+        ingest_journal_backfill(
+            config,
+            from_year=pre_args.from_year,
+            to_year=pre_args.to_year,
+            max_per_journal=pre_args.limit_per_journal,
+        )
+        return
+
     if "repair-queue" in sys.argv[1:]:
         pre_parser = argparse.ArgumentParser(description="Repair local screening queue")
         pre_parser.add_argument("--config", type=str, help="Config directory")
@@ -853,6 +1102,8 @@ def main():
     bibliography_parser.add_argument("--limit", type=int, default=10000, help="最多回填论文数")
     features_parser = subparsers.add_parser("backfill-features", help="用 OpenAlex 回填 topics/keywords/references/citations")
     features_parser.add_argument("--limit", type=int, default=10000, help="最多回填论文数")
+    label_methods_parser = subparsers.add_parser("label-methods", help="为已筛选论文回填 AI 研究方法标签")
+    label_methods_parser.add_argument("--limit", type=int, default=200, help="最多回填论文数")
     subparsers.add_parser("doctor", help="检查 API key、数据库、公开 JSON 和关键词配置")
     list_parser = subparsers.add_parser("list", help="列出数据库中的论文")
     list_parser.add_argument("--limit", type=int, default=100, help="最多列出论文数")
@@ -873,6 +1124,15 @@ def main():
     weekly_parser.add_argument("--max-screen-batches", type=int, default=10, help="本次最多筛选批次数")
     weekly_parser.add_argument("--refilter-limit", type=int, default=10, help="最多重筛错误论文数")
     weekly_parser.add_argument("--skip-coverage", action="store_true", help="跳过 Crossref 覆盖验证")
+    backfill_parser = subparsers.add_parser("backfill-run", help="按年份范围补抓期刊论文并完成筛选、方法标签、发布（一次性追赶）")
+    backfill_parser.add_argument("--from-year", type=int, default=2025, help="补抓起始年份（含），默认 2025")
+    backfill_parser.add_argument("--to-year", type=int, default=2026, help="补抓结束年份（含），默认 2026")
+    backfill_parser.add_argument("--limit-per-journal", type=int, default=1000, help="每本期刊最多抓取论文数")
+    backfill_parser.add_argument("--screen-limit", type=int, default=50, help="每批最多筛选 pending 论文数")
+    backfill_parser.add_argument("--max-screen-batches", type=int, default=20, help="本次最多筛选批次数")
+    backfill_parser.add_argument("--refilter-limit", type=int, default=10, help="最多重筛错误论文数")
+    backfill_parser.add_argument("--label-methods-limit", type=int, default=1000, help="为已筛选旧论文回填方法标签的数量")
+    backfill_parser.add_argument("--skip-coverage", action="store_true", help="跳过 Crossref 覆盖验证")
 
     network_parser = subparsers.add_parser("build-hotspot-network", help="构建热点网络图谱静态数据")
     network_parser.add_argument("--analysis-days", type=int, default=180, help="分析时间窗口（天）")
@@ -905,6 +1165,8 @@ def main():
         backfill_openalex_bibliography(config, args.limit)
     elif args.command == "backfill-features":
         backfill_openalex_features(config, args.limit)
+    elif args.command == "label-methods":
+        backfill_method_labels(config, args.limit)
     elif args.command == "doctor":
         sys.exit(run_doctor(config))
     elif args.command == "list":
@@ -931,6 +1193,20 @@ def main():
                 screen_limit=args.screen_limit,
                 max_screen_batches=args.max_screen_batches,
                 refilter_limit=args.refilter_limit,
+                verify=not args.skip_coverage,
+            )
+        )
+    elif args.command == "backfill-run":
+        sys.exit(
+            run_backfill_workflow(
+                config,
+                from_year=args.from_year,
+                to_year=args.to_year,
+                limit_per_journal=args.limit_per_journal,
+                screen_limit=args.screen_limit,
+                max_screen_batches=args.max_screen_batches,
+                refilter_limit=args.refilter_limit,
+                label_methods_limit=args.label_methods_limit,
                 verify=not args.skip_coverage,
             )
         )

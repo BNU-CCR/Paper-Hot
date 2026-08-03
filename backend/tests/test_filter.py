@@ -1,4 +1,4 @@
-﻿import unittest
+import unittest
 from unittest.mock import Mock, patch
 
 from journal_tracker.filter import PaperFilter
@@ -10,6 +10,9 @@ class FakeConfig:
     claude_model = "deepseek-v4-flash"
     filter_system_prompt = ""
     filter_user_template = ""
+    method_labels = []
+    method_system_prompt = ""
+    method_user_template = ""
 
 
 class PaperFilterTests(unittest.TestCase):
@@ -24,18 +27,11 @@ class PaperFilterTests(unittest.TestCase):
             base_url="https://api.deepseek.com/anthropic",
         )
 
-    def test_filter_extracts_json_from_text_block_after_thinking_block(self) -> None:
+    def _filter_paper_with_text(self, text: str) -> dict:
         thinking_block = Mock()
         del thinking_block.text
         text_block = Mock()
-        text_block.text = """
-{
-  "relevance": "High",
-  "reason": "使用计算方法研究传播问题",
-  "tags": ["计算传播", "社交媒体"],
-  "summary": "论文使用计算方法分析社交媒体传播现象。"
-}
-""".strip()
+        text_block.text = text
 
         client = Mock()
         client.messages.create.return_value = Mock(content=[thinking_block, text_block])
@@ -44,13 +40,99 @@ class PaperFilterTests(unittest.TestCase):
             with patch("journal_tracker.filter.anthropic.Anthropic", return_value=client):
                 paper_filter = PaperFilter()
 
-        result = paper_filter.filter_paper(
+        return paper_filter.filter_paper(
             title="Computational communication paper",
             abstract="This paper analyzes social media with computational methods.",
         )
 
+    def test_filter_extracts_json_from_text_block_after_thinking_block(self) -> None:
+        result = self._filter_paper_with_text("""
+{
+  "relevance": "High",
+  "reason": "使用计算方法研究传播问题",
+  "tags": ["计算传播", "社交媒体"],
+  "summary": "论文使用计算方法分析社交媒体传播现象。"
+}
+""".strip())
+
         self.assertEqual(result["relevance"], "High")
         self.assertEqual(result["tags"], ["计算传播", "社交媒体"])
+        self.assertEqual(result["method"], "")
+
+    def test_filter_validates_method_against_configured_taxonomy(self) -> None:
+        config = FakeConfig()
+        config.method_labels = ["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"]
+        text_block = Mock()
+        text_block.text = """
+{
+  "relevance": "High",
+  "reason": "计算传播研究",
+  "tags": ["AI"],
+  "summary": "摘要",
+  "method": "计算传播学"
+}
+""".strip()
+        client = Mock()
+        client.messages.create.return_value = Mock(content=[text_block])
+        with patch("journal_tracker.filter.get_config", return_value=config):
+            with patch("journal_tracker.filter.anthropic.Anthropic", return_value=client):
+                paper_filter = PaperFilter()
+        result = paper_filter.filter_paper(title="T", abstract="A")
+        self.assertEqual(result["method"], "计算传播学")
+
+    def test_filter_coerces_invalid_or_missing_method_to_empty(self) -> None:
+        config = FakeConfig()
+        config.method_labels = ["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"]
+        text_block = Mock()
+        text_block.text = """
+{
+  "relevance": "High",
+  "reason": "计算传播研究",
+  "tags": ["AI"],
+  "summary": "摘要",
+  "method": "自创的标签"
+}
+""".strip()
+        client = Mock()
+        client.messages.create.return_value = Mock(content=[text_block])
+        with patch("journal_tracker.filter.get_config", return_value=config):
+            with patch("journal_tracker.filter.anthropic.Anthropic", return_value=client):
+                paper_filter = PaperFilter()
+        result = paper_filter.filter_paper(title="T", abstract="A")
+        self.assertEqual(result["method"], "")
+
+    def _label_method_with_text(self, text: str, method_labels=None) -> str:
+        config = FakeConfig()
+        if method_labels:
+            config.method_labels = method_labels
+        text_block = Mock()
+        text_block.text = text
+        client = Mock()
+        client.messages.create.return_value = Mock(content=[text_block])
+        with patch("journal_tracker.filter.get_config", return_value=config):
+            with patch("journal_tracker.filter.anthropic.Anthropic", return_value=client):
+                paper_filter = PaperFilter()
+        return paper_filter.label_method(title="T", abstract="A")
+
+    def test_label_method_returns_valid_label(self) -> None:
+        method = self._label_method_with_text(
+            '{"method": "综述"}',
+            method_labels=["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"],
+        )
+        self.assertEqual(method, "综述")
+
+    def test_label_method_returns_empty_for_invalid_or_uncertain(self) -> None:
+        config = FakeConfig()
+        config.method_labels = ["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"]
+        for text in ['{"method": "不存在"}', '{"method": ""}']:
+            text_block = Mock()
+            text_block.text = text
+            client = Mock()
+            client.messages.create.return_value = Mock(content=[text_block])
+            with patch("journal_tracker.filter.get_config", return_value=config):
+                with patch("journal_tracker.filter.anthropic.Anthropic", return_value=client):
+                    paper_filter = PaperFilter()
+            self.assertEqual(paper_filter.label_method(title="T", abstract="A"), "")
 
 
 if __name__ == "__main__":

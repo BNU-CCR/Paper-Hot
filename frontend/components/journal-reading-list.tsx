@@ -40,7 +40,7 @@ function issueLabel(group: IssueGroup): string {
 
 function JournalPaperCard({ paper }: { paper: Paper }) {
   return <article className="paper-card" key={paper.id || paper.title}>
-    <div className="paper-topline"><span className={`badge ${(paper.relevance || "").toLowerCase()}`}>{paper.score == null ? paper.relevance : `${paper.relevance} ${paper.score}`}</span><time>{paper.published_date || "日期待补充"}</time></div>
+    <div className="paper-topline"><span className="paper-topline-badges"><span className={`badge ${(paper.relevance || "").toLowerCase()}`}>{paper.score == null ? paper.relevance : `${paper.relevance} ${paper.score}`}</span>{paper.method && <span className="method-badge">{paper.method}</span>}</span><time>{paper.published_date || "日期待补充"}</time></div>
     {paper.source_url ? <a className="paper-title" href={paper.source_url} target="_blank" rel="noreferrer">{paper.title}</a> : <h3 className="paper-title">{paper.title}</h3>}
     {paper.authors && <p className="paper-meta">{asText(paper.authors)}</p>}
     {paper.summary && <p className="paper-summary">{paper.summary}</p>}
