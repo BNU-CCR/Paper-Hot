@@ -23,6 +23,23 @@ const TOPIC_PALETTE = [
 ];
 const NOISE_COLOR = "#9aa0a6";
 
+/**
+ * The columns Cosmograph actually reads from each point/link object. Every
+ * other field (paperId, paperCount, journalCount, growth, weight, …) is
+ * dropped before upload — see `pickFields` and the note on `pointsData`.
+ */
+const POINT_FIELDS = ["id", "type", "topic", "topicId", "label", "heat", "x", "y", "shape"];
+const LINK_FIELDS = ["source", "target"];
+
+/** Copy only the given fields out of `obj`, skipping any that are absent. */
+function pickFields(obj: Record<string, unknown>, fields: readonly string[]): Record<string, unknown> {
+  const out: Record<string, unknown> = {};
+  for (const field of fields) {
+    if (field in obj) out[field] = obj[field];
+  }
+  return out;
+}
+
 function cssVar(name: string): string {
   if (typeof document === "undefined") return "#000";
   return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || "#000";
@@ -84,6 +101,15 @@ type CosmographInternals = {
   };
 };
 
+/**
+ * Minimal shape of the library's `_internalApi`: the event bus a graph
+ * rebuild dispatches `graphRebuilt` on, plus the status-message controls.
+ */
+type CosmographInternalApi = {
+  addEventListener: (type: string, listener: () => void) => void;
+  updateMessage: (message: string | null) => void;
+};
+
 interface HotspotNetworkProps {
   graph: GraphData;
   selectedNodeId: string | null;
@@ -140,23 +166,36 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
     [themeVars],
   );
 
-  // Feed the raw point/link objects straight into Cosmograph. The core
-  // ingests them with its internal DuckDB instance and auto-generates the
-  // point/link index columns, so the separate `usePreparedCosmographData`
-  // step (which spun up a second, temporary DuckDB-WASM engine just to
-  // re-shape 300-ish rows) is unnecessary — skipping it halves the WASM
-  // heap footprint and drops the runtime CDN fetch.
+  // Feed the point/link objects straight into Cosmograph. The core ingests
+  // them with its internal DuckDB instance and auto-generates the point/link
+  // index columns, so the separate `usePreparedCosmographData` step (which
+  // spun up a second, temporary DuckDB-WASM engine just to re-shape 300-ish
+  // rows) is unnecessary — skipping it halves the WASM heap footprint and
+  // drops the runtime CDN fetch.
   //
-  // Only upload the columns Cosmograph actually reads. Shipping every field
-  // (`["*"]`) pulls in sparse numeric columns such as `paperId` / `growth`,
-  // and the internal `SUMMARIZE` step then throws `STDDEV_SAMP is out of
-  // range` inside `_rebuildGraph` — leaving its status spinner stuck on top
-  // of the rendered map. Restricting the columns both fixes that and keeps
-  // the DuckDB table (and heap) small.
+  // `pointIncludeColumns` / `linkIncludeColumns` are NOT honored in this
+  // direct-feed path (they only gate columns in the data-kit
+  // `prepareCosmographData` pipeline). Feeding the raw objects would upload
+  // every field into the built-in DuckDB table, including the sparse numeric
+  // columns `paperId` / `paperCount` / `journalCount` / `growth`. The
+  // post-render `SUMMARIZE` step then throws `STDDEV_SAMP is out of range`
+  // inside `_rebuildGraph`, and the library's error handler leaves its status
+  // spinner stuck on top of the rendered map. Stripping the objects here is
+  // what actually keeps those columns out — and keeps the DuckDB table (and
+  // heap) small.
+  const pointsData = useMemo(
+    () => graph.points.map((p) => pickFields(p as unknown as Record<string, unknown>, POINT_FIELDS)),
+    [graph],
+  );
+  const linksData = useMemo(
+    () => graph.links.map((l) => pickFields(l as unknown as Record<string, unknown>, LINK_FIELDS)),
+    [graph],
+  );
+
   const mergedConfig = useMemo<CosmographConfig>(() => {
     return {
-      points: graph.points as unknown as Record<string, unknown>[],
-      links: graph.links as unknown as Record<string, unknown>[],
+      points: pointsData,
+      links: linksData,
       pointIdBy: "id",
       linkSourceBy: "source",
       linkTargetBy: "target",
@@ -170,8 +209,6 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
       pointXBy: "x",
       pointYBy: "y",
       pointClusterBy: "topic",
-      pointIncludeColumns: ["id", "type", "topic", "topicId", "label", "heat", "x", "y", "shape"],
-      linkIncludeColumns: ["source", "target"],
       enableSimulation: false,
       backgroundColor: themeVars.card,
       unknownColor: NOISE_COLOR,
@@ -213,7 +250,7 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
         }
       },
     } as CosmographConfig;
-  }, [colorMap, anchorIds, graph, themeVars, labelStyle]);
+  }, [colorMap, anchorIds, graph, pointsData, linksData, themeVars, labelStyle]);
 
   // Highlight the selected topic cloud (external selection or trend-table click).
   useEffect(() => {
@@ -280,6 +317,12 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
           onMount={(inst) => {
             cosmographRef.current = inst as typeof cosmographRef.current;
             setMounted(true);
+            // Belt-and-suspenders: once a rebuild finishes, force the status
+            // spinner hidden even if the library's own error handling left it
+            // up (its non-`🚨` failure message keeps the spinner element).
+            // This is a no-op on the happy path where it is already hidden.
+            const internal = (inst as unknown as { _internalApi?: CosmographInternalApi })._internalApi;
+            internal?.addEventListener("graphRebuilt", () => internal.updateMessage(null));
             // Fit the whole semantic map once the data table is uploaded.
             void inst
               .dataUploaded()
