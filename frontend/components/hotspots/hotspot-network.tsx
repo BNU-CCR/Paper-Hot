@@ -8,11 +8,15 @@ import type { GraphData, GraphPoint } from "../../types/hotspot";
 /**
  * Hotspot semantic map rendered with Cosmograph (WebGL).
  *
- * Every analysis paper is a small point colored by topic and positioned by its
- * UMAP coordinate; one star-shaped anchor per topic sits at the cloud centroid
- * and carries the display label. Positions are fixed (enableSimulation=false)
- * so the UMAP layout is preserved. Clicking a topic (or a paper inside it)
- * highlights the whole cloud and opens the detail panel.
+ * Every analysis paper is a small dot colored by its topic cluster and
+ * positioned by its UMAP coordinate. One topic anchor per shown cloud sits at
+ * the centroid and carries the display label. Anchors encode the current
+ * activity state: size = recent 30-day paper count, color = trend direction
+ * (up/flat/down), shape = star (hot) vs diamond (emerging). Only topics with
+ * recent_count >= 2 appear as anchors; inactive topics stay in topics_meta.
+ * Positions are fixed (enableSimulation=false) so the UMAP layout is preserved.
+ * Clicking a topic (or a paper inside it) highlights the whole cloud and opens
+ * the detail panel.
  */
 
 const TOPIC_PALETTE = [
@@ -22,13 +26,23 @@ const TOPIC_PALETTE = [
   "#f5d76e", "#c39bd3", "#f4a7b9", "#b8a89a", "#d5d8dc",
 ];
 const NOISE_COLOR = "#9aa0a6";
+/** Topic anchor colors by trend direction (up / flat / down). */
+const TREND_PALETTE: Record<string, string> = {
+  up: "#4f9d5f",
+  flat: "#9aa0a6",
+  down: "#c9604a",
+};
 
 /**
  * The columns Cosmograph actually reads from each point/link object. Every
  * other field (paperId, paperCount, journalCount, growth, weight, …) is
  * dropped before upload — see `pickFields` and the note on `pointsData`.
+ *
+ * `size` and `trend` are written on EVERY point by the backend (papers carry
+ * `size: 2.5`, `trend: ""`) — keeping both columns dense avoids sparse-column
+ * SUMMARIZE crashes in Cosmograph's internal DuckDB.
  */
-const POINT_FIELDS = ["id", "type", "topic", "topicId", "label", "heat", "x", "y", "shape"];
+const POINT_FIELDS = ["id", "type", "topic", "topicId", "label", "heat", "size", "trend", "x", "y", "shape"];
 const LINK_FIELDS = ["source", "target"];
 
 /** Copy only the given fields out of `obj`, skipping any that are absent. */
@@ -43,18 +57,6 @@ function pickFields(obj: Record<string, unknown>, fields: readonly string[]): Re
 function cssVar(name: string): string {
   if (typeof document === "undefined") return "#000";
   return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || "#000";
-}
-
-function buildColorMap(points: GraphPoint[]): Record<string, string> {
-  const map: Record<string, string> = {};
-  const seen = new Set<number>();
-  for (const p of points) {
-    if (p.topic < 0 || seen.has(p.topic)) continue;
-    seen.add(p.topic);
-    map[String(p.topic)] = TOPIC_PALETTE[p.topic % TOPIC_PALETTE.length];
-  }
-  map["-1"] = NOISE_COLOR;
-  return map;
 }
 
 /**
@@ -132,7 +134,6 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
     () => graph.points.filter((p) => p.type === "topic").map((p) => p.id),
     [graph],
   );
-  const colorMap = useMemo(() => buildColorMap(graph.points), [graph]);
 
   // Re-read theme colors when the `[data-theme]` attribute changes.
   // `themeReady` gates the first Cosmograph mount so the WebGL context is
@@ -200,11 +201,21 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
       linkSourceBy: "source",
       linkTargetBy: "target",
       pointLabelBy: "label",
+      // One color column for all points, but two visual meanings: paper dots
+      // are colored by their topic cluster, while topic anchors are colored by
+      // their trend direction (up/flat/down). `pointColorByFn` lets us branch
+      // per point. NOTE: `pointColorStrategy`/`pointColorByMap` must NOT be set
+      // — an explicit strategy makes Cosmograph ignore this function.
       pointColorBy: "topic",
-      pointColorStrategy: "map",
-      pointColorByMap: colorMap,
-      pointSizeBy: "heat",
-      pointSizeRange: [3, 16],
+      pointColorByFn: (value: number, index: number) => {
+        const pt = graph.points[index];
+        if (pt?.type === "topic") return TREND_PALETTE[pt.trend ?? "flat"] ?? NOISE_COLOR;
+        if (value < 0) return NOISE_COLOR; // noise paper (not in any shown topic)
+        return TOPIC_PALETTE[value % TOPIC_PALETTE.length];
+      },
+      // Topic anchors scale with their recent 30-day paper count (backend `size`).
+      pointSizeBy: "size",
+      pointSizeRange: [3, 24],
       pointShapeBy: "shape",
       pointXBy: "x",
       pointYBy: "y",
@@ -250,7 +261,7 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
         }
       },
     } as CosmographConfig;
-  }, [colorMap, anchorIds, graph, pointsData, linksData, themeVars, labelStyle]);
+  }, [anchorIds, graph, pointsData, linksData, themeVars, labelStyle]);
 
   // Highlight the selected topic cloud (external selection or trend-table click).
   useEffect(() => {

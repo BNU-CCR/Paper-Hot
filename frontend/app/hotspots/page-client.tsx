@@ -137,6 +137,7 @@ export function HotspotPageClient({
                 <p className="font-medium mb-1">计算周期说明</p>
                 <p className="text-muted-foreground">热度窗口：近 30 天（{manifest.period.recent_start} ~ {manifest.period.recent_end}）</p>
                 <p className="text-muted-foreground">分析范围：近 180 天（{manifest.period.baseline_start} ~ {manifest.period.recent_end}）</p>
+                <p className="text-muted-foreground">主图仅展示近 30 天 ≥2 篇的活跃主题；近 30 天 ≤1 篇的潜在议题不进入主图。</p>
               </HoverCardContent>
             </HoverCard>
           </div>

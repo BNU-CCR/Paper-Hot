@@ -22,6 +22,8 @@ try:
         _compute_heat_scores,
         _compute_topic_graph,
         _compute_anchor_positions,
+        _ensure_output_dirs,
+        _build_output,
         _compute_umap,
         _paper_recency_heat,
         build_hotspot_network,
@@ -54,7 +56,7 @@ class HotspotNetworkUnitTests(unittest.TestCase):
         candidates = [{"id": i} for i in range(6)]
         embeddings = np.zeros((6, 4), dtype=np.float32)
         topics = _form_topics(membership, candidates, embeddings, min_cluster_size=4)
-        by_size = {t["size"]: t["status"] for t in topics}
+        by_size = {t["size"]: t["cluster_kind"] for t in topics}
         self.assertEqual(by_size[2], "emerging")
         self.assertEqual(by_size[4], "formal")
 
@@ -115,7 +117,7 @@ class HotspotNetworkUnitTests(unittest.TestCase):
             "cluster_id": 0,
             "paper_indices": [0, 1, 2, 3],
             "size": 4,
-            "status": "formal",
+            "cluster_kind": "formal",
         }]
         scored = _compute_heat_scores(
             topics, candidates, recent_days=30, baseline_days=150,
@@ -127,6 +129,89 @@ class HotspotNetworkUnitTests(unittest.TestCase):
         self.assertLessEqual(topic["hot_score"], 1.0)
         self.assertTrue(np.isfinite(topic["hot_score"]))
         self.assertTrue(topic["is_hot"])
+        # Rate-based growth: 4 papers over 30 days, none in the 150-day baseline.
+        self.assertEqual(topic["status"], "hot")
+        self.assertAlmostEqual(topic["recent_rate"], 4 / 30, places=4)
+        self.assertAlmostEqual(topic["baseline_rate"], 0.0, places=4)
+        self.assertGreater(topic["growth_rate"], 0.0)
+        self.assertTrue(np.isfinite(topic["growth_score"]))
+        self.assertGreaterEqual(topic["growth_score"], 0.0)
+        self.assertLessEqual(topic["growth_score"], 1.0)
+        self.assertEqual(topic["trend"], "up")
+
+    def test_growth_uses_per_day_rates(self):
+        # 4 papers in the 30-day window vs 10 in the 150-day baseline: the raw
+        # counts fall (4 < 10) but the per-day rate doubles, so growth ~ +100%.
+        anchor = date.today()
+        candidates = []
+        for _ in range(4):
+            candidates.append({"id": len(candidates) + 1, "journal": "J",
+                               "published_date": (anchor - timedelta(days=10)).isoformat()})
+        for _ in range(10):
+            candidates.append({"id": len(candidates) + 1, "journal": "J",
+                               "published_date": (anchor - timedelta(days=100)).isoformat()})
+        topics = [{
+            "cluster_id": 0,
+            "paper_indices": list(range(14)),
+            "size": 14,
+            "cluster_kind": "formal",
+        }]
+        scored = _compute_heat_scores(
+            topics, candidates, recent_days=30, baseline_days=150,
+            anchor_date=anchor, min_recent_for_hot=3,
+        )
+        topic = scored[0]
+        self.assertEqual(topic["recent_count"], 4)
+        self.assertEqual(topic["baseline_count"], 10)
+        self.assertAlmostEqual(topic["growth_rate"], 1.0, places=2)
+
+    def test_inactive_topics_excluded_from_graph(self):
+        # An active topic (3 recent papers) renders as an anchor; an inactive
+        # topic (0 recent papers) is absent from graph points / trends.json but
+        # stays in topics_meta with status == "inactive" for lineage.
+        anchor = date.today()
+        candidates = [
+            {"id": 1, "journal": "J", "published_date": (anchor - timedelta(days=5)).isoformat()},
+            {"id": 2, "journal": "J", "published_date": (anchor - timedelta(days=6)).isoformat()},
+            {"id": 3, "journal": "J", "published_date": (anchor - timedelta(days=7)).isoformat()},
+            {"id": 4, "journal": "J", "published_date": (anchor - timedelta(days=120)).isoformat()},
+            {"id": 5, "journal": "J", "published_date": (anchor - timedelta(days=121)).isoformat()},
+        ]
+        topics = [
+            {"cluster_id": 0, "topic_id": "t_active", "paper_indices": [0, 1, 2], "size": 3,
+             "cluster_kind": "formal", "centroid": np.zeros(8)},
+            {"cluster_id": 1, "topic_id": "t_inactive", "paper_indices": [3, 4], "size": 2,
+             "cluster_kind": "emerging", "centroid": np.zeros(8)},
+        ]
+        scored = _compute_heat_scores(
+            topics, candidates, recent_days=30, baseline_days=150,
+            anchor_date=anchor, min_recent_for_hot=3,
+        )
+        by_id = {t["topic_id"]: t for t in scored}
+        self.assertEqual(by_id["t_active"]["status"], "hot")
+        self.assertEqual(by_id["t_inactive"]["status"], "inactive")
+
+        with tempfile.TemporaryDirectory() as td:
+            temp_dir, _final_dir = _ensure_output_dirs(Path(td))
+            umap_coords = np.array(
+                [[0, 0], [0.1, 0.1], [0.2, 0.2], [1, 1], [1.1, 1.1]], dtype=np.float32)
+            paper_heat = [100.0, 90.0, 80.0, 30.0, 20.0]
+            anchors = _compute_anchor_positions(scored, umap_coords)
+            _build_output(
+                scored, [], anchors, umap_coords, paper_heat, candidates,
+                {}, anchor, "test-model", 8, {}, temp_dir,
+            )
+
+            graph = json.loads((temp_dir / "graph.json").read_text(encoding="utf-8"))
+            anchor_ids = {p["id"] for p in graph["points"] if p["type"] == "topic"}
+            self.assertIn("t_active", anchor_ids)
+            self.assertNotIn("t_inactive", anchor_ids)
+            meta_by_id = {t["topic_id"]: t for t in graph["topics_meta"]}
+            self.assertEqual(meta_by_id["t_inactive"]["status"], "inactive")
+            self.assertIn("t_active", meta_by_id)
+
+            trends = json.loads((temp_dir / "trends.json").read_text(encoding="utf-8"))
+            self.assertEqual({t["topic_id"] for t in trends}, {"t_active"})
 
 
 def _make_config(tmp: Path) -> Config:
@@ -218,7 +303,7 @@ class HotspotNetworkPipelineTests(unittest.TestCase):
             self.assertTrue((output_dir / "trends.json").is_file())
 
             graph = json.loads((output_dir / "graph.json").read_text(encoding="utf-8"))
-            self.assertEqual(graph["schema_version"], 2)
+            self.assertEqual(graph["schema_version"], 3)
             # 16 paper points + 4 topic anchors
             self.assertGreaterEqual(len(graph["points"]), 3)
             point_ids = {p["id"] for p in graph["points"]}

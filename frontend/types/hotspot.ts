@@ -25,7 +25,7 @@ export interface HotspotsData {
 export interface GraphPoint {
   id: string;
   type: "paper" | "topic";
-  shape: number; // 0 = circle (paper), 6 = star (topic anchor)
+  shape: number; // 0 = circle (paper), 6 = star (hot topic), 3 = diamond (emerging topic)
   x: number;
   y: number;
   /** topic group index (pointColorBy / pointClusterBy), -1 = noise */
@@ -33,12 +33,17 @@ export interface GraphPoint {
   /** stable topic id (or "noise") */
   topicId: string;
   label: string; // non-empty only on topic anchors
-  heat: number; // 0-100 (pointSizeBy)
+  heat: number; // 0-100 (per-paper recency heat / topic display score)
+  /** dense display size — paper dots fixed small, topic anchors scale with recent 30-day count */
+  size: number;
+  /** dense trend direction — "up" | "flat" | "down" on topic anchors, "" on papers */
+  trend: string;
   title?: string;
   paperId?: number;
   paperCount?: number;
   journalCount?: number;
   growth?: number;
+  /** display status on topic anchors: "hot" | "emerging" */
   status?: string;
   detailFile?: string;
 }
@@ -90,6 +95,8 @@ export interface ManifestData {
   };
   paper_count: number;
   topic_count: number;
+  active_topic_count?: number;
+  inactive_topic_count?: number;
   edge_count: number;
 }
 
@@ -98,11 +105,13 @@ export interface TrendItem {
   topic_id: string;
   label: string;
   hot_score: number;
-  growth: number;
+  growth: number; // signed per-day relative rate (e.g. 0.8 = +80% faster than baseline)
   recent_count: number;
   baseline_count: number;
   journal_count: number;
   lineage_status: string;
+  /** display status: "hot" (recent>=3) | "emerging" (recent==2) */
+  status: string;
   is_hot: boolean;
 }
 
@@ -121,11 +130,15 @@ export interface TopicDetail {
   description: string;
   why_hot: string;
   hot_score: number;
-  growth: number;
+  growth: number; // signed per-day relative rate
+  growth_rate: number;
+  recent_rate: number;
+  baseline_rate: number;
   recent_count: number;
   baseline_count: number;
   journal_count: number;
   lineage_status: string;
+  status: string;
   keywords: string[];
   papers: TopicDetailPaper[];
 }

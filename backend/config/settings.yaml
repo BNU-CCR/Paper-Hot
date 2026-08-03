@@ -76,7 +76,12 @@ hotspot_network:
   topic_match_threshold: 0.72
   topic_drift_threshold: 0.55
   min_recent_papers_for_hot: 3
-  min_total_papers_for_topic: 4
+  # 进入热点主图的最低近 30 天论文数（低于此值的主题不进入主图，保留在 topics_meta 供血缘）
+  min_recent_papers_for_display: 2
+  # 聚类可靠性的最小主题总论文数（近 180 天窗口内）
+  min_total_papers_for_cluster: 4
+  # 是否把近 30 天 <=1 篇的潜在议题也画进主图（默认否）
+  include_inactive_topics: false
   max_topics: 40
   # 语义地图坐标：论文 embedding 的 UMAP 二维降维参数
   umap_n_neighbors: 15

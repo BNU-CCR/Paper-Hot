@@ -20,9 +20,10 @@ from .config import Config
 DEFAULT_LABEL_SYSTEM_PROMPT = """你是计算传播研究的中文编辑。请为一组算法发现的论文主题生成中文名称和说明。
 
 要求：
-- 每个主题的 label_zh 必须简洁（不超过 20 字），准确概括该主题的研究议题。
+- label_zh 必须简洁（不超过 20 字），准确概括该主题当前的研究议题。
+- 优先根据输入中最新的论文（近 30 天发表的论文优先）命名当前议题；更早的论文只用来辅助确认主题边界，不能让旧内容主导命名。
 - description 用 1-2 句话说明该主题的核心关注点（不超过 80 字）。
-- why_hot 用一句话解释近期的研究活动变化（不超过 60 字）。
+- why_hot 用一句话基于输入给出的"近30天论文数 vs 此前150天论文数"及日均发表速度解释近期研究活动是升温、持平还是降温（不超过 60 字）。
 - keywords 列出 3-6 个该主题的核心英文关键词。
 - 不要编造未在输入中给出的论文标题、作者或数据。
 - 优先使用中文传播学领域的学术术语。
@@ -33,7 +34,7 @@ DEFAULT_LABEL_SYSTEM_PROMPT = """你是计算传播研究的中文编辑。请�
     "topic_index": 0,
     "label_zh": "算法中介的政治信息环境",
     "description": "研究推荐系统与搜索引擎如何影响政治信息接触与态度形成。",
-    "why_hot": "近30天论文份额较前期增长74%，研究分布扩展至4本期刊。",
+    "why_hot": "近30天日均发表速度约为前期的2倍，研究分布扩展至4本期刊。",
     "keywords": ["recommender systems", "search engines", "political efficacy"]
   }
 ]"""
@@ -182,10 +183,14 @@ def _topic_fingerprint(
     topic: Dict[str, Any],
     candidates: List[Dict[str, Any]],
 ) -> str:
-    """Deterministic hash for a topic's content — used for label caching."""
-    paper_ids = sorted(topic.get("paper_ids", [])[:10])
+    """Deterministic hash for a topic's content — used for label caching.
+
+    The hash covers the recent-30-day paper titles plus the signed growth rate,
+    so a label is regenerated whenever the topic's current activity changes.
+    """
+    paper_ids = sorted(topic.get("recent_paper_ids") or topic.get("paper_ids", [])[:10])
     titles = []
-    for pid in paper_ids:
+    for pid in paper_ids[:10]:
         for c in candidates:
             if int(c.get("id", 0)) == pid:
                 titles.append(str(c.get("title", ""))[:120])
@@ -194,8 +199,10 @@ def _topic_fingerprint(
     data = json.dumps({
         "paper_count": topic.get("size", 0),
         "recent_count": topic.get("recent_count", 0),
+        "baseline_count": topic.get("baseline_count", 0),
+        "growth_rate": topic.get("growth_rate", 0.0),
         "journal_count": topic.get("journal_count", 0),
-        "paper_titles": titles,
+        "recent_paper_titles": titles,
     }, sort_keys=True, ensure_ascii=False)
 
     return hashlib.sha256(data.encode("utf-8")).hexdigest()[:16]
@@ -206,8 +213,12 @@ def _topic_prompt_block(
     topic: Dict[str, Any],
     candidates: List[Dict[str, Any]],
 ) -> str:
-    """Build a structured prompt block for one topic."""
-    paper_ids = topic.get("paper_ids", [])[:6]
+    """Build a structured prompt block for one topic.
+
+    Recent-30-day papers are shown first so the LLM names the current direction
+    of the topic; older papers only appear when there are no recent ones.
+    """
+    paper_ids = (topic.get("recent_paper_ids") or topic.get("paper_ids", []))[:6]
     papers_text = ""
     for pid in paper_ids:
         for c in candidates:
@@ -222,11 +233,16 @@ def _topic_prompt_block(
         if t.get("name")
     )[:200]
 
+    growth_rate = topic.get("growth_rate", 0.0)
+    growth_pct = f"{growth_rate * 100:+.0f}%"
+
     return (
         f"topic_index: {batch_index}\n"
         f"OpenAlex 主题: {topic_names or '未知'}\n"
-        f"论文数量: {topic.get('size', 0)} 篇 "
-        f"(近30天 {topic.get('recent_count', 0)} 篇, "
+        f"论文数量: 近180天 {topic.get('size', 0)} 篇 "
+        f"(近30天 {topic.get('recent_count', 0)} 篇 / "
+        f"此前150天 {topic.get('baseline_count', 0)} 篇, "
+        f"日均速度变化 {growth_pct}, "
         f"覆盖 {topic.get('journal_count', 0)} 本期刊)\n"
-        f"代表性论文:\n{papers_text}"
+        f"代表性论文（优先近期论文）:\n{papers_text}"
     ).strip()

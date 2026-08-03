@@ -19,16 +19,16 @@ def _write_json(path: Path, data) -> None:
 
 def _valid_graph():
     return {
-        "schema_version": 2,
+        "schema_version": 3,
         "points": [
             # topic anchors (only these carry a label + detail file)
-            {"id": "a", "type": "topic", "topic": 0, "label": "甲", "heat": 80, "x": 0.1, "y": -0.2, "detailFile": "topics/a.json"},
-            {"id": "b", "type": "topic", "topic": 1, "label": "乙", "heat": 60, "x": 0.5, "y": 0.3, "detailFile": "topics/b.json"},
-            {"id": "c", "type": "topic", "topic": 2, "label": "丙", "heat": 40, "x": -0.4, "y": 0.7, "detailFile": "topics/c.json"},
+            {"id": "a", "type": "topic", "topic": 0, "label": "甲", "heat": 80, "x": 0.1, "y": -0.2, "detailFile": "topics/a.json", "size": 11.4, "trend": "up"},
+            {"id": "b", "type": "topic", "topic": 1, "label": "乙", "heat": 60, "x": 0.5, "y": 0.3, "detailFile": "topics/b.json", "size": 9.6, "trend": "flat"},
+            {"id": "c", "type": "topic", "topic": 2, "label": "丙", "heat": 40, "x": -0.4, "y": 0.7, "detailFile": "topics/c.json", "size": 8.0, "trend": "down"},
             # paper points in each group
-            {"id": "p1", "type": "paper", "topic": 0, "label": "", "heat": 50, "x": 0.12, "y": -0.2},
-            {"id": "p2", "type": "paper", "topic": 1, "label": "", "heat": 40, "x": 0.51, "y": 0.31},
-            {"id": "p3", "type": "paper", "topic": 2, "label": "", "heat": 30, "x": -0.41, "y": 0.71},
+            {"id": "p1", "type": "paper", "topic": 0, "label": "", "heat": 50, "x": 0.12, "y": -0.2, "size": 2.5, "trend": ""},
+            {"id": "p2", "type": "paper", "topic": 1, "label": "", "heat": 40, "x": 0.51, "y": 0.31, "size": 2.5, "trend": ""},
+            {"id": "p3", "type": "paper", "topic": 2, "label": "", "heat": 30, "x": -0.41, "y": 0.71, "size": 2.5, "trend": ""},
         ],
         "links": [
             {"id": "a__b", "source": "a", "target": "b", "weight": 0.5},
@@ -40,7 +40,7 @@ def _valid_graph():
 def _build_valid_output(tmp: Path) -> Path:
     data_dir = tmp / "hotspots"
     _write_json(data_dir / "manifest.json", {
-        "schema_version": 2,
+        "schema_version": 3,
         "topic_count": 3,
         "paper_count": 12,
         "edge_count": 2,
@@ -150,6 +150,27 @@ class HotspotValidationTests(unittest.TestCase):
             _write_json(data_dir / "graph.json", graph)
             with self.assertRaises(HotspotValidationError):
                 validate_hotspot_data(data_dir)
+
+    def test_missing_size_or_trend_fails(self):
+        # Sparse size/trend columns crash Cosmograph's DuckDB SUMMARIZE, so the
+        # validator must hard-fail if any point omits either field.
+        with tempfile.TemporaryDirectory() as td:
+            data_dir = _build_valid_output(Path(td))
+            graph = json.loads((data_dir / "graph.json").read_text(encoding="utf-8"))
+            del graph["points"][0]["size"]
+            _write_json(data_dir / "graph.json", graph)
+            with self.assertRaises(HotspotValidationError) as ctx:
+                validate_hotspot_data(data_dir)
+            self.assertIn("size", str(ctx.exception))
+
+        with tempfile.TemporaryDirectory() as td:
+            data_dir = _build_valid_output(Path(td))
+            graph = json.loads((data_dir / "graph.json").read_text(encoding="utf-8"))
+            del graph["points"][1]["trend"]
+            _write_json(data_dir / "graph.json", graph)
+            with self.assertRaises(HotspotValidationError) as ctx:
+                validate_hotspot_data(data_dir)
+            self.assertIn("trend", str(ctx.exception))
 
     def test_validate_and_report_returns_false_on_failure(self):
         with tempfile.TemporaryDirectory() as td:

@@ -30,6 +30,16 @@ Keyword search and Semantic Scholar are supplemental, not the primary ingestion 
 - Do not commit local Feishu QR code images or `.agents/` state.
 - `frontend/public/data/papers.json` and `frontend/public/data/all_papers.json` are static website snapshots and can be committed.
 
+## Hotspot Network Data (regenerated via GitHub Actions)
+
+`frontend/public/data/hotspots/` (graph.json / trends.json / manifest.json / topics/*.json) is a **build artifact**, not source — the hotspot semantic map is rebuilt in CI, never edited locally.
+
+- `weekly-update.yml` runs `build-hotspot-network` on the weekly schedule and commits the refreshed `frontend/public/data/hotspots/`.
+- `rebuild-hotspot-network.yml` is a **dispatch-only** workflow to regenerate the hotspot data from the cached database without fetching/screening papers. Use it after changing hotspot pipeline code: push to git → GitHub → Actions → "Rebuild hotspot network" → Run workflow.
+- The workflows need the `ANTHROPIC_API_KEY` secret (topic labels) and restore `backend/data/papers.db` from the Actions cache; if the cache is empty they have no data to build from.
+- Locally `python -m journal_tracker.main build-hotspot-network` needs the `.[analysis]` extras (fastembed / umap / igraph) and the API key — in a sandbox without them, prefer the CI workflow.
+- Config for the pipeline lives in `backend/config/settings.yaml` under `hotspot_network` (analysis_days / recent_days / min_recent_papers_for_display / min_recent_papers_for_hot / include_inactive_topics / ...). The display filter means topics with `recent_count <= 1` in the last 30 days stay out of the main graph but remain in `topics_meta` for lineage.
+
 ## Useful Commands
 
 ```bash

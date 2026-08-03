@@ -41,8 +41,8 @@ def validate_hotspot_data(data_dir: Path) -> List[str]:
 
     # ── manifest.json ────────────────────────────────────────────
     manifest = _read_json(data_dir / "manifest.json")
-    _check(manifest.get("schema_version") == 2,
-           "manifest.schema_version must be 2", errors)
+    _check(manifest.get("schema_version") == 3,
+           "manifest.schema_version must be 3", errors)
     _check(isinstance(manifest.get("topic_count"), int) and manifest["topic_count"] >= 0,
            "manifest.topic_count must be a non-negative integer", errors)
     _check(isinstance(manifest.get("paper_count"), int) and manifest["paper_count"] >= 0,
@@ -80,6 +80,17 @@ def validate_hotspot_data(data_dir: Path) -> List[str]:
         heat = point.get("heat")
         _check(isinstance(heat, (int, float)) and math.isfinite(float(heat)) and 0 <= float(heat) <= 100,
                f"Point {pid} heat {heat} must be a finite number in [0, 100]", errors)
+
+        # Every point must carry a dense `size` (number) and `trend` (string) —
+        # sparse columns crash Cosmograph's internal DuckDB SUMMARIZE with a
+        # stuck loading spinner, so this guards against a future point missing
+        # either field.
+        size = point.get("size")
+        _check(isinstance(size, (int, float)) and math.isfinite(float(size)) and float(size) > 0,
+               f"Point {pid} size {size} must be a positive finite number", errors)
+        trend = point.get("trend")
+        _check(isinstance(trend, str),
+               f"Point {pid} trend must be a string (got {type(trend).__name__})", errors)
 
         if ptype == "topic":
             topic_points.append(point)

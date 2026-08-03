@@ -475,7 +475,7 @@ def _form_topics(
                 "paper_indices": members,
                 "size": len(members),
                 "centroid": centroid,
-                "status": "formal",
+                "cluster_kind": "formal",
             })
         elif len(members) >= 2:
             # Small cluster: candidate emerging topic
@@ -485,7 +485,7 @@ def _form_topics(
                 "paper_indices": members,
                 "size": len(members),
                 "centroid": centroid,
-                "status": "emerging",
+                "cluster_kind": "emerging",
             })
 
     return topics
@@ -591,31 +591,31 @@ def _compute_heat_scores(
     baseline_days: int,
     anchor_date: date,
     min_recent_for_hot: int,
+    min_recent_for_display: int = 2,
 ) -> List[Dict[str, Any]]:
-    """Score each topic by recent vs baseline share shift."""
+    """Score each topic by its recent-vs-baseline per-day publication rate.
+
+    The recent and baseline windows have different lengths (30 vs 150 days),
+    so growth compares per-day rates rather than raw paper counts — otherwise a
+    topic publishing 4 papers in 30 days vs 10 in 150 days looks like a decline
+    when its rate actually doubled.
+    """
     recent_start = anchor_date - timedelta(days=recent_days)
     baseline_start = anchor_date - timedelta(days=recent_days + baseline_days)
     baseline_end = anchor_date - timedelta(days=recent_days)
 
-    total_recent = 0
-    total_baseline = 0
-
-    for paper in candidates:
-        pub_str = str(paper.get("published_date", "") or "")
+    def _pub_date(paper: Dict[str, Any]) -> Optional[date]:
         try:
-            pub_date = datetime.strptime(pub_str[:10], "%Y-%m-%d").date()
+            return datetime.strptime(str(paper.get("published_date", "") or "")[:10], "%Y-%m-%d").date()
         except (ValueError, TypeError):
-            continue
-        if recent_start <= pub_date <= anchor_date:
-            total_recent += 1
-        if baseline_start <= pub_date <= baseline_end:
-            total_baseline += 1
+            return None
 
     # Pass 1: compute per-topic metrics for every topic
     for topic in topics:
         recent_count = 0
         baseline_count = 0
         paper_ids: List[int] = []
+        recent_paper_ids: List[int] = []
         journal_names: set = set()
 
         for idx in topic["paper_indices"]:
@@ -625,17 +625,17 @@ def _compute_heat_scores(
             if journal:
                 journal_names.add(journal)
 
-            pub_str = str(paper.get("published_date", "") or "")
-            try:
-                pub_date = datetime.strptime(pub_str[:10], "%Y-%m-%d").date()
-            except (ValueError, TypeError):
+            pub_date = _pub_date(paper)
+            if pub_date is None:
                 continue
             if recent_start <= pub_date <= anchor_date:
                 recent_count += 1
+                recent_paper_ids.append(int(paper["id"]))
             if baseline_start <= pub_date <= baseline_end:
                 baseline_count += 1
 
         topic["paper_ids"] = paper_ids
+        topic["recent_paper_ids"] = recent_paper_ids
         topic["recent_count"] = recent_count
         topic["baseline_count"] = baseline_count
         topic["journal_count"] = len(journal_names)
@@ -647,11 +647,20 @@ def _compute_heat_scores(
         recent_count = topic["recent_count"]
         baseline_count = topic["baseline_count"]
 
-        # Growth score (smoothed log ratio)
-        recent_share = (recent_count + 0.5) / (total_recent + 1) if total_recent > 0 else 0
-        baseline_share = (baseline_count + 0.5) / (total_baseline + 1) if total_baseline > 0 else 0
-        growth_raw = math.log((recent_share + 0.005) / (baseline_share + 0.005))
-        growth_score = 1.0 / (1.0 + math.exp(-3.0 * growth_raw))  # sigmoid squash
+        # Per-day publication rates (window lengths differ).
+        recent_rate = recent_count / recent_days
+        baseline_rate = baseline_count / baseline_days
+        if baseline_rate > 1e-6:
+            growth_rate = (recent_rate - baseline_rate) / baseline_rate
+        else:
+            # No baseline papers: a topic with recent activity is treated as
+            # newly rising; an idle topic as flat.
+            growth_rate = 1.0 if recent_rate > 0 else 0.0
+        growth_rate = max(-0.99, min(9.99, growth_rate))
+
+        # Log-ratio raw score, squashed to [0, 1] for the hot-score composite.
+        growth_raw = math.log((recent_rate + 1e-4) / (baseline_rate + 1e-4))
+        growth_score = 1.0 / (1.0 + math.exp(-3.0 * growth_raw))
 
         # Volume score (percentile among all topics)
         volume_score = min(1.0, recent_count / max(1, max_recent_count))
@@ -665,13 +674,10 @@ def _compute_heat_scores(
         # Recency score (exponential decay with 14-day half-life)
         recency_sum = 0.0
         for idx in topic["paper_indices"]:
-            pub_str = str(candidates[idx].get("published_date", "") or "")
-            try:
-                pub_date = datetime.strptime(pub_str[:10], "%Y-%m-%d").date()
+            pub_date = _pub_date(candidates[idx])
+            if pub_date is not None:
                 age_days = (anchor_date - pub_date).days
                 recency_sum += math.exp(-0.0495 * max(0, age_days))  # ln(2)/14 ≈ 0.0495
-            except (ValueError, TypeError):
-                pass
         recency_score = min(1.0, recency_sum / max(1, topic["size"]))
 
         # Quality score (internal edge density proxy — cluster size coherence)
@@ -685,15 +691,25 @@ def _compute_heat_scores(
             + 0.10 * quality_score
         )
 
-        topic["hot_score"] = round(float(hot_score), 4)
-        topic["growth"] = round(float(growth_score), 4)
-        topic["display_score"] = round(float(hot_score) * 100)
+        # Display status: hot / emerging / inactive decides whether the topic
+        # enters the main map (recent_count >= min_recent_for_display).
+        if recent_count >= min_recent_for_hot:
+            status = "hot"
+        elif recent_count >= min_recent_for_display:
+            status = "emerging"
+        else:
+            status = "inactive"
 
-        # Mark as hot if meets threshold
-        topic["is_hot"] = bool(
-            recent_count >= min_recent_for_hot
-            or (recent_count >= 2 and growth_score >= 0.7)
-        )
+        topic["status"] = status
+        topic["is_hot"] = status == "hot"
+        topic["hot_score"] = round(float(hot_score), 4)
+        topic["growth"] = round(float(growth_rate), 3)          # signed relative rate
+        topic["growth_score"] = round(float(growth_score), 4)   # [0,1] for composite
+        topic["growth_rate"] = topic["growth"]
+        topic["recent_rate"] = round(recent_rate, 4)
+        topic["baseline_rate"] = round(baseline_rate, 4)
+        topic["trend"] = "up" if growth_rate >= 0.15 else ("down" if growth_rate <= -0.15 else "flat")
+        topic["display_score"] = round(float(hot_score) * 100)
 
     return topics
 
@@ -775,28 +791,46 @@ def _build_output(
     embedding_dim: int,
     umap_config: Dict[str, Any],
     temp_dir: Path,
+    include_inactive: bool = False,
 ) -> Path:
     """Write graph.json (semantic map), trends.json, manifest.json, topics/.
 
-    graph.json now holds a paper-level semantic map: every analysis paper is
-    a small point positioned by its UMAP coordinate, colored by topic group;
-    one topic anchor point per cloud sits at the member centroid and carries
-    the display label. Topic-relation links connect cloud anchors.
+    graph.json holds a paper-level semantic map: every analysis paper is a
+    small point positioned by its UMAP coordinate, colored by topic group; one
+    topic anchor point per cloud sits at the member centroid and carries the
+    display label. Only topics with `recent_count >= min_recent_papers_for_display`
+    get anchors in the main map; topics with `recent_count <= 1` (status
+    "inactive") are kept in topics_meta for lineage but excluded from the map
+    unless `include_inactive` is set. Topic-relation links connect cloud anchors.
+
+    Every point carries a dense `size` (number) and `trend` (string) so the
+    columns Cosmograph ingests are never sparse — sparse numeric columns crash
+    its internal DuckDB SUMMARIZE with a stuck loading spinner.
     """
     max_topics = int(config.get("max_topics", 40))
 
-    # Sort by hot_score descending, keep top N
+    # Sort by hot_score descending; only non-inactive topics become anchors
     sorted_topics = sorted(topics, key=lambda t: t.get("hot_score", 0), reverse=True)
-    displayed = sorted_topics[:max_topics]
+    shown = [
+        t for t in sorted_topics
+        if include_inactive or t.get("status") != "inactive"
+    ][:max_topics]
 
-    # topic index = position in `displayed` (stable color / cluster group)
-    cid_to_idx = {t["cluster_id"]: i for i, t in enumerate(displayed)}
+    # topic index = position in `shown` (stable color / cluster group)
+    cid_to_idx = {t["cluster_id"]: i for i, t in enumerate(shown)}
 
-    # Map candidate index -> its displayed topic (None = noise paper)
+    # Map candidate index -> its shown topic (None = noise paper)
     cand_to_topic: List[Optional[Dict[str, Any]]] = [None] * len(candidates)
-    for t in displayed:
+    for t in shown:
         for p_idx in t["paper_indices"]:
             cand_to_topic[p_idx] = t
+
+    # Anchor shape encodes display status: hot = star, emerging = diamond,
+    # inactive (only when include_inactive) = pentagon.
+    _ANCHOR_SHAPE = {"hot": 6, "emerging": 3, "inactive": 4}
+    # Anchor size reflects the recent 30-day paper count.
+    def _anchor_size(t: Dict[str, Any]) -> float:
+        return round(min(24.0, 6.0 + t["recent_count"] * 1.8), 1)
 
     points: List[Dict[str, Any]] = []
     topic_meta: List[Dict[str, Any]] = []
@@ -814,44 +848,57 @@ def _build_output(
             "topicId": topic["topic_id"] if topic else "noise",
             "label": "",
             "heat": round(paper_heat[i], 1),
+            "size": 2.5,
+            "trend": "",
             "x": round(float(umap_coords[i, 0]), 4),
             "y": round(float(umap_coords[i, 1]), 4),
         })
 
-    # Topic anchor points — one per cloud at the centroid, only these label.
-    for i, t in enumerate(displayed):
+    # Topic anchor points — one per shown cloud at the centroid, only these label.
+    for i, t in enumerate(shown):
         cid = t["cluster_id"]
         x, y = anchor_positions.get(cid, (0.0, 0.0))
         topic_slug = t["topic_id"]
         points.append({
             "id": topic_slug,
             "type": "topic",
-            "shape": 6,
+            "shape": _ANCHOR_SHAPE.get(t.get("status", "emerging"), 3),
             "topicId": topic_slug,
             "topic": i,
             "label": t.get("label_zh") or t.get("label_en", topic_slug),
             "heat": t["display_score"],
             "paperCount": t["size"],
             "journalCount": t["journal_count"],
-            "growth": round(t.get("growth", 0), 3),
-            "status": t.get("lineage_status", "new"),
+            "growth": t.get("growth", 0),
+            "status": t.get("status", "emerging"),
+            "trend": t.get("trend", "flat"),
+            "size": _anchor_size(t),
             "detailFile": f"topics/{topic_slug}.json",
             "x": x,
             "y": y,
         })
+
+    # topics_meta keeps ALL topics (including inactive) so the next run can
+    # re-match them for lineage even while they are absent from the main map.
+    for t in sorted_topics:
+        cid = t["cluster_id"]
+        x, y = anchor_positions.get(cid, (0.0, 0.0))
         topic_meta.append({
-            "topic_id": topic_slug,
+            "topic_id": t["topic_id"],
             "cluster_id": cid,
             "size": t["size"],
             "hot_score": t["hot_score"],
             "centroid": t["centroid"].tolist() if hasattr(t["centroid"], "tolist") else list(t["centroid"]),
             "paper_ids": t.get("paper_ids", []),
+            "status": t.get("status", "inactive"),
+            "recent_count": t.get("recent_count", 0),
+            "growth_rate": t.get("growth_rate", 0.0),
             "x": x,
             "y": y,
         })
 
-    # Topic-relation links (cluster_id -> topic_id, both in displayed)
-    cid_to_slug = {t["cluster_id"]: t["topic_id"] for t in displayed}
+    # Topic-relation links (cluster_id -> topic_id, both in shown)
+    cid_to_slug = {t["cluster_id"]: t["topic_id"] for t in shown}
     edges_out: List[Dict[str, Any]] = []
     for ti, tj, weight in topic_edges:
         si = cid_to_slug.get(ti)
@@ -873,7 +920,7 @@ def _build_output(
 
     # Write graph.json
     graph_data = {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "embedding_model": embedding_model,
         "embedding_dimension": embedding_dim,
@@ -890,18 +937,19 @@ def _build_output(
         json.dumps(graph_data, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    # Write trends.json
+    # Write trends.json — only shown (active) topics
     trends = []
-    for t in displayed:
+    for t in shown:
         trends.append({
             "topic_id": t["topic_id"],
             "label": t.get("label_zh") or t.get("label_en", t["topic_id"]),
             "hot_score": t["display_score"],
-            "growth": round(t.get("growth", 0), 3),
+            "growth": t.get("growth", 0),
             "recent_count": t["recent_count"],
             "baseline_count": t["baseline_count"],
             "journal_count": t["journal_count"],
             "lineage_status": t.get("lineage_status", "new"),
+            "status": t.get("status", "emerging"),
             "is_hot": t.get("is_hot", False),
         })
     (temp_dir / "trends.json").write_text(
@@ -910,7 +958,7 @@ def _build_output(
 
     # Write manifest.json
     manifest = {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "embedding_model": embedding_model,
         "embedding_dimension": embedding_dim,
@@ -921,17 +969,19 @@ def _build_output(
             "baseline_end": (anchor_date - timedelta(days=int(config.get("recent_days", 30)))).isoformat(),
         },
         "paper_count": len(candidates),
-        "topic_count": len(displayed),
+        "topic_count": len(shown),
+        "active_topic_count": len(shown),
+        "inactive_topic_count": len(sorted_topics) - len(shown),
         "edge_count": len(edges_out),
     }
     (temp_dir / "manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    # Write per-topic detail files
+    # Write per-topic detail files (only for shown topics)
     topics_dir = temp_dir / "topics"
     topics_dir.mkdir(parents=True, exist_ok=True)
-    for t in displayed:
+    for t in shown:
         cid = t["cluster_id"]
         detail = {
             "topic_id": t["topic_id"],
@@ -939,11 +989,15 @@ def _build_output(
             "description": t.get("description", ""),
             "why_hot": t.get("why_hot", ""),
             "hot_score": t["display_score"],
-            "growth": round(t.get("growth", 0), 3),
+            "growth": t.get("growth", 0),
+            "growth_rate": t.get("growth_rate", 0.0),
+            "recent_rate": t.get("recent_rate", 0.0),
+            "baseline_rate": t.get("baseline_rate", 0.0),
             "recent_count": t["recent_count"],
             "baseline_count": t["baseline_count"],
             "journal_count": t["journal_count"],
             "lineage_status": t.get("lineage_status", "new"),
+            "status": t.get("status", "emerging"),
             "keywords": t.get("keywords", []),
             "papers": [],
             "paper_edges": [],
@@ -993,7 +1047,12 @@ def build_hotspot_network(
     match_threshold = float(net_config.get("topic_match_threshold", 0.72))
     drift_threshold = float(net_config.get("topic_drift_threshold", 0.55))
     min_recent = int(net_config.get("min_recent_papers_for_hot", 3))
-    min_total = int(net_config.get("min_total_papers_for_topic", 4))
+    min_recent_display = int(net_config.get("min_recent_papers_for_display", 2))
+    min_total = int(net_config.get(
+        "min_total_papers_for_cluster",
+        net_config.get("min_total_papers_for_topic", 4),
+    ))
+    include_inactive = bool(net_config.get("include_inactive_topics", False))
     umap_n_neighbors = int(net_config.get("umap_n_neighbors", 15))
     umap_min_dist = float(net_config.get("umap_min_dist", 0.1))
     umap_seed = int(net_config.get("umap_seed", 42))
@@ -1053,7 +1112,7 @@ def build_hotspot_network(
     # 6. Form topics
     print(f"[6/9] Forming topics (min_size={min_total})...")
     topics = _form_topics(membership, candidates, embeddings, min_total)
-    print(f"       {len(topics)} topics ({sum(1 for t in topics if t['status'] == 'formal')} formal)")
+    print(f"       {len(topics)} topics ({sum(1 for t in topics if t['cluster_kind'] == 'formal')} formal)")
 
     if not topics:
         raise ValueError("No valid topics found. Check min_total_papers_for_topic threshold.")
@@ -1071,10 +1130,13 @@ def build_hotspot_network(
     # 8. Heat scoring
     print("[8/10] Computing heat scores...")
     topics = _compute_heat_scores(
-        topics, candidates, recent_days, baseline_days, anchor_date, min_recent,
+        topics, candidates, recent_days, baseline_days, anchor_date,
+        min_recent, min_recent_display,
     )
-    hot_count = sum(1 for t in topics if t.get("is_hot"))
-    print(f"       {hot_count} hot topics")
+    hot_count = sum(1 for t in topics if t.get("status") == "hot")
+    emerging_count = sum(1 for t in topics if t.get("status") == "emerging")
+    inactive_count = sum(1 for t in topics if t.get("status") == "inactive")
+    print(f"       {hot_count} hot, {emerging_count} emerging, {inactive_count} inactive")
 
     # 9. LLM labeling (best-effort — failures do not block the pipeline)
     print("[9/10] Generating Chinese topic labels...")
@@ -1099,7 +1161,7 @@ def build_hotspot_network(
     _build_output(
         topics, topic_graph_edges, anchor_positions, umap_coords, paper_heat,
         candidates, net_config, anchor_date, embedding_model, dim, umap_config,
-        temp_dir,
+        temp_dir, include_inactive,
     )
 
     # Atomic replace

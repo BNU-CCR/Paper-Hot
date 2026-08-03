@@ -76,6 +76,12 @@ export function HotspotTrendTable({ trends, onSelectTopic, selectedTopicId }: Ho
               <td className="col-rank">{idx + 1}</td>
               <td className="col-topic">
                 <span className="trend-topic-label">{item.label}</span>
+                {item.status === "hot" && (
+                  <span className="badge-status hot">热点</span>
+                )}
+                {item.status === "emerging" && (
+                  <span className="badge-status emerging">新兴</span>
+                )}
                 {item.lineage_status === "new" && (
                   <span className="badge-new">新</span>
                 )}
