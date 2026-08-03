@@ -8,13 +8,15 @@ import type { GraphData, GraphPoint } from "../../types/hotspot";
 /**
  * Hotspot semantic map rendered with Cosmograph (WebGL).
  *
- * Every analysis paper is a small dot colored by its topic cluster and
- * positioned by its UMAP coordinate. One topic anchor per shown cloud sits at
- * the centroid and carries the display label. Anchors encode the current
- * activity state: size = recent 30-day paper count, color = trend direction
- * (up/flat/down), shape = star (hot) vs diamond (emerging). Only topics with
- * recent_count >= 2 appear as anchors; inactive topics stay in topics_meta.
- * Positions are fixed (enableSimulation=false) so the UMAP layout is preserved.
+ * Every analysis paper is a dot (fixed ~6px radius) colored by its topic
+ * cluster and positioned by its UMAP coordinate. One topic anchor per shown
+ * cloud sits at the centroid and carries the display label. Anchors encode the
+ * current activity state: size = recent 30-day paper count, color = trend
+ * direction (up/flat/down), shape = star (hot) vs diamond (emerging). Only
+ * topics with recent_count >= 2 appear as anchors; inactive topics stay in
+ * topics_meta. Positions are fixed (enableSimulation=false) so the UMAP layout
+ * is preserved. Topic labels always render — the library's overlap culling is
+ * disabled (see `showAllLabels`) so crowded clouds don't hide their names.
  * Clicking a topic (or a paper inside it) highlights the whole cloud and opens
  * the detail panel.
  */
@@ -105,12 +107,44 @@ type CosmographInternals = {
 
 /**
  * Minimal shape of the library's `_internalApi`: the event bus a graph
- * rebuild dispatches `graphRebuilt` on, plus the status-message controls.
+ * rebuild dispatches `graphRebuilt` on, the status-message controls, and the
+ * labels module — whose internal CSS-label renderer `showAllLabels` patches.
  */
 type CosmographInternalApi = {
   addEventListener: (type: string, listener: () => void) => void;
   updateMessage: (message: string | null) => void;
+  labels?: {
+    render?: () => Promise<void>;
+    _cssLabelsRenderer?: {
+      draw?: (withIntersection?: boolean) => void;
+      __labelsNoOverlap?: boolean;
+    };
+  };
 };
+
+/**
+ * Cosmograph culls overlapping labels — its `LabelRenderer` keeps the
+ * higher-weight label and hides the rest, so on a dense map several topic
+ * labels silently disappear. The map is intentionally dense, so patch the
+ * renderer's `draw` to always skip the intersection pass (`withIntersection:
+ * false`): every label renders, and only off-screen ones hide. This reaches
+ * library internals (`_internalApi.labels._cssLabelsRenderer`) the same way
+ * `_cosmos` / `_internalApi` are used elsewhere in this file.
+ */
+function showAllLabels(inst: unknown): void {
+  const labels = (inst as { _internalApi?: CosmographInternalApi })._internalApi?.labels;
+  const renderer = labels?._cssLabelsRenderer;
+  const draw = renderer?.draw;
+  if (!renderer || !draw) return;
+  if (renderer.__labelsNoOverlap) return; // this instance already patched
+  renderer.__labelsNoOverlap = true;
+  const originalDraw = draw.bind(renderer);
+  renderer.draw = (withIntersection = true) => originalDraw(false);
+  // Re-render now so labels hidden by an earlier culling pass come back.
+  if (typeof labels.render === "function") {
+    void labels.render().catch(() => {});
+  }
+}
 
 interface HotspotNetworkProps {
   graph: GraphData;
@@ -213,9 +247,21 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
         if (value < 0) return NOISE_COLOR; // noise paper (not in any shown topic)
         return TOPIC_PALETTE[value % TOPIC_PALETTE.length];
       },
-      // Topic anchors scale with their recent 30-day paper count (backend `size`).
+      // One size column for all points, but two visual meanings (same pattern
+      // as pointColorByFn): providing `pointSizeByFn` runs Cosmograph in Direct
+      // mode, so each branch returns an exact pixel radius. Paper dots get a
+      // fixed, readable radius — the old `pointSizeRange` clamped them to ~3px,
+      // which read as specks on a full-width map. Topic anchors keep the
+      // backend's recent-count scale (already 9.6–16.8 in practice).
       pointSizeBy: "size",
-      pointSizeRange: [3, 24],
+      pointSizeByFn: (value: number, index: number) => {
+        const pt = graph.points[index];
+        if (pt?.type === "topic") {
+          const v = Number(value) || 0;
+          return Math.min(22, Math.max(9, v));
+        }
+        return 6; // paper dot radius (px)
+      },
       pointShapeBy: "shape",
       pointXBy: "x",
       pointYBy: "y",
@@ -333,7 +379,15 @@ export function HotspotNetwork({ graph, selectedNodeId, onSelectNode }: HotspotN
             // up (its non-`🚨` failure message keeps the spinner element).
             // This is a no-op on the happy path where it is already hidden.
             const internal = (inst as unknown as { _internalApi?: CosmographInternalApi })._internalApi;
-            internal?.addEventListener("graphRebuilt", () => internal.updateMessage(null));
+            internal?.addEventListener("graphRebuilt", () => {
+              internal.updateMessage(null);
+              // The labels module (and its renderer) is re-created on every
+              // rebuild, so re-apply the always-show patch to the fresh one.
+              showAllLabels(inst);
+            });
+            // Patch now in case labels already exist on first mount; the
+            // `graphRebuilt` listener re-patches after the initial build.
+            showAllLabels(inst);
             // Fit the whole semantic map once the data table is uploaded.
             void inst
               .dataUploaded()
