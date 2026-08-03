@@ -1,24 +1,19 @@
 {
   "topic_id": "topic_0e10a101",
-  "label": "媒介使用、认知与幸福感的多方法研究",
-  "description": "涉及媒介效果、数字包容、亲密关系语言与AI福祉",
-  "why_hot": "论文数量稳定，覆盖媒介心理学与数字不平等议题",
-  "hot_score": 71,
+  "label": "topic_0e10a101",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 60,
   "growth": 0.0,
   "growth_rate": 0.0,
-  "recent_rate": 0.2,
-  "baseline_rate": 0.2,
-  "recent_count": 6,
-  "baseline_count": 30,
-  "journal_count": 11,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.1667,
+  "recent_count": 5,
+  "baseline_count": 25,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [
-    "媒介效果",
-    "数字包容",
-    "幸福感",
-    "屏幕内容"
-  ],
+  "keywords": [],
   "papers": [
     {
       "id": 8,
@@ -28,25 +23,11 @@
       "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
     },
     {
-      "id": 58,
-      "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-22",
-      "summary": "探讨智能音箱如何支持处于数字排斥风险的老年人的独立性、能力感和关联性，属于AI技术在社会情境中的应用研究。"
-    },
-    {
       "id": 61,
       "title": "Media effects, selection effects, or no effects? A longitudinal analysis of the relationship between media use and misperceptions",
       "journal": "Information Communication & Society",
       "published_date": "2026-07-17",
       "summary": "论文通过纵向数据分析媒体使用与错误认知的关系，探讨媒体效应与选择效应，但未说明计算方法。"
-    },
-    {
-      "id": 64,
-      "title": "Disability and AI in smart cities: centering access, agency, and awareness in hybrid spaces",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-14",
-      "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
     },
     {
       "id": 4,
@@ -63,18 +44,18 @@
       "summary": "提出用深度学习方法对智能手机屏幕内容进行分布建模，基于53名青少年六个月的屏幕数据，分析内容模式与心理健康的关系，超越传统屏幕时间测量。"
     },
     {
+      "id": 27,
+      "title": "Chatbots and Loneliness: How Linguistic Dynamics in Conversations with Chatbots Shape Young Adults’ Loneliness",
+      "journal": "Communication Research",
+      "published_date": "2026-07-10",
+      "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
+    },
+    {
       "id": 282,
       "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
-    },
-    {
-      "id": 76,
-      "title": "Balancing personalization and privacy: datafication challenges in socially assistive robotics for older persons",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-23",
-      "summary": "通过18位专家访谈，探究老年人社交辅助机器人开发中个性化与隐私的张力，揭示数据化悖论，提出四类机器人分类。"
     },
     {
       "id": 80,
@@ -91,13 +72,6 @@
       "summary": "基于美国437名青少年全国调查，考察算法新闻消费与算法素养对新闻认知、动机、情感等多元取向的影响，发现关联有限且非决定性。"
     },
     {
-      "id": 82,
-      "title": "From swipes to intimacy: dating app adoption and offline hookup intention among male rural migrant workers",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-15",
-      "summary": "基于中国男性农民工调查数据，整合使用与满足和社会学习理论，考察约会应用采用的影响因素及对线下勾搭意图的中介作用，发现动机、社会认同、社会比较等通过采用影响意图，且受伦理疑虑调节。"
-    },
-    {
       "id": 33,
       "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
       "journal": "Communication Research",
@@ -110,13 +84,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-13",
       "summary": "本文提出潜在传播构型概念，利用Facebook可再生能源相关品牌帖子构建双模网络，揭示战略伙伴与页面间的隐性关系，并探讨平台逻辑对新闻媒体角色的影响。"
-    },
-    {
-      "id": 373,
-      "title": "Intimate data performativity: Taiwanese women’s self-care practices with menstrual tracking apps",
-      "journal": "Asian Journal of Communication",
-      "published_date": "2026-06-11",
-      "summary": "研究台湾女性使用经期追踪应用时，如何与算法系统、文化期望和身体经验协商，提出亲密数据表演性概念，探讨预测协商、自我优化和数据共享中的赋能与控制张力。"
     },
     {
       "id": 440,
@@ -140,18 +107,39 @@
       "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
     },
     {
+      "id": 217,
+      "title": "Moving Targets, Moving Politics: The State of Play in Social Media Data Access",
+      "journal": "Political Communication",
+      "published_date": "2026-05-30",
+      "summary": "论文探讨社交媒体数据获取的现状与挑战，涉及数据访问政策及其对政治传播研究的影响。"
+    },
+    {
+      "id": 93,
+      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-27",
+      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
+    },
+    {
+      "id": 95,
+      "title": "Price, proficiency, or permission: assessing platform data access for election research",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-27",
+      "summary": "论文评估平台数据访问的价格、技能和权限因素，探讨其对选举研究的影响，关注平台API及数据可得性问题。"
+    },
+    {
+      "id": 99,
+      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-24",
+      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
+    },
+    {
       "id": 361,
       "title": "Multimodal semiotic content analysis: combining quantitative large-data analysis with qualitative semiotic coding",
       "journal": "Visual Communication",
       "published_date": "2026-05-22",
       "summary": "提出混合方法框架，整合定性符号学编码与定量大规模数据分析，通过277个抑郁相关网络模因案例，揭示抑郁主题与符号资源的关联模式。"
-    },
-    {
-      "id": 106,
-      "title": "Bad domains: exposure to malicious content online",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-08",
-      "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
     },
     {
       "id": 38,
@@ -175,20 +163,6 @@
       "summary": "分析2020年SAS争议广告引发的Facebook用户评论，对2160条评论进行定量内容分析，识别出粉丝、朋友、反对者、仇恨持有者四类用户群体，挑战传统爱恨二元框架，揭示参与动态与态度流动性。"
     },
     {
-      "id": 637,
-      "title": "Intimate surveillance of the ordinary: youth’s negotiation of digital location tracking with parents and peers",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-04-23",
-      "summary": "基于比利时147名青少年的21场焦点小组，探讨青年与父母同伴协商数字位置跟踪的边界规则与策略，揭示其对日常监控文化的接受与抵抗。"
-    },
-    {
-      "id": 126,
-      "title": "Favela aesthetics: digital influencers in Brazil contesting Instagram visual cultures and favela stigmas",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-08",
-      "summary": "通过分析巴西贫民窟网红Blô的452条Instagram帖子，提出“贫民窟美学”概念，探讨边缘群体如何通过数字内容抵抗污名化、重构文化身份，挑战主流影响者审美与精英叙事。"
-    },
-    {
       "id": 45,
       "title": "Understanding Hybridity, Representational Networks, and Resilience Enactment Through Social Media Communication",
       "journal": "Communication Research",
@@ -196,32 +170,11 @@
       "summary": "研究社会企业如何在社交媒体沟通中呈现双重逻辑，通过分析260家台湾企业的3年Facebook数据和调查，发现高逻辑中心性直接及透过代表性网络间接预测韧性沟通，且受感知逻辑中心性调节。"
     },
     {
-      "id": 297,
-      "title": "Understanding Engagement With Platform Safety Technology for Reducing Exposure to Online Harms",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "基于英国成人全国调查，考察用户对平台安全技术的认知、使用与满意度，发现在线伤害普遍，事后工具使用率高但满意度低，数字素养和性别影响使用。"
-    },
-    {
       "id": 300,
       "title": "A Multi-Mechanism Socio-Technical Theory of Wellness Misinformation: Aesthetic, Affective, and Algorithmic Dynamics",
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "提出Algorithmic–Affective Misinformation Model，结合访谈与跨平台观察，分析TikTok和RED上健康错误信息通过审美合法化、情感脆弱性与算法强化三种机制获得可信度的过程。"
-    },
-    {
-      "id": 302,
-      "title": "Symbolic Custodians on Facebook: Community Media Agents and Religious Practices in Faial",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
-    },
-    {
-      "id": 306,
-      "title": "Bystanders and Reporters: Who Acts Against Illegal Online Content?",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "研究德国举报非法在线内容的用户特征，发现其多为年长、高学历、左倾且公民参与度高的人群，将举报视为数字公民参与形式。"
     },
     {
       "id": 308,
@@ -238,11 +191,11 @@
       "summary": "通过眼动追踪实验探究品牌标志与个人信息请求对用户评估移动健康应用可信度的影响，发现品牌标志提升可信度，说服知识高者处理视觉线索更高效。"
     },
     {
-      "id": 151,
-      "title": "Safety work repertoires and dating platforms: how users of Tinder and Bumble manage their safety",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-09",
-      "summary": "基于42名美国约会应用用户的深度访谈，提出用户发展出的安全工作技能库，包括筛选、信息策略、平台迁移等，以管理自身安全。"
+      "id": 466,
+      "title": "Strategic Ambiguity and University Instagram Engagement: Institutional Type, Audience Scale, and Engagement Trade-Offs",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-03-10",
+      "summary": "基于25所美国大学Instagram数据，分析机构类型、粉丝数、发帖频率对参与度的影响，发现公立大学参与度更高，粉丝数存在效率与触达的权衡。"
     },
     {
       "id": 154,

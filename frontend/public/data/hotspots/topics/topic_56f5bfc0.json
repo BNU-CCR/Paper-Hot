@@ -1,24 +1,19 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "认知战与叙事武器化",
-  "description": "聚焦故事化叙事如何被用作认知战与政治动员工具",
-  "why_hot": "近期论文覆盖认知战、宣传、跨平台行动主义，呈上升趋势",
-  "hot_score": 70,
-  "growth": 0.087,
-  "growth_rate": 0.087,
-  "recent_rate": 0.1667,
-  "baseline_rate": 0.1533,
-  "recent_count": 5,
-  "baseline_count": 23,
-  "journal_count": 5,
+  "label": "topic_56f5bfc0",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 49,
+  "growth": -0.259,
+  "growth_rate": -0.259,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.18,
+  "recent_count": 4,
+  "baseline_count": 27,
+  "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [
-    "认知战",
-    "叙事武器",
-    "宣传",
-    "标签行动主义"
-  ],
+  "keywords": [],
   "papers": [
     {
       "id": 483,
@@ -26,13 +21,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-07-30",
       "summary": "论文提出武器化叙事的四阶段心理影响模型，涵盖身份、威胁、道德和阴谋叙事策略，并以俄罗斯2014年克里米亚叙事行动为例，探讨AI在叙事扩散中的放大作用及反叙事策略。"
-    },
-    {
-      "id": 204,
-      "title": "Networked Counterpublics and Contentious Publicity: A Cross-Platform Analysis of QAnon on Parler and Twitter",
-      "journal": "Political Communication",
-      "published_date": "2026-07-27",
-      "summary": "基于affordance理论，跨平台分析QAnon在Parler和Twitter上2018-2021年的可见性、关联性和持续性实践，探讨极端网络反公众的身份建构与公共竞争动态。"
     },
     {
       "id": 207,
@@ -75,6 +63,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
+    },
+    {
+      "id": 405,
+      "title": "AI as “Artificial Immigrants”? A Content Analysis of the U.S. News Media Framing of AI Threats",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-26",
+      "summary": "分析美国四家媒体1005篇报道，探讨AI被视为“人工移民”的威胁框架，发现现实威胁强调多于象征威胁，技术报道偏向现实框架。"
     },
     {
       "id": 492,
@@ -133,6 +128,13 @@
       "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
     },
     {
+      "id": 510,
+      "title": "‘Don’t Thai to me’: A critical discourse and linguistic analysis of border crisis in the Cambodia–Thailand armed conflict",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-24",
+      "summary": "研究2025年柬泰武装冲突中的‘Don’t Thai to me’话语，分析柬埔寨官方媒体及Facebook内容，结合Fairclough话语分析探讨民族身份污名化及数字传播下的舆论动员。"
+    },
+    {
       "id": 512,
       "title": "“The architect of the invasion” vs. “a symbol of resilience”: How AI chatbots frame Zelenskyy, Putin and the Russia–Ukraine war",
       "journal": "Media War & Conflict",
@@ -168,11 +170,11 @@
       "summary": "分析19国308篇新闻对深度伪造的行动者、威胁和解决方案的框架，基于俄乌战争案例，采用定性主题分析，揭示政治、技术、犯罪等主体及多维度威胁和应对措施。"
     },
     {
-      "id": 291,
-      "title": "Performing Identity: Repetition, Emoji, and Candidate Indicators of Amplified Visibility in Jordanian–Palestinian Facebook Discourse",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
+      "id": 184,
+      "title": "Evaluating the Impact of China’s “Wolf Warrior Diplomacy” in East Asia: An Experimental Approach",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-02",
+      "summary": "通过在日本、韩国、台湾的预注册在线实验，检验中国‘战狼外交’信息对三地公众对华态度的影响，发现负面效果有限但存在，分享意愿低。"
     },
     {
       "id": 138,
@@ -196,6 +198,13 @@
       "summary": "提出整合性“三M”框架分析短视频平台多模态虚假信息的建构、传播与政治化，并以2023年法国骚乱相关中文平台案例验证，揭示“织真”策略。"
     },
     {
+      "id": 525,
+      "title": "From laughing to learning: How TikTok genres influence American youth understanding and sentiments about the war in Ukraine",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-03-19",
+      "summary": "通过实验（N=794）考察TikTok讽刺视频和解释视频对美国青年关于俄乌战争的愤世嫉俗、政治效能、共情和知识的影响，发现视频增加愤世嫉俗和知识，且政治派别调节效果。"
+    },
+    {
       "id": 271,
       "title": "Repression through anti-repression tools: an analysis of the coordinated campaign of Iranian Telegram channels at times of crisis",
       "journal": "Journal of Information Technology & Politics",
@@ -208,6 +217,13 @@
       "journal": "Political Communication",
       "published_date": "2026-03-04",
       "summary": "将虚假信息概念化为跨平台、身份认同和宣泄性的文化叙事，基于Facebook和Twitter广泛分享的URL内容数据集，分析三个案例，发现成功虚假信息符合叙事标准，具有情感和道德维度。"
+    },
+    {
+      "id": 561,
+      "title": "Reaction Media As A Cross-Platform Practice: A Case Study Of Friction And Flow In Uncle Roger’s Reaction Media On Youtube, Tiktok, Douyin, And Bilibili",
+      "journal": "Communication and the Public",
+      "published_date": "2026-02-27",
+      "summary": "通过案例研究，考察Uncle Roger在YouTube、TikTok、抖音和Bilibili上的反应媒体实践，提出反应媒体作为跨平台实践的新定义，强调其动态性和反应性。"
     },
     {
       "id": 274,

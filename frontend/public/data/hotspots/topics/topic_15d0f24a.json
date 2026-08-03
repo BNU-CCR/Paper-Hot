@@ -1,39 +1,20 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "人机信任与AI信息可信度",
-  "description": "研究人类对机器人、AI决策和AI生成内容的信任与评价",
-  "why_hot": "虽近期略降，但仍是持续热门的人机传播议题",
-  "hot_score": 52,
-  "growth": -0.333,
-  "growth_rate": -0.333,
-  "recent_rate": 0.1333,
-  "baseline_rate": 0.2,
-  "recent_count": 4,
-  "baseline_count": 30,
-  "journal_count": 8,
+  "label": "topic_15d0f24a",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 34,
+  "growth": -0.565,
+  "growth_rate": -0.565,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.1533,
+  "recent_count": 2,
+  "baseline_count": 23,
+  "journal_count": 7,
   "lineage_status": "continued",
-  "status": "hot",
-  "keywords": [
-    "人机信任",
-    "AI新闻",
-    "可信度",
-    "社会机器人"
-  ],
+  "status": "emerging",
+  "keywords": [],
   "papers": [
-    {
-      "id": 3,
-      "title": "Examining initial trust development and trusting intentions toward humanoid social robots",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-28",
-      "summary": "通过375名美国参与者的调查，检验人形社交机器人初始信任形成模型，发现结构保证、感知服务利益和声誉是关键因素，为企业和政策制定者提供见解。"
-    },
-    {
-      "id": 65,
-      "title": "Socioeconomic and digital divides in public support for AI-driven welfare decisions: cross-national evidence from 21 countries",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-14",
-      "summary": "通过21国跨国调查，考察经济困难与AI态度对AI福利决策支持度的影响，并分析国家层面数字鸿沟的调节作用。"
-    },
     {
       "id": 398,
       "title": "Explaining AI-Generated News: How Explanation Strategies and Machine Heuristic Influence Perceived Credibility",
@@ -70,20 +51,6 @@
       "summary": "通过实验考察AI事实核查工具采用奉承语气时，用户虽更偏好使用该工具，但降低了对信息的回忆和核对行为，且不受初始答案正确性影响。"
     },
     {
-      "id": 73,
-      "title": "Weapon, wonder or both? Political framings of AI in global north and south media",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-26",
-      "summary": "分析2010-2024年全球南北12家报纸6829篇AI报道，结合主题建模与情感分析，揭示政治化阶段及南北情绪差异，强调地缘政治对AI叙事的影响。"
-    },
-    {
-      "id": 405,
-      "title": "AI as “Artificial Immigrants”? A Content Analysis of the U.S. News Media Framing of AI Threats",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-26",
-      "summary": "分析美国四家媒体1005篇报道，探讨AI被视为“人工移民”的威胁框架，发现现实威胁强调多于象征威胁，技术报道偏向现实框架。"
-    },
-    {
       "id": 407,
       "title": "Beyond the Black Box: Human-AI Collaboration and Algorithmic Accountability in Arabic-Language Fact-Checking",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -98,25 +65,11 @@
       "summary": "基于社会风险放大框架和机器启发式概念，调查1038名中国GenAI健康信息用户，发现社交媒体关注降低风险感知，幻觉风险影响态度和使用意愿，机器启发式起调节作用。"
     },
     {
-      "id": 81,
-      "title": "Italians’ attitudes towards AI: how technology issues travel across social conversation",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-17",
-      "summary": "基于2023-2024年意大利全国调查，分析公众对AI的信息获取、工具使用及态度差异，发现知识鸿沟和情境依赖，呈现批判性矛盾心态，强调多元公众参与治理。"
-    },
-    {
       "id": 411,
       "title": "Fact-Checking as News Framing in the Age of AI: Challenges, Cues, Coverage, and Culture",
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-06-08",
       "summary": "文章探讨AI时代事实核查作为新闻框架的实践，提出挑战、线索、覆盖和文化四原则，属理论性研究。"
-    },
-    {
-      "id": 412,
-      "title": "Effects of Generative AI Bias on Adoption Through Trust: Interactions Between Engagement Cues, Information Cues, and Social Norms",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-07",
-      "summary": "通过在线实验探究AI偏见认知对采纳意愿的影响，发现偏见体验、偏见提示与社会规范三重交互影响AI信任，进而影响采纳。"
     },
     {
       "id": 413,
@@ -196,20 +149,6 @@
       "summary": "通过793名美国成年人的2×4实验，考察AI幻觉与纠错回应如何影响用户对准确性、信任和议题态度，并发现信念更新可预测后续信息寻求行为。"
     },
     {
-      "id": 111,
-      "title": "Socioeconomic disparities in AI awareness: examining the mediating roles of AI usage and familiarity",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-30",
-      "summary": "基于美国10087名成人调查，探究高低社会经济地位者在AI意识、熟悉度与使用上的差异，发现高SES者AI意识更强，且AI使用与熟悉度在SES与AI意识间起中介作用，揭示AI时代的数字不平等。"
-    },
-    {
-      "id": 181,
-      "title": "Simulated superiority and mediated geopolitics: affective responses to AI-generated political parody in Chinese digital space",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-04-30",
-      "summary": "通过397人实验探究AI生成政治模仿如何激发集体优越感、缓解对美敌对态度，并揭示视觉真实感的中介作用，扩展优越性理论。"
-    },
-    {
       "id": 422,
       "title": "To Disclose or Not to Disclose: How AI Use Transparency Increases Trust in Fact-Checking",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -250,13 +189,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-02-25",
       "summary": "基于26国跨国调查，考察人们使用生成式AI聊天机器人核查新闻真伪的行为及其前因，发现AI可信度感知和AI新闻舒适度显著预测该行为。"
-    },
-    {
-      "id": 644,
-      "title": "Reducing political polarization through conversations with artificial intelligence",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-02-23",
-      "summary": "通过两项实验(N=1035)让人类与AI聊天机器人实时对话，检验不同沟通风格对政治极化的影响。结果发现逆论点AI能显著降低议题极化，高对话接纳性和积极倾听增强情感去极化、智识谦逊和跨立场对话意愿。"
     }
   ],
   "paper_edges": []

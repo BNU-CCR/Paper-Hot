@@ -1,9 +1,9 @@
 {
   "topic_id": "topic_bd7d8c32",
-  "label": "生理同步与受众沉浸体验",
-  "description": "用生理测量和传记共振研究媒介受众的深度投入",
-  "why_hot": "论文数量从1篇增至2篇，增速激增900%，新兴方向",
-  "hot_score": 64,
+  "label": "topic_bd7d8c32",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 61,
   "growth": 9.0,
   "growth_rate": 9.0,
   "recent_rate": 0.0667,
@@ -13,12 +13,7 @@
   "journal_count": 2,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [
-    "生理同步",
-    "受众",
-    "叙事媒体",
-    "音乐共振"
-  ],
+  "keywords": [],
   "papers": [
     {
       "id": 2,

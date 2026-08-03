@@ -1,9 +1,9 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "媒介市场结构与声誉经济",
-  "description": "运用模拟与内容分析研究流媒体市场集中和企业国际化",
-  "why_hot": "近期从2篇升至3篇，速度大增，媒介经济议题回归",
-  "hot_score": 54,
+  "label": "topic_5bc0b040",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 51,
   "growth": 9.0,
   "growth_rate": 9.0,
   "recent_rate": 0.0667,
@@ -13,12 +13,7 @@
   "journal_count": 1,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [
-    "流媒体",
-    "市场集中",
-    "丑闻报道",
-    "企业国际化"
-  ],
+  "keywords": [],
   "papers": [
     {
       "id": 11,
