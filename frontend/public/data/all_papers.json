@@ -102,7 +102,7 @@
       "点击诱饵",
       "说服知识"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1504/ijmc.2027.10080299",
     "source_url": "https://doi.org/10.1504/ijmc.2027.10080299",
     "detail_slug": "effects-of-clickbait-headlines-and-puffery-phrases-in-mobile-news-a-persuasion-knowledge-perspective",
@@ -486,7 +486,7 @@
       "混合媒体",
       "平台研究"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/19331681.2026.2706789",
     "source_url": "https://doi.org/10.1080/19331681.2026.2706789",
     "detail_slug": "navigating-the-hybrid-media-landscape-danish-green-ngos-use-of-digital-platforms-for-internal-and-external-communication",
@@ -517,7 +517,7 @@
       "QAnon",
       "跨平台分析"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1080/10584609.2026.2708132",
     "source_url": "https://doi.org/10.1080/10584609.2026.2708132",
     "detail_slug": "networked-counterpublics-and-contentious-publicity-a-cross-platform-analysis-of-qanon-on-parler-and-twitter",
@@ -546,7 +546,7 @@
       "仿真模拟",
       "意见动态"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1080/1369118x.2026.2695177",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2695177",
     "detail_slug": "the-echoes-from-social-media-modeling-how-filter-bubbles-and-network-structure-shape-echo-chamber-emergence",
@@ -724,7 +724,7 @@
       "数字追踪",
       "传记共鸣"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1177/00936502261468400",
     "source_url": "https://doi.org/10.1177/00936502261468400",
     "detail_slug": "music-was-my-first-love-biographic-resonance-makes-everyday-music-listening-meaningful",
@@ -810,7 +810,7 @@
       "营销传播",
       "食品包装"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1177/14703572261440262",
     "source_url": "https://doi.org/10.1177/14703572261440262",
     "detail_slug": "constructing-healthiness-as-a-sense-effect-a-sociocultural-semiotic-analysis-of-naturalness-and-lightness-on-fruit-drink-packaging-from-uruguay",
@@ -1004,7 +1004,7 @@
       "技术成瘾",
       "大学生"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1504/ijmc.2027.10080155",
     "source_url": "https://doi.org/10.1504/ijmc.2027.10080155",
     "detail_slug": "examining-university-students-addiction-toward-generative-ai-an-i-pace-perspective",
@@ -1063,7 +1063,7 @@
       "内容分析",
       "数字主权"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/19331681.2026.2706795",
     "source_url": "https://doi.org/10.1080/19331681.2026.2706795",
     "detail_slug": "digital-transformation-and-contested-sovereignty-in-humanitarian-action",
@@ -1267,7 +1267,7 @@
       "女性主义",
       "网络行动主义"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/1369118x.2026.2702608",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2702608",
     "detail_slug": "everyday-feminist-tagging-as-techno-rhetorical-strategy-interference-and-curation-through-instagram-hashtags-in-kvinnostrejk",
@@ -1295,7 +1295,7 @@
       "视听产业",
       "内容分析"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.7195/ri14.v24i1.2252",
     "source_url": "https://doi.org/10.7195/ri14.v24i1.2252",
     "detail_slug": "el-lustro-dorado-del-audiovisual-espa-ol-en-vod",
@@ -1412,7 +1412,7 @@
       "政治 misinformation",
       "网络分析"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1080/10584609.2026.2704896",
     "source_url": "https://doi.org/10.1080/10584609.2026.2704896",
     "detail_slug": "political-fact-checking-efforts-are-constrained-by-deficiencies-in-coverage-speed-and-reach",
@@ -1467,7 +1467,7 @@
       "流媒体市场",
       "合并模拟"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/08997764.2026.2704867",
     "source_url": "https://doi.org/10.1080/08997764.2026.2704867",
     "detail_slug": "unilateral-effects-in-the-us-video-streaming-market-a-merger-simulation-of-the-netflix-hbo-max-and-hbo-max-paramount-consolidations",
@@ -1525,7 +1525,7 @@
       "政治预测",
       "计算社会科学"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1080/19331681.2026.2697187",
     "source_url": "https://doi.org/10.1080/19331681.2026.2697187",
     "detail_slug": "an-experiment-in-forecasting-out-of-sample-coup-events-with-artificial-intelligence",
@@ -1607,7 +1607,7 @@
       "错误认知",
       "纵向分析"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/1369118x.2026.2681885",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2681885",
     "detail_slug": "media-effects-selection-effects-or-no-effects-a-longitudinal-analysis-of-the-relationship-between-media-use-and-misperceptions",
@@ -1749,7 +1749,7 @@
       "数据化",
       "儿童金融科技"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/1369118x.2026.2701851",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2701851",
     "detail_slug": "platforming-pocket-money-family-finance-apps-and-the-datafication-of-child-economies",
@@ -1808,7 +1808,7 @@
       "性别研究",
       "内容分析"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1177/17427665261459265",
     "source_url": "https://doi.org/10.1177/17427665261459265",
     "detail_slug": "ephemeral-to-empowered-international-comparison-of-women-s-participation-in-web-series-production-2012-2019",
@@ -1836,7 +1836,7 @@
       "架构创新",
       "移动通信"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1504/ijmc.2027.10079933",
     "source_url": "https://doi.org/10.1504/ijmc.2027.10079933",
     "detail_slug": "a-revolution-or-an-evolution-an-architecture-innovation-analysis-of-the-shift-to-5g-networks",
@@ -1863,7 +1863,7 @@
       "哈希标签行动主义",
       "文本分析"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1080/10584609.2026.2702539",
     "source_url": "https://doi.org/10.1080/10584609.2026.2702539",
     "detail_slug": "vengeance-or-hope-a-role-based-analysis-of-hashtag-activism-for-the-war-in-gaza",
@@ -1920,7 +1920,7 @@
       "残障研究",
       "混合空间"
     ],
-    "method": null,
+    "method": "纯理论分析",
     "doi": "10.1080/1369118x.2026.2699252",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2699252",
     "detail_slug": "disability-and-ai-in-smart-cities-centering-access-agency-and-awareness-in-hybrid-spaces",
@@ -2006,7 +2006,7 @@
       "平台迁移",
       "政治传播"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1080/19331681.2026.2701762",
     "source_url": "https://doi.org/10.1080/19331681.2026.2701762",
     "detail_slug": "tiktok-refugees-motivations-and-political-correlates-of-international-platform-migration",
@@ -2279,7 +2279,7 @@
       "透明度",
       "算法治理"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/1369118x.2026.2699253",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2699253",
     "detail_slug": "typology-of-transparency-as-best-practice-evidence-from-facial-recognition-technologies-in-australia",
@@ -2630,7 +2630,7 @@
       "公共媒体",
       "比较研究"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/08997764.2026.2697767",
     "source_url": "https://doi.org/10.1080/08997764.2026.2697767",
     "detail_slug": "public-media-funding-in-central-and-eastern-europe-the-evolution-of-models-and-practices-from-a-historical-and-media-studies-perspective",
@@ -3323,7 +3323,7 @@
       "地方新闻生态",
       "政治误知"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/00936502261463581",
     "source_url": "https://doi.org/10.1177/00936502261463581",
     "detail_slug": "partisanship-in-context-the-a-symmetric-influence-of-local-newspaper-availability-and-selective-exposure-on-political-misperceptions-in-the-u-s",
@@ -3528,7 +3528,7 @@
       "新闻框架",
       "内容分析"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/08838151.2026.2692543",
     "source_url": "https://doi.org/10.1080/08838151.2026.2692543",
     "detail_slug": "ai-as-artificial-immigrants-a-content-analysis-of-the-u-s-news-media-framing-of-ai-threats",
@@ -3883,7 +3883,7 @@
       "企业绩效",
       "组织流程"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1504/ijmc.2027.10079261",
     "source_url": "https://doi.org/10.1504/ijmc.2027.10079261",
     "detail_slug": "investigating-cloud-diffusion-capabilities-impacts-on-firm-performance-via-inter-and-intra-organisational-processes",
@@ -4063,7 +4063,7 @@
       "内容分析",
       "计算传播"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.7195/ri14.v24i1.2347",
     "source_url": "https://doi.org/10.7195/ri14.v24i1.2347",
     "detail_slug": "construcci-n-del-discurso-de-odio-antimusulm-n-en-x",
@@ -4124,7 +4124,7 @@
       "司法政治",
       "实验"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1080/10584609.2026.2682952",
     "source_url": "https://doi.org/10.1080/10584609.2026.2682952",
     "detail_slug": "democratic-institutions-under-threat-corrosive-frames-internet-news-and-the-u-s-supreme-court",
@@ -4240,7 +4240,7 @@
       "内容分析",
       "Instagram"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/19331681.2026.2688156",
     "source_url": "https://doi.org/10.1080/19331681.2026.2688156",
     "detail_slug": "the-multimodal-use-of-instagram-in-italian-politics-how-do-candidates-use-verbal-and-non-verbal-strategies-during-regional-elections",
@@ -4359,7 +4359,7 @@
       "个性化",
       "内容分析"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/1369118x.2026.2669795",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2669795",
     "detail_slug": "drivers-of-professional-and-private-personalization-investigating-political-actors-social-media-platforms-and-their-interplay",
@@ -4388,7 +4388,7 @@
       "Facebook",
       "传播结构"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1080/1369118x.2026.2686314",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2686314",
     "detail_slug": "latent-communicative-figurations-mapping-quasi-visible-strategic-relational-structures-on-facebook",
@@ -4682,7 +4682,7 @@
       "新闻暴露",
       "行为数据"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1177/00936502261458955",
     "source_url": "https://doi.org/10.1177/00936502261458955",
     "detail_slug": "two-forms-of-media-distrust-cynicism-skepticism-and-online-news-exposure",
@@ -4893,7 +4893,7 @@
       "暴力冲突",
       "理论框架"
     ],
-    "method": null,
+    "method": "纯理论分析",
     "doi": "10.1177/19401612261452109",
     "source_url": "https://doi.org/10.1177/19401612261452109",
     "detail_slug": "media-systems-and-violent-conflicts-a-theoretical-framework-and-patterns-of-transformation",
@@ -5324,7 +5324,7 @@
       "平台化",
       "宣传叙事"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1177/17506352261448727",
     "source_url": "https://doi.org/10.1177/17506352261448727",
     "detail_slug": "uniting-the-world-behind-ukraine-the-platformization-of-united24-media-s-narratives-on-instagram-and-youtube-and-the-in-visibilization-of-war",
@@ -5352,7 +5352,7 @@
       "数据访问",
       "政治传播"
     ],
-    "method": null,
+    "method": "综述",
     "doi": "10.1080/10584609.2026.2681041",
     "source_url": "https://doi.org/10.1080/10584609.2026.2681041",
     "detail_slug": "moving-targets-moving-politics-the-state-of-play-in-social-media-data-access",
@@ -5638,7 +5638,7 @@
       "数字新闻",
       "多模态分析"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1177/17506352261446076",
     "source_url": "https://doi.org/10.1177/17506352261446076",
     "detail_slug": "visual-moralization-of-conflict-on-tiktok-a-typology-of-journalistic-framing",
@@ -5780,7 +5780,7 @@
       "选举研究",
       "数据获取"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1080/1369118x.2026.2667921",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2667921",
     "detail_slug": "price-proficiency-or-permission-assessing-platform-data-access-for-election-research",
@@ -5836,7 +5836,7 @@
       "社交媒体平台",
       "平台治理"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1080/1369118x.2026.2674878",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2674878",
     "detail_slug": "calling-out-disclosures-protecting-followers-the-new-governors-of-influencer-culture-on-tiktok",
@@ -6004,7 +6004,7 @@
       "在线叙事",
       "消费者视角"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1080/1369118x.2026.2678364",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2678364",
     "detail_slug": "stigma-to-skepticism-online-consumer-narratives-of-obesity-management-medications",
@@ -6060,7 +6060,7 @@
       "框架分析",
       "和平新闻"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/17506352261437388",
     "source_url": "https://doi.org/10.1177/17506352261437388",
     "detail_slug": "double-edged-press-framing-war-and-peace-negotiation-in-the-ethiopian-state-newspaper",
@@ -6117,7 +6117,7 @@
       "内容分析",
       "符号学"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/14703572261418120",
     "source_url": "https://doi.org/10.1177/14703572261418120",
     "detail_slug": "multimodal-semiotic-content-analysis-combining-quantitative-large-data-analysis-with-qualitative-semiotic-coding",
@@ -6175,7 +6175,7 @@
       "方法论",
       "批判分析"
     ],
-    "method": null,
+    "method": "纯理论分析",
     "doi": "10.1177/20570473261450606",
     "source_url": "https://doi.org/10.1177/20570473261450606",
     "detail_slug": "transnational-knowledge-methodology-and-institutions-in-global-media-studies-a-dialogue-with-terhi-rantanen",
@@ -6259,7 +6259,7 @@
       "视频观看",
       "媒体信任"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1080/19331681.2026.2672009",
     "source_url": "https://doi.org/10.1080/19331681.2026.2672009",
     "detail_slug": "streaming-the-divide-political-video-viewing-intergenerational-unfairness-and-media-distrust-in-japan-s-2025-election",
@@ -6346,7 +6346,7 @@
       "冲突报道",
       "新闻研究"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/17506352261443119",
     "source_url": "https://doi.org/10.1177/17506352261443119",
     "detail_slug": "beyond-neutrality-australian-media-coverage-of-the-israel-gaza-war",
@@ -6808,7 +6808,7 @@
       "用户转移",
       "推拉锚定框架"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1504/ijmc.2027.10078251",
     "source_url": "https://doi.org/10.1504/ijmc.2027.10078251",
     "detail_slug": "uncovering-users-switching-from-government-service-applications-to-government-wechat-mini-programs-based-on-push-pull-mooring-framework",
@@ -6948,7 +6948,7 @@
       "在线实验",
       "说服效果"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/08838151.2026.2670673",
     "source_url": "https://doi.org/10.1080/08838151.2026.2670673",
     "detail_slug": "label-debunk-or-nudge-the-effectiveness-of-ai-decision-makers-and-ai-decision-assistants-in-reducing-perceived-health-misinformation-credibility",
@@ -7060,7 +7060,7 @@
       "序列分析",
       "计算方法"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1080/19312458.2026.2664873",
     "source_url": "https://doi.org/10.1080/19312458.2026.2664873",
     "detail_slug": "exploring-temporal-dynamics-in-digital-trace-data-mining-user-sequences-for-communication-research",
@@ -7672,7 +7672,7 @@
       "云计算",
       "互联网治理"
     ],
-    "method": null,
+    "method": "纯理论分析",
     "doi": "10.1080/1369118x.2026.2645879",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2645879",
     "detail_slug": "cloud-drift-how-hyperscaler-cloud-computing-shapes-internet-governance",
@@ -7758,7 +7758,7 @@
       "媒体框架",
       "计算传播"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/17506352261443109",
     "source_url": "https://doi.org/10.1177/17506352261443109",
     "detail_slug": "from-solidarity-to-rejection-moral-panic-toward-rohingya-refugees-in-aceh-indonesia",
@@ -7812,7 +7812,7 @@
       "DSA",
       "研究基础设施"
     ],
-    "method": null,
+    "method": "纯理论分析",
     "doi": "10.1080/10584609.2026.2665427",
     "source_url": "https://doi.org/10.1080/10584609.2026.2665427",
     "detail_slug": "what-the-dsa-means-outside-europe-research-access-and-its-limits",
@@ -8015,7 +8015,7 @@
       "数字不平等",
       "全国调查"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/1369118x.2026.2652505",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2652505",
     "detail_slug": "socioeconomic-disparities-in-ai-awareness-examining-the-mediating-roles-of-ai-usage-and-familiarity",
@@ -8246,7 +8246,7 @@
       "财务结构",
       "媒体经济"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/08997764.2026.2664433",
     "source_url": "https://doi.org/10.1080/08997764.2026.2664433",
     "detail_slug": "financial-structure-and-productive-activity-in-cultural-and-creative-industries-evidence-from-video-game-development-studios",
@@ -8709,7 +8709,7 @@
       "视觉分析",
       "内容分析"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/17506352261426832",
     "source_url": "https://doi.org/10.1177/17506352261426832",
     "detail_slug": "international-media-coverage-of-the-2023-gaza-war-a-hybrid-methodological-approach-to-cross-cultural-visual-analysis",
@@ -9168,7 +9168,7 @@
       "数字民主",
       "理论建构"
     ],
-    "method": null,
+    "method": "纯理论分析",
     "doi": "10.1080/19331681.2026.2660162",
     "source_url": "https://doi.org/10.1080/19331681.2026.2660162",
     "detail_slug": "what-is-digital-democracy",
@@ -9377,7 +9377,7 @@
       "社会符号学",
       "媒体网络"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/1369118x.2026.2658839",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2658839",
     "detail_slug": "modular-messaging-and-multimodal-influence-amidst-democratic-fragility-in-greece-unpacking-new-democracy-s-party-funded-media-network",
@@ -9435,7 +9435,7 @@
       "健康传播",
       "问卷调查"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/08824096.2026.2656673",
     "source_url": "https://doi.org/10.1080/08824096.2026.2656673",
     "detail_slug": "terms-young-people-use-to-describe-unwanted-sexual-experiences",
@@ -9490,7 +9490,7 @@
       "YouTube评论",
       "受众研究"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1080/08838151.2026.2656714",
     "source_url": "https://doi.org/10.1080/08838151.2026.2656714",
     "detail_slug": "entertaining-or-mis-disinforming-social-data-analysis-of-audience-reception-of-historical-accuracy-and-creative-license-in-the-netflix-series-i-queen-cleopatra-i-on-youtube-a-case-study",
@@ -9551,7 +9551,7 @@
       "大规模数据集",
       "计算社会科学"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1080/1369118x.2026.2648695",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2648695",
     "detail_slug": "online-interactions-and-the-gravity-model",
@@ -9666,7 +9666,7 @@
       "继承权",
       "数字叙事"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/1369118x.2026.2658041",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2658041",
     "detail_slug": "digital-resistance-and-gendered-dispossession-palestinian-women-s-struggles-for-inheritance-justice",
@@ -10047,7 +10047,7 @@
       "内容分析",
       "视觉传播"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/1369118x.2026.2654665",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2654665",
     "detail_slug": "favela-aesthetics-digital-influencers-in-brazil-contesting-instagram-visual-cultures-and-favela-stigmas",
@@ -10318,7 +10318,7 @@
       "反虚假信息",
       "去殖民化"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/1369118x.2026.2647357",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2647357",
     "detail_slug": "what-counter-disinformation-funders-got-wrong-global-south-critiques-of-the-field",
@@ -10407,7 +10407,7 @@
       "道德模糊角色",
       "种族认知"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/08838151.2026.2654865",
     "source_url": "https://doi.org/10.1080/08838151.2026.2654865",
     "detail_slug": "almost-villains-a-mixed-method-examination-of-white-audiences-racial-and-moral-categorization-of-media-characters",
@@ -10495,7 +10495,7 @@
       "统计方法",
       "可重复性"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/19312458.2026.2658505",
     "source_url": "https://doi.org/10.1080/19312458.2026.2658505",
     "detail_slug": "how-credible-are-published-significant-results-estimating-average-true-power-with-p-curve-or-z-curve",
@@ -10871,7 +10871,7 @@
       "X/Twitter",
       "身份建构"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1177/20563051261434800",
     "source_url": "https://doi.org/10.1177/20563051261434800",
     "detail_slug": "afghanistan-s-digital-diaspora-conflicted-constructions-of-nation-and-identity",
@@ -11246,7 +11246,7 @@
       "批判理论",
       "民主问责"
     ],
-    "method": null,
+    "method": "纯理论分析",
     "doi": "10.1177/20563051261452539",
     "source_url": "https://doi.org/10.1177/20563051261452539",
     "detail_slug": "structured-absence",
@@ -11329,7 +11329,7 @@
       "计算检测",
       "阿拉伯语话语"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1177/20563051261454774",
     "source_url": "https://doi.org/10.1177/20563051261454774",
     "detail_slug": "performing-identity-repetition-emoji-and-candidate-indicators-of-amplified-visibility-in-jordanian-palestinian-facebook-discourse",
@@ -11388,7 +11388,7 @@
       "互联网文化",
       "社交媒体反思"
     ],
-    "method": null,
+    "method": "纯理论分析",
     "doi": "10.1177/20563051261434796",
     "source_url": "https://doi.org/10.1177/20563051261434796",
     "detail_slug": "broken-connections-fieldnotes-from-the-old-internet",
@@ -11416,7 +11416,7 @@
       "新闻框架",
       "媒体报道"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/17506352261424855",
     "source_url": "https://doi.org/10.1177/17506352261424855",
     "detail_slug": "turning-crisis-into-opportunity-grain-corridor-news-in-turkish-media",
@@ -11499,7 +11499,7 @@
       "种族话语",
       "直播平台"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/1369118x.2026.2648699",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2648699",
     "detail_slug": "examining-the-linguistic-power-of-emotes-multimodal-race-discourse-on-twitch",
@@ -11848,7 +11848,7 @@
       "冲突传播",
       "内容分析"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/17506352261428363",
     "source_url": "https://doi.org/10.1177/17506352261428363",
     "detail_slug": "strategic-framing-in-conflict-communication-ispr-s-use-of-x-during-pakistan-s-war-on-terror",
@@ -11934,7 +11934,7 @@
       "虚假信息",
       "多模态"
     ],
-    "method": null,
+    "method": "纯理论分析",
     "doi": "10.1080/1369118x.2026.2645883",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2645883",
     "detail_slug": "diagnosing-multimodal-disinformation-the-integrative-three-m-framework-of-multimodality-manipulation-and-malintent",
@@ -12107,7 +12107,7 @@
       "数字民族志",
       "平台治理"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/1369118x.2026.2643467",
     "source_url": "https://doi.org/10.1080/1369118x.2026.2643467",
     "detail_slug": "spread-kindness-not-virus-theorising-the-vulnerability-of-online-mutual-aid-communities",
@@ -12282,7 +12282,7 @@
       "说服知识",
       "数字传播"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/1553118x.2026.2640138",
     "source_url": "https://doi.org/10.1080/1553118x.2026.2640138",
     "detail_slug": "brand-related-and-information-sharing-cues-as-decision-aid-for-smartphone-users-at-different-levels-of-persuasion-knowledge-to-assess-mhealth-app-credibility-an-eye-tracking-study",
@@ -12571,7 +12571,7 @@
       "可持续沟通",
       "组织传播"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/1553118x.2026.2617933",
     "source_url": "https://doi.org/10.1080/1553118x.2026.2617933",
     "detail_slug": "transforming-investor-relations-exploring-organizational-antecedents-of-sustainability-integration-in-investor-relations-programs-among-german-listed-corporations",
@@ -12599,7 +12599,7 @@
       "数字行动主义",
       "内容分析"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1177/17427665261432033",
     "source_url": "https://doi.org/10.1177/17427665261432033",
     "detail_slug": "digital-dissent-and-social-grass-roots-mobilization-on-x-the-impact-of-mahsaamini-on-digital-political-activism-in-the-islamic-republic-of-iran",
@@ -12685,7 +12685,7 @@
       "问卷调查",
       "社会运动"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/08838151.2026.2642912",
     "source_url": "https://doi.org/10.1080/08838151.2026.2642912",
     "detail_slug": "hostile-media-and-friendly-chambers-social-media-polarization-and-the-2024-u-s-campus-protests",
@@ -13147,7 +13147,7 @@
       "社交媒体",
       "种族歧视"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.7195/ri14.v24i1.2331",
     "source_url": "https://doi.org/10.7195/ri14.v24i1.2331",
     "detail_slug": "din-micas-algor-tmicas-y-resistencia-juvenil-ante-el-racismo-en-redes-sociales",
@@ -13177,7 +13177,7 @@
       "社交媒体",
       "数字素养"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.7195/ri14.v24i1.2329",
     "source_url": "https://doi.org/10.7195/ri14.v24i1.2329",
     "detail_slug": "comunicaci-n-persuasiva-en-tiktok",
@@ -13205,7 +13205,7 @@
       "政治共选",
       "中国"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/19401612261422514",
     "source_url": "https://doi.org/10.1177/19401612261422514",
     "detail_slug": "harnessing-star-power-sequential-political-cooptation-of-entertainment-celebrities-in-china",
@@ -13404,7 +13404,7 @@
       "中国",
       "传播学"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1080/01292986.2026.2673518",
     "source_url": "https://doi.org/10.1080/01292986.2026.2673518",
     "detail_slug": "love-and-romance-in-china-from-comrades-and-partners-to-ai-lovers",
@@ -13460,7 +13460,7 @@
       "中国法律传统",
       "非计算传播"
     ],
-    "method": null,
+    "method": "纯理论分析",
     "doi": "10.1080/01292986.2026.2673941",
     "source_url": "https://doi.org/10.1080/01292986.2026.2673941",
     "detail_slug": "the-legal-image-of-china-in-chinese-legal-tradition",
@@ -13489,7 +13489,7 @@
       "媒体文化",
       "东亚"
     ],
-    "method": null,
+    "method": "综述",
     "doi": "10.1080/01292986.2026.2673523",
     "source_url": "https://doi.org/10.1080/01292986.2026.2673523",
     "detail_slug": "east-asian-media-culture-in-the-age-of-digital-platforms-narratives-industries-and-audiences",
@@ -13520,7 +13520,7 @@
       "叙事分析",
       "跨平台"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/10584609.2026.2644198",
     "source_url": "https://doi.org/10.1080/10584609.2026.2644198",
     "detail_slug": "disinformation-as-cultural-narrative-conceptualizing-disinformation-as-cross-platform-identity-affirming-cathartic-stories",
@@ -13641,7 +13641,7 @@
       "种族差异",
       "媒体政治经济学"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/08997764.2026.2637428",
     "source_url": "https://doi.org/10.1080/08997764.2026.2637428",
     "detail_slug": "anemic-black-owned-broadcast-stations-a-political-economy-analysis-of-fcc-ownership-reports-2009-2023",
@@ -13758,7 +13758,7 @@
       "健康传播",
       "内容分析"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/1553118x.2026.2629461",
     "source_url": "https://doi.org/10.1080/1553118x.2026.2629461",
     "detail_slug": "identifying-ingredients-that-make-mental-health-focused-short-videos-engaging-a-content-analysis-of-source-type-content-strategy-and-production-features",
@@ -13814,7 +13814,7 @@
       "互联网治理",
       "人工智能"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1177/20570473261428232",
     "source_url": "https://doi.org/10.1177/20570473261428232",
     "detail_slug": "oral-history-of-internet-ohi-an-intellectual-dialogue-with-manuel-castells-on-academic-journeys-social-insights-and-future-perspectives",
@@ -14392,7 +14392,7 @@
       "政治极化",
       "人机传播"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1093/jcmc/zmag003",
     "source_url": "https://doi.org/10.1093/jcmc/zmag003",
     "detail_slug": "reducing-political-polarization-through-conversations-with-artificial-intelligence",
@@ -14563,7 +14563,7 @@
       "政治传播",
       "可信度"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/10584609.2026.2627253",
     "source_url": "https://doi.org/10.1080/10584609.2026.2627253",
     "detail_slug": "truth-seeking-vs-balance-the-credibility-dilemma-in-correcting-political-misinformation",
@@ -14887,7 +14887,7 @@
       "地理空间分析",
       "数字民族志"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/19331681.2026.2630184",
     "source_url": "https://doi.org/10.1080/19331681.2026.2630184",
     "detail_slug": "borderless-surveillance-in-hard-states-digital-monitoring-and-the-shifting-politics-of-control-in-central-asia",
@@ -15265,7 +15265,7 @@
       "危机传播",
       "内容分析"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1080/1553118x.2026.2626325",
     "source_url": "https://doi.org/10.1080/1553118x.2026.2626325",
     "detail_slug": "acb-does-not-represent-me-or-kd-kappa-delta-s-response-to-amy-coney-barrett-and-the-i-dobbs-i-decision",
@@ -15583,7 +15583,7 @@
       "批判分析",
       "案例研究"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1177/20570473261416538",
     "source_url": "https://doi.org/10.1177/20570473261416538",
     "detail_slug": "authentic-or-performative-social-licence-to-operate-in-settler-colonial-contexts-rio-tinto-the-puutu-kunti-kurrama-and-pinikura-peoples-and-the-destruction-of-the-juukan-gorge-rock-shelters",
@@ -15760,7 +15760,7 @@
       "内容分析",
       "记者调查"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/10584609.2026.2621169",
     "source_url": "https://doi.org/10.1080/10584609.2026.2621169",
     "detail_slug": "do-journalists-political-orientations-translate-into-partisan-news-reporting-the-limits-of-bias-and-the-limits-of-counter-mechanisms",
@@ -15899,7 +15899,7 @@
       "股市影响",
       "政治不确定性"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/08997764.2026.2617248",
     "source_url": "https://doi.org/10.1080/08997764.2026.2617248",
     "detail_slug": "the-impact-of-social-media-flagging-false-information-on-the-stock-market-the-case-of-trump-s-tweets",
@@ -16187,7 +16187,7 @@
       "国际传播",
       "战略竞争"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1177/17427665251411464",
     "source_url": "https://doi.org/10.1177/17427665251411464",
     "detail_slug": "public-diplomacy-deferred-american-cultural-centers-and-confucius-institutes-in-an-era-of-strategic-competition",
@@ -16335,7 +16335,7 @@
       "内容分析",
       "媒体话语"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/17427665251411490",
     "source_url": "https://doi.org/10.1177/17427665251411490",
     "detail_slug": "disappointment-or-hype-framing-artificial-intelligence-in-the-us-elite-news-media",
@@ -16393,7 +16393,7 @@
       "母性表征",
       "内容分析"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.7195/ri14.v24i1.2224",
     "source_url": "https://doi.org/10.7195/ri14.v24i1.2224",
     "detail_slug": "en-primera-persona-representaciones-de-la-maternidad-en-el-documental-espa-ol-contempor-neo-2013-2023",
@@ -16479,7 +16479,7 @@
       "声誉",
       "政治传播"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/10584609.2025.2600004",
     "source_url": "https://doi.org/10.1080/10584609.2025.2600004",
     "detail_slug": "a-credible-change-how-parties-use-election-promises-to-counteract-the-loss-of-reputation-when-they-dilute-their-policy-positions",
@@ -16893,7 +16893,7 @@
       "政治参与",
       "内容分析"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/10584609.2025.2601736",
     "source_url": "https://doi.org/10.1080/10584609.2025.2601736",
     "detail_slug": "profit-over-public-good-the-impact-of-investment-firm-ownership-on-local-news-and-political-behavior",
@@ -17561,7 +17561,7 @@
       "媒体使用",
       "问卷调查"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/01292986.2026.2649635",
     "source_url": "https://doi.org/10.1080/01292986.2026.2649635",
     "detail_slug": "how-news-consumption-through-different-media-sources-affects-political-trust-longitudinal-evidence-from-china",
@@ -17588,7 +17588,7 @@
       "健康传播",
       "批判分析"
     ],
-    "method": null,
+    "method": "综述",
     "doi": "10.1080/01292986.2026.2644330",
     "source_url": "https://doi.org/10.1080/01292986.2026.2644330",
     "detail_slug": "language-health-and-culture-problematizing-the-centers-and-peripheries-of-healthcare-communication-research",
@@ -17930,7 +17930,7 @@
       "移动银行",
       "银行绩效"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1504/ijmc.2026.10078589",
     "source_url": "https://doi.org/10.1504/ijmc.2026.10078589",
     "detail_slug": "how-does-mobile-banking-upgrading-drive-banks-financial-performance",
@@ -18222,7 +18222,7 @@
       "服务质量",
       "量表开发"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1504/ijmc.2026.10077522",
     "source_url": "https://doi.org/10.1504/ijmc.2026.10077522",
     "detail_slug": "development-and-validation-of-an-e-commerce-service-quality-measurement-instrument-for-the-food-and-beverage-industry",
@@ -18312,7 +18312,7 @@
       "DDoS检测",
       "SDN-IoT"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1504/ijmc.2026.10077267",
     "source_url": "https://doi.org/10.1504/ijmc.2026.10077267",
     "detail_slug": "hgro-harmonic-gold-rush-optimisation-for-ddos-attack-detection-and-mitigation-in-sdn-iot",
@@ -18399,7 +18399,7 @@
       "安卓安全",
       "恶意软件检测"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1504/ijmc.2026.154630",
     "source_url": "https://doi.org/10.1504/ijmc.2026.154630",
     "detail_slug": "classification-of-malicious-android-applications-by-machine-learning-methods-using-permission-properties",
@@ -18573,7 +18573,7 @@
       "无线传感器网络",
       "路由协议"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1504/ijmc.2026.10078144",
     "source_url": "https://doi.org/10.1504/ijmc.2026.10078144",
     "detail_slug": "an-efficient-cluster-head-selection-model-in-wireless-sensor-networks-with-routing-protocol-and-optimisation-techniques",
@@ -18602,7 +18602,7 @@
       "社会商务",
       "消费者行为"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1504/ijmc.2026.10079376",
     "source_url": "https://doi.org/10.1504/ijmc.2026.10079376",
     "detail_slug": "adopting-live-streaming-commerce-exploring-determinants-of-consumer-behaviour-in-social-commerce",
@@ -18657,7 +18657,7 @@
       "车载网络",
       "资源管理"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1504/ijmc.2026.10077523",
     "source_url": "https://doi.org/10.1504/ijmc.2026.10077523",
     "detail_slug": "multiagent-deep-reinforcement-learning-based-resource-management-technique-for-vehicular-networks-in-heterogeneous-traffic",
@@ -18685,7 +18685,7 @@
       "E-WOM",
       "消费者行为"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1504/ijmc.2026.10075549",
     "source_url": "https://doi.org/10.1504/ijmc.2026.10075549",
     "detail_slug": "e-wom-and-outcomes-on-perceived-values-and-consumer-purchase-intention",
@@ -18713,7 +18713,7 @@
       "朝觐管理",
       "异常检测"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1504/ijmc.2026.151581",
     "source_url": "https://doi.org/10.1504/ijmc.2026.151581",
     "detail_slug": "deep-learning-driven-mobile-crowd-sensing-for-secure-and-efficient-hajj-pilgrimage-management",
@@ -18831,7 +18831,7 @@
       "资源优化",
       "能量感知"
     ],
-    "method": null,
+    "method": "",
     "doi": "10.1504/ijmc.2026.10078333",
     "source_url": "https://doi.org/10.1504/ijmc.2026.10078333",
     "detail_slug": "energy-aware-algorithm-for-resource-optimisation-in-edge-based-multi-cluster-communication-networks",
@@ -19000,7 +19000,7 @@
       "话语分析",
       "性别仇恨"
     ],
-    "method": null,
+    "method": "纯质性分析",
     "doi": "10.1177/20563051261419384",
     "source_url": "https://doi.org/10.1177/20563051261419384",
     "detail_slug": "rape-isn-t-real-and-if-it-is-foids-deserve-it-the-complex-and-contradictory-articulations-of-rape-and-gender-based-hate-among-incels",
@@ -19232,7 +19232,7 @@
       "网络厌女",
       "社交媒体"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/20563051261430708",
     "source_url": "https://doi.org/10.1177/20563051261430708",
     "detail_slug": "techno-music-and-luxury-yachts-the-misogynesque-audiovisual-affective-codes-of-tiktok-manfluencers",
@@ -19356,7 +19356,7 @@
       "受众参与",
       "政治问责"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1177/20563051261427978",
     "source_url": "https://doi.org/10.1177/20563051261427978",
     "detail_slug": "paradox-of-laughter-aggressiveness-emotional-response-and-political-accountability-in-nigerian-social-media-satire",
@@ -19565,7 +19565,7 @@
       "极端化",
       "Tumblr"
     ],
-    "method": null,
+    "method": "计算传播学",
     "doi": "10.1177/20563051251413920",
     "source_url": "https://doi.org/10.1177/20563051251413920",
     "detail_slug": "from-flowers-to-fascism-the-cottagecore-to-tradwife-pipeline-on-tumblr",
@@ -19655,7 +19655,7 @@
       "政治参与",
       "跨文化比较"
     ],
-    "method": null,
+    "method": "传统量化分析",
     "doi": "10.1080/19331681.2025.2609120",
     "source_url": "https://doi.org/10.1080/19331681.2025.2609120",
     "detail_slug": "the-interplay-of-culture-cognition-and-political-engagement-in-the-reporting-of-disinformation-a-multi-country-analysis",
@@ -20047,15 +20047,18 @@
     "published_date": "2025-12-26",
     "relevance": "Low",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: AI响应中没有可解析的文本内容",
-    "tags": [],
-    "method": "",
+    "summary": "论文探讨robots.txt协议如何将数据抓取同意基础设施化，并分析AI公司面临的数据获取危机，属于批判性理论思辨。",
+    "reason": "纯理论批判分析，无经验数据与计算方法，不属计算传播研究。",
+    "tags": [
+      "数据伦理",
+      "AI与网络协议"
+    ],
+    "method": "纯理论分析",
     "doi": "10.1080/1369118x.2025.2598054",
     "source_url": "https://doi.org/10.1080/1369118x.2025.2598054",
     "detail_slug": "infrastructural-consent-robots-txt-as-a-protocol-for-automated-data-extraction",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Information, Communication & Society",
     "volume": "",
     "issue": ""
@@ -21172,7 +21175,7 @@
       "图像预测",
       "植物生长"
     ],
-    "method": "",
+    "method": "计算传播学",
     "doi": "10.1504/ijmc.2026.150491",
     "source_url": "https://doi.org/10.1504/ijmc.2026.150491",
     "detail_slug": "plant-growth-prediction-from-time-series-data-using-resnet-attention-based-spatial-channel-network",
@@ -27258,17 +27261,22 @@
     ],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-10-08",
-    "relevance": "Low",
+    "relevance": "High",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: 无法解析AI响应: {\n  \"relevance\": \"Medium\",\n  \"reason\": \"议题涉及政治广告微目标定位，但方法为体验抽样和内容分析，",
-    "tags": [],
-    "method": "",
+    "summary": "通过荷兰和美国选举期间的数据，结合移动经验抽样、截图捐赠与内容分析，考察定向议题广告对选民议题重要性的影响，发现广告暴露提高议题显著性，但未发现有效议题定向。",
+    "reason": "研究政治微目标广告与议题显著性，使用数字数据采集（截图捐赠、经验抽样）及内容分析，属计算传播学。",
+    "tags": [
+      "政治广告",
+      "微目标",
+      "议题显著性",
+      "数字方法"
+    ],
+    "method": "计算传播学",
     "doi": "10.1177/19401612251371514",
     "source_url": "https://doi.org/10.1177/19401612251371514",
     "detail_slug": "what-matters-to-voters-analyzing-the-influence-of-targeted-online-ads-on-perceived-issue-importance-during-the-united-states-2022-midterm-election-and-the-dutch-general-election-2021",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "The International Journal of Press/Politics",
     "volume": "",
     "issue": ""
@@ -30180,17 +30188,22 @@
     ],
     "journal": "Revista ICONO14",
     "published_date": "2025-09-05",
-    "relevance": "Low",
+    "relevance": "High",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: AI响应中没有可解析的文本内容",
-    "tags": [],
-    "method": "",
+    "summary": "通过调查373名西班牙广告业专业人士，了解其对AI工具的认知、兴趣和使用情况，发现兴趣高但知识中等，使用有限。",
+    "reason": "研究聚焦AI在广告业的应用与使用行为，虽用调查法，但符合AI特别条款。",
+    "tags": [
+      "人工智能",
+      "广告业",
+      "使用行为",
+      "西班牙"
+    ],
+    "method": "传统量化分析",
     "doi": "10.7195/ri14.v23i1.2223",
     "source_url": "https://doi.org/10.7195/ri14.v23i1.2223",
     "detail_slug": "el-uso-de-la-ia-en-la-industria-publicitaria-en-espa-a",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Revista Icono 14-Revista Cientifica de Comunicacion y Tecnologias",
     "volume": "23",
     "issue": "1"
@@ -32971,7 +32984,7 @@
       "政治参与",
       "网站设计"
     ],
-    "method": "",
+    "method": "计算传播学",
     "doi": "10.1080/19331681.2025.2534464",
     "source_url": "https://doi.org/10.1080/19331681.2025.2534464",
     "detail_slug": "navigating-participation-how-website-design-impacts-the-digital-divide-in-political-engagement",
@@ -36261,17 +36274,23 @@
     ],
     "journal": "Information Communication & Society",
     "published_date": "2025-06-30",
-    "relevance": "Low",
+    "relevance": "Medium",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: AI响应中没有可解析的文本内容",
-    "tags": [],
-    "method": "",
+    "summary": "研究ICT使用对农村居民生态政策认知偏差的影响，发现短视频平台效果最显著，通过提升生态知识和环境注意力降低偏差。",
+    "reason": "议题涉及数字技术使用与传播，但方法为传统实证调查，缺少计算元素",
+    "tags": [
+      "ICT",
+      "认知偏差",
+      "生态政策",
+      "农村居民",
+      "短视频"
+    ],
+    "method": "传统量化分析",
     "doi": "10.1080/1369118x.2025.2525484",
     "source_url": "https://doi.org/10.1080/1369118x.2025.2525484",
     "detail_slug": "the-potential-of-ict-reducing-rural-residents-cognitive-biases-towards-ecological-policies",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Information, Communication & Society",
     "volume": "29",
     "issue": "2"
@@ -36903,17 +36922,22 @@
     ],
     "journal": "Information Communication & Society",
     "published_date": "2025-06-22",
-    "relevance": "Low",
+    "relevance": "High",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: AI响应中没有可解析的文本内容",
-    "tags": [],
-    "method": "",
+    "summary": "以2023年好莱坞编剧罢工为例，运用权力资源方法分析工人如何通过制度、结构及话语权力参与生成式AI治理。",
+    "reason": "讨论生成式AI的劳工治理与社会影响，符合AI特别条款，即使方法传统也纳入。",
+    "tags": [
+      "AI治理",
+      "生成式AI",
+      "劳工研究",
+      "社会影响"
+    ],
+    "method": "纯质性分析",
     "doi": "10.1080/1369118x.2025.2521375",
     "source_url": "https://doi.org/10.1080/1369118x.2025.2521375",
     "detail_slug": "worker-led-ai-governance-hollywood-writers-strikes-and-the-worker-power",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Information, Communication & Society",
     "volume": "29",
     "issue": "6"
@@ -40404,17 +40428,21 @@
     ],
     "journal": "Information Communication & Society",
     "published_date": "2025-05-02",
-    "relevance": "Low",
+    "relevance": "Medium",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: AI响应中没有可解析的文本内容",
-    "tags": [],
-    "method": "",
+    "summary": "通过在线问卷调查340名澳大利亚妊娠期糖尿病女性，分析Facebook支持社区成员特征、互联网使用及赋能体验。",
+    "reason": "研究Facebook支持社区，议题相关但使用传统问卷调查和回归分析，无计算方法。",
+    "tags": [
+      "Facebook",
+      "在线健康社区",
+      "社交媒体"
+    ],
+    "method": "传统量化分析",
     "doi": "10.1080/1369118x.2025.2492581",
     "source_url": "https://doi.org/10.1080/1369118x.2025.2492581",
     "detail_slug": "utilisation-of-the-internet-and-support-communities-on-facebook-for-gestational-diabetes-mellitus-self-management-and-empowerment-a-cross-sectional-online-survey-study",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Information, Communication & Society",
     "volume": "29",
     "issue": "1"
@@ -40783,7 +40811,7 @@
       "ICT",
       "传播技术"
     ],
-    "method": "",
+    "method": "传统量化分析",
     "doi": "10.1080/01292986.2025.2497502",
     "source_url": "https://doi.org/10.1080/01292986.2025.2497502",
     "detail_slug": "digital-reading-of-net-generation-in-china",
@@ -41011,7 +41039,7 @@
     "relevance": "Low",
     "score": null,
     "summary": "",
-    "reason": "筛选出错: 无法解析AI响应: {\n  \"relevance\": \"Low\",\n  \"reason\": \"研究主题涉及社交媒体，但方法为传统问卷调查，无计算元素，符合排除标准。\",\n  \"tags",
+    "reason": "筛选出错: AI响应中没有可解析的文本内容",
     "tags": [],
     "method": "",
     "doi": "10.1080/1369118x.2025.2496907",
@@ -45194,17 +45222,21 @@
     ],
     "journal": "Information Communication & Society",
     "published_date": "2025-03-18",
-    "relevance": "Low",
+    "relevance": "Medium",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: AI响应中没有可解析的文本内容",
-    "tags": [],
-    "method": "",
+    "summary": "通过106名年轻人11天每日四次的生态瞬时评估，探讨依恋不安全感与问题性社交媒体使用间的动态机制，发现状态依恋不安全感中介负性事件对渴求的影响。",
+    "reason": "议题涉及社交媒体使用，但采用EMA和多水平模型，属传统量化方法，计算元素不足。",
+    "tags": [
+      "社交媒体使用",
+      "依恋",
+      "生态瞬时评估"
+    ],
+    "method": "传统量化分析",
     "doi": "10.1080/1369118x.2025.2479794",
     "source_url": "https://doi.org/10.1080/1369118x.2025.2479794",
     "detail_slug": "dynamics-of-attachment-insecurity-to-young-adult-problematic-social-media-use-an-ecological-momentary-assessment-study",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Information, Communication & Society",
     "volume": "28",
     "issue": "15"
@@ -49436,17 +49468,21 @@
     ],
     "journal": "Information Communication & Society",
     "published_date": "2025-01-25",
-    "relevance": "Low",
+    "relevance": "Medium",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: AI响应中没有可解析的文本内容",
-    "tags": [],
-    "method": "",
+    "summary": "该论文研究达利特人在社交媒体上遭遇的种姓歧视，采用主题分析方法，因数据问题已被撤稿，属于社交媒体议题的质性研究。",
+    "reason": "议题涉及社交媒体，但方法为质性主题分析，无计算元素",
+    "tags": [
+      "社交媒体",
+      "种姓歧视",
+      "主题分析"
+    ],
+    "method": "纯质性分析",
     "doi": "10.1080/1369118x.2025.2462244",
     "source_url": "https://doi.org/10.1080/1369118x.2025.2462244",
     "detail_slug": "retracted-article-dalits-encounters-with-casteism-on-social-media-a-thematic-analysis",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Information, Communication & Society",
     "volume": "28",
     "issue": "2"
@@ -49720,17 +49756,23 @@
     ],
     "journal": "Information Communication & Society",
     "published_date": "2025-01-23",
-    "relevance": "Low",
+    "relevance": "High",
     "score": null,
-    "summary": "",
-    "reason": "筛选出错: AI响应中没有可解析的文本内容",
-    "tags": [],
-    "method": "",
+    "summary": "研究瑞典气候阻碍网络建议的关键词查询，提出“表演性链接”概念，分析其如何组织信息失序、利用数据空洞并放大传播。",
+    "reason": "研究信息失序、搜索引擎和替代媒体生态系统，分析关键短语的传播，属于计算传播议题。",
+    "tags": [
+      "信息失序",
+      "搜索引擎",
+      "数据空洞",
+      "气候传播",
+      "替代媒体"
+    ],
+    "method": "计算传播学",
     "doi": "10.1080/1369118x.2024.2445640",
     "source_url": "https://doi.org/10.1080/1369118x.2024.2445640",
     "detail_slug": "google-this-how-performative-links-and-search-engines-organise-information-disorders-in-a-climate-obstruction-network",
     "source_type": "openalex",
-    "screening_status": "error",
+    "screening_status": "screened",
     "tracked_journal": "Information, Communication & Society",
     "volume": "28",
     "issue": "14"
@@ -52660,7 +52702,7 @@
       "智能城市",
       "数据安全"
     ],
-    "method": "",
+    "method": "计算传播学",
     "doi": "10.1504/ijmc.2025.146525",
     "source_url": "https://doi.org/10.1504/ijmc.2025.146525",
     "detail_slug": "iblockcity-a-blockchain-based-smartcity-architecture-for-secure-data-transmission-in-smartcities-using-the-internet-of-everything",
@@ -52752,7 +52794,7 @@
       "资源调度",
       "优化算法"
     ],
-    "method": "",
+    "method": "传统量化分析",
     "doi": "10.1504/ijmc.2025.144192",
     "source_url": "https://doi.org/10.1504/ijmc.2025.144192",
     "detail_slug": "a-new-energy-aware-resources-scheduling-method-for-mobile-internet-of-things-using-a-hybrid-optimisation-algorithm",
@@ -52859,7 +52901,7 @@
       "负载均衡",
       "贝叶斯多智能体"
     ],
-    "method": "",
+    "method": "传统量化分析",
     "doi": "10.1504/ijmc.2025.146509",
     "source_url": "https://doi.org/10.1504/ijmc.2025.146509",
     "detail_slug": "bayesian-multi-agent-based-load-balance-for-control-video-traffic-in-wireless-mesh-network",
@@ -52942,7 +52984,7 @@
       "载波聚合",
       "通信工程"
     ],
-    "method": "",
+    "method": "纯理论分析",
     "doi": "10.1504/ijmc.2025.147602",
     "source_url": "https://doi.org/10.1504/ijmc.2025.147602",
     "detail_slug": "performance-analysis-of-3d-m-tier-heterogeneous-networks-using-adaptive-multi-stream-carrier-aggregation",
@@ -53059,7 +53101,7 @@
       "健康传播",
       "COVID-19"
     ],
-    "method": "",
+    "method": "传统量化分析",
     "doi": "10.1504/ijmc.2025.144191",
     "source_url": "https://doi.org/10.1504/ijmc.2025.144191",
     "detail_slug": "when-do-people-share-different-health-rumours-an-empirical-study-in-the-covid-19-context-in-china",

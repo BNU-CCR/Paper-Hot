@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_2c3061a6",
-  "label": "topic_2c3061a6",
-  "description": "",
-  "why_hot": "",
+  "label": "数字时代的包容性传播与治理",
+  "description": "涵盖包容性危机传播、NGO平台化、智能音箱适老、AI事件预测等议题。",
+  "why_hot": "数字转型背景下，传播的包容性与治理挑战凸显。",
   "hot_score": 82,
   "growth": 0.5,
   "growth_rate": 0.5,
@@ -13,7 +13,13 @@
   "journal_count": 11,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [],
+  "keywords": [
+    "危机传播",
+    "数字包容",
+    "NGO",
+    "人工智能",
+    "数据化"
+  ],
   "papers": [
     {
       "id": 15,

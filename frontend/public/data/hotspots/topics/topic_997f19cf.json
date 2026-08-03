@@ -1,40 +1,32 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "topic_997f19cf",
-  "description": "",
-  "why_hot": "",
-  "hot_score": 68,
-  "growth": 0.094,
-  "growth_rate": 0.094,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.2133,
-  "recent_count": 7,
-  "baseline_count": 32,
-  "journal_count": 9,
+  "label": "网络反公众与标签行动",
+  "description": "跨平台分析QAnon反公众，研究女权标签策略与性别争论框架。",
+  "why_hot": "平台化公众与对抗性话语的互动受到关注。",
+  "hot_score": 39,
+  "growth": -0.464,
+  "growth_rate": -0.464,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.1867,
+  "recent_count": 3,
+  "baseline_count": 28,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [],
+  "keywords": [
+    "反公众",
+    "标签行动",
+    "QAnon",
+    "女权主义",
+    "性别争论"
+  ],
   "papers": [
-    {
-      "id": 13,
-      "title": "Social media, social identity, and the construction of perceived gender conflict: evidence from a national survey in South Korea",
-      "journal": "Asian Journal of Communication",
-      "published_date": "2026-07-27",
-      "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
-    },
     {
       "id": 204,
       "title": "Networked Counterpublics and Contentious Publicity: A Cross-Platform Analysis of QAnon on Parler and Twitter",
       "journal": "Political Communication",
       "published_date": "2026-07-27",
       "summary": "基于affordance理论，跨平台分析QAnon在Parler和Twitter上2018-2021年的可见性、关联性和持续性实践，探讨极端网络反公众的身份建构与公共竞争动态。"
-    },
-    {
-      "id": 244,
-      "title": "From marginality to mobilization: the emergence of a pro-Russian digital community in the Spanish-speaking sphere",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-24",
-      "summary": "探讨西班牙语圈亲俄数字社区如何从边缘走向动员，分析其形成机制与传播动态。"
     },
     {
       "id": 57,
@@ -44,32 +36,11 @@
       "summary": "研究瑞典女性主义倡议#Kvinnostreik的日常标签实践，提出技术修辞策略概念，分析标签如何影响可见性并串联叙事，属数字文化研究。"
     },
     {
-      "id": 395,
-      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-19",
-      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
-    },
-    {
-      "id": 248,
-      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-13",
-      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
-    },
-    {
       "id": 68,
       "title": "Linking names with frames: the interplay of moral entities and moral frames in Chinese online gender debates",
       "journal": "Information Communication & Society",
       "published_date": "2026-07-07",
       "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
-    },
-    {
-      "id": 251,
-      "title": "Disinformation, social inequalities and young people’s digital citizenship during conflict and crisis in Ethiopia",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-02",
-      "summary": "研究埃塞俄比亚冲突期间青年数字公民身份中的性别与地域不平等，探讨其如何影响虚假信息传播及政治参与。"
     },
     {
       "id": 284,
@@ -86,25 +57,11 @@
       "summary": "通过参与观察和访谈，研究Soul app的算法匹配与标签系统如何重塑中国Z世代社交，既促进情感连接又强化文化经济分层。"
     },
     {
-      "id": 253,
-      "title": "No time or tech for online news: How social and digital inequalities contribute to gender gaps in online news consumption",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-29",
-      "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
-    },
-    {
       "id": 192,
       "title": "Construcción del discurso de odio antimusulmán en X:",
       "journal": "Revista ICONO14",
       "published_date": "2026-06-19",
       "summary": "分析西班牙六家媒体X账号下的53787条评论，手动编码仇恨言论类型与强度，发现右翼媒体账号下反穆斯林言论比例最高，多为低强度隐性仇恨，结合伊斯兰恐惧症与仇外情绪。"
-    },
-    {
-      "id": 256,
-      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-15",
-      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
     },
     {
       "id": 86,
@@ -121,20 +78,6 @@
       "summary": "研究基于微博22,925条帖子和115万条评论，运用广义线性混合模型分析多模态框架和性别身份对性别对抗性话语的影响，发现煽情化和个性化框架加剧对抗，娱乐化框架减弱对抗，且性别动态具有调节作用。"
     },
     {
-      "id": 88,
-      "title": "Mediated information grounds: living with(in) <i>pareshani</i> , social networks and gendered media practices among the Rohingya refugees",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-08",
-      "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
-    },
-    {
-      "id": 258,
-      "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-05",
-      "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
-    },
-    {
       "id": 193,
       "title": "Desinformación en salud: la percepción de periodistas especializados",
       "journal": "Revista ICONO14",
@@ -142,11 +85,11 @@
       "summary": "通过21次半结构化访谈分析健康领域记者对错误信息的感知，发现其存在第三人效果和自满倾向，未使用计算方法。"
     },
     {
-      "id": 218,
-      "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
-      "journal": "Political Communication",
-      "published_date": "2026-05-27",
-      "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
+      "id": 106,
+      "title": "Bad domains: exposure to malicious content online",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-08",
+      "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
     },
     {
       "id": 376,
@@ -156,13 +99,6 @@
       "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
     },
     {
-      "id": 507,
-      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-05-02",
-      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
-    },
-    {
       "id": 110,
       "title": "Public discourses on sex work in Reddit digital communities: a computational approach",
       "journal": "Information Communication & Society",
@@ -170,11 +106,18 @@
       "summary": "运用结构主题建模和定性内容分析，研究Reddit上r/SexWorkers和r/OnlyFans社区超3.8万条评论，归纳17个主题，揭示平台在污名化与支持之间的双重角色。"
     },
     {
-      "id": 118,
-      "title": "Navigating intersectional expectations: a computational multimodal analysis of the effects of identities and communication styles on public engagement with science on TikTok",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-16",
-      "summary": "基于10,800个视频和448,002条评论，分析TikTok科学传播中传播者性别、种族与沟通风格如何影响公众参与，发现交叉身份导致参与差异。"
+      "id": 634,
+      "title": "Human versus machine as content moderators: examining the effects of moderation strategies on Reddit",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "基于Reddit 2022年5.3亿条参与记录和1330万条审核动作，分析硬性/软性审核策略、人工/机器审核者身份对不同活跃度用户参与度的影响。"
+    },
+    {
+      "id": 635,
+      "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
     },
     {
       "id": 125,
@@ -182,13 +125,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-04-11",
       "summary": "通过范围综述和BERTopic主题建模，系统梳理了145篇研究，分析不同社交媒体平台特性（内容模态、可供性）与针对性少数群体仇恨言论传播的关系，发现Twitter/X研究最多，文本内容为主，并呼吁关注视觉内容与平台动态。"
-    },
-    {
-      "id": 126,
-      "title": "Favela aesthetics: digital influencers in Brazil contesting Instagram visual cultures and favela stigmas",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-08",
-      "summary": "通过分析巴西贫民窟网红Blô的452条Instagram帖子，提出“贫民窟美学”概念，探讨边缘群体如何通过数字内容抵抗污名化、重构文化身份，挑战主流影响者审美与精英叙事。"
     },
     {
       "id": 128,
@@ -205,6 +141,13 @@
       "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
     },
     {
+      "id": 297,
+      "title": "Understanding Engagement With Platform Safety Technology for Reducing Exposure to Online Harms",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "基于英国成人全国调查，考察用户对平台安全技术的认知、使用与满意度，发现在线伤害普遍，事后工具使用率高但满意度低，数字素养和性别影响使用。"
+    },
+    {
       "id": 298,
       "title": "Normative White Internet Practices: Performances at the Edge of a Digital Black Community",
       "journal": "Social Media + Society",
@@ -212,11 +155,11 @@
       "summary": "研究通过分析Reddit r/BlackPeopleTwitter上白人用户的盟友申请，揭示规范白人网络实践的表现及其潜在伤害，采用民族志与定性案例分析。"
     },
     {
-      "id": 302,
-      "title": "Symbolic Custodians on Facebook: Community Media Agents and Religious Practices in Faial",
+      "id": 301,
+      "title": "The AI Referee: How Online Interventions Shape Incivility and User Engagement in News Discussions",
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
-      "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
+      "summary": "该论文利用Naver News的3900万条评论数据，训练深度学习模型识别不文明内容，分析两种自动化干预对评论不文明程度和用户参与度的影响，发现干预显著降低不文明内容，但对参与度影响不一。"
     },
     {
       "id": 304,
@@ -226,11 +169,11 @@
       "summary": "通过多站点数字民族志研究中国女性粉丝在微博、豆瓣、微信群中的身份实践与情感表达，探讨女友粉和妈妈粉的补偿性浪漫及符号抵抗，形成情感飞地。"
     },
     {
-      "id": 307,
-      "title": "Afghanistan’s Digital Diaspora: Conflicted Constructions of Nation and Identity",
+      "id": 306,
+      "title": "Bystanders and Reporters: Who Acts Against Illegal Online Content?",
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
-      "summary": "该论文通过民族志方法分析2021-2024年间X平台关于阿富汗的帖子，探讨离散社群与国内用户如何围绕民族、标签和语言展开排斥性话语，重塑族群分裂。"
+      "summary": "研究德国举报非法在线内容的用户特征，发现其多为年长、高学历、左倾且公民参与度高的人群，将举报视为数字公民参与形式。"
     },
     {
       "id": 135,
@@ -240,11 +183,11 @@
       "summary": "研究Twitch上三个表情符号在直播聊天中的使用、改造和挪用，如何再现和颠覆反黑人种族主义，通过多站点数字民族志分析这些表情的流通轨迹和意义制造。"
     },
     {
-      "id": 51,
-      "title": "Differential Effects of Counter-Stereotypical Portrayals of Warmth Across Racial Groups: Behavioral and Experimental Evidence",
-      "journal": "Communication Research",
-      "published_date": "2026-03-18",
-      "summary": "研究考察医疗众筹中反刻板温暖描述对不同种族受益者的捐赠影响，结合大规模数据和实验，发现对亚裔和白人有效但对黑人产生反效果，期望违背起中介作用。"
+      "id": 547,
+      "title": "Longitudinal associations among social relationship closeness, cyberbullying victimization experience, and bystander defending behavior in cyberbullying: a random intercept cross-lagged panel model",
+      "journal": "Communication Research Reports",
+      "published_date": "2026-03-12",
+      "summary": "基于社会纽带理论，对1176名大学生进行三波纵向调查，使用随机截距交叉滞后面板模型，考察网络欺凌受害经历、社会关系亲密度和旁观者捍卫行为间的纵向关联。"
     },
     {
       "id": 194,
@@ -275,6 +218,13 @@
       "summary": "分析西班牙两档脱口秀在X和Instagram的内容策略及受众反应，结合电视收视数据，发现平台互动与线性收视呈不对称关系。"
     },
     {
+      "id": 728,
+      "title": "Nudging against judging? Mitigating anti-LGBTQIA + online hostility by raising bystanders’ awareness and behavioral intentions",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-02-27",
+      "summary": "实验研究考察社会助推对旁观者干预反LGBTQIA+在线敌意的影响，发现敌意类型影响反应，助推效果不稳定，少数增加负面情绪但未促进行为。"
+    },
+    {
       "id": 729,
       "title": "How to do things with a keyword: a cross-cultural analysis of the meanings and functions of ‘values’ on Twitter",
       "journal": "Information Communication & Society",
@@ -282,11 +232,11 @@
       "summary": "分析五种语言约1500万条推文中'values'的语境与功能，发现跨文化差异与普遍模式，揭示其作为身份锚定和边界工作的工具。"
     },
     {
-      "id": 735,
-      "title": "Filtered Latinidad: ethnoracial abstraction and everyday resistance in TikTok beauty filters",
+      "id": 731,
+      "title": "Standing up to hate: users’ responses to offensive content on social media",
       "journal": "Information Communication & Society",
-      "published_date": "2026-02-19",
-      "summary": "运用批判性技术文化话语分析，研究1500个TikTok视频中非拉丁裔与拉丁裔用户对‘Latina妆容’滤镜的不同使用，揭示平台化种族主义与抵抗实践。"
+      "published_date": "2026-02-25",
+      "summary": "通过在线调查（N=2526）研究德国用户对社交媒体违法冒犯性内容的回应方式及影响因素，发现举报多于评论，道德价值观和与冒犯者熟悉度等是关键因素。"
     }
   ],
   "paper_edges": []

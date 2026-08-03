@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "topic_5bc0b040",
-  "description": "",
-  "why_hot": "",
+  "label": "媒体市场与公司战略",
+  "description": "通过并购模拟分析流媒体市场，同时考察丑闻报道对企业国际化的影响。",
+  "why_hot": "媒体产业集中化与跨文化公关议题交织。",
   "hot_score": 51,
   "growth": 9.0,
   "growth_rate": 9.0,
@@ -13,7 +13,12 @@
   "journal_count": 1,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [],
+  "keywords": [
+    "流媒体市场",
+    "并购",
+    "丑闻报道",
+    "企业国际化"
+  ],
   "papers": [
     {
       "id": 11,

@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_bd7d8c32",
-  "label": "topic_bd7d8c32",
-  "description": "",
-  "why_hot": "",
+  "label": "生物传播与感官体验",
+  "description": "从生理同步到自传共鸣，探讨叙事媒体与音乐聆听的具身化体验。",
+  "why_hot": "生物测量方法进入传播研究，强调生理与情感连接。",
   "hot_score": 61,
   "growth": 9.0,
   "growth_rate": 9.0,
@@ -13,7 +13,13 @@
   "journal_count": 2,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [],
+  "keywords": [
+    "生物功能",
+    "生理同步",
+    "叙事媒体",
+    "音乐",
+    "具身体验"
+  ],
   "papers": [
     {
       "id": 2,

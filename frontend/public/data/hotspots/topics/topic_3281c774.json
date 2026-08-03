@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "topic_3281c774",
-  "description": "",
-  "why_hot": "",
+  "label": "信息治理与AI使用",
+  "description": "研究推荐系统、事实核查与生成式AI对政治效能和用户行为的影响。",
+  "why_hot": "AI与平台治理交叉，事实核查局限引发关注。",
   "hot_score": 44,
   "growth": -0.412,
   "growth_rate": -0.412,
@@ -13,7 +13,13 @@
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [],
+  "keywords": [
+    "推荐系统",
+    "事实核查",
+    "生成式AI",
+    "政治参与",
+    "成瘾"
+  ],
   "papers": [
     {
       "id": 14,

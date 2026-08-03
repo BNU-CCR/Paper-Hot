@@ -1,19 +1,25 @@
 {
   "topic_id": "topic_81f5e828",
-  "label": "topic_81f5e828",
-  "description": "",
-  "why_hot": "",
-  "hot_score": 34,
-  "growth": -0.6,
-  "growth_rate": -0.6,
+  "label": "人机信任与AI社会接受",
+  "description": "研究人形机器人信任建立及AI驱动决策中的社会分歧。",
+  "why_hot": "机器人普及与AI治理引发信任与公平问题。",
+  "hot_score": 35,
+  "growth": -0.565,
+  "growth_rate": -0.565,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.1667,
+  "baseline_rate": 0.1533,
   "recent_count": 2,
-  "baseline_count": 25,
+  "baseline_count": 23,
   "journal_count": 10,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [],
+  "keywords": [
+    "人形机器人",
+    "信任",
+    "AI决策",
+    "数字鸿沟",
+    "公众支持"
+  ],
   "papers": [
     {
       "id": 3,
@@ -56,6 +62,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-26",
       "summary": "分析2010-2024年全球南北12家报纸6829篇AI报道，结合主题建模与情感分析，揭示政治化阶段及南北情绪差异，强调地缘政治对AI叙事的影响。"
+    },
+    {
+      "id": 405,
+      "title": "AI as “Artificial Immigrants”? A Content Analysis of the U.S. News Media Framing of AI Threats",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-26",
+      "summary": "分析美国四家媒体1005篇报道，探讨AI被视为“人工移民”的威胁框架，发现现实威胁强调多于象征威胁，技术报道偏向现实框架。"
     },
     {
       "id": 81,
@@ -121,20 +134,6 @@
       "summary": "基于归因理论，通过在线调查(N=705)探究AI媒介伤害中公众的危机责任感知如何影响愤怒/共情，进而影响组织宽恕与AI监管诉求，揭示归因模糊的双路径作用。"
     },
     {
-      "id": 634,
-      "title": "Human versus machine as content moderators: examining the effects of moderation strategies on Reddit",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-04-23",
-      "summary": "基于Reddit 2022年5.3亿条参与记录和1330万条审核动作，分析硬性/软性审核策略、人工/机器审核者身份对不同活跃度用户参与度的影响。"
-    },
-    {
-      "id": 635,
-      "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-04-23",
-      "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
-    },
-    {
       "id": 638,
       "title": "Machine agency attribution in human–AI interaction: developing and validating an analytical framework",
       "journal": "Journal of Computer-Mediated Communication",
@@ -154,13 +153,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-04-05",
       "summary": "通过32名美新用户的深度访谈，研究算法社交媒体隐私侵犯引发的情绪及其行为后果，发现意识与感知控制影响情绪，情绪导致不同隐私保护策略。"
-    },
-    {
-      "id": 301,
-      "title": "The AI Referee: How Online Interventions Shape Incivility and User Engagement in News Discussions",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "该论文利用Naver News的3900万条评论数据，训练深度学习模型识别不文明内容，分析两种自动化干预对评论不文明程度和用户参与度的影响，发现干预显著降低不文明内容，但对参与度影响不一。"
     },
     {
       "id": 640,

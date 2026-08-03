@@ -1,19 +1,25 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "topic_56f5bfc0",
-  "description": "",
-  "why_hot": "",
-  "hot_score": 49,
-  "growth": -0.259,
-  "growth_rate": -0.259,
+  "label": "认知战与叙事操控",
+  "description": "聚焦认知战中的叙事武器化、宣传的社会过程与战略传播实践。",
+  "why_hot": "地缘政治冲突加剧，认知域对抗成为传播研究新前沿。",
+  "hot_score": 52,
+  "growth": -0.167,
+  "growth_rate": -0.167,
   "recent_rate": 0.1333,
-  "baseline_rate": 0.18,
+  "baseline_rate": 0.16,
   "recent_count": 4,
-  "baseline_count": 27,
-  "journal_count": 8,
+  "baseline_count": 24,
+  "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [],
+  "keywords": [
+    "认知战",
+    "叙事",
+    "宣传",
+    "战略传播",
+    "哈希标签行动"
+  ],
   "papers": [
     {
       "id": 483,
@@ -63,13 +69,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
-    },
-    {
-      "id": 405,
-      "title": "AI as “Artificial Immigrants”? A Content Analysis of the U.S. News Media Framing of AI Threats",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-26",
-      "summary": "分析美国四家媒体1005篇报道，探讨AI被视为“人工移民”的威胁框架，发现现实威胁强调多于象征威胁，技术报道偏向现实框架。"
     },
     {
       "id": 492,
@@ -128,13 +127,6 @@
       "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
     },
     {
-      "id": 510,
-      "title": "‘Don’t Thai to me’: A critical discourse and linguistic analysis of border crisis in the Cambodia–Thailand armed conflict",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-04-24",
-      "summary": "研究2025年柬泰武装冲突中的‘Don’t Thai to me’话语，分析柬埔寨官方媒体及Facebook内容，结合Fairclough话语分析探讨民族身份污名化及数字传播下的舆论动员。"
-    },
-    {
       "id": 512,
       "title": "“The architect of the invasion” vs. “a symbol of resilience”: How AI chatbots frame Zelenskyy, Putin and the Russia–Ukraine war",
       "journal": "Media War & Conflict",
@@ -168,13 +160,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-04-03",
       "summary": "分析19国308篇新闻对深度伪造的行动者、威胁和解决方案的框架，基于俄乌战争案例，采用定性主题分析，揭示政治、技术、犯罪等主体及多维度威胁和应对措施。"
-    },
-    {
-      "id": 184,
-      "title": "Evaluating the Impact of China’s “Wolf Warrior Diplomacy” in East Asia: An Experimental Approach",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-04-02",
-      "summary": "通过在日本、韩国、台湾的预注册在线实验，检验中国‘战狼外交’信息对三地公众对华态度的影响，发现负面效果有限但存在，分享意愿低。"
     },
     {
       "id": 138,
