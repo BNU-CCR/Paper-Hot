@@ -1,9 +1,9 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "媒体市场结构与产业策略",
-  "description": "分析流媒体合并、丑闻报道与企业国际化等产业现象。",
-  "why_hot": "流媒体竞争与跨国企业行为重塑媒体市场。",
-  "hot_score": 51,
+  "label": "topic_5bc0b040",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 52,
   "growth": 9.0,
   "growth_rate": 9.0,
   "recent_rate": 0.0667,
@@ -13,19 +13,14 @@
   "journal_count": 1,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [
-    "流媒体",
-    "市场合并",
-    "企业国际化",
-    "媒体产业"
-  ],
+  "keywords": [],
   "papers": [
     {
-      "id": 11,
-      "title": "Unilateral effects in the US video streaming market: a merger simulation of the Netflix-HBO Max and HBO Max-Paramount+ consolidations",
+      "id": 1909,
+      "title": "Agenda setting in mutual fund markets: news, social media, and fund marketing in China",
       "journal": "Journal of Media Economics",
-      "published_date": "2026-07-19",
-      "summary": "通过校准的结构性合并模拟评估Netflix-HBO Max等合并案的单边效应，发现市场主导者收购会显著提价并加剧集中，而次级竞争者合并影响较小。"
+      "published_date": "2026-08-07",
+      "summary": "利用3782只基金和24万篇新闻数据，分析传统新闻与社会媒体关注对基金净流入的影响，发现多源注意力协同效应。"
     },
     {
       "id": 340,

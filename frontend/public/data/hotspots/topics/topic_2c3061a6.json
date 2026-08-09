@@ -1,31 +1,33 @@
 {
   "topic_id": "topic_2c3061a6",
-  "label": "数字时代的包容性传播与危机应对",
-  "description": "涵盖危机传播、数字人道行动、智能技术包容性与金融数据化。",
-  "why_hot": "技术发展加剧数字排斥，倒逼包容性传播研究。",
-  "hot_score": 82,
-  "growth": 0.5,
-  "growth_rate": 0.5,
-  "recent_rate": 0.3,
-  "baseline_rate": 0.2,
-  "recent_count": 9,
-  "baseline_count": 30,
-  "journal_count": 11,
+  "label": "topic_2c3061a6",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 42,
+  "growth": -0.429,
+  "growth_rate": -0.429,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.2333,
+  "recent_count": 4,
+  "baseline_count": 35,
+  "journal_count": 12,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [
-    "危机传播",
-    "数字包容",
-    "人道主义",
-    "数据化"
-  ],
+  "keywords": [],
   "papers": [
     {
-      "id": 15,
-      "title": "Inclusive Crisis Communication: Addressing Diverse Audiences in the Digital Age",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-07-27",
-      "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
+      "id": 1898,
+      "title": "Corporate digital responsibility: what drives public expectations towards companies’ role in the digital society?",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-07",
+      "summary": "研究公众对企业数字责任角色的期望，探讨企业在数字社会中的责任认知，但缺乏具体方法与数据信息。"
+    },
+    {
+      "id": 1901,
+      "title": "Replatformization and the expansion of the alt-tech ecosystem on kiwi farms",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-03",
+      "summary": "通过Kiwi Farms案例提出'replatformization'概念，分析另类平台如何在市场治理下通过社会、技术、组织策略规避去平台化，并揭示其扩展机制。"
     },
     {
       "id": 243,
@@ -42,34 +44,6 @@
       "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
     },
     {
-      "id": 58,
-      "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-22",
-      "summary": "探讨智能音箱如何支持处于数字排斥风险的老年人的独立性、能力感和关联性，属于AI技术在社会情境中的应用研究。"
-    },
-    {
-      "id": 247,
-      "title": "An experiment in forecasting out-of-sample coup events with artificial intelligence",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-18",
-      "summary": "实验测试ChatGPT-4在不同提示词、参数和语言条件下对撒哈拉以南非洲政变的样本外预测能力，发现AI作为政治预测工具有显著但非决定性潜力。"
-    },
-    {
-      "id": 63,
-      "title": "Platforming pocket money: family finance apps and the datafication of child economies",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-15",
-      "summary": "分析儿童理财APP的特征，探讨其如何通过数据追踪与管理重塑儿童的经济参与，并讨论数据化对儿童金融主体与客体的构建。"
-    },
-    {
-      "id": 64,
-      "title": "Disability and AI in smart cities: centering access, agency, and awareness in hybrid spaces",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-14",
-      "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
-    },
-    {
       "id": 69,
       "title": "Selling speed, suspending citizenship: data throttling, instantaneous downgrading, and the politics of connectivity in China",
       "journal": "Information Communication & Society",
@@ -77,18 +51,18 @@
       "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
     },
     {
-      "id": 198,
-      "title": "Introducing HALC: a general pipeline for the systematic and reliable construction of prompts for automated coding with LLMs in the computational social sciences",
-      "journal": "Communication Methods and Measures",
-      "published_date": "2026-07-07",
-      "summary": "提出HALC流程，系统构建LLM提示词以可靠完成内容分析编码，基于大量请求验证其适用性，并讨论局限与发展。"
+      "id": 284,
+      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
     },
     {
-      "id": 71,
-      "title": "Infrastructural hubris and platform power: the failed scalability of Google Stadia",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-30",
-      "summary": "通过分析170份专业媒体、Reddit和YouTube文档，探讨Google Stadia云游戏平台失败原因，提出“基础设施傲慢”概念，强调技术能力需配合平台层面的利益相关者参与。"
+      "id": 285,
+      "title": "“You Might Like Each Other”: Mass Customization and the Structuring of Sociality Among Chinese Generation Z on the Soul App",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过参与观察和访谈，研究Soul app的算法匹配与标签系统如何重塑中国Z世代社交，既促进情感连接又强化文化经济分层。"
     },
     {
       "id": 212,
@@ -96,13 +70,6 @@
       "journal": "Political Communication",
       "published_date": "2026-06-30",
       "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
-    },
-    {
-      "id": 72,
-      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-29",
-      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
     },
     {
       "id": 614,
@@ -119,25 +86,39 @@
       "summary": "基于台湾环保NGO与公民科技社群合作的案例，探讨环境数据行动主义中NGO作为公民数据中介的角色，提出数据正义的实践理论。"
     },
     {
-      "id": 199,
-      "title": "NEClass: a lightweight LLM pipeline for measuring Foreign news coverage",
-      "journal": "Communication Methods and Measures",
-      "published_date": "2026-06-24",
-      "summary": "论文提出NEClass流水线，结合NER和微调LLM分类新闻中实体的国家归属，验证其高准确性并通过欧元区危机案例展示应用，为国际新闻覆盖研究提供可复现工具。"
+      "id": 33,
+      "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
+      "journal": "Communication Research",
+      "published_date": "2026-06-13",
+      "summary": "研究创意众包挑战社区中地位、职业、价值等多维同质性对创意者间评论网络形成的影响，采用关系事件模型和潜在类别分析。"
     },
     {
-      "id": 77,
-      "title": "Driving the hype: LLMs as ‘general-purpose’ promise in the autonomous vehicle industry",
+      "id": 85,
+      "title": "Latent communicative figurations: mapping quasi-visible strategic relational structures on Facebook",
       "journal": "Information Communication & Society",
-      "published_date": "2026-06-22",
-      "summary": "通过分析Nvidia GTC 2024和41份灰色文献，研究Wayve和Waabi如何利用LLM的通用性话语克服自动驾驶行业困境，揭示其投机性炒作和行业嵌入策略。"
+      "published_date": "2026-06-13",
+      "summary": "本文提出潜在传播构型概念，利用Facebook可再生能源相关品牌帖子构建双模网络，揭示战略伙伴与页面间的隐性关系，并探讨平台逻辑对新闻媒体角色的影响。"
     },
     {
-      "id": 261,
-      "title": "Mapping persuasion strategies of Turkish anti-vaccine advocates on Instagram: a McGuire-based analysis of digital misinformation and political discourse",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-05-13",
-      "summary": ""
+      "id": 440,
+      "title": "Strategic Communication as an Integrative Governance Function: A Bibliometric Review and an Integrated PR–OC–CC Model",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-03",
+      "summary": "通过文献计量综述316篇WoS论文，梳理公关、组织传播与企业传播的融合，提出战略传播作为整合性治理功能的理论模型。"
+    },
+    {
+      "id": 217,
+      "title": "Moving Targets, Moving Politics: The State of Play in Social Media Data Access",
+      "journal": "Political Communication",
+      "published_date": "2026-05-30",
+      "summary": "论文探讨社交媒体数据获取的现状与挑战，涉及数据访问政策及其对政治传播研究的影响。"
+    },
+    {
+      "id": 95,
+      "title": "Price, proficiency, or permission: assessing platform data access for election research",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-27",
+      "summary": "论文评估平台数据访问的价格、技能和权限因素，探讨其对选举研究的影响，关注平台API及数据可得性问题。"
     },
     {
       "id": 375,
@@ -154,11 +135,18 @@
       "summary": "研究小红书通过“集群治理”组织网红群体，结合人工与算法策展控制内容创作，削弱创作者自主性，基于访谈与民族志方法。"
     },
     {
-      "id": 105,
-      "title": "From player to asset: venture labor in axie infinity",
-      "journal": "Information Communication & Society",
+      "id": 376,
+      "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
+      "journal": "Asian Journal of Communication",
       "published_date": "2026-05-08",
-      "summary": "通过爬取Discord社区数据，分析Axie Infinity奖学金申请者的申请文本，揭示其自我资产化策略，即玩家将劳动与困境呈现为投资资产以争取机会。"
+      "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
+    },
+    {
+      "id": 507,
+      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-05-02",
+      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
     },
     {
       "id": 452,
@@ -189,11 +177,18 @@
       "summary": "以福柯政府性概念分析Stack Exchange审核罢工，探讨平台所有者与社区间的权力动态，以及AI政策如何引发抵抗并重塑平台机制。"
     },
     {
-      "id": 122,
-      "title": "Online interactions and the gravity model",
+      "id": 126,
+      "title": "Favela aesthetics: digital influencers in Brazil contesting Instagram visual cultures and favela stigmas",
       "journal": "Information Communication & Society",
-      "published_date": "2026-04-13",
-      "summary": "论文基于《帝国时代II》2500万场多人比赛数据，构建在线互动模型并用结构重力模型估计，发现文化邻近性和外部社交网络对跨国在线互动有重要影响，为数字全球化和在线社区研究提供实证。"
+      "published_date": "2026-04-08",
+      "summary": "通过分析巴西贫民窟网红Blô的452条Instagram帖子，提出“贫民窟美学”概念，探讨边缘群体如何通过数字内容抵抗污名化、重构文化身份，挑战主流影响者审美与精英叙事。"
+    },
+    {
+      "id": 45,
+      "title": "Understanding Hybridity, Representational Networks, and Resilience Enactment Through Social Media Communication",
+      "journal": "Communication Research",
+      "published_date": "2026-04-02",
+      "summary": "研究社会企业如何在社交媒体沟通中呈现双重逻辑，通过分析260家台湾企业的3年Facebook数据和调查，发现高逻辑中心性直接及透过代表性网络间接预测韧性沟通，且受感知逻辑中心性调节。"
     },
     {
       "id": 556,
@@ -203,18 +198,18 @@
       "summary": "论文分析12年数字外交研究，提出AI驱动外交的三种情景和两大悖论，探讨AI对当代外交的潜在影响。"
     },
     {
-      "id": 293,
-      "title": "The Platformization of Everything: From the End of the Like Button to AI Infrastructure in Space",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "文章追溯平台化概念演变，从早期社交网络到AI中心平台模式，以Facebook点赞按钮退役和谷歌太空AI项目为例，重新定义平台化为平台特有的'转码'过程。"
-    },
-    {
       "id": 296,
       "title": "Gamification, Datafication, and Performativity: How Interface Design Builds “Stardew Valley” in Rural Governance",
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "以川善治平台为案例，从游戏化、数据化和展演性视角分析中国乡村数字治理的界面设计如何构建特定乡村愿景。"
+    },
+    {
+      "id": 302,
+      "title": "Symbolic Custodians on Facebook: Community Media Agents and Religious Practices in Faial",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
     },
     {
       "id": 303,
@@ -224,11 +219,18 @@
       "summary": "通过民族志和访谈研究60个西语生态网红账号，分析其在TikTok上应对病毒式传播与社区建设的矛盾，提出“扁平病毒式传播”概念。"
     },
     {
-      "id": 137,
-      "title": "Tailored and trust-based: strategies of information intermediaries countering health misinformation during the COVID-19 pandemic",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-29",
-      "summary": "研究通过15位信息中介的重建访谈，分析其在疫情期间为弱势群体提供准确健康信息、对抗错误信息的策略，强调信任建立和非对抗方式。"
+      "id": 304,
+      "title": "“My Non-Existing Organ”: Transitional Objects, Compensatory Romance, and the Affective Enclaves of Chinese Female Idol Fandom",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过多站点数字民族志研究中国女性粉丝在微博、豆瓣、微信群中的身份实践与情感表达，探讨女友粉和妈妈粉的补偿性浪漫及符号抵抗，形成情感飞地。"
+    },
+    {
+      "id": 308,
+      "title": "Shaping Sustainable Communication on Instagram: How Digital Influencers in Portugal Engage Consumers in Eco-Conscious Narratives",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过分析200条Instagram Reels和29名Z世代焦点小组，探讨葡萄牙数字影响者如何通过情感和审美策略传播可持续性，发现可持续沟通是一种情感表演。"
     },
     {
       "id": 144,
@@ -236,13 +238,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-03-20",
       "summary": "通过数字民族志研究Facebook互助社区Caremunity，运用Serres寄生虫逻辑识别三种干扰形式，探讨数字化对互助社区团结与资源分配的挑战。"
-    },
-    {
-      "id": 145,
-      "title": "<i>“ … I sort of laid it all out … ”:</i> qualitatively exploring Canadian campaigners’ informational practices and strategic decisions in medical and housing-related crowdfunding campaigns",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-14",
-      "summary": "通过访谈36名加拿大GoFundMe用户，探讨其在医疗和住房众筹中的信息分享策略，识别出放大、精炼和省略三种实践，揭示隐私与筹款之间的平衡。"
     },
     {
       "id": 185,
@@ -266,25 +261,25 @@
       "summary": "通过机构分析和双模网络映射，研究中国电视剧产业中党政部门通过精英吸纳实现嵌入式治理的机制，提出三种关系控制模式。"
     },
     {
+      "id": 384,
+      "title": "Ghost in the livestream: emotional labor and alienation among China's Zhong Zhi Ren",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-03-04",
+      "summary": "通过25位中之人与粉丝的深度访谈，探讨虚拟直播中表演者的情感劳动、异化及平台资本主义剥削逻辑，提出治理框架。"
+    },
+    {
+      "id": 561,
+      "title": "Reaction Media As A Cross-Platform Practice: A Case Study Of Friction And Flow In Uncle Roger’s Reaction Media On Youtube, Tiktok, Douyin, And Bilibili",
+      "journal": "Communication and the Public",
+      "published_date": "2026-02-27",
+      "summary": "通过案例研究，考察Uncle Roger在YouTube、TikTok、抖音和Bilibili上的反应媒体实践，提出反应媒体作为跨平台实践的新定义，强调其动态性和反应性。"
+    },
+    {
       "id": 643,
       "title": "Human–algorithm interactions in platform governance: how Chinese moderators balance conflicting logics in algorithm-assisted decision-making",
       "journal": "Journal of Computer-Mediated Communication",
       "published_date": "2026-02-23",
       "summary": "通过在中国三大超级平台的田野调查，分析国家逻辑与商业逻辑如何嵌入内容审核流程，揭示算法决策的三种可供性帮助审核员平衡冲突逻辑，强调人机互动的积极潜力。"
-    },
-    {
-      "id": 232,
-      "title": "Newer, Larger, Better? A Critique of the Unreflective LLM Adoption in Communication Research",
-      "journal": "Political Communication",
-      "published_date": "2026-02-20",
-      "summary": "评论文章批判政治传播研究中无反思地采用LLM，讨论其在文本分析、合成数据与实验中的局限，倡导批判性反思与方法论严谨性。"
-    },
-    {
-      "id": 736,
-      "title": "Orchestrating scalability: how patents render cloud imaginaries in CAV innovation",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-02-18",
-      "summary": "分析云技术如何支撑自动驾驶规模化，基于69,421项专利识别四个主题聚类，揭示云作为编排技术塑造AI未来。"
     },
     {
       "id": 272,

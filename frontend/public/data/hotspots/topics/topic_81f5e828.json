@@ -1,24 +1,19 @@
 {
   "topic_id": "topic_81f5e828",
-  "label": "人机信任与AI社会接受",
-  "description": "研究人形机器人信任建立及AI驱动公共决策的公众支持。",
-  "why_hot": "AI进入社会决策，人机信任成为关键议题。",
-  "hot_score": 35,
-  "growth": -0.565,
-  "growth_rate": -0.565,
+  "label": "topic_81f5e828",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 33,
+  "growth": -0.615,
+  "growth_rate": -0.615,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.1533,
+  "baseline_rate": 0.1733,
   "recent_count": 2,
-  "baseline_count": 23,
-  "journal_count": 10,
+  "baseline_count": 26,
+  "journal_count": 11,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [
-    "人机信任",
-    "社会机器人",
-    "AI决策",
-    "数字鸿沟"
-  ],
+  "keywords": [],
   "papers": [
     {
       "id": 3,
@@ -54,6 +49,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过65个访谈，探讨中国年轻男同性恋者在算法环境下如何协商（不）智能性，提出“liminal intelligibility”概念，强调人机交互与人人交互的交叉。"
+    },
+    {
+      "id": 1905,
+      "title": "Anthropomorphizing AI: Perceptions, Interpretations, and the Humanization of Generative AI",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过Twitter数据分析用户如何拟人化ChatGPT，识别出人格化、情感归因等五类拟人化形式，探讨社交媒体对拟人化叙事的形塑及其对信任和传播的影响。"
     },
     {
       "id": 73,
@@ -133,6 +135,13 @@
       "summary": "基于归因理论，通过在线调查(N=705)探究AI媒介伤害中公众的危机责任感知如何影响愤怒/共情，进而影响组织宽恕与AI监管诉求，揭示归因模糊的双路径作用。"
     },
     {
+      "id": 512,
+      "title": "“The architect of the invasion” vs. “a symbol of resilience”: How AI chatbots frame Zelenskyy, Putin and the Russia–Ukraine war",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-19",
+      "summary": "2024年11月对ChatGPT、Copilot、Gemini、Claude四个AI聊天机器人进行定性内容分析，发现其框架与欧美媒体相似，将俄罗斯视为侵略者、乌克兰为受害者，但对俄宣传语境理解不足，存在偏见和可靠性问题。"
+    },
+    {
       "id": 638,
       "title": "Machine agency attribution in human–AI interaction: developing and validating an analytical framework",
       "journal": "Journal of Computer-Mediated Communication",
@@ -152,6 +161,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-04-05",
       "summary": "通过32名美新用户的深度访谈，研究算法社交媒体隐私侵犯引发的情绪及其行为后果，发现意识与感知控制影响情绪，情绪导致不同隐私保护策略。"
+    },
+    {
+      "id": 519,
+      "title": "Artificial intelligence, deepfakes, and wars: How global news media frame actors, threats, and solutions in 19 countries",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-03",
+      "summary": "分析19国308篇新闻对深度伪造的行动者、威胁和解决方案的框架，基于俄乌战争案例，采用定性主题分析，揭示政治、技术、犯罪等主体及多维度威胁和应对措施。"
     },
     {
       "id": 640,

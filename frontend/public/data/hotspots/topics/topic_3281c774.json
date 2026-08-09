@@ -1,32 +1,20 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "信息治理与AI使用行为",
-  "description": "关注推荐系统、事实核查与生成式AI使用对公众认知和行为的影响。",
-  "why_hot": "平台治理与AI伦理交织，成为政策与学术热点。",
-  "hot_score": 44,
-  "growth": -0.412,
-  "growth_rate": -0.412,
-  "recent_rate": 0.1333,
-  "baseline_rate": 0.2267,
-  "recent_count": 4,
-  "baseline_count": 34,
+  "label": "topic_3281c774",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 48,
+  "growth": -0.167,
+  "growth_rate": -0.167,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.12,
+  "recent_count": 3,
+  "baseline_count": 18,
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [
-    "推荐系统",
-    "事实核查",
-    "生成式AI",
-    "信息治理"
-  ],
+  "keywords": [],
   "papers": [
-    {
-      "id": 14,
-      "title": "Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-29",
-      "summary": "基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。"
-    },
     {
       "id": 394,
       "title": "The Costs of Governing Truth: Fact-Checking, Perceived Censorship, and Political Participation Across Governance Contexts",
@@ -56,25 +44,11 @@
       "summary": "通过肯尼亚7000人调查实验，考察社交评论对政治深度伪造效果的影响，发现质疑评论可部分恢复政治家支持，且党派偏见影响判断，强调集体意义建构的作用。"
     },
     {
-      "id": 254,
-      "title": "Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-26",
-      "summary": "探讨ChatGPT使用频率、对大语言模型的威胁感知及政治意识形态如何影响用户对ChatGPT用于政治信息消费的信任，发现使用与信任正相关，威胁感知负相关，且存在交互效应。"
-    },
-    {
       "id": 406,
       "title": "From Mass Media and Social Media to AI: A Multilevel Framework for Understanding Trust in Generative AI",
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-06-26",
       "summary": "论文提出一个多层次框架，从大众媒体、社交媒体到AI，系统理解用户对生成式AI的信任形成机制。"
-    },
-    {
-      "id": 78,
-      "title": "The consequences of alternative media and disinformation-prone alternative media consumption on political beliefs over the course of the COVID-19 pandemic",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-22",
-      "summary": "基于捷克2019-2024面板调查，区分另类媒体（AM）与易散布虚假信息的另类媒体（DPAM），发现DPAM消费增加政治犬儒主义和内在效能，AM则降低犬儒主义，挑战对另类媒体一概负面的假设。"
     },
     {
       "id": 79,
@@ -91,46 +65,11 @@
       "summary": "论文比较分析YouTube、Facebook等平台的选举相关政策及其演变，划分三个阶段，并探讨平台责任话语变化及美国选举影响。"
     },
     {
-      "id": 34,
-      "title": "Two Forms of Media Distrust: Cynicism, Skepticism, and Online News Exposure",
-      "journal": "Communication Research",
-      "published_date": "2026-06-10",
-      "summary": "研究区分犬儒主义与怀疑主义两种媒体不信任，结合调查与739名德国选民网页追踪数据，发现二者在人格、政治取向及实际新闻消费上存在差异。"
-    },
-    {
-      "id": 216,
-      "title": "Multi-Platform Referrers of Misinformation: A Comparative Analysis of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok",
-      "journal": "Political Communication",
-      "published_date": "2026-06-09",
-      "summary": "论文提出嵌入参考范式，用美国1240人3个月2100万次网页浏览数据，评估七种社交媒体平台在直接和嵌入范式下对错误信息访问的影响，发现直接范式低估了社交媒体的作用。"
-    },
-    {
-      "id": 90,
-      "title": "Mistrust as a precondition for critical thinking and media literacy",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-03",
-      "summary": "通过两项在线调查（n=2115）研究不信任、新闻消费与媒体素养教育对信息核实信心和实际能力的影响，发现不信任预测信心，新闻消费预测实际辨别能力。"
-    },
-    {
-      "id": 101,
-      "title": "Examining the influence of social media cues and platform perceptions on fake news detection",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-14",
-      "summary": "通过在线实验探究来源可信度、集体社会认可和用户对Twitter有用性感知对虚假新闻检测的影响，发现真实性偏差及平台感知降低虚假新闻识别准确性。"
-    },
-    {
       "id": 578,
       "title": "Uncovering users switching from government service applications to government WeChat mini-programs: Based on push-pull-mooring framework",
       "journal": "International Journal of Mobile Communications",
       "published_date": "2026-05-12",
       "summary": "基于推拉锚定框架，探究用户从政府服务应用转向政府微信小程序的影响因素，属于移动平台用户行为研究。"
-    },
-    {
-      "id": 41,
-      "title": "Gains, Limits, and Side-Effects of Disinformation Interventions: Corrective Information and Self-Affirmation Assessed With Signal Detection Theory",
-      "journal": "Communication Research",
-      "published_date": "2026-04-30",
-      "summary": "通过两波在线实验考察纠正信息和自我肯定对政治声明评估的影响，使用信号检测理论区分真相辨别力和反应偏差，发现纠正信息提升辨别力但可能增加怀疑倾向。"
     },
     {
       "id": 182,
@@ -175,46 +114,11 @@
       "summary": "论文批判主流反虚假信息领域的北方主导、自上而下和提取式协作，基于2022-2024年百余名全球南方参与者的项目经验，主张南南方法论和社区驱动干预。"
     },
     {
-      "id": 295,
-      "title": "We Are Equally Vulnerable? An Examination of the Third-Person Effect in AI-Generated Misinformation",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "基于726份问卷，考察个体对AI生成虚假信息的感知，发现人们认为自己同样易受影响，且感知影响正向关联纠错行为。"
-    },
-    {
-      "id": 310,
-      "title": "I Don’t Believe Misinformation, But I Might Share It: Inoculation Effects in Messenger Communication",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "通过在线实验检验接种理论在即时通讯中减少错误信息可信度与分享意愿的效果，发现仅特定内容接种有效，且无调节变量。"
-    },
-    {
-      "id": 46,
-      "title": "Adolescents’ Trust in Political Content From Influencers: The Roles of Motive Attribution and Parental Mediation",
-      "journal": "Communication Research",
-      "published_date": "2026-03-30",
-      "summary": "研究探讨青少年对社交媒体影响者政治内容的信任，考察动机归因、数字素养和父母中介的作用，基于三波面板调查数据。"
-    },
-    {
-      "id": 139,
-      "title": "Infusion of generative artificial intelligence: boosting organizational agility and effectiveness",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-29",
-      "summary": "基于TOE框架，通过615份问卷和结构方程模型，检验生成式AI融入对组织敏捷性和有效性的影响，发现AI融入、市场敏捷性和组织学习是有效性的主要预测因素。"
-    },
-    {
       "id": 141,
       "title": "Protecting democracy: comparing codes of conduct for generative AI use during elections",
       "journal": "Information Communication & Society",
       "published_date": "2026-03-23",
       "summary": "比较11国2024年选举中生成式AI使用准则，分析其对民主诚信的威胁界定与责任机制，指出存在执行力不足、一致性缺失等问题。"
-    },
-    {
-      "id": 147,
-      "title": "The (Un)desirable shield: consequences of perceived effects of warning labels on AI-generated political disinformation",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-12",
-      "summary": "基于2024美国大选全国调查(N=2373)，检验AI生成政治虚假信息警告标签对感知与行为的影响，发现其增强对自身和公众的感知效应，并影响政策支持与预防行为，拓展第三人效果理论。"
     },
     {
       "id": 52,
@@ -229,13 +133,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-03-02",
       "summary": "通过系统文献综述和对澳大利亚、英国选举管理机构的访谈，构建了针对选举虚假信息的制度应对策略类型学。"
-    },
-    {
-      "id": 730,
-      "title": "Everyday encounters with misinformation online: examining sources, topics and modes",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-02-26",
-      "summary": "通过数字日记研究成年人日常遇到的疑似错误信息，分析其来源、主题和形式，发现主流与另类新闻源均被视为虚假内容传播者。"
     },
     {
       "id": 229,
@@ -264,27 +161,6 @@
       "journal": "Political Communication",
       "published_date": "2026-02-19",
       "summary": "通过三项预注册实验（N>7600）研究美国公众对AI在选举中不同用途的反应，发现公众厌恶欺骗性AI但政党支持率不受影响，反而增加对严格监管和禁止AI的支持。"
-    },
-    {
-      "id": 434,
-      "title": "Fake News is Shared by “Them” Not “Us” On Social Media: Perceptual Gaps of Fake News Sharing and Affective Polarization",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-02-16",
-      "summary": "基于台湾两波调查，研究社交媒体新闻消费与政治分歧对虚假信息分享感知差距的影响，并探讨感知差距与情感极化的关联。"
-    },
-    {
-      "id": 234,
-      "title": "Elected officials’ Online Sharing of Misinformation: Institutional and Ideological Checks",
-      "journal": "Political Communication",
-      "published_date": "2026-02-04",
-      "summary": "分析美国州议员2020-2021年近50万条Facebook帖子，验证并应用低事实内容检测方法，发现共和党议员及某些州分享虚假信息较多，机构能力与分享倾向负相关。"
-    },
-    {
-      "id": 742,
-      "title": "Misinformation exposure per se may not trigger cynicism, but perceived prevalence of misinformation and hostile information does",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-02-04",
-      "summary": "研究利用2020年美国大选两波面板数据，检验不同虚假信息感知对犬儒主义的影响，发现感知流行度和敌对信息比感知接触更能预测犬儒主义。"
     }
   ],
   "paper_edges": []

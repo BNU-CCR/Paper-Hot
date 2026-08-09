@@ -1,9 +1,9 @@
 {
   "topic_id": "topic_bd7d8c32",
-  "label": "媒介体验的生理与情感共振",
-  "description": "探索叙事媒体引发的生理同步和音乐引发的传记性共鸣。",
-  "why_hot": "生理测量与情感研究的结合代表传播学新方向。",
-  "hot_score": 61,
+  "label": "topic_bd7d8c32",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 59,
   "growth": 9.0,
   "growth_rate": 9.0,
   "recent_rate": 0.0667,
@@ -13,12 +13,7 @@
   "journal_count": 2,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [
-    "生理同步",
-    "叙事媒体",
-    "音乐共鸣",
-    "受众体验"
-  ],
+  "keywords": [],
   "papers": [
     {
       "id": 2,
