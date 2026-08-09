@@ -33,6 +33,7 @@ except ImportError:
     HAVE_ANALYSIS = False
 
 from journal_tracker.config import Config
+from journal_tracker.hotspot_labels import TopicLabeler, normalize_keywords
 from journal_tracker.storage import Paper, PaperStorage
 
 
@@ -352,26 +353,23 @@ class HotspotNetworkPipelineTests(unittest.TestCase):
 
 class TopicLabelerResponseTests(unittest.TestCase):
     def test_parse_label_response_handles_markdown_fence(self) -> None:
-        from journal_tracker.hotspot_labels import TopicLabeler
-
         text = "```json\n[{\"topic_index\": 0, \"label_zh\": \"算法中介\"}]\n```"
         result = TopicLabeler._parse_label_response(text, 1)
         self.assertEqual(result[0]["label_zh"], "算法中介")
 
     def test_parse_label_response_handles_single_object(self) -> None:
-        from journal_tracker.hotspot_labels import TopicLabeler
-
         result = TopicLabeler._parse_label_response(
             '{"topic_index": 2, "label_zh": "平台治理"}', 1
         )
         self.assertEqual(result[0]["label_zh"], "平台治理")
 
     def test_parse_label_response_extracts_array_from_prose(self) -> None:
-        from journal_tracker.hotspot_labels import TopicLabeler
-
         text = "以下是结果：\n[{\"topic_index\": 0, \"label_zh\": \"NLP\"}]\n（完毕）"
         result = TopicLabeler._parse_label_response(text, 1)
         self.assertEqual(result[0]["label_zh"], "NLP")
+
+    def test_normalize_keywords_accepts_llm_string_output(self) -> None:
+        self.assertEqual(normalize_keywords("性别政治, 社会；数字动员"), ["性别政治", "社会", "数字动员"])
 
 
 if __name__ == "__main__":

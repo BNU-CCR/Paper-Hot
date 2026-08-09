@@ -29,6 +29,7 @@ export function HotspotDetailPanel({ node, topicDetails, onClose }: HotspotDetai
   const growthClass = growth > 0.3 ? "trend-up" : growth > 0 ? "trend-stable" : "trend-down";
   const paperTotal = detail?.papers.length ?? node.paperCount ?? 0;
   const paperRecent = detail?.recent_count ?? paperTotal;
+  const keywords = Array.isArray(detail?.keywords) ? detail.keywords : [];
 
   return (
     <aside className="hotspot-detail-panel">
@@ -59,9 +60,9 @@ export function HotspotDetailPanel({ node, topicDetails, onClose }: HotspotDetai
             </div>
           )}
 
-          {detail.keywords.length > 0 && (
+          {keywords.length > 0 && (
             <div className="detail-keywords">
-              {detail.keywords.map((kw) => (
+              {keywords.map((kw) => (
                 <span className="tag" key={kw}>{kw}</span>
               ))}
             </div>

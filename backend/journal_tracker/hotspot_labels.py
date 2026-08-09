@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import time
 from typing import Any, Dict, List, Optional
 
@@ -39,6 +40,15 @@ DEFAULT_LABEL_SYSTEM_PROMPT = """你是计算传播研究的中文编辑。请�
     "keywords": ["recommender systems", "search engines", "political efficacy"]
   }
 ]"""
+
+
+def normalize_keywords(value: Any) -> List[str]:
+    """Normalize occasionally malformed LLM keyword output to a string list."""
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()][:8]
+    if isinstance(value, str):
+        return [item.strip() for item in re.split(r"[,，;；]", value) if item.strip()][:8]
+    return []
 
 
 class TopicLabeler:
@@ -132,7 +142,7 @@ class TopicLabeler:
                 topic["label_zh"] = str(label.get("label_zh") or "")[:40]
                 topic["description"] = str(label.get("description") or "")[:160]
                 topic["why_hot"] = str(label.get("why_hot") or "")[:120]
-                topic["keywords"] = label.get("keywords", [])[:8]
+                topic["keywords"] = normalize_keywords(label.get("keywords", []))
             else:
                 # Fallback: use OpenAlex topic names
                 topic["label_zh"] = topic.get("label_en", topic.get("topic_id", ""))
