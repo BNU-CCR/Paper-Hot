@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Masonry from "react-masonry-css";
-import { ChevronDown, ExternalLink, LayoutGrid, Rows3 } from "lucide-react";
+import { ChevronDown, ExternalLink, LayoutGrid, ListChecks, Rows3 } from "lucide-react";
 import type { Paper } from "../types/paper";
 import { Button } from "./ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
@@ -15,6 +15,10 @@ const masonryColumns = { default: 3, 1080: 2, 680: 1 };
 
 function asText(value: unknown): string {
   return Array.isArray(value) ? value.join(" ") : String(value || "");
+}
+
+function displayAuthors(value: unknown): string {
+  return Array.isArray(value) ? value.filter(Boolean).join(", ") : String(value || "");
 }
 
 function sortPapers(papers: Paper[]): Paper[] {
@@ -62,7 +66,7 @@ function PaperCard({ paper, featured, onOpen }: { paper: Paper; featured?: boole
         <time>{paper.published_date || "日期待补充"}</time>
       </div>
       <h3 className="paper-title">{paper.title || "Untitled paper"}</h3>
-      {(paper.authors || paper.journal) && <p className="paper-meta">{[asText(paper.authors), paper.journal].filter(Boolean).join(" · ")}</p>}
+      {(paper.authors || paper.journal) && <p className="paper-meta">{[displayAuthors(paper.authors), paper.journal].filter(Boolean).join(" · ")}</p>}
       {paper.summary && <p className="paper-summary">{paper.summary}</p>}
       {!featured && paper.reason && <p className="paper-reason">{paper.reason}</p>}
       <div className="paper-tags">
@@ -89,7 +93,7 @@ function PaperDetailDialog({ paper, onOpenChange }: { paper: Paper | null; onOpe
             <time>{displayDate(paper.published_date || "")}</time>
           </div>
           <DialogTitle className="paper-dialog-title">{paper.title || "Untitled paper"}</DialogTitle>
-          {(paper.authors || publication) && <p className="paper-dialog-meta">{[asText(paper.authors), publication].filter(Boolean).join(" · ")}</p>}
+          {(paper.authors || publication) && <p className="paper-dialog-meta">{[displayAuthors(paper.authors), publication].filter(Boolean).join(" · ")}</p>}
           {paper.abstract && (
             <section className="paper-dialog-section">
               <h2>摘要</h2>
@@ -144,7 +148,8 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
   const [relevance, setRelevance] = useState("all");
   const [journal, setJournal] = useState("all");
   const [method, setMethod] = useState("all");
-  const [tag, setTag] = useState<string | null>(null);
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [multiSelect, setMultiSelect] = useState(false);
   const [query, setQuery] = useState("");
   const [tagsOpen, setTagsOpen] = useState(false);
   const [layout, setLayout] = useState("auto");
@@ -162,10 +167,18 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
     if (relevance !== "all" && paper.relevance !== relevance) return false;
     if (journal !== "all" && paper.journal !== journal) return false;
     if (method !== "all" && paper.method !== method) return false;
-    if (tag && !(paper.tags || []).some((item) => item.toLowerCase() === tag.toLowerCase())) return false;
+    if (selectedTags.length && !(paper.tags || []).some((item) => selectedTags.some((selected) => item.toLowerCase() === selected.toLowerCase()))) return false;
     const needle = query.trim().toLowerCase();
     return !needle || [paper.title, paper.summary, paper.reason, paper.journal, asText(paper.authors), asText(paper.tags), paper.method || ""].join(" ").toLowerCase().includes(needle);
-  })), [source, relevance, journal, method, tag, query]);
+  })), [source, relevance, journal, method, selectedTags, query]);
+
+  const toggleTag = (item: string) => {
+    setSelectedTags((current) => {
+      const selected = current.includes(item);
+      if (!multiSelect) return selected ? [] : [item];
+      return selected ? current.filter((tag) => tag !== item) : [...current, item];
+    });
+  };
 
   return (
     <div className="main">
@@ -178,10 +191,10 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
         </section>
 
         <Collapsible className="topics-panel" open={tagsOpen} onOpenChange={setTagsOpen}>
-          <div className="section-heading"><h2>主题标签</h2><div className="section-actions"><CollapsibleTrigger asChild><Button variant="ghost" size="sm"><ChevronDown size={14} aria-hidden="true" className={`chevron-icon ${tagsOpen ? "open" : ""}`} />{tagsOpen ? "收起标签" : `展开全部 ${tags.length} 个标签`}</Button></CollapsibleTrigger>{tag && <Button variant="ghost" size="sm" onClick={() => setTag(null)} aria-label={`清除主题筛选：${tag}`}>清除筛选</Button>}</div></div>
-          <div className="tag-cloud">{tags.slice(0, 12).map(([item, count]) => <TopicButton key={item} item={item} count={count} selected={tag === item} onClick={() => setTag(tag === item ? null : item)} />)}</div>
-          <CollapsibleContent><div className="tag-cloud extra-tags">{tags.slice(12).map(([item, count]) => <TopicButton key={item} item={item} count={count} selected={tag === item} onClick={() => setTag(tag === item ? null : item)} />)}</div></CollapsibleContent>
-          {tag && <div className="topic-filter-status" role="status" aria-live="polite"><span>当前筛选</span><b>{tag}</b><span>{papers.length} 篇</span></div>}
+          <div className="section-heading"><h2>主题标签</h2><div className="section-actions"><CollapsibleTrigger asChild><Button variant="ghost" size="sm"><ChevronDown size={14} aria-hidden="true" className={`chevron-icon ${tagsOpen ? "open" : ""}`} />{tagsOpen ? "收起标签" : `展开全部 ${tags.length} 个标签`}</Button></CollapsibleTrigger><Button variant={multiSelect ? "secondary" : "ghost"} size="sm" aria-pressed={multiSelect} onClick={() => { setMultiSelect((current) => !current); if (multiSelect) setSelectedTags((current) => current.slice(0, 1)); }}><ListChecks aria-hidden="true" />多选</Button>{selectedTags.length > 0 && <Button variant="ghost" size="sm" onClick={() => setSelectedTags([])} aria-label="清除所有主题筛选">清除筛选</Button>}</div></div>
+          <div className="tag-cloud">{tags.slice(0, 12).map(([item, count]) => <TopicButton key={item} item={item} count={count} selected={selectedTags.includes(item)} onClick={() => toggleTag(item)} />)}</div>
+          <CollapsibleContent><div className="tag-cloud extra-tags">{tags.slice(12).map(([item, count]) => <TopicButton key={item} item={item} count={count} selected={selectedTags.includes(item)} onClick={() => toggleTag(item)} />)}</div></CollapsibleContent>
+          {selectedTags.length > 0 && <div className="topic-filter-status" role="status" aria-live="polite"><span>当前筛选</span><b>{selectedTags.join("、")}</b><span>{papers.length} 篇</span></div>}
         </Collapsible>
 
         <section className="feed"><div className="section-heading"><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2><div className="feed-heading-actions"><span className="count">{papers.length} 篇</span>{mode === "featured" && <Tabs value={layout} onValueChange={setLayout}><TabsList aria-label="卡片布局" className="layout-tabs"><TabsTrigger value="single" aria-label="单栏布局" title="单栏布局"><Rows3 aria-hidden="true" /></TabsTrigger><TabsTrigger value="auto" aria-label="自动多栏布局" title="自动多栏布局"><LayoutGrid aria-hidden="true" /></TabsTrigger></TabsList></Tabs>}</div></div>
