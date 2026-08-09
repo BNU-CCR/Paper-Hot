@@ -31,7 +31,7 @@ class PublicPaperExporterTests(unittest.TestCase):
         try:
             base_dir = Path(tmp_dir)
             storage = PaperStorage(base_dir / "papers.db")
-            storage.add_paper(
+            paper_id = storage.add_paper(
                 Paper(
                     title="Public LLM Paper",
                     authors="Alice Smith, Bob Lee",
@@ -51,6 +51,19 @@ class PublicPaperExporterTests(unittest.TestCase):
                     issue="2",
                 )
             )
+            storage.replace_paper_author_enrichment(paper_id, [{
+                "author_order": 0,
+                "display_name": "Alice Smith",
+                "affiliations": ["University A", "Institute B"],
+                "match_method": "crossref_only",
+                "match_confidence": 0.4,
+            }, {
+                "author_order": 1,
+                "display_name": "Bob Lee",
+                "affiliations": ["University A"],
+                "match_method": "crossref_only",
+                "match_confidence": 0.4,
+            }])
             storage.add_paper(
                 Paper(
                     title="Private Medium Paper",
@@ -74,6 +87,7 @@ class PublicPaperExporterTests(unittest.TestCase):
             self.assertEqual(len(exported), 1)
             self.assertEqual(exported[0]["title"], "Public LLM Paper")
             self.assertEqual(exported[0]["authors"], ["Alice Smith", "Bob Lee"])
+            self.assertEqual(exported[0]["institutions"], ["University A", "Institute B"])
             self.assertEqual(exported[0]["tags"], ["LLM", "platform"])
             self.assertEqual(exported[0]["method"], "计算传播学")
             self.assertEqual(exported[0]["abstract"], "Abstract")

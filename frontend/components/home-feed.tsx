@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Masonry from "react-masonry-css";
-import { ChevronDown, ExternalLink, LayoutGrid, ListChecks, Rows3 } from "lucide-react";
+import { Building2, ChevronDown, ExternalLink, LayoutGrid, ListChecks, Rows3 } from "lucide-react";
 import type { Paper } from "../types/paper";
 import { Button } from "./ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
@@ -115,6 +115,14 @@ function PaperDetailDialog({ paper, language, onOpenChange }: { paper: Paper | n
                 {(paper.tags || []).map((tag) => <span key={tag} className="tag">{tag}</span>)}
                 {paper.method && <span className="tag method-tag">{paper.method}</span>}
               </div>
+            </section>
+          )}
+          {paper.institutions && paper.institutions.length > 0 && (
+            <section className="paper-dialog-section">
+              <h2 className="paper-dialog-section-title"><Building2 size={14} aria-hidden="true" />作者机构</h2>
+              <ul className="paper-dialog-institutions">
+                {paper.institutions.map((institution) => <li key={institution}>{institution}</li>)}
+              </ul>
             </section>
           )}
           <div className="paper-dialog-actions">

@@ -41,10 +41,10 @@ export function getAllPapers(): Paper[] {
  */
 function pickPaper(raw: Paper): Paper {
   const {
-    id, title, title_zh, authors, journal, published_date, source_url, doi,
+    id, title, title_zh, authors, institutions, journal, published_date, source_url, doi,
     relevance, score, abstract, abstract_zh, summary, reason, tags, volume, issue, method,
   } = raw;
-  const paper: Paper = { id, title, title_zh, authors, journal, published_date, source_url, doi, relevance, score, abstract, abstract_zh, summary, reason, tags, volume, issue, method };
+  const paper: Paper = { id, title, title_zh, authors, institutions, journal, published_date, source_url, doi, relevance, score, abstract, abstract_zh, summary, reason, tags, volume, issue, method };
   // Strip `undefined` entries so they don't bloat the serialized payload.
   return Object.fromEntries(Object.entries(paper).filter(([, v]) => v !== undefined)) as Paper;
 }

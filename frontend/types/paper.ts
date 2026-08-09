@@ -11,6 +11,8 @@ export interface Paper {
   title_zh?: string;
   /** May be a display string or an array of author names. */
   authors?: string | string[];
+  /** Deduplicated author affiliations from Crossref / Semantic Scholar. */
+  institutions?: string[];
   journal?: string;
   published_date?: string;
   source_url?: string;
