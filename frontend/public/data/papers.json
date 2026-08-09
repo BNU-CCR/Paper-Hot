@@ -9,6 +9,10 @@
       "Shumin Chen",
       "Ping Zhang"
     ],
+    "institutions": [
+      "Fudan University",
+      "Shanghai University of International Business and Economics"
+    ],
     "journal": "Journal of Media Economics",
     "published_date": "2026-08-07",
     "relevance": "High",
@@ -39,6 +43,9 @@
     "title_zh": "反精英主义观点受到关注：德国政治类YouTube视频中的民粹主义传播与受欢迎程度",
     "authors": [
       "Lukas Erhard"
+    ],
+    "institutions": [
+      "Department of Computational Social Science, University of Stuttgart, Germany"
     ],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2026-08-04",
@@ -74,6 +81,9 @@
       "Ayla Oden",
       "Nichole M. Bauer"
     ],
+    "institutions": [
+      "Louisiana State University, Baton Rouge, USA"
+    ],
     "journal": "Communication Research",
     "published_date": "2026-08-03",
     "relevance": "High",
@@ -104,6 +114,9 @@
     "title_zh": "武器化的叙事：认知战争中基于故事的影响力的一种社会心理学理论",
     "authors": [
       "Paul Wood"
+    ],
+    "institutions": [
+      "Emerging Risks Global, Winchester, Hampshire, UK"
     ],
     "journal": "Media War & Conflict",
     "published_date": "2026-07-30",
@@ -139,6 +152,9 @@
       "Natali Helberger",
       "Claes H. de Vreese"
     ],
+    "institutions": [
+      "University of Amsterdam, Amsterdam, the Netherlands"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-07-29",
     "relevance": "High",
@@ -172,6 +188,7 @@
       "Maryna Sydorova",
       "Elizaveta Kuznetsova"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-07-28",
     "relevance": "High",
@@ -205,6 +222,10 @@
       "Jiwon Shim",
       "Yoon Min Hwang"
     ],
+    "institutions": [
+      "Korea Advanced Institute of Science and Technology(KAIST)",
+      "Chungbuk National University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-07-28",
     "relevance": "High",
@@ -236,6 +257,9 @@
       "Ralf Schmälzle",
       "Hee Jung Cho",
       "Monique Mitchell Turner"
+    ],
+    "institutions": [
+      "Department of Communication, Michigan State University, East Lansing, MI, USA"
     ],
     "journal": "Communication Research",
     "published_date": "2026-07-28",
@@ -270,6 +294,7 @@
       "Muhammad Ehab Rasul",
       "Ruolan Deng"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-07-27",
     "relevance": "High",
@@ -305,6 +330,7 @@
       "Markus Löchtefeld",
       "Malayna Raftopoulos"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-07-27",
     "relevance": "High",
@@ -339,6 +365,7 @@
       "A. J. Bauer",
       "Keyeun Lee"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-07-27",
     "relevance": "High",
@@ -370,6 +397,7 @@
     "authors": [
       "Cristina Chueca Del Cerro"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-07-27",
     "relevance": "High",
@@ -406,6 +434,7 @@
       "Michael Scharkow",
       "Leonard Reinecke"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2026-07-26",
     "relevance": "High",
@@ -439,6 +468,7 @@
       "Pablo Moral",
       "Manuel R. Torres-Soriano"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-07-24",
     "relevance": "High",
@@ -471,6 +501,7 @@
       "Tao Zhou",
       "Haicheng Pan"
     ],
+    "institutions": [],
     "journal": "International Journal of Mobile Communications",
     "published_date": "2026-07-23",
     "relevance": "High",
@@ -501,6 +532,7 @@
     "authors": [
       "Ashwin Rajadesingan"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-07-23",
     "relevance": "High",
@@ -536,6 +568,7 @@
       "Jennifer Castillo Cortes",
       "Yuzhe Lei"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-07-22",
     "relevance": "High",
@@ -571,6 +604,7 @@
       "Rebecca Adams",
       "Sedthawud Meema et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-07-22",
     "relevance": "High",
@@ -604,6 +638,7 @@
       "Kayla Duskin",
       "Damian Hodel"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-07-19",
     "relevance": "High",
@@ -634,6 +669,7 @@
     "authors": [
       "Athanasios Papathanasopoulos"
     ],
+    "institutions": [],
     "journal": "Journal of Media Economics",
     "published_date": "2026-07-19",
     "relevance": "High",
@@ -668,6 +704,7 @@
       "Patton Hickman",
       "Kateryna Kadian et al."
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-07-18",
     "relevance": "High",
@@ -698,6 +735,7 @@
     "authors": [
       "Jian Hu"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-07-16",
     "relevance": "High",
@@ -730,6 +768,7 @@
       "Lauren Bliss",
       "Helena Sandberg"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-07-15",
     "relevance": "High",
@@ -760,6 +799,7 @@
     "authors": [
       "Tay Jeong"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-07-14",
     "relevance": "High",
@@ -790,6 +830,7 @@
     "authors": [
       "Yifei Wang"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-07-14",
     "relevance": "High",
@@ -822,6 +863,7 @@
       "Germaine R. Halegoua",
       "Scott W. Campbell"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-07-14",
     "relevance": "High",
@@ -855,6 +897,7 @@
       "Martina Frizzo",
       "Kirsten Wild"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2026-07-13",
     "relevance": "High",
@@ -887,6 +930,7 @@
       "Yibin Fan",
       "Tucker Wang-Hai"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-07-13",
     "relevance": "High",
@@ -919,6 +963,7 @@
       "Kai Kuang",
       "Qing’an Zhou"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-07-12",
     "relevance": "High",
@@ -951,6 +996,7 @@
       "Jinyoung Choi",
       "Catalina L. Toma"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2026-07-10",
     "relevance": "High",
@@ -987,6 +1033,7 @@
       "Xiaoran Sun",
       "Thomas Robinson et al."
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2026-07-10",
     "relevance": "High",
@@ -1023,6 +1070,7 @@
       "Peita L. Richards",
       "Brendan Walker-Munro"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-07-08",
     "relevance": "High",
@@ -1056,6 +1104,7 @@
       "Bruna Almeida Paroni",
       "Fabio Giglietto"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-07-08",
     "relevance": "High",
@@ -1090,6 +1139,7 @@
       "Claudia Thoms",
       "Tobias Schrimpf"
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2026-07-07",
     "relevance": "High",
@@ -1125,6 +1175,7 @@
       "Fengqian Chen",
       "Jiayi Luo"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-07-07",
     "relevance": "High",
@@ -1157,6 +1208,7 @@
       "Georgiana Clarke",
       "Donavon Johnson"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-07-06",
     "relevance": "High",
@@ -1190,6 +1242,7 @@
       "Xiaobei Chen",
       "Shuo Yao"
     ],
+    "institutions": [],
     "journal": "Communication Research Reports",
     "published_date": "2026-07-05",
     "relevance": "High",
@@ -1224,6 +1277,7 @@
       "Mohammed Huraysi",
       "Sharon Lisseth Pérez"
     ],
+    "institutions": [],
     "journal": "Global Media and Communication",
     "published_date": "2026-07-02",
     "relevance": "High",
@@ -1254,6 +1308,7 @@
     "authors": [
       "Robert C. Gauthreaux"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-07-02",
     "relevance": "High",
@@ -1286,6 +1341,7 @@
       "Hongjin Shim",
       "Sohye Lim"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-07-02",
     "relevance": "High",
@@ -1321,6 +1377,7 @@
       "Ensieh Jarrahi",
       "Christoph Lutz"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-07-01",
     "relevance": "High",
@@ -1353,6 +1410,7 @@
       "Ashwin Rajadesingan",
       "Tejasvi Chebrolu"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-07-01",
     "relevance": "High",
@@ -1385,6 +1443,7 @@
       "Morgan Wack",
       "Stephen Prochaska"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-07-01",
     "relevance": "High",
@@ -1417,6 +1476,7 @@
       "Qingyue Sun",
       "Runze Ding"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-07-01",
     "relevance": "High",
@@ -1451,6 +1511,7 @@
       "Martin Fischer",
       "Anna Sophie Kümpel"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-07-01",
     "relevance": "High",
@@ -1482,6 +1543,7 @@
     "authors": [
       "Muyang Li"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-07-01",
     "relevance": "High",
@@ -1513,6 +1575,7 @@
     "authors": [
       "Muhammad Asad Latif"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-07-01",
     "relevance": "High",
@@ -1548,6 +1611,7 @@
       "Constanza Gajardo",
       "Tom Nicholls"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-06-29",
     "relevance": "High",
@@ -1580,6 +1644,7 @@
       "Jianing Li",
       "Michael W. Wagner"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2026-06-29",
     "relevance": "High",
@@ -1614,6 +1679,7 @@
       "Jungwoo Nam",
       "Gwiwon Nam"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-28",
     "relevance": "High",
@@ -1647,6 +1713,7 @@
       "Yang Cheng",
       "Q H Chen"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-28",
     "relevance": "High",
@@ -1679,6 +1746,7 @@
       "Chang Sup Park",
       "Hyerim Jo"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-28",
     "relevance": "High",
@@ -1710,6 +1778,7 @@
       "Mohammed Ibahrine",
       "Norita Ahmad"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-26",
     "relevance": "High",
@@ -1741,6 +1810,7 @@
       "Jiyoun Suk",
       "Yini Zhang"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-26",
     "relevance": "High",
@@ -1773,6 +1843,7 @@
       "Stephanie Herrera",
       "Yifei Wang"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-26",
     "relevance": "High",
@@ -1805,6 +1876,7 @@
       "Ruolan Deng",
       "Saifuddin Ahmed"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-06-26",
     "relevance": "High",
@@ -1836,6 +1908,7 @@
     "authors": [
       "Bárbara Maria Farias Mota"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-06-26",
     "relevance": "High",
@@ -1870,6 +1943,7 @@
       "Liang Chen",
       "Han Zheng"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-24",
     "relevance": "High",
@@ -1901,6 +1975,7 @@
     "authors": [
       "Tobias Schmidt"
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2026-06-24",
     "relevance": "High",
@@ -1935,6 +2010,7 @@
       "Alexander Peine",
       "Galit Nimrod"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-06-23",
     "relevance": "High",
@@ -1968,6 +2044,7 @@
       "Kang Li",
       "Wei Chen"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-22",
     "relevance": "High",
@@ -2001,6 +2078,7 @@
       "Shannon C. McGregor",
       "Lorcan Neill"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-06-22",
     "relevance": "High",
@@ -2034,6 +2112,7 @@
       "Alex Gekker",
       "Sam; id_orcid 0000-0001-8347-3695 Hind"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-06-22",
     "relevance": "High",
@@ -2067,6 +2146,7 @@
       "Irina Lock",
       "Shujun Liu"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2026-06-22",
     "relevance": "High",
@@ -2101,6 +2181,7 @@
       "Catalina Argüello‐Gutiérrez",
       "Ángela Martín‐Gutiérrez"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2026-06-19",
     "relevance": "High",
@@ -2133,6 +2214,7 @@
       "Justin Wedeking",
       "Michael A. Zilis"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-06-17",
     "relevance": "High",
@@ -2167,6 +2249,7 @@
       "Barbara Saracino",
       "Massimiano Bucchi"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-06-17",
     "relevance": "High",
@@ -2199,6 +2282,7 @@
       "Ying Du",
       "Bennie Zhu"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-16",
     "relevance": "High",
@@ -2230,6 +2314,7 @@
     "authors": [
       "Umberto Famulari"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-06-16",
     "relevance": "High",
@@ -2263,6 +2348,7 @@
       "Franz Reiter",
       "Uta Rußmann"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-06-14",
     "relevance": "High",
@@ -2295,6 +2381,7 @@
       "Chamil Rathnayake",
       "Daniel D. Suthers"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-06-13",
     "relevance": "High",
@@ -2328,6 +2415,7 @@
       "Peter Monge",
       "Janet Fulk"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2026-06-13",
     "relevance": "High",
@@ -2361,6 +2449,7 @@
       "Yuhan Wei",
       "X J Wang"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-06-11",
     "relevance": "High",
@@ -2396,6 +2485,7 @@
       "Richard Bonneau",
       "Jonathan Nagler et al."
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-06-10",
     "relevance": "High",
@@ -2429,6 +2519,7 @@
       "Frank Mangold",
       "Michaela Maier"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2026-06-10",
     "relevance": "High",
@@ -2464,6 +2555,7 @@
       "Johan Ugander",
       "Jeffrey Hancock"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-06-09",
     "relevance": "High",
@@ -2498,6 +2590,7 @@
       "Hao Liu",
       "Hsuan‐Ting Chen"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-07",
     "relevance": "High",
@@ -2533,6 +2626,7 @@
       "Dongpeng Huang",
       "James Katz"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-05",
     "relevance": "High",
@@ -2565,6 +2659,7 @@
       "Qurban Hussain Pamirzad",
       "Noor Ahmad Nabil"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-06-05",
     "relevance": "High",
@@ -2596,6 +2691,7 @@
     "authors": [
       "Muhammad Awais"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2026-06-04",
     "relevance": "High",
@@ -2627,6 +2723,7 @@
     "authors": [
       "Tenzin Tamang"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2026-06-04",
     "relevance": "High",
@@ -2659,6 +2756,7 @@
       "Ricardo Palmela de Oliveira",
       "Teresa Almeida Cravo"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2026-06-03",
     "relevance": "High",
@@ -2691,6 +2789,7 @@
       "Hsuen-Chi Chiu",
       "Jeremy Foote"
     ],
+    "institutions": [],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-06-02",
     "relevance": "High",
@@ -2723,6 +2822,7 @@
       "Padma Angmo",
       "Rachna Mahajan"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-06-01",
     "relevance": "High",
@@ -2756,6 +2856,7 @@
       "Ammina Kothari",
       "Ying Xiong"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-06-01",
     "relevance": "High",
@@ -2791,6 +2892,7 @@
       "Brett Johnson",
       "Melissa Tully et al."
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2026-05-31",
     "relevance": "High",
@@ -2822,6 +2924,7 @@
       "Jinpeng Wang",
       "X H Yu"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2026-05-29",
     "relevance": "High",
@@ -2854,6 +2957,7 @@
     "authors": [
       "Jess Dominguez"
     ],
+    "institutions": [],
     "journal": "Communication Research Reports",
     "published_date": "2026-05-27",
     "relevance": "High",
@@ -2886,6 +2990,7 @@
       "Aliaa K. ElShabassy",
       "Shahira Fahmy"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2026-05-27",
     "relevance": "High",
@@ -2919,6 +3024,7 @@
       "Chengxin Lyu",
       "Fei Wu"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-05-27",
     "relevance": "High",
@@ -2951,6 +3057,7 @@
       "Mykola Makhortykh",
       "Maryna Sydorova"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-05-27",
     "relevance": "High",
@@ -2982,6 +3089,7 @@
       "Josephine Lukito",
       "Kayo Mimizuka"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-05-27",
     "relevance": "High",
@@ -3012,6 +3120,7 @@
     "authors": [
       "Taylor Annabell"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-05-27",
     "relevance": "High",
@@ -3044,6 +3153,7 @@
       "Lazar Dragić",
       "KJ Kaixin Deng"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-05-25",
     "relevance": "High",
@@ -3075,6 +3185,7 @@
     "authors": [
       "Timothy R. Levine"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-05-23",
     "relevance": "High",
@@ -3108,6 +3219,7 @@
       "Fankai Dai",
       "Yi Mou"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-05-16",
     "relevance": "High",
@@ -3139,6 +3251,7 @@
     "authors": [
       "Roy Jacobsen"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-05-16",
     "relevance": "High",
@@ -3170,6 +3283,7 @@
       "J.H. Tang",
       "Barbara Millet"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-05-14",
     "relevance": "High",
@@ -3201,6 +3315,7 @@
       "Christina Gahn",
       "Simon Kruschinski"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-05-14",
     "relevance": "High",
@@ -3232,6 +3347,7 @@
     "authors": [
       "Moon QMN-Nguyen"
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2026-05-13",
     "relevance": "High",
@@ -3266,6 +3382,7 @@
       "Tong Sun",
       "Xinru Jiang"
     ],
+    "institutions": [],
     "journal": "International Journal of Mobile Communications",
     "published_date": "2026-05-12",
     "relevance": "High",
@@ -3299,6 +3416,7 @@
       "Jingbo Meng",
       "Tsai-Wei Ling"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-05-11",
     "relevance": "High",
@@ -3332,6 +3450,7 @@
       "Jakob Ohme",
       "Lion Wedel"
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2026-05-09",
     "relevance": "High",
@@ -3366,6 +3485,7 @@
       "Neil Thurman",
       "Imke Henkel et al."
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2026-05-09",
     "relevance": "High",
@@ -3398,6 +3518,7 @@
       "Mengqi Liao",
       "S. Shyam Sundar"
     ],
+    "institutions": [],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-05-08",
     "relevance": "High",
@@ -3430,6 +3551,7 @@
       "Lucas Shen",
       "Gaurav Sood"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-05-08",
     "relevance": "High",
@@ -3462,6 +3584,7 @@
       "Daniel Nielsen",
       "Anne Mette Thorhauge"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-05-08",
     "relevance": "High",
@@ -3495,6 +3618,7 @@
       "Héctor Fouce",
       "Arturo Martínez‐Rodrigo"
     ],
+    "institutions": [],
     "journal": "Communication and the Public",
     "published_date": "2026-05-07",
     "relevance": "High",
@@ -3527,6 +3651,7 @@
       "Julia Kling",
       "Serge Poliakoff"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2026-05-07",
     "relevance": "High",
@@ -3559,6 +3684,7 @@
       "Anqi Shao",
       "Dietram A. Scheufele"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-05-07",
     "relevance": "High",
@@ -3591,6 +3717,7 @@
       "Shu Scott Li",
       "James Price Dillard"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2026-05-07",
     "relevance": "High",
@@ -3622,6 +3749,7 @@
       "Christina Jimenez Najera",
       "Oluseyi Samuel Adegbola"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-05-05",
     "relevance": "High",
@@ -3655,6 +3783,7 @@
       "Daniil Romanov",
       "Alexander Baturo"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-05-05",
     "relevance": "High",
@@ -3687,6 +3816,7 @@
       "Gabriella Punziano",
       "Domenico Trezza"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-05-05",
     "relevance": "High",
@@ -3720,6 +3850,7 @@
       "José A. Ruipérez‐Valiente",
       "Juan Miguel Aguado"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-05-04",
     "relevance": "High",
@@ -3751,6 +3882,7 @@
     "authors": [
       "Eriyanto"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2026-05-02",
     "relevance": "High",
@@ -3783,6 +3915,7 @@
     "authors": [
       "Laura Edelson"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-05-01",
     "relevance": "High",
@@ -3815,6 +3948,7 @@
       "Mona Solvoll",
       "Linn-Birgit Kampen Kristensen"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-04-30",
     "relevance": "High",
@@ -3848,6 +3982,7 @@
       "Olga Eisele",
       "Petro Tolochko"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2026-04-30",
     "relevance": "High",
@@ -3882,6 +4017,7 @@
       "Yilu Yang",
       "Wenhui Guo"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2026-04-30",
     "relevance": "High",
@@ -3914,6 +4050,7 @@
       "Tianlun Zhou",
       "Xiaoming Liu"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-30",
     "relevance": "High",
@@ -3947,6 +4084,7 @@
       "Rocío Martínez-Almanza",
       "Alba Marsol-Gutiérrez"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-30",
     "relevance": "High",
@@ -3979,6 +4117,7 @@
       "William Donohue",
       "Tai‐Quan Peng"
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2026-04-29",
     "relevance": "High",
@@ -4013,6 +4152,7 @@
       "Andreas Dafnos",
       "Andreas Neumeier"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-29",
     "relevance": "High",
@@ -4045,6 +4185,7 @@
       "Joanne Kuai",
       "Fabian Ferrari"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-26",
     "relevance": "High",
@@ -4076,6 +4217,7 @@
       "Keonyoung Park",
       "Jeongwon Yang"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-04-25",
     "relevance": "High",
@@ -4110,6 +4252,7 @@
       "D Lee",
       "J A Kim"
     ],
+    "institutions": [],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-04-23",
     "relevance": "High",
@@ -4142,6 +4285,7 @@
       "M Sun",
       "Shaojing Sun"
     ],
+    "institutions": [],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-04-23",
     "relevance": "High",
@@ -4174,6 +4318,7 @@
       "Émilie Tran",
       "Tariq Gulrez"
     ],
+    "institutions": [],
     "journal": "Communication and the Public",
     "published_date": "2026-04-21",
     "relevance": "High",
@@ -4208,6 +4353,7 @@
       "Tamir Sheafer",
       "Shaul R. Shenhav"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-04-21",
     "relevance": "High",
@@ -4240,6 +4386,7 @@
       "Jihyang Choi",
       "S. Mo Jones-Jang"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-04-20",
     "relevance": "High",
@@ -4273,6 +4420,7 @@
       "Nataliia Laba",
       "John H. Parmelee"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2026-04-19",
     "relevance": "High",
@@ -4308,6 +4456,7 @@
       "Jukka Huhtamäki",
       "Sophie Del Fa"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-19",
     "relevance": "High",
@@ -4340,6 +4489,7 @@
       "Li Jin",
       "Jialin Hu"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-19",
     "relevance": "High",
@@ -4372,6 +4522,7 @@
       "Yuheng Wu",
       "Fei Shen"
     ],
+    "institutions": [],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-04-17",
     "relevance": "High",
@@ -4405,6 +4556,7 @@
       "Ludmila Lupinacci",
       "Felipe Bonow Soares"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-16",
     "relevance": "High",
@@ -4437,6 +4589,7 @@
       "Yuanbo Qiu",
       "Yunjuan Luo"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-16",
     "relevance": "High",
@@ -4470,6 +4623,7 @@
       "Hang Lu",
       "Chao Yu"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-16",
     "relevance": "High",
@@ -4505,6 +4659,7 @@
       "M Lechner",
       "Brigitte Naderer"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-16",
     "relevance": "High",
@@ -4537,6 +4692,7 @@
     "authors": [
       "Omnya Abdelwahab"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-04-13",
     "relevance": "High",
@@ -4571,6 +4727,7 @@
       "Marco Pirrone",
       "Giorgia Fusacchia"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-04-13",
     "relevance": "High",
@@ -4603,6 +4760,7 @@
       "Constantin Bürgi",
       "Zuzanna Studnicka"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-13",
     "relevance": "High",
@@ -4637,6 +4795,7 @@
       "Lena Frischlich",
       "Peter Mayer"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-11",
     "relevance": "High",
@@ -4672,6 +4831,7 @@
       "Travis N. Ridout",
       "Erika Franklin Fowler"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-04-08",
     "relevance": "High",
@@ -4707,6 +4867,7 @@
       "Camila Mont'Alverne",
       "Tom Nicholls"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-08",
     "relevance": "High",
@@ -4738,6 +4899,7 @@
       "Issaaf Karhawi",
       "Anderson Lopes da Silva"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-08",
     "relevance": "High",
@@ -4770,6 +4932,7 @@
       "Hee Jay Kim",
       "Chung Joo Chung"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-04-07",
     "relevance": "High",
@@ -4804,6 +4967,7 @@
       "Yuxing Qian",
       "Yunmei Liu"
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2026-04-07",
     "relevance": "High",
@@ -4837,6 +5001,7 @@
       "Zeynep Arzu Kelani",
       "Darina Lepadatu"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-04-07",
     "relevance": "High",
@@ -4870,6 +5035,7 @@
       "Sherry Mason",
       "Tawfiq Ammari"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-07",
     "relevance": "High",
@@ -4903,6 +5069,7 @@
       "Jonathan Corpus Ong",
       "Dean A. Jackson"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-06",
     "relevance": "High",
@@ -4937,6 +5104,7 @@
       "Muhammad Ittefaq",
       "SeYeon Park"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2026-04-03",
     "relevance": "High",
@@ -4972,6 +5140,7 @@
       "Harshit Aneja",
       "Y Chen"
     ],
+    "institutions": [],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-04-02",
     "relevance": "High",
@@ -5003,6 +5172,7 @@
     "authors": [
       "Ilan Manor"
     ],
+    "institutions": [],
     "journal": "Communication and the Public",
     "published_date": "2026-04-02",
     "relevance": "High",
@@ -5034,6 +5204,7 @@
       "Chih‐Hui Lai",
       "Jiawei Sophia Fu"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2026-04-02",
     "relevance": "High",
@@ -5066,6 +5237,7 @@
       "Wahid Mehran",
       "Jolanta A. Drzewiecka"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5100,6 +5272,7 @@
       "Elisenda Ardèvol",
       "Sandra Martorell"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5133,6 +5306,7 @@
       "Georgia Kernell",
       "Soo Min Noh"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5165,6 +5339,7 @@
     "authors": [
       "Hedi Ye"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5198,6 +5373,7 @@
       "Baoying Fu",
       "Xueqing Li"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5229,6 +5405,7 @@
     "authors": [
       "Anne Helmond"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5260,6 +5437,7 @@
       "Ala’Eddin Abdullah Ahmed Banikalef",
       "Mohammad Issa Mehawesh"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5295,6 +5473,7 @@
       "Homero Gil de Zúñiga",
       "S. Shyam Sundar"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5327,6 +5506,7 @@
       "Marco Bastos",
       "Marisa Elena Duarte"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-29",
     "relevance": "High",
@@ -5360,6 +5540,7 @@
       "Pablo Jost",
       "Leyla Dogruel"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-29",
     "relevance": "High",
@@ -5392,6 +5573,7 @@
       "Hongyuan Gan",
       "Tien Ee Dominic Yeo"
     ],
+    "institutions": [],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-03-27",
     "relevance": "High",
@@ -5424,6 +5606,7 @@
       "Muhammad Ali",
       "Hina Ali"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2026-03-27",
     "relevance": "High",
@@ -5455,6 +5638,7 @@
     "authors": [
       "The Cuong Nguyen"
     ],
+    "institutions": [],
     "journal": "Communication and the Public",
     "published_date": "2026-03-25",
     "relevance": "High",
@@ -5489,6 +5673,7 @@
       "J. Liu",
       "J. P. Guo"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-25",
     "relevance": "High",
@@ -5520,6 +5705,7 @@
       "Bente Kalsnes",
       "Niels Nagelhus Schia"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-23",
     "relevance": "High",
@@ -5552,6 +5738,7 @@
       "Junsu Kim",
       "Yongjun Sung"
     ],
+    "institutions": [],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-03-20",
     "relevance": "High",
@@ -5586,6 +5773,7 @@
       "Hang Li",
       "Yucheng Chu et al."
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-03-20",
     "relevance": "High",
@@ -5616,6 +5804,7 @@
     "authors": [
       "Kateryna Bystrytska"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2026-03-19",
     "relevance": "High",
@@ -5650,6 +5839,7 @@
       "Naomi Kamoen",
       "Rieke Van Lieshout"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2026-03-19",
     "relevance": "High",
@@ -5681,6 +5871,7 @@
     "authors": [
       "Hossein Kermani"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-03-18",
     "relevance": "High",
@@ -5714,6 +5905,7 @@
       "Youllee Kim",
       "Huai-yu Chen"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2026-03-18",
     "relevance": "High",
@@ -5748,6 +5940,7 @@
       "Jing Yang",
       "Shaheen Kanthawala"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-03-16",
     "relevance": "High",
@@ -5780,6 +5973,7 @@
       "Soo Young Bae",
       "David DeFranza"
     ],
+    "institutions": [],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-03-14",
     "relevance": "High",
@@ -5812,6 +6006,7 @@
       "Arash Beidollahkhani",
       "Mahboobe Farkhari"
     ],
+    "institutions": [],
     "journal": "Global Media and Communication",
     "published_date": "2026-03-12",
     "relevance": "High",
@@ -5845,6 +6040,7 @@
       "Selina Noetzel",
       "Alice Binder"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-12",
     "relevance": "High",
@@ -5879,6 +6075,7 @@
       "Ven-Hwei Lo",
       "Xinzhi Zhang"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-12",
     "relevance": "High",
@@ -5914,6 +6111,7 @@
       "Jason Greenfield",
       "Bin Chen et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-12",
     "relevance": "High",
@@ -5947,6 +6145,7 @@
       "Utku Bozdağa",
       "Lilla Petronella Szabóa"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-11",
     "relevance": "High",
@@ -5978,6 +6177,7 @@
     "authors": [
       "Hui Zhang"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-03-10",
     "relevance": "High",
@@ -6009,6 +6209,7 @@
     "authors": [
       "Silvanus Alvin"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-03-05",
     "relevance": "High",
@@ -6044,6 +6245,7 @@
       "Benjamin Burroughs",
       "Audrey Halversen"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-03-05",
     "relevance": "High",
@@ -6076,6 +6278,7 @@
       "Juan Pablo Micaletto-Belda",
       "Noemí Morejón-Llamas"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2026-03-05",
     "relevance": "High",
@@ -6108,6 +6311,7 @@
     "authors": [
       "Soo Jung Hong"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-05",
     "relevance": "High",
@@ -6140,6 +6344,7 @@
       "Hung-Yen Hsu",
       "Ya-Yin Lin"
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2026-03-04",
     "relevance": "High",
@@ -6170,6 +6375,7 @@
     "authors": [
       "Zhiming Liu"
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2026-03-04",
     "relevance": "High",
@@ -6204,6 +6410,7 @@
       "Shannon C. McGregor",
       "Carolyn Schmitt"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-03-04",
     "relevance": "High",
@@ -6239,6 +6446,7 @@
       "Yunkang Yang",
       "Wei Zhong"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-03-04",
     "relevance": "High",
@@ -6272,6 +6480,7 @@
       "Marina Tulin",
       "Tom Dobber"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2026-03-04",
     "relevance": "High",
@@ -6304,6 +6513,7 @@
       "Dechuan Liu",
       "Yuhang Yuan"
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2026-03-03",
     "relevance": "High",
@@ -6335,6 +6545,7 @@
     "authors": [
       "Miguel Ángel Díaz Monsalvo"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2026-03-02",
     "relevance": "High",
@@ -6365,6 +6576,7 @@
     "authors": [
       "Elia Powers"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-02-27",
     "relevance": "High",
@@ -6400,6 +6612,7 @@
       "Sora Park",
       "Michael Dezuanni"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-26",
     "relevance": "High",
@@ -6434,6 +6647,7 @@
       "Saki Mizoroki",
       "Rebecca Scharlach et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-26",
     "relevance": "High",
@@ -6466,6 +6680,7 @@
     "authors": [
       "Michael Chan"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-02-25",
     "relevance": "High",
@@ -6499,6 +6714,7 @@
       "Stuart Soroka",
       "Christopher Wlezien"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-02-25",
     "relevance": "High",
@@ -6531,6 +6747,7 @@
       "Cong Lin",
       "Yuhan Li"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-24",
     "relevance": "High",
@@ -6563,6 +6780,7 @@
       "Timon M. J. Hruschka",
       "Markus Appel"
     ],
+    "institutions": [],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-02-23",
     "relevance": "High",
@@ -6595,6 +6813,7 @@
       "Lu Zhao",
       "Ruichen Zhang"
     ],
+    "institutions": [],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-02-23",
     "relevance": "High",
@@ -6629,6 +6848,7 @@
       "Sean Palicki",
       "Alexis Palmer et al."
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-02-20",
     "relevance": "High",
@@ -6659,6 +6879,7 @@
     "authors": [
       "Wan-Ying Yang"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-02-20",
     "relevance": "High",
@@ -6691,6 +6912,7 @@
     "authors": [
       "Catalina Farías"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-19",
     "relevance": "High",
@@ -6724,6 +6946,7 @@
       "Weilu Zhang",
       "Sisi Hu"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-02-19",
     "relevance": "High",
@@ -6757,6 +6980,7 @@
       "Adrian Rauchfleisch",
       "Alexander Wuttke"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-02-19",
     "relevance": "High",
@@ -6791,6 +7015,7 @@
       "Gabriel Pereira",
       "Fernando van der Vlist"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-18",
     "relevance": "High",
@@ -6823,6 +7048,7 @@
       "S. Y. Noh",
       "Stuart Soroka"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2026-02-18",
     "relevance": "High",
@@ -6855,6 +7081,7 @@
     "authors": [
       "Arash Beidollahkhani"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-02-17",
     "relevance": "High",
@@ -6887,6 +7114,7 @@
       "Sadettin Demirel",
       "Neslihan Bulur"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-02-13",
     "relevance": "High",
@@ -6922,6 +7150,7 @@
       "Sihui Chen",
       "Bingkun Yang"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-08",
     "relevance": "High",
@@ -6957,6 +7186,7 @@
       "Ashwin Nagappa",
       "Vish Padinjaredath Suresh"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-05",
     "relevance": "High",
@@ -6989,6 +7219,7 @@
       "James Ndone",
       "Nathan Carpenter"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-02-04",
     "relevance": "High",
@@ -7023,6 +7254,7 @@
       "Yu-Ru Lin",
       "Bruce A. Desmarais"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-02-04",
     "relevance": "High",
@@ -7054,6 +7286,7 @@
     "authors": [
       "Eun Young Oh"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-02-02",
     "relevance": "High",
@@ -7087,6 +7320,7 @@
       "Quoc Tran-Nam",
       "Tuyen Tiet"
     ],
+    "institutions": [],
     "journal": "Journal of Media Economics",
     "published_date": "2026-02-01",
     "relevance": "High",
@@ -7119,6 +7353,7 @@
       "Ilan Manor",
       "Moran Yarchi"
     ],
+    "institutions": [],
     "journal": "Communication and the Public",
     "published_date": "2026-01-31",
     "relevance": "High",
@@ -7150,6 +7385,7 @@
       "Vivian P. Ta-Johnson",
       "Isabella M. Swafford"
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2026-01-27",
     "relevance": "High",
@@ -7182,6 +7418,7 @@
       "Anna Schjøtt",
       "Nadja Schaetz"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-01-26",
     "relevance": "High",
@@ -7215,6 +7452,7 @@
       "Katalin Feher",
       "Dennis Nguyen"
     ],
+    "institutions": [],
     "journal": "Global Media and Communication",
     "published_date": "2026-01-21",
     "relevance": "High",
@@ -7248,6 +7486,7 @@
       "Subhayan Mukerjee",
       "Tian Yang"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2026-01-21",
     "relevance": "High",
@@ -7282,6 +7521,7 @@
       "Ema Vlainić",
       "Marina Bagić Babac"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-01-19",
     "relevance": "High",
@@ -7315,6 +7555,7 @@
       "Marie Neihouser",
       "Jérémie Garrigues"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-01-18",
     "relevance": "High",
@@ -7348,6 +7589,7 @@
       "Fanjue Liu",
       "Chun Shao"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-01-18",
     "relevance": "High",
@@ -7380,6 +7622,7 @@
       "Judith Hefetz",
       "Sharon Haleva‐Amir"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-01-15",
     "relevance": "High",
@@ -7412,6 +7655,7 @@
       "Jason Miklian",
       "Kristian Hoelscher"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-01-14",
     "relevance": "High",
@@ -7443,6 +7687,7 @@
     "authors": [
       "Albert Anani-Bossman"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-01-14",
     "relevance": "High",
@@ -7478,6 +7723,7 @@
       "Gemma Beard",
       "Lisa M. Given"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-01-13",
     "relevance": "High",
@@ -7510,6 +7756,7 @@
     "authors": [
       "Sean Ewing"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2026-01-12",
     "relevance": "High",
@@ -7541,6 +7788,7 @@
     "authors": [
       "Qinfeng Zhu"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2026-01-07",
     "relevance": "High",
@@ -7575,6 +7823,7 @@
       "B. Lee",
       "Youngjin Lee et al."
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2026-01-02",
     "relevance": "High",
@@ -7606,6 +7855,7 @@
     "authors": [
       "Hyeon Jo"
     ],
+    "institutions": [],
     "journal": "International Journal of Mobile Communications",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7639,6 +7889,7 @@
       "Juan Wen",
       "Yuzhuo Wang"
     ],
+    "institutions": [],
     "journal": "International Journal of Mobile Communications",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7672,6 +7923,7 @@
       "Skyler Wang",
       "Marco Dehnert"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7704,6 +7956,7 @@
       "Kun Zhou",
       "Sang Jung Kim"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7735,6 +7988,7 @@
     "authors": [
       "Mathilda Åkerlund"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7767,6 +8021,7 @@
       "Luna Gao",
       "Jesper Strömbäck"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7801,6 +8056,7 @@
       "Yosef Bodovski",
       "S. Shyam Sundar"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7832,6 +8088,7 @@
     "authors": [
       "Xiaomin Luo"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7864,6 +8121,7 @@
       "Jamie Jana Jocher",
       "Roland Verwiebe"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7894,6 +8152,7 @@
     "authors": [
       "Kaarel Lott"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7928,6 +8187,7 @@
       "Jinzhuo Liu",
       "Xinyan Wang"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7962,6 +8222,7 @@
       "Tom Divon",
       "Blake Hallinan"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -7996,6 +8257,7 @@
       "Erik C. Nisbet",
       "R. Kelly Garrett"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -8031,6 +8293,7 @@
       "Joseph Moyinoluwa Talabi",
       "Samson Adedapo Bello et al."
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -8064,6 +8327,7 @@
       "Sebastian Block",
       "Tomas Ruiz"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -8094,6 +8358,7 @@
     "authors": [
       "Siyu Chen"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -8129,6 +8394,7 @@
       "Jianwei Liu",
       "Kee-Hung Lai"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -8161,6 +8427,7 @@
       "Tianru Guan",
       "Xiaotong Chen"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -8195,6 +8462,7 @@
       "Toqa Hassan",
       "Samuel Mensah Noi et al."
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -8229,6 +8497,7 @@
       "Milo Z. Trujillo",
       "Brooke Foucault Welles"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -8263,6 +8532,7 @@
       "Ruolan Deng",
       "Adeline Wei Ting Bee"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2026-01-01",
     "relevance": "High",
@@ -8295,6 +8565,7 @@
       "Yiyan Zhang",
       "Tian Yang"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-12-30",
     "relevance": "High",
@@ -8328,6 +8599,7 @@
       "Yixin Liu",
       "Bingcan Li"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-12-29",
     "relevance": "High",
@@ -8362,6 +8634,7 @@
       "Gaisbauer Felix",
       "Yangliu Fan"
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2025-12-27",
     "relevance": "High",
@@ -8395,6 +8668,7 @@
       "Dmitry Mikhailov",
       "Nikolay Ternov"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-12-26",
     "relevance": "High",
@@ -8428,6 +8702,7 @@
       "Daniel Thiele",
       "Baoning Gong"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-12-26",
     "relevance": "High",
@@ -8458,6 +8733,7 @@
     "authors": [
       "Michael Heseltine"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-12-25",
     "relevance": "High",
@@ -8488,6 +8764,7 @@
     "authors": [
       "Lanabi La Lova"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-12-24",
     "relevance": "High",
@@ -8521,6 +8798,7 @@
       "Ilir Rama",
       "Francesco Marolla"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-12-24",
     "relevance": "High",
@@ -8554,6 +8832,7 @@
       "Yunkang Yang",
       "Mike Cowburn"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-12-23",
     "relevance": "High",
@@ -8586,6 +8865,7 @@
       "Michael Hameleers",
       "Toni G.L.A. van der Meer"
     ],
+    "institutions": [],
     "journal": "International Journal of Public Opinion Research",
     "published_date": "2025-12-19",
     "relevance": "High",
@@ -8618,6 +8898,7 @@
       "Muhammad Masood",
       "Jaeho Cho"
     ],
+    "institutions": [],
     "journal": "International Journal of Public Opinion Research",
     "published_date": "2025-12-18",
     "relevance": "High",
@@ -8651,6 +8932,7 @@
       "Zhixin Pu",
       "Erin Ruppel"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2025-12-18",
     "relevance": "High",
@@ -8683,6 +8965,7 @@
       "Yini Zhang",
       "Hyunyi Cho"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2025-12-18",
     "relevance": "High",
@@ -8718,6 +9001,7 @@
       "Wangbing Shen",
       "Dalei Dong"
     ],
+    "institutions": [],
     "journal": "International Journal of Mobile Communications",
     "published_date": "2025-12-16",
     "relevance": "High",
@@ -8749,6 +9033,7 @@
       "David L. Beavers",
       "Jennifer L. Hochschild"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-12-15",
     "relevance": "High",
@@ -8782,6 +9067,7 @@
       "Yuanting Huang",
       "Danni Ma"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-12-15",
     "relevance": "High",
@@ -8816,6 +9102,7 @@
       "Ilgar Seyidov",
       "Burak Erdogan"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-12-14",
     "relevance": "High",
@@ -8848,6 +9135,7 @@
       "Rachel McKenzie",
       "Lisa Jihyun Hwang"
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-12-11",
     "relevance": "High",
@@ -8880,6 +9168,7 @@
       "Sarphan Uzunoğlu",
       "Zindan Çakıcı"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-12-07",
     "relevance": "High",
@@ -8913,6 +9202,7 @@
       "Bente Kalsnes",
       "Anders Olof Larsson"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-12-05",
     "relevance": "High",
@@ -8944,6 +9234,7 @@
       "Travis R. Bell",
       "Fan Yang"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-12-04",
     "relevance": "High",
@@ -8979,6 +9270,7 @@
       "Leonard Reinecke",
       "Michael Scharkow"
     ],
+    "institutions": [],
     "journal": "Human Communication Research",
     "published_date": "2025-12-03",
     "relevance": "High",
@@ -9012,6 +9304,7 @@
       "Taberez Ahmed Neyazi",
       "Sophie Lecheler"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-12-01",
     "relevance": "High",
@@ -9043,6 +9336,7 @@
       "Moran Yarchi",
       "Ela Blatt"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-12-01",
     "relevance": "High",
@@ -9075,6 +9369,7 @@
       "Tongtong Hou",
       "Lu Tang"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-11-30",
     "relevance": "High",
@@ -9108,6 +9403,7 @@
       "Dennis Steffan",
       "Maria Elizabeth Grabe"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2025-11-30",
     "relevance": "High",
@@ -9139,6 +9435,7 @@
     "authors": [
       "Yingdan Lu"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-11-27",
     "relevance": "High",
@@ -9173,6 +9470,7 @@
       "François Bar",
       "Angel Chavez Penate"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-11-27",
     "relevance": "High",
@@ -9209,6 +9507,7 @@
       "Yiran Duan",
       "Jeff Hemsley"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-11-26",
     "relevance": "High",
@@ -9244,6 +9543,7 @@
       "Sihao Zhou",
       "Porismita Borah"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-11-25",
     "relevance": "High",
@@ -9277,6 +9577,7 @@
       "Adrián Padilla",
       "Òscar Coromina"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-11-24",
     "relevance": "High",
@@ -9308,6 +9609,7 @@
     "authors": [
       "Chunke Su"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2025-11-24",
     "relevance": "High",
@@ -9341,6 +9643,7 @@
       "Tobias Rohrbach",
       "Patti Shih"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-11-22",
     "relevance": "High",
@@ -9374,6 +9677,7 @@
       "Emily Harmer",
       "Rosalynd Southern"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-11-20",
     "relevance": "High",
@@ -9408,6 +9712,7 @@
       "William Allen",
       "Pedro Ramaciotti Morales"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-11-19",
     "relevance": "High",
@@ -9439,6 +9744,7 @@
     "authors": [
       "Elise Storme"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-11-18",
     "relevance": "High",
@@ -9471,6 +9777,7 @@
       "Teresa Weller",
       "Irina Lock"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-11-17",
     "relevance": "High",
@@ -9505,6 +9812,7 @@
       "Haoning Xue",
       "Emily K McKinley"
     ],
+    "institutions": [],
     "journal": "Human Communication Research",
     "published_date": "2025-11-17",
     "relevance": "High",
@@ -9540,6 +9848,7 @@
       "Morris Gaff",
       "Job van Exel et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-11-16",
     "relevance": "High",
@@ -9572,6 +9881,7 @@
       "Ludovic Terren",
       "Ana Sofía Cardenal"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-11-16",
     "relevance": "High",
@@ -9604,6 +9914,7 @@
       "Lu Zhang",
       "Guohua Wang"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-11-14",
     "relevance": "High",
@@ -9637,6 +9948,7 @@
       "Michelle A. Amazeen",
       "Sara Weinberg"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-11-14",
     "relevance": "High",
@@ -9669,6 +9981,7 @@
     "authors": [
       "Gregory Gondwe"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-11-14",
     "relevance": "High",
@@ -9702,6 +10015,7 @@
       "Tanja Messingschlager",
       "Markus Appel"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-11-14",
     "relevance": "High",
@@ -9736,6 +10050,7 @@
       "Panayiota Tsatsou",
       "Lauren M. McLaren"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-11-14",
     "relevance": "High",
@@ -9768,6 +10083,7 @@
     "authors": [
       "Keyu Alexander Chen"
     ],
+    "institutions": [],
     "journal": "Global Media and Communication",
     "published_date": "2025-11-12",
     "relevance": "High",
@@ -9802,6 +10118,7 @@
       "Deena Abul‐Fottouh",
       "Farah Rana"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-11-11",
     "relevance": "High",
@@ -9835,6 +10152,7 @@
       "Ulrike Klinger",
       "Anders Olof Larsson"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-11-07",
     "relevance": "High",
@@ -9868,6 +10186,7 @@
       "Antoine Machut",
       "Béatrice Mazoyer"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-11-07",
     "relevance": "High",
@@ -9899,6 +10218,7 @@
     "authors": [
       "C Cox"
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2025-11-02",
     "relevance": "High",
@@ -9929,6 +10249,7 @@
     "authors": [
       "King‐Wa Fu"
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2025-11-02",
     "relevance": "High",
@@ -9963,6 +10284,7 @@
       "Xingyun Liu",
       "Zhihong Ren"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-11-02",
     "relevance": "High",
@@ -9998,6 +10320,7 @@
       "Dongdong Yang",
       "Sara Holland Levin et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-11-02",
     "relevance": "High",
@@ -10031,6 +10354,7 @@
       "Steven E. Meier",
       "Ilwoo Ju"
     ],
+    "institutions": [],
     "journal": "Communication Reports",
     "published_date": "2025-10-31",
     "relevance": "High",
@@ -10062,6 +10386,7 @@
       "Andrés Lombana-Bermúdez",
       "Sergio Rodríguez Gómez"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-10-25",
     "relevance": "High",
@@ -10095,6 +10420,7 @@
       "Oriol J. Bosch",
       "Caroline Roberts"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-10-25",
     "relevance": "High",
@@ -10128,6 +10454,7 @@
       "Yi‐Hsuan Wu",
       "Hao-Hsuan Wang"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-10-24",
     "relevance": "High",
@@ -10163,6 +10490,7 @@
       "Florian Keusch",
       "Ruben L. Bach"
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2025-10-24",
     "relevance": "High",
@@ -10196,6 +10524,7 @@
       "Tania Fernández Lombao",
       "José Miguel Túñez López"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2025-10-22",
     "relevance": "High",
@@ -10231,6 +10560,7 @@
       "Saioa Telletxea",
       "Pablo Castro‐Abril"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-10-20",
     "relevance": "High",
@@ -10264,6 +10594,7 @@
       "Albert Batlle",
       "Cristina Pérez‐Solà"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-10-18",
     "relevance": "High",
@@ -10298,6 +10629,7 @@
       "Janjira Sombatpoonsiri",
       "Wijayanto et al."
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-10-16",
     "relevance": "High",
@@ -10330,6 +10662,7 @@
       "Maayan Cohen",
       "Eran Toch"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-10-16",
     "relevance": "High",
@@ -10362,6 +10695,7 @@
     "authors": [
       "Jia Yuin Fam"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-10-16",
     "relevance": "High",
@@ -10392,6 +10726,7 @@
     "authors": [
       "Hannes Cools"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-10-14",
     "relevance": "High",
@@ -10424,6 +10759,7 @@
       "Young Mo Kim",
       "Fangqi Zhao"
     ],
+    "institutions": [],
     "journal": "Communication Research Reports",
     "published_date": "2025-10-13",
     "relevance": "High",
@@ -10456,6 +10792,7 @@
       "Bart Simon",
       "Luciano Frizzera"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-10-13",
     "relevance": "High",
@@ -10492,6 +10829,7 @@
       "Richard J. E. James",
       "Heather Wardle et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-10-13",
     "relevance": "High",
@@ -10525,6 +10863,7 @@
       "Weiyu Zhang",
       "Jieun Shin"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-10-13",
     "relevance": "High",
@@ -10559,6 +10898,7 @@
       "Yanitza Angely Cruz Crespo",
       "Marissa Kopp"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2025-10-13",
     "relevance": "High",
@@ -10590,6 +10930,7 @@
     "authors": [
       "Juliane A. Lischka"
     ],
+    "institutions": [],
     "journal": "Journal of Media Economics",
     "published_date": "2025-10-12",
     "relevance": "High",
@@ -10623,6 +10964,7 @@
       "Annelien Van Remoortere",
       "Sanne Kruikemeier"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-10-08",
     "relevance": "High",
@@ -10657,6 +10999,7 @@
       "Suyu Xing",
       "Jiaxin Li"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-10-04",
     "relevance": "High",
@@ -10689,6 +11032,7 @@
     "authors": [
       "T.J. Thomson"
     ],
+    "institutions": [],
     "journal": "Visual Communication",
     "published_date": "2025-10-03",
     "relevance": "High",
@@ -10722,6 +11066,7 @@
       "Tali Aharoni",
       "Christian Baden"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-10-03",
     "relevance": "High",
@@ -10756,6 +11101,7 @@
       "Lasse Rodeck",
       "Matthias Revers"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-10-03",
     "relevance": "High",
@@ -10787,6 +11133,7 @@
     "authors": [
       "Miriam Siemon"
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2025-10-02",
     "relevance": "High",
@@ -10817,6 +11164,7 @@
     "authors": [
       "Frida Stranne"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-10-01",
     "relevance": "High",
@@ -10849,6 +11197,7 @@
       "Bo Hu",
       "Guanxiong Huang"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-10-01",
     "relevance": "High",
@@ -10883,6 +11232,7 @@
       "Ngai Keung Chan",
       "Лэй Гуо"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-10-01",
     "relevance": "High",
@@ -10916,6 +11266,7 @@
       "Tara Marie Mortensen",
       "Odera Ezenna"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-10-01",
     "relevance": "High",
@@ -10949,6 +11300,7 @@
       "Andreas Jungherr",
       "Adrian Rauchfleisch"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-10-01",
     "relevance": "High",
@@ -10980,6 +11332,7 @@
       "Jennifer Ihm",
       "Eun‐Mee Kim"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-10-01",
     "relevance": "High",
@@ -11013,6 +11366,7 @@
       "Christy Khoury",
       "Jeff Hemsley"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-10-01",
     "relevance": "High",
@@ -11045,6 +11399,7 @@
       "Zachary P Rosen",
       "Joseph B. Walther"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-10-01",
     "relevance": "High",
@@ -11076,6 +11431,7 @@
     "authors": [
       "Baoning Gong"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-09-30",
     "relevance": "High",
@@ -11108,6 +11464,7 @@
     "authors": [
       "Andrea Stockinger"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-09-26",
     "relevance": "High",
@@ -11144,6 +11501,7 @@
       "Antske Fokkens",
       "Myrthe Reuver et al."
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2025-09-24",
     "relevance": "High",
@@ -11177,6 +11535,7 @@
       "Yipeng Xi",
       "Tingjun Deng"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-09-23",
     "relevance": "High",
@@ -11209,6 +11568,7 @@
       "Jakob Svensson",
       "Anders Olof Larsson"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-09-23",
     "relevance": "High",
@@ -11243,6 +11603,7 @@
       "Aliya Andrich",
       "Emese Domahidi"
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2025-09-22",
     "relevance": "High",
@@ -11275,6 +11636,7 @@
     "authors": [
       "Sami Nenno"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-09-22",
     "relevance": "High",
@@ -11308,6 +11670,7 @@
       "Ysabel Cristina Briceño Romero",
       "Liliana Calderón-Benavides"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2025-09-19",
     "relevance": "High",
@@ -11340,6 +11703,7 @@
       "Aleksandra Urman",
       "Mykola Makhortykh"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-09-18",
     "relevance": "High",
@@ -11376,6 +11740,7 @@
       "Andrea Sciandra",
       "Bernhard Wieser"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-09-17",
     "relevance": "High",
@@ -11407,6 +11772,7 @@
     "authors": [
       "David M. Markowitz"
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-09-15",
     "relevance": "High",
@@ -11438,6 +11804,7 @@
     "authors": [
       "Hang Lu"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-09-15",
     "relevance": "High",
@@ -11472,6 +11839,7 @@
       "Yufang Liao",
       "Simon Münker et al."
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2025-09-12",
     "relevance": "High",
@@ -11504,6 +11872,7 @@
     "authors": [
       "Matthew Dylag"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-09-11",
     "relevance": "High",
@@ -11534,6 +11903,7 @@
     "authors": [
       "Kai-Ping Huang"
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2025-09-09",
     "relevance": "High",
@@ -11566,6 +11936,7 @@
       "Maximilian Eder",
       "Annika Sehl"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-09-06",
     "relevance": "High",
@@ -11598,6 +11969,7 @@
       "Susana Asenjo-Mccabe",
       "Susana Herrera Damas"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2025-09-05",
     "relevance": "High",
@@ -11633,6 +12005,7 @@
       "Wangbing Shen",
       "Dalei Dong"
     ],
+    "institutions": [],
     "journal": "International Journal of Mobile Communications",
     "published_date": "2025-09-04",
     "relevance": "High",
@@ -11665,6 +12038,7 @@
       "Taberez Ahmed Neyazi",
       "Tan Khai Ee"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-09-04",
     "relevance": "High",
@@ -11696,6 +12070,7 @@
     "authors": [
       "Jeremy Martin Ladd"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-09-04",
     "relevance": "High",
@@ -11727,6 +12102,7 @@
     "authors": [
       "Elise Daniaud-Oudeh"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-09-02",
     "relevance": "High",
@@ -11760,6 +12136,7 @@
       "Md. Sayeed Al-Zaman",
       "Najma Akhther"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-09-02",
     "relevance": "High",
@@ -11791,6 +12168,7 @@
     "authors": [
       "Clara Juarez Miro"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-08-31",
     "relevance": "High",
@@ -11826,6 +12204,7 @@
       "Jürgen Pfeffer",
       "Janina Steinert"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-08-31",
     "relevance": "High",
@@ -11861,6 +12240,7 @@
       "Yağmur Gümüşboğa",
       "Erkut Altındağ"
     ],
+    "institutions": [],
     "journal": "Communication Reports",
     "published_date": "2025-08-29",
     "relevance": "High",
@@ -11894,6 +12274,7 @@
       "Giovanni Cassani",
       "Francesco Bailo"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-08-28",
     "relevance": "High",
@@ -11925,6 +12306,7 @@
     "authors": [
       "Dongyoung Sohn"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2025-08-28",
     "relevance": "High",
@@ -11959,6 +12341,7 @@
       "Mohammad Saber Adina",
       "Richard Evans"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-08-25",
     "relevance": "High",
@@ -11991,6 +12374,7 @@
       "Ayse D. Lokmanoglu",
       "Dror Walter"
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2025-08-21",
     "relevance": "High",
@@ -12025,6 +12409,7 @@
       "Tilia Ellendorff",
       "Minh Hao Nguyen"
     ],
+    "institutions": [],
     "journal": "Communication Research Reports",
     "published_date": "2025-08-20",
     "relevance": "High",
@@ -12056,6 +12441,7 @@
     "authors": [
       "Kokil Jaidka"
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-08-17",
     "relevance": "High",
@@ -12091,6 +12477,7 @@
       "Alice Beazer",
       "Isaac Bravo et al."
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-08-15",
     "relevance": "High",
@@ -12122,6 +12509,7 @@
       "Yijia Zhu",
       "Sebastian Scherr"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-08-15",
     "relevance": "High",
@@ -12154,6 +12542,7 @@
       "Maximilian Zehring",
       "Emese Domahidi"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-08-14",
     "relevance": "High",
@@ -12188,6 +12577,7 @@
       "Gerardo Íñiguez",
       "Elisa Omodei"
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2025-08-13",
     "relevance": "High",
@@ -12221,6 +12611,7 @@
       "Rafał Krzysztof Matusiak",
       "Robert Radziej"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-08-11",
     "relevance": "High",
@@ -12254,6 +12645,7 @@
       "João Gonçalves",
       "David Boeren"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-08-10",
     "relevance": "High",
@@ -12286,6 +12678,7 @@
     "authors": [
       "Sarah Cheung"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-08-06",
     "relevance": "High",
@@ -12320,6 +12713,7 @@
       "Laura Boeschoten",
       "Niek C. de Schipper et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-08-05",
     "relevance": "High",
@@ -12353,6 +12747,7 @@
       "Javier Sevilla San Miguel",
       "María Victoria Carrillo Durán"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2025-08-01",
     "relevance": "High",
@@ -12387,6 +12782,7 @@
       "Cong Lin",
       "Cuihua Shen"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-07-31",
     "relevance": "High",
@@ -12419,6 +12815,7 @@
     "authors": [
       "Sujin Choi"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-07-30",
     "relevance": "High",
@@ -12450,6 +12847,7 @@
     "authors": [
       "Daria Kuznetsova"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-07-29",
     "relevance": "High",
@@ -12481,6 +12879,7 @@
     "authors": [
       "Ahmed Al‐Rawi"
     ],
+    "institutions": [],
     "journal": "Global Media and Communication",
     "published_date": "2025-07-28",
     "relevance": "High",
@@ -12513,6 +12912,7 @@
       "Jing Zeng",
       "Zhanghao Li"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-07-27",
     "relevance": "High",
@@ -12546,6 +12946,7 @@
       "Philippe Blanchard",
       "Hadi Safari"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-07-26",
     "relevance": "High",
@@ -12581,6 +12982,7 @@
       "Adrian Rauchfleisch",
       "Mark Eisenegger"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-07-24",
     "relevance": "High",
@@ -12611,6 +13013,7 @@
     "authors": [
       "Dongnyok Shim"
     ],
+    "institutions": [],
     "journal": "Journal of Media Economics",
     "published_date": "2025-07-23",
     "relevance": "High",
@@ -12645,6 +13048,7 @@
       "Hasan Mahmud Faisal",
       "Rubaiya Zannat"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-07-20",
     "relevance": "High",
@@ -12678,6 +13082,7 @@
       "Ilan Manor",
       "Tal Samuel-Azran"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-07-20",
     "relevance": "High",
@@ -12713,6 +13118,7 @@
       "Daniel Thilo Schroeder",
       "Samba Dialimpa Badji et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-07-18",
     "relevance": "High",
@@ -12747,6 +13153,7 @@
       "Huanyu Bao",
       "Edmund W. J. Lee"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-07-18",
     "relevance": "High",
@@ -12782,6 +13189,7 @@
       "Alicia Gilbert",
       "Leonard Reinecke"
     ],
+    "institutions": [],
     "journal": "Human Communication Research",
     "published_date": "2025-07-17",
     "relevance": "High",
@@ -12816,6 +13224,7 @@
       "Mun‐Young Chung",
       "Youjeong Kim"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-07-16",
     "relevance": "High",
@@ -12851,6 +13260,7 @@
       "Yuan He",
       "Hongzhong Zhang"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-07-15",
     "relevance": "High",
@@ -12885,6 +13295,7 @@
       "Marián Navarro Beltrá",
       "Oliver Valero"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-07-10",
     "relevance": "High",
@@ -12916,6 +13327,7 @@
     "authors": [
       "Stephanie Zhang"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-07-09",
     "relevance": "High",
@@ -12947,6 +13359,7 @@
     "authors": [
       "Aina Fernàndez i Aragonès"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2025-07-08",
     "relevance": "High",
@@ -12980,6 +13393,7 @@
       "David Becerra‐Alonso",
       "David Varona Aramburu"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2025-07-08",
     "relevance": "High",
@@ -13016,6 +13430,7 @@
       "Yin Yang",
       "Jiaqi Agnes Bao et al."
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-07-06",
     "relevance": "High",
@@ -13047,6 +13462,7 @@
     "authors": [
       "Fatih Serkant Adiguzel"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-07-04",
     "relevance": "High",
@@ -13080,6 +13496,7 @@
       "Yazmina Vargas-Veleda",
       "Íñigo Marauri Castillo"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2025-07-04",
     "relevance": "High",
@@ -13114,6 +13531,7 @@
       "Lin Zhi",
       "Wilfred Yang Wang"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-07-04",
     "relevance": "High",
@@ -13144,6 +13562,7 @@
     "authors": [
       "Daria Kravets"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-07-03",
     "relevance": "High",
@@ -13176,6 +13595,7 @@
       "Shohana Akter",
       "Pnina Fichman"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13208,6 +13628,7 @@
     "authors": [
       "Andreas Schellewald"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13242,6 +13663,7 @@
       "Fan Liang",
       "Zhao Alexandre Huang"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13274,6 +13696,7 @@
       "Yunfei Xing",
       "Zuopeng Zhang"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13309,6 +13732,7 @@
       "Kate Kenski",
       "Yotam Shmargad"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13340,6 +13764,7 @@
     "authors": [
       "Xiaoyi Liu"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13376,6 +13801,7 @@
       "P Guo",
       "Ke He et al."
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13412,6 +13838,7 @@
       "Sarita Schoenebeck",
       "Megan Threats"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13446,6 +13873,7 @@
       "Michael Hameleers",
       "L. Bos"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13480,6 +13908,7 @@
       "Stefano Cisternino",
       "Marelli Luisa"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13511,6 +13940,7 @@
     "authors": [
       "Devina Sarwatay"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13542,6 +13972,7 @@
     "authors": [
       "Vimviriya Limkangvanmongkol"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-07-01",
     "relevance": "High",
@@ -13575,6 +14006,7 @@
       "Jewon Lyu",
       "Ziyou Jiang"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-06-30",
     "relevance": "High",
@@ -13611,6 +14043,7 @@
       "Claes H. de Vreese",
       "Frank Esser et al."
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-06-29",
     "relevance": "High",
@@ -13645,6 +14078,7 @@
       "Ke Zhang",
       "Qi Shen"
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2025-06-26",
     "relevance": "High",
@@ -13679,6 +14113,7 @@
       "Jingyi Sun",
       "Yiqi Li"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-06-25",
     "relevance": "High",
@@ -13713,6 +14148,7 @@
       "Min Kim",
       "Pil Kyu Choi"
     ],
+    "institutions": [],
     "journal": "Journal of Media Economics",
     "published_date": "2025-06-23",
     "relevance": "High",
@@ -13746,6 +14182,7 @@
       "André Campos Rocha",
       "Guilherme Guilherme"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-06-22",
     "relevance": "High",
@@ -13781,6 +14218,7 @@
       "Rachel R. Ouellette",
       "Juhan Lee et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-06-22",
     "relevance": "High",
@@ -13814,6 +14252,7 @@
       "Marco Dehnert",
       "Nicholas Purintun"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-06-20",
     "relevance": "High",
@@ -13845,6 +14284,7 @@
     "authors": [
       "Emma Connolly"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-06-19",
     "relevance": "High",
@@ -13880,6 +14320,7 @@
       "Paul M. Wagner",
       "Tuomas Ylä‐Anttila"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2025-06-19",
     "relevance": "High",
@@ -13913,6 +14354,7 @@
       "Young Mo Kim",
       "Larry Zhiming Xu"
     ],
+    "institutions": [],
     "journal": "Communication Reports",
     "published_date": "2025-06-17",
     "relevance": "High",
@@ -13944,6 +14386,7 @@
     "authors": [
       "Donghee Shin"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-06-17",
     "relevance": "High",
@@ -13979,6 +14422,7 @@
       "Barbara Schillo",
       "Jennifer M. Kreslake"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-06-17",
     "relevance": "High",
@@ -14010,6 +14454,7 @@
     "authors": [
       "Seung Woo Chae"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-06-17",
     "relevance": "High",
@@ -14042,6 +14487,7 @@
       "Chris Chao Su",
       "Ngai Keung Chan"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-06-03",
     "relevance": "High",
@@ -14077,6 +14523,7 @@
       "Lejla Džanko",
       "Michał Olech et al."
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-05-30",
     "relevance": "High",
@@ -14109,6 +14556,7 @@
       "Christoph Ivanusch",
       "Paul Balluff"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-05-28",
     "relevance": "High",
@@ -14143,6 +14591,7 @@
       "Miriam Brinberg",
       "Yung-Chen Lu"
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-05-27",
     "relevance": "High",
@@ -14174,6 +14623,7 @@
     "authors": [
       "Yoori Yang"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-05-25",
     "relevance": "High",
@@ -14206,6 +14656,7 @@
       "Rui Wang",
       "Yini Zhang"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-05-23",
     "relevance": "High",
@@ -14241,6 +14692,7 @@
       "Tabea Meier",
       "Claudia M. Haase"
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-05-23",
     "relevance": "High",
@@ -14274,6 +14726,7 @@
       "Daniel Silva Luna",
       "Stefanie Walter"
     ],
+    "institutions": [],
     "journal": "Visual Communication",
     "published_date": "2025-05-21",
     "relevance": "High",
@@ -14310,6 +14763,7 @@
       "Oliver Scott Curry",
       "Marc Cheong et al."
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2025-05-20",
     "relevance": "High",
@@ -14343,6 +14797,7 @@
       "Fedra Negri",
       "Gaetano Scaduto"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-05-19",
     "relevance": "High",
@@ -14377,6 +14832,7 @@
       "Silke Adam",
       "Mykola Makhortykh"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-05-18",
     "relevance": "High",
@@ -14411,6 +14867,7 @@
       "Yang Li",
       "Yang Li"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-05-17",
     "relevance": "High",
@@ -14443,6 +14900,7 @@
     "authors": [
       "Yu Xu"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-05-16",
     "relevance": "High",
@@ -14478,6 +14936,7 @@
       "Satish Krishnan",
       "Mariann Hardey et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-05-15",
     "relevance": "High",
@@ -14513,6 +14972,7 @@
       "Matthew Sweitzer",
       "Samuel Lerner"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2025-05-13",
     "relevance": "High",
@@ -14546,6 +15006,7 @@
       "Guoliang Zhang",
       "Lijuan Chen"
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2025-05-10",
     "relevance": "High",
@@ -14578,6 +15039,7 @@
       "Hye Min Kim",
       "Soojong Kim"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-05-08",
     "relevance": "High",
@@ -14611,6 +15073,7 @@
       "Yuan Hsiao",
       "Ying‐Ju Chiu"
     ],
+    "institutions": [],
     "journal": "Communication Research",
     "published_date": "2025-05-07",
     "relevance": "High",
@@ -14643,6 +15106,7 @@
     "authors": [
       "Hyeon Jo"
     ],
+    "institutions": [],
     "journal": "International Journal of Mobile Communications",
     "published_date": "2025-05-06",
     "relevance": "High",
@@ -14673,6 +15137,7 @@
     "authors": [
       "K. Jonathan Klüser"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-05-06",
     "relevance": "High",
@@ -14705,6 +15170,7 @@
       "Е Я Савченко",
       "Michael Freedman"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-05-05",
     "relevance": "High",
@@ -14738,6 +15204,7 @@
       "Muyang Li",
       "Fan Yang"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-05-05",
     "relevance": "High",
@@ -14771,6 +15238,7 @@
       "Diana Camila Garzón‐Velandia",
       "James W. Pennebaker"
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-05-04",
     "relevance": "High",
@@ -14802,6 +15270,7 @@
     "authors": [
       "Thilo I. Dieing"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-04-29",
     "relevance": "High",
@@ -14836,6 +15305,7 @@
       "Thessalia Merivaki",
       "Rachel Orey"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-04-29",
     "relevance": "High",
@@ -14868,6 +15338,7 @@
       "Anna Elisabeth Hasselström",
       "Anders Olof Larsson"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-04-29",
     "relevance": "High",
@@ -14899,6 +15370,7 @@
     "authors": [
       "Willem Buyens"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-04-28",
     "relevance": "High",
@@ -14934,6 +15406,7 @@
       "Wenbo Zhou",
       "Nenghai Yu et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-04-25",
     "relevance": "High",
@@ -14968,6 +15441,7 @@
       "Richard Stupart",
       "Damian Tambini"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-04-24",
     "relevance": "High",
@@ -15001,6 +15475,7 @@
       "Rocío Zamora Medina",
       "Marina Egea-Barquero"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2025-04-24",
     "relevance": "High",
@@ -15036,6 +15511,7 @@
       "Athus Cavalini",
       "Homero Gil de Zúñiga"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-04-24",
     "relevance": "High",
@@ -15071,6 +15547,7 @@
       "Ernesto Verdeja",
       "Walter J. Scheirer et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-04-20",
     "relevance": "High",
@@ -15103,6 +15580,7 @@
       "Michal Dolev-Cohen",
       "Nicola Henry"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-04-17",
     "relevance": "High",
@@ -15137,6 +15615,7 @@
       "Alice Marwick",
       "Samuel Woolley"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-04-14",
     "relevance": "High",
@@ -15171,6 +15650,7 @@
       "Jakob Ohme",
       "Kristian Gade Kjelmann"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-04-14",
     "relevance": "High",
@@ -15205,6 +15685,7 @@
       "Junga Kim",
       "Jun Zhang"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-04-12",
     "relevance": "High",
@@ -15238,6 +15719,7 @@
       "Ning Lou",
       "M. Li"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-04-10",
     "relevance": "High",
@@ -15273,6 +15755,7 @@
       "Roxana Mika Muenster",
       "Drew Margolin"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-04-08",
     "relevance": "High",
@@ -15306,6 +15789,7 @@
       "Jason Davis",
       "Carrie Welch"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-04-07",
     "relevance": "High",
@@ -15338,6 +15822,7 @@
       "Emilie Tran Sautedé",
       "Fei Vincent Mo"
     ],
+    "institutions": [],
     "journal": "Global Media and Communication",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15369,6 +15854,7 @@
       "Line Nybro Petersen",
       "Mikkel Bækby Johansen"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15402,6 +15888,7 @@
       "Louisa Pröschel",
       "Michael Brüggemann"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15435,6 +15922,7 @@
       "Sarah Shugars",
       "Eunbin Ha"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15470,6 +15958,7 @@
       "Megan A. Brown",
       "Stephen Prochaska et al."
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15505,6 +15994,7 @@
       "Aleksi Knuutila",
       "Reeta Pöyhtäri et al."
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15537,6 +16027,7 @@
       "Hannah Ditchfield",
       "Stefania Vicari"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15568,6 +16059,7 @@
     "authors": [
       "C. L. Hogan"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15602,6 +16094,7 @@
       "Leticia Bode",
       "Emily K. Vraga"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15637,6 +16130,7 @@
       "Ehsan Dehghan",
       "Laura Vodden"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15668,6 +16162,7 @@
     "authors": [
       "Mark Friis Hau"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15702,6 +16197,7 @@
       "Noomi Weinryb",
       "Anders Olof Larsson"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15732,6 +16228,7 @@
     "authors": [
       "Siri Frisli"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15764,6 +16261,7 @@
     "authors": [
       "Fernanda Odilla"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15795,6 +16293,7 @@
     "authors": [
       "Justin Bonest Phillips"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -15828,6 +16327,7 @@
       "Soya Nah",
       "Zinan Darren Yang"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-03-31",
     "relevance": "High",
@@ -15862,6 +16362,7 @@
       "Mohamad Shaharudin Samsurijan",
       "Ying Yang"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-03-30",
     "relevance": "High",
@@ -15895,6 +16396,7 @@
       "Yixiao Sun",
       "Chengjun Wang"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-03-26",
     "relevance": "High",
@@ -15930,6 +16432,7 @@
       "J.M. Gilsbach",
       "Sebastian Stier"
     ],
+    "institutions": [],
     "journal": "Communication Methods and Measures",
     "published_date": "2025-03-26",
     "relevance": "High",
@@ -15961,6 +16464,7 @@
       "Zizhong Zhang",
       "LI Dong-xiao"
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-03-21",
     "relevance": "High",
@@ -15996,6 +16500,7 @@
       "Alexander Semenov",
       "Alexander Nikolaev"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-03-21",
     "relevance": "High",
@@ -16028,6 +16533,7 @@
       "Erik De Vries",
       "Gunnar Thesen"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-03-18",
     "relevance": "High",
@@ -16060,6 +16566,7 @@
       "Muhammad Ali",
       "Patrick Ferrucci"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-03-15",
     "relevance": "High",
@@ -16094,6 +16601,7 @@
       "Wenqing Zuo",
       "Zihan Jiang et al."
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-03-14",
     "relevance": "High",
@@ -16129,6 +16637,7 @@
       "Melissa J. Dreier",
       "Akeela Careem"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-03-11",
     "relevance": "High",
@@ -16160,6 +16669,7 @@
     "authors": [
       "Rafaa Chehoudi"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-03-06",
     "relevance": "High",
@@ -16192,6 +16702,7 @@
       "Kamilla Knutsen Steinnes",
       "Helene Fiane Teigen"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-03-05",
     "relevance": "High",
@@ -16223,6 +16734,7 @@
     "authors": [
       "Juan Liu"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-03-04",
     "relevance": "High",
@@ -16256,6 +16768,7 @@
       "Max Reichert",
       "Nils Köbis"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-02-26",
     "relevance": "High",
@@ -16290,6 +16803,7 @@
       "Noora Hirvonen",
       "Jutta Haider"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-02-26",
     "relevance": "High",
@@ -16325,6 +16839,7 @@
       "Roan Buma",
       "Vladimir Cristea et al."
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-02-25",
     "relevance": "High",
@@ -16357,6 +16872,7 @@
       "Aimei Yang",
       "Dmitri Williams"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-02-24",
     "relevance": "High",
@@ -16390,6 +16906,7 @@
       "Katherine A. Collins",
       "Ryan L. Boyd"
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-02-24",
     "relevance": "High",
@@ -16424,6 +16941,7 @@
       "Zsofia Fanni Cseri",
       "Sofia Iriarte Aguirre et al."
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-02-22",
     "relevance": "High",
@@ -16456,6 +16974,7 @@
       "Gyo Hyun Koo",
       "Bin Chen"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-02-21",
     "relevance": "High",
@@ -16487,6 +17006,7 @@
     "authors": [
       "EunHae Park"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-02-20",
     "relevance": "High",
@@ -16522,6 +17042,7 @@
       "Jeonghyun Janice Lee",
       "Xiaohui Cao"
     ],
+    "institutions": [],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-02-20",
     "relevance": "High",
@@ -16558,6 +17079,7 @@
       "Nils Pharo",
       "Kim Tallerås"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-02-20",
     "relevance": "High",
@@ -16590,6 +17112,7 @@
     "authors": [
       "Aliya Andrich"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-02-19",
     "relevance": "High",
@@ -16622,6 +17145,7 @@
     "authors": [
       "Viorela Dan"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-02-11",
     "relevance": "High",
@@ -16655,6 +17179,7 @@
       "On-yu Park",
       "Eunil Park"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-02-10",
     "relevance": "High",
@@ -16689,6 +17214,7 @@
       "Laura Bock Paulsen",
       "Chu Yang"
     ],
+    "institutions": [],
     "journal": "Global Media and Communication",
     "published_date": "2025-02-08",
     "relevance": "High",
@@ -16721,6 +17247,7 @@
       "Katarzyna Molek‐Kozakowska",
       "Isabela‐Anda Dragomir"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-02-08",
     "relevance": "High",
@@ -16752,6 +17279,7 @@
     "authors": [
       "Diana Kazarian"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-02-06",
     "relevance": "High",
@@ -16785,6 +17313,7 @@
       "Eric C. Wiemer",
       "Fritz C. Kessler"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-02-06",
     "relevance": "High",
@@ -16819,6 +17348,7 @@
       "Pietro Pietrini",
       "Giuseppe Sartori et al."
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-02-06",
     "relevance": "High",
@@ -16849,6 +17379,7 @@
     "authors": [
       "José Antonio Ortega"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-02-05",
     "relevance": "High",
@@ -16883,6 +17414,7 @@
       "Yuwei Li",
       "Shu Scott Li"
     ],
+    "institutions": [],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-02-03",
     "relevance": "High",
@@ -16915,6 +17447,7 @@
       "Nur Uysal",
       "Tong Deng"
     ],
+    "institutions": [],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-01-28",
     "relevance": "High",
@@ -16948,6 +17481,7 @@
       "Nevena Nikolajevic",
       "Alexander Grote"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-01-28",
     "relevance": "High",
@@ -16980,6 +17514,7 @@
       "Lukas Thiele",
       "Oke Seliger"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-01-27",
     "relevance": "High",
@@ -17015,6 +17550,7 @@
       "Meredith D. Clark",
       "Sue Lim et al."
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-01-27",
     "relevance": "High",
@@ -17048,6 +17584,7 @@
       "Takuya Nagura",
       "Eizo Akiyama"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-01-27",
     "relevance": "High",
@@ -17079,6 +17616,7 @@
     "authors": [
       "Kathryn D. Coduto"
     ],
+    "institutions": [],
     "journal": "Communication Reports",
     "published_date": "2025-01-26",
     "relevance": "High",
@@ -17112,6 +17650,7 @@
       "Mari Vállez",
       "Javier Guallar"
     ],
+    "institutions": [],
     "journal": "Revista ICONO14",
     "published_date": "2025-01-23",
     "relevance": "High",
@@ -17144,6 +17683,7 @@
       "Sami Nenno",
       "Cornelius Puschmann"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-01-23",
     "relevance": "High",
@@ -17176,6 +17716,7 @@
       "Malte Rödl",
       "Jutta Haider"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-01-23",
     "relevance": "High",
@@ -17211,6 +17752,7 @@
       "Anna Mahoney",
       "Nadia E. Brown"
     ],
+    "institutions": [],
     "journal": "Political Communication",
     "published_date": "2025-01-22",
     "relevance": "High",
@@ -17245,6 +17787,7 @@
       "Florentine Frantz",
       "Jana Lasser"
     ],
+    "institutions": [],
     "journal": "Information Communication & Society",
     "published_date": "2025-01-20",
     "relevance": "High",
@@ -17277,6 +17820,7 @@
       "Øyvind Kalnes",
       "Nina Møllerstuen Bjørge"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-01-19",
     "relevance": "High",
@@ -17308,6 +17852,7 @@
     "authors": [
       "Alexandra Pavliuc"
     ],
+    "institutions": [],
     "journal": "Media War & Conflict",
     "published_date": "2025-01-17",
     "relevance": "High",
@@ -17340,6 +17885,7 @@
       "Petter Törnberg",
       "Juliana Chueri"
     ],
+    "institutions": [],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-01-13",
     "relevance": "High",
@@ -17372,6 +17918,7 @@
       "Bunty Avieson",
       "Suruchi Mazumdar"
     ],
+    "institutions": [],
     "journal": "Asian Journal of Communication",
     "published_date": "2025-01-09",
     "relevance": "High",
@@ -17404,6 +17951,7 @@
     "authors": [
       "Chuanlin Ning"
     ],
+    "institutions": [],
     "journal": "Journal of Information Technology & Politics",
     "published_date": "2025-01-09",
     "relevance": "High",
@@ -17435,6 +17983,7 @@
     "authors": [
       "Sami Çöteli"
     ],
+    "institutions": [],
     "journal": "Communication Reports",
     "published_date": "2025-01-05",
     "relevance": "High",
@@ -17470,6 +18019,7 @@
       "Lingyi Kang",
       "Liang Chen"
     ],
+    "institutions": [],
     "journal": "International Journal of Public Opinion Research",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17501,6 +18051,7 @@
     "authors": [
       "Gіzem Melek"
     ],
+    "institutions": [],
     "journal": "International Journal of Public Opinion Research",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17535,6 +18086,7 @@
       "thomas galipeau",
       "Amanda Friesen"
     ],
+    "institutions": [],
     "journal": "International Journal of Public Opinion Research",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17568,6 +18120,7 @@
       "Hye Kyung Kim",
       "Difan Guo"
     ],
+    "institutions": [],
     "journal": "International Journal of Public Opinion Research",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17603,6 +18156,7 @@
       "Christopher Wlezien",
       "Michael W. Traugott"
     ],
+    "institutions": [],
     "journal": "International Journal of Public Opinion Research",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17635,6 +18189,7 @@
       "Zihan Huang",
       "Xiaoxiao Cheng"
     ],
+    "institutions": [],
     "journal": "International Journal of Public Opinion Research",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17666,6 +18221,7 @@
     "authors": [
       "Sivabalan Arumugam"
     ],
+    "institutions": [],
     "journal": "International Journal of Mobile Communications",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17698,6 +18254,7 @@
       "A. Pandiaraj",
       "Chinnaraj Govindasamy"
     ],
+    "institutions": [],
     "journal": "International Journal of Mobile Communications",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17731,6 +18288,7 @@
       "Morten Fischer Sivertsen",
       "Sine Nørholm Just"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17766,6 +18324,7 @@
       "Hy Tran",
       "Steven Binns et al."
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17797,6 +18356,7 @@
     "authors": [
       "Nuurrianti Jalli"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17832,6 +18392,7 @@
       "Adanma Mbonu",
       "Om Sai Krishna Madhav Lella et al."
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17865,6 +18426,7 @@
       "Saif Shahin",
       "Mingyi Hou"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17898,6 +18460,7 @@
       "Zubair Shafiq",
       "Savvas Zannettou"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17930,6 +18493,7 @@
       "Andreas Schmitz",
       "Mattia Samory"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17961,6 +18525,7 @@
     "authors": [
       "Marco Bastos"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -17994,6 +18559,7 @@
       "Jingwen Zhang",
       "Xinzhi Zhang"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -18027,6 +18593,7 @@
       "David M. Markowitz",
       "Jon Benedik Bunquin"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -18058,6 +18625,7 @@
     "authors": [
       "Zehang Xie"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
@@ -18091,6 +18659,7 @@
       "Erika Melder",
       "Brooke Foucault Welles"
     ],
+    "institutions": [],
     "journal": "Social Media + Society",
     "published_date": "2025-01-01",
     "relevance": "High",
