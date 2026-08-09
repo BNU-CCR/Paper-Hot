@@ -142,6 +142,16 @@ class Config:
         return self.settings.get("semantic_scholar_api_key", "")
 
     @property
+    def siliconflow_api_key(self) -> str:
+        """Get the SiliconFlow key used only by the translation pipeline."""
+        return self.env_file.get("SILICONFLOW_API_KEY", "") or os.environ.get("SILICONFLOW_API_KEY", "")
+
+    @property
+    def translation_config(self) -> dict:
+        """Return non-secret translation endpoint, model, and throttling settings."""
+        return self.settings.get("translation", {})
+
+    @property
     def claude_model(self) -> str:
         """获取筛选模型名，兼容 Claude/DeepSeek Anthropic API。"""
         model = self.env_file.get("AI_MODEL") or self.env_file.get("ANTHROPIC_MODEL", "")

@@ -8,6 +8,7 @@ export type Relevance = "High" | "Medium" | "Unrated" | string;
 export interface Paper {
   id?: number;
   title?: string;
+  title_zh?: string;
   /** May be a display string or an array of author names. */
   authors?: string | string[];
   journal?: string;
@@ -18,6 +19,7 @@ export interface Paper {
   score?: number | null;
   /** Original English abstract supplied by the journal index. */
   abstract?: string;
+  abstract_zh?: string;
   summary?: string;
   reason?: string;
   tags?: string[];

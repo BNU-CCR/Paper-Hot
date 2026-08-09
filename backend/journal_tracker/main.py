@@ -25,6 +25,7 @@ from .notification import NotificationSender
 from .publication import PublicPaperExporter
 from .coverage import CoverageVerifier
 from .hotspots import generate_monthly_hotspots
+from .translation import SiliconFlowTranslator, translate_pending_papers
 
 
 def safe_print(message: str = "") -> None:
@@ -608,6 +609,29 @@ def sanitize_stored_titles(config: Optional[Config] = None) -> int:
     return 0
 
 
+def translate_paper_library(config: Optional[Config] = None, limit: int = 100) -> int:
+    """Translate missing or stale paper titles and abstracts into Simplified Chinese."""
+    if config is None:
+        config = get_config()
+    if not config.siliconflow_api_key:
+        print("Missing SILICONFLOW_API_KEY")
+        return 2
+    settings = config.translation_config
+    translator = SiliconFlowTranslator(
+        api_key=config.siliconflow_api_key,
+        base_url=settings.get("base_url", "https://api.siliconflow.cn/v1"),
+        model=settings.get("model", "tencent/Hunyuan-MT-7B"),
+        token_budget_per_minute=int(settings.get("token_budget_per_minute", 60000)),
+        max_retries=int(settings.get("max_retries", 6)),
+    )
+    report = translate_pending_papers(PaperStorage(config.database_path), translator, limit)
+    print(
+        "Translation batch: "
+        f"selected={report['selected']} translated={report['translated']} failed={report['failed']}"
+    )
+    return 0
+
+
 def publish_paper(config: Optional[Config], paper_id: int, is_public: bool):
     """设置论文公开状态"""
     if config is None:
@@ -740,6 +764,13 @@ def run_weekly_journal_workflow(
         "refilter_limit": refilter_limit,
         "public_papers": public_count,
     }
+
+    if config.siliconflow_api_key:
+        translate_paper_library(config, limit=100)
+        export_public_data(config)
+        report["steps"]["translate_papers"] = {"limit": 100}
+    else:
+        report["steps"]["translate_papers"] = {"skipped": "missing SILICONFLOW_API_KEY"}
 
     hotspots_path = generate_monthly_hotspots(config)
     report["steps"]["generate_hotspots"] = {"output": str(hotspots_path)}
@@ -1109,6 +1140,8 @@ def main():
     subparsers.add_parser("export", help="导出CSV")
     subparsers.add_parser("export-public", help="导出公开站 JSON 数据")
     subparsers.add_parser("sanitize-titles", help="清理数据库中论文标题的 HTML 标签")
+    translate_parser = subparsers.add_parser("translate-papers", help="用 SiliconFlow 翻译论文标题和摘要")
+    translate_parser.add_argument("--limit", type=int, default=100, help="本批最多翻译论文数")
     subparsers.add_parser("generate-hotspots", help="从近一个月公开论文生成当期热点 JSON")
     bibliography_parser = subparsers.add_parser("backfill-bibliography", help="用 OpenAlex 回填卷号和期号")
     bibliography_parser.add_argument("--limit", type=int, default=10000, help="最多回填论文数")
@@ -1173,6 +1206,8 @@ def main():
         export_public_data(config)
     elif args.command == "sanitize-titles":
         sys.exit(sanitize_stored_titles(config))
+    elif args.command == "translate-papers":
+        sys.exit(translate_paper_library(config, args.limit))
     elif args.command == "generate-hotspots":
         print(f"已生成当期热点数据: {generate_monthly_hotspots(config)}")
     elif args.command == "backfill-bibliography":
