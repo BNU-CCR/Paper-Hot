@@ -12,6 +12,7 @@ Codex 与 Claude Code 都会自动读取仓库根目录的 `AGENTS.md`。改动�
 ## 设计体系
 
 - 组件库为 shadcn/ui 风格：Radix primitives + Tailwind utilities，包装组件在 `frontend/components/ui/`，类名用 `cn()` 合并。
+- 新增或改造 UI 前，先对照一轮 shadcn/ui 官方对应组件的结构、间距、状态与交互样式，再结合本项目 token 调整，不凭空另造一套视觉语言。
 - 图标统一用 `lucide-react`，尺寸 14–16px；装饰性图标加 `aria-hidden="true"`。
 - 标题用衬线（Georgia / "Noto Serif SC" / "Songti SC"），正文用系统无衬线；颜色、圆角、间距沿用现有 CSS 变量（`--radius`、`--border`、`--muted-foreground` 等），不写死值。
 - 亮/暗主题通过 `data-theme` + CSS 变量切换，不要硬编码颜色。
@@ -31,6 +32,8 @@ Codex 与 Claude Code 都会自动读取仓库根目录的 `AGENTS.md`。改动�
 
 ## 交互控件
 
+- 卡片 hover 不使用上浮、位移或抬升阴影特效；需要强调可点击性时，仅使用克制的边框或背景状态。
+- 卡片 hover 描边使用柔和灰色（`--border` / `--muted-foreground` 混合），不要变成接近黑色的高对比描边。
 - 二选一/多选一切换用 Tabs（`TabsList`/`TabsTrigger`），不要用普通 Button 模拟（如“精选精读 / 全部论文”“按发布日期 / 按 Issue”）。
 - 可取消的筛选（如主题标签）用按钮 toggle，再次点击取消。
 - 折叠/展开按钮左侧放 chevron 图标，展开时旋转 180°。
