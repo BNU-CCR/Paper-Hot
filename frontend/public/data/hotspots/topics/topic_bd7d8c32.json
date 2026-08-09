@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_bd7d8c32",
-  "label": "媒介体验的生理与情感共鸣",
-  "description": "通过生理同步和自传记忆研究受众的深层媒介体验。",
-  "why_hot": "近30天2篇，速度激增900%，新兴生理测量方法受关注。",
+  "label": "媒体体验的生理与情感维度",
+  "description": "叙事媒体引发生理同步，音乐等媒介唤起个人传记与意义共振。",
+  "why_hot": "近180天仅3篇但方向新颖，生理测量方法引入传播学为前沿信号。",
   "hot_score": 61,
   "growth": 9.0,
   "growth_rate": 9.0,
@@ -13,12 +13,7 @@
   "journal_count": 2,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [
-    "生理同步",
-    "叙事媒体",
-    "音乐",
-    "共鸣"
-  ],
+  "keywords": "生理同步, 叙事",
   "papers": [
     {
       "id": 2,

@@ -1,25 +1,19 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "数字身份政治与平台迁移",
-  "description": "探讨性别、身份认同在社交媒体上的建构及跨平台迁移现象。",
-  "why_hot": "近30天6篇，速度上升7%，覆盖10本期刊，平台迁移热点。",
-  "hot_score": 70,
-  "growth": 0.071,
-  "growth_rate": 0.071,
-  "recent_rate": 0.2,
+  "label": "社交媒体中的身份政治与数字化动员",
+  "description": "边缘群体通过标签、平台迁移和对话进行身份建构与集体行动。",
+  "why_hot": "35篇且增速+25%，从性别议题到抗议事件，社会运动加速数字化。",
+  "hot_score": 78,
+  "growth": 0.25,
+  "growth_rate": 0.25,
+  "recent_rate": 0.2333,
   "baseline_rate": 0.1867,
-  "recent_count": 6,
+  "recent_count": 7,
   "baseline_count": 28,
   "journal_count": 10,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [
-    "性别",
-    "身份政治",
-    "标签行动",
-    "TikTok难民",
-    "平台迁移"
-  ],
+  "keywords": "性别政治, 社会",
   "papers": [
     {
       "id": 1897,
@@ -41,6 +35,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-07-24",
       "summary": "探讨西班牙语圈亲俄数字社区如何从边缘走向动员，分析其形成机制与传播动态。"
+    },
+    {
+      "id": 488,
+      "title": "Social media and protest planning: An examination of the 2024 #EndBadGovernance protests in Nigeria",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-07-23",
+      "summary": "基于尼日利亚400份调查数据，检验Instagram、Facebook、WhatsApp和X在2024年#EndBadGovernance抗议规划中的作用，发现前三者增加首日参与概率，X则降低，强调平台使用因国家而异。"
     },
     {
       "id": 57,
@@ -85,13 +86,6 @@
       "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
     },
     {
-      "id": 76,
-      "title": "Balancing personalization and privacy: datafication challenges in socially assistive robotics for older persons",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-23",
-      "summary": "通过18位专家访谈，探究老年人社交辅助机器人开发中个性化与隐私的张力，揭示数据化悖论，提出四类机器人分类。"
-    },
-    {
       "id": 82,
       "title": "From swipes to intimacy: dating app adoption and offline hookup intention among male rural migrant workers",
       "journal": "Information Communication & Society",
@@ -128,7 +122,7 @@
     },
     {
       "id": 88,
-      "title": "Mediated information grounds: living with(in) <i>pareshani</i> , social networks and gendered media practices among the Rohingya refugees",
+      "title": "Mediated information grounds: living with(in) pareshani , social networks and gendered media practices among the Rohingya refugees",
       "journal": "Information Communication & Society",
       "published_date": "2026-06-08",
       "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
@@ -233,7 +227,7 @@
     },
     {
       "id": 728,
-      "title": "Nudging against judging? Mitigating anti-LGBTQIA + online hostility by raising bystanders’ awareness and behavioral intentions",
+      "title": "Nudging against judging? Mitigating anti-LGBTQIA + online hostility by raising bystanders’ awareness and behavioral intentions",
       "journal": "Information Communication & Society",
       "published_date": "2026-02-27",
       "summary": "实验研究考察社会助推对旁观者干预反LGBTQIA+在线敌意的影响，发现敌意类型影响反应，助推效果不稳定，少数增加负面情绪但未促进行为。"
@@ -258,6 +252,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-02-23",
       "summary": "研究土耳其保守穆斯林移民女性在英国的社交媒体使用，探讨家庭监视与父权控制如何塑造数字实践，基于31名女性的深度访谈。"
+    },
+    {
+      "id": 230,
+      "title": "Uneven Echoes: Gender’s Divergent Influence on Candidate Personalization and Voter Response in Taiwan",
+      "journal": "Political Communication",
+      "published_date": "2026-02-20",
+      "summary": "研究通过分析台湾候选人Facebook帖子及在线实验，探讨性别对候选人个性化与选民回应的影响，发现女性候选人较少使用个性化信息但选民对其反应积极。"
     }
   ],
   "paper_edges": []

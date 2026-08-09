@@ -1,54 +1,20 @@
 {
   "topic_id": "topic_0e10a101",
-  "label": "高选择环境下的媒介效果与政治传播",
-  "description": "关注数字媒体环境中的知识差距、政治广告和传播效果。",
-  "why_hot": "近30天7篇，速度稳定，覆盖9本期刊，持续产出。",
-  "hot_score": 71,
-  "growth": 0.0,
-  "growth_rate": 0.0,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.2333,
-  "recent_count": 7,
-  "baseline_count": 35,
-  "journal_count": 9,
+  "label": "对话语言与心理健康的计算分析",
+  "description": "利用语言特征分析伴侣沟通质量及聊天机器人对孤独感的影响。",
+  "why_hot": "32篇覆盖10本期刊，计算语言学与心理健康融合持续热门。",
+  "hot_score": 34,
+  "growth": -0.688,
+  "growth_rate": -0.688,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.2133,
+  "recent_count": 2,
+  "baseline_count": 32,
+  "journal_count": 10,
   "lineage_status": "continued",
-  "status": "hot",
-  "keywords": [
-    "媒介效果",
-    "知识鸿沟",
-    "政治广告",
-    "幸福传播",
-    "数字方法"
-  ],
+  "status": "emerging",
+  "keywords": "语言分析, 对话",
   "papers": [
-    {
-      "id": 1903,
-      "title": "The Knowledge Gap in a High-Choice Media Environment: Experimental Evidence from Online Search",
-      "journal": "Political Communication",
-      "published_date": "2026-08-06",
-      "summary": "通过在线搜索实验探究高选择媒体环境中的知识差距，属于政治传播与数字媒介交叉研究。"
-    },
-    {
-      "id": 1900,
-      "title": "Did you make this for me? A two-country study on individuals’ perceptions of tailoring in online political ads",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-05",
-      "summary": "跨国研究个体对在线政治广告定制化程度的感知及其影响，属于政治传播领域。"
-    },
-    {
-      "id": 8,
-      "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
-      "journal": "Political Communication",
-      "published_date": "2026-07-29",
-      "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
-    },
-    {
-      "id": 61,
-      "title": "Media effects, selection effects, or no effects? A longitudinal analysis of the relationship between media use and misperceptions",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-17",
-      "summary": "论文通过纵向数据分析媒体使用与错误认知的关系，探讨媒体效应与选择效应，但未说明计算方法。"
-    },
     {
       "id": 4,
       "title": "The Anatomy of Resilient Talk: Linguistic Features of Relational and Psychological Health in Couples’ Conversations About Stress",
@@ -57,25 +23,11 @@
       "summary": "运用NLP分析夫妻应对压力的对话语言特征，发现义务、不确定等语言与关系压力相关，包容性语言与韧性相关，揭示微观语言反映关系健康。"
     },
     {
-      "id": 7,
-      "title": "Beyond apps: a method to model full distributions of screen content over time to study media effects",
-      "journal": "Communication Methods and Measures",
-      "published_date": "2026-07-10",
-      "summary": "提出用深度学习方法对智能手机屏幕内容进行分布建模，基于53名青少年六个月的屏幕数据，分析内容模式与心理健康的关系，超越传统屏幕时间测量。"
-    },
-    {
       "id": 27,
       "title": "Chatbots and Loneliness: How Linguistic Dynamics in Conversations with Chatbots Shape Young Adults’ Loneliness",
       "journal": "Communication Research",
       "published_date": "2026-07-10",
       "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
-    },
-    {
-      "id": 282,
-      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
     },
     {
       "id": 1908,
@@ -120,13 +72,6 @@
       "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
     },
     {
-      "id": 443,
-      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-05-31",
-      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
-    },
-    {
       "id": 193,
       "title": "Desinformación en salud: la percepción de periodistas especializados",
       "journal": "Revista ICONO14",
@@ -134,18 +79,11 @@
       "summary": "通过21次半结构化访谈分析健康领域记者对错误信息的感知，发现其存在第三人效果和自满倾向，未使用计算方法。"
     },
     {
-      "id": 93,
-      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
-      "journal": "Information Communication & Society",
+      "id": 541,
+      "title": "We’re just chatting: perceptions of everyday communication with chatbots",
+      "journal": "Communication Research Reports",
       "published_date": "2026-05-27",
-      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
-    },
-    {
-      "id": 99,
-      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-24",
-      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
+      "summary": "基于美国全国样本，考察人机闲聊中的沟通偶然性对感知响应性、参与度和满意度的影响，发现陪伴感调节作用。"
     },
     {
       "id": 361,
@@ -155,11 +93,11 @@
       "summary": "提出混合方法框架，整合定性符号学编码与定量大规模数据分析，通过277个抑郁相关网络模因案例，揭示抑郁主题与符号资源的关联模式。"
     },
     {
-      "id": 38,
-      "title": "Examining the Effects of Viewing Positive Aging TikTok Videos on Aging Outcomes and Attitudes Among Young, Middle-Aged, and Older Women",
-      "journal": "Communication Research",
-      "published_date": "2026-05-07",
-      "summary": "实验检验观看积极老龄化TikTok视频对不同年龄女性老龄化结果和态度的影响，扩展CEMSA模型，发现间接效应。"
+      "id": 181,
+      "title": "Simulated superiority and mediated geopolitics: affective responses to AI-generated political parody in Chinese digital space",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-30",
+      "summary": "通过397人实验探究AI生成政治模仿如何激发集体优越感、缓解对美敌对态度，并揭示视觉真实感的中介作用，扩展优越性理论。"
     },
     {
       "id": 451,
@@ -167,6 +105,20 @@
       "journal": "International Journal of Strategic Communication",
       "published_date": "2026-04-30",
       "summary": "分析2020年SAS争议广告引发的Facebook用户评论，对2160条评论进行定量内容分析，识别出粉丝、朋友、反对者、仇恨持有者四类用户群体，挑战传统爱恨二元框架，揭示参与动态与态度流动性。"
+    },
+    {
+      "id": 634,
+      "title": "Human versus machine as content moderators: examining the effects of moderation strategies on Reddit",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "基于Reddit 2022年5.3亿条参与记录和1330万条审核动作，分析硬性/软性审核策略、人工/机器审核者身份对不同活跃度用户参与度的影响。"
+    },
+    {
+      "id": 635,
+      "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
     },
     {
       "id": 118,
@@ -204,6 +156,13 @@
       "summary": "研究通过分析Reddit r/BlackPeopleTwitter上白人用户的盟友申请，揭示规范白人网络实践的表现及其潜在伤害，采用民族志与定性案例分析。"
     },
     {
+      "id": 301,
+      "title": "The AI Referee: How Online Interventions Shape Incivility and User Engagement in News Discussions",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该论文利用Naver News的3900万条评论数据，训练深度学习模型识别不文明内容，分析两种自动化干预对评论不文明程度和用户参与度的影响，发现干预显著降低不文明内容，但对参与度影响不一。"
+    },
+    {
       "id": 302,
       "title": "Symbolic Custodians on Facebook: Community Media Agents and Religious Practices in Faial",
       "journal": "Social Media + Society",
@@ -232,25 +191,11 @@
       "summary": "研究考察医疗众筹中反刻板温暖描述对不同种族受益者的捐赠影响，结合大规模数据和实验，发现对亚裔和白人有效但对黑人产生反效果，期望违背起中介作用。"
     },
     {
-      "id": 462,
-      "title": "Brand-Related and Information-Sharing Cues as Decision Aid for Smartphone Users at Different Levels of Persuasion Knowledge to Assess mHealth App Credibility: An Eye-Tracking Study",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-03-16",
-      "summary": "通过眼动追踪实验探究品牌标志与个人信息请求对用户评估移动健康应用可信度的影响，发现品牌标志提升可信度，说服知识高者处理视觉线索更高效。"
-    },
-    {
       "id": 466,
       "title": "Strategic Ambiguity and University Instagram Engagement: Institutional Type, Audience Scale, and Engagement Trade-Offs",
       "journal": "International Journal of Strategic Communication",
       "published_date": "2026-03-10",
       "summary": "基于25所美国大学Instagram数据，分析机构类型、粉丝数、发帖频率对参与度的影响，发现公立大学参与度更高，粉丝数存在效率与触达的权衡。"
-    },
-    {
-      "id": 154,
-      "title": "Problematic social media use and adolescent mental well-being: a cross-national study on socioeconomic inequalities",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-05",
-      "summary": "基于35国约14.5万青少年的调查数据，运用多水平模型分析问题性社交媒体使用与心理健康的关系，发现低家庭SES青少年受影响更大，国家收入不平等程度起调节作用。"
     },
     {
       "id": 194,
@@ -274,11 +219,11 @@
       "summary": "分析西班牙两档脱口秀在X和Instagram的内容策略及受众反应，结合电视收视数据，发现平台互动与线性收视呈不对称关系。"
     },
     {
-      "id": 469,
-      "title": "Identifying Ingredients That Make Mental-Health Focused Short Videos Engaging: A Content Analysis of Source Type, Content Strategy, and Production Features",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-03-02",
-      "summary": "通过内容分析识别心理健康短视频高参与度的要素，发现来源专业线索、参照点策略和制作特征对参与度有显著影响。"
+      "id": 644,
+      "title": "Reducing political polarization through conversations with artificial intelligence",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-02-23",
+      "summary": "通过两项实验(N=1035)让人类与AI聊天机器人实时对话，检验不同沟通风格对政治极化的影响。结果发现逆论点AI能显著降低议题极化，高对话接纳性和积极倾听增强情感去极化、智识谦逊和跨立场对话意愿。"
     },
     {
       "id": 735,

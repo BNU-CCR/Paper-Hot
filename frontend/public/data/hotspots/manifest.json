@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-09T07:32:15",
+  "generated_at": "2026-08-09T08:23:20",
   "embedding_model": "BAAI/bge-small-en-v1.5",
   "embedding_dimension": 384,
   "period": {
@@ -10,8 +10,8 @@
     "baseline_end": "2026-07-10"
   },
   "paper_count": 331,
-  "topic_count": 9,
-  "active_topic_count": 9,
-  "inactive_topic_count": 10,
-  "edge_count": 19
+  "topic_count": 11,
+  "active_topic_count": 11,
+  "inactive_topic_count": 8,
+  "edge_count": 30
 }

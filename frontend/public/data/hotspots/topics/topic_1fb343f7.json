@@ -1,0 +1,160 @@
+{
+  "topic_id": "topic_1fb343f7",
+  "label": "高选择媒体环境下的信息获取与效应",
+  "description": "数字媒体选择如何影响知识差距、政治广告定制感知及媒体效果。",
+  "why_hot": "20篇且增速+56%，伴随屏幕时间新方法，媒体效果研究进入方法创新期。",
+  "hot_score": 76,
+  "growth": 0.562,
+  "growth_rate": 0.562,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.1067,
+  "recent_count": 5,
+  "baseline_count": 16,
+  "journal_count": 7,
+  "lineage_status": "continued",
+  "status": "hot",
+  "keywords": "知识差距, 政治",
+  "papers": [
+    {
+      "id": 1903,
+      "title": "The Knowledge Gap in a High-Choice Media Environment: Experimental Evidence from Online Search",
+      "journal": "Political Communication",
+      "published_date": "2026-08-06",
+      "summary": "通过在线搜索实验探究高选择媒体环境中的知识差距，属于政治传播与数字媒介交叉研究。"
+    },
+    {
+      "id": 1900,
+      "title": "Did you make this for me? A two-country study on individuals’ perceptions of tailoring in online political ads",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-05",
+      "summary": "跨国研究个体对在线政治广告定制化程度的感知及其影响，属于政治传播领域。"
+    },
+    {
+      "id": 8,
+      "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
+      "journal": "Political Communication",
+      "published_date": "2026-07-29",
+      "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
+    },
+    {
+      "id": 61,
+      "title": "Media effects, selection effects, or no effects? A longitudinal analysis of the relationship between media use and misperceptions",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-17",
+      "summary": "论文通过纵向数据分析媒体使用与错误认知的关系，探讨媒体效应与选择效应，但未说明计算方法。"
+    },
+    {
+      "id": 7,
+      "title": "Beyond apps: a method to model full distributions of screen content over time to study media effects",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-07-10",
+      "summary": "提出用深度学习方法对智能手机屏幕内容进行分布建模，基于53名青少年六个月的屏幕数据，分析内容模式与心理健康的关系，超越传统屏幕时间测量。"
+    },
+    {
+      "id": 282,
+      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
+    },
+    {
+      "id": 1907,
+      "title": "Unpacking the Relationship Between Algorithmic Literacy and Misinformation: A Multidimensional Approach Using Two Sequential Studies",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于智利两项概率调查，分析算法素养的认知与行为维度对错误信息接触、分享和知识的影响，发现认知维度关联更强。"
+    },
+    {
+      "id": 80,
+      "title": "Consumptive curation for self-care: in search of clumsier algorithms",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-18",
+      "summary": "研究青年如何通过算法互动进行自我关照的策展实践，基于四国125份访谈与自传数据，发现算法反应不当导致协商困难，提出设计“笨拙算法”以优化幸福感。"
+    },
+    {
+      "id": 410,
+      "title": "Algorithmized Teenagers in the Age of Artificial Intelligence: Information Cocoons, Algorithmic Literacy, and Media Literacy",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-16",
+      "summary": "基于美国437名青少年全国调查，考察算法新闻消费与算法素养对新闻认知、动机、情感等多元取向的影响，发现关联有限且非决定性。"
+    },
+    {
+      "id": 90,
+      "title": "Mistrust as a precondition for critical thinking and media literacy",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-03",
+      "summary": "通过两项在线调查（n=2115）研究不信任、新闻消费与媒体素养教育对信息核实信心和实际能力的影响，发现不信任预测信心，新闻消费预测实际辨别能力。"
+    },
+    {
+      "id": 443,
+      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-05-31",
+      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
+    },
+    {
+      "id": 93,
+      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-27",
+      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
+    },
+    {
+      "id": 99,
+      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-24",
+      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
+    },
+    {
+      "id": 38,
+      "title": "Examining the Effects of Viewing Positive Aging TikTok Videos on Aging Outcomes and Attitudes Among Young, Middle-Aged, and Older Women",
+      "journal": "Communication Research",
+      "published_date": "2026-05-07",
+      "summary": "实验检验观看积极老龄化TikTok视频对不同年龄女性老龄化结果和态度的影响，扩展CEMSA模型，发现间接效应。"
+    },
+    {
+      "id": 107,
+      "title": "Agency in social media platforms: the role of capitals and literacies under algorithmic environments",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-05",
+      "summary": "通过意大利两地区调查，构建整合框架，分析平台素养、数字资本和算法素养对用户适应性能动性的影响，发现平台素养是主要预测因素。"
+    },
+    {
+      "id": 300,
+      "title": "A Multi-Mechanism Socio-Technical Theory of Wellness Misinformation: Aesthetic, Affective, and Algorithmic Dynamics",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "提出Algorithmic–Affective Misinformation Model，结合访谈与跨平台观察，分析TikTok和RED上健康错误信息通过审美合法化、情感脆弱性与算法强化三种机制获得可信度的过程。"
+    },
+    {
+      "id": 462,
+      "title": "Brand-Related and Information-Sharing Cues as Decision Aid for Smartphone Users at Different Levels of Persuasion Knowledge to Assess mHealth App Credibility: An Eye-Tracking Study",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-03-16",
+      "summary": "通过眼动追踪实验探究品牌标志与个人信息请求对用户评估移动健康应用可信度的影响，发现品牌标志提升可信度，说服知识高者处理视觉线索更高效。"
+    },
+    {
+      "id": 154,
+      "title": "Problematic social media use and adolescent mental well-being: a cross-national study on socioeconomic inequalities",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-05",
+      "summary": "基于35国约14.5万青少年的调查数据，运用多水平模型分析问题性社交媒体使用与心理健康的关系，发现低家庭SES青少年受影响更大，国家收入不平等程度起调节作用。"
+    },
+    {
+      "id": 429,
+      "title": "When Push Feels Like Pull: Early Adolescent Dependence on YouTube Recommendation Algorithms",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-03-05",
+      "summary": "通过356名10-13岁青少年的调查，使用YAD量表测量其算法依赖，发现依赖低的青少年更多接受家庭推荐，并提出“协商技术选择”概念。"
+    },
+    {
+      "id": 469,
+      "title": "Identifying Ingredients That Make Mental-Health Focused Short Videos Engaging: A Content Analysis of Source Type, Content Strategy, and Production Features",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-03-02",
+      "summary": "通过内容分析识别心理健康短视频高参与度的要素，发现来源专业线索、参照点策略和制作特征对参与度有显著影响。"
+    }
+  ],
+  "paper_edges": []
+}
