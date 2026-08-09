@@ -723,6 +723,34 @@ class PaperStorage:
                 ))
             conn.commit()
 
+    def get_paper_institutions(self, paper_ids: List[int]) -> Dict[int, List[str]]:
+        """Return deduplicated affiliation names grouped by paper ID."""
+        if not paper_ids:
+            return {}
+        placeholders = ",".join("?" for _ in paper_ids)
+        with self._get_connection() as conn:
+            rows = conn.execute(
+                f"SELECT paper_id, affiliations_json FROM paper_author_enrichment WHERE paper_id IN ({placeholders}) ORDER BY paper_id, author_order",
+                tuple(paper_ids),
+            ).fetchall()
+        grouped: Dict[int, List[str]] = {}
+        seen: Dict[int, set] = {}
+        for row in rows:
+            paper_id = int(row["paper_id"])
+            grouped.setdefault(paper_id, [])
+            seen.setdefault(paper_id, set())
+            try:
+                affiliations = json.loads(row["affiliations_json"] or "[]")
+            except (TypeError, json.JSONDecodeError):
+                affiliations = []
+            for affiliation in affiliations if isinstance(affiliations, list) else []:
+                name = str(affiliation or "").strip()
+                key = name.casefold()
+                if name and key not in seen[paper_id]:
+                    seen[paper_id].add(key)
+                    grouped[paper_id].append(name)
+        return grouped
+
     def update_paper_bibliography(self, paper_id: int, volume: str, issue: str, openalex_id: str = "") -> bool:
         """Persist volume and issue metadata returned by OpenAlex."""
         now = datetime.now().isoformat()

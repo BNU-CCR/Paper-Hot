@@ -1,5 +1,6 @@
 import json
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
@@ -33,6 +34,39 @@ class FailingCrossrefClient:
 
 
 class AuthorEnrichmentTests(unittest.TestCase):
+    def test_rate_limit_uses_large_wait_and_server_error_uses_small_wait(self):
+        from journal_tracker.author_enrichment import SemanticScholarAuthorClient
+
+        class Response:
+            headers = {}
+
+            def __init__(self, status_code, payload=None):
+                self.status_code = status_code
+                self.payload = payload or {"authors": []}
+
+            def raise_for_status(self):
+                if self.status_code >= 400:
+                    import requests
+                    raise requests.HTTPError(str(self.status_code), response=self)
+
+            def json(self):
+                return self.payload
+
+        class Session:
+            def __init__(self, statuses):
+                self.headers = {}
+                self.responses = [Response(status) for status in statuses]
+
+            def request(self, method, url, **kwargs):
+                return self.responses.pop(0)
+
+        with patch("journal_tracker.author_enrichment.time.sleep") as sleep:
+            SemanticScholarAuthorClient(session=Session([429, 200])).fetch_paper_authors("10.1/rate")
+            self.assertEqual(sleep.call_args_list[0].args[0], 60.0)
+        with patch("journal_tracker.author_enrichment.time.sleep") as sleep:
+            SemanticScholarAuthorClient(session=Session([500, 200])).fetch_paper_authors("10.1/server")
+            self.assertEqual(sleep.call_args_list[0].args[0], 2.0)
+
     def test_name_normalization_handles_punctuation_and_diacritics(self):
         self.assertEqual(normalize_person_name("José M. Pérez"), "josemperez")
 

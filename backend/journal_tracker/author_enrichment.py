@@ -47,13 +47,32 @@ def _unique_strings(values: Iterable[object]) -> List[str]:
 
 class _RetryingJsonClient:
     MAX_RETRIES = 5
+    SMALL_RETRY_SECONDS = 2.0
+    LARGE_RATE_LIMIT_SECONDS = 60.0
+    MAX_RATE_LIMIT_SECONDS = 600.0
 
-    def __init__(self, session: Optional[requests.Session] = None):
+    def __init__(
+        self,
+        session: Optional[requests.Session] = None,
+        request_interval_seconds: float = 0.0,
+    ):
         self.session = session or requests.Session()
+        self.request_interval_seconds = request_interval_seconds
+        self._last_request_at = 0.0
+
+    def _wait_between_requests(self) -> None:
+        if self.request_interval_seconds <= 0:
+            return
+        elapsed = time.monotonic() - self._last_request_at
+        remaining = self.request_interval_seconds - elapsed
+        if remaining > 0:
+            time.sleep(remaining)
 
     def _request(self, method: str, url: str, **kwargs: Any) -> Dict[str, Any]:
         for attempt in range(self.MAX_RETRIES + 1):
+            self._wait_between_requests()
             response = self.session.request(method, url, timeout=45, **kwargs)
+            self._last_request_at = time.monotonic()
             if response.status_code == 429 or response.status_code >= 500:
                 if attempt >= self.MAX_RETRIES:
                     response.raise_for_status()
@@ -61,7 +80,18 @@ class _RetryingJsonClient:
                 try:
                     delay = float(retry_after)
                 except ValueError:
-                    delay = min(60.0, 2.0 ** attempt)
+                    if response.status_code == 429:
+                        delay = min(
+                            self.MAX_RATE_LIMIT_SECONDS,
+                            self.LARGE_RATE_LIMIT_SECONDS * (2.0 ** attempt),
+                        )
+                    else:
+                        delay = min(60.0, self.SMALL_RETRY_SECONDS * (2.0 ** attempt))
+                wait_kind = "long rate-limit wait" if response.status_code == 429 else "short server-error wait"
+                print(
+                    f"  {wait_kind}: HTTP {response.status_code}; "
+                    f"sleeping {max(0.5, delay):.1f}s before retry {attempt + 1}/{self.MAX_RETRIES}"
+                )
                 time.sleep(max(0.5, delay))
                 continue
             response.raise_for_status()
@@ -73,7 +103,7 @@ class CrossrefAuthorClient(_RetryingJsonClient):
     API = "https://api.crossref.org"
 
     def __init__(self, session: Optional[requests.Session] = None):
-        super().__init__(session)
+        super().__init__(session, request_interval_seconds=0.2 if session is None else 0.0)
         self.session.headers.update({
             "Accept": "application/json",
             "User-Agent": "PaperHOT/0.1 (mailto:paper-hot@example.invalid)",
@@ -102,7 +132,8 @@ class SemanticScholarAuthorClient(_RetryingJsonClient):
     API = "https://api.semanticscholar.org/graph/v1"
 
     def __init__(self, api_key: str = "", session: Optional[requests.Session] = None):
-        super().__init__(session)
+        # Anonymous and introductory-key traffic is deliberately serialized.
+        super().__init__(session, request_interval_seconds=1.1 if session is None else 0.0)
         self.session.headers.update({"Accept": "application/json"})
         if api_key:
             self.session.headers["x-api-key"] = api_key

@@ -14,8 +14,10 @@ on:
         default: false
 
 permissions:
-  contents: read
+  contents: write
   actions: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: paper-hot-weekly-update
@@ -55,6 +57,7 @@ jobs:
             args+=(--force)
           fi
           journal-tracker "${args[@]}"
+          journal-tracker export-public
       - name: Save enriched database
         uses: actions/cache/save@v4
         with:
@@ -67,3 +70,34 @@ jobs:
           path: backend/data/reports/author_enrichment_latest.json
           if-no-files-found: error
           retention-days: 30
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: frontend/pnpm-lock.yaml
+      - name: Build static site
+        run: |
+          pnpm --dir frontend install --frozen-lockfile
+          pnpm --dir frontend build
+          test -f frontend/out/data/papers.json
+          test -f frontend/out/data/all_papers.json
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/out
+      - name: Deploy enriched site
+        uses: actions/deploy-pages@v4
+      - name: Commit enriched public data
+        run: |
+          git add frontend/public/data/papers.json frontend/public/data/all_papers.json
+          if git diff --cached --quiet; then
+            echo "No author enrichment export changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): export author institutions"
+          git push origin HEAD:main

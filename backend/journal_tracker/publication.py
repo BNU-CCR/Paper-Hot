@@ -17,12 +17,14 @@ class PublicPaperExporter:
 
     def export_json(self, output_path: Path) -> None:
         papers = self.storage.get_public_papers()
-        payload = [self._serialize_paper(paper) for paper in papers]
+        institutions = self.storage.get_paper_institutions([int(paper.id) for paper in papers if paper.id])
+        payload = [self._serialize_paper(paper, institutions.get(int(paper.id or 0), [])) for paper in papers]
         self._write_json(output_path, payload)
 
     def export_all_journal_updates_json(self, output_path: Path) -> None:
         papers = self.storage.get_all_journal_update_papers()
-        payload = [self._serialize_paper(paper) for paper in papers]
+        institutions = self.storage.get_paper_institutions([int(paper.id) for paper in papers if paper.id])
+        payload = [self._serialize_paper(paper, institutions.get(int(paper.id or 0), [])) for paper in papers]
         self._write_json(output_path, payload)
 
     def _write_json(self, output_path: Path, payload: List[Dict[str, Any]]) -> None:
@@ -32,13 +34,14 @@ class PublicPaperExporter:
             encoding="utf-8",
         )
 
-    def _serialize_paper(self, paper: Paper) -> Dict[str, Any]:
+    def _serialize_paper(self, paper: Paper, institutions: List[str]) -> Dict[str, Any]:
         title = clean_paper_title(paper.title)
         return {
             "id": paper.id,
             "title": title,
             "title_zh": paper.title_zh,
             "authors": self._split_csv_field(paper.authors),
+            "institutions": institutions,
             "journal": paper.journal,
             "published_date": paper.published_date,
             "relevance": paper.relevance,
