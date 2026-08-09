@@ -69,6 +69,40 @@ class AuthorEnrichmentTests(unittest.TestCase):
         self.assertEqual(len(session.calls), 2)
         self.assertEqual(session.calls[1][2]["params"]["fields"], "name,aliases,affiliations")
 
+    def test_semantic_paper_author_ids_survive_profile_failure(self):
+        import requests
+        from journal_tracker.author_enrichment import SemanticScholarAuthorClient
+
+        class Response:
+            headers = {}
+
+            def __init__(self, status_code, payload):
+                self.status_code = status_code
+                self.payload = payload
+
+            def raise_for_status(self):
+                if self.status_code >= 400:
+                    raise requests.HTTPError("profile unavailable", response=self)
+
+            def json(self):
+                return self.payload
+
+        class Session:
+            def __init__(self):
+                self.headers = {}
+                self.calls = 0
+
+            def request(self, method, url, **kwargs):
+                self.calls += 1
+                if self.calls == 1:
+                    return Response(200, {"authors": [{"authorId": "S1", "name": "Alice"}]})
+                return Response(400, {"message": "bad profile request"})
+
+        authors = SemanticScholarAuthorClient(session=Session()).fetch_paper_authors("10.1/test")
+        self.assertEqual(authors[0]["author_id"], "S1")
+        self.assertEqual(authors[0]["name"], "Alice")
+        self.assertEqual(authors[0]["affiliations"], [])
+
     def test_match_uses_orcid_then_paper_scoped_name(self):
         authors, ambiguous = match_paper_authors(
             StaticCrossrefClient().fetch_authors("10.1/test"),
