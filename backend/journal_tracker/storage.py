@@ -9,6 +9,8 @@ from dataclasses import dataclass, asdict
 from datetime import datetime
 from contextlib import contextmanager
 
+from .text import clean_paper_title
+
 
 @dataclass
 class Paper:
@@ -199,6 +201,7 @@ class PaperStorage:
     def add_paper(self, paper: Paper) -> int:
         """添加论文，返回ID"""
         now = datetime.now().isoformat()
+        paper.title = clean_paper_title(paper.title)
         if not paper.discovered_at:
             paper.discovered_at = now
         if not paper.screening_status:
@@ -228,6 +231,25 @@ class PaperStorage:
             ))
             conn.commit()
             return cursor.lastrowid or 0
+
+    def sanitize_paper_titles(self) -> int:
+        """Remove publisher HTML markup from titles already stored in the database."""
+        now = datetime.now().isoformat()
+        changed = 0
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT id, title FROM papers")
+            for row in cursor.fetchall():
+                cleaned = clean_paper_title(row["title"])
+                if cleaned == row["title"]:
+                    continue
+                cursor.execute(
+                    "UPDATE papers SET title = ?, updated_at = ? WHERE id = ?",
+                    (cleaned, now, row["id"]),
+                )
+                changed += 1
+            conn.commit()
+        return changed
 
     def paper_exists(self, link: str = "", doi: str = "") -> bool:
         """检查论文是否已存在"""

@@ -7,6 +7,38 @@ from journal_tracker.storage import Paper, PaperStorage
 
 
 class StorageWorkflowTests(unittest.TestCase):
+    def test_new_titles_are_sanitized_before_storage(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            storage = PaperStorage(Path(tmp_dir) / "papers.db")
+            paper_id = storage.add_paper(
+                Paper(
+                    title="<i>Mare Aperto 2025</i> &amp; communication",
+                    link="https://example.org/clean-title",
+                )
+            )
+
+            self.assertEqual(
+                storage.get_paper_by_id(paper_id).title,
+                "Mare Aperto 2025 & communication",
+            )
+
+    def test_existing_titles_can_be_sanitized_in_place(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            storage = PaperStorage(Path(tmp_dir) / "papers.db")
+            paper_id = storage.add_paper(
+                Paper(title="Clean title", link="https://example.org/legacy-title")
+            )
+            with storage._get_connection() as conn:
+                conn.execute(
+                    "UPDATE papers SET title = ? WHERE id = ?",
+                    ("<i>Mare Aperto 2025</i>", paper_id),
+                )
+                conn.commit()
+
+            self.assertEqual(storage.sanitize_paper_titles(), 1)
+            self.assertEqual(storage.get_paper_by_id(paper_id).title, "Mare Aperto 2025")
+            self.assertEqual(storage.sanitize_paper_titles(), 0)
+
     def test_storage_creates_missing_parent_directory(self) -> None:
         with TemporaryDirectory() as tmp_dir:
             db_path = Path(tmp_dir) / "nested" / "data" / "papers.db"

@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 from .storage import PaperStorage, Paper
+from .text import clean_paper_title
 
 
 class PublicPaperExporter:
@@ -32,9 +33,10 @@ class PublicPaperExporter:
         )
 
     def _serialize_paper(self, paper: Paper) -> Dict[str, Any]:
+        title = clean_paper_title(paper.title)
         return {
             "id": paper.id,
-            "title": paper.title,
+            "title": title,
             "authors": self._split_csv_field(paper.authors),
             "journal": paper.journal,
             "published_date": paper.published_date,
@@ -47,7 +49,7 @@ class PublicPaperExporter:
             "method": paper.method,
             "doi": paper.doi,
             "source_url": paper.link,
-            "detail_slug": self._slugify(paper.title),
+            "detail_slug": self._slugify(title),
             "source_type": paper.source_type,
             "screening_status": paper.screening_status,
             "tracked_journal": paper.tracked_journal,

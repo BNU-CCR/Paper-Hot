@@ -7,8 +7,12 @@ import type { Journal } from "../types/journal";
 import type { Paper } from "../types/paper";
 import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
 
-function asText(value: unknown): string { return Array.isArray(value) ? value.join(" ") : String(value || ""); }
-function sortPapers(papers: Paper[]): Paper[] { return [...papers].sort((a, b) => Date.parse(b.published_date || "0") - Date.parse(a.published_date || "0")); }
+function asText(value: unknown): string { return Array.isArray(value) ? value.join(", ") : String(value || ""); }
+function paperTime(paper: Paper): number {
+  const time = Date.parse(paper.published_date || "");
+  return Number.isFinite(time) ? time : 0;
+}
+function sortPapers(papers: Paper[]): Paper[] { return [...papers].sort((a, b) => paperTime(b) - paperTime(a)); }
 
 interface IssueGroup {
   key: string;
@@ -26,9 +30,12 @@ function issueGroups(papers: Paper[]): IssueGroup[] {
     if (!groups.has(key)) groups.set(key, { key, volume, issue, papers: [] });
     groups.get(key)!.papers.push(paper);
   });
+  groups.forEach((group) => { group.papers = sortPapers(group.papers); });
   return [...groups.values()].sort((a, b) => {
-    if (!a.issue) return 1;
-    if (!b.issue) return -1;
+    const latestDifference = paperTime(b.papers[0]) - paperTime(a.papers[0]);
+    if (latestDifference !== 0) return latestDifference;
+    if (!a.issue && b.issue) return 1;
+    if (!b.issue && a.issue) return -1;
     return `${b.volume}-${b.issue}`.localeCompare(`${a.volume}-${a.issue}`, "en", { numeric: true });
   });
 }
