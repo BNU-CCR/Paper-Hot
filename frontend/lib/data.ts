@@ -41,10 +41,10 @@ export function getAllPapers(): Paper[] {
  */
 function pickPaper(raw: Paper): Paper {
   const {
-    id, title, authors, journal, published_date, source_url, doi,
-    relevance, score, abstract, summary, reason, tags, volume, issue, method,
+    id, title, title_zh, authors, journal, published_date, source_url, doi,
+    relevance, score, abstract, abstract_zh, summary, reason, tags, volume, issue, method,
   } = raw;
-  const paper: Paper = { id, title, authors, journal, published_date, source_url, doi, relevance, score, abstract, summary, reason, tags, volume, issue, method };
+  const paper: Paper = { id, title, title_zh, authors, journal, published_date, source_url, doi, relevance, score, abstract, abstract_zh, summary, reason, tags, volume, issue, method };
   // Strip `undefined` entries so they don't bloat the serialized payload.
   return Object.fromEntries(Object.entries(paper).filter(([, v]) => v !== undefined)) as Paper;
 }
@@ -119,7 +119,12 @@ export function getTopicDetails(): Record<string, TopicDetail> {
   for (const name of files) {
     if (!name.endsWith(".json")) continue;
     const detail = readJson<TopicDetail>(`hotspots/topics/${name}`, {} as TopicDetail);
-    if (detail && detail.topic_id) map[detail.topic_id] = detail;
+    if (detail && detail.topic_id) {
+      const keywords = Array.isArray(detail.keywords)
+        ? detail.keywords
+        : String(detail.keywords || "").split(/[,，;；]/).map((item) => item.trim()).filter(Boolean);
+      map[detail.topic_id] = { ...detail, keywords };
+    }
   }
   return map;
 }
