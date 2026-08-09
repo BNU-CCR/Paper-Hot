@@ -61,7 +61,7 @@ class PaperFilterTests(unittest.TestCase):
 
     def test_filter_validates_method_against_configured_taxonomy(self) -> None:
         config = FakeConfig()
-        config.method_labels = ["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"]
+        config.method_labels = ["质性分析", "量化分析", "理论分析", "综述", "计算传播学"]
         text_block = Mock()
         text_block.text = """
 {
@@ -82,7 +82,7 @@ class PaperFilterTests(unittest.TestCase):
 
     def test_filter_coerces_invalid_or_missing_method_to_empty(self) -> None:
         config = FakeConfig()
-        config.method_labels = ["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"]
+        config.method_labels = ["质性分析", "量化分析", "理论分析", "综述", "计算传播学"]
         text_block = Mock()
         text_block.text = """
 {
@@ -117,13 +117,13 @@ class PaperFilterTests(unittest.TestCase):
     def test_label_method_returns_valid_label(self) -> None:
         method = self._label_method_with_text(
             '{"method": "综述"}',
-            method_labels=["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"],
+            method_labels=["质性分析", "量化分析", "理论分析", "综述", "计算传播学"],
         )
         self.assertEqual(method, "综述")
 
     def test_label_method_returns_empty_for_invalid_or_uncertain(self) -> None:
         config = FakeConfig()
-        config.method_labels = ["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"]
+        config.method_labels = ["质性分析", "量化分析", "理论分析", "综述", "计算传播学"]
         for text in ['{"method": "不存在"}', '{"method": ""}']:
             text_block = Mock()
             text_block.text = text
@@ -141,7 +141,7 @@ class PaperFilterTests(unittest.TestCase):
         client = Mock()
         client.messages.create.return_value = Mock(content=[thinking, text_block])
         config = FakeConfig()
-        config.method_labels = ["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"]
+        config.method_labels = ["质性分析", "量化分析", "理论分析", "综述", "计算传播学"]
         with patch("journal_tracker.filter.get_config", return_value=config):
             with patch("journal_tracker.filter.anthropic.Anthropic", return_value=client):
                 paper_filter = PaperFilter()
@@ -155,7 +155,7 @@ class PaperFilterTests(unittest.TestCase):
         ok_text = Mock(content=[Mock(type="text", text='{"method": "综述"}')])
         client.messages.create.side_effect = [no_text, no_text, ok_text]
         config = FakeConfig()
-        config.method_labels = ["纯质性分析", "传统量化分析", "纯理论分析", "综述", "计算传播学"]
+        config.method_labels = ["质性分析", "量化分析", "理论分析", "综述", "计算传播学"]
         with patch("journal_tracker.filter.get_config", return_value=config):
             with patch("journal_tracker.filter.anthropic.Anthropic", return_value=client):
                 paper_filter = PaperFilter()

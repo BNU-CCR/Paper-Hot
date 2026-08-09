@@ -25,7 +25,7 @@ class Paper:
     reason: str = ""
     tags: str = ""  # JSON string of tags list
     summary: str = ""
-    method: str = ""  # 研究方法标签（纯质性分析/传统量化分析/纯理论分析/综述/计算传播学/空）
+    method: str = ""  # 研究方法标签（质性分析/量化分析/理论分析/综述/计算传播学/空）
     score: Optional[int] = None
     status: str = "To Read"  # To Read/Reading/Read
     is_public: bool = False

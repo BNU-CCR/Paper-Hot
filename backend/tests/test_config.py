@@ -92,7 +92,7 @@ claude_model: "claude-test-model"
                 config_dir / "prompts.yaml",
                 """
 method_labels:
-  - "纯质性分析"
+  - "质性分析"
   - "计算传播学"
 method_system_prompt: "method system prompt from yaml"
 method_user_template: "title={title}"
@@ -102,7 +102,7 @@ method_user_template: "title={title}"
 
             config = Config(config_dir)
 
-            self.assertEqual(config.method_labels, ["纯质性分析", "计算传播学"])
+            self.assertEqual(config.method_labels, ["质性分析", "计算传播学"])
             self.assertEqual(config.method_system_prompt, "method system prompt from yaml")
             self.assertEqual(config.method_user_template, "title={title}")
 

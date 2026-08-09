@@ -25,7 +25,7 @@ Use the journal-first workflow as the default:
 
 AI 筛选在输出主题标签（`tags`）的同时，还会为每篇论文打一个**单一**研究方法标签（`method`），固定分类学：
 
-- 纯质性分析 / 传统量化分析 / 纯理论分析 / 综述 / 计算传播学
+- 质性分析 / 量化分析 / 理论分析 / 综述 / 计算传播学
 - 不确定时留空（`""`）
 
 - 新论文在 `screen-pending` 的同一次 AI 调用里带出 method（prompts.yaml 的 `filter_system_prompt` / `method_labels` / `method_system_prompt` / `method_user_template`）。
