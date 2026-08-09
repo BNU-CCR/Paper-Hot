@@ -9,7 +9,7 @@ from dataclasses import dataclass, asdict
 from datetime import datetime
 from contextlib import contextmanager
 
-from .text import clean_paper_title
+from .text import clean_paper_title, clean_translated_abstract, clean_translated_title
 
 
 @dataclass
@@ -259,6 +259,44 @@ class PaperStorage:
                     continue
                 cursor.execute(
                     "UPDATE papers SET title = ?, updated_at = ? WHERE id = ?",
+                    (cleaned, now, row["id"]),
+                )
+                changed += 1
+            conn.commit()
+        return changed
+
+    def sanitize_translated_titles(self) -> int:
+        """Remove model response wrappers from existing Chinese title translations."""
+        now = datetime.now().isoformat()
+        changed = 0
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT id, title_zh FROM papers WHERE title_zh IS NOT NULL AND title_zh != ''")
+            for row in cursor.fetchall():
+                cleaned = clean_translated_title(row["title_zh"])
+                if not cleaned or cleaned == row["title_zh"]:
+                    continue
+                cursor.execute(
+                    "UPDATE papers SET title_zh = ?, updated_at = ? WHERE id = ?",
+                    (cleaned, now, row["id"]),
+                )
+                changed += 1
+            conn.commit()
+        return changed
+
+    def sanitize_translated_abstracts(self) -> int:
+        """Remove model response labels from existing Chinese abstract translations."""
+        now = datetime.now().isoformat()
+        changed = 0
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT id, abstract_zh FROM papers WHERE abstract_zh IS NOT NULL AND abstract_zh != ''")
+            for row in cursor.fetchall():
+                cleaned = clean_translated_abstract(row["abstract_zh"])
+                if not cleaned or cleaned == row["abstract_zh"]:
+                    continue
+                cursor.execute(
+                    "UPDATE papers SET abstract_zh = ?, updated_at = ? WHERE id = ?",
                     (cleaned, now, row["id"]),
                 )
                 changed += 1
