@@ -48,6 +48,9 @@ jobs:
       - name: Install package
         run: python -m pip install -e .
       - name: Enrich author identities and affiliations
+        id: enrichment
+        timeout-minutes: 300
+        continue-on-error: true
         env:
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
         run: |
@@ -60,18 +63,22 @@ jobs:
             args+=(--force)
           fi
           journal-tracker "${args[@]}"
-          journal-tracker export-public
+      - name: Export checkpointed public data
+        if: always()
+        run: journal-tracker export-public
       - name: Save enriched database
+        if: always()
         uses: actions/cache/save@v4
         with:
           path: backend/data/papers.db
           key: paper-hot-db-${{ runner.os }}-${{ github.run_id }}
       - name: Upload pilot report
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: author-enrichment-report-${{ github.run_id }}
           path: backend/data/reports/author_enrichment_latest.json
-          if-no-files-found: error
+          if-no-files-found: warn
           retention-days: 30
       - uses: pnpm/action-setup@v4
         with:
@@ -104,3 +111,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore(data): export author institutions"
           git push origin HEAD:main
+      - name: Report incomplete enrichment
+        if: always() && steps.enrichment.outcome != 'success'
+        run: |
+          echo "Author enrichment did not finish, but checkpointed database and public data were preserved."
+          exit 1

@@ -134,6 +134,12 @@ class SemanticScholarAuthorClient(_RetryingJsonClient):
     def __init__(self, api_key: str = "", session: Optional[requests.Session] = None):
         # Anonymous and introductory-key traffic is deliberately serialized.
         super().__init__(session, request_interval_seconds=1.1 if session is None else 0.0)
+        self.api_key = api_key
+        # Anonymous traffic is frequently rate-limited. Still attempt the
+        # service for every DOI, but do not spend up to 25 minutes retrying a
+        # single request and prevent the whole checkpoint batch from finishing.
+        if not api_key:
+            self.MAX_RETRIES = 1
         self.session.headers.update({"Accept": "application/json"})
         if api_key:
             self.session.headers["x-api-key"] = api_key
@@ -148,7 +154,7 @@ class SemanticScholarAuthorClient(_RetryingJsonClient):
         basic = data.get("authors") or []
         ids = [str(item.get("authorId")) for item in basic if item.get("authorId")]
         details: Dict[str, Dict[str, Any]] = {}
-        if ids:
+        if ids and self.api_key:
             try:
                 rows = self._request(
                     "POST",

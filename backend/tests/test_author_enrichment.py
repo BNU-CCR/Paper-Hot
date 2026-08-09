@@ -98,10 +98,37 @@ class AuthorEnrichmentTests(unittest.TestCase):
                 return Response([{"authorId": "S1", "name": "Alice", "affiliations": []}])
 
         session = Session()
-        client = SemanticScholarAuthorClient(session=session)
+        client = SemanticScholarAuthorClient(api_key="test-key", session=session)
         client.fetch_paper_authors("10.1/test")
         self.assertEqual(len(session.calls), 2)
         self.assertEqual(session.calls[1][2]["params"]["fields"], "name,aliases,affiliations")
+
+    def test_anonymous_semantic_client_skips_optional_author_profiles(self):
+        from journal_tracker.author_enrichment import SemanticScholarAuthorClient
+
+        class Response:
+            status_code = 200
+            headers = {}
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return {"authors": [{"authorId": "S1", "name": "Alice"}]}
+
+        class Session:
+            def __init__(self):
+                self.headers = {}
+                self.calls = 0
+
+            def request(self, method, url, **kwargs):
+                self.calls += 1
+                return Response()
+
+        session = Session()
+        authors = SemanticScholarAuthorClient(session=session).fetch_paper_authors("10.1/test")
+        self.assertEqual(session.calls, 1)
+        self.assertEqual(authors[0]["author_id"], "S1")
 
     def test_semantic_paper_author_ids_survive_profile_failure(self):
         import requests
@@ -132,7 +159,7 @@ class AuthorEnrichmentTests(unittest.TestCase):
                     return Response(200, {"authors": [{"authorId": "S1", "name": "Alice"}]})
                 return Response(400, {"message": "bad profile request"})
 
-        authors = SemanticScholarAuthorClient(session=Session()).fetch_paper_authors("10.1/test")
+        authors = SemanticScholarAuthorClient(api_key="test-key", session=Session()).fetch_paper_authors("10.1/test")
         self.assertEqual(authors[0]["author_id"], "S1")
         self.assertEqual(authors[0]["name"], "Alice")
         self.assertEqual(authors[0]["affiliations"], [])
