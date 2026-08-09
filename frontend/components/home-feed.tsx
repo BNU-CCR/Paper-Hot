@@ -2,10 +2,11 @@
 
 import { useMemo, useState } from "react";
 import Masonry from "react-masonry-css";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, ExternalLink } from "lucide-react";
 import type { Paper } from "../types/paper";
 import { Button } from "./ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from "./ui/dialog";
 import { Input } from "./ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
@@ -34,7 +35,7 @@ function displayDate(value: string): string {
     : date.toLocaleDateString("zh-CN", { year: "numeric", month: "long", day: "numeric", weekday: "short" });
 }
 
-function PaperCard({ paper, featured }: { paper: Paper; featured?: boolean }) {
+function PaperCard({ paper, featured, onOpen }: { paper: Paper; featured?: boolean; onOpen: (paper: Paper) => void }) {
   const relevance = paper.relevance || "Unrated";
   const score = paper.score == null ? relevance : `${relevance} ${paper.score}`;
   // In the featured feed every paper is High, so the relevance badge is
@@ -43,14 +44,24 @@ function PaperCard({ paper, featured }: { paper: Paper; featured?: boolean }) {
     ? (paper.method ? <span className="tag method-tag" title="研究方法">{paper.method}</span> : <span className={`badge ${relevance.toLowerCase()}`}>{relevance}</span>)
     : <span className={`badge ${relevance.toLowerCase()}`}>{score}</span>;
   return (
-    <article className="paper-card">
+    <article
+      className="paper-card paper-card-interactive"
+      role="button"
+      tabIndex={0}
+      aria-label={`查看论文详情：${paper.title || "未命名论文"}`}
+      onClick={() => onOpen(paper)}
+      onKeyDown={(event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          onOpen(paper);
+        }
+      }}
+    >
       <div className="paper-topline">
         {topline}
         <time>{paper.published_date || "日期待补充"}</time>
       </div>
-      {paper.source_url ? (
-        <a className="paper-title" href={paper.source_url} target="_blank" rel="noreferrer">{paper.title || "Untitled paper"}</a>
-      ) : <h3 className="paper-title">{paper.title || "Untitled paper"}</h3>}
+      <h3 className="paper-title">{paper.title || "Untitled paper"}</h3>
       {(paper.authors || paper.journal) && <p className="paper-meta">{[asText(paper.authors), paper.journal].filter(Boolean).join(" · ")}</p>}
       {paper.summary && <p className="paper-summary">{paper.summary}</p>}
       {!featured && paper.reason && <p className="paper-reason">{paper.reason}</p>}
@@ -59,10 +70,52 @@ function PaperCard({ paper, featured }: { paper: Paper; featured?: boolean }) {
         {!featured && paper.method && <span className="tag method-tag" title="研究方法">{paper.method}</span>}
       </div>
       <div className="paper-links">
-        {paper.doi && <a href={`https://doi.org/${encodeURIComponent(paper.doi)}`} target="_blank" rel="noreferrer">DOI</a>}
-        {paper.source_url && <a href={paper.source_url} target="_blank" rel="noreferrer">原文</a>}
+        {paper.doi && <a href={`https://doi.org/${encodeURIComponent(paper.doi)}`} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()}>DOI</a>}
+        {paper.source_url && <a href={paper.source_url} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()}>原文</a>}
       </div>
     </article>
+  );
+}
+
+function PaperDetailDialog({ paper, onOpenChange }: { paper: Paper | null; onOpenChange: (open: boolean) => void }) {
+  if (!paper) return null;
+  const publication = [paper.journal, paper.volume && `Vol. ${paper.volume}`, paper.issue && `Issue ${paper.issue}`].filter(Boolean).join(" · ");
+  return (
+    <Dialog open={Boolean(paper)} onOpenChange={onOpenChange}>
+      <DialogContent>
+        <div className="paper-dialog-main">
+          <div className="paper-dialog-kicker">
+            {paper.method && <span className="tag method-tag">{paper.method}</span>}
+            <time>{displayDate(paper.published_date || "")}</time>
+          </div>
+          <DialogTitle className="paper-dialog-title">{paper.title || "Untitled paper"}</DialogTitle>
+          {(paper.authors || publication) && <p className="paper-dialog-meta">{[asText(paper.authors), publication].filter(Boolean).join(" · ")}</p>}
+          {paper.abstract && (
+            <section className="paper-dialog-section">
+              <h2>英文摘要</h2>
+              <DialogDescription className="paper-dialog-abstract">{paper.abstract}</DialogDescription>
+            </section>
+          )}
+        </div>
+        <aside className="paper-dialog-aside">
+          {paper.summary && <section className="paper-dialog-section"><h2>内容摘要</h2><p>{paper.summary}</p></section>}
+          {!paper.summary && <DialogDescription className="sr-only">论文详情与原文入口</DialogDescription>}
+          {(paper.tags?.length || paper.method) && (
+            <section className="paper-dialog-section">
+              <h2>主题与方法</h2>
+              <div className="paper-tags">
+                {(paper.tags || []).map((tag) => <span key={tag} className="tag">{tag}</span>)}
+                {paper.method && <span className="tag method-tag">{paper.method}</span>}
+              </div>
+            </section>
+          )}
+          <div className="paper-dialog-actions">
+            {paper.doi && <a href={`https://doi.org/${encodeURIComponent(paper.doi)}`} target="_blank" rel="noreferrer">查看 DOI <ExternalLink size={14} aria-hidden="true" /></a>}
+            {paper.source_url && <a className="primary" href={paper.source_url} target="_blank" rel="noreferrer">阅读原文 <ExternalLink size={14} aria-hidden="true" /></a>}
+          </div>
+        </aside>
+      </DialogContent>
+    </Dialog>
   );
 }
 
@@ -79,6 +132,7 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
   const [tag, setTag] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [tagsOpen, setTagsOpen] = useState(false);
+  const [selectedPaper, setSelectedPaper] = useState<Paper | null>(null);
 
   const source = mode === "all" ? allPapers : featured;
   const journals = useMemo(() => [...new Set(source.map((paper) => paper.journal).filter((item): item is string => Boolean(item)))].sort((a, b) => a.localeCompare(b, "zh-CN")), [source]);
@@ -115,8 +169,9 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
         </Collapsible>
 
         <section className="feed"><div className="section-heading"><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2><span className="count">{papers.length} 篇</span></div>
-          {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} />)}</section>)}</div>}
+          {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured onOpen={setSelectedPaper} />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} onOpen={setSelectedPaper} />)}</section>)}</div>}
         </section>
+        <PaperDetailDialog paper={selectedPaper} onOpenChange={(open) => { if (!open) setSelectedPaper(null); }} />
     </div>
   );
 }

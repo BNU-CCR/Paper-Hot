@@ -76,6 +76,7 @@ class PublicPaperExporterTests(unittest.TestCase):
             self.assertEqual(exported[0]["authors"], ["Alice Smith", "Bob Lee"])
             self.assertEqual(exported[0]["tags"], ["LLM", "platform"])
             self.assertEqual(exported[0]["method"], "计算传播学")
+            self.assertEqual(exported[0]["abstract"], "Abstract")
             self.assertEqual(exported[0]["score"], 92)
             self.assertEqual(exported[0]["source_url"], "https://example.org/public-paper")
             self.assertEqual(exported[0]["detail_slug"], "public-llm-paper")

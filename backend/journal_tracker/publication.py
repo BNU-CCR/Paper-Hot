@@ -40,6 +40,7 @@ class PublicPaperExporter:
             "published_date": paper.published_date,
             "relevance": paper.relevance,
             "score": paper.score,
+            "abstract": paper.abstract,
             "summary": paper.summary,
             "reason": paper.reason,
             "tags": self._split_csv_field(paper.tags),

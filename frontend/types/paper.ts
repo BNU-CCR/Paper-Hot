@@ -16,6 +16,8 @@ export interface Paper {
   doi?: string;
   relevance?: Relevance;
   score?: number | null;
+  /** Original English abstract supplied by the journal index. */
+  abstract?: string;
   summary?: string;
   reason?: string;
   tags?: string[];
