@@ -26,6 +26,12 @@ from .publication import PublicPaperExporter
 from .coverage import CoverageVerifier
 from .hotspots import generate_monthly_hotspots
 from .translation import SiliconFlowTranslator, translate_pending_papers
+from .author_enrichment import (
+    CrossrefAuthorClient,
+    SemanticScholarAuthorClient,
+    enrich_paper_authors,
+    write_author_enrichment_report,
+)
 
 
 def safe_print(message: str = "") -> None:
@@ -632,6 +638,37 @@ def translate_paper_library(config: Optional[Config] = None, limit: int = 100) -
     return 0
 
 
+def enrich_author_library(
+    config: Optional[Config] = None,
+    limit: int = 25,
+    force: bool = False,
+    report_path: Optional[str] = None,
+) -> int:
+    """Enrich DOI-scoped author identities and affiliations from Crossref and S2."""
+    if config is None:
+        config = get_config()
+    storage = PaperStorage(config.database_path)
+    report = enrich_paper_authors(
+        storage,
+        CrossrefAuthorClient(),
+        SemanticScholarAuthorClient(config.semantic_scholar_api_key),
+        limit=limit,
+        force=force,
+    )
+    destination = Path(report_path) if report_path else config.project_root / "backend/data/reports/author_enrichment_latest.json"
+    write_author_enrichment_report(report, destination)
+    print(
+        "Author enrichment: "
+        f"papers={report['enriched_papers']}/{report['selected_papers']} "
+        f"authors={report['authors']} matched_s2={report['matched_s2_authors']} "
+        f"orcid={report['authors_with_orcid']} affiliations={report['authors_with_affiliations']} "
+        f"ambiguous={report['ambiguous_matches']} failed={report['failed_papers']} "
+        f"crossref_unavailable={report['crossref_unavailable']} "
+        f"s2_unavailable={report['semantic_scholar_unavailable']}"
+    )
+    return 0 if report["enriched_papers"] > 0 or report["selected_papers"] == 0 else 1
+
+
 def publish_paper(config: Optional[Config], paper_id: int, is_public: bool):
     """设置论文公开状态"""
     if config is None:
@@ -1142,6 +1179,10 @@ def main():
     subparsers.add_parser("sanitize-titles", help="清理数据库中论文标题的 HTML 标签")
     translate_parser = subparsers.add_parser("translate-papers", help="用 SiliconFlow 翻译论文标题和摘要")
     translate_parser.add_argument("--limit", type=int, default=100, help="本批最多翻译论文数")
+    author_parser = subparsers.add_parser("enrich-authors", help="用 Crossref 与 Semantic Scholar 补全作者身份和机构")
+    author_parser.add_argument("--limit", type=int, default=25, help="本批最多处理论文数")
+    author_parser.add_argument("--force", action="store_true", help="重新处理已有作者信息的论文")
+    author_parser.add_argument("--report", type=str, default="", help="JSON 统计报告路径")
     subparsers.add_parser("generate-hotspots", help="从近一个月公开论文生成当期热点 JSON")
     bibliography_parser = subparsers.add_parser("backfill-bibliography", help="用 OpenAlex 回填卷号和期号")
     bibliography_parser.add_argument("--limit", type=int, default=10000, help="最多回填论文数")
@@ -1208,6 +1249,8 @@ def main():
         sys.exit(sanitize_stored_titles(config))
     elif args.command == "translate-papers":
         sys.exit(translate_paper_library(config, args.limit))
+    elif args.command == "enrich-authors":
+        sys.exit(enrich_author_library(config, args.limit, args.force, args.report or None))
     elif args.command == "generate-hotspots":
         print(f"已生成当期热点数据: {generate_monthly_hotspots(config)}")
     elif args.command == "backfill-bibliography":

@@ -1,6 +1,7 @@
 """本地存储模块 - SQLite"""
 
 import hashlib
+import json
 import sqlite3
 import re
 from pathlib import Path
@@ -141,6 +142,23 @@ class PaperStorage:
                     FOREIGN KEY (paper_id) REFERENCES papers(id)
                 )
             """)
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS paper_author_enrichment (
+                    paper_id INTEGER NOT NULL,
+                    author_order INTEGER NOT NULL,
+                    display_name TEXT NOT NULL DEFAULT '',
+                    normalized_name TEXT NOT NULL DEFAULT '',
+                    orcid TEXT NOT NULL DEFAULT '',
+                    semantic_scholar_author_id TEXT NOT NULL DEFAULT '',
+                    aliases_json TEXT NOT NULL DEFAULT '[]',
+                    affiliations_json TEXT NOT NULL DEFAULT '[]',
+                    match_method TEXT NOT NULL DEFAULT '',
+                    match_confidence REAL NOT NULL DEFAULT 0,
+                    updated_at TEXT NOT NULL DEFAULT '',
+                    PRIMARY KEY (paper_id, author_order),
+                    FOREIGN KEY (paper_id) REFERENCES papers(id)
+                )
+            """)
             # 创建索引加速查询
             cursor.execute("""
                 CREATE INDEX IF NOT EXISTS idx_papers_link ON papers(link)
@@ -159,6 +177,10 @@ class PaperStorage:
             """)
             cursor.execute("""
                 CREATE INDEX IF NOT EXISTS idx_papers_source_type ON papers(source_type)
+            """)
+            cursor.execute("""
+                CREATE INDEX IF NOT EXISTS idx_author_enrichment_s2_id
+                ON paper_author_enrichment(semantic_scholar_author_id)
             """)
             conn.commit()
 
@@ -653,6 +675,53 @@ class PaperStorage:
             """, (limit,))
             rows = cursor.fetchall()
             return [Paper(**self._normalize_row(dict(row))) for row in rows]
+
+    def get_papers_missing_author_enrichment(
+        self, limit: int = 50, force: bool = False
+    ) -> List[Paper]:
+        """Return DOI-bearing papers not yet covered by author enrichment."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            condition = "" if force else "AND NOT EXISTS (SELECT 1 FROM paper_author_enrichment pae WHERE pae.paper_id = p.id)"
+            cursor.execute(f"""
+                SELECT p.* FROM papers p
+                WHERE p.doi IS NOT NULL AND p.doi != ''
+                  AND p.screening_status != 'quarantined'
+                  {condition}
+                ORDER BY p.published_date DESC, p.id DESC
+                LIMIT ?
+            """, (limit,))
+            return [Paper(**self._normalize_row(dict(row))) for row in cursor.fetchall()]
+
+    def replace_paper_author_enrichment(
+        self, paper_id: int, authors: List[Dict[str, Any]]
+    ) -> None:
+        """Atomically replace paper-scoped author identity and affiliation rows."""
+        now = datetime.now().isoformat()
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("DELETE FROM paper_author_enrichment WHERE paper_id = ?", (paper_id,))
+            for author in authors:
+                cursor.execute("""
+                    INSERT INTO paper_author_enrichment (
+                        paper_id, author_order, display_name, normalized_name, orcid,
+                        semantic_scholar_author_id, aliases_json, affiliations_json,
+                        match_method, match_confidence, updated_at
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """, (
+                    paper_id,
+                    int(author.get("author_order", 0)),
+                    str(author.get("display_name", "")),
+                    str(author.get("normalized_name", "")),
+                    str(author.get("orcid", "")),
+                    str(author.get("semantic_scholar_author_id", "")),
+                    json.dumps(author.get("aliases", []), ensure_ascii=False),
+                    json.dumps(author.get("affiliations", []), ensure_ascii=False),
+                    str(author.get("match_method", "")),
+                    float(author.get("match_confidence", 0)),
+                    now,
+                ))
+            conn.commit()
 
     def update_paper_bibliography(self, paper_id: int, volume: str, issue: str, openalex_id: str = "") -> bool:
         """Persist volume and issue metadata returned by OpenAlex."""
