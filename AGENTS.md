@@ -53,6 +53,7 @@ Codex 与 Claude Code 都会自动读取仓库根目录的 `AGENTS.md`。工作�
 本项目依赖远端 GitHub Actions 维护真实数据：
 
 - `ANTHROPIC_API_KEY`、`SEMANTIC_SCHOLAR_API_KEY` 只存在于 GitHub Actions secrets。
+- `SILICONFLOW_API_KEY` 只存在于 GitHub Actions secrets，用于 `tencent/Hunyuan-MT-7B` 翻译论文标题和摘要。
 - `ANTHROPIC_BASE_URL`、`AI_MODEL` 只配置在 GitHub Actions variables。
 - `backend/data/papers.db` 的有效版本保存在 Actions cache，本地仓库没有完整工作数据库。
 - 不要向本地索取、补写或提交任何真实 API key，也不要提交 `.local/key.env` 或 `backend/data/papers.db`。
@@ -72,6 +73,7 @@ Codex 与 Claude Code 都会自动读取仓库根目录的 `AGENTS.md`。工作�
 - `.github/workflows/rebuild-hotspot-network.yml`：只从云端缓存数据库重建热点网络。
 - `.github/workflows/backfill-journals.yml`：按年份回填期刊、筛选、方法标注、热点重建与部署。
 - `.github/workflows/ci.yml`：普通代码与前端构建检查。
+- `.github/workflows/translate-paper-library.yml`：从云端缓存数据库断点回填标题和摘要中文翻译；添加 `SILICONFLOW_API_KEY` 后再手动触发。
 
 手动测试优先使用工作流已有的 `workflow_dispatch`，不要为了触发运行而提交无意义的 YAML 改动。若工作流没有 `workflow_dispatch`，先明确设计合适的触发方式，再修改工作流。
 

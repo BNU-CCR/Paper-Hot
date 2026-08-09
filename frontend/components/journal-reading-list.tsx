@@ -6,6 +6,7 @@ import { useMemo, useState } from "react";
 import type { Journal } from "../types/journal";
 import type { Paper } from "../types/paper";
 import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
+import { LanguageToggle, type PaperLanguage } from "./language-toggle";
 
 function asText(value: unknown): string { return Array.isArray(value) ? value.join(", ") : String(value || ""); }
 function paperTime(paper: Paper): number {
@@ -45,15 +46,16 @@ function issueLabel(group: IssueGroup): string {
   return group.volume ? `Vol. ${group.volume} · Issue ${group.issue}` : `Issue ${group.issue}`;
 }
 
-function JournalPaperCard({ paper, featured }: { paper: Paper; featured?: boolean }) {
+function JournalPaperCard({ paper, featured, language }: { paper: Paper; featured?: boolean; language: PaperLanguage }) {
   const relevance = paper.relevance || "Unrated";
   const score = paper.score == null ? relevance : `${relevance} ${paper.score}`;
   const topline = featured
     ? (paper.method ? <span className="tag method-tag" title="研究方法">{paper.method}</span> : <span className={`badge ${(paper.relevance || "").toLowerCase()}`}>{paper.relevance || "精选"}</span>)
     : <span className={`badge ${(paper.relevance || "").toLowerCase()}`}>{score}</span>;
+  const title = language === "zh" && paper.title_zh ? paper.title_zh : paper.title;
   return <article className="paper-card" key={paper.id || paper.title}>
     <div className="paper-topline">{topline}<time>{paper.published_date || "日期待补充"}</time></div>
-    {paper.source_url ? <a className="paper-title" href={paper.source_url} target="_blank" rel="noreferrer">{paper.title}</a> : <h3 className="paper-title">{paper.title}</h3>}
+    {paper.source_url ? <a className="paper-title" href={paper.source_url} target="_blank" rel="noreferrer">{title}</a> : <h3 className="paper-title">{title}</h3>}
     {paper.authors && <p className="paper-meta">{asText(paper.authors)}</p>}
     {paper.summary && <p className="paper-summary">{paper.summary}</p>}
     {!featured && paper.reason && <p className="paper-reason">{paper.reason}</p>}
@@ -72,6 +74,7 @@ interface JournalReadingListProps {
 export function JournalReadingList({ journal, featuredPapers, allPapers }: JournalReadingListProps) {
   const [view, setView] = useState("featured");
   const [grouping, setGrouping] = useState("date");
+  const [language, setLanguage] = useState<PaperLanguage>("original");
 
   const featuredReading = useMemo(() => sortPapers(featuredPapers), [featuredPapers]);
   const allReading = useMemo(() => sortPapers(allPapers), [allPapers]);
@@ -82,9 +85,9 @@ export function JournalReadingList({ journal, featuredPapers, allPapers }: Journ
       <Link className="back-to-library" href="/journals/"><ArrowLeft size={16} /> 返回期刊书库</Link>
       <header className="journal-reading-header"><h1>{journal.name}</h1></header>
       <section className="reading-list" aria-label={`${journal.name} 精读列表`}>
-        <div className="section-heading"><h2>论文列表</h2><div className="reading-actions"><Tabs value={view} onValueChange={setView}><TabsList aria-label="论文范围"><TabsTrigger value="featured">精选精读 {featuredReading.length}</TabsTrigger><TabsTrigger value="all">全部论文 {allReading.length}</TabsTrigger></TabsList></Tabs><Tabs value={grouping} onValueChange={setGrouping}><TabsList aria-label="论文排序"><TabsTrigger value="date"><CalendarDays size={14} aria-hidden="true" />按发布日期</TabsTrigger><TabsTrigger value="issue"><Layers3 size={14} aria-hidden="true" />按 Issue</TabsTrigger></TabsList></Tabs></div></div>
-        {!reading.length ? <div className="empty-state"><b>{view === "all" ? "本期刊暂未有公开论文" : "本期刊暂未有公开精选"}</b></div> : grouping === "date" ? <div className="timeline date-feed">{reading.map((paper) => <JournalPaperCard paper={paper} key={paper.id || paper.title} featured={view === "featured"} />)}</div> : <div className="issue-reading-layout">
-          <nav className="issue-sidebar" aria-label={`${journal.name} Issue 导航`}><div className="issue-sidebar-list">{groups.map((group) => <a className="issue-sidebar-link" href={`#issue-${group.key}`} key={group.key}><span>{issueLabel(group)}</span><small>{group.papers.length}</small></a>)}</div></nav><div className="issue-groups">{groups.map((group) => <section className="issue-group" id={`issue-${group.key}`} key={group.key}><header className="issue-group-heading"><h3>{issueLabel(group)}</h3><span>{group.papers.length} 篇</span></header><div className="timeline">{group.papers.map((paper) => <JournalPaperCard paper={paper} key={paper.id || paper.title} featured={view === "featured"} />)}</div></section>)}</div>
+        <div className="section-heading"><h2>论文列表</h2><div className="reading-actions"><Tabs value={view} onValueChange={setView}><TabsList aria-label="论文范围"><TabsTrigger value="featured">精选精读 {featuredReading.length}</TabsTrigger><TabsTrigger value="all">全部论文 {allReading.length}</TabsTrigger></TabsList></Tabs><Tabs value={grouping} onValueChange={setGrouping}><TabsList aria-label="论文排序"><TabsTrigger value="date"><CalendarDays size={14} aria-hidden="true" />按发布日期</TabsTrigger><TabsTrigger value="issue"><Layers3 size={14} aria-hidden="true" />按 Issue</TabsTrigger></TabsList></Tabs><LanguageToggle value={language} onValueChange={setLanguage} /></div></div>
+        {!reading.length ? <div className="empty-state"><b>{view === "all" ? "本期刊暂未有公开论文" : "本期刊暂未有公开精选"}</b></div> : grouping === "date" ? <div className="timeline date-feed">{reading.map((paper) => <JournalPaperCard paper={paper} key={paper.id || paper.title} featured={view === "featured"} language={language} />)}</div> : <div className="issue-reading-layout">
+          <nav className="issue-sidebar" aria-label={`${journal.name} Issue 导航`}><div className="issue-sidebar-list">{groups.map((group) => <a className="issue-sidebar-link" href={`#issue-${group.key}`} key={group.key}><span>{issueLabel(group)}</span><small>{group.papers.length}</small></a>)}</div></nav><div className="issue-groups">{groups.map((group) => <section className="issue-group" id={`issue-${group.key}`} key={group.key}><header className="issue-group-heading"><h3>{issueLabel(group)}</h3><span>{group.papers.length} 篇</span></header><div className="timeline">{group.papers.map((paper) => <JournalPaperCard paper={paper} key={paper.id || paper.title} featured={view === "featured"} language={language} />)}</div></section>)}</div>
         </div>}
       </section>
   </div>;

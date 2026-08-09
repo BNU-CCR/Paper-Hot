@@ -43,6 +43,13 @@ class Paper:
     created_at: str = ""
     updated_at: str = ""
     is_retracted: bool = False
+    title_zh: str = ""
+    abstract_zh: str = ""
+    translation_model: str = ""
+    translation_source_hash: str = ""
+    translation_status: str = ""
+    translation_error: str = ""
+    translated_at: str = ""
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
@@ -174,6 +181,13 @@ class PaperStorage:
             "issue": "TEXT",
             "bibliography_checked_at": "TEXT",
             "method": "TEXT",
+            "title_zh": "TEXT",
+            "abstract_zh": "TEXT",
+            "translation_model": "TEXT",
+            "translation_source_hash": "TEXT",
+            "translation_status": "TEXT",
+            "translation_error": "TEXT",
+            "translated_at": "TEXT",
         }
         for column, column_type in new_columns.items():
             if column not in existing_columns:
@@ -250,6 +264,66 @@ class PaperStorage:
                 changed += 1
             conn.commit()
         return changed
+
+    @staticmethod
+    def translation_source_hash(title: str, abstract: str) -> str:
+        content = f"{title.strip()}\n{abstract.strip()}"
+        return hashlib.sha256(content.encode("utf-8")).hexdigest()
+
+    def get_papers_needing_translation(self, limit: int = 100) -> List[Paper]:
+        """Return public-library papers with missing or stale Chinese translations."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT * FROM papers
+                WHERE source_type = 'openalex'
+                  AND screening_status != 'quarantined'
+                ORDER BY published_date DESC, id DESC
+            """)
+            pending = []
+            for row in cursor.fetchall():
+                paper = Paper(**self._normalize_row(dict(row)))
+                source_hash = self.translation_source_hash(paper.title, paper.abstract)
+                complete = bool(paper.title_zh) and (not paper.abstract or bool(paper.abstract_zh))
+                if complete and paper.translation_source_hash == source_hash:
+                    continue
+                pending.append(paper)
+                if len(pending) >= limit:
+                    break
+            return pending
+
+    def update_paper_translation(
+        self,
+        paper_id: int,
+        title_zh: str,
+        abstract_zh: str,
+        model: str,
+        source_hash: str,
+    ) -> bool:
+        now = datetime.now().isoformat()
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                UPDATE papers
+                SET title_zh = ?, abstract_zh = ?, translation_model = ?,
+                    translation_source_hash = ?, translation_status = 'translated',
+                    translation_error = '', translated_at = ?, updated_at = ?
+                WHERE id = ?
+            """, (title_zh, abstract_zh, model, source_hash, now, now, paper_id))
+            conn.commit()
+            return cursor.rowcount > 0
+
+    def mark_translation_error(self, paper_id: int, message: str) -> bool:
+        now = datetime.now().isoformat()
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                UPDATE papers
+                SET translation_status = 'error', translation_error = ?, updated_at = ?
+                WHERE id = ?
+            """, (message[:1000], now, paper_id))
+            conn.commit()
+            return cursor.rowcount > 0
 
     def paper_exists(self, link: str = "", doi: str = "") -> bool:
         """检查论文是否已存在"""

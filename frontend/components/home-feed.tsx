@@ -10,6 +10,7 @@ import { Dialog, DialogContent, DialogDescription, DialogTitle } from "./ui/dial
 import { Input } from "./ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
+import { LanguageToggle, type PaperLanguage } from "./language-toggle";
 
 const masonryColumns = { default: 3, 1080: 2, 680: 1 };
 
@@ -39,7 +40,7 @@ function displayDate(value: string): string {
     : date.toLocaleDateString("zh-CN", { year: "numeric", month: "long", day: "numeric", weekday: "short" });
 }
 
-function PaperCard({ paper, featured, onOpen }: { paper: Paper; featured?: boolean; onOpen: (paper: Paper) => void }) {
+function PaperCard({ paper, featured, language, onOpen }: { paper: Paper; featured?: boolean; language: PaperLanguage; onOpen: (paper: Paper) => void }) {
   const relevance = paper.relevance || "Unrated";
   const score = paper.score == null ? relevance : `${relevance} ${paper.score}`;
   // In the featured feed every paper is High, so the relevance badge is
@@ -47,12 +48,13 @@ function PaperCard({ paper, featured, onOpen }: { paper: Paper; featured?: boole
   const topline = featured
     ? (paper.method ? <span className="tag method-tag" title="研究方法">{paper.method}</span> : <span className={`badge ${relevance.toLowerCase()}`}>{relevance}</span>)
     : <span className={`badge ${relevance.toLowerCase()}`}>{score}</span>;
+  const title = language === "zh" && paper.title_zh ? paper.title_zh : paper.title;
   return (
     <article
       className="paper-card paper-card-interactive"
       role="button"
       tabIndex={0}
-      aria-label={`查看论文详情：${paper.title || "未命名论文"}`}
+      aria-label={`查看论文详情：${title || "未命名论文"}`}
       onClick={() => onOpen(paper)}
       onKeyDown={(event) => {
         if (event.key === "Enter" || event.key === " ") {
@@ -65,7 +67,7 @@ function PaperCard({ paper, featured, onOpen }: { paper: Paper; featured?: boole
         {topline}
         <time>{paper.published_date || "日期待补充"}</time>
       </div>
-      <h3 className="paper-title">{paper.title || "Untitled paper"}</h3>
+      <h3 className="paper-title">{title || "Untitled paper"}</h3>
       {(paper.authors || paper.journal) && <p className="paper-meta">{[displayAuthors(paper.authors), paper.journal].filter(Boolean).join(" · ")}</p>}
       {paper.summary && <p className="paper-summary">{paper.summary}</p>}
       {!featured && paper.reason && <p className="paper-reason">{paper.reason}</p>}
@@ -81,9 +83,11 @@ function PaperCard({ paper, featured, onOpen }: { paper: Paper; featured?: boole
   );
 }
 
-function PaperDetailDialog({ paper, onOpenChange }: { paper: Paper | null; onOpenChange: (open: boolean) => void }) {
+function PaperDetailDialog({ paper, language, onOpenChange }: { paper: Paper | null; language: PaperLanguage; onOpenChange: (open: boolean) => void }) {
   if (!paper) return null;
   const publication = [paper.journal, paper.volume && `Vol. ${paper.volume}`, paper.issue && `Issue ${paper.issue}`].filter(Boolean).join(" · ");
+  const title = language === "zh" && paper.title_zh ? paper.title_zh : paper.title;
+  const abstract = language === "zh" && paper.abstract_zh ? paper.abstract_zh : paper.abstract;
   return (
     <Dialog open={Boolean(paper)} onOpenChange={onOpenChange}>
       <DialogContent>
@@ -92,12 +96,12 @@ function PaperDetailDialog({ paper, onOpenChange }: { paper: Paper | null; onOpe
             {paper.method && <span className="tag method-tag">{paper.method}</span>}
             <time>{displayDate(paper.published_date || "")}</time>
           </div>
-          <DialogTitle className="paper-dialog-title">{paper.title || "Untitled paper"}</DialogTitle>
+          <DialogTitle className="paper-dialog-title">{title || "Untitled paper"}</DialogTitle>
           {(paper.authors || publication) && <p className="paper-dialog-meta">{[displayAuthors(paper.authors), publication].filter(Boolean).join(" · ")}</p>}
-          {paper.abstract && (
+          {abstract && (
             <section className="paper-dialog-section">
               <h2>摘要</h2>
-              <DialogDescription className="paper-dialog-abstract">{paper.abstract}</DialogDescription>
+              <DialogDescription className="paper-dialog-abstract">{abstract}</DialogDescription>
             </section>
           )}
         </div>
@@ -153,6 +157,7 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
   const [query, setQuery] = useState("");
   const [tagsOpen, setTagsOpen] = useState(false);
   const [layout, setLayout] = useState("auto");
+  const [language, setLanguage] = useState<PaperLanguage>("original");
   const [selectedPaper, setSelectedPaper] = useState<Paper | null>(null);
 
   const source = mode === "all" ? allPapers : featured;
@@ -169,7 +174,7 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
     if (method !== "all" && paper.method !== method) return false;
     if (selectedTags.length && !(paper.tags || []).some((item) => selectedTags.some((selected) => item.toLowerCase() === selected.toLowerCase()))) return false;
     const needle = query.trim().toLowerCase();
-    return !needle || [paper.title, paper.summary, paper.reason, paper.journal, asText(paper.authors), asText(paper.tags), paper.method || ""].join(" ").toLowerCase().includes(needle);
+    return !needle || [paper.title, paper.title_zh, paper.abstract_zh, paper.summary, paper.reason, paper.journal, asText(paper.authors), asText(paper.tags), paper.method || ""].join(" ").toLowerCase().includes(needle);
   })), [source, relevance, journal, method, selectedTags, query]);
 
   const toggleTag = (item: string) => {
@@ -186,7 +191,7 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
           <div className="headline"><h1>Paper HOT</h1></div>
           <div className="toolbar shadcn-controls">
             <Tabs value={mode} onValueChange={(value) => { setMode(value); if (value === "featured") setRelevance("all"); }}><TabsList aria-label="数据范围"><TabsTrigger value="featured">精选</TabsTrigger><TabsTrigger value="all">期刊全量</TabsTrigger></TabsList></Tabs>
-            {mode === "all" && <Tabs value={relevance} onValueChange={setRelevance}><TabsList aria-label="相关性筛选"><TabsTrigger value="all">全部</TabsTrigger><TabsTrigger value="High">高相关</TabsTrigger><TabsTrigger value="Medium">其他相似文章</TabsTrigger></TabsList></Tabs>}<Select value={journal} onValueChange={setJournal}><SelectTrigger aria-label="期刊筛选"><SelectValue placeholder="全部期刊" /></SelectTrigger><SelectContent><SelectItem value="all">全部期刊</SelectItem>{journals.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select><Select value={method} onValueChange={setMethod}><SelectTrigger aria-label="方法筛选"><SelectValue placeholder="全部方法" /></SelectTrigger><SelectContent><SelectItem value="all">全部方法</SelectItem>{methods.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select><label className="search"><span className="sr-only">搜索论文</span><Input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索标题、摘要、作者、期刊、方法、标签" /></label>
+            {mode === "all" && <Tabs value={relevance} onValueChange={setRelevance}><TabsList aria-label="相关性筛选"><TabsTrigger value="all">全部</TabsTrigger><TabsTrigger value="High">高相关</TabsTrigger><TabsTrigger value="Medium">其他相似文章</TabsTrigger></TabsList></Tabs>}<Select value={journal} onValueChange={setJournal}><SelectTrigger aria-label="期刊筛选"><SelectValue placeholder="全部期刊" /></SelectTrigger><SelectContent><SelectItem value="all">全部期刊</SelectItem>{journals.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select><Select value={method} onValueChange={setMethod}><SelectTrigger aria-label="方法筛选"><SelectValue placeholder="全部方法" /></SelectTrigger><SelectContent><SelectItem value="all">全部方法</SelectItem>{methods.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select><label className="search"><span className="sr-only">搜索论文</span><Input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索标题、摘要、作者、期刊、方法、标签" /></label><LanguageToggle value={language} onValueChange={setLanguage} />
           </div>
         </section>
 
@@ -198,9 +203,9 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
         </Collapsible>
 
         <section className="feed"><div className="section-heading"><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2><div className="feed-heading-actions"><span className="count">{papers.length} 篇</span>{mode === "featured" && <Tabs value={layout} onValueChange={setLayout}><TabsList aria-label="卡片布局" className="layout-tabs"><TabsTrigger value="single" aria-label="单栏布局" title="单栏布局"><Rows3 aria-hidden="true" /></TabsTrigger><TabsTrigger value="auto" aria-label="自动多栏布局" title="自动多栏布局"><LayoutGrid aria-hidden="true" /></TabsTrigger></TabsList></Tabs>}</div></div>
-          {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? layout === "single" ? <div className="paper-single-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured onOpen={setSelectedPaper} />)}</div> : <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured onOpen={setSelectedPaper} />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} onOpen={setSelectedPaper} />)}</section>)}</div>}
+          {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? layout === "single" ? <div className="paper-single-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured language={language} onOpen={setSelectedPaper} />)}</div> : <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured language={language} onOpen={setSelectedPaper} />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} language={language} onOpen={setSelectedPaper} />)}</section>)}</div>}
         </section>
-        <PaperDetailDialog paper={selectedPaper} onOpenChange={(open) => { if (!open) setSelectedPaper(null); }} />
+        <PaperDetailDialog paper={selectedPaper} language={language} onOpenChange={(open) => { if (!open) setSelectedPaper(null); }} />
     </div>
   );
 }

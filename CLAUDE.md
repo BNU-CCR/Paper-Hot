@@ -51,6 +51,8 @@ Keyword search and Semantic Scholar are supplemental, not the primary ingestion 
 
 **API keys live only in the cloud.** `ANTHROPIC_API_KEY` (DeepSeek Anthropic-compatible), `SEMANTIC_SCHOLAR_API_KEY`, and the repo variables (`ANTHROPIC_BASE_URL`, `AI_MODEL`) are GitHub Actions secrets / variables — they are **not** present in local `.env` or the sandbox. `backend/data/papers.db` is likewise only on the Actions cache.
 
+`SILICONFLOW_API_KEY` is also GitHub-Actions-only. It powers title/abstract translation through `tencent/Hunyuan-MT-7B`; `translate-paper-library.yml` performs the one-time resumable backfill, while `weekly-update.yml` translates new or stale records automatically. Do not run the real translation workflow until the secret has been added.
+
 Consequence for development:
 
 - Any code path that actually calls the LLM (AI screening, `label-methods`, hotspot topic labeling) **cannot be executed locally** — there is no key. Smoke-test it locally against **mocks** (see `backend/tests/test_filter.py` for the mock-client pattern), then hand the real run to GitHub Actions (weekly-update / backfill-journals / rebuild-hotspot-network).

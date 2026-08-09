@@ -95,6 +95,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
         run: |
           journal-tracker sanitize-titles
           args=(
@@ -169,6 +170,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Save the updated working database
+        if: always() && steps.database-state.outputs.restored == 'true'
         uses: actions/cache/save@v4
         with:
           path: backend/data/papers.db
