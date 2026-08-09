@@ -121,7 +121,9 @@ class SemanticScholarAuthorClient(_RetryingJsonClient):
             rows = self._request(
                 "POST",
                 f"{self.API}/author/batch",
-                params={"fields": "name,aliases,affiliations,externalIds"},
+                # The Graph Author endpoint exposes stable IDs, aliases, and
+                # affiliations but does not accept Paper-only externalIds.
+                params={"fields": "name,aliases,affiliations"},
                 json={"ids": ids},
             )
             if isinstance(rows, list):
@@ -131,12 +133,11 @@ class SemanticScholarAuthorClient(_RetryingJsonClient):
         for order, item in enumerate(basic):
             author_id = str(item.get("authorId") or "")
             detail = details.get(author_id, {})
-            external_ids = detail.get("externalIds") or {}
             result.append({
                 "order": order,
                 "author_id": author_id,
                 "name": str(detail.get("name") or item.get("name") or "").strip(),
-                "orcid": normalize_orcid(external_ids.get("ORCID")),
+                "orcid": "",
                 "aliases": _unique_strings(detail.get("aliases") or []),
                 "affiliations": _unique_strings(detail.get("affiliations") or []),
             })

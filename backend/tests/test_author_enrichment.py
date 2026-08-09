@@ -36,6 +36,39 @@ class AuthorEnrichmentTests(unittest.TestCase):
     def test_name_normalization_handles_punctuation_and_diacritics(self):
         self.assertEqual(normalize_person_name("José M. Pérez"), "josemperez")
 
+    def test_semantic_author_batch_requests_supported_fields_only(self):
+        from journal_tracker.author_enrichment import SemanticScholarAuthorClient
+
+        class Response:
+            def __init__(self, payload):
+                self.payload = payload
+
+            status_code = 200
+            headers = {}
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return self.payload
+
+        class Session:
+            def __init__(self):
+                self.headers = {}
+                self.calls = []
+
+            def request(self, method, url, **kwargs):
+                self.calls.append((method, url, kwargs))
+                if len(self.calls) == 1:
+                    return Response({"authors": [{"authorId": "S1", "name": "Alice"}]})
+                return Response([{"authorId": "S1", "name": "Alice", "affiliations": []}])
+
+        session = Session()
+        client = SemanticScholarAuthorClient(session=session)
+        client.fetch_paper_authors("10.1/test")
+        self.assertEqual(len(session.calls), 2)
+        self.assertEqual(session.calls[1][2]["params"]["fields"], "name,aliases,affiliations")
+
     def test_match_uses_orcid_then_paper_scoped_name(self):
         authors, ambiguous = match_paper_authors(
             StaticCrossrefClient().fetch_authors("10.1/test"),
