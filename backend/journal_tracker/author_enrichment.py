@@ -118,16 +118,20 @@ class SemanticScholarAuthorClient(_RetryingJsonClient):
         ids = [str(item.get("authorId")) for item in basic if item.get("authorId")]
         details: Dict[str, Dict[str, Any]] = {}
         if ids:
-            rows = self._request(
-                "POST",
-                f"{self.API}/author/batch",
-                # The Graph Author endpoint exposes stable IDs, aliases, and
-                # affiliations but does not accept Paper-only externalIds.
-                params={"fields": "name,aliases,affiliations"},
-                json={"ids": ids},
-            )
-            if isinstance(rows, list):
-                details = {str(row.get("authorId")): row for row in rows if row}
+            try:
+                rows = self._request(
+                    "POST",
+                    f"{self.API}/author/batch",
+                    params={"fields": "name,aliases,affiliations"},
+                    json={"ids": ids},
+                )
+                if isinstance(rows, list):
+                    details = {str(row.get("authorId")): row for row in rows if row}
+            except requests.RequestException as exc:
+                # Paper authors already carry stable authorId + name. Keep that
+                # useful identity evidence when optional author profiles are
+                # unavailable or anonymously rate-limited.
+                print(f"  Semantic Scholar author profiles unavailable: {exc}")
 
         result = []
         for order, item in enumerate(basic):
