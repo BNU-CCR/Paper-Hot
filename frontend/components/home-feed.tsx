@@ -92,7 +92,7 @@ function PaperDetailDialog({ paper, onOpenChange }: { paper: Paper | null; onOpe
           {(paper.authors || publication) && <p className="paper-dialog-meta">{[asText(paper.authors), publication].filter(Boolean).join(" · ")}</p>}
           {paper.abstract && (
             <section className="paper-dialog-section">
-              <h2>英文摘要</h2>
+              <h2>摘要</h2>
               <DialogDescription className="paper-dialog-abstract">{paper.abstract}</DialogDescription>
             </section>
           )}
