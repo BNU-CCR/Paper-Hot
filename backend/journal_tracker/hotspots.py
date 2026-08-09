@@ -134,7 +134,12 @@ def _parse_date(value: str) -> Optional[date]:
 
 def _public_papers(storage: PaperStorage) -> List[Dict[str, Any]]:
     exporter = PublicPaperExporter(storage)
-    return [exporter._serialize_paper(paper) for paper in storage.get_public_papers(limit=10000)]
+    papers = storage.get_public_papers(limit=10000)
+    institutions = storage.get_paper_institutions([int(paper.id) for paper in papers if paper.id])
+    return [
+        exporter._serialize_paper(paper, institutions.get(int(paper.id or 0), []))
+        for paper in papers
+    ]
 
 
 def generate_monthly_hotspots(config: Config) -> Path:
