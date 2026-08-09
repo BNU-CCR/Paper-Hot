@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Masonry from "react-masonry-css";
-import { ChevronDown, ExternalLink } from "lucide-react";
+import { ChevronDown, ExternalLink, LayoutGrid, Rows3 } from "lucide-react";
 import type { Paper } from "../types/paper";
 import { Button } from "./ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
@@ -124,6 +124,21 @@ interface HomeFeedProps {
   allPapers: Paper[];
 }
 
+function TopicButton({ item, count, selected, onClick }: { item: string; count: number; selected: boolean; onClick: () => void }) {
+  return (
+    <Button
+      variant={selected ? "secondary" : "outline"}
+      size="sm"
+      className="topic-button"
+      onClick={onClick}
+      aria-pressed={selected}
+    >
+      <span>{item}</span>
+      <span className="topic-count">{count}</span>
+    </Button>
+  );
+}
+
 export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
   const [mode, setMode] = useState("featured");
   const [relevance, setRelevance] = useState("all");
@@ -132,6 +147,7 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
   const [tag, setTag] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [tagsOpen, setTagsOpen] = useState(false);
+  const [layout, setLayout] = useState("auto");
   const [selectedPaper, setSelectedPaper] = useState<Paper | null>(null);
 
   const source = mode === "all" ? allPapers : featured;
@@ -163,13 +179,13 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
 
         <Collapsible className="topics-panel" open={tagsOpen} onOpenChange={setTagsOpen}>
           <div className="section-heading"><h2>主题标签</h2><div className="section-actions"><CollapsibleTrigger asChild><Button variant="ghost" size="sm"><ChevronDown size={14} aria-hidden="true" className={`chevron-icon ${tagsOpen ? "open" : ""}`} />{tagsOpen ? "收起标签" : `展开全部 ${tags.length} 个标签`}</Button></CollapsibleTrigger>{tag && <Button variant="ghost" size="sm" onClick={() => setTag(null)} aria-label={`清除主题筛选：${tag}`}>清除筛选</Button>}</div></div>
-          <div className="tag-cloud">{tags.slice(0, 12).map(([item, count]) => <Button key={item} variant={tag === item ? "default" : "outline"} size="sm" className="tag" onClick={() => setTag(tag === item ? null : item)} aria-pressed={tag === item}>{item}<small>{count}</small></Button>)}</div>
-          <CollapsibleContent><div className="tag-cloud extra-tags">{tags.slice(12).map(([item, count]) => <Button key={item} variant={tag === item ? "default" : "outline"} size="sm" className="tag" onClick={() => setTag(tag === item ? null : item)} aria-pressed={tag === item}>{item}<small>{count}</small></Button>)}</div></CollapsibleContent>
+          <div className="tag-cloud">{tags.slice(0, 12).map(([item, count]) => <TopicButton key={item} item={item} count={count} selected={tag === item} onClick={() => setTag(tag === item ? null : item)} />)}</div>
+          <CollapsibleContent><div className="tag-cloud extra-tags">{tags.slice(12).map(([item, count]) => <TopicButton key={item} item={item} count={count} selected={tag === item} onClick={() => setTag(tag === item ? null : item)} />)}</div></CollapsibleContent>
           {tag && <div className="topic-filter-status" role="status" aria-live="polite"><span>当前筛选</span><b>{tag}</b><span>{papers.length} 篇</span></div>}
         </Collapsible>
 
-        <section className="feed"><div className="section-heading"><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2><span className="count">{papers.length} 篇</span></div>
-          {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured onOpen={setSelectedPaper} />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} onOpen={setSelectedPaper} />)}</section>)}</div>}
+        <section className="feed"><div className="section-heading"><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2><div className="feed-heading-actions"><span className="count">{papers.length} 篇</span>{mode === "featured" && <Tabs value={layout} onValueChange={setLayout}><TabsList aria-label="卡片布局" className="layout-tabs"><TabsTrigger value="single" aria-label="单栏布局" title="单栏布局"><Rows3 aria-hidden="true" /></TabsTrigger><TabsTrigger value="auto" aria-label="自动多栏布局" title="自动多栏布局"><LayoutGrid aria-hidden="true" /></TabsTrigger></TabsList></Tabs>}</div></div>
+          {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? layout === "single" ? <div className="paper-single-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured onOpen={setSelectedPaper} />)}</div> : <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured onOpen={setSelectedPaper} />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} onOpen={setSelectedPaper} />)}</section>)}</div>}
         </section>
         <PaperDetailDialog paper={selectedPaper} onOpenChange={(open) => { if (!open) setSelectedPaper(null); }} />
     </div>

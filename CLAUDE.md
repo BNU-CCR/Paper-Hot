@@ -10,6 +10,12 @@ Historical planning documents are under `docs/archive/`.
 
 Frontend UI design conventions (shadcn, single heading per section, no placeholder hints) live in `AGENTS.md` — read it before touching frontend code.
 
+## Frontend Commit Convention
+
+- For frontend-only changes under `frontend/` (components, styles, types, or static presentation logic), after typecheck and the production build pass, commit and push directly to `main` by default. Do not create a branch or PR, and do not ask again whether to push.
+- If a change also touches the backend, data pipeline, workflows, or another higher-risk area, continue to use the small-PR workflow in `AGENTS.md` unless the user explicitly requests otherwise.
+- Before a direct push, confirm the current branch is `main` and keep unrelated working-tree changes out of the commit.
+
 ## Current Product Direction
 
 Use the journal-first workflow as the default:
