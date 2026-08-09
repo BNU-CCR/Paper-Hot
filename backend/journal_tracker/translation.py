@@ -9,6 +9,7 @@ from typing import Callable, List, Optional, Tuple
 import requests
 
 from .storage import Paper, PaperStorage
+from .text import clean_translated_abstract, clean_translated_title
 
 
 class TranslationAuthError(RuntimeError):
@@ -119,12 +120,14 @@ class SiliconFlowTranslator:
 
     def translate_paper(self, paper: Paper) -> Tuple[str, str]:
         return (
-            self.translate_text(paper.title, "标题"),
-            self.translate_text(paper.abstract, "摘要") if paper.abstract else "",
+            clean_translated_title(self.translate_text(paper.title, "标题")),
+            clean_translated_abstract(self.translate_text(paper.abstract, "摘要")) if paper.abstract else "",
         )
 
 
 def translate_pending_papers(storage: PaperStorage, translator: SiliconFlowTranslator, limit: int) -> dict:
+    storage.sanitize_translated_titles()
+    storage.sanitize_translated_abstracts()
     papers = storage.get_papers_needing_translation(limit)
     translated = 0
     failed = 0
