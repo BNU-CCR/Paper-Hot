@@ -1,0 +1,264 @@
+{
+  "topic_id": "topic_997f19cf",
+  "label": "数字身份政治与平台迁移",
+  "description": "探讨性别、身份认同在社交媒体上的建构及跨平台迁移现象。",
+  "why_hot": "近30天6篇，速度上升7%，覆盖10本期刊，平台迁移热点。",
+  "hot_score": 70,
+  "growth": 0.071,
+  "growth_rate": 0.071,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.1867,
+  "recent_count": 6,
+  "baseline_count": 28,
+  "journal_count": 10,
+  "lineage_status": "continued",
+  "status": "hot",
+  "keywords": [
+    "性别",
+    "身份政治",
+    "标签行动",
+    "TikTok难民",
+    "平台迁移"
+  ],
+  "papers": [
+    {
+      "id": 1897,
+      "title": "Twitter Conversations: Gendered Issue Publics Among Women",
+      "journal": "Communication Research",
+      "published_date": "2026-08-03",
+      "summary": "利用2020和2022选举期间Twitter数据，分析性别与党派如何影响女性政治议题讨论，发现精英与非精英用户差异。"
+    },
+    {
+      "id": 13,
+      "title": "Social media, social identity, and the construction of perceived gender conflict: evidence from a national survey in South Korea",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
+    },
+    {
+      "id": 244,
+      "title": "From marginality to mobilization: the emergence of a pro-Russian digital community in the Spanish-speaking sphere",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-24",
+      "summary": "探讨西班牙语圈亲俄数字社区如何从边缘走向动员，分析其形成机制与传播动态。"
+    },
+    {
+      "id": 57,
+      "title": "Everyday feminist tagging as techno-rhetorical strategy: interference and curation through Instagram hashtags in #Kvinnostrejk",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-22",
+      "summary": "研究瑞典女性主义倡议#Kvinnostreik的日常标签实践，提出技术修辞策略概念，分析标签如何影响可见性并串联叙事，属数字文化研究。"
+    },
+    {
+      "id": 395,
+      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-19",
+      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
+    },
+    {
+      "id": 248,
+      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-13",
+      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
+    },
+    {
+      "id": 68,
+      "title": "Linking names with frames: the interplay of moral entities and moral frames in Chinese online gender debates",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-07",
+      "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
+    },
+    {
+      "id": 251,
+      "title": "Disinformation, social inequalities and young people’s digital citizenship during conflict and crisis in Ethiopia",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-02",
+      "summary": "研究埃塞俄比亚冲突期间青年数字公民身份中的性别与地域不平等，探讨其如何影响虚假信息传播及政治参与。"
+    },
+    {
+      "id": 253,
+      "title": "No time or tech for online news: How social and digital inequalities contribute to gender gaps in online news consumption",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-29",
+      "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
+    },
+    {
+      "id": 76,
+      "title": "Balancing personalization and privacy: datafication challenges in socially assistive robotics for older persons",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-23",
+      "summary": "通过18位专家访谈，探究老年人社交辅助机器人开发中个性化与隐私的张力，揭示数据化悖论，提出四类机器人分类。"
+    },
+    {
+      "id": 82,
+      "title": "From swipes to intimacy: dating app adoption and offline hookup intention among male rural migrant workers",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-15",
+      "summary": "基于中国男性农民工调查数据，整合使用与满足和社会学习理论，考察约会应用采用的影响因素及对线下勾搭意图的中介作用，发现动机、社会认同、社会比较等通过采用影响意图，且受伦理疑虑调节。"
+    },
+    {
+      "id": 256,
+      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-15",
+      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
+    },
+    {
+      "id": 86,
+      "title": "Reddit users’ reactance to the 2025 CDC Data Purge: Characterizing the removal of health information as a perceived threat to individual freedom",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-12",
+      "summary": "研究Reddit用户对2025年CDC数据清除的反应，基于心理抗拒理论，通过主题分析识别用户如何将信息删除视为自由威胁并采取存档行动。"
+    },
+    {
+      "id": 87,
+      "title": "The viral gender antagonism on social media: examining the role of multimodal framing and gender identity",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-11",
+      "summary": "研究基于微博22,925条帖子和115万条评论，运用广义线性混合模型分析多模态框架和性别身份对性别对抗性话语的影响，发现煽情化和个性化框架加剧对抗，娱乐化框架减弱对抗，且性别动态具有调节作用。"
+    },
+    {
+      "id": 373,
+      "title": "Intimate data performativity: Taiwanese women’s self-care practices with menstrual tracking apps",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-06-11",
+      "summary": "研究台湾女性使用经期追踪应用时，如何与算法系统、文化期望和身体经验协商，提出亲密数据表演性概念，探讨预测协商、自我优化和数据共享中的赋能与控制张力。"
+    },
+    {
+      "id": 88,
+      "title": "Mediated information grounds: living with(in) <i>pareshani</i> , social networks and gendered media practices among the Rohingya refugees",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-08",
+      "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
+    },
+    {
+      "id": 258,
+      "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-05",
+      "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
+    },
+    {
+      "id": 218,
+      "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
+      "journal": "Political Communication",
+      "published_date": "2026-05-27",
+      "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
+    },
+    {
+      "id": 106,
+      "title": "Bad domains: exposure to malicious content online",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-08",
+      "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
+    },
+    {
+      "id": 507,
+      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-05-02",
+      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
+    },
+    {
+      "id": 110,
+      "title": "Public discourses on sex work in Reddit digital communities: a computational approach",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-30",
+      "summary": "运用结构主题建模和定性内容分析，研究Reddit上r/SexWorkers和r/OnlyFans社区超3.8万条评论，归纳17个主题，揭示平台在污名化与支持之间的双重角色。"
+    },
+    {
+      "id": 637,
+      "title": "Intimate surveillance of the ordinary: youth’s negotiation of digital location tracking with parents and peers",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "基于比利时147名青少年的21场焦点小组，探讨青年与父母同伴协商数字位置跟踪的边界规则与策略，揭示其对日常监控文化的接受与抵抗。"
+    },
+    {
+      "id": 124,
+      "title": "Digital resistance and gendered dispossession: Palestinian women’s struggles for inheritance justice",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-11",
+      "summary": "通过分析巴勒斯坦两个Facebook支持小组的305条帖子，探讨女性继承权被剥夺现象，揭示法律、文化和家庭压力如何导致女性被迫放弃继承权，并呼吁法律与社会改革。"
+    },
+    {
+      "id": 125,
+      "title": "Social media platforms and the spreading of hate speech targeting sexual and gender minorities: a scoping review",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-11",
+      "summary": "通过范围综述和BERTopic主题建模，系统梳理了145篇研究，分析不同社交媒体平台特性（内容模态、可供性）与针对性少数群体仇恨言论传播的关系，发现Twitter/X研究最多，文本内容为主，并呼吁关注视觉内容与平台动态。"
+    },
+    {
+      "id": 297,
+      "title": "Understanding Engagement With Platform Safety Technology for Reducing Exposure to Online Harms",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "基于英国成人全国调查，考察用户对平台安全技术的认知、使用与满意度，发现在线伤害普遍，事后工具使用率高但满意度低，数字素养和性别影响使用。"
+    },
+    {
+      "id": 306,
+      "title": "Bystanders and Reporters: Who Acts Against Illegal Online Content?",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "研究德国举报非法在线内容的用户特征，发现其多为年长、高学历、左倾且公民参与度高的人群，将举报视为数字公民参与形式。"
+    },
+    {
+      "id": 307,
+      "title": "Afghanistan’s Digital Diaspora: Conflicted Constructions of Nation and Identity",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该论文通过民族志方法分析2021-2024年间X平台关于阿富汗的帖子，探讨离散社群与国内用户如何围绕民族、标签和语言展开排斥性话语，重塑族群分裂。"
+    },
+    {
+      "id": 311,
+      "title": "When Not to Post: Inhibition and the Digital Presentation of Self of Muslim Women",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过50次深度访谈，研究科威特和新西兰穆斯林女性在社交媒体上的抑制机制，发现数字克制受受众控制和内容永久性影响，并受文化背景调节。"
+    },
+    {
+      "id": 547,
+      "title": "Longitudinal associations among social relationship closeness, cyberbullying victimization experience, and bystander defending behavior in cyberbullying: a random intercept cross-lagged panel model",
+      "journal": "Communication Research Reports",
+      "published_date": "2026-03-12",
+      "summary": "基于社会纽带理论，对1176名大学生进行三波纵向调查，使用随机截距交叉滞后面板模型，考察网络欺凌受害经历、社会关系亲密度和旁观者捍卫行为间的纵向关联。"
+    },
+    {
+      "id": 151,
+      "title": "Safety work repertoires and dating platforms: how users of Tinder and Bumble manage their safety",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-09",
+      "summary": "基于42名美国约会应用用户的深度访谈，提出用户发展出的安全工作技能库，包括筛选、信息策略、平台迁移等，以管理自身安全。"
+    },
+    {
+      "id": 728,
+      "title": "Nudging against judging? Mitigating anti-LGBTQIA + online hostility by raising bystanders’ awareness and behavioral intentions",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-02-27",
+      "summary": "实验研究考察社会助推对旁观者干预反LGBTQIA+在线敌意的影响，发现敌意类型影响反应，助推效果不稳定，少数增加负面情绪但未促进行为。"
+    },
+    {
+      "id": 729,
+      "title": "How to do things with a keyword: a cross-cultural analysis of the meanings and functions of ‘values’ on Twitter",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-02-26",
+      "summary": "分析五种语言约1500万条推文中'values'的语境与功能，发现跨文化差异与普遍模式，揭示其作为身份锚定和边界工作的工具。"
+    },
+    {
+      "id": 731,
+      "title": "Standing up to hate: users’ responses to offensive content on social media",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-02-25",
+      "summary": "通过在线调查（N=2526）研究德国用户对社交媒体违法冒犯性内容的回应方式及影响因素，发现举报多于评论，道德价值观和与冒犯者熟悉度等是关键因素。"
+    },
+    {
+      "id": 733,
+      "title": "Veiling online/offline: familial surveillance and patriarchal control in the social media use of conservative stay-at-home Turkish migrant women",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-02-23",
+      "summary": "研究土耳其保守穆斯林移民女性在英国的社交媒体使用，探讨家庭监视与父权控制如何塑造数字实践，基于31名女性的深度访谈。"
+    }
+  ],
+  "paper_edges": []
+}

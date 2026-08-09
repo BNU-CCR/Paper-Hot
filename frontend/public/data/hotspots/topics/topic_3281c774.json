@@ -1,9 +1,9 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "topic_3281c774",
-  "description": "",
-  "why_hot": "",
-  "hot_score": 48,
+  "label": "事实核查与生成式AI的社会影响",
+  "description": "批判性审视事实核查治理与生成式AI使用问题。",
+  "why_hot": "近30天3篇，速度-17%，治理与AI滥用关注度仍存。",
+  "hot_score": 51,
   "growth": -0.167,
   "growth_rate": -0.167,
   "recent_rate": 0.1,
@@ -13,7 +13,12 @@
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [],
+  "keywords": [
+    "事实核查",
+    "生成式AI",
+    "成瘾",
+    "治理"
+  ],
   "papers": [
     {
       "id": 394,

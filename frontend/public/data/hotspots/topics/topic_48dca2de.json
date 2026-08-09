@@ -1,19 +1,25 @@
 {
   "topic_id": "topic_48dca2de",
-  "label": "topic_48dca2de",
-  "description": "",
-  "why_hot": "",
-  "hot_score": 78,
-  "growth": 0.282,
-  "growth_rate": 0.282,
-  "recent_rate": 0.3333,
-  "baseline_rate": 0.26,
-  "recent_count": 10,
-  "baseline_count": 39,
-  "journal_count": 13,
+  "label": "社交媒体政治话语与集体行动",
+  "description": "分析民粹传播、回声室效应及抗议动员中的情感动态。",
+  "why_hot": "近30天5篇，覆盖12本期刊，跨学科关注度高。",
+  "hot_score": 56,
+  "growth": -0.242,
+  "growth_rate": -0.242,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.22,
+  "recent_count": 5,
+  "baseline_count": 33,
+  "journal_count": 12,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [],
+  "keywords": [
+    "民粹主义",
+    "回声室",
+    "政治讨论",
+    "抗议",
+    "情感公众"
+  ],
   "papers": [
     {
       "id": 1902,
@@ -23,32 +29,11 @@
       "summary": "研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。"
     },
     {
-      "id": 1897,
-      "title": "Twitter Conversations: Gendered Issue Publics Among Women",
-      "journal": "Communication Research",
-      "published_date": "2026-08-03",
-      "summary": "利用2020和2022选举期间Twitter数据，分析性别与党派如何影响女性政治议题讨论，发现精英与非精英用户差异。"
-    },
-    {
-      "id": 13,
-      "title": "Social media, social identity, and the construction of perceived gender conflict: evidence from a national survey in South Korea",
-      "journal": "Asian Journal of Communication",
-      "published_date": "2026-07-27",
-      "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
-    },
-    {
       "id": 56,
       "title": "The echoes from social media: modeling how filter bubbles and network structure shape echo chamber emergence",
       "journal": "Information Communication & Society",
       "published_date": "2026-07-27",
       "summary": "通过agent-based模型整合社交网络与意见动态，模拟不同同质性和选择性暴露条件下回音室的形成，发现信息暴露显著影响回音室涌现，而算法过滤不一定保证其持续。"
-    },
-    {
-      "id": 244,
-      "title": "From marginality to mobilization: the emergence of a pro-Russian digital community in the Spanish-speaking sphere",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-24",
-      "summary": "探讨西班牙语圈亲俄数字社区如何从边缘走向动员，分析其形成机制与传播动态。"
     },
     {
       "id": 205,
@@ -72,20 +57,6 @@
       "summary": "研究2024年美国总统辩论期间YouTube直播聊天中的多模态情绪传染，结合面部、语音、文本情绪识别与时间序列分析（N=53,095），发现候选人情绪影响观众，且效果因参与度和政治立场而异。"
     },
     {
-      "id": 395,
-      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-19",
-      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
-    },
-    {
-      "id": 248,
-      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-13",
-      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
-    },
-    {
       "id": 66,
       "title": "Measuring partisan community dynamics: a longitudinal analysis of affective engagement in pro-Bolsonaro Facebook networks",
       "journal": "Information Communication & Society",
@@ -98,13 +69,6 @@
       "journal": "Political Communication",
       "published_date": "2026-07-05",
       "summary": "基于2020年美国大选调查数据，系统检验测量党派媒体倾向和极化的不同方法如何影响研究结果，通过504种操作化方式的规范曲线分析发现方法选择显著影响关系强度。"
-    },
-    {
-      "id": 251,
-      "title": "Disinformation, social inequalities and young people’s digital citizenship during conflict and crisis in Ethiopia",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-02",
-      "summary": "研究埃塞俄比亚冲突期间青年数字公民身份中的性别与地域不平等，探讨其如何影响虚假信息传播及政治参与。"
     },
     {
       "id": 287,
@@ -121,25 +85,11 @@
       "summary": "利用准实验设计，比较有无本地报纸的县域居民，发现缺乏本地报纸减少主流媒体使用，加剧自由派选择性接触，并影响两党虚假信息信念。"
     },
     {
-      "id": 253,
-      "title": "No time or tech for online news: How social and digital inequalities contribute to gender gaps in online news consumption",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-29",
-      "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
-    },
-    {
       "id": 255,
       "title": "The multimodal use of Instagram in Italian politics: how do candidates use verbal and non-verbal strategies during regional elections?",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-06-16",
       "summary": "研究意大利地方选举中候选人如何在Instagram上运用言语和非言语策略，量化分析1194条帖子，发现候选人主要通过平台展示专业性和政策，但不同阵营和性别存在策略差异，且多模态表达常不一致。"
-    },
-    {
-      "id": 256,
-      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-15",
-      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
     },
     {
       "id": 83,
@@ -163,32 +113,11 @@
       "summary": "通过估计YouTube视频意识形态和原创审计设计，发现用户处于轻度意识形态回音室，推荐算法产生内容兔子洞，但未发现激进路径，算法倾向推荐温和保守内容。"
     },
     {
-      "id": 88,
-      "title": "Mediated information grounds: living with(in) <i>pareshani</i> , social networks and gendered media practices among the Rohingya refugees",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-08",
-      "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
-    },
-    {
-      "id": 258,
-      "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-05",
-      "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
-    },
-    {
       "id": 173,
       "title": "Identity–Policy Fusion and Polarization in United States House Campaign Language",
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-06-04",
       "summary": "研究提出身份-政策融合框架，分析美国众议院候选人竞选语言。通过计算文本分析4万余条政策声明，发现融合策略与语言极化显著相关，且共和党效应更强，揭示精英信息加剧党派界限的机制。"
-    },
-    {
-      "id": 218,
-      "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
-      "journal": "Political Communication",
-      "published_date": "2026-05-27",
-      "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
     },
     {
       "id": 260,
@@ -268,13 +197,6 @@
       "summary": "通过定制平台实验（N=1370），考察点赞和回复功能对政治讨论参与、投入和多样性的影响，发现两者存在权衡：点赞促进快速回应和观点多样性，回复则导致对话碎片化。"
     },
     {
-      "id": 307,
-      "title": "Afghanistan’s Digital Diaspora: Conflicted Constructions of Nation and Identity",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "该论文通过民族志方法分析2021-2024年间X平台关于阿富汗的帖子，探讨离散社群与国内用户如何围绕民族、标签和语言展开排斥性话语，重塑族群分裂。"
-    },
-    {
       "id": 309,
       "title": "Preventing Radicalisation, or Forcing Ideological Consent? Crises, Uncertainty Reduction and Collective Identity Negotiation in Collaborative Communities of Online Third Spaces",
       "journal": "Social Media + Society",
@@ -329,6 +251,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-03-11",
       "summary": "研究2023土耳其大选中政治人物推文的隐喻对用户互动的影响，发现隐喻频率和原创性可小幅提升点赞与转发，回复影响较弱。"
+    },
+    {
+      "id": 561,
+      "title": "Reaction Media As A Cross-Platform Practice: A Case Study Of Friction And Flow In Uncle Roger’s Reaction Media On Youtube, Tiktok, Douyin, And Bilibili",
+      "journal": "Communication and the Public",
+      "published_date": "2026-02-27",
+      "summary": "通过案例研究，考察Uncle Roger在YouTube、TikTok、抖音和Bilibili上的反应媒体实践，提出反应媒体作为跨平台实践的新定义，强调其动态性和反应性。"
     },
     {
       "id": 732,

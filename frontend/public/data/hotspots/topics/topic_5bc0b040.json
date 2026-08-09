@@ -1,9 +1,9 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "topic_5bc0b040",
-  "description": "",
-  "why_hot": "",
-  "hot_score": 52,
+  "label": "财经媒体议程与企业战略",
+  "description": "研究新闻与社交媒体如何影响金融市场及企业国际化决策。",
+  "why_hot": "近30天2篇，速度激增900%，新兴交叉方向。",
+  "hot_score": 54,
   "growth": 9.0,
   "growth_rate": 9.0,
   "recent_rate": 0.0667,
@@ -13,7 +13,12 @@
   "journal_count": 1,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [],
+  "keywords": [
+    "议程设置",
+    "基金市场",
+    "丑闻报道",
+    "企业国际化"
+  ],
   "papers": [
     {
       "id": 1909,

@@ -5,7 +5,7 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-08-09 14:16 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-08-09 15:32 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
@@ -54,15 +54,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-08-09 14:16 GMT+8
+> 最近更新：2026-08-09 15:32 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
 | 数据库论文 | 1921 |
 | 当期新增 | 1921 |
-| High / Medium / Low | 552 / 572 / 797 |
-| Pending / Screened / Quarantined / Error | 0 / 1898 / 0 / 23 |
-| 已发布精选 | 552 |
+| High / Medium / Low | 553 / 580 / 788 |
+| Pending / Screened / Quarantined / Error | 0 / 1907 / 0 / 14 |
+| 已发布精选 | 553 |
 | 期刊全量导出 | 1921 |
 
 覆盖验证：OpenAlex DOI 1907，Crossref DOI 713，匹配 667，Crossref 中尚缺 46。

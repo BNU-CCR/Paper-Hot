@@ -1,19 +1,24 @@
 {
   "topic_id": "topic_81f5e828",
-  "label": "topic_81f5e828",
-  "description": "",
-  "why_hot": "",
-  "hot_score": 33,
-  "growth": -0.615,
-  "growth_rate": -0.615,
+  "label": "人工智能信任与数字鸿沟",
+  "description": "探讨人形机器人信任建立及AI决策中的社会不平等。",
+  "why_hot": "近30天2篇，速度降幅大，但AI信任议题长期重要。",
+  "hot_score": 35,
+  "growth": -0.63,
+  "growth_rate": -0.63,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.1733,
+  "baseline_rate": 0.18,
   "recent_count": 2,
-  "baseline_count": 26,
-  "journal_count": 11,
+  "baseline_count": 27,
+  "journal_count": 10,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [],
+  "keywords": [
+    "人形机器人",
+    "信任",
+    "AI决策",
+    "数字鸿沟"
+  ],
   "papers": [
     {
       "id": 3,
@@ -135,11 +140,18 @@
       "summary": "基于归因理论，通过在线调查(N=705)探究AI媒介伤害中公众的危机责任感知如何影响愤怒/共情，进而影响组织宽恕与AI监管诉求，揭示归因模糊的双路径作用。"
     },
     {
-      "id": 512,
-      "title": "“The architect of the invasion” vs. “a symbol of resilience”: How AI chatbots frame Zelenskyy, Putin and the Russia–Ukraine war",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-04-19",
-      "summary": "2024年11月对ChatGPT、Copilot、Gemini、Claude四个AI聊天机器人进行定性内容分析，发现其框架与欧美媒体相似，将俄罗斯视为侵略者、乌克兰为受害者，但对俄宣传语境理解不足，存在偏见和可靠性问题。"
+      "id": 634,
+      "title": "Human versus machine as content moderators: examining the effects of moderation strategies on Reddit",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "基于Reddit 2022年5.3亿条参与记录和1330万条审核动作，分析硬性/软性审核策略、人工/机器审核者身份对不同活跃度用户参与度的影响。"
+    },
+    {
+      "id": 635,
+      "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
     },
     {
       "id": 638,
@@ -163,11 +175,11 @@
       "summary": "通过32名美新用户的深度访谈，研究算法社交媒体隐私侵犯引发的情绪及其行为后果，发现意识与感知控制影响情绪，情绪导致不同隐私保护策略。"
     },
     {
-      "id": 519,
-      "title": "Artificial intelligence, deepfakes, and wars: How global news media frame actors, threats, and solutions in 19 countries",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-04-03",
-      "summary": "分析19国308篇新闻对深度伪造的行动者、威胁和解决方案的框架，基于俄乌战争案例，采用定性主题分析，揭示政治、技术、犯罪等主体及多维度威胁和应对措施。"
+      "id": 301,
+      "title": "The AI Referee: How Online Interventions Shape Incivility and User Engagement in News Discussions",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该论文利用Naver News的3900万条评论数据，训练深度学习模型识别不文明内容，分析两种自动化干预对评论不文明程度和用户参与度的影响，发现干预显著降低不文明内容，但对参与度影响不一。"
     },
     {
       "id": 640,
