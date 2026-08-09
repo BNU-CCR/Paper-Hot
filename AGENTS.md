@@ -42,4 +42,5 @@ Codex 与 Claude Code 都会自动读取仓库根目录的 `AGENTS.md`。改动�
 
 - 前端构建：`pnpm --dir frontend build`（CI 同样会构建并检查 `out` 产物）。
 - 类型检查：`pnpm --dir frontend typecheck`（tsc --noEmit，改动组件后跑一遍）。
-- 提交遵循“小 PR”：基于最新 `main` 建分支，只提交本次改动；CI 通过后合并，GitHub Pages 由 `deploy-pages.yml` 自动部署。
+- 纯前端修改（仅涉及 `frontend/` 内的组件、样式、类型或静态展示逻辑）在类型检查和生产构建通过后，默认直接提交并推送到 `main`，无需新建分支、PR 或再次询问是否推送；推送前确认当前分支为 `main`，且不混入无关改动。
+- 如果改动同时涉及后端、数据管线、工作流或其他高风险范围，则遵循“小 PR”：基于最新 `main` 建分支，只提交本次改动；CI 通过后合并，GitHub Pages 由 `deploy-pages.yml` 自动部署，除非用户另有明确要求。
