@@ -96,6 +96,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
         run: |
+          journal-tracker sanitize-titles
           args=(
             weekly-run
             --limit-per-journal "${{ inputs.limit_per_journal || '100' }}"

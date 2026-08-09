@@ -597,6 +597,17 @@ def export_public_data(config: Optional[Config] = None):
     print(f"已导出公开数据到: {export_path}")
 
 
+def sanitize_stored_titles(config: Optional[Config] = None) -> int:
+    """清理数据库中已有论文标题的 HTML 标签。"""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    changed = storage.sanitize_paper_titles()
+    print(f"已清理论文标题: {changed} 篇")
+    return 0
+
+
 def publish_paper(config: Optional[Config], paper_id: int, is_public: bool):
     """设置论文公开状态"""
     if config is None:
@@ -1097,6 +1108,7 @@ def main():
     subparsers.add_parser("stats", help="显示统计")
     subparsers.add_parser("export", help="导出CSV")
     subparsers.add_parser("export-public", help="导出公开站 JSON 数据")
+    subparsers.add_parser("sanitize-titles", help="清理数据库中论文标题的 HTML 标签")
     subparsers.add_parser("generate-hotspots", help="从近一个月公开论文生成当期热点 JSON")
     bibliography_parser = subparsers.add_parser("backfill-bibliography", help="用 OpenAlex 回填卷号和期号")
     bibliography_parser.add_argument("--limit", type=int, default=10000, help="最多回填论文数")
@@ -1159,6 +1171,8 @@ def main():
         export_csv(config)
     elif args.command == "export-public":
         export_public_data(config)
+    elif args.command == "sanitize-titles":
+        sys.exit(sanitize_stored_titles(config))
     elif args.command == "generate-hotspots":
         print(f"已生成当期热点数据: {generate_monthly_hotspots(config)}")
     elif args.command == "backfill-bibliography":
