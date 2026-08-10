@@ -12,6 +12,8 @@ import tempfile
 import unittest
 from datetime import date, timedelta
 from pathlib import Path
+from types import SimpleNamespace
+from unittest.mock import patch
 
 try:
     import numpy as np  # noqa: F401
@@ -26,6 +28,7 @@ try:
         _build_output,
         _compute_umap,
         _paper_recency_heat,
+        _match_topics,
         build_hotspot_network,
     )
     HAVE_ANALYSIS = True
@@ -60,6 +63,33 @@ class HotspotNetworkUnitTests(unittest.TestCase):
         by_size = {t["size"]: t["cluster_kind"] for t in topics}
         self.assertEqual(by_size[2], "emerging")
         self.assertEqual(by_size[4], "formal")
+
+    def test_topic_match_inherits_previous_human_label(self):
+        current = [{
+            "cluster_id": 0,
+            "paper_indices": [0, 1],
+            "centroid": np.array([1.0, 0.0]),
+        }]
+        previous = [{
+            "topic_id": "topic_stable",
+            "paper_ids": [1, 2],
+            "centroid": [1.0, 0.0],
+            "label_zh": "平台算法与政治传播生态",
+            "description": "旧描述",
+            "why_hot": "旧说明",
+            "keywords": ["平台算法"],
+            "_label_fingerprint": "old-fingerprint",
+        }]
+        candidates = [{"id": 1}, {"id": 2}]
+
+        matched = _match_topics(
+            current, previous, np.array([[1.0, 0.0], [1.0, 0.0]]),
+            candidates, match_threshold=0.5, drift_threshold=0.3,
+        )
+
+        self.assertEqual(matched[0]["topic_id"], "topic_stable")
+        self.assertEqual(matched[0]["label_zh"], "平台算法与政治传播生态")
+        self.assertEqual(matched[0]["_label_fingerprint"], "old-fingerprint")
 
     def test_topic_graph_and_anchor_positions_use_cluster_ids(self):
         # Regression: _compute_topic_graph previously keyed edges by the
@@ -352,6 +382,34 @@ class HotspotNetworkPipelineTests(unittest.TestCase):
 
 
 class TopicLabelerResponseTests(unittest.TestCase):
+    def test_failed_refresh_preserves_inherited_label_and_retries_later(self) -> None:
+        labeler = TopicLabeler.__new__(TopicLabeler)
+        labeler.client = SimpleNamespace(messages=SimpleNamespace(
+            create=lambda **_kwargs: SimpleNamespace(
+                content=[SimpleNamespace(type="text", text="not json")]
+            )
+        ))
+        labeler.model = "test-model"
+        labeler.system_prompt = "test"
+        labeler.config = SimpleNamespace(topic_overrides={})
+        topics = [{
+            "topic_id": "topic_stable",
+            "paper_indices": [0],
+            "label_zh": "已有中文主题名",
+            "description": "已有描述",
+            "why_hot": "已有说明",
+            "keywords": ["已有关键词"],
+            "_label_fingerprint": "old-fingerprint",
+        }]
+        candidates = [{"id": 1, "title": "Changed paper", "abstract": "Changed"}]
+
+        with patch("journal_tracker.hotspot_labels.time.sleep"):
+            result = labeler.label_topics(topics, candidates)
+
+        self.assertEqual(result[0]["label_zh"], "已有中文主题名")
+        self.assertEqual(result[0]["description"], "已有描述")
+        self.assertEqual(result[0]["_label_fingerprint"], "old-fingerprint")
+
     def test_parse_label_response_handles_markdown_fence(self) -> None:
         text = "```json\n[{\"topic_index\": 0, \"label_zh\": \"算法中介\"}]\n```"
         result = TopicLabeler._parse_label_response(text, 1)
