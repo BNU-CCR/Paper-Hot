@@ -1,7 +1,7 @@
 [
   {
     "topic_id": "topic_997f19cf",
-    "label": "社交媒体中的身份政治与数字化动员",
+    "label": "数字行动主义与身份政治",
     "hot_score": 78,
     "growth": 0.25,
     "recent_count": 7,
@@ -13,10 +13,10 @@
   },
   {
     "topic_id": "topic_1fb343f7",
-    "label": "高选择媒体环境下的信息获取与效应",
-    "hot_score": 76,
-    "growth": 0.562,
-    "recent_count": 5,
+    "label": "高选择媒体环境中的知识鸿沟与政治传播效果",
+    "hot_score": 67,
+    "growth": 0.25,
+    "recent_count": 4,
     "baseline_count": 16,
     "journal_count": 7,
     "lineage_status": "continued",
@@ -25,7 +25,7 @@
   },
   {
     "topic_id": "topic_0e12cc8a",
-    "label": "AI赋能公共服务与包容性设计",
+    "label": "智能技术的包容性与AI社会应用",
     "hot_score": 66,
     "growth": 0.364,
     "recent_count": 3,
@@ -37,7 +37,7 @@
   },
   {
     "topic_id": "topic_2c3061a6",
-    "label": "数字时代的组织责任与平台化传播",
+    "label": "数字社会中的企业责任与平台治理",
     "hot_score": 62,
     "growth": -0.074,
     "recent_count": 5,
@@ -49,7 +49,7 @@
   },
   {
     "topic_id": "topic_bd7d8c32",
-    "label": "媒体体验的生理与情感维度",
+    "label": "生理同步与具身受众体验",
     "hot_score": 61,
     "growth": 9.0,
     "recent_count": 2,
@@ -61,7 +61,7 @@
   },
   {
     "topic_id": "topic_56f5bfc0",
-    "label": "数字时代的认知战与叙事冲突",
+    "label": "武器化叙事与认知域作战",
     "hot_score": 60,
     "growth": -0.107,
     "recent_count": 5,
@@ -73,7 +73,7 @@
   },
   {
     "topic_id": "topic_5bc0b040",
-    "label": "媒体议程与企业行为：中国情境",
+    "label": "财经信息议程与公司声誉国际化",
     "hot_score": 54,
     "growth": 9.0,
     "recent_count": 2,
@@ -85,7 +85,7 @@
   },
   {
     "topic_id": "topic_3281c774",
-    "label": "信息治理与AI使用行为",
+    "label": "事实核查困境与生成式AI依赖",
     "hot_score": 51,
     "growth": -0.167,
     "recent_count": 3,
@@ -97,7 +97,7 @@
   },
   {
     "topic_id": "topic_48dca2de",
-    "label": "平台算法与政治传播生态",
+    "label": "平台政治传播与情绪公众",
     "hot_score": 51,
     "growth": -0.39,
     "recent_count": 5,
@@ -109,24 +109,12 @@
   },
   {
     "topic_id": "topic_81f5e828",
-    "label": "智能机器与AI的社会信任",
+    "label": "人机信任与AI公共决策支持",
     "hot_score": 36,
     "growth": -0.565,
     "recent_count": 2,
     "baseline_count": 23,
     "journal_count": 9,
-    "lineage_status": "continued",
-    "status": "emerging",
-    "is_hot": false
-  },
-  {
-    "topic_id": "topic_0e10a101",
-    "label": "对话语言与心理健康的计算分析",
-    "hot_score": 34,
-    "growth": -0.688,
-    "recent_count": 2,
-    "baseline_count": 32,
-    "journal_count": 10,
     "lineage_status": "continued",
     "status": "emerging",
     "is_hot": false

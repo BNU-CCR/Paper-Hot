@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_48dca2de",
-  "label": "平台算法与政治传播生态",
-  "description": "推荐系统、过滤气泡与情感传染如何塑造当代政治意见与行为。",
-  "why_hot": "46篇数量最多，覆盖11本期刊，但近30天放缓，需关注平台政治传播的持续深化。",
+  "label": "平台政治传播与情绪公众",
+  "description": "研究民粹传播、推荐系统、回音室与直播情绪传染，揭示平台政治生态。",
+  "why_hot": "总量达46篇，虽近期回落，仍是计算传播核心领域。",
   "hot_score": 51,
   "growth": -0.39,
   "growth_rate": -0.39,
@@ -13,7 +13,12 @@
   "journal_count": 11,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": "民粹主义, 推荐",
+  "keywords": [
+    "回音室",
+    "民粹主义",
+    "推荐系统",
+    "情绪传染"
+  ],
   "papers": [
     {
       "id": 1902,

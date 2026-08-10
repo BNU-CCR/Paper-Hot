@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "数字时代的认知战与叙事冲突",
-  "description": "从QAnon到加沙战争，政治行为体如何利用叙事进行认知影响。",
-  "why_hot": "33篇稳定产出，地缘冲突与宣传研究结合，认知战成为安全领域热点。",
+  "label": "武器化叙事与认知域作战",
+  "description": "聚焦认知战中的叙事影响、QAnon反公众与宣传的社会过程。",
+  "why_hot": "涉及安全与冲突议题，论文量33篇，兼具理论与实战研究。",
   "hot_score": 60,
   "growth": -0.107,
   "growth_rate": -0.107,
@@ -13,7 +13,12 @@
   "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": "认知战, 叙事,",
+  "keywords": [
+    "认知战",
+    "叙事",
+    "宣传",
+    "反公众"
+  ],
   "papers": [
     {
       "id": 483,

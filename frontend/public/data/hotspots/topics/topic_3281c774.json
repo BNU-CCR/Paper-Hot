@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "信息治理与AI使用行为",
-  "description": "事实核查在治理中的约束条件，以及生成式AI的依赖与成瘾问题。",
-  "why_hot": "事实核查短板与AI成瘾同步被讨论，21篇产出反映治理与技术双重焦虑。",
+  "label": "事实核查困境与生成式AI依赖",
+  "description": "探讨事实核查的治理成本、覆盖局限及生成式AI成瘾风险。",
+  "why_hot": "论文量21篇，连接信息治理与AI使用行为两个前沿问题。",
   "hot_score": 51,
   "growth": -0.167,
   "growth_rate": -0.167,
@@ -13,7 +13,12 @@
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": "事实核查, 生成",
+  "keywords": [
+    "事实核查",
+    "审查感知",
+    "生成式AI",
+    "成瘾"
+  ],
   "papers": [
     {
       "id": 394,
