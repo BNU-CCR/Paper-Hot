@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "topic_997f19cf",
-  "description": "",
-  "why_hot": "",
+  "label": "社交媒体中的身份政治与数字化动员",
+  "description": "边缘群体通过标签、平台迁移和对话进行身份建构与集体行动。",
+  "why_hot": "35篇且增速+25%，从性别议题到抗议事件，社会运动加速数字化。",
   "hot_score": 78,
   "growth": 0.25,
   "growth_rate": 0.25,
@@ -13,7 +13,7 @@
   "journal_count": 10,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [],
+  "keywords": "性别政治, 社会",
   "papers": [
     {
       "id": 1897,

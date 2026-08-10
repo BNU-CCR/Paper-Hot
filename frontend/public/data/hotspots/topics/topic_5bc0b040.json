@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "topic_5bc0b040",
-  "description": "",
-  "why_hot": "",
+  "label": "媒体议程与企业行为：中国情境",
+  "description": "新闻与社交媒体如何影响基金市场及企业国际化等商业决策。",
+  "why_hot": "近30天2篇，日均增速+900%，中国语境下媒体与市场关系成为新焦点。",
   "hot_score": 54,
   "growth": 9.0,
   "growth_rate": 9.0,
@@ -13,7 +13,7 @@
   "journal_count": 1,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [],
+  "keywords": "议程设置, 基金",
   "papers": [
     {
       "id": 1909,

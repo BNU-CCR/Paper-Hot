@@ -1,0 +1,244 @@
+{
+  "topic_id": "topic_0e10a101",
+  "label": "对话语言与心理健康的计算分析",
+  "description": "利用语言特征分析伴侣沟通质量及聊天机器人对孤独感的影响。",
+  "why_hot": "32篇覆盖10本期刊，计算语言学与心理健康融合持续热门。",
+  "hot_score": 34,
+  "growth": -0.688,
+  "growth_rate": -0.688,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.2133,
+  "recent_count": 2,
+  "baseline_count": 32,
+  "journal_count": 10,
+  "lineage_status": "continued",
+  "status": "emerging",
+  "keywords": "语言分析, 对话",
+  "papers": [
+    {
+      "id": 4,
+      "title": "The Anatomy of Resilient Talk: Linguistic Features of Relational and Psychological Health in Couples’ Conversations About Stress",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-07-10",
+      "summary": "运用NLP分析夫妻应对压力的对话语言特征，发现义务、不确定等语言与关系压力相关，包容性语言与韧性相关，揭示微观语言反映关系健康。"
+    },
+    {
+      "id": 27,
+      "title": "Chatbots and Loneliness: How Linguistic Dynamics in Conversations with Chatbots Shape Young Adults’ Loneliness",
+      "journal": "Communication Research",
+      "published_date": "2026-07-10",
+      "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
+    },
+    {
+      "id": 1908,
+      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
+    },
+    {
+      "id": 192,
+      "title": "Construcción del discurso de odio antimusulmán en X:",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-06-19",
+      "summary": "分析西班牙六家媒体X账号下的53787条评论，手动编码仇恨言论类型与强度，发现右翼媒体账号下反穆斯林言论比例最高，多为低强度隐性仇恨，结合伊斯兰恐惧症与仇外情绪。"
+    },
+    {
+      "id": 33,
+      "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
+      "journal": "Communication Research",
+      "published_date": "2026-06-13",
+      "summary": "研究创意众包挑战社区中地位、职业、价值等多维同质性对创意者间评论网络形成的影响，采用关系事件模型和潜在类别分析。"
+    },
+    {
+      "id": 85,
+      "title": "Latent communicative figurations: mapping quasi-visible strategic relational structures on Facebook",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-13",
+      "summary": "本文提出潜在传播构型概念，利用Facebook可再生能源相关品牌帖子构建双模网络，揭示战略伙伴与页面间的隐性关系，并探讨平台逻辑对新闻媒体角色的影响。"
+    },
+    {
+      "id": 440,
+      "title": "Strategic Communication as an Integrative Governance Function: A Bibliometric Review and an Integrated PR–OC–CC Model",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-03",
+      "summary": "通过文献计量综述316篇WoS论文，梳理公关、组织传播与企业传播的融合，提出战略传播作为整合性治理功能的理论模型。"
+    },
+    {
+      "id": 441,
+      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-01",
+      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
+    },
+    {
+      "id": 193,
+      "title": "Desinformación en salud: la percepción de periodistas especializados",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-05-28",
+      "summary": "通过21次半结构化访谈分析健康领域记者对错误信息的感知，发现其存在第三人效果和自满倾向，未使用计算方法。"
+    },
+    {
+      "id": 541,
+      "title": "We’re just chatting: perceptions of everyday communication with chatbots",
+      "journal": "Communication Research Reports",
+      "published_date": "2026-05-27",
+      "summary": "基于美国全国样本，考察人机闲聊中的沟通偶然性对感知响应性、参与度和满意度的影响，发现陪伴感调节作用。"
+    },
+    {
+      "id": 361,
+      "title": "Multimodal semiotic content analysis: combining quantitative large-data analysis with qualitative semiotic coding",
+      "journal": "Visual Communication",
+      "published_date": "2026-05-22",
+      "summary": "提出混合方法框架，整合定性符号学编码与定量大规模数据分析，通过277个抑郁相关网络模因案例，揭示抑郁主题与符号资源的关联模式。"
+    },
+    {
+      "id": 181,
+      "title": "Simulated superiority and mediated geopolitics: affective responses to AI-generated political parody in Chinese digital space",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-30",
+      "summary": "通过397人实验探究AI生成政治模仿如何激发集体优越感、缓解对美敌对态度，并揭示视觉真实感的中介作用，扩展优越性理论。"
+    },
+    {
+      "id": 451,
+      "title": "Case Study of an Online Brand Crisis: A Typology of User Engagement in the Scandinavian Airlines Advertisement Controversy",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-04-30",
+      "summary": "分析2020年SAS争议广告引发的Facebook用户评论，对2160条评论进行定量内容分析，识别出粉丝、朋友、反对者、仇恨持有者四类用户群体，挑战传统爱恨二元框架，揭示参与动态与态度流动性。"
+    },
+    {
+      "id": 634,
+      "title": "Human versus machine as content moderators: examining the effects of moderation strategies on Reddit",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "基于Reddit 2022年5.3亿条参与记录和1330万条审核动作，分析硬性/软性审核策略、人工/机器审核者身份对不同活跃度用户参与度的影响。"
+    },
+    {
+      "id": 635,
+      "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
+    },
+    {
+      "id": 118,
+      "title": "Navigating intersectional expectations: a computational multimodal analysis of the effects of identities and communication styles on public engagement with science on TikTok",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-16",
+      "summary": "基于10,800个视频和448,002条评论，分析TikTok科学传播中传播者性别、种族与沟通风格如何影响公众参与，发现交叉身份导致参与差异。"
+    },
+    {
+      "id": 126,
+      "title": "Favela aesthetics: digital influencers in Brazil contesting Instagram visual cultures and favela stigmas",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-08",
+      "summary": "通过分析巴西贫民窟网红Blô的452条Instagram帖子，提出“贫民窟美学”概念，探讨边缘群体如何通过数字内容抵抗污名化、重构文化身份，挑战主流影响者审美与精英叙事。"
+    },
+    {
+      "id": 128,
+      "title": "Racism, resistance, and Reddit: how popular culture sparks online reckonings",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-07",
+      "summary": "研究分析Reddit用户对两部种族主题剧集的评论，结合主题建模与批判话语分析，揭示用户角色流动及平台匿名性对种族讨论的影响。"
+    },
+    {
+      "id": 45,
+      "title": "Understanding Hybridity, Representational Networks, and Resilience Enactment Through Social Media Communication",
+      "journal": "Communication Research",
+      "published_date": "2026-04-02",
+      "summary": "研究社会企业如何在社交媒体沟通中呈现双重逻辑，通过分析260家台湾企业的3年Facebook数据和调查，发现高逻辑中心性直接及透过代表性网络间接预测韧性沟通，且受感知逻辑中心性调节。"
+    },
+    {
+      "id": 298,
+      "title": "Normative White Internet Practices: Performances at the Edge of a Digital Black Community",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "研究通过分析Reddit r/BlackPeopleTwitter上白人用户的盟友申请，揭示规范白人网络实践的表现及其潜在伤害，采用民族志与定性案例分析。"
+    },
+    {
+      "id": 301,
+      "title": "The AI Referee: How Online Interventions Shape Incivility and User Engagement in News Discussions",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该论文利用Naver News的3900万条评论数据，训练深度学习模型识别不文明内容，分析两种自动化干预对评论不文明程度和用户参与度的影响，发现干预显著降低不文明内容，但对参与度影响不一。"
+    },
+    {
+      "id": 302,
+      "title": "Symbolic Custodians on Facebook: Community Media Agents and Religious Practices in Faial",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
+    },
+    {
+      "id": 308,
+      "title": "Shaping Sustainable Communication on Instagram: How Digital Influencers in Portugal Engage Consumers in Eco-Conscious Narratives",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过分析200条Instagram Reels和29名Z世代焦点小组，探讨葡萄牙数字影响者如何通过情感和审美策略传播可持续性，发现可持续沟通是一种情感表演。"
+    },
+    {
+      "id": 135,
+      "title": "Examining the linguistic power of emotes: multimodal race discourse on Twitch",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-30",
+      "summary": "研究Twitch上三个表情符号在直播聊天中的使用、改造和挪用，如何再现和颠覆反黑人种族主义，通过多站点数字民族志分析这些表情的流通轨迹和意义制造。"
+    },
+    {
+      "id": 51,
+      "title": "Differential Effects of Counter-Stereotypical Portrayals of Warmth Across Racial Groups: Behavioral and Experimental Evidence",
+      "journal": "Communication Research",
+      "published_date": "2026-03-18",
+      "summary": "研究考察医疗众筹中反刻板温暖描述对不同种族受益者的捐赠影响，结合大规模数据和实验，发现对亚裔和白人有效但对黑人产生反效果，期望违背起中介作用。"
+    },
+    {
+      "id": 466,
+      "title": "Strategic Ambiguity and University Instagram Engagement: Institutional Type, Audience Scale, and Engagement Trade-Offs",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-03-10",
+      "summary": "基于25所美国大学Instagram数据，分析机构类型、粉丝数、发帖频率对参与度的影响，发现公立大学参与度更高，粉丝数存在效率与触达的权衡。"
+    },
+    {
+      "id": 194,
+      "title": "Comunicación persuasiva en TikTok:",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-03-05",
+      "summary": "该研究通过内容分析500个TikTok视频，考察“Sephora Kids”趋势的传播效果，发现多数内容呈正面幽默态度，批判性内容少，平台助长该趋势在年轻受众中的正常化，倡导加强数字素养教育。"
+    },
+    {
+      "id": 195,
+      "title": "Dinámicas algorítmicas y resistencia juvenil ante el racismo en redes sociales",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-03-05",
+      "summary": "通过焦点小组探究青年对社交媒体种族歧视的感知与应对，分析算法和匿名性对内容传播的作用，提出批判性数字素养与平台伦理设计需求。"
+    },
+    {
+      "id": 196,
+      "title": "La Revuelta y El Hormiguero en X e Intagram: estrategias y audiencias",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-03-02",
+      "summary": "分析西班牙两档脱口秀在X和Instagram的内容策略及受众反应，结合电视收视数据，发现平台互动与线性收视呈不对称关系。"
+    },
+    {
+      "id": 644,
+      "title": "Reducing political polarization through conversations with artificial intelligence",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-02-23",
+      "summary": "通过两项实验(N=1035)让人类与AI聊天机器人实时对话，检验不同沟通风格对政治极化的影响。结果发现逆论点AI能显著降低议题极化，高对话接纳性和积极倾听增强情感去极化、智识谦逊和跨立场对话意愿。"
+    },
+    {
+      "id": 735,
+      "title": "Filtered Latinidad: ethnoracial abstraction and everyday resistance in TikTok beauty filters",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-02-19",
+      "summary": "运用批判性技术文化话语分析，研究1500个TikTok视频中非拉丁裔与拉丁裔用户对‘Latina妆容’滤镜的不同使用，揭示平台化种族主义与抵抗实践。"
+    },
+    {
+      "id": 54,
+      "title": "Balancing Face-to-Face and Digital Communication: The Role of Relationship Maintenance in Dual-Earning Families",
+      "journal": "Communication Research",
+      "published_date": "2026-02-11",
+      "summary": "研究双职工家庭面对面与数字沟通对关系维护和幸福感的影响，采用一周日记和生理指标，发现两种沟通均降低压力，面对面沟通对孤独感更有益。"
+    }
+  ],
+  "paper_edges": []
+}
