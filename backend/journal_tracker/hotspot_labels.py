@@ -143,13 +143,15 @@ class TopicLabeler:
                 topic["description"] = str(label.get("description") or "")[:160]
                 topic["why_hot"] = str(label.get("why_hot") or "")[:120]
                 topic["keywords"] = normalize_keywords(label.get("keywords", []))
+                topic["_label_fingerprint"] = topic.get("_fingerprint", "")
             else:
-                # Fallback: use OpenAlex topic names
-                topic["label_zh"] = topic.get("label_en", topic.get("topic_id", ""))
-                topic["description"] = ""
-                topic["why_hot"] = ""
-                topic["keywords"] = []
-            topic["_label_fingerprint"] = topic.get("_fingerprint", "")
+                # A transient API/parse failure must not erase a stable label
+                # inherited from the previous run. Keep its old fingerprint so
+                # the next run retries the refresh instead of caching failure.
+                topic.setdefault("label_zh", topic.get("label_en", topic.get("topic_id", "")))
+                topic.setdefault("description", "")
+                topic.setdefault("why_hot", "")
+                topic.setdefault("keywords", [])
 
         # Apply manual overrides from topic_overrides.yaml
         self._apply_overrides(topics)

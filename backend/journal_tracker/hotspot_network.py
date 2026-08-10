@@ -569,17 +569,27 @@ def _match_topics(
             current[i]["topic_id"] = previous[j].get("topic_id", f"topic_{uuid.uuid4().hex[:8]}")
             current[i]["previous_topic_id"] = current[i]["topic_id"]
             current[i]["lineage_status"] = "continued"
+            _inherit_topic_label(current[i], previous[j])
             matched_prev.add(j)
         elif j < n_prev and match_score >= drift_threshold:
             current[i]["topic_id"] = previous[j].get("topic_id", f"topic_{uuid.uuid4().hex[:8]}")
             current[i]["previous_topic_id"] = current[i]["topic_id"]
             current[i]["lineage_status"] = "drifted"
+            _inherit_topic_label(current[i], previous[j])
             matched_prev.add(j)
         else:
             current[i]["topic_id"] = f"topic_{uuid.uuid4().hex[:8]}"
             current[i]["lineage_status"] = "new"
 
     return current
+
+
+def _inherit_topic_label(current: Dict[str, Any], previous: Dict[str, Any]) -> None:
+    """Keep editorial metadata for a topic whose lineage was preserved."""
+    for field in ("label_zh", "label_en", "description", "why_hot", "keywords", "_label_fingerprint"):
+        value = previous.get(field)
+        if value not in (None, "", []):
+            current[field] = value
 
 
 # ── step 8: heat scoring ─────────────────────────────────────────────
@@ -1143,8 +1153,11 @@ def build_hotspot_network(
     try:
         labeler = TopicLabeler(config)
         topics = labeler.label_topics(topics, candidates)
-        labeled_count = sum(1 for t in topics if t.get("label_zh"))
-        print(f"       {labeled_count} topics labeled")
+        labeled_count = sum(
+            1 for t in topics
+            if t.get("label_zh") and t.get("label_zh") != t.get("topic_id")
+        )
+        print(f"       {labeled_count} topics have human-readable labels")
     except Exception as exc:
         print(f"       LLM labeling skipped — {exc}")
         # Ensure every topic has at least a fallback label
