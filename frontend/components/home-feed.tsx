@@ -1,18 +1,20 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Masonry from "react-masonry-css";
-import { Building2, ChevronDown, ExternalLink, LayoutGrid, ListChecks, Rows3 } from "lucide-react";
+import { Building2, CalendarDays, ChevronDown, ExternalLink, LayoutGrid, ListChecks, Rows3, X } from "lucide-react";
 import type { Paper } from "../types/paper";
 import { Button } from "./ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "./ui/dialog";
 import { Input } from "./ui/input";
+import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
 import { LanguageToggle, type PaperLanguage } from "./language-toggle";
 
 const masonryColumns = { default: 3, 1080: 2, 680: 1 };
+const PAPERS_PER_PAGE = 24;
 
 function asText(value: unknown): string {
   return Array.isArray(value) ? value.join(" ") : String(value || "");
@@ -38,6 +40,12 @@ function displayDate(value: string): string {
   return Number.isNaN(date.getTime())
     ? value
     : date.toLocaleDateString("zh-CN", { year: "numeric", month: "long", day: "numeric", weekday: "short" });
+}
+
+function compactDate(value: string): string {
+  if (!value) return "";
+  const date = new Date(`${value}T00:00:00`);
+  return Number.isNaN(date.getTime()) ? value : date.toLocaleDateString("zh-CN", { month: "short", day: "numeric" });
 }
 
 function PaperCard({ paper, featured, language, onOpen }: { paper: Paper; featured?: boolean; language: PaperLanguage; onOpen: (paper: Paper) => void }) {
@@ -167,6 +175,10 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
   const [layout, setLayout] = useState("auto");
   const [language, setLanguage] = useState<PaperLanguage>("original");
   const [selectedPaper, setSelectedPaper] = useState<Paper | null>(null);
+  const [dateFrom, setDateFrom] = useState("");
+  const [dateTo, setDateTo] = useState("");
+  const [visibleCount, setVisibleCount] = useState(PAPERS_PER_PAGE);
+  const loadMoreRef = useRef<HTMLDivElement | null>(null);
 
   const source = mode === "all" ? allPapers : featured;
   const journals = useMemo(() => [...new Set(source.map((paper) => paper.journal).filter((item): item is string => Boolean(item)))].sort((a, b) => a.localeCompare(b, "zh-CN")), [source]);
@@ -180,10 +192,35 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
     if (relevance !== "all" && paper.relevance !== relevance) return false;
     if (journal !== "all" && paper.journal !== journal) return false;
     if (method !== "all" && paper.method !== method) return false;
+    const publishedDate = (paper.published_date || "").slice(0, 10);
+    if (mode === "featured" && dateFrom && (!publishedDate || publishedDate < dateFrom)) return false;
+    if (mode === "featured" && dateTo && (!publishedDate || publishedDate > dateTo)) return false;
     if (selectedTags.length && !(paper.tags || []).some((item) => selectedTags.some((selected) => item.toLowerCase() === selected.toLowerCase()))) return false;
     const needle = query.trim().toLowerCase();
     return !needle || [paper.title, paper.title_zh, paper.abstract_zh, paper.summary, paper.reason, paper.journal, asText(paper.authors), asText(paper.tags), paper.method || ""].join(" ").toLowerCase().includes(needle);
-  })), [source, relevance, journal, method, selectedTags, query]);
+  })), [source, mode, relevance, journal, method, dateFrom, dateTo, selectedTags, query]);
+
+  useEffect(() => {
+    setVisibleCount(PAPERS_PER_PAGE);
+  }, [mode, relevance, journal, method, dateFrom, dateTo, selectedTags, query, layout]);
+
+  useEffect(() => {
+    const target = loadMoreRef.current;
+    if (!target || visibleCount >= papers.length) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) setVisibleCount((current) => Math.min(current + PAPERS_PER_PAGE, papers.length));
+      },
+      { rootMargin: "500px 0px" },
+    );
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, [papers.length, visibleCount]);
+
+  const visiblePapers = papers.slice(0, visibleCount);
+  const dateLabel = dateFrom || dateTo
+    ? `${dateFrom ? compactDate(dateFrom) : "最早"} – ${dateTo ? compactDate(dateTo) : "至今"}`
+    : "日期范围";
 
   const toggleTag = (item: string) => {
     setSelectedTags((current) => {
@@ -199,7 +236,7 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
           <div className="headline"><h1>Paper HOT</h1></div>
           <div className="toolbar shadcn-controls">
             <Tabs value={mode} onValueChange={(value) => { setMode(value); if (value === "featured") setRelevance("all"); }}><TabsList aria-label="数据范围"><TabsTrigger value="featured">精选</TabsTrigger><TabsTrigger value="all">期刊全量</TabsTrigger></TabsList></Tabs>
-            {mode === "all" && <Tabs value={relevance} onValueChange={setRelevance}><TabsList aria-label="相关性筛选"><TabsTrigger value="all">全部</TabsTrigger><TabsTrigger value="High">高相关</TabsTrigger><TabsTrigger value="Medium">其他相似文章</TabsTrigger></TabsList></Tabs>}<Select value={journal} onValueChange={setJournal}><SelectTrigger aria-label="期刊筛选"><SelectValue placeholder="全部期刊" /></SelectTrigger><SelectContent><SelectItem value="all">全部期刊</SelectItem>{journals.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select><Select value={method} onValueChange={setMethod}><SelectTrigger aria-label="方法筛选"><SelectValue placeholder="全部方法" /></SelectTrigger><SelectContent><SelectItem value="all">全部方法</SelectItem>{methods.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select><label className="search"><span className="sr-only">搜索论文</span><Input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索标题、摘要、作者、期刊、方法、标签" /></label><LanguageToggle value={language} onValueChange={setLanguage} />
+            {mode === "all" && <Tabs value={relevance} onValueChange={setRelevance}><TabsList aria-label="相关性筛选"><TabsTrigger value="all">全部</TabsTrigger><TabsTrigger value="High">高相关</TabsTrigger><TabsTrigger value="Medium">其他相似文章</TabsTrigger></TabsList></Tabs>}{mode === "featured" && <Popover><PopoverTrigger asChild><Button variant="outline" className="date-range-trigger" aria-label={`精选日期范围：${dateLabel}`}><CalendarDays aria-hidden="true" />{dateLabel}</Button></PopoverTrigger><PopoverContent className="date-range-popover" align="start"><div className="date-range-heading"><span>发布日期</span>{(dateFrom || dateTo) && <Button variant="ghost" size="icon" onClick={() => { setDateFrom(""); setDateTo(""); }} aria-label="清除日期范围"><X aria-hidden="true" /></Button>}</div><div className="date-range-fields"><label><span>开始日期</span><Input type="date" value={dateFrom} max={dateTo || undefined} onChange={(event) => setDateFrom(event.target.value)} /></label><label><span>结束日期</span><Input type="date" value={dateTo} min={dateFrom || undefined} onChange={(event) => setDateTo(event.target.value)} /></label></div></PopoverContent></Popover>}<Select value={journal} onValueChange={setJournal}><SelectTrigger aria-label="期刊筛选"><SelectValue placeholder="全部期刊" /></SelectTrigger><SelectContent><SelectItem value="all">全部期刊</SelectItem>{journals.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select><Select value={method} onValueChange={setMethod}><SelectTrigger aria-label="方法筛选"><SelectValue placeholder="全部方法" /></SelectTrigger><SelectContent><SelectItem value="all">全部方法</SelectItem>{methods.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select><label className="search"><span className="sr-only">搜索论文</span><Input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索标题、摘要、作者、期刊、方法、标签" /></label><LanguageToggle value={language} onValueChange={setLanguage} />
           </div>
         </section>
 
@@ -211,7 +248,8 @@ export function HomeFeed({ featured, allPapers }: HomeFeedProps) {
         </Collapsible>
 
         <section className="feed"><div className="section-heading"><h2>{mode === "featured" ? "最新精选" : "期刊全量更新"}</h2><div className="feed-heading-actions"><span className="count">{papers.length} 篇</span>{mode === "featured" && <Tabs value={layout} onValueChange={setLayout}><TabsList aria-label="卡片布局" className="layout-tabs"><TabsTrigger value="single" aria-label="单栏布局" title="单栏布局"><Rows3 aria-hidden="true" /></TabsTrigger><TabsTrigger value="auto" aria-label="自动多栏布局" title="自动多栏布局"><LayoutGrid aria-hidden="true" /></TabsTrigger></TabsList></Tabs>}</div></div>
-          {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、相关性或搜索词。</span></div> : mode === "featured" ? layout === "single" ? <div className="paper-single-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured language={language} onOpen={setSelectedPaper} />)}</div> : <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{papers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured language={language} onOpen={setSelectedPaper} />)}</Masonry> : <div className="timeline">{Object.entries(papers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} language={language} onOpen={setSelectedPaper} />)}</section>)}</div>}
+          {papers.length === 0 ? <div className="empty-state"><b>没有匹配当前条件的论文</b><span>可以调整期刊、主题、日期范围、相关性或搜索词。</span></div> : mode === "featured" ? layout === "single" ? <div className="paper-single-column">{visiblePapers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured language={language} onOpen={setSelectedPaper} />)}</div> : <Masonry breakpointCols={masonryColumns} className="paper-masonry" columnClassName="paper-masonry-column">{visiblePapers.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} featured language={language} onOpen={setSelectedPaper} />)}</Masonry> : <div className="timeline">{Object.entries(visiblePapers.reduce<Record<string, Paper[]>>((groups, paper) => { const key = paper.published_date || "日期待补充"; (groups[key] ||= []).push(paper); return groups; }, {})).map(([date, group]) => <section className="day-group" key={date}><h3>{displayDate(date)}</h3>{group.map((paper) => <PaperCard key={paper.id || `${paper.title}-${paper.published_date}`} paper={paper} language={language} onOpen={setSelectedPaper} />)}</section>)}</div>}
+          {visibleCount < papers.length && <div ref={loadMoreRef} className="feed-load-more" role="status" aria-live="polite"><span>已显示 {visiblePapers.length} / {papers.length} 篇</span><Button variant="outline" size="sm" onClick={() => setVisibleCount((current) => Math.min(current + PAPERS_PER_PAGE, papers.length))}>加载更多</Button></div>}
         </section>
         <PaperDetailDialog paper={selectedPaper} language={language} onOpenChange={(open) => { if (!open) setSelectedPaper(null); }} />
     </div>
