@@ -48,6 +48,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # Scheduled runs may wait behind another database-writing workflow.
+          # Resolve main when the job actually starts instead of checking out
+          # the stale SHA captured when the scheduled event was queued.
+          ref: main
           fetch-depth: 0
 
       - uses: actions/setup-python@v5
