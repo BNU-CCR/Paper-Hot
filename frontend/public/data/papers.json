@@ -4778,7 +4778,10 @@
       "Jukka Huhtamäki",
       "Sophie Del Fa"
     ],
-    "institutions": [],
+    "institutions": [
+      "Université catholique de Louvain",
+      "University of Helsinki"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-19",
     "relevance": "High",
@@ -4811,7 +4814,9 @@
       "Li Jin",
       "Jialin Hu"
     ],
-    "institutions": [],
+    "institutions": [
+      "Central University of Finance and Economics"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-19",
     "relevance": "High",
@@ -4844,7 +4849,9 @@
       "Yuheng Wu",
       "Fei Shen"
     ],
-    "institutions": [],
+    "institutions": [
+      "Department of Media and Communication, City University of Hong Kong , Hong Kong SAR,"
+    ],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-04-17",
     "relevance": "High",
@@ -4878,7 +4885,11 @@
       "Ludmila Lupinacci",
       "Felipe Bonow Soares"
     ],
-    "institutions": [],
+    "institutions": [
+      "Feevale University",
+      "University of Leeds",
+      "University of the Arts London"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-16",
     "relevance": "High",
@@ -4911,7 +4922,9 @@
       "Yuanbo Qiu",
       "Yunjuan Luo"
     ],
-    "institutions": [],
+    "institutions": [
+      "South China University of Technology"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-16",
     "relevance": "High",
@@ -4945,7 +4958,10 @@
       "Hang Lu",
       "Chao Yu"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Michigan",
+      "Northwestern University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-16",
     "relevance": "High",
@@ -4981,7 +4997,10 @@
       "M Lechner",
       "Brigitte Naderer"
     ],
-    "institutions": [],
+    "institutions": [
+      "Ludwig Maximilians University Munich",
+      "Medical University of Vienna"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-16",
     "relevance": "High",
@@ -5014,7 +5033,9 @@
     "authors": [
       "Omnya Abdelwahab"
     ],
-    "institutions": [],
+    "institutions": [
+      "Ohio University"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-04-13",
     "relevance": "High",
@@ -5082,7 +5103,9 @@
       "Constantin Bürgi",
       "Zuzanna Studnicka"
     ],
-    "institutions": [],
+    "institutions": [
+      "University College Dublin"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-13",
     "relevance": "High",
@@ -5117,7 +5140,11 @@
       "Lena Frischlich",
       "Peter Mayer"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Southern Denmark",
+      "Department of Mathematics and Computer Science, University of Southern Denmark",
+      "Institute of Applied Informatics and Formal Description Methods"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-11",
     "relevance": "High",
@@ -5189,7 +5216,12 @@
       "Camila Mont'Alverne",
       "Tom Nicholls"
     ],
-    "institutions": [],
+    "institutions": [
+      "imec-SMIT, Vrije Universiteit Brussel",
+      "University of Glasgow",
+      "University of Strathclyde Glasgow",
+      "University of Liverpool"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-08",
     "relevance": "High",
@@ -5221,7 +5253,10 @@
       "Issaaf Karhawi",
       "Anderson Lopes da Silva"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of São Paulo",
+      "Chulalongkorn University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-08",
     "relevance": "High",
@@ -5254,7 +5289,10 @@
       "Hee Jay Kim",
       "Chung Joo Chung"
     ],
-    "institutions": [],
+    "institutions": [
+      "Pukyong National University, Busan, Republic of Korea",
+      "Kyungpook National University, Daegu, Republic of Korea"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-04-07",
     "relevance": "High",
@@ -5289,7 +5327,11 @@
       "Yuxing Qian",
       "Yunmei Liu"
     ],
-    "institutions": [],
+    "institutions": [
+      "Shanghai University",
+      "Sun Yat-sen University",
+      "Nanjing University"
+    ],
     "journal": "Asian Journal of Communication",
     "published_date": "2026-04-07",
     "relevance": "High",
@@ -5357,7 +5399,9 @@
       "Sherry Mason",
       "Tawfiq Ammari"
     ],
-    "institutions": [],
+    "institutions": [
+      "Rutgers University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-07",
     "relevance": "High",
@@ -5391,7 +5435,10 @@
       "Jonathan Corpus Ong",
       "Dean A. Jackson"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Massachusetts at Amherst",
+      "University of Pittsburgh"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-04-06",
     "relevance": "High",
@@ -5426,7 +5473,11 @@
       "Muhammad Ittefaq",
       "SeYeon Park"
     ],
-    "institutions": [],
+    "institutions": [
+      "Department of Communication, University of Maryland, College Park, MD, USA",
+      "Department of Mass Communication, Towson University, Towson, MD, USA",
+      "School of Communication Studies, James Madison University, Harrisonburg, VA, USA"
+    ],
     "journal": "Media War & Conflict",
     "published_date": "2026-04-03",
     "relevance": "High",
@@ -5462,7 +5513,12 @@
       "Harshit Aneja",
       "Y Chen"
     ],
-    "institutions": [],
+    "institutions": [
+      "Department of Communications and New Media, National University of Singapore , ,",
+      "Hubbard School of Journalism and Mass Communication, University of Minnesota , Minneapolis, MN,",
+      "Annenberg School for Communication, University of Pennsylvania , Philadelphia, PA,",
+      "School of Journalism and Mass Communication, University of Wisconsin–Madison , Madison, WI,"
+    ],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-04-02",
     "relevance": "High",
@@ -5494,7 +5550,9 @@
     "authors": [
       "Ilan Manor"
     ],
-    "institutions": [],
+    "institutions": [
+      "Ben-Gurion University of the Negev, Israel"
+    ],
     "journal": "Communication and the Public",
     "published_date": "2026-04-02",
     "relevance": "High",
@@ -5526,7 +5584,10 @@
       "Chih‐Hui Lai",
       "Jiawei Sophia Fu"
     ],
-    "institutions": [],
+    "institutions": [
+      "National Yang Ming Chiao Tung University, Zhubei City, Hsinchu County, Taiwan",
+      "Rutgers University, New Brunswick, NJ, USA"
+    ],
     "journal": "Communication Research",
     "published_date": "2026-04-02",
     "relevance": "High",
@@ -5559,7 +5620,9 @@
       "Wahid Mehran",
       "Jolanta A. Drzewiecka"
     ],
-    "institutions": [],
+    "institutions": [
+      "Università della Svizzera italiana, Switzerland"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5594,7 +5657,11 @@
       "Elisenda Ardèvol",
       "Sandra Martorell"
     ],
-    "institutions": [],
+    "institutions": [
+      "Universitat de Barcelona, Spain",
+      "Universitat Oberta de Catalunya, Spain",
+      "Universitat Politècnica de València, Spain"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5628,7 +5695,9 @@
       "Georgia Kernell",
       "Soo Min Noh"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of California, Los Angeles, USA"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5661,7 +5730,10 @@
     "authors": [
       "Hedi Ye"
     ],
-    "institutions": [],
+    "institutions": [
+      "Wenzhou Medical University, China",
+      "Universiti Utara Malaysia, Sintok, Malaysia"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5695,7 +5767,10 @@
       "Baoying Fu",
       "Xueqing Li"
     ],
-    "institutions": [],
+    "institutions": [
+      "The University of Utah, Salt Lake City, USA",
+      "Shanghai Jiao Tong University, China"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5727,7 +5802,9 @@
     "authors": [
       "Anne Helmond"
     ],
-    "institutions": [],
+    "institutions": [
+      "Utrecht University, The Netherlands"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5759,7 +5836,9 @@
       "Ala’Eddin Abdullah Ahmed Banikalef",
       "Mohammad Issa Mehawesh"
     ],
-    "institutions": [],
+    "institutions": [
+      "Jadara University, Irbid, Jordan"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5795,7 +5874,14 @@
       "Homero Gil de Zúñiga",
       "S. Shyam Sundar"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Georgia, USA",
+      "University of Florida, USA",
+      "The Pennsylvania State University, USA",
+      "University of Salamanca, Spain",
+      "Universidad Diego Portales, Chile",
+      "Sungkyunkwan University, Republic of Korea"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2026-04-01",
     "relevance": "High",
@@ -5828,7 +5914,11 @@
       "Marco Bastos",
       "Marisa Elena Duarte"
     ],
-    "institutions": [],
+    "institutions": [
+      "University College Dublin",
+      "City St George’s, University of London, London, UK",
+      "Arizona State University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-29",
     "relevance": "High",
@@ -5862,7 +5952,10 @@
       "Pablo Jost",
       "Leyla Dogruel"
     ],
-    "institutions": [],
+    "institutions": [
+      "Johannes Gutenberg University Mainz",
+      "University of Erfurt"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-29",
     "relevance": "High",
@@ -5895,7 +5988,11 @@
       "Hongyuan Gan",
       "Tien Ee Dominic Yeo"
     ],
-    "institutions": [],
+    "institutions": [
+      "School of Communication, Hong Kong Baptist University , Kowloon,",
+      "Department of Communication Studies, Hong Kong Baptist University , Kowloon,",
+      "AI and Wellbeing Lab, AI Media Centre, Hong Kong Baptist University , Kowloon,"
+    ],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-03-27",
     "relevance": "High",
@@ -5928,7 +6025,9 @@
       "Muhammad Ali",
       "Hina Ali"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Colorado, Boulder, CO, USA"
+    ],
     "journal": "Media War & Conflict",
     "published_date": "2026-03-27",
     "relevance": "High",
@@ -5960,7 +6059,9 @@
     "authors": [
       "The Cuong Nguyen"
     ],
-    "institutions": [],
+    "institutions": [
+      "Vietnam National University, Hanoi, Vietnam"
+    ],
     "journal": "Communication and the Public",
     "published_date": "2026-03-25",
     "relevance": "High",
@@ -5995,7 +6096,10 @@
       "J. Liu",
       "J. P. Guo"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Groningen",
+      "University of Copenhagen"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-25",
     "relevance": "High",
@@ -6027,7 +6131,10 @@
       "Bente Kalsnes",
       "Niels Nagelhus Schia"
     ],
-    "institutions": [],
+    "institutions": [
+      "Kristiania University of Applied Sciences",
+      "Norwegian Institute of International Affairs, Oslo, Norway"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-23",
     "relevance": "High",
@@ -6060,7 +6167,10 @@
       "Junsu Kim",
       "Yongjun Sung"
     ],
-    "institutions": [],
+    "institutions": [
+      "Department of Media Studies, Hanyang University ERICA , Ansan, Gyeonggi-do,",
+      "School of Psychology, Korea University , Seoul, 02841,"
+    ],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-03-20",
     "relevance": "High",
@@ -6126,7 +6236,9 @@
     "authors": [
       "Kateryna Bystrytska"
     ],
-    "institutions": [],
+    "institutions": [
+      "Rutgers University, School of Communication and Information, New Brunswick, NJ, USA"
+    ],
     "journal": "Media War & Conflict",
     "published_date": "2026-03-19",
     "relevance": "High",
@@ -6161,7 +6273,10 @@
       "Naomi Kamoen",
       "Rieke Van Lieshout"
     ],
-    "institutions": [],
+    "institutions": [
+      "Tilburg University, The Netherlands",
+      "Radboud University Nijmegen and Tilburg University, The Netherlands"
+    ],
     "journal": "Communication Research",
     "published_date": "2026-03-19",
     "relevance": "High",
@@ -6227,7 +6342,11 @@
       "Youllee Kim",
       "Huai-yu Chen"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Kentucky, Lexington, USA",
+      "University of Denver, CO, USA",
+      "National Chengchi University, Taipei City, Taiwan"
+    ],
     "journal": "Communication Research",
     "published_date": "2026-03-18",
     "relevance": "High",
@@ -6262,7 +6381,12 @@
       "Jing Yang",
       "Shaheen Kanthawala"
     ],
-    "institutions": [],
+    "institutions": [
+      "Chonnam National University",
+      "Michigan State University",
+      "Boston University",
+      "University of Alabama"
+    ],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-03-16",
     "relevance": "High",
@@ -6295,7 +6419,10 @@
       "Soo Young Bae",
       "David DeFranza"
     ],
-    "institutions": [],
+    "institutions": [
+      "Department of Communication, University of Massachusetts Amherst , Amherst, MA,",
+      "Michael Smurfit Graduate Business School, University College Dublin , Dublin,"
+    ],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-03-14",
     "relevance": "High",
@@ -6328,7 +6455,10 @@
       "Arash Beidollahkhani",
       "Mahboobe Farkhari"
     ],
-    "institutions": [],
+    "institutions": [
+      "Global Development Institute, University of Manchester, Manchester, United Kingdom",
+      "Independent researcher"
+    ],
     "journal": "Global Media and Communication",
     "published_date": "2026-03-12",
     "relevance": "High",
@@ -6362,7 +6492,9 @@
       "Selina Noetzel",
       "Alice Binder"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Vienna"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-12",
     "relevance": "High",
@@ -6397,7 +6529,11 @@
       "Ven-Hwei Lo",
       "Xinzhi Zhang"
     ],
-    "institutions": [],
+    "institutions": [
+      "Hong Kong Baptist University",
+      "City University of Hong Kong",
+      "National Chengchi University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-12",
     "relevance": "High",
@@ -6433,7 +6569,15 @@
       "Jason Greenfield",
       "Bin Chen et al."
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Wisconsin-Madison",
+      "Texas A&M University",
+      "University of Southern Denmark",
+      "Princeton University",
+      "The University of Hong Kong",
+      "University of Michigan",
+      "Massachusetts Institute of Technology"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-12",
     "relevance": "High",
@@ -6467,7 +6611,9 @@
       "Utku Bozdağa",
       "Lilla Petronella Szabóa"
     ],
-    "institutions": [],
+    "institutions": [
+      "Corvinus University of Budapest"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-11",
     "relevance": "High",
@@ -6499,7 +6645,9 @@
     "authors": [
       "Hui Zhang"
     ],
-    "institutions": [],
+    "institutions": [
+      "Bridgewater State University"
+    ],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-03-10",
     "relevance": "High",
@@ -6531,7 +6679,9 @@
     "authors": [
       "Silvanus Alvin"
     ],
-    "institutions": [],
+    "institutions": [
+      "Universitas Multimedia Nusantara"
+    ],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-03-05",
     "relevance": "High",
@@ -6567,7 +6717,13 @@
       "Benjamin Burroughs",
       "Audrey Halversen"
     ],
-    "institutions": [],
+    "institutions": [
+      "Brigham Young University",
+      "Independent Scholar at Brigham Young University",
+      "Independent Scholar at Amazon",
+      "University of Nevada",
+      "University of Michigan"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-03-05",
     "relevance": "High",
@@ -6633,7 +6789,9 @@
     "authors": [
       "Soo Jung Hong"
     ],
-    "institutions": [],
+    "institutions": [
+      "National University of Singapore"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-03-05",
     "relevance": "High",
@@ -6666,7 +6824,10 @@
       "Hung-Yen Hsu",
       "Ya-Yin Lin"
     ],
-    "institutions": [],
+    "institutions": [
+      "National Chengchi University",
+      "National Defense University"
+    ],
     "journal": "Asian Journal of Communication",
     "published_date": "2026-03-04",
     "relevance": "High",
@@ -6697,7 +6858,9 @@
     "authors": [
       "Zhiming Liu"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Macau"
+    ],
     "journal": "Asian Journal of Communication",
     "published_date": "2026-03-04",
     "relevance": "High",
@@ -6732,7 +6895,12 @@
       "Shannon C. McGregor",
       "Carolyn Schmitt"
     ],
-    "institutions": [],
+    "institutions": [
+      "Data & Society Research Institute",
+      "Technology, and Public Life (CITAP), University of North Carolina at Chapel Hill",
+      "Weber State University",
+      "University of North Carolina at Chapel Hill"
+    ],
     "journal": "Political Communication",
     "published_date": "2026-03-04",
     "relevance": "High",
@@ -6768,7 +6936,13 @@
       "Yunkang Yang",
       "Wei Zhong"
     ],
-    "institutions": [],
+    "institutions": [
+      "Digital Democracy Centre, University of Southern Denmark, Odense, Denmark",
+      "Kennesaw State University",
+      "University of Connecticut",
+      "Texas A&M University",
+      "Stony Brook University"
+    ],
     "journal": "Political Communication",
     "published_date": "2026-03-04",
     "relevance": "High",
@@ -6802,7 +6976,9 @@
       "Marina Tulin",
       "Tom Dobber"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Amsterdam, The Netherlands"
+    ],
     "journal": "Communication Research",
     "published_date": "2026-03-04",
     "relevance": "High",
@@ -6835,7 +7011,10 @@
       "Dechuan Liu",
       "Yuhang Yuan"
     ],
-    "institutions": [],
+    "institutions": [
+      "Fudan University",
+      "Beijing Normal University"
+    ],
     "journal": "Asian Journal of Communication",
     "published_date": "2026-03-03",
     "relevance": "High",
@@ -6898,7 +7077,9 @@
     "authors": [
       "Elia Powers"
     ],
-    "institutions": [],
+    "institutions": [
+      "Towson University"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-02-27",
     "relevance": "High",
@@ -6934,7 +7115,12 @@
       "Sora Park",
       "Michael Dezuanni"
     ],
-    "institutions": [],
+    "institutions": [
+      "Queensland University of Technology",
+      "RMIT University",
+      "Western Sydney University",
+      "University of Canberra"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-26",
     "relevance": "High",
@@ -6969,7 +7155,14 @@
       "Saki Mizoroki",
       "Rebecca Scharlach et al."
     ],
-    "institutions": [],
+    "institutions": [
+      "The Hebrew University of Jerusalem",
+      "The University of Tokyo",
+      "University of Tokyo",
+      "University of Bremen",
+      "Hebrew University of Jerusalem",
+      "Tel Aviv University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-26",
     "relevance": "High",
@@ -7002,7 +7195,9 @@
     "authors": [
       "Michael Chan"
     ],
-    "institutions": [],
+    "institutions": [
+      "Chinese University of Hong Kong"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-02-25",
     "relevance": "High",
@@ -7036,7 +7231,10 @@
       "Stuart Soroka",
       "Christopher Wlezien"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of California",
+      "University of Texas at Austin"
+    ],
     "journal": "Political Communication",
     "published_date": "2026-02-25",
     "relevance": "High",
@@ -7069,7 +7267,11 @@
       "Cong Lin",
       "Yuhan Li"
     ],
-    "institutions": [],
+    "institutions": [
+      "Chinese University of Hong Kong",
+      "Tsinghua University",
+      "The University of Michigan"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-24",
     "relevance": "High",
@@ -7102,7 +7304,9 @@
       "Timon M. J. Hruschka",
       "Markus Appel"
     ],
-    "institutions": [],
+    "institutions": [
+      "Psychology of Communication and New Media, Julius-Maximilians-University Würzburg , Würzburg,"
+    ],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-02-23",
     "relevance": "High",
@@ -7135,7 +7339,10 @@
       "Lu Zhao",
       "Ruichen Zhang"
     ],
-    "institutions": [],
+    "institutions": [
+      "Institute of Sociology, Beijing Academy of Social Sciences , Beijing,",
+      "Center for Sociological Theory & Method, Research Institute of Social Construction of Beijing, School of Social Research, Renmin University of China , Beijing,"
+    ],
     "journal": "Journal of Computer-Mediated Communication",
     "published_date": "2026-02-23",
     "relevance": "High",
@@ -7170,7 +7377,15 @@
       "Sean Palicki",
       "Alexis Palmer et al."
     ],
-    "institutions": [],
+    "institutions": [
+      "GESIS - Leibniz Institute for the Social Sciences",
+      "National Yang Ming Chiao Tung University, Hsinchu, Taiwan",
+      "Technical University of Munich, Munich, Germany",
+      "Dartmouth College, Hanover, USA",
+      "Tulane University, New Orleans, USA",
+      "IT University of Copenhagen, Copenhagen, Denmark",
+      "University of Copenhagen"
+    ],
     "journal": "Political Communication",
     "published_date": "2026-02-20",
     "relevance": "High",
@@ -7201,7 +7416,9 @@
     "authors": [
       "Wan-Ying Yang"
     ],
-    "institutions": [],
+    "institutions": [
+      "National Chengchi University"
+    ],
     "journal": "Political Communication",
     "published_date": "2026-02-20",
     "relevance": "High",
@@ -7234,7 +7451,9 @@
     "authors": [
       "Catalina Farías"
     ],
-    "institutions": [],
+    "institutions": [
+      "Northwestern University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-19",
     "relevance": "High",
@@ -7268,7 +7487,10 @@
       "Weilu Zhang",
       "Sisi Hu"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Kentucky",
+      "University of Arkansas"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2026-02-19",
     "relevance": "High",
@@ -7302,7 +7524,11 @@
       "Adrian Rauchfleisch",
       "Alexander Wuttke"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Bamberg",
+      "National Taiwan University",
+      "LMU"
+    ],
     "journal": "Political Communication",
     "published_date": "2026-02-19",
     "relevance": "High",
@@ -7337,7 +7563,10 @@
       "Gabriel Pereira",
       "Fernando van der Vlist"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Amsterdam",
+      "University of Manchester"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-18",
     "relevance": "High",
@@ -7370,7 +7599,9 @@
       "S. Y. Noh",
       "Stuart Soroka"
     ],
-    "institutions": [],
+    "institutions": [
+      "Department of Communication, University of California, Los Angeles, USA"
+    ],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2026-02-18",
     "relevance": "High",
@@ -7472,7 +7703,10 @@
       "Sihui Chen",
       "Bingkun Yang"
     ],
-    "institutions": [],
+    "institutions": [
+      "City University of Macau",
+      "School of General Education, Guangdong Finance and Trade Vocational College, Qingyuan"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-08",
     "relevance": "High",
@@ -7508,7 +7742,9 @@
       "Ashwin Nagappa",
       "Vish Padinjaredath Suresh"
     ],
-    "institutions": [],
+    "institutions": [
+      "Queensland University of Technology (QUT)"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-02-05",
     "relevance": "High",
@@ -7541,7 +7777,10 @@
       "James Ndone",
       "Nathan Carpenter"
     ],
-    "institutions": [],
+    "institutions": [
+      "Coastal Carolina University",
+      "University of Florida"
+    ],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-02-04",
     "relevance": "High",
@@ -7576,7 +7815,11 @@
       "Yu-Ru Lin",
       "Bruce A. Desmarais"
     ],
-    "institutions": [],
+    "institutions": [
+      "Center for Social Data Analytics, Pennsylvania State University, United States",
+      "School of Computing and Information, University of Pittsburgh, United States, Pittsburgh",
+      "Political Science, Pennsylvania State University, United States"
+    ],
     "journal": "Political Communication",
     "published_date": "2026-02-04",
     "relevance": "High",
@@ -7642,7 +7885,11 @@
       "Quoc Tran-Nam",
       "Tuyen Tiet"
     ],
-    "institutions": [],
+    "institutions": [
+      "International University, VNU-HCM",
+      "Viet Nam National University",
+      "Ho Chi Minh University of Banking"
+    ],
     "journal": "Journal of Media Economics",
     "published_date": "2026-02-01",
     "relevance": "High",
@@ -7675,7 +7922,10 @@
       "Ilan Manor",
       "Moran Yarchi"
     ],
-    "institutions": [],
+    "institutions": [
+      "Ben Gurion University, Israel",
+      "Reichman University, Israel"
+    ],
     "journal": "Communication and the Public",
     "published_date": "2026-01-31",
     "relevance": "High",
@@ -7707,7 +7957,9 @@
       "Vivian P. Ta-Johnson",
       "Isabella M. Swafford"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Texas at San Antonio"
+    ],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2026-01-27",
     "relevance": "High",
@@ -7740,7 +7992,10 @@
       "Anna Schjøtt",
       "Nadja Schaetz"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Amsterdam",
+      "University of Hamburg"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-01-26",
     "relevance": "High",
@@ -7774,7 +8029,11 @@
       "Katalin Feher",
       "Dennis Nguyen"
     ],
-    "institutions": [],
+    "institutions": [
+      "Corvinus University of Budapest, Hungary",
+      "University of Public Service, Budapest, Hungary",
+      "Utrecht University, Netherlands"
+    ],
     "journal": "Global Media and Communication",
     "published_date": "2026-01-21",
     "relevance": "High",
@@ -7808,7 +8067,12 @@
       "Subhayan Mukerjee",
       "Tian Yang"
     ],
-    "institutions": [],
+    "institutions": [
+      "Department of Communications and New Media, National University of Singapore, Singapore",
+      "Centre for Trusted Internet and Community, National University of Singapore, Singapore",
+      "Centre for Computational Social Science and Humanities, National University of Singapore, Singapore",
+      "School of Journalism and Communication, The Chinese University of Hong Kong, Hong Kong SAR, China"
+    ],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2026-01-21",
     "relevance": "High",
@@ -7944,7 +8208,9 @@
       "Judith Hefetz",
       "Sharon Haleva‐Amir"
     ],
-    "institutions": [],
+    "institutions": [
+      "Bar-Ilan University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-01-15",
     "relevance": "High",
@@ -7977,7 +8243,10 @@
       "Jason Miklian",
       "Kristian Hoelscher"
     ],
-    "institutions": [],
+    "institutions": [
+      "Centre for Global Sustainability, University of Oslo, Oslo, Norway",
+      "Peace Research Institute Oslo, Oslo, Norway"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-01-14",
     "relevance": "High",
@@ -8009,7 +8278,10 @@
     "authors": [
       "Albert Anani-Bossman"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Media, Arts and Communication–Institute of Journalism",
+      "University of Johannesburg"
+    ],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2026-01-14",
     "relevance": "High",
@@ -8045,7 +8317,11 @@
       "Gemma Beard",
       "Lisa M. Given"
     ],
-    "institutions": [],
+    "institutions": [
+      "RMIT University",
+      "Google",
+      "Google Research"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-01-13",
     "relevance": "High",
@@ -8078,7 +8354,9 @@
     "authors": [
       "Sean Ewing"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of California"
+    ],
     "journal": "Political Communication",
     "published_date": "2026-01-12",
     "relevance": "High",
@@ -8110,7 +8388,9 @@
     "authors": [
       "Qinfeng Zhu"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Groningen"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2026-01-07",
     "relevance": "High",
@@ -8145,7 +8425,9 @@
       "B. Lee",
       "Youngjin Lee et al."
     ],
-    "institutions": [],
+    "institutions": [
+      "Korea University"
+    ],
     "journal": "Asian Journal of Communication",
     "published_date": "2026-01-02",
     "relevance": "High",
