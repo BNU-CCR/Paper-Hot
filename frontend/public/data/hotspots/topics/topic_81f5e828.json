@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_81f5e828",
-  "label": "智能机器与AI的社会信任",
-  "description": "公众对人形机器人和AI公共决策的信任差异及数字鸿沟影响。",
-  "why_hot": "25篇覆盖9本期刊，AI治理与社会接受持续受关注，但近期放缓。",
+  "label": "topic_81f5e828",
+  "description": "",
+  "why_hot": "",
   "hot_score": 36,
   "growth": -0.565,
   "growth_rate": -0.565,
@@ -13,7 +13,7 @@
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": "人形机器人, 信",
+  "keywords": [],
   "papers": [
     {
       "id": 3,

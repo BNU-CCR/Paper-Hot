@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_0e12cc8a",
-  "label": "AI赋能公共服务与包容性设计",
-  "description": "智能技术如何服务老年人、残障群体及预测性公共决策。",
-  "why_hot": "仅14篇但增速+36%，AI在弱势群体与智慧城市的应用成为新增长点。",
+  "label": "topic_0e12cc8a",
+  "description": "",
+  "why_hot": "",
   "hot_score": 66,
   "growth": 0.364,
   "growth_rate": 0.364,
@@ -13,7 +13,7 @@
   "journal_count": 5,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": "智能音箱, 数字",
+  "keywords": [],
   "papers": [
     {
       "id": 58,
