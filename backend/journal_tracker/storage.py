@@ -159,6 +159,15 @@ class PaperStorage:
                     FOREIGN KEY (paper_id) REFERENCES papers(id)
                 )
             """)
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS paper_author_enrichment_status (
+                    paper_id INTEGER PRIMARY KEY,
+                    status TEXT NOT NULL DEFAULT '',
+                    reason TEXT NOT NULL DEFAULT '',
+                    updated_at TEXT NOT NULL DEFAULT '',
+                    FOREIGN KEY (paper_id) REFERENCES papers(id)
+                )
+            """)
             # 创建索引加速查询
             cursor.execute("""
                 CREATE INDEX IF NOT EXISTS idx_papers_link ON papers(link)
@@ -682,7 +691,10 @@ class PaperStorage:
         """Return DOI-bearing papers not yet covered by author enrichment."""
         with self._get_connection() as conn:
             cursor = conn.cursor()
-            condition = "" if force else "AND NOT EXISTS (SELECT 1 FROM paper_author_enrichment pae WHERE pae.paper_id = p.id)"
+            condition = "" if force else """
+                  AND NOT EXISTS (SELECT 1 FROM paper_author_enrichment pae WHERE pae.paper_id = p.id)
+                  AND NOT EXISTS (SELECT 1 FROM paper_author_enrichment_status paes WHERE paes.paper_id = p.id)
+            """
             cursor.execute(f"""
                 SELECT p.* FROM papers p
                 WHERE p.doi IS NOT NULL AND p.doi != ''
@@ -721,6 +733,30 @@ class PaperStorage:
                     float(author.get("match_confidence", 0)),
                     now,
                 ))
+            cursor.execute("""
+                INSERT INTO paper_author_enrichment_status (paper_id, status, reason, updated_at)
+                VALUES (?, 'completed', '', ?)
+                ON CONFLICT(paper_id) DO UPDATE SET
+                    status = excluded.status,
+                    reason = excluded.reason,
+                    updated_at = excluded.updated_at
+            """, (paper_id, now))
+            conn.commit()
+
+    def mark_paper_author_enrichment_unavailable(
+        self, paper_id: int, reason: str = "no author metadata returned"
+    ) -> None:
+        """Record a completed lookup with no usable author metadata."""
+        now = datetime.now().isoformat()
+        with self._get_connection() as conn:
+            conn.execute("""
+                INSERT INTO paper_author_enrichment_status (paper_id, status, reason, updated_at)
+                VALUES (?, 'unavailable', ?, ?)
+                ON CONFLICT(paper_id) DO UPDATE SET
+                    status = excluded.status,
+                    reason = excluded.reason,
+                    updated_at = excluded.updated_at
+            """, (paper_id, reason, now))
             conn.commit()
 
     def get_paper_institutions(self, paper_ids: List[int]) -> Dict[int, List[str]]:

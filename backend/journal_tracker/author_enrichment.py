@@ -276,6 +276,7 @@ def enrich_paper_authors(
         "selected_papers": len(papers),
         "enriched_papers": 0,
         "failed_papers": 0,
+        "metadata_unavailable": 0,
         "authors": 0,
         "matched_s2_authors": 0,
         "authors_with_orcid": 0,
@@ -300,7 +301,10 @@ def enrich_paper_authors(
                 report["semantic_scholar_unavailable"] += 1
             authors, ambiguous = match_paper_authors(crossref, semantic)
             if not authors:
-                raise ValueError("no author metadata returned")
+                storage.mark_paper_author_enrichment_unavailable(int(paper.id or 0))
+                report["metadata_unavailable"] += 1
+                print(f"  no author metadata returned for paper {paper.id}; marked unavailable")
+                continue
             storage.replace_paper_author_enrichment(int(paper.id or 0), authors)
             report["enriched_papers"] += 1
             report["authors"] += len(authors)

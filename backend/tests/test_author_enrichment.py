@@ -221,6 +221,39 @@ class AuthorEnrichmentTests(unittest.TestCase):
             self.assertEqual(report["crossref_unavailable"], 1)
             self.assertEqual(report["authors"], 2)
 
+    def test_pipeline_marks_empty_metadata_as_terminal_unavailable(self):
+        class EmptyClient:
+            def fetch_authors(self, doi):
+                return []
+
+            def fetch_paper_authors(self, doi):
+                return []
+
+        with TemporaryDirectory() as tmp_dir:
+            storage = PaperStorage(Path(tmp_dir) / "papers.db")
+            paper_id = storage.add_paper(Paper(
+                title="Paper without provider metadata",
+                doi="10.1/no-authors",
+                link="https://example.org/no-authors",
+                source_type="openalex",
+                screening_status="screened",
+            ))
+
+            report = enrich_paper_authors(
+                storage, EmptyClient(), EmptyClient(), limit=10
+            )
+
+            self.assertEqual(report["metadata_unavailable"], 1)
+            self.assertEqual(report["failed_papers"], 0)
+            self.assertEqual(storage.get_papers_missing_author_enrichment(10), [])
+            with storage._get_connection() as conn:
+                row = conn.execute(
+                    "SELECT status, reason FROM paper_author_enrichment_status WHERE paper_id = ?",
+                    (paper_id,),
+                ).fetchone()
+            self.assertEqual(row["status"], "unavailable")
+            self.assertEqual(row["reason"], "no author metadata returned")
+
 
 if __name__ == "__main__":
     unittest.main()
