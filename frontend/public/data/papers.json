@@ -16796,7 +16796,16 @@
       "Athus Cavalini",
       "Homero Gil de Zúñiga"
     ],
-    "institutions": [],
+    "institutions": [
+      "Universidad Diego Portales",
+      "Public Opinion and Media in Chile (MEPOP)",
+      "University of Oklahoma",
+      "Brazilian National Institute of Science and Technology for Digital Democracy (INCT-DD)",
+      "Instituto Democracia em Xeque (DX)",
+      "Universidade Federal do Espírito Santo",
+      "Universidad de Salamanca",
+      "Pennsylvania State University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2025-04-24",
     "relevance": "High",
@@ -16832,7 +16841,11 @@
       "Ernesto Verdeja",
       "Walter J. Scheirer et al."
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Notre Dame",
+      "College of William and Mary",
+      "Kennesaw State University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2025-04-20",
     "relevance": "High",
@@ -16865,7 +16878,10 @@
       "Michal Dolev-Cohen",
       "Nicola Henry"
     ],
-    "institutions": [],
+    "institutions": [
+      "Educational Counseling Program, Faculty of Graduate Studies, Oranim, Academic College of Education, Tivon, Israel",
+      "Social Equity Research Centre, RMIT University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2025-04-17",
     "relevance": "High",
@@ -16970,7 +16986,12 @@
       "Junga Kim",
       "Jun Zhang"
     ],
-    "institutions": [],
+    "institutions": [
+      "S. I. Newhouse School of Public Communications, Syracuse",
+      "Texas Tech University",
+      "University of North Florida",
+      "Middle Tennessee State University"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-04-12",
     "relevance": "High",
@@ -17004,7 +17025,10 @@
       "Ning Lou",
       "M. Li"
     ],
-    "institutions": [],
+    "institutions": [
+      "Nanchang University",
+      "Wenzhou University of Technology"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-04-10",
     "relevance": "High",
@@ -17074,7 +17098,9 @@
       "Jason Davis",
       "Carrie Welch"
     ],
-    "institutions": [],
+    "institutions": [
+      "Syracuse University"
+    ],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-04-07",
     "relevance": "High",
@@ -17107,7 +17133,10 @@
       "Emilie Tran Sautedé",
       "Fei Vincent Mo"
     ],
-    "institutions": [],
+    "institutions": [
+      "Hong Kong Metropolitan University, Hong Kong",
+      "Central European University, Austria"
+    ],
     "journal": "Global Media and Communication",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17139,7 +17168,9 @@
       "Line Nybro Petersen",
       "Mikkel Bækby Johansen"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Copenhagen, Denmark"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17173,7 +17204,9 @@
       "Louisa Pröschel",
       "Michael Brüggemann"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Hamburg, Germany"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17207,7 +17240,9 @@
       "Sarah Shugars",
       "Eunbin Ha"
     ],
-    "institutions": [],
+    "institutions": [
+      "Rutgers University, USA"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17243,7 +17278,18 @@
       "Megan A. Brown",
       "Stephen Prochaska et al."
     ],
-    "institutions": [],
+    "institutions": [
+      "The University of Texas at Austin, USA",
+      "University of Kentucky, USA",
+      "The University of Hong Kong, Hong Kong",
+      "University of Michigan, USA",
+      "University of Washington, USA",
+      "Texas A&amp;M University, USA",
+      "New York University, USA",
+      "University of Connecticut, USA",
+      "University of Wisconsin-Madison, USA",
+      "Washington State University, USA"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17279,7 +17325,11 @@
       "Aleksi Knuutila",
       "Reeta Pöyhtäri et al."
     ],
-    "institutions": [],
+    "institutions": [
+      "Tampere University, Finland",
+      "University of Jyväskylä, Finland",
+      "University of Eastern Finland, Finland"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17312,7 +17362,9 @@
       "Hannah Ditchfield",
       "Stefania Vicari"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Sheffield, UK"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17344,7 +17396,9 @@
     "authors": [
       "C. L. Hogan"
     ],
-    "institutions": [],
+    "institutions": [
+      "Queen Mary University of London, UK"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17379,7 +17433,10 @@
       "Leticia Bode",
       "Emily K. Vraga"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Minnesota, Twin Cities, USA",
+      "Georgetown University, USA"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17415,7 +17472,9 @@
       "Ehsan Dehghan",
       "Laura Vodden"
     ],
-    "institutions": [],
+    "institutions": [
+      "Queensland University of Technology, Australia"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17447,7 +17506,9 @@
     "authors": [
       "Mark Friis Hau"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Roskilde, Denmark"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17482,7 +17543,11 @@
       "Noomi Weinryb",
       "Anders Olof Larsson"
     ],
-    "institutions": [],
+    "institutions": [
+      "Lund University, Sweden",
+      "Södertörn University, Sweden",
+      "Kristiania University of Applied Sciences, Norway"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17513,7 +17578,9 @@
     "authors": [
       "Siri Frisli"
     ],
-    "institutions": [],
+    "institutions": [
+      "Oslo Metropolitan University, Norway"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17546,7 +17613,9 @@
     "authors": [
       "Fernanda Odilla"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Bologna, Italy"
+    ],
     "journal": "Social Media + Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17578,7 +17647,9 @@
     "authors": [
       "Justin Bonest Phillips"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Waikato"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2025-04-01",
     "relevance": "High",
@@ -17612,7 +17683,10 @@
       "Soya Nah",
       "Zinan Darren Yang"
     ],
-    "institutions": [],
+    "institutions": [
+      "Moody College of Communication, The University of Texas at Austin",
+      "University of South Alabama"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-03-31",
     "relevance": "High",
@@ -17681,7 +17755,9 @@
       "Yixiao Sun",
       "Chengjun Wang"
     ],
-    "institutions": [],
+    "institutions": [
+      "Nanjing University"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-03-26",
     "relevance": "High",
@@ -17717,7 +17793,11 @@
       "J.M. Gilsbach",
       "Sebastian Stier"
     ],
-    "institutions": [],
+    "institutions": [
+      "GESIS – Leibniz Institute for the Social Sciences",
+      "University of Konstanz",
+      "University of Mannheim"
+    ],
     "journal": "Communication Methods and Measures",
     "published_date": "2025-03-26",
     "relevance": "High",
@@ -17749,7 +17829,11 @@
       "Zizhong Zhang",
       "LI Dong-xiao"
     ],
-    "institutions": [],
+    "institutions": [
+      "College of Media and International Culture, Zhejiang University, Hangzhou, China",
+      "International Communication Institute, Zhejiang University, Hangzhou, China",
+      "imec-SMIT, Vrije Universiteit Brussel, Belgium"
+    ],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-03-21",
     "relevance": "High",
@@ -17785,7 +17869,10 @@
       "Alexander Semenov",
       "Alexander Nikolaev"
     ],
-    "institutions": [],
+    "institutions": [
+      "University at Buffalo",
+      "University of Florida"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2025-03-21",
     "relevance": "High",
@@ -17818,7 +17905,9 @@
       "Erik De Vries",
       "Gunnar Thesen"
     ],
-    "institutions": [],
+    "institutions": [
+      "Department of Media and Social Sciences, University of Stavanger, Stavanger, Norway"
+    ],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-03-18",
     "relevance": "High",
@@ -17851,7 +17940,9 @@
       "Muhammad Ali",
       "Patrick Ferrucci"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Colorado-Boulder"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-03-15",
     "relevance": "High",
@@ -17922,7 +18013,10 @@
       "Melissa J. Dreier",
       "Akeela Careem"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Pennsylvania",
+      "Rutgers University"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-03-11",
     "relevance": "High",
@@ -17987,7 +18081,9 @@
       "Kamilla Knutsen Steinnes",
       "Helene Fiane Teigen"
     ],
-    "institutions": [],
+    "institutions": [
+      "Consumption Research Norway, OsloMet University,"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2025-03-05",
     "relevance": "High",
@@ -18019,7 +18115,9 @@
     "authors": [
       "Juan Liu"
     ],
-    "institutions": [],
+    "institutions": [
+      "Department of Mass Communication Towson University"
+    ],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-03-04",
     "relevance": "High",
@@ -18088,7 +18186,10 @@
       "Noora Hirvonen",
       "Jutta Haider"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Oulu",
+      "University of Borås"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2025-02-26",
     "relevance": "High",
@@ -18157,7 +18258,9 @@
       "Aimei Yang",
       "Dmitri Williams"
     ],
-    "institutions": [],
+    "institutions": [
+      "Annenberg School for Communication and Journalism, University of Southern California, Los Angeles, CA, USA"
+    ],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-02-24",
     "relevance": "High",
@@ -18191,7 +18294,10 @@
       "Katherine A. Collins",
       "Ryan L. Boyd"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Saskatchewan",
+      "University of Texas at Dallas"
+    ],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-02-24",
     "relevance": "High",
@@ -18226,7 +18332,10 @@
       "Zsofia Fanni Cseri",
       "Sofia Iriarte Aguirre et al."
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Urbino Carlo Bo",
+      "University of Vienna"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2025-02-22",
     "relevance": "High",
@@ -18291,7 +18400,9 @@
     "authors": [
       "EunHae Park"
     ],
-    "institutions": [],
+    "institutions": [
+      "Ball State University"
+    ],
     "journal": "International Journal of Strategic Communication",
     "published_date": "2025-02-20",
     "relevance": "High",
@@ -18327,7 +18438,12 @@
       "Jeonghyun Janice Lee",
       "Xiaohui Cao"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Georgia",
+      "Washington State University",
+      "University of West Georgia",
+      "Louisiana State University"
+    ],
     "journal": "Journal of Broadcasting & Electronic Media",
     "published_date": "2025-02-20",
     "relevance": "High",
@@ -18364,7 +18480,10 @@
       "Nils Pharo",
       "Kim Tallerås"
     ],
-    "institutions": [],
+    "institutions": [
+      "OsloMet – Oslo Metropolitan University",
+      "BI – Norwegian Business School"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2025-02-20",
     "relevance": "High",
@@ -18397,7 +18516,9 @@
     "authors": [
       "Aliya Andrich"
     ],
-    "institutions": [],
+    "institutions": [
+      "Department of Economic Sciences and Media, Ilmenau University of Technology, Ilmenau, Germany"
+    ],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-02-19",
     "relevance": "High",
@@ -18430,7 +18551,9 @@
     "authors": [
       "Viorela Dan"
     ],
-    "institutions": [],
+    "institutions": [
+      "Department of Media, Society and Communication, University of Innsbruck, Innsbruck, Austria"
+    ],
     "journal": "The International Journal of Press/Politics",
     "published_date": "2025-02-11",
     "relevance": "High",
@@ -18464,7 +18587,11 @@
       "On-yu Park",
       "Eunil Park"
     ],
-    "institutions": [],
+    "institutions": [
+      "Sungkyunkwan University",
+      "Gangnam Severance Hospital",
+      "Jaume I University"
+    ],
     "journal": "Information Communication & Society",
     "published_date": "2025-02-10",
     "relevance": "High",
@@ -18499,7 +18626,9 @@
       "Laura Bock Paulsen",
       "Chu Yang"
     ],
-    "institutions": [],
+    "institutions": [
+      "Aarhus University, Denmark"
+    ],
     "journal": "Global Media and Communication",
     "published_date": "2025-02-08",
     "relevance": "High",
@@ -18532,7 +18661,11 @@
       "Katarzyna Molek‐Kozakowska",
       "Isabela‐Anda Dragomir"
     ],
-    "institutions": [],
+    "institutions": [
+      "Lucian Blaga University of Sibiu, Romania",
+      "Institute of Linguistics, University of Opole, Poland",
+      "Lucian Blaga University of Sibiu, Nicolae Balcescu Land Forces Academy, Romania"
+    ],
     "journal": "Media War & Conflict",
     "published_date": "2025-02-08",
     "relevance": "High",
@@ -18564,7 +18697,9 @@
     "authors": [
       "Diana Kazarian"
     ],
-    "institutions": [],
+    "institutions": [
+      "Independent Researcher, New York, NY, USA"
+    ],
     "journal": "Media War & Conflict",
     "published_date": "2025-02-06",
     "relevance": "High",
@@ -18633,7 +18768,12 @@
       "Pietro Pietrini",
       "Giuseppe Sartori et al."
     ],
-    "institutions": [],
+    "institutions": [
+      "Molecular Mind Lab, IMT School of Advanced Studies Lucca, Lucca, Italy",
+      "Neurolinguistics and Experimental Pragmatics (NEP) Lab, Department of Humanities and Life Sciences, University School for Advanced Studies IUSS, Pavia, Italy",
+      "Department of General Psychology, University of Padova, Padova, Italy",
+      "Department of Mathematics “Tullio Levi-Civita”, University of Padova, Padova, Italy"
+    ],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-02-06",
     "relevance": "High",
@@ -18664,7 +18804,9 @@
     "authors": [
       "José Antonio Ortega"
     ],
-    "institutions": [],
+    "institutions": [
+      "University of Winchester, UK"
+    ],
     "journal": "Media War & Conflict",
     "published_date": "2025-02-05",
     "relevance": "High",
@@ -18699,7 +18841,12 @@
       "Yuwei Li",
       "Shu Scott Li"
     ],
-    "institutions": [],
+    "institutions": [
+      "The Pennsylvania State University",
+      "University of Delaware",
+      "Louisiana State University",
+      "School of Communication, University of Akron, Akron, OH, USA"
+    ],
     "journal": "Journal of Language and Social Psychology",
     "published_date": "2025-02-03",
     "relevance": "High",
