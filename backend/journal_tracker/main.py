@@ -662,11 +662,13 @@ def enrich_author_library(
         f"papers={report['enriched_papers']}/{report['selected_papers']} "
         f"authors={report['authors']} matched_s2={report['matched_s2_authors']} "
         f"orcid={report['authors_with_orcid']} affiliations={report['authors_with_affiliations']} "
-        f"ambiguous={report['ambiguous_matches']} failed={report['failed_papers']} "
+        f"ambiguous={report['ambiguous_matches']} unavailable={report['metadata_unavailable']} "
+        f"failed={report['failed_papers']} "
         f"crossref_unavailable={report['crossref_unavailable']} "
         f"s2_unavailable={report['semantic_scholar_unavailable']}"
     )
-    return 0 if report["enriched_papers"] > 0 or report["selected_papers"] == 0 else 1
+    completed = report["enriched_papers"] + report["metadata_unavailable"]
+    return 0 if completed > 0 or report["selected_papers"] == 0 else 1
 
 
 def publish_paper(config: Optional[Config], paper_id: int, is_public: bool):
