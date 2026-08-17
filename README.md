@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-08-10 19:49 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-08-17 13:53 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-08-13 | [Can Large language models serve as voting advice applications? An empirical test using Turkish lifestyle typologies](<https://doi.org/10.1080/19331681.2026.2718920>) | Journal of Information Technology & Politics | 测试五个LLM平台能否基于土耳其生活方式类型学提供投票建议，发现模型间校准差异大，序数准确度尚可，基数准确度不足，当前不能替代传统VAA。 |
+| 2026-08-13 | [Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work](<https://doi.org/10.1080/1369118x.2026.2716340>) | Information Communication & Society | 提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。 |
+| 2026-08-10 | [Multi-platform research in the light of technology affordances: networks of the far right in Germany](<https://doi.org/10.1080/19331681.2026.2697186>) | Journal of Information Technology & Politics | 通过网络分析比较德国极右翼在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构，揭示平台技术可供性对网络模式的影响。 |
 | 2026-08-07 | [Agenda setting in mutual fund markets: news, social media, and fund marketing in China](<https://doi.org/10.1080/08997764.2026.2712252>) | Journal of Media Economics | 利用3782只基金和24万篇新闻数据，分析传统新闻与社会媒体关注对基金净流入的影响，发现多源注意力协同效应。 |
 | 2026-08-04 | [Anti-Elitism Gets the Views: Populist Communication and Popularity on German Political YouTube](<https://doi.org/10.1177/19401612261468863>) | The International Journal of Press/Politics | 研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。 |
-| 2026-08-03 | [Twitter Conversations: Gendered Issue Publics Among Women](<https://doi.org/10.1177/00936502261470086>) | Communication Research | 利用2020和2022选举期间Twitter数据，分析性别与党派如何影响女性政治议题讨论，发现精英与非精英用户差异。 |
-| 2026-07-30 | [Weaponized narratives: A social psychological theory of story-based influence in cognitive warfare](<https://doi.org/10.1177/17506352261472759>) | Media War & Conflict | 论文提出武器化叙事的四阶段心理影响模型，涵盖身份、威胁、道德和阴谋叙事策略，并以俄罗斯2014年克里米亚叙事行动为例，探讨AI在叙事扩散中的放大作用及反叙事策略。 |
-| 2026-07-29 | [Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy](<https://doi.org/10.1080/08838151.2026.2705972>) | Journal of Broadcasting & Electronic Media | 基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-08-10 19:49 GMT+8
+> 最近更新：2026-08-17 13:53 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 1924 |
-| 当期新增 | 1279 |
-| High / Medium / Low | 555 / 589 / 780 |
-| Pending / Screened / Quarantined / Error | 0 / 1923 / 0 / 1 |
-| 已发布精选 | 555 |
-| 期刊全量导出 | 1924 |
+| 数据库论文 | 1947 |
+| 当期新增 | 26 |
+| High / Medium / Low | 560 / 602 / 785 |
+| Pending / Screened / Quarantined / Error | 0 / 1947 / 0 / 0 |
+| 已发布精选 | 560 |
+| 期刊全量导出 | 1947 |
 
-覆盖验证：OpenAlex DOI 1910，Crossref DOI 715，匹配 670，Crossref 中尚缺 45。
+覆盖验证：OpenAlex DOI 1933，Crossref DOI 733，匹配 688，Crossref 中尚缺 45。
 
 <!-- paper-hot:auto-stats:end -->
 

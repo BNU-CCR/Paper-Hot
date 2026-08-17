@@ -1,5 +1,104 @@
 [
   {
+    "id": 1939,
+    "title": "Can Large language models serve as voting advice applications? An empirical test using Turkish lifestyle typologies",
+    "title_zh": "大型语言模型能否作为投票建议工具？以土耳其生活方式分类为对象的实证测试",
+    "authors": [
+      "Gökhan Çelen"
+    ],
+    "institutions": [],
+    "journal": "Journal of Information Technology & Politics",
+    "published_date": "2026-08-13",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Large language models (LLMs) are increasingly deployed for a wide range of purposes, yet their potential to function as Voting Advice Applications (VAAs) on the basis of lifestyle profiles has yet to be examined. This study empirically tests whether LLMs can serve as reliable political guidance tools by using voter profiles constructed from nine lifestyle typologies developed by KONDA Research. These typologies classify Turkish society according to value orientations, consumption habits, socioeconomic status, and political leanings. Nine representative lifestyle profiles were submitted to five LLM platforms-ChatGPT, Microsoft Copilot, Google Gemini, Perplexity, and Claude- which together account for 99% of AI-related web traffic in Turkey, using prompts written in Turkish. The findings reveal substantial calibration divergence across models. While all models correctly identified the dominant party for politically homogeneous profiles, performance declined dramatically for heterogeneous and floating voter segments. Spearman rank correlation analysis demonstrated that, despite failing to achieve cardinal (percentage-level) accuracy, LLMs performed reasonably well in terms of ordinal (rank-order) accuracy. LLMs systematically over-represented major parties while under-representing minor ones. The study concludes that LLMs cannot reliably replace conventional VAAs in their current form, but they may still offer limited potential as a supplementary tool in hybrid VAA designs.",
+    "abstract_zh": "大型语言模型（LLMs）被越来越多地应用于各种场景，但它们是否能够根据个人的生活方式特征来提供投票建议（Voting Advice Applications, VAA）的功能，目前尚未得到充分研究。本研究通过使用KONDA Research开发的九种生活方式分类来构建选民档案，实证检验了LLMs是否能够作为可靠的政治指导工具。这些分类标准涵盖了土耳其社会的价值观取向、消费习惯、社会经济地位和政治倾向。研究人员向五个LLM平台（ChatGPT、Microsoft Copilot、Google Gemini和Claude）提交了九个具有代表性的选民档案，这些平台合计占据了土耳其99%的AI相关网络流量。实验结果发现，不同模型在预测选民政治倾向方面存在显著差异：虽然所有模型都能正确识别出政治立场较为一致的选民所属的主要政党，但在预测立场多样或不明确的选民时，其预测准确性大幅下降。斯皮尔曼等级相关性分析表明，尽管LLMs未能达到绝对（百分比级）的准确率，但在相对（排名顺序）准确性方面表现尚可。此外，LLMs在预测主要政党时存在过度倾向的现象，而对小政党的预测则明显不足。研究结论认为，LLMs目前尚无法完全替代传统的投票建议系统，但它们可能在混合式的投票建议系统中作为辅助工具发挥有限的作用。",
+    "summary": "测试五个LLM平台能否基于土耳其生活方式类型学提供投票建议，发现模型间校准差异大，序数准确度尚可，基数准确度不足，当前不能替代传统VAA。",
+    "reason": "研究LLM作为投票建议应用，涉及AI社会影响与政治传播，采用实证计算方法。",
+    "tags": [
+      "大语言模型",
+      "投票建议应用",
+      "政治传播",
+      "土耳其"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/19331681.2026.2718920",
+    "source_url": "https://doi.org/10.1080/19331681.2026.2718920",
+    "detail_slug": "can-large-language-models-serve-as-voting-advice-applications-an-empirical-test-using-turkish-lifestyle-typologies",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Information Technology & Politics",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 1928,
+    "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
+    "title_zh": "数字足迹资本：人工智能、身份认同与创意作品的算法治理",
+    "authors": [
+      "Tsehaye Haidemariam"
+    ],
+    "institutions": [],
+    "journal": "Information Communication & Society",
+    "published_date": "2026-08-13",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Digital footprints, once regarded as incidental traces of online interaction, have become central to the organization of creative labour. In the age of artificial intelligence (AI), these traces function not only as markers of identity but as forms of symbolic, reputational, and economic capital that mediate visibility, opportunity, and legitimacy within cultural and creative industries. This article introduces the concept of Digital Footprint Capital (DFC) to theorize how creators cultivate and mobilize online presence across four analytically derived dimensions: visibility capital, authenticity capital, collaborative capital, and resilience capital. Drawing on a systematic and reflexive synthesis of scholarship on digital identity, creative labour precarity, AI and algorithmic governance, the framework demonstrates how AI simultaneously expands creative possibilities and intensifies structural vulnerabilities. While generative AI accelerates content production and cultural circulation, it also reproduces inequalities, amplifies reputational fragility, and deepens pressures on digital wellness. Through documented empirical examples from platformed creative work, the article shows how digital footprints are co-constructed by human and algorithmic actors, producing hybrid identities that are both strategic and unstable. By conceptualizing digital traces as capital, this study advances debates on the datafication of cultural work and offers a framework for anticipating the evolving dynamics of AI-mediated creative economies.",
+    "abstract_zh": "数字足迹（Digital Footprints）曾经被视为在线互动的偶然痕迹，如今已成为组织创造性劳动（creative labour）的核心要素。在人工智能（AI）的时代，这些痕迹不仅充当身份的标志，还成为象征性资本、声誉资本和经济资本的形式，它们在文化和创意产业中影响着创作者的可见性、机会以及其工作的合法性。本文提出了“数字足迹资本”（Digital Footprint Capital，简称DFC）的概念，用以阐释创作者如何通过四个维度来培养和利用自己的在线存在：可见性资本（visibility capital）、真实性资本（authenticity capital）、协作资本（collaborative capital）和韧性资本（resilience capital）。该框架综合了关于数字身份、创造性劳动的不确定性、人工智能以及算法治理方面的研究成果，揭示了人工智能在拓展创造性可能性的同时，也加剧了结构性脆弱性。虽然生成式人工智能（generative AI）加速了内容的生产和文化传播，但它也加剧了社会不平等，增强了声誉的脆弱性，并对数字健康（digital wellness）造成了更大的压力。通过分析平台化创意作品中的实证案例，本文指出数字足迹是由人类和算法共同构建的，由此产生的混合身份既具有策略性，又不稳定。通过将数字痕迹视为资本，这项研究深化了对文化作品数据化（datafication of cultural work）的讨论，并为预测由人工智能驱动的创意经济不断变化的动态提供了理论框架。",
+    "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。",
+    "reason": "主题涉及AI、算法治理与数字劳动，属于计算传播核心议题。",
+    "tags": [
+      "AI",
+      "算法治理",
+      "数字足迹",
+      "创意劳动",
+      "数据化"
+    ],
+    "method": "理论分析",
+    "doi": "10.1080/1369118x.2026.2716340",
+    "source_url": "https://doi.org/10.1080/1369118x.2026.2716340",
+    "detail_slug": "digital-footprint-capital-ai-identity-and-the-algorithmic-governance-of-creative-work",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Information, Communication & Society",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 1940,
+    "title": "Multi-platform research in the light of technology affordances: networks of the far right in Germany",
+    "title_zh": "基于技术便利性的多平台研究：德国极右翼网络的分析",
+    "authors": [
+      "Azade E. Kakavand",
+      "Nicola Righetti",
+      "Annie Waldherr"
+    ],
+    "institutions": [],
+    "journal": "Journal of Information Technology & Politics",
+    "published_date": "2026-08-10",
+    "relevance": "High",
+    "score": null,
+    "abstract": "This study investigates the varying structures of German far-right networks on Facebook, Twitter, Instagram, YouTube, and Telegram. Network analyses reveal platform-specific structures and dynamics. Twitter hosts the largest, rather loosely connected network, facilitating rapid content dissemination. Telegram is characterized by inward-focused communication with high clustering and overlapping communities. Facebook displays a hierarchical structure dominated by the far-right party AfD, emphasizing regional connections. YouTube’s network links disparate genres but shows limited connectivity. Instagram features high reciprocity and clustering, indicating distinct, tightly connected communities. This research highlights how connectivity, replicability, and scalability affordances translate into unique network patterns of far-right actors on the platforms.",
+    "abstract_zh": "本研究调查了德国极右翼组织在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构差异。网络分析揭示了各平台特有的结构与动态特征：Twitter拥有规模最大的网络，但其成员之间的联系较为松散，有利于内容的快速传播；Telegram则以内部交流为主，具有较高的聚类性和社区重叠性；Facebook呈现出层级化的网络结构，其中极右翼政党AfD占据主导地位，地区性联系较为明显；YouTube的网络连接了多种不同类型的内容，但整体连通性较弱；Instagram则表现出较高的互惠性和聚类性，表明其社区成员之间联系紧密。研究强调了连通性、可复制性和可扩展性等因素如何影响极右翼组织在这些平台上的网络形态。",
+    "summary": "通过网络分析比较德国极右翼在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构，揭示平台技术可供性对网络模式的影响。",
+    "reason": "使用网络分析计算技术研究社交媒体平台上的极右翼网络结构，属于计算传播学领域。",
+    "tags": [
+      "社交网络分析",
+      "极右翼",
+      "多平台研究",
+      "德国"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/19331681.2026.2697186",
+    "source_url": "https://doi.org/10.1080/19331681.2026.2697186",
+    "detail_slug": "multi-platform-research-in-the-light-of-technology-affordances-networks-of-the-far-right-in-germany",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Information Technology & Politics",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 1909,
     "title": "Agenda setting in mutual fund markets: news, social media, and fund marketing in China",
     "title_zh": "中国共同基金市场中的议程设置：新闻、社交媒体与基金营销",
@@ -1436,6 +1535,40 @@
     "tracked_journal": "Journal of Broadcasting & Electronic Media",
     "volume": "",
     "issue": ""
+  },
+  {
+    "id": 1943,
+    "title": "Make Campaigns Dance Again: The Trumpdance and the Memeaesthetic Logic of TikTok",
+    "title_zh": "让竞选活动重新“跳舞”：特朗普的舞蹈表演与TikTok上的模因美学逻辑",
+    "authors": [
+      "Cristopher Cepernich",
+      "Alice Fubini",
+      "Antonio Martella"
+    ],
+    "institutions": [],
+    "journal": "Social Media + Society",
+    "published_date": "2026-07-01",
+    "relevance": "High",
+    "score": null,
+    "abstract": "TikTok’s mimesis-oriented affordances invite users to ‘perform’ politics through embodied, replicable templates. This article examines the Trumpdance – Donald Trump’s recurrent YMCA dance at campaign rallies – as a case of how offline events become a platform-native trend. Using the TikTok Research API, we collected 6799 Trumpdance-related videos posted during the final month of the 2024 U.S. presidential campaign. We extracted a stratified sample of the top 20% most-viewed videos per day and content-analyzed 1130 posts. Through Multiple Correspondence Analysis and hierarchical clustering, we identified six participation modes and modeled views and comments with negative binomial regression. Findings show that TikTok visibility concentrates on event-based remediation: clips of Trump dancing at rallies generate the highest expected views and comments, while supporter reenactments and playful appropriations circulate more narrowly. Discursive reframing and satirical remediation attract comparatively fewer views but can elicit intensive commenting, underscoring a split between algorithmic visibility and conversational engagement. We argue that ‘imitation publics’ support meaning-making and production but do not automatically translate into algorithmic visibility. Overall, the Trumpdance exemplifies what we label memeaesthetic: a communicative logic in which political performance becomes a shared aesthetic template for production and participation on TikTok.",
+    "abstract_zh": "TikTok以其模仿和再创作的功能，鼓励用户通过具体的、可复制的模板来“表演”政治行为。本文以“Trumpdance”（唐纳德·特朗普在竞选集会中反复跳的YMCA舞蹈）为例，探讨了线下活动如何成为TikTok平台上的流行趋势。我们利用TikTok Research API收集了2024年美国总统竞选最后一个月内发布的6799个与Trumpdance相关的视频，从中选取了每天观看次数最多的前20%的视频，并对1130个相关帖子进行了内容分析。通过多重对应分析（Multiple Correspondence Analysis）和层次聚类（hierarchical clustering）方法，我们识别出了六种参与方式，并使用负二项回归（negative binomial regression）模型来分析这些视频的观看量和评论数量。研究结果表明，TikTok上的视频曝光度主要集中在与特定事件相关的内容上：特朗普在集会上的舞蹈视频获得了最高的观看量和评论数；而支持者的模仿行为以及带有娱乐性质的改编内容则传播范围较窄。虽然具有讽刺意味的改编内容获得的观看量较少，但能引发更多的评论，这凸显了算法驱动的曝光度与用户互动之间的差异。我们认为，“模仿行为”虽然有助于意义的构建和内容的创作，但并不一定能转化为算法层面的高曝光度。总体而言，Trumpdance体现了我们所说的“memeaesthetic”（一种传播逻辑）：在这种逻辑下，政治表演成为TikTok上内容创作和用户参与的共同审美模板。",
+    "summary": "研究特朗普YMCA舞蹈在TikTok上的传播，基于API采集6799个视频，分析参与模式与算法可见性，提出迷因美学逻辑。",
+    "reason": "使用TikTok API收集数据，结合内容分析、MCA和回归模型，属于计算传播研究。",
+    "tags": [
+      "TikTok",
+      "政治传播",
+      "迷因",
+      "计算传播"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/20563051261472313",
+    "source_url": "https://doi.org/10.1177/20563051261472313",
+    "detail_slug": "make-campaigns-dance-again-the-trumpdance-and-the-memeaesthetic-logic-of-tiktok",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Social Media + Society",
+    "volume": "12",
+    "issue": "3"
   },
   {
     "id": 1905,
@@ -11072,6 +11205,40 @@
     "source_type": "openalex",
     "screening_status": "screened",
     "tracked_journal": "The International Journal of Press/Politics",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 1627,
+    "title": "Media events on Instagram during wartime: The case of Zelenskyy’s posts",
+    "title_zh": "战时Instagram上的媒体事件：以泽连斯基的帖子为例",
+    "authors": [
+      "Mansup Heo"
+    ],
+    "institutions": [
+      "Department of Digital Media and Communication, Gangneung-Wonju National University, Wonju City, South Korea"
+    ],
+    "journal": "Media War & Conflict",
+    "published_date": "2025-11-03",
+    "relevance": "High",
+    "score": null,
+    "abstract": "An analysis of Ukrainian President Zelenskyy’s Instagram before and after the outbreak of the Russia–Ukraine War indicates that the wartime leader generated media events on the platform. The findings point to the expansion of media events—traditionally rooted in television—into digital spaces. These events also exhibited characteristics of a recent type—disruptive media events: they were subordinated to conflictual functions; marked by a traumatic, unwelcome, unscripted nature; led by the establishment (the president); impacted by anti-establishment agencies (Russia); and mediated by a non-television medium (Instagram). The routine eventization and urgent, frequent uploads of the president’s wartime activities embodied marathon-type coverage and liveness—further characteristics of disruptive media events. Regarding audience effects, these Instagram events attracted high user engagement and global media attention, aiming to ease trauma and restore solidarity. The observed emergence of platform-based events reaffirms the continued relevance of media event theory in wartime digital media environments.",
+    "abstract_zh": "对乌克兰总统泽连斯基在俄乌战争爆发前后在Instagram上的活动的分析表明，这位战时领导人通过该平台引发了媒体关注。研究结果指出，传统上主要发生在电视上的媒体事件开始扩展到数字空间。这些事件还具备一种新型媒体事件的特征：它们具有破坏性（即对现有秩序产生冲击）；其性质具有创伤性、令人不适且不可预测；由政府（总统）主导；同时受到反政府势力的影响（如俄罗斯）；并且通过非电视媒介（Instagram）进行传播。总统在战时活动的频繁发布和实时更新体现了“马拉松式”的报道方式，这也是破坏性媒体事件的典型特征。从受众反应来看，这些Instagram事件吸引了大量用户参与，并引起了全球媒体的广泛关注，其目的是缓解人们的心理创伤并增强社会凝聚力。观察到的基于平台的媒体事件的出现再次证明了媒体事件理论在战时数字媒体环境中的持续相关性。",
+    "summary": "分析泽连斯基在俄乌战争期间发布的Instagram帖子，探讨媒体事件从电视向数字平台扩展，并呈现破坏性媒体事件特征。",
+    "reason": "研究社交媒体平台Instagram上的战时媒体事件，涉及数字平台与传播理论，属于计算传播领域。",
+    "tags": [
+      "社交媒体",
+      "媒体事件",
+      "Instagram",
+      "战时传播"
+    ],
+    "method": "量化分析",
+    "doi": "10.1177/17506352251385314",
+    "source_url": "https://doi.org/10.1177/17506352251385314",
+    "detail_slug": "media-events-on-instagram-during-wartime-the-case-of-zelenskyy-s-posts",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Media, War & Conflict",
     "volume": "",
     "issue": ""
   },

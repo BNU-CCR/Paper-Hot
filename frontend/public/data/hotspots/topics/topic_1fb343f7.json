@@ -1,24 +1,19 @@
 {
   "topic_id": "topic_1fb343f7",
-  "label": "高选择媒体环境中的知识鸿沟与政治传播效果",
-  "description": "聚焦搜索环境知识差距、政治广告定制与媒体误信效果的因果识别。",
-  "why_hot": "论文量20篇且增速25%，是政治传播与数字媒体效果的常青议题。",
-  "hot_score": 67,
-  "growth": 0.25,
-  "growth_rate": 0.25,
+  "label": "topic_1fb343f7",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 63,
+  "growth": 0.333,
+  "growth_rate": 0.333,
   "recent_rate": 0.1333,
-  "baseline_rate": 0.1067,
+  "baseline_rate": 0.1,
   "recent_count": 4,
-  "baseline_count": 16,
+  "baseline_count": 15,
   "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [
-    "知识鸿沟",
-    "政治广告",
-    "媒体效果",
-    "误信"
-  ],
+  "keywords": [],
   "papers": [
     {
       "id": 1903,
@@ -42,11 +37,25 @@
       "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
     },
     {
+      "id": 58,
+      "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-22",
+      "summary": "探讨智能音箱如何支持处于数字排斥风险的老年人的独立性、能力感和关联性，属于AI技术在社会情境中的应用研究。"
+    },
+    {
       "id": 61,
       "title": "Media effects, selection effects, or no effects? A longitudinal analysis of the relationship between media use and misperceptions",
       "journal": "Information Communication & Society",
       "published_date": "2026-07-17",
       "summary": "论文通过纵向数据分析媒体使用与错误认知的关系，探讨媒体效应与选择效应，但未说明计算方法。"
+    },
+    {
+      "id": 64,
+      "title": "Disability and AI in smart cities: centering access, agency, and awareness in hybrid spaces",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-14",
+      "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
     },
     {
       "id": 7,
@@ -63,32 +72,18 @@
       "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
     },
     {
-      "id": 1907,
-      "title": "Unpacking the Relationship Between Algorithmic Literacy and Misinformation: A Multidimensional Approach Using Two Sequential Studies",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "基于智利两项概率调查，分析算法素养的认知与行为维度对错误信息接触、分享和知识的影响，发现认知维度关联更强。"
-    },
-    {
-      "id": 80,
-      "title": "Consumptive curation for self-care: in search of clumsier algorithms",
+      "id": 72,
+      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
       "journal": "Information Communication & Society",
-      "published_date": "2026-06-18",
-      "summary": "研究青年如何通过算法互动进行自我关照的策展实践，基于四国125份访谈与自传数据，发现算法反应不当导致协商困难，提出设计“笨拙算法”以优化幸福感。"
+      "published_date": "2026-06-29",
+      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
     },
     {
-      "id": 410,
-      "title": "Algorithmized Teenagers in the Age of Artificial Intelligence: Information Cocoons, Algorithmic Literacy, and Media Literacy",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-16",
-      "summary": "基于美国437名青少年全国调查，考察算法新闻消费与算法素养对新闻认知、动机、情感等多元取向的影响，发现关联有限且非决定性。"
-    },
-    {
-      "id": 90,
-      "title": "Mistrust as a precondition for critical thinking and media literacy",
+      "id": 76,
+      "title": "Balancing personalization and privacy: datafication challenges in socially assistive robotics for older persons",
       "journal": "Information Communication & Society",
-      "published_date": "2026-06-03",
-      "summary": "通过两项在线调查（n=2115）研究不信任、新闻消费与媒体素养教育对信息核实信心和实际能力的影响，发现不信任预测信心，新闻消费预测实际辨别能力。"
+      "published_date": "2026-06-23",
+      "summary": "通过18位专家访谈，探究老年人社交辅助机器人开发中个性化与隐私的张力，揭示数据化悖论，提出四类机器人分类。"
     },
     {
       "id": 443,
@@ -112,6 +107,13 @@
       "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
     },
     {
+      "id": 261,
+      "title": "Mapping persuasion strategies of Turkish anti-vaccine advocates on Instagram: a McGuire-based analysis of digital misinformation and political discourse",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-05-13",
+      "summary": ""
+    },
+    {
       "id": 38,
       "title": "Examining the Effects of Viewing Positive Aging TikTok Videos on Aging Outcomes and Attitudes Among Young, Middle-Aged, and Older Women",
       "journal": "Communication Research",
@@ -119,18 +121,11 @@
       "summary": "实验检验观看积极老龄化TikTok视频对不同年龄女性老龄化结果和态度的影响，扩展CEMSA模型，发现间接效应。"
     },
     {
-      "id": 107,
-      "title": "Agency in social media platforms: the role of capitals and literacies under algorithmic environments",
+      "id": 137,
+      "title": "Tailored and trust-based: strategies of information intermediaries countering health misinformation during the COVID-19 pandemic",
       "journal": "Information Communication & Society",
-      "published_date": "2026-05-05",
-      "summary": "通过意大利两地区调查，构建整合框架，分析平台素养、数字资本和算法素养对用户适应性能动性的影响，发现平台素养是主要预测因素。"
-    },
-    {
-      "id": 300,
-      "title": "A Multi-Mechanism Socio-Technical Theory of Wellness Misinformation: Aesthetic, Affective, and Algorithmic Dynamics",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "提出Algorithmic–Affective Misinformation Model，结合访谈与跨平台观察，分析TikTok和RED上健康错误信息通过审美合法化、情感脆弱性与算法强化三种机制获得可信度的过程。"
+      "published_date": "2026-03-29",
+      "summary": "研究通过15位信息中介的重建访谈，分析其在疫情期间为弱势群体提供准确健康信息、对抗错误信息的策略，强调信任建立和非对抗方式。"
     },
     {
       "id": 462,
@@ -145,13 +140,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-03-05",
       "summary": "基于35国约14.5万青少年的调查数据，运用多水平模型分析问题性社交媒体使用与心理健康的关系，发现低家庭SES青少年受影响更大，国家收入不平等程度起调节作用。"
-    },
-    {
-      "id": 429,
-      "title": "When Push Feels Like Pull: Early Adolescent Dependence on YouTube Recommendation Algorithms",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-03-05",
-      "summary": "通过356名10-13岁青少年的调查，使用YAD量表测量其算法依赖，发现依赖低的青少年更多接受家庭推荐，并提出“协商技术选择”概念。"
     },
     {
       "id": 469,

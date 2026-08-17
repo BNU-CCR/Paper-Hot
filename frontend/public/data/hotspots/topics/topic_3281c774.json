@@ -1,25 +1,27 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "事实核查困境与生成式AI依赖",
-  "description": "探讨事实核查的治理成本、覆盖局限及生成式AI成瘾风险。",
-  "why_hot": "论文量21篇，连接信息治理与AI使用行为两个前沿问题。",
-  "hot_score": 51,
-  "growth": -0.167,
-  "growth_rate": -0.167,
-  "recent_rate": 0.1,
+  "label": "topic_3281c774",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 57,
+  "growth": 0.111,
+  "growth_rate": 0.111,
+  "recent_rate": 0.1333,
   "baseline_rate": 0.12,
-  "recent_count": 3,
+  "recent_count": 4,
   "baseline_count": 18,
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [
-    "事实核查",
-    "审查感知",
-    "生成式AI",
-    "成瘾"
-  ],
+  "keywords": [],
   "papers": [
+    {
+      "id": 1931,
+      "title": "The Policy Umwelt: How AI Problem Representations Render Governance Alternatives Unthinkable",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-15",
+      "summary": "通过WPR方法分析三种AI叙事（存在风险、加速主义、批判AI）构建的Policy Umwelt，揭示其限制治理选项的认知框架。"
+    },
     {
       "id": 394,
       "title": "The Costs of Governing Truth: Fact-Checking, Perceived Censorship, and Political Participation Across Governance Contexts",

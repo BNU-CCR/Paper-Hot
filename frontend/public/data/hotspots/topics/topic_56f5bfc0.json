@@ -1,24 +1,19 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "武器化叙事与认知域作战",
-  "description": "聚焦认知战中的叙事影响、QAnon反公众与宣传的社会过程。",
-  "why_hot": "涉及安全与冲突议题，论文量33篇，兼具理论与实战研究。",
-  "hot_score": 60,
-  "growth": -0.107,
-  "growth_rate": -0.107,
-  "recent_rate": 0.1667,
-  "baseline_rate": 0.1867,
-  "recent_count": 5,
-  "baseline_count": 28,
-  "journal_count": 7,
+  "label": "topic_56f5bfc0",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 38,
+  "growth": -0.444,
+  "growth_rate": -0.444,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.18,
+  "recent_count": 3,
+  "baseline_count": 27,
+  "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [
-    "认知战",
-    "叙事",
-    "宣传",
-    "反公众"
-  ],
+  "keywords": [],
   "papers": [
     {
       "id": 483,
@@ -140,11 +135,11 @@
       "summary": "研究2025年柬泰武装冲突中的‘Don’t Thai to me’话语，分析柬埔寨官方媒体及Facebook内容，结合Fairclough话语分析探讨民族身份污名化及数字传播下的舆论动员。"
     },
     {
-      "id": 117,
-      "title": "Protest movements and the mainstreaming of radical and extremist ideologies: the case of COVID-19 protests",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-16",
-      "summary": "研究德国新冠抗议运动‘Querdenken’如何通过社交媒体促进激进和极端意识形态的主流化，使用内容分析、URL分析和网络分析三角验证，揭示其反精英和阴谋叙事及与极右翼社区的连接。"
+      "id": 512,
+      "title": "“The architect of the invasion” vs. “a symbol of resilience”: How AI chatbots frame Zelenskyy, Putin and the Russia–Ukraine war",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-19",
+      "summary": "2024年11月对ChatGPT、Copilot、Gemini、Claude四个AI聊天机器人进行定性内容分析，发现其框架与欧美媒体相似，将俄罗斯视为侵略者、乌克兰为受害者，但对俄宣传语境理解不足，存在偏见和可靠性问题。"
     },
     {
       "id": 514,
@@ -168,6 +163,13 @@
       "summary": "从生态视角探讨平台化放大如何通过注意力竞争、目击内容和算法信息流强化恐怖主义报道，间接助力恐怖主义目标。"
     },
     {
+      "id": 519,
+      "title": "Artificial intelligence, deepfakes, and wars: How global news media frame actors, threats, and solutions in 19 countries",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-03",
+      "summary": "分析19国308篇新闻对深度伪造的行动者、威胁和解决方案的框架，基于俄乌战争案例，采用定性主题分析，揭示政治、技术、犯罪等主体及多维度威胁和应对措施。"
+    },
+    {
       "id": 184,
       "title": "Evaluating the Impact of China’s “Wolf Warrior Diplomacy” in East Asia: An Experimental Approach",
       "journal": "The International Journal of Press/Politics",
@@ -182,18 +184,11 @@
       "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
     },
     {
-      "id": 309,
-      "title": "Preventing Radicalisation, or Forcing Ideological Consent? Crises, Uncertainty Reduction and Collective Identity Negotiation in Collaborative Communities of Online Third Spaces",
+      "id": 307,
+      "title": "Afghanistan’s Digital Diaspora: Conflicted Constructions of Nation and Identity",
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
-      "summary": "研究在线第三方空间（育儿论坛）在危机事件中的集体身份协商，分析近2500条帖子，发现论坛虽提供支持但排斥少数意见，可能导致边缘化激进化。"
-    },
-    {
-      "id": 136,
-      "title": "Mobilization in motion: how radical movements adapt their communication on Telegram amid evolving crises",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-29",
-      "summary": "研究分析德国极右翼和Querdenken运动在2022年危机变化下如何通过Telegram调整传播策略，基于151个频道8852条消息的内容分析，发现不同运动的适应模式差异。"
+      "summary": "该论文通过民族志方法分析2021-2024年间X平台关于阿富汗的帖子，探讨离散社群与国内用户如何围绕民族、标签和语言展开排斥性话语，重塑族群分裂。"
     },
     {
       "id": 138,
@@ -224,32 +219,11 @@
       "summary": "研究伊朗Telegram频道在2025年以伊战争期间如何协调传播宣传与虚假信息，通过分析47,567条帖子，发现政治新闻频道为核心枢纽，娱乐频道作为放大层，混合使用幽默和讽刺包装信息以扩大传播。"
     },
     {
-      "id": 527,
-      "title": "Monitoring the consensus or driving polarization? Comparing journalistic coverage of anti-Green pass and anti-war protests in France and Italy (2021–2024)",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-03-13",
-      "summary": "比较意大利和法国媒体如何报道反疫苗和反战抗议，基于790篇文章的人工编码，发现意大利报道更极化，且支持共识的记者更常偏离中立规范。"
-    },
-    {
-      "id": 616,
-      "title": "Digital dissent and social grass-roots mobilization on X: The impact of #MahsaAmini on digital political activism in the Islamic Republic of Iran",
-      "journal": "Global Media and Communication",
-      "published_date": "2026-03-12",
-      "summary": "论文分析2022年伊朗#MahsaAmini抗议期间波斯语X上的异议与社会动员，发现平台既报告事件又协调行动与构建政治诉求，揭示受限环境下的数字传播作用。"
-    },
-    {
       "id": 228,
       "title": "Disinformation as Cultural Narrative: Conceptualizing Disinformation as Cross-Platform, Identity-Affirming, Cathartic Stories",
       "journal": "Political Communication",
       "published_date": "2026-03-04",
       "summary": "将虚假信息概念化为跨平台、身份认同和宣泄性的文化叙事，基于Facebook和Twitter广泛分享的URL内容数据集，分析三个案例，发现成功虚假信息符合叙事标准，具有情感和道德维度。"
-    },
-    {
-      "id": 274,
-      "title": "State apparatus vs. surrogate sphere: a comparative analysis of domestic and international media in Turkish elections",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-02-13",
-      "summary": "分析土耳其国内外公共媒体在四次选举中的推文差异，发现国内媒体强烈偏向执政党，国际媒体相对平衡，实证揭示媒体党派化与替代公共领域。"
     }
   ],
   "paper_edges": []

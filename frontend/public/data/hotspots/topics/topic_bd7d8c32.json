@@ -1,9 +1,9 @@
 {
   "topic_id": "topic_bd7d8c32",
-  "label": "生理同步与具身受众体验",
-  "description": "探索受众观看叙事媒体时的生理同步及音乐带来的自传体共鸣。",
-  "why_hot": "近30天增速900%，体现受众研究向具身与生理测量拓展。",
-  "hot_score": 61,
+  "label": "topic_bd7d8c32",
+  "description": "",
+  "why_hot": "",
+  "hot_score": 57,
   "growth": 9.0,
   "growth_rate": 9.0,
   "recent_rate": 0.0667,
@@ -13,12 +13,7 @@
   "journal_count": 2,
   "lineage_status": "continued",
   "status": "emerging",
-  "keywords": [
-    "生理测量",
-    "受众",
-    "叙事",
-    "音乐共鸣"
-  ],
+  "keywords": [],
   "papers": [
     {
       "id": 2,
