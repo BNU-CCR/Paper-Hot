@@ -31,6 +31,7 @@ import numpy as np
 from .config import Config
 from .storage import PaperFeatures, PaperStorage
 from .hotspot_labels import TopicLabeler
+from .hotspot_validation import validate_hotspot_data
 
 
 # ── helpers ──────────────────────────────────────────────────────────
@@ -494,15 +495,74 @@ def _form_topics(
 # ── step 7: match with historical topics ─────────────────────────────
 
 def _load_previous_topics(final_dir: Path) -> List[Dict[str, Any]]:
-    """Load previous run's graph.json for topic lineage matching."""
+    """Load previous topic metadata, including labels from older artifacts.
+
+    Early schema-3 graph files kept lineage metadata in ``topics_meta`` but
+    stored editorial labels only in the topic anchor/detail files. Recovering
+    those fields here keeps a temporary LLM failure from turning a stable
+    human-readable topic into ``topic_<id>`` on the next refresh.
+    """
     graph_path = final_dir / "graph.json"
     if not graph_path.exists():
         return []
     try:
         data = json.loads(graph_path.read_text(encoding="utf-8"))
-        return data.get("topics_meta", [])
+        previous = data.get("topics_meta", [])
+        if not isinstance(previous, list):
+            return []
+
+        editorial: Dict[str, Dict[str, Any]] = {}
+
+        # Newer graph files may carry the label directly on the topic anchor.
+        for point in data.get("points", []):
+            if not isinstance(point, dict) or point.get("type") != "topic":
+                continue
+            topic_id = point.get("topicId") or point.get("id")
+            label = point.get("label")
+            if isinstance(topic_id, str) and _is_human_topic_label(label, topic_id):
+                editorial.setdefault(topic_id, {})["label_zh"] = label
+
+        # Older files have the authoritative editorial fields in topics/*.json.
+        topics_dir = final_dir / "topics"
+        for topic_file in topics_dir.glob("*.json") if topics_dir.is_dir() else []:
+            try:
+                detail = json.loads(topic_file.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+            topic_id = detail.get("topic_id")
+            if not isinstance(topic_id, str):
+                continue
+            label = detail.get("label")
+            if _is_human_topic_label(label, topic_id):
+                editorial.setdefault(topic_id, {})["label_zh"] = label
+            for field in ("description", "why_hot", "keywords"):
+                value = detail.get(field)
+                if value not in (None, "", []):
+                    editorial.setdefault(topic_id, {})[field] = value
+
+        inherited_fields = (
+            "label_zh", "label_en", "description", "why_hot", "keywords",
+            "_label_fingerprint",
+        )
+        result: List[Dict[str, Any]] = []
+        for item in previous:
+            if not isinstance(item, dict):
+                continue
+            merged = dict(item)
+            topic_id = merged.get("topic_id")
+            recovered = editorial.get(topic_id, {}) if isinstance(topic_id, str) else {}
+            for field in inherited_fields:
+                if merged.get(field) in (None, "", []) and recovered.get(field) not in (None, "", []):
+                    merged[field] = recovered[field]
+            result.append(merged)
+        return result
     except (json.JSONDecodeError, KeyError):
         return []
+
+
+def _is_human_topic_label(value: Any, topic_id: str) -> bool:
+    """Return whether a label is usable instead of an internal topic id."""
+    return isinstance(value, str) and bool(value.strip()) and value.strip() != topic_id
 
 
 def _match_topics(
@@ -893,7 +953,7 @@ def _build_output(
     for t in sorted_topics:
         cid = t["cluster_id"]
         x, y = anchor_positions.get(cid, (0.0, 0.0))
-        topic_meta.append({
+        meta = {
             "topic_id": t["topic_id"],
             "cluster_id": cid,
             "size": t["size"],
@@ -905,7 +965,16 @@ def _build_output(
             "growth_rate": t.get("growth_rate", 0.0),
             "x": x,
             "y": y,
-        })
+        }
+        # Keep editorial metadata with lineage data so future runs do not
+        # need to infer labels from a separate artifact file.
+        for field in (
+            "label_zh", "label_en", "description", "why_hot", "keywords",
+            "_label_fingerprint",
+        ):
+            if t.get(field) not in (None, "", []):
+                meta[field] = t[field]
+        topic_meta.append(meta)
 
     # Topic-relation links (cluster_id -> topic_id, both in shown)
     cid_to_slug = {t["cluster_id"]: t["topic_id"] for t in shown}
@@ -1176,6 +1245,10 @@ def build_hotspot_network(
         candidates, net_config, anchor_date, embedding_model, dim, umap_config,
         temp_dir, include_inactive,
     )
+
+    # Validate before replacing the live artifact. In particular, a failed
+    # labeling call must never publish topic IDs as the visible topic names.
+    validate_hotspot_data(temp_dir)
 
     # Atomic replace
     _atomic_replace(temp_dir, final_dir)

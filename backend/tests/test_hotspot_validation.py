@@ -172,6 +172,17 @@ class HotspotValidationTests(unittest.TestCase):
                 validate_hotspot_data(data_dir)
             self.assertIn("trend", str(ctx.exception))
 
+    def test_topic_id_is_not_accepted_as_visible_label(self):
+        with tempfile.TemporaryDirectory() as td:
+            data_dir = _build_valid_output(Path(td))
+            graph_path = data_dir / "graph.json"
+            graph = json.loads(graph_path.read_text(encoding="utf-8"))
+            graph["points"][0]["label"] = graph["points"][0]["id"]
+            _write_json(graph_path, graph)
+            with self.assertRaises(HotspotValidationError) as ctx:
+                validate_hotspot_data(data_dir)
+            self.assertIn("human-readable label", str(ctx.exception))
+
     def test_validate_and_report_returns_false_on_failure(self):
         with tempfile.TemporaryDirectory() as td:
             data_dir = Path(td) / "hotspots"

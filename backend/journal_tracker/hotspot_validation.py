@@ -94,6 +94,12 @@ def validate_hotspot_data(data_dir: Path) -> List[str]:
 
         if ptype == "topic":
             topic_points.append(point)
+            label = point.get("label")
+            _check(
+                isinstance(label, str) and bool(label.strip()) and label.strip() != pid,
+                f"Topic point {pid} must have a human-readable label",
+                errors,
+            )
 
     # Every topic cloud should have at least one paper point in its group
     # (soft warning — a fresh topic may briefly have all papers as noise).
@@ -129,6 +135,12 @@ def validate_hotspot_data(data_dir: Path) -> List[str]:
     for item in trends:
         tid = item.get("topic_id", "")
         _check(isinstance(tid, str) and tid, "Each trend must have topic_id", errors)
+        label = item.get("label")
+        _check(
+            isinstance(label, str) and bool(label.strip()) and label.strip() != tid,
+            f"Trend {tid} must have a human-readable label",
+            errors,
+        )
 
     # ── Topic detail files ───────────────────────────────────────
     topics_dir = data_dir / "topics"
@@ -143,6 +155,14 @@ def validate_hotspot_data(data_dir: Path) -> List[str]:
                        f"Detail file missing: {detail_file}", errors)
                 if detail_path.is_file():
                     detail = _read_json(detail_path)
+                    label = detail.get("label")
+                    _check(
+                        isinstance(label, str)
+                        and bool(label.strip())
+                        and label.strip() != point["id"],
+                        f"Topic {point['id']} detail must have a human-readable label",
+                        errors,
+                    )
                     papers = detail.get("papers", [])
                     _check(len(papers) >= 2,
                            f"Topic {point['id']} has only {len(papers)} papers (min 2)",
