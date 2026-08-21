@@ -1,19 +1,21 @@
 {
   "topic_id": "topic_2c3061a6",
-  "label": "数字时代的组织责任与平台化传播",
-  "description": "",
-  "why_hot": "",
-  "hot_score": 64,
-  "growth": 0.2,
-  "growth_rate": 0.2,
+  "label": "平台时代的机构传播与合法性",
+  "description": "探讨企业、NGO与人道组织在数字平台上的传播实践、公共期待与合法性建构，兼及宣传与另类技术生态。",
+  "why_hot": "平台逻辑重塑各类机构的传播战略与数字责任边界，跨部门比较研究成为新热点。",
+  "hot_score": 66,
+  "growth": -0.032,
+  "growth_rate": -0.032,
   "recent_rate": 0.2,
-  "baseline_rate": 0.1667,
+  "baseline_rate": 0.2067,
   "recent_count": 6,
-  "baseline_count": 25,
-  "journal_count": 10,
+  "baseline_count": 31,
+  "journal_count": 11,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [],
+  "keywords": [
+    "平台化、机构传播、数字责任、合法性、另类技术生态"
+  ],
   "papers": [
     {
       "id": 1933,
@@ -58,6 +60,13 @@
       "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
     },
     {
+      "id": 68,
+      "title": "Linking names with frames: the interplay of moral entities and moral frames in Chinese online gender debates",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-07",
+      "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
+    },
+    {
       "id": 69,
       "title": "Selling speed, suspending citizenship: data throttling, instantaneous downgrading, and the politics of connectivity in China",
       "journal": "Information Communication & Society",
@@ -70,6 +79,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
+    },
+    {
+      "id": 285,
+      "title": "“You Might Like Each Other”: Mass Customization and the Structuring of Sociality Among Chinese Generation Z on the Soul App",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过参与观察和访谈，研究Soul app的算法匹配与标签系统如何重塑中国Z世代社交，既促进情感连接又强化文化经济分层。"
     },
     {
       "id": 71,
@@ -135,6 +151,13 @@
       "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
     },
     {
+      "id": 507,
+      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-05-02",
+      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
+    },
+    {
       "id": 452,
       "title": "Of Scams and Failures: Analyzing International Environmental NGOs’ Narratives After COP 29",
       "journal": "International Journal of Strategic Communication",
@@ -198,6 +221,13 @@
       "summary": "通过民族志和访谈研究60个西语生态网红账号，分析其在TikTok上应对病毒式传播与社区建设的矛盾，提出“扁平病毒式传播”概念。"
     },
     {
+      "id": 304,
+      "title": "“My Non-Existing Organ”: Transitional Objects, Compensatory Romance, and the Affective Enclaves of Chinese Female Idol Fandom",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过多站点数字民族志研究中国女性粉丝在微博、豆瓣、微信群中的身份实践与情感表达，探讨女友粉和妈妈粉的补偿性浪漫及符号抵抗，形成情感飞地。"
+    },
+    {
       "id": 144,
       "title": "‘Spread kindness not virus’: theorising the vulnerability of online mutual aid communities",
       "journal": "Information Communication & Society",
@@ -224,6 +254,20 @@
       "journal": "Asian Journal of Communication",
       "published_date": "2026-03-04",
       "summary": "通过机构分析和双模网络映射，研究中国电视剧产业中党政部门通过精英吸纳实现嵌入式治理的机制，提出三种关系控制模式。"
+    },
+    {
+      "id": 384,
+      "title": "Ghost in the livestream: emotional labor and alienation among China's Zhong Zhi Ren",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-03-04",
+      "summary": "通过25位中之人与粉丝的深度访谈，探讨虚拟直播中表演者的情感劳动、异化及平台资本主义剥削逻辑，提出治理框架。"
+    },
+    {
+      "id": 729,
+      "title": "How to do things with a keyword: a cross-cultural analysis of the meanings and functions of ‘values’ on Twitter",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-02-26",
+      "summary": "分析五种语言约1500万条推文中'values'的语境与功能，发现跨文化差异与普遍模式，揭示其作为身份锚定和边界工作的工具。"
     },
     {
       "id": 643,

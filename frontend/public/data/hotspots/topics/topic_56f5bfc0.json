@@ -1,9 +1,9 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "数字时代的认知战与叙事冲突",
-  "description": "",
-  "why_hot": "",
-  "hot_score": 38,
+  "label": "叙事武器化与认知战",
+  "description": "从社会心理学与跨平台视角分析认知战中的叙事操纵、阴谋论反公众与宣传的社会过程。",
+  "why_hot": "宣传研究从信息操纵转向叙事层面的认知争夺，QAnon等案例推动理论更新。",
+  "hot_score": 42,
   "growth": -0.444,
   "growth_rate": -0.444,
   "recent_rate": 0.1,
@@ -13,7 +13,9 @@
   "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [],
+  "keywords": [
+    "认知战、叙事操纵、阴谋论、宣传研究、反公众"
+  ],
   "papers": [
     {
       "id": 483,
@@ -135,13 +137,6 @@
       "summary": "研究2025年柬泰武装冲突中的‘Don’t Thai to me’话语，分析柬埔寨官方媒体及Facebook内容，结合Fairclough话语分析探讨民族身份污名化及数字传播下的舆论动员。"
     },
     {
-      "id": 512,
-      "title": "“The architect of the invasion” vs. “a symbol of resilience”: How AI chatbots frame Zelenskyy, Putin and the Russia–Ukraine war",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-04-19",
-      "summary": "2024年11月对ChatGPT、Copilot、Gemini、Claude四个AI聊天机器人进行定性内容分析，发现其框架与欧美媒体相似，将俄罗斯视为侵略者、乌克兰为受害者，但对俄宣传语境理解不足，存在偏见和可靠性问题。"
-    },
-    {
       "id": 514,
       "title": "Constructing childhood in the Russian-Ukrainian War: UNICEF’s Instagram representations of children",
       "journal": "Media War & Conflict",
@@ -163,11 +158,11 @@
       "summary": "从生态视角探讨平台化放大如何通过注意力竞争、目击内容和算法信息流强化恐怖主义报道，间接助力恐怖主义目标。"
     },
     {
-      "id": 519,
-      "title": "Artificial intelligence, deepfakes, and wars: How global news media frame actors, threats, and solutions in 19 countries",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-04-03",
-      "summary": "分析19国308篇新闻对深度伪造的行动者、威胁和解决方案的框架，基于俄乌战争案例，采用定性主题分析，揭示政治、技术、犯罪等主体及多维度威胁和应对措施。"
+      "id": 128,
+      "title": "Racism, resistance, and Reddit: how popular culture sparks online reckonings",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-07",
+      "summary": "研究分析Reddit用户对两部种族主题剧集的评论，结合主题建模与批判话语分析，揭示用户角色流动及平台匿名性对种族讨论的影响。"
     },
     {
       "id": 184,
@@ -184,11 +179,11 @@
       "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
     },
     {
-      "id": 307,
-      "title": "Afghanistan’s Digital Diaspora: Conflicted Constructions of Nation and Identity",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "该论文通过民族志方法分析2021-2024年间X平台关于阿富汗的帖子，探讨离散社群与国内用户如何围绕民族、标签和语言展开排斥性话语，重塑族群分裂。"
+      "id": 135,
+      "title": "Examining the linguistic power of emotes: multimodal race discourse on Twitch",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-30",
+      "summary": "研究Twitch上三个表情符号在直播聊天中的使用、改造和挪用，如何再现和颠覆反黑人种族主义，通过多站点数字民族志分析这些表情的流通轨迹和意义制造。"
     },
     {
       "id": 138,

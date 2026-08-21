@@ -1,19 +1,21 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "信息治理与AI使用行为",
-  "description": "",
-  "why_hot": "",
-  "hot_score": 57,
-  "growth": 0.111,
-  "growth_rate": 0.111,
+  "label": "算法治理与AI权力批判",
+  "description": "考察AI如何重构治理想象、创意劳动与事实核查实践，反思算法权力对公共生活的深层规制。",
+  "why_hot": "AI介入治理与劳动引发对可治理性与权力边界的追问，生成式AI加剧议题紧迫性。",
+  "hot_score": 67,
+  "growth": 0.25,
+  "growth_rate": 0.25,
   "recent_rate": 0.1333,
-  "baseline_rate": 0.12,
+  "baseline_rate": 0.1067,
   "recent_count": 4,
-  "baseline_count": 18,
+  "baseline_count": 16,
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [],
+  "keywords": [
+    "AI治理、算法权力、事实核查、创意劳动、生成式AI成瘾"
+  ],
   "papers": [
     {
       "id": 1931,
@@ -21,6 +23,13 @@
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-08-15",
       "summary": "通过WPR方法分析三种AI叙事（存在风险、加速主义、批判AI）构建的Policy Umwelt，揭示其限制治理选项的认知框架。"
+    },
+    {
+      "id": 1928,
+      "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-13",
+      "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
     },
     {
       "id": 394,
@@ -142,32 +151,11 @@
       "summary": "通过系统文献综述和对澳大利亚、英国选举管理机构的访谈，构建了针对选举虚假信息的制度应对策略类型学。"
     },
     {
-      "id": 229,
-      "title": "Negativity and Misinformation",
-      "journal": "Political Communication",
-      "published_date": "2026-02-25",
-      "summary": "论文利用自动化文本分析检验美国六大电视网20余年失业报道的准确性，发现负面偏差显著关联报道不准确，为新闻错误信息提供解释。"
-    },
-    {
       "id": 734,
       "title": "The pitfalls of judicial intervention on disinformation: an account of the Brazilian 2022 election",
       "journal": "Information Communication & Society",
       "published_date": "2026-02-23",
       "summary": "通过质性分析研究巴西2022年选举中司法应对虚假信息的复杂性，探讨技术、社会与政治因素，指出司法干预的局限。"
-    },
-    {
-      "id": 231,
-      "title": "Truth-Seeking vs. Balance: The Credibility Dilemma in Correcting Political Misinformation",
-      "journal": "Political Communication",
-      "published_date": "2026-02-20",
-      "summary": "研究政治误导信息纠正中的'真相-平衡困境'，通过事实核查数据、全国调查和实验，发现不对称纠错会损害新闻可信度，且效果取决于受众对误导信息来源的归因。"
-    },
-    {
-      "id": 233,
-      "title": "Artificial Intelligence in Election Campaigns: Perceptions, Penalties, and Implications",
-      "journal": "Political Communication",
-      "published_date": "2026-02-19",
-      "summary": "通过三项预注册实验（N>7600）研究美国公众对AI在选举中不同用途的反应，发现公众厌恶欺骗性AI但政党支持率不受影响，反而增加对严格监管和禁止AI的支持。"
     }
   ],
   "paper_edges": []

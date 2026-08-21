@@ -1,19 +1,21 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "社交媒体中的身份政治与数字化动员",
-  "description": "",
-  "why_hot": "",
-  "hot_score": 56,
-  "growth": 0.0,
-  "growth_rate": 0.0,
-  "recent_rate": 0.1667,
-  "baseline_rate": 0.1667,
-  "recent_count": 5,
-  "baseline_count": 25,
-  "journal_count": 8,
+  "label": "数字仇恨与性别化公共领域",
+  "description": "聚焦社交媒体中的仇恨言论、性别冲突与边缘群体动员，考察平台可供性与话语策略如何塑造敌意传播。",
+  "why_hot": "网络仇恨与性别政治交叉，反映平台治理与身份政治的持续张力，近期实证研究显著增多。",
+  "hot_score": 64,
+  "growth": -0.118,
+  "growth_rate": -0.118,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.2267,
+  "recent_count": 6,
+  "baseline_count": 34,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
-  "keywords": [],
+  "keywords": [
+    "数字仇恨、性别冲突、平台可供性、身份政治、边缘群体"
+  ],
   "papers": [
     {
       "id": 1925,
@@ -28,6 +30,20 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-08-13",
       "summary": "通过对24位大学教授的访谈，探讨学者作为数字仇恨目标对施害者和旁观者的感知，强调权力失衡与战略挑衅，发现旁观者干预不足，需集体应对。"
+    },
+    {
+      "id": 1897,
+      "title": "Twitter Conversations: Gendered Issue Publics Among Women",
+      "journal": "Communication Research",
+      "published_date": "2026-08-03",
+      "summary": "利用2020和2022选举期间Twitter数据，分析性别与党派如何影响女性政治议题讨论，发现精英与非精英用户差异。"
+    },
+    {
+      "id": 13,
+      "title": "Social media, social identity, and the construction of perceived gender conflict: evidence from a national survey in South Korea",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
     },
     {
       "id": 244,
@@ -58,11 +74,25 @@
       "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
     },
     {
-      "id": 68,
-      "title": "Linking names with frames: the interplay of moral entities and moral frames in Chinese online gender debates",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-07",
-      "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
+      "id": 251,
+      "title": "Disinformation, social inequalities and young people’s digital citizenship during conflict and crisis in Ethiopia",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-02",
+      "summary": "研究埃塞俄比亚冲突期间青年数字公民身份中的性别与地域不平等，探讨其如何影响虚假信息传播及政治参与。"
+    },
+    {
+      "id": 1908,
+      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
+    },
+    {
+      "id": 253,
+      "title": "No time or tech for online news: How social and digital inequalities contribute to gender gaps in online news consumption",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-29",
+      "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
     },
     {
       "id": 82,
@@ -70,6 +100,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-15",
       "summary": "基于中国男性农民工调查数据，整合使用与满足和社会学习理论，考察约会应用采用的影响因素及对线下勾搭意图的中介作用，发现动机、社会认同、社会比较等通过采用影响意图，且受伦理疑虑调节。"
+    },
+    {
+      "id": 256,
+      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-15",
+      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
     },
     {
       "id": 86,
@@ -100,18 +137,25 @@
       "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
     },
     {
+      "id": 258,
+      "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-05",
+      "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
+    },
+    {
+      "id": 218,
+      "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
+      "journal": "Political Communication",
+      "published_date": "2026-05-27",
+      "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
+    },
+    {
       "id": 106,
       "title": "Bad domains: exposure to malicious content online",
       "journal": "Information Communication & Society",
       "published_date": "2026-05-08",
       "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
-    },
-    {
-      "id": 507,
-      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-05-02",
-      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
     },
     {
       "id": 110,
@@ -142,6 +186,13 @@
       "summary": "基于比利时147名青少年的21场焦点小组，探讨青年与父母同伴协商数字位置跟踪的边界规则与策略，揭示其对日常监控文化的接受与抵抗。"
     },
     {
+      "id": 118,
+      "title": "Navigating intersectional expectations: a computational multimodal analysis of the effects of identities and communication styles on public engagement with science on TikTok",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-16",
+      "summary": "基于10,800个视频和448,002条评论，分析TikTok科学传播中传播者性别、种族与沟通风格如何影响公众参与，发现交叉身份导致参与差异。"
+    },
+    {
       "id": 124,
       "title": "Digital resistance and gendered dispossession: Palestinian women’s struggles for inheritance justice",
       "journal": "Information Communication & Society",
@@ -163,6 +214,13 @@
       "summary": "基于英国成人全国调查，考察用户对平台安全技术的认知、使用与满意度，发现在线伤害普遍，事后工具使用率高但满意度低，数字素养和性别影响使用。"
     },
     {
+      "id": 298,
+      "title": "Normative White Internet Practices: Performances at the Edge of a Digital Black Community",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "研究通过分析Reddit r/BlackPeopleTwitter上白人用户的盟友申请，揭示规范白人网络实践的表现及其潜在伤害，采用民族志与定性案例分析。"
+    },
+    {
       "id": 301,
       "title": "The AI Referee: How Online Interventions Shape Incivility and User Engagement in News Discussions",
       "journal": "Social Media + Society",
@@ -177,11 +235,25 @@
       "summary": "研究德国举报非法在线内容的用户特征，发现其多为年长、高学历、左倾且公民参与度高的人群，将举报视为数字公民参与形式。"
     },
     {
+      "id": 307,
+      "title": "Afghanistan’s Digital Diaspora: Conflicted Constructions of Nation and Identity",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该论文通过民族志方法分析2021-2024年间X平台关于阿富汗的帖子，探讨离散社群与国内用户如何围绕民族、标签和语言展开排斥性话语，重塑族群分裂。"
+    },
+    {
       "id": 311,
       "title": "When Not to Post: Inhibition and the Digital Presentation of Self of Muslim Women",
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "通过50次深度访谈，研究科威特和新西兰穆斯林女性在社交媒体上的抑制机制，发现数字克制受受众控制和内容永久性影响，并受文化背景调节。"
+    },
+    {
+      "id": 51,
+      "title": "Differential Effects of Counter-Stereotypical Portrayals of Warmth Across Racial Groups: Behavioral and Experimental Evidence",
+      "journal": "Communication Research",
+      "published_date": "2026-03-18",
+      "summary": "研究考察医疗众筹中反刻板温暖描述对不同种族受益者的捐赠影响，结合大规模数据和实验，发现对亚裔和白人有效但对黑人产生反效果，期望违背起中介作用。"
     },
     {
       "id": 547,
@@ -203,13 +275,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-02-27",
       "summary": "实验研究考察社会助推对旁观者干预反LGBTQIA+在线敌意的影响，发现敌意类型影响反应，助推效果不稳定，少数增加负面情绪但未促进行为。"
-    },
-    {
-      "id": 729,
-      "title": "How to do things with a keyword: a cross-cultural analysis of the meanings and functions of ‘values’ on Twitter",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-02-26",
-      "summary": "分析五种语言约1500万条推文中'values'的语境与功能，发现跨文化差异与普遍模式，揭示其作为身份锚定和边界工作的工具。"
     },
     {
       "id": 731,
