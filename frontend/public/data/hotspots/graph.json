@@ -8432,6 +8432,7 @@
     },
     {
       "topic_id": "topic_5bc0b040",
+      "label_zh": "媒体议程与企业行为：中国情境",
       "cluster_id": 10,
       "size": 3,
       "hot_score": 0.4528,
@@ -9685,6 +9686,7 @@
     },
     {
       "topic_id": "topic_81f5e828",
+      "label_zh": "智能机器与AI的社会信任",
       "cluster_id": 8,
       "size": 22,
       "hot_score": 0.2826,
@@ -10106,6 +10108,7 @@
     },
     {
       "topic_id": "topic_0e10a101",
+      "label_zh": "对话语言与心理健康的计算分析",
       "cluster_id": 2,
       "size": 25,
       "hot_score": 0.2801,
