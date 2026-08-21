@@ -29,6 +29,7 @@ try:
         _compute_umap,
         _paper_recency_heat,
         _match_topics,
+        _load_previous_topics,
         build_hotspot_network,
     )
     HAVE_ANALYSIS = True
@@ -90,6 +91,36 @@ class HotspotNetworkUnitTests(unittest.TestCase):
         self.assertEqual(matched[0]["topic_id"], "topic_stable")
         self.assertEqual(matched[0]["label_zh"], "平台算法与政治传播生态")
         self.assertEqual(matched[0]["_label_fingerprint"], "old-fingerprint")
+
+    def test_previous_topics_recover_labels_from_legacy_detail_files(self):
+        with tempfile.TemporaryDirectory() as td:
+            data_dir = Path(td) / "hotspots"
+            (data_dir / "topics").mkdir(parents=True)
+            (data_dir / "graph.json").write_text(json.dumps({
+                "topics_meta": [{
+                    "topic_id": "topic_stable",
+                    "paper_ids": [1, 2],
+                    "centroid": [1.0, 0.0],
+                }],
+                "points": [{
+                    "id": "topic_stable",
+                    "type": "topic",
+                    "label": "topic_stable",
+                }],
+            }), encoding="utf-8")
+            (data_dir / "topics/topic_stable.json").write_text(json.dumps({
+                "topic_id": "topic_stable",
+                "label": "平台算法与政治传播生态",
+                "description": "旧描述",
+                "why_hot": "旧说明",
+                "keywords": ["平台算法"],
+            }), encoding="utf-8")
+
+            previous = _load_previous_topics(data_dir)
+
+            self.assertEqual(previous[0]["label_zh"], "平台算法与政治传播生态")
+            self.assertEqual(previous[0]["description"], "旧描述")
+            self.assertEqual(previous[0]["keywords"], ["平台算法"])
 
     def test_topic_graph_and_anchor_positions_use_cluster_ids(self):
         # Regression: _compute_topic_graph previously keyed edges by the
