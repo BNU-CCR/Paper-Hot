@@ -1,22 +1,32 @@
 {
   "topic_id": "topic_1fb343f7",
-  "label": "高选择环境下的传播不平等",
-  "description": "关注搜索环境知识鸿沟、政治广告定制感知、性别化传播与老龄化数字排斥等不平等议题。",
-  "why_hot": "高选择媒体加剧知识沟与参与鸿沟，政治传播公平性成为跨域关切。",
-  "hot_score": 47,
-  "growth": -0.412,
-  "growth_rate": -0.412,
+  "label": "数字新闻消费与知识鸿沟",
+  "description": "研究用户新闻组合、搜索环境知识差距、政治广告定制及政治传播中的性别差异。",
+  "why_hot": "高选择媒体环境下，新闻消费模式与知识公平成为关键议题。",
+  "hot_score": 51,
+  "growth": -0.2,
+  "growth_rate": -0.2,
   "recent_rate": 0.1333,
-  "baseline_rate": 0.2267,
+  "baseline_rate": 0.1667,
   "recent_count": 4,
-  "baseline_count": 34,
-  "journal_count": 9,
+  "baseline_count": 25,
+  "journal_count": 12,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "知识鸿沟、政治广告、数字排斥、媒介不平等、老龄化"
+    "新闻消费",
+    "知识差距",
+    "政治广告",
+    "媒体环境"
   ],
   "papers": [
+    {
+      "id": 1959,
+      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-18",
+      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
+    },
     {
       "id": 1903,
       "title": "The Knowledge Gap in a High-Choice Media Environment: Experimental Evidence from Online Search",
@@ -88,18 +98,11 @@
       "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
     },
     {
-      "id": 1907,
-      "title": "Unpacking the Relationship Between Algorithmic Literacy and Misinformation: A Multidimensional Approach Using Two Sequential Studies",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "基于智利两项概率调查，分析算法素养的认知与行为维度对错误信息接触、分享和知识的影响，发现认知维度关联更强。"
-    },
-    {
-      "id": 1942,
-      "title": "Negotiating the Influencer Imaginary: How Everyday Professionals Construct Legitimacy on Social Media",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
+      "id": 72,
+      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-29",
+      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
     },
     {
       "id": 76,
@@ -109,53 +112,18 @@
       "summary": "通过18位专家访谈，探究老年人社交辅助机器人开发中个性化与隐私的张力，揭示数据化悖论，提出四类机器人分类。"
     },
     {
-      "id": 80,
-      "title": "Consumptive curation for self-care: in search of clumsier algorithms",
+      "id": 82,
+      "title": "From swipes to intimacy: dating app adoption and offline hookup intention among male rural migrant workers",
       "journal": "Information Communication & Society",
-      "published_date": "2026-06-18",
-      "summary": "研究青年如何通过算法互动进行自我关照的策展实践，基于四国125份访谈与自传数据，发现算法反应不当导致协商困难，提出设计“笨拙算法”以优化幸福感。"
+      "published_date": "2026-06-15",
+      "summary": "基于中国男性农民工调查数据，整合使用与满足和社会学习理论，考察约会应用采用的影响因素及对线下勾搭意图的中介作用，发现动机、社会认同、社会比较等通过采用影响意图，且受伦理疑虑调节。"
     },
     {
-      "id": 410,
-      "title": "Algorithmized Teenagers in the Age of Artificial Intelligence: Information Cocoons, Algorithmic Literacy, and Media Literacy",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-16",
-      "summary": "基于美国437名青少年全国调查，考察算法新闻消费与算法素养对新闻认知、动机、情感等多元取向的影响，发现关联有限且非决定性。"
-    },
-    {
-      "id": 33,
-      "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
-      "journal": "Communication Research",
-      "published_date": "2026-06-13",
-      "summary": "研究创意众包挑战社区中地位、职业、价值等多维同质性对创意者间评论网络形成的影响，采用关系事件模型和潜在类别分析。"
-    },
-    {
-      "id": 85,
-      "title": "Latent communicative figurations: mapping quasi-visible strategic relational structures on Facebook",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-13",
-      "summary": "本文提出潜在传播构型概念，利用Facebook可再生能源相关品牌帖子构建双模网络，揭示战略伙伴与页面间的隐性关系，并探讨平台逻辑对新闻媒体角色的影响。"
-    },
-    {
-      "id": 90,
-      "title": "Mistrust as a precondition for critical thinking and media literacy",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-03",
-      "summary": "通过两项在线调查（n=2115）研究不信任、新闻消费与媒体素养教育对信息核实信心和实际能力的影响，发现不信任预测信心，新闻消费预测实际辨别能力。"
-    },
-    {
-      "id": 440,
-      "title": "Strategic Communication as an Integrative Governance Function: A Bibliometric Review and an Integrated PR–OC–CC Model",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-06-03",
-      "summary": "通过文献计量综述316篇WoS论文，梳理公关、组织传播与企业传播的融合，提出战略传播作为整合性治理功能的理论模型。"
-    },
-    {
-      "id": 441,
-      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-06-01",
-      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
+      "id": 373,
+      "title": "Intimate data performativity: Taiwanese women’s self-care practices with menstrual tracking apps",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-06-11",
+      "summary": "研究台湾女性使用经期追踪应用时，如何与算法系统、文化期望和身体经验协商，提出亲密数据表演性概念，探讨预测协商、自我优化和数据共享中的赋能与控制张力。"
     },
     {
       "id": 443,
@@ -172,6 +140,13 @@
       "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
     },
     {
+      "id": 541,
+      "title": "We’re just chatting: perceptions of everyday communication with chatbots",
+      "journal": "Communication Research Reports",
+      "published_date": "2026-05-27",
+      "summary": "基于美国全国样本，考察人机闲聊中的沟通偶然性对感知响应性、参与度和满意度的影响，发现陪伴感调节作用。"
+    },
+    {
       "id": 99,
       "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
       "journal": "Information Communication & Society",
@@ -186,6 +161,20 @@
       "summary": "提出混合方法框架，整合定性符号学编码与定量大规模数据分析，通过277个抑郁相关网络模因案例，揭示抑郁主题与符号资源的关联模式。"
     },
     {
+      "id": 100,
+      "title": "Targeting and/or tailoring?! A theoretical framework and its application to political social media advertising",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-14",
+      "summary": "提出targeting与tailoring的理论框架，基于2021年德国大选Facebook和Instagram广告数据，测量政党广告策略及其对曝光量的影响。"
+    },
+    {
+      "id": 200,
+      "title": "Exploring temporal dynamics in digital trace data: mining user-sequences for communication research",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-05-09",
+      "summary": "论文系统梳理了利用数字追踪数据中的时间信息进行传播研究的方法，介绍序列分析、事件史分析、隐马尔可夫模型等六种方法，并以30万条用户序列数据为例进行演示。"
+    },
+    {
       "id": 38,
       "title": "Examining the Effects of Viewing Positive Aging TikTok Videos on Aging Outcomes and Attitudes Among Young, Middle-Aged, and Older Women",
       "journal": "Communication Research",
@@ -193,53 +182,18 @@
       "summary": "实验检验观看积极老龄化TikTok视频对不同年龄女性老龄化结果和态度的影响，扩展CEMSA模型，发现间接效应。"
     },
     {
-      "id": 107,
-      "title": "Agency in social media platforms: the role of capitals and literacies under algorithmic environments",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-05",
-      "summary": "通过意大利两地区调查，构建整合框架，分析平台素养、数字资本和算法素养对用户适应性能动性的影响，发现平台素养是主要预测因素。"
+      "id": 637,
+      "title": "Intimate surveillance of the ordinary: youth’s negotiation of digital location tracking with parents and peers",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "基于比利时147名青少年的21场焦点小组，探讨青年与父母同伴协商数字位置跟踪的边界规则与策略，揭示其对日常监控文化的接受与抵抗。"
     },
     {
-      "id": 451,
-      "title": "Case Study of an Online Brand Crisis: A Typology of User Engagement in the Scandinavian Airlines Advertisement Controversy",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-04-30",
-      "summary": "分析2020年SAS争议广告引发的Facebook用户评论，对2160条评论进行定量内容分析，识别出粉丝、朋友、反对者、仇恨持有者四类用户群体，挑战传统爱恨二元框架，揭示参与动态与态度流动性。"
-    },
-    {
-      "id": 126,
-      "title": "Favela aesthetics: digital influencers in Brazil contesting Instagram visual cultures and favela stigmas",
+      "id": 127,
+      "title": "Evaluating the potential and limits of trace-based interviews when studying news use",
       "journal": "Information Communication & Society",
       "published_date": "2026-04-08",
-      "summary": "通过分析巴西贫民窟网红Blô的452条Instagram帖子，提出“贫民窟美学”概念，探讨边缘群体如何通过数字内容抵抗污名化、重构文化身份，挑战主流影响者审美与精英叙事。"
-    },
-    {
-      "id": 45,
-      "title": "Understanding Hybridity, Representational Networks, and Resilience Enactment Through Social Media Communication",
-      "journal": "Communication Research",
-      "published_date": "2026-04-02",
-      "summary": "研究社会企业如何在社交媒体沟通中呈现双重逻辑，通过分析260家台湾企业的3年Facebook数据和调查，发现高逻辑中心性直接及透过代表性网络间接预测韧性沟通，且受感知逻辑中心性调节。"
-    },
-    {
-      "id": 300,
-      "title": "A Multi-Mechanism Socio-Technical Theory of Wellness Misinformation: Aesthetic, Affective, and Algorithmic Dynamics",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "提出Algorithmic–Affective Misinformation Model，结合访谈与跨平台观察，分析TikTok和RED上健康错误信息通过审美合法化、情感脆弱性与算法强化三种机制获得可信度的过程。"
-    },
-    {
-      "id": 302,
-      "title": "Symbolic Custodians on Facebook: Community Media Agents and Religious Practices in Faial",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
-    },
-    {
-      "id": 308,
-      "title": "Shaping Sustainable Communication on Instagram: How Digital Influencers in Portugal Engage Consumers in Eco-Conscious Narratives",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "通过分析200条Instagram Reels和29名Z世代焦点小组，探讨葡萄牙数字影响者如何通过情感和审美策略传播可持续性，发现可持续沟通是一种情感表演。"
+      "summary": "论文评估基于数字追踪的访谈法在新闻使用研究中的潜力与局限，基于英巴73次访谈，揭示该方法能反映习惯性、偶然性及跨平台新闻实践。"
     },
     {
       "id": 462,
@@ -249,11 +203,11 @@
       "summary": "通过眼动追踪实验探究品牌标志与个人信息请求对用户评估移动健康应用可信度的影响，发现品牌标志提升可信度，说服知识高者处理视觉线索更高效。"
     },
     {
-      "id": 466,
-      "title": "Strategic Ambiguity and University Instagram Engagement: Institutional Type, Audience Scale, and Engagement Trade-Offs",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-03-10",
-      "summary": "基于25所美国大学Instagram数据，分析机构类型、粉丝数、发帖频率对参与度的影响，发现公立大学参与度更高，粉丝数存在效率与触达的权衡。"
+      "id": 151,
+      "title": "Safety work repertoires and dating platforms: how users of Tinder and Bumble manage their safety",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-09",
+      "summary": "基于42名美国约会应用用户的深度访谈，提出用户发展出的安全工作技能库，包括筛选、信息策略、平台迁移等，以管理自身安全。"
     },
     {
       "id": 154,
@@ -261,13 +215,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-03-05",
       "summary": "基于35国约14.5万青少年的调查数据，运用多水平模型分析问题性社交媒体使用与心理健康的关系，发现低家庭SES青少年受影响更大，国家收入不平等程度起调节作用。"
-    },
-    {
-      "id": 429,
-      "title": "When Push Feels Like Pull: Early Adolescent Dependence on YouTube Recommendation Algorithms",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-03-05",
-      "summary": "通过356名10-13岁青少年的调查，使用YAD量表测量其算法依赖，发现依赖低的青少年更多接受家庭推荐，并提出“协商技术选择”概念。"
     },
     {
       "id": 469,

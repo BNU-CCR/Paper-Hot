@@ -1,22 +1,39 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "叙事武器化与认知战",
-  "description": "从社会心理学与跨平台视角分析认知战中的叙事操纵、阴谋论反公众与宣传的社会过程。",
-  "why_hot": "宣传研究从信息操纵转向叙事层面的认知争夺，QAnon等案例推动理论更新。",
-  "hot_score": 42,
-  "growth": -0.444,
-  "growth_rate": -0.444,
-  "recent_rate": 0.1,
-  "baseline_rate": 0.18,
-  "recent_count": 3,
-  "baseline_count": 27,
-  "journal_count": 6,
+  "label": "冲突叙事与数字抵抗",
+  "description": "研究战争创伤、视觉抵抗、叙事武器化及网络反公众，聚焦数字环境下冲突与抗争的话语建构。",
+  "why_hot": "近期地缘冲突频发，数字平台成为认知战与视觉抗争的关键场域。",
+  "hot_score": 50,
+  "growth": -0.231,
+  "growth_rate": -0.231,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.1733,
+  "recent_count": 4,
+  "baseline_count": 26,
+  "journal_count": 5,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "认知战、叙事操纵、阴谋论、宣传研究、反公众"
+    "叙事战争",
+    "数字抵抗",
+    "认知战",
+    "反公众"
   ],
   "papers": [
+    {
+      "id": 1972,
+      "title": "Trauma-Selfie: Active victimhood in war",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-08-22",
+      "summary": "论文提出“创伤自拍”概念，分析2023年10月7日音乐节袭击中约300个受害者生成视频，构建动机与美学类型学，探讨当代战争中手机拍摄的见证形式及“主动受害者”身份的政治意涵。"
+    },
+    {
+      "id": 1963,
+      "title": "Reclaiming Place Through Symbolic Geographies: Visual Resistance on Palestinian Instagram",
+      "journal": "Political Communication",
+      "published_date": "2026-08-16",
+      "summary": "分析2023-2024年巴勒斯坦Instagram用户的9126条帖子，识别三种视觉主题，并与国际新闻标题比较，展示用户生成内容如何抵抗主流叙事和算法压制。"
+    },
     {
       "id": 483,
       "title": "Weaponized narratives: A social psychological theory of story-based influence in cognitive warfare",
@@ -130,13 +147,6 @@
       "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
     },
     {
-      "id": 510,
-      "title": "‘Don’t Thai to me’: A critical discourse and linguistic analysis of border crisis in the Cambodia–Thailand armed conflict",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-04-24",
-      "summary": "研究2025年柬泰武装冲突中的‘Don’t Thai to me’话语，分析柬埔寨官方媒体及Facebook内容，结合Fairclough话语分析探讨民族身份污名化及数字传播下的舆论动员。"
-    },
-    {
       "id": 514,
       "title": "Constructing childhood in the Russian-Ukrainian War: UNICEF’s Instagram representations of children",
       "journal": "Media War & Conflict",
@@ -165,18 +175,18 @@
       "summary": "研究分析Reddit用户对两部种族主题剧集的评论，结合主题建模与批判话语分析，揭示用户角色流动及平台匿名性对种族讨论的影响。"
     },
     {
-      "id": 184,
-      "title": "Evaluating the Impact of China’s “Wolf Warrior Diplomacy” in East Asia: An Experimental Approach",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-04-02",
-      "summary": "通过在日本、韩国、台湾的预注册在线实验，检验中国‘战狼外交’信息对三地公众对华态度的影响，发现负面效果有限但存在，分享意愿低。"
-    },
-    {
       "id": 291,
       "title": "Performing Identity: Repetition, Emoji, and Candidate Indicators of Amplified Visibility in Jordanian–Palestinian Facebook Discourse",
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
+    },
+    {
+      "id": 302,
+      "title": "Symbolic Custodians on Facebook: Community Media Agents and Religious Practices in Faial",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
     },
     {
       "id": 135,

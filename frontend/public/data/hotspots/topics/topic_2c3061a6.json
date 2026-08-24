@@ -1,22 +1,39 @@
 {
   "topic_id": "topic_2c3061a6",
-  "label": "平台时代的机构传播与合法性",
-  "description": "探讨企业、NGO与人道组织在数字平台上的传播实践、公共期待与合法性建构，兼及宣传与另类技术生态。",
-  "why_hot": "平台逻辑重塑各类机构的传播战略与数字责任边界，跨部门比较研究成为新热点。",
-  "hot_score": 66,
-  "growth": -0.032,
-  "growth_rate": -0.032,
-  "recent_rate": 0.2,
-  "baseline_rate": 0.2067,
-  "recent_count": 6,
-  "baseline_count": 31,
-  "journal_count": 11,
+  "label": "信息操纵与平台生态演变",
+  "description": "关注社交媒体操纵、宣传策略、另类平台迁移及企业数字责任，揭示平台生态中的权力动态。",
+  "why_hot": "全球选举与地缘紧张加剧，信息操纵和平台迁移成为热点。",
+  "hot_score": 59,
+  "growth": -0.038,
+  "growth_rate": -0.038,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.1733,
+  "recent_count": 5,
+  "baseline_count": 26,
+  "journal_count": 10,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "平台化、机构传播、数字责任、合法性、另类技术生态"
+    "影响力行动",
+    "宣传",
+    "另类技术平台",
+    "数字责任"
   ],
   "papers": [
+    {
+      "id": 1949,
+      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-21",
+      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
+    },
+    {
+      "id": 1964,
+      "title": "Enemies Abroad, Animosity at Home: Media Influence on U.S.-China Policy and Anti-Asian Sentiment",
+      "journal": "Political Communication",
+      "published_date": "2026-08-16",
+      "summary": "通过分析2010-2020年CNN和福克斯新闻文本及全国调查实验，考察中国威胁叙事如何影响美国对华政策支持与反亚裔情绪，发现威胁叙事加剧鹰派态度和种族偏见，尤其在共和党人中。"
+    },
     {
       "id": 1933,
       "title": "Entertainment as Trojan Horse: Voluntary Consumption of Propaganda in China",
@@ -39,20 +56,6 @@
       "summary": "通过Kiwi Farms案例提出'replatformization'概念，分析另类平台如何在市场治理下通过社会、技术、组织策略规避去平台化，并揭示其扩展机制。"
     },
     {
-      "id": 15,
-      "title": "Inclusive Crisis Communication: Addressing Diverse Audiences in the Digital Age",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-07-27",
-      "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
-    },
-    {
-      "id": 243,
-      "title": "Navigating the hybrid media landscape? Danish green NGOs’ use of digital platforms for internal and external communication",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-27",
-      "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
-    },
-    {
       "id": 246,
       "title": "Digital transformation and contested sovereignty in humanitarian action",
       "journal": "Journal of Information Technology & Politics",
@@ -60,11 +63,11 @@
       "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
     },
     {
-      "id": 68,
-      "title": "Linking names with frames: the interplay of moral entities and moral frames in Chinese online gender debates",
+      "id": 63,
+      "title": "Platforming pocket money: family finance apps and the datafication of child economies",
       "journal": "Information Communication & Society",
-      "published_date": "2026-07-07",
-      "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
+      "published_date": "2026-07-15",
+      "summary": "分析儿童理财APP的特征，探讨其如何通过数据追踪与管理重塑儿童的经济参与，并讨论数据化对儿童金融主体与客体的构建。"
     },
     {
       "id": 69,
@@ -81,25 +84,11 @@
       "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
     },
     {
-      "id": 285,
-      "title": "“You Might Like Each Other”: Mass Customization and the Structuring of Sociality Among Chinese Generation Z on the Soul App",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过参与观察和访谈，研究Soul app的算法匹配与标签系统如何重塑中国Z世代社交，既促进情感连接又强化文化经济分层。"
-    },
-    {
       "id": 71,
       "title": "Infrastructural hubris and platform power: the failed scalability of Google Stadia",
       "journal": "Information Communication & Society",
       "published_date": "2026-06-30",
       "summary": "通过分析170份专业媒体、Reddit和YouTube文档，探讨Google Stadia云游戏平台失败原因，提出“基础设施傲慢”概念，强调技术能力需配合平台层面的利益相关者参与。"
-    },
-    {
-      "id": 212,
-      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
-      "journal": "Political Communication",
-      "published_date": "2026-06-30",
-      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
     },
     {
       "id": 614,
@@ -144,6 +133,13 @@
       "summary": "研究小红书通过“集群治理”组织网红群体，结合人工与算法策展控制内容创作，削弱创作者自主性，基于访谈与民族志方法。"
     },
     {
+      "id": 105,
+      "title": "From player to asset: venture labor in axie infinity",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-08",
+      "summary": "通过爬取Discord社区数据，分析Axie Infinity奖学金申请者的申请文本，揭示其自我资产化策略，即玩家将劳动与困境呈现为投资资产以争取机会。"
+    },
+    {
       "id": 376,
       "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
       "journal": "Asian Journal of Communication",
@@ -151,18 +147,11 @@
       "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
     },
     {
-      "id": 507,
-      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
+      "id": 510,
+      "title": "‘Don’t Thai to me’: A critical discourse and linguistic analysis of border crisis in the Cambodia–Thailand armed conflict",
       "journal": "Media War & Conflict",
-      "published_date": "2026-05-02",
-      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
-    },
-    {
-      "id": 452,
-      "title": "Of Scams and Failures: Analyzing International Environmental NGOs’ Narratives After COP 29",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-04-30",
-      "summary": "研究WWF和绿色和平在COP29后如何通过网站和社交媒体传播失败叙事，采用主题分析揭示叙事差异，属于战略传播研究。"
+      "published_date": "2026-04-24",
+      "summary": "研究2025年柬泰武装冲突中的‘Don’t Thai to me’话语，分析柬埔寨官方媒体及Facebook内容，结合Fairclough话语分析探讨民族身份污名化及数字传播下的舆论动员。"
     },
     {
       "id": 554,
@@ -193,6 +182,13 @@
       "summary": "论文基于《帝国时代II》2500万场多人比赛数据，构建在线互动模型并用结构重力模型估计，发现文化邻近性和外部社交网络对跨国在线互动有重要影响，为数字全球化和在线社区研究提供实证。"
     },
     {
+      "id": 184,
+      "title": "Evaluating the Impact of China’s “Wolf Warrior Diplomacy” in East Asia: An Experimental Approach",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-02",
+      "summary": "通过在日本、韩国、台湾的预注册在线实验，检验中国‘战狼外交’信息对三地公众对华态度的影响，发现负面效果有限但存在，分享意愿低。"
+    },
+    {
       "id": 556,
       "title": "From digital diplomacy to AI-driven diplomacies? Mapping the potential impact of AI on Diplomacy",
       "journal": "Communication and the Public",
@@ -214,25 +210,11 @@
       "summary": "以川善治平台为案例，从游戏化、数据化和展演性视角分析中国乡村数字治理的界面设计如何构建特定乡村愿景。"
     },
     {
-      "id": 303,
-      "title": "Going Viral or Building a Community: The Dynamics of Environmental Activism on TikTok",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "通过民族志和访谈研究60个西语生态网红账号，分析其在TikTok上应对病毒式传播与社区建设的矛盾，提出“扁平病毒式传播”概念。"
-    },
-    {
-      "id": 304,
-      "title": "“My Non-Existing Organ”: Transitional Objects, Compensatory Romance, and the Affective Enclaves of Chinese Female Idol Fandom",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "通过多站点数字民族志研究中国女性粉丝在微博、豆瓣、微信群中的身份实践与情感表达，探讨女友粉和妈妈粉的补偿性浪漫及符号抵抗，形成情感飞地。"
-    },
-    {
-      "id": 144,
-      "title": "‘Spread kindness not virus’: theorising the vulnerability of online mutual aid communities",
+      "id": 145,
+      "title": "“ … I sort of laid it all out … ”: qualitatively exploring Canadian campaigners’ informational practices and strategic decisions in medical and housing-related crowdfunding campaigns",
       "journal": "Information Communication & Society",
-      "published_date": "2026-03-20",
-      "summary": "通过数字民族志研究Facebook互助社区Caremunity，运用Serres寄生虫逻辑识别三种干扰形式，探讨数字化对互助社区团结与资源分配的挑战。"
+      "published_date": "2026-03-14",
+      "summary": "通过访谈36名加拿大GoFundMe用户，探讨其在医疗和住房众筹中的信息分享策略，识别出放大、精炼和省略三种实践，揭示隐私与筹款之间的平衡。"
     },
     {
       "id": 185,
@@ -242,13 +224,6 @@
       "summary": "基于1993-2023年2898名娱乐明星数据，分析中国如何通过演出机会和正式任命逐步吸纳明星，揭示媒体可见性转化为政治资本的机制。"
     },
     {
-      "id": 227,
-      "title": "Political Communication Special Issue Introduction: Multi-Platform Research",
-      "journal": "Political Communication",
-      "published_date": "2026-03-04",
-      "summary": "特刊导言探讨政治传播学者如何进行多平台研究，提出比较研究与系统研究框架，强调多平台互嵌对政治传播分析的重要性。"
-    },
-    {
       "id": 383,
       "title": "Embedded governance in China’s screen culture industry: from infiltration to co-optation",
       "journal": "Asian Journal of Communication",
@@ -256,25 +231,11 @@
       "summary": "通过机构分析和双模网络映射，研究中国电视剧产业中党政部门通过精英吸纳实现嵌入式治理的机制，提出三种关系控制模式。"
     },
     {
-      "id": 384,
-      "title": "Ghost in the livestream: emotional labor and alienation among China's Zhong Zhi Ren",
-      "journal": "Asian Journal of Communication",
-      "published_date": "2026-03-04",
-      "summary": "通过25位中之人与粉丝的深度访谈，探讨虚拟直播中表演者的情感劳动、异化及平台资本主义剥削逻辑，提出治理框架。"
-    },
-    {
-      "id": 729,
-      "title": "How to do things with a keyword: a cross-cultural analysis of the meanings and functions of ‘values’ on Twitter",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-02-26",
-      "summary": "分析五种语言约1500万条推文中'values'的语境与功能，发现跨文化差异与普遍模式，揭示其作为身份锚定和边界工作的工具。"
-    },
-    {
-      "id": 643,
-      "title": "Human–algorithm interactions in platform governance: how Chinese moderators balance conflicting logics in algorithm-assisted decision-making",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-02-23",
-      "summary": "通过在中国三大超级平台的田野调查，分析国家逻辑与商业逻辑如何嵌入内容审核流程，揭示算法决策的三种可供性帮助审核员平衡冲突逻辑，强调人机互动的积极潜力。"
+      "id": 348,
+      "title": "Anemic Black-owned broadcast stations: a political economy analysis of FCC ownership reports (2009–2023)",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-03-03",
+      "summary": "研究利用FCC 2009-2023年数据，分析黑人广播电台所有权比例低且性别差距明显，揭示系统性障碍，并呼吁政策干预。"
     }
   ],
   "paper_edges": []

@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-08-17 13:53 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-08-24 13:44 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
-| 2026-08-13 | [Can Large language models serve as voting advice applications? An empirical test using Turkish lifestyle typologies](<https://doi.org/10.1080/19331681.2026.2718920>) | Journal of Information Technology & Politics | 测试五个LLM平台能否基于土耳其生活方式类型学提供投票建议，发现模型间校准差异大，序数准确度尚可，基数准确度不足，当前不能替代传统VAA。 |
-| 2026-08-13 | [Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work](<https://doi.org/10.1080/1369118x.2026.2716340>) | Information Communication & Society | 提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。 |
-| 2026-08-10 | [Multi-platform research in the light of technology affordances: networks of the far right in Germany](<https://doi.org/10.1080/19331681.2026.2697186>) | Journal of Information Technology & Politics | 通过网络分析比较德国极右翼在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构，揭示平台技术可供性对网络模式的影响。 |
-| 2026-08-07 | [Agenda setting in mutual fund markets: news, social media, and fund marketing in China](<https://doi.org/10.1080/08997764.2026.2712252>) | Journal of Media Economics | 利用3782只基金和24万篇新闻数据，分析传统新闻与社会媒体关注对基金净流入的影响，发现多源注意力协同效应。 |
-| 2026-08-04 | [Anti-Elitism Gets the Views: Populist Communication and Popularity on German Political YouTube](<https://doi.org/10.1177/19401612261468863>) | The International Journal of Press/Politics | 研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。 |
+| 2026-08-20 | [Hierarchical barriers: how media-flow networks reproduce inequality on X](<https://doi.org/10.1080/19331681.2026.2718909>) | Journal of Information Technology & Politics | 研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。 |
+| 2026-08-20 | [Echoes across the divide: incivility and the fragmentation of issue publics in immigration discourse](<https://doi.org/10.1080/1369118x.2026.2716778>) | Information Communication & Society | 基于X平台数据，用LLM识别移民立场和语言不文明度，构建提及网络追踪不文明言论在意识形态对立群体间的扩散。 |
+| 2026-08-18 | [Political emotionalization in large text corpora: detecting affective cues with MORESPulse and its scientific uses](<https://doi.org/10.1080/19331681.2026.2716074>) | Journal of Information Technology & Politics | 论文介绍MORESPulse模型，基于XLM-RoBERTa检测七种语言政治文本的五种情绪，并分析匈牙利议会1998-2022年超五百万句语料，发现情绪化语言自2010年持续上升，与政党角色和政策议题相关。 |
+| 2026-08-18 | [How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires](<https://doi.org/10.1177/19401612261474289>) | The International Journal of Press/Politics | 基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。 |
+| 2026-08-17 | [Toward inclusive online safety: evaluating the role of intersectionality on online abuse in the United Kingdom](<https://doi.org/10.1080/1369118x.2026.2713666>) | Information Communication & Society | 论文评估交叉性因素在英国在线滥用中的作用，旨在促进包容性在线安全，可能采用数据驱动方法分析网络言论。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-08-17 13:53 GMT+8
+> 最近更新：2026-08-24 13:44 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 1947 |
-| 当期新增 | 26 |
-| High / Medium / Low | 560 / 602 / 785 |
-| Pending / Screened / Quarantined / Error | 0 / 1947 / 0 / 0 |
-| 已发布精选 | 560 |
-| 期刊全量导出 | 1947 |
+| 数据库论文 | 1974 |
+| 当期新增 | 50 |
+| High / Medium / Low | 567 / 612 / 795 |
+| Pending / Screened / Quarantined / Error | 0 / 1974 / 0 / 0 |
+| 已发布精选 | 567 |
+| 期刊全量导出 | 1974 |
 
-覆盖验证：OpenAlex DOI 1933，Crossref DOI 733，匹配 688，Crossref 中尚缺 45。
+覆盖验证：OpenAlex DOI 1960，Crossref DOI 752，匹配 707，Crossref 中尚缺 45。
 
 <!-- paper-hot:auto-stats:end -->
 
