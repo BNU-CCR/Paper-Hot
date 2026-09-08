@@ -148,10 +148,18 @@ class TopicLabeler:
                 # A transient API/parse failure must not erase a stable label
                 # inherited from the previous run. Keep its old fingerprint so
                 # the next run retries the refresh instead of caching failure.
-                topic.setdefault("label_zh", topic.get("label_en", topic.get("topic_id", "")))
-                topic.setdefault("description", "")
-                topic.setdefault("why_hot", "")
-                topic.setdefault("keywords", [])
+                existing_label = str(topic.get("label_zh") or "").strip()
+                tid = str(topic.get("topic_id") or "").strip()
+                if not existing_label or existing_label == tid:
+                    fallback = _synthesize_fallback_label(topic, candidates, batch_idx)
+                    topic["label_zh"] = fallback["label_zh"]
+                    topic["description"] = fallback["description"]
+                    topic["why_hot"] = fallback["why_hot"]
+                    topic["keywords"] = fallback["keywords"]
+                else:
+                    topic.setdefault("description", "")
+                    topic.setdefault("why_hot", "")
+                    topic.setdefault("keywords", [])
 
         # Apply manual overrides from topic_overrides.yaml
         self._apply_overrides(topics)
@@ -193,14 +201,13 @@ class TopicLabeler:
         text: str, expected_count: int,
     ) -> List[Dict[str, Any]]:
         cleaned = text.strip()
-        # Strip a surrounding markdown code fence, if present.
-        if cleaned.startswith("```"):
-            lines = cleaned.splitlines()
-            if lines and lines[0].startswith("```"):
-                lines = lines[1:]
-            if lines and lines[-1].strip() == "```":
-                lines = lines[:-1]
-            cleaned = "\n".join(lines).strip()
+        # Strip DeepSeek thinking tags if returned as plain text
+        cleaned = re.sub(r"<think>.*?</think>", "", cleaned, flags=re.DOTALL).strip()
+        # Extract markdown json block if present
+        if "```" in cleaned:
+            match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", cleaned)
+            if match:
+                cleaned = match.group(1).strip()
         try:
             result = json.loads(cleaned)
             if isinstance(result, list):
@@ -222,6 +229,39 @@ class TopicLabeler:
                 except json.JSONDecodeError:
                     pass
             return []
+
+
+def _synthesize_fallback_label(
+    topic: Dict[str, Any],
+    candidates: List[Dict[str, Any]],
+    index: int = 0,
+) -> Dict[str, Any]:
+    """Synthesize a human-readable topic label when LLM generation fails."""
+    paper_ids = set(topic.get("recent_paper_ids") or topic.get("paper_ids", []))
+    matched = [c for c in candidates if int(c.get("id", 0)) in paper_ids]
+
+    tag_counts: Dict[str, int] = {}
+    for p in matched:
+        p_tags = p.get("tags", [])
+        if isinstance(p_tags, str):
+            p_tags = [t.strip() for t in p_tags.split(",") if t.strip()]
+        for t in p_tags:
+            if t:
+                tag_counts[t] = tag_counts.get(t, 0) + 1
+
+    top_tags = sorted(tag_counts.keys(), key=lambda k: tag_counts[k], reverse=True)[:3]
+    if top_tags:
+        label = "与".join(top_tags[:2]) if len(top_tags) >= 2 else top_tags[0]
+        label = f"{label}研究"
+    else:
+        label = f"计算传播前沿议题 {index + 1}"
+
+    return {
+        "label_zh": label[:40],
+        "description": f"聚焦于{label}及相关传播学议题的学术探讨与前沿成果。",
+        "why_hot": "该领域近期在多家红榜期刊中有相关论文发表。",
+        "keywords": normalize_keywords(top_tags or ["计算传播", "前沿研究"]),
+    }
 
 
 def _topic_fingerprint(

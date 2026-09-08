@@ -461,5 +461,39 @@ class TopicLabelerResponseTests(unittest.TestCase):
         self.assertEqual(normalize_keywords("性别政治, 社会；数字动员"), ["性别政治", "社会", "数字动员"])
 
 
+    def test_parse_label_response_handles_deepseek_thinking_block(self) -> None:
+        text = "<think>思考过程：需要给主题命名为虚假信息传播</think>```json\n[{\"topic_index\": 0, \"label_zh\": \"虚假信息传播\"}]\n```"
+        result = TopicLabeler._parse_label_response(text, 1)
+        self.assertEqual(result[0]["label_zh"], "虚假信息传播")
+
+    def test_failed_labeling_synthesizes_human_readable_label_for_new_topic(self) -> None:
+        labeler = TopicLabeler.__new__(TopicLabeler)
+        labeler.client = SimpleNamespace(messages=SimpleNamespace(
+            create=lambda **_kwargs: SimpleNamespace(
+                content=[SimpleNamespace(type="text", text="invalid json response")]
+            )
+        ))
+        labeler.model = "test-model"
+        labeler.system_prompt = "test"
+        labeler.config = SimpleNamespace(topic_overrides={})
+        topics = [{
+            "topic_id": "topic_fresh_123",
+            "paper_ids": [10, 20],
+            "recent_paper_ids": [10],
+            "label_zh": "",
+        }]
+        candidates = [
+            {"id": 10, "title": "Misinformation on TikTok", "tags": ["虚假信息", "短视频"]},
+            {"id": 20, "title": "Social Media Polarization", "tags": ["政治极化"]},
+        ]
+
+        with patch("journal_tracker.hotspot_labels.time.sleep"):
+            result = labeler.label_topics(topics, candidates)
+
+        self.assertNotEqual(result[0]["label_zh"], "topic_fresh_123")
+        self.assertIn("虚假信息", result[0]["label_zh"])
+        self.assertTrue(bool(result[0]["description"]))
+        self.assertTrue(bool(result[0]["why_hot"]))
+
 if __name__ == "__main__":
     unittest.main()
