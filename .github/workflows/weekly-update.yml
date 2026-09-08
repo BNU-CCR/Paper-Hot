@@ -2,8 +2,7 @@ name: Weekly paper update
 
 on:
   schedule:
-    - cron: "0 13 * * 1"
-      timezone: "Asia/Shanghai"
+    - cron: "0 5 * * 1,4"
   workflow_dispatch:
     inputs:
       limit_per_journal:
@@ -73,6 +72,16 @@ jobs:
           path: .cache/fastembed
           key: fastembed-${{ runner.os }}-bge-small-en-v1.5-v1
 
+      - name: Install package
+        run: python -m pip install -e ".[analysis]"
+
+      - name: Ensure working database exists
+        run: |
+          if [ ! -f backend/data/papers.db ]; then
+            echo "Working database cache missed. Restoring seed from public all_papers.json..."
+            journal-tracker seed-from-public-data
+          fi
+
       - name: Record whether cloud state was restored
         id: database-state
         run: |
@@ -80,11 +89,9 @@ jobs:
             echo "restored=true" >> "$GITHUB_OUTPUT"
           else
             echo "restored=false" >> "$GITHUB_OUTPUT"
+            echo "Fatal: Working database is missing and could not be seeded." >&2
+            exit 1
           fi
-
-      - name: Install package
-        run: python -m pip install -e ".[analysis]"
-
       - name: Check required configuration
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -137,6 +144,15 @@ jobs:
           python -m json.tool frontend/public/data/hotspots/graph.json >/dev/null
           python -m json.tool frontend/public/data/hotspots/manifest.json >/dev/null
           python -m json.tool frontend/public/data/hotspots/trends.json >/dev/null
+
+          python -c "
+          import json
+          papers = json.load(open('frontend/public/data/papers.json'))
+          all_papers = json.load(open('frontend/public/data/all_papers.json'))
+          assert len(papers) >= 100, f'Public papers count too low: {len(papers)}'
+          assert len(all_papers) >= 500, f'All papers count too low: {len(all_papers)}'
+          print(f'Validation passed: {len(papers)} public papers, {len(all_papers)} total papers.')
+          "
 
       - uses: pnpm/action-setup@v4
         with:

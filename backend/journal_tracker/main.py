@@ -604,6 +604,20 @@ def export_public_data(config: Optional[Config] = None):
     print(f"已导出公开数据到: {export_path}")
 
 
+
+
+def seed_database_from_public_data(config: Optional[Config] = None) -> int:
+    """从公开 JSON 数据种子化恢复 SQLite 数据库。"""
+    if config is None:
+        config = get_config()
+
+    storage = PaperStorage(config.database_path)
+    all_path = config.public_data_dir / "all_papers.json"
+    pub_path = config.public_data_dir / "papers.json"
+    imported = storage.seed_from_public_json(all_path, pub_path)
+    print(f"已从公开 JSON 种子化恢复 {imported} 篇论文到数据库: {config.database_path}")
+    return 0
+
 def sanitize_stored_titles(config: Optional[Config] = None) -> int:
     """清理数据库中已有论文标题的 HTML 标签。"""
     if config is None:
@@ -1178,6 +1192,7 @@ def main():
     subparsers.add_parser("stats", help="显示统计")
     subparsers.add_parser("export", help="导出CSV")
     subparsers.add_parser("export-public", help="导出公开站 JSON 数据")
+    subparsers.add_parser("seed-from-public-data", help="从公开 JSON 种子化恢复 SQLite 数据库")
     subparsers.add_parser("sanitize-titles", help="清理数据库中论文标题的 HTML 标签")
     translate_parser = subparsers.add_parser("translate-papers", help="用 SiliconFlow 翻译论文标题和摘要")
     translate_parser.add_argument("--limit", type=int, default=100, help="本批最多翻译论文数")
@@ -1247,6 +1262,8 @@ def main():
         export_csv(config)
     elif args.command == "export-public":
         export_public_data(config)
+    elif args.command == "seed-from-public-data":
+        sys.exit(seed_database_from_public_data(config))
     elif args.command == "sanitize-titles":
         sys.exit(sanitize_stored_titles(config))
     elif args.command == "translate-papers":
