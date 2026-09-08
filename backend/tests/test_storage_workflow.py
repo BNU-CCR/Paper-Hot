@@ -262,5 +262,98 @@ class StorageWorkflowTests(unittest.TestCase):
             self.assertEqual(storage.get_papers_missing_method(), [])
 
 
+
+    def test_seed_from_public_json(self) -> None:
+        import json
+        with TemporaryDirectory() as tmp_dir:
+            tmp_path = Path(tmp_dir)
+            all_papers_file = tmp_path / "all_papers.json"
+            papers_file = tmp_path / "papers.json"
+
+            mock_all = [
+                {
+                    "id": 101,
+                    "title": "Computational Social Science at Scale",
+                    "title_zh": "大规模计算社会科学",
+                    "authors": ["Alice Smith", "Bob Jones"],
+                    "institutions": ["Stanford University", "Oxford University"],
+                    "journal": "Journal of Communication",
+                    "published_date": "2026-08-01",
+                    "relevance": "High",
+                    "score": 95,
+                    "abstract": "This is an abstract.",
+                    "abstract_zh": "这是摘要。",
+                    "summary": "一句话总结。",
+                    "reason": "强相关。",
+                    "tags": ["CSS", "AI"],
+                    "method": "计算传播学",
+                    "doi": "10.1093/joc/123",
+                    "source_url": "https://doi.org/10.1093/joc/123",
+                    "source_type": "openalex",
+                    "screening_status": "screened",
+                    "tracked_journal": "Journal of Communication",
+                    "volume": "76",
+                    "issue": "4",
+                },
+                {
+                    "id": 102,
+                    "title": "Qualitative Interviews on Social Media",
+                    "title_zh": "社交媒体质性访谈",
+                    "authors": ["Charlie Brown"],
+                    "institutions": [],
+                    "journal": "New Media & Society",
+                    "published_date": "2026-07-15",
+                    "relevance": "Medium",
+                    "score": 70,
+                    "abstract": "Qualitative study.",
+                    "abstract_zh": "质性研究。",
+                    "summary": "访谈研究。",
+                    "reason": "中等相关。",
+                    "tags": ["Social Media"],
+                    "method": "质性分析",
+                    "doi": "10.1177/nms/456",
+                    "source_url": "https://doi.org/10.1177/nms/456",
+                    "source_type": "openalex",
+                    "screening_status": "screened",
+                    "tracked_journal": "New Media & Society",
+                    "volume": "28",
+                    "issue": "2",
+                }
+            ]
+
+            mock_public = [mock_all[0]]
+
+            all_papers_file.write_text(json.dumps(mock_all, ensure_ascii=False), encoding="utf-8")
+            papers_file.write_text(json.dumps(mock_public, ensure_ascii=False), encoding="utf-8")
+
+            storage = PaperStorage(tmp_path / "papers.db")
+            count = storage.seed_from_public_json(all_papers_file, papers_file)
+            self.assertEqual(count, 2)
+
+            # 验证论文数据
+            paper1 = storage.get_paper_by_id(101)
+            self.assertIsNotNone(paper1)
+            self.assertEqual(paper1.title, "Computational Social Science at Scale")
+            self.assertEqual(paper1.title_zh, "大规模计算社会科学")
+            self.assertEqual(paper1.authors, "Alice Smith, Bob Jones")
+            self.assertEqual(paper1.tags, "CSS, AI")
+            self.assertEqual(paper1.method, "计算传播学")
+            self.assertTrue(paper1.is_public)
+
+            paper2 = storage.get_paper_by_id(102)
+            self.assertIsNotNone(paper2)
+            self.assertEqual(paper2.method, "质性分析")
+            self.assertFalse(paper2.is_public)
+
+            # 验证机构数据
+            institutions = storage.get_paper_institutions([101, 102])
+            self.assertEqual(institutions.get(101), ["Stanford University", "Oxford University"])
+            self.assertEqual(institutions.get(102, []), [])
+
+            # 验证幂等性
+            count2 = storage.seed_from_public_json(all_papers_file, papers_file)
+            self.assertEqual(count2, 2)
+
+
 if __name__ == "__main__":
     unittest.main()

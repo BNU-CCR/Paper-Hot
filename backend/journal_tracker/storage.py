@@ -1013,3 +1013,92 @@ class PaperStorage:
                 row = paper.to_dict()
                 # 只写我们需要的字段
                 writer.writerow({k: row[k] for k in fieldnames})
+
+    def seed_from_public_json(
+        self,
+        all_papers_path: Path,
+        public_papers_path: Optional[Path] = None,
+    ) -> int:
+        """Seed SQLite database from public JSON files (e.g. all_papers.json)."""
+        all_papers_path = Path(all_papers_path)
+        if not all_papers_path.is_file():
+            raise FileNotFoundError(f"Seed file not found: {all_papers_path}")
+
+        with all_papers_path.open("r", encoding="utf-8") as f:
+            all_papers = json.load(f)
+
+        public_ids = set()
+        if public_papers_path and Path(public_papers_path).is_file():
+            with Path(public_papers_path).open("r", encoding="utf-8") as f:
+                public_papers = json.load(f)
+                public_ids = {int(p["id"]) for p in public_papers if "id" in p and p["id"] is not None}
+
+        now = datetime.now().isoformat()
+        imported_count = 0
+
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            for p in all_papers:
+                paper_id = p.get("id")
+                title = p.get("title", "")
+                title_zh = p.get("title_zh", "") or ""
+                authors_list = p.get("authors", []) or []
+                authors_str = ", ".join(authors_list) if isinstance(authors_list, list) else str(authors_list)
+                institutions_list = p.get("institutions", []) or []
+                journal = p.get("journal", "") or ""
+                published_date = p.get("published_date", "") or ""
+                relevance = p.get("relevance", "") or ""
+                score = p.get("score")
+                abstract = p.get("abstract", "") or ""
+                abstract_zh = p.get("abstract_zh", "") or ""
+                summary = p.get("summary", "") or ""
+                reason = p.get("reason", "") or ""
+                tags_list = p.get("tags", []) or []
+                tags_str = ", ".join(tags_list) if isinstance(tags_list, list) else str(tags_list)
+                method = p.get("method", "") or ""
+                doi = p.get("doi", "") or ""
+                link = p.get("source_url", "") or ""
+                source_type = p.get("source_type", "openalex") or "openalex"
+                screening_status = p.get("screening_status", "screened") or "screened"
+                tracked_journal = p.get("tracked_journal", journal) or journal
+                volume = p.get("volume", "") or ""
+                issue = p.get("issue", "") or ""
+                is_public = 1 if (paper_id in public_ids or relevance == "High") else 0
+
+                cursor.execute("""
+                    INSERT OR REPLACE INTO papers (
+                        id, title, authors, abstract, journal, published_date,
+                        link, doi, relevance, reason, tags, summary, method, score, status,
+                        is_public, source_type, source_run_id, tracked_journal, openalex_id,
+                        screening_status, volume, issue, bibliography_checked_at,
+                        discovered_at, created_at, updated_at,
+                        title_zh, abstract_zh
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """, (
+                    paper_id, title, authors_str, abstract, journal, published_date,
+                    link, doi, relevance, reason, tags_str, summary, method, score, "To Read",
+                    is_public, source_type, "seed_public_data", tracked_journal, "",
+                    screening_status, volume, issue, now,
+                    published_date, published_date, now,
+                    title_zh, abstract_zh,
+                ))
+
+                if paper_id and institutions_list:
+                    cursor.execute("""
+                        INSERT OR REPLACE INTO paper_author_enrichment (
+                            paper_id, author_order, display_name, normalized_name, orcid,
+                            semantic_scholar_author_id, aliases_json, affiliations_json,
+                            match_method, match_confidence, updated_at
+                        ) VALUES (?, 1, ?, '', '', '', '[]', ?, 'seed', 1.0, ?)
+                    """, (
+                        paper_id,
+                        authors_list[0] if authors_list else "",
+                        json.dumps(institutions_list, ensure_ascii=False),
+                        now,
+                    ))
+
+                imported_count += 1
+
+            conn.commit()
+
+        return imported_count
