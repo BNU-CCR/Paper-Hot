@@ -3,14 +3,14 @@
   "label": "冲突叙事与数字抵抗",
   "description": "研究战争创伤、视觉抵抗、叙事武器化及网络反公众，聚焦数字环境下冲突与抗争的话语建构。",
   "why_hot": "近期地缘冲突频发，数字平台成为认知战与视觉抗争的关键场域。",
-  "hot_score": 50,
-  "growth": -0.231,
-  "growth_rate": -0.231,
-  "recent_rate": 0.1333,
-  "baseline_rate": 0.1733,
-  "recent_count": 4,
-  "baseline_count": 26,
-  "journal_count": 5,
+  "hot_score": 78,
+  "growth": 0.4,
+  "growth_rate": 0.4,
+  "recent_rate": 0.2333,
+  "baseline_rate": 0.1667,
+  "recent_count": 7,
+  "baseline_count": 25,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
@@ -21,18 +21,53 @@
   ],
   "papers": [
     {
+      "id": 2009,
+      "title": "Digitalization of Ukrainian military media beyond the martial law in the country: Technological advances and new possibilities",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-09-03",
+      "summary": "通过比较36家乌克兰军事与民间媒体的平台可见性和参与度指标，分析战时混合数字媒体系统中两类媒体的功能分化。"
+    },
+    {
+      "id": 2010,
+      "title": "The co-constitution of digital diplomacy and information operations in conflict-driven platformised statecraft",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-08-30",
+      "summary": "研究国家与非国家冲突中数字外交与信息操作共生关系，提出平台操纵和话语捕获的共构模型，采用Botometer与网络分析等计算方法。"
+    },
+    {
+      "id": 2011,
+      "title": "Navigating accountability: How Russian English-speaking media framed the 2014 sanctions and the Skripal case",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-08-28",
+      "summary": "研究俄罗斯英文媒体如何框架2014制裁和斯克里帕尔案，揭示亲克里姆林宫叙事和对西方的指责策略。"
+    },
+    {
+      "id": 2013,
+      "title": "Truth under fire: A functional narrative typology of wartime fake news in digital media",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-08-28",
+      "summary": "对2023年以色列-加沙战争期间163条希伯来语虚假信息帖子进行主题分析，提出功能性叙事类型学，归纳六种战时假新闻叙事类型。"
+    },
+    {
+      "id": 2014,
+      "title": "Ambient war: Stalingrad memory and Russian state-aligned Telegram networks in the war against Ukraine",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-08-28",
+      "summary": "研究通过分析近300个国家对齐Telegram频道，网络追踪“斯大林格勒”文本的流通，揭示其情感动员形成“环境战争”氛围，连接二战与当前俄乌战争。"
+    },
+    {
+      "id": 2015,
+      "title": "(Elite) Monologues on social media during Cyprus’ peace negotiations: Twitter as a mirror of offline politics in divided societies",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-08-27",
+      "summary": "以社交网络视角分析2021年塞浦路斯和平谈判期间Twitter精英影响者的互动，揭示其主导讨论且缺乏跨阵营对话，反映并再生产线下政治分裂。"
+    },
+    {
       "id": 1972,
       "title": "Trauma-Selfie: Active victimhood in war",
       "journal": "Media War & Conflict",
       "published_date": "2026-08-22",
       "summary": "论文提出“创伤自拍”概念，分析2023年10月7日音乐节袭击中约300个受害者生成视频，构建动机与美学类型学，探讨当代战争中手机拍摄的见证形式及“主动受害者”身份的政治意涵。"
-    },
-    {
-      "id": 1963,
-      "title": "Reclaiming Place Through Symbolic Geographies: Visual Resistance on Palestinian Instagram",
-      "journal": "Political Communication",
-      "published_date": "2026-08-16",
-      "summary": "分析2023-2024年巴勒斯坦Instagram用户的9126条帖子，识别三种视觉主题，并与国际新闻标题比较，展示用户生成内容如何抵抗主流叙事和算法压制。"
     },
     {
       "id": 483,
@@ -47,6 +82,13 @@
       "journal": "Political Communication",
       "published_date": "2026-07-27",
       "summary": "基于affordance理论，跨平台分析QAnon在Parler和Twitter上2018-2021年的可见性、关联性和持续性实践，探讨极端网络反公众的身份建构与公共竞争动态。"
+    },
+    {
+      "id": 246,
+      "title": "Digital transformation and contested sovereignty in humanitarian action",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-23",
+      "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
     },
     {
       "id": 207,
@@ -70,13 +112,6 @@
       "summary": "论文通过多方法分析（NLP、社交网络分析）研究Mare Aperto 2025军事演习中封闭社交媒体平台的互动，探讨战略模糊如何影响注意力和归因，并促进冲突升级。"
     },
     {
-      "id": 490,
-      "title": "Billboard murals as adversarial public diplomacy: Remediation and sacred typology in Iran’s “True Promise” campaigns",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-07-02",
-      "summary": "分析伊朗2024-2025年对以军事冲突中的广告牌壁画与数字图像，探讨其作为对抗性公共外交的多语言、危机同步与跨平台修复机制，属于定性视觉传播研究。"
-    },
-    {
       "id": 252,
       "title": "Hybrid conflict in the Afghanistan – Pakistan context: digital war mechanisms, media geopolitics, and the dynamics of online radicalization",
       "journal": "Journal of Information Technology & Politics",
@@ -84,11 +119,11 @@
       "summary": "研究阿富汗-巴基斯坦背景下的混合冲突，分析四平台2400条帖文的虚假信息传播与反国家叙事，结合300人调查，发现数字冲突加剧。"
     },
     {
-      "id": 281,
-      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
+      "id": 1996,
+      "title": "Humilitainment 2.0: Platformed Crime Entertainment and Digital Carcerality on YouTube",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
+      "summary": "研究COPSTV频道YouTube上的犯罪娱乐内容，分析平台推荐可见性如何强化惩罚性叙事，基于200个视频的质性主题分析。"
     },
     {
       "id": 492,
@@ -140,11 +175,18 @@
       "summary": "研究俄罗斯议员在2022-23年乌克兰冲突期间社交媒体帖子的修辞适应，基于14.4万条帖子，用词嵌入和主题分类发现议员帖子反映官方宣传及个人政治激励，揭示威权体制下政治沟通与外部冲突的关系。"
     },
     {
-      "id": 108,
-      "title": "Bridging disinformation and cybersecurity in the social sciences: a scoping review",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-04",
-      "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
+      "id": 182,
+      "title": "“Liar, Liar, Pants on Fire!” An Automated Analysis of Polarities of Mediated Truth Contestation in Austrian and Czech News Media",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-30",
+      "summary": "本文分析奥地利和捷克新闻媒体中关于移民报道的真相争议，基于16万篇新闻文章，使用自动化内容分析和命名实体识别，探讨媒体类型和政治背景对真伪表述的影响。"
+    },
+    {
+      "id": 554,
+      "title": "Polycentric Power Plays: Gulf Agency and the Dynamics of China’s AI Diplomacy",
+      "journal": "Communication and the Public",
+      "published_date": "2026-04-21",
+      "summary": "首个系统比较中国对海湾六国AI外交的研究，提出多中心谈判框架，分析海湾国家如何选择性吸收、过滤或调整中国技术供给与监管模式，突出其数字主权与战略对冲，揭示区域内分歧及对AI规范扩散的影响。"
     },
     {
       "id": 514,
@@ -168,39 +210,11 @@
       "summary": "从生态视角探讨平台化放大如何通过注意力竞争、目击内容和算法信息流强化恐怖主义报道，间接助力恐怖主义目标。"
     },
     {
-      "id": 128,
-      "title": "Racism, resistance, and Reddit: how popular culture sparks online reckonings",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-07",
-      "summary": "研究分析Reddit用户对两部种族主题剧集的评论，结合主题建模与批判话语分析，揭示用户角色流动及平台匿名性对种族讨论的影响。"
-    },
-    {
-      "id": 291,
-      "title": "Performing Identity: Repetition, Emoji, and Candidate Indicators of Amplified Visibility in Jordanian–Palestinian Facebook Discourse",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
-    },
-    {
-      "id": 302,
-      "title": "Symbolic Custodians on Facebook: Community Media Agents and Religious Practices in Faial",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
-    },
-    {
-      "id": 135,
-      "title": "Examining the linguistic power of emotes: multimodal race discourse on Twitch",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-30",
-      "summary": "研究Twitch上三个表情符号在直播聊天中的使用、改造和挪用，如何再现和颠覆反黑人种族主义，通过多站点数字民族志分析这些表情的流通轨迹和意义制造。"
-    },
-    {
-      "id": 138,
-      "title": "Between disclosure and conspiracy: the transparency effect on r/UFO and r/UAP subreddits",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-29",
-      "summary": "论文分析UFO/UAP子版块的帖子和评论，结合政府披露时间线，用时间序列模型检验官方透明度是否减少阴谋论叙事，发现披露能缓解信任侵蚀，并讨论披露概念的局限。"
+      "id": 556,
+      "title": "From digital diplomacy to AI-driven diplomacies? Mapping the potential impact of AI on Diplomacy",
+      "journal": "Communication and the Public",
+      "published_date": "2026-04-02",
+      "summary": "论文分析12年数字外交研究，提出AI驱动外交的三种情景和两大悖论，探讨AI对当代外交的潜在影响。"
     },
     {
       "id": 523,
@@ -217,18 +231,18 @@
       "summary": "提出整合性“三M”框架分析短视频平台多模态虚假信息的建构、传播与政治化，并以2023年法国骚乱相关中文平台案例验证，揭示“织真”策略。"
     },
     {
+      "id": 525,
+      "title": "From laughing to learning: How TikTok genres influence American youth understanding and sentiments about the war in Ukraine",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-03-19",
+      "summary": "通过实验（N=794）考察TikTok讽刺视频和解释视频对美国青年关于俄乌战争的愤世嫉俗、政治效能、共情和知识的影响，发现视频增加愤世嫉俗和知识，且政治派别调节效果。"
+    },
+    {
       "id": 271,
       "title": "Repression through anti-repression tools: an analysis of the coordinated campaign of Iranian Telegram channels at times of crisis",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-03-18",
       "summary": "研究伊朗Telegram频道在2025年以伊战争期间如何协调传播宣传与虚假信息，通过分析47,567条帖子，发现政治新闻频道为核心枢纽，娱乐频道作为放大层，混合使用幽默和讽刺包装信息以扩大传播。"
-    },
-    {
-      "id": 228,
-      "title": "Disinformation as Cultural Narrative: Conceptualizing Disinformation as Cross-Platform, Identity-Affirming, Cathartic Stories",
-      "journal": "Political Communication",
-      "published_date": "2026-03-04",
-      "summary": "将虚假信息概念化为跨平台、身份认同和宣泄性的文化叙事，基于Facebook和Twitter广泛分享的URL内容数据集，分析三个案例，发现成功虚假信息符合叙事标准，具有情感和道德维度。"
     }
   ],
   "paper_edges": []

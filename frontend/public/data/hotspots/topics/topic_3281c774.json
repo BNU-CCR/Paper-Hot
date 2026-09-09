@@ -1,0 +1,214 @@
+{
+  "topic_id": "topic_3281c774",
+  "label": "事实核查的治理成本",
+  "description": "分析事实核查在治理语境中的感知审查效应与政治参与影响，探讨真相治理的悖论。",
+  "why_hot": "信息生态治理中事实核查的政治副作用引发反思。",
+  "hot_score": 87,
+  "growth": 1.0,
+  "growth_rate": 1.0,
+  "recent_rate": 0.2667,
+  "baseline_rate": 0.1333,
+  "recent_count": 8,
+  "baseline_count": 20,
+  "journal_count": 8,
+  "lineage_status": "continued",
+  "status": "hot",
+  "keywords": [
+    "事实核查",
+    "感知审查",
+    "政治参与",
+    "治理"
+  ],
+  "papers": [
+    {
+      "id": 1992,
+      "title": "Defining political influencers: a scoping review and young adults’ perspectives",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-09-03",
+      "summary": "通过范围综述和定性调查，提出政治影响者的定义及分类框架，基于内容频率和政治聚焦与触达水平两个维度。"
+    },
+    {
+      "id": 1984,
+      "title": "Narratives of Power: AI, Agency and the EU AI Act",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-26",
+      "summary": "通过混合计算与批判话语分析，考察欧盟AI法案文本中权力叙事如何塑造AI能动性，边缘化替代视角。"
+    },
+    {
+      "id": 1982,
+      "title": "The accuracy of survey measures on political activity on Facebook. Evidence from a data donation study",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-25",
+      "summary": "研究利用758名匈牙利Facebook用户的捐赠数字追踪数据，对比其自报的政治活动，发现自报与真实行为相关性中等，且用户普遍低估一般活动、高估政治参与，并提出改进测量方法的建议。"
+    },
+    {
+      "id": 1983,
+      "title": "When politics shapes technology adoption: a cross-national study of chatbot acceptance",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-23",
+      "summary": "基于四国调查，研究政治价值观、国家来源等对聊天机器人接受度的影响，验证TAM/UTAUT模型并发现政治感知作用。"
+    },
+    {
+      "id": 1950,
+      "title": "Calibration labour: making careers machine-legible under algorithmic hiring",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-21",
+      "summary": "通过两年民族志田野调查，探讨算法招聘如何改变求职沟通条件，提出算法可读性概念，分析求职者被迫进行校准劳动以适配机器系统，重塑社会认可与公民参与。"
+    },
+    {
+      "id": 1931,
+      "title": "The Policy Umwelt: How AI Problem Representations Render Governance Alternatives Unthinkable",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-15",
+      "summary": "通过WPR方法分析三种AI叙事（存在风险、加速主义、批判AI）构建的Policy Umwelt，揭示其限制治理选项的认知框架。"
+    },
+    {
+      "id": 1928,
+      "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-13",
+      "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
+    },
+    {
+      "id": 1938,
+      "title": "Trending Topics, Growing Knowledge? How Curating Actors’ Political Social Media Content Affects Youth’s Political Knowledge",
+      "journal": "Political Communication",
+      "published_date": "2026-08-10",
+      "summary": "通过三波面板调查，研究16-30岁青年接触各类社交媒体主体政治内容对时事知识的影响，及感知意见领袖满足感的中介作用。"
+    },
+    {
+      "id": 14,
+      "title": "Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-29",
+      "summary": "基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。"
+    },
+    {
+      "id": 394,
+      "title": "The Costs of Governing Truth: Fact-Checking, Perceived Censorship, and Political Participation Across Governance Contexts",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-27",
+      "summary": "基于新加坡、中国、美国调查数据，探讨深度伪造担忧、事实核查与感知审查如何影响社交媒体政治参与，发现感知审查是参与退出的关键条件。"
+    },
+    {
+      "id": 65,
+      "title": "Socioeconomic and digital divides in public support for AI-driven welfare decisions: cross-national evidence from 21 countries",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-14",
+      "summary": "通过21国跨国调查，考察经济困难与AI态度对AI福利决策支持度的影响，并分析国家层面数字鸿沟的调节作用。"
+    },
+    {
+      "id": 286,
+      "title": "Making Sense of AI-Generated Disinformation: How Audience Interpretations Influence the Impact of Deepfakes in Kenya",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过肯尼亚7000人调查实验，考察社交评论对政治深度伪造效果的影响，发现质疑评论可部分恢复政治家支持，且党派偏见影响判断，强调集体意义建构的作用。"
+    },
+    {
+      "id": 1997,
+      "title": "Antecedents of Disclosure: What Transparency Measures Social Media Users in the United States Want From Paid Political Influencers",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过美国906名用户调查，探究对政治网红付费披露的态度，发现党派性与真实性关注影响支持度。"
+    },
+    {
+      "id": 73,
+      "title": "Weapon, wonder or both? Political framings of AI in global north and south media",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-26",
+      "summary": "分析2010-2024年全球南北12家报纸6829篇AI报道，结合主题建模与情感分析，揭示政治化阶段及南北情绪差异，强调地缘政治对AI叙事的影响。"
+    },
+    {
+      "id": 254,
+      "title": "Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-26",
+      "summary": "探讨ChatGPT使用频率、对大语言模型的威胁感知及政治意识形态如何影响用户对ChatGPT用于政治信息消费的信任，发现使用与信任正相关，威胁感知负相关，且存在交互效应。"
+    },
+    {
+      "id": 405,
+      "title": "AI as “Artificial Immigrants”? A Content Analysis of the U.S. News Media Framing of AI Threats",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-26",
+      "summary": "分析美国四家媒体1005篇报道，探讨AI被视为“人工移民”的威胁框架，发现现实威胁强调多于象征威胁，技术报道偏向现实框架。"
+    },
+    {
+      "id": 79,
+      "title": "Inaccuracies, omissions, and bullshit: 2024 U.S. elections through the eyes of ChatGPT",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-22",
+      "summary": "通过审计ChatGPT-4o mini在2024年美国大选前的输出，发现其存在不准确、遗漏和胡扯等问题，提出从 curative governance 到 generative governance 的转变，揭示生成式AI对民主信息环境的潜在危害。"
+    },
+    {
+      "id": 81,
+      "title": "Italians’ attitudes towards AI: how technology issues travel across social conversation",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-17",
+      "summary": "基于2023-2024年意大利全国调查，分析公众对AI的信息获取、工具使用及态度差异，发现知识鸿沟和情境依赖，呈现批判性矛盾心态，强调多元公众参与治理。"
+    },
+    {
+      "id": 111,
+      "title": "Socioeconomic disparities in AI awareness: examining the mediating roles of AI usage and familiarity",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-30",
+      "summary": "基于美国10087名成人调查，探究高低社会经济地位者在AI意识、熟悉度与使用上的差异，发现高SES者AI意识更强，且AI使用与熟悉度在SES与AI意识间起中介作用，揭示AI时代的数字不平等。"
+    },
+    {
+      "id": 181,
+      "title": "Simulated superiority and mediated geopolitics: affective responses to AI-generated political parody in Chinese digital space",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-30",
+      "summary": "通过397人实验探究AI生成政治模仿如何激发集体优越感、缓解对美敌对态度，并揭示视觉真实感的中介作用，扩展优越性理论。"
+    },
+    {
+      "id": 113,
+      "title": "Generative AI governance: from regulatory design to institutional reordering",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-26",
+      "summary": "特刊探讨生成式AI治理作为多地点争议过程，强调劳动、知识与价值在制度中的重排，揭示治理在机构、地理和基础设施间的分布。"
+    },
+    {
+      "id": 512,
+      "title": "“The architect of the invasion” vs. “a symbol of resilience”: How AI chatbots frame Zelenskyy, Putin and the Russia–Ukraine war",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-19",
+      "summary": "2024年11月对ChatGPT、Copilot、Gemini、Claude四个AI聊天机器人进行定性内容分析，发现其框架与欧美媒体相似，将俄罗斯视为侵略者、乌克兰为受害者，但对俄宣传语境理解不足，存在偏见和可靠性问题。"
+    },
+    {
+      "id": 269,
+      "title": "Generative artificial intelligence, misinformation and political polarization: a content analysis of deepfake propaganda during the 2024 US presidential election",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-04-07",
+      "summary": "该研究通过定性内容分析，考察2024年美国大选期间AI深度伪造内容在社交媒体X上的框架与极化讨论，提出Deepfake-Driven Framing and Polarization Framework，揭示深度伪造如何嵌入并再生产政治极化叙事。"
+    },
+    {
+      "id": 425,
+      "title": "AI-Assisted Mapping of Political Orientation in Fact-Checked News: Evidence from South Korea",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-04-07",
+      "summary": "研究利用韩国预训练语言模型，对选举期间的事实核查文章进行政治倾向映射分析，比较模型在目标、证据和评估维度上的表现，并验证结合外部知识可提升效果。"
+    },
+    {
+      "id": 519,
+      "title": "Artificial intelligence, deepfakes, and wars: How global news media frame actors, threats, and solutions in 19 countries",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-03",
+      "summary": "分析19国308篇新闻对深度伪造的行动者、威胁和解决方案的框架，基于俄乌战争案例，采用定性主题分析，揭示政治、技术、犯罪等主体及多维度威胁和应对措施。"
+    },
+    {
+      "id": 46,
+      "title": "Adolescents’ Trust in Political Content From Influencers: The Roles of Motive Attribution and Parental Mediation",
+      "journal": "Communication Research",
+      "published_date": "2026-03-30",
+      "summary": "研究探讨青少年对社交媒体影响者政治内容的信任，考察动机归因、数字素养和父母中介的作用，基于三波面板调查数据。"
+    },
+    {
+      "id": 141,
+      "title": "Protecting democracy: comparing codes of conduct for generative AI use during elections",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-23",
+      "summary": "比较11国2024年选举中生成式AI使用准则，分析其对民主诚信的威胁界定与责任机制，指出存在执行力不足、一致性缺失等问题。"
+    }
+  ],
+  "paper_edges": []
+}

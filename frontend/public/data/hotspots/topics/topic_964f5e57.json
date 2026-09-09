@@ -1,0 +1,162 @@
+{
+  "topic_id": "topic_964f5e57",
+  "label": "日本政治传播与代际分化",
+  "description": "分析日本选举中的流媒体政治观看、代际不公平感、媒体不信任与政治丑闻报道。",
+  "why_hot": "流媒体分化与传统媒体信任危机叠加，日本政治传播进入转型观察期。",
+  "hot_score": 91,
+  "growth": 2.333,
+  "growth_rate": 2.333,
+  "recent_rate": 0.2667,
+  "baseline_rate": 0.08,
+  "recent_count": 8,
+  "baseline_count": 12,
+  "journal_count": 6,
+  "lineage_status": "drifted",
+  "status": "hot",
+  "keywords": [
+    "日本政治、流媒体、代际不公平、媒体信任、政治丑闻"
+  ],
+  "papers": [
+    {
+      "id": 1991,
+      "title": "Creator-led political satire on TikTok: youth expression in post-election Indonesia",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-09-05",
+      "summary": "通过定性数字话语分析25集TikTok讽刺课堂视频，探讨印尼大选后青年政治表达和平台化政治批判。"
+    },
+    {
+      "id": 1981,
+      "title": "Electoral targeting strategies during the 2022 election in Sweden: exploring the paid affordances of Facebook and Instagram",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-30",
+      "summary": "研究瑞典2022年大选中政党的Facebook和Instagram付费广告策略，基于2395条广告样本，分析负面竞选、呼吁行动及人口定向差异。"
+    },
+    {
+      "id": 1990,
+      "title": "Social Media Savvy? The Use and Effectiveness of Political Parties’ Issue Strategies Across Platforms in the German Federal Election Campaign 2025",
+      "journal": "Political Communication",
+      "published_date": "2026-08-26",
+      "summary": "研究德国2025年大选中政党在Facebook、Instagram和TikTok上的议题策略及其用户参与效果，结合手动内容分析与调查数据。"
+    },
+    {
+      "id": 1986,
+      "title": "An Effort Made for Whom? Exploring Ministers’ Public Approval and Name Recognition in Relation to Their Media Activity",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-24",
+      "summary": "通过分析丹麦部长2020-2024年Facebook活动与传统媒体曝光数据，结合32次全国民调，发现传统媒体活动仅小幅提升知名度，社交媒体活动收效甚微，且存在触及与好感权衡。"
+    },
+    {
+      "id": 1967,
+      "title": "Linking politics. How political parties use online link sharing during campaign times in Belgium and Sweden",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-19",
+      "summary": "分析比利时和瑞典政党在Facebook上的链接分享实践，基于2014-2022竞选期间帖子内容，发现链接和新闻分享减少，反映传播策略变化。"
+    },
+    {
+      "id": 1959,
+      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-18",
+      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
+    },
+    {
+      "id": 1934,
+      "title": "Affective Legitimacy and Digital Populism: Evidence from Romania’s Annulled Presidential Elections",
+      "journal": "Political Communication",
+      "published_date": "2026-08-13",
+      "summary": "研究罗马尼亚总统选举被取消后公众对宪法法院决策合法性的感知，基于调查数据发现TikTok使用、负面情绪和政治不信任增加非法性认知，并以媒体标题分析为补充。"
+    },
+    {
+      "id": 1935,
+      "title": "Kamala is Brat: TikTok and the Affective Politics of Memes",
+      "journal": "Political Communication",
+      "published_date": "2026-08-12",
+      "summary": "研究TikTok上“Kamala is Brat”迷因的形式、功能与情感共鸣，分析创作者如何重构哈里斯形象，揭示平台迷因文化作为选举中介机制。"
+    },
+    {
+      "id": 1900,
+      "title": "Did you make this for me? A two-country study on individuals’ perceptions of tailoring in online political ads",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-05",
+      "summary": "跨国研究个体对在线政治广告定制化程度的感知及其影响，属于政治传播领域。"
+    },
+    {
+      "id": 1902,
+      "title": "Anti-Elitism Gets the Views: Populist Communication and Popularity on German Political YouTube",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-04",
+      "summary": "研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。"
+    },
+    {
+      "id": 1941,
+      "title": "From Fringe to Power in the TikTok Age: Libertarian Ideology and Transgressive Performances in Milei’s ‘Populism Without the People’",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过分析米莱在TikTok的传播，结合文本、视觉和表演维度，发现其民粹主义缺少“人民”元素，且越轨表演带来更高互动。"
+    },
+    {
+      "id": 1943,
+      "title": "Make Campaigns Dance Again: The Trumpdance and the Memeaesthetic Logic of TikTok",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究特朗普YMCA舞蹈在TikTok上的传播，基于API采集6799个视频，分析参与模式与算法可见性，提出迷因美学逻辑。"
+    },
+    {
+      "id": 212,
+      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
+      "journal": "Political Communication",
+      "published_date": "2026-06-30",
+      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
+    },
+    {
+      "id": 255,
+      "title": "The multimodal use of Instagram in Italian politics: how do candidates use verbal and non-verbal strategies during regional elections?",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-16",
+      "summary": "研究意大利地方选举中候选人如何在Instagram上运用言语和非言语策略，量化分析1194条帖子，发现候选人主要通过平台展示专业性和政策，但不同阵营和性别存在策略差异，且多模态表达常不一致。"
+    },
+    {
+      "id": 83,
+      "title": "Drivers of professional and private personalization: investigating political actors, social media platforms, and their interplay",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-14",
+      "summary": "研究奥地利大选中政治人物与政党账号在 Facebook 和 Instagram 上的专业与私人个性化策略，基于2028条帖子的定量内容分析和混合效应逻辑回归，发现候选账号更倾向私人个性化，且平台间无显著差异。"
+    },
+    {
+      "id": 84,
+      "title": "Fixing election interference, safeguarding election integrity? Developments and dynamics of election-related policies on social media platforms",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-14",
+      "summary": "论文比较分析YouTube、Facebook等平台的选举相关政策及其演变，划分三个阶段，并探讨平台责任话语变化及美国选举影响。"
+    },
+    {
+      "id": 100,
+      "title": "Targeting and/or tailoring?! A theoretical framework and its application to political social media advertising",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-14",
+      "summary": "提出targeting与tailoring的理论框架，基于2021年德国大选Facebook和Instagram广告数据，测量政党广告策略及其对曝光量的影响。"
+    },
+    {
+      "id": 200,
+      "title": "Exploring temporal dynamics in digital trace data: mining user-sequences for communication research",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-05-09",
+      "summary": "论文系统梳理了利用数字追踪数据中的时间信息进行传播研究的方法，介绍序列分析、事件史分析、隐马尔可夫模型等六种方法，并以30万条用户序列数据为例进行演示。"
+    },
+    {
+      "id": 127,
+      "title": "Evaluating the potential and limits of trace-based interviews when studying news use",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-08",
+      "summary": "论文评估基于数字追踪的访谈法在新闻使用研究中的潜力与局限，基于英巴73次访谈，揭示该方法能反映习惯性、偶然性及跨平台新闻实践。"
+    },
+    {
+      "id": 268,
+      "title": "Attributing digital election advertising to races and candidates: a multimodal approach to measuring outside group influence",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-04-08",
+      "summary": "开发可扩展的多模态系统，结合文本与图像归因数字广告至竞选层级，分析2020年140万Meta广告，估算外部团体支出并评估其选举影响。"
+    }
+  ],
+  "paper_edges": []
+}

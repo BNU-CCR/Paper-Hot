@@ -3,14 +3,14 @@
   "label": "信息操纵与平台生态演变",
   "description": "关注社交媒体操纵、宣传策略、另类平台迁移及企业数字责任，揭示平台生态中的权力动态。",
   "why_hot": "全球选举与地缘紧张加剧，信息操纵和平台迁移成为热点。",
-  "hot_score": 59,
-  "growth": -0.038,
-  "growth_rate": -0.038,
-  "recent_rate": 0.1667,
-  "baseline_rate": 0.1733,
-  "recent_count": 5,
-  "baseline_count": 26,
-  "journal_count": 10,
+  "hot_score": 40,
+  "growth": -0.483,
+  "growth_rate": -0.483,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.1933,
+  "recent_count": 3,
+  "baseline_count": 29,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
@@ -21,25 +21,25 @@
   ],
   "papers": [
     {
-      "id": 1949,
-      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-21",
-      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
+      "id": 1993,
+      "title": "Networked advocacy in sustainability governance: how NGOs adapt communication across stakeholder relationships on Twitter/X",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-28",
+      "summary": "研究NGO在土耳其可持续性话语中如何针对不同利益相关者调整传播，结合社交网络与情感分析8万余条推文。"
     },
     {
-      "id": 1964,
-      "title": "Enemies Abroad, Animosity at Home: Media Influence on U.S.-China Policy and Anti-Asian Sentiment",
-      "journal": "Political Communication",
-      "published_date": "2026-08-16",
-      "summary": "通过分析2010-2020年CNN和福克斯新闻文本及全国调查实验，考察中国威胁叙事如何影响美国对华政策支持与反亚裔情绪，发现威胁叙事加剧鹰派态度和种族偏见，尤其在共和党人中。"
+      "id": 1966,
+      "title": "Hierarchical barriers: how media-flow networks reproduce inequality on X",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-20",
+      "summary": "研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。"
     },
     {
-      "id": 1933,
-      "title": "Entertainment as Trojan Horse: Voluntary Consumption of Propaganda in China",
-      "journal": "Political Communication",
-      "published_date": "2026-08-13",
-      "summary": "研究中国宣传电影中娱乐元素如何提升观众自愿消费和接受政治教化，采用观察数据与预注册调查实验。"
+      "id": 1940,
+      "title": "Multi-platform research in the light of technology affordances: networks of the far right in Germany",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-10",
+      "summary": "通过网络分析比较德国极右翼在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构，揭示平台技术可供性对网络模式的影响。"
     },
     {
       "id": 1898,
@@ -56,18 +56,11 @@
       "summary": "通过Kiwi Farms案例提出'replatformization'概念，分析另类平台如何在市场治理下通过社会、技术、组织策略规避去平台化，并揭示其扩展机制。"
     },
     {
-      "id": 246,
-      "title": "Digital transformation and contested sovereignty in humanitarian action",
+      "id": 243,
+      "title": "Navigating the hybrid media landscape? Danish green NGOs’ use of digital platforms for internal and external communication",
       "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-23",
-      "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
-    },
-    {
-      "id": 63,
-      "title": "Platforming pocket money: family finance apps and the datafication of child economies",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-15",
-      "summary": "分析儿童理财APP的特征，探讨其如何通过数据追踪与管理重塑儿童的经济参与，并讨论数据化对儿童金融主体与客体的构建。"
+      "published_date": "2026-07-27",
+      "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
     },
     {
       "id": 69,
@@ -77,11 +70,18 @@
       "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
     },
     {
-      "id": 284,
-      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "id": 613,
+      "title": "Exploring the forces driving ChatGPT diffusion on X: An integrated theoretical perspective",
+      "journal": "Global Media and Communication",
+      "published_date": "2026-07-02",
+      "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
+    },
+    {
+      "id": 1994,
+      "title": "“Fairness Labels” in Feeds: Process Disclosures, Provenance, and User Choice Among Short‑Video Creators in Mainland China",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
+      "summary": "通过移动在线实验，研究面向中国短视频创作者的公平性披露对感知程序正义、分配公平及合法性的影响。"
     },
     {
       "id": 71,
@@ -105,6 +105,41 @@
       "summary": "基于台湾环保NGO与公民科技社群合作的案例，探讨环境数据行动主义中NGO作为公民数据中介的角色，提出数据正义的实践理论。"
     },
     {
+      "id": 256,
+      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-15",
+      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
+    },
+    {
+      "id": 33,
+      "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
+      "journal": "Communication Research",
+      "published_date": "2026-06-13",
+      "summary": "研究创意众包挑战社区中地位、职业、价值等多维同质性对创意者间评论网络形成的影响，采用关系事件模型和潜在类别分析。"
+    },
+    {
+      "id": 85,
+      "title": "Latent communicative figurations: mapping quasi-visible strategic relational structures on Facebook",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-13",
+      "summary": "本文提出潜在传播构型概念，利用Facebook可再生能源相关品牌帖子构建双模网络，揭示战略伙伴与页面间的隐性关系，并探讨平台逻辑对新闻媒体角色的影响。"
+    },
+    {
+      "id": 258,
+      "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-05",
+      "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
+    },
+    {
+      "id": 440,
+      "title": "Strategic Communication as an Integrative Governance Function: A Bibliometric Review and an Integrated PR–OC–CC Model",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-03",
+      "summary": "通过文献计量综述316篇WoS论文，梳理公关、组织传播与企业传播的融合，提出战略传播作为整合性治理功能的理论模型。"
+    },
+    {
       "id": 217,
       "title": "Moving Targets, Moving Politics: The State of Play in Social Media Data Access",
       "journal": "Political Communication",
@@ -112,11 +147,11 @@
       "summary": "论文探讨社交媒体数据获取的现状与挑战，涉及数据访问政策及其对政治传播研究的影响。"
     },
     {
-      "id": 95,
-      "title": "Price, proficiency, or permission: assessing platform data access for election research",
+      "id": 97,
+      "title": "Integrating farmers markets into a communication infrastructure model: the moderating role of physical community spaces for civic engagement",
       "journal": "Information Communication & Society",
-      "published_date": "2026-05-27",
-      "summary": "论文评估平台数据访问的价格、技能和权限因素，探讨其对选举研究的影响，关注平台API及数据可得性问题。"
+      "published_date": "2026-05-25",
+      "summary": "基于全国调查数据，考察不同传播渠道对公民参与的影响，并探讨农贸市场作为物理空间的调节作用，发现社交媒体平台效应各异。"
     },
     {
       "id": 375,
@@ -133,13 +168,6 @@
       "summary": "研究小红书通过“集群治理”组织网红群体，结合人工与算法策展控制内容创作，削弱创作者自主性，基于访谈与民族志方法。"
     },
     {
-      "id": 105,
-      "title": "From player to asset: venture labor in axie infinity",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-08",
-      "summary": "通过爬取Discord社区数据，分析Axie Infinity奖学金申请者的申请文本，揭示其自我资产化策略，即玩家将劳动与困境呈现为投资资产以争取机会。"
-    },
-    {
       "id": 376,
       "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
       "journal": "Asian Journal of Communication",
@@ -147,18 +175,18 @@
       "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
     },
     {
-      "id": 510,
-      "title": "‘Don’t Thai to me’: A critical discourse and linguistic analysis of border crisis in the Cambodia–Thailand armed conflict",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-04-24",
-      "summary": "研究2025年柬泰武装冲突中的‘Don’t Thai to me’话语，分析柬埔寨官方媒体及Facebook内容，结合Fairclough话语分析探讨民族身份污名化及数字传播下的舆论动员。"
+      "id": 452,
+      "title": "Of Scams and Failures: Analyzing International Environmental NGOs’ Narratives After COP 29",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-04-30",
+      "summary": "研究WWF和绿色和平在COP29后如何通过网站和社交媒体传播失败叙事，采用主题分析揭示叙事差异，属于战略传播研究。"
     },
     {
-      "id": 554,
-      "title": "Polycentric Power Plays: Gulf Agency and the Dynamics of China’s AI Diplomacy",
-      "journal": "Communication and the Public",
-      "published_date": "2026-04-21",
-      "summary": "首个系统比较中国对海湾六国AI外交的研究，提出多中心谈判框架，分析海湾国家如何选择性吸收、过滤或调整中国技术供给与监管模式，突出其数字主权与战略对冲，揭示区域内分歧及对AI规范扩散的影响。"
+      "id": 634,
+      "title": "Human versus machine as content moderators: examining the effects of moderation strategies on Reddit",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "基于Reddit 2022年5.3亿条参与记录和1330万条审核动作，分析硬性/软性审核策略、人工/机器审核者身份对不同活跃度用户参与度的影响。"
     },
     {
       "id": 114,
@@ -175,6 +203,13 @@
       "summary": "以福柯政府性概念分析Stack Exchange审核罢工，探讨平台所有者与社区间的权力动态，以及AI政策如何引发抵抗并重塑平台机制。"
     },
     {
+      "id": 119,
+      "title": "Regulation by users – the crowdsourced adjudication entities and emerging regulabour on Douyin",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-16",
+      "summary": "通过民族志与访谈，研究抖音社区审核实体在算法协调下形成众包裁决系统，提出‘规训劳动’概念，揭示平台资本主义中用户无偿劳动被用于监管。"
+    },
+    {
       "id": 122,
       "title": "Online interactions and the gravity model",
       "journal": "Information Communication & Society",
@@ -182,18 +217,11 @@
       "summary": "论文基于《帝国时代II》2500万场多人比赛数据，构建在线互动模型并用结构重力模型估计，发现文化邻近性和外部社交网络对跨国在线互动有重要影响，为数字全球化和在线社区研究提供实证。"
     },
     {
-      "id": 184,
-      "title": "Evaluating the Impact of China’s “Wolf Warrior Diplomacy” in East Asia: An Experimental Approach",
-      "journal": "The International Journal of Press/Politics",
+      "id": 45,
+      "title": "Understanding Hybridity, Representational Networks, and Resilience Enactment Through Social Media Communication",
+      "journal": "Communication Research",
       "published_date": "2026-04-02",
-      "summary": "通过在日本、韩国、台湾的预注册在线实验，检验中国‘战狼外交’信息对三地公众对华态度的影响，发现负面效果有限但存在，分享意愿低。"
-    },
-    {
-      "id": 556,
-      "title": "From digital diplomacy to AI-driven diplomacies? Mapping the potential impact of AI on Diplomacy",
-      "journal": "Communication and the Public",
-      "published_date": "2026-04-02",
-      "summary": "论文分析12年数字外交研究，提出AI驱动外交的三种情景和两大悖论，探讨AI对当代外交的潜在影响。"
+      "summary": "研究社会企业如何在社交媒体沟通中呈现双重逻辑，通过分析260家台湾企业的3年Facebook数据和调查，发现高逻辑中心性直接及透过代表性网络间接预测韧性沟通，且受感知逻辑中心性调节。"
     },
     {
       "id": 293,
@@ -208,34 +236,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "以川善治平台为案例，从游戏化、数据化和展演性视角分析中国乡村数字治理的界面设计如何构建特定乡村愿景。"
-    },
-    {
-      "id": 145,
-      "title": "“ … I sort of laid it all out … ”: qualitatively exploring Canadian campaigners’ informational practices and strategic decisions in medical and housing-related crowdfunding campaigns",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-14",
-      "summary": "通过访谈36名加拿大GoFundMe用户，探讨其在医疗和住房众筹中的信息分享策略，识别出放大、精炼和省略三种实践，揭示隐私与筹款之间的平衡。"
-    },
-    {
-      "id": 185,
-      "title": "Harnessing Star Power: Sequential Political Cooptation of Entertainment Celebrities in China",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-03-05",
-      "summary": "基于1993-2023年2898名娱乐明星数据，分析中国如何通过演出机会和正式任命逐步吸纳明星，揭示媒体可见性转化为政治资本的机制。"
-    },
-    {
-      "id": 383,
-      "title": "Embedded governance in China’s screen culture industry: from infiltration to co-optation",
-      "journal": "Asian Journal of Communication",
-      "published_date": "2026-03-04",
-      "summary": "通过机构分析和双模网络映射，研究中国电视剧产业中党政部门通过精英吸纳实现嵌入式治理的机制，提出三种关系控制模式。"
-    },
-    {
-      "id": 348,
-      "title": "Anemic Black-owned broadcast stations: a political economy analysis of FCC ownership reports (2009–2023)",
-      "journal": "Journal of Media Economics",
-      "published_date": "2026-03-03",
-      "summary": "研究利用FCC 2009-2023年数据，分析黑人广播电台所有权比例低且性别差距明显，揭示系统性障碍，并呼吁政策干预。"
     }
   ],
   "paper_edges": []

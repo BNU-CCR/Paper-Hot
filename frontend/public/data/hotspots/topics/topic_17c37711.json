@@ -3,14 +3,14 @@
   "label": "数字政治传播的情感转向",
   "description": "分析情感化政治话语、模因政治、数字民粹主义与AI政治工具，捕捉政治传播中的情感动力。",
   "why_hot": "情感成为政治动员核心，模因与AI工具重塑政治表达。",
-  "hot_score": 82,
+  "hot_score": 76,
   "growth": 0.5,
   "growth_rate": 0.5,
-  "recent_rate": 0.3,
-  "baseline_rate": 0.2,
-  "recent_count": 9,
-  "baseline_count": 30,
-  "journal_count": 12,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.1333,
+  "recent_count": 6,
+  "baseline_count": 20,
+  "journal_count": 11,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
@@ -20,6 +20,20 @@
     "政治传播"
   ],
   "papers": [
+    {
+      "id": 2004,
+      "title": "How Platform Affordances Shape Expression Effects: Comment Length and Audience in Political News Engagement",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-09-07",
+      "summary": "实验(N=775)探究新闻平台评论长度与受众类型对表达效应的影响，发现评论条件交互作用，并通过计算语言学分析揭示词汇使用差异。"
+    },
+    {
+      "id": 1977,
+      "title": "Less Effort to Believe and More Effort to Disbelieve: Examining the Interplay between News-Finds-Me and Affective Polarization in Political Fake News Susceptibility in the United States",
+      "journal": "Communication Research",
+      "published_date": "2026-08-26",
+      "summary": "通过调查719名美国成年人，结合反应时数据，研究News-Finds-Me与情感极化对政治假新闻易感性的交互影响，发现处理精力差异。"
+    },
     {
       "id": 1951,
       "title": "Echoes across the divide: incivility and the fragmentation of issue publics in immigration discourse",
@@ -35,25 +49,11 @@
       "summary": "论文介绍MORESPulse模型，基于XLM-RoBERTa检测七种语言政治文本的五种情绪，并分析匈牙利议会1998-2022年超五百万句语料，发现情绪化语言自2010年持续上升，与政党角色和政策议题相关。"
     },
     {
-      "id": 1934,
-      "title": "Affective Legitimacy and Digital Populism: Evidence from Romania’s Annulled Presidential Elections",
-      "journal": "Political Communication",
-      "published_date": "2026-08-13",
-      "summary": "研究罗马尼亚总统选举被取消后公众对宪法法院决策合法性的感知，基于调查数据发现TikTok使用、负面情绪和政治不信任增加非法性认知，并以媒体标题分析为补充。"
-    },
-    {
       "id": 1939,
       "title": "Can Large language models serve as voting advice applications? An empirical test using Turkish lifestyle typologies",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-08-13",
       "summary": "测试五个LLM平台能否基于土耳其生活方式类型学提供投票建议，发现模型间校准差异大，序数准确度尚可，基数准确度不足，当前不能替代传统VAA。"
-    },
-    {
-      "id": 1935,
-      "title": "Kamala is Brat: TikTok and the Affective Politics of Memes",
-      "journal": "Political Communication",
-      "published_date": "2026-08-12",
-      "summary": "研究TikTok上“Kamala is Brat”迷因的形式、功能与情感共鸣，分析创作者如何重构哈里斯形象，揭示平台迷因文化作为选举中介机制。"
     },
     {
       "id": 1936,
@@ -63,25 +63,11 @@
       "summary": "通过批判性话语分析2019-2025年Barstool Sports子版块16个帖子，提出\"反政治空间\"概念，探讨粉丝如何区分流行文化与制度政治，对抗政治化。"
     },
     {
-      "id": 1938,
-      "title": "Trending Topics, Growing Knowledge? How Curating Actors’ Political Social Media Content Affects Youth’s Political Knowledge",
-      "journal": "Political Communication",
-      "published_date": "2026-08-10",
-      "summary": "通过三波面板调查，研究16-30岁青年接触各类社交媒体主体政治内容对时事知识的影响，及感知意见领袖满足感的中介作用。"
-    },
-    {
-      "id": 1902,
-      "title": "Anti-Elitism Gets the Views: Populist Communication and Popularity on German Political YouTube",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-08-04",
-      "summary": "研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。"
-    },
-    {
-      "id": 56,
-      "title": "The echoes from social media: modeling how filter bubbles and network structure shape echo chamber emergence",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-27",
-      "summary": "通过agent-based模型整合社交网络与意见动态，模拟不同同质性和选择性暴露条件下回音室的形成，发现信息暴露显著影响回音室涌现，而算法过滤不一定保证其持续。"
+      "id": 242,
+      "title": "Search engines in polarized media environment: auditing political information curation on Google and Bing prior to 2024 US elections",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-28",
+      "summary": "该研究在2024年美国大选前审计Google和Bing的搜索结果，分析查询主题、用户位置和时间对政治信息偏向的影响，发现两大引擎优先呈现左倾媒体，且不同主题下意识形态偏向程度不同。"
     },
     {
       "id": 205,
@@ -96,6 +82,13 @@
       "journal": "Political Communication",
       "published_date": "2026-07-22",
       "summary": "研究2024年美国总统辩论期间YouTube直播聊天中的多模态情绪传染，结合面部、语音、文本情绪识别与时间序列分析（N=53,095），发现候选人情绪影响观众，且效果因参与度和政治立场而异。"
+    },
+    {
+      "id": 208,
+      "title": "Political Fact-Checking Efforts are Constrained by Deficiencies in Coverage, Speed, and Reach",
+      "journal": "Political Communication",
+      "published_date": "2026-07-19",
+      "summary": "研究评估2022年美国中期选举期间政治事实核查的局限性，发现其覆盖不足、发布滞后、在党派社群中传播受限，并反驳党派偏见假设。"
     },
     {
       "id": 247,
@@ -133,32 +126,11 @@
       "summary": "通过分析2015-2021年Reddit上约40万次政治互动，发现跨立场讨论中带个人故事的评论获得更多正面评价和回复，但未能减少毒性回复，且用户较少分享个人故事，影响有限。"
     },
     {
-      "id": 1941,
-      "title": "From Fringe to Power in the TikTok Age: Libertarian Ideology and Transgressive Performances in Milei’s ‘Populism Without the People’",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过分析米莱在TikTok的传播，结合文本、视觉和表演维度，发现其民粹主义缺少“人民”元素，且越轨表演带来更高互动。"
-    },
-    {
-      "id": 1943,
-      "title": "Make Campaigns Dance Again: The Trumpdance and the Memeaesthetic Logic of TikTok",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究特朗普YMCA舞蹈在TikTok上的传播，基于API采集6799个视频，分析参与模式与算法可见性，提出迷因美学逻辑。"
-    },
-    {
       "id": 29,
       "title": "Partisanship in Context: The (A)symmetric Influence of Local Newspaper Availability and Selective Exposure on Political Misperceptions in the U.S.",
       "journal": "Communication Research",
       "published_date": "2026-06-29",
       "summary": "利用准实验设计，比较有无本地报纸的县域居民，发现缺乏本地报纸减少主流媒体使用，加剧自由派选择性接触，并影响两党虚假信息信念。"
-    },
-    {
-      "id": 199,
-      "title": "NEClass: a lightweight LLM pipeline for measuring Foreign news coverage",
-      "journal": "Communication Methods and Measures",
-      "published_date": "2026-06-24",
-      "summary": "论文提出NEClass流水线，结合NER和微调LLM分类新闻中实体的国家归属，验证其高准确性并通过欧元区危机案例展示应用，为国际新闻覆盖研究提供可复现工具。"
     },
     {
       "id": 77,
@@ -168,20 +140,6 @@
       "summary": "通过分析Nvidia GTC 2024和41份灰色文献，研究Wayve和Waabi如何利用LLM的通用性话语克服自动驾驶行业困境，揭示其投机性炒作和行业嵌入策略。"
     },
     {
-      "id": 255,
-      "title": "The multimodal use of Instagram in Italian politics: how do candidates use verbal and non-verbal strategies during regional elections?",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-16",
-      "summary": "研究意大利地方选举中候选人如何在Instagram上运用言语和非言语策略，量化分析1194条帖子，发现候选人主要通过平台展示专业性和政策，但不同阵营和性别存在策略差异，且多模态表达常不一致。"
-    },
-    {
-      "id": 83,
-      "title": "Drivers of professional and private personalization: investigating political actors, social media platforms, and their interplay",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-14",
-      "summary": "研究奥地利大选中政治人物与政党账号在 Facebook 和 Instagram 上的专业与私人个性化策略，基于2028条帖子的定量内容分析和混合效应逻辑回归，发现候选账号更倾向私人个性化，且平台间无显著差异。"
-    },
-    {
       "id": 18,
       "title": "How Mass and Social Media (De) polarize America: Exposure to News Media, Expression on Social Media, and Affective Polarization",
       "journal": "Communication and the Public",
@@ -189,25 +147,11 @@
       "summary": "基于2020年美国大选两波面板调查，检验大众媒体、社交媒体和人际讨论对情感极化的影响，发现同质新闻加剧极化，跨域新闻缓解极化。"
     },
     {
-      "id": 215,
-      "title": "Evaluating Echo Chambers, Rabbit Holes, and Radicalization Pathways on YouTube",
-      "journal": "Political Communication",
-      "published_date": "2026-06-10",
-      "summary": "通过估计YouTube视频意识形态和原创审计设计，发现用户处于轻度意识形态回音室，推荐算法产生内容兔子洞，但未发现激进路径，算法倾向推荐温和保守内容。"
-    },
-    {
       "id": 173,
       "title": "Identity–Policy Fusion and Polarization in United States House Campaign Language",
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-06-04",
       "summary": "研究提出身份-政策融合框架，分析美国众议院候选人竞选语言。通过计算文本分析4万余条政策声明，发现融合策略与语言极化显著相关，且共和党效应更强，揭示精英信息加剧党派界限的机制。"
-    },
-    {
-      "id": 37,
-      "title": "Political Identity Threats on Social Media",
-      "journal": "Communication Research",
-      "published_date": "2026-05-08",
-      "summary": "研究社交媒体上政治身份威胁的识别与影响，通过两个实验发现威胁类型非离散且对强党派身份者影响更大。"
     },
     {
       "id": 112,
@@ -224,25 +168,18 @@
       "summary": "论文开发并验证极化语言编码工具，识别八种语言策略，通过四项研究（州长演讲、受众感知、国会推文）结合手动和计算方法验证框架的效度与泛化性。"
     },
     {
+      "id": 635,
+      "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
+    },
+    {
       "id": 43,
       "title": "Disentangling the Longitudinal Relationship Between Social Media Use, Political Expression and Political Participation: What Do We Really Know?",
       "journal": "Communication Research",
       "published_date": "2026-04-09",
       "summary": "论文使用三波面板数据，通过CLPM与RI-CLPM比较，发现社交媒体使用与政治表达、参与的关系主要源于个体间差异而非个体内变化，挑战以往结论。"
-    },
-    {
-      "id": 267,
-      "title": "Disagreement driven disengagement? Policymaker perceptions of citizen identity and responsiveness to political communication",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-04-09",
-      "summary": "通过调查地方政策制定者和美国公众，研究政策制定者对沟通渠道的回应是否受支持者身份认知影响，发现支持者更可能使用高成本和低成本渠道。"
-    },
-    {
-      "id": 268,
-      "title": "Attributing digital election advertising to races and candidates: a multimodal approach to measuring outside group influence",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-04-08",
-      "summary": "开发可扩展的多模态系统，结合文本与图像归因数字广告至竞选层级，分析2020年140万Meta广告，估算外部团体支出并评估其选举影响。"
     },
     {
       "id": 639,
@@ -252,46 +189,18 @@
       "summary": "通过定制平台实验（N=1370），考察点赞和回复功能对政治讨论参与、投入和多样性的影响，发现两者存在权衡：点赞促进快速回应和观点多样性，回复则导致对话碎片化。"
     },
     {
+      "id": 301,
+      "title": "The AI Referee: How Online Interventions Shape Incivility and User Engagement in News Discussions",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该论文利用Naver News的3900万条评论数据，训练深度学习模型识别不文明内容，分析两种自动化干预对评论不文明程度和用户参与度的影响，发现干预显著降低不文明内容，但对参与度影响不一。"
+    },
+    {
       "id": 270,
       "title": "Beyond partisan leaning: a comparative analysis of political bias in large language models",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-03-20",
       "summary": "提出无角色扮演的二维框架评估43个LLM的政治倾向与参与模式，发现多数模型偏中左，对齐策略比模型规模更影响政治表达。"
-    },
-    {
-      "id": 525,
-      "title": "From laughing to learning: How TikTok genres influence American youth understanding and sentiments about the war in Ukraine",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-03-19",
-      "summary": "通过实验（N=794）考察TikTok讽刺视频和解释视频对美国青年关于俄乌战争的愤世嫉俗、政治效能、共情和知识的影响，发现视频增加愤世嫉俗和知识，且政治派别调节效果。"
-    },
-    {
-      "id": 148,
-      "title": "The cognitive benefits of online microtargeted political ads: explaining attitudes, political interest, and campaign knowledge",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-12",
-      "summary": "通过两波面板调查(N=691)发现，微靶向政治广告的感知匹配度正向影响广告态度，进而提升政治兴趣和竞选知识，挑战了其纯负面观点。"
-    },
-    {
-      "id": 427,
-      "title": "Hostile Media and Friendly Chambers: Social Media Polarization and the 2024 U.S. Campus Protests",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-03-12",
-      "summary": "基于2024年美国校园抗议期间1010名受访者的全国调查，考察敌意媒体感知对策略性社交媒体行为的影响，以及阴谋信念的调节作用。"
-    },
-    {
-      "id": 150,
-      "title": "The impact of metaphorical language on social media engagement: evidence from the presidential run-off and major parliamentary parties during the 2023 Turkish general election",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-11",
-      "summary": "研究2023土耳其大选中政治人物推文的隐喻对用户互动的影响，发现隐喻频率和原创性可小幅提升点赞与转发，回复影响较弱。"
-    },
-    {
-      "id": 561,
-      "title": "Reaction Media As A Cross-Platform Practice: A Case Study Of Friction And Flow In Uncle Roger’s Reaction Media On Youtube, Tiktok, Douyin, And Bilibili",
-      "journal": "Communication and the Public",
-      "published_date": "2026-02-27",
-      "summary": "通过案例研究，考察Uncle Roger在YouTube、TikTok、抖音和Bilibili上的反应媒体实践，提出反应媒体作为跨平台实践的新定义，强调其动态性和反应性。"
     }
   ],
   "paper_edges": []

@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-08-24 13:44 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-09-09 11:38 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
-| 2026-08-20 | [Hierarchical barriers: how media-flow networks reproduce inequality on X](<https://doi.org/10.1080/19331681.2026.2718909>) | Journal of Information Technology & Politics | 研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。 |
-| 2026-08-20 | [Echoes across the divide: incivility and the fragmentation of issue publics in immigration discourse](<https://doi.org/10.1080/1369118x.2026.2716778>) | Information Communication & Society | 基于X平台数据，用LLM识别移民立场和语言不文明度，构建提及网络追踪不文明言论在意识形态对立群体间的扩散。 |
-| 2026-08-18 | [Political emotionalization in large text corpora: detecting affective cues with MORESPulse and its scientific uses](<https://doi.org/10.1080/19331681.2026.2716074>) | Journal of Information Technology & Politics | 论文介绍MORESPulse模型，基于XLM-RoBERTa检测七种语言政治文本的五种情绪，并分析匈牙利议会1998-2022年超五百万句语料，发现情绪化语言自2010年持续上升，与政党角色和政策议题相关。 |
-| 2026-08-18 | [How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires](<https://doi.org/10.1177/19401612261474289>) | The International Journal of Press/Politics | 基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。 |
-| 2026-08-17 | [Toward inclusive online safety: evaluating the role of intersectionality on online abuse in the United Kingdom](<https://doi.org/10.1080/1369118x.2026.2713666>) | Information Communication & Society | 论文评估交叉性因素在英国在线滥用中的作用，旨在促进包容性在线安全，可能采用数据驱动方法分析网络言论。 |
+| 2026-09-07 | [How Platform Affordances Shape Expression Effects: Comment Length and Audience in Political News Engagement](<https://doi.org/10.1080/08838151.2026.2729274>) | Journal of Broadcasting & Electronic Media | 实验(N=775)探究新闻平台评论长度与受众类型对表达效应的影响，发现评论条件交互作用，并通过计算语言学分析揭示词汇使用差异。 |
+| 2026-09-03 | [Investigating Conditional Macro-Level Media Effects Over a Long-Term: How Crisis Periods Moderate the Effects of Suicide Coverage on Suicide Rate Change (1861–2007)](<https://doi.org/10.1177/00936502261480405>) | Communication Research | 通过分析《泰晤士报》1861-2007年自杀报道与英国自杀率数据，发现危机时期自杀报道增加与自杀率上升相关，支持条件性维特效应。 |
+| 2026-08-31 | [From #StayWoke to “Culture Wars”: How Social Justice Discourse is Separately and Synergistically Politicized on Twitter and YouTube](<https://doi.org/10.1080/10584609.2026.2717428>) | Political Communication | 利用Twitter和YouTube 2012-2022数据，分析“woke”话语如何被政治化，比较平台差异及跨平台协调传播。 |
+| 2026-08-31 | [Beyond beyond standardization: studying robustness of empirical claims based on topic modeling through multiverse analysis](<https://doi.org/10.1080/19312458.2026.2714769>) | Communication Methods and Measures | 该研究运用预注册多宇宙分析框架，微调六项基于主题建模研究的预处理、主题数和算法等选择，检验其经验主张的稳健性。结果显示多数主张因建模选项改变而大幅失真，倡导采用预注册多宇宙分析以增强实证结果可靠性。 |
+| 2026-08-30 | [The co-constitution of digital diplomacy and information operations in conflict-driven platformised statecraft](<https://doi.org/10.1177/17506352261477304>) | Media War & Conflict | 研究国家与非国家冲突中数字外交与信息操作共生关系，提出平台操纵和话语捕获的共构模型，采用Botometer与网络分析等计算方法。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-08-24 13:44 GMT+8
+> 最近更新：2026-09-09 11:38 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 1974 |
-| 当期新增 | 50 |
-| High / Medium / Low | 567 / 612 / 795 |
-| Pending / Screened / Quarantined / Error | 0 / 1974 / 0 / 0 |
-| 已发布精选 | 567 |
-| 期刊全量导出 | 1974 |
+| 数据库论文 | 2017 |
+| 当期新增 | 43 |
+| High / Medium / Low | 581 / 629 / 807 |
+| Pending / Screened / Quarantined / Error | 0 / 2017 / 0 / 0 |
+| 已发布精选 | 581 |
+| 期刊全量导出 | 2017 |
 
-覆盖验证：OpenAlex DOI 1960，Crossref DOI 752，匹配 707，Crossref 中尚缺 45。
+覆盖验证：OpenAlex DOI 2003，Crossref DOI 795，匹配 744，Crossref 中尚缺 51。
 
 <!-- paper-hot:auto-stats:end -->
 

@@ -1,0 +1,38 @@
+{
+  "topic_id": "topic_6fa3d7cd",
+  "label": "健康传播与社交媒体广告研究",
+  "description": "聚焦于健康传播与社交媒体广告研究及相关传播学议题的学术探讨与前沿成果。",
+  "why_hot": "该领域近期在多家红榜期刊中有相关论文发表。",
+  "hot_score": 60,
+  "growth": 9.0,
+  "growth_rate": 9.0,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.0067,
+  "recent_count": 2,
+  "baseline_count": 1,
+  "journal_count": 2,
+  "lineage_status": "new",
+  "status": "emerging",
+  "keywords": [
+    "健康传播",
+    "社交媒体广告",
+    "实验研究"
+  ],
+  "papers": [
+    {
+      "id": 1976,
+      "title": "Sex, Romance, or Recreation? An Experiment Testing the Effects of Cannabis Brand-generated Social Media Ads on College Students’ Expectancies and Intentions to Use Cannabis Prior to Sex",
+      "journal": "Communication Research",
+      "published_date": "2026-08-31",
+      "summary": "通过在线实验考察大麻品牌社交媒体广告中的性/浪漫/娱乐脚本对大学生性前使用大麻预期与意向的影响，发现性别差异及机制。"
+    },
+    {
+      "id": 1929,
+      "title": "‘Cool! I wanna try it!’: online exposure to e-cigarette advertisements increases e-cigarette susceptibility among U.S. sexual minority young adults",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-10",
+      "summary": "研究在线电子烟广告暴露如何影响美国性少数青年对电子烟的易感性，关注数字广告的传播效果。"
+    }
+  ],
+  "paper_edges": []
+}
