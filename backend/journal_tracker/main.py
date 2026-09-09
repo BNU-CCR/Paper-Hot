@@ -15,7 +15,7 @@ import time
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import List, Optional
+from typing import Any, Dict, List, Optional
 
 from .config import Config, get_config
 from .storage import PaperStorage, Paper, PaperFeatures
@@ -744,6 +744,21 @@ def update_public_workflow(config: Optional[Config] = None, refilter_limit: int 
     return 0
 
 
+def _generate_monthly_hotspots_step(config: Config) -> Dict[str, Any]:
+    """Refresh the legacy hotspot feed without blocking the primary data pipeline."""
+    output_path = config.public_data_dir / "hotspots.json"
+    try:
+        generated_path = generate_monthly_hotspots(config)
+        return {"output": str(generated_path)}
+    except Exception as exc:
+        safe_print(f"Monthly hotspot refresh skipped; preserving existing output: {exc}")
+        return {
+            "skipped": "generation_failed",
+            "error": f"{type(exc).__name__}: {exc}",
+            "preserved_output": str(output_path) if output_path.is_file() else "",
+        }
+
+
 def run_weekly_journal_workflow(
     config: Optional[Config] = None,
     limit_per_journal: int = 100,
@@ -825,8 +840,7 @@ def run_weekly_journal_workflow(
     else:
         report["steps"]["translate_papers"] = {"skipped": "missing SILICONFLOW_API_KEY"}
 
-    hotspots_path = generate_monthly_hotspots(config)
-    report["steps"]["generate_hotspots"] = {"output": str(hotspots_path)}
+    report["steps"]["generate_hotspots"] = _generate_monthly_hotspots_step(config)
 
     if verify:
         verify_coverage(config)
@@ -935,8 +949,7 @@ def run_backfill_workflow(
         "public_papers": public_count,
     }
 
-    hotspots_path = generate_monthly_hotspots(config)
-    report["steps"]["generate_hotspots"] = {"output": str(hotspots_path)}
+    report["steps"]["generate_hotspots"] = _generate_monthly_hotspots_step(config)
 
     if verify:
         verify_coverage(config)

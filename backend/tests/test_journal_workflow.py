@@ -16,6 +16,32 @@ def write_file(path: Path, content: str) -> None:
 
 
 class JournalWorkflowTests(unittest.TestCase):
+    def test_monthly_hotspot_failure_preserves_existing_output(self) -> None:
+        with TemporaryDirectory() as tmp_dir:
+            project_dir = Path(tmp_dir)
+            config_dir = project_dir / "config"
+            data_dir = project_dir / "data"
+            public_data_dir = project_dir / "public" / "data"
+            config_dir.mkdir()
+            data_dir.mkdir()
+            public_data_dir.mkdir(parents=True)
+            write_file(config_dir / "journals.yaml", "journals: []\n")
+            write_file(config_dir / "prompts.yaml", "{}")
+            write_file(
+                config_dir / "settings.yaml",
+                "database:\n  path: data/papers.db\npublic_data:\n  path: frontend/public/data\n",
+            )
+            existing_path = public_data_dir / "hotspots.json"
+            existing_path.write_text('{"topics": []}', encoding="utf-8")
+            config = Config(config_dir)
+
+            with patch("journal_tracker.main.generate_monthly_hotspots", side_effect=ValueError("truncated JSON")):
+                result = main_module._generate_monthly_hotspots_step(config)
+
+            self.assertEqual(result["skipped"], "generation_failed")
+            self.assertEqual(result["preserved_output"], str(existing_path))
+            self.assertEqual(existing_path.read_text(encoding="utf-8"), '{"topics": []}')
+
     def test_ingest_journal_updates_saves_new_papers_as_pending(self) -> None:
         with TemporaryDirectory() as tmp_dir:
             project_dir = Path(tmp_dir)
