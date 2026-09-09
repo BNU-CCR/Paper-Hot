@@ -28,6 +28,7 @@ DEFAULT_LABEL_SYSTEM_PROMPT = """你是计算传播研究的中文编辑。请�
 - why_hot 用一句话基于输入给出的"近30天论文数 vs 此前150天论文数"及日均发表速度解释近期研究活动是升温、持平还是降温（不超过 60 字）。
 - keywords 列出 3-6 个该主题的核心英文关键词。
 - 不要编造未在输入中给出的论文标题、作者或数据。
+- 不得在 label_zh、description、why_hot 或 keywords 中使用任何具体国家或地区名称。即使论文来自多个国家，也必须按共同研究问题、对象或机制命名。
 - 优先使用中文传播学领域的学术术语。
 
 严格只输出 JSON 数组：
@@ -40,6 +41,27 @@ DEFAULT_LABEL_SYSTEM_PROMPT = """你是计算传播研究的中文编辑。请�
     "keywords": ["recommender systems", "search engines", "political efficacy"]
   }
 ]"""
+
+
+COUNTRY_NAMES = (
+    "中国", "日本", "韩国", "朝鲜", "美国", "英国", "法国", "德国", "意大利", "西班牙",
+    "葡萄牙", "荷兰", "比利时", "瑞典", "挪威", "丹麦", "芬兰", "冰岛", "瑞士", "奥地利",
+    "波兰", "俄罗斯", "乌克兰", "罗马尼亚", "匈牙利", "希腊", "土耳其", "以色列", "伊朗",
+    "印度", "印度尼西亚", "印尼", "新加坡", "马来西亚", "菲律宾", "越南", "泰国", "澳大利亚",
+    "新西兰", "加拿大", "墨西哥", "巴西", "阿根廷", "智利", "南非", "肯尼亚", "尼日利亚",
+    "台湾", "香港", "澳门", "china", "japan", "korea", "united states", "usa", "united kingdom",
+    "britain", "france", "germany", "italy", "spain", "netherlands", "belgium", "sweden", "norway",
+    "denmark", "finland", "switzerland", "austria", "poland", "russia", "ukraine", "romania",
+    "hungary", "turkey", "israel", "iran", "india", "indonesia", "singapore", "malaysia",
+    "philippines", "vietnam", "thailand", "australia", "canada", "mexico", "brazil", "argentina",
+    "south africa",
+)
+
+
+def _contains_country_name(value: Any) -> bool:
+    text = " ".join(str(item) for item in value) if isinstance(value, list) else str(value or "")
+    lowered = text.casefold()
+    return any(name.casefold() in lowered for name in COUNTRY_NAMES)
 
 
 def normalize_keywords(value: Any) -> List[str]:
@@ -63,7 +85,7 @@ class TopicLabeler:
             kwargs["base_url"] = config.anthropic_base_url
         self.client = anthropic.Anthropic(**kwargs)
         self.model = config.claude_model
-        self.system_prompt = config.hotspot_system_prompt or DEFAULT_LABEL_SYSTEM_PROMPT
+        self.system_prompt = config.hotspot_label_system_prompt or DEFAULT_LABEL_SYSTEM_PROMPT
 
     def label_topics(
         self,
@@ -83,7 +105,17 @@ class TopicLabeler:
             topic["_fingerprint"] = fingerprint
 
             # Skip if already has a valid label from cache
-            if topic.get("label_zh") and topic.get("_label_fingerprint") == fingerprint:
+            cached_text = [
+                topic.get("label_zh", ""),
+                topic.get("description", ""),
+                topic.get("why_hot", ""),
+                *(topic.get("keywords") or []),
+            ]
+            if (
+                topic.get("label_zh")
+                and topic.get("_label_fingerprint") == fingerprint
+                and not _contains_country_name(cached_text)
+            ):
                 continue
             needs_label.append(idx)
 
@@ -138,6 +170,14 @@ class TopicLabeler:
         for batch_idx, topic_idx in enumerate(needs_label):
             label = label_by_index.get(batch_idx)
             topic = topics[topic_idx]
+            if label and _contains_country_name([
+                label.get("label_zh", ""),
+                label.get("description", ""),
+                label.get("why_hot", ""),
+                *normalize_keywords(label.get("keywords", [])),
+            ]):
+                print(f"  Rejected country-specific label for topic {topic.get('topic_id', batch_idx)}")
+                label = None
             if label:
                 topic["label_zh"] = str(label.get("label_zh") or "")[:40]
                 topic["description"] = str(label.get("description") or "")[:160]
@@ -163,6 +203,17 @@ class TopicLabeler:
 
         # Apply manual overrides from topic_overrides.yaml
         self._apply_overrides(topics)
+
+        for topic_idx, topic in enumerate(topics):
+            visible_text = [
+                topic.get("label_zh", ""),
+                topic.get("description", ""),
+                topic.get("why_hot", ""),
+                *(topic.get("keywords") or []),
+            ]
+            if _contains_country_name(visible_text):
+                fallback = _synthesize_fallback_label(topic, candidates, topic_idx)
+                topic.update(fallback)
 
         return topics
 
@@ -246,7 +297,7 @@ def _synthesize_fallback_label(
         if isinstance(p_tags, str):
             p_tags = [t.strip() for t in p_tags.split(",") if t.strip()]
         for t in p_tags:
-            if t:
+            if t and not _contains_country_name(t):
                 tag_counts[t] = tag_counts.get(t, 0) + 1
 
     top_tags = sorted(tag_counts.keys(), key=lambda k: tag_counts[k], reverse=True)[:3]

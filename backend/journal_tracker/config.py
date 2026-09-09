@@ -196,6 +196,11 @@ class Config:
         return self.prompts.get("hotspot_system_prompt", "")
 
     @property
+    def hotspot_label_system_prompt(self) -> str:
+        """获取热点网络主题命名 prompt。"""
+        return self.prompts.get("hotspot_label_system_prompt", "")
+
+    @property
     def hotspot_network_config(self) -> dict:
         """获取热点网络构建参数。"""
         return self.settings.get("hotspot_network", {})
