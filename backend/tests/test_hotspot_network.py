@@ -413,6 +413,68 @@ class HotspotNetworkPipelineTests(unittest.TestCase):
 
 
 class TopicLabelerResponseTests(unittest.TestCase):
+    def test_country_specific_label_is_rejected_for_generic_fallback(self) -> None:
+        labeler = TopicLabeler.__new__(TopicLabeler)
+        response = json.dumps([{
+            "topic_index": 0,
+            "label_zh": "日本政治传播与代际分化",
+            "description": "分析日本选举传播。",
+            "why_hot": "日本研究升温。",
+            "keywords": ["Japan", "elections"],
+        }], ensure_ascii=False)
+        labeler.client = SimpleNamespace(messages=SimpleNamespace(
+            create=lambda **_kwargs: SimpleNamespace(
+                content=[SimpleNamespace(type="text", text=response)]
+            )
+        ))
+        labeler.model = "test-model"
+        labeler.system_prompt = "test"
+        labeler.config = SimpleNamespace(topic_overrides={})
+        topics = [{
+            "topic_id": "topic_cross_national",
+            "paper_ids": [1, 2],
+            "recent_paper_ids": [1, 2],
+            "label_zh": "",
+        }]
+        candidates = [
+            {"id": 1, "title": "Election campaigns in Sweden", "tags": ["政治传播", "社交媒体"]},
+            {"id": 2, "title": "Election campaigns in Germany", "tags": ["政治传播", "平台治理"]},
+        ]
+
+        result = labeler.label_topics(topics, candidates)
+
+        self.assertNotIn("日本", result[0]["label_zh"])
+        self.assertNotIn("瑞典", result[0]["label_zh"])
+        self.assertIn("政治传播", result[0]["label_zh"])
+
+    def test_cached_country_specific_label_is_replaced_when_refresh_fails(self) -> None:
+        labeler = TopicLabeler.__new__(TopicLabeler)
+        labeler.client = SimpleNamespace(messages=SimpleNamespace(
+            create=lambda **_kwargs: SimpleNamespace(
+                content=[SimpleNamespace(type="text", text="invalid json")]
+            )
+        ))
+        labeler.model = "test-model"
+        labeler.system_prompt = "test"
+        labeler.config = SimpleNamespace(topic_overrides={})
+        topics = [{
+            "topic_id": "topic_cached",
+            "paper_ids": [1],
+            "recent_paper_ids": [1],
+            "label_zh": "日本代际传播",
+            "description": "日本相关研究",
+            "why_hot": "日本研究升温",
+            "keywords": ["Japan"],
+            "_label_fingerprint": "old",
+        }]
+        candidates = [{"id": 1, "title": "Cross-national generations", "tags": ["代际传播"]}]
+
+        with patch("journal_tracker.hotspot_labels.time.sleep"):
+            result = labeler.label_topics(topics, candidates)
+
+        self.assertEqual(result[0]["label_zh"], "代际传播研究")
+        self.assertNotIn("日本", result[0]["description"])
+
     def test_failed_refresh_preserves_inherited_label_and_retries_later(self) -> None:
         labeler = TopicLabeler.__new__(TopicLabeler)
         labeler.client = SimpleNamespace(messages=SimpleNamespace(
