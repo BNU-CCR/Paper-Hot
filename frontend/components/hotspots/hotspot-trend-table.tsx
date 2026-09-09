@@ -80,7 +80,7 @@ export function HotspotTrendTable({ trends, onSelectTopic, selectedTopicId }: Ho
                   <span className="badge-status hot">热点</span>
                 )}
                 {item.status === "emerging" && (
-                  <span className="badge-status emerging">新兴</span>
+                  <span className="badge-status emerging">涌现</span>
                 )}
                 {item.lineage_status === "new" && (
                   <span className="badge-new">新</span>
