@@ -1,6 +1,8 @@
 """Generate public monthly research hotspots from recently published papers."""
 
 import json
+import re
+import time
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
@@ -60,27 +62,42 @@ class MonthlyHotspotGenerator:
                 "summary": paper["summary"][:160],
                 "tags": paper["tags"],
             }, ensure_ascii=False))
-        response = self.client.messages.create(
-            model=self.model,
-            max_tokens=8000,
-            system=self.system_prompt,
-            messages=[{
-                "role": "user",
-                "content": "统计窗口截至 {date}。以下是候选论文（JSON Lines）：\n{papers}".format(
-                    date=anchor_date.isoformat(), papers="\n".join(lines)
-                ),
-            }],
-        )
-        text = self._response_text(response)
-        payload = self._parse_json(text)
-        return self._validate_topics(payload.get("topics"), {paper["id"] for paper in candidates})
+        message = {
+            "role": "user",
+            "content": "统计窗口截至 {date}。以下是候选论文（JSON Lines）：\n{papers}".format(
+                date=anchor_date.isoformat(), papers="\n".join(lines)
+            ),
+        }
+        candidate_ids = {paper["id"] for paper in candidates}
+        last_error: Optional[Exception] = None
+        for attempt in range(3):
+            try:
+                response = self.client.messages.create(
+                    model=self.model,
+                    max_tokens=8000,
+                    system=self.system_prompt,
+                    messages=[message],
+                )
+                text = self._response_text(response)
+                payload = self._parse_json(text)
+                return self._validate_topics(payload.get("topics"), candidate_ids)
+            except Exception as exc:
+                last_error = exc
+                if attempt < 2:
+                    time.sleep(2.0 * (2 ** attempt))
+        raise ValueError(f"月度热点生成在 3 次尝试后失败: {last_error}") from last_error
 
     @staticmethod
     def _response_text(response: Any) -> str:
+        texts = []
         for block in getattr(response, "content", []):
             value = getattr(block, "text", None)
             if value:
-                return value.strip()
+                texts.append(value.strip())
+        text = "\n".join(texts)
+        text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL | re.IGNORECASE).strip()
+        if text:
+            return text
         raise ValueError("热点生成响应中没有可解析文本")
 
     @staticmethod

@@ -1,5 +1,6 @@
 import json
 import unittest
+from datetime import date
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import Mock, patch
@@ -10,6 +11,40 @@ from journal_tracker.storage import Paper, PaperStorage
 
 
 class MonthlyHotspotTests(unittest.TestCase):
+    def test_generation_retries_after_empty_response(self):
+        config = Mock()
+        config.anthropic_api_key = "test-key"
+        config.anthropic_base_url = ""
+        config.claude_model = "test-model"
+        config.hotspot_system_prompt = ""
+        generator = MonthlyHotspotGenerator(config)
+        empty_response = Mock(content=[])
+        valid_response = Mock(content=[Mock(text=json.dumps({"topics": [
+            {"title": "议题一", "description": "说明", "paper_ids": [1]},
+            {"title": "议题二", "description": "说明", "paper_ids": [1]},
+            {"title": "议题三", "description": "说明", "paper_ids": [1]},
+        ]}, ensure_ascii=False))])
+        generator.client.messages.create = Mock(side_effect=[empty_response, valid_response])
+        papers = [{
+            "id": 1,
+            "title": "Paper",
+            "journal": "Journal",
+            "published_date": "2026-09-01",
+            "summary": "Summary",
+            "tags": ["AI"],
+        }]
+
+        with patch("journal_tracker.hotspots.time.sleep") as sleep:
+            topics = generator.generate(papers, date(2026, 9, 1))
+
+        self.assertEqual(len(topics), 3)
+        self.assertEqual(generator.client.messages.create.call_count, 2)
+        sleep.assert_called_once_with(2.0)
+
+    def test_response_text_strips_thinking_blocks(self):
+        response = Mock(content=[Mock(text="<think>reasoning</think>"), Mock(text='{"topics": []}')])
+        self.assertEqual(MonthlyHotspotGenerator._response_text(response), '{"topics": []}')
+
     def test_validation_keeps_only_known_paper_ids_and_caps_topics(self):
         topics = MonthlyHotspotGenerator._validate_topics(
             [
