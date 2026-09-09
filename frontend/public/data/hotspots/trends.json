@@ -1,13 +1,13 @@
 [
   {
     "topic_id": "topic_964f5e57",
-    "label": "日本政治传播与代际分化",
+    "label": "社交媒体与政治传播研究",
     "hot_score": 91,
     "growth": 2.333,
     "recent_count": 8,
     "baseline_count": 12,
     "journal_count": 6,
-    "lineage_status": "drifted",
+    "lineage_status": "continued",
     "status": "hot",
     "is_hot": true
   },
@@ -79,7 +79,7 @@
     "recent_count": 2,
     "baseline_count": 1,
     "journal_count": 2,
-    "lineage_status": "new",
+    "lineage_status": "continued",
     "status": "emerging",
     "is_hot": false
   },

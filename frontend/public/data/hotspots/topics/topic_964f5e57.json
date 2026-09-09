@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "日本政治传播与代际分化",
-  "description": "分析日本选举中的流媒体政治观看、代际不公平感、媒体不信任与政治丑闻报道。",
-  "why_hot": "流媒体分化与传统媒体信任危机叠加，日本政治传播进入转型观察期。",
+  "label": "社交媒体与政治传播研究",
+  "description": "聚焦于社交媒体与政治传播研究及相关传播学议题的学术探讨与前沿成果。",
+  "why_hot": "该领域近期在多家红榜期刊中有相关论文发表。",
   "hot_score": 91,
   "growth": 2.333,
   "growth_rate": 2.333,
@@ -11,10 +11,12 @@
   "recent_count": 8,
   "baseline_count": 12,
   "journal_count": 6,
-  "lineage_status": "drifted",
+  "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "日本政治、流媒体、代际不公平、媒体信任、政治丑闻"
+    "社交媒体",
+    "政治传播",
+    "TikTok"
   ],
   "papers": [
     {
