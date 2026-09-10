@@ -3,14 +3,14 @@
   "label": "在线仇恨言论与内容治理",
   "description": "研究仇恨内容的生产、传播、旁观者干预与平台治理，关注边缘群体的在线安全。",
   "why_hot": "网络仇恨问题突出，平台治理与用户干预机制成为政策焦点。",
-  "hot_score": 77,
-  "growth": 0.4,
-  "growth_rate": 0.4,
+  "hot_score": 70,
+  "growth": 0.167,
+  "growth_rate": 0.167,
   "recent_rate": 0.2333,
-  "baseline_rate": 0.1667,
+  "baseline_rate": 0.2,
   "recent_count": 7,
-  "baseline_count": 25,
-  "journal_count": 7,
+  "baseline_count": 30,
+  "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
@@ -70,6 +70,13 @@
       "summary": "通过对24位大学教授的访谈，探讨学者作为数字仇恨目标对施害者和旁观者的感知，强调权力失衡与战略挑衅，发现旁观者干预不足，需集体应对。"
     },
     {
+      "id": 1898,
+      "title": "Corporate digital responsibility: what drives public expectations towards companies’ role in the digital society?",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-07",
+      "summary": "研究公众对企业数字责任角色的期望，探讨企业在数字社会中的责任认知，但缺乏具体方法与数据信息。"
+    },
+    {
       "id": 1897,
       "title": "Twitter Conversations: Gendered Issue Publics Among Women",
       "journal": "Communication Research",
@@ -82,6 +89,20 @@
       "journal": "Asian Journal of Communication",
       "published_date": "2026-07-27",
       "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
+    },
+    {
+      "id": 204,
+      "title": "Networked Counterpublics and Contentious Publicity: A Cross-Platform Analysis of QAnon on Parler and Twitter",
+      "journal": "Political Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于affordance理论，跨平台分析QAnon在Parler和Twitter上2018-2021年的可见性、关联性和持续性实践，探讨极端网络反公众的身份建构与公共竞争动态。"
+    },
+    {
+      "id": 57,
+      "title": "Everyday feminist tagging as techno-rhetorical strategy: interference and curation through Instagram hashtags in #Kvinnostrejk",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-22",
+      "summary": "研究瑞典女性主义倡议#Kvinnostreik的日常标签实践，提出技术修辞策略概念，分析标签如何影响可见性并串联叙事，属数字文化研究。"
     },
     {
       "id": 68,
@@ -117,6 +138,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
+    },
+    {
+      "id": 2022,
+      "title": "Constructing Online Harms: How “Trust and Safety” Translates Safety Into Risk",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过对42位“信任与安全”从业者的访谈及行业论坛观察，作者揭示平台内部如何将用户伤害建构为可操作的公司风险（法律责任、声誉、营收），并描述其倡导者定位、风险转译与行业展演三重机制。"
     },
     {
       "id": 253,
@@ -180,6 +208,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-04-30",
       "summary": "运用结构主题建模和定性内容分析，研究Reddit上r/SexWorkers和r/OnlyFans社区超3.8万条评论，归纳17个主题，揭示平台在污名化与支持之间的双重角色。"
+    },
+    {
+      "id": 421,
+      "title": "Attributional Ambiguity in AI-Mediated Harm: How Perceived AI System Limitations Shape Forgiveness and Regulatory Demand",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-04-25",
+      "summary": "基于归因理论，通过在线调查(N=705)探究AI媒介伤害中公众的危机责任感知如何影响愤怒/共情，进而影响组织宽恕与AI监管诉求，揭示归因模糊的双路径作用。"
     },
     {
       "id": 118,

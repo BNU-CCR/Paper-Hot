@@ -3,14 +3,14 @@
   "label": "社交媒体与政治传播研究",
   "description": "聚焦于社交媒体与政治传播研究及相关传播学议题的学术探讨与前沿成果。",
   "why_hot": "该领域近期在多家红榜期刊中有相关论文发表。",
-  "hot_score": 91,
-  "growth": 2.333,
-  "growth_rate": 2.333,
-  "recent_rate": 0.2667,
-  "baseline_rate": 0.08,
-  "recent_count": 8,
-  "baseline_count": 12,
-  "journal_count": 6,
+  "hot_score": 88,
+  "growth": 1.143,
+  "growth_rate": 1.143,
+  "recent_rate": 0.3,
+  "baseline_rate": 0.14,
+  "recent_count": 9,
+  "baseline_count": 21,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
@@ -25,6 +25,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-09-05",
       "summary": "通过定性数字话语分析25集TikTok讽刺课堂视频，探讨印尼大选后青年政治表达和平台化政治批判。"
+    },
+    {
+      "id": 1975,
+      "title": "Investigating Conditional Macro-Level Media Effects Over a Long-Term: How Crisis Periods Moderate the Effects of Suicide Coverage on Suicide Rate Change (1861–2007)",
+      "journal": "Communication Research",
+      "published_date": "2026-09-03",
+      "summary": "通过分析《泰晤士报》1861-2007年自杀报道与英国自杀率数据，发现危机时期自杀报道增加与自杀率上升相关，支持条件性维特效应。"
     },
     {
       "id": 1981,
@@ -76,6 +83,13 @@
       "summary": "研究TikTok上“Kamala is Brat”迷因的形式、功能与情感共鸣，分析创作者如何重构哈里斯形象，揭示平台迷因文化作为选举中介机制。"
     },
     {
+      "id": 1903,
+      "title": "The Knowledge Gap in a High-Choice Media Environment: Experimental Evidence from Online Search",
+      "journal": "Political Communication",
+      "published_date": "2026-08-06",
+      "summary": "通过在线搜索实验探究高选择媒体环境中的知识差距，属于政治传播与数字媒介交叉研究。"
+    },
+    {
       "id": 1900,
       "title": "Did you make this for me? A two-country study on individuals’ perceptions of tailoring in online political ads",
       "journal": "Information Communication & Society",
@@ -88,6 +102,34 @@
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-08-04",
       "summary": "研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。"
+    },
+    {
+      "id": 8,
+      "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
+      "journal": "Political Communication",
+      "published_date": "2026-07-29",
+      "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
+    },
+    {
+      "id": 61,
+      "title": "Media effects, selection effects, or no effects? A longitudinal analysis of the relationship between media use and misperceptions",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-17",
+      "summary": "论文通过纵向数据分析媒体使用与错误认知的关系，探讨媒体效应与选择效应，但未说明计算方法。"
+    },
+    {
+      "id": 7,
+      "title": "Beyond apps: a method to model full distributions of screen content over time to study media effects",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-07-10",
+      "summary": "提出用深度学习方法对智能手机屏幕内容进行分布建模，基于53名青少年六个月的屏幕数据，分析内容模式与心理健康的关系，超越传统屏幕时间测量。"
+    },
+    {
+      "id": 282,
+      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
     },
     {
       "id": 1941,
@@ -104,11 +146,11 @@
       "summary": "研究特朗普YMCA舞蹈在TikTok上的传播，基于API采集6799个视频，分析参与模式与算法可见性，提出迷因美学逻辑。"
     },
     {
-      "id": 212,
-      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
-      "journal": "Political Communication",
-      "published_date": "2026-06-30",
-      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
+      "id": 409,
+      "title": "The Power of AI Transparency, Rewards, and Tracking: How Mobile App Features Drive the Adoption of Smart Trash Bins Through Trust and Perceived Value",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-22",
+      "summary": "基于助推理论与SOR框架，通过在线实验检验AI透明度、奖励和追踪功能对智能垃圾桶采纳意愿的影响，发现信任和感知价值的中介作用及交互效应。"
     },
     {
       "id": 255,
@@ -125,11 +167,18 @@
       "summary": "研究奥地利大选中政治人物与政党账号在 Facebook 和 Instagram 上的专业与私人个性化策略，基于2028条帖子的定量内容分析和混合效应逻辑回归，发现候选账号更倾向私人个性化，且平台间无显著差异。"
     },
     {
-      "id": 84,
-      "title": "Fixing election interference, safeguarding election integrity? Developments and dynamics of election-related policies on social media platforms",
+      "id": 443,
+      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-05-31",
+      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
+    },
+    {
+      "id": 99,
+      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
       "journal": "Information Communication & Society",
-      "published_date": "2026-06-14",
-      "summary": "论文比较分析YouTube、Facebook等平台的选举相关政策及其演变，划分三个阶段，并探讨平台责任话语变化及美国选举影响。"
+      "published_date": "2026-05-24",
+      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
     },
     {
       "id": 100,
@@ -146,6 +195,20 @@
       "summary": "论文系统梳理了利用数字追踪数据中的时间信息进行传播研究的方法，介绍序列分析、事件史分析、隐马尔可夫模型等六种方法，并以30万条用户序列数据为例进行演示。"
     },
     {
+      "id": 38,
+      "title": "Examining the Effects of Viewing Positive Aging TikTok Videos on Aging Outcomes and Attitudes Among Young, Middle-Aged, and Older Women",
+      "journal": "Communication Research",
+      "published_date": "2026-05-07",
+      "summary": "实验检验观看积极老龄化TikTok视频对不同年龄女性老龄化结果和态度的影响，扩展CEMSA模型，发现间接效应。"
+    },
+    {
+      "id": 451,
+      "title": "Case Study of an Online Brand Crisis: A Typology of User Engagement in the Scandinavian Airlines Advertisement Controversy",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-04-30",
+      "summary": "分析2020年SAS争议广告引发的Facebook用户评论，对2160条评论进行定量内容分析，识别出粉丝、朋友、反对者、仇恨持有者四类用户群体，挑战传统爱恨二元框架，揭示参与动态与态度流动性。"
+    },
+    {
       "id": 127,
       "title": "Evaluating the potential and limits of trace-based interviews when studying news use",
       "journal": "Information Communication & Society",
@@ -158,6 +221,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-04-08",
       "summary": "开发可扩展的多模态系统，结合文本与图像归因数字广告至竞选层级，分析2020年140万Meta广告，估算外部团体支出并评估其选举影响。"
+    },
+    {
+      "id": 462,
+      "title": "Brand-Related and Information-Sharing Cues as Decision Aid for Smartphone Users at Different Levels of Persuasion Knowledge to Assess mHealth App Credibility: An Eye-Tracking Study",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-03-16",
+      "summary": "通过眼动追踪实验探究品牌标志与个人信息请求对用户评估移动健康应用可信度的影响，发现品牌标志提升可信度，说服知识高者处理视觉线索更高效。"
     }
   ],
   "paper_edges": []

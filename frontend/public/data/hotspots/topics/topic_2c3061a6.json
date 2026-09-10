@@ -3,14 +3,14 @@
   "label": "信息操纵与平台生态演变",
   "description": "关注社交媒体操纵、宣传策略、另类平台迁移及企业数字责任，揭示平台生态中的权力动态。",
   "why_hot": "全球选举与地缘紧张加剧，信息操纵和平台迁移成为热点。",
-  "hot_score": 40,
-  "growth": -0.483,
-  "growth_rate": -0.483,
-  "recent_rate": 0.1,
-  "baseline_rate": 0.1933,
-  "recent_count": 3,
-  "baseline_count": 29,
-  "journal_count": 9,
+  "hot_score": 58,
+  "growth": -0.222,
+  "growth_rate": -0.222,
+  "recent_rate": 0.2333,
+  "baseline_rate": 0.3,
+  "recent_count": 7,
+  "baseline_count": 45,
+  "journal_count": 12,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
@@ -21,11 +21,32 @@
   ],
   "papers": [
     {
+      "id": 2020,
+      "title": "The control of digital spaces in India, Pakistan, and Bangladesh: a comparative analysis",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-09-08",
+      "summary": "论文比较印度、巴基斯坦、孟加拉国对数字空间的控制，结合法律框架梳理与OONI、Internet Society网络干扰数据，分析各国审查与监控实践的差异及其成因，发现不同政权安全关切导致控制手段分化。"
+    },
+    {
+      "id": 1979,
+      "title": "Digital ID as surreptitious experimentation in the humanitarian-tech industry: an ethnography of a biometric pilot in a refugee camp in the Thailand-Myanmar border",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-03",
+      "summary": "通过18个月民族志研究，分析泰国-缅甸边境难民营中数字ID试点如何作为隐秘实验实施，揭示其缺乏知情同意、加剧权力不对称，并延续殖民逻辑。"
+    },
+    {
       "id": 1993,
       "title": "Networked advocacy in sustainability governance: how NGOs adapt communication across stakeholder relationships on Twitter/X",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-08-28",
       "summary": "研究NGO在土耳其可持续性话语中如何针对不同利益相关者调整传播，结合社交网络与情感分析8万余条推文。"
+    },
+    {
+      "id": 1949,
+      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-21",
+      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
     },
     {
       "id": 1966,
@@ -35,18 +56,25 @@
       "summary": "研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。"
     },
     {
+      "id": 1964,
+      "title": "Enemies Abroad, Animosity at Home: Media Influence on U.S.-China Policy and Anti-Asian Sentiment",
+      "journal": "Political Communication",
+      "published_date": "2026-08-16",
+      "summary": "通过分析2010-2020年CNN和福克斯新闻文本及全国调查实验，考察中国威胁叙事如何影响美国对华政策支持与反亚裔情绪，发现威胁叙事加剧鹰派态度和种族偏见，尤其在共和党人中。"
+    },
+    {
+      "id": 1933,
+      "title": "Entertainment as Trojan Horse: Voluntary Consumption of Propaganda in China",
+      "journal": "Political Communication",
+      "published_date": "2026-08-13",
+      "summary": "研究中国宣传电影中娱乐元素如何提升观众自愿消费和接受政治教化，采用观察数据与预注册调查实验。"
+    },
+    {
       "id": 1940,
       "title": "Multi-platform research in the light of technology affordances: networks of the far right in Germany",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-08-10",
       "summary": "通过网络分析比较德国极右翼在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构，揭示平台技术可供性对网络模式的影响。"
-    },
-    {
-      "id": 1898,
-      "title": "Corporate digital responsibility: what drives public expectations towards companies’ role in the digital society?",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-07",
-      "summary": "研究公众对企业数字责任角色的期望，探讨企业在数字社会中的责任认知，但缺乏具体方法与数据信息。"
     },
     {
       "id": 1901,
@@ -63,6 +91,34 @@
       "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
     },
     {
+      "id": 246,
+      "title": "Digital transformation and contested sovereignty in humanitarian action",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-23",
+      "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
+    },
+    {
+      "id": 488,
+      "title": "Social media and protest planning: An examination of the 2024 #EndBadGovernance protests in Nigeria",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-07-23",
+      "summary": "基于尼日利亚400份调查数据，检验Instagram、Facebook、WhatsApp和X在2024年#EndBadGovernance抗议规划中的作用，发现前三者增加首日参与概率，X则降低，强调平台使用因国家而异。"
+    },
+    {
+      "id": 395,
+      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-19",
+      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
+    },
+    {
+      "id": 248,
+      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-13",
+      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
+    },
+    {
       "id": 69,
       "title": "Selling speed, suspending citizenship: data throttling, instantaneous downgrading, and the politics of connectivity in China",
       "journal": "Information Communication & Society",
@@ -70,11 +126,32 @@
       "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
     },
     {
-      "id": 613,
-      "title": "Exploring the forces driving ChatGPT diffusion on X: An integrated theoretical perspective",
-      "journal": "Global Media and Communication",
+      "id": 249,
+      "title": "Factors that influence a country to exercise its capacity for digital repression",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-06",
+      "summary": "基于172国2003-2022年面板数据，发现数字压制能力与实际压制正相关，但强隐私保护和政治稳定削弱该关系，选举年无显著影响。"
+    },
+    {
+      "id": 251,
+      "title": "Disinformation, social inequalities and young people’s digital citizenship during conflict and crisis in Ethiopia",
+      "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-07-02",
-      "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
+      "summary": "研究埃塞俄比亚冲突期间青年数字公民身份中的性别与地域不平等，探讨其如何影响虚假信息传播及政治参与。"
+    },
+    {
+      "id": 284,
+      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
+    },
+    {
+      "id": 1942,
+      "title": "Negotiating the Influencer Imaginary: How Everyday Professionals Construct Legitimacy on Social Media",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
     },
     {
       "id": 1994,
@@ -89,6 +166,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-30",
       "summary": "通过分析170份专业媒体、Reddit和YouTube文档，探讨Google Stadia云游戏平台失败原因，提出“基础设施傲慢”概念，强调技术能力需配合平台层面的利益相关者参与。"
+    },
+    {
+      "id": 212,
+      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
+      "journal": "Political Communication",
+      "published_date": "2026-06-30",
+      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
     },
     {
       "id": 614,
@@ -112,6 +196,13 @@
       "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
     },
     {
+      "id": 84,
+      "title": "Fixing election interference, safeguarding election integrity? Developments and dynamics of election-related policies on social media platforms",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-14",
+      "summary": "论文比较分析YouTube、Facebook等平台的选举相关政策及其演变，划分三个阶段，并探讨平台责任话语变化及美国选举影响。"
+    },
+    {
       "id": 33,
       "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
       "journal": "Communication Research",
@@ -124,6 +215,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-13",
       "summary": "本文提出潜在传播构型概念，利用Facebook可再生能源相关品牌帖子构建双模网络，揭示战略伙伴与页面间的隐性关系，并探讨平台逻辑对新闻媒体角色的影响。"
+    },
+    {
+      "id": 88,
+      "title": "Mediated information grounds: living with(in) pareshani , social networks and gendered media practices among the Rohingya refugees",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-08",
+      "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
     },
     {
       "id": 258,
@@ -140,6 +238,13 @@
       "summary": "通过文献计量综述316篇WoS论文，梳理公关、组织传播与企业传播的融合，提出战略传播作为整合性治理功能的理论模型。"
     },
     {
+      "id": 441,
+      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-01",
+      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
+    },
+    {
       "id": 217,
       "title": "Moving Targets, Moving Politics: The State of Play in Social Media Data Access",
       "journal": "Political Communication",
@@ -147,11 +252,11 @@
       "summary": "论文探讨社交媒体数据获取的现状与挑战，涉及数据访问政策及其对政治传播研究的影响。"
     },
     {
-      "id": 97,
-      "title": "Integrating farmers markets into a communication infrastructure model: the moderating role of physical community spaces for civic engagement",
+      "id": 93,
+      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
       "journal": "Information Communication & Society",
-      "published_date": "2026-05-25",
-      "summary": "基于全国调查数据，考察不同传播渠道对公民参与的影响，并探讨农贸市场作为物理空间的调节作用，发现社交媒体平台效应各异。"
+      "published_date": "2026-05-27",
+      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
     },
     {
       "id": 375,
@@ -182,6 +287,13 @@
       "summary": "研究WWF和绿色和平在COP29后如何通过网站和社交媒体传播失败叙事，采用主题分析揭示叙事差异，属于战略传播研究。"
     },
     {
+      "id": 510,
+      "title": "‘Don’t Thai to me’: A critical discourse and linguistic analysis of border crisis in the Cambodia–Thailand armed conflict",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-24",
+      "summary": "研究2025年柬泰武装冲突中的‘Don’t Thai to me’话语，分析柬埔寨官方媒体及Facebook内容，结合Fairclough话语分析探讨民族身份污名化及数字传播下的舆论动员。"
+    },
+    {
       "id": 634,
       "title": "Human versus machine as content moderators: examining the effects of moderation strategies on Reddit",
       "journal": "Journal of Computer-Mediated Communication",
@@ -203,6 +315,13 @@
       "summary": "以福柯政府性概念分析Stack Exchange审核罢工，探讨平台所有者与社区间的权力动态，以及AI政策如何引发抵抗并重塑平台机制。"
     },
     {
+      "id": 116,
+      "title": "How civil society coalition-building affects information integrity during elections: evidence from four African countries",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-17",
+      "summary": "基于四个非洲国家的36次访谈，探讨公民社会联盟如何通过合作促进选举期间信息完整性，涉及平台问责与政策框架。"
+    },
+    {
       "id": 119,
       "title": "Regulation by users – the crowdsourced adjudication entities and emerging regulabour on Douyin",
       "journal": "Information Communication & Society",
@@ -210,11 +329,11 @@
       "summary": "通过民族志与访谈，研究抖音社区审核实体在算法协调下形成众包裁决系统，提出‘规训劳动’概念，揭示平台资本主义中用户无偿劳动被用于监管。"
     },
     {
-      "id": 122,
-      "title": "Online interactions and the gravity model",
+      "id": 131,
+      "title": "What counter-disinformation funders got wrong: Global South critiques of the field",
       "journal": "Information Communication & Society",
-      "published_date": "2026-04-13",
-      "summary": "论文基于《帝国时代II》2500万场多人比赛数据，构建在线互动模型并用结构重力模型估计，发现文化邻近性和外部社交网络对跨国在线互动有重要影响，为数字全球化和在线社区研究提供实证。"
+      "published_date": "2026-04-06",
+      "summary": "论文批判主流反虚假信息领域的北方主导、自上而下和提取式协作，基于2022-2024年百余名全球南方参与者的项目经验，主张南南方法论和社区驱动干预。"
     },
     {
       "id": 45,
@@ -222,6 +341,13 @@
       "journal": "Communication Research",
       "published_date": "2026-04-02",
       "summary": "研究社会企业如何在社交媒体沟通中呈现双重逻辑，通过分析260家台湾企业的3年Facebook数据和调查，发现高逻辑中心性直接及透过代表性网络间接预测韧性沟通，且受感知逻辑中心性调节。"
+    },
+    {
+      "id": 184,
+      "title": "Evaluating the Impact of China’s “Wolf Warrior Diplomacy” in East Asia: An Experimental Approach",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-02",
+      "summary": "通过在日本、韩国、台湾的预注册在线实验，检验中国‘战狼外交’信息对三地公众对华态度的影响，发现负面效果有限但存在，分享意愿低。"
     },
     {
       "id": 293,
@@ -236,6 +362,27 @@
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "以川善治平台为案例，从游戏化、数据化和展演性视角分析中国乡村数字治理的界面设计如何构建特定乡村愿景。"
+    },
+    {
+      "id": 303,
+      "title": "Going Viral or Building a Community: The Dynamics of Environmental Activism on TikTok",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过民族志和访谈研究60个西语生态网红账号，分析其在TikTok上应对病毒式传播与社区建设的矛盾，提出“扁平病毒式传播”概念。"
+    },
+    {
+      "id": 307,
+      "title": "Afghanistan’s Digital Diaspora: Conflicted Constructions of Nation and Identity",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该论文通过民族志方法分析2021-2024年间X平台关于阿富汗的帖子，探讨离散社群与国内用户如何围绕民族、标签和语言展开排斥性话语，重塑族群分裂。"
+    },
+    {
+      "id": 308,
+      "title": "Shaping Sustainable Communication on Instagram: How Digital Influencers in Portugal Engage Consumers in Eco-Conscious Narratives",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过分析200条Instagram Reels和29名Z世代焦点小组，探讨葡萄牙数字影响者如何通过情感和审美策略传播可持续性，发现可持续沟通是一种情感表演。"
     }
   ],
   "paper_edges": []

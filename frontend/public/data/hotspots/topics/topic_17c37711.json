@@ -3,13 +3,13 @@
   "label": "数字政治传播的情感转向",
   "description": "分析情感化政治话语、模因政治、数字民粹主义与AI政治工具，捕捉政治传播中的情感动力。",
   "why_hot": "情感成为政治动员核心，模因与AI工具重塑政治表达。",
-  "hot_score": 76,
-  "growth": 0.5,
-  "growth_rate": 0.5,
+  "hot_score": 70,
+  "growth": 0.304,
+  "growth_rate": 0.304,
   "recent_rate": 0.2,
-  "baseline_rate": 0.1333,
+  "baseline_rate": 0.1533,
   "recent_count": 6,
-  "baseline_count": 20,
+  "baseline_count": 23,
   "journal_count": 11,
   "lineage_status": "continued",
   "status": "hot",
@@ -175,6 +175,13 @@
       "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
     },
     {
+      "id": 117,
+      "title": "Protest movements and the mainstreaming of radical and extremist ideologies: the case of COVID-19 protests",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-16",
+      "summary": "研究德国新冠抗议运动‘Querdenken’如何通过社交媒体促进激进和极端意识形态的主流化，使用内容分析、URL分析和网络分析三角验证，揭示其反精英和阴谋叙事及与极右翼社区的连接。"
+    },
+    {
       "id": 43,
       "title": "Disentangling the Longitudinal Relationship Between Social Media Use, Political Expression and Political Participation: What Do We Really Know?",
       "journal": "Communication Research",
@@ -194,6 +201,20 @@
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "该论文利用Naver News的3900万条评论数据，训练深度学习模型识别不文明内容，分析两种自动化干预对评论不文明程度和用户参与度的影响，发现干预显著降低不文明内容，但对参与度影响不一。"
+    },
+    {
+      "id": 309,
+      "title": "Preventing Radicalisation, or Forcing Ideological Consent? Crises, Uncertainty Reduction and Collective Identity Negotiation in Collaborative Communities of Online Third Spaces",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "研究在线第三方空间（育儿论坛）在危机事件中的集体身份协商，分析近2500条帖子，发现论坛虽提供支持但排斥少数意见，可能导致边缘化激进化。"
+    },
+    {
+      "id": 136,
+      "title": "Mobilization in motion: how radical movements adapt their communication on Telegram amid evolving crises",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-29",
+      "summary": "研究分析德国极右翼和Querdenken运动在2022年危机变化下如何通过Telegram调整传播策略，基于151个频道8852条消息的内容分析，发现不同运动的适应模式差异。"
     },
     {
       "id": 270,

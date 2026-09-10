@@ -3,13 +3,13 @@
   "label": "冲突叙事与数字抵抗",
   "description": "研究战争创伤、视觉抵抗、叙事武器化及网络反公众，聚焦数字环境下冲突与抗争的话语建构。",
   "why_hot": "近期地缘冲突频发，数字平台成为认知战与视觉抗争的关键场域。",
-  "hot_score": 78,
-  "growth": 0.4,
-  "growth_rate": 0.4,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.1667,
-  "recent_count": 7,
-  "baseline_count": 25,
+  "hot_score": 79,
+  "growth": 0.481,
+  "growth_rate": 0.481,
+  "recent_rate": 0.2667,
+  "baseline_rate": 0.18,
+  "recent_count": 8,
+  "baseline_count": 27,
   "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
@@ -70,25 +70,18 @@
       "summary": "论文提出“创伤自拍”概念，分析2023年10月7日音乐节袭击中约300个受害者生成视频，构建动机与美学类型学，探讨当代战争中手机拍摄的见证形式及“主动受害者”身份的政治意涵。"
     },
     {
+      "id": 1963,
+      "title": "Reclaiming Place Through Symbolic Geographies: Visual Resistance on Palestinian Instagram",
+      "journal": "Political Communication",
+      "published_date": "2026-08-16",
+      "summary": "分析2023-2024年巴勒斯坦Instagram用户的9126条帖子，识别三种视觉主题，并与国际新闻标题比较，展示用户生成内容如何抵抗主流叙事和算法压制。"
+    },
+    {
       "id": 483,
       "title": "Weaponized narratives: A social psychological theory of story-based influence in cognitive warfare",
       "journal": "Media War & Conflict",
       "published_date": "2026-07-30",
       "summary": "论文提出武器化叙事的四阶段心理影响模型，涵盖身份、威胁、道德和阴谋叙事策略，并以俄罗斯2014年克里米亚叙事行动为例，探讨AI在叙事扩散中的放大作用及反叙事策略。"
-    },
-    {
-      "id": 204,
-      "title": "Networked Counterpublics and Contentious Publicity: A Cross-Platform Analysis of QAnon on Parler and Twitter",
-      "journal": "Political Communication",
-      "published_date": "2026-07-27",
-      "summary": "基于affordance理论，跨平台分析QAnon在Parler和Twitter上2018-2021年的可见性、关联性和持续性实践，探讨极端网络反公众的身份建构与公共竞争动态。"
-    },
-    {
-      "id": 246,
-      "title": "Digital transformation and contested sovereignty in humanitarian action",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-23",
-      "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
     },
     {
       "id": 207,
@@ -210,11 +203,39 @@
       "summary": "从生态视角探讨平台化放大如何通过注意力竞争、目击内容和算法信息流强化恐怖主义报道，间接助力恐怖主义目标。"
     },
     {
+      "id": 124,
+      "title": "Digital resistance and gendered dispossession: Palestinian women’s struggles for inheritance justice",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-11",
+      "summary": "通过分析巴勒斯坦两个Facebook支持小组的305条帖子，探讨女性继承权被剥夺现象，揭示法律、文化和家庭压力如何导致女性被迫放弃继承权，并呼吁法律与社会改革。"
+    },
+    {
+      "id": 126,
+      "title": "Favela aesthetics: digital influencers in Brazil contesting Instagram visual cultures and favela stigmas",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-08",
+      "summary": "通过分析巴西贫民窟网红Blô的452条Instagram帖子，提出“贫民窟美学”概念，探讨边缘群体如何通过数字内容抵抗污名化、重构文化身份，挑战主流影响者审美与精英叙事。"
+    },
+    {
       "id": 556,
       "title": "From digital diplomacy to AI-driven diplomacies? Mapping the potential impact of AI on Diplomacy",
       "journal": "Communication and the Public",
       "published_date": "2026-04-02",
       "summary": "论文分析12年数字外交研究，提出AI驱动外交的三种情景和两大悖论，探讨AI对当代外交的潜在影响。"
+    },
+    {
+      "id": 291,
+      "title": "Performing Identity: Repetition, Emoji, and Candidate Indicators of Amplified Visibility in Jordanian–Palestinian Facebook Discourse",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
+    },
+    {
+      "id": 302,
+      "title": "Symbolic Custodians on Facebook: Community Media Agents and Religious Practices in Faial",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
     },
     {
       "id": 523,

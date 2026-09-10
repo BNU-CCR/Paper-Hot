@@ -3,14 +3,14 @@
   "label": "事实核查的治理成本",
   "description": "分析事实核查在治理语境中的感知审查效应与政治参与影响，探讨真相治理的悖论。",
   "why_hot": "信息生态治理中事实核查的政治副作用引发反思。",
-  "hot_score": 87,
-  "growth": 1.0,
-  "growth_rate": 1.0,
-  "recent_rate": 0.2667,
-  "baseline_rate": 0.1333,
-  "recent_count": 8,
-  "baseline_count": 20,
-  "journal_count": 8,
+  "hot_score": 77,
+  "growth": 0.522,
+  "growth_rate": 0.522,
+  "recent_rate": 0.2333,
+  "baseline_rate": 0.1533,
+  "recent_count": 7,
+  "baseline_count": 23,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
@@ -98,6 +98,13 @@
       "summary": "通过21国跨国调查，考察经济困难与AI态度对AI福利决策支持度的影响，并分析国家层面数字鸿沟的调节作用。"
     },
     {
+      "id": 613,
+      "title": "Exploring the forces driving ChatGPT diffusion on X: An integrated theoretical perspective",
+      "journal": "Global Media and Communication",
+      "published_date": "2026-07-02",
+      "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
+    },
+    {
       "id": 286,
       "title": "Making Sense of AI-Generated Disinformation: How Audience Interpretations Influence the Impact of Deepfakes in Kenya",
       "journal": "Social Media + Society",
@@ -147,6 +154,13 @@
       "summary": "基于2023-2024年意大利全国调查，分析公众对AI的信息获取、工具使用及态度差异，发现知识鸿沟和情境依赖，呈现批判性矛盾心态，强调多元公众参与治理。"
     },
     {
+      "id": 97,
+      "title": "Integrating farmers markets into a communication infrastructure model: the moderating role of physical community spaces for civic engagement",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-25",
+      "summary": "基于全国调查数据，考察不同传播渠道对公民参与的影响，并探讨农贸市场作为物理空间的调节作用，发现社交媒体平台效应各异。"
+    },
+    {
       "id": 111,
       "title": "Socioeconomic disparities in AI awareness: examining the mediating roles of AI usage and familiarity",
       "journal": "Information Communication & Society",
@@ -173,6 +187,13 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-04-19",
       "summary": "2024年11月对ChatGPT、Copilot、Gemini、Claude四个AI聊天机器人进行定性内容分析，发现其框架与欧美媒体相似，将俄罗斯视为侵略者、乌克兰为受害者，但对俄宣传语境理解不足，存在偏见和可靠性问题。"
+    },
+    {
+      "id": 122,
+      "title": "Online interactions and the gravity model",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-13",
+      "summary": "论文基于《帝国时代II》2500万场多人比赛数据，构建在线互动模型并用结构重力模型估计，发现文化邻近性和外部社交网络对跨国在线互动有重要影响，为数字全球化和在线社区研究提供实证。"
     },
     {
       "id": 269,

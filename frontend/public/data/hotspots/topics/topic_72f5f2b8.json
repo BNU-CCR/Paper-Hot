@@ -1,0 +1,263 @@
+{
+  "topic_id": "topic_72f5f2b8",
+  "label": "算法治理与数字劳动",
+  "description": "探讨算法招聘、AI身份治理、推荐系统政治效应，关注算法如何塑造职业、身份与政治效能。",
+  "why_hot": "AI渗透劳动与信息分配，算法治理的社会后果引发持续关注。",
+  "hot_score": 32,
+  "growth": -0.688,
+  "growth_rate": -0.688,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.2133,
+  "recent_count": 2,
+  "baseline_count": 32,
+  "journal_count": 10,
+  "lineage_status": "continued",
+  "status": "emerging",
+  "keywords": [
+    "算法治理",
+    "数字劳动",
+    "推荐系统",
+    "AI身份"
+  ],
+  "papers": [
+    {
+      "id": 1980,
+      "title": "Blindness and epistemic injustice: a critical autoethnography of digital disablement in Thailand",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-31",
+      "summary": "通过政策文档分析和批判性自传民族志，探讨泰国盲人在数字转型中遭遇的排斥，提出数字致残循环及认知不正义等机制。"
+    },
+    {
+      "id": 1960,
+      "title": "Hold That Thought: Enhancing the Durability of Fact-Checking Effects Through Low-Cost Accuracy Reminders",
+      "journal": "Political Communication",
+      "published_date": "2026-08-21",
+      "summary": "通过大规模纵向实验（N=7188）检验准确性提醒能否增强事实核查效果的持久性，发现提醒可延长信念纠正至四周。"
+    },
+    {
+      "id": 15,
+      "title": "Inclusive Crisis Communication: Addressing Diverse Audiences in the Digital Age",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-07-27",
+      "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
+    },
+    {
+      "id": 56,
+      "title": "The echoes from social media: modeling how filter bubbles and network structure shape echo chamber emergence",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-27",
+      "summary": "通过agent-based模型整合社交网络与意见动态，模拟不同同质性和选择性暴露条件下回音室的形成，发现信息暴露显著影响回音室涌现，而算法过滤不一定保证其持续。"
+    },
+    {
+      "id": 58,
+      "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-22",
+      "summary": "探讨智能音箱如何支持处于数字排斥风险的老年人的独立性、能力感和关联性，属于AI技术在社会情境中的应用研究。"
+    },
+    {
+      "id": 64,
+      "title": "Disability and AI in smart cities: centering access, agency, and awareness in hybrid spaces",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-14",
+      "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
+    },
+    {
+      "id": 1904,
+      "title": "Revisiting the Communication Mediation Model in the Age of Social Media: Longitudinal Evidence From Climate Misinformation Responses in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于中国三波面板调查，检验社交媒体时代传播中介模型，发现媒体关注通过人际讨论影响气候错误信息纠正行为，且具有同时性。"
+    },
+    {
+      "id": 1907,
+      "title": "Unpacking the Relationship Between Algorithmic Literacy and Misinformation: A Multidimensional Approach Using Two Sequential Studies",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于智利两项概率调查，分析算法素养的认知与行为维度对错误信息接触、分享和知识的影响，发现认知维度关联更强。"
+    },
+    {
+      "id": 72,
+      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-29",
+      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
+    },
+    {
+      "id": 404,
+      "title": "Is Flattery in AI Fact-Checking Helpful or Harmful? Effects on Tool Favorability and Epistemic Verification",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-28",
+      "summary": "通过实验考察AI事实核查工具采用奉承语气时，用户虽更偏好使用该工具，但降低了对信息的回忆和核对行为，且不受初始答案正确性影响。"
+    },
+    {
+      "id": 76,
+      "title": "Balancing personalization and privacy: datafication challenges in socially assistive robotics for older persons",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-23",
+      "summary": "通过18位专家访谈，探究老年人社交辅助机器人开发中个性化与隐私的张力，揭示数据化悖论，提出四类机器人分类。"
+    },
+    {
+      "id": 78,
+      "title": "The consequences of alternative media and disinformation-prone alternative media consumption on political beliefs over the course of the COVID-19 pandemic",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-22",
+      "summary": "基于捷克2019-2024面板调查，区分另类媒体（AM）与易散布虚假信息的另类媒体（DPAM），发现DPAM消费增加政治犬儒主义和内在效能，AM则降低犬儒主义，挑战对另类媒体一概负面的假设。"
+    },
+    {
+      "id": 80,
+      "title": "Consumptive curation for self-care: in search of clumsier algorithms",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-18",
+      "summary": "研究青年如何通过算法互动进行自我关照的策展实践，基于四国125份访谈与自传数据，发现算法反应不当导致协商困难，提出设计“笨拙算法”以优化幸福感。"
+    },
+    {
+      "id": 410,
+      "title": "Algorithmized Teenagers in the Age of Artificial Intelligence: Information Cocoons, Algorithmic Literacy, and Media Literacy",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-16",
+      "summary": "基于美国437名青少年全国调查，考察算法新闻消费与算法素养对新闻认知、动机、情感等多元取向的影响，发现关联有限且非决定性。"
+    },
+    {
+      "id": 82,
+      "title": "From swipes to intimacy: dating app adoption and offline hookup intention among male rural migrant workers",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-15",
+      "summary": "基于中国男性农民工调查数据，整合使用与满足和社会学习理论，考察约会应用采用的影响因素及对线下勾搭意图的中介作用，发现动机、社会认同、社会比较等通过采用影响意图，且受伦理疑虑调节。"
+    },
+    {
+      "id": 373,
+      "title": "Intimate data performativity: Taiwanese women’s self-care practices with menstrual tracking apps",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-06-11",
+      "summary": "研究台湾女性使用经期追踪应用时，如何与算法系统、文化期望和身体经验协商，提出亲密数据表演性概念，探讨预测协商、自我优化和数据共享中的赋能与控制张力。"
+    },
+    {
+      "id": 34,
+      "title": "Two Forms of Media Distrust: Cynicism, Skepticism, and Online News Exposure",
+      "journal": "Communication Research",
+      "published_date": "2026-06-10",
+      "summary": "研究区分犬儒主义与怀疑主义两种媒体不信任，结合调查与739名德国选民网页追踪数据，发现二者在人格、政治取向及实际新闻消费上存在差异。"
+    },
+    {
+      "id": 215,
+      "title": "Evaluating Echo Chambers, Rabbit Holes, and Radicalization Pathways on YouTube",
+      "journal": "Political Communication",
+      "published_date": "2026-06-10",
+      "summary": "通过估计YouTube视频意识形态和原创审计设计，发现用户处于轻度意识形态回音室，推荐算法产生内容兔子洞，但未发现激进路径，算法倾向推荐温和保守内容。"
+    },
+    {
+      "id": 216,
+      "title": "Multi-Platform Referrers of Misinformation: A Comparative Analysis of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok",
+      "journal": "Political Communication",
+      "published_date": "2026-06-09",
+      "summary": "论文提出嵌入参考范式，用美国1240人3个月2100万次网页浏览数据，评估七种社交媒体平台在直接和嵌入范式下对错误信息访问的影响，发现直接范式低估了社交媒体的作用。"
+    },
+    {
+      "id": 90,
+      "title": "Mistrust as a precondition for critical thinking and media literacy",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-03",
+      "summary": "通过两项在线调查（n=2115）研究不信任、新闻消费与媒体素养教育对信息核实信心和实际能力的影响，发现不信任预测信心，新闻消费预测实际辨别能力。"
+    },
+    {
+      "id": 260,
+      "title": "Heat and affiliation: platform incentives in party leaders’ Facebook communication during COVID-19",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-05-16",
+      "summary": "分析挪威政党领袖疫情期间的Facebook帖子，识别情感反应（怒、悲、爱、关心）与危机传播策略的关系，揭示不同情感信号对传播激励的影响。"
+    },
+    {
+      "id": 101,
+      "title": "Examining the influence of social media cues and platform perceptions on fake news detection",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-14",
+      "summary": "通过在线实验探究来源可信度、集体社会认可和用户对Twitter有用性感知对虚假新闻检测的影响，发现真实性偏差及平台感知降低虚假新闻识别准确性。"
+    },
+    {
+      "id": 261,
+      "title": "Mapping persuasion strategies of Turkish anti-vaccine advocates on Instagram: a McGuire-based analysis of digital misinformation and political discourse",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-05-13",
+      "summary": ""
+    },
+    {
+      "id": 107,
+      "title": "Agency in social media platforms: the role of capitals and literacies under algorithmic environments",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-05",
+      "summary": "通过意大利两地区调查，构建整合框架，分析平台素养、数字资本和算法素养对用户适应性能动性的影响，发现平台素养是主要预测因素。"
+    },
+    {
+      "id": 108,
+      "title": "Bridging disinformation and cybersecurity in the social sciences: a scoping review",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-04",
+      "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
+    },
+    {
+      "id": 507,
+      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-05-02",
+      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
+    },
+    {
+      "id": 41,
+      "title": "Gains, Limits, and Side-Effects of Disinformation Interventions: Corrective Information and Self-Affirmation Assessed With Signal Detection Theory",
+      "journal": "Communication Research",
+      "published_date": "2026-04-30",
+      "summary": "通过两波在线实验考察纠正信息和自我肯定对政治声明评估的影响，使用信号检测理论区分真相辨别力和反应偏差，发现纠正信息提升辨别力但可能增加怀疑倾向。"
+    },
+    {
+      "id": 637,
+      "title": "Intimate surveillance of the ordinary: youth’s negotiation of digital location tracking with parents and peers",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "基于比利时147名青少年的21场焦点小组，探讨青年与父母同伴协商数字位置跟踪的边界规则与策略，揭示其对日常监控文化的接受与抵抗。"
+    },
+    {
+      "id": 290,
+      "title": "When We Think “News Will Find Me”: Relative Credibility of Social-Media Friends, Algorithms, and Editors",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过预注册实验（N=244）探究不同新闻推荐来源（朋友、编辑、算法）对用户信任的影响，发现高NFM用户因机器启发式信任算法，并视朋友和算法与编辑同等权威。"
+    },
+    {
+      "id": 300,
+      "title": "A Multi-Mechanism Socio-Technical Theory of Wellness Misinformation: Aesthetic, Affective, and Algorithmic Dynamics",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "提出Algorithmic–Affective Misinformation Model，结合访谈与跨平台观察，分析TikTok和RED上健康错误信息通过审美合法化、情感脆弱性与算法强化三种机制获得可信度的过程。"
+    },
+    {
+      "id": 310,
+      "title": "I Don’t Believe Misinformation, But I Might Share It: Inoculation Effects in Messenger Communication",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过在线实验检验接种理论在即时通讯中减少错误信息可信度与分享意愿的效果，发现仅特定内容接种有效，且无调节变量。"
+    },
+    {
+      "id": 137,
+      "title": "Tailored and trust-based: strategies of information intermediaries countering health misinformation during the COVID-19 pandemic",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-29",
+      "summary": "研究通过15位信息中介的重建访谈，分析其在疫情期间为弱势群体提供准确健康信息、对抗错误信息的策略，强调信任建立和非对抗方式。"
+    },
+    {
+      "id": 144,
+      "title": "‘Spread kindness not virus’: theorising the vulnerability of online mutual aid communities",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-20",
+      "summary": "通过数字民族志研究Facebook互助社区Caremunity，运用Serres寄生虫逻辑识别三种干扰形式，探讨数字化对互助社区团结与资源分配的挑战。"
+    },
+    {
+      "id": 642,
+      "title": "Unequal penalties: user status dynamics in the spread of social media misinformation",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-03-14",
+      "summary": "基于Reddit面板数据，分析用户地位如何影响虚假信息帖子的互动（投票与话语分歧），发现低地位用户虚假信息获更少赞同和更多分歧，高地位用户则相反。"
+    }
+  ],
+  "paper_edges": []
+}
