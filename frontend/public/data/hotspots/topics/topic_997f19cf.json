@@ -1,23 +1,24 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "在线仇恨言论与内容治理",
-  "description": "研究仇恨内容的生产、传播、旁观者干预与平台治理，关注边缘群体的在线安全。",
-  "why_hot": "网络仇恨问题突出，平台治理与用户干预机制成为政策焦点。",
+  "label": "网络仇恨言论治理与群际态度",
+  "description": "研究社交平台仇恨内容的众包治理、群际态度形成与边缘群体的网络受害经验。",
+  "why_hot": "近30天日均发表速度与前期基本持平（-3%），研究维持稳定产出。",
   "hot_score": 70,
-  "growth": 0.167,
-  "growth_rate": 0.167,
+  "growth": -0.028,
+  "growth_rate": -0.028,
   "recent_rate": 0.2333,
-  "baseline_rate": 0.2,
+  "baseline_rate": 0.24,
   "recent_count": 7,
-  "baseline_count": 30,
-  "journal_count": 8,
+  "baseline_count": 36,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "仇恨言论",
-    "内容审核",
-    "旁观者干预",
-    "在线安全"
+    "hate speech",
+    "crowd moderation",
+    "intergroup attitudes",
+    "online abuse",
+    "intersectionality"
   ],
   "papers": [
     {
@@ -33,6 +34,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-08-20",
       "summary": "利用美国全国调查数据（n=1,221），检验社交媒体使用与代际态度关联，发现总体关联微弱，平台特异性影响有限，讨论极端话语的可见性机制。"
+    },
+    {
+      "id": 1966,
+      "title": "Hierarchical barriers: how media-flow networks reproduce inequality on X",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-20",
+      "summary": "研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。"
     },
     {
       "id": 1968,
@@ -70,11 +78,11 @@
       "summary": "通过对24位大学教授的访谈，探讨学者作为数字仇恨目标对施害者和旁观者的感知，强调权力失衡与战略挑衅，发现旁观者干预不足，需集体应对。"
     },
     {
-      "id": 1898,
-      "title": "Corporate digital responsibility: what drives public expectations towards companies’ role in the digital society?",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-07",
-      "summary": "研究公众对企业数字责任角色的期望，探讨企业在数字社会中的责任认知，但缺乏具体方法与数据信息。"
+      "id": 1940,
+      "title": "Multi-platform research in the light of technology affordances: networks of the far right in Germany",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-10",
+      "summary": "通过网络分析比较德国极右翼在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构，揭示平台技术可供性对网络模式的影响。"
     },
     {
       "id": 1897,
@@ -89,6 +97,13 @@
       "journal": "Asian Journal of Communication",
       "published_date": "2026-07-27",
       "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
+    },
+    {
+      "id": 56,
+      "title": "The echoes from social media: modeling how filter bubbles and network structure shape echo chamber emergence",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-27",
+      "summary": "通过agent-based模型整合社交网络与意见动态，模拟不同同质性和选择性暴露条件下回音室的形成，发现信息暴露显著影响回音室涌现，而算法过滤不一定保证其持续。"
     },
     {
       "id": 204,
@@ -154,6 +169,13 @@
       "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
     },
     {
+      "id": 256,
+      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-15",
+      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
+    },
+    {
       "id": 32,
       "title": "When the Algorithm Understands You (or Doesn’t): LGBTQ+ Youth’s Identity-Related Interactions with Algorithmic Media",
       "journal": "Communication Research",
@@ -173,6 +195,20 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-11",
       "summary": "研究基于微博22,925条帖子和115万条评论，运用广义线性混合模型分析多模态框架和性别身份对性别对抗性话语的影响，发现煽情化和个性化框架加剧对抗，娱乐化框架减弱对抗，且性别动态具有调节作用。"
+    },
+    {
+      "id": 215,
+      "title": "Evaluating Echo Chambers, Rabbit Holes, and Radicalization Pathways on YouTube",
+      "journal": "Political Communication",
+      "published_date": "2026-06-10",
+      "summary": "通过估计YouTube视频意识形态和原创审计设计，发现用户处于轻度意识形态回音室，推荐算法产生内容兔子洞，但未发现激进路径，算法倾向推荐温和保守内容。"
+    },
+    {
+      "id": 258,
+      "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-05",
+      "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
     },
     {
       "id": 218,
@@ -210,11 +246,11 @@
       "summary": "运用结构主题建模和定性内容分析，研究Reddit上r/SexWorkers和r/OnlyFans社区超3.8万条评论，归纳17个主题，揭示平台在污名化与支持之间的双重角色。"
     },
     {
-      "id": 421,
-      "title": "Attributional Ambiguity in AI-Mediated Harm: How Perceived AI System Limitations Shape Forgiveness and Regulatory Demand",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-04-25",
-      "summary": "基于归因理论，通过在线调查(N=705)探究AI媒介伤害中公众的危机责任感知如何影响愤怒/共情，进而影响组织宽恕与AI监管诉求，揭示归因模糊的双路径作用。"
+      "id": 112,
+      "title": "Temporal stability and cross-topic re-emergence of ideological divides on X",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-29",
+      "summary": "研究德国语境下X平台三类危机话语中极化社区的结构持续性，结合回声室分数与定性分析发现，回声室在议题内稳定并在跨议题中重现，少数高可见用户通过激活熟悉叙事起核心作用。"
     },
     {
       "id": 118,

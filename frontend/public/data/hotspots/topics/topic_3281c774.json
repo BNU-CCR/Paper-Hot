@@ -1,23 +1,24 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "事实核查的治理成本",
-  "description": "分析事实核查在治理语境中的感知审查效应与政治参与影响，探讨真相治理的悖论。",
-  "why_hot": "信息生态治理中事实核查的政治副作用引发反思。",
-  "hot_score": 77,
-  "growth": 0.522,
-  "growth_rate": 0.522,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.1533,
-  "recent_count": 7,
-  "baseline_count": 23,
+  "label": "人工智能应用的政治与劳动意涵",
+  "description": "考察人工智能与算法系统在政治传播、政策治理与劳动场景中的采纳机制与权力效应。",
+  "why_hot": "近30天日均发表速度较前期上升约20%，研究活动持续升温。",
+  "hot_score": 73,
+  "growth": 0.2,
+  "growth_rate": 0.2,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.1667,
+  "recent_count": 6,
+  "baseline_count": 25,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "事实核查",
-    "感知审查",
-    "政治参与",
-    "治理"
+    "AI governance",
+    "algorithmic hiring",
+    "chatbot acceptance",
+    "political influencers",
+    "agency"
   ],
   "papers": [
     {

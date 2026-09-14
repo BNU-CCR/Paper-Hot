@@ -1,23 +1,23 @@
 {
   "topic_id": "topic_72f5f2b8",
-  "label": "算法治理与数字劳动",
-  "description": "探讨算法招聘、AI身份治理、推荐系统政治效应，关注算法如何塑造职业、身份与政治效能。",
-  "why_hot": "AI渗透劳动与信息分配，算法治理的社会后果引发持续关注。",
-  "hot_score": 32,
-  "growth": -0.688,
-  "growth_rate": -0.688,
+  "label": "事实核查效果与数字认知不公",
+  "description": "关注事实核查效果的持续性机制，以及数字技术使用中的认知不公与排斥经验。",
+  "why_hot": "近30天仅2篇，日均发表速度较前期下降约66%，研究热度回落。",
+  "hot_score": 34,
+  "growth": -0.655,
+  "growth_rate": -0.655,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.2133,
+  "baseline_rate": 0.1933,
   "recent_count": 2,
-  "baseline_count": 32,
-  "journal_count": 10,
+  "baseline_count": 29,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "emerging",
   "keywords": [
-    "算法治理",
-    "数字劳动",
-    "推荐系统",
-    "AI身份"
+    "fact-checking",
+    "accuracy nudges",
+    "epistemic injustice",
+    "digital exclusion"
   ],
   "papers": [
     {
@@ -42,13 +42,6 @@
       "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
     },
     {
-      "id": 56,
-      "title": "The echoes from social media: modeling how filter bubbles and network structure shape echo chamber emergence",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-27",
-      "summary": "通过agent-based模型整合社交网络与意见动态，模拟不同同质性和选择性暴露条件下回音室的形成，发现信息暴露显著影响回音室涌现，而算法过滤不一定保证其持续。"
-    },
-    {
       "id": 58,
       "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
       "journal": "Information Communication & Society",
@@ -61,6 +54,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-07-14",
       "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
+    },
+    {
+      "id": 282,
+      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
     },
     {
       "id": 1904,
@@ -140,13 +140,6 @@
       "summary": "研究区分犬儒主义与怀疑主义两种媒体不信任，结合调查与739名德国选民网页追踪数据，发现二者在人格、政治取向及实际新闻消费上存在差异。"
     },
     {
-      "id": 215,
-      "title": "Evaluating Echo Chambers, Rabbit Holes, and Radicalization Pathways on YouTube",
-      "journal": "Political Communication",
-      "published_date": "2026-06-10",
-      "summary": "通过估计YouTube视频意识形态和原创审计设计，发现用户处于轻度意识形态回音室，推荐算法产生内容兔子洞，但未发现激进路径，算法倾向推荐温和保守内容。"
-    },
-    {
       "id": 216,
       "title": "Multi-Platform Referrers of Misinformation: A Comparative Analysis of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok",
       "journal": "Political Communication",
@@ -182,6 +175,13 @@
       "summary": ""
     },
     {
+      "id": 38,
+      "title": "Examining the Effects of Viewing Positive Aging TikTok Videos on Aging Outcomes and Attitudes Among Young, Middle-Aged, and Older Women",
+      "journal": "Communication Research",
+      "published_date": "2026-05-07",
+      "summary": "实验检验观看积极老龄化TikTok视频对不同年龄女性老龄化结果和态度的影响，扩展CEMSA模型，发现间接效应。"
+    },
+    {
       "id": 107,
       "title": "Agency in social media platforms: the role of capitals and literacies under algorithmic environments",
       "journal": "Information Communication & Society",
@@ -194,13 +194,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-05-04",
       "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
-    },
-    {
-      "id": 507,
-      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-05-02",
-      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
     },
     {
       "id": 41,
@@ -243,20 +236,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-03-29",
       "summary": "研究通过15位信息中介的重建访谈，分析其在疫情期间为弱势群体提供准确健康信息、对抗错误信息的策略，强调信任建立和非对抗方式。"
-    },
-    {
-      "id": 144,
-      "title": "‘Spread kindness not virus’: theorising the vulnerability of online mutual aid communities",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-20",
-      "summary": "通过数字民族志研究Facebook互助社区Caremunity，运用Serres寄生虫逻辑识别三种干扰形式，探讨数字化对互助社区团结与资源分配的挑战。"
-    },
-    {
-      "id": 642,
-      "title": "Unequal penalties: user status dynamics in the spread of social media misinformation",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-03-14",
-      "summary": "基于Reddit面板数据，分析用户地位如何影响虚假信息帖子的互动（投票与话语分歧），发现低地位用户虚假信息获更少赞同和更多分歧，高地位用户则相反。"
     }
   ],
   "paper_edges": []

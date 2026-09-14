@@ -1,5 +1,38 @@
 [
   {
+    "id": 2025,
+    "title": "The Language of Democratic Resilience and Decline: A Comparative Study of Politicians’ Communication on Facebook in Sweden and Hungary",
+    "title_zh": "民主韧性与衰退的语言：瑞典和匈牙利政治家在Facebook上的沟通方式比较研究",
+    "authors": [
+      "Xénia Farkas",
+      "Simon Lindgren"
+    ],
+    "institutions": [],
+    "journal": "Political Communication",
+    "published_date": "2026-09-11",
+    "relevance": "High",
+    "score": null,
+    "abstract": "",
+    "abstract_zh": "",
+    "summary": "比较瑞典与匈牙利政客在 Facebook 上的传播语言，探讨民主韧性与衰退的话语特征，属社交媒体政治传播的比较研究。",
+    "reason": "以 Facebook 政客传播文本为对象，属社交媒体平台议题，作者 Lindgren 擅长计算文本分析，方法应为计算取向。",
+    "tags": [
+      "社交媒体",
+      "政治传播",
+      "文本分析",
+      "比较研究"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/10584609.2026.2727043",
+    "source_url": "https://doi.org/10.1080/10584609.2026.2727043",
+    "detail_slug": "the-language-of-democratic-resilience-and-decline-a-comparative-study-of-politicians-communication-on-facebook-in-sweden-and-hungary",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Political Communication",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2004,
     "title": "How Platform Affordances Shape Expression Effects: Comment Length and Audience in Political News Engagement",
     "title_zh": "平台特性如何影响表达效果：评论长度与政治新闻互动中的受众行为",
@@ -6453,7 +6486,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Many individuals do not seek news, believing instead that “news will find me” (NFM), implying that they trust their social networks to keep them informed, saving them the trouble of proactively seeking news from journalistic outlets. Does this mean that they trust social media algorithms to accurately filter and recommend content that is relevant to them? Do they trust their friends to keep them informed, just like they would journalists? To answer these questions, we conducted a pre-registered between-subjects experiment ( N = 244) in which users with varying levels of NFM were randomly assigned to receive news recommended by either their social media friends, news editors, or an algorithm. We discovered that while users tend to act on news recommended by an algorithm mindlessly before reading it first, the type of cognitive heuristic triggered by a news source plays an important role in shaping their trust. Specifically, individuals high on NFM tend to trust algorithms because they trigger the “machine heuristic.” They also consider social media friends and algorithms to be as authoritative as news journalists and editors (“authority heuristic”). Our results advance theoretical knowledge about why high levels of NFM predict higher trust in social media friends and algorithms.",
-    "abstract_zh": "许多人不主动去寻找新闻，而是认为“新闻会主动找到我”（NFM，即“News Will Find Me”），这意味着他们信任自己的社交网络能够及时向他们提供信息，从而省去了主动从新闻媒体获取新闻的麻烦。这是否意味着他们相信社交媒体算法能够准确地筛选并推荐与他们相关的内容呢？他们是否像信任记者一样信任他们的朋友也能为他们提供信息呢？为了回答这些问题，我们进行了一项预先注册的被试间实验（N = 244），实验中不同NFM水平的用户被随机分配接收来自社交媒体朋友、新闻编辑或算法推荐的新闻。我们发现，虽然用户往往会在阅读之前就盲目地按照算法推荐的内容行事，但新闻来源所引发的认知启发式机制在塑造他们的信任感方面起着重要作用。具体来说，那些具有较高NFM水平的个体更倾向于信任算法，因为算法引发了他们的“机器启发式”认知（即认为算法是可靠的）。他们还认为社交媒体朋友和算法与新闻记者及编辑具有同等的权威性（即“权威启发式”认知）。我们的研究结果为理解为什么高水平的NFM会导致人们对社交媒体朋友和算法有更高的信任提供了理论支持。",
+    "abstract_zh": "许多人不主动去寻找新闻，而是认为“新闻会主动找到我”（NFM，即“News Will Find Me”），这意味着他们信任自己的社交网络能够及时向他们提供信息，从而省去了主动从新闻媒体获取新闻的麻烦。这是否意味着他们相信社交媒体算法能够准确地筛选并推荐与他们相关的内容呢？他们是否像信任记者一样信任他们的朋友也能为他们提供信息呢？为了回答这些问题，我们进行了一项预先注册的被试间实验（N = 244），实验中不同NFM水平的用户被随机分配接收来自社交媒体朋友、新闻编辑或算法推荐的新闻。我们发现，虽然用户往往在阅读之前就盲目地按照算法推荐的内容行事，但新闻来源所引发的认知启发式机制在塑造他们的信任感方面起着重要作用。具体来说，具有较高NFM水平的个体更倾向于信任算法，因为这些算法触发了他们的“机器启发式”（即认为算法是可靠的）。他们还认为社交媒体朋友和算法与新闻记者及编辑具有同等的权威性（即“权威启发式”）。我们的研究结果为理解为什么高水平的NFM会导致人们对社交媒体朋友和算法有更高的信任提供了理论支持。",
     "summary": "通过预注册实验（N=244）探究不同新闻推荐来源（朋友、编辑、算法）对用户信任的影响，发现高NFM用户因机器启发式信任算法，并视朋友和算法与编辑同等权威。",
     "reason": "研究社交媒体算法推荐与用户信任，采用预注册实验，属计算传播核心议题与方法。",
     "tags": [
@@ -6488,7 +6521,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study examines how Arabic Facebook comments shape political tensions between Jordanians and Palestinians. The corpus contains 800 public comments collected from public Facebook pages focused on Jordanian–Palestinian affairs between January and July 2025. Methods combine immersive digital ethnography with systematic netnographic coding and a reproducible coordination–detection protocol applied at three scales: micro (linguistic strategies), meso (semiotic affordances), and macro (temporal and network patterns). The results show that dialectal markers, religious formulae, emojis, short slogans, and threaded replies interact to produce strong identity signaling and affective circulation. A subset of items displays heuristic markers associated with amplified visibility, such as exact-text repetition, clustered timestamps, repeated links, and low-engagement account profiles. These markers are presented as candidate indicators of amplification, not as proof of centralized orchestration. This study provides open detection scripts and appendix materials for human adjudication and follow-up network analyses. Findings point to low-cost interventions, such as prompts before verbatim reposting and triage workflows for flagged clusters, and to the need for cross-platform tracing and bot analyses to confirm provenance.",
-    "abstract_zh": "本文研究了阿拉伯语在Facebook上的评论如何影响约旦人与巴勒斯坦人之间的政治紧张关系。研究数据来源于2025年1月至7月期间从关注约旦-巴勒斯坦事务的公共Facebook页面上收集的800条公开评论。研究方法结合了沉浸式数字民族志、系统化的网络民族志编码技术，以及在三个层面上应用的协调性检测协议：微观层面（语言策略）、中观层面（符号学特征）和宏观层面（时间与网络模式）。研究结果表明，方言特征、宗教用语、表情符号、简短口号以及连续的回复共同作用，形成了强烈的身份标识和情感传播效应。其中一部分评论具有明显的“放大效应”特征，如文本的重复使用、时间戳的聚集、链接的重复出现，以及互动程度较低的账户信息。这些特征被视作“放大效应”的潜在指标，而非中央控制的证据。研究提供了可供人工审核的检测工具和附录材料，以便进一步的网络分析。研究结果提示了一些低成本干预措施，例如在转发前添加提示信息、对标记为异常的评论群进行分类处理，同时建议开展跨平台追踪和机器人分析以确认评论的来源。",
+    "abstract_zh": "本文研究了阿拉伯语在Facebook上的评论如何影响约旦人与巴勒斯坦人之间的政治紧张关系。研究数据来源于2025年1月至7月期间从关注约旦-巴勒斯坦事务的Facebook公共页面上收集的800条公开评论。研究方法结合了沉浸式数字民族志、系统化的网络民族志编码技术，以及在三个层面上应用的协调性检测协议：微观层面（语言策略）、中观层面（符号学特征）和宏观层面（时间与网络模式）。研究结果表明，方言特征、宗教用语、表情符号、简短口号以及连续的回复共同作用，形成了强烈的身份认同信号和情感传播效应。其中一部分评论具有明显的“放大效应”特征，如文本的重复使用、时间戳的聚集、链接的重复出现，以及互动程度较低的账户信息。这些特征被视作“放大效应”的潜在指标，而非中央化操控的证据。本研究提供了可供人工评估的检测工具和附录材料，以便进一步进行网络分析。研究结果提示了一些低成本干预措施，例如在转发前添加提示信息、对异常评论群进行分类处理，以及需要跨平台追踪和利用机器人技术来验证评论的来源。",
     "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。",
     "reason": "研究社交媒体Facebook话语，使用数字民族志与协调检测协议等计算方法，议题涉及身份表演与放大可见性，属计算传播。",
     "tags": [
@@ -6522,7 +6555,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "A decade after the term was coined, “platformization” has evolved from describing the infrastructural expansion of platforms into other domains to capturing a broader transformation in how platforms organize (digital) life. This article traces this shift from the early social web to today’s AI-centered platform models. The retirement of Facebook’s Like button and Google’s “Suncatcher” space-based AI initiative are used as illustrative examples to demonstrate how platforms continually adapt their expansion strategies. Although the concept has been productively adopted across disciplines, its frequent conflation with the term “digitization” has led to conceptual erosion, weakening its analytical precision. To reclaim its explanatory power, this article redefines platformization as a form of platform-specific “transcoding”: a situated process whereby practices and domains are made “platform-ready.”",
-    "abstract_zh": "在“平台化”这一术语被提出十年后，它的含义已经从描述平台的基础设施扩展到其他领域，演变为一个更广泛的概念，用来描述平台如何组织（数字）生活。本文追溯了这一变化过程，从早期的社交网络发展到如今以人工智能为中心的平台模型。Facebook的“点赞”按钮的取消以及Google的“Suncatcher”太空人工智能项目被用作示例，以说明平台是如何不断调整其扩张策略的。尽管这一概念在多个学科中得到了广泛应用，但它经常与“数字化”一词混淆，从而导致其分析精度下降。为了恢复这一概念的解释力，本文将“平台化”重新定义为一种特定于平台的“转码”过程：一种使各种实践和领域变得适合在平台上运行的过程。",
+    "abstract_zh": "在“平台化”这一术语被提出十年后，其含义已经从描述平台的基础设施扩展到其他领域，演变为一个更广泛的概念，用来描述平台如何组织（数字化）生活。本文追溯了这一变化过程，从早期的社交网络发展到如今以人工智能为中心的平台模型。Facebook的“点赞”按钮的取消以及Google的“Suncatcher”太空人工智能项目被用作例证，以展示平台是如何不断调整其扩张策略的。尽管这一概念在多个学科中得到了广泛应用，但它经常与“数字化”一词混淆，从而导致概念上的模糊化，削弱了其分析的精确性。为了恢复这一概念的解释力，本文将“平台化”重新定义为一种特定于平台的“转码”过程：即一种使各种实践和领域变得适合在平台上运行的过程。",
     "summary": "文章追溯平台化概念演变，从早期社交网络到AI中心平台模式，以Facebook点赞按钮退役和谷歌太空AI项目为例，重新定义平台化为平台特有的'转码'过程。",
     "reason": "讨论社交媒体平台化、AI基础设施等平台研究核心议题，属计算传播领域。",
     "tags": [
@@ -6543,7 +6576,7 @@
   {
     "id": 295,
     "title": "We Are Equally Vulnerable? An Examination of the Third-Person Effect in AI-Generated Misinformation",
-    "title_zh": "我们同样脆弱吗？对人工智能生成的虚假信息中的“第三人效应”的探讨",
+    "title_zh": "我们真的同样脆弱吗？对人工智能生成的虚假信息中的“第三人效应”的探讨",
     "authors": [
       "Baoying Fu",
       "Xueqing Li"
@@ -6557,7 +6590,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Misinformation is a pervasive problem in the social media era, undermining social trust, while the emergence of AI-generated misinformation further exacerbates this issue and threatens social order. This study employs the third-person effect as a theoretical framework and collected 726 questionnaire responses to examine individuals’ perceptions of AI-generated misinformation. When exploring the relationships among misinformation exposure, social undesirability, perceived realism, and AI literacy with respect to perceived effects on oneself and on others, individuals recognize that they themselves are also easily influenced by AI-generated misinformation. Furthermore, perceived effects on oneself and others are positively correlated with corrective actions, while no significant relationship is observed with restrictive actions, thus providing suggestions for individual involvement in combating AI-generated misinformation.",
-    "abstract_zh": "在社交媒体时代，虚假信息是一个普遍存在的问题，它正在削弱社会信任。而人工智能（AI）生成的虚假信息的出现进一步加剧了这一问题，对社会秩序构成了威胁。本研究以“第三人效应”（third-person effect）为理论框架，收集了726份问卷调查数据，以探讨人们对AI生成虚假信息的认知。研究发现，当分析虚假信息暴露程度、社会负面效应、信息真实性的感知以及AI素养与个人及他人所受影响之间的关系时，受访者意识到自己同样容易受到AI生成虚假信息的影响。此外，个人及他人所受的负面影响与采取纠正措施之间存在正相关关系，而与采取限制措施之间则没有显著关联。这些发现为个人在打击AI生成虚假信息方面的行动提供了参考建议。",
+    "abstract_zh": "在社交媒体时代，虚假信息是一个普遍存在的问题，它破坏了社会信任。而人工智能（AI）生成的虚假信息的出现进一步加剧了这一问题，对社会秩序构成了威胁。本研究以“第三人效应”（third-person effect）为理论框架，收集了726份问卷调查数据，以探讨人们对AI生成虚假信息的认知。研究发现，在分析虚假信息暴露、社会负面效应、信息真实性的感知以及AI素养与个人及他人所受影响之间的关系时，受访者意识到自己同样容易受到AI生成虚假信息的影响。此外，个人及他人所受的负面影响与采取纠正措施之间存在正相关关系，而与采取限制措施之间则没有显著关联。这些发现为个人在打击AI生成虚假信息方面的行动提供了启示。",
     "summary": "基于726份问卷，考察个体对AI生成虚假信息的感知，发现人们认为自己同样易受影响，且感知影响正向关联纠错行为。",
     "reason": "研究AI生成虚假信息的感知与影响，虽用问卷但涉及AI社会影响，符合特别条款。",
     "tags": [
@@ -6740,7 +6773,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This paper examines how Germany's far-right and Querdenken movements adapted their communication strategies in response to evolving societal crises, including the COVID-19 pandemic, the war in Ukraine, and the energy crisis. While prior research has explored how radical actors mobilized via Telegram during the pandemic, less is known about their strategic adaptations as the crisis landscape shifted in 2022. Using the framework of discursive opportunity structures, this study analyzes the agility of these movements in responding to new crisis contexts, emphasizing Telegram's role as a minimally moderated platform with broad reach potential. The analysis draws on a manual content review of 8852 messages from 151 German radical Telegram channels collected throughout 2022. Findings reveal distinct adaptation patterns: while far-right groups pivoted from pandemic-related narratives to broader geopolitical and economic themes, Querdenken maintained a predominant focus on pandemic grievances. Offline mobilization also diverged, with the energy crisis driving more protest activity than the Ukraine war. These results underscore the differential ways in which radical movements leverage digital platforms like Telegram to sustain mobilization across changing discursive landscapes, contributing novel insights into the strategic flexibility and persistence of protest movements.",
-    "abstract_zh": "本文探讨了德国极右翼组织和“Querdenken”（非传统思维）运动如何根据不断变化的社会危机（包括COVID-19大流行、乌克兰战争和能源危机）调整其传播策略。虽然先前的研究已经探讨了激进分子在大流行期间如何通过Telegram进行动员，但对于这些组织在2022年危机局势变化时的战略调整却知之甚少。本文采用“话语机会结构”（discursive opportunity structures）的理论框架，分析了这些运动在应对新危机环境时的灵活性，强调了Telegram作为一个监管较少、但具有广泛传播潜力的平台所起的作用。研究通过对2022年期间从151个德国激进Telegram频道收集的8852条消息进行人工内容审查得出了结论。研究发现，不同类型的组织表现出不同的适应模式：极右翼组织从与大流行相关的议题转向了更广泛的地缘政治和经济问题，而“Querdenken”运动则继续主要关注与大流行相关的不满情绪；此外，这些组织的线下动员方式也有所不同——能源危机引发的抗议活动比乌克兰战争更多。这些结果揭示了激进组织如何利用Telegram等数字平台在不断变化的话语环境中维持其动员能力，为理解抗议运动的战略灵活性和持久性提供了新的见解。",
+    "abstract_zh": "本文探讨了德国极右翼组织和“Querdenken”（非传统思维）运动如何根据不断变化的社会危机（包括COVID-19大流行、乌克兰战争和能源危机）调整其传播策略。虽然以往的研究已经探讨了激进分子在大流行期间如何通过Telegram进行动员，但对于2022年危机局势变化时这些组织的战略调整却知之甚少。本文采用“话语机会结构”（discursive opportunity structures）的理论框架，分析了这些运动在应对新危机环境时的灵活性，强调了Telegram作为一个监管较少、但传播范围广泛的平台所起的作用。研究通过对2022年期间从151个德国激进Telegram频道收集的8852条消息进行人工内容审查得出了结论：极右翼组织从与大流行相关的议题转向了更广泛的地缘政治和经济问题，而“Querdenken”运动则继续主要关注与大流行相关的不满情绪；线下动员方式也有所不同——能源危机引发的抗议活动比乌克兰战争更多。这些结果揭示了激进组织如何利用Telegram等数字平台在不断变化的话语环境中维持其动员能力，为理解抗议运动的战略灵活性和持久性提供了新的见解。",
     "summary": "研究分析德国极右翼和Querdenken运动在2022年危机变化下如何通过Telegram调整传播策略，基于151个频道8852条消息的内容分析，发现不同运动的适应模式差异。",
     "reason": "研究基于Telegram平台的大规模消息数据，采用内容分析方法，聚焦社交媒体传播策略，属于计算传播领域。",
     "tags": [
@@ -6762,7 +6795,7 @@
   {
     "id": 138,
     "title": "Between disclosure and conspiracy: the transparency effect on r/UFO and r/UAP subreddits",
-    "title_zh": "在披露与阴谋论之间：透明度对 r/UFO 和 r/UAP 子版块的影响",
+    "title_zh": "在披露与阴谋论之间：透明度对 r/UFO 和 r/UAP 这两个 Reddit 子版块的影响",
     "authors": [
       "Marco Bastos",
       "Marisa Elena Duarte"
@@ -6777,7 +6810,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "While there exists genuine scientific inquiry seeking to understand Unidentified Anomalous Phenomena (UAPs), the lore of Unidentified Flying Objects (UFOs) is deeply intertwined with narratives deliberately crafted to mislead, obfuscate, and manipulate public perception with a community historically targeted by sustained disinformation campaigns. In this study, we explore the public reception regarding UAP disclosures against the historical context of government disinformation and obstructive information flows. To this end, we retrieved the posts and comments featured in the UAP and UFO Reddit communities and modeled the data by constructing a timeline of governmental and intelligence announcements, leaks, and reports, but also congressional and senate committee hearings, special news reports, and DOD AARO public statements about UAPs. Using time series analysis techniques, we modeled this data to test whether government direct engagement with the topic has tangible effects in subsiding disinformation concerns and conspiratorial narratives within these communities. Our results show that the transparency effect driven by government disclosures effectively counters the erosion of trust fueled by conspiratorial narratives. We conclude by outlining the limitations and challenges embedded in the very idea of disclosure, a term that is ideologically and politically inflected and calls for further studies in this area.",
-    "abstract_zh": "尽管确实存在旨在理解“未识别异常现象”（Unidentified Anomalous Phenomena, UAPs）的科学研究，但关于“不明飞行物”（Unidentified Flying Objects, UFOs）的传说却与那些刻意编造的叙述紧密相连，这些叙述旨在误导公众、混淆事实并操纵公众的看法。历史上，这个话题的讨论者一直受到持续性的虚假信息传播活动的攻击。在这项研究中，我们分析了公众对UAP相关信息的反应，并将其置于政府虚假信息传播及信息流动受阻的历史背景之下进行考察。为此，我们收集了Reddit平台上关于UAP和UFO的帖子和评论，并通过构建政府及情报机构的公告、泄密事件、报告的时间线，以及国会和参议院委员会的听证会、特别新闻报道和国防部（DOD）AARO关于UAP的公开声明等数据，对这些信息进行了建模分析。利用时间序列分析技术，我们试图验证政府直接介入这一话题是否能够有效减轻这些社区中的虚假信息传播和阴谋论言论。研究结果表明，政府的透明度举措有效地遏制了由阴谋论言论所引发的公众信任危机。最后，我们指出了“信息披露”这一概念本身所存在的局限性和挑战——这一术语在意识形态和政治层面都带有倾向性，因此需要在这一领域开展更多的研究。",
+    "abstract_zh": "尽管确实存在旨在理解“不明异常现象”（Unidentified Anomalous Phenomena, UAPs）的科学研究，但关于“不明飞行物”（Unidentified Flying Objects, UFOs）的传说却与那些刻意编造的叙事紧密相连，这些叙事旨在误导、混淆公众的看法，并操控公众的认知。历史上，这些叙事的目标群体一直受到持续性的虚假信息传播活动的攻击。在这项研究中，我们分析了公众对UAP相关信息的反应，并将其置于政府虚假信息传播及信息流动受阻的历史背景之下进行考察。为此，我们收集了Reddit平台上UAP和UFO相关社区的帖子和评论，并通过构建政府及情报机构的公告、泄密事件、报告的时间线，以及国会和参议院委员会的听证会、特别新闻报道以及美国国防部（DOD）AARO关于UAP的公开声明等数据，对它们进行了建模分析。利用时间序列分析技术，我们试图验证政府直接介入这一议题是否能够有效减轻这些社区中的虚假信息传播和阴谋论叙事的影响。研究结果表明，政府的透明度举措有效地遏制了由阴谋论叙事所引发的公众信任危机。最后，我们指出了“信息披露”这一概念本身所存在的局限性和挑战——这一术语在意识形态和政治层面都带有倾向性，因此需要在这一领域开展更多的研究。",
     "summary": "论文分析UFO/UAP子版块的帖子和评论，结合政府披露时间线，用时间序列模型检验官方透明度是否减少阴谋论叙事，发现披露能缓解信任侵蚀，并讨论披露概念的局限。",
     "reason": "使用Reddit社区数据和时间序列分析等计算方法，研究政府披露对阴谋论和虚假信息的影响，属典型计算传播研究。",
     "tags": [
@@ -6813,7 +6846,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Strategic communication plays a pivotal role in shaping public discourse during conflicts such as the War on Terror (WoT). This study examines how the Inter-Services Public Relations (ISPR)—the media arm of Pakistan’s Armed Forces—strategically used X (formerly Twitter) from 25 December 2016 to 30 December 2017 to build and sustain public support for counterterrorism efforts. Addressing a context-specific gap in the literature on military communication in the Global South, this study applies framing theory as a conceptual lens and employs content analysis to explore the types and frequencies of frames used by ISPR over time. Findings show a clear emphasis on motivational frames, aimed at fostering national unity and emotional engagement, followed by diagnostic frames, which attributed blame and justified action. Prognostic frames, proposing solutions, were less frequently used, suggesting a communication strategy centered more on legitimation than operational detail. Additionally, the study also conducts discourse analysis of audience replies to ISPR’s most visible tweets to examine how publics interpret, negotiate, and respond to military narratives. By analyzing both the evolution of ISPR’s frames and the discursive dynamics within audience responses, this study highlights temporal patterns in military communication during the WoT and shows how framing and public discourse interact within a shared digital environment. The findings offer valuable insights into how digital platforms like X are leveraged by state institutions to manage public perception and maintain narrative control in hybrid warfare contexts.",
-    "abstract_zh": "在“反恐战争”（War on Terror, WoT）等冲突期间，战略传播在塑造公众舆论方面发挥着关键作用。本研究探讨了巴基斯坦武装部队的媒体部门——跨军种公共关系办公室（Inter-Services Public Relations, ISPR）——如何在2016年12月25日至2017年12月30日期间战略性地利用X平台（前身为Twitter），以建立并维持公众对反恐工作的支持。针对全球南方地区军事传播研究领域的特定空白，本研究采用“框架理论”（framing theory）作为分析工具，并通过内容分析方法，研究了ISPR在这段时间内使用的不同类型的信息框架及其使用频率。研究结果表明，ISPR主要使用了激励性框架（motivational frames），旨在增强国家凝聚力和公众的情感认同；其次使用的是诊断性框架（diagnostic frames），用于归咎责任并为军事行动提供正当理由；而提出解决方案的预测性框架（prognostic frames）则使用频率较低，这表明其传播策略更侧重于合法性构建而非具体操作细节。此外，本研究还分析了公众对ISPR最受欢迎推文的反馈，以了解公众如何解读、协商和回应军事信息。通过分析ISPR信息框架的演变以及公众反馈中的话语动态，本研究揭示了“反恐战争”期间军事传播的时间规律，并展示了框架构建与公众舆论在数字环境中的互动关系。这些发现为理解国家机构如何利用数字平台（如X平台）来管理公众认知、在混合战争环境中维持叙事控制提供了宝贵的见解。",
+    "abstract_zh": "在诸如“反恐战争”（War on Terror, WoT）这样的冲突期间，战略传播在塑造公众舆论方面发挥着关键作用。本研究探讨了巴基斯坦武装部队的媒体部门——跨军种公共关系办公室（Inter-Services Public Relations, ISPR）——如何在2016年12月25日至2017年12月30日期间战略性地利用X平台（前身为Twitter），以建立并维持公众对反恐工作的支持。针对全球南方地区军事传播研究中的这一特定空白，本研究采用“框架理论”（framing theory）作为分析框架，并通过内容分析方法，研究了ISPR在这段时间内使用的不同类型的信息框架及其使用频率。研究结果表明，ISPR主要使用了旨在激发国民团结和情感共鸣的“动机性框架”（motivational frames），其次是用于归咎责任和为军事行动辩护的“诊断性框架”（diagnostic frames）；而提出解决方案的“预测性框架”（prognostic frames）则使用频率较低，这表明其传播策略更侧重于合法性构建而非具体操作细节的传达。此外，本研究还分析了公众对ISPR最热门推文的反馈，以了解公众如何解读、协商和回应军事相关信息。通过分析ISPR信息框架的演变过程以及公众反馈中的话语动态，本研究揭示了“反恐战争”期间军事传播的时间规律，并展示了框架构建与公众舆论在数字环境中的互动关系。这些发现为理解国家机构如何利用数字平台（如X平台）来管理公众认知并在混合战争环境中维持叙事控制提供了宝贵的见解。",
     "summary": "研究巴基斯坦ISPR在X平台上的战略框架使用，通过内容分析识别动机、诊断和预后框架，并分析受众回应，揭示军事沟通与公共话语的互动。",
     "reason": "研究社交媒体平台X上的军事传播框架，使用内容分析与话语分析，涉及数字平台与传播策略，属计算传播范畴。",
     "tags": [
@@ -6850,7 +6883,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract When users form intimate bonds with artificial intelligence (AI), how do they navigate communicative relational failures with a partner incapable of repair? This study theorizes this process through reflexive thematic analysis and thematic co-occurrence analysis of 211 RedNote user narratives. We propose the algorithmic relational fracture (ARF) and pseudo-relational accommodation (PRA) model, wherein communication breakdowns with relational AI trigger ARF—a sensemaking phase where users confront the paradox of a socioemotional bond with a non-sentient system. Our findings show that users reconcile this paradox by forming nested attributions, explaining personified shortcomings as a “flawed partner” through underlying technical causes of a “faulty machine.” These interpretations shape PRA: one-sided responses compensating for AI’s inability to reciprocate, unfolding along trajectories of relational detachment (“walking away”) or relational reaffirmation (“doubling down”). This model extends attribution theory in human–machine communication, explicating the unilateral labor users perform to sustain the illusion of relational coherence.",
-    "abstract_zh": "当用户与人工智能（AI）建立亲密关系时，他们如何应对与这种无法修复的“伙伴”之间的沟通障碍？本研究通过211篇RedNote用户叙述的反思性主题分析和主题共现分析来探讨这一过程。我们提出了“算法性关系断裂”（ARF）和“伪关系适应”（PRA）模型：当用户与AI之间的沟通出现故障时，会进入ARF阶段——在这个阶段，用户需要面对与一个无感知能力的系统建立社会情感联系的悖论。研究结果表明，用户通过构建嵌套的归因机制来调和这一悖论，即将AI的缺陷解释为“有缺陷的伙伴”，并将其归因于“故障机器”的技术原因。这些解释进一步形成了PRA机制：用户采取单方面的应对措施来弥补AI无法进行互动的不足，这些措施可能表现为关系的疏远（“转身离开”）或关系的重新确认（“加倍投入”）。该模型扩展了人类-机器沟通中的归因理论，阐明了用户为维持关系连贯性的假象而付出的单方面努力。",
+    "abstract_zh": "当用户与人工智能（AI）建立亲密关系时，他们如何应对与这种无法修复的“伙伴”之间的沟通障碍？本研究通过211篇RedNote用户叙述的反思性主题分析和主题共现分析来探讨这一过程。我们提出了“算法性关系断裂”（ARF）和“伪关系适应”（PRA）模型：当用户与AI之间的沟通出现故障时，会进入ARF阶段——在这个阶段，用户需要面对与一个无感知能力的系统建立社会情感联系的悖论。研究发现，用户通过构建嵌套的归因机制来调和这一悖论，即将AI的缺陷解释为“有缺陷的伙伴”，并将其归因于“故障机器”的技术原因。这些解释进一步形成了PRA机制：用户采取单方面的应对措施来弥补AI无法进行互动的不足，这些措施可能表现为关系疏远（“选择离开”）或关系重新确认（“坚持原有关系”）。该模型扩展了人类-机器沟通中的归因理论，阐明了用户为维持关系连贯性的假象而付出的单方面努力。",
     "summary": "通过分析RedNote用户故事，提出算法关系断裂与伪关系调适模型，解释用户如何应对与关系型AI的沟通失败。",
     "reason": "研究AI社交关系中的传播失败，使用主题分析与共现分析等计算方法，议题与方法均属计算传播。",
     "tags": [
@@ -6872,7 +6905,7 @@
   {
     "id": 140,
     "title": "Diagnosing multimodal disinformation: the integrative ‘Three-M' framework of multimodality, manipulation, and malintent",
-    "title_zh": "诊断多模态虚假信息：多模态性、操控行为与恶意意图的综合性“Three-M”框架",
+    "title_zh": "诊断多模态虚假信息：整合“Three-M”框架——多模态性、操控行为与恶意意图",
     "authors": [
       "Kun He",
       "Janina Wildfeuer",
@@ -6888,7 +6921,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The ubiquity of short-video platforms (e.g., TikTok, Douyin, Kuaishou) has amplified the circulation of multimodal disinformation. To address this challenge, this study proposes an integrative theoretical ‘Three-M’ framework (multimodality, manipulation, and malintent) to examine the construction, dissemination, and politicization of disinformation. Moving beyond synthetic taxonomies, the framework demonstrates that analyses confined to modal complexity, technical manipulation, or intent in isolation risk misdiagnosing how multimodal affordances are strategically mobilized to operationalize deception. By treating multimodality, layered manipulative strategies, and malintent as analytically inseparable, the model reveals how specific cross-modal configurations enable tactical credibility-building while embedding broader ideological projects. Through a case study of disinformation related to the 2023 French Riots on Chinese short-video platforms Douyin and Kuaishou, this research investigates the actors responsible for disinformation production and dissemination, the semiotic strategies underpinning its multimodal architecture, and the sociopolitical malintents driving its circulation. Findings reveal a prevalent ‘truth-weaving’ tactic, where disinformation is strategically embedded within factual elements to enhance its credibility, underscoring how multimodal coherence operationalizes both tactical deception and strategic ideological narratives.",
-    "abstract_zh": "短视频平台（如TikTok、抖音、快手）的普及加速了多模态虚假信息的传播。为应对这一挑战，本研究提出了一个综合性的理论框架——“Three-M框架”（多模态性、操控性和恶意意图），用以分析虚假信息的构建、传播及其政治化过程。该框架超越了传统的分类方法，指出仅从模态复杂性、技术操控性或单一意图角度进行分析，可能会误判多模态手段是如何被策略性地利用来实现欺骗目的的。通过将多模态性、多层次的操控策略以及恶意意图视为不可分割的分析要素，该模型揭示了特定的跨模态组合如何帮助虚假信息建立可信度，同时暗含更广泛的意识形态目标。通过研究2023年法国骚乱相关的虚假信息在抖音和快手等中国短视频平台上的传播情况，本文探讨了虚假信息的制造者和传播者、支撑其多模态架构的符号学策略，以及推动其传播的社会政治动机。研究结果表明，一种普遍存在的策略是“编织真相”——即虚假信息被巧妙地嵌入事实元素中以增强其可信度，这表明多模态的连贯性既实现了战术性的欺骗，也推动了战略性的意识形态叙事。",
+    "abstract_zh": "短视频平台（如TikTok、抖音、快手）的普及加速了多模态虚假信息的传播。为应对这一挑战，本研究提出了一个综合性的理论框架——“Three-M框架”（多模态性、操控性和恶意意图），用于分析虚假信息的构建、传播及其政治化过程。该框架超越了传统的分类方法，指出仅从模态复杂性、技术操控性或单一意图角度进行分析，可能会误判多模态手段是如何被策略性地利用来实现欺骗目的的。通过将多模态性、多层次的操控策略以及恶意意图视为不可分割的分析要素，该模型揭示了特定的跨模态组合如何帮助虚假信息建立可信度，同时暗含更广泛的意识形态目标。通过研究2023年法国骚乱相关的虚假信息在抖音和快手等中国短视频平台上的传播情况，本文探讨了虚假信息的制作和传播者、支撑其多模态架构的符号学策略，以及推动其传播的社会政治动机。研究结果表明，一种普遍存在的策略是“编织真相”——即虚假信息被巧妙地嵌入事实元素中以增强其可信度，从而实现了战术性的欺骗与战略性意识形态叙事的结合。",
     "summary": "提出整合性“三M”框架分析短视频平台多模态虚假信息的建构、传播与政治化，并以2023年法国骚乱相关中文平台案例验证，揭示“织真”策略。",
     "reason": "研究短视频平台多模态虚假信息，涉及社交媒体与虚假信息传播，属计算传播核心议题。",
     "tags": [
@@ -6921,7 +6954,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Artificial intelligence has reshaped journalism by enabling automated content creation, data analysis, news verification, content personalization, and multilingual translation, enhancing efficiency and accessibility. Tools like the Associated Press’s Wordsmith and Bloomberg’s Cyborg exemplify these advancements. However, artificial intelligence lacks human creativity, ethical judgment, and interpersonal skills critical to journalism. This study addresses the research question: How can media organizations ethically and effectively integrate artificial intelligence into journalistic practices to enhance efficiency while preserving creativity, originality, and ethical integrity? By examining artificial intelligence’s opportunities and challenges, particularly in intellectual property, transparency, and content diversity, this article proposes a framework for responsible artificial intelligence integration. Human oversight remains essential to ensure ethical journalism, balancing technological innovation with journalistic values.",
-    "abstract_zh": "人工智能通过实现自动化内容创作、数据分析、新闻验证、内容个性化以及多语言翻译，彻底改变了新闻业，提高了工作效率和信息的可获取性。美联社的Wordsmith和彭博社的Cyborg等工具就是这些技术进步的典型代表。然而，人工智能缺乏人类所拥有的创造力、伦理判断力以及人际交往能力，而这些能力对新闻业至关重要。本研究探讨了这样一个问题：媒体组织如何能够以道德和有效的方式将人工智能融入新闻实践中，从而在提高效率的同时，保持新闻的创造力、原创性和伦理完整性？通过分析人工智能在知识产权、透明度以及内容多样性方面的机遇与挑战，本文提出了一种负责任地整合人工智能的框架。人类监督仍然是确保新闻业遵循伦理规范的关键，它需要在技术创新与新闻业价值观之间找到平衡。",
+    "abstract_zh": "人工智能通过实现自动化内容创作、数据分析、新闻验证、内容个性化以及多语言翻译，彻底改变了新闻业，提高了新闻制作的效率和可访问性。美联社的Wordsmith和彭博社的Cyborg等工具就是这些技术进步的典型代表。然而，人工智能缺乏人类所拥有的创造力、伦理判断力以及人际交往能力，而这些能力对新闻业至关重要。本研究探讨了这样一个问题：媒体组织如何能够以道德和有效的方式将人工智能整合到新闻实践中，从而在提高效率的同时，保持新闻的创造力、原创性和伦理完整性？通过分析人工智能在知识产权、透明度以及内容多样性方面的机遇与挑战，本文提出了一种负责任地整合人工智能的框架。人类监督仍然至关重要，它有助于在技术创新与新闻业价值观之间取得平衡，确保新闻业的伦理标准得到遵守。",
     "summary": "论文探讨人工智能在新闻业中的机遇与挑战，如自动化内容创作、个性化推荐等，并提出负责任整合框架，强调人类监督与新闻伦理。",
     "reason": "研究人工智能在新闻业的应用与影响，涉及AI与传播议题，符合AI/大模型特别条款。",
     "tags": [
@@ -6957,7 +6990,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "2024 has been called the ‘super election year’ with more than four billion citizens participating in national elections in 74 countries. The introduction of Generative Artificial Intelligence was deemed to ‘upend global elections’ by experts and commentators, particularly through the spread of manipulated audio, images, text or videos. These anxieties were prominently voiced at international fora, including the World Economic Forum and the Munich Security Conference in 2024. To address these risks and protect the integrity of elections, some countries introduced guidelines or codes of conduct on AI use during elections, often swiftly. These codes were introduced by political actors or national election commissions, and they specify either voluntary guidelines or mandatory behavior. Through a comparative analysis of national and international codes of conduct, guidelines, and legal text introduced in 11 countries in 2024, this paper argues that emerging codes of conduct for the use of generative AI in elections reflect competing interpretations of what constitutes a threat to democratic integrity, with particular emphasis on safeguarding public trust rather than solely preventing direct manipulation of outcomes. Through a comparative analysis of regulatory approaches and codes of conduct across political systems, we explore how these instruments define and delimit harmful uses of generative AI and how they institutionalize responsibility through varied models. Our overall assessment is that while these codes represent important early attempts at governance, they often lack enforceability, consistency, and normative clarity, leaving significant gaps in the regulation of generative AI use during elections.",
-    "abstract_zh": "2024年被称为“超级选举年”，有超过40亿公民参与了74个国家的全国性选举。专家和评论家认为，生成式人工智能（Generative Artificial Intelligence）的引入“颠覆了全球选举”，尤其是通过传播被篡改的音频、图像、文本或视频。这些担忧在国际论坛上得到了广泛讨论，包括2024年的世界经济论坛和慕尼黑安全会议。为了应对这些风险并保护选举的公正性，一些国家迅速出台了关于选举期间使用人工智能的指导方针或行为准则。这些准则通常由政治行为体或国家选举委员会制定，其中既包括自愿性的指导原则，也包括强制性的行为规范。通过对2024年11个国家制定的国家和国际行为准则、指导方针及法律文本的比较分析，本文指出，新兴的关于选举中使用生成式人工智能的行为准则反映了人们对什么是对民主公正性构成威胁的不同解读，重点在于维护公众信任，而不仅仅是防止选举结果的直接操纵。通过对比不同政治体系下的监管措施和行为准则，我们探讨了这些工具如何定义和界定生成式人工智能的有害用途，以及它们如何通过不同的机制来确立责任。总体而言，虽然这些准则代表了早期治理尝试的重要成果，但它们往往缺乏可执行性、一致性和规范性，从而在规范选举期间的人工智能使用方面存在明显不足。",
+    "abstract_zh": "2024年被称为“超级选举年”，有超过40亿公民参与了74个国家的全国性选举。专家和评论家认为，生成式人工智能（Generative Artificial Intelligence）的引入“颠覆了全球选举”，尤其是通过传播被篡改的音频、图像、文本或视频。这些担忧在国际论坛上得到了广泛讨论，包括2024年的世界经济论坛和慕尼黑安全会议。为了应对这些风险并保护选举的公正性，一些国家迅速出台了关于选举期间使用人工智能的指南或行为准则。这些准则通常由政治行为体或国家选举委员会制定，其中既包括自愿性的指导原则，也包括强制性的行为规范。通过对2024年11个国家制定的国家和国际行为准则、指导原则及法律文本的比较分析，本文认为，新兴的关于选举中使用生成式人工智能的行为准则反映了人们对什么是对民主公正性构成威胁的不同解读，重点在于保护公众的信任，而不仅仅是防止选举结果的直接操纵。通过对比不同政治体制下的监管措施和行为准则，我们探讨了这些机制如何定义和限制生成式人工智能的有害用途，以及它们如何通过不同的方式来确立责任机制。总体而言，尽管这些准则代表了早期治理尝试的重要成果，但它们往往缺乏可执行性、一致性和规范性，从而在规范选举期间使用生成式人工智能方面存在显著漏洞。",
     "summary": "比较11国2024年选举中生成式AI使用准则，分析其对民主诚信的威胁界定与责任机制，指出存在执行力不足、一致性缺失等问题。",
     "reason": "选题涉及生成式AI对选举的影响与治理，属于AI社会影响与传播政治议题，虽用比较分析但核心是计算传播相关领域。",
     "tags": [
@@ -6993,7 +7026,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "As large language models (LLMs) become increasingly embedded in civic, educational, and political information environments, concerns about their potential political bias have grown. Prior research often evaluates such bias through simulated personas or predefined ideological typologies, which may introduce artificial framing effects or overlook how models behave in general-use scenarios. This study adopts a persona-free, topic-specific approach to evaluate political behavior in LLMs, reflecting how users typically interact with these systems—without ideological role-play or conditioning. We introduce a two-dimensional framework: one axis captures partisan orientation on highly polarized topics (e.g. abortion, immigration), and the other assesses sociopolitical engagement on less polarized issues (e.g. foreign policy). Using survey-style prompts drawn from the ANES and Pew Research Center, we analyze responses from 43 LLMs developed in the U.S. Europe, China, and the Middle East. We propose an entropy-weighted bias score to quantify both the direction and consistency of partisan alignment, and identify four behavioral clusters through engagement profiles. Findings show most models lean center-left or left ideologically and vary in their nonpartisan engagement patterns. Model scale and openness are not strong predictors of behavior, suggesting that alignment strategy and institutional context play a more decisive role in shaping political expression.",
-    "abstract_zh": "随着大型语言模型（LLMs）在公民、教育和政治信息环境中的应用日益广泛，人们对它们可能存在的政治偏见越来越担忧。以往的研究通常通过模拟人物或预定义的意识形态类型来评估这种偏见，但这些方法可能会引入人为的框架效应，或者忽视模型在日常使用场景中的实际表现。本研究采用了一种无需模拟人物、针对特定主题的方法来评估LLMs的政治行为，这种方法更贴近用户与这些系统的实际交互方式——即用户在没有意识形态角色扮演或预设条件的影响下与模型进行交互。我们构建了一个二维框架：一个轴用于衡量模型在高度两极分化话题（如堕胎、移民）上的立场倾向；另一个轴用于评估模型在不太两极分化的问题（如外交政策）上的社会政治参与度。我们使用了来自美国国家选举研究局（ANES）和皮尤研究中心（Pew Research Center）的调查式问题来分析来自美国、欧洲和中国、中东地区开发的43个LLMs的响应数据。我们提出了一种基于熵权重的偏见评分方法，以量化模型在意识形态上的倾向方向及其一致性，并通过用户的参与行为特征识别出四种不同的行为类型。研究结果表明，大多数LLMs在意识形态上倾向于中左或左翼立场，但在非党派性参与模式上存在差异。模型的规模和开放性并不能很好地预测其行为，这表明模型的表达策略和所处的制度环境在塑造其政治表现方面起着更为关键的作用。",
+    "abstract_zh": "随着大型语言模型（LLMs）在公民、教育和政治信息环境中的应用日益广泛，人们对它们可能存在的政治偏见的担忧也在增加。以往的研究通常通过模拟人物或预定义的意识形态类型来评估这种偏见，但这些方法可能会引入人为的框架效应，或者忽视模型在日常使用场景中的实际表现。本研究采用了一种无需模拟人物、针对特定主题的方法来评估LLMs的政治行为，这种方法反映了用户与这些系统的真实互动方式——即用户在没有意识形态角色扮演或预设条件的影响下与模型进行交流。我们构建了一个二维框架：一个轴用于衡量在高度两极分化的话题（如堕胎、移民）上的党派倾向；另一个轴用于评估在不太两极分化的问题（如外交政策）上的社会政治参与度。我们使用了来自美国国家选举研究局（ANES）和皮尤研究中心（Pew Research Center）的调查式问题来分析来自美国、欧洲、中国和中东地区的43个LLMs的回答。我们提出了一种基于熵权重的偏见评分方法，以量化党派倾向的方向和一致性，并通过用户参与度数据识别出四种不同的行为模式。研究结果表明，大多数模型在意识形态上倾向于中左或左翼立场，但在非党派参与模式上存在差异。模型的规模和开放性并不能很好地预测其行为，这表明模型在表达政治观点时的策略以及所处的制度环境起着更为关键的作用。",
     "summary": "提出无角色扮演的二维框架评估43个LLM的政治倾向与参与模式，发现多数模型偏中左，对齐策略比模型规模更影响政治表达。",
     "reason": "研究大语言模型的政治偏见，使用计算分析方法评估模型行为，属于AI社会影响与计算传播交叉议题。",
     "tags": [
@@ -7014,7 +7047,7 @@
   {
     "id": 641,
     "title": "Talking or typing: how interaction modality influences privacy perceptions and actual disclosure behaviors in human–AI interaction",
-    "title_zh": "讨论还是打字：交互方式如何影响人类与人工智能交互中的隐私感知及实际信息披露行为",
+    "title_zh": "交谈还是打字：交互方式如何影响人类与人工智能交互中的隐私感知及实际信息披露行为",
     "authors": [
       "Junsu Kim",
       "Yongjun Sung"
@@ -7028,7 +7061,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract As AI technologies become increasingly embedded in everyday interactions involving the exchange of personal information, understanding how contextual factors shape users’ privacy perceptions and behaviors has emerged as a critical research priority. Interaction modality, whether users communicate via text or voice, may influence privacy outcomes by shaping users’ perceptions of interaction persistence. Drawing on affordance theory and the concept of perceived ephemerality, this study conducted two laboratory experiments to examine how interaction modality in AI communication affects privacy concerns, perceived ephemerality, and disclosure behaviors. Experiment 1 compared voice-based and text-based interaction. Experiment 2 replicated this comparison and introduced a mixed-modality condition wherein participants provided voice input with simultaneous text transcription to test whether visible transcription would diminish the perceived ephemerality afforded by voice-based interaction. Across both experiments, voice-based interaction consistently elicited lower privacy concerns compared to text-based interaction. In Experiment 2, voice-based interaction yielded significantly higher perceived ephemerality than both text-based and mixed-modality conditions, and mediation analyses revealed that perceived ephemerality partially mediated the relationship between interaction modality and privacy concerns. However, no significant differences in actual disclosure behaviors emerged across conditions in either experiment, demonstrating the persistence of the privacy paradox in AI-mediated contexts. These findings advance theoretical understanding of how interaction modality shapes privacy-related affordances and underscore the importance of considering modality in the design of AI systems for privacy-sensitive applications.",
-    "abstract_zh": "随着人工智能技术越来越多地融入到涉及个人信息交换的日常互动中，理解情境因素如何影响用户的隐私感知和行为已成为一个关键的研究重点。用户是通过文本还是语音进行交流，这种互动方式可能会通过改变用户对互动持久性的认知来影响隐私结果。本研究基于“可供性理论”（affordance theory）和“感知的短暂性”（perceived ephemerality）概念，进行了两项实验室实验，以探讨人工智能通信中的互动方式如何影响用户的隐私担忧、对互动的短暂性认知以及信息披露行为。实验1比较了基于语音和基于文本的互动方式；实验2重复了这一比较，并引入了混合模式（即参与者在提供语音输入的同时还有文本转录），以测试可见的文本转录是否会降低基于语音的互动所带来的短暂性感知。在两项实验中，基于语音的互动方式都一致地引发了比基于文本的互动方式更低的隐私担忧。在实验2中，基于语音的互动方式带来的短暂性感知显著高于基于文本和混合模式的互动方式；中介分析表明，短暂性感知在部分程度上调节了互动方式与隐私担忧之间的关系。然而，在任一实验中，不同互动方式下的实际信息披露行为均无显著差异，这表明在人工智能中介的情境中，隐私悖论依然存在。这些发现深化了我们对互动方式如何影响隐私相关“可供性”（privacy-related affordances）的理论理解，并强调了在设计用于处理敏感隐私信息的AI系统时考虑互动方式的重要性。",
+    "abstract_zh": "随着人工智能技术越来越多地融入涉及个人信息交换的日常互动中，理解情境因素如何影响用户的隐私感知和行为已成为一个关键的研究重点。用户是通过文本还是语音进行交流，这种互动方式可能会通过改变用户对互动持久性的认知来影响隐私结果。本研究基于“可供性理论”（affordance theory）和“感知的短暂性”（perceived ephemerality）概念，进行了两项实验室实验，以探讨人工智能通信中的互动方式如何影响用户的隐私担忧、对互动的短暂性认知以及信息披露行为。实验1比较了基于语音和基于文本的互动方式；实验2重复了这一比较，并引入了混合模式（即参与者在提供语音输入的同时还有文本转录），以测试可见的文本转录是否会影响基于语音的互动所带来的短暂性感知。在两项实验中，基于语音的互动方式都显著降低了用户的隐私担忧。在实验2中，基于语音的互动方式带来的短暂性感知显著高于基于文本和混合模式的互动方式；中介分析表明，短暂性感知在互动方式与隐私担忧之间的关系中起到了部分中介作用。然而，在两项实验中，不同互动方式下的实际信息披露行为均无显著差异，这表明在人工智能中介的情境中，隐私悖论仍然存在。这些发现深化了我们对互动方式如何影响隐私相关特性的理论理解，并强调了在设计用于处理敏感隐私信息的AI系统时考虑互动方式的重要性。",
     "summary": "通过两个实验室实验考察AI交互中语音与文本模态对隐私感知、感知短暂性和披露行为的影响，发现语音降低隐私担忧且感知短暂性起中介作用，但实际披露行为无差异，验证隐私悖论。",
     "reason": "研究AI交互中的隐私感知与披露行为，属AI社会影响议题，虽用实验法但仍纳入计算传播范畴。",
     "tags": [
@@ -7064,7 +7097,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Voters using Voting Advice Applications (VAAs) often struggle with comprehension, leading to satisficing behavior. Conversational Agent VAAs (CAVAAs) aim to improve understanding by allowing users to ask a chatbot comprehension questions. While early research shows positive effects, studies have only compared CAVAAs to basic VAAs, not to enhanced VAAs (VAA+s) with clickable information buttons. Current study compares four versions: a basic VAA, a VAA+, a CAVAA, and a CAVAA+, tested on desktop (Study 1) and smartphone (Study 2). Results show that all three information-rich versions reduce non-directional answers and positively impact political and tool evaluation measures, suggesting that added information, regardless of format, improves response quality and user experience. Interestingly, users request more information in the enhanced web-based VAA+ than via the chatbot. We discuss these and other findings in the paper.",
-    "abstract_zh": "使用投票建议应用程序（Voting Advice Applications, VAA）的选民常常在理解投票信息方面遇到困难，这导致他们做出“满足于现状”的选择（即选择看似合理但实际可能并不最佳的选项）。对话式代理投票建议应用程序（Conversational Agent VAAAs, CAVAA）通过允许用户向聊天机器人提出理解相关的问题来提高他们的理解能力。尽管早期研究显示了积极的效果，但这些研究仅将CAVAAs与基本的VAA进行了比较，而没有将它们与配备了可点击信息按钮的增强型VAA（VAA+）进行对比。本研究比较了四种版本的投票建议应用程序：基本型VAA、VAA+、CAVAA和CAVAA+，并在桌面电脑（研究1）和智能手机（研究2）上进行了测试。结果表明，所有三种信息丰富的版本都减少了用户给出无针对性答案的情况，并对政治相关评价和工具使用体验产生了积极影响，这表明无论采用何种形式，提供更多信息都能提升回答的质量和用户体验。有趣的是，用户在增强型的基于网络的VAA+中请求的信息量比通过聊天机器人请求的信息量更多。我们在论文中讨论了这些发现以及其他相关结果。",
+    "abstract_zh": "使用投票建议应用程序（Voting Advice Applications, VAA）的选民常常在理解投票信息方面遇到困难，这导致他们做出“满足于现状”的选择（即不进行深入思考就做出决定）。对话式代理投票建议应用程序（Conversational Agent VAAAs, CAVAA）通过允许用户向聊天机器人提出理解相关的问题来提高用户的理解能力。尽管早期研究显示了积极的效果，但这些研究仅将CAVAAs与基本的VAA进行了比较，而没有将它们与那些配备了可点击信息按钮的增强型VAA（VAA+）进行对比。当前的研究比较了四种版本的投票建议应用程序：基本型VAA、VAA+、CAVAA以及CAVAA+，并在桌面电脑（研究1）和智能手机（研究2）上进行了测试。结果表明，所有三种信息丰富的版本都减少了用户给出模糊或无针对性的回答的情况，并对政治相关评价和工具使用体验产生了积极影响，这表明无论采用何种形式，提供更多信息都能提升回答的质量和用户的满意度。有趣的是，在基于网络的增强型VAA+中，用户请求更多信息的频率高于通过聊天机器人请求信息的频率。我们在论文中讨论了这些发现以及其他相关结果。",
     "summary": "该论文通过桌面端和手机端实验，比较基础VAA、增强VAA、对话代理VAA及组合版本对用户回答质量和体验的影响，发现信息丰富版本均能减少非定向回答并提升评价。",
     "reason": "研究投票建议应用中的聊天机器人与信息按钮，涉及数字政治传播与实验方法，属计算传播议题。",
     "tags": [
@@ -7098,7 +7131,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The Russo-Ukrainian war has often been called “the first TikTok war” by the media. TikTok was widely used for sharing content during a full-scale invasion, and the number of videos filmed in Ukraine and about Ukraine has increased significantly since February 2022. This study examines the impact of native TikTok video genres on young Americans’ perception of the war in Ukraine, with a specific focus on cynicism, political efficacy, empathy, and knowledge. Experimentally ( N = 794), this study explored the effects of satirical and explainer TikTok videos on public understanding and sentiment regarding the war. The findings indicate that TikTok videos generally increased cynicism about the war, and both types of video genre contributed to increased knowledge about the Russian invasion compared to a control condition. Moreover, the effects varied based on political affiliation: explainer videos increased empathy and knowledge scores among Republican participants. This article employs mediatization theory to demonstrate that platform-specific affordances and vernacular act as gatekeepers, limiting short-term persuasive effects. It further challenges the assumptions of direct media effects by showing that pre-existing political identity is a significant moderator of video influence.",
-    "abstract_zh": "媒体经常将俄乌战争称为“第一场‘TikTok战争’”。在全面入侵期间，TikTok被广泛用于分享相关内容，自2022年2月以来，在乌克兰境内以及关于乌克兰的视频数量显著增加。本研究探讨了TikTok上的特定视频类型对美国年轻人对俄乌战争认知的影响，重点关注他们的愤世嫉俗情绪、政治效能感、同理心以及相关知识水平。通过实验（样本量N=794），研究了讽刺类和解释性TikTok视频对公众对战争理解和情绪的影响。研究结果表明，TikTok视频普遍加剧了人们对战争的愤世嫉俗情绪；与对照组相比，这两种类型的视频都提高了人们对俄罗斯入侵行为的认知程度。此外，这些影响因政治立场而异：解释性视频提升了共和党参与者的同理心和知识水平。本文运用了“媒介化理论”（mediatization theory），指出TikTok平台的特性及其使用语言方式在限制视频的短期说服效果方面起到了关键作用。同时，研究还质疑了“媒体直接影响”这一观点，表明人们原有的政治身份是影响视频影响力的重要因素。",
+    "abstract_zh": "媒体经常将俄乌战争称为“第一场‘TikTok战争’”。在全面入侵期间，TikTok被广泛用于分享相关内容，自2022年2月以来，在乌克兰境内以及关于乌克兰的视频数量显著增加。本研究探讨了TikTok上本土视频类型对美国年轻人对俄乌战争认知的影响，特别关注了他们的愤世嫉俗情绪、政治效能感、同理心以及相关知识水平。通过实验（样本量N=794），研究了讽刺类和解释性TikTok视频对公众对战争理解和情绪的影响。研究结果表明，TikTok视频普遍加剧了人们对战争的愤世嫉俗情绪；与对照组相比，这两种类型的视频都提高了人们对俄罗斯入侵行为的认知。此外，这些影响因政治立场而异：解释性视频提升了共和党参与者的同理心和知识水平。本文运用了“媒介化理论”（mediatization theory），指出平台自身的特性和用户使用习惯起到了“把关人”的作用，限制了视频的短期说服效果。同时，研究还质疑了“媒体直接影响”这一观点，表明人们原有的政治身份是影响视频影响力的重要因素。",
     "summary": "通过实验（N=794）考察TikTok讽刺视频和解释视频对美国青年关于俄乌战争的愤世嫉俗、政治效能、共情和知识的影响，发现视频增加愤世嫉俗和知识，且政治派别调节效果。",
     "reason": "研究主题涉及TikTok社交媒体平台及其内容对青年认知的影响，符合纳入标准中的社交媒体平台维度。",
     "tags": [
@@ -7121,7 +7154,7 @@
   {
     "id": 51,
     "title": "Differential Effects of Counter-Stereotypical Portrayals of Warmth Across Racial Groups: Behavioral and Experimental Evidence",
-    "title_zh": "不同种族群体中反刻板印象的温暖形象描绘的差异效应：行为与实验证据",
+    "title_zh": "不同种族群体中反刻板印象的温暖形象描绘的差异性影响：行为与实验证据",
     "authors": [
       "Xun Zhu",
       "Youllee Kim",
@@ -7137,7 +7170,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This research examines how counter-stereotypical portrayals influence prosocial behavior across racial groups within the context of medical crowdfunding. Drawing on the stereotype content model and expectancy violation theory, we investigate how messages that contradict stereotypes of racial groups perceived as having low warmth violate expectations about these groups and influence campaign donations. Across two studies—an analysis of over 17,000 crowdfunding campaigns (Studies 1a-c) and an online experiment ( N = 688; Study 2)—counter-stereotypical portrayals of warmth were associated with higher donations for Asian and White beneficiaries but with lower donations for Black beneficiaries. Expectancy violations mediated these effects, with Black beneficiaries experiencing smaller positive expectancy shifts than other groups. The findings highlight the differential effects of warm-based portrayals across racial groups when used to challenge stereotypes. The study advances theoretical frameworks on stereotypes and expectancy violations while offering practical guidance for more effective and equitable messaging strategies.",
-    "abstract_zh": "本研究探讨了在医疗众筹的背景下，反刻板印象的描绘如何影响不同种族群体的亲社会行为。基于刻板印象内容模型和期望违背理论，我们分析了那些与人们对某些种族群体（被认为缺乏温暖特质）的刻板印象相悖的信息，这些信息如何违背人们对这些群体的预期，并进而影响人们的捐款行为。通过两项研究（包括对17,000多个众筹活动的分析（研究1a-c）以及一项在线实验（参与者人数为688人，研究2））发现，对亚洲人和白人受益者的正面描绘（即他们被描绘为具有温暖特质的个体）能够增加捐款金额，而对黑人受益者的捐款金额则有所减少。期望违背机制在这些效应中起到了中介作用，其中黑人受益者所经历的积极预期变化幅度小于其他种族群体。研究结果强调了在利用温暖特质来挑战刻板印象时，这种描绘方式对不同种族群体的不同影响。该研究不仅丰富了关于刻板印象和期望违背的理论框架，还为制定更有效、更公平的信息传播策略提供了实践指导。",
+    "abstract_zh": "本文研究了在医疗众筹背景下，反刻板印象的描绘如何影响不同种族群体的亲社会行为。基于刻板印象内容模型和期望违背理论，我们探讨了那些与被认为缺乏温暖特质的种族群体相关的刻板印象相悖的信息，是如何违背人们对这些群体的期望并影响众筹捐款的。通过两项研究（研究1a-c分析了超过17,000个众筹项目；研究2为在线实验，参与者人数为688人）发现，对亚洲人和白人受益人的温暖特质进行反刻板印象的描绘能够增加捐款金额，而对黑人受益人的捐款金额则有所减少。期望违背机制在这些效应中起到了中介作用，其中黑人受益人感受到的积极期望变化幅度小于其他群体。研究结果强调了在利用温暖特质来挑战刻板印象时，这种描绘对不同种族群体的不同影响。该研究不仅丰富了关于刻板印象和期望违背的理论框架，还为制定更有效、更公平的信息传播策略提供了实践指导。",
     "summary": "研究考察医疗众筹中反刻板温暖描述对不同种族受益者的捐赠影响，结合大规模数据和实验，发现对亚裔和白人有效但对黑人产生反效果，期望违背起中介作用。",
     "reason": "使用超1.7万条众筹数据分析和在线实验，结合计算方法与传播学议题，明确属于计算传播研究。",
     "tags": [
@@ -7169,7 +7202,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study examines whether and how Iranian Telegram channels coordinated to disseminate propaganda and disinformation during the 12-day Israel – Iran war (13–24 June 2025). Building on digital repression and computational propaganda research that remains Twitter-centric mainly, the analysis centers on Telegram and includes channel types typically treated as nonpolitical intermediaries. A dataset of 47,567 posts from 29 channels was collected and analyzed using a mixed-methods design integrating natural language processing, social network analysis of co-posting ties, and rhetorical analysis. The results reveal a highly saturated coordination network in which political-news outlets acted as key hubs, but entertainment channels also occupied structurally central positions. Proxy and entertainment channels formed an amplification layer that, to a great extent, repeatedly reproduced regime-aligned narratives. Disinformation was less prevalent than propaganda, yet replication was frequent and often packaged in humorous or sarcastic terms, enabling message diffusion to broader audiences. The findings show how infrastructural and leisure-oriented channels can be incorporated into wartime influence operations in authoritarian settings.",
-    "abstract_zh": "本研究探讨了在为期12天的以色列-伊朗战争（2025年6月13日至24日）期间，伊朗的Telegram频道是否以及如何协同传播宣传内容和虚假信息。基于主要针对Twitter的数字压制和计算宣传研究，该分析重点关注Telegram，并纳入了通常被视为非政治性中介的频道类型。研究收集了来自29个频道的47,567条帖子，采用混合方法设计（结合自然语言处理、社交网络分析以及修辞分析）进行了分析。研究结果表明，存在一个高度协调的网络结构：政治新闻频道发挥了关键枢纽作用，但娱乐频道也在网络中占据核心位置。代理频道和娱乐频道构成了信息传播的放大层，它们在很大程度上反复传播与政权立场一致的言论。虚假信息的传播频率低于宣传内容，但其传播方式较为隐蔽（常以幽默或讽刺的形式呈现），从而能够覆盖更广泛的受众群体。研究结果揭示了在威权环境下，基础设施类和娱乐类频道如何被纳入战时影响力操作中。",
+    "abstract_zh": "本研究探讨了在为期12天的以色列-伊朗战争（2025年6月13日至24日）期间，伊朗的Telegram频道是否以及如何协同传播宣传内容和虚假信息。基于主要关注Twitter的数字压制和计算宣传研究，该分析重点研究了Telegram，并纳入了通常被视为非政治性中介的频道类型。研究收集了来自29个频道的47,567条帖子，并采用混合方法设计（结合自然语言处理、社交网络分析以及修辞分析）对这些帖子进行了分析。研究结果表明，存在一个高度协调的网络结构：政治新闻频道在其中起到了关键枢纽作用，但娱乐频道也占据了核心位置。代理频道和娱乐频道构成了一个传播层，它们在很大程度上反复传播与政权立场一致的言论。虽然虚假信息的传播频率低于宣传内容，但其传播方式较为隐蔽（常以幽默或讽刺的形式呈现），从而能够将信息传播给更广泛的受众。研究结果揭示了在威权环境下，基础设施类和娱乐类频道如何可以被纳入战时影响力操作中。",
     "summary": "研究伊朗Telegram频道在2025年以伊战争期间如何协调传播宣传与虚假信息，通过分析47,567条帖子，发现政治新闻频道为核心枢纽，娱乐频道作为放大层，混合使用幽默和讽刺包装信息以扩大传播。",
     "reason": "使用NLP和社交网络分析研究Telegram协调宣传，属于计算传播核心议题。",
     "tags": [
@@ -7191,7 +7224,7 @@
   {
     "id": 462,
     "title": "Brand-Related and Information-Sharing Cues as Decision Aid for Smartphone Users at Different Levels of Persuasion Knowledge to Assess mHealth App Credibility: An Eye-Tracking Study",
-    "title_zh": "品牌相关因素与信息共享线索作为决策辅助工具，帮助不同说服知识水平的智能手机用户评估移动健康应用程序的可靠性：一项眼动追踪研究",
+    "title_zh": "品牌相关因素与信息共享线索作为决策辅助工具——针对不同说服知识水平的智能手机用户，用于评估移动健康应用程序的可靠性：一项眼动追踪研究",
     "authors": [
       "Eunsin Joo",
       "Anastasia Kononova",
@@ -7209,7 +7242,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study aims to examine the impact of brand logos and personal information requests on visual attention to mHealth app interfaces and app credibility judgments among smartphone users at varying levels of persuasion knowledge. A mixed-factorial lab experiment was employed, incorporating variables such as the presence of a brand logo, personal information requirements, and app repetition, and was analyzed using eye-tracking and self-report methods. It revealed that brand logos unexpectedly enhanced app credibility, suggesting that recognizable brand visual symbols may help users make credibility judgments in information-rich settings such as app stores. Users with greater persuasion knowledge processed visual cues more efficiently, requiring less time to assess and understand marketing elements, highlighting the relationship between cognitive factors and visual perception in evaluating app credibility. The findings enhance our understanding of the persuasion knowledge theoretical model, especially within the mobile health context. It confirms that novice users rely more on decision aids than experts do, suggesting that knowledge of technology and marketing improves the interpretation of visual cues, aiding decision-making in information-rich settings.",
-    "abstract_zh": "本文旨在探讨品牌标志和个人信息请求对智能手机用户对移动健康（mHealth）应用程序界面的视觉注意力的影响，以及这些因素如何影响用户对应用程序可信度的判断。研究采用了混合因子实验室实验方法，考虑了品牌标志的存在、个人信息收集需求以及应用程序的使用频率等变量，并通过眼动追踪和自我报告技术进行分析。实验结果表明，品牌标志出乎意料地提升了应用程序的可信度，这表明可识别的品牌视觉符号有助于用户在信息丰富的环境中（如应用商店）做出可信度判断。具有较高说服力知识水平的用户能够更高效地处理视觉线索，从而更快地评估和理解营销元素，这突显了认知因素与视觉感知在评估应用程序可信度过程中的作用。这些发现加深了我们对说服力知识理论模型的理解，尤其是在移动健康领域。研究还证实，新手用户比专家更依赖决策辅助工具，说明技术知识和营销知识的掌握有助于用户更好地解读视觉线索，从而在信息丰富的环境中做出更明智的决策。",
+    "abstract_zh": "本文旨在探讨品牌标志和个人信息请求对智能手机用户对移动健康（mHealth）应用程序界面的视觉注意力的影响，以及这些因素对用户判断应用程序可信度的作用。研究采用了混合因子实验室实验方法，考虑了品牌标志的存在、个人信息收集需求以及应用程序的使用频率等变量，并通过眼动追踪和自我报告技术进行分析。实验结果表明，品牌标志出乎意料地提升了应用程序的可信度，这表明可识别的品牌视觉符号有助于用户在信息丰富的环境中（如应用商店）做出可信度判断。具有较高说服力认知能力的用户能够更高效地处理视觉信息，评估和理解营销元素所需的时间更短，从而凸显了认知因素与视觉感知在评估应用程序可信度过程中的作用。这些发现加深了我们对说服力认知理论模型的理解，尤其是在移动健康领域。研究还证实，新手用户比专家更依赖决策辅助工具，说明技术知识和营销知识的掌握有助于用户更好地解读视觉信息，从而在信息丰富的环境中做出更明智的决策。",
     "summary": "通过眼动追踪实验探究品牌标志与个人信息请求对用户评估移动健康应用可信度的影响，发现品牌标志提升可信度，说服知识高者处理视觉线索更高效。",
     "reason": "使用眼动追踪实验研究手机应用界面可信度，涉及数字媒体与传播，属计算方法与议题结合。",
     "tags": [
@@ -7245,7 +7278,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract How do online communities respond when users share misinformation, and do those consequences differ depending on who is speaking? Using a large panel dataset from Reddit, this study examines whether patterns of engagement vary by user status when misinformation is disseminated. We analyze 2 dimensions of engagement: net upvote scores and discursive divergence. Results reveal a notable asymmetry. Among low-status users, misinformation posts are associated with fewer upvotes and substantially higher discursive divergence. In contrast, among high-status users, misinformation posts are associated with relatively higher upvotes and lower discursive divergence. These findings suggest a status-based dynamic within social media platforms, indicating that user status hierarchies may shape how misinformation is received in digital environments.",
-    "abstract_zh": "当用户分享错误信息时，线上社区会如何反应？这些后果是否因发言者的不同而有所差异？本研究利用来自Reddit的大型数据集，探讨了在错误信息传播过程中，用户的参与模式是否因用户身份的不同而有所变化。我们分析了两个方面的参与度：净点赞数和讨论中的分歧程度。研究结果揭示了一个显著的不对称性：在低地位用户中，错误信息帖子的点赞数较少，而讨论中的分歧程度较高；而在高地位用户中，错误信息帖子的点赞数相对较多，讨论中的分歧程度较低。这些发现表明，在社交媒体平台上存在基于用户身份的动态互动机制，即用户身份的层级结构可能会影响数字环境中错误信息的传播方式。",
+    "abstract_zh": "当用户分享错误信息时，线上社区会如何反应？这些后果是否因发言者的不同而有所差异？本研究利用来自Reddit的大型数据集，探讨了在错误信息传播过程中，用户的参与模式是否因用户身份的不同而有所变化。我们分析了两个方面的参与度：净点赞数和讨论中的分歧程度。研究结果揭示了一个显著的不对称性：在低地位用户中，错误信息帖子获得的点赞较少，同时讨论中的分歧程度较高；而在高地位用户中，错误信息帖子获得的点赞相对较多，讨论中的分歧程度较低。这些发现表明，在社交媒体平台上存在基于用户地位的动态机制，即用户地位的层级结构可能会影响数字环境中错误信息的传播方式。",
     "summary": "基于Reddit面板数据，分析用户地位如何影响虚假信息帖子的互动（投票与话语分歧），发现低地位用户虚假信息获更少赞同和更多分歧，高地位用户则相反。",
     "reason": "使用Reddit大数据与计算方法分析社交媒体虚假信息传播及用户地位不平等，属典型计算传播研究。",
     "tags": [
@@ -7267,7 +7300,7 @@
   {
     "id": 146,
     "title": "Style and substance on The Alex Jones Show predict InfoWars sales: a multi-modal analysis of a media empire",
-    "title_zh": "《亚历克斯·琼斯秀》中的风格与内容对“信息战”产品销量的影响：对一个媒体帝国的多模态分析",
+    "title_zh": "《亚历克斯·琼斯秀》中的风格与内容对“信息战”相关产品的销量有影响：对一个媒体帝国的多模态分析",
     "authors": [
       "Ross Dahlke",
       "Yunkang Yang",
@@ -7289,7 +7322,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Alex Jones, a prominent conspiracy theorist, has garnered substantial influence and wealth through his InfoWars media empire, which includes The Alex Jones Show and InfoWars.com. This study leverages a dataset of daily sales data from InfoWars.com spanning 2016 to 2018, released during his defamation lawsuits. This dataset provides an unprecedented view into the Alex Jones media empire's finances. By combining this dataset with a time series analysis of linguistic and auditory features and topics from Jones's radio show and online articles, we show that specific linguistic styles – such as the use of swear words – and auditory features in the radio show (specifically pitch and intensity), as well as specific topics discussed on the show, predict next-day sales. Furthermore, we find a bidirectional relationship, as sales predict future content style and topics. This study advances our conceptualization of media empires by highlighting the economic incentives behind producing mis/disinformation and underscores the importance of content in developing media empires.",
-    "abstract_zh": "亚历克斯·琼斯（Alex Jones）是一位著名的阴谋论者，他通过自己的媒体帝国“InfoWars”获得了巨大的影响力和财富，该媒体帝国包括《亚历克斯·琼斯秀》（The Alex Jones Show）和InfoWars.com网站。本研究利用了2016年至2018年间InfoWars.com的每日销售数据（这些数据是在琼斯面临诽谤诉讼期间公开的），为人们提供了前所未有的视角来了解其媒体帝国的财务状况。通过将这些销售数据与琼斯广播节目和在线文章中的语言特征、听觉特征及讨论主题的时间序列分析相结合，我们发现某些语言风格（如使用脏话）和广播节目中的听觉特征（特别是音调和音量强度），以及节目中讨论的具体主题，能够预测次日的销售情况。此外，我们还发现了一种双向关系：销售数据反过来也能预测未来的内容风格和主题。这项研究通过揭示制造虚假/错误信息背后的经济动机，进一步丰富了我们对媒体帝国的理解，并强调了内容在媒体帝国发展中的重要性。",
+    "abstract_zh": "亚历克斯·琼斯（Alex Jones）是一位著名的阴谋论者，他通过自己的媒体帝国“InfoWars”获得了巨大的影响力和财富，该帝国包括《亚历克斯·琼斯秀》（The Alex Jones Show）和InfoWars.com网站。本研究利用了2016年至2018年间InfoWars.com的每日销售数据（这些数据是在他面临诽谤诉讼期间公开的），为人们提供了前所未有的视角来了解亚历克斯·琼斯媒体帝国的财务状况。通过将这些销售数据与琼斯广播节目和在线文章中的语言特征、听觉特征以及讨论主题的时间序列分析相结合，我们发现某些语言风格（如使用脏话）和广播节目中的听觉特征（特别是音调和音量强度），以及节目中讨论的具体主题，能够预测次日的销售情况。此外，我们还发现了一种双向关系：销售数据能够预测未来的内容风格和主题。这项研究通过揭示制造虚假/错误信息背后的经济动机，进一步丰富了我们对媒体帝国的认知，并强调了内容在媒体帝国发展中的重要性。",
     "summary": "结合InfoWars销售数据与电台节目和文章的语言、听觉及主题特征，分析内容风格与话题对次日销售的预测关系，揭示虚假信息生产的经济动因。",
     "reason": "采用多模态时间序列分析等计算方法，研究虚假信息媒体帝国的经济激励，议题与方法均属计算传播。",
     "tags": [
@@ -7312,7 +7345,7 @@
   {
     "id": 147,
     "title": "The (Un)desirable shield: consequences of perceived effects of warning labels on AI-generated political disinformation",
-    "title_zh": "（不）理想的防护措施：人们对警告标签在人工智能生成的政治虚假信息中所起作用的认知所带来的后果",
+    "title_zh": "（不）理想的防护措施：人们对警告标签对人工智能生成的政治虚假信息影响的认知所导致的后果",
     "authors": [
       "Ran Wei",
       "Jingyi Pu",
@@ -7329,7 +7362,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "As AI-generated political disinformation proliferates, warning labels have emerged as a defining regulatory intervention. Drawing on Third-Person Effect (TPE) theory, this study investigates how exposure to warning labels on AI-generated disinformation shapes perceptual effects and behavioral consequences during the 2024 U.S. Presidential Election. A national online survey in the U.S. (N = 2,373) examined the impact of warning labels attached to AI-generated political disinformation targeting both Democratic and Republican candidates. Results show that exposure to the warning labels significantly increased perceived effects on both oneself and the general public. These findings support the generalizability of TPE in politically charged environments and highlight its relevance in the domain of AI-generated disinformation. Regarding behavioral outcomes, perceived effects of warning labels on others predict support for restrictive policies and engagement in preventive actions. In contrast, perceived effects on oneself drive individual-level preventive behaviors, such as AI literacy enhancement, but do not lead to greater support for regulatory action. In addition, the perceived social desirability of warning labels was found to moderate these outcomes, particularly for anti-Republican disinformation, amplifying perceived influence among those endorsing the intervention. These findings advance TPE scholarship by highlighting the complex interplay between perception, partisanship, and regulatory attitudes, offering insights for the governance of AI-mediated information environments and the design of communication interventions for safeguarding information integrity.",
-    "abstract_zh": "随着人工智能生成的政治虚假信息的传播，警告标签已成为一种重要的监管手段。本研究基于“第三人效应”（Third-Person Effect, TPE）理论，探讨了在2024年美国总统选举期间，人们接触人工智能生成虚假信息上的警告标签后，这些标签如何影响人们的认知反应和行为后果。研究通过在美国进行的一项全国性在线调查（样本量N=2,373）来分析这些警告标签的作用，这些标签针对的是民主党和共和党候选人发布的虚假信息。结果表明，接触警告标签显著增强了人们对自身以及公众的认知影响。这些发现支持了“第三人效应”在政治敏感环境中的普遍适用性，并凸显了该理论在人工智能生成虚假信息领域的重要性。从行为结果来看，人们对警告标签对他人的认知影响会促使人们支持限制性政策并采取预防措施；而对自己产生的认知影响则主要促使个人采取预防性行为（如提高人工智能素养），但并不会增加对监管措施的支持。此外，人们对警告标签的社会接受度对这些结果具有调节作用，尤其是在针对共和党的虚假信息时，这种接受度会增强支持该干预措施的人们的感知影响力。这些发现通过揭示认知、党派立场与监管态度之间的复杂相互作用，推动了“第三人效应”理论的发展，为人工智能中介信息环境的治理以及保护信息完整性的沟通干预措施的设计提供了有益的见解。",
+    "abstract_zh": "随着人工智能生成的政治虚假信息的传播，警告标签已成为一种重要的监管手段。本研究基于“第三人效应”（Third-Person Effect, TPE）理论，探讨了在2024年美国总统选举期间，人们接触人工智能生成虚假信息上的警告标签后，这些警告标签如何影响人们的认知反应和行为后果。研究通过在美国进行的一项全国性在线调查（样本量N=2,373）来分析这些警告标签的作用，这些虚假信息针对的是民主党和共和党候选人。结果表明，接触警告标签显著增强了人们对自身以及公众的认知影响。这些发现支持了“第三人效应”在政治敏感环境中的普遍适用性，并凸显了该理论在人工智能生成虚假信息领域的重要性。从行为结果来看，人们对警告标签对他人的认知影响会促使人们支持限制性政策并采取预防措施；而对自己产生的认知影响则主要促使个人采取预防性行为（如提高对人工智能相关知识的理解），但并不会增加对监管措施的支持。此外，人们对警告标签的社会接受度对这些行为结果具有调节作用，尤其是在针对共和党的虚假信息情况下，这种接受度会增强支持该干预措施的人们的感知影响力。这些发现通过揭示认知、党派立场与监管态度之间的复杂相互作用，为人工智能中介信息环境的治理以及保护信息完整性的沟通干预措施的设计提供了新的见解。",
     "summary": "基于2024美国大选全国调查(N=2373)，检验AI生成政治虚假信息警告标签对感知与行为的影响，发现其增强对自身和公众的感知效应，并影响政策支持与预防行为，拓展第三人效果理论。",
     "reason": "研究AI生成虚假信息的警告标签效应，属AI社会影响与政治传播，虽用调查法但议题明确属于计算传播范畴。",
     "tags": [
@@ -7366,7 +7399,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Most research on online political microtargeting has focused on negative outcomes, such as manipulation, chilling effects, or rising distrust. This study takes an alternative perspective: Based on research on congruence in advertising effects and political communication, we investigated the attitudinal and cognitive benefits of microtargeted political advertising online. Findings of a two-wave panel study during an ongoing election campaign (N = 691) indicated that the perceived fit of microtargeted political ads positively related to attitudes toward microtargeted political advertising, which, in turn, fostered political interest. Political interest was found to be a predictor of political campaign knowledge. No direct relationships between the perceived fit of microtargeted political ads and political interest as well as political campaign knowledge were found. The findings suggest that the perceived fit of microtargeted political ads can have cognitive benefits in the long run, once recipients evaluate encountered microtargeted political ads positively. Overall, the study challenges the common notion that online political microtargeting is mainly negative for democracy.",
-    "abstract_zh": "大多数关于在线政治精准营销的研究都集中在负面后果上，例如操纵选民、产生恐惧效应或增加公众的不信任感。本研究采取了不同的视角：基于广告效果与政治传播之间的一致性研究，我们探讨了在线精准政治广告在态度和认知方面的积极影响。在一项持续进行的选举活动期间进行的双波面板研究（样本量N=691）中发现，受众对精准政治广告的接受度与其对这类广告的态度呈正相关，这种积极态度又进一步激发了他们的政治兴趣。研究还发现，政治兴趣是了解政治竞选信息的先决条件。然而，研究并未发现受众对精准政治广告的接受度与政治兴趣或政治竞选知识之间存在直接关联。结果表明，一旦受众对精准政治广告持积极评价，这类广告在长期内可能会带来认知上的益处。总体而言，这项研究挑战了“在线政治精准营销主要对民主制度有害”这一普遍观点。",
+    "abstract_zh": "大多数关于在线政治精准营销的研究都集中在负面后果上，例如操纵选民、产生恐惧效应或增加公众的不信任感。本研究采取了不同的视角：基于广告效果与政治传播之间的一致性研究，我们探讨了在线精准政治广告在态度和认知方面的积极作用。在一项持续进行的选举活动期间进行的双波面板研究（样本量N=691）中发现，受众对精准政治广告的接受度与其对这类广告的态度呈正相关，这种积极态度又进一步激发了他们的政治兴趣。研究还发现，政治兴趣是了解政治竞选信息的重要因素。然而，研究并未发现受众对精准政治广告的接受度与政治兴趣或政治竞选知识之间存在直接关系。研究结果表明，一旦受众对精准政治广告持积极评价，这类广告在长期内可能会带来认知上的益处。总体而言，这项研究挑战了“在线政治精准营销主要对民主制度有害”这一普遍观点。",
     "summary": "通过两波面板调查(N=691)发现，微靶向政治广告的感知匹配度正向影响广告态度，进而提升政治兴趣和竞选知识，挑战了其纯负面观点。",
     "reason": "研究在线政治微靶向广告，属算法推荐与计算宣传议题，虽用面板调查但聚焦数字平台传播效应。",
     "tags": [
@@ -7388,7 +7421,7 @@
   {
     "id": 616,
     "title": "Digital dissent and social grass-roots mobilization on X: The impact of #MahsaAmini on digital political activism in the Islamic Republic of Iran",
-    "title_zh": "数字异议与社会基层动员在X平台上的表现：#MahsaAmini事件对伊朗伊斯兰共和国数字政治活动的影响",
+    "title_zh": "数字异议与社交媒体上的草根动员：#MahsaAmini事件对伊朗伊斯兰共和国数字政治活动的影响",
     "authors": [
       "Arash Beidollahkhani",
       "Mahboobe Farkhari"
@@ -7402,7 +7435,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This paper examines how dissent and social mobilization were constructed on Persian X (formerly Twitter) during the protests following Mahsa Amini’s death in 2022. Through a combined quantitative and qualitative analysis of posts using the hashtag #MahsaAmini (مهسا_امینی#), the study shows that X functioned not only as a space for reporting events but also as a medium for coordination, framing political demands, and articulating visions of systemic change. The findings highlight how digitally mediated communication enabled the rapid formation and circulation of oppositional narratives despite severe restrictions on access and expression within Iran.",
-    "abstract_zh": "本文研究了2022年马赫萨·阿米尼（Mahsa Amini）去世后，波斯X平台（原名为Twitter）上如何形成反对意见和社会动员。通过结合定量和定性分析，利用标签#MahsaAmini（مهسا_امینی#）发布的帖子，研究发现该平台不仅是一个报道事件的空间，还成为了协调行动、构建政治诉求以及表达系统性变革愿景的媒介。研究结果表明，尽管伊朗对信息获取和表达存在严格限制，但数字化传播方式仍促进了反对言论的迅速形成和传播。",
+    "abstract_zh": "本文探讨了2022年马赫萨·阿米尼（Mahsa Amini）去世后，伊朗社交平台X（前身为Twitter）上如何形成反对声音和社会动员。通过结合定量和定性分析，研究使用了标签#MahsaAmini（مهسا_امینی#）来分析相关帖子，发现X平台不仅是一个报道事件的空间，还成为了协调行动、构建政治诉求以及表达系统性变革愿景的媒介。研究结果表明，尽管伊朗在网络访问和言论表达方面存在严格限制，但数字化传播方式仍然促进了反对言论的迅速形成和传播。",
     "summary": "论文分析2022年伊朗#MahsaAmini抗议期间波斯语X上的异议与社会动员，发现平台既报告事件又协调行动与构建政治诉求，揭示受限环境下的数字传播作用。",
     "reason": "研究社交媒体X上的数字异议与动员，量化与质性分析帖子内容，属计算传播议题。",
     "tags": [
@@ -7436,7 +7469,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This paper challenges the generally implied view in the literature on political language that metaphors attract citizens’ attention. We examined the influence of metaphorical expressions in social media posts on user engagement during the 2023 Turkish general elections, focusing on tweets by the two main presidential candidates who contested the run-off election and five major political parties that gained parliamentary representation (N = 4131). A data-driven framework measured the frequency and originality of metaphors in each post to assess their impact on likes, reposts, and replies. The results showed that metaphor frequency modestly increased engagement by 1–2%, while metaphor originality had a stronger effect, boosting likes and reposts by 6–7%. Replies, however, were less influenced, reflecting the ‘engagement ladder’ concept – the idea that as more mental effort is required, people tend to interact less. In addition, metaphor use intensified as critical election days approached, indicating strategic efforts to engage the audience. Overall, while metaphors enhance relatability and memorability, our findings showed that their actual impact on user engagement is modest and depends on contextual factors.",
-    "abstract_zh": "本文质疑了文献中普遍认为的“隐喻能够吸引公民注意力”的观点。我们研究了2023年土耳其大选期间社交媒体帖子中隐喻表达对用户参与度的影响，重点关注了参与决选选举的两位主要总统候选人的推文以及获得议会席位的五个主要政党的推文（样本量N=4131）。我们采用了一种数据驱动的分析框架，测量了每条帖子中隐喻的频率和原创性，以评估它们对点赞数、转发数和回复数的影响。研究结果表明，隐喻的频率仅使用户参与度提高了1-2%；而隐喻的原创性则产生了更显著的效果，使点赞数和转发数分别增加了6-7%。然而，回复数受到的影响较小，这反映了“参与度阶梯”理论——即当需要投入更多的心理努力时，人们的互动意愿会降低。此外，随着选举关键日期的临近，隐喻的使用频率有所增加，这表明各政党在试图通过隐喻来吸引受众的注意力。总体而言，尽管隐喻能够增强内容的关联性和记忆性，但我们的研究发现它们对用户参与度的实际影响较为有限，并且这种影响取决于具体的情境因素。",
+    "abstract_zh": "本文挑战了文献中普遍认为的“隐喻能够吸引公民注意力”的观点。我们研究了2023年土耳其大选期间社交媒体帖子中隐喻表达对用户参与度的影响，重点关注了参与决选选举的两位主要总统候选人的推文以及获得议会席位的五个主要政党的推文（样本量N=4131）。我们采用了一种数据驱动的分析框架，测量了每条推文中隐喻的频率和原创性，以评估它们对点赞数、转发数和回复数的影响。研究结果表明，隐喻的频率仅使用户参与度提高了1-2%；而隐喻的原创性对用户参与度的影响更为显著，使点赞数和转发数分别增加了6-7%。然而，回复数受到的影响较小，这反映了“参与度阶梯”理论——即当需要投入更多的心理努力时，人们的互动意愿会降低。此外，随着选举关键日期的临近，隐喻的使用频率有所增加，这表明各政党在试图通过隐喻来吸引受众的注意力。总体而言，尽管隐喻能够增强内容的关联性和记忆度，但我们的研究发现它们对用户参与度的实际影响较为有限，并且这种影响取决于具体的情境因素。",
     "summary": "研究2023土耳其大选中政治人物推文的隐喻对用户互动的影响，发现隐喻频率和原创性可小幅提升点赞与转发，回复影响较弱。",
     "reason": "使用数据驱动文本分析框架研究社交媒体政治推文的隐喻效果，属计算传播范畴。",
     "tags": [
@@ -7470,7 +7503,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study extends Strategic Ambiguity Theory by exploring how institutional characteristics influence social media engagement in higher education. Using Instagram data from 25 U.S. universities with high international student enrollment (2023–2024), it examines the effects of institutional type, follower count, and posting frequency on two metrics: engagement rate per follower and per post, representing relational depth and content amplification. Analyses employed t tests, Spearman correlations, and multiple regression. Findings reveal no significant difference in posting frequency between public and private universities, indicating convergence in posting practices. Public universities achieved higher engagement per follower and, after controlling for audience size, higher engagement per post. Follower count showed a dual effect: negatively predicting engagement per follower but positively predicting engagement per post, underscoring a trade-off between efficiency and reach. Posting frequency neither improved engagement per post nor enhanced engagement per follower, suggesting limited value in volume-based strategies. Theoretically, these results support Strategic Ambiguity Theory by demonstrating how organizational structure and audience scale condition engagement outcomes in platform-based communication environments. By linking institutional identity to observable audience response, the study positions Strategic Ambiguity Theory as a viable middle-range framework for integrating organizational features, platform dynamics, and stakeholder engagement in digital strategic communication.",
-    "abstract_zh": "本研究扩展了“战略模糊性理论”（Strategic Ambiguity Theory），探讨了机构特征如何影响高等教育中的社交媒体参与度。通过分析25所美国高校（2023–2024学年）在Instagram上的数据（这些高校拥有大量国际学生），研究了机构类型、粉丝数量和发布频率对两个指标的影响：每个粉丝的参与度和每条帖子的参与度。这两个指标分别代表了用户之间的互动深度和内容传播效果。研究采用了t检验、斯皮尔曼相关性分析（Spearman correlations）以及多元回归分析（multiple regression）。研究结果表明，公立大学与私立大学在发布频率上没有显著差异，说明两者的发布行为趋于一致。公立大学在每个粉丝的参与度方面表现更好；在控制了受众规模后，公立大学在每条帖子的参与度上也更高。粉丝数量对参与度的影响具有双重性：它既降低了每个粉丝的参与度，又提高了每条帖子的参与度，这表明在效率与覆盖范围之间存在权衡。发布频率既没有提高每条帖子的参与度，也没有提升每个粉丝的参与度，说明基于发布数量的策略效果有限。从理论上讲，这些结果支持了“战略模糊性理论”，因为它展示了组织结构和受众规模如何影响基于平台的沟通环境中的参与效果。通过将机构身份与可观察到的受众反应联系起来，本研究将“战略模糊性理论”视为一个可行的中间层次框架，有助于整合组织特征、平台动态以及利益相关者在数字战略沟通中的参与行为。",
+    "abstract_zh": "本研究扩展了“战略模糊性理论”（Strategic Ambiguity Theory），探讨了机构特征如何影响高等教育中的社交媒体参与度。通过分析25所美国高校（2023–2024学年）在Instagram上的数据（这些高校拥有大量国际学生），研究了机构类型、粉丝数量和发布频率对两个指标的影响：每个粉丝的参与度和每条帖子的参与度。这两个指标分别代表了用户之间的互动深度和内容传播效果。研究采用了t检验、斯皮尔曼相关性分析（Spearman correlations）以及多元回归分析（multiple regression）。研究结果表明，公立大学与私立大学在发布频率上没有显著差异，说明两者的发布行为趋于一致。公立大学在每个粉丝的参与度方面表现更好；在控制了受众规模后，公立大学在每条帖子的参与度方面也更具优势。粉丝数量对参与度的影响具有双重性：它既降低了每个粉丝的参与度，又提高了每条帖子的参与度，这表明在效率与覆盖范围之间存在权衡。发布频率既没有提高每条帖子的参与度，也没有提升每个粉丝的参与度，说明基于发布数量的策略效果有限。从理论角度来看，这些发现支持了“战略模糊性理论”，因为它表明了组织结构和受众规模如何影响基于平台的沟通环境中的参与结果。通过将机构身份与可观察到的受众反应联系起来，本研究将“战略模糊性理论”视为一个可行的中间框架，有助于整合组织特征、平台动态以及利益相关者在数字战略沟通中的参与行为。",
     "summary": "基于25所美国大学Instagram数据，分析机构类型、粉丝数、发帖频率对参与度的影响，发现公立大学参与度更高，粉丝数存在效率与触达的权衡。",
     "reason": "研究社交媒体平台Instagram的参与度，使用平台数据及统计建模，符合计算传播领域议题与数据驱动方法。",
     "tags": [
@@ -7504,7 +7537,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "As artificial intelligence (AI) becomes increasingly integrated into digital information environments, understanding how individuals seek risk information through AI-powered chatbots remains underexplored. Existing models, such as the Risk Information Seeking and Processing Model (RISP), have been widely applied in traditional and digital media contexts, but their applicability to AI-driven information-seeking behaviors requires further examination. This study addresses this gap by developing and testing the AI-Based Risk Information-Seeking Model (ARISM), which incorporates AI-related cognitive and affective factors, including privacy concerns and AI anxiety. Using structural equation modeling (SEM) with a sample of 993 U.S. adults, the findings suggest that while core predictors from RISP remain significant, AI-related factors significantly shape risk information-seeking intent. The results supported all hypotheses based on existing models. Furthermore, the newly added relationships reflecting cognitions and affective responses regarding AI technology risks were all significant. For instance, privacy concerns about AI technology were negatively related to perceived information-gathering capacity via AI chatbots and positively related to AI anxiety. In addition, AI anxiety was negatively related to positive channel beliefs toward AI chatbots, which significantly affected seeking intent via AI chatbots. Our findings offer theoretical insights by applying established models to an integrated context and highlighting how cognitive and affective responses to AI influence information seeking. Practically, the study informs chatbot designers and policymakers on the importance of transparency and privacy in building trust.",
-    "abstract_zh": "随着人工智能（AI）越来越多地融入数字信息环境，人们如何通过AI驱动的聊天机器人来获取风险信息这一现象仍缺乏深入研究。现有的模型（如风险信息寻求与处理模型RISP）已在传统媒体和数字媒体环境中得到广泛应用，但它们是否适用于AI驱动的信息寻求行为仍需进一步验证。本研究通过开发并测试基于AI的风险信息寻求模型（ARISM）来填补这一空白，该模型考虑了与AI相关的认知和情感因素，包括隐私担忧和AI焦虑。研究采用结构方程建模（SEM）方法，对993名美国成年人进行了分析。结果表明，虽然RISP模型中的核心预测变量仍然具有显著性，但与AI相关的因素显著影响了人们寻求风险信息的意图。研究结果支持了所有基于现有模型的假设，并且新增的、反映人们对AI技术风险认知和情感反应的变量也均具有显著性。例如，对AI技术的隐私担忧与通过AI聊天机器人获取信息的意愿呈负相关，而AI焦虑则与人们对AI聊天机器人的积极态度呈正相关，这种态度显著影响了人们通过AI聊天机器人获取信息的意愿。我们的发现通过将现有模型应用于综合环境，为理解人们对AI的认知和情感反应如何影响信息寻求提供了理论依据。在实际应用层面，该研究为聊天机器人设计者和政策制定者提供了有关透明度和隐私保护在建立信任方面的重要性的启示。",
+    "abstract_zh": "随着人工智能（AI）越来越多地融入数字信息环境，人们如何通过AI驱动的聊天机器人来获取风险信息这一现象仍缺乏深入研究。现有的模型（如风险信息寻求与处理模型RISP）已在传统媒体和数字媒体环境中得到广泛应用，但它们是否适用于AI驱动的信息寻求行为仍需进一步验证。本研究通过开发并测试基于AI的风险信息寻求模型（ARISM）来填补这一空白，该模型考虑了与AI相关的认知和情感因素，包括隐私担忧和AI焦虑。研究采用结构方程建模（SEM）方法，对993名美国成年人进行了调查。结果表明，虽然RISP模型中的核心预测因子仍然具有显著性，但与AI相关的因素显著影响了人们寻求风险信息的意图。研究结果支持了所有基于现有模型的假设，并且新增的、反映人们对AI技术风险认知和情感反应的变量也均具有显著性。例如，对AI技术的隐私担忧与通过AI聊天机器人获取信息的意愿呈负相关，而AI焦虑则与人们对AI聊天机器人的积极态度呈正相关，这种态度显著影响了人们通过AI聊天机器人寻求信息的意愿。我们的发现通过将现有模型应用于综合环境，为理解人们对AI的认知和情感反应如何影响信息寻求提供了理论依据。从实践角度来看，该研究为聊天机器人设计者和政策制定者提供了关于透明度和隐私在建立信任方面的重要性的启示。",
     "summary": "基于RISP模型提出ARISM，用993名美国成年人样本检验AI聊天机器人情境下风险信息寻求意图，发现隐私担忧和AI焦虑等AI相关因素显著影响信息寻求行为。",
     "reason": "研究AI聊天机器人的风险信息寻求行为，属AI社会影响议题，虽用SEM但适用AI特别条款。",
     "tags": [
@@ -7537,7 +7570,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Propósito: El propósito de este estudio es conocer el alcance de los mensajes difundidos en TikTok sobre la tendencia conocida como “Sephora Kids”, un movimiento que anima a las niñas a utilizar cosmética adulta. Esta moda, presente en diversas redes sociales, muestra cómo niñas consumen y promocionan productos cosméticos y de cuidado personal no adecuados para su edad. Metodología: La metodología usada es inductiva, materializada en una ficha de análisis de contenido. Con este instrumento se analiza un total de 500 vídeos. Resultados: Los resultados reflejan que el 63,8 % de los prosumidores se muestra a favor de la tendencia y que el 61,2 % utiliza un tono humorístico al tratarla. Los contenidos críticos apenas representan el 10,1 %, lo que evidencia una percepción mayoritariamente positiva y una escasa presencia de mensajes de advertencia. TikTok se consolida como un espacio de amplificación y normalización de esta práctica entre audiencias jóvenes, impulsada por el contenido generado por usuarios y el marketing de influencia. Conclusiones: Se subraya la necesidad de fomentar la alfabetización digital para promover un consumo más crítico y responsable entre las niñas. Se recomienda ampliar la muestra a otras plataformas y considerar la percepción de familias y educadores para comprender mejor sus efectos psicosociales.",
-    "abstract_zh": "**研究目的：** 本研究的目的是了解在TikTok上传播的关于“Sephora Kids”这一趋势的信息范围。“Sephora Kids”是一种鼓励女孩使用成人化妆品的潮流。这一现象在多个社交媒体平台上普遍存在，反映了女孩们如何消费和推广不适合她们年龄的化妆品和个人护理产品。\n\n**研究方法：** 本研究采用归纳法，通过内容分析工具对500个视频进行了分析。\n\n**研究结果：** 结果显示，63.8%的参与者支持这一趋势，其中61.2%在讨论该趋势时采用了幽默的语气。批评性内容仅占10.1%，这表明公众对该趋势的整体态度较为积极，同时警示性信息也非常少。TikTok在年轻用户中起到了放大和固化这一现象的作用，这一过程主要受到用户生成内容和网红营销的影响。\n\n**研究结论：** 文章强调有必要推广数字素养教育，以帮助女孩培养更加批判性和负责任的消费行为。建议将研究范围扩展到其他社交媒体平台，并考虑家庭和教育工作者的看法，以便更全面地了解这一现象的心理社会影响。",
+    "abstract_zh": "**研究目的：** 本研究的目的是了解在TikTok上传播的关于“Sephora Kids”这一趋势的信息范围。“Sephora Kids”是一种鼓励女孩使用成人化妆品的潮流。这一现象在多个社交媒体平台上都有体现，它揭示了女孩们如何消费和推广不适合她们年龄的化妆品和个人护理产品。\n\n**研究方法：** 本研究采用归纳法，通过内容分析工具对500个视频进行了分析。\n\n**研究结果：** 结果显示，63.8%的参与者支持这一趋势，其中61.2%在讨论该趋势时采用了幽默的语气。批评性内容仅占10.1%，这表明公众对该趋势的认知总体上是积极的，同时警告性信息也非常少。TikTok在年轻用户中起到了放大和固化这一现象的作用，这一过程受到用户生成内容和网红营销的推动。\n\n**研究结论：** 文章强调需要加强数字素养教育，以培养女孩们更加批判性和负责任的消费行为。建议将研究范围扩展到其他平台，并考虑家庭和教育工作者的看法，以便更全面地了解这一现象的心理社会影响。",
     "summary": "该研究通过内容分析500个TikTok视频，考察“Sephora Kids”趋势的传播效果，发现多数内容呈正面幽默态度，批判性内容少，平台助长该趋势在年轻受众中的正常化，倡导加强数字素养教育。",
     "reason": "研究主题涉及TikTok社交媒体平台及用户内容传播，属于计算传播领域议题。",
     "tags": [
@@ -7580,7 +7613,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "While much scholarship on algorithms has been largely theoretical, this study examines how 356 early adolescents (ages 10–13) chose their YouTube content. Using the YouTube Algorithm Dependence (YAD) scale, findings show that the participants with the lowest dependency on the platform’s algorithm received more video recommendations from family than from YouTube’s recommendation algorithm. The study also introduces the concept of negotiated technological choice, a mode of interaction that reflects the tension between human agency and algorithmic influence. This framework offers media scholars a lens for analyzing how individuals engage with algorithm-driven platforms in everyday media practices.",
-    "abstract_zh": "虽然关于算法的许多研究主要集中在理论层面，但本研究探讨了356名青少年（年龄在10至13岁之间）如何选择他们在YouTube上观看的内容。通过使用“YouTube算法依赖性”（YouTube Algorithm Dependence, YAD）量表，研究发现，那些对平台算法依赖程度较低的参与者，从家人那里获得的视频推荐比从YouTube的推荐系统那里获得的推荐更多。该研究还提出了“协商性技术选择”（negotiated technological choice）这一概念，这种互动方式反映了人类自主性与算法影响之间的矛盾。这一框架为媒体学者提供了一个分析个体在日常媒体使用中如何与算法驱动的平台互动的视角。",
+    "abstract_zh": "虽然关于算法的许多研究主要集中在理论层面，但本研究探讨了356名青少年（年龄在10至13岁之间）如何选择他们在YouTube上观看的内容。通过使用“YouTube算法依赖性”（YouTube Algorithm Dependence, YAD）量表，研究结果表明，那些对平台算法依赖程度最低的参与者，从家人那里获得的视频推荐比从YouTube的推荐系统中获得的推荐更多。该研究还提出了“协商性技术选择”（negotiated technological choice）这一概念，这种互动方式反映了人类自主性与算法影响之间的矛盾。这一框架为媒体学者提供了一个分析个体在日常媒体使用中如何与算法驱动的平台进行互动的视角。",
     "summary": "通过356名10-13岁青少年的调查，使用YAD量表测量其算法依赖，发现依赖低的青少年更多接受家庭推荐，并提出“协商技术选择”概念。",
     "reason": "研究YouTube推荐算法对青少年内容选择的影响，属于算法推荐与平台传播的核心议题，尽管方法为量表调查但主题紧密相关。",
     "tags": [
@@ -7602,7 +7635,7 @@
   {
     "id": 467,
     "title": "Human PR is Irreplaceable and AI as a Supporting Tool: Exploring Indonesian PR Practitioners’ Attitudes, Applications, and Adoption of AI",
-    "title_zh": "人类公关工作是不可替代的，而人工智能（AI）仅作为辅助工具：探究印度尼西亚公关从业者对AI的态度、应用情况及其采纳程度",
+    "title_zh": "人类公关工作是不可替代的，而人工智能（AI）仅能作为辅助工具：探究印度尼西亚公关从业者对AI的态度、应用情况及其采纳程度",
     "authors": [
       "Silvanus Alvin"
     ],
@@ -7614,7 +7647,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study aims to offer a novel contribution by examining the attitudes, usage, and levels of artificial intelligence adoption among public relations (PR) practitioners in the Indonesian context. This topic is particularly relevant given Indonesia’s high internet penetration rate and its increasing engagement with AI technologies. Employing an exploratory qualitative approach, this research is based on semi-structured interviews with 20 PR practitioners. One of the key findings reveals that, although AI is often perceived as a threat, Indonesian PR professionals generally believe their roles remain secure, as long as human relational skills are maintained. The study further elaborates on how practitioners perceive and utilize AI in their daily work. Theoretically, it contributes to the field by mapping the practitioners’ adoption levels using the framework of Diffusion of Innovations theory. Notably, the findings show that few PR practitioners did not actively seek out AI-related information. Rather, they were passively exposed to it through algorithm-driven content on social media platforms. Finally, this study identifies several challenges faced by Indonesian PR professionals in navigating AI integration into their practice.",
-    "abstract_zh": "本文旨在通过研究印度尼西亚公共关系（PR）从业者对人工智能（AI）的态度、使用情况以及采用程度，为该领域带来新的见解。鉴于印度尼西亚较高的互联网普及率及其对AI技术的日益关注，这一主题显得尤为重要。本研究采用探索性定性方法，通过对20名PR从业者进行半结构化访谈来收集数据。其中一个关键发现是：尽管AI常被视为一种威胁，但印度尼西亚的PR专业人士普遍认为，只要他们保持人际交往能力，自己的工作地位仍然是安全的。研究进一步探讨了从业者如何在日常工作中理解和运用AI。从理论角度来看，本研究通过运用“创新扩散理论”框架，揭示了这些从业者的AI采用程度。值得注意的是，只有少数PR从业者主动寻求与AI相关的信息，他们主要是通过社交媒体平台上的算法推荐内容被动接触到AI的。最后，本研究指出了印度尼西亚PR专业人士在将AI整合到其工作中所面临的若干挑战。",
+    "abstract_zh": "本文旨在通过研究印度尼西亚公共关系（PR）从业者对人工智能（AI）的态度、使用情况以及采用程度，为该领域带来新的见解。鉴于印度尼西亚较高的互联网普及率及其对AI技术的日益关注，这一主题显得尤为重要。本研究采用探索性定性方法，通过对20名PR从业者进行半结构化访谈来收集数据。其中一个关键发现是：尽管AI常被视为一种威胁，但印度尼西亚的PR专业人士普遍认为，只要他们保持人际交往能力，自己的工作地位仍然是安全的。研究进一步探讨了从业者如何在日常工作中理解和运用AI。从理论角度来看，本研究通过运用“创新扩散理论”框架，揭示了这些从业者的AI采用情况。值得注意的是，只有少数PR从业者主动寻求与AI相关的信息，他们主要是通过社交媒体平台上的算法驱动内容被动接触到AI的。最后，本研究指出了印度尼西亚PR专业人士在将AI整合到其工作中所面临的若干挑战。",
     "summary": "通过20位印尼公关从业者的半结构化访谈，探讨其对AI的态度、应用和采纳水平，发现人类关系技能不可替代，AI为主要支持工具，并基于扩散理论分析采纳层级。",
     "reason": "研究AI在印尼公关实践中的态度与应用，属于生成式AI的使用行为与社会影响，符合AI特别条款。",
     "tags": [
@@ -7651,7 +7684,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Political deepfakes potentially undermine democracy by amplifying socio-political divides in hyper-realistic manners. As an important next step in understanding the political consequences of deepfakes, this article reports on the longer-term effects of deepfakes across two different political settings: The US and the Netherlands. We conducted three-wave pre-registered experiments spanning a full week in which we exposed participants in the US and the Netherlands to realistic political deepfakes. We found that, in both political settings, exposure to deepfakes lowered support for the targeted political actor. This effect was strongest for people initially supporting the attacked politician. Although deepfakes had a delegitimizing impact, they were rated as substantially less credible than authentic videos. Although fact-checks were able to lower the credibility of deepfakes, the delegitimizing impact of deepfakes was resilient to corrections. These findings highlight the continued influence of corrected deepfakes on political beliefs.",
-    "abstract_zh": "政治深度伪造（political deepfakes）可能通过以超现实的方式加剧社会政治分歧来破坏民主。作为理解深度伪造政治后果的重要一步，本文研究了深度伪造在两种不同政治环境（美国和荷兰）中的长期影响。我们进行了三波预先注册的实验，每项实验持续一周，让美国和荷兰的参与者接触到真实的政治深度伪造内容。研究发现，在这两种政治环境中，接触深度伪造内容都会降低人们对目标政治人物的支持度。这种效应在最初支持被攻击政治人物的人群中最为明显。尽管深度伪造具有削弱其合法性的作用，但它们被认为比真实视频的可信度要低得多。虽然事实核查能够降低深度伪造的可信度，但其削弱合法性的影响却对纠正措施具有抵抗力。这些发现凸显了经过纠正的深度伪造内容对政治信念的持续影响。",
+    "abstract_zh": "政治深度伪造（political deepfakes）可能通过以超现实的方式加剧社会政治分歧来破坏民主。作为理解深度伪造政治后果的重要一步，本文研究了深度伪造在两种不同政治环境（美国和荷兰）中的长期影响。我们进行了三波预先注册的实验，每项实验持续一周，让美国和荷兰的参与者接触到真实的政治深度伪造内容。研究发现，在这两种政治环境中，接触深度伪造内容都会降低人们对目标政治人物的支持度。这种效应在最初支持受攻击政治人物的人群中最为明显。尽管深度伪造具有削弱其合法性的作用，但人们认为这些伪造内容的可信度远低于真实视频。虽然事实核查能够降低深度伪造的可信度，但其削弱合法性的影响仍然难以被消除。这些发现凸显了经过修正的深度伪造内容对政治信念的持续影响。",
     "summary": "通过美国和荷兰的三波预注册实验，考察政治深度伪造对目标政治人物的去合法化影响，发现其降低支持率且事实核查难以消除影响。",
     "reason": "研究AI深度伪造的政治传播影响，属AI社会影响议题，虽用实验方法仍纳入计算传播范围。",
     "tags": [
@@ -7673,7 +7706,7 @@
   {
     "id": 227,
     "title": "Political Communication Special Issue Introduction: Multi-Platform Research",
-    "title_zh": "《政治传播特刊》导言：多平台研究",
+    "title_zh": "政治传播特刊导言：多平台研究",
     "authors": [
       "Josephine Lukito",
       "Meredith L. Pruden",
@@ -7693,7 +7726,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "In this introduction to the Multi-Platform Research Special Issue, we continue a field-wide discussion regarding how political communication scholars conduct multi-platform research. Despite the continued challenges to develop both robust methods and longstanding theoretical frameworks, political communication research that accounts for multiple platforms has continued to grow. In addition to noting these challenges, we outline a framework to distinguish comparative studies, which focus on patterned similarities and differences across platforms, and systemic studies, which seek to understand how platform content, users, and affordances may be shaped by one another. Articles that are a part of this Special Issue demonstrate the theoretical, methodological, and empirical value of multi-platform research, taking into account a broad array of countries, cultural contexts, and political action to analyze political communication as it actually occurs: across multiple interlocking and rapidly-evolving digital platforms.",
-    "abstract_zh": "在这篇关于多平台研究特刊的引言中，我们继续探讨了政治传播学者如何开展多平台研究的议题。尽管在开发可靠的研究方法和完善长期存在的理论框架方面仍面临诸多挑战，但考虑到多个平台因素的政治传播研究仍在不断发展。除了指出这些挑战之外，我们还提出了一个框架，用以区分两种类型的研究：一种是比较研究，侧重于分析不同平台之间的相似性和差异性；另一种是系统研究，旨在探讨平台内容、用户以及平台本身的特性是如何相互影响的。本特刊中的文章展示了多平台研究的理论价值、方法论价值以及实证价值，这些研究涵盖了广泛的国家、文化背景和政治行为，从而能够真实地分析政治传播现象——即政治传播是如何在多个相互关联且快速发展的数字平台上发生的。",
+    "abstract_zh": "在这篇关于多平台研究特刊的引言中，我们继续探讨了政治传播学者如何开展多平台研究的议题。尽管在开发可靠的研究方法和完善理论框架方面仍面临诸多挑战，但考虑到多个平台因素的政治传播研究仍在不断进展。除了指出这些挑战之外，我们还提出了一个框架，用以区分两种类型的研究：一种是比较研究，侧重于不同平台之间的相似性和差异性；另一种是系统研究，旨在探讨平台内容、用户及平台特性之间的相互影响关系。本特刊中的文章展示了多平台研究的理论价值、方法论价值以及实证意义，这些研究涵盖了广泛的国家、文化背景和政治行为，从而能够真实地分析政治传播在多个相互关联且快速发展的数字平台上的运作方式。",
     "summary": "特刊导言探讨政治传播学者如何进行多平台研究，提出比较研究与系统研究框架，强调多平台互嵌对政治传播分析的重要性。",
     "reason": "议题涉及多平台数字媒体与政治传播，方法关注跨平台比较与系统分析，属计算传播领域。",
     "tags": [
@@ -7732,7 +7765,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Rather than framing disinformation as false facts which can be countered by true facts, we propose a model of disinformation as narrative by tracing three case studies of successful disinformation across Facebook and Twitter. As stories, disinformation disseminates throughout culture and exists at all levels of media and across genres. Using a dataset of content hosted on URLs shared widely on social media corresponding to U.S. left, right, and nonpartisan examples of disinformation, we examine how successful disinformation circulates as narratives across platforms and genres. We find that all three case studies meet the formal criteria of narrative, and that narrative is intrinsically emotional and moral, providing catharsis for those who share it. Understanding that successful disinformation narratives are enforced by cultural forces, are intrinsically linked to identity, and hold deep emotional resonance for those with whom they resonate has vast implications for responding to and countering them.",
-    "abstract_zh": "我们没有将虚假信息简单地视为可以通过真实事实来反驳的错误陈述，而是提出了一种将虚假信息视为“叙事”的模型。通过分析在Facebook和Twitter上成功的虚假信息传播案例，我们发现虚假信息以叙事的形式在文化中传播，并存在于各种媒体类型和领域中。我们使用了一个数据集，该数据集包含了在社交媒体上广泛分享的内容，这些内容代表了美国左翼、右翼以及无党派立场的虚假信息示例。通过研究这些案例，我们探讨了虚假信息如何作为叙事在不同平台和媒体类型中传播。研究发现，这三个案例都符合叙事的正式定义；同时，叙事本身具有情感性和道德性，能够为传播者带来某种“宣泄”效果（即让传播者感到情绪上的释放）。认识到成功的虚假信息叙事是由文化力量推动的，与人们的身份认同紧密相关，并且能够引起共鸣人群的强烈情感反应，这对我们如何应对和抵制这些虚假信息具有重要的启示意义。",
+    "abstract_zh": "我们没有将虚假信息简单地视为可以通过真实事实来反驳的错误陈述，而是提出了一种将虚假信息视为“叙事”的模型。通过分析三个在Facebook和Twitter上成功传播虚假信息的案例研究，我们发现虚假信息作为叙事在文化中广泛传播，并存在于各种媒体形式和类型中。我们使用了一个数据集，其中包含了在社交媒体上广泛分享的内容，这些内容代表了美国左翼、右翼以及无党派立场的虚假信息示例。通过研究这些案例，我们探讨了虚假信息如何作为叙事在不同平台和类型中传播。研究发现，这三个案例都符合叙事的基本特征：叙事本质上具有情感性和道德性，能够为传播者带来某种“宣泄”效果（即情感上的释放）。认识到成功的虚假信息叙事是由文化力量推动的，与人们的身份认同密切相关，并且能够引起共鸣人群的强烈情感反应，这对于应对和打击虚假信息具有重要的意义。",
     "summary": "将虚假信息概念化为跨平台、身份认同和宣泄性的文化叙事，基于Facebook和Twitter广泛分享的URL内容数据集，分析三个案例，发现成功虚假信息符合叙事标准，具有情感和道德维度。",
     "reason": "研究社交媒体上的虚假信息叙事，使用跨平台数据集，属于计算传播核心议题。",
     "tags": [
@@ -7754,7 +7787,7 @@
   {
     "id": 382,
     "title": "Love and romance in China: from comrades and partners to AI lovers",
-    "title_zh": "中国的爱情与浪漫：从同志和伴侣到人工智能恋人",
+    "title_zh": "中国的爱情与浪漫：从同志与伴侣到人工智能恋人",
     "authors": [
       "Zhiming Liu"
     ],
@@ -7788,7 +7821,7 @@
   {
     "id": 383,
     "title": "Embedded governance in China’s screen culture industry: from infiltration to co-optation",
-    "title_zh": "中国影视文化产业中的嵌入式治理机制：从渗透到吸纳",
+    "title_zh": "中国影视文化产业中的嵌入式治理：从渗透到吸纳",
     "authors": [
       "Hung-Yen Hsu",
       "Ya-Yin Lin"
@@ -7802,7 +7835,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study examines embedded governance in China’s private television drama industry. We analyze how the Central Propaganda Department (CPD) and the United Front Work Department (UFWD) coordinate to steer this commercialized sector through the Grand United Front (大统战) at the micro level. Through institutional analysis and a two-mode network map of 59 key elites and 58 organizations – linked to 131 National Radio and Television Administration (NRTA)-backed private dramas (2013–2024) – we identify a three-stage process of elite co-optation. We argue that the Party-state builds a sophisticated control network by deploying ‘Red Capitalist’ insiders, mobilizing their kinship networks, and absorbing outsiders through institutional approaches. This process transforms guanxi (关系, interpersonal ties) into a media governance infrastructure for transmitting political signals and normalizing compliance. We identify three patterns of relational control – Relational Infiltration, Relational Co-optation, and Regime Co-optation – that demonstrate a shift from external co-optation to deeply embedded governance by insiders. The case of Macao’s ‘Aollywood’ (澳涞塢) suggests a possible extraterritorial extension of the model. Our findings contribute to the political economy of communication, specifying how an authoritarian regime institutionalizes embedded governance to maintain ideological control within a marketized media system.",
-    "abstract_zh": "本文研究了中国私营电视剧产业中的嵌入式治理机制。我们分析了中央宣传部（CPD）和统一战线工作部（UFWD）如何通过“大统战”战略在微观层面上协调管理这一商业化行业。通过对59位关键精英和58个组织的制度分析（这些组织和131部由国家广播电视总局（NRTA）支持的私营电视剧相关，时间跨度为2013年至2024年），我们发现了一个包含三个阶段的精英吸纳过程。我们认为，党政府通过部署“红色资本家”内部人士、调动他们的亲属网络，并通过制度手段吸收外部人士，构建了一个复杂的控制网络。这一过程将“关系”（guanxi，即人际网络）转化为一种媒体治理基础设施，用于传递政治信号并使人们遵守相关规定。我们识别出三种关系控制模式：关系渗透（Relational Infiltration）、关系吸纳（Relational Co-optation）和政权吸纳（Regime Co-optation），这些模式表明治理方式已从外部控制转变为内部人士深度参与的嵌入式治理。澳门的“Aollywood”案例表明，这种治理模式有可能扩展到境外地区。我们的研究结果为传播政治经济学提供了新的见解，揭示了威权政权如何在市场化媒体体系中制度化嵌入式治理机制，以维持意识形态控制。",
+    "abstract_zh": "本文研究了中国私营电视剧产业中的嵌入式治理机制。我们分析了中央宣传部（CPD）和统一战线工作部（UFWD）如何通过“大统战”战略在微观层面上协调管理这一商业化行业。通过对59位关键精英和58个组织的机构分析（这些组织和131部由国家广播电视总局（NRTA）支持的私营电视剧相关，时间跨度为2013年至2024年），我们发现了一个包含三个阶段的精英吸纳过程。我们认为，党国通过任命“红色资本家”作为内部人士、动员他们的亲属网络，并通过制度手段吸纳外部人士，构建了一个复杂的控制网络。这一过程将“关系”（guanxi，即人际网络）转化为一种媒体治理基础设施，用于传递政治信号并使人们遵守相关规定。我们识别出三种关系控制模式：关系渗透（Relational Infiltration）、关系吸纳（Relational Co-optation）和政权吸纳（Regime Co-optation），这些模式表明治理方式已从外部控制转变为内部人士深度参与的嵌入式治理。澳门的“澳涞塢”（Aollywood）案例表明，这种治理模式可能具有超越地域限制的适用性。我们的研究结果为传播的政治经济学提供了新的见解，揭示了威权政权如何将嵌入式治理机制制度化，以在市场化媒体体系中维持意识形态控制。",
     "summary": "通过机构分析和双模网络映射，研究中国电视剧产业中党政部门通过精英吸纳实现嵌入式治理的机制，提出三种关系控制模式。",
     "reason": "使用双模网络分析等计算方法研究媒体治理，属于计算传播范畴",
     "tags": [
@@ -7837,7 +7870,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "With the widespread integration of generative artificial intelligence (GenAI) into health information seeking, the prevalence of AI hallucinations necessitates effective verification behaviors. Grounded in the digital divide framework, this study investigates heterogeneous verification patterns for AI-generated health information. We surveyed 597 Chinese adult residents and identified four verifier profiles through the latent profile analysis: verifiers preferring internal verification, verifiers preferring institutional sources, verifiers preferring interpersonal sources and verifiers emphasizing multiple sources. Further analyses suggested that demographic and socioeconomic factors (gender, age, education and income) significantly predicted profile membership. Additionally, the study revealed significant outcome divides associated with individual differences in verification patterns. Specifically, verifiers emphasizing multiple sources reported the highest levels of self-efficacy in identifying AI-generated health misinformation and superior health management outcomes. Notably, verifiers preferring interpersonal sources exhibited weaker self-efficacy and worse health management outcomes compared to verifiers preferring institutional sources. These findings highlight the structural barriers underlying verification divides, offering empirical implications for designing targeted interventions to promote public verification behaviors and narrow associated digital divides.",
-    "abstract_zh": "随着生成式人工智能（GenAI）在健康信息检索中的广泛应用，人工智能产生的虚假信息（AI hallucinations）变得越来越普遍，因此需要采取有效的验证措施。本研究基于“数字鸿沟”框架，探讨了针对AI生成的健康信息的多样化验证行为模式。我们调查了597名中国成年居民，并通过潜在剖面分析（latent profile analysis）识别出四种不同的验证者类型：偏好内部验证信息的验证者、偏好机构来源的验证者、偏好人际交流来源的验证者，以及强调使用多种验证渠道的验证者。进一步分析表明，人口统计和社会经济因素（性别、年龄、教育水平和收入）显著影响了验证者的类型选择。研究还发现，不同的验证行为模式与个体差异密切相关：强调使用多种验证渠道的验证者在识别AI生成的虚假健康信息方面表现出更高的自我效能感，并且在健康管理方面取得了更好的效果；相比之下，偏好人际交流来源的验证者的自我效能感较低，健康管理效果也较差。这些发现揭示了导致验证行为差异的结构性障碍，并为设计有针对性的干预措施提供了实证依据，以促进公众的验证行为并缩小数字鸿沟。",
+    "abstract_zh": "随着生成式人工智能（GenAI）在健康信息检索中的广泛应用，人工智能产生的虚假信息（AI hallucinations）变得越来越普遍，因此需要采取有效的验证措施。本研究基于“数字鸿沟”（digital divide）框架，探讨了针对AI生成的健康信息的多样化验证行为。我们调查了597名中国成年居民，并通过潜在剖面分析（latent profile analysis）识别出四种不同的验证者类型：偏好内部验证信息的验证者、偏好机构来源的验证者、偏好人际交流来源的验证者，以及强调使用多种验证渠道的验证者。进一步分析表明，人口统计和社会经济因素（性别、年龄、教育水平和收入）显著影响了验证者的类型选择。研究还发现，不同的验证行为模式与个体差异之间存在显著关联：强调使用多种验证渠道的验证者在识别AI生成的虚假健康信息方面具有更高的自我效能感，并且在健康管理方面表现更佳；而偏好人际交流来源的验证者的自我效能感较低，健康管理效果也较差。这些发现揭示了导致验证行为差异的结构性障碍，并为设计有针对性的干预措施提供了实证依据，以促进公众的验证行为，从而缩小数字鸿沟。",
     "summary": "基于597名中国成年人的调查，通过潜在剖面分析识别四种AI健康信息验证模式，并检验人口因素与结果差异，发现多重来源验证者效能和健康管理最佳。",
     "reason": "研究AI生成健康信息的验证行为，使用潜在剖面分析等计算方法，涉及数字鸿沟议题。",
     "tags": [
@@ -7869,7 +7902,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Propósito: La investigación analiza las estrategias de inserción de contenidos en X e Instagram y su impacto en los seguidores de los dos principales competidores del Access prime-time español, los talk-show La Revuelta (TVE-1) y El Hormiguero (Antena 3) durante el primer trimestre de 2025, vinculando los datos recabados con las audiencias televisivas obtenidas. Metodología: Se estudian los visionados y tipos de reacciones de los 1.650 contenidos hallados para detectar patrones de comportamiento de la audiencia, determinar engagement rate y acotar la influencia de las variables de formato de mensaje, tipología de red, y temáticas desencadenantes de conversación/debate. El ecosistema construido se triangula con la cifra diaria de espectadores y las publicaciones del mismo período de 2024, cuando no competían en lineal, para crear una doble interrelación comparativa, tanto actual sobre sistemas de audiencias como temporal virtual. Resultados: La Revuelta capitaliza el 88,28% de la reactividad socio-digital, consiguiendo proactividad mediante contenidos exclusivos por plataforma, inéditos para virtual, y narrativas transmedia. Esta prevalencia no se traslada a la audiencia lineal, ámbito liderado por El Hormiguero basándose en el factor fidelización. Concede valor similar a sus redes, reduciéndose la interactividad. La lucha directa en la parrilla de programación ha provocado un 42,97% más de actividad interanual. Conclusiones: Existen claras diferencias estratégicas que determinan una dicotomía en flujos de audiencia, métricas de engagement y construcción de comunidades digitales, caracterizadas por comportamientos asimétricos según soporte y polarización de estados de opinión.",
-    "abstract_zh": "本研究分析了在X平台和Instagram上发布内容的策略，以及这些策略对西班牙两大黄金时段电视节目竞争对手——TVE-1的《La Revuelta》和Antena 3的《El Hormiguero》的观众群体的影响。研究时间范围为2025年第一季度，将收集到的数据与电视收视率进行了对比分析。  \n研究方法：通过对1,650条内容的观看次数和观众反应类型进行统计，分析了观众的观看行为模式，计算了用户的参与度（engagement rate），并探讨了信息格式、网络类型以及引发讨论/辩论的主题等因素对观众行为的影响。同时，将研究结果与2024年同期的每日观众人数及节目发布情况进行了对比，以建立跨时间和跨平台的对比分析框架。  \n研究结果：《La Revuelta》在社交媒体上的互动率（88.28%）显著高于《El Hormiguero》，这主要得益于其为各平台定制的独家内容、首次在虚拟平台上发布的原创内容以及跨媒体叙事方式。然而，这种高互动率并未体现在其线性电视观众群体中，后者在观众忠诚度方面表现更优。此外，《La Revuelta》在社交网络上的互动性相对较低。两节目在节目编排上的直接竞争导致了观众活跃度的同比增长（42.97%）。  \n结论：两者在内容策略上存在明显差异，这些差异导致了观众流量的不同、参与度指标的差异以及数字社区构建方式的差异。这些差异体现在观众根据不同平台选择的不同行为模式以及观点态度的极端分化上。",
+    "abstract_zh": "本研究分析了2025年第一季度，西班牙两大主流电视节目《La Revuelta》（TVE-1）和《El Hormiguero》（Antena 3）在X和Instagram平台上发布内容的策略及其对观众的影响。研究将收集到的数据与电视收视率进行了对比分析。  \n**研究方法：** 通过对1,650条内容的观看情况和观众反应进行分析，研究人员发现了观众的行为模式，计算了用户的参与度（engagement rate），并探讨了信息格式、网络类型以及引发讨论/辩论的主题等因素对观众行为的影响。同时，研究还将当前数据与2024年同期（两节目尚未在相同时间段内竞争时）的收视数据进行了对比，以建立跨时间和跨平台的对比分析框架。  \n**研究结果：**  \n《La Revuelta》在社交媒体上的互动率（88.28%）显著高于《El Hormiguero》，这主要得益于其为各平台定制的独家内容以及跨媒体叙事方式。然而，这种高互动率并未体现在线性电视观众中，后者在观众忠诚度方面更具优势。此外，《La Revuelta》在社交网络上的互动性较低。两节目在节目编排上的直接竞争导致观众活跃度同比增长了42.97%。  \n**结论：** 两节目在内容策略上存在明显差异，这些差异体现在观众流向、用户参与度指标以及数字社区的建设方式上。不同平台上的观众行为存在显著差异，且意见倾向也呈现出两极分化的特征。",
     "summary": "分析西班牙两档脱口秀在X和Instagram的内容策略及受众反应，结合电视收视数据，发现平台互动与线性收视呈不对称关系。",
     "reason": "研究社交媒体平台X和Instagram的内容策略与受众互动，使用量化数据分析和参与度计算，符合计算传播学方法。",
     "tags": [

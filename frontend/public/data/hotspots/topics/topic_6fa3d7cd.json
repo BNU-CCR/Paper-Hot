@@ -1,0 +1,124 @@
+{
+  "topic_id": "topic_6fa3d7cd",
+  "label": "社交媒体影响者的说服与品牌传播",
+  "description": "考察影响者特质与品牌广告内容如何影响受众态度、行为意向与视觉抵抗表达。",
+  "why_hot": "近30天日均发表速度较前期上升约36%，研究活动温和升温。",
+  "hot_score": 66,
+  "growth": 0.364,
+  "growth_rate": 0.364,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.0733,
+  "recent_count": 3,
+  "baseline_count": 11,
+  "journal_count": 5,
+  "lineage_status": "drifted",
+  "status": "hot",
+  "keywords": [
+    "social media influencers",
+    "persuasion",
+    "brand advertising",
+    "prosocial intentions",
+    "visual resistance"
+  ],
+  "papers": [
+    {
+      "id": 2028,
+      "title": "How Do Social Media Influencers Motivate Prosocial Intentions? The Interaction of SMI Gender and Expertise",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-09-10",
+      "summary": "研究探讨社交媒体影响者的性别与专业度如何交互影响受众的亲社会行为意向，属战略传播领域的说服效果研究，采用实验或调查方法验证假设。"
+    },
+    {
+      "id": 1976,
+      "title": "Sex, Romance, or Recreation? An Experiment Testing the Effects of Cannabis Brand-generated Social Media Ads on College Students’ Expectancies and Intentions to Use Cannabis Prior to Sex",
+      "journal": "Communication Research",
+      "published_date": "2026-08-31",
+      "summary": "通过在线实验考察大麻品牌社交媒体广告中的性/浪漫/娱乐脚本对大学生性前使用大麻预期与意向的影响，发现性别差异及机制。"
+    },
+    {
+      "id": 1963,
+      "title": "Reclaiming Place Through Symbolic Geographies: Visual Resistance on Palestinian Instagram",
+      "journal": "Political Communication",
+      "published_date": "2026-08-16",
+      "summary": "分析2023-2024年巴勒斯坦Instagram用户的9126条帖子，识别三种视觉主题，并与国际新闻标题比较，展示用户生成内容如何抵抗主流叙事和算法压制。"
+    },
+    {
+      "id": 1929,
+      "title": "‘Cool! I wanna try it!’: online exposure to e-cigarette advertisements increases e-cigarette susceptibility among U.S. sexual minority young adults",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-10",
+      "summary": "研究在线电子烟广告暴露如何影响美国性少数青年对电子烟的易感性，关注数字广告的传播效果。"
+    },
+    {
+      "id": 8,
+      "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
+      "journal": "Political Communication",
+      "published_date": "2026-07-29",
+      "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
+    },
+    {
+      "id": 1942,
+      "title": "Negotiating the Influencer Imaginary: How Everyday Professionals Construct Legitimacy on Social Media",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
+    },
+    {
+      "id": 441,
+      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-01",
+      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
+    },
+    {
+      "id": 443,
+      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-05-31",
+      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
+    },
+    {
+      "id": 99,
+      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-24",
+      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
+    },
+    {
+      "id": 124,
+      "title": "Digital resistance and gendered dispossession: Palestinian women’s struggles for inheritance justice",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-11",
+      "summary": "通过分析巴勒斯坦两个Facebook支持小组的305条帖子，探讨女性继承权被剥夺现象，揭示法律、文化和家庭压力如何导致女性被迫放弃继承权，并呼吁法律与社会改革。"
+    },
+    {
+      "id": 126,
+      "title": "Favela aesthetics: digital influencers in Brazil contesting Instagram visual cultures and favela stigmas",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-08",
+      "summary": "通过分析巴西贫民窟网红Blô的452条Instagram帖子，提出“贫民窟美学”概念，探讨边缘群体如何通过数字内容抵抗污名化、重构文化身份，挑战主流影响者审美与精英叙事。"
+    },
+    {
+      "id": 291,
+      "title": "Performing Identity: Repetition, Emoji, and Candidate Indicators of Amplified Visibility in Jordanian–Palestinian Facebook Discourse",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
+    },
+    {
+      "id": 302,
+      "title": "Symbolic Custodians on Facebook: Community Media Agents and Religious Practices in Faial",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
+    },
+    {
+      "id": 308,
+      "title": "Shaping Sustainable Communication on Instagram: How Digital Influencers in Portugal Engage Consumers in Eco-Conscious Narratives",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过分析200条Instagram Reels和29名Z世代焦点小组，探讨葡萄牙数字影响者如何通过情感和审美策略传播可持续性，发现可持续沟通是一种情感表演。"
+    }
+  ],
+  "paper_edges": []
+}
