@@ -1,5 +1,144 @@
 [
   {
+    "id": 2038,
+    "title": "The Democratic Cost of Pursuing Virality: A Study into Parliamentary Communications",
+    "title_zh": "追求病毒式传播的代价：一项关于议会沟通的研究",
+    "authors": [
+      "André K. Rodarte"
+    ],
+    "institutions": [],
+    "journal": "Political Communication",
+    "published_date": "2026-09-16",
+    "relevance": "High",
+    "score": null,
+    "abstract": "The transformation of parliamentarians into media producers has heightened concerns about emerging forms of political communication. This mixed-methods paper examines the strategies they employ to enhance their digital presence. Based on in-depth interviews, it shows that Brazilian parliamentarians believe that social media penalize them for posting about congressional matters, reporting that content about legislative work and constituency services receives little engagement online. Conversely, they view the production of antagonistic content and alignment with news cycles as essential to maintaining an engaging social media presence. A computational analysis of 4,5 million posts on Facebook, Instagram, and Twitter supports these evaluations: posts about congressional matters are associated with lower engagement metrics, while the use of antagonistic language increases them. The analysis further discusses pathways through which visibility is sustained at the intersection of platform incentives and communicative practices. In sum, this mixed-methods study demonstrates that the mediatization of politics has created perverse incentives for parliamentarians to downplay congressional activity and prioritize confrontations on social media, weakening accountability in ways that may resonate far beyond Brazil.",
+    "abstract_zh": "议员们转变为媒体制作人的现象引发了人们对新兴政治传播形式的担忧。这篇采用混合研究方法的论文探讨了他们为增强自身数字影响力所采用的策略。通过深入访谈发现，巴西议员认为社交媒体会对他们发布与国会事务相关的内容进行负面评价；同时，他们发现关于立法工作及选民服务的内容在网络上获得的互动很少。相反，他们认为制作具有对抗性的内容并紧跟新闻热点对于在社交媒体上保持吸引力至关重要。通过对Facebook、Instagram和Twitter上450万条帖子的分析，研究结果支持了这一观点：与国会事务相关的帖子互动率较低，而使用对抗性语言的帖子互动率较高。研究还进一步讨论了在平台激励机制与沟通实践的相互作用下，议员们如何维持自身影响力的途径。总之，这项混合方法研究表明，政治的媒体化现象导致议员们产生了一种扭曲的动机——他们倾向于淡化国会活动，转而在社交媒体上强调对抗性言论，从而削弱了问责机制的效果，这种影响可能远远超出巴西的范围。",
+    "summary": "论文用访谈与450万条Facebook等平台帖子计算分析，考察巴西议员如何追求社交媒体可见性，发现国会事务获低互动，对抗性内容增互动，进而削弱问责。",
+    "reason": "混合方法，含450万社交媒体帖子的计算分析与访谈，议题为政治传播与平台激励。",
+    "tags": [
+      "社交媒体",
+      "政治传播",
+      "计算分析",
+      "平台算法"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/10584609.2026.2733316",
+    "source_url": "https://doi.org/10.1080/10584609.2026.2733316",
+    "detail_slug": "the-democratic-cost-of-pursuing-virality-a-study-into-parliamentary-communications",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Political Communication",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2033,
+    "title": "Weapon and poison? Framing disinformation in European Commission Speeches, 2016–2024",
+    "title_zh": "武器与毒药？2016–2024年间欧盟委员会演讲中对虚假信息的构建",
+    "authors": [
+      "Eliana Fattorini",
+      "Alberto Acerbi",
+      "Massimiano Bucchi",
+      "Enzo Loner"
+    ],
+    "institutions": [],
+    "journal": "Information Communication & Society",
+    "published_date": "2026-09-16",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Drawing on 238 speeches delivered by European Commission (EC) presidents, vice-presidents, and commissioners (2016–mid-2024), this paper examines how the EC narrates ‘disinformation’. Using topic modelling, text-community detection, and qualitative content analysis, we show a generally self-absolving and fatalistic framing. Disinformation is considered the root cause of unwanted behaviours and events, naturalized as a technological inevitability given citizen gullibility. Moreover, responsibility for the spread of disinformation is externalized to hostile States, ‘bad actors’, and digital platforms. Battlefield and contagion metaphors (‘fight/weapon’; ‘poison/infodemic’) underpin a discursive policy repertoire focused on platform governance, detection/takedown, and media-literacy ‘vaccines’, positioning citizens as vulnerable subjects. Temporal analysis traces shifts from Russia-centred attributions to a broadened cast (China, Lukashenko) and, by 2023–2024, AI-enabled amplification. We argue that this framing narrows problem definitions and answers, imposing top-down solutions instead of supporting democratic dialogue. A better balance would combine fair platform rules with transparency, media pluralism, and participatory channels that treat citizens as interlocutors, so policies are shaped by informed dialogue rather than by presumptions of actors being misinformed.",
+    "abstract_zh": "本文基于欧洲委员会（EC）主席、副主席和委员在2016年至2024年期间发表的238篇演讲，探讨了欧盟委员会如何定义和描述“虚假信息”。通过主题建模、文本社区检测和定性内容分析，我们发现欧盟委员会在描述虚假信息时采用了一种自我辩解且带有宿命论的框架。在这种框架下，虚假信息被视为各种不良行为和事件的根本原因，并被归结为一种技术上的必然现象（因为公民容易上当受骗）。同时，传播虚假信息的责任被外部化，归咎于敌对国家、“不良行为者”以及数字平台。文章使用了“战场”和“传染病”等隐喻（如“虚假信息是武器”或“虚假信息是一场信息流行病”），来构建欧盟的政策体系，该体系主要侧重于平台治理、虚假信息的检测与清除，以及提高公民的媒介素养。时间分析显示，欧盟对虚假信息来源的指责对象从最初主要针对俄罗斯，逐渐扩展到包括中国和卢卡申科在内的其他国家；到了2023年至2024年，人工智能技术进一步加剧了虚假信息的传播。我们认为，这种框架限制了对问题的深入理解，导致政策制定倾向于采取自上而下的解决方案，而非促进民主对话。更合理的做法应该是制定公平的平台规则，同时确保透明度、推动媒体多元化，并建立让公民能够积极参与的沟通渠道，从而使政策制定过程基于充分的讨论和公民的知情参与，而非基于对某些行为者的错误假设。",
+    "summary": "分析2016至2024年欧盟委员会238篇演讲，运用主题模型、文本社群检测与质性内容分析，揭示其对虚假信息的自我免责与宿命论框架：将虚假信息自然化为技术必然，责任外化至敌对国家、坏行为者与平台，并以战争与传染隐喻推行平台治理、检测下架与媒介素养政策，2023-24年转向AI放大议题。",
+    "reason": "以主题模型与文本社群检测分析欧盟委员会虚假信息话语，议题与方法均属计算传播。",
+    "tags": [
+      "虚假信息",
+      "主题模型",
+      "文本网络分析",
+      "政策话语",
+      "AI放大"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/1369118x.2026.2733507",
+    "source_url": "https://doi.org/10.1080/1369118x.2026.2733507",
+    "detail_slug": "weapon-and-poison-framing-disinformation-in-european-commission-speeches-2016-2024",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Information, Communication & Society",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2043,
+    "title": "Investor proximity, social media sentiment, and stock price informativeness in the UK market",
+    "title_zh": "投资者亲近度、社交媒体情绪以及英国市场中的股票价格信息含量",
+    "authors": [
+      "Hao Zheng",
+      "Shiyi Zhang"
+    ],
+    "institutions": [],
+    "journal": "Journal of Media Economics",
+    "published_date": "2026-09-15",
+    "relevance": "High",
+    "score": null,
+    "abstract": "We examine whether investor sentiment on social media carries different informational value based on geographic proximity to firms. Using geo-tagged Twitter data on UK-listed firms from 2017 to 2022, we construct local and non-local sentiment measures via FinBERT model and analyze their association with stock price synchronicity. We find that only local sentiment is significantly negatively related to synchronicity, suggesting stronger firm-specific information incorporation. The effect is weaker for larger firms. Our results highlight the role of geography in shaping the informational content of social media sentiment in financial markets.",
+    "abstract_zh": "我们研究了投资者在社交媒体上的情绪是否根据与公司的地理位置接近程度而具有不同的信息价值。利用2017年至2022年间英国上市公司的带有地理位置标签的Twitter数据，我们通过FinBERT模型构建了本地和非本地的情绪指标，并分析了这些指标与股价同步性之间的关联。研究发现，只有本地情绪与股价同步性之间存在显著的负相关关系，这表明本地情绪更能够反映公司特有的信息。对于规模较大的公司，这种相关性较弱。我们的研究结果强调了地理位置在塑造金融市场社交媒体情绪信息内容中的作用。",
+    "summary": "基于2017—2022年英国上市公司地理标记Twitter数据，用FinBERT构建本地与非本地投资者情感指标，考察其与股价同步性的关系。发现仅本地情感显著负向关联同步性，体现更强公司特质信息融入，且该效应在大公司中更弱，凸显地理因素对社交媒体情感信息含量的塑造作用。",
+    "reason": "使用地理标记Twitter大数据与FinBERT情感分析，属社交媒体+计算方法研究，虽议题偏金融但仍契合计算传播。",
+    "tags": [
+      "社交媒体",
+      "情感分析",
+      "FinBERT",
+      "计算传播",
+      "金融信息"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/08997764.2026.2733257",
+    "source_url": "https://doi.org/10.1080/08997764.2026.2733257",
+    "detail_slug": "investor-proximity-social-media-sentiment-and-stock-price-informativeness-in-the-uk-market",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Media Economics",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2041,
+    "title": "Rethinking digital trace inference in political communication: evidence from a simulated platform experiment",
+    "title_zh": "重新思考政治传播中的数字痕迹推断：来自模拟平台实验的证据",
+    "authors": [
+      "Jiyoun Suk",
+      "Wei Zhong",
+      "Yini Zhang",
+      "Meredith Pruden",
+      "Yunkang Yang et al."
+    ],
+    "institutions": [],
+    "journal": "Journal of Information Technology & Politics",
+    "published_date": "2026-09-15",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Digital trace data such as likes, shares, and comments are widely used to infer what captures attention in digital political communication. Yet these visible signals may not map closely onto underlying attention, especially in political contexts where users may monitor content without publicly engaging with it. We examine this attention-engagement discrepancy in a 2 (content domain: political vs. nonpolitical) × 3 (feed curation: engagement-based, chronological, randomized) experiment on a simulated social media platform. We measured attention (dwell time) and engagement (likes, shares, and comments) across 100 posts. Results reveal a political exception: although attention and engagement are only weakly coupled overall, the discrepancy is significantly larger for political than for nonpolitical content. Political posts attract sustained attention while eliciting fewer visible signals. This pattern remains consistent across different feed curation logics, suggesting that the gap reflects a systematic feature of user behavior in feed-based social media rather than a product of any single curation logic. We further show that engagement-based sampling can misrepresent what users attend to by overrepresenting publicly expressive behavior and underrepresenting attentive but less visible forms of political consumption. These findings have implications for research that uses digital trace data to infer attention, issue salience, and public opinion.",
+    "abstract_zh": "数字痕迹数据（如点赞、分享和评论）被广泛用于推断数字政治传播中哪些内容能够吸引人们的注意力。然而，这些可见的信号可能与用户实际的关注度并不完全吻合，尤其是在政治语境中，用户可能会关注某些内容但并不公开参与互动。我们在一个模拟的社交媒体平台上进行了一个2×3的实验（2个内容领域：政治内容与非政治内容；3种信息展示方式：基于用户互动的信息展示、按时间顺序展示、随机展示），以研究这种关注度与用户互动之间的差异。我们测量了100条帖子的用户关注度（停留时间）和互动行为（点赞、分享和评论）。实验结果表明，在政治内容方面存在一个特殊现象：尽管总体而言关注度与互动行为之间的关联较弱，但政治内容的这种差异显著大于非政治内容。政治帖子能够吸引用户的持续关注，但却产生的可见互动信号较少。这一现象在不同信息展示方式下都保持一致，表明这种差异反映了用户在基于信息流的社交媒体中的行为特征，而非某种特定信息展示方式的结果。此外，我们还发现，基于用户互动的信息展示方式可能会误导人们对用户关注内容的理解——它过度展示了用户公开表达的行为，而低估了用户那些虽然关注但较为隐蔽的政治消费行为。这些发现对于利用数字痕迹数据来研究用户注意力、议题重要性和公众意见的相关研究具有重要的启示意义。",
+    "summary": "通过2×3模拟社交媒体平台实验，比较政治与非政治内容的注意力（停留时长）与参与行为（点赞、分享、评论），发现政治内容存在更大的注意力—参与缺口，且该缺口不受信息流策展逻辑影响，提示以数字痕迹推断注意力与舆情存在偏差。",
+    "reason": "以模拟平台实验研究数字痕迹与注意力偏差，涉及社交媒体平台、算法推荐与政治传播，属计算传播核心议题。",
+    "tags": [
+      "数字痕迹",
+      "政治传播",
+      "社交媒体平台",
+      "算法推荐",
+      "模拟实验"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/19331681.2026.2731442",
+    "source_url": "https://doi.org/10.1080/19331681.2026.2731442",
+    "detail_slug": "rethinking-digital-trace-inference-in-political-communication-evidence-from-a-simulated-platform-experiment",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Information Technology & Politics",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2025,
     "title": "The Language of Democratic Resilience and Decline: A Comparative Study of Politicians’ Communication on Facebook in Sweden and Hungary",
     "title_zh": "民主韧性与衰退的语言：瑞典和匈牙利政治家在Facebook上的沟通方式比较研究",
@@ -2186,6 +2325,41 @@
     "tracked_journal": "Global Media and Communication",
     "volume": "",
     "issue": ""
+  },
+  {
+    "id": 2042,
+    "title": "How Definitions Shape Our Understanding of Political Influencers on Social Media",
+    "title_zh": "定义如何塑造我们对社交媒体上政治影响者的理解",
+    "authors": [
+      "Jennifer Oser",
+      "John Wagner",
+      "Nir Grinberg"
+    ],
+    "institutions": [],
+    "journal": "Social Media + Society",
+    "published_date": "2026-07-01",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Political discourse now circulates through sprawling social media networks where multiple actors wield influence in addition to traditional elites. Yet scholarly conclusions about who actually shapes that discourse diverge because leading studies operationalize “political influencer” in fundamentally different ways. To clarify the stakes of those choices—and advance more coherent theorizing—we examine six definitions that are prevalent in the literature and are rooted in audience size, elite ties, network importance, and message engagement. We then apply these distinctive definitions to a single dataset, namely a panel of 597,815 registered U.S. voters on Twitter during the 2020 presidential campaign to identify convergence and divergence across definitions. Three patterns emerge. First, conceptual boundaries matter: definitions that differ in scale rarely converge on the same influencers, confirming that different lenses reveal largely distinct influencer groups. Second, definitional emphasis reshapes the portrait of influence itself: elite-based criteria surface highly political, centrally positioned senders with compact but engaged followings, whereas follower- and engagement-based criteria net vastly larger, more heterogeneous groups that address politics only episodically. Third, upstream choices about conceptual boundaries and definitional emphases cascade downstream to the characteristics of influencers’ audiences, producing systematic shifts in followers’ age, gender, racial, and partisan characteristics. By showing how conceptual decisions impact both who counts as a political influencer and which citizens follow their messages, this study lays the groundwork for clearer conceptualization of the relevant dimensions for advancing the accumulation of knowledge on this increasingly important political phenomenon.",
+    "abstract_zh": "当前的政治话语通过庞大的社交媒体网络传播，在这些网络中，除了传统精英之外，还有许多其他参与者发挥着影响力。然而，关于究竟是谁在塑造这种政治话语的学术结论存在分歧，因为主要的研究在定义“政治影响者”时采用了根本不同的方法。为了明确这些定义选择的重要性，并推动更连贯的理论构建，我们研究了文献中普遍存在的六种定义方法，这些方法分别基于受众规模、与精英的关系、网络影响力以及信息传播的互动程度。接着，我们将这些不同的定义应用于一个具体的数据集——即2020年美国总统竞选期间在Twitter上注册的597,815名美国选民的面板数据——以分析各种定义之间的共性和差异。研究发现了三个主要趋势：首先，概念边界的重要性不容忽视：不同定义在识别影响者时往往得出不同的结果，这表明不同的视角会揭示出截然不同的影响者群体；其次，定义的重点会改变人们对影响力的认知：基于精英标准的定义突出了那些政治立场鲜明、处于网络中心位置、拥有规模虽小但互动活跃的传播者，而基于粉丝数量和互动程度的定义则揭示了规模更大、构成更为多元化的群体，这些群体只是偶尔参与政治讨论；第三，关于概念边界和定义重点的初始选择会影响到影响者受众的特征，从而导致粉丝在年龄、性别、种族和党派等方面的系统性变化。通过展示概念决策如何同时影响谁被视为政治影响者以及哪些公民会关注他们的信息，本研究为更清晰地理解这一日益重要的政治现象提供了理论基础，有助于进一步积累相关知识。",
+    "summary": "论文比较六种政治影响者定义，并应用于2020年美国大选期间597,815名Twitter用户数据。研究发现不同定义识别出不同影响者群体，且概念选择会系统影响影响者及其受众特征。",
+    "reason": "使用Twitter大规模用户面板数据，比较政治影响者定义，属社交媒体与计算方法议题。",
+    "tags": [
+      "政治影响者",
+      "社交媒体",
+      "Twitter",
+      "计算传播",
+      "网络分析"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/20563051261475920",
+    "source_url": "https://doi.org/10.1177/20563051261475920",
+    "detail_slug": "how-definitions-shape-our-understanding-of-political-influencers-on-social-media",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Social Media + Society",
+    "volume": "12",
+    "issue": "3"
   },
   {
     "id": 1999,
@@ -7923,7 +8097,7 @@
   {
     "id": 431,
     "title": "Familiarity, Similarity, Representativeness, and Naturalness: Cues Used to Assess Customized AI News Presenters",
-    "title_zh": "熟悉度、相似性、代表性以及自然性：用于评估定制化人工智能新闻播报器的关键因素",
+    "title_zh": "熟悉度、相似性、代表性以及自然性：用于评估定制化人工智能新闻播报员的线索",
     "authors": [
       "Elia Powers"
     ],
@@ -7935,7 +8109,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Generative AI allows users to control who delivers them news. This study uses think-aloud protocols and in-depth interviews to examine how college students (n = 46) customize AI news presenters and what their selections reveal about preferences in synthetic characters and voices. Participants considered appearance-voice fit and relied on a range of heuristic cues – most notably, whether a presenter looked familiar and/or similar to them, resembled a journalist, looked humanlike, and sounded natural. Social identity theory, the familiarity principle, and the human-likeness-based naturalness concept are used to interpret results. Implications for news organizations and AI companies are discussed.",
-    "abstract_zh": "生成式人工智能（Generative AI）使用户能够控制谁来向他们传递新闻。本研究采用“出声思考”（think-aloud）协议和深入访谈的方法，探讨了大学生（n=46）如何定制人工智能新闻播报员，以及他们的选择揭示了他们对合成角色和声音的偏好。参与者主要考虑了外观与声音的匹配度，并依据多种启发式线索进行判断——其中最关键的线索包括：播报员是否看起来熟悉或与他们相似、是否像记者一样、是否具有人类特征，以及声音是否自然。研究结果通过社会认同理论（Social Identity Theory）、熟悉性原则（Familiarity Principle）以及基于人类特征的“自然性”概念（Human-likeness-based Naturalness Concept）来进行解释。同时，本文还讨论了这一发现对新闻机构和人工智能公司可能产生的影响。",
+    "abstract_zh": "生成式人工智能（Generative AI）允许用户控制新闻的呈现者。本研究通过“出声思考”（think-aloud）实验和深入访谈，探讨了大学生（n=46）如何定制人工智能新闻播报员，以及他们的选择揭示了他们对合成角色和声音的偏好。参与者主要考虑了外观与声音的匹配度，并依据多种启发式线索进行判断——其中最关键的线索包括：播报员是否看起来熟悉或与他们相似、是否像记者一样、是否具有人类特征，以及声音是否自然。研究结果运用社会认同理论（Social Identity Theory）、熟悉性原则（Familiarity Principle）以及基于人类特征的“自然性”概念（Human-likeness-based Naturalness Concept）进行解释。同时，本文还讨论了这一发现对新闻机构和人工智能公司的启示。",
     "summary": "通过有声思维和深度访谈，研究46名大学生定制AI新闻主播时的选择线索，发现外貌-声音匹配、熟悉度、相似性、人形化和自然度等启发式线索影响偏好，并结合社会认同等理论解释。",
     "reason": "主题涉及生成式AI新闻主播定制，属于AI社会影响与使用行为，虽方法为访谈但仍纳入。",
     "tags": [
@@ -7978,7 +8152,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "While people regularly employ the term values in mundane interactions and political debates on social media, little is known about its function in public communication. Approaching values as a keyword in everyday communication, we asked: In what contexts do Twitter users invoke the term values? What discursive functions does the term serve? How do these contexts and functions differ across languages? To address these questions, we analyzed approximately 15 million tweets in five languages (English, German, Italian, Japanese, and Korean), using computational and qualitative methods. We found both cross-cultural differences and universal patterns. Topical contexts varied dramatically by language: in English, German, and Italian, values primarily marked boundaries between political groups, while in Japanese and Korean, it expressed individual preferences and negotiated interpersonal relationships. Across languages, values conveyed a vague sense of the good yet served clear discursive functions – anchoring personal identities and mediating relationships through boundary work. Furthermore, public conversations about values are structured by the tension between two specific values: autonomy and authenticity. Standing by one's values, regardless of content, was valorized, while imposing values on others was condemned. In this way, the term values offers a tool of decontestation that shields claims from criticism. Rather than promoting deliberation over shared conceptions of the good, it maintains existing personal and political boundaries.",
-    "abstract_zh": "尽管人们在日常交流和社交媒体上的政治辩论中经常使用“价值观”这个词，但对其在公共传播中的作用却知之甚少。我们将“价值观”视为日常交流中的一个关键词，提出了以下问题：Twitter用户在不同情境下会如何使用“价值观”这个词？这个词具有哪些话语功能？这些情境和功能在不同语言之间有何差异？为了解答这些问题，我们分析了大约1500万条五种语言（英语、德语、意大利语、日语和韩语）的推文，采用了定量和定性的研究方法。研究发现，虽然存在跨文化差异，但也存在一些普遍规律。在不同语言中，使用“价值观”的具体情境差异很大：在英语、德语和意大利语中，“价值观”主要用于划分政治群体之间的界限；而在日语和韩语中，则更多地用来表达个人偏好和调节人际关系。无论哪种语言，“价值观”都传达了一种模糊的“善”的概念，但同时具有明确的话语功能——它既用于确立个人身份，也用于通过设定界限来调节人际关系。此外，关于价值观的公共讨论往往围绕两个核心价值观展开：自主性和真实性。无论内容如何，坚持自己的价值观是受到推崇的；而将自己的价值观强加给他人则被视为不可取的行为。从这个角度来看，“价值观”这个词实际上是一种避免争议的工具，它使某些观点免受批评。它并没有促进人们对“善”的共同认知的讨论，反而维护了现有的个人和政治界限。",
+    "abstract_zh": "尽管人们在日常交流和社交媒体上的政治辩论中经常使用“价值观”这个词，但对其在公共传播中的作用却知之甚少。我们将“价值观”视为日常交流中的一个关键词，提出了以下问题：Twitter用户在不同情境下会如何使用“价值观”这个词？这个词具有哪些话语功能？这些情境和功能在不同语言之间有何差异？为了解答这些问题，我们分析了大约1500万条五种语言（英语、德语、意大利语、日语和韩语）的推文，采用了定量和定性分析方法。研究发现，虽然存在跨文化差异，但也存在一些普遍规律。在不同语言中，使用“价值观”的具体情境差异很大：在英语、德语和意大利语中，“价值观”主要用于划分政治群体之间的界限；而在日语和韩语中，则更多地用来表达个人偏好和调节人际关系。无论语言如何，“价值观”都传达了一种模糊的“善”的概念，但同时具有明确的话语功能——它既用于确立个人身份，也用于通过设定界限来调节人际关系。此外，关于价值观的公共讨论总是围绕两个核心价值观之间的矛盾展开：自主性和真实性。无论内容如何，坚持自己的价值观会受到赞赏；而将自己的价值观强加给他人则会被谴责。从这个角度来看，“价值观”这个词实际上是一种避免争议的工具，它使某些观点免受批评。它并没有促进人们对“善”的共同认知的讨论，反而维护了现有的个人和政治界限。",
     "summary": "分析五种语言约1500万条推文中'values'的语境与功能，发现跨文化差异与普遍模式，揭示其作为身份锚定和边界工作的工具。",
     "reason": "使用大规模Twitter数据和计算方法研究价值观关键词的跨文化传播，明确属于计算传播领域。",
     "tags": [
@@ -8020,7 +8194,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Misinformation research tends to be topic-driven, focused on a narrow band of sources and media formats, and studied in abstraction from individuals’ everyday lives. In contrast, this study examines adults’ in situ encounters with suspected misinformation to better understand how it is experienced in daily life. Through a digital diary study, we collected examples of news and information participants encounter and identify as false, misleading or untrustworthy. Participants encountered misinformation about ‘everyday’ topics, like business and economics, and in varying modalities, like text-based and multimodal formats. Further, participants’ everyday perceptions of misinformation are shaped by changing news logics, as evidenced by their identification of mainstream and alternative news sources as prominent propagators of false and misleading content. These findings raise questions about the influence of sociocultural and sociotechnical factors in shaping online users’ perceptions and experiences of misinformation.",
-    "abstract_zh": "关于错误信息的研究往往以特定主题为中心，主要关注有限的来源和媒体形式，并且是在脱离人们日常生活的情况下进行的。相比之下，本研究通过观察成年人在现实生活中遇到的疑似错误信息，试图更深入地了解人们在日常生活中是如何感知这些信息的。我们通过一项数字日记研究，收集了参与者遇到的、并被他们认定为虚假、具有误导性或不可信的新闻和信息的实例。参与者遇到的错误信息涉及“日常生活”中的各种主题（如商业和经济），并且这些信息以多种形式存在（包括文本形式和多媒体形式）。此外，参与者对错误信息的日常认知受到不断变化的新闻传播逻辑的影响，这从他们将主流媒体和替代媒体都视为虚假和误导性内容的主要传播者这一现象中可以看出。这些发现引发了关于社会文化因素和社会技术因素在塑造网民对错误信息的认知和体验方面所起作用的问题。",
+    "abstract_zh": "关于错误信息的研究往往以特定主题为中心，主要关注有限的来源和媒体形式，并且是在脱离人们日常生活的情况下进行的。相比之下，本研究通过观察成年人在现实生活中遇到的疑似错误信息，来更深入地了解人们在日常生活中是如何感知这些信息的。我们通过一项数字日记研究，收集了参与者遇到的、并被他们认定为虚假、具有误导性或不可信的新闻和信息的实例。参与者遇到的错误信息涉及“日常生活”中的各种主题（如商业和经济），并且这些信息以多种形式存在（包括文本形式和多媒体形式）。此外，参与者对错误信息的日常认知受到不断变化的新闻传播逻辑的影响，这从他们将主流媒体和替代媒体都视为虚假信息的主要传播者这一现象中可以看出。这些发现引发了关于社会文化因素和社会技术因素在塑造网民对错误信息的认知和体验方面所起作用的问题。",
     "summary": "通过数字日记研究成年人日常遇到的疑似错误信息，分析其来源、主题和形式，发现主流与另类新闻源均被视为虚假内容传播者。",
     "reason": "研究社交媒体错误信息的日常遭遇，采用数字日记方法收集真实数据，属于计算传播议题。",
     "tags": [
@@ -8041,7 +8215,7 @@
   {
     "id": 229,
     "title": "Negativity and Misinformation",
-    "title_zh": "消极情绪与错误信息",
+    "title_zh": "负面情绪与错误信息",
     "authors": [
       "Stuart Soroka",
       "Christopher Wlezien"
@@ -8055,7 +8229,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "There are large and growing bodies of research highlighting inaccuracies in news coverage. In this paper, we suggest that negativity biases account for a substantial portion of longstanding inaccuracies (or “misinformation”) in coverage of a broad range of social, medical, environmental, political, and economic domains. As an illustrative example, we use automated content analyses of over 20 years of television news transcripts merged with unemployment data to measure the accuracy of unemployment coverage across the six major US broadcasters (ABC, CBS, NBS, CNN, Fox News, and MSNBC), and then examine the degree to which variation in accuracy is associated with variation in the tendency to overweight negative information relative to positive information. Results reveal a connection between inaccuracy and negativity biases, a finding that we interpret as it relates to our understanding of misinformation in the news.",
-    "abstract_zh": "已有大量且不断增长的研究指出新闻报道中存在不准确之处。在本文中，我们认为负面偏见是导致长期存在的新闻不准确（或“错误信息”）现象的重要原因，这些不准确现象涉及社会、医疗、环境、政治和经济等多个领域。为了说明这一点，我们利用对20多年来电视新闻稿件的自动化内容分析，并结合失业数据，来衡量美国六大主要电视台（ABC、CBS、NBC、CNN、Fox News和MSNBC）在失业新闻报道方面的准确性。随后，我们研究了这些电视台在报道准确性上的差异与它们在报道中倾向于过度强调负面信息而非正面信息的程度之间的关联。研究结果表明，新闻的不准确性与负面偏见之间存在密切联系。我们认为这一发现有助于我们更好地理解新闻中的错误信息现象。",
+    "abstract_zh": "已有大量且不断增长的研究指出新闻报道中存在不准确之处。在本文中，我们认为负面偏见是导致长期存在的新闻不准确（或“错误信息”）的重要原因，这些不准确现象涉及社会、医疗、环境、政治和经济等多个领域。为了说明这一点，我们使用了超过20年的电视新闻文本的自动化分析数据，并结合失业数据，来评估美国六大主要电视台（ABC、CBS、NBC、CNN、Fox News和MSNBC）在失业问题报道上的准确性。随后，我们研究了报道准确性的变化与这些电视台在报道中偏向负面信息而非正面信息的程度之间的关联。研究结果表明，新闻的不准确性与负面偏见之间存在密切联系。我们认为这一发现有助于我们更好地理解新闻中的错误信息现象。",
     "summary": "论文利用自动化文本分析检验美国六大电视网20余年失业报道的准确性，发现负面偏差显著关联报道不准确，为新闻错误信息提供解释。",
     "reason": "使用自动化内容分析处理超20年电视新闻文本，结合经济数据检验负面偏差与错误信息，属计算方法与传播议题结合。",
     "tags": [
@@ -8076,7 +8250,7 @@
   {
     "id": 432,
     "title": "“Is This Fake News?” Examining the Antecedents of Generative AI Chatbot Use for Fact-Checking of News Online",
-    "title_zh": "“这是假新闻吗？”：探讨生成式人工智能聊天机器人在在线新闻事实核查中的使用背景",
+    "title_zh": "这是假新闻吗？——探讨生成式人工智能聊天机器人在在线新闻事实核查中的应用背景",
     "authors": [
       "Michael Chan"
     ],
@@ -8088,7 +8262,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Misinformation remains a significant challenge in many countries worldwide. With the rapid and widespread global adoption of Generative AI (GenAI), this study explores the extent to which individuals use GenAI chatbots to verify the accuracy of news they encountered online and the factors driving this behavior. Drawing on a cross-national survey conducted across 26 countries, the findings reveal that the greater perceived credibility of AI compared to human journalists and increased comfort with AI-produced news predicted GenAI chatbot usage for fact-checking, whereas increased comfort with new produced by journalists with some AI assistance did not.",
-    "abstract_zh": "错误信息在世界上许多国家仍然是一个严重的挑战。随着生成式人工智能（GenAI）的快速和广泛普及，本研究探讨了个人在多大程度上使用GenAI聊天机器人来验证他们在网上遇到的新闻的准确性，以及驱动这种行为的各种因素。通过对26个国家进行的跨国调查，研究结果表明：与人类记者相比，人们对AI的信任度更高，以及对AI生成的新闻更加接受，这些因素预测了人们会使用GenAI聊天机器人进行事实核查；而相比之下，对由记者在AI辅助下生成的新闻的接受程度增加，并没有导致人们更倾向于使用GenAI聊天机器人进行事实核查。",
+    "abstract_zh": "错误信息仍然是全球许多国家面临的一个重大挑战。随着生成式人工智能（GenAI）的快速和广泛普及，本研究探讨了个人在多大程度上使用GenAI聊天机器人来验证他们在网上遇到的新闻的准确性，以及驱动这种行为的相关因素。通过对26个国家进行的跨国调查，研究结果表明：与人类记者相比，人们对AI的信任度更高，以及对AI生成的新闻更加接受，这些因素都促进了人们使用GenAI聊天机器人进行事实核查；然而，对由记者在AI辅助下生成的新闻的接受程度增加，并没有导致人们更倾向于使用GenAI聊天机器人来进行事实核查。",
     "summary": "基于26国跨国调查，考察人们使用生成式AI聊天机器人核查新闻真伪的行为及其前因，发现AI可信度感知和AI新闻舒适度显著预测该行为。",
     "reason": "研究生成式AI聊天机器人的新闻事实核查使用行为及影响因素，虽用调查法，但主题直接涉及AI社会影响与传播行为。",
     "tags": [
@@ -8111,7 +8285,7 @@
   {
     "id": 732,
     "title": "Does trending across platforms popularize political topics? A cross-platform spillover framework of public attention",
-    "title_zh": "不同平台上的热门话题传播是否有助于提高政治话题的公众关注度？一个关于跨平台公众注意力溢出的分析框架。",
+    "title_zh": "跨平台的热度传播是否使政治话题更加流行？一个关于公众注意力跨平台溢出的分析框架",
     "authors": [
       "Yufan Guo",
       "Cong Lin",
@@ -8127,7 +8301,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Why do certain topics attract more public attention than others on digital platforms? Acknowledging but moving beyond previous intra-platform perspectives, we propose a dynamic cross-platform spillover explanation, examining how cross-platform trending (i.e., trending on two platforms concurrently) influences public attention to political topics. Drawing on the marketplace of attention model, the notion of information spillover, and cross-platform literature, we develop a cross-platform spillover framework of public attention. This framework incorporates various mechanisms through which different layers of actors can facilitate inter-platform synergy or competition. Empirically, we assess the scale of cross-platform trending on three leading Chinese platforms in 2023. Focusing on the case of the Israel-Hamas war, we further estimate the effect of cross-platform trending on the public attention to political topics on Weibo. Our results indicate a negative cross-platform spillover: trending on another platform does not popularize, but suppresses the same news topic on Weibo in certain topical contexts. This study enriches our understanding of public attention allocation in an increasingly interconnected, and sometimes competitive, digital media ecosystem.",
-    "abstract_zh": "为什么某些话题在数字平台上比其他话题更能吸引公众的关注？在承认并超越以往仅关注平台内部因素的研究视角的基础上，我们提出了一种动态的跨平台溢出效应解释模型，探讨了跨平台趋势（即同时在两个平台上成为热门话题）如何影响公众对政治话题的关注。基于“注意力市场”模型、信息溢出概念以及跨平台研究的文献，我们构建了一个跨平台注意力溢出框架。该框架涵盖了多种机制，这些机制使得不同层次的参与者能够促进平台间的协同作用或竞争。通过实证研究，我们评估了2023年中国三大主要数字平台上跨平台趋势的规模。以以色列-哈马斯战争为例，我们进一步分析了跨平台趋势对微博上公众对政治话题关注度的影响。研究结果表明存在负面的跨平台溢出效应：在某些特定情境下，另一个平台上的热门话题反而会抑制微博上同一新闻话题的传播。这项研究加深了我们对日益互联互通、且有时充满竞争的数字媒体生态系统中公众注意力分配机制的理解。",
+    "abstract_zh": "为什么某些话题在数字平台上比其他话题更能吸引公众的关注？在承认并超越以往仅关注平台内部因素的观点的基础上，我们提出了一种动态的跨平台溢出效应解释模型，探讨了跨平台趋势（即同时在两个平台上成为热门话题）如何影响公众对政治话题的关注。借鉴“注意力市场”模型、信息溢出理论以及跨平台研究的成果，我们构建了一个关于公众关注的跨平台溢出效应框架。该框架涵盖了多种机制，这些机制使得不同类型的参与者能够在平台之间产生协同效应或竞争关系。通过实证研究，我们评估了2023年中国三大主要数字平台上跨平台趋势的传播规模。以以色列-哈马斯战争为例，我们进一步分析了跨平台趋势对微博上公众对政治话题关注度的影响。研究结果表明存在负面的跨平台溢出效应：在某些特定情境下，另一个平台上的热门话题反而会抑制微博上同一新闻话题的传播。这项研究有助于我们更深入地理解在日益互联互通、且有时充满竞争的数字媒体生态系统中，公众关注力的分配机制。",
     "summary": "基于中国三大平台2023年数据，以以哈战争为例，探究跨平台同时上榜对微博政治话题关注度的影响，发现负向溢出效应。",
     "reason": "研究跨平台趋势对公共注意力的影响，使用大规模平台数据与计量模型，属于计算传播学核心议题。",
     "tags": [
@@ -8163,7 +8337,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract Content moderation entails human–algorithm collaborative decision-making in digital platforms subject to multiple socio-structural forces. This article applies perspectives of technology affordances and institutional logics to unpack content moderation as human–algorithm interaction processes grounded in the dynamic network of platform governance. We collaborated with three “super platforms” in China delivering wide-ranging services for research and entered these platforms for fieldwork. Based on participant observations in these platforms and interviews with their staff members, we analyze how the state logic prioritizing socio-political security and the corporation logic stressing commercial interest are embedded in the moderation workflow and distill three affordances of algorithmic decision-making that affect how moderators balance these logics. We find that these affordances play a significant role in helping human moderators balance competing logics: They nudge moderators with divergent preferences into developing comprehensive understandings of governance logics for organizational coherence within the platform company and help moderators strategically integrate the conflicting logics in an iterative process for more accurate decision-making. Moving beyond the human/algorithm divide in existing research stressing the differences and contradictions between algorithmic decision-making and human judgements, our study sheds light on the positive potentials of human–algorithm interactions in addressing shifting requirements of platform governance.",
-    "abstract_zh": "内容审核在数字平台上涉及人类与算法的协作决策过程，这一过程受到多种社会结构因素的影响。本文从技术赋能（technology affordances）和制度逻辑（institutional logics）的角度出发，探讨了内容审核作为基于平台治理动态网络中的人类与算法互动的过程。我们与中国三家提供广泛研究服务的“超级平台”进行了合作，并深入这些平台进行实地调研。通过观察平台用户的活动以及与平台员工的访谈，我们分析了国家层面强调社会政治安全的逻辑与企业层面追求商业利益的逻辑是如何内化到内容审核工作流程中的，并总结了算法决策的三个关键特征，这些特征影响了审核人员如何在两种逻辑之间取得平衡。研究发现，这些特征在帮助审核人员处理相互冲突的逻辑方面发挥了重要作用：它们促使审核人员形成对平台公司治理逻辑的全面理解，从而促进组织内部的协调性；同时，这些特征还帮助审核人员在迭代过程中策略性地整合这些相互矛盾的逻辑，从而做出更准确的决策。与以往强调算法决策与人类判断之间差异和矛盾的研究不同，我们的研究揭示了人类与算法互动在应对平台治理变化需求方面的积极潜力。",
+    "abstract_zh": "内容审核在数字平台上涉及人类与算法的协作决策过程，这一过程受到多种社会结构因素的影响。本文从技术赋能（technology affordances）和制度逻辑（institutional logics）的角度出发，探讨了内容审核作为人类与算法互动的过程，这些互动建立在平台治理的动态网络基础之上。我们与中国三家提供广泛研究服务的“超级平台”进行了合作，并深入这些平台进行了实地调研。通过观察平台用户的活动以及与平台工作人员的访谈，我们分析了国家层面强调社会政治安全的逻辑与企业层面追求商业利益的逻辑是如何内嵌到内容审核工作流程中的，并总结了算法决策的三个关键特征，这些特征影响了审核人员如何在两种逻辑之间取得平衡。研究发现，这些特征在帮助人类审核人员处理相互冲突的逻辑方面发挥了重要作用：它们促使审核人员全面理解平台公司的治理逻辑，从而促进组织内部的协调性；同时，这些特征还帮助审核人员在迭代过程中策略性地整合这些相互矛盾的逻辑，从而做出更准确的决策。与以往强调算法决策与人类判断之间差异和矛盾的研究不同，我们的研究揭示了人类与算法互动在应对平台治理变化需求方面的积极潜力。",
     "summary": "通过在中国三大超级平台的田野调查，分析国家逻辑与商业逻辑如何嵌入内容审核流程，揭示算法决策的三种可供性帮助审核员平衡冲突逻辑，强调人机互动的积极潜力。",
     "reason": "研究算法辅助决策与平台治理互动，议题属计算传播核心，虽用质性方法但符合AI社会影响条款。",
     "tags": [
@@ -8197,7 +8371,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract Political polarization is threatening the welfare of individuals and societies. Connecting insights gained from interpersonal communication to human–machine communication, we hypothesized that positive interactions with artificial intelligence (AI) could reduce polarization between humans. To evaluate this proposition, two experiments were conducted, in which human participants (N = 1,035) communicated with AI chatbots in real time. The bots engaged in different communication styles while opposing the participants’ most polarized political views. Across both experiments, engaging with a counterarguing AI chatbot led to significant issue depolarization. AI chatbots exhibiting high (vs. low) conversational receptiveness and active listening during the AI conversation resulted in stronger affective depolarization toward humans, higher participant intellectual humility, and a greater willingness to engage in future conversations with holders of opposing opinions—AI and humans alike. Our experiments show that large language models are powerful tools for individual depolarization and the promotion of beneficial cognitive processing skills.",
-    "abstract_zh": "政治极化正在威胁个人和社会的福祉。我们将从人际沟通中获得的见解与人机沟通联系起来，提出假设：与人工智能（AI）的积极互动可以减少人与人之间的分歧。为了验证这一假设，我们进行了两项实验，共有1,035名参与者与AI聊天机器人进行了实时交流。这些聊天机器人在表达与参与者截然相反的政治观点时，采用了不同的沟通方式。在两项实验中，与提出相反观点的AI聊天机器人交流均显著降低了人们之间的政治分歧。表现出较高（或较低）对话接受度和积极倾听能力的AI聊天机器人，能够更有效地缓解人们之间的情绪对立，提高参与者的认知谦逊度，并增强他们未来与持有不同观点的人（无论是AI还是人类）进行交流的意愿。我们的实验表明，大型语言模型是促进个人情绪缓和和提升有益认知处理能力的强大工具。",
+    "abstract_zh": "政治极化正在威胁个人和社会的福祉。我们将人际沟通中的研究发现与人机沟通联系起来，提出假设：与人工智能（AI）的积极互动可以减少人与人之间的分歧。为了验证这一假设，我们进行了两项实验，共有1,035名参与者与AI聊天机器人进行了实时交流。这些聊天机器人在表达与参与者极端对立的政治观点时，采用了不同的沟通方式。在两项实验中，与持相反观点的AI聊天机器人交流均显著降低了双方的分歧。表现出较高（或较低）对话接受度和积极倾听能力的AI聊天机器人，能够促进参与者情绪上的缓和，提升他们的认知谦逊度，并增加他们未来与持不同意见的人（无论是AI还是人类）进行交流的意愿。我们的实验表明，大型语言模型是减少个人分歧、促进有益认知处理能力的强大工具。",
     "summary": "通过两项实验(N=1035)让人类与AI聊天机器人实时对话，检验不同沟通风格对政治极化的影响。结果发现逆论点AI能显著降低议题极化，高对话接纳性和积极倾听增强情感去极化、智识谦逊和跨立场对话意愿。",
     "reason": "使用大语言模型聊天机器人进行实验，涉及AI与政治极化议题，属计算传播核心方向。",
     "tags": [
@@ -8231,7 +8405,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Is personalized social media beneficial for female politicians, and how do voters respond to personalized posts from these candidates? To explore this question, this study employs a unique dual-method approach that integrates content analysis of candidates’ Facebook posts with online experiments evaluating voter responses. Additionally, the study refines the definition of personalization to include both the privatization of candidates’ personal lives and the individualization of their viewpoints. The findings show that although posts about candidates’ private lives are relatively rare, there’s been a notable rise in content reflecting individual viewpoints. Content analysis suggests that female candidates are less likely to use personalized messaging. However, online experiments reveal that voters respond positively to such content, increasing both likability and voting intentions. These results suggest that female candidates, still navigating gendered expectations, may be underestimating the advantages of personalization – possibly because voters’ attitudes have evolved more quickly than the candidates realize. This disparity between their limited use of personalized messaging and the favorable voter response underscores the complex influence of gender stereotypes on women in politics.",
-    "abstract_zh": "个性化社交媒体对女性政治家是否有益？选民对这些候选人发布的个性化帖子有何反应？为了探讨这个问题，本研究采用了一种独特的两方法结合研究方式，既对候选人在Facebook上的帖子进行了内容分析，又通过在线实验来评估选民的反应。此外，研究还将“个性化”的定义进行了细化，涵盖了候选人个人生活的私密化以及他们观点的个性化两个方面。研究结果表明，虽然关于候选人个人生活的帖子相对较少，但反映个人观点的内容却有所增加。内容分析显示，女性候选人使用个性化信息传递的方式较少；然而，在线实验表明，选民对这类内容反应积极，这不仅提高了候选人的亲和力，也增强了他们的投票意愿。这些结果表明，尽管女性候选人仍在努力应对性别方面的期望，但她们可能低估了个性化策略的优势——这可能是因为选民的态度变化速度比候选人意识到的要快。她们在个性化信息传递上的有限使用与选民的积极反应之间的这种差异，凸显了性别刻板印象对女性政治家所产生的复杂影响。",
+    "abstract_zh": "个性化社交媒体对女性政治家是否有益？选民对这些候选人发布的个性化帖子有何反应？为了探讨这个问题，本研究采用了一种独特的两方法结合研究方式，既分析了候选人发布在Facebook上的帖子内容，又通过在线实验来评估选民的反应。此外，研究还将“个性化”的定义进行了扩展，涵盖了候选人个人生活的私密化以及他们观点的个性化两个方面。研究结果表明，虽然关于候选人私人生活的帖子相对较少，但反映个人观点的内容却有所增加。内容分析显示，女性候选人使用个性化沟通方式的情况较少；然而在线实验表明，选民对这类内容反应积极，这不仅提高了候选人的亲和力，也增强了选民的投票意愿。这些结果表明，尽管女性候选人仍在努力应对性别方面的期望压力，但她们可能低估了个性化沟通方式的积极作用——这可能是因为选民的态度变化速度比候选人意识到的要快。她们在个性化沟通方面的使用有限，而选民却对此反应积极，这一现象凸显了性别刻板印象对女性政治家产生的复杂影响。",
     "summary": "研究通过分析台湾候选人Facebook帖子及在线实验，探讨性别对候选人个性化与选民回应的影响，发现女性候选人较少使用个性化信息但选民对其反应积极。",
     "reason": "研究涉及社交媒体平台Facebook，使用在线实验与内容分析，符合计算传播的选题与方法标准。",
     "tags": [
@@ -8276,7 +8450,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The growing adoption of large language models (LLMs) in political communication research has prompted excitement but also concern. In this opinion piece, we offer an informed and critical overview of common LLM use cases in the field, including text analysis, synthetic data generation, and experiments. We argue that while these tools can be appealing, they often introduce serious epistemic, environ-mental, and infrastructural trade-offs that are insufficiently acknowledged. Beyond technical limitations, we highlight deeper issues related to scholarly autonomy, methodological opacity, resources inequality, and corporate dependency. Rather than dismissing innovation, we advocate for critical reflexivity and a renewed commitment to methodological rigor. While examining shortcomings of LLMs in current practices, we also point to viable alternatives. In essence, we call for a more deliberate, context-sensitive integration of LLMs in social science – one that prioritizes transparency, sustainability, and scientific integrity.",
-    "abstract_zh": "大型语言模型（LLMs）在政治传播研究中的日益广泛应用引发了人们的兴奋之情，但同时也引发了担忧。在这篇文章中，我们对该领域中LLMs的常见应用场景进行了全面而批判性的分析，包括文本分析、合成数据生成以及相关实验。我们认为，尽管这些工具具有吸引力，但它们往往带来严重的认识论、环境和技术基础设施方面的问题，而这些问题并未得到充分重视。除了技术限制之外，我们还指出了更深层次的问题，如学术自主性、方法论的透明度不足、资源分配不均以及对企业的高度依赖。我们并不反对创新，而是倡导进行批判性的反思，并重新强调方法论的严谨性。在探讨当前实践中LLMs的不足之处时，我们也提出了可行的替代方案。总之，我们呼吁在社会科学研究中更加审慎、更具情境意识地整合LLMs，这种整合应优先考虑透明度、可持续性和科学诚信。",
+    "abstract_zh": "大型语言模型（LLMs）在政治传播研究中的日益广泛应用引发了人们的兴奋之情，但同时也引发了担忧。在这篇文章中，我们对该领域中LLMs的常见应用场景进行了全面而批判性的分析，包括文本分析、合成数据生成以及相关实验。我们认为，尽管这些工具具有吸引力，但它们往往带来严重的认识论、环境和技术基础设施方面的问题，而这些问题并未得到足够的重视。除了技术限制之外，我们还指出了更深层次的问题，如学术自主性、方法论的透明度不足、资源分配不平等以及对企业的高度依赖。我们并不反对创新，而是倡导进行批判性的反思，并重新强调方法论的严谨性。在探讨当前实践中LLMs的不足之处时，我们也提出了可行的替代方案。总之，我们呼吁在社会科学研究中更加审慎、更具情境意识地整合LLMs，这种整合应优先考虑透明度、可持续性和科学诚信。",
     "summary": "评论文章批判政治传播研究中无反思地采用LLM，讨论其在文本分析、合成数据与实验中的局限，倡导批判性反思与方法论严谨性。",
     "reason": "主题聚焦LLM在传播研究中的应用，探讨其方法、伦理与社会影响，属于AI与计算传播交叉议题。",
     "tags": [
@@ -8313,7 +8487,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "As political parties around the world experiment with Artificial Intelligence (AI) in election campaigns, concerns about deception and manipulation are rising. This article examines how the public reacts to different uses of AI in elections and the potential consequences for party evaluations and regulatory preferences. Across three preregistered studies with over 7600 American respondents, we identify three categories of AI use: campaign operations, voter outreach, and deception. While people generally dislike AI in campaigns, they are especially critical of deceptive uses, which they perceive as norm violations. However, parties engaging in AI-enabled deception face no significant drop in favorability, neither with supporters, opponents, nor independents. Instead, deceptive AI use increases public support for stricter AI regulation, including calls for an outright ban on AI development. These findings indicate that public disapproval of deceptive uses of AI does not directly translate into incentives for parties to forgo them, at least in the polarized political environment of the US.",
-    "abstract_zh": "随着世界各地的政党在选举活动中尝试使用人工智能（AI），人们对欺骗和操纵行为的担忧日益增加。本文探讨了公众对选举中不同形式AI应用的反应，以及这些应用可能对政党评价和监管政策产生的影响。通过对7600多名美国受访者的三项预先设计的研究，我们发现了AI应用的三种主要类型：竞选活动、选民联络和欺骗行为。虽然大多数人普遍不赞成在选举中使用AI，但他们尤其批评那些具有欺骗性的行为，认为这些行为违背了社会规范。然而，那些使用AI进行欺骗的政党在支持者、反对者和独立选民中的支持率并未显著下降。相反，这种欺骗性行为反而增加了公众对更严格AI监管的支持，甚至有人呼吁彻底禁止AI的发展。这些研究结果表明，在美国这种两极分化的政治环境下，公众对AI欺骗行为的反对并不会直接促使政党放弃使用AI。",
+    "abstract_zh": "随着世界各地的政党在选举活动中尝试使用人工智能（AI），人们对欺骗和操纵行为的担忧日益增加。本文探讨了公众对选举中不同形式AI应用的反应，以及这些应用可能对政党评价和监管政策产生的影响。通过对7600多名美国受访者进行的三项预先设计的研究，我们发现了AI应用的三种主要类型：竞选活动、选民联络和欺骗行为。虽然大多数人普遍不赞成在选举中使用AI，但他们尤其批评那些具有欺骗性的行为，认为这些行为违背了社会规范。然而，使用AI进行欺骗的政党在支持者、反对者和独立选民中的支持率并未显著下降。相反，这种欺骗性行为反而增加了公众对更严格AI监管的支持，甚至有人呼吁彻底禁止AI的发展。这些研究结果表明，在美国这种两极分化的政治环境下，公众对AI欺骗行为的反对并不会直接促使政党放弃使用AI。",
     "summary": "通过三项预注册实验（N>7600）研究美国公众对AI在选举中不同用途的反应，发现公众厌恶欺骗性AI但政党支持率不受影响，反而增加对严格监管和禁止AI的支持。",
     "reason": "研究AI在选举中的社会影响，虽用调查实验但符合AI社会影响特别条款。",
     "tags": [
@@ -8349,7 +8523,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "AI chatbots offer accessible support in addressing the growing mental health crisis, yet users often hesitate to adopt these tools due to authenticity concerns, particularly when chatbots attempt to mimic empathy despite their nonhuman nature. Drawing on schema theory, expectancy violation theory, and inoculation theory, this study conceptualizes and experimentally tests the pertinacious image as an image-building strategy that acknowledges AI’s inherent limitations while emphasizing its unique strengths. By promoting an intentionally imperfect chatbot persona, this approach reduces user counterarguing and enhances perceived authenticity and engagement. The findings offer both theoretical and practical implications for the effective and ethical promotion of emotional support AI chatbots.",
-    "abstract_zh": "人工智能聊天机器人为应对日益严重的心理健康问题提供了便捷的支持，但由于用户对聊天机器人的真实性的担忧（尤其是当聊天机器人试图模仿人类的情感反应时），他们往往不愿意使用这些工具。本研究基于图式理论（schema theory）、预期违背理论（expectancy violation theory）和免疫理论（inoculation theory），将“有缺陷的聊天机器人形象”（pertinacious image）作为一种策略来构建用户对聊天机器人的认知。这种策略承认了人工智能的固有局限性，同时强调其独特的优势。通过塑造一个故意“不完美”的聊天机器人形象，该方法减少了用户的反驳行为，提升了用户对聊天机器人真实性的感知以及与聊天机器人的互动体验。研究结果为如何以有效且符合伦理的方式推广能够提供情感支持的人工智能聊天机器人提供了理论和实践上的启示。",
+    "abstract_zh": "人工智能聊天机器人为应对日益严重的心理健康问题提供了便捷的支持手段，但由于用户对聊天机器人的真实性和同情心表示担忧（尤其是当聊天机器人试图模仿人类的同情心时），他们往往不愿意使用这些工具。本研究基于图式理论（schema theory）、预期违背理论（expectancy violation theory）和免疫理论（inoculation theory），将“有缺陷的聊天机器人形象”（pertinacious image）作为一种策略来构建用户对聊天机器人的认知。这种策略承认了人工智能的固有局限性，同时强调其独特的优势。通过塑造一个“故意不完美”的聊天机器人形象，该方法减少了用户的反驳行为，提升了用户对聊天机器人真实性的感知以及与聊天机器人的互动体验。研究结果为如何以有效且符合伦理的方式推广能够提供情感支持的人工智能聊天机器人提供了理论和实践上的启示。",
     "summary": "基于图式理论、期望违背理论和接种理论，通过实验检验“坚韧形象”策略增强心理健康AI聊天机器人的感知真实性与用户参与。",
     "reason": "研究AI心理健康聊天机器人的采用与参与，涉及AI社会影响与传播效果，符合AI特别纳入条款。",
     "tags": [
@@ -8383,7 +8557,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "On TikTok, ‘Latina makeup’ filters apply stylized features – such as bushy eyebrows, contoured cheekbones, and overdrawn lips – drawn from long-standing, commodified representations of gendered Latinidad. While seemingly decorative, these beauty filters operate as part of platformed racism, embedding racialized traits into standardized, shareable templates optimized for engagement. Drawing on Critical Technocultural Discourse Analysis of 1,500 TikTok videos, this study examines how non-Latinas and Latinas interact with these tools. Non-Latina users deploy the filters as generic beautification tools, abstracting Latinx-coded aesthetics from cultural specificity – a pattern conceptualized as digital Latinface. This process is sustained by gendered self-presentation norms, effect libraries, and algorithmic rewards that normalize and monetize ethnoracial abstraction. In response, Latina users engage in deliberate resignification, re-embedding cultural meaning within platform constraints. By tracing how racial meaning is encoded, appropriated, and contested through beauty filters, the article accounts for aesthetic-affective mechanisms that shape race, visibility, and resistance in algorithmic environments.",
-    "abstract_zh": "在TikTok平台上，“拉丁裔美妆”滤镜会呈现出一些风格化的面部特征，比如浓密的眉毛、轮廓分明的颧骨以及夸张的嘴唇。这些特征源自长期以来对拉丁裔性别特征的刻板印象和商业化描绘。虽然这些滤镜看起来只是用于美化外观的工具，但实际上它们是平台种族主义的一部分，将带有种族色彩的审美特征嵌入到标准化、易于分享的模板中，从而提高用户的互动率。通过对1500个TikTok视频进行批判性技术文化话语分析，本研究探讨了非拉丁裔用户和拉丁裔用户如何使用这些滤镜。非拉丁裔用户将这些滤镜视为通用的美化工具，将原本具有文化特色的拉丁裔美学元素抽象化；这种现象被称作“数字拉丁脸”（digital Latinface）。这一过程受到性别化的自我呈现规范、预设的美学效果以及算法奖励机制的推动，这些因素使得种族特征的抽象化变得常态化并能够带来经济收益。作为回应，拉丁裔用户会主动对这些滤镜进行重新诠释，在平台限制的框架内重新赋予其文化意义。通过分析这些滤镜如何编码、挪用和挑战种族身份，本文揭示了在算法驱动的环境中，审美情感机制如何塑造种族认同、可见性以及人们的抵抗行为。",
+    "abstract_zh": "在TikTok上，“拉丁裔美妆”滤镜会呈现出一些风格化的面部特征——比如浓密的眉毛、轮廓分明的颧骨以及夸张的嘴唇——这些特征源自长期以来对拉丁裔性别特征的刻板印象和商业化描绘。虽然这些滤镜看起来只是用于美化的工具，但实际上它们是平台种族主义的一部分，将带有种族色彩的面部特征融入到标准化、易于分享的模板中，从而提高用户的互动率。通过对1500个TikTok视频进行批判性技术文化话语分析，本研究探讨了非拉丁裔用户和拉丁裔用户如何使用这些滤镜。非拉丁裔用户将这些滤镜视为通用的美化工具，将拉丁裔特有的审美特征抽象出来，这种抽象过程被称作“数字拉丁脸”（digital Latinface）。这一现象受到性别化的自我呈现规范、滤镜效果库以及算法奖励机制的推动，这些因素使得种族特征的抽象化变得常态化并能够带来经济收益。作为回应，拉丁裔用户会主动对这些滤镜进行重新诠释，在平台的限制下重新赋予它们文化意义。通过分析这些滤镜如何编码、挪用和挑战种族身份，本文揭示了在算法驱动的环境中，审美情感机制如何塑造种族认同、可见性以及人们的抵抗行为。",
     "summary": "运用批判性技术文化话语分析，研究1500个TikTok视频中非拉丁裔与拉丁裔用户对‘Latina妆容’滤镜的不同使用，揭示平台化种族主义与抵抗实践。",
     "reason": "研究TikTok美容滤镜中的种族表征与算法奖励机制，属于社交媒体平台和算法环境议题。",
     "tags": [
@@ -8419,7 +8593,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Prior work shows that passive news engagement, such as selection and consumption, exhibits strong news selectivity. Far less attention has been given to more active forms of news engagement, however. News commentary, an active form of engagement, may reflect cross-cutting engagement rather than pro-attitudinal selectivity, given its expressive and often confrontational nature. Using ten years of commenting data from South Korea’s largest news aggregator—amounting to over 250 million comments posted by approximately six million users—and a deep-learning content analysis to classify political attitudes and hostility, we examine whether hostile commentary is indeed characterized by cross-cutting patterns across both content and source levels. We specifically analyze whether users comment on counter-attitudinal news stories and whether hostile commenters are structurally confined within fragmented outlet clusters in co-engagement media networks. Findings show that hostile commenters are more likely to cross boundaries by targeting opposing news stories and exhibit weaker echo chamber structures, reflecting cross-cutting engagement beyond their clusters. This pattern is especially pronounced in political and societal domains. In today’s media environment, hostility and opposition may ironically disrupt, rather than reinforce, echo chambers.",
-    "abstract_zh": "先前的研究表明，被动的新闻参与行为（如新闻的选择和阅读）表现出较强的新闻选择性。然而，对于更为主动的新闻参与形式（如新闻评论）的关注却相对较少。新闻评论作为一种主动的参与方式，由于其表达性和往往具有对抗性的特点，可能更多地反映了跨领域的参与行为，而非基于特定态度的选择性。我们利用韩国最大新闻聚合平台十年的评论数据（共计超过2.5亿条评论，来自约600万用户），并结合深度学习内容分析技术来识别用户的政治态度和敌意情绪，以探讨敌对性评论是否确实具有跨内容和来源层面的特征。具体来说，我们分析了用户是否会对与自己观点相反的新闻文章发表评论，以及敌对性评论者是否在共同参与的媒体网络中局限于特定的信息来源群体内。研究结果表明，敌对性评论者更倾向于跨越界限，评论不同立场的新闻文章，并且他们的评论行为较少受到“回音室”效应的影响（即他们的观点在特定群体内得到强化）。这种跨领域参与的现象在政治和社会领域尤为明显。在当今的媒体环境中，敌意和反对意见反而可能破坏而非强化“回音室”效应。",
+    "abstract_zh": "先前的研究表明，被动的新闻参与行为（如新闻的选择和阅读）表现出较强的新闻选择性。然而，对于更为主动的新闻参与形式（如新闻评论）的关注却相对较少。新闻评论作为一种主动的参与方式，由于其表达性和往往具有对抗性的特点，可能更多地体现了跨领域的参与行为，而非基于特定态度的选择性。我们利用韩国最大新闻聚合平台十年的评论数据（共计超过2.5亿条评论，来自约600万用户），并结合深度学习内容分析技术来识别用户的政治态度和敌意情绪，以探讨敌对性评论是否确实具有跨内容和来源层面的特征。具体来说，我们研究了用户是否会对与自己观点相反的新闻文章发表评论，以及敌对性评论者是否在共同参与的媒体网络中局限于特定的信息来源群体内。研究结果表明，敌对性评论者更倾向于跨越界限，评论不同立场的新闻文章，并且他们的评论行为较少受到“回音室”效应的影响（即他们的观点在特定群体内得到强化）。这种跨领域参与的现象在政治和社会领域尤为明显。在当今的媒体环境中，敌意和反对意见反而可能破坏而非强化“回音室”效应。",
     "summary": "",
     "reason": "使用深度学习和海量新闻评论数据，分析敌对评论的跨立场传播模式，属于计算传播核心议题。",
     "tags": [
@@ -8442,7 +8616,7 @@
   {
     "id": 736,
     "title": "Orchestrating scalability: how patents render cloud imaginaries in CAV innovation",
-    "title_zh": "协调可扩展性：专利如何将云计算的愿景转化为CAV创新",
+    "title_zh": "协调可扩展性：专利如何将云计算的设想转化为计算机辅助验证（CAV）创新",
     "authors": [
       "Alex Gekker",
       "Sam; id_orcid 0000-0001-8347-3695 Hind",
@@ -8458,7 +8632,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article explores how cloud computing enables and shapes the scaling of connected and autonomous vehicles (CAVs), positioning cloud infrastructure as a technology, strategy, and imaginary central to the scaling of AI. Using a dataset of 69,421 global patent families, we analyse how diverse actors – including automotive manufacturers, chipmakers, electronics companies, autonomous vehicle firms, and telecom/mapping providers – mobilise cloud technologies to expand AI capabilities, manage resources, and coordinate complex socio-technical systems. Approaching patents through ‘sociotechnical imaginaries’, we show how they simultaneously codify technical innovations while projecting visions of scalable, cloud-enabled CAV futures. Our analysis identifies four thematic clusters – vehicle communication, machine vision, network architectures, and edge computing – through which cloud technologies are operationalised and imagined. We argue that the cloud functions as a technology of orchestration, with cloudification exemplifying AI’s industrialisation as it moves from laboratory research to globally scalable systems. The article contributes to debates on scale by highlighting the interplay between technical, organisational, and imaginative dimensions in shaping AI-enabled mobility.",
-    "abstract_zh": "本文探讨了云计算如何推动和塑造联网自动驾驶车辆（CAVs）的规模化发展，并将云计算基础设施视为推动人工智能（AI）规模化发展的关键技术、战略和核心要素。通过分析69,421个全球专利家族的数据集，我们研究了包括汽车制造商、芯片制造商、电子公司、自动驾驶车辆企业以及电信/地图服务提供商在内的多种参与者如何利用云计算技术来扩展AI功能、管理资源并协调复杂的社会技术系统。从“社会技术想象”的角度出发，我们分析了这些专利如何既编码了技术创新，又体现了对可扩展的、基于云计算的自动驾驶车辆未来的构想。我们的研究发现了四个主要主题领域：车辆通信、机器视觉、网络架构和边缘计算——这些领域正是云计算技术得以应用和被想象的具体方式。我们认为，云计算本质上是一种用于协调各种技术资源的技术；其“云化”过程体现了人工智能从实验室研究向全球可扩展系统的转变。本文通过强调技术、组织结构和想象力在推动AI驱动的移动出行发展中的相互作用，为相关学术讨论做出了贡献。",
+    "abstract_zh": "本文探讨了云计算如何推动和塑造联网自动驾驶车辆（CAVs）的规模化发展，并将云计算基础设施视为推动人工智能（AI）规模化发展的关键技术、战略以及核心要素。通过分析69,421个全球专利家族的数据集，我们研究了包括汽车制造商、芯片制造商、电子公司、自动驾驶车辆企业以及电信/地图服务提供商在内的多种参与者如何利用云计算技术来扩展AI功能、管理资源并协调复杂的社会技术系统。从“社会技术想象”的角度出发，我们分析了这些专利如何既编码了技术创新，又体现了对可扩展、基于云计算的自动驾驶车辆未来的构想。研究发现，云计算主要通过四个主题领域实现其功能：车辆通信、机器视觉、网络架构和边缘计算。我们认为，云计算本质上是一种用于协调各种技术资源的技术；其“云化”过程体现了人工智能从实验室研究向全球可扩展系统的转变。本文通过揭示技术、组织结构与想象力这三个维度在推动AI驱动的移动出行发展中的相互作用，为相关讨论做出了贡献。",
     "summary": "分析云技术如何支撑自动驾驶规模化，基于69,421项专利识别四个主题聚类，揭示云作为编排技术塑造AI未来。",
     "reason": "使用大规模专利数据与计算文本聚类分析AI云基础设施的社会技术想象，属计算传播学。",
     "tags": [
@@ -8490,7 +8664,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The expansion of surveillance in Central Asia has unfolded not as a neutral process of digital modernization but as a politically charged response to regime insecurity, mobility, and shifting geopolitical alignments. Focusing on Kazakhstan, Uzbekistan, and Turkmenistan, this article examines how surveillance infrastructures linked to China’s Digital Silk Road are embedded across distinct spatial and political sites, including urban camera networks in Almaty, border surveillance posts in the Ferghana Valley, and biometric databases and control systems along Turkmenistan’s southern frontier. Drawing on geospatial analysis, regional documentation, activist interviews, and digital ethnography of dissident networks, the study traces both the institutional adoption of Chinese surveillance technologies and the forms of resistance they provoke. Rather than producing a uniform model of digital authoritarianism, these systems are selectively adapted to existing coercive practices, allowing states to recalibrate sovereignty, manage sociopolitical tensions, and extend authority beyond conventional territorial boundaries. Surveillance thus functions simultaneously as an instrument of domestic political discipline and as a geopolitical interface through which China’s technological influence is consolidated. At the same time, these infrastructures generate new, adaptive forms of civic resistance, revealing surveillance as a contested field of power rather than a settled architecture of control.",
-    "abstract_zh": "在中亚，监控系统的扩张并非是一个中立的数字化现代化过程，而是对政权不稳定性、人口流动性以及地缘政治格局变化的政治性反应。本文以哈萨克斯坦、乌兹别克斯坦和土库曼斯坦为例，探讨了与中国“数字丝绸之路”项目相关的监控基础设施是如何渗透到这些国家的不同空间和政治领域的——包括阿拉木图的城市监控网络、费尔干纳谷地的边境监控站，以及土库曼斯坦南部边境的生物识别数据库和控制系统。通过地理空间分析、区域文献研究、活动人士访谈以及对异见者网络的数字民族志调查，该研究既分析了中国监控技术在这些国家的制度性应用，也揭示了这些技术所引发的抵抗形式。这些监控系统并没有形成一种统一的“数字威权主义”模式，而是根据当地现有的强制措施进行了选择性调整，使各国能够重新定义主权、管理社会政治紧张局势，并将权力扩展到传统领土边界之外。因此，监控系统既是一种国内政治控制的工具，也是中国技术影响力得以巩固的地缘政治手段。与此同时，这些监控基础设施也催生了新的、具有适应性的公民抵抗形式，表明监控领域实际上是一个充满争议的权力斗争场所，而不仅仅是一种固定的控制结构。",
+    "abstract_zh": "在中亚，监控系统的扩张并非是一个中立的数字化现代化过程，而是对政权不稳定性、人口流动性以及地缘政治格局变化的政治性反应。本文以哈萨克斯坦、乌兹别克斯坦和土库曼斯坦为例，探讨了与中国“数字丝绸之路”项目相关的监控基础设施是如何渗透到这些国家的不同空间和政治领域的——包括阿拉木图的城市监控网络、费尔干纳谷地的边境监控站，以及土库曼斯坦南部边境的生物识别数据库和控制系统。通过地理空间分析、区域文献研究、活动人士访谈以及对异见人士网络的数字民族志调查，该研究既分析了中国监控技术在这些国家的制度性应用，也研究了这些技术所引发的抵抗形式。这些监控系统并没有形成一种统一的“数字威权主义”模式，而是根据当地现有的强制措施进行了选择性调整，使各国能够重新定义主权、管理社会政治紧张局势，并将权力扩展到传统的领土边界之外。因此，监控系统既是一种国内政治控制的工具，也是中国技术影响力得以巩固的地缘政治手段。与此同时，这些监控基础设施也催生了新的、具有适应性的公民抵抗形式，表明监控领域实际上是一个充满争议的权力斗争场所，而不仅仅是一种固定的控制结构。",
     "summary": "探讨中亚国家采用中国数字丝绸之路监控技术，通过地理空间分析、数字民族志等方法，分析监控基础设施如何嵌入不同政治空间，并引发公民抵抗，揭示监控作为权力争夺场域。",
     "reason": "研究数字监控技术的社会政治影响，运用地理空间分析和数字民族志等计算方法，属计算传播议题。",
     "tags": [
@@ -8523,7 +8697,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study investigates the deepening editorial schism between domestic (Anadolu Agency, TRT) and international (BBC Turkish, DW Turkish, Sputnik Turkey) public media in Turkey’s competitive authoritarian context, tracking their divergence across four consecutive elections (June 2015, November 2015, June 2018, May 2023). Drawing from a corpus of 1.5 million tweets, we employ a mixed-methods analysis on 22,739 campaign-related tweets to examine three dimensions: media visibility of political parties, thematic framing patterns, and discursive positioning of political actors. Our findings reveal a statistically significant and stark dichotomy. Domestic public media exhibit an extreme pro-incumbent bias, allocating over 92% of visibility to the ruling party by 2023, while confining opposition parties to narrow thematic frames and portraying them predominantly as passive objects of government criticism. Conversely, international public media maintain a relative editorial balance, providing opposition parties with substantive visibility, diverse thematic coverage, and discursive agency as active political subjects. This systematic comparison provides robust empirical evidence of the partisan capture of Turkey’s domestic public media, documenting their transformation from public forums into a state apparatus. Furthermore, it demonstrates how international public media have evolved to function as a surrogate public sphere, filling the void in a highly polarized and restrictive media environment.",
-    "abstract_zh": "本文研究了在土耳其竞争性威权主义背景下，国内（安纳托利亚通讯社、TRT）与国际（BBC土耳其频道、DW土耳其频道、Sputnik土耳其频道）公共媒体之间日益加剧的编辑分歧。研究通过分析四次连续选举（2015年6月、2015年11月、2018年6月、2023年5月）期间的相关报道，追踪了两者之间的差异。基于150万条推文的数据，我们对22,739条与竞选活动相关的推文进行了混合方法分析，重点考察了三个方面：政党的媒体曝光度、主题框架模式以及政治参与者的话语定位。研究结果揭示了两者之间存在显著且明显的对立：国内公共媒体表现出极端的亲执政党倾向，到2023年时，超过92%的媒体曝光度都集中在执政党身上，而将反对党局限于狭隘的主题框架中，并主要将它们描绘成政府批评的被动对象；相比之下，国际公共媒体保持了相对的编辑平衡，为反对党提供了实质性的曝光度、多样化的主题报道，并将其视为具有主动性的政治主体。这一系统性的比较为土耳其国内公共媒体被政党控制的现象提供了有力的实证证据，同时也展示了国际公共媒体如何演变成为一种替代性的公共空间，在高度两极分化和限制性的媒体环境中填补了信息空白。",
+    "abstract_zh": "本文研究了在土耳其竞争性威权主义背景下，国内（安纳托利亚通讯社、TRT）与国际（BBC土耳其频道、DW土耳其频道、Sputnik土耳其频道）公共媒体之间日益加剧的编辑分歧。研究通过分析四次连续选举（2015年6月、2015年11月、2018年6月、2023年5月）期间的相关报道，追踪了两者之间的差异。基于150万条推文的数据，我们对22,739条与竞选活动相关的推文进行了混合方法分析，重点考察了三个方面：政党的媒体曝光度、主题框架模式以及政治参与者的话语定位。研究结果揭示了两者之间存在显著且明显的对立：国内公共媒体表现出极端的亲执政党倾向，到2023年时，超过92%的媒体曝光度都集中在执政党身上，而将反对党置于狭隘的主题框架中，并主要将它们描绘成政府批评的被动对象；相比之下，国际公共媒体则保持了相对的编辑平衡，给予反对党足够的曝光度、多样化的主题报道，并将其视为具有主动性的政治主体。这一系统性的比较为土耳其国内公共媒体被政党控制的现象提供了有力的实证证据，同时也展示了国际公共媒体如何演变成为一种替代性的公共空间，在高度两极分化和限制性的媒体环境中填补了信息空白。",
     "summary": "分析土耳其国内外公共媒体在四次选举中的推文差异，发现国内媒体强烈偏向执政党，国际媒体相对平衡，实证揭示媒体党派化与替代公共领域。",
     "reason": "使用150万推文语料和混合方法分析选举媒体偏见，涉及社交媒体、政治传播，属于计算传播典型研究。",
     "tags": [
@@ -8562,7 +8736,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Pre-trained language models (PLMs) are used in education, hiring, and moderation, raising the question of whether these models could replicate social hierarchies and symbolic power structures. This study employs the Fill-Mask Association Test (FMAT) in four principal Chinese PLMs with reference to the English PLMs. Language attitude bias is systematically characterized by gender, occupation, and age. The results show that Chinese PLMs display stronger male-oriented bias in gender evaluations; all models consistently favor high-status professions in occupational bias; and in the age dimension, both Chinese and English PLMs prefer younger groups, though the Chinese models show greater internal variability. Status also emerges as the most stable and directionally consistent bias across models. These results illustrate how algorithmic discourse may mimic and sustain social ideologies, making the case for critical scrutiny and diverse data governance as a means to realize equity in digital communication.",
-    "abstract_zh": "预训练的语言模型（PLMs）被广泛应用于教育、招聘和内容审核等领域，这引发了这样一个问题：这些模型是否有可能复制社会等级制度和象征性的权力结构。本研究使用“填充-掩码关联测试”（Fill-Mask Association Test, FMAT）对四种主要的中文PLMs进行了分析，并将其与英文PLMs进行了比较。研究系统地探讨了语言态度偏见与性别、职业和年龄之间的关系。结果表明，中文PLMs在性别评价上表现出更明显的男性偏好；所有模型在职业偏见方面都倾向于高地位的职业；在年龄维度上，中文和英文PLMs都更偏爱年轻群体，不过中文模型之间的内部差异较大。地位因素也被发现是所有模型中最稳定且方向性最一致的偏见来源。这些研究结果表明，算法生成的文本可能会模仿并延续社会意识形态，因此有必要对这类模型进行严格的审查，并推动多元化的数据治理机制，以实现数字通信中的公平性。",
+    "abstract_zh": "预训练的语言模型（PLMs）被广泛应用于教育、招聘和内容审核等领域，这引发了这样一个问题：这些模型是否有可能复制社会等级结构和象征性的权力关系。本研究使用“填充-掩码关联测试”（Fill-Mask Association Test, FMAT）对四种主要的中文PLMs进行了分析，并将其与英文PLMs进行了比较。研究系统地探讨了语言态度偏见与性别、职业和年龄之间的关系。结果表明，中文PLMs在性别评价上表现出更明显的男性偏好；所有模型在职业偏见方面都倾向于高地位的职业；在年龄维度上，中文和英文PLMs都更偏爱年轻群体，不过中文模型内部的变异性更大。此外，地位因素被证明是所有模型中最稳定且方向性最一致的偏见因素。这些研究结果揭示了算法化的语言表达方式如何可能模仿并延续社会意识形态，因此呼吁对这类模型进行严格的审查，并推动多元化的数据治理机制，以实现数字通信中的公平性。",
     "summary": "通过Fill-Mask关联测试分析中英文预训练语言模型在性别、职业和年龄上的语言态度偏见，发现模型复制社会等级和意识形态，呼吁数据治理与公平。",
     "reason": "研究AI预训练语言模型中的社会偏见，使用计算方法（FMAT），属于计算传播议题。",
     "tags": [
@@ -8600,7 +8774,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Motivated by the dearth of research providing a comprehensive assessment of how various aspects of Reddit contribute to political polarisation on the platform, this study examines the dynamics of cross-ideological communication across 11 major subreddits over 16 years. Going beyond purely textual elements, we analyse a broad range of possibilities for overlaps between subreddits. This includes common users, information-sharing, cross-posting, cross-commenting, links to other subreddits, and discursive identities. We observe minimal overlaps in all these indicators. This is true even for subreddits with highly similar discourses and extends beyond a left-right dichotomy. These patterns, we argue, emerge from an entanglement of platform design, moderation practices, user agency, discourses, and broader socio-political contexts. Our findings show how this entanglement leads to the sedimentation of polarisation on Reddit, wherein the fragmentation of political subreddits is irreducible to discourses, identities, or platform design alone. These findings also challenge the common framing of r/politics as a town square for cross-ideological deliberation and exposure.",
-    "abstract_zh": "鉴于目前缺乏能够全面评估Reddit各个方面如何导致该平台上政治两极分化的研究，本研究考察了16年间11个主要子版块（subreddits）中跨意识形态交流的动态变化。我们不仅分析了纯粹的文本元素，还探讨了子版块之间可能存在的各种重叠现象，包括共同用户、信息共享、跨版块发布内容、相互评论、链接到其他子版块以及用户所表达的 discursive identities（即用户在使用平台时所展现的意识形态或身份特征）。研究发现，在所有这些指标上，子版块之间的重叠都非常有限——即使是在讨论内容高度相似的子版块之间也是如此，而且这种现象并不仅仅局限于左派与右派的二元对立。我们认为，这些现象的产生源于平台设计、管理方式、用户行为、讨论内容以及更广泛的社会政治背景之间的复杂相互作用。研究结果表明，这种相互作用导致了Reddit上政治两极分化的持续存在；政治子版块的碎片化现象无法仅仅通过讨论内容、用户身份或平台设计来解释。此外，这些发现也挑战了人们通常将r/politics子版块视为跨意识形态讨论和交流场所的固有认知。",
+    "abstract_zh": "鉴于目前缺乏能够全面评估Reddit各个方面如何导致该平台上政治两极分化的研究，本研究考察了16年间11个主要子版块（subreddits）中跨意识形态交流的动态变化。我们不仅分析了纯粹的文本元素，还探讨了子版块之间可能存在的各种重叠现象，包括共同用户、信息共享、跨版块发布内容、相互评论、链接到其他子版块以及用户所使用的讨论身份（discursive identities）。研究发现，这些重叠现象几乎不存在——即使是在讨论内容高度相似的子版块之间也是如此，而且这种现象并不仅仅局限于左派与右派的二元对立。我们认为，这些现象的产生是平台设计、版主管理方式、用户行为、讨论内容以及更广泛的社会政治背景共同作用的结果。研究结果表明，这种复杂的关系导致了Reddit上政治两极分化的持续存在；政治子版块的分化现象无法仅仅通过讨论内容、用户身份或平台设计来解释。此外，这些发现也挑战了人们将r/politics视为一个促进跨意识形态讨论与交流的“公共广场”的传统观点。",
     "summary": "分析11个主要政治子版块16年数据，从用户重叠、信息分享、跨帖、跨评论等维度揭示跨意识形态交流极低，极化由平台设计、治理、话语等多重因素交织导致。",
     "reason": "研究Reddit平台政治极化，使用16年跨子版块多指标重叠网络分析，属计算传播学。",
     "tags": [
@@ -8622,7 +8796,7 @@
   {
     "id": 234,
     "title": "Elected officials’ Online Sharing of Misinformation: Institutional and Ideological Checks",
-    "title_zh": "当选官员在网上传播错误信息：制度与意识形态的制约因素",
+    "title_zh": "当选官员在网络上的错误信息传播：制度与意识形态的制约因素",
     "authors": [
       "Yuehong Cassandra Tai",
       "Yu-Ru Lin",
@@ -8638,7 +8812,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Elected officials occupy privileged positions in public communication about important topics – roles that extend to the digital world. In the same way that public officials stand to lead constructive online dialogue, they also hold the potential to accelerate the dissemination of harmful content. We explore and explain the sharing of misinformation, which we refer to as low-factual content, by examining nearly 500,000 Facebook posts by U.S. state legislators from 2020 to 2021. We validate a widely used low-factual content detection approach in misinformation studies and apply the measure to all of the posts we collect. Our findings reveal that the prevalence is rare, affecting less than 1% of legislators’ posts overall. However, Republican legislators share low-factual content at higher rates, and certain states emerge as hotspots for such content. We also find that conservative lawmakers are more likely to share such content, with this tendency potentially intensifying in conservative districts, and waning in liberal ones. Legislative professionalism plays a significant role in misinformation circulation: legislators with higher institutional capacity and resources tend to be less inclined to share low-factual information. We conclude with a discussion of the implications of our findings for future interventions to reduce the spread of low-factual content.",
-    "abstract_zh": "当选的官员在关于重要议题的公共传播中占据着特殊的地位——这种角色延伸到了数字世界。正如公共官员有能力引领建设性的在线对话一样，他们也可能加速有害内容的传播。我们通过分析2020年至2021年间近50万条美国州立法者的Facebook帖子，探讨了错误信息（我们将其称为“低事实内容”）的传播现象。我们验证了一种在错误信息研究中广泛使用的低事实内容检测方法，并将其应用于我们收集的所有帖子。研究结果表明，低事实内容的传播情况较为罕见，总体上仅影响了不到1%的立法者帖子。然而，共和党立法者分享低事实内容的频率更高，某些州成为这类内容的高发区。我们还发现，保守派立法者更有可能分享此类内容，这种倾向在保守派选区可能更为明显，而在自由派选区则有所减弱。立法者的专业素养在错误信息的传播中起着重要作用：那些拥有更多机构资源和能力的立法者往往不太倾向于分享低事实信息。最后，我们讨论了这些发现对未来减少低事实内容传播的干预措施的意义。",
+    "abstract_zh": "当选的官员在关于重要议题的公共交流中占据着特殊的地位——这种角色也延伸到了数字世界。虽然公职人员有责任引领建设性的在线对话，但他们同时也有可能加速有害内容的传播。我们通过分析2020年至2021年间近50万条美国州立法者的Facebook帖子，探讨了错误信息（即我们称之为“低事实内容”）的传播现象。我们验证了一种在错误信息研究中广泛使用的低事实内容检测方法，并将其应用于我们收集的所有帖子。研究结果表明，这种现象较为罕见，总体上仅影响了不到1%的立法者帖子。然而，共和党立法者分享低事实内容的频率更高，某些州成为这类内容的高发区。我们还发现，保守派立法者更有可能分享此类内容，这种倾向在保守派选区可能更为明显，而在自由派选区则有所减弱。立法者的专业素养在错误信息的传播中起着重要作用：那些拥有更多机构资源和能力的立法者往往不太倾向于分享低事实信息。最后，我们讨论了这些发现对未来减少低事实内容传播的干预措施的意义。",
     "summary": "分析美国州议员2020-2021年近50万条Facebook帖子，验证并应用低事实内容检测方法，发现共和党议员及某些州分享虚假信息较多，机构能力与分享倾向负相关。",
     "reason": "研究利用机器学习检测社交媒体上的虚假信息，结合大规模数据与政治传播议题，属典型计算传播研究。",
     "tags": [
@@ -8660,7 +8834,7 @@
   {
     "id": 476,
     "title": "Hashtags, Protests, and Polycrisis: A Machine Learning Analysis of Kenyans’ Sentiments on the 2024 Finance Bill Protests Using X Data",
-    "title_zh": "标签词、抗议活动与多重危机：利用X数据对肯尼亚人在2024年财政法案抗议活动中情绪的机器学习分析",
+    "title_zh": "#标签、抗议活动与多重危机：利用X数据对肯尼亚人在2024年财政法案抗议活动中情绪的机器学习分析",
     "authors": [
       "James Ndone",
       "Nathan Carpenter"
@@ -8674,7 +8848,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Grounded in the polycrisis concept, Situational Crisis Communication Theory (SCCT), and Construal Level Theory (CLT), this study examines how public sentiment and thematic discourse emerged on social media in response to Kenya’s 2024 Finance Bill protests, a crisis intensified by intersecting socio-economic challenges. Sentiment analysis and topic modeling of 99,576 X posts reveal a predominantly negative public sentiment (70.35%), reflecting widespread frustration with the Kenyan government’s fiscal policies. Key themes identified include opposition to the Finance Bill, economic hardship, demands for political accountability, active civic engagement, and media influence on public opinion. The analysis further demonstrates distinct patterns of sentiment expression, with original posts displaying heightened emotional intensity compared to replies, and user influence shaping sentiment, as high-follower accounts amplified unique sentiment trends. These findings hold practical implications for policymakers, media strategists, and crisis communicators, highlighting the importance of transparent, empathetic communication strategies that address public grievances and resonate in complex polycrisis contexts. By advancing the application of SCCT and CLT in the study of socio-political crises, this research highlights social media’s vital role in capturing and shaping public sentiment amid multifaceted crises.",
-    "abstract_zh": "本文基于“多重危机”（polycrisis）概念、情境危机传播理论（Situational Crisis Communication Theory, SCCT）和建构水平理论（Constructual Level Theory, CLT），探讨了2024年肯尼亚《财政法案》抗议事件期间，社交媒体上公众情绪和主题话语的形成过程。这场危机因多重社会经济挑战的叠加而加剧。通过对99,576条X平台帖子的情绪分析和主题建模，研究发现公众情绪总体呈负面（70.35%），反映出人们对肯尼亚政府财政政策的普遍不满。主要议题包括反对《财政法案》、经济困境、要求政治问责、积极的公民参与以及媒体对公众舆论的影响。分析还显示，原始帖子相比回复帖子具有更强烈的情绪表达；同时，用户的影响力也影响了情绪的传播——拥有大量粉丝的账号放大了某些特定的情绪趋势。这些发现对政策制定者、媒体策略师和危机沟通者具有实际意义，强调了在复杂的多重危机背景下，采取透明、富有同理心的沟通策略的重要性。通过将SCCT和CLT应用于社会政治危机的研究，本文突显了社交媒体在捕捉和塑造公众情绪方面的关键作用。",
+    "abstract_zh": "基于“多重危机”（polycrisis）概念、情境危机传播理论（Situational Crisis Communication Theory, SCCT）和建构水平理论（Construal Level Theory, CLT），本研究探讨了在肯尼亚2024年《财政法案》抗议活动中，社交媒体上公众情绪和主题话语的形成过程。这场危机因社会经济问题的交织而加剧。通过对99,576条X平台帖子的情绪分析和主题建模，研究发现公众情绪总体呈负面（70.35%），反映出人们对肯尼亚政府财政政策的普遍不满。主要议题包括反对《财政法案》、经济困境、要求政治问责、积极的公民参与以及媒体对公众舆论的影响。分析还显示了情绪表达的显著模式：原创帖子相比回复帖子具有更强烈的情感色彩；同时，用户的影响力也影响了情绪的走向——拥有大量粉丝的账户放大了某些特定的情绪趋势。这些发现对政策制定者、媒体策略师和危机沟通者具有实际意义，强调了在复杂的多重危机背景下，采取透明、富有同理心的沟通策略的重要性。通过将SCCT和CLT应用于社会政治危机的研究，本研究凸显了社交媒体在捕捉和塑造公众情绪方面的关键作用。",
     "summary": "基于肯尼亚2024年财政法案抗议，对99,576条X帖子进行情感分析和主题建模，揭示负面情绪占70.35%，识别出反对法案、经济困境、政治问责等主题，并分析发帖类型与用户影响力对情绪表达的影响。",
     "reason": "使用机器学习方法分析X平台数据，研究公众情绪与议题，属典型计算传播研究。",
     "tags": [
@@ -8697,7 +8871,7 @@
   {
     "id": 276,
     "title": "Generative AI and uneven productivity gains: the political economy of sectoral asymmetry in South Korea",
-    "title_zh": "生成式人工智能与不均衡的生产率提升：韩国行业不对称性的政治经济学",
+    "title_zh": "生成式人工智能与不均衡的生产率提升：韩国行业间不对称性的政治经济学",
     "authors": [
       "Eun Young Oh"
     ],
@@ -8707,7 +8881,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The diffusion of generative artificial intelligence (GenAI) raises questions not only about productivity but also about inequality, labor politics, and the future of development models. This paper examines South Korea – an economy long reliant on export-oriented manufacturing – to assess whether early GenAI adoption is associated with emerging differences in productivity across industries. Using quarterly data for 18 industries from 2013 to 2025, the analysis shows that industries with greater exposure to AI-augmentable tasks, many of which are in services, experienced short-run productivity increases after 2023, while routine-intensive manufacturing displayed limited change. These uneven outcomes extend task-based accounts of technological change to the industry level and suggest emerging sectoral differences in GenAI adoption. The paper contributes by providing early national evidence on sector-level patterns of GenAI exposure and by situating these patterns within debates about South Korea’s manufacturing-centered growth model. The findings point to the policy challenges associated with uneven technological adoption and to their implications for industrial strategy and labor relations.",
-    "abstract_zh": "生成式人工智能（GenAI）的普及不仅引发了关于生产力的问题，还涉及不平等、劳动政治以及发展模式的未来。本文以韩国为例——该国长期以来一直依赖出口导向的制造业——来探讨早期采用GenAI是否会导致不同行业之间的生产力差异。通过分析2013年至2025年间18个行业的季度数据，研究发现：那些更多从事可以通过AI提升生产力的任务的行业（其中许多属于服务业）在2023年后出现了短期的生产力增长，而以常规劳动密集型为主的制造业则变化不大。这种不均衡的结果将基于任务的视角来解释技术变革的现象扩展到了行业层面，并表明在GenAI的采用上存在行业间的差异。本文通过提供关于各行业GenAI应用情况的早期国家级数据，将这些模式置于韩国以制造业为中心的增长模式讨论的背景下进行探讨。研究结果指出了技术应用不均衡所带来的政策挑战，以及这些挑战对产业战略和劳动关系的影响。",
+    "abstract_zh": "生成式人工智能（GenAI）的普及不仅引发了关于生产力的问题，还涉及不平等、劳动政治以及发展模式的未来。本文以韩国为例——该国长期以来一直依赖出口导向的制造业——来探讨早期采用GenAI是否会导致不同行业之间的生产力差异。通过分析2013年至2025年间18个行业的季度数据，研究发现：那些更多从事可以通过AI提升生产力的任务的行业（其中许多属于服务业）在2023年后出现了短期的生产力增长，而以常规劳动密集型为主的制造业则变化不大。这种不平衡的结果将基于任务的视角来解释技术变革的现象扩展到了行业层面，并表明在GenAI的采用上存在行业间的差异。本文通过提供关于各行业GenAI应用情况的早期国家级数据，将这些差异置于韩国以制造业为中心的增长模式讨论的背景下进行探讨。研究结果指出了技术应用不均衡所带来的政策挑战，以及这些挑战对产业战略和劳动关系可能产生的影响。",
     "summary": "利用韩国18个行业2013-2025年季度数据，分析GenAI暴露度对生产力的影响，发现服务业短期提升而制造业变化有限，探讨技术扩散不均与产业政策挑战。",
     "reason": "研究生成式AI对行业生产力的影响，涉及AI社会影响与数据分析，符合计算传播领域。",
     "tags": [
@@ -8729,7 +8903,7 @@
   {
     "id": 350,
     "title": "The impact of social media flagging false information on the stock market: the case of Trump’s tweets",
-    "title_zh": "社交媒体对虚假信息的标记对股市的影响：以特朗普的推文为例",
+    "title_zh": "社交媒体标记虚假信息对股市的影响：以特朗普的推文为例",
     "authors": [
       "Phuc Lam Thy Nguyen",
       "Quoc Tran-Nam",
@@ -8781,7 +8955,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study sought to analyze Ukraine’s innovative use of Twitter (X) during the Russia–Ukraine War while identifying which Ukrainian innovations may diffuse among diplomatic institutions, thereby impacting the practice of diplomacy. Through an extensive literature review of 90 digital diplomacy studies, the study mapped 14 factors that may facilitate or inhibit the adoption of digital innovations in diplomacy. Using these factors, the study identified four Ukrainian innovations which may be widely adopted by diplomats including lobbying big tech CEOs, using memes and humor to narrate events, and utilizing celebrity Ambassadors. The study also identified one innovation that may not be adopted by diplomats—crowdfunding weapons procurement online. The study discusses the impact of each Ukrainian innovation on diplomatic practices and digital publics. By identifying factors that impact the adoption and diffusion of innovative technologies among diplomats, and demonstrating how such innovations impact diplomacy, the study addresses an important lacuna in digital diplomacy research.",
-    "abstract_zh": "本研究旨在分析乌克兰在俄乌战争期间对Twitter（X）的创新使用方式，并探讨哪些乌克兰的创新措施有可能在外交机构中得到推广，从而影响外交实践。通过对90篇关于数字外交的研究文献进行广泛回顾，本研究梳理出了14个可能促进或阻碍外交领域采用数字创新的因素。基于这些因素，研究确定了四种可能被外交官广泛采纳的乌克兰创新方式：游说大型科技公司的首席执行官、利用模因和幽默来报道事件，以及借助知名人士担任大使。同时，研究也指出有一种创新方式可能不会被外交官采用，即通过网络众筹来采购武器。本文还讨论了每种乌克兰创新对外交实践和数字公众的影响。通过识别影响外交官采纳和传播创新技术的因素，并展示这些创新如何对外交产生实际影响，本研究填补了数字外交研究中的一个重要空白。",
+    "abstract_zh": "本研究旨在分析乌克兰在俄乌战争期间对Twitter（X）的创新性使用，并探讨哪些乌克兰的创新措施有可能在外交机构中得到推广，从而影响外交实践。通过对90篇关于数字外交的研究文献进行广泛回顾，本研究梳理出了14个可能促进或阻碍外交领域采用数字创新的因素。基于这些因素，研究确定了四种可能被外交官广泛采纳的乌克兰创新方式：游说大型科技公司的首席执行官、利用表情包和幽默来报道事件，以及借助知名人士担任“大使”来传递信息。同时，研究也指出有一种创新方式可能不会被外交官采用，即通过网络众筹来采购武器。本文讨论了每种乌克兰创新对外交实践和数字公众的影响。通过识别影响外交官采纳和传播创新技术的因素，并展示这些创新如何实际改变外交方式，本研究填补了数字外交研究中的一个重要空白。",
     "summary": "通过文献综述识别影响数字创新扩散的因素，分析乌克兰在Twitter上的四类创新实践及其对数字外交的影响，包括游说科技CEO、使用模因和名人外交等。",
     "reason": "研究明确涉及Twitter（X）在俄乌战争中的传播实践，属于社交媒体平台议题，符合计算传播选题标准。",
     "tags": [
@@ -8802,7 +8976,7 @@
   {
     "id": 166,
     "title": "Empathy Mediates the Link Between Extraversion and Latent Semantic Similarity in Computer-Mediated Discussions of a Politically Contentious Topic: Evidence from Abortion-Related Discourse",
-    "title_zh": "共情在政治敏感话题的计算机中介讨论中调节外向性与潜在语义相似性之间的联系：以堕胎相关话语为例的证据",
+    "title_zh": "共情在政治争议话题的计算机中介讨论中调节外向性与潜在语义相似性之间的联系：以堕胎相关话语为例的证据",
     "authors": [
       "Vivian P. Ta-Johnson",
       "Isabella M. Swafford"
@@ -8815,7 +8989,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Conversations about politically contentious issues often break down due to a lack of shared understanding, with language playing a central role in this failure—particularly in discussions of abortion, one of the most polarizing topics in U.S. public life. Mutual understanding requires that speakers achieve high latent semantic similarity (LSS) by using words in similar ways. While extraversion has been linked to higher LSS, likely due to its association with social engagement and attentional focus, semantic alignment also depends on speakers’ capacity for empathic attunement, suggesting that empathy may serve as a key mechanism linking extraversion to LSS. This study examined whether empathy mediates the relationship between extraversion and LSS in computer-mediated conversations between unacquainted dyads ( N = 170) discussing the politically contentious topic of abortion. Results showed that empathy fully mediated this relationship, indicating that empathic attunement—not sociability alone—drives LSS. Findings inform communication theories by underscoring empathy's central role in fostering common ground understanding and highlight LSS as an observable linguistic marker of empathic engagement.",
-    "abstract_zh": "关于政治争议性话题的对话往往因为缺乏共同的理解而陷入僵局，其中语言在导致这种失败的过程中起着核心作用——尤其是在讨论堕胎这一美国公共生活中最具争议性的话题时。要实现相互理解，说话者需要通过使用相似的词汇来达到较高的潜在语义相似性（LSS）。虽然外向性格与较高的LSS相关，这可能是因为外向性格与社交互动和注意力集中有关，但语义对齐还取决于说话者的共情能力。这表明，共情可能是将外向性格与LSS联系起来的关键机制。本研究考察了在计算机中介导的、由不熟悉的人组成的对话对（N=170）讨论堕胎这一政治争议性话题时，共情是否起到了中介作用。研究结果表明，共情完全中介了外向性格与LSS之间的关系，说明推动LSS的因素是共情能力，而不仅仅是社交性。这些发现为沟通理论提供了新的见解，强调了共情在促进共同理解方面的核心作用，并指出LSS是共情参与的一种可观察的语言标志。",
+    "abstract_zh": "关于政治争议性话题的对话往往因为缺乏共同的理解而陷入僵局，其中语言在导致这种失败的过程中起着核心作用——尤其是在讨论堕胎这一美国公共生活中最具争议性的话题时。要实现相互理解，说话者需要通过相似的方式使用词汇，从而达到较高的潜在语义相似性（LSS）。虽然外向性格与较高的LSS相关，这可能是因为外向性格与社交互动和注意力集中有关，但语义对齐还取决于说话者的共情能力。这表明，共情可能是将外向性格与LSS联系起来的关键机制。本研究考察了在计算机中介导的、由不熟悉的人组成的对话中（共170对参与者），共情是否能够调节外向性格与LSS之间的关系。研究结果表明，共情完全中介了这种关系，说明推动LSS的因素是共情能力，而不仅仅是社交能力。这些发现为沟通理论提供了新的见解，强调了共情在促进共同理解方面的核心作用，并指出LSS是共情参与的一种可观察的语言标志。",
     "summary": "研究通过计算机中介的堕胎话题对话（N=170），检验共情在外向性与潜在语义相似性之间的中介作用，发现共情完全中介该关系，凸显语言标记在理解共同点中的作用。",
     "reason": "使用潜在语义相似性（LSS）计算方法分析政治争议话题的对话数据，属于计算传播研究。",
     "tags": [
@@ -8851,7 +9025,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "In recent years, a series of AI courses for journalists has emerged in response to the rapid adoption of AI technologies in newsrooms, their uneven market distribution, and news professionals’ desire to upskill. Consequently, these courses are becoming important sites where specific understandings of AI and journalistic practices are introduced, negotiated and legitimised. In this paper, we examine the specific case of the JournalismAI Academy for Small Newsrooms, an educational initiative with institutional prominence and global reach, as a site of domestication. Drawing on theorising of technological domestication in Media Studies and Science and Technology Studies (STS), we examine how institutional actors shape domestication practices in news contexts and the implications of these interventions. Based on ethnographic observations and qualitative interviews, we identify four central dimensions of domestication that each enact sets of practices and meanings associated with AI. These include: (1) demystifying, (2) cultivating, (3) managing, and (4) finally, appropriating AI. In analysing these dimensions, we identify how the course instructors enact AI as domesticable in ways that are contingent on both dominant understandings of AI and the perceived local and organisational constraints of the participants. These enactments, in turn, reshape participants’ relationship to AI and their subsequent use of AI technologies. Through this analysis, we shed light on how courses such as the Journalism AI Academy for Small Newsrooms intervene in participants’ AI practices, and how the course, in unintended ways, naturalises and depoliticises dominant understandings of AI and its inevitability in journalism.",
-    "abstract_zh": "近年来，随着人工智能技术在新闻编辑室中的快速普及、这些技术在市场中的分布不均，以及新闻从业者对提升技能的渴望，一系列针对记者的人工智能课程应运而生。因此，这些课程成为了传播关于人工智能和新闻实践的特定理解、促进这些理解交流并使其获得认可的重要平台。在本文中，我们以“小型新闻编辑室人工智能学院”（JournalismAI Academy for Small Newsrooms）这一具有机构影响力和全球覆盖范围的教育项目为例，探讨了人工智能技术如何被“本土化”（即如何被适应并融入特定的社会、文化和组织环境中）。基于媒体研究（Media Studies）和科学技术研究（Science and Technology Studies, STS）中关于技术本土化的理论，我们分析了机构行为者如何在新闻领域塑造这些本土化过程及其影响。通过民族志观察和定性访谈，我们确定了人工智能本土化的四个核心维度：（1）去神秘化（即揭示人工智能技术的本质）；（2）培养（即促进对人工智能技术的理解和应用）；（3）管理（即制定和使用人工智能的规则和流程）；（4）最终实现对其的自主掌握（即让参与者能够自主决策如何使用人工智能）。在分析这些维度的过程中，我们发现课程讲师对人工智能的诠释方式既受到主流人工智能认知的影响，也受到参与者所面临的本地化条件和组织限制的制约。这些诠释方式反过来又改变了参与者对人工智能的态度及其后续使用行为。通过这项研究，我们揭示了类似“小型新闻编辑室人工智能学院”这样的课程是如何影响参与者的人工智能实践的，同时这些课程也在无意中使人们对人工智能在新闻行业中的主导地位及其必然性产生了“自然化”的认知，从而削弱了人们对这一现象的政治敏感性。",
+    "abstract_zh": "近年来，随着人工智能技术在新闻编辑室中的快速普及、这些技术在市场中的分布不均，以及新闻从业者对提升技能的渴望，一系列针对记者的人工智能课程应运而生。因此，这些课程成为了传播关于人工智能和新闻实践的具体认知、讨论这些认知并使其被认可的重要平台。在本文中，我们以“小型新闻编辑室新闻人工智能学院”（JournalismAI Academy for Small Newsrooms）这一具有机构影响力和全球覆盖范围的教育项目为例，探讨了人工智能技术如何被“本土化”（即如何被特定环境所适应和改造）。基于媒体研究（Media Studies）和科学技术研究（Science and Technology Studies, STS）中关于技术本土化的理论，我们分析了机构行为者如何在新闻领域塑造这些本土化过程及其影响。通过民族志观察和定性访谈，我们确定了人工智能本土化的四个核心维度：（1）去神秘化（demystifying）人工智能；（2）培养（cultivating）对人工智能的理解；（3）管理（managing）人工智能的应用；（4）最终实现人工智能的“本土化”（appropriating）。在分析这些维度的过程中，我们发现课程讲师对人工智能的解读方式既受到主流人工智能认知的影响，也受到参与者所面临的本地化条件和组织限制的制约。这些解读方式反过来又重塑了参与者与人工智能的关系及其后续对人工智能技术的使用方式。通过这项研究，我们揭示了像“小型新闻编辑室新闻人工智能学院”这样的课程是如何影响参与者的人工智能实践的，同时也揭示了这些课程在无意中如何使人们对人工智能及其在新闻行业中的必然性产生了一种“自然化”的认知，从而削弱了人们对这一现象的政治敏感性。",
     "summary": "通过民族志观察和访谈，分析面向记者的AI课程如何塑造全球记者对AI的理解与使用，揭示课程在驯化AI过程中的四个维度及其自然化、去政治化效果。",
     "reason": "议题涉及AI在新闻业的应用与社会影响，符合AI特别条款，方法虽为质性但纳入。",
     "tags": [

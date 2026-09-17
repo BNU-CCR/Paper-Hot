@@ -1,9 +1,9 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "冲突语境下的数字外交与战时信息",
-  "description": "研究战争与冲突中平台化数字外交、信息行动、战时虚假新闻与集体记忆叙事。",
-  "why_hot": "近30天日均发表速度较前期上升约52%，研究热度明显上升。",
-  "hot_score": 82,
+  "label": "冲突情境下的信息行动与虚假信息",
+  "description": "关注战争与地缘冲突中数字外交、信息行动及战时虚假信息的叙事建构与平台化传播机制。",
+  "why_hot": "近30天日均发表速度约为前期1.5倍，新兴冲突案例推动议题升温。",
+  "hot_score": 79,
   "growth": 0.522,
   "growth_rate": 0.522,
   "recent_rate": 0.2333,
@@ -14,13 +14,20 @@
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "digital diplomacy",
     "information operations",
-    "wartime fake news",
-    "conflict communication",
-    "platformised statecraft"
+    "disinformation",
+    "digital diplomacy",
+    "wartime propaganda",
+    "Telegram networks"
   ],
   "papers": [
+    {
+      "id": 2033,
+      "title": "Weapon and poison? Framing disinformation in European Commission Speeches, 2016–2024",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-16",
+      "summary": "分析2016至2024年欧盟委员会238篇演讲，运用主题模型、文本社群检测与质性内容分析，揭示其对虚假信息的自我免责与宿命论框架：将虚假信息自然化为技术必然，责任外化至敌对国家、坏行为者与平台，并以战争与传染隐喻推行平台治理、检测下架与媒介素养政策，2023-24年转向AI放大议题。"
+    },
     {
       "id": 2009,
       "title": "Digitalization of Ukrainian military media beyond the martial law in the country: Technological advances and new possibilities",
@@ -57,13 +64,6 @@
       "summary": "研究通过分析近300个国家对齐Telegram频道，网络追踪“斯大林格勒”文本的流通，揭示其情感动员形成“环境战争”氛围，连接二战与当前俄乌战争。"
     },
     {
-      "id": 2015,
-      "title": "(Elite) Monologues on social media during Cyprus’ peace negotiations: Twitter as a mirror of offline politics in divided societies",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-08-27",
-      "summary": "以社交网络视角分析2021年塞浦路斯和平谈判期间Twitter精英影响者的互动，揭示其主导讨论且缺乏跨阵营对话，反映并再生产线下政治分裂。"
-    },
-    {
       "id": 1972,
       "title": "Trauma-Selfie: Active victimhood in war",
       "journal": "Media War & Conflict",
@@ -97,6 +97,13 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-07-13",
       "summary": "论文通过多方法分析（NLP、社交网络分析）研究Mare Aperto 2025军事演习中封闭社交媒体平台的互动，探讨战略模糊如何影响注意力和归因，并促进冲突升级。"
+    },
+    {
+      "id": 490,
+      "title": "Billboard murals as adversarial public diplomacy: Remediation and sacred typology in Iran’s “True Promise” campaigns",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-07-02",
+      "summary": "分析伊朗2024-2025年对以军事冲突中的广告牌壁画与数字图像，探讨其作为对抗性公共外交的多语言、危机同步与跨平台修复机制，属于定性视觉传播研究。"
     },
     {
       "id": 252,
@@ -155,11 +162,11 @@
       "summary": "分析912个外国Facebook公共空间分享俄罗斯国内新闻的情况，构建基于俄罗斯联系和主题倾向的类型学，揭示语言邻近性、意识形态空间和前社会主义国家空间的传播模式。"
     },
     {
-      "id": 223,
-      "title": "“Everything for the Front, Everything for Victory”? Elite Incentives and Rhetorical Adaptation of Russia’s Members of Parliament on Social Media",
-      "journal": "Political Communication",
-      "published_date": "2026-05-05",
-      "summary": "研究俄罗斯议员在2022-23年乌克兰冲突期间社交媒体帖子的修辞适应，基于14.4万条帖子，用词嵌入和主题分类发现议员帖子反映官方宣传及个人政治激励，揭示威权体制下政治沟通与外部冲突的关系。"
+      "id": 108,
+      "title": "Bridging disinformation and cybersecurity in the social sciences: a scoping review",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-04",
+      "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
     },
     {
       "id": 182,
@@ -197,6 +204,13 @@
       "summary": "从生态视角探讨平台化放大如何通过注意力竞争、目击内容和算法信息流强化恐怖主义报道，间接助力恐怖主义目标。"
     },
     {
+      "id": 131,
+      "title": "What counter-disinformation funders got wrong: Global South critiques of the field",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-06",
+      "summary": "论文批判主流反虚假信息领域的北方主导、自上而下和提取式协作，基于2022-2024年百余名全球南方参与者的项目经验，主张南南方法论和社区驱动干预。"
+    },
+    {
       "id": 556,
       "title": "From digital diplomacy to AI-driven diplomacies? Mapping the potential impact of AI on Diplomacy",
       "journal": "Communication and the Public",
@@ -216,20 +230,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-03-25",
       "summary": "提出整合性“三M”框架分析短视频平台多模态虚假信息的建构、传播与政治化，并以2023年法国骚乱相关中文平台案例验证，揭示“织真”策略。"
-    },
-    {
-      "id": 525,
-      "title": "From laughing to learning: How TikTok genres influence American youth understanding and sentiments about the war in Ukraine",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-03-19",
-      "summary": "通过实验（N=794）考察TikTok讽刺视频和解释视频对美国青年关于俄乌战争的愤世嫉俗、政治效能、共情和知识的影响，发现视频增加愤世嫉俗和知识，且政治派别调节效果。"
-    },
-    {
-      "id": 271,
-      "title": "Repression through anti-repression tools: an analysis of the coordinated campaign of Iranian Telegram channels at times of crisis",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-03-18",
-      "summary": "研究伊朗Telegram频道在2025年以伊战争期间如何协调传播宣传与虚假信息，通过分析47,567条帖子，发现政治新闻频道为核心枢纽，娱乐频道作为放大层，混合使用幽默和讽刺包装信息以扩大传播。"
     }
   ],
   "paper_edges": []

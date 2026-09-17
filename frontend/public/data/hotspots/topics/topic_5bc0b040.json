@@ -1,0 +1,131 @@
+{
+  "topic_id": "topic_5bc0b040",
+  "label": "数字新闻消费组合与平台选择",
+  "description": "基于追踪数据研究用户跨平台的新闻来源组合、渠道选择及其替代与互补关系。",
+  "why_hot": "近30天日均发表速度与前期基本持平（+15%），研究活动保持稳定。",
+  "hot_score": 60,
+  "growth": 0.154,
+  "growth_rate": 0.154,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.0867,
+  "recent_count": 3,
+  "baseline_count": 13,
+  "journal_count": 7,
+  "lineage_status": "continued",
+  "status": "hot",
+  "keywords": [
+    "news repertoires",
+    "media platform choice",
+    "tracking data",
+    "channel complementarity",
+    "news sources"
+  ],
+  "papers": [
+    {
+      "id": 2043,
+      "title": "Investor proximity, social media sentiment, and stock price informativeness in the UK market",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-09-15",
+      "summary": "基于2017—2022年英国上市公司地理标记Twitter数据，用FinBERT构建本地与非本地投资者情感指标，考察其与股价同步性的关系。发现仅本地情感显著负向关联同步性，体现更强公司特质信息融入，且该效应在大公司中更弱，凸显地理因素对社交媒体情感信息含量的塑造作用。"
+    },
+    {
+      "id": 2027,
+      "title": "Dynamics of media platform choice portfolios: identifying inter-channel substitutability and complementarity",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-09-10",
+      "summary": "基于韩国在线视频市场5年调查数据，用多元概率模型刻画消费者在四种服务类别（全球SVoD、本土SVoD、UGC/社交、TVoD）间的组合选择，揭示付费类别的互补性与UGC与付费服务间的替代性，并将不使用行为作为伴随结果分析其能力型进入壁垒。"
+    },
+    {
+      "id": 1959,
+      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-18",
+      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
+    },
+    {
+      "id": 1909,
+      "title": "Agenda setting in mutual fund markets: news, social media, and fund marketing in China",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-08-07",
+      "summary": "利用3782只基金和24万篇新闻数据，分析传统新闻与社会媒体关注对基金净流入的影响，发现多源注意力协同效应。"
+    },
+    {
+      "id": 1903,
+      "title": "The Knowledge Gap in a High-Choice Media Environment: Experimental Evidence from Online Search",
+      "journal": "Political Communication",
+      "published_date": "2026-08-06",
+      "summary": "通过在线搜索实验探究高选择媒体环境中的知识差距，属于政治传播与数字媒介交叉研究。"
+    },
+    {
+      "id": 1900,
+      "title": "Did you make this for me? A two-country study on individuals’ perceptions of tailoring in online political ads",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-05",
+      "summary": "跨国研究个体对在线政治广告定制化程度的感知及其影响，属于政治传播领域。"
+    },
+    {
+      "id": 11,
+      "title": "Unilateral effects in the US video streaming market: a merger simulation of the Netflix-HBO Max and HBO Max-Paramount+ consolidations",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-07-19",
+      "summary": "通过校准的结构性合并模拟评估Netflix-HBO Max等合并案的单边效应，发现市场主导者收购会显著提价并加剧集中，而次级竞争者合并影响较小。"
+    },
+    {
+      "id": 61,
+      "title": "Media effects, selection effects, or no effects? A longitudinal analysis of the relationship between media use and misperceptions",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-17",
+      "summary": "论文通过纵向数据分析媒体使用与错误认知的关系，探讨媒体效应与选择效应，但未说明计算方法。"
+    },
+    {
+      "id": 340,
+      "title": "Going global or fleeing abroad? Scandal coverage and corporate internationalization in China",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-07-13",
+      "summary": "利用中国A股上市公司数据，发现丑闻报道强度促进企业国际化，机制包括监管压力、融资中断和声誉损害，且影响受媒体报道范围与负面情绪调节。"
+    },
+    {
+      "id": 7,
+      "title": "Beyond apps: a method to model full distributions of screen content over time to study media effects",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-07-10",
+      "summary": "提出用深度学习方法对智能手机屏幕内容进行分布建模，基于53名青少年六个月的屏幕数据，分析内容模式与心理健康的关系，超越传统屏幕时间测量。"
+    },
+    {
+      "id": 282,
+      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
+    },
+    {
+      "id": 200,
+      "title": "Exploring temporal dynamics in digital trace data: mining user-sequences for communication research",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-05-09",
+      "summary": "论文系统梳理了利用数字追踪数据中的时间信息进行传播研究的方法，介绍序列分析、事件史分析、隐马尔可夫模型等六种方法，并以30万条用户序列数据为例进行演示。"
+    },
+    {
+      "id": 38,
+      "title": "Examining the Effects of Viewing Positive Aging TikTok Videos on Aging Outcomes and Attitudes Among Young, Middle-Aged, and Older Women",
+      "journal": "Communication Research",
+      "published_date": "2026-05-07",
+      "summary": "实验检验观看积极老龄化TikTok视频对不同年龄女性老龄化结果和态度的影响，扩展CEMSA模型，发现间接效应。"
+    },
+    {
+      "id": 345,
+      "title": "Media sentiment and IPO underpricing: evidence from China",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-04-29",
+      "summary": "研究中国媒体情绪对IPO抑价的影响，属于媒体经济学领域，可能结合文本情感分析与计量方法，但计算传播属性较弱。"
+    },
+    {
+      "id": 127,
+      "title": "Evaluating the potential and limits of trace-based interviews when studying news use",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-08",
+      "summary": "论文评估基于数字追踪的访谈法在新闻使用研究中的潜力与局限，基于英巴73次访谈，揭示该方法能反映习惯性、偶然性及跨平台新闻实践。"
+    }
+  ],
+  "paper_edges": []
+}

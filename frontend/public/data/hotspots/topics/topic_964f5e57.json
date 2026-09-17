@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "多平台竞选传播与政治行动者策略",
-  "description": "研究政党与政治人物在社交平台上的竞选传播、议题策略、付费定向与受众动员效果。",
-  "why_hot": "近30天日均发表速度约为前期2.7倍，期刊分布扩至6本，研究明显升温。",
-  "hot_score": 90,
-  "growth": 1.692,
-  "growth_rate": 1.692,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.0867,
-  "recent_count": 7,
-  "baseline_count": 13,
+  "label": "社交媒体竞选中的政党传播策略",
+  "description": "考察政党与政治人物在社交平台上的竞选传播、议题策略、选举定向与病毒化传播的效果。",
+  "why_hot": "近30天日均发表速度约为前期2.4倍，多国选举周期推动研究显著升温。",
+  "hot_score": 89,
+  "growth": 1.353,
+  "growth_rate": 1.353,
+  "recent_rate": 0.2667,
+  "baseline_rate": 0.1133,
+  "recent_count": 8,
+  "baseline_count": 17,
   "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "election campaigns",
     "political parties",
-    "social media platforms",
-    "electoral targeting",
-    "campaign communication"
+    "microtargeting",
+    "TikTok",
+    "parliamentary communication"
   ],
   "papers": [
+    {
+      "id": 2038,
+      "title": "The Democratic Cost of Pursuing Virality: A Study into Parliamentary Communications",
+      "journal": "Political Communication",
+      "published_date": "2026-09-16",
+      "summary": "论文用访谈与450万条Facebook等平台帖子计算分析，考察巴西议员如何追求社交媒体可见性，发现国会事务获低互动，对抗性内容增互动，进而削弱问责。"
+    },
     {
       "id": 2025,
       "title": "The Language of Democratic Resilience and Decline: A Comparative Study of Politicians’ Communication on Facebook in Sweden and Hungary",
@@ -41,6 +48,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-08-30",
       "summary": "研究瑞典2022年大选中政党的Facebook和Instagram付费广告策略，基于2395条广告样本，分析负面竞选、呼吁行动及人口定向差异。"
+    },
+    {
+      "id": 2015,
+      "title": "(Elite) Monologues on social media during Cyprus’ peace negotiations: Twitter as a mirror of offline politics in divided societies",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-08-27",
+      "summary": "以社交网络视角分析2021年塞浦路斯和平谈判期间Twitter精英影响者的互动，揭示其主导讨论且缺乏跨阵营对话，反映并再生产线下政治分裂。"
     },
     {
       "id": 1990,
@@ -64,13 +78,6 @@
       "summary": "分析比利时和瑞典政党在Facebook上的链接分享实践，基于2014-2022竞选期间帖子内容，发现链接和新闻分享减少，反映传播策略变化。"
     },
     {
-      "id": 1959,
-      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-08-18",
-      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
-    },
-    {
       "id": 1934,
       "title": "Affective Legitimacy and Digital Populism: Evidence from Romania’s Annulled Presidential Elections",
       "journal": "Political Communication",
@@ -90,6 +97,13 @@
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-08-04",
       "summary": "研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。"
+    },
+    {
+      "id": 488,
+      "title": "Social media and protest planning: An examination of the 2024 #EndBadGovernance protests in Nigeria",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-07-23",
+      "summary": "基于尼日利亚400份调查数据，检验Instagram、Facebook、WhatsApp和X在2024年#EndBadGovernance抗议规划中的作用，发现前三者增加首日参与概率，X则降低，强调平台使用因国家而异。"
     },
     {
       "id": 1941,
@@ -141,18 +155,25 @@
       "summary": "提出targeting与tailoring的理论框架，基于2021年德国大选Facebook和Instagram广告数据，测量政党广告策略及其对曝光量的影响。"
     },
     {
-      "id": 200,
-      "title": "Exploring temporal dynamics in digital trace data: mining user-sequences for communication research",
-      "journal": "Communication Methods and Measures",
-      "published_date": "2026-05-09",
-      "summary": "论文系统梳理了利用数字追踪数据中的时间信息进行传播研究的方法，介绍序列分析、事件史分析、隐马尔可夫模型等六种方法，并以30万条用户序列数据为例进行演示。"
+      "id": 223,
+      "title": "“Everything for the Front, Everything for Victory”? Elite Incentives and Rhetorical Adaptation of Russia’s Members of Parliament on Social Media",
+      "journal": "Political Communication",
+      "published_date": "2026-05-05",
+      "summary": "研究俄罗斯议员在2022-23年乌克兰冲突期间社交媒体帖子的修辞适应，基于14.4万条帖子，用词嵌入和主题分类发现议员帖子反映官方宣传及个人政治激励，揭示威权体制下政治沟通与外部冲突的关系。"
     },
     {
-      "id": 127,
-      "title": "Evaluating the potential and limits of trace-based interviews when studying news use",
+      "id": 116,
+      "title": "How civil society coalition-building affects information integrity during elections: evidence from four African countries",
       "journal": "Information Communication & Society",
-      "published_date": "2026-04-08",
-      "summary": "论文评估基于数字追踪的访谈法在新闻使用研究中的潜力与局限，基于英巴73次访谈，揭示该方法能反映习惯性、偶然性及跨平台新闻实践。"
+      "published_date": "2026-04-17",
+      "summary": "基于四个非洲国家的36次访谈，探讨公民社会联盟如何通过合作促进选举期间信息完整性，涉及平台问责与政策框架。"
+    },
+    {
+      "id": 117,
+      "title": "Protest movements and the mainstreaming of radical and extremist ideologies: the case of COVID-19 protests",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-16",
+      "summary": "研究德国新冠抗议运动‘Querdenken’如何通过社交媒体促进激进和极端意识形态的主流化，使用内容分析、URL分析和网络分析三角验证，揭示其反精英和阴谋叙事及与极右翼社区的连接。"
     },
     {
       "id": 268,
@@ -160,6 +181,20 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-04-08",
       "summary": "开发可扩展的多模态系统，结合文本与图像归因数字广告至竞选层级，分析2020年140万Meta广告，估算外部团体支出并评估其选举影响。"
+    },
+    {
+      "id": 309,
+      "title": "Preventing Radicalisation, or Forcing Ideological Consent? Crises, Uncertainty Reduction and Collective Identity Negotiation in Collaborative Communities of Online Third Spaces",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "研究在线第三方空间（育儿论坛）在危机事件中的集体身份协商，分析近2500条帖子，发现论坛虽提供支持但排斥少数意见，可能导致边缘化激进化。"
+    },
+    {
+      "id": 136,
+      "title": "Mobilization in motion: how radical movements adapt their communication on Telegram amid evolving crises",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-29",
+      "summary": "研究分析德国极右翼和Querdenken运动在2022年危机变化下如何通过Telegram调整传播策略，基于151个频道8852条消息的内容分析，发现不同运动的适应模式差异。"
     }
   ],
   "paper_edges": []

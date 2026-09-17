@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-09-14 18:33 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-09-17 18:01 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-09-16 | [The Democratic Cost of Pursuing Virality: A Study into Parliamentary Communications](<https://doi.org/10.1080/10584609.2026.2733316>) | Political Communication | 论文用访谈与450万条Facebook等平台帖子计算分析，考察巴西议员如何追求社交媒体可见性，发现国会事务获低互动，对抗性内容增互动，进而削弱问责。 |
+| 2026-09-16 | [Weapon and poison? Framing disinformation in European Commission Speeches, 2016–2024](<https://doi.org/10.1080/1369118x.2026.2733507>) | Information Communication & Society | 分析2016至2024年欧盟委员会238篇演讲，运用主题模型、文本社群检测与质性内容分析，揭示其对虚假信息的自我免责与宿命论框架：将虚假信息自然化为技术必然，责任外化至敌对国家、坏行为者与平台，并以战争与传染隐喻推行平台治理、检测下架与媒介素养政策，2023-24年转向AI放大议题。 |
+| 2026-09-15 | [Investor proximity, social media sentiment, and stock price informativeness in the UK market](<https://doi.org/10.1080/08997764.2026.2733257>) | Journal of Media Economics | 基于2017—2022年英国上市公司地理标记Twitter数据，用FinBERT构建本地与非本地投资者情感指标，考察其与股价同步性的关系。发现仅本地情感显著负向关联同步性，体现更强公司特质信息融入，且该效应在大公司中更弱，凸显地理因素对社交媒体情感信息含量的塑造作用。 |
+| 2026-09-15 | [Rethinking digital trace inference in political communication: evidence from a simulated platform experiment](<https://doi.org/10.1080/19331681.2026.2731442>) | Journal of Information Technology & Politics | 通过2×3模拟社交媒体平台实验，比较政治与非政治内容的注意力（停留时长）与参与行为（点赞、分享、评论），发现政治内容存在更大的注意力—参与缺口，且该缺口不受信息流策展逻辑影响，提示以数字痕迹推断注意力与舆情存在偏差。 |
 | 2026-09-11 | [The Language of Democratic Resilience and Decline: A Comparative Study of Politicians’ Communication on Facebook in Sweden and Hungary](<https://doi.org/10.1080/10584609.2026.2727043>) | Political Communication | 比较瑞典与匈牙利政客在 Facebook 上的传播语言，探讨民主韧性与衰退的话语特征，属社交媒体政治传播的比较研究。 |
-| 2026-09-07 | [How Platform Affordances Shape Expression Effects: Comment Length and Audience in Political News Engagement](<https://doi.org/10.1080/08838151.2026.2729274>) | Journal of Broadcasting & Electronic Media | 实验(N=775)探究新闻平台评论长度与受众类型对表达效应的影响，发现评论条件交互作用，并通过计算语言学分析揭示词汇使用差异。 |
-| 2026-09-03 | [Investigating Conditional Macro-Level Media Effects Over a Long-Term: How Crisis Periods Moderate the Effects of Suicide Coverage on Suicide Rate Change (1861–2007)](<https://doi.org/10.1177/00936502261480405>) | Communication Research | 通过分析《泰晤士报》1861-2007年自杀报道与英国自杀率数据，发现危机时期自杀报道增加与自杀率上升相关，支持条件性维特效应。 |
-| 2026-08-31 | [From #StayWoke to “Culture Wars”: How Social Justice Discourse is Separately and Synergistically Politicized on Twitter and YouTube](<https://doi.org/10.1080/10584609.2026.2717428>) | Political Communication | 利用Twitter和YouTube 2012-2022数据，分析“woke”话语如何被政治化，比较平台差异及跨平台协调传播。 |
-| 2026-08-31 | [Beyond beyond standardization: studying robustness of empirical claims based on topic modeling through multiverse analysis](<https://doi.org/10.1080/19312458.2026.2714769>) | Communication Methods and Measures | 该研究运用预注册多宇宙分析框架，微调六项基于主题建模研究的预处理、主题数和算法等选择，检验其经验主张的稳健性。结果显示多数主张因建模选项改变而大幅失真，倡导采用预注册多宇宙分析以增强实证结果可靠性。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-09-14 18:33 GMT+8
+> 最近更新：2026-09-17 18:01 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 2032 |
-| 当期新增 | 58 |
-| High / Medium / Low | 582 / 635 / 815 |
-| Pending / Screened / Quarantined / Error | 0 / 2030 / 0 / 2 |
-| 已发布精选 | 582 |
-| 期刊全量导出 | 2032 |
+| 数据库论文 | 2047 |
+| 当期新增 | 30 |
+| High / Medium / Low | 587 / 641 / 819 |
+| Pending / Screened / Quarantined / Error | 0 / 2047 / 0 / 0 |
+| 已发布精选 | 587 |
+| 期刊全量导出 | 2047 |
 
-覆盖验证：OpenAlex DOI 2018，Crossref DOI 806，匹配 759，Crossref 中尚缺 47。
+覆盖验证：OpenAlex DOI 2033，Crossref DOI 817，匹配 772，Crossref 中尚缺 45。
 
 <!-- paper-hot:auto-stats:end -->
 
