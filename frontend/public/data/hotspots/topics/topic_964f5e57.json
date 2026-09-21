@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "社交媒体竞选中的政党传播策略",
-  "description": "考察政党与政治人物在社交平台上的竞选传播、议题策略、选举定向与病毒化传播的效果。",
-  "why_hot": "近30天日均发表速度约为前期2.4倍，多国选举周期推动研究显著升温。",
-  "hot_score": 89,
-  "growth": 1.353,
-  "growth_rate": 1.353,
+  "label": "社交媒体政治竞选与民主传播",
+  "description": "关注政治精英与政党如何借助社交平台开展竞选动员、议题传播与民主沟通。",
+  "why_hot": "近30天日均发表速度较前期翻倍，覆盖期刊增至6本，研究明显升温。",
+  "hot_score": 84,
+  "growth": 1.0,
+  "growth_rate": 1.0,
   "recent_rate": 0.2667,
-  "baseline_rate": 0.1133,
+  "baseline_rate": 0.1333,
   "recent_count": 8,
-  "baseline_count": 17,
+  "baseline_count": 20,
   "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "election campaigns",
-    "political parties",
-    "microtargeting",
-    "TikTok",
-    "parliamentary communication"
+    "political campaigning",
+    "social media",
+    "parliamentary communication",
+    "electoral targeting",
+    "democratic communication"
   ],
   "papers": [
+    {
+      "id": 2049,
+      "title": "Generational differences in responses to disinformation: from ‘vulnerability’ to interpretive strategies",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-19",
+      "summary": "论文考察不同代际群体对虚假信息的回应方式，主张从'易感性'视角转向'解释性策略'视角。因无摘要，具体方法与数据不详，推测基于访谈或定性受众分析。"
+    },
     {
       "id": 2038,
       "title": "The Democratic Cost of Pursuing Virality: A Study into Parliamentary Communications",
@@ -106,6 +113,13 @@
       "summary": "基于尼日利亚400份调查数据，检验Instagram、Facebook、WhatsApp和X在2024年#EndBadGovernance抗议规划中的作用，发现前三者增加首日参与概率，X则降低，强调平台使用因国家而异。"
     },
     {
+      "id": 1904,
+      "title": "Revisiting the Communication Mediation Model in the Age of Social Media: Longitudinal Evidence From Climate Misinformation Responses in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于中国三波面板调查，检验社交媒体时代传播中介模型，发现媒体关注通过人际讨论影响气候错误信息纠正行为，且具有同时性。"
+    },
+    {
       "id": 1941,
       "title": "From Fringe to Power in the TikTok Age: Libertarian Ideology and Transgressive Performances in Milei’s ‘Populism Without the People’",
       "journal": "Social Media + Society",
@@ -162,6 +176,13 @@
       "summary": "研究俄罗斯议员在2022-23年乌克兰冲突期间社交媒体帖子的修辞适应，基于14.4万条帖子，用词嵌入和主题分类发现议员帖子反映官方宣传及个人政治激励，揭示威权体制下政治沟通与外部冲突的关系。"
     },
     {
+      "id": 108,
+      "title": "Bridging disinformation and cybersecurity in the social sciences: a scoping review",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-04",
+      "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
+    },
+    {
       "id": 116,
       "title": "How civil society coalition-building affects information integrity during elections: evidence from four African countries",
       "journal": "Information Communication & Society",
@@ -183,11 +204,11 @@
       "summary": "开发可扩展的多模态系统，结合文本与图像归因数字广告至竞选层级，分析2020年140万Meta广告，估算外部团体支出并评估其选举影响。"
     },
     {
-      "id": 309,
-      "title": "Preventing Radicalisation, or Forcing Ideological Consent? Crises, Uncertainty Reduction and Collective Identity Negotiation in Collaborative Communities of Online Third Spaces",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "研究在线第三方空间（育儿论坛）在危机事件中的集体身份协商，分析近2500条帖子，发现论坛虽提供支持但排斥少数意见，可能导致边缘化激进化。"
+      "id": 131,
+      "title": "What counter-disinformation funders got wrong: Global South critiques of the field",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-06",
+      "summary": "论文批判主流反虚假信息领域的北方主导、自上而下和提取式协作，基于2022-2024年百余名全球南方参与者的项目经验，主张南南方法论和社区驱动干预。"
     },
     {
       "id": 136,

@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-09-17 18:01 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-09-21 18:37 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-09-18 | [Does Office Type Determine Gendered Campaign Messages?](<https://doi.org/10.1080/10584609.2026.2722250>) | Political Communication | 研究考察候选人性别如何影响不同机构与层级下的竞选信息。基于2000-2022年韩国17次全国与地方选举中46,966份官方竞选手册，以关系性语言和女性相关政策词汇测量性别化信息。发现女性候选人更强调关系身份与女性政策议题，且性别差异在立法选举中大于行政选举，并随选举层级下沉而扩大。 |
+| 2026-09-17 | [Political shocks asymmetrically consolidate right-wing communities on Twitter](<https://doi.org/10.1080/19331681.2026.2734861>) | Journal of Information Technology & Politics | 研究2014-2021年法国和瑞典13个政治事件后Twitter上社群连接变化，发现右翼民粹社群在政治冲击后更紧密，其他社群变化较小。 |
+| 2026-09-17 | [The few, the loud: platform-mediated articulation of conspiratorial discourse by political elites on X and Facebook](<https://doi.org/10.1080/1369118x.2026.2733516>) | Information Communication & Society | 论文识别比利时、芬兰、波兰三国政治精英中的“阴谋论企业家”，基于 702 条人工标注帖文，用梯度阈值分析与逻辑回归考察其意识形态特征、跨平台差异及互动效果，发现阴谋论话语主要由少数极右政客驱动，Facebook 偏完整叙事、X 偏碎片化表达。 |
 | 2026-09-16 | [The Democratic Cost of Pursuing Virality: A Study into Parliamentary Communications](<https://doi.org/10.1080/10584609.2026.2733316>) | Political Communication | 论文用访谈与450万条Facebook等平台帖子计算分析，考察巴西议员如何追求社交媒体可见性，发现国会事务获低互动，对抗性内容增互动，进而削弱问责。 |
 | 2026-09-16 | [Weapon and poison? Framing disinformation in European Commission Speeches, 2016–2024](<https://doi.org/10.1080/1369118x.2026.2733507>) | Information Communication & Society | 分析2016至2024年欧盟委员会238篇演讲，运用主题模型、文本社群检测与质性内容分析，揭示其对虚假信息的自我免责与宿命论框架：将虚假信息自然化为技术必然，责任外化至敌对国家、坏行为者与平台，并以战争与传染隐喻推行平台治理、检测下架与媒介素养政策，2023-24年转向AI放大议题。 |
-| 2026-09-15 | [Investor proximity, social media sentiment, and stock price informativeness in the UK market](<https://doi.org/10.1080/08997764.2026.2733257>) | Journal of Media Economics | 基于2017—2022年英国上市公司地理标记Twitter数据，用FinBERT构建本地与非本地投资者情感指标，考察其与股价同步性的关系。发现仅本地情感显著负向关联同步性，体现更强公司特质信息融入，且该效应在大公司中更弱，凸显地理因素对社交媒体情感信息含量的塑造作用。 |
-| 2026-09-15 | [Rethinking digital trace inference in political communication: evidence from a simulated platform experiment](<https://doi.org/10.1080/19331681.2026.2731442>) | Journal of Information Technology & Politics | 通过2×3模拟社交媒体平台实验，比较政治与非政治内容的注意力（停留时长）与参与行为（点赞、分享、评论），发现政治内容存在更大的注意力—参与缺口，且该缺口不受信息流策展逻辑影响，提示以数字痕迹推断注意力与舆情存在偏差。 |
-| 2026-09-11 | [The Language of Democratic Resilience and Decline: A Comparative Study of Politicians’ Communication on Facebook in Sweden and Hungary](<https://doi.org/10.1080/10584609.2026.2727043>) | Political Communication | 比较瑞典与匈牙利政客在 Facebook 上的传播语言，探讨民主韧性与衰退的话语特征，属社交媒体政治传播的比较研究。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-09-17 18:01 GMT+8
+> 最近更新：2026-09-21 18:37 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 2047 |
-| 当期新增 | 30 |
-| High / Medium / Low | 587 / 641 / 819 |
-| Pending / Screened / Quarantined / Error | 0 / 2047 / 0 / 0 |
-| 已发布精选 | 587 |
-| 期刊全量导出 | 2047 |
+| 数据库论文 | 2061 |
+| 当期新增 | 37 |
+| High / Medium / Low | 590 / 645 / 826 |
+| Pending / Screened / Quarantined / Error | 0 / 2061 / 0 / 0 |
+| 已发布精选 | 590 |
+| 期刊全量导出 | 2061 |
 
-覆盖验证：OpenAlex DOI 2033，Crossref DOI 817，匹配 772，Crossref 中尚缺 45。
+覆盖验证：OpenAlex DOI 2047，Crossref DOI 830，匹配 782，Crossref 中尚缺 48。
 
 <!-- paper-hot:auto-stats:end -->
 

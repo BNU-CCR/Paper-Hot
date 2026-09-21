@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式AI在公关与健康传播中的应用",
-  "description": "探讨生成式人工智能作为内容作者与工具，如何影响公共关系实践与健康叙事的说服效果。",
-  "why_hot": "近30天仅2篇，日均发表速度较前期下降约七成，研究热度明显回落。",
-  "hot_score": 33,
-  "growth": -0.697,
-  "growth_rate": -0.697,
+  "label": "生成式AI与公共关系实践",
+  "description": "关注生成式人工智能在公共关系与战略传播中的应用及其对信息效果的影响。",
+  "why_hot": "近30天日均发表速度较前期下降约71%，研究产出显著放缓。",
+  "hot_score": 32,
+  "growth": -0.706,
+  "growth_rate": -0.706,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.22,
+  "baseline_rate": 0.2267,
   "recent_count": 2,
-  "baseline_count": 33,
+  "baseline_count": 34,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "emerging",
   "keywords": [
     "generative AI",
     "public relations",
-    "narrative persuasion",
     "AI authorship",
-    "stigma"
+    "emotionalization",
+    "narrative persuasion"
   ],
   "papers": [
     {
@@ -134,6 +134,13 @@
       "summary": "基于助推理论与SOR框架，通过在线实验检验AI透明度、奖励和追踪功能对智能垃圾桶采纳意愿的影响，发现信任和感知价值的中介作用及交互效应。"
     },
     {
+      "id": 411,
+      "title": "Fact-Checking as News Framing in the Age of AI: Challenges, Cues, Coverage, and Culture",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-08",
+      "summary": "文章探讨AI时代事实核查作为新闻框架的实践，提出挑战、线索、覆盖和文化四原则，属理论性研究。"
+    },
+    {
       "id": 412,
       "title": "Effects of Generative AI Bias on Adoption Through Trust: Interactions Between Engagement Cues, Information Cues, and Social Norms",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -153,6 +160,13 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-06-01",
       "summary": "调查335名传播管理者，发现AI伦理焦虑预测事实核查行为，感知可信度调节对事实核查网站的使用，但对AI事实核查无显著调节作用。"
+    },
+    {
+      "id": 415,
+      "title": "Does AI Amplify or Mitigate Media Bias? A Comparative Analysis of Coverage, Gatekeeping, and Statement Bias in AI-Generated and Human-Written News",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-05-27",
+      "summary": "基于18,282篇AI生成和18,210篇人工文章，比较覆盖、守门和陈述偏见，发现AI重构而非减少媒体偏见，成为现有模式的镜像与选择性放大器。"
     },
     {
       "id": 541,
@@ -223,13 +237,6 @@
       "journal": "Asian Journal of Communication",
       "published_date": "2026-04-07",
       "summary": "基于期望不一致理论，通过2×2实验考察用户从AI转向人类心理咨询师的意向，发现AI表现是满意度和切换意向的主因，高期望增强AI表现对满意度的影响。"
-    },
-    {
-      "id": 425,
-      "title": "AI-Assisted Mapping of Political Orientation in Fact-Checked News: Evidence from South Korea",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-04-07",
-      "summary": "研究利用韩国预训练语言模型，对选举期间的事实核查文章进行政治倾向映射分析，比较模型在目标、证据和评估维度上的表现，并验证结合外部知识可提升效果。"
     },
     {
       "id": 132,

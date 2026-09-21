@@ -1,5 +1,104 @@
 [
   {
+    "id": 2054,
+    "title": "Does Office Type Determine Gendered Campaign Messages?",
+    "title_zh": "办公室类型是否决定了带有性别差异的竞选信息？",
+    "authors": [
+      "Tae Hyun Lim",
+      "Yu Jeong Hwang"
+    ],
+    "institutions": [],
+    "journal": "Political Communication",
+    "published_date": "2026-09-18",
+    "relevance": "High",
+    "score": null,
+    "abstract": "This study examines how candidates’ gender shapes campaign messaging across different branches and levels of political office. Prior research offers mixed evidence on whether women are more likely than men to emphasize communal traits and women-related policies, often because gender effects are examined without fully accounting for institutional context. We address this inconsistency by foregrounding the role of electoral institutions. Building on strategic stereotype theory, we argue that gendered campaign messaging is a strategic response to office-specific incentives and expectations. In particular, we expect gendered appeals to be more prevalent at lower levels of government than at higher levels, and more pronounced in legislative than in executive races. We test these expectations using an original dataset of 46,966 official campaign booklets issued by all candidates competing for district-based executive and legislative offices in seventeen national and local elections in South Korea from 2000 to 2022. These booklets are legally standardized, page-limited documents distributed to voters and provide a rare opportunity to compare campaign messages across offices while holding the communication medium constant. We measure gendered messaging through candidates’ use of relational language and women-related policy terms. The results show that female candidates emphasize relational identities and women’s policy concerns more than male candidates. Crucially, the magnitude of this gender gap varies across institutional contexts. Gender differences are larger in legislative contests than in executive races and increase as elections move from national to subnational levels.",
+    "abstract_zh": "本文研究了候选人的性别如何影响不同政治职位和层级上的竞选信息传递方式。以往的研究对于女性是否比男性更倾向于强调社群特征和与女性相关的政策存在不同的观点，这往往是因为在分析性别效应时没有充分考虑制度背景。为了解决这一矛盾，我们重点关注了选举制度的作用。基于“战略刻板印象理论”，我们认为带有性别色彩的竞选信息传递是对特定职位所面临的激励因素和期望的一种策略性回应。具体而言，我们预计在较低层级的政府中，这种性别差异会更加明显；而在立法选举中，这种差异会比在行政选举中更为显著。我们使用了2000年至2022年间韩国十七次全国性和地方性选举中，所有竞选区级行政和立法职位的候选人发布的46,966份官方竞选手册作为原始数据集来验证这些假设。这些手册是经过法律规范、页数受限的文件，会分发给选民，为我们提供了一个在保持传播媒介不变的情况下，比较不同职位竞选信息的难得机会。我们通过候选人使用的语言风格以及与女性相关的政策术语来衡量其中的性别差异。研究结果表明，女性候选人比男性候选人更强调社群认同感和与女性相关的政策议题。关键的是，这种性别差异的幅度会因制度背景的不同而有所变化：在立法选举中的性别差异比在行政选举中更为明显，并且随着选举层级从国家级下降到地方级，这种差异会进一步扩大。",
+    "summary": "研究考察候选人性别如何影响不同机构与层级下的竞选信息。基于2000-2022年韩国17次全国与地方选举中46,966份官方竞选手册，以关系性语言和女性相关政策词汇测量性别化信息。发现女性候选人更强调关系身份与女性政策议题，且性别差异在立法选举中大于行政选举，并随选举层级下沉而扩大。",
+    "reason": "基于46,966份竞选手册的大规模文本分析，测量性别化竞选话语，属计算传播方法结合政治传播议题。",
+    "tags": [
+      "政治传播",
+      "文本分析",
+      "性别",
+      "竞选信息",
+      "韩国"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/10584609.2026.2722250",
+    "source_url": "https://doi.org/10.1080/10584609.2026.2722250",
+    "detail_slug": "does-office-type-determine-gendered-campaign-messages",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Political Communication",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2055,
+    "title": "Political shocks asymmetrically consolidate right-wing communities on Twitter",
+    "title_zh": "政治冲击在推特上以不对称的方式巩固了右翼社群的力量",
+    "authors": [
+      "Muhammad Umer Gurchani"
+    ],
+    "institutions": [],
+    "journal": "Journal of Information Technology & Politics",
+    "published_date": "2026-09-17",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Political psychologists have long argued that sudden, threatening events bring conservative political communities closer together, more than they unite people on the left. Here, we test this idea in real online social networks. We studied how people formed new social connections on Twitter in France and Sweden around 13 major political events between 2014 and 2021 – elections, scandals, and national crises. We show a clear and consistent pattern. After political shocks, right-wing populist communities tended to become more tightly connected with one another, while most other communities, including left-wing, media and centrist communities, changed less consistently. On average, populist-right communities became about 9% more connected than other groups. The cumulative pattern was strongest in Sweden, where these gains built up clearly over time. In France, the cumulative effect was weaker, but the populist-right community broadly maintained or slightly increased its internal cohesion while several other communities became more porous. The same broad asymmetry appeared in both countries, despite their very different political systems and parties. We therefore show that political shocks do not simply make everyone more divided. They can reshape the online political world around an increasingly consolidated populist right, while leaving other communities less consistently affected.",
+    "abstract_zh": "政治心理学家长期以来一直认为，突然发生的、具有威胁性的事件会使得保守派政治群体之间的联系更加紧密，而这种效应在左翼群体中并不明显。在这项研究中，我们在真实的在线社交网络中验证了这一观点。我们观察了2014年至2021年间法国和瑞典发生的13次重大政治事件（包括选举、丑闻和国家危机）期间，人们如何在Twitter上建立新的社交联系。研究发现了一个清晰且一致的现象：在政治冲击之后，右翼民粹主义群体之间的联系变得更加紧密，而其他大多数群体（包括左翼群体、媒体群体和中间派群体）的变化则不那么明显。平均而言，右翼民粹主义群体之间的联系比其他群体增强了约9%。这种累积效应在瑞典最为显著，因为这种联系随着时间的推移而不断加强；在法国，这种累积效应虽然较弱，但右翼民粹主义群体仍然保持了其内部凝聚力，而其他一些群体的凝聚力则有所下降。尽管两国政治制度和政党存在显著差异，但这种广泛的不对称性在两国都存在。因此，研究表明，政治冲击并不会简单地导致所有群体之间的分歧加剧；相反，它们可能会重塑在线政治格局，使右翼民粹主义势力变得更加强大，而其他群体的凝聚力则受到不同程度的影响。",
+    "summary": "研究2014-2021年法国和瑞典13个政治事件后Twitter上社群连接变化，发现右翼民粹社群在政治冲击后更紧密，其他社群变化较小。",
+    "reason": "研究Twitter上政治冲击对社群连接的影响，使用社交媒体数据与网络分析方法，属于计算传播学。",
+    "tags": [
+      "社交媒体",
+      "网络分析",
+      "政治传播",
+      "Twitter"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/19331681.2026.2734861",
+    "source_url": "https://doi.org/10.1080/19331681.2026.2734861",
+    "detail_slug": "political-shocks-asymmetrically-consolidate-right-wing-communities-on-twitter",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Information Technology & Politics",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2052,
+    "title": "The few, the loud: platform-mediated articulation of conspiratorial discourse by political elites on X and Facebook",
+    "title_zh": "“少数派却声音很大”：政治精英在X平台和Facebook上通过平台媒介传播阴谋论言论的现象",
+    "authors": [
+      "Piotr Marczyński",
+      "Nathalie Brack"
+    ],
+    "institutions": [],
+    "journal": "Information Communication & Society",
+    "published_date": "2026-09-17",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Despite growing concerns about the role of political elites in producing and amplifying conspiracy theories, little is known about which politicians engage in this behavior, how prevalent it is across countries and platforms, and what ideological patterns it follows. We address these questions by identifying a narrow set of elite conspiracy entrepreneurs who disproportionately produce conspiratorial discourse, challenging the bounds of acceptable debate across three European democracies. Using gradient threshold analysis, logistic regression, and close reading, we analyze a manually annotated sample of posts by political elites (N = 702) in Belgium, Finland, and Poland to identify conspiracy entrepreneurs, characterize them, and examine their cross-platform communication. Results indicate that conspiratorial discourse is driven by a narrow set of predominantly far-right politicians, who generate higher engagement than their colleagues, despite comparable following and posting rates. Conspiratorial discourse also differs across platforms, with Facebook enabling more fully articulated conspiratorial narratives and X favoring more fragmented, context-dependent communication. These findings illuminate how political elites cultivate epistemic crisis and how social media platforms may algorithmically reward conspiratorial content by providing tools for politicians to generate engagement.",
+    "abstract_zh": "尽管人们对政治精英在制造和传播阴谋论中的作用越来越担忧，但关于哪些政治人物会从事这种行为、这种现象在各国和不同政治平台上的普遍程度，以及其背后的意识形态模式，我们知之甚少。为了解决这些问题，我们研究了一小部分特别热衷于传播阴谋论的精英政治人物，他们显著地推动了阴谋论言论的传播，从而挑战了这些国家可接受辩论的界限。通过梯度阈值分析、逻辑回归和深入文本分析，我们研究了比利时、芬兰和波兰的政治精英发布的702条帖子，以识别这些阴谋论传播者，描述他们的特征，并考察他们的跨平台沟通方式。研究结果表明，阴谋论言论主要由极右翼政治人物推动，尽管他们的粉丝数量和发帖频率与其他政治人物相当，但他们引发的讨论参与度更高。不同平台上的阴谋论言论也存在差异：Facebook更有利于形成完整的阴谋论叙事，而X平台（如Twitter）则更倾向于碎片化、依赖具体情境的交流方式。这些发现揭示了政治精英如何制造认知危机，以及社交媒体平台如何通过提供工具来促进阴谋论内容的传播，从而在算法层面上奖励这类内容。",
+    "summary": "论文识别比利时、芬兰、波兰三国政治精英中的“阴谋论企业家”，基于 702 条人工标注帖文，用梯度阈值分析与逻辑回归考察其意识形态特征、跨平台差异及互动效果，发现阴谋论话语主要由少数极右政客驱动，Facebook 偏完整叙事、X 偏碎片化表达。",
+    "reason": "研究 X 与 Facebook 上政治精英的阴谋论话语，属社交媒体平台议题，采用量化建模分析平台数据。",
+    "tags": [
+      "社交媒体平台",
+      "阴谋论/虚假信息",
+      "政治传播",
+      "跨平台比较"
+    ],
+    "method": "量化分析",
+    "doi": "10.1080/1369118x.2026.2733516",
+    "source_url": "https://doi.org/10.1080/1369118x.2026.2733516",
+    "detail_slug": "the-few-the-loud-platform-mediated-articulation-of-conspiratorial-discourse-by-political-elites-on-x-and-facebook",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Information, Communication & Society",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2038,
     "title": "The Democratic Cost of Pursuing Virality: A Study into Parliamentary Communications",
     "title_zh": "追求病毒式传播的代价：一项关于议会沟通的研究",
@@ -9064,7 +9163,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Audience engagement signals on social media platforms have shaped how media outlets produce news. Mukerjee et al. examined this phenomenon empirically by estimating the extent to which media outlets respond to audience engagement signals on Facebook in deciding what news to publish on the platform. However, the extent to which their findings can be generalized to other social media platforms remains unknown. We replicate their study on Twitter using the same methodological pipeline ( <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" overflow=\"scroll\"> <mml:mrow> <mml:mi>N</mml:mi> <mml:mo>≈</mml:mo> <mml:mn>4</mml:mn> <mml:mo>.</mml:mo> <mml:mn>55</mml:mn> </mml:mrow> </mml:math> million posts, twenty-eight media outlets, between 2015 and 2019). Our results indicate that media responsiveness to audience engagement on Twitter aligns with the core patterns identified in the Facebook study. Specifically, topics receiving higher audience engagement generally experience significantly increased coverage shortly thereafter, and the responsiveness is not conditioned on the nature of topics. However, we observe three differences in dynamics on Twitter compared to Facebook: first, the maximum response window on Twitter is shorter; second, conservative outlets on Twitter are not more likely to respond to engagement signals; third, platform-specific metrics (e.g., retweets) show different patterns of responsiveness. Our replication thus highlights the generalizability of the original study while underscoring the importance of platform-specific characteristics in shaping media production on social media.",
-    "abstract_zh": "社交媒体平台上的观众互动信号已经影响了媒体机构新闻的发布方式。Mukerjee等人通过实证研究探讨了这一现象，他们估计了媒体机构在决定在Facebook上发布哪些新闻时，对观众互动信号的响应程度。然而，他们的研究结果在多大程度上可以推广到其他社交媒体平台，目前尚不清楚。我们在Twitter上使用了相同的方法论框架，对这一现象进行了复制研究（研究时间跨度为2015年至2019年，涉及5500万条帖子和28家媒体机构）。我们的研究结果表明，媒体对Twitter上观众互动的响应方式与Facebook研究中发现的核心模式一致。具体来说，获得较高观众互动的话题通常会在之后获得显著更多的报道；而且，这种响应方式并不受话题性质的影响。不过，我们观察到Twitter与Facebook在互动动态上存在三个差异：首先，Twitter上的最大响应时间窗口更短；其次，Twitter上的保守派媒体机构并不更倾向于对观众互动信号做出响应；第三，平台特定的指标（如转发次数）显示出不同的响应模式。因此，我们的复制研究不仅验证了原研究的普遍性，同时也强调了平台特定特征在塑造社交媒体新闻生产中的重要性。",
+    "abstract_zh": "社交媒体平台上的观众互动信号已经影响了媒体机构新闻的发布方式。Mukerjee等人通过实证研究探讨了这一现象，他们估计了媒体机构在决定在Facebook上发布哪些新闻时，对观众互动信号的响应程度。然而，他们的研究结果在多大程度上可以推广到其他社交媒体平台，目前尚不清楚。我们在Twitter上使用了相同的方法论框架，对2015年至2019年间的5500万条帖子和28家媒体机构进行了复制研究。我们的研究结果表明，媒体对Twitter上观众互动的响应方式与Facebook研究中发现的核心模式一致。具体来说，获得较高观众互动的话题通常会在短时间内获得显著更多的报道；而且这种响应并不受话题性质的影响。不过，我们观察到Twitter与Facebook在互动动态上存在三个差异：首先，Twitter上的最大响应时间较短；其次，Twitter上的保守派媒体机构并不更倾向于对互动信号作出响应；第三，平台特定的指标（如转发次数）显示出不同的响应模式。因此，我们的复制研究不仅验证了原研究的普遍性，同时也强调了平台特定特征在塑造社交媒体新闻生产中的重要性。",
     "summary": "复制Mukerjee等人在Facebook上的研究，在Twitter上分析28家媒体2015-2019年约455万帖子，发现媒体对受众参与度的响应与Facebook一致，但响应窗口更短、保守媒体无差异、平台特有指标表现不同，强调平台特性影响。",
     "reason": "使用大规模社交媒体数据（Twitter约455万帖子）分析受众参与信号对新闻生产的影响，属典型计算传播研究。",
     "tags": [
@@ -9102,7 +9201,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "How do elite US news outlets frame AI within accounts of hype, disappointment and tempered expectation? This study finds that rather than fueling hype, coverage tends to adopt a cautious tone – emphasizing everyday uses and current impacts over speculative futures. A content analysis of three high-profile US dailies shows more positive tones when only developers or vendors discuss their own AI tools. The findings underscore journalists’ important role in contextualizing and balancing biased narratives and will be a valuable contribution for academics, journalists and policymakers seeking to understand hype, disappointment and expectation dynamics in technology discourse and their broader social implications.",
-    "abstract_zh": "美国精英新闻媒体是如何在关于人工智能的报道中呈现这种情绪的（包括炒作、失望以及适度的期望）？研究发现，这些媒体并没有加剧对人工智能的炒作，而是采取了谨慎的态度——更侧重于人工智能在日常生活中的应用及其当前的影响，而非对其未来可能性的猜测。通过对三家美国知名日报的内容分析发现，当只有人工智能开发者或供应商谈论他们自己的技术工具时，报道中的语气更为积极。这些发现强调了记者在平衡带有偏见的叙述、提供客观信息方面的重要作用，对于学者、记者和政策制定者来说，这些发现具有很高的价值，有助于他们理解科技领域中关于人工智能的炒作、失望以及人们期望的动态及其更广泛的社会影响。",
+    "abstract_zh": "美国精英新闻媒体是如何在关于人工智能的报道中呈现这种情绪的（包括炒作、失望以及适度的期望）？研究发现，这些媒体并没有加剧对人工智能的炒作，而是采取了谨慎的态度——更强调人工智能在日常生活中的应用及其当前的实际影响，而非对其未来可能性的猜测。通过对三家美国知名日报的内容分析发现，当只有人工智能开发者或供应商谈论他们自己的技术工具时，报道中的语气更为积极。这些发现突显了记者在平衡带有偏见的叙述以及提供客观信息方面的重要作用，对于学者、记者和政策制定者来说，这些发现对于理解技术讨论中的炒作、失望和期望情绪及其更广泛的社会影响具有重要的参考价值。",
     "summary": "分析美国精英报纸如何框架AI，发现报道倾向谨慎务实，强调日常应用而非炒作，开发商自述时语气更正，凸显记者平衡叙事的作用。",
     "reason": "研究AI在新闻媒体中的框架构建，属于AI社会影响议题，虽用内容分析但符合AI特别条款。",
     "tags": [
@@ -9137,7 +9236,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study explores how natural language processing can uncover ideological orientations in European parliamentary debates. Using speeches from 28 countries, transformer-based models (BERT, RoBERTa, and DistilBERT) were fine-tuned for binary classification and evaluated by accuracy and F1-score. RoBERTa and DistilBERT slightly outperformed BERT, and DistilBERT offered a strong balance between efficiency and accuracy. Principal Component Analysis and attention score analysis revealed cross-national linguistic and ideological patterns. The findings advance understanding of political discourse through computational linguistics, highlighting the potential of transformer models for analyzing ideological diversity in large-scale parliamentary data.",
-    "abstract_zh": "本研究探讨了自然语言处理如何揭示欧洲议会辩论中的意识形态倾向。通过分析28个国家的演讲文本，研究人员对基于Transformer的模型（BERT、RoBERTa和DistilBERT）进行了微调，用于二元分类任务，并通过准确率和F1分数来评估这些模型的性能。结果表明，RoBERTa和DistilBERT的表现略优于BERT，尤其是DistilBERT在效率和准确性之间取得了良好的平衡。主成分分析（PCA）和注意力得分（attention score）分析揭示了跨国家的语言和意识形态模式。这些发现通过计算语言学的方法加深了我们对政治话语的理解，同时也展示了Transformer模型在分析大规模议会数据中的意识形态多样性方面的潜力。",
+    "abstract_zh": "本研究探讨了自然语言处理如何揭示欧洲议会辩论中的意识形态倾向。通过分析28个国家的演讲文本，研究人员对基于Transformer的模型（BERT、RoBERTa和DistilBERT）进行了微调，用于二元分类任务，并通过准确率和F1分数来评估这些模型的性能。结果表明，RoBERTa和DistilBERT的表现略优于BERT，尤其是DistilBERT在效率与准确性之间取得了良好的平衡。主成分分析（PCA）和注意力得分（attention score）分析揭示了跨国家的语言和意识形态模式。这些发现通过计算语言学的方法加深了对政治话语的理解，凸显了Transformer模型在分析大规模议会数据中的意识形态多样性方面的潜力。",
     "summary": "该研究微调BERT、RoBERTa和DistilBERT模型，对28国议会演讲进行二分类，评估效果并利用PCA和注意力分析揭示跨国的意识形态语言模式。",
     "reason": "使用Transformer模型进行NLP文本分类，分析大规模议会话语中的意识形态，属典型计算方法与传播议题结合。",
     "tags": [
@@ -9159,7 +9258,7 @@
   {
     "id": 278,
     "title": "Expanding integrated storytelling networks: the role of AI newsbots and mobile apps in civic engagement",
-    "title_zh": "扩展综合叙事网络：人工智能新闻机器人和移动应用程序在公民参与中的作用",
+    "title_zh": "扩展综合叙事网络：AI新闻机器人和移动应用程序在公民参与中的作用",
     "authors": [
       "Seungahn Nah",
       "Fanjue Liu",
@@ -9171,7 +9270,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "While scholarship increasingly examines the societal implications of artificial intelligence, less is known about how AI-generated news integrates into local communication ecologies and shapes civic engagement. Drawing on Communication Infrastructure Theory (CIT), this study investigates how individuals’ integrated connectedness to a storytelling network (ICSN) interacts with AI news consumption and active mobile app usage to influence four dimensions of civic engagement: offline and online civic participation, collective efficacy, and neighborhood belonging. Using a nationally representative U.S. survey (N = 1,252), results show that ICSN remains the strongest and most consistent predictor across behavioral, psychological, and cognitive outcomes. AI news consumption through automated news services predicts both offline and online civic participation but does not enhance collective efficacy or neighborhood belonging, suggesting that algorithmic content may mobilize civic actions without strengthening deeper communal ties. In contrast, active mobile app usage predicts all forms of civic engagement and amplifies the effect of ICSN on civic participation, highlighting mobile platforms as connective infrastructures that reinforce community storytelling networks. These findings extend CIT by situating AI news and mobile media as emerging storytellers and underscore the need for hybrid, human-algorithmic communication infrastructures to sustain civic life in a digitally evolving society.",
-    "abstract_zh": "尽管学术界越来越多地研究人工智能（AI）对社会的影响，但对于AI生成的新闻如何融入地方交流体系以及如何塑造公民参与度，我们了解得还不够多。本研究基于“传播基础设施理论”（Communication Infrastructure Theory, CIT），探讨了个体与故事讲述网络（Storytelling Network, ICSN）的紧密联系如何与AI新闻的消费及移动应用程序的主动使用相结合，从而影响公民参与的四个方面：线下和线上的公民参与、集体效能感以及社区归属感。通过一项具有全国代表性的美国调查（样本量N=1,252），研究结果表明，ICSN在行为、心理和认知结果方面始终是最强且最稳定的预测因素。通过自动化新闻服务消费AI新闻能够促进线下和线上的公民参与，但并未提升集体效能感或社区归属感，这表明算法生成的内容虽然能够激发公民行动，却未能增强社区之间的深厚联系。相比之下，主动使用移动应用程序能够预测所有形式的公民参与，并放大ICSN对公民参与的影响，从而凸显了移动平台作为强化社区故事讲述网络的连接性基础设施的作用。这些发现扩展了“传播基础设施理论”的内涵，将AI新闻和移动媒体视为新兴的“故事讲述者”，并强调了在数字化不断发展的社会中，需要建立人机结合的通信基础设施来维持公民生活。",
+    "abstract_zh": "尽管学术界越来越多地研究人工智能（AI）对社会的影响，但人们对AI生成的新闻如何融入地方交流体系以及如何影响公民参与度仍知之甚少。本研究基于“传播基础设施理论”（Communication Infrastructure Theory, CIT），探讨了个体与故事讲述网络（Storytelling Network, ICSN）的紧密联系如何与AI新闻的消费及移动应用程序的主动使用相结合，从而影响公民参与的四个方面：线下和线上的公民参与、集体效能感以及社区归属感。通过一项具有全国代表性的美国调查（样本量N=1,252），研究结果表明，ICSN在行为、心理和认知结果方面始终是最强且最稳定的预测因素。通过自动化新闻服务消费AI新闻能够促进线下和线上的公民参与，但并未提升集体效能感或社区归属感，这表明算法生成的内容虽然能够激发公民行动，却未能增强社区成员之间的深厚联系。相比之下，主动使用移动应用程序能够促进所有形式的公民参与，并放大ICSN对公民参与的影响，从而凸显了移动平台作为强化社区故事讲述网络的连接性基础设施的作用。这些发现扩展了“传播基础设施理论”的范畴，将AI新闻和移动媒体视为新兴的“故事讲述者”，并强调了在数字化不断发展的社会中，需要建立人机结合的通信基础设施来维持公民生活。",
     "summary": "基于美国全国调查，探讨整合式故事网络、AI新闻消费与移动应用使用对公民参与的影响，发现AI新闻促进参与但不增强社区归属。",
     "reason": "研究AI新闻机器人与移动应用对公民参与的影响，虽用传统调查但明确涉及AI社会影响，符合特别条款。",
     "tags": [
@@ -9193,7 +9292,7 @@
   {
     "id": 279,
     "title": "Campaigning across platforms: how party status, social profiles, and emotional tone shaped user engagement with French MPs during the 2022 presidential election",
-    "title_zh": "跨平台开展竞选活动：政党地位、社交媒体个人资料以及情感表达方式如何影响2022年法国总统选举期间选民对法国议员的参与度",
+    "title_zh": "跨平台开展竞选活动：政党地位、社交媒体个人资料以及情感表达方式如何影响选民在2022年法国总统选举期间对法国议员的关注度",
     "authors": [
       "Julien Figeac",
       "Marie Neihouser",
@@ -9205,7 +9304,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article examines audience engagement with posts published by 387 French MPs on Facebook, Instagram, and Twitter during the 2022 presidential election (N = 35,348). Using a supervised machine learning method, we investigate how engagement varies according to MPs’ political affiliation, social characteristics, post topics, and emotional tone. The findings reveal that party status shapes online visibility: posts from opposition MPs, particularly those from radical parties, consistently elicit higher engagement than those from the governing party, which tends to favor neutral and coordination-oriented messaging. Social underrepresentation also plays a role: younger, rural, and female MPs generate more engagement in specific contexts, yet these effects vary substantially across platforms. For instance, women and urban MPs receive more reactions on Twitter, whereas Facebook and Instagram favor rural MPs. These platform-dependent patterns suggest that audience engagement is shaped not only by asymmetries in political status and social background, but also by platform-specific affordances: Facebook and Instagram tend to reward locally embedded and coordination-oriented communication, particularly among younger and rural MPs, while Twitter amplifies adversarial rhetoric and politically polarizing content, especially among urban or radical actors.",
-    "abstract_zh": "本文研究了在2022年总统选举期间，387位法国议员在Facebook、Instagram和Twitter上发布的帖子与受众的互动情况（样本量N=35,348）。通过使用监督式机器学习方法，我们分析了受众互动程度如何受到议员的政治立场、社会特征、帖子主题以及情感基调的影响。研究结果表明，政党背景对帖子的在线可见性具有重要影响：反对党议员的帖子，尤其是激进党派的议员，通常能引发更高的互动率，而执政党则更倾向于发布中立且注重协调的言论。社会代表性不足也是一个因素：年轻议员、来自农村地区的议员以及女性议员在某些特定情境下能获得更多互动；不过这些效应在不同平台上存在显著差异。例如，女性议员和城市议员在Twitter上获得的互动更多，而在Facebook和Instagram上则更受农村议员的关注。这些平台特定的互动模式表明，受众互动不仅受到政治地位和社会背景差异的影响，还受到平台自身特性的影响：Facebook和Instagram更倾向于奖励那些与当地社区紧密相关、注重协调的沟通方式（尤其是年轻议员和农村议员），而Twitter则更倾向于放大对抗性言论和政治极化内容（尤其是城市议员或激进党派的行为）。",
+    "abstract_zh": "本文研究了在2022年总统选举期间，387位法国议员在Facebook、Instagram和Twitter上发布的帖子与受众的互动情况（样本量N=35,348）。通过使用监督式机器学习方法，我们分析了受众互动程度如何受到议员的政治立场、社会特征、帖子主题以及情感基调的影响。研究结果表明，政党背景对帖子的在线可见性具有重要影响：反对党议员的帖子，尤其是激进党派的议员，通常能引发更高的互动率，而执政党则更倾向于发布中立且注重协调的言论。社会代表性不足也是一个因素：年轻议员、来自农村地区的议员以及女性议员在某些特定情境下能获得更多的互动；不过这些效应在不同平台上存在显著差异。例如，女性议员和城市议员在Twitter上获得的互动更多，而在Facebook和Instagram上，来自农村地区的议员更受关注。这些平台特定的互动模式表明，受众互动不仅受到政治地位和社会背景差异的影响，还受到平台自身特性的影响：Facebook和Instagram更倾向于奖励那些具有地方特色且注重协调的沟通方式（尤其是年轻议员和农村议员），而Twitter则更倾向于放大对抗性言论和政治极化内容（尤其是城市议员或激进党派成员的帖子）。",
     "summary": "研究387名法国议员在Facebook、Instagram和Twitter上的选举期帖子，利用监督机器学习分析政党地位、社会特征和情绪基调对用户参与度的影响，发现平台特性与政治身份共同塑造线上互动。",
     "reason": "使用监督机器学习分析社交媒体平台上的政治传播与用户参与，属于计算传播典型研究。",
     "tags": [
@@ -9240,7 +9339,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study advances political representation theory by distinguishing between General and Concrete Substantive Representation, extending Pitkin's framework to capture specificity levels in representational practices. We introduce ‘Everyday Feminism’ as the practical manifestation of feminist principles in municipal governance, examining how councilwomen navigate between abstract ideals and tangible community needs. Using mixed-methods content analysis, we analyzed complementary representation spheres: ‘overt’ Facebook posts and ‘covert’ council meeting protocols from 32 Israeli councilwomen across 27 municipalities (October 2021-May 2022). The study identified six categories of women's interests and five action strategies. Findings reveal a digital-institutional divide: council meetings generate higher proportional engagement with women's issues (20%) than Facebook (11%) but focus almost exclusively on concrete interests (99% relative to 1% general). Facebook balances concrete local concerns (65%) with general advocacy (35%). Platform affordances fundamentally shape representational practices—council meetings prioritize actionable policy proposals within institutional constraints, while Facebook enables community mobilization. The gap between spaces reflects their different functions: council meetings manage logistics, while Facebook enables enacting change. Online representation adds another layer to local representation through mass-personal community contact, facilitating concrete assistance to individuals, groups, and local women.",
-    "abstract_zh": "本文通过区分“一般性实质性代表”（General Substantive Representation）和“具体性实质性代表”（Concrete Substantive Representation），对政治代表理论进行了拓展，进一步丰富了皮特金（Pitkin）的框架，以捕捉代表性实践中的具体差异。我们将“日常女权主义”（Everyday Feminism）视为女权主义原则在市政治理中的实际体现，研究了女性议员如何在抽象的理想与实际的社区需求之间找到平衡。我们采用了混合方法的内容分析技术，分析了32位以色列女性议员在27个市政机构中的公开Facebook帖子以及会议记录（时间跨度为2021年10月至2022年5月），这些数据涵盖了两个不同的代表性领域。研究发现了女性关注的六个方面以及她们采取的五种行动策略。研究结果揭示了数字平台与制度之间的差异：虽然会议在涉及女性议题时的参与度更高（20% vs Facebook的11%），但会议内容几乎完全集中在具体问题上（99% vs Facebook的1%）；而Facebook则在关注具体地方问题的同时（65%），也承担了一般性倡导的职能（35%）。平台本身的特性从根本上塑造了代表性的实践方式：会议在制度约束下优先考虑可实施的政策提案，而Facebook则有助于社区的动员。这两种平台之间的差异反映了它们的不同功能：会议主要负责处理日常事务，而Facebook则能够推动社会变革。在线代表性通过大规模的社区互动为地方治理增添了新的维度，有助于为个人、群体和当地女性提供具体的帮助。",
+    "abstract_zh": "本文通过区分“一般性实质代表”（General Substantive Representation）和“具体性实质代表”（Concrete Substantive Representation），对政治代表理论进行了拓展，进一步丰富了皮特金（Pitkin）的框架，以捕捉代表实践中的具体性差异。我们将“日常女权主义”（Everyday Feminism）视为女权主义原则在市政治理中的实际体现，研究了女性议员如何在抽象的理念与实际的社区需求之间找到平衡。我们采用混合方法（混合方法内容分析，mixed-methods content analysis）分析了32位以色列女性议员在27个市政机构中的表现：这些议员的活动时间跨度为2021年10月至2022年5月。研究发现了女性关注的六个领域以及她们采取的五种行动策略。研究结果揭示了数字平台与制度之间的差异：市政会议在涉及女性议题时的参与度（20%）高于Facebook（11%），但会议内容几乎完全集中在具体问题上（99% vs 1%）；而Facebook则在关注具体地方问题的同时（65%），也承担着倡导普遍性政策的职能（35%）。平台本身的特性从根本上塑造了代表的实践方式：市政会议在制度限制下优先考虑可实施的政策提案，而Facebook则有助于社区动员。这两种平台之间的差异反映了它们的不同功能：市政会议主要处理日常事务，而Facebook则能够推动社会变革。在线代表机制通过大规模的社区互动，为个人、群体以及当地女性提供了更具体的帮助。",
     "summary": "研究区分一般与具体实质性代表，分析32名以色列女议员的Facebook帖子和会议记录，发现在线与制度领域的代表实践差异。",
     "reason": "使用Facebook社交媒体数据与内容分析，探讨女性代表议题，属于计算传播研究。",
     "tags": [
@@ -9262,7 +9361,7 @@
   {
     "id": 478,
     "title": "Strategic Communication in the Era of Synthetic Media: Exploring Organizational Responses to AI-Generated Threats in Ghana",
-    "title_zh": "合成媒体时代的战略传播：探讨加纳组织对人工智能生成威胁的应对措施",
+    "title_zh": "合成媒体时代的战略传播：探究加纳组织对人工智能生成威胁的应对措施",
     "authors": [
       "Albert Anani-Bossman"
     ],
@@ -9275,7 +9374,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The rise of synthetic media, characterized by deepfakes and AI-generated misinformation and disinformation, presents serious challenges to strategic communication practices and reputation management. This study explores how strategic communication professionals in Ghana perceive, assess, and respond to these emerging threats. The study used qualitative data from 17 strategic communication professionals across various sectors. The results show that, while professionals are increasingly aware of synthetic media threats, there is a significant gap in organizational preparedness, limited use of detection tools, and a tendency toward reactive communication approaches. The study also finds that resource limitations, lack of leadership support and prioritization, and weak or inadequate policy frameworks hinder effective responses to synthetic media threats. Despite these challenges, the study identifies promising communication strategies, including multi-channel communication, systematic stakeholder engagement, and advocacy for regulatory frameworks and public education. The findings highlight the urgent need for digital literacy initiatives, proactive communication strategies, updates to existing crisis communication plans, and cross-functional collaboration. The study contributes to communication theory by demonstrating how concepts like cultural lag and the ‘liar’s dividend’ manifest within emerging markets, providing practical insights for effective strategic communication in the digital age.",
-    "abstract_zh": "合成媒体的兴起，尤其是深度伪造内容以及人工智能生成的错误信息和虚假信息，对战略沟通实践和声誉管理带来了严峻挑战。本研究探讨了加纳的战略沟通专业人士如何看待、评估并应对这些新兴威胁。研究通过收集来自不同行业17位战略沟通专业人士的定性数据进行分析。结果表明，尽管专业人士越来越意识到合成媒体的威胁，但组织在应对这些威胁方面的准备程度仍然不足，检测工具的使用也较为有限，且更多采用被动应对的沟通方式。此外，资源限制、缺乏领导层的支持和重视，以及政策框架的薄弱或不足，都阻碍了有效应对合成媒体威胁的努力。尽管存在这些挑战，研究仍提出了一些有前景的沟通策略，包括多渠道沟通、系统性的利益相关者参与，以及推动监管框架的建立和公众教育。研究结果强调了提高数字素养的紧迫性，提倡采取主动的沟通策略，更新现有的危机沟通计划，并加强跨职能合作。该研究通过展示“文化滞后”和“谎言红利”等概念在新兴市场中的表现，为数字时代的有效战略沟通提供了实用见解，从而为沟通理论做出了贡献。",
+    "abstract_zh": "合成媒体的兴起，尤其是深度伪造内容以及人工智能生成的虚假信息和误导性信息，对战略沟通实践和声誉管理带来了严峻挑战。本研究探讨了加纳的战略沟通专业人士如何认识、评估并应对这些新兴威胁。研究通过收集来自不同行业17位战略沟通专业人士的定性数据进行分析。结果表明，尽管专业人士越来越意识到合成媒体的威胁，但组织在应对这些威胁方面的准备程度仍然不足，检测工具的使用也较为有限，且大多采取被动应对的沟通方式。此外，资源限制、缺乏领导层的支持和重视，以及政策框架的薄弱或不足，也阻碍了有效应对合成媒体威胁的努力。尽管存在这些挑战，研究仍提出了一些有前景的沟通策略，包括多渠道沟通、系统性的利益相关者参与，以及推动监管框架的建立和公众教育。研究结果强调了提高数字素养的紧迫性，提倡采取主动的沟通策略，更新现有的危机沟通计划，并加强跨职能合作。该研究通过展示“文化滞后”和“谎言红利”等概念在新兴市场中的表现，为数字时代的有效战略沟通提供了实用见解，从而为沟通理论做出了贡献。",
     "summary": "通过访谈17位加纳战略传播从业者，探讨其对AI生成威胁的认知与应对，发现准备不足、检测工具使用有限及反应式沟通等问题，并提出改进策略。",
     "reason": "研究聚焦AI生成内容（深度伪造、虚假信息）对组织战略传播的影响，属于AI社会影响议题，符合纳入标准。",
     "tags": [
@@ -9311,7 +9410,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Digital technologies are transforming democratic life in conflicting ways. This article bridges two perspectives to unpack these tensions. First, we present an original survey of software developers in Silicon Valley, interrogating how coders’ worldviews, ethics, and workplace cultures shape the democratic potential and social impact of the technologies they build. Results indicate that while most developers recognize the power of their products to influence civil liberties and political discourse, they often face ethical dilemmas and top-down pressures that can lead to design choices undermining democratic ideals. Second, we critically investigate these findings in the context of an emerging ‘new digital divide’, not of internet access but of information quality. We interrogate the survey findings in the context of the ‘slop economy’, in which billions of users unable to pay for high-quality content experience an internet dominated by low-quality, AI-generated ad-driven content. We find a reinforcing cycle between tech creator beliefs and the digital ecosystems they spawn. We discuss implications for democratic governance, arguing for more ethically informed design and policy interventions to help bridge the digital divide to ensure that technological innovation supports rather than subverts democratic values in the next chapter of the digital age.",
-    "abstract_zh": "数字技术正在以相互矛盾的方式改变民主生活。本文从两个角度探讨了这些矛盾现象。首先，我们对硅谷的软件开发人员进行了原创性调查，研究了开发者的世界观、伦理观念以及工作文化如何影响他们所开发技术的民主潜力和社会影响。调查结果表明，尽管大多数开发者意识到自己的产品具有影响公民自由和政治讨论的能力，但他们经常面临伦理困境和来自上层的压力，这些压力可能导致他们的设计选择违背民主原则。其次，我们在新兴的“新数字鸿沟”背景下对这些发现进行了批判性分析。这里的“数字鸿沟”并非指互联网接入问题，而是指信息质量的不平等。我们将调查结果放在“低质量内容经济”的背景下进行解读：数十亿用户由于无法支付高质量内容而只能使用由人工智能生成的、广告驱动的低质量互联网内容。研究发现，技术创造者的信念与其所创造的数字生态系统之间存在一种相互强化的循环。本文讨论了这些发现对民主治理的影响，主张在设计和技术政策中融入更多的伦理考量，以帮助缩小数字鸿沟，确保技术创新在数字时代的下一阶段能够支持而非颠覆民主价值观。",
+    "abstract_zh": "数字技术正在以相互矛盾的方式改变民主生活。本文试图从两个不同的视角来分析这些矛盾。首先，我们对硅谷的软件开发人员进行了原创性的调查，探讨了开发者的世界观、伦理观念以及工作文化如何影响他们所开发技术的民主潜力和社会影响。调查结果表明，尽管大多数开发者意识到自己的产品具有影响公民自由和政治讨论的能力，但他们经常面临伦理困境和来自上层的压力，这些因素可能导致他们的设计选择违背民主原则。其次，我们在新兴的“新数字鸿沟”背景下对这些发现进行了批判性分析。这里的“数字鸿沟”并非指互联网接入问题，而是指信息质量的不平等。我们将调查结果放在“低质量内容经济”的背景下进行解读：数十亿无法支付高质量内容费用的用户，正在使用一个由低质量、由人工智能生成的内容主导的互联网环境。研究发现，技术创造者的信念与其所创造的数字生态系统之间存在一种相互强化的循环关系。本文讨论了这些发现对民主治理的启示，主张在设计和技术政策中融入更多的伦理考量，以帮助缩小数字鸿沟，确保技术创新能够在数字时代的下一个阶段支持而非颠覆民主价值观。",
     "summary": "通过调查硅谷软件开发者，探讨其世界观与伦理如何影响技术设计，结合'Slop经济'批判信息质量鸿沟，分析AI时代民主治理挑战。",
     "reason": "讨论AI对民主和数字鸿沟的影响，涉及AI社会影响，符合AI特别条款。",
     "tags": [
@@ -9351,7 +9450,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "There are growing concerns about AI-generated image-based sexual abuse (AI-IBSA), also known as nonconsensual sexualized ′deepfakes.′ Empirical research on AI-IBSA, however, remains very limited. This study surveyed 7231 respondents across Australia, the United Kingdom, and the United States to investigate community attitudes and perceptions on AI-IBSA. Through a vignette study, we explored the relationship between public familiarity with AI-IBSA, normative concerns about consent, and context-dependent judgments that vary based on the target's identity relational status, and how the content was used. Our findings reveal strong condemnation of AI-IBSA, yet respondents demonstrated low familiarity with the technology and their views varied depending on particular contexts. AI-IBSA targeting intimate partners was viewed as more unacceptable than targeting celebrities, and content created solely for personal use was seen as less unacceptable than content intended for distribution. The study highlights the need for approaches that go beyond technical fixes and punitive measures, advocating for a multifaceted response that integrates ethical data governance, digital sexual literacy, and restorative justice approaches.",
-    "abstract_zh": "人们对人工智能生成的基于图像的性虐待（AI-IBSA），也称为未经同意的“深度伪造”内容，越来越感到担忧。然而，关于AI-IBSA的实证研究仍然非常有限。本研究调查了来自澳大利亚、英国和美国的7231名受访者，以了解他们对AI-IBSA的态度和看法。通过一个案例研究，我们探讨了公众对AI-IBSA的认知程度、关于同意的规范性担忧，以及这些判断如何根据目标人物的身份关系和内容使用方式而有所不同。研究结果表明，受访者强烈谴责AI-IBSA行为；但他们对该技术的了解程度较低，且他们的观点因具体情境而异。针对亲密伴侣的AI-IBSA内容被认为比针对名人的内容更不可接受；而仅用于个人用途的内容则比用于传播的内容更可接受。研究强调，需要采取超越技术修复和惩罚性措施的方法，倡导一种综合性的应对策略，该策略应包括伦理数据治理、数字性素养和恢复性司法等方面。",
+    "abstract_zh": "人们对人工智能生成的基于图像的性虐待（AI-IBSA），也称为非自愿的“深度伪造”内容，越来越感到担忧。然而，关于AI-IBSA的实证研究仍然非常有限。本研究调查了来自澳大利亚、英国和美国的7231名受访者，以了解他们对AI-IBSA的态度和看法。通过一个小案例研究，我们探讨了公众对AI-IBSA的认知程度、关于同意的规范性担忧，以及这些判断如何根据目标人物的身份关系和内容使用方式而有所不同。研究结果表明，受访者强烈谴责AI-IBSA行为；但他们对该技术的了解程度较低，且他们的观点因具体情境而异。针对亲密伴侣的AI-IBSA内容被视为比针对名人的内容更不可接受；而仅用于个人用途的内容则比用于传播的内容更可接受。该研究强调，需要采取超越技术修复和惩罚性措施的方法，倡导一种综合性的应对策略，包括伦理数据治理、数字性素养和恢复性司法等要素。",
     "summary": "调查澳英美7231人对AI生成图像性虐待的态度，发现强烈谴责但熟悉度低，判断受关系身份和使用情境影响，呼吁多元治理。",
     "reason": "研究AI生成深度伪造性虐待的社会态度，属AI社会影响，虽用传统问卷但符合AI特别条款。",
     "tags": [
@@ -9386,7 +9485,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Local newspapers play an important role in informing the public and holding elected officials accountable, yet the consolidation of newspapers under an increasingly small number of owners has raised questions about the commitment of newsrooms to reporting on local politics. Of particular concern is the rise of newspaper owners that deal primarily in investment and not the media industry, such as private equity firms and hedge funds. I document 856 instances of ownership changes among daily newspapers between 2004–2020, with just under half involving a purchase by an owner who primarily deals in investments. I find that a newspaper’s acquisition by an investment-owner leads to more stories about national politics and fewer stories about local politics relative to acquisitions by other types of owners. I also find that a transition to investment ownership leads to reductions in both citizen knowledge and voter turnout. While the effects are not uniformly large or statistically robust across all outcomes, the results are broadly consistent with concerns that investment ownership may weaken local coverage and reduce political engagement in local politics.",
-    "abstract_zh": "地方报纸在向公众传递信息以及监督民选官员方面发挥着重要作用。然而，随着报纸所有权逐渐集中到少数几家所有者手中，人们开始质疑新闻编辑部对地方政治报道的投入程度。尤其令人担忧的是，越来越多的报纸所有者主要从事投资活动，而非媒体行业，例如私募股权公司和对冲基金。本文记录了2004年至2020年间856起日报所有权变更的事件，其中近一半的变更是由主要从事投资活动的所有者完成的。研究发现，当报纸被投资型所有者收购后，关于国家政治的报道会增加，而关于地方政治的报道则会减少。此外，所有权向投资型所有者转移还会导致公民对地方政治的了解程度和选民投票率下降。尽管这些影响在不同方面并不总是显著或具有统计学意义，但总体结果与人们的担忧一致，即投资型所有者可能会削弱地方新闻的覆盖范围，并降低公众对地方政治的参与度。",
+    "abstract_zh": "地方报纸在向公众传递信息以及监督民选官员方面发挥着重要作用。然而，随着报纸所有权逐渐集中到少数几家所有者手中，人们开始质疑新闻编辑部对地方政治报道的投入程度。尤其令人担忧的是，越来越多的报纸所有者主要从事投资活动，而非媒体行业，例如私募股权公司和对冲基金。本文记录了2004年至2020年间856起日报所有权变更的事件，其中近一半是由主要从事投资活动的所有者完成的收购。研究发现，当报纸被投资型所有者收购后，关于国家政治的报道会增加，而关于地方政治的报道则会减少。此外，所有权向投资型所有者转移还会导致公民对地方政治的了解程度和选民投票率下降。尽管这些影响在不同方面并不总是显著或具有统计学意义，但总体结果与人们的担忧一致，即投资型所有者可能会削弱地方新闻的覆盖范围，并降低公众对地方政治的参与度。",
     "summary": "考察投资公司收购地方报纸对新闻报道及政治行为的影响，发现其增加全国政治报道、减少本地报道，并降低公民知识与投票率。",
     "reason": "研究涉及新闻内容量化分析与大样本数据（856例所有权变更），符合计算传播的计算方法标准，且主题关系媒体政治传播。",
     "tags": [
@@ -9420,7 +9519,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Safety is a fundamental yet increasingly precarious condition for political participation in an era of democratic backsliding and a hyper-visible digital environment. Often overlooked in political communication, safety is typically framed as an individual problem rather than a structural condition rooted in social and systemic vulnerabilities. This study challenges that assumption by examining how perceived risks of social sanctions and marginalization shape political engagement within Instant Messaging (IM) groups – ubiquitous digital spaces central to everyday political interaction. Using a population-based survey conducted in the Netherlands and a repertoire approach with latent class analysis (LCA), we identify three distinct patterns of participation: Curated Engagement, where individuals actively manage their group environments through disconnection while engaging politically; Conventional Online Engagement, marked by reading, sharing and discussing politics; and Disengaged, characterized by limited political activity. Among them, Curated Engagement emerges as a novel participation repertoire not captured in existing studies. Multinomial regression analysis shows that it is more common among those feeling socially or systemically unsafe, more likely to occur in issue-oriented, weak-tie meso groups, and associated with perceiving IM groups as safe spaces. These findings suggest a shift from ‘connective action’ centred on openness and sharing toward what we term ‘disconnective action’: a more cautious, self-protective mode of participation shaped by safety concerns. By foregrounding safety as a political condition, this study offers a new framework for understanding online political participation and contributes to broader debates on participation and vulnerability in everyday digital contexts.",
-    "abstract_zh": "在民主制度逐渐退步以及数字环境高度透明的时代，安全是政治参与的基本前提，但同时也变得越来越脆弱。在政治交流中，安全问题常常被忽视；人们通常将其视为个人问题，而非源于社会和系统性脆弱性的结构性问题。本研究通过探讨人们对社会制裁和边缘化的恐惧如何影响在即时通讯（IM）群体中的政治参与行为，对这一观点提出了挑战。即时通讯群体是日常政治互动中不可或缺的数字平台。我们利用在荷兰进行的一项基于人群的调查，并采用潜在类别分析（LCA）方法，发现了三种不同的参与模式：  \n1. **“精心管理的参与”**：参与者通过主动断开与群体的联系来管理自己的交流环境，同时仍积极参与政治活动；  \n2. **“传统的在线参与”**：主要表现为阅读、分享和讨论政治相关内容；  \n3. **“不参与的参与”**：表现为政治活动的极度有限。  \n其中，“精心管理的参与”是一种新的参与方式，现有研究尚未对其进行过充分探讨。多项回归分析表明，这种参与模式在感到社会或系统不安全的人群中更为普遍，更可能出现在以具体问题为导向的、成员间联系较弱的群体中，并且与将即时通讯群体视为安全空间的认知相关。这些发现表明，人们的参与方式正从以开放和分享为核心的“连接型行动”，转向一种更为谨慎、以自我保护为目标的“分离型行动”——这种行为模式受到安全顾虑的驱动。通过将安全视为一种政治条件，本研究为理解在线政治参与提供了新的视角，并为关于日常数字环境中参与行为与脆弱性的更广泛讨论做出了贡献。",
+    "abstract_zh": "在民主制度倒退和数字环境高度透明的时代，安全是政治参与的一项基本前提，但同时也变得越来越脆弱。在政治交流中，安全问题常常被忽视；人们通常将其视为个人问题，而非源于社会和系统性脆弱性的结构性问题。本研究通过探讨人们对社会制裁和边缘化风险的感知如何影响在即时通讯（IM）群体中的政治参与行为，对这一观点提出了挑战。即时通讯群体是日常政治互动中不可或缺的数字平台。我们利用在荷兰进行的一项基于人口的调查，并采用潜在类别分析（LCA）方法，发现了三种不同的参与模式：  \n1. **“精心管理的参与”**：个体在积极参与政治活动的同时，主动控制与群体的互动（即通过断开连接来管理群体环境）；  \n2. **“传统的在线参与”**：主要表现为阅读、分享和讨论政治相关内容；  \n3. **“不参与的参与”**：表现为政治活动的极度有限。  \n其中，“精心管理的参与”是一种新的参与模式，现有研究尚未对其进行充分探讨。多项回归分析表明，这种参与方式在那些感到社会或系统层面不安全的人中更为普遍，更可能出现在以具体问题为导向的、关系较为松散的群体中，并且与将即时通讯群体视为安全空间的认知相关。这些发现表明，人们的参与方式正从以开放和分享为核心的“连接型行动”，转向一种更为谨慎、以自我保护为目标的“分离型行动”——这种行为模式受到安全顾虑的驱动。通过将安全视为一种政治条件，本研究为理解在线政治参与提供了新的视角，并为关于日常数字环境中参与行为与脆弱性的更广泛讨论做出了贡献。",
     "summary": "基于荷兰人口调查数据，通过潜在类别分析识别三种政治参与模式，提出“断开式行动”概念，探讨安全感对IM群组政治参与的影响。",
     "reason": "研究即时通讯群组中的政治参与，使用潜在类别分析和回归模型，属于计算传播学方法。",
     "tags": [
@@ -9457,7 +9556,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study extends the Technology Acceptance Model (TAM) by integrating utopian and dystopian perspectives, utilitarian and hedonic values, trust, and AI literacy to examine acceptance of Generative AI (GAI). Using data from 400 South Korean users analyzed through PLS-SEM, the results identify the utopian perspective as the dominant driver of adoption, exerting both direct and indirect effects on behavioral intention via perceived ease of use (PEOU) and trust, whereas the dystopian perspective shows no significant influence. While utilitarian value positively predicts behavioral intention, hedonic value exhibits a negative direct effect, highlighting a tension between experiential enjoyment and sustained adoption. Notably, perceived usefulness (PU) does not directly influence intention, underscoring the limited explanatory power of efficiency-based evaluations in early-stage adoption. Trust and PEOU emerge as central mediators in the acceptance process. Furthermore, AI literacy directly enhances GAI acceptance and moderates value-based pathways: users with lower literacy rely more heavily on utopian expectations, whereas higher literacy amplifies the positive influence of hedonic value. Overall, these findings extend TAM by incorporating sociocultural perspectives and user competencies, offering insights for trust-building strategies and literacy-sensitive design in the Korean context.",
-    "abstract_zh": "本研究通过整合乌托邦与反乌托邦的视角、功利主义与享乐主义的价值取向、信任以及人工智能素养（AI literacy），对生成式人工智能（Generative AI, GAI）的接受度进行了探讨。基于对400名韩国用户的调查数据，并运用PLS-SEM（Partial Least Squares Structural Equation Modeling）分析方法，研究发现乌托邦视角是推动GAI采纳的主要因素，它通过“使用便捷性感知”（Perceived Ease of Use, PEOU）和信任对用户的行为意图产生直接和间接的影响；而反乌托邦视角则没有显示出显著的影响。虽然功利主义价值对用户的行为意图具有正向预测作用，但享乐主义价值却产生了负向的直接影响，这凸显了用户体验与长期采纳之间的矛盾。值得注意的是，“感知有用性”（Perceived Usefulness, PU）并未直接影响用户的行为意图，这说明在技术采纳的早期阶段，基于效率的评估方法的解释能力较为有限。信任和“使用便捷性感知”在GAI的接受过程中起到了关键的中介作用。此外，人工智能素养能够直接提升用户对GAI的接受度，并调节基于价值的不同影响路径：人工智能素养较低的用户更依赖乌托邦式的期望，而素养较高的用户则更能放大享乐主义价值的积极影响。总体而言，这些发现通过融入社会文化视角和用户能力，丰富了技术接受模型（Technology Acceptance Model, TAM）的内涵，为在韩国背景下制定信任构建策略和用户素养敏感型设计提供了有益的启示。",
+    "abstract_zh": "本文对技术接受模型（Technology Acceptance Model, TAM）进行了扩展，将乌托邦式与反乌托邦式的观点、功利主义价值观与享乐主义价值观、信任以及人工智能素养（AI literacy）纳入考量，以研究人们对生成式人工智能（Generative AI, GAI）的接受程度。通过使用400名韩国用户的数据，并通过PLS-SEM（Partial Least Squares Structural Equation Modeling）进行分析，研究结果发现乌托邦式观点是推动GAI采纳的主要因素，它通过用户对使用便捷性的感知（Perceived Ease of Use, PEOU）和信任对用户的采纳意愿产生直接和间接的影响；而反乌托邦式观点则没有显示出显著的影响。虽然功利主义价值观能够正向预测用户的采纳意愿，但享乐主义价值观却产生了负面的直接影响，这凸显了用户体验与长期采纳之间的矛盾。值得注意的是，用户对产品有用性的感知（Perceived Usefulness, PU）并未直接影响用户的采纳意愿，这表明在产品采纳的早期阶段，基于效率的评估方法的解释能力较为有限。信任和PEOU在用户采纳过程中起到了核心的中介作用。此外，人工智能素养能够直接提升用户对GAI的接受程度，并调节基于价值观的采纳路径：人工智能素养较低的用户更依赖于乌托邦式的期望，而人工智能素养较高的用户则更能放大享乐主义价值观的积极影响。总体而言，这些发现通过融入社会文化视角和用户能力，丰富了技术接受模型的内涵，为在韩国背景下制定信任构建策略和设计符合用户素养要求的产品提供了有益的启示。",
     "summary": "基于400名韩国用户数据，扩展TAM模型探讨乌托邦/反乌托邦视角、价值观、信任和AI素养对生成式AI采纳的影响，发现乌托邦视角和AI素养是关键驱动因素。",
     "reason": "研究生成式AI采纳行为，涉及AI素养与信任，虽用问卷但议题属AI使用影响，符合特别条款。",
     "tags": [
@@ -10225,7 +10324,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "In an increasingly digital age, intelligent voice assistants (IVAs) are becoming an integral part of daily life, providing both utility and entertainment value to their users. The global pandemic has accelerated this trend, amplifying the importance of these digital companions. In light of this shift, our study aims to elucidate the factors leading to goal-congruent usage and outcomes of IVAs. Data was collected from 248 IVA users to validate the proposed research model. We employed the partial least squares method to test our hypotheses. Our findings revealed that system quality significantly influences both the perceived utilitarian and hedonic value of IVAs. Similarly, information quality was found to significantly impact both utilitarian and hedonic value. Interestingly, service quality was predominantly linked to utilitarian value. Furthermore, the study indicates that the utilitarian value is a key enabler of goal-congruent outcome and usage. Similarly, hedonic value plays a substantial role in driving both the goal-congruent outcome and usage.",
-    "abstract_zh": "在日益数字化的时代，智能语音助手（IVAs）已成为人们日常生活中不可或缺的一部分，为用户提供实用性和娱乐性价值。全球疫情加速了这一趋势，进一步凸显了这些数字助手的重要性。鉴于这一变化，我们的研究旨在阐明导致智能语音助手被用户目标一致地使用及其产生预期效果的各种因素。我们收集了248名智能语音助手使用者的数据来验证所提出的研究模型，并采用了偏最小二乘法（partial least squares method）来检验我们的假设。研究结果表明，系统质量显著影响了用户对智能语音助手的实用价值和愉悦价值；信息质量也同样显著地影响了这两种价值。值得注意的是，服务质量主要与实用价值相关。此外，研究还表明，实用价值是实现目标一致使用效果的关键因素，而愉悦价值在推动目标一致的使用行为和效果方面也起着重要作用。",
+    "abstract_zh": "在日益数字化的时代，智能语音助手（IVAs）已成为人们日常生活中不可或缺的一部分，为用户提供实用性和娱乐性价值。全球疫情加速了这一趋势，进一步凸显了这些数字助手的重要性。鉴于这一变化，我们的研究旨在阐明导致智能语音助手被用户目标一致地使用及其产生预期效果的各种因素。我们收集了248名智能语音助手使用者的数据来验证所提出的研究模型，并采用了偏最小二乘法（partial least squares method）来检验我们的假设。研究结果表明，系统质量显著影响了用户对智能语音助手的实用价值和愉悦价值；信息质量也同样显著地影响了这两种价值。值得注意的是，服务质量主要与实用价值相关。此外，研究还指出，实用价值是实现目标一致使用效果的关键因素，而愉悦价值在推动目标一致的使用行为和效果方面也起着重要作用。",
     "summary": "基于248名用户数据，采用PLS方法考察系统、信息、服务质量对智能语音助手功利与享乐价值及目标一致使用的影响，发现各质量维度不同影响价值与使用结果。",
     "reason": "研究智能语音助手使用行为，属于AI技术的社会影响与采纳研究，符合AI使用行为纳入条款。",
     "tags": [
@@ -10257,7 +10356,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract Network agenda-setting theory proposes that media transfer issue salience and structural attribute relationships to public and political agendas. However, this theory has been predominantly tested in stable democracies, leaving unclear how network-level agenda transfer functions during authoritarian transitions. This study employs a Triadic Network Agenda-Setting framework to examine how Hong Kong's transition from semi-democratic to authoritarian governance shifted agenda dynamics about asylum seekers. Analyzing asylum coverage across Hong Kong newspapers, online forums, and legislators’ Facebook pages between 2016 and 2024, the study employed structural topic modeling, multiple regression quadratic assignment procedure, and Granger causality tests to assess network-level structural alignment and attribute-level temporal dynamics. Within a corpus dominated by one pro-establishment newspaper, legislative-to-media structural alignment emerged in the authoritarian period but concentrated within that outlet rather than diffusing across the press system, while legislative temporal influence on attribute salience disappeared. This press-state alignment ran directly between legislators and the dominant outlet rather than transitively through public discourse, and engaged online publics remained structurally independent of media and legislative networks across politically heterogeneous communities. Given the outlet-selective character of press–state alignment, humanitarian counter-narratives may gain greater traction through outlets retaining structural autonomy than through direct contestation of the dominant outlet.",
-    "abstract_zh": "网络议程设置理论认为，媒体将问题的重要性和结构性特征传递给公众和政治议程。然而，这一理论主要在稳定的民主国家中得到了验证，因此尚不清楚在威权政权过渡期间网络层面的议程传递机制如何运作。本研究采用“三元网络议程设置框架”（Triadic Network Agenda-Setting framework），探讨香港从半民主制度向威权制度转变过程中，关于寻求庇护者的议题动态如何发生变化。通过分析2016年至2024年间香港报纸、在线论坛以及立法者Facebook页面上关于寻求庇护者的报道内容，研究者运用了结构主题建模（Structural Topic Modeling）、多元回归二次分配程序（Multiple Regression Quadratic Assignment Procedure）和格兰杰因果关系检验（Granger Causality Tests）来评估网络层面的结构一致性以及属性层面的时间动态变化。在以一家亲政府立场报纸为主导的舆论环境中，威权政权时期立法者与媒体之间的结构一致性有所体现，但这种一致性仅限于该报纸本身，并未扩散到整个媒体体系；同时，立法者对议题重要性的影响也消失了。这种媒体与政府之间的协同关系直接发生在立法者与主导媒体之间，而非通过公众讨论间接形成。此外，在政治观点多元化的社区中，参与在线讨论的公众在结构上仍然独立于媒体和立法网络。鉴于媒体与政府之间这种选择性的合作关系，人道主义反叙事可能通过那些保持结构自主性的媒体获得更大的传播力，而非通过直接对抗主导媒体来实现。",
+    "abstract_zh": "网络议程设置理论认为，媒体将问题的重要性和结构性特征传递给公众和政治议程。然而，这一理论主要在稳定的民主国家中得到了验证，因此尚不清楚在威权政权过渡期间网络层面的议程传递机制如何运作。本研究采用“三元网络议程设置框架”（Triadic Network Agenda-Setting framework），探讨香港从半民主制度向威权制度转变过程中，关于寻求庇护者的议题动态如何发生变化。通过分析2016年至2024年间香港报纸、在线论坛及立法者Facebook页面上关于寻求庇护者的报道内容，研究者运用了结构主题建模（Structural Topic Modeling）、多元回归二次分配程序（Multiple Regression Quadratic Assignment Procedure）和格兰杰因果关系检验（Granger Causality Tests）来评估网络层面的结构一致性以及属性层面的时间动态变化。研究发现，在威权统治时期，立法机构与媒体之间的结构一致性有所增强，但这种一致性主要局限于特定的媒体机构，而非在整个媒体体系中扩散；同时，立法机构对议题重要性的影响也消失了。这种媒体与政府之间的协同关系直接发生在立法机构与主导媒体之间，而非通过公众讨论间接实现。此外，在政治观点多元化的社区中，参与在线讨论的公众在结构上仍然独立于媒体和立法网络。鉴于媒体与政府之间这种选择性的协同关系，人道主义反叙事可能通过那些保持结构自主性的媒体获得更多传播机会，而非通过直接对抗主导媒体来实现。",
     "summary": "研究香港政治转型期间，报纸、论坛与立法者Facebook上关于庇护和难民话语的三元网络议程设置，发现威权时期立法者与主导媒体结构对齐但未扩散。",
     "reason": "使用结构主题模型、MRQAP和格兰杰因果检验分析社交媒体与媒体数据，属计算传播研究。",
     "tags": [

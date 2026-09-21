@@ -1,26 +1,47 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "政治传播中的数字痕迹与平台可供性",
-  "description": "聚焦数字痕迹推断、数据捐赠等测量方法，以及平台可供性、表达效应与政治极化、无礼言论。",
-  "why_hot": "近30天日均发表速度较前期增长约七成半，方法创新推动议题升温。",
-  "hot_score": 82,
-  "growth": 0.75,
-  "growth_rate": 0.75,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.1333,
-  "recent_count": 7,
-  "baseline_count": 20,
+  "label": "平台中介的政治话语与虚假信息",
+  "description": "聚焦社交平台上的阴谋论、虚假信息与影响力行动者如何重塑政治话语生态。",
+  "why_hot": "近30天日均发表速度较前期上升约三成六，覆盖期刊扩展至10本。",
+  "hot_score": 80,
+  "growth": 0.364,
+  "growth_rate": 0.364,
+  "recent_rate": 0.3,
+  "baseline_rate": 0.22,
+  "recent_count": 9,
+  "baseline_count": 33,
   "journal_count": 10,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "digital trace data",
     "platform affordances",
-    "expression effects",
-    "data donation",
-    "affective polarization"
+    "disinformation",
+    "conspiratorial discourse",
+    "political influencers",
+    "digital traces"
   ],
   "papers": [
+    {
+      "id": 2052,
+      "title": "The few, the loud: platform-mediated articulation of conspiratorial discourse by political elites on X and Facebook",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-17",
+      "summary": "论文识别比利时、芬兰、波兰三国政治精英中的“阴谋论企业家”，基于 702 条人工标注帖文，用梯度阈值分析与逻辑回归考察其意识形态特征、跨平台差异及互动效果，发现阴谋论话语主要由少数极右政客驱动，Facebook 偏完整叙事、X 偏碎片化表达。"
+    },
+    {
+      "id": 2055,
+      "title": "Political shocks asymmetrically consolidate right-wing communities on Twitter",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-09-17",
+      "summary": "研究2014-2021年法国和瑞典13个政治事件后Twitter上社群连接变化，发现右翼民粹社群在政治冲击后更紧密，其他社群变化较小。"
+    },
+    {
+      "id": 2033,
+      "title": "Weapon and poison? Framing disinformation in European Commission Speeches, 2016–2024",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-16",
+      "summary": "分析2016至2024年欧盟委员会238篇演讲，运用主题模型、文本社群检测与质性内容分析，揭示其对虚假信息的自我免责与宿命论框架：将虚假信息自然化为技术必然，责任外化至敌对国家、坏行为者与平台，并以战争与传染隐喻推行平台治理、检测下架与媒介素养政策，2023-24年转向AI放大议题。"
+    },
     {
       "id": 2041,
       "title": "Rethinking digital trace inference in political communication: evidence from a simulated platform experiment",
@@ -41,6 +62,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-09-03",
       "summary": "通过范围综述和定性调查，提出政治影响者的定义及分类框架，基于内容频率和政治聚焦与触达水平两个维度。"
+    },
+    {
+      "id": 1989,
+      "title": "From #StayWoke to “Culture Wars”: How Social Justice Discourse is Separately and Synergistically Politicized on Twitter and YouTube",
+      "journal": "Political Communication",
+      "published_date": "2026-08-31",
+      "summary": "利用Twitter和YouTube 2012-2022数据，分析“woke”话语如何被政治化，比较平台差异及跨平台协调传播。"
     },
     {
       "id": 1977,
@@ -92,6 +120,20 @@
       "summary": "该研究在2024年美国大选前审计Google和Bing的搜索结果，分析查询主题、用户位置和时间对政治信息偏向的影响，发现两大引擎优先呈现左倾媒体，且不同主题下意识形态偏向程度不同。"
     },
     {
+      "id": 204,
+      "title": "Networked Counterpublics and Contentious Publicity: A Cross-Platform Analysis of QAnon on Parler and Twitter",
+      "journal": "Political Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于affordance理论，跨平台分析QAnon在Parler和Twitter上2018-2021年的可见性、关联性和持续性实践，探讨极端网络反公众的身份建构与公共竞争动态。"
+    },
+    {
+      "id": 394,
+      "title": "The Costs of Governing Truth: Fact-Checking, Perceived Censorship, and Political Participation Across Governance Contexts",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-27",
+      "summary": "基于新加坡、中国、美国调查数据，探讨深度伪造担忧、事实核查与感知审查如何影响社交媒体政治参与，发现感知审查是参与退出的关键条件。"
+    },
+    {
       "id": 205,
       "title": "Common Identities and Political Talk: Evaluating Cross-Cutting Political Discussions in Sports Communities on Reddit",
       "journal": "Political Communication",
@@ -104,6 +146,13 @@
       "journal": "Political Communication",
       "published_date": "2026-07-22",
       "summary": "研究2024年美国总统辩论期间YouTube直播聊天中的多模态情绪传染，结合面部、语音、文本情绪识别与时间序列分析（N=53,095），发现候选人情绪影响观众，且效果因参与度和政治立场而异。"
+    },
+    {
+      "id": 207,
+      "title": "Studying Propaganda as a Social Process",
+      "journal": "Political Communication",
+      "published_date": "2026-07-22",
+      "summary": "论文主张将虚假信息置于更广泛的宣传社会过程中研究，提出关注宣传的反民主目标，并勾勒未来研究议程，属理论性干预文章。"
     },
     {
       "id": 208,
@@ -125,6 +174,13 @@
       "journal": "Political Communication",
       "published_date": "2026-07-05",
       "summary": "基于2020年美国大选调查数据，系统检验测量党派媒体倾向和极化的不同方法如何影响研究结果，通过504种操作化方式的规范曲线分析发现方法选择显著影响关系强度。"
+    },
+    {
+      "id": 286,
+      "title": "Making Sense of AI-Generated Disinformation: How Audience Interpretations Influence the Impact of Deepfakes in Kenya",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过肯尼亚7000人调查实验，考察社交评论对政治深度伪造效果的影响，发现质疑评论可部分恢复政治家支持，且党派偏见影响判断，强调集体意义建构的作用。"
     },
     {
       "id": 287,
@@ -155,6 +211,13 @@
       "summary": "利用准实验设计，比较有无本地报纸的县域居民，发现缺乏本地报纸减少主流媒体使用，加剧自由派选择性接触，并影响两党虚假信息信念。"
     },
     {
+      "id": 79,
+      "title": "Inaccuracies, omissions, and bullshit: 2024 U.S. elections through the eyes of ChatGPT",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-22",
+      "summary": "通过审计ChatGPT-4o mini在2024年美国大选前的输出，发现其存在不准确、遗漏和胡扯等问题，提出从 curative governance 到 generative governance 的转变，揭示生成式AI对民主信息环境的潜在危害。"
+    },
+    {
       "id": 18,
       "title": "How Mass and Social Media (De) polarize America: Exposure to News Media, Expression on Social Media, and Affective Polarization",
       "journal": "Communication and the Public",
@@ -167,6 +230,13 @@
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-06-04",
       "summary": "研究提出身份-政策融合框架，分析美国众议院候选人竞选语言。通过计算文本分析4万余条政策声明，发现融合策略与语言极化显著相关，且共和党效应更强，揭示精英信息加剧党派界限的机制。"
+    },
+    {
+      "id": 182,
+      "title": "“Liar, Liar, Pants on Fire!” An Automated Analysis of Polarities of Mediated Truth Contestation in Austrian and Czech News Media",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-30",
+      "summary": "本文分析奥地利和捷克新闻媒体中关于移民报道的真相争议，基于16万篇新闻文章，使用自动化内容分析和命名实体识别，探讨媒体类型和政治背景对真伪表述的影响。"
     },
     {
       "id": 112,
@@ -183,11 +253,32 @@
       "summary": "论文开发并验证极化语言编码工具，识别八种语言策略，通过四项研究（州长演讲、受众感知、国会推文）结合手动和计算方法验证框架的效度与泛化性。"
     },
     {
+      "id": 635,
+      "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
+    },
+    {
       "id": 43,
       "title": "Disentangling the Longitudinal Relationship Between Social Media Use, Political Expression and Political Participation: What Do We Really Know?",
       "journal": "Communication Research",
       "published_date": "2026-04-09",
       "summary": "论文使用三波面板数据，通过CLPM与RI-CLPM比较，发现社交媒体使用与政治表达、参与的关系主要源于个体间差异而非个体内变化，挑战以往结论。"
+    },
+    {
+      "id": 269,
+      "title": "Generative artificial intelligence, misinformation and political polarization: a content analysis of deepfake propaganda during the 2024 US presidential election",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-04-07",
+      "summary": "该研究通过定性内容分析，考察2024年美国大选期间AI深度伪造内容在社交媒体X上的框架与极化讨论，提出Deepfake-Driven Framing and Polarization Framework，揭示深度伪造如何嵌入并再生产政治极化叙事。"
+    },
+    {
+      "id": 425,
+      "title": "AI-Assisted Mapping of Political Orientation in Fact-Checked News: Evidence from South Korea",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-04-07",
+      "summary": "研究利用韩国预训练语言模型，对选举期间的事实核查文章进行政治倾向映射分析，比较模型在目标、证据和评估维度上的表现，并验证结合外部知识可提升效果。"
     },
     {
       "id": 639,
@@ -197,11 +288,32 @@
       "summary": "通过定制平台实验（N=1370），考察点赞和回复功能对政治讨论参与、投入和多样性的影响，发现两者存在权衡：点赞促进快速回应和观点多样性，回复则导致对话碎片化。"
     },
     {
+      "id": 301,
+      "title": "The AI Referee: How Online Interventions Shape Incivility and User Engagement in News Discussions",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该论文利用Naver News的3900万条评论数据，训练深度学习模型识别不文明内容，分析两种自动化干预对评论不文明程度和用户参与度的影响，发现干预显著降低不文明内容，但对参与度影响不一。"
+    },
+    {
+      "id": 309,
+      "title": "Preventing Radicalisation, or Forcing Ideological Consent? Crises, Uncertainty Reduction and Collective Identity Negotiation in Collaborative Communities of Online Third Spaces",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "研究在线第三方空间（育儿论坛）在危机事件中的集体身份协商，分析近2500条帖子，发现论坛虽提供支持但排斥少数意见，可能导致边缘化激进化。"
+    },
+    {
       "id": 46,
       "title": "Adolescents’ Trust in Political Content From Influencers: The Roles of Motive Attribution and Parental Mediation",
       "journal": "Communication Research",
       "published_date": "2026-03-30",
       "summary": "研究探讨青少年对社交媒体影响者政治内容的信任，考察动机归因、数字素养和父母中介的作用，基于三波面板调查数据。"
+    },
+    {
+      "id": 140,
+      "title": "Diagnosing multimodal disinformation: the integrative ‘Three-M' framework of multimodality, manipulation, and malintent",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-25",
+      "summary": "提出整合性“三M”框架分析短视频平台多模态虚假信息的建构、传播与政治化，并以2023年法国骚乱相关中文平台案例验证，揭示“织真”策略。"
     }
   ],
   "paper_edges": []

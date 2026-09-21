@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "数字新闻消费组合与平台选择",
-  "description": "基于追踪数据研究用户跨平台的新闻来源组合、渠道选择及其替代与互补关系。",
-  "why_hot": "近30天日均发表速度与前期基本持平（+15%），研究活动保持稳定。",
-  "hot_score": 60,
-  "growth": 0.154,
-  "growth_rate": 0.154,
-  "recent_rate": 0.1,
+  "label": "平台选择与社交媒体市场信息",
+  "description": "研究用户的跨平台选择行为与社交媒体情绪对市场信息传播的影响。",
+  "why_hot": "近30天日均发表速度较前期下降约23%，研究活动温和降温。",
+  "hot_score": 44,
+  "growth": -0.231,
+  "growth_rate": -0.231,
+  "recent_rate": 0.0667,
   "baseline_rate": 0.0867,
-  "recent_count": 3,
+  "recent_count": 2,
   "baseline_count": 13,
   "journal_count": 7,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
-    "news repertoires",
-    "media platform choice",
-    "tracking data",
-    "channel complementarity",
-    "news sources"
+    "platform choice",
+    "media repertoires",
+    "social media sentiment",
+    "stock price informativeness",
+    "substitutability"
   ],
   "papers": [
     {

@@ -1,32 +1,32 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "冲突情境下的信息行动与虚假信息",
-  "description": "关注战争与地缘冲突中数字外交、信息行动及战时虚假信息的叙事建构与平台化传播机制。",
-  "why_hot": "近30天日均发表速度约为前期1.5倍，新兴冲突案例推动议题升温。",
-  "hot_score": 79,
-  "growth": 0.522,
-  "growth_rate": 0.522,
+  "label": "冲突情境下的数字信息操控",
+  "description": "研究战争与地缘冲突中数字空间管控、信息行动与战时虚假信息的叙事机制。",
+  "why_hot": "近30天日均发表速度较前期上升约35%，覆盖6本期刊，研究处于升温。",
+  "hot_score": 74,
+  "growth": 0.346,
+  "growth_rate": 0.346,
   "recent_rate": 0.2333,
-  "baseline_rate": 0.1533,
+  "baseline_rate": 0.1733,
   "recent_count": 7,
-  "baseline_count": 23,
-  "journal_count": 7,
+  "baseline_count": 26,
+  "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "information operations",
-    "disinformation",
     "digital diplomacy",
-    "wartime propaganda",
-    "Telegram networks"
+    "wartime disinformation",
+    "digital space control",
+    "platformised statecraft"
   ],
   "papers": [
     {
-      "id": 2033,
-      "title": "Weapon and poison? Framing disinformation in European Commission Speeches, 2016–2024",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-16",
-      "summary": "分析2016至2024年欧盟委员会238篇演讲，运用主题模型、文本社群检测与质性内容分析，揭示其对虚假信息的自我免责与宿命论框架：将虚假信息自然化为技术必然，责任外化至敌对国家、坏行为者与平台，并以战争与传染隐喻推行平台治理、检测下架与媒介素养政策，2023-24年转向AI放大议题。"
+      "id": 2020,
+      "title": "The control of digital spaces in India, Pakistan, and Bangladesh: a comparative analysis",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-09-08",
+      "summary": "论文比较印度、巴基斯坦、孟加拉国对数字空间的控制，结合法律框架梳理与OONI、Internet Society网络干扰数据，分析各国审查与监控实践的差异及其成因，发现不同政权安全关切导致控制手段分化。"
     },
     {
       "id": 2009,
@@ -71,6 +71,13 @@
       "summary": "论文提出“创伤自拍”概念，分析2023年10月7日音乐节袭击中约300个受害者生成视频，构建动机与美学类型学，探讨当代战争中手机拍摄的见证形式及“主动受害者”身份的政治意涵。"
     },
     {
+      "id": 1963,
+      "title": "Reclaiming Place Through Symbolic Geographies: Visual Resistance on Palestinian Instagram",
+      "journal": "Political Communication",
+      "published_date": "2026-08-16",
+      "summary": "分析2023-2024年巴勒斯坦Instagram用户的9126条帖子，识别三种视觉主题，并与国际新闻标题比较，展示用户生成内容如何抵抗主流叙事和算法压制。"
+    },
+    {
       "id": 483,
       "title": "Weaponized narratives: A social psychological theory of story-based influence in cognitive warfare",
       "journal": "Media War & Conflict",
@@ -78,11 +85,11 @@
       "summary": "论文提出武器化叙事的四阶段心理影响模型，涵盖身份、威胁、道德和阴谋叙事策略，并以俄罗斯2014年克里米亚叙事行动为例，探讨AI在叙事扩散中的放大作用及反叙事策略。"
     },
     {
-      "id": 207,
-      "title": "Studying Propaganda as a Social Process",
-      "journal": "Political Communication",
-      "published_date": "2026-07-22",
-      "summary": "论文主张将虚假信息置于更广泛的宣传社会过程中研究，提出关注宣传的反民主目标，并勾勒未来研究议程，属理论性干预文章。"
+      "id": 246,
+      "title": "Digital transformation and contested sovereignty in humanitarian action",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-23",
+      "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
     },
     {
       "id": 210,
@@ -97,6 +104,13 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-07-13",
       "summary": "论文通过多方法分析（NLP、社交网络分析）研究Mare Aperto 2025军事演习中封闭社交媒体平台的互动，探讨战略模糊如何影响注意力和归因，并促进冲突升级。"
+    },
+    {
+      "id": 249,
+      "title": "Factors that influence a country to exercise its capacity for digital repression",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-06",
+      "summary": "基于172国2003-2022年面板数据，发现数字压制能力与实际压制正相关，但强隐私保护和政治稳定削弱该关系，选举年无显著影响。"
     },
     {
       "id": 490,
@@ -162,20 +176,6 @@
       "summary": "分析912个外国Facebook公共空间分享俄罗斯国内新闻的情况，构建基于俄罗斯联系和主题倾向的类型学，揭示语言邻近性、意识形态空间和前社会主义国家空间的传播模式。"
     },
     {
-      "id": 108,
-      "title": "Bridging disinformation and cybersecurity in the social sciences: a scoping review",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-04",
-      "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
-    },
-    {
-      "id": 182,
-      "title": "“Liar, Liar, Pants on Fire!” An Automated Analysis of Polarities of Mediated Truth Contestation in Austrian and Czech News Media",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-04-30",
-      "summary": "本文分析奥地利和捷克新闻媒体中关于移民报道的真相争议，基于16万篇新闻文章，使用自动化内容分析和命名实体识别，探讨媒体类型和政治背景对真伪表述的影响。"
-    },
-    {
       "id": 554,
       "title": "Polycentric Power Plays: Gulf Agency and the Dynamics of China’s AI Diplomacy",
       "journal": "Communication and the Public",
@@ -204,11 +204,18 @@
       "summary": "从生态视角探讨平台化放大如何通过注意力竞争、目击内容和算法信息流强化恐怖主义报道，间接助力恐怖主义目标。"
     },
     {
-      "id": 131,
-      "title": "What counter-disinformation funders got wrong: Global South critiques of the field",
+      "id": 124,
+      "title": "Digital resistance and gendered dispossession: Palestinian women’s struggles for inheritance justice",
       "journal": "Information Communication & Society",
-      "published_date": "2026-04-06",
-      "summary": "论文批判主流反虚假信息领域的北方主导、自上而下和提取式协作，基于2022-2024年百余名全球南方参与者的项目经验，主张南南方法论和社区驱动干预。"
+      "published_date": "2026-04-11",
+      "summary": "通过分析巴勒斯坦两个Facebook支持小组的305条帖子，探讨女性继承权被剥夺现象，揭示法律、文化和家庭压力如何导致女性被迫放弃继承权，并呼吁法律与社会改革。"
+    },
+    {
+      "id": 126,
+      "title": "Favela aesthetics: digital influencers in Brazil contesting Instagram visual cultures and favela stigmas",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-08",
+      "summary": "通过分析巴西贫民窟网红Blô的452条Instagram帖子，提出“贫民窟美学”概念，探讨边缘群体如何通过数字内容抵抗污名化、重构文化身份，挑战主流影响者审美与精英叙事。"
     },
     {
       "id": 556,
@@ -218,18 +225,25 @@
       "summary": "论文分析12年数字外交研究，提出AI驱动外交的三种情景和两大悖论，探讨AI对当代外交的潜在影响。"
     },
     {
+      "id": 291,
+      "title": "Performing Identity: Repetition, Emoji, and Candidate Indicators of Amplified Visibility in Jordanian–Palestinian Facebook Discourse",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
+    },
+    {
+      "id": 302,
+      "title": "Symbolic Custodians on Facebook: Community Media Agents and Religious Practices in Faial",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "探讨亚速尔群岛Faial岛非专业摄影师通过Facebook记录宗教节庆，形成象征性守护实践，结合田野与数字民族志及访谈，分析其对社区文化记忆和传播的影响。"
+    },
+    {
       "id": 523,
       "title": "Strategic framing in conflict communication: ISPR’s use of X during Pakistan’s War on Terror",
       "journal": "Media War & Conflict",
       "published_date": "2026-03-27",
       "summary": "研究巴基斯坦ISPR在X平台上的战略框架使用，通过内容分析识别动机、诊断和预后框架，并分析受众回应，揭示军事沟通与公共话语的互动。"
-    },
-    {
-      "id": 140,
-      "title": "Diagnosing multimodal disinformation: the integrative ‘Three-M' framework of multimodality, manipulation, and malintent",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-25",
-      "summary": "提出整合性“三M”框架分析短视频平台多模态虚假信息的建构、传播与政治化，并以2023年法国骚乱相关中文平台案例验证，揭示“织真”策略。"
     }
   ],
   "paper_edges": []
