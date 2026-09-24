@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "平台中介的政治话语与虚假信息",
-  "description": "聚焦社交平台上的阴谋论、虚假信息与影响力行动者如何重塑政治话语生态。",
-  "why_hot": "近30天日均发表速度较前期上升约三成六，覆盖期刊扩展至10本。",
-  "hot_score": 80,
-  "growth": 0.364,
-  "growth_rate": 0.364,
-  "recent_rate": 0.3,
-  "baseline_rate": 0.22,
-  "recent_count": 9,
-  "baseline_count": 33,
-  "journal_count": 10,
+  "label": "平台可供性与政治表达效应",
+  "description": "研究平台可供性如何塑造政治表达、阴谋论话语、虚假信息框架与精英传播行为。",
+  "why_hot": "近30天日均发表速度较前期上升约28%，研究活跃度提升。",
+  "hot_score": 78,
+  "growth": 0.282,
+  "growth_rate": 0.282,
+  "recent_rate": 0.3333,
+  "baseline_rate": 0.26,
+  "recent_count": 10,
+  "baseline_count": 39,
+  "journal_count": 11,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "platform affordances",
-    "disinformation",
+    "expression effects",
     "conspiratorial discourse",
-    "political influencers",
-    "digital traces"
+    "political communication",
+    "disinformation framing"
   ],
   "papers": [
+    {
+      "id": 2066,
+      "title": "Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-09-21",
+      "summary": "研究采集2024巴黎奥运会期间X平台35676条帖子，用Tweet Binder与NLP情感分析考察伊曼·哈利夫参赛引发的性别认同与公平性争论，发现正负帖量接近但负面内容曝光量翻倍，公众人物放大争议，虚假信息助推简化叙事。"
+    },
     {
       "id": 2052,
       "title": "The few, the loud: platform-mediated articulation of conspiratorial discourse by political elites on X and Facebook",
@@ -176,6 +183,13 @@
       "summary": "基于2020年美国大选调查数据，系统检验测量党派媒体倾向和极化的不同方法如何影响研究结果，通过504种操作化方式的规范曲线分析发现方法选择显著影响关系强度。"
     },
     {
+      "id": 281,
+      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
+    },
+    {
       "id": 286,
       "title": "Making Sense of AI-Generated Disinformation: How Audience Interpretations Influence the Impact of Deepfakes in Kenya",
       "journal": "Social Media + Society",
@@ -232,6 +246,13 @@
       "summary": "研究提出身份-政策融合框架，分析美国众议院候选人竞选语言。通过计算文本分析4万余条政策声明，发现融合策略与语言极化显著相关，且共和党效应更强，揭示精英信息加剧党派界限的机制。"
     },
     {
+      "id": 108,
+      "title": "Bridging disinformation and cybersecurity in the social sciences: a scoping review",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-04",
+      "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
+    },
+    {
       "id": 182,
       "title": "“Liar, Liar, Pants on Fire!” An Automated Analysis of Polarities of Mediated Truth Contestation in Austrian and Czech News Media",
       "journal": "The International Journal of Press/Politics",
@@ -253,11 +274,18 @@
       "summary": "论文开发并验证极化语言编码工具，识别八种语言策略，通过四项研究（州长演讲、受众感知、国会推文）结合手动和计算方法验证框架的效度与泛化性。"
     },
     {
-      "id": 635,
-      "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-04-23",
-      "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
+      "id": 116,
+      "title": "How civil society coalition-building affects information integrity during elections: evidence from four African countries",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-17",
+      "summary": "基于四个非洲国家的36次访谈，探讨公民社会联盟如何通过合作促进选举期间信息完整性，涉及平台问责与政策框架。"
+    },
+    {
+      "id": 117,
+      "title": "Protest movements and the mainstreaming of radical and extremist ideologies: the case of COVID-19 protests",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-16",
+      "summary": "研究德国新冠抗议运动‘Querdenken’如何通过社交媒体促进激进和极端意识形态的主流化，使用内容分析、URL分析和网络分析三角验证，揭示其反精英和阴谋叙事及与极右翼社区的连接。"
     },
     {
       "id": 43,
@@ -279,6 +307,13 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-04-07",
       "summary": "研究利用韩国预训练语言模型，对选举期间的事实核查文章进行政治倾向映射分析，比较模型在目标、证据和评估维度上的表现，并验证结合外部知识可提升效果。"
+    },
+    {
+      "id": 131,
+      "title": "What counter-disinformation funders got wrong: Global South critiques of the field",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-06",
+      "summary": "论文批判主流反虚假信息领域的北方主导、自上而下和提取式协作，基于2022-2024年百余名全球南方参与者的项目经验，主张南南方法论和社区驱动干预。"
     },
     {
       "id": 639,
@@ -309,11 +344,18 @@
       "summary": "研究探讨青少年对社交媒体影响者政治内容的信任，考察动机归因、数字素养和父母中介的作用，基于三波面板调查数据。"
     },
     {
-      "id": 140,
-      "title": "Diagnosing multimodal disinformation: the integrative ‘Three-M' framework of multimodality, manipulation, and malintent",
+      "id": 136,
+      "title": "Mobilization in motion: how radical movements adapt their communication on Telegram amid evolving crises",
       "journal": "Information Communication & Society",
-      "published_date": "2026-03-25",
-      "summary": "提出整合性“三M”框架分析短视频平台多模态虚假信息的建构、传播与政治化，并以2023年法国骚乱相关中文平台案例验证，揭示“织真”策略。"
+      "published_date": "2026-03-29",
+      "summary": "研究分析德国极右翼和Querdenken运动在2022年危机变化下如何通过Telegram调整传播策略，基于151个频道8852条消息的内容分析，发现不同运动的适应模式差异。"
+    },
+    {
+      "id": 138,
+      "title": "Between disclosure and conspiracy: the transparency effect on r/UFO and r/UAP subreddits",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-29",
+      "summary": "论文分析UFO/UAP子版块的帖子和评论，结合政府披露时间线，用时间序列模型检验官方透明度是否减少阴谋论叙事，发现披露能缓解信任侵蚀，并讨论披露概念的局限。"
     }
   ],
   "paper_edges": []

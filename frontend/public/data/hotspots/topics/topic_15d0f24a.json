@@ -1,39 +1,39 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式AI与公共关系实践",
-  "description": "关注生成式人工智能在公共关系与战略传播中的应用及其对信息效果的影响。",
-  "why_hot": "近30天日均发表速度较前期下降约71%，研究产出显著放缓。",
-  "hot_score": 32,
-  "growth": -0.706,
-  "growth_rate": -0.706,
+  "label": "人工智能生成内容与健康传播效果",
+  "description": "研究AI作者身份、情感化叙事与思维倾向如何影响健康信息的可信度评估与污名消解。",
+  "why_hot": "近30天日均发表速度较前期下降约63%，议题热度明显回落。",
+  "hot_score": 33,
+  "growth": -0.63,
+  "growth_rate": -0.63,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.2267,
+  "baseline_rate": 0.18,
   "recent_count": 2,
-  "baseline_count": 34,
-  "journal_count": 9,
+  "baseline_count": 27,
+  "journal_count": 8,
   "lineage_status": "continued",
   "status": "emerging",
   "keywords": [
-    "generative AI",
-    "public relations",
     "AI authorship",
-    "emotionalization",
-    "narrative persuasion"
+    "health communication",
+    "emotional tone",
+    "narrative persuasion",
+    "stigma"
   ],
   "papers": [
+    {
+      "id": 2072,
+      "title": "Authority Over Sympathy: How AI Emotional Tone and Thinking Dispositions Shape Hallucination Detection in Health Communication",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-09-21",
+      "summary": "基于误导信息识别与回应模型，采用Wizard-of-Oz实验（N=476）考察AI生成健康回答中权威与共情语气对用户幻觉识别敏感度的影响，发现权威语气显著降低识别敏感度，共情语气无显著效应，思维倾向无显著调节作用。"
+    },
     {
       "id": 2047,
       "title": "Mitigating mental illness stigma through narrative identification: The impact of AI authorship, emotionalization, and perspective",
       "journal": "Communication Research Reports",
       "published_date": "2026-09-16",
       "summary": "通过实验操纵AI/人类/无署名标签、情绪化程度与叙事视角，考察AI撰写的抑郁症叙事能否通过认同降低污名化，发现各变量间存在有条件的调节中介关系。"
-    },
-    {
-      "id": 2023,
-      "title": "Examining the Mediating Effects of Mutuality and Openness in the Adoption of Generative Artificial Intelligence in Public Relations Practice: A Predictive PLS-SEM Approach",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-09-08",
-      "summary": "研究调查398名肯尼亚公关从业者，用PLS-SEM检验生成式AI采纳对组织-公众对话传播（互助性与开放性）的影响，以及AI增强的对话传播在信任与满意度关系中的中介作用，发现所有假设路径显著且呈部分中介。"
     },
     {
       "id": 1945,
@@ -78,13 +78,6 @@
       "summary": "基于保护动机理论，通过三波纵向调查考察AI扩张中数字能力对隐私保护意图的影响及隐私脆弱性的中介作用，发现低能力用户增长更快且中介方向反转。"
     },
     {
-      "id": 281,
-      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
-    },
-    {
       "id": 1905,
       "title": "Anthropomorphizing AI: Perceptions, Interpretations, and the Humanization of Generative AI",
       "journal": "Social Media + Society",
@@ -127,25 +120,11 @@
       "summary": "基于社会风险放大框架和机器启发式概念，调查1038名中国GenAI健康信息用户，发现社交媒体关注降低风险感知，幻觉风险影响态度和使用意愿，机器启发式起调节作用。"
     },
     {
-      "id": 409,
-      "title": "The Power of AI Transparency, Rewards, and Tracking: How Mobile App Features Drive the Adoption of Smart Trash Bins Through Trust and Perceived Value",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-22",
-      "summary": "基于助推理论与SOR框架，通过在线实验检验AI透明度、奖励和追踪功能对智能垃圾桶采纳意愿的影响，发现信任和感知价值的中介作用及交互效应。"
-    },
-    {
       "id": 411,
       "title": "Fact-Checking as News Framing in the Age of AI: Challenges, Cues, Coverage, and Culture",
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-06-08",
       "summary": "文章探讨AI时代事实核查作为新闻框架的实践，提出挑战、线索、覆盖和文化四原则，属理论性研究。"
-    },
-    {
-      "id": 412,
-      "title": "Effects of Generative AI Bias on Adoption Through Trust: Interactions Between Engagement Cues, Information Cues, and Social Norms",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-07",
-      "summary": "通过在线实验探究AI偏见认知对采纳意愿的影响，发现偏见体验、偏见提示与社会规范三重交互影响AI信任，进而影响采纳。"
     },
     {
       "id": 632,
@@ -211,13 +190,6 @@
       "summary": "通过793名美国成年人的2×4实验，考察AI幻觉与纠错回应如何影响用户对准确性、信任和议题态度，并发现信念更新可预测后续信息寻求行为。"
     },
     {
-      "id": 421,
-      "title": "Attributional Ambiguity in AI-Mediated Harm: How Perceived AI System Limitations Shape Forgiveness and Regulatory Demand",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-04-25",
-      "summary": "基于归因理论，通过在线调查(N=705)探究AI媒介伤害中公众的危机责任感知如何影响愤怒/共情，进而影响组织宽恕与AI监管诉求，揭示归因模糊的双路径作用。"
-    },
-    {
       "id": 422,
       "title": "To Disclose or Not to Disclose: How AI Use Transparency Increases Trust in Fact-Checking",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -251,27 +223,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "基于726份问卷，考察个体对AI生成虚假信息的感知，发现人们认为自己同样易受影响，且感知影响正向关联纠错行为。"
-    },
-    {
-      "id": 138,
-      "title": "Between disclosure and conspiracy: the transparency effect on r/UFO and r/UAP subreddits",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-29",
-      "summary": "论文分析UFO/UAP子版块的帖子和评论，结合政府披露时间线，用时间序列模型检验官方透明度是否减少阴谋论叙事，发现披露能缓解信任侵蚀，并讨论披露概念的局限。"
-    },
-    {
-      "id": 139,
-      "title": "Infusion of generative artificial intelligence: boosting organizational agility and effectiveness",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-29",
-      "summary": "基于TOE框架，通过615份问卷和结构方程模型，检验生成式AI融入对组织敏捷性和有效性的影响，发现AI融入、市场敏捷性和组织学习是有效性的主要预测因素。"
-    },
-    {
-      "id": 640,
-      "title": "Algorithmic relational fracture and pseudo-relational accommodation: how users navigate communication breakdowns with relational AI",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-03-27",
-      "summary": "通过分析RedNote用户故事，提出算法关系断裂与伪关系调适模型，解释用户如何应对与关系型AI的沟通失败。"
     }
   ],
   "paper_edges": []

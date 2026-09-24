@@ -1,39 +1,46 @@
 {
   "topic_id": "topic_72f5f2b8",
-  "label": "数字平台与社会不平等",
-  "description": "考察数字身份、婚配平台等技术如何再生产性别、残障与边缘群体的不平等。",
-  "why_hot": "近30天日均发表速度较前期下降约53%，研究热度明显回落。",
-  "hot_score": 38,
-  "growth": -0.531,
-  "growth_rate": -0.531,
-  "recent_rate": 0.1,
-  "baseline_rate": 0.2133,
-  "recent_count": 3,
-  "baseline_count": 32,
+  "label": "平台信息环境中的信任与虚假信息",
+  "description": "研究平台信息环境中信息可信度、来源可信性如何影响信任、怀疑与不同群体的解读策略。",
+  "why_hot": "近30天日均发表速度较前期下降约33%，议题热度有所回落。",
+  "hot_score": 45,
+  "growth": -0.333,
+  "growth_rate": -0.333,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.2,
+  "recent_count": 4,
+  "baseline_count": 30,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "digital inequality",
-    "digital ID",
-    "online dating",
-    "epistemic injustice",
-    "platformization"
+    "trust",
+    "source credibility",
+    "disinformation",
+    "interpretive strategies",
+    "digital inequality"
   ],
   "papers": [
+    {
+      "id": 2062,
+      "title": "Where belief is filtered: how truthfulness and source credibility shape trust, skepticism, and worry in vaccine communication",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-22",
+      "summary": "通过 2×2 被试间实验（N=210）考察社交媒体癌症疫苗信息的真假、来源可信度与欺骗识别自我效能如何影响信任、怀疑与担忧，发现真信息提升信任、来源可信度放大该效应，而欺骗识别信心反而增强怀疑。"
+    },
+    {
+      "id": 2049,
+      "title": "Generational differences in responses to disinformation: from ‘vulnerability’ to interpretive strategies",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-19",
+      "summary": "论文考察不同代际群体对虚假信息的回应方式，主张从'易感性'视角转向'解释性策略'视角。因无摘要，具体方法与数据不详，推测基于访谈或定性受众分析。"
+    },
     {
       "id": 2034,
       "title": "Platformed partner markets: online dating and gendered assortative mating in Europe",
       "journal": "Information Communication & Society",
       "published_date": "2026-09-14",
       "summary": "论文考察欧洲在线约会平台中的性别化同质择偶现象，探讨平台化婚恋市场如何与性别化的匹配模式相互作用，但缺少摘要，具体数据与方法不明。"
-    },
-    {
-      "id": 1979,
-      "title": "Digital ID as surreptitious experimentation in the humanitarian-tech industry: an ethnography of a biometric pilot in a refugee camp in the Thailand-Myanmar border",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-03",
-      "summary": "通过18个月民族志研究，分析泰国-缅甸边境难民营中数字ID试点如何作为隐秘实验实施，揭示其缺乏知情同意、加剧权力不对称，并延续殖民逻辑。"
     },
     {
       "id": 1980,
@@ -43,25 +50,11 @@
       "summary": "通过政策文档分析和批判性自传民族志，探讨泰国盲人在数字转型中遭遇的排斥，提出数字致残循环及认知不正义等机制。"
     },
     {
-      "id": 1950,
-      "title": "Calibration labour: making careers machine-legible under algorithmic hiring",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-21",
-      "summary": "通过两年民族志田野调查，探讨算法招聘如何改变求职沟通条件，提出算法可读性概念，分析求职者被迫进行校准劳动以适配机器系统，重塑社会认可与公民参与。"
-    },
-    {
       "id": 1960,
       "title": "Hold That Thought: Enhancing the Durability of Fact-Checking Effects Through Low-Cost Accuracy Reminders",
       "journal": "Political Communication",
       "published_date": "2026-08-21",
       "summary": "通过大规模纵向实验（N=7188）检验准确性提醒能否增强事实核查效果的持久性，发现提醒可延长信念纠正至四周。"
-    },
-    {
-      "id": 1928,
-      "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-13",
-      "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
     },
     {
       "id": 15,
@@ -97,6 +90,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过65个访谈，探讨中国年轻男同性恋者在算法环境下如何协商（不）智能性，提出“liminal intelligibility”概念，强调人机交互与人人交互的交叉。"
+    },
+    {
+      "id": 1904,
+      "title": "Revisiting the Communication Mediation Model in the Age of Social Media: Longitudinal Evidence From Climate Misinformation Responses in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于中国三波面板调查，检验社交媒体时代传播中介模型，发现媒体关注通过人际讨论影响气候错误信息纠正行为，且具有同时性。"
     },
     {
       "id": 1907,
@@ -244,13 +244,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "提出Algorithmic–Affective Misinformation Model，结合访谈与跨平台观察，分析TikTok和RED上健康错误信息通过审美合法化、情感脆弱性与算法强化三种机制获得可信度的过程。"
-    },
-    {
-      "id": 304,
-      "title": "“My Non-Existing Organ”: Transitional Objects, Compensatory Romance, and the Affective Enclaves of Chinese Female Idol Fandom",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "通过多站点数字民族志研究中国女性粉丝在微博、豆瓣、微信群中的身份实践与情感表达，探讨女友粉和妈妈粉的补偿性浪漫及符号抵抗，形成情感飞地。"
     },
     {
       "id": 310,

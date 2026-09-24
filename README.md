@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-09-21 18:37 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-09-24 17:57 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-09-22 | [Perceptions of artificial intelligence bias and gender inclusivity: toward a gendered divergence](<https://doi.org/10.1080/1369118x.2026.2737402>) | Information Communication & Society | 论文考察公众对人工智能偏见的感知及其与性别包容性态度的关系，提出性别分化（gendered divergence）的分析视角，探讨不同性别群体在AI偏见认知上的差异及其传播意涵。 |
+| 2026-09-21 | [Authority Over Sympathy: How AI Emotional Tone and Thinking Dispositions Shape Hallucination Detection in Health Communication](<https://doi.org/10.1080/08838151.2026.2735592>) | Journal of Broadcasting & Electronic Media | 基于误导信息识别与回应模型，采用Wizard-of-Oz实验（N=476）考察AI生成健康回答中权威与共情语气对用户幻觉识别敏感度的影响，发现权威语气显著降低识别敏感度，共情语气无显著效应，思维倾向无显著调节作用。 |
+| 2026-09-21 | [Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024](<https://doi.org/10.7195/ri14.v24i1.2413>) | Revista ICONO14 | 研究采集2024巴黎奥运会期间X平台35676条帖子，用Tweet Binder与NLP情感分析考察伊曼·哈利夫参赛引发的性别认同与公平性争论，发现正负帖量接近但负面内容曝光量翻倍，公众人物放大争议，虚假信息助推简化叙事。 |
 | 2026-09-18 | [Does Office Type Determine Gendered Campaign Messages?](<https://doi.org/10.1080/10584609.2026.2722250>) | Political Communication | 研究考察候选人性别如何影响不同机构与层级下的竞选信息。基于2000-2022年韩国17次全国与地方选举中46,966份官方竞选手册，以关系性语言和女性相关政策词汇测量性别化信息。发现女性候选人更强调关系身份与女性政策议题，且性别差异在立法选举中大于行政选举，并随选举层级下沉而扩大。 |
 | 2026-09-17 | [Political shocks asymmetrically consolidate right-wing communities on Twitter](<https://doi.org/10.1080/19331681.2026.2734861>) | Journal of Information Technology & Politics | 研究2014-2021年法国和瑞典13个政治事件后Twitter上社群连接变化，发现右翼民粹社群在政治冲击后更紧密，其他社群变化较小。 |
-| 2026-09-17 | [The few, the loud: platform-mediated articulation of conspiratorial discourse by political elites on X and Facebook](<https://doi.org/10.1080/1369118x.2026.2733516>) | Information Communication & Society | 论文识别比利时、芬兰、波兰三国政治精英中的“阴谋论企业家”，基于 702 条人工标注帖文，用梯度阈值分析与逻辑回归考察其意识形态特征、跨平台差异及互动效果，发现阴谋论话语主要由少数极右政客驱动，Facebook 偏完整叙事、X 偏碎片化表达。 |
-| 2026-09-16 | [The Democratic Cost of Pursuing Virality: A Study into Parliamentary Communications](<https://doi.org/10.1080/10584609.2026.2733316>) | Political Communication | 论文用访谈与450万条Facebook等平台帖子计算分析，考察巴西议员如何追求社交媒体可见性，发现国会事务获低互动，对抗性内容增互动，进而削弱问责。 |
-| 2026-09-16 | [Weapon and poison? Framing disinformation in European Commission Speeches, 2016–2024](<https://doi.org/10.1080/1369118x.2026.2733507>) | Information Communication & Society | 分析2016至2024年欧盟委员会238篇演讲，运用主题模型、文本社群检测与质性内容分析，揭示其对虚假信息的自我免责与宿命论框架：将虚假信息自然化为技术必然，责任外化至敌对国家、坏行为者与平台，并以战争与传染隐喻推行平台治理、检测下架与媒介素养政策，2023-24年转向AI放大议题。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-09-21 18:37 GMT+8
+> 最近更新：2026-09-24 17:57 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 2061 |
-| 当期新增 | 37 |
-| High / Medium / Low | 590 / 645 / 826 |
-| Pending / Screened / Quarantined / Error | 0 / 2061 / 0 / 0 |
-| 已发布精选 | 590 |
-| 期刊全量导出 | 2061 |
+| 数据库论文 | 2077 |
+| 当期新增 | 45 |
+| High / Medium / Low | 593 / 649 / 835 |
+| Pending / Screened / Quarantined / Error | 0 / 2076 / 0 / 1 |
+| 已发布精选 | 593 |
+| 期刊全量导出 | 2077 |
 
-覆盖验证：OpenAlex DOI 2047，Crossref DOI 830，匹配 782，Crossref 中尚缺 48。
+覆盖验证：OpenAlex DOI 2063，Crossref DOI 840，匹配 792，Crossref 中尚缺 48。
 
 <!-- paper-hot:auto-stats:end -->
 

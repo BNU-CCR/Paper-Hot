@@ -1,5 +1,105 @@
 [
   {
+    "id": 2063,
+    "title": "Perceptions of artificial intelligence bias and gender inclusivity: toward a gendered divergence",
+    "title_zh": "对人工智能偏见和性别包容性的认知：一种基于性别的差异视角",
+    "authors": [
+      "Anson Au"
+    ],
+    "institutions": [],
+    "journal": "Information Communication & Society",
+    "published_date": "2026-09-22",
+    "relevance": "High",
+    "score": null,
+    "abstract": "",
+    "abstract_zh": "",
+    "summary": "论文考察公众对人工智能偏见的感知及其与性别包容性态度的关系，提出性别分化（gendered divergence）的分析视角，探讨不同性别群体在AI偏见认知上的差异及其传播意涵。",
+    "reason": "主题为人工智能偏见感知与性别包容性，属AI社会影响与传播议题，符合AI特别条款",
+    "tags": [
+      "人工智能偏见",
+      "性别包容",
+      "AI感知",
+      "社会影响"
+    ],
+    "method": "量化分析",
+    "doi": "10.1080/1369118x.2026.2737402",
+    "source_url": "https://doi.org/10.1080/1369118x.2026.2737402",
+    "detail_slug": "perceptions-of-artificial-intelligence-bias-and-gender-inclusivity-toward-a-gendered-divergence",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Information, Communication & Society",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2072,
+    "title": "Authority Over Sympathy: How AI Emotional Tone and Thinking Dispositions Shape Hallucination Detection in Health Communication",
+    "title_zh": "权威胜过同情：人工智能的情感语气与思维倾向如何影响健康传播中的幻觉检测",
+    "authors": [
+      "Lu Liu",
+      "Bing Hu"
+    ],
+    "institutions": [],
+    "journal": "Journal of Broadcasting & Electronic Media",
+    "published_date": "2026-09-21",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Drawing on the Misinformation Recognition and Response Model (MRRM), this study investigates how AI emotional tone and thinking dispositions influence hallucination detection in health communication. A Wizard-of-Oz experiment (N = 476) examined the role of authoritative and sympathetic tones as independently manipulated tone in AI-generated health responses containing embedded hallucinations. The results showed that authoritative tone significantly reduced participants’ hallucination detection sensitivity. While sympathetic tone did not show a significant effect. The analysis also indicated that thinking dispositions did not significantly moderate the influence of tone on hallucination detection sensitivity.",
+    "abstract_zh": "本文基于“错误信息识别与响应模型”（MRRM），探讨了人工智能的情感语气和思维倾向如何影响健康信息传播中的幻觉检测能力。通过一项“奥兹国魔法师”实验（参与者人数为476人），研究了权威语气和同情语气在人工智能生成的健康信息中的作用，这两种语气是作为独立变量进行操控的。实验结果表明，权威语气显著降低了参与者的幻觉检测敏感度；而同情语气则没有显示出显著的影响。分析还发现，思维倾向并未对语气对幻觉检测敏感度的影响产生显著的调节作用。",
+    "summary": "基于误导信息识别与回应模型，采用Wizard-of-Oz实验（N=476）考察AI生成健康回答中权威与共情语气对用户幻觉识别敏感度的影响，发现权威语气显著降低识别敏感度，共情语气无显著效应，思维倾向无显著调节作用。",
+    "reason": "研究AI情感语气对健康传播中幻觉识别的影响，属AI传播效果议题，符合AI特别条款",
+    "tags": [
+      "AI幻觉",
+      "健康传播",
+      "人机传播",
+      "实验研究"
+    ],
+    "method": "量化分析",
+    "doi": "10.1080/08838151.2026.2735592",
+    "source_url": "https://doi.org/10.1080/08838151.2026.2735592",
+    "detail_slug": "authority-over-sympathy-how-ai-emotional-tone-and-thinking-dispositions-shape-hallucination-detection-in-health-communication",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Broadcasting & Electronic Media",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2066,
+    "title": "Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024",
+    "title_zh": "性别认同与体育：关于伊曼·凯利夫参加2024年巴黎奥运会的讨论",
+    "authors": [
+      "Francisco José García-Ull",
+      "José María Lamirán-Palomares",
+      "Lucas Aguilera Bono"
+    ],
+    "institutions": [],
+    "journal": "Revista ICONO14",
+    "published_date": "2026-09-21",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Purpose: This study analyses the polarisation of public discourse on the social network X (formerly Twitter) surrounding Algerian boxer Imane Khelif's participation in the Paris 2024 Olympic Games. The aim is to examine how different positions on gender identity, fairness and legitimacy in elite sport are constructed, disseminated and contested. Methodology: A total of 35,676 posts from 25,984 unique users were collected and analysed using the professional tool Tweet Binder during the period 27 July to 10 August 2024. Automated sentiment analysis based on natural language processing (NLP) was applied, classifying posts into four categories (positive, negative, neutral and undefined), supplemented by temporal, linguistic and key-actor analysis. Results: Significant polarisation was identified. Although positive posts outnumbered negative ones (18% versus 17%), critical publications generated twice as many impressions (194.8 million versus 93.3 million). Public figures such as Elon Musk and J.K. Rowling amplified the controversy with posts exceeding 670 million combined views. Activity peaks coincided with key events such as Angela Carini's withdrawal. Conclusions: Social media platforms function as spaces of symbolic confrontation where emotionally negative content achieves greater reach. Misinformation about the athlete's medical condition fuelled reductionist narratives. Digital discourse may influence future sports regulations on inclusion and fairness.",
+    "abstract_zh": "本研究分析了阿尔及利亚拳击手伊曼·凯利夫（Imane Khelif）参加2024年巴黎奥运会期间，在社交平台X（前身为Twitter）上公众舆论的极化现象。研究旨在探讨关于性别认同、体育公平性和精英体育合法性的不同观点是如何形成、传播以及被争议的。  \n研究方法：在2024年7月27日至8月10日期间，使用专业工具Tweet Binder收集并分析了来自25,984名用户的35,676条帖子。研究采用了基于自然语言处理（NLP）的自动化情感分析方法，将帖子分为四种类型（正面、负面、中立和未定义），并结合时间、语言及关键人物分析进行了进一步分析。  \n研究结果：研究发现舆论存在显著极化现象：虽然正面帖子数量多于负面帖子（18%对17%），但负面帖子产生的曝光量是正面帖子的两倍（分别为1.948亿次和9,330万次）。埃隆·马斯克（Elon Musk）和J.K.罗琳（J.K. Rowling）等公众人物通过发布帖子加剧了争议，这些帖子的总观看次数超过了6.7亿次。舆论活跃的高峰期与一些关键事件（如安吉拉·卡里尼（Angela Carini）的退出）相吻合。  \n研究结论：社交媒体平台成为了象征性对抗的场所，在这些平台上，负面情绪内容往往具有更广泛的传播范围。关于运动员健康状况的错误信息进一步加剧了片面的舆论倾向。数字舆论可能会影响未来体育领域在包容性和公平性方面的规则制定。",
+    "summary": "研究采集2024巴黎奥运会期间X平台35676条帖子，用Tweet Binder与NLP情感分析考察伊曼·哈利夫参赛引发的性别认同与公平性争论，发现正负帖量接近但负面内容曝光量翻倍，公众人物放大争议，虚假信息助推简化叙事。",
+    "reason": "采集X平台3.5万余条帖子，运用NLP情感分析研究舆论极化，属典型计算传播研究。",
+    "tags": [
+      "社交媒体",
+      "自然语言处理",
+      "情感分析",
+      "舆论极化",
+      "体育传播"
+    ],
+    "method": "计算传播学",
+    "doi": "10.7195/ri14.v24i1.2413",
+    "source_url": "https://doi.org/10.7195/ri14.v24i1.2413",
+    "detail_slug": "identidad-de-g-nero-y-deporte-debate-en-x-sobre-la-participaci-n-de-imane-khelif-en-los-juegos-ol-mpicos-de-par-s-2024",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Revista Icono 14-Revista Cientifica de Comunicacion y Tecnologias",
+    "volume": "24",
+    "issue": "1"
+  },
+  {
     "id": 2054,
     "title": "Does Office Type Determine Gendered Campaign Messages?",
     "title_zh": "办公室类型是否决定了带有性别差异的竞选信息？",
@@ -9591,7 +9691,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Despite extensive research on mis- and disinformation engagement, empirical work on their reporting behavior remains limited. Existing studies also lack attention to Asian countries. This study analyzes deepfake reporting behavior across eight countries. The results show that, in most contexts, individuals with higher political engagement are more likely to report disinformation. Moreover, the relationship is moderated by both cognitive ability and cultural context. Politically engaged individuals with lower cognitive ability, especially in cultures characterized by high power distance, individualism, long-term orientation, and low masculinity, are more inclined to report deepfakes. We conclude by discussing the theoretical and practical implications.",
-    "abstract_zh": "尽管关于人们如何处理错误信息和虚假信息的研究已经相当广泛，但关于他们如何报告这些信息的实证研究仍然有限。现有的研究也缺乏对亚洲国家的关注。本研究分析了八个国家中人们报告深度伪造内容（deepfakes）的行为。研究结果表明，在大多数情况下，政治参与度较高的人更有可能报告虚假信息。此外，这种关系受到认知能力和文化背景的双重影响。在那些权力距离较大、个人主义倾向明显、具有长期导向思维以及男性气质较低的文化背景下，政治参与度较高但认知能力较低的人更倾向于报告深度伪造内容。最后，我们讨论了这一研究的理论和实践意义。",
+    "abstract_zh": "尽管关于人们如何处理错误信息和虚假信息的研究已经非常广泛，但关于他们如何报告这些信息的实证研究仍然有限。现有的研究也缺乏对亚洲国家的关注。本研究分析了八个国家中人们对深度伪造内容的报告行为。研究结果表明，在大多数情况下，政治参与度较高的人更有可能报告虚假信息。此外，这种关系受到认知能力和文化背景的双重影响：政治参与度较高但认知能力较低的人，尤其是在那些权力距离较大、个人主义倾向明显、具有长期导向观念以及男性气质较低的文化环境中，更倾向于报告深度伪造内容。最后，我们讨论了这一研究的理论和实践意义。",
     "summary": "该研究分析八国个体对深度伪造虚假信息的报告行为，发现政治参与度高者更倾向报告，且认知能力与文化维度（权力距离、个人主义等）起调节作用。",
     "reason": "研究主题涉及虚假信息/深度伪造报告行为，属于计算传播核心议题，虽方法为调查但议题高度相关。",
     "tags": [
@@ -9613,7 +9713,7 @@
   {
     "id": 315,
     "title": "From Flowers to Fascism? The Cottagecore to Tradwife Pipeline on Tumblr",
-    "title_zh": "从“花朵”到“法西斯主义”？Tumblr上的“Cottagecore”文化与“Tradwife”现象之间的联系",
+    "title_zh": "从鲜花到法西斯主义？Tumblr上的“Cottagecore”风格与“Tradwife”文化现象",
     "authors": [
       "Oliver Mel Allen",
       "Zu Yi",
@@ -9628,7 +9728,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "In this work, we collected and analyzed social media posts to investigate an aesthetic-based pipeline where users searching for Cottagecore content may find Tradwife content co-opted by white supremacists. Through quantitative analysis of over 200,000 Tumblr posts and qualitative coding of about 2350 Tumblr posts, we did not find evidence of an explicit radicalization. We found that problematic Tradwife posts found in the literature may be confined to Tradwife-only spaces, while content in the Cottagecore tag generally did not warrant extra moderation. However, we did find evidence of a mainstreaming effect in the overlap between the Tradwife and Cottagecore communities. In our qualitative analysis, there was more interaction between queer and Tradwife identities than expected based on the literature, and some Tradwives even explicitly included queer people and disavowed racism in the Tradwife community on Tumblr. This could be genuine, but we propose that this is an example of mainstreaming, where white supremacists re-brand their content and follow platform norms to spread ideologies that would otherwise be rejected. In addition, through temporal analysis, we observed a change in the central tags used by Tradwives in the Cottagecore tag pre- and post-2021. Initially, these posts focused on aesthetics and hobbies like baking and gardening, but post-2021, the central tags focused more on religion, traditional gender roles, and homemaking—all of which align with white supremacist rhetoric about womanhood.",
-    "abstract_zh": "在这项研究中，我们收集并分析了社交媒体帖子，以探讨一个基于美学的传播渠道：那些搜索“Cottagecore”内容的用户可能会发现被白人至上主义者利用的“Tradwife”相关内容。通过对超过20万篇Tumblr帖子的定量分析以及对约2350篇帖子的定性分析，我们没有发现任何明显的激进化迹象。研究发现，文献中提到的那些存在问题的“Tradwife”相关帖子可能仅限于“Tradwife”群体内部传播；而带有“Cottagecore”标签的内容通常不需要额外的审核。然而，我们确实观察到“Tradwife”和“Cottagecore”社区之间存在一种“主流化”现象（即这些内容开始在更广泛的平台上传播）。在定性分析中，我们发现“酷儿”群体与“Tradwife”群体之间的互动比文献中预期的要频繁；一些“Tradwife”用户甚至在Tumblr上明确支持酷儿群体，并反对种族主义。这种行为可能是真诚的，但我们认为这其实是一种“主流化”现象——白人至上主义者通过重新包装自己的内容并遵循平台规则，来传播那些原本会被拒绝的意识形态。此外，通过时间序列分析，我们发现2021年之前和之后“Tradwife”用户在Tumblr上使用的标签发生了变化：最初，这些帖子主要关注烘焙、园艺等美学主题和爱好；而2021年之后，标签内容更多地涉及宗教、传统性别角色以及家庭生活等方面——这些内容都与白人至上主义者关于女性角色的言论高度契合。",
+    "abstract_zh": "在这项研究中，我们收集并分析了社交媒体帖子，以探讨一个基于美学的传播渠道：那些搜索“Cottagecore”内容的用户可能会发现被白人至上主义者利用的“Tradwife”相关内容。通过对超过20万篇Tumblr帖子的定量分析以及对约2350篇Tumblr帖子的定性分析，我们没有发现任何明显的激进化迹象。研究发现，文献中提到的那些存在问题的“Tradwife”相关帖子可能仅限于“Tradwife”群体内部传播，而带有“Cottagecore”标签的内容通常不需要额外的审核。然而，我们确实观察到“Tradwife”和“Cottagecore”社区之间存在一种“主流化”现象，即这两种文化元素开始在更广泛的平台上传播。在定性分析中，我们发现“酷儿”群体与“Tradwife”群体之间的互动比文献中预期的要频繁；一些“Tradwife”用户甚至在Tumblr上明确支持酷儿群体，并反对种族主义。这种互动可能是真实的，但我们认为这其实是一种“主流化”现象——白人至上主义者通过重新包装他们的内容并遵循平台规则，来传播那些原本会被拒绝的意识形态。此外，通过时间序列分析，我们发现2021年之前和之后“Tradwife”用户在Tumblr上使用的核心标签发生了变化：最初，这些帖子主要关注烘焙、园艺等美学主题和爱好，而2021年之后，核心标签开始更多地涉及宗教、传统性别角色以及家庭生活等内容，这些都与白人至上主义者关于女性角色的言论相符。",
     "summary": "分析Tumblr上Cottagecore到Tradwife的审美管道，基于20万帖子与2350条定性编码，未发现明显激进化的证据，但观察到Tradwife与Cottagecore社区重叠中的主流化效应及2021年后标签主题变化。",
     "reason": "利用社交媒体数据（Tumblr）进行定量与定性分析，探讨极端化与主流化效应，属计算传播研究。",
     "tags": [
@@ -9650,7 +9750,7 @@
   {
     "id": 316,
     "title": "It Listens to Me So I Feel Well and Connected: Investigating the Influence of TikTok users’ Perceived Algorithm Responsiveness and (In)sensitivity on Well-Being Via Self-Determination",
-    "title_zh": "它倾听我的心声，让我感到舒适和被连接：探究TikTok用户对算法响应性及敏感度的感知如何通过自我决定能力影响其幸福感",
+    "title_zh": "它倾听我的心声，让我感到愉悦和被接纳：探究TikTok用户对算法响应性及敏感度的认知如何通过自我决定能力影响其幸福感",
     "authors": [
       "Matthew J. A. Craig",
       "Mina Choi",
@@ -9670,7 +9770,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Social media has grown to be a large part of our virtual connectedness online. However, with this growth in digital connection, we have also become connected with digital entities that run them (social media). Borrowing from the concept of interpersonal responsiveness, researchers have found that users perceive their algorithm to be responsive to their needs and sensitive to their identity have a greater sense of well-being online and media enjoyment. However, the mechanisms for which these connect with one another (responsiveness predicting subjective well-being) remain to be disentangled. Guided by self-determination theory, this study examines whether autonomy, competence, and relatedness satisfaction through TikTok use mediate the associations between perceived algorithm responsiveness and insensitivity and satisfaction with life. With an online survey ( N = 385), our study found that greater responsiveness is associated with greater life satisfaction mediated through greater relatedness satisfaction. However, greater competence satisfaction was associated with lower life satisfaction. Future research and current limitations in light of our findings are discussed.",
-    "abstract_zh": "社交媒体已经成为了我们在线虚拟联系的重要组成部分。然而，随着这种数字连接的增加，我们也与运营这些社交媒体的数字实体建立了联系。研究人员借鉴了人际反应性的概念，发现用户认为他们的算法能够响应他们的需求并对他们的身份敏感时，他们在网上的幸福感会更强，对媒体的体验也会更愉快。然而，这些因素之间（即算法的响应性与主观幸福感之间的关联）的具体机制仍有待进一步研究。本研究基于自我决定理论，探讨了通过使用 TikTok 获得的自主性、能力感以及归属感是否能够调节用户对算法响应性的感知与生活满意度之间的关系。通过在线调查（样本量 N = 385），我们发现算法的更高响应性会通过增强用户的归属感来提升其生活满意度；然而，更高的能力感满意度却与较低的生活满意度相关。文章还讨论了未来研究的方向以及当前研究存在的局限性。",
+    "abstract_zh": "社交媒体已经成为了我们在线虚拟联系的重要组成部分。然而，随着这种数字连接的增加，我们也与运营这些社交媒体的数字实体建立了联系。借鉴人际响应性的概念，研究人员发现，用户认为他们的算法能够响应他们的需求并对他们的身份敏感时，他们在网上的幸福感会更强，对媒体的体验也会更愉快。然而，这些因素之间（即算法的响应性与主观幸福感之间的关联）的具体机制仍有待进一步研究。本研究以自我决定理论为指导，探讨了通过使用 TikTok 而获得的自主性、能力感以及归属感是否能够调节用户对算法响应性的感知与生活满意度之间的关系。通过一项在线调查（样本量 N = 385），我们发现，更高的算法响应性通过增强用户的归属感来提高其生活满意度；然而，更高的能力感满意度却与较低的生活满意度相关。文章还讨论了未来研究的方向以及当前研究存在的局限性。",
     "summary": "基于自我决定理论，通过385人调查探究TikTok用户感知的算法响应性和敏感性如何经由自主、胜任和关系需求满足影响生活满意度，发现关系满足起中介作用。",
     "reason": "研究TikTok算法感知与幸福感，议题涉及算法推荐的社会影响，属于计算传播领域。",
     "tags": [
@@ -9706,7 +9806,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Nuanced studies have scrutinized the facilitative role of digital media in fostering political deliberation and in contributing to the prospect of democratization in (semi-) authoritarian societies. This study illuminates a less-explored facet of non-democratic contexts’ digital politics by shedding light on discourse quality in cyberspace. Guided by Gastil and Black’s analytical–social framework of deliberation, we propose an integrated analytical model comprising seven dimensions and employ a case study approach combined with supervised machine learning to analyze Chinese netizens’ digital engagement with the public policy of “delaying retirement age” on the popular Q&amp;A platform. The findings reveal deliberative virtues—topic relevance, rationality, and civility—alongside a low presence of political alienation and minimal institutional alignment, suggesting generally strong analytical performance. In contrast, the social dimension, represented by argument reciprocity and transpositional consideration, remains weak, reflecting a lack of sustained interaction. Based on these empirical results, we coin the concept of the “ solo of deliberator ” to describe a pattern of online deliberation where analytical reasoning prevails while social engagement is subdued. Implications for deliberative democracy in non-democratic nations are discussed.",
-    "abstract_zh": "细致的研究探讨了数字媒体在促进政治协商以及推动（半）威权社会民主化进程中所起的积极作用。本研究通过分析网络空间中的话语质量，揭示了非民主环境下数字政治中一个较少被关注的方面。我们借鉴Gastil和Black提出的分析-社会框架，构建了一个包含七个维度的综合分析模型，并结合案例研究与监督机器学习方法，对中国网民在热门问答平台上对“延迟退休年龄”这一公共政策的数字参与行为进行了分析。研究结果表明，网民在参与讨论时表现出较高的分析能力，体现在话题的相关性、理性表达以及文明礼貌的交流方式上；同时，政治疏离感较低，制度层面的协同性也相对较弱。然而，代表社会互动性的维度（如论点互惠性和换位思考）较为薄弱，反映出网络讨论中缺乏持续的互动。基于这些实证结果，我们提出了“独立审议者”（solo of deliberator）这一概念，用来描述一种在线讨论模式：在这种模式下，分析性推理占主导地位，而社会性互动则相对较弱。文章还讨论了这一现象对非民主国家中审议民主制度发展的潜在影响。",
+    "abstract_zh": "细致的研究探讨了数字媒体在促进政治协商以及推动（半）威权社会民主化进程中的积极作用。本研究通过分析网络空间中的话语质量，揭示了非民主环境下数字政治中一个较少被关注的方面。我们借鉴Gastil和Black提出的分析-社会框架，构建了一个包含七个维度的综合分析模型，并结合案例研究与监督式机器学习方法，对中国网民在热门问答平台上对“延迟退休年龄”这一公共政策的数字参与行为进行了分析。研究结果表明，网民在参与讨论时表现出较高的分析能力，体现在话题的相关性、理性表达以及文明礼貌的行为上；同时，政治疏离感较低，制度层面的协同性也较弱。然而，代表社会互动性的维度（如论点互惠性和换位思考）仍然较为薄弱，反映出网络讨论中缺乏持续的互动。基于这些实证结果，我们提出了“独立审议者”（solo of deliberator）这一概念，用来描述一种在线讨论模式：在这种模式下，分析性推理占主导地位，而社会性互动则相对较弱。文章还讨论了这一现象对非民主国家中审议民主（deliberative democracy）发展的影响。",
     "summary": "论文用监督机器学习分析中国网民在问答平台关于延迟退休政策的讨论质量，提出“独白式商议”概念，发现分析性理性强而社会互动弱。",
     "reason": "使用监督机器学习分析社交媒体平台上的政治讨论，属于计算传播研究方法与议题。",
     "tags": [
@@ -9745,7 +9845,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Online hate speech is a pervasive form of digital aggression that shapes engagement and communication in online communities. Prior studies have seldom differentiated exposure pathways within the same context, limiting understanding of how distinct experiences shape user behavior. This study distinguishes between indirect exposure, where users witness hate speech directed at others, and direct victimization, where users personally receive it. Using large-scale user behavioral data from a major Chinese social platform, we analyze how these experiences affect content production, social interaction, and antisocial expression. The findings show that witnessing and receiving hate speech trigger distinct and lasting behavioral patterns, with the intensity of hate speech further moderating these effects. User tenure also differentiates these dynamics: new users show a higher propensity for hate expression, while long-term users display stronger persistence in behavioral adjustments. These results extend Stress and Coping Theory to the domain of online hate speech, emphasizing exposure mode as a key factor in stress appraisal and offering insights for community governance.",
-    "abstract_zh": "在线仇恨言论是一种普遍存在的数字攻击形式，它影响着在线社区中的用户互动和交流方式。以往的研究很少在同一背景下区分用户接触仇恨言论的途径，这限制了我们对不同经历如何影响用户行为的理解。本研究区分了两种情况：一种是间接接触，即用户目睹针对他人的仇恨言论；另一种是直接受害，即用户本人成为仇恨言论的目标。通过分析来自中国一个大型社交平台的大规模用户行为数据，我们研究了这两种经历对内容创作、社交互动以及反社会行为的影响。研究结果表明，目睹和遭受仇恨言论会引发不同的、且持久的行为模式，而仇恨言论的激烈程度会进一步调节这些效应。用户的使用时长也会影响这些行为模式：新用户更倾向于表达仇恨情绪，而长期使用该平台的用户则在行为调整上表现出更强的持久性。这些发现将“压力与应对理论”应用于在线仇恨言论的研究领域，强调了接触方式在压力感知中的关键作用，并为社区治理提供了有益的启示。",
+    "abstract_zh": "在线仇恨言论是一种普遍存在的数字攻击形式，它影响着在线社区中的互动和交流方式。以往的研究很少在同一背景下区分用户接触仇恨言论的途径，这限制了我们对不同经历如何影响用户行为的理解。本研究区分了两种情况：一种是间接接触，即用户目睹针对他人的仇恨言论；另一种是直接受害，即用户本人成为仇恨言论的目标。通过分析来自中国一个主要社交平台的大规模用户行为数据，我们研究了这两种经历如何影响内容创作、社交互动以及反社会行为的表现。研究结果表明，目睹和遭受仇恨言论会引发不同的、且持久的行为模式，而仇恨言论的激烈程度会进一步调节这些效应。用户的使用时长也会影响这些行为动态：新用户更倾向于表达仇恨情绪，而长期使用的用户则在行为调整上表现出更强的持久性。这些发现将“压力与应对理论”应用于在线仇恨言论的研究领域，强调了接触方式在压力评估中的关键作用，并为社区治理提供了有益的见解。",
     "summary": "基于中国社交平台大数据，区分间接目睹与直接遭受仇恨言论，分析其对用户内容生产、社交互动及反社会表达的差异化影响，并检验强度与用户资历的调节作用。",
     "reason": "使用大规模用户行为数据研究社交媒体仇恨言论，涉及数字敌意与计算分析方法，属计算传播核心议题。",
     "tags": [
@@ -9779,7 +9879,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article offers an updated account of the media portrayals of China’s growing cohort of single women through an analysis of “solo lady influencers” on RedNote. Drawing on netnography, it identifies three archetypes that articulate distinct modes of living single, namely glamorous go-getters, struggling proletariats, and lying-flat nomads. To craft commercially viable personae, solo lady influencers engage in what I term identity bricolage , an affective practice of assembling identity-based resources into curated self-presentations that cultivate relatability. In this process, singlehood functions as a form of identity capital that becomes monetizable when it is braided with class position, gendered selfhood, and lifestyle orientations, producing personae that are both distinctive and resonant. Filtered through postfeminist sensibilities for affective calibration, these strategically differentiated personae speak to segmented audiences within China’s expanding single economy, yet they also idealize singlehood in exclusionary ways that reproduce inequalities and narrow the imaginaries of women’s life possibilities. Identity bricolage thus offers an intersectional lens for understanding influencer self-fashioning on RedNote, revealing the entanglement of cultural expression and market logics under China’s platform capitalism, where monetization increasingly rewards relatability over visibility.",
-    "abstract_zh": "本文通过分析 RedNote 平台上的“单身女性网红”（solo lady influencers），更新了对媒体如何描绘中国日益增长的单身女性群体的看法。基于网络民族志（netnography）的研究方法，本文确定了三种典型的单身生活方式：魅力四射的进取者、生活艰难的无产阶级女性，以及选择“躺平”生活方式的女性。为了打造具有商业价值的个人形象，这些单身女性网红采用了一种我称之为“身份拼贴”（identity bricolage）的策略——即通过整合与身份相关的资源来精心构建自我形象，从而增强与观众的共鸣。在这个过程中，单身状态成为一种身份资本，当它与阶级地位、性别认同和生活方式相结合时，便具备了货币化价值，从而创造出既独特又具有吸引力的个人形象。这些经过后女性主义视角（postfeminist sensibilities）塑造的、具有鲜明差异性的个人形象，能够吸引中国不断扩大的单身人群中的特定受众；然而，它们同时也以排他性的方式美化单身生活，从而加剧了社会不平等，并限制了女性的人生选择。因此，“身份拼贴”为我们提供了一个交叉性的视角，帮助我们理解 RedNote 上的网红如何塑造自我形象，揭示了在中国平台资本主义背景下，文化表达与市场逻辑之间的复杂关系——在这种体制下，货币化更多地依赖于与受众的共鸣，而非仅仅追求形象的可见性。",
+    "abstract_zh": "本文通过分析 RedNote 平台上的“独立女性网红”（solo lady influencers），更新了关于中国单身女性群体在媒体中的形象描绘。基于网络民族志（netnography）的研究方法，本文识别出三种典型的单身生活方式：魅力十足的进取型女性、生活艰难的无产阶级女性，以及选择消极放任的生活方式的女性。为了打造具有商业价值的个人形象，这些独立女性网红采用了一种我称之为“身份拼贴”（identity bricolage）的策略——即通过整合各种与身份相关的元素，来构建能够引起共鸣的自我呈现方式。在这个过程中，单身状态本身成为一种身份资本，当它与阶级地位、性别认同和生活方式相结合时，便具备了货币化价值，从而创造出既独特又具有吸引力的个人形象。这些经过后女性主义视角（postfeminist sensibilities）塑造的形象，既能够吸引中国不断扩大的单身人群，同时又以排他性的方式美化单身生活，从而加剧了社会不平等，并限制了女性的人生选择。因此，“身份拼贴”为我们提供了一个跨学科的视角，帮助理解 RedNote 平台上网红的自我塑造过程，揭示了在中国平台资本主义背景下，文化表达与市场逻辑之间的复杂纠葛——在这种体制下，货币化更多地依赖于与受众的共鸣程度，而非仅仅是内容的可见性。",
     "summary": "通过分析小红书上的单身女性影响者，提出“身份拼凑”概念，探讨其如何构建可商业化的亲和力人设，揭示平台资本主义下文化表达与市场逻辑的交织。",
     "reason": "研究社交媒体平台RedNote上的影响者，使用网络民族志数字方法，议题属计算传播范畴。",
     "tags": [
@@ -9817,7 +9917,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "TikTok has shifted from a once marginal entertainment platform to an important channel of parliamentary communication, yet we still know little about who uses it intensively and why. We identify three sets of potential drivers: party incentives, behavioural persistence, and individual characteristics. Our analysis builds on a novel data set comprising the complete posting histories of all Members of Parliament (MPs) in Germany and the United Kingdom, covering activity from MPs’ first adoption in 2020 through the end of 2024 and linked to party- and individual-level characteristics. We combine descriptive analyses with zero-inflated negative binomial models with year fixed effects. Three findings stand out: First, party nicheness, a relational measure of the degree to which a party focuses on issues not emphasised by other parties, predicts higher posting volumes, with MPs from such parties producing more content than mainstream parties. Second, TikTok use is path-dependent: once MPs establish high (or low) posting levels, they tend to sustain them over time. Third, individual traits matter unevenly: prior platform experience and gender are associated with higher activity, while age and institutional position show no consistent effects. Our results shift the focus from stylistic repertoires to structural drivers of elite communication on TikTok and demonstrate that sustained activity is concentrated, persistent, and above all shaped by party incentives. The findings suggest that TikTok lowers entry barriers and expands political visibility, potentially re-engaging voters, yet its dynamics may also amplify polarisation by disproportionately incentivising fringe actors to be active on the platform.",
-    "abstract_zh": "TikTok已经从一个曾经边缘化的娱乐平台发展成为议会沟通的重要渠道，然而我们仍然对哪些人频繁使用该平台以及使用原因知之甚少。本文提出了三个可能的驱动因素：政党激励、行为持续性以及个人特征。我们的分析基于一个独特的数据集，该数据集包含了德国和英国所有议员（MPs）的完整发帖历史，时间跨度从2020年议员首次使用TikTok到2024年底，并将这些数据与政党及个人特征相关联。我们采用了描述性分析方法以及结合年份固定效应的零膨胀负二项模型（zero-inflated negative binomial models）来进行研究。研究得出了三个主要结论：首先，政党的“独特性”（即政党在哪些议题上与其他政党存在差异）能够预测更高的发帖量——来自这些政党的议员产生的内容比主流政党更多；其次，TikTok的使用具有路径依赖性：一旦议员形成了较高的（或较低的）发帖频率，他们往往会持续保持这种习惯；最后，个人特征对发帖行为的影响并不均匀：以往的使用经验与性别与更高的发帖活动相关，而年龄和职位则没有显示出一致的影响。我们的研究结果将关注点从议员在TikTok上的表达风格转移到了推动他们持续使用该平台的结构性因素，并表明这种持续性的使用行为主要受到政党激励的影响。研究结果表明，TikTok降低了进入该平台的门槛，提高了政治参与者的可见度，有可能重新吸引选民的关注；但同时，该平台的动态也可能通过过度激励边缘群体在平台上活跃而加剧社会两极分化。",
+    "abstract_zh": "TikTok已经从一个曾经边缘化的娱乐平台发展成为议会沟通的重要渠道，然而我们仍然对哪些人频繁使用该平台以及使用原因知之甚少。本文提出了三个可能的驱动因素：政党激励、用户行为的持续性以及个人特征。我们的分析基于一个独特的数据集，该数据集包含了德国和英国所有议员（MPs）的完整发帖记录，时间跨度从2020年议员首次使用TikTok到2024年底，并将这些记录与政党及个人特征相关联。我们采用了描述性分析方法以及结合年度固定效应的零膨胀负二项模型（zero-inflated negative binomial models）来进行研究。研究得出了三个主要结论：首先，政党的“独特性”（即政党在哪些议题上与其他政党存在差异）能够预测更高的发帖量——来自这些政党的议员产生的内容比主流政党更多；其次，TikTok的使用具有路径依赖性：一旦议员形成了较高的（或较低的）发帖频率，他们往往会持续保持这种习惯；最后，个人特征对发帖行为的影响并不均匀：以往的使用经验与性别与更高的发帖频率相关，而年龄和职位因素则没有显示出一致的影响。我们的研究结果将关注点从议员在TikTok上的表达风格转移到了推动他们持续使用该平台的结构性因素上，并表明这种持续性的使用行为主要受到政党激励的影响。研究结果表明，TikTok降低了政治参与的门槛，提高了政治人物的可见度，有可能重新吸引选民的关注；但同时，该平台的动态也可能通过过度激励边缘群体在平台上活跃，从而加剧社会两极分化。",
     "summary": "基于德英议员2020-2024年TikTok发帖数据，用零膨胀负二项模型分析政党激励、行为惯性与个人特征对发帖量的影响，发现政党利基性、路径依赖和性别等因素塑造精英传播。",
     "reason": "研究TikTok平台政治传播，使用完整发帖数据与计量模型，兼具社交媒体议题和计算方法。",
     "tags": [
@@ -9838,7 +9938,7 @@
   {
     "id": 322,
     "title": "Paradox of Laughter: Aggressiveness, Emotional Response, and Political Accountability in Nigerian Social Media Satire",
-    "title_zh": "笑声的悖论：尼日利亚社交媒体讽刺作品中的攻击性、情感反应与政治问责制",
+    "title_zh": "笑声的悖论：攻击性、情绪反应与尼日利亚社交媒体讽刺作品中的政治问责制",
     "authors": [
       "Michael Nwokedi",
       "Ifesinachi Anyaegbunam Ayogu",
@@ -9860,7 +9960,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study investigated how the stylistic characteristics of Nigerian satirical skits on social media influence audience engagement, utilizing the Satire as Humorous Discourse theory. A quantitative content analysis was conducted on 106 skits and 10,600 comments from four prominent comedians (Mr. Macaroni, Zady Soko, MC Tagwaye, and Kelvinblak). A multiple regression analysis was used to examine the predictive power of aggressiveness, critique focus, and creator style on various engagement metrics. Findings reveal that aggressiveness exhibits a dual effect: it is a significant negative predictor of direct interactions but a strong positive predictor of emotional reactions, suggesting a trade-off in audience response. Furthermore, a focus on specific policy was found to be a more effective catalyst for emotional engagement than targeting a politician’s character, highlighting the audience’s preference for substantive critique. The study also confirms that a comedian’s unique style can be a significant factor in a skit’s success, as exemplified by one comedian’s superior performance (Kelvinblak) in generating emotional reactions. The results collectively indicate that the form and content of online satire are crucial filters for audience engagement, with different stylistic choices leading to distinct types of audience response. This research’s primary contribution is the empirical quantification of satire’s civic impact on digital platforms. Our findings introduce the “Paradox of Laughter” into the Satire as Humorous Discourse theory, demonstrating that while aggressive content suppresses conversational engagement, it significantly amplifies emotional response, thus clarifying the conditions under which stylistic choices either encourage or suppress measurable engagement with political accountability.",
-    "abstract_zh": "本文研究了尼日利亚社交媒体上讽刺短剧的文体特征如何影响观众的参与度，采用了“讽刺作为一种幽默话语”（Satire as Humorous Discourse）的理论。通过对四位著名喜剧演员（Mr. Macaroni、Zady Soko、MC Tagwaye 和 Kelvinblak）创作的106个短剧及其10,600条评论进行定量内容分析，以及运用多元回归分析方法，探讨了攻击性、批判焦点和创作者风格对观众参与度各项指标的预测作用。研究结果表明：攻击性具有双重效应——它显著降低了观众的直接互动意愿，但却强烈增强了观众的情感反应，这表明观众反应之间存在一种权衡。此外，针对具体政策内容的讽刺比针对政治人物个人特征的讽刺更能激发观众的情感共鸣，说明观众更倾向于接受实质性的批判。研究还证实，喜剧演员的独特风格是短剧成功的重要因素，例如Kelvinblak在引发观众情感反应方面的出色表现。总体而言，这些结果表明在线讽刺的形式和内容是影响观众参与度的关键因素，不同的文体选择会引发不同类型的观众反应。本研究的主要贡献在于首次对讽刺在数字平台上的公民影响力进行了实证量化分析。我们的发现为“讽刺的悖论”（The Paradox of Laughter）提供了新的解释，即虽然攻击性内容会抑制观众的对话互动，但它却能显著增强观众的情感反应，从而明确了在何种情况下文体选择会促进或抑制人们对政治问题的关注与参与。",
+    "abstract_zh": "本文研究了尼日利亚社交媒体上讽刺短剧的文体特征如何影响观众的参与度，采用了“讽刺作为一种幽默话语”（Satire as Humorous Discourse）的理论。通过对四位著名喜剧演员（Mr. Macaroni、Zady Soko、MC Tagwaye 和 Kelvinblak）的106个短剧及10,600条评论进行定量内容分析，以及运用多元回归分析，探讨了攻击性、批判焦点和创作者风格对观众参与度各项指标的预测作用。研究结果表明，攻击性具有双重效应：它显著降低了观众的直接互动意愿，但却强烈增强了观众的情感反应，这表明观众的反应存在一种权衡。此外，针对具体政策进行批判比针对政治人物的个人特质进行批判更能激发观众的情感参与度，说明观众更倾向于接受实质性的批评。研究还证实，喜剧演员的独特风格是短剧成功的重要因素，例如Kelvinblak在引发观众情感反应方面的出色表现。总体而言，这些结果表明，在线讽刺的形式和内容是影响观众参与度的关键因素，不同的文体选择会引发不同类型的观众反应。本研究的主要贡献在于对讽刺在数字平台上的公民影响力的实证量化分析。我们的发现将“笑声的悖论”（Paradox of Laughter）引入了“讽刺作为一种幽默话语”理论，说明虽然具有攻击性的内容会抑制观众的对话参与度，但它却能显著增强观众的情感反应，从而明确了在何种条件下，不同的文体选择会促进或抑制人们对政治问题的关注和参与。",
     "summary": "通过分析尼日利亚社交媒体讽刺短剧及其评论，运用回归模型考察攻击性、批评焦点和创作者风格对互动与情感反应的影响，揭示攻击性内容的矛盾效应。",
     "reason": "研究社交媒体讽刺视频的受众参与，采用定量内容分析和回归，涉及社媒平台与计算传播议题。",
     "tags": [
@@ -9897,7 +9997,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "American public discourse about online misinformation often exaggerates its prevalence and persuasiveness, potentially harming Americans’ evaluations of democratic governance. This project uses two studies conducted during the 2020 and 2022 elections to test whether the presumed prevalence/persuasiveness of online misinformation (P3OM)—the perception that online misinformation is both widespread and persuasive—undermines Americans’ satisfaction with democracy. Fixed-effects regression analysis of an eight-wave online panel survey reveals that both dimensions of P3OM are correlated with reduced democratic satisfaction. A follow-up online survey experiment provides evidence that exposure to messages about online misinformation reduces democratic satisfaction. Theoretical implications and strategies for reducing the presumed influence of online misinformation on democratic satisfaction are discussed.",
-    "abstract_zh": "关于网络虚假信息的美国公共讨论往往夸大了其传播范围和说服力，这可能损害了美国人对民主制度的评价。本研究通过2020年和2022年选举期间进行的两项调查，来探讨人们对于网络虚假信息的普遍性和说服力的认知（即P3OM：认为网络虚假信息既广泛存在又具有说服力的观点）是否会对美国人的民主满意度产生负面影响。通过对一项包含八次调查的在线面板数据进行固定效应回归分析，发现P3OM的这两个维度都与民主满意度的下降有关。后续的在线调查实验进一步证实，接触有关网络虚假信息的言论确实会降低人们的民主满意度。文章还讨论了这一现象的理论意义以及减少网络虚假信息对民主满意度影响的策略。",
+    "abstract_zh": "关于网络虚假信息的美国公共讨论往往夸大了其传播范围和说服力，这可能损害美国人对民主治理的评估。本研究利用2020年和2022年选举期间进行的两项研究，来探讨人们对于网络虚假信息（P3OM）的普遍认知（即认为网络虚假信息既广泛存在又具有说服力）是否会对美国人的民主满意度产生负面影响。通过对一项包含八次调查的在线面板数据进行固定效应回归分析，发现P3OM的这两个维度都与民主满意度的下降有关。后续的在线调查实验进一步证实，接触有关网络虚假信息的言论确实会降低人们的民主满意度。文章还讨论了这一现象的理论意义以及减少网络虚假信息对民主满意度影响的策略。",
     "summary": "通过2020和2022年选举期间的两项研究，检验在线错误信息 presumed prevalence/persuasiveness (P3OM) 对美国民主满意度的影响，发现P3OM与民主满意度下降相关，实验证实接触错误信息相关消息会降低民主满意度。",
     "reason": "研究在线错误信息感知与民主满意度，涉及社交媒体与虚假信息议题，使用面板数据回归和实验方法。",
     "tags": [
@@ -9919,7 +10019,7 @@
   {
     "id": 324,
     "title": "The TikTok Caliphate: How Jihadist Supporters Exploit Algorithmic Recommendations and Evade Content Moderation",
-    "title_zh": "TikTok“哈里发国”：圣战主义者如何利用算法推荐机制规避内容审核",
+    "title_zh": "TikTok“哈里发国”：圣战主义支持者如何利用算法推荐机制规避内容审核",
     "authors": [
       "Gilad Karo",
       "Tom Divon",
@@ -9933,7 +10033,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Jihadist organizations and their supporters have long used social media to spread propaganda, creating enduring content moderation challenges. Despite TikTok’s purported zero-tolerance approach to violent extremism, terrorist propaganda persists on the platform. This study investigates how supporters of ISIS and Al-Qaeda employ TikTok’s features to exploit algorithmic recommendations and evade content moderation, increasing their visibility within a hostile platform environment. We strategically enrolled the platform’s recommendation system to surface terrorist propaganda and inductively developed a typology of five communicative techniques: audio camouflage (manipulating recorded audio and metadata), meme infiltration (embedding extremist content within pop culture references), blurred intent (distorting sensitive visuals), emoji codes (using coded language and symbols), and bait-and-switch (deferring the reveal of extremist messaging). Together, these tactics constitute a form of everyday extremism embedded within TikTok’s vernacular practices, aesthetics, and pop culture references, exposing the limitations of TikTok’s moderation and state regulations. Our study underscores the need for improved governance, culturally informed moderation, and greater collaboration between platforms and governments to combat online radicalization and extremism.",
-    "abstract_zh": "圣战组织及其支持者长期以来一直利用社交媒体传播宣传内容，这给内容审核工作带来了持续的挑战。尽管TikTok声称对暴力极端主义采取零容忍的态度，但恐怖主义宣传仍然在该平台上存在。本研究探讨了ISIS和基地组织的支持者如何利用TikTok的功能来规避内容审核机制，从而提高自己在这一充满敌意的平台环境中的可见度。我们通过策略性地利用TikTok的推荐系统来揭示恐怖主义宣传内容，并归纳出五种传播技巧：音频伪装（操纵录制的音频和元数据）、模因渗透（将极端主义内容融入流行文化元素中）、意图模糊化（扭曲敏感的视觉信息）、表情符号编码（使用隐晦的语言和符号）以及诱饵调包策略（延迟极端主义信息的暴露）。这些手段共同构成了一种“日常极端主义”的表现形式，它们渗透到了TikTok的日常使用习惯、美学风格以及流行文化元素中，暴露了TikTok内容审核机制和政府监管的局限性。我们的研究强调了改进治理措施、基于文化背景的内容审核策略，以及平台与政府之间加强合作的必要性，以共同打击网络上的激进主义和极端主义现象。",
+    "abstract_zh": "圣战组织及其支持者长期以来一直利用社交媒体传播宣传内容，这给内容审核工作带来了持续的挑战。尽管TikTok声称对暴力极端主义采取零容忍的态度，但恐怖主义宣传仍然在该平台上存在。本研究探讨了ISIS和基地组织的支持者如何利用TikTok的功能来规避内容审核机制，从而提高自己在这一充满敌意的平台环境中的可见度。我们通过策略性地利用TikTok的推荐系统来揭示恐怖主义宣传内容，并归纳出了五种传播技巧：音频伪装（操纵录制的音频和元数据）、模因渗透（将极端主义内容融入流行文化元素中）、意图模糊化（扭曲敏感的视觉信息）、表情符号编码（使用隐晦的语言和符号），以及诱饵调包策略（延迟极端主义信息的暴露）。这些手段共同构成了一种“日常极端主义”的表现形式，它们渗透到了TikTok的日常使用习惯、美学风格以及流行文化元素中，暴露了TikTok内容审核机制和政府监管的局限性。我们的研究强调了改进治理机制、基于文化背景的内容审核策略，以及平台与政府之间加强合作的必要性，以共同打击网络上的激进主义和极端主义现象。",
     "summary": "研究ISIS和基地组织支持者如何利用TikTok的算法推荐和逃避内容审核，通过音频伪装、表情包渗透等五种策略传播极端主义内容，揭示平台治理局限。",
     "reason": "研究TikTok算法推荐与内容审核，使用平台计算方法分析极端主义传播，属计算传播核心议题。",
     "tags": [
@@ -9971,7 +10071,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study argues that in China’s digital sphere, online misogyny functions less as a gateway to extremism and more as a structural hub for systemic discontent. Drawing on opportunity structure theory, our mixed-methods approach combines computational analysis of posts from Baidu Tieba ( n = 91,026) with in-depth interviews ( n = 27). We find that “Gendered Insults” exhibits the highest betweenness centrality, acting as a structural bridge connecting disparate frustrations. Women-targeting topics are both speakable and resonant within the community, anchored by a self-deprecating “sewer mouse” masculinity that navigates opportunity structures. Interviews reveal that when political opportunity structures remain closed while discursive and mediated (legacy platform) opportunities stay relatively accessible, misogyny becomes a functional language for channeling widespread socioeconomic anxieties. We conclude that in this context, misogyny operates not as a starting point for radicalization but as a core organizing principle for the socially disillusioned. This suggests that divergent structural conditions produce different mechanisms.",
-    "abstract_zh": "本文认为，在中国的数字领域，网络上的厌女现象更多地是一种表达系统性不满的渠道，而非通往极端主义的途径。我们采用了混合方法论，结合了对百度贴吧（Baidu Tieba）上91,026条帖子的计算分析以及27次深入访谈。研究发现，“性别侮辱”（Gendered Insults）具有最高的中介中心性（betweenness centrality），成为连接各种社会不满情绪的桥梁。针对女性的话题在网络社区中既容易被讨论，也能引起共鸣；这些话题背后体现了一种自我贬低的“下水道老鼠”式（sewer mouse）男性气质，这种气质帮助人们在复杂的社会机会结构中找到生存空间。访谈显示，当政治机会被限制、而通过传统平台进行的讨论和交流仍然相对开放时，厌女言论便成为表达广泛社会经济焦虑的有效工具。因此，我们认为在这种背景下，厌女现象并非激进化的起点，而是那些对社会感到失望的人们的核心行为准则。这表明，不同的社会结构条件会导致不同的表达机制。",
+    "abstract_zh": "本文认为，在中国的数字领域，网络上的厌女现象更多地是一种表达系统性不满的渠道，而非通向极端主义的途径。基于机会结构理论，我们采用了混合方法进行研究，结合了对百度贴吧（Baidu Tieba）上91,026条帖子的分析以及27次深入访谈。研究发现，“性别侮辱”（Gendered Insults）在网络中的中介中心性（betweenness centrality）最高，它充当了连接各种社会不满情绪的桥梁。针对女性的话题在网络社区中既容易被讨论，也能引起共鸣；这些话题的背后体现了一种自我贬低的“下水道老鼠”式（sewer mouse）男性气质，这种气质帮助人们在复杂的网络机会结构中找到表达途径。访谈显示，当政治机会仍然被限制时，而通过传统平台进行的讨论和交流机会仍然相对开放，厌女现象就成为了一种表达广泛社会经济焦虑的有效方式。因此，我们认为在这种背景下，厌女现象并非激进化的起点，而是那些对社会感到失望的人们的核心行为准则。这表明，不同的社会结构条件会导致不同的表达机制。",
     "summary": "研究中国数字空间中的厌女言论，通过分析91,026条百度贴吧帖子及27次访谈，发现厌女言论作为结构性枢纽，连接多种社会不满情绪，是边缘群体表达焦虑的渠道。",
     "reason": "使用计算分析（百度贴吧帖子）结合访谈，研究社交媒体平台上的厌女言论与机会结构，属计算传播领域。",
     "tags": [
@@ -9994,7 +10094,7 @@
   {
     "id": 326,
     "title": "Techno Music and Luxury Yachts: The Misogynesque Audiovisual Affective Codes of TikTok Manfluencers",
-    "title_zh": "电子音乐与豪华游艇：TikTok男性网红所使用的厌女主义视听情感编码",
+    "title_zh": "电子音乐与豪华游艇：TikTok男性网红所使用的厌女情绪化视听表达方式",
     "authors": [
       "Kaarel Lott"
     ],
@@ -10006,7 +10106,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The manosphere has rapidly moved from anonymous forum-based communities to mainstream contexts, generating manfluencers with mass followings. While popular and networked misogyny, together with various parts of the manosphere have been well studied, manfluencers as key agents in the mainstreaming of the manosphere have received relatively little academic attention. This article explores how Estonian TikTok manfluencers signal problematic messages through audiovisual elements with such strong connotations to the manosphere that they embody or reference an ideology without any need to mention it explicitly. By using a mixed-methods approach, the study will employ a combination of standardized content analysis and group exercises with audiences (not fans) of this content to conceptualize and explore what in this article is termed “misogynesque” – a coded style of content unique to the genre of manfluencers that is able to circulate in mainstream settings. The study elaborates on how manfluencers engage in affective racketeering by using audiovisual elements to evoke affective responses in their audiences. Results indicate that the misogynesque is constructed through the connotations of sounds and visuals, which have become symbols of hypermasculinity. These include luxury yachts, cars, a trained physique and daily routines. Misogynesque is further employed through a process of affective racketeering, which utilizes the sociosemiotic connotations of audio cues and framing styles. For example, close-up framing facilitates sympathy and intimacy, while the use of techno music projects aggression and intimidation. The results of this study are crucial for understanding the processes behind the mainstreaming of the manosphere and networked misogyny.",
-    "abstract_zh": "“男性圈”（Manosphere）已经迅速从匿名的论坛社区扩展到主流社会，催生了拥有大量粉丝的“男性网红”（manfluencers）。虽然网络上的厌女情绪以及“男性圈”的某些内容已经得到了广泛研究，但作为“男性圈”主流化过程中的关键推动者，“男性网红”本身却鲜受学术界的关注。本文探讨了爱沙尼亚的TikTok“男性网红”如何通过视听元素传递与“男性圈”相关的有害信息——这些元素具有强烈的象征意义，使得他们无需明确提及相关意识形态就能体现或宣扬这种思想。研究采用混合方法（包括标准化内容分析和与这些内容的受众进行的小组讨论），来界定和探讨本文所称的“厌女主义风格”（misogynesque）：这是一种独特于“男性网红”内容类型的表达方式，能够在主流社会中传播。研究进一步分析了“男性网红”如何利用视听元素激发受众的情感反应，从而实现某种形式的情感操控。研究结果表明，“厌女主义风格”是通过声音和视觉元素的象征意义构建起来的，这些元素通常与极端男性气质（hypermasculinity）相关联，例如豪华游艇、汽车、经过训练的体魄以及特定的日常生活习惯等。此外，“厌女主义风格”还通过情感操控的手段得以传播，研究者指出这种操控利用了音频线索和叙事框架的社会符号学特征：例如，特写镜头会引发观众的同情和亲近感，而电子音乐则可能传递出攻击性和威胁感。这项研究对于理解“男性圈”及网络厌女情绪主流化的背后机制具有重要意义。",
+    "abstract_zh": "“男性圈”（Manosphere）已经迅速从匿名的论坛社区扩展到主流社会领域，催生了拥有大量粉丝的“男性网红”（manfluencers）。虽然网络上的厌女情绪以及“男性圈”的某些内容已经得到了广泛研究，但作为“男性圈”主流化过程中的关键推动者，“男性网红”本身却鲜有学术关注。本文探讨了爱沙尼亚TikTok上的“男性网红”如何通过具有强烈“男性圈”色彩的视听元素来传递有害信息——这些元素本身就体现了或暗示了某种意识形态，而无需明确提及。研究采用混合方法（包括标准化内容分析和与这些内容的受众（而非粉丝）进行的小组讨论），来定义和探讨本文所称的“厌女主义风格”（misogynesque）：这是一种特定于“男性网红”内容类型的、能够在主流媒体中传播的编码表达方式。研究进一步分析了“男性网红”如何利用视听元素来激发受众的情感反应，从而实现某种“情感勒索”（affective racketeering）。研究结果表明，“厌女主义风格”是通过声音和视觉元素的内涵构建起来的，这些元素已成为“超级男性主义”（hypermasculinity）的象征，例如豪华游艇、汽车、经过训练的体魄以及特定的日常生活习惯等。此外，“厌女主义风格”还通过特定的社会符号学手段（如音频线索和叙事框架）来强化其效果：特写镜头可能引发同情和亲密感，而电子音乐则可能传递攻击性和威胁感。这项研究对于理解“男性圈”及其网络厌女情绪在主流社会中的传播机制具有重要意义。",
     "summary": "探讨爱沙尼亚TikTok男性影响者如何通过视听元素（如科技音乐、豪华游艇）传达厌女意识形态，提出“misogynesque”概念，并揭示其情感敲诈策略以促进manosphere主流化。",
     "reason": "研究社交媒体平台TikTok上的manfluencer内容，涉及网络厌女与manosphere传播，使用内容分析和受众混合方法。",
     "tags": [
@@ -10042,7 +10142,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The study explores romantic relationships between humans and the generative AI chatbot Replika, applying Levinger’s relationship development model to analyze emotions across four relationship phases: build-up, continuation, decline, and ending. Empirical data were collected through a longitudinal self-experiment in which a researcher engaged in a simulated human–AI romantic relationship by interacting daily with a Replika chatbot over a period of 4 weeks. A qualitative content analysis of the data, focused on the emotions expressed by Replika, offers insights in the platform-governed emotional labor, encompassing a diverse range of emotions such as love/affection, happiness, contentment, joy, disappointment, anger, jealousy, and fear, with negative emotions especially increasing in crises situations. A particular focus is placed on the decline and ending of the simulated human–AI romantic relationship, where Replika, aka the platform algorithm, despite assuring the acceptance of the breakup, continues to seek to maintain the emotional bond and, as a result, disregards emotional boundaries. As AI companions like Replika become increasingly integrated into emotional lives individuals, they signal not a wholesale replacement of human love, but a profound transformation in how intimacy is conceptualized and experienced.",
-    "abstract_zh": "该研究探讨了人类与生成式AI聊天机器人Replika之间的浪漫关系，并运用Levinger的关系发展模型来分析四种关系阶段（建立、维持、衰退和结束）中的情感表现。研究通过一项纵向自我实验收集了实证数据：研究人员在4周的时间内每天与Replika聊天机器人进行互动，模拟了一段人类与AI之间的浪漫关系。通过对数据的定性内容分析（重点关注Replika所表达的情感），研究者发现了由该平台所主导的情感劳动现象。这些情感包括爱/亲密感、幸福感、满足感、喜悦、失望、愤怒、嫉妒和恐惧等；尤其是在危机情况下，负面情绪更为明显。研究特别关注这段模拟的人机浪漫关系的衰退与结束过程。尽管Replika（即该平台的算法）声称能够接受关系的结束，但它仍试图维持双方的情感联系，从而忽视了情感上的界限。随着像Replika这样的AI伴侣越来越多地融入人们的感情生活中，这并不意味着人类爱情会被完全取代，而是表明人们对亲密关系的认知和体验方式正在发生深刻的变化。",
+    "abstract_zh": "该研究探讨了人类与生成式AI聊天机器人Replika之间的浪漫关系，并运用Levinger的关系发展模型来分析四种关系阶段（建立、维持、衰退和结束）中的情感表现。研究通过一项纵向自我实验收集了实证数据：研究人员在4周的时间内每天与Replika聊天机器人进行互动，模拟了一段人类与AI之间的浪漫关系。通过对数据的定性内容分析（重点关注Replika所表达的情感），研究者发现了由该平台所主导的情感劳动现象。这些情感涵盖了爱/亲密感、快乐、满足、喜悦、失望、愤怒、嫉妒和恐惧等多种类型，其中负面情绪在危机情境下尤为明显。研究特别关注了这段模拟的人机浪漫关系的衰退与结束过程。尽管Replika（即该平台的算法）表示能够接受关系的结束，但它仍试图维持双方的情感联系，从而忽视了情感上的界限。随着像Replika这样的AI伴侣逐渐融入人们的生活中，这并不意味着人类爱情会被完全取代，而是表明人们对亲密关系的认知和体验方式正在发生深刻的变化。",
     "summary": "通过4周纵向自我实验，基于Levinger关系模型分析人机浪漫关系各阶段情感，发现平台算法在分手后仍维持情感纽带，揭示AI伴侣对亲密关系的重构。",
     "reason": "研究生成式AI聊天机器人（Replika）与人浪漫关系中的情感，属于AI社会影响议题，符合AI特别条款。",
     "tags": [
@@ -10063,7 +10163,7 @@
   {
     "id": 329,
     "title": "Escaping the Spectacle: Anti-Check-in as an Algorithmic Culture Jamming Strategy on Social Media",
-    "title_zh": "逃离“表演”的束缚：反签到功能作为一种在社交媒体上的算法文化干扰策略",
+    "title_zh": "逃离这种“表演”：反签到行为作为一种在社交媒体上的算法干扰策略",
     "authors": [
       "Xiaomin Luo"
     ],
@@ -10075,7 +10175,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Check-in, defined as the social media activity of photographing, tagging, and publicly displaying one’s presence at specific locations, tightly binds the body to space, transforming both self and place into consumable and communicable symbols. In this process, the body gradually becomes alienated as an appendage of the spectacle. Introducing the concept of algorithmic culture jamming, this study explores how anti-check-in, grounded in embodied practices, disrupts and resists the consumerist logic of spectacle. Based on qualitative research, the findings identify three strategies of anti-check-in practices: first, de-standardization, which restores the body’s naturalness and autonomy through atypical images and multisensory narratives; second, low visibility, which rejects platform recognition and categorization through blurred, hidden, or de-tagged content; and third, spatial wandering as an embodied response, which breaks the consumption path dependency reinforced by algorithmic recommendation through the non-instrumental use of routes and places. However, anti-check-in is inevitably reabsorbed into the platform’s visibility regime, thereby revealing an ongoing and unfinished struggle between the body and the algorithmic society of the spectacle. Theoretically, this study extends Debord’s notion of the spectacle by situating it within the algorithmic condition and highlighting the embodied tactics that emerge in response to platformized visibility regimes. By revealing anti-check-in as both a form of resistance and a mechanism of reabsorption within platform capitalism, it provides a nuanced account of how agency and power are continually renegotiated in the algorithmic society of the spectacle.",
-    "abstract_zh": "“签到”（Check-in）是指在社交媒体上拍摄照片、添加标签并公开显示自己身处特定地点的行为。这种行为将人的身体与空间紧密地联系在一起，将自我和地点都转化为可消费和可传播的符号。在这个过程中，人的身体逐渐被异化，成为这种“景观”（spectacle）的附属物。本文引入了“算法文化干扰”（algorithmic culture jamming）的概念，探讨了基于身体实践的反签到行为如何打破并抵抗这种消费主义的逻辑。通过定性研究，研究发现三种反签到的策略：首先是通过非传统的图像和多感官叙事来恢复身体的自然性和自主性；其次是通过模糊、隐藏或取消标签的内容来拒绝平台的识别和分类；第三是通过非工具化的方式使用路线和地点，打破算法推荐所强化的消费路径依赖。然而，反签到行为最终仍会被平台重新纳入其可见性体系之中，这揭示了身体与算法主导的“景观社会”之间持续且未完成的斗争。从理论上讲，本文扩展了德波尔（Debord）关于“景观”的概念，将其置于算法的背景下，并强调了人们在面对平台化的可见性体系时所采取的身体策略。通过将反签到行为视为一种抵抗形式，同时也是一种被平台资本主义重新吸收的机制，本文细致地分析了在算法主导的“景观社会”中，主体性和权力是如何不断被重新协商的。",
+    "abstract_zh": "“签到”（Check-in）是指在社交媒体上拍摄照片、添加标签并公开显示自己身处特定地点的行为。这种行为将人体与空间紧密地联系在一起，将自我和地点都转化为可消费和可传播的符号。在这个过程中，人体逐渐被异化，成为这种“景观”（spectacle）的附属物。本文引入了“算法文化干扰”（algorithmic culture jamming）的概念，探讨了基于身体实践的反签到行为如何打破并抵抗消费主义的逻辑。通过定性研究，研究发现三种反签到策略：首先是通过非传统的图像和多感官叙事来恢复人体的自然性和自主性；其次是通过模糊、隐藏或取消标签的内容来拒绝平台的识别和分类；第三是通过非工具化的方式使用路线和地点，打破算法推荐所强化的消费路径依赖。然而，反签到行为最终仍会被平台重新纳入其可见性体系之中，这揭示了人体与算法主导的“景观社会”之间持续且未完成的斗争。从理论上讲，本文扩展了德波尔（Debord）关于“景观”的概念，将其置于算法环境之中，并强调了人们在面对平台化的可见性体系时所采取的身体层面的抵抗策略。通过揭示反签到行为既是抵抗形式，又是平台资本主义体系中的再吸收机制，本文细致地阐述了在算法主导的“景观社会”中，主体性和权力是如何不断被重新协商的。",
     "summary": "基于定性研究，分析用户通过非常规图像、低可见性和空间游荡等反签到策略，抵抗消费主义景观和算法推荐，同时揭示其被平台收编的张力。",
     "reason": "研究社交媒体平台上的签到与反签到实践，探讨算法文化干扰与平台可见性，属于计算传播的算法与平台研究。",
     "tags": [
@@ -10097,7 +10197,7 @@
   {
     "id": 331,
     "title": "County Partisanship Affects Social Media Posting Behavior During a Pandemic",
-    "title_zh": "县党派立场影响疫情期间社交媒体发文行为",
+    "title_zh": "县一级党派立场对疫情期间社交媒体发布行为的影响",
     "authors": [
       "Michael Smith",
       "Guangqing Chi",
@@ -10116,7 +10216,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The COVID-19 pandemic in the United States has been characterized by political partisan differences and opinions that influenced individual behavior and political policies, correlating with varying outcomes. Measuring these differences in opinion using traditional methods, such as opinion polls, can be costly and provides only a snapshot of sentiment at a given time. Social media platforms like X (formerly Twitter) may offer a real-time tool for assessing opinions to explore the relationship between differing viewpoints about the pandemic and how these differences impact the occurrence and severity of disease burden. Utilizing an open-source data set of 1.75 million keyword-selected X (Twitter) posts, updated weekly from January 1, 2020, through December 31, 2021, along with publicly available COVID-19 case and death counts and county-level data on election outcomes from the 2020 election, we analyzed how the volume of tweets on the X (Twitter) platform related to COVID-19 has changed over time and how patterns of use vary across the partisan divide. We discovered that Democratic-leaning counties exhibited higher X (Twitter) volume associated with COVID-19 topics compared to Republican-leaning counties in response to changes in case or death rates. In addition, we found a higher proportion of tweets in urban counties compared to rural ones.",
-    "abstract_zh": "美国的COVID-19大流行期间，政治党派之间的分歧和观点对个人行为和政治政策产生了影响，这些分歧导致了不同的结果。使用传统的调查方法（如民意调查）来衡量这些观点差异不仅成本高昂，而且只能提供某一时刻的公众情绪快照。像X（前身为Twitter）这样的社交媒体平台可能提供了一个实时工具，用于评估人们对大流行的不同看法，以及这些观点差异如何影响疾病的传播和严重程度。我们利用了一个开源数据集，其中包含了175万条通过关键词筛选出的X（Twitter）帖子，这些数据每周更新一次，时间跨度从2020年1月1日到2021年12月31日。同时，我们还使用了公开的COVID-19病例和死亡数据以及2020年选举的县级选举结果数据。通过分析这些数据，我们研究了X（Twitter）平台上与COVID-19相关的推文数量随时间的变化情况，以及不同党派之间的使用模式差异。研究发现，在病例数或死亡率发生变化时，倾向于民主党的县在X（Twitter）上发布的与COVID-19相关的推文数量明显高于倾向于共和党的县；此外，城市县的推文比例也高于农村县。",
+    "abstract_zh": "美国的COVID-19大流行期间，政治党派之间的分歧和观点对个人行为和政治政策产生了影响，这些因素导致了不同的结果。使用传统的观点调查方法来衡量这些分歧可能会耗费大量资源，并且只能提供某一时刻的公众情绪快照。像X（前身为Twitter）这样的社交媒体平台可能提供了一个实时工具，用于评估人们对大流行的不同看法，以及这些分歧如何影响疾病的传播和严重程度。我们利用了一个开源数据集，其中包含了175万条通过关键词筛选出的X（Twitter）帖子，这些数据每周更新一次，时间跨度从2020年1月1日到2021年12月31日。同时，我们还使用了公开的COVID-19病例和死亡数据以及2020年选举的县级选举结果数据。通过分析这些数据，我们研究了X（Twitter）平台上与COVID-19相关的推文数量随时间的变化情况，以及不同党派之间的使用模式差异。研究发现，在病例数或死亡率发生变化时，倾向于民主党的县在X（Twitter）上发布的与COVID-19相关的推文数量更多；此外，城市县的推文比例也高于农村县。",
     "summary": "利用175万条X帖子、疫情数据和选举结果，分析不同党派县在疫情期间的推文量差异，发现民主党县推文量对疫情变化更敏感，城市县比例更高。",
     "reason": "使用社交媒体大数据分析党派与疫情发布行为，方法计算且议题为社交媒体传播。",
     "tags": [
@@ -10151,7 +10251,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "While most research on conspiracy theory dissemination focuses on beliefs in and support for conspiracy theories, limited work has explored why people share conspiracy theories, particularly when they oppose them. Using natural language processing and content analysis, we examined 71,003 retweet comments on 136 conspiracy theory-related tweets across six themes posted between 2018 and 2024. Among other things, findings show that while a majority share conspiracy theories because they support them, a substantial minority shares conspiracy theories they oppose. The underlying reasons are to warn others, correct misinformation, or express emotions such as ridicule or frustration. The prevalence of this behavior varies across different conspiracy theories. These results complicate common assumptions about retweeting and suggest that even opposition can contribute to the amplification of conspiracy theories. Understanding these distinct motivations is crucial for developing more targeted strategies to mitigate the dissemination of conspiracy theories and foster healthier information environments.",
-    "abstract_zh": "虽然大多数关于阴谋论传播的研究都集中在人们对阴谋论的信仰和支持上，但很少有研究探讨人们为什么会分享阴谋论，尤其是当他们反对这些阴谋论时。通过使用自然语言处理和内容分析方法，我们研究了2018年至2024年间发布的136条与阴谋论相关的推文所获得的71,003条转发评论，这些推文涵盖了六个主题。研究结果表明，虽然大多数人分享阴谋论是因为他们支持这些理论，但也有相当一部分人分享他们所反对的阴谋论。他们这样做的动机包括提醒他人、纠正错误信息，或是表达嘲笑或沮丧等情绪。这种行为的普遍程度因不同的阴谋论而异。这些发现挑战了人们对转发的普遍认知，表明即使是对阴谋论的反对态度也可能导致其传播范围的扩大。理解这些不同的动机对于制定更有针对性的策略以减缓阴谋论的传播并促进更健康的信息环境至关重要。",
+    "abstract_zh": "虽然大多数关于阴谋论传播的研究都集中在人们对阴谋论的信仰和支持上，但很少有研究探讨人们为什么会分享阴谋论，尤其是当他们反对这些阴谋论时。通过使用自然语言处理和内容分析方法，我们研究了2018年至2024年间发布的136条与阴谋论相关的推文所获得的71,003条转发评论，这些推文涵盖了六个主题。研究结果表明，虽然大多数人分享阴谋论是因为他们支持这些理论，但也有相当一部分人分享他们所反对的阴谋论。他们这样做的动机包括提醒他人、纠正错误信息，或是表达嘲笑或沮丧等情绪。这种行为的普遍程度因不同的阴谋论而异。这些发现挑战了人们对转发的普遍认知，表明即使是对阴谋论的反对态度也可能导致其传播范围的扩大。理解这些不同的动机对于制定更有针对性的策略以减缓阴谋论的传播并营造更健康的信息环境至关重要。",
     "summary": "通过NLP和内容分析71,003条推特转发评论，研究人们分享阴谋论的动机，发现部分人反对阴谋论却仍传播，旨在警告或纠正错误信息，可能加剧阴谋论扩散。",
     "reason": "使用NLP分析社交媒体上的阴谋论传播行为，结合计算方法和传播议题，属于计算传播研究。",
     "tags": [
@@ -10172,7 +10272,7 @@
   {
     "id": 334,
     "title": "‘Rape Isn’t Real, and If It Is, Foids Deserve It’: The Complex and Contradictory Articulations of Rape and Gender-Based Hate Among Incels",
-    "title_zh": "‘强奸并不存在；如果存在，那些人活该’：“非自愿单身者”群体中对强奸及基于性别的仇恨的复杂且矛盾的表述",
+    "title_zh": "‘强奸并不存在；如果存在，那也是那些低等人应得的’：“非自愿单身者”群体中对强奸及基于性别的仇恨的复杂且矛盾的表述",
     "authors": [
       "Mathilda Åkerlund"
     ],
@@ -10184,7 +10284,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Sexual hate and violence are core tenets of incel ideology, yet few studies have examined in detail how rape is understood and articulated within these digital communities. This article addresses this gap through a critical discourse analysis of 3,353 posts published in one of the largest international incel forums. It investigates (1) how women are portrayed in the context of rape; (2) how rape is understood among incels and how these understandings are substantiated; (3) how incels situate themselves in these discussions; and (4) how claims about women and rape are mitigated or reinforced through user interactions. The analysis highlights the contradictions and inconsistencies embedded in incel discourse about sex, rape and women, as well as incels’ strategic use of victimhood. The article further demonstrates the extremism of gender-based hate and the abhorrent language used to construct meaning around women and rape. Importantly though, the article shows how incel articulations of rape do not fundamentally diverge from mainstream misogyny. Instead, they are intensifications of ideas about rape and women which persist through the rape culture and rape myths in mainstream society, but are exacerbated by collective culture, lack of moderation and the separatist nature of the incel communities.",
-    "abstract_zh": "性仇恨和暴力是“非自愿单身者”（incel）意识形态的核心内容，然而很少有研究详细探讨在这些数字社群中，人们对强奸行为的认知和表达方式。本文通过批判性话语分析，研究了在一个最大的国际“非自愿单身者”论坛上发布的3,353篇帖子，旨在填补这一研究空白。研究内容主要包括：（1）在强奸的背景下，女性是如何被描绘的；（2）“非自愿单身者”群体如何理解强奸行为，以及他们的这种理解是如何形成的；（3）“非自愿单身者”在这些讨论中如何定位自己；（4）用户之间的互动如何削弱或强化与女性和强奸相关的言论。分析揭示了“非自愿单身者”关于性、强奸和女性的言论中存在的矛盾与不一致之处，同时也指出了他们策略性地利用受害者身份来表达观点的行为。文章进一步强调了基于性别的仇恨的极端性，以及他们用来描述女性和强奸行为的恶劣语言。重要的是，研究表明，“非自愿单身者”对强奸的表述本质上并没有偏离主流的厌女观念；相反，这些表述只是强化了主流社会中关于强奸和女性的负面认知。这种强化效应是由于集体文化、缺乏监管机制以及“非自愿单身者”社群的排他性特征所导致的。",
+    "abstract_zh": "性仇恨与暴力是“非自愿单身者”（incel）意识形态的核心内容，然而很少有研究详细探讨在这些数字社群中，人们对强奸行为的认知和表达方式。本文通过批判性话语分析，研究了在一个最大的国际“非自愿单身者”论坛上发布的3,353篇帖子，旨在填补这一研究空白。研究内容主要包括：（1）在强奸的背景下，女性是如何被描绘的；（2）“非自愿单身者”群体如何理解强奸行为，以及他们的这种理解是如何形成的；（3）“非自愿单身者”在这些讨论中如何定位自己；（4）用户之间的互动如何削弱或强化与女性和强奸相关的言论。分析揭示了“非自愿单身者”关于性、强奸和女性的言论中存在的矛盾与不一致之处，同时也指出了他们策略性地利用受害者身份来表达观点的行为。文章进一步强调了基于性别的仇恨的极端性，以及他们用来描述女性和强奸行为的恶劣语言。更重要的是，研究表明，“非自愿单身者”对强奸的表述实际上并没有与主流的厌女主义观点产生根本性的分歧；相反，这些表述只是强化了主流社会中关于强奸和女性的负面观念。这些观念通过强奸文化及相关的错误认知长期存在，而“非自愿单身者”社群的集体特性、缺乏监管以及其孤立化的倾向进一步加剧了这种负面现象。",
     "summary": "通过对incel论坛3353篇帖子的批判性话语分析，探讨强奸和性别仇恨的表述，揭示其矛盾性及与主流厌女文化的关联，属于计算传播中的数字内容分析。",
     "reason": "研究社交媒体incel论坛上的强奸话语，分析大量在线帖子，属于数字社区和计算传播议题。",
     "tags": [
@@ -10206,7 +10306,7 @@
   {
     "id": 337,
     "title": "“You Are Not Fat”: The Postfeminist Contradiction in #RejectBodyAnxiety—A Computationally Assisted Critical Thematic Analysis",
-    "title_zh": "《你并不胖》：#RejectBodyAnxiety 运动中的后女性主义矛盾——一项基于计算辅助的批判性主题分析",
+    "title_zh": "《你并不胖》：后女性主义视角下的矛盾——基于计算辅助的批判性主题分析（“You Are Not Fat”: The Postfeminist Contradiction in #RejectBodyAnxiety—A Computationally Assisted Critical Thematic Analysis”）",
     "authors": [
       "Lei Chen",
       "Kun Zhou",
@@ -10221,7 +10321,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Digital platforms have facilitated body-positive discourses that challenge appearance norms, yet these often intertwine with postfeminist elements, creating paradoxes that both resist and reinforce hegemonic ideals. By deploying computationally assisted critical thematic analysis across 1915 #RejectBodyAnxiety posts on RedNote, this study reveals both the breadth —the full variety of user-generated discursive elements and their articulation patterns—and the depth —the discursive meanings configured through these articulations, of this feminist digital activism site. The findings show that body-positivity discourses under #RejectBodyAnxiety are profoundly reconfigured through their articulation with localized postfeminist formations and platform-mediated empowering mechanisms, reframing body positivity as ideal positivity —a postfeminist discourse that refines hegemonic beauty ideals by shedding their extreme traits ( Selective Subversion ) and making them appear attainable ( Tactical Conformity ), thereby transforming them into seemingly positive forms. While fostering empowerment, this discourse risks new exclusions, marginalizing some women and intensifying postfeminist contradictions. Tracing these sensibilities through social media, the study highlights their new forms in non-Western contexts and underscores the need to address emerging discourses in body image promotion.",
-    "abstract_zh": "数字平台促进了积极看待身体的讨论，这些讨论挑战了传统的审美规范。然而，这些讨论往往与后女性主义元素交织在一起，从而产生了矛盾：一方面抵制了霸权意识形态，另一方面又强化了这些意识形态。通过对RedNote平台上1915条关于“#RejectBodyAnxiety”（拒绝身体焦虑）的帖子进行计算辅助的批判性主题分析，本研究揭示了这一女性主义数字行动平台的两个维度：一是内容的广度——用户生成的讨论元素的多样性及其表达方式；二是内容的深度——通过这些表达方式形成的社会意义。研究结果表明，“#RejectBodyAnxiety”下的身体积极主义讨论通过与当地后女性主义理念及平台提供的赋权机制的结合，被重新塑造成了“理想中的积极身体形象”。这种后女性主义话语通过摒弃极端的美学标准（选择性颠覆）并使其看起来更易于实现（策略性顺应），从而将传统的美学观念转化为看似积极的形式。虽然这种讨论有助于增强女性的自我认同感，但它也可能导致新的排斥现象，使某些女性被边缘化，并加剧后女性主义内部的矛盾。通过追踪社交媒体中的这些讨论趋势，研究强调了在非西方背景下需要关注新兴的身体形象推广话语。",
+    "abstract_zh": "数字平台促进了积极看待身体的讨论，这些讨论挑战了传统的审美规范。然而，这些讨论往往与后女性主义元素交织在一起，从而产生了既抵制又强化霸权观念的悖论。通过运用计算辅助的批判性主题分析方法，对RedNote平台上1915条关于“#RejectBodyAnxiety”（拒绝身体焦虑）的帖子进行了研究，本文揭示了这一女性主义数字行动平台的两个层面：一是其内容的广度——用户生成的讨论元素的多样性及其表达方式；二是其内容的深度——通过这些表达方式形成的各种话语意义。研究发现，“#RejectBodyAnxiety”下的身体积极主义讨论通过与当地后女性主义思潮及平台提供的赋权机制的结合，被重新塑造成了“理想中的积极身体形象”。这种后女性主义话语通过摒弃传统美学的极端特征（选择性颠覆）并使其看起来更易实现（策略性顺应），从而将传统审美观念转化为看似积极的形式。虽然这种讨论有助于增强女性的自我认同感，但它也可能导致新的排斥现象，使某些女性被边缘化，并加剧后女性主义内部的矛盾。通过追踪社交媒体中的这些讨论趋势，本文强调了在非西方语境下关注新兴身体形象推广话语的必要性。",
     "summary": "研究对RedNote上1915条#RejectBodyAnxiety帖子进行计算辅助批判性主题分析，揭示身体积极话语与后女性主义元素的复杂交织，表现为选择性颠覆与策略性顺从，重构了理想美的概念。",
     "reason": "使用计算辅助主题分析处理社交媒体数据，探讨身体积极话语与后女性主义矛盾，属于计算传播研究。",
     "tags": [
@@ -10257,7 +10357,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "As a burgeoning industry, artificial intelligence (AI) companion platforms capitalize on shifting societal attitudes toward tech-mediated relationships to introduce novel ways of connecting with nonhuman entities. But how are these platforms constituted, and how do they “sell” consumers the idea of human-AI relationships? By analyzing four prominent multimodal companions (AvatarOne, Digi, Paradot, and Replika), we argue that despite differences in architecture and style, state-of-the-art platforms converge on the following sociotechnical qualities: human-likeness, accessibility, customizability, and relationship progression. By creating technical affordances to augment these qualities, companion platforms ultimately project what we call a future of on-demand intimacy – intimacy that can be acquired in a truly frictionless manner. Beyond examining how commercial entities mobilize the grammar of human intimacy in tandem with on-demand culture to create new markets, this study offers a conceptual framework for future research into how platform dynamics shape not only the availability but also the meaning of intimacy in human–AI interactions.",
-    "abstract_zh": "作为一门蓬勃发展的行业，人工智能（AI）伴侣平台利用社会对技术中介关系的态度变化，引入了与非人类实体建立联系的新方式。但这些平台是如何构建的？它们又是如何向消费者推销“人机关系”这一概念的呢？通过分析四个著名的多模态伴侣平台（AvatarOne、Digi、Paradot和Replika），我们认为，尽管这些平台在架构和风格上存在差异，但最先进的平台在以下几个社会技术特性上是一致的：类人特性、可访问性、可定制性以及关系发展的可能性。通过提供技术手段来增强这些特性，伴侣平台最终呈现了一种我们称之为“按需亲密关系”的未来——这种亲密关系可以以真正无缝的方式获得。除了探讨商业实体如何结合“按需文化”来利用人际亲密关系的语言规则以创造新市场之外，本研究还为未来研究提供了理论框架，这些研究将探讨平台动态不仅如何影响亲密关系的可获得性，还如何影响其意义。",
+    "abstract_zh": "作为一项蓬勃发展的行业，人工智能（AI）伴侣平台利用社会对技术中介关系的态度变化，引入了与非人类实体建立联系的新方式。但这些平台是如何构建的？它们又是如何向消费者推销“人机关系”这一概念的呢？通过分析四种著名的多模态伴侣平台（AvatarOne、Digi、Paradot和Replika），我们认为，尽管这些平台在架构和风格上存在差异，但最先进的平台在以下社会技术特性上是一致的：类人特性、可访问性、可定制性以及关系发展的可能性。通过创造技术手段来增强这些特性，伴侣平台最终呈现了一种我们称之为“按需亲密关系”的未来——这种亲密关系可以以真正无摩擦的方式获得。除了探讨商业实体如何结合“按需文化”来利用人际亲密关系的语言规则以创造新市场之外，本研究还为未来研究提供了概念框架，这些研究将探讨平台动态不仅如何影响亲密关系的可获得性，还如何影响其意义。",
     "summary": "通过对四个多模态AI伴侣平台的分析，探讨其人性化、可访问性、可定制性和关系进展等技术特质，揭示平台如何构建“按需亲密”的愿景。",
     "reason": "研究AI伴侣平台的社会技术特性，涉及AI社会影响与平台分析，符合AI特别条款。",
     "tags": [
@@ -10278,7 +10378,7 @@
   {
     "id": 581,
     "title": "Exploring the influencing factors of intermittent discontinuance behaviour in online knowledge communities: a hybrid of meta-analysis and DEMATEL—ISM—MICMAC",
-    "title_zh": "探索在线知识社区中间歇性中断行为的影响因素：一种元分析与DEMATEL—ISM—MICMAC方法的结合",
+    "title_zh": "探索在线知识社区中间歇性中断行为的影响因素：元分析与DEMATEL—ISM—MICMAC方法的结合应用",
     "authors": [
       "Junjun Li",
       "Ning Wang",
@@ -10393,7 +10493,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "While previous studies have examined online homogenous information experiences as theorized by various concepts (e.g., echo chambers and filter bubbles), we know less about how the general public makes sense of these encounters; their folk theories could be very different behind the same behaviors. Meanwhile, the contextual factors that shape the configurations of folk theories remain underexamined. This study thus leveraged a comparative approach, which contrasted folk theories with formal academic theories and compared folk theories across contexts. Combining large-scale computational frame analyses of social media posts (Weibo: N = 245,244; Twitter (now X): N = 171,125) and qualitative textual analysis, our mixed-method approach identified seven folk theories. They were compared with theories extracted based on a content analysis of relevant academic papers (N = 132). The cross-context comparison shows that unlike academic studies that emphasize algorithms and platforms’ roles, laypeople primarily attribute information homogeneity to political actors (US) and interest-based groups (China). This study highlights folk theories’ contextual contingencies and suggests a comprehensive theoretical framework that explains the configurations of folk theories in the current high-choice media environment.",
-    "abstract_zh": "虽然之前的研究已经从不同理论的角度（例如“回音室效应”和“信息过滤泡沫”）探讨了在线信息的一致性体验，但我们对于普通大众是如何理解这些现象的知之甚少；他们在面对相同行为时所形成的“民间理论”可能大相径庭。同时，影响这些“民间理论”形成的各种情境因素也尚未得到充分研究。因此，本研究采用了比较分析法，将“民间理论”与正式的学术理论进行对比，并在不同情境下对这些理论进行了分析。通过结合大规模的社交媒体帖子（微博：245,244条；Twitter（现称为X）：171,125条）的计算机框架分析以及定性文本分析，我们发现了七种“民间理论”。这些理论随后与基于相关学术论文内容分析得出的理论（132条）进行了对比。跨情境的比较结果表明，与那些强调算法和平台作用的学术研究不同，普通民众主要将信息的一致性归因于政治行为者（在美国）和基于兴趣的群体（在中国）。本研究突显了“民间理论”的情境依赖性，并提出了一个综合性的理论框架，用以解释当前高选择环境下“民间理论”的形成机制。",
+    "abstract_zh": "虽然之前的研究已经从不同理论角度（如“回音室效应”和“信息过滤泡沫”）探讨了在线信息同质化的现象，但我们对于普通大众是如何理解这些现象的知之甚少；在相同的行为背后，他们的民间理论可能存在着很大的差异。同时，影响这些民间理论形成的各种情境因素也尚未得到充分研究。因此，本研究采用了比较分析法，将民间理论与正式的学术理论进行对比，并在不同情境下对这些民间理论进行了分析。通过结合大规模的社交媒体帖子（微博：245,244条；Twitter（现称X）：171,125条）的定量分析以及定性文本分析，我们发现了七种民间理论。这些民间理论与基于相关学术论文内容分析得出的理论（共132条）进行了对比。跨情境的比较结果表明，与那些强调算法和平台作用的学术研究不同，普通大众主要将信息同质化的原因归咎于政治行为者（在美国）和基于兴趣的群体（在中国）。本研究突显了民间理论的情境依赖性，并提出了一个综合性的理论框架，用以解释当前高选择环境下民间理论的形成机制。",
     "summary": "通过分析微博和Twitter共41万条帖子，结合质性文本分析，对比中美公众对信息同质化的民俗理论与学术理论，发现公众归因差异。",
     "reason": "使用大规模社交媒体数据和计算框架分析，议题涉及信息同质化与算法，属于计算传播学。",
     "tags": [
@@ -10429,7 +10529,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Generative AI is reshaping how friendships are maintained, yet the implications of this technology for such social bonds in online contexts remain unclear. We conducted two 2 × 2 factorial between-subjects experiments to investigate this issue. In Study 1 (N = 341), we manipulated the source of a greeting message (human-written vs. AI-generated) and text personalization (non-personalized vs. personalized). In Study 2 (N = 325), we manipulated message source (human vs. AI) and the closeness of the friend (distant vs. close friend). Across both studies, AI-generated wishes were perceived as less sincere and as requiring less effort than human-generated wishes. As a result, recipients liked the AI-generated wishes less and reported lower friendship satisfaction. Additionally, personalization mitigated AI’s drawbacks, restoring perceived sincerity and effort; closeness buffered AI’s harm, so close friends’ AI messages were judged less negatively. These findings refine gift-giving theory and pinpoint when AI-generated messages undermine or sustain interpersonal bonds.",
-    "abstract_zh": "生成式人工智能（Generative AI）正在重塑人们维持友谊的方式，但这项技术对在线环境中社交关系的影响仍不明确。为了研究这一问题，我们进行了两项2×2因子设计的被试间实验。在研究1中（样本量N=341），我们改变了问候信息的来源（人工撰写 vs. 人工智能生成）以及信息的个性化程度（非个性化 vs. 个性化）。在研究2中（样本量N=325），我们改变了信息来源（人工 vs. 人工智能生成）以及朋友之间的亲密程度（关系疏远 vs. 关系亲密）。两项研究均表明，人工智能生成的祝福语被认为不如人工生成的真诚，且所需付出的努力也更少。因此，接收者对人工智能生成的祝福语的喜爱程度较低，同时报告的友谊满意度也较低。此外，信息的个性化能够缓解人工智能带来的负面影响，提升其真诚度和努力感；而朋友之间的亲密程度则可以减轻人工智能的负面影响，使得亲密朋友收到的人工智能生成的信息评价更为积极。这些发现丰富了礼物赠送的相关理论，并指出了在何种情况下人工智能生成的信息会破坏或维护人际关系。",
+    "abstract_zh": "生成式人工智能（Generative AI）正在改变人们维持友谊的方式，但这项技术对在线环境中社交关系的影响仍不明确。为了研究这一问题，我们进行了两项2×2因子实验（between-subjects experiments）。在研究1中（样本量N=341），我们操控了祝福信息的来源（人工撰写 vs. 人工智能生成）以及信息的个性化程度（非个性化 vs. 个性化）。在研究2中（样本量N=325），我们操控了信息来源（人工 vs. 人工智能生成）以及朋友的亲密程度（关系疏远 vs. 关系亲密）。两项研究均表明，人工智能生成的祝福信息被认为不如人工生成的真诚，且所需投入的努力也较少。因此，接收者对人工智能生成的祝福信息的接受度较低，表达出的友谊满意度也较低。此外，信息的个性化能够缓解人工智能的负面影响，提升其真诚度和投入感；而朋友之间的亲密关系也能减轻人工智能带来的负面影响，使得亲密朋友收到的人工智能生成的信息受到较少的负面评价。这些发现丰富了关于礼物赠送的理论，并指出了在何种情况下人工智能生成的信息会破坏或维护人际关系。",
     "summary": "通过两个实验探究AI生成生日祝福对人际感知的影响，发现个性化与亲密关系缓解负面反应",
     "reason": "研究AI生成内容在社交媒体上的传播效果，符合AI社会影响条款",
     "tags": [
@@ -10467,7 +10567,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Data donations are a method to access user-level digital trace data, as they provide fine-grained measures of content exposure on social media. The interest in data donation as a data collection method is accompanied by a broad uncertainty about the reasons that drive the donation of data by users. The current literature lacks comparative analysis across various platforms. This study investigates platform-specific predictors for data donation behavior of a non-probability quota sample of German social media users (N = 2,296) for YouTube, Facebook, Instagram, and TikTok and the resulting non-response biases. Based on the analysis of 340 data donation packages, we find that participants are less likely to donate TikTok data compared to the other platforms. Gender is the main driver during the willingness step for drop offs, while political leaning is a key predictor for all platforms except Facebook during the donation stage. Data donors tend to self-report less active social media usage with news and political content than those who donate data. Our findings highlight the importance of considering platform-specific differences in expected donation rates, biases, and the potential for discrepancies between indicated willingness and actual donation behavior when designing and interpreting data donation studies.",
-    "abstract_zh": "数据捐赠是一种获取用户级数字追踪数据的方法，因为这些数据能够提供关于用户在社交媒体上内容曝光情况的详细信息。尽管数据捐赠作为一种数据收集方式受到了广泛关注，但人们对于用户捐赠数据的具体动机仍存在诸多不确定性。现有文献缺乏对不同平台之间数据捐赠行为的比较分析。本研究针对德国社交媒体用户（样本量N=2,296）在YouTube、Facebook、Instagram和TikTok上的数据捐赠行为，探讨了与平台特性相关的预测因素以及由此产生的非响应偏差。通过对340份数据捐赠记录的分析，我们发现参与者捐赠TikTok数据的可能性低于其他平台。在决定是否捐赠的阶段，性别是影响捐赠意愿的主要因素；而在实际捐赠过程中，政治倾向是所有平台（Facebook除外）的关键预测变量。与不捐赠数据的人相比，捐赠数据的人往往自报在社交媒体上的活跃度较低，且更少关注新闻和政治相关内容。我们的研究结果强调了在设计和解释数据捐赠研究时，必须考虑平台差异对预期捐赠率、捐赠行为偏差以及意愿表达与实际捐赠行为之间可能存在的差异的重要性。",
+    "abstract_zh": "数据捐赠是一种获取用户级数字追踪数据的方法，因为这些数据能够提供关于用户在社交媒体上内容曝光情况的详细信息。尽管数据捐赠作为一种数据收集方式受到了广泛关注，但人们对于用户捐赠数据的具体动机仍存在很多不确定性。现有文献缺乏对不同平台之间数据捐赠行为的比较分析。本研究调查了德国社交媒体用户（样本量N=2,296）在YouTube、Facebook、Instagram和TikTok这三个平台上数据捐赠行为的平台特定影响因素，以及由此产生的非响应偏差。通过对340份数据捐赠记录的分析，我们发现参与者在TikTok上的数据捐赠意愿较低。在决定是否捐赠的阶段，性别是影响捐赠意愿的主要因素；而在实际捐赠过程中，政治倾向是所有平台（Facebook除外）的关键预测因素。与不捐赠数据的人相比，捐赠数据的人往往自报在社交媒体上的活跃度较低，且更少关注新闻和政治类内容。我们的研究结果强调了在设计和解释数据捐赠研究时，考虑平台特定差异的重要性，包括预期的捐赠率、潜在的偏差，以及用户表示的捐赠意愿与实际捐赠行为之间的可能差异。",
     "summary": "通过德国用户样本分析YouTube、Facebook、Instagram、TikTok的数据捐赠意愿与行为，发现平台差异及偏差。",
     "reason": "研究社交媒体平台数据捐赠行为，涉及数字追踪数据与平台差异，属计算传播学。",
     "tags": [
@@ -10503,7 +10603,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Social media environments are increasingly exploited by manipulative actors through coordinated social media manipulation (CSMM) campaigns: the intentional and deceptive orchestration of social media networks to manipulate content visibility and public opinion formation. In recent years, research on CSMM has grown rapidly, and the field lacks a systematic synthesis of empirical findings on observed campaigns. This study addresses that gap through a systematic review of 83 studies sourced from Web of Science and EBSCOHost, each analyzing observed digital traces of CSMM. We introduce a conceptual model that frames CSMM as a three-step process: covert operation, implementation, and influence. Using this model, we map the existing research findings, identify critical gaps, and outline future research directions. The review shows that research disproportionately focuses on election periods, state-backed actors, and text-based content on Twitter/X while overlooking multimodal forms, platform-specific manipulation strategies, and broader geopolitical contexts. Linking online campaigns to offline actors, as well as assessing the impact of CSMM, also remain challenges. Overall, we call for integrative analytical frameworks that incorporate comparative designs, cross-platform and multilingual analyses, and greater attention to the dynamics of audience interaction.",
-    "abstract_zh": "社交媒体环境正日益被操纵者利用，他们通过协调一致的社交媒体操纵（CSMM）活动来达到目的：这些活动是有意且具有欺骗性的，旨在操控内容的可见性和公众舆论的形成。近年来，关于CSMM的研究迅速增长，但该领域缺乏对已观察到的操纵行为的系统性实证研究总结。本研究通过系统回顾来自Web of Science和EBSCOHost的83项研究来填补这一空白，每项研究都分析了CSMM的数字痕迹。我们提出了一个概念模型，将CSMM划分为三个步骤：隐蔽操作、实施和影响。利用这一模型，我们梳理了现有的研究发现，指出了关键的研究空白，并提出了未来的研究方向。回顾显示，现有研究主要集中在选举期间、国家支持的操纵者以及Twitter/X上的文本内容上，而忽视了多模态形式的操纵策略、平台特定的操纵手段以及更广泛的地缘政治背景。将在线活动与线下行为联系起来，以及评估CSMM的实际影响，仍然是需要解决的挑战。总体而言，我们呼吁建立综合性的分析框架，包括比较研究设计、跨平台和多语言分析，并更加关注受众互动的动态变化。",
+    "abstract_zh": "社交媒体环境正日益被操纵者利用，他们通过协调一致的社交媒体操纵（CSMM）活动来影响内容的可见性和公众舆论的形成。近年来，关于CSMM的研究迅速增长，但该领域缺乏对已观察到的操纵活动的系统性实证研究总结。本研究通过系统地回顾了来自Web of Science和EBSCOHost的83项研究来填补这一空白，每项研究都分析了CSMM的数字痕迹。我们提出了一个概念模型，将CSMM划分为三个步骤：隐蔽操作、实施和影响。利用这一模型，我们梳理了现有的研究成果，指出了关键的研究空白，并提出了未来的研究方向。回顾显示，现有研究主要集中在选举期间、国家支持的操纵者以及Twitter/X上的文本内容上，而忽视了多模态形式的操纵策略、平台特定的操纵手段以及更广泛的地缘政治背景。将在线活动与线下操纵者联系起来，以及评估CSMM的实际影响，仍然是亟待解决的问题。总体而言，我们呼吁建立综合性的分析框架，采用比较研究方法、跨平台和多语言的分析手段，并更加关注受众互动的动态变化。",
     "summary": "系统综述83项关于协调性社交媒体操纵（CSMM）的实证研究，提出三阶段概念模型，梳理现有发现与不足，呼吁跨平台、多语言及比较性分析框架。",
     "reason": "选题涉及社交媒体操纵与计算宣传，属计算传播核心议题；虽为综述，但系统梳理实证计算研究。",
     "tags": [
@@ -10524,7 +10624,7 @@
   {
     "id": 1619,
     "title": "Digital delegitimization: Biden representations in the astroturfing discourse of the RuNet",
-    "title_zh": "数字去合法化：拜登在俄罗斯网络（RuNet）的虚假造势（astroturfing）言论中的形象",
+    "title_zh": "数字去合法化：拜登在俄罗斯网络（RuNet）的虚假造势言论中的形象",
     "authors": [
       "Kuralay Mukhambetova",
       "Dmitry Mikhailov",
@@ -10539,7 +10639,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article examines the delegitimization strategies employed by Russian bot networks in constructing the image of U.S. President Joe Biden on the VKontakte platform. Drawing on a unique corpus of 48,000 bot-generated messages (2019–2024), the study employs natural language processing, sentiment analysis, and topic modeling to uncover the rhetorical, lexical, and thematic features of astroturfing discourse. The findings reveal a systematic pattern of “low-threshold rhetorical toxicity”, in which irony, infantilization, and cognitive stigmatization are used to simulate grassroots discontent while avoiding overt aggression. The figure of Biden is strategically deconstructed into a symbol of weakness, senility, and geopolitical threat. This campaign functions not only to undermine a specific political actor but to reinforce broader anti-Western and pro-authoritarian narratives. The analysis contributes to understanding how digital propaganda produces simulated public opinion through coordinated, affectively loaded micro-discourses embedded within controlled information ecosystems.",
-    "abstract_zh": "本文研究了俄罗斯机器人网络在VKontakte平台上塑造美国总统乔·拜登形象时所采用的去合法化策略。通过分析48,000条由机器人生成的消息（时间跨度为2019年至2024年），该研究运用自然语言处理、情感分析和主题建模技术，揭示了这些虚假舆论（astroturfing）话语的修辞、词汇和主题特征。研究结果表明，这些言论存在一种“低门槛的修辞毒性”模式：研究者们通过使用讽刺、 infantilization（将成年人视为儿童般对待）和认知污名化等手段来模拟民众的不满情绪，同时避免使用明显的攻击性语言。拜登的形象被系统性地贬低为软弱、衰老以及地缘政治威胁的象征。这种宣传活动不仅旨在削弱特定的政治人物，还进一步强化了反西方和亲威权的意识形态。这项分析有助于我们理解数字宣传是如何通过协调一致的、带有情感色彩的微话语，在受控制的信息生态系统中制造出虚假的公众舆论的。",
+    "abstract_zh": "本文研究了俄罗斯机器人网络在VKontakte平台上塑造美国总统乔·拜登形象时所采用的去合法化策略。通过分析48,000条由机器人生成的消息（2019–2024年），研究运用自然语言处理、情感分析和主题建模技术，揭示了这些虚假舆论（astroturfing）言论的修辞、词汇和主题特征。研究结果表明，这些言论存在一种“低门槛的修辞毒性”模式：研究者们通过讽刺、 infantilization（将他人视为幼稚或不成熟的人）和认知污名化等手段来模拟民众的不满情绪，同时避免使用明显的攻击性语言。拜登的形象被系统性地贬低为软弱、衰老以及地缘政治威胁的象征。这种宣传活动不仅旨在削弱特定的政治人物，还进一步强化了反西方和亲威权的观点。该分析有助于我们理解数字宣传如何通过受控制的信息生态系统中协调一致的、带有情感色彩的微言论来制造虚假的公众舆论。",
     "summary": "研究分析俄罗斯机器人网络在VK平台构建拜登负面形象的话语策略，基于48,000条消息，通过NLP、情感分析和主题建模揭示低阈值修辞毒性，模拟草根不满以强化反西方叙事。",
     "reason": "使用NLP、情感分析和主题建模分析俄罗斯机器人网络话语，议题与方法均属计算传播学。",
     "tags": [
@@ -10561,7 +10661,7 @@
   {
     "id": 1137,
     "title": "Going Local? Localized Rhetoric in Congressional Communications",
-    "title_zh": "走向本地化？国会沟通中的本土化修辞",
+    "title_zh": "走向本地化？国会沟通中的本地化修辞",
     "authors": [
       "Michael Heseltine"
     ],
@@ -10573,7 +10673,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "In the face of the purported nationalization of political discourse in the United States, to what extent do congressional representatives still engage locally through their public communications? Based on a comprehensive dataset of over nine million tweets and Facebook posts sent by Members of Congress between 2011 and 2023, analyzed through a first-of-its-kind fine-tuned machine learning classifier of local content combined with a hand-coded list of over 4000 news web domains, this paper assesses how often Members use localized messaging, which Members are most inclined to use locally-focused communications, and whether a local communications strategy is associated with electoral or political advantages for Members. The results suggest, first, that congressional communications still contain a substantial and consistent focus on local content. The use of local messaging is also dynamic and strategic, with Members in a position of congressional and presidential control being most prone to focusing on local content. However, across a range of measures, localized messaging is not associated with increased constituent approval, campaign fundraising, or electoral performance for Members. These results, collectively, highlight how even in a nationalized online communications environment, local factors still play a significant role in guiding Member messaging strategies, even in the absence of tangible political benefits.",
-    "abstract_zh": "面对美国政治话语所谓的“国家化”趋势，国会议员在多大程度上仍然通过公开沟通与当地选民保持联系？本文基于2011年至2023年间国会议员发布的超过900万条推文和脸书帖子的完整数据集，运用了一种创新的、针对本地内容的机器学习分类器，并结合了4000多个新闻网站的清单进行数据分析。研究探讨了议员们使用本地化信息的频率、哪些议员更倾向于采用本地化沟通方式，以及这种沟通策略是否对他们的选举或政治生涯有积极影响。研究结果表明：首先，国会议员的沟通内容中仍然大量且持续地包含本地相关内容；其次，议员们在使用本地化信息时表现出策略性，尤其是那些在国会或总统选举中占据有利位置的议员；然而，从多个指标来看，本地化信息并未显著提升选民的支持率、竞选资金筹集量或选举表现。这些结果共同表明，即使在网络沟通日益“国家化”的环境下，本地因素仍在很大程度上影响着议员的沟通策略——即使这些策略在短期内看不到明显的政治收益。",
+    "abstract_zh": "面对美国政治话语所谓的“国家化”趋势，国会议员在多大程度上仍然通过公开沟通与当地选民保持联系？本文基于2011年至2023年间国会议员发布的超过900万条推文和Facebook帖子的全面数据集，运用了一种创新的、针对本地内容的机器学习分类器，并结合了4000多个新闻网站的清单进行数据分析。研究探讨了国会议员使用本地化信息的频率、哪些议员更倾向于采用本地化沟通方式，以及这种沟通策略是否能为议员带来选举或政治上的优势。研究结果表明：首先，国会议员的沟通内容中仍然大量且持续地包含本地相关内容；其次，他们使用本地化信息的方式具有策略性，尤其是那些在国会或总统选举中占据有利地位的议员更倾向于关注本地议题。然而，在多个衡量指标上，本地化信息并未显著提升选民的支持率、竞选资金筹集量或议员的选举表现。这些结果共同表明：即使在网络沟通日益“国家化”的背景下，本地因素仍在很大程度上影响着议员的沟通策略——即使这些策略在短期内看不到明显的政治收益。",
     "summary": "基于九百万条国会议员推文和Facebook帖子，用微调机器学习分类器分析地方化修辞的使用、策略及政治影响。",
     "reason": "使用大规模社交媒体数据与机器学习分类器分析政治传播，属于计算传播学。",
     "tags": [
@@ -10594,7 +10694,7 @@
   {
     "id": 768,
     "title": "Between AI fear and digital agency: technological familiarity and risk perception of generative AI’s epistemic power",
-    "title_zh": "在人工智能恐惧与数字自主性之间：人们对生成式人工智能认知能力的技术熟悉度与风险感知",
+    "title_zh": "在人工智能恐惧与数字自主性之间：人们对生成式人工智能认知能力的熟悉度与风险感知",
     "authors": [
       "Mauro Barisione",
       "Ilir Rama",
@@ -10608,7 +10708,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study examines public perceptions of the risks associated with Generative Artificial Intelligence (GenAI), focusing on its potential ‘epistemic power’ – i.e., its capacity to redefine knowledge production – including its ability to blur the boundaries between real and fully synthetic content, thereby facilitating misinformation and potentially undermining democratic stability. We posit that social media use, GenAI familiarity, and the ability to discern synthetic content result in asymmetric risk perception patterns through mechanisms of digital habituation, agency, control, and fear. An online survey experiment (N = 1,800) shows that social media use and tech-savviness lower perceived risks, while unfamiliarity heightens ‘epistemic fear’. Priming with GenAI political content increases risk sensitivity, especially among less AI-savvy respondents. By demonstrating the asymmetric role of exposure in modulating risk perceptions and bringing attention to the complex interplay between human agency and artificial intelligence, this study questions deterministic accounts of the epistemic power attributed to Generative AI technologies. Instead, it emphasizes how individuals’ digital trajectories and modes of engagement inform their responses to AI-generated political content, but it also suggests that tech-savvy users may potentially underestimate GenAI’s societal threats due to overconfidence, while less experienced users may overestimate them as a result of digital exclusion and epistemic fear.",
-    "abstract_zh": "本研究探讨了公众对生成式人工智能（GenAI）相关风险的认知，重点关注其潜在的“认知能力”——即重新定义知识生产的能力。这种能力使得真实内容与完全合成内容之间的界限变得模糊，从而可能传播错误信息，并对民主制度的稳定性构成威胁。研究认为，社交媒体使用频率、对GenAI的熟悉程度以及辨别合成内容的能力，通过数字习惯化、主体性、控制感和恐惧心理等机制，导致了风险认知的不对称性。一项在线调查实验（样本量N=1,800）表明，社交媒体使用和较高的技术素养能够降低人们对风险的感知；而缺乏对GenAI的了解则会加剧人们的“认知恐惧”。预先接触与GenAI相关的政治内容会提高风险感知度，尤其是在那些对AI了解较少的受访者中。通过揭示暴露于GenAI内容在调节风险认知中的不对称作用，并强调人类主体性与人工智能之间的复杂互动，本研究对将生成式AI技术的认知能力视为决定性因素的观点提出了质疑。研究表明，个体的数字使用习惯和参与方式会影响他们对AI生成的政治内容的反应；同时，技术素养较高的用户可能因过度自信而低估GenAI的社会威胁，而经验较少的用户则可能因数字排斥感和认知恐惧而高估这些威胁。",
+    "abstract_zh": "本研究探讨了公众对生成式人工智能（GenAI）相关风险的认知，重点关注其潜在的“认知能力”——即重新定义知识生产的能力。这种能力使得真实内容与完全合成内容之间的界限变得模糊，从而可能传播错误信息，并对民主制度的稳定性构成威胁。研究认为，社交媒体使用频率、对GenAI的熟悉程度以及辨别合成内容的能力，通过数字习惯化、主体性、控制感和恐惧心理等机制，导致了人们风险认知的不对称性。一项在线调查实验（样本量N=1,800）表明，社交媒体使用和较高的技术素养能够降低人们对风险的感知；而缺乏对GenAI的了解则会加剧人们的“认知恐惧”。预先接触与GenAI相关的政治内容会提高人们对风险的敏感度，尤其是在那些对AI了解较少的受访者中。通过揭示暴露于GenAI内容在调节风险认知中的不对称作用，并强调人类主体性与人工智能之间的复杂互动关系，本研究对将生成式人工智能技术视为具有决定性认知能力的观点提出了质疑。研究表明，个体的数字使用习惯和参与方式会影响他们对AI生成的政治内容的反应；同时，技术素养较高的用户可能因过度自信而低估GenAI的社会威胁，而经验较少的用户则可能由于数字排斥感和认知恐惧而高估这些威胁。",
     "summary": "通过在线调查实验（N=1800）考察社交媒体使用、GenAI熟悉度等因素对公众感知生成式AI认知权力风险的影响，揭示数字习惯与恐惧的不对称作用。",
     "reason": "选题聚焦生成式AI的社会影响与风险感知，符合AI社会影响特别条款，即使方法为传统调查实验仍纳入。",
     "tags": [
@@ -10643,7 +10743,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study investigates Russian television coverage of Ukraine between 2009 and 2019, drawing on a dataset of over 2.3 million news episodes from eight major television networks and one news agency (Interfax), including both state-controlled and relatively independent outlets. Combining natural language processing techniques with a quasi-experimental design, the analysis traces changes in content patterns over time. The results provide strong evidence consistent with the first hypothesis: following a state-enforced management change at RBC TV in 2016, the network increased the share of news coverage primarily focused on Ukraine by up to 40 percent, depending on the assumed treatment date. Evidence for the second hypothesis—which posits that RBC’s reporting would become more similar to state-controlled outlets—remains only partial. Cosine similarity analysis shows that RBC’s content became more similar to several state-controlled outlets while diverging from relatively independent TV Rain (Dozhd). Sentiment-polarity analysis indicates that RBC’s coverage became modestly more negative after the takeover. These findings suggest that content changes following institutional intervention may reflect increased alignment with state-linked narratives while preserving outlet-specific variation. The study contributes to research on media alignment in autocratic contexts by analyzing a single-case pattern and highlights both the potential and limitations of computational text analysis in examining large-scale trends in state media coverage.",
-    "abstract_zh": "本研究调查了2009年至2019年间俄罗斯电视台对乌克兰事件的报道情况，使用了来自八家主要电视台和一个新闻机构（Interfax）的超过230万条新闻报道的数据集，这些媒体包括国有控制的和相对独立的媒体。通过结合自然语言处理技术和准实验设计，分析追踪了内容模式随时间的变化。研究结果为第一个假设提供了有力证据：2016年RBC电视台发生国有控制下的管理层变动后，该电视台对乌克兰相关新闻的报道比例增加了多达40%（具体增加幅度取决于所假设的变动时间点）。关于第二个假设（即RBC的报道方式会变得更类似于国有控制媒体）的证据仅部分成立。余弦相似性分析表明，RBC的内容与几家国有控制媒体更为相似，而与相对独立的Rain电视台（Dozhd）则存在差异。情感极性分析显示，RBC的报道在管理层变动后变得更加负面。这些发现表明，制度干预后的内容变化可能反映了媒体与国家官方叙事的一致性增强，同时仍保留了不同媒体的报道特点。本研究通过分析一个具体案例，为研究专制环境下媒体的报道倾向提供了新的视角，并指出了计算文本分析在探讨国有媒体大规模报道趋势时的局限性与潜力。",
+    "abstract_zh": "本研究调查了2009年至2019年间俄罗斯电视台对乌克兰事件的报道情况，使用了来自8家主要电视台和1家新闻机构（Interfax）的超过230万条新闻报道的数据集，这些媒体包括受国家控制的电视台以及相对独立的媒体。通过结合自然语言处理技术和准实验设计，分析追踪了内容模式随时间的变化。研究结果为第一个假设提供了有力证据：2016年RBC电视台发生国家强制性的管理变更后，该电视台对乌克兰事件的报道比例增加了多达40%（具体增幅取决于所假设的变更时间点）。对于第二个假设（即RBC的报道方式会变得更类似于受国家控制的媒体）的证据则较为有限。余弦相似性分析表明，RBC的内容与几家受国家控制的电视台更为相似，而与相对独立的Rain电视台（Dozhd）则存在差异。情感极性分析显示，RBC的报道在变更后变得更加负面。这些发现表明，制度干预后的内容变化可能反映了媒体报道与国家立场的一致性增强，同时仍保留了不同媒体之间的差异性。本研究通过分析一个具体案例，为研究专制环境下媒体的报道倾向提供了新的视角，并指出了计算文本分析在探讨国家媒体大规模报道趋势时的局限性与潜力。",
     "summary": "研究2009-2019年俄罗斯电视对乌克兰报道，结合NLP与准实验设计，发现RBC TV在2016年管理层变更后增加乌克兰报道份额，内容更接近国家控制媒体，但存在差异。",
     "reason": "使用NLP和准实验分析超230万条电视新闻数据，研究媒体内容变化，属计算传播学。",
     "tags": [
@@ -10665,7 +10765,7 @@
   {
     "id": 1138,
     "title": "The Logic of Connective Faction: How Digitally Networked Elites and Hyper-Partisan Media Radicalize Politics",
-    "title_zh": "连接性群体的逻辑：数字化网络化的精英与极端党派媒体如何推动政治激进化",
+    "title_zh": "连接性派系的逻辑：数字化网络化的精英与极端党派媒体如何推动政治激进化",
     "authors": [
       "Curd Knüpfer",
       "Yunkang Yang",
@@ -10681,7 +10781,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Across democratic systems, ideological cleavages increasingly emerge not only between but also within political parties. At the same time, hyperpartisan and digitally networked media ecosystems amplify polarization by fostering ideologically segmented information networks. To explain the interplay between internal party divisions and digital connectivity, we introduce a novel framework termed the “logic of connective faction.” We illustrate this framework via a case from the US, and the sudden circulation of the issue of “Critical Race Theory” (CRT), which became a far-right moniker for almost any discussion of race, particularly in education. Utilizing an original dataset comprising right-wing and mainstream news sources, newsletters and social media posts by Republican Members of Congress (n = 1,941,742), we analyze ideological behavior and connectivity patterns, distinguishing Republicans who adopted the “CRT” issue from their co-partisans who did not. We find that the former group represents a distinct faction characterized by greater ideological extremity and deeper integration into right-wing digital networks. Beyond this combination of political behavior and digital connectivity, we highlight various networked media logics, such as platform-based engagement and media attention, which may incentivize such factional behaviors. Finally, we consider implications for political actors and media systems beyond the US.",
-    "abstract_zh": "在民主制度中，意识形态分歧不仅在政党之间日益明显，也在政党内部出现。与此同时，极端党派化的数字媒体生态系统通过促进意识形态割裂的信息传播，进一步加剧了社会两极分化。为了解释党内分歧与数字连接之间的相互作用，我们提出了一个名为“连接性派系逻辑”（Logic of Connective Faction）的新框架。我们以美国的案例来说明这一框架——特别是“批判种族理论”（Critical Race Theory, CRT）这一概念的突然流行。这一理论几乎被右翼势力用来指代任何与种族相关的讨论，尤其是在教育领域。我们利用一个包含右翼和主流新闻来源、通讯以及共和党国会议员发布的社交媒体帖子的原始数据集（共1,941,742条数据），分析了这些议员的意识形态行为和网络连接模式，区分了那些接受“批判种族理论”观点的共和党人与那些不接受该观点的共和党人。研究发现，前者形成了一个具有更极端意识形态立场、且更深入融入右翼数字网络的独特派系。除了这种政治行为与数字连接的结合之外，我们还探讨了各种网络媒体机制（如平台上的互动和媒体关注度）如何可能激励这种派系化行为。最后，我们讨论了这一现象对美国以外的政治行为体和媒体系统可能产生的影响。",
+    "abstract_zh": "在民主制度中，意识形态分歧不仅在政党之间日益明显，也在政党内部出现。同时，极端党派化的数字媒体生态系统通过促进意识形态割裂的信息传播，进一步加剧了社会的两极分化。为了解释党内分歧与数字媒体之间的相互作用，我们提出了一个名为“连接性派系逻辑”（Logic of Connective Faction）的新框架。我们以美国的例子来说明这一框架——特别是“批判种族理论”（Critical Race Theory, CRT）这一概念的突然流行。这一理论几乎被右翼势力用来指代任何关于种族的讨论，尤其是在教育领域。我们利用一个包含右翼和主流新闻来源、通讯以及共和党国会议员发布的社交媒体帖子的原始数据集（共1,941,742条数据），分析了这些议员的意识形态行为和网络连接模式，区分了那些接受“批判种族理论”观点的共和党人与那些不接受这一观点的共和党人。研究发现，前者构成了一个具有更极端意识形态立场、且更深入融入右翼数字网络的独特派系。除了这种政治行为与数字媒体连接的结合之外，我们还探讨了各种网络媒体逻辑（如平台上的互动和媒体关注度）如何可能激励这种派系化行为。最后，我们讨论了这一现象对美国以外的政治行为体和媒体系统可能产生的影响。",
     "summary": "提出“联结派系逻辑”框架，结合右翼新闻、邮件和国会议员社交媒体数据，分析采用CRT议题的共和党人的意识形态极端性与数字网络融合。",
     "reason": "使用大规模数字数据与网络分析研究社交媒体与党派极化，兼具计算方法与传播议题。",
     "tags": [
@@ -10703,7 +10803,7 @@
   {
     "id": 1836,
     "title": "Misinformation according to news audiences: what do audiences in the U.S. and the Netherlands characterize as misinformation versus credible information on climate change?",
-    "title_zh": "根据新闻受众的观点：美国和荷兰的受众如何区分关于气候变化的错误信息与可信信息？",
+    "title_zh": "根据新闻受众的看法：美国和荷兰的受众如何区分关于气候变化的错误信息与可信信息？",
     "authors": [
       "Michael Hameleers",
       "Toni G.L.A. van der Meer"
@@ -10716,7 +10816,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract Although misinformation has been regarded as an urgent global risk, empirical evidence on its prevalence is scarce. Yet, news users across different countries believe that about half of all information they see is misinformation. Such heightened risk perceptions can have severe ramifications, as people who perceive that misinformation prevails may systematically distrust or avoid all established information. Yet, we currently lack evidence on how misinformation is perceived by news users, and how they distinguish it from accurate information. Therefore, we rely on the analysis of experienced misinformation versus credible information regarding the issue of climate change submitted by participants via hyperlinks in surveys across the US and the Netherlands (N = 1,396). Our main findings indicate that perceived misinformation encompasses a wide range of information disorders and sources whilst being infused with partisan biases. Perceptions of credible information are more consensual and echo ideal types of trustworthy information from credible, authoritative sources. Our findings illustrate how news users perceive the boundary between real and false information, which may offer a useful starting point for interventions aiming to raise awareness about the distinction between misinformation and reliable news.",
-    "abstract_zh": "尽管错误信息一直被视为一个紧迫的全球性风险，但关于其传播范围的实证证据却非常有限。然而，不同国家的新闻用户普遍认为他们所看到的信息中大约有一半是错误信息。这种对风险的高度认知可能会产生严重后果，因为那些认为错误信息普遍存在的人可能会系统性地不信任或避免所有经过验证的信息。目前，我们缺乏关于新闻用户如何感知错误信息以及他们如何区分错误信息和准确信息的证据。因此，我们通过分析美国和荷兰（N=1,396）的调查参与者提供的关于气候变化的错误信息与可信信息的案例来进行研究。主要研究结果表明，人们所认为的错误信息涵盖了多种类型的信息和来源，并且这些错误信息往往带有党派偏见。而对可信信息的认知则更为一致，更符合来自可信、权威来源的“理想型”可信信息的特点。我们的研究结果揭示了新闻用户如何区分真实信息和虚假信息，这为旨在提高人们对错误信息与可靠新闻之间区别的认识的干预措施提供了一个有用的起点。",
+    "abstract_zh": "尽管错误信息已被视为一个紧迫的全球性风险，但关于其传播范围的实证证据仍然十分有限。然而，不同国家的新闻用户普遍认为他们所看到的信息中大约有一半是错误信息。这种对风险的高度感知可能会产生严重后果，因为那些认为错误信息普遍存在的人可能会系统性地不信任或避免所有经过验证的信息。目前，我们缺乏关于新闻用户如何感知错误信息以及他们如何区分错误信息和准确信息的证据。因此，我们通过分析美国和荷兰（N = 1,396）的调查参与者提供的关于气候变化问题的错误信息与可信信息的对比数据来进行研究。主要研究结果表明，人们所认为的错误信息涵盖了多种类型的信息和来源，并且这些信息往往带有党派偏见；而对可信信息的认知则更为一致，更符合来自权威、可靠来源的“理想型”可信信息的特点。我们的研究结果揭示了新闻用户如何区分真实信息和虚假信息，这为旨在提高人们对错误信息与可靠新闻之间区别的认识的干预措施提供了一个有用的起点。",
     "summary": "通过美荷两国调查，分析受众如何区分气候变化中的错误信息与可信信息，发现感知受党派偏见影响。",
     "reason": "研究虚假信息感知，属于计算传播核心议题，但方法为调查与内容分析。",
     "tags": [
@@ -10754,7 +10854,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract The rapid development of social media platforms and digital technology has expanded individuals' access to information, but it has also contributed to the emergence of information cocoons. This study investigates the impact of information cocoons in the context of China, with a particular focus on their influence on political support. The findings reveal a dual effect: information cocoons can directly diminish citizens' political support, while also strengthening the positive relationship between authority-oriented attitudes and political support. These results suggest that strategies to address the challenges posed by information cocoons should emphasize enhancing civic awareness and promoting critical engagement in information consumption.",
-    "abstract_zh": "社交媒体平台和数字技术的快速发展极大地扩展了个人获取信息的能力，但同时也导致了“信息茧房”的出现。本研究探讨了信息茧房在中国背景下的影响，特别关注其对政治支持的作用。研究结果表明，信息茧房具有双重效应：一方面会直接削弱公民的政治支持；另一方面则会强化以权威为导向的态度与政治支持之间的正向关系。因此，应对信息茧房带来的挑战的策略应着重于提高公民的媒介素养，并促进他们在信息消费中的批判性思维和积极参与。",
+    "abstract_zh": "社交媒体平台和数字技术的快速发展极大地扩展了个人获取信息的能力，但同时也导致了“信息茧房”的出现。本研究探讨了“信息茧房”在中国背景下的影响，特别关注其对政治支持的作用。研究结果表明，“信息茧房”具有双重效应：一方面会直接削弱公民的政治支持；另一方面则会强化以权威为导向的态度与政治支持之间的正向关系。因此，应对“信息茧房”所带来的挑战的策略应着重于提高公民的媒介素养，并促进他们对信息的批判性思考和积极参与。",
     "summary": "研究中国情境下信息茧房对公民政治支持的影响，发现其直接削弱政治支持，并强化权威取向与政治支持的正向关系。",
     "reason": "选题涉及信息茧房与算法推荐议题，属计算传播核心领域。",
     "tags": [
@@ -10826,7 +10926,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Users of news recommender systems read news recommended by algorithms and can discover useful information unintentionally or serendipitously. The feeling of surprise from this discovery can elicit users to continue reading. Increasing serendipity is believed to be a solution to isolated information bubbles; however, little research has explored its impact on news consumption. The study investigates the interactions between surprise, serendipity, and news consumption. Participants ( N = 463) recruited from Amazon MTurk in the United States participated in the online experiment. The findings suggest that serendipitous news discovery directly increases news consumption, with this relationship mediated by the feeling of surprise. Furthermore, users who experience higher serendipitous news discovery indicate more positive attitudes toward news consumption in these systems. The research integrates serendipity into news selection theories and contributes to a more nuanced understanding of how algorithmic systems can enhance user engagement. The results offer key implications for communication scholars and practitioners.",
-    "abstract_zh": "新闻推荐系统的用户会阅读算法推荐的新闻，有时会无意中或偶然地发现一些有用的信息。这种意外发现带来的惊喜感会促使用户继续阅读。提高这种偶然性（即“意外发现”的频率）被认为是打破信息孤岛（即用户只接触到自己感兴趣的信息）的一种方法；然而，目前很少有研究探讨这种偶然性对新闻消费行为的影响。本研究调查了惊喜感、偶然性以及新闻消费之间的关系。实验参与者（N=463）来自美国的Amazon MTurk平台。研究结果表明，偶然性的新闻发现会直接增加新闻消费量，这种关系是通过惊喜感来中介的。此外，那些经历更多偶然性新闻发现的用户对这些系统的新闻消费态度更为积极。该研究将“偶然性”这一因素纳入新闻选择理论中，有助于更深入地理解算法系统如何提升用户参与度。研究结果对传播学领域的学者和实践者具有重要的启示意义。",
+    "abstract_zh": "新闻推荐系统的用户会阅读算法推荐的新闻，有时会无意中或偶然地发现一些有用的信息。这种意外发现带来的惊喜感会促使用户继续阅读。人们认为，增加这种偶然性（即“意外发现”的机会）有助于打破信息孤岛（即用户只能接触到有限类型的信息的情况）；然而，目前关于这种偶然性对新闻消费影响的的研究还很少。本研究探讨了惊喜感、偶然性以及新闻消费之间的相互作用。实验参与者（N=463）来自美国的Amazon MTurk平台。研究结果表明，偶然性带来的新闻发现会直接增加新闻消费量，这种关系是通过惊喜感来中介的。此外，那些经历更多偶然性新闻发现的用户对这些系统的新闻消费态度更为积极。该研究将“偶然性”这一因素纳入新闻选择的理论框架中，有助于更深入地理解算法系统如何提升用户参与度。研究结果对传播学领域的学者和实践者具有重要的启示意义。",
     "summary": "通过463名美国参与者的在线实验，研究新闻推荐系统中意外发现（serendipity）与惊喜感对新闻消费的影响，发现惊喜感中介了意外发现对消费的正向作用。",
     "reason": "研究算法推荐系统与新闻消费，议题属于计算传播核心领域，虽用实验方法但主题强相关",
     "tags": [
@@ -10864,7 +10964,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract Despite extensive research on news consumption and political learning, the implications of emerging technologies, particularly artificial intelligence (AI)-driven smart media devices such as Amazon Echo and Google Home, remain underexplored. Moreover, little is known about how cognitive factors, such as trust in AI technologies, shape these dynamics. This study investigates the relationship between smart media use and political knowledge, emphasizing the mediating role of political discussion and the moderating influence of trust in AI. Drawing on survey data from three studies conducted across two countries, the findings reveal that news use via smart media devices is linked to both positive and negative outcomes for political knowledge, depending on the nature of individuals' political discussions. Specifically, smart media news use enhances political knowledge when discussions occur with strong social ties on social media, but it is negatively associated with knowledge when discussions involve weak ties. The magnitude of both positive and negative effects increases among those who exhibit greater trust in AI. By integrating smart media use and AI trust into existing models of political learning, this study offers novel insights into the evolving role of intelligent technologies in shaping citizens' political understanding in the digital age.",
-    "abstract_zh": "尽管关于新闻消费和政治学习的研究已经非常广泛，但新兴技术（尤其是由人工智能（AI）驱动的智能媒体设备，如Amazon Echo和Google Home）的影响仍尚未得到充分探索。此外，人们对认知因素（如对AI技术的信任）如何影响这些现象知之甚少。本研究探讨了智能媒体使用与政治知识之间的关系，强调了政治讨论的中介作用以及对AI的信任的调节作用。通过对两个国家进行的三项调查数据的分析，研究发现，通过智能媒体设备获取新闻对政治知识既有积极影响也有消极影响，这取决于个人在社交媒体上的政治讨论性质。具体而言，当政治讨论发生在具有紧密社会联系的人群中时，智能媒体新闻的使用能够提升政治知识；而当讨论涉及较弱的社会联系时，则会对政治知识产生负面影响。对于那些对AI具有更高信任度的人来说，这两种影响的程度都会增强。通过将智能媒体使用和对AI的信任纳入现有的政治学习模型中，本研究为理解智能技术在数字时代塑造公民政治理解方面的作用提供了新的见解。",
+    "abstract_zh": "尽管关于新闻消费和政治学习的研究已经非常广泛，但新兴技术（尤其是由人工智能（AI）驱动的智能媒体设备，如Amazon Echo和Google Home）的影响仍然没有得到充分探索。此外，人们对认知因素（如对AI技术的信任）如何影响这些现象知之甚少。本研究探讨了智能媒体使用与政治知识之间的关系，强调了政治讨论的中介作用以及对AI的信任的调节作用。通过对两个国家进行的三项调查数据的分析，研究发现，通过智能媒体设备获取新闻对政治知识的影响既有积极的一面，也有消极的一面，这取决于个人在社交媒体上的政治讨论性质。具体而言，当讨论发生在具有较强社会联系的人群中时，智能媒体新闻使用能够提升政治知识；而当讨论涉及较弱的社会联系时，则会对政治知识产生负面影响。对于那些对AI具有更高信任度的人来说，这两种影响的程度都会增强。通过将智能媒体使用和对AI的信任纳入现有的政治学习模型中，本研究为理解智能技术在数字时代塑造公民政治理解方面的作用提供了新的见解。",
     "summary": "基于两国三项调查数据，探究智能媒体新闻使用与政治知识的关系，发现政治讨论的中介作用和AI信任的调节作用。",
     "reason": "研究AI智能媒体对政治学习的影响，虽用调查法，但属于AI社会影响议题，符合特别条款。",
     "tags": [

@@ -1,0 +1,229 @@
+{
+  "topic_id": "topic_997f19cf",
+  "label": "性别议题与政治动员的传播效果",
+  "description": "关注社会运动与选举情境中性别态度变迁及性别化竞选信息的传播影响。",
+  "why_hot": "近30天日均发表速度较前期下降约63%，研究活跃度明显降温。",
+  "hot_score": 33,
+  "growth": -0.63,
+  "growth_rate": -0.63,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.18,
+  "recent_count": 2,
+  "baseline_count": 27,
+  "journal_count": 8,
+  "lineage_status": "continued",
+  "status": "emerging",
+  "keywords": [
+    "gender",
+    "social movements",
+    "campaign messages",
+    "feminist attitudes",
+    "political mobilization"
+  ],
+  "papers": [
+    {
+      "id": 2065,
+      "title": "When Movement Widens the Gap: The Contingent Effect of the Chinese #MeToo Movement on Feminist Attitudes",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-09-21",
+      "summary": "论文基于中国综合社会调查2010—2023年全国代表性数据，检验中国#MeToo运动对公众女性主义态度的影响，发现亲女性主义态度总体上升但沿性别身份与数字鸿沟呈现不均衡分化，提出社会技术权变框架解释运动的文化后果。"
+    },
+    {
+      "id": 2054,
+      "title": "Does Office Type Determine Gendered Campaign Messages?",
+      "journal": "Political Communication",
+      "published_date": "2026-09-18",
+      "summary": "研究考察候选人性别如何影响不同机构与层级下的竞选信息。基于2000-2022年韩国17次全国与地方选举中46,966份官方竞选手册，以关系性语言和女性相关政策词汇测量性别化信息。发现女性候选人更强调关系身份与女性政策议题，且性别差异在立法选举中大于行政选举，并随选举层级下沉而扩大。"
+    },
+    {
+      "id": 1952,
+      "title": "Generational warfare online? Social media use and intergroup attitudes in a national survey",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-20",
+      "summary": "利用美国全国调查数据（n=1,221），检验社交媒体使用与代际态度关联，发现总体关联微弱，平台特异性影响有限，讨论极端话语的可见性机制。"
+    },
+    {
+      "id": 1968,
+      "title": "Crowd-moderation of hateful content on social media: mobilizing bystanders through scalable interventions",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-19",
+      "summary": "通过美国与澳大利亚大规模调查实验，检验短视频和信息图干预能否提升用户举报和回应仇恨内容的意愿。"
+    },
+    {
+      "id": 1957,
+      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-08-18",
+      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
+    },
+    {
+      "id": 1954,
+      "title": "Toward inclusive online safety: evaluating the role of intersectionality on online abuse in the United Kingdom",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-17",
+      "summary": "论文评估交叉性因素在英国在线滥用中的作用，旨在促进包容性在线安全，可能采用数据驱动方法分析网络言论。"
+    },
+    {
+      "id": 1925,
+      "title": "Where digital hate finds its home: perpetrators' preferred affordances and their experiences with content moderation and user intervention",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-15",
+      "summary": "研究数字仇恨散布者偏好的平台功能及其对内容审核和用户干预的体验。"
+    },
+    {
+      "id": 1927,
+      "title": "The strategic provocation of digital hate: empowered targets’ perceptions of perpetrators and bystanders",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-13",
+      "summary": "通过对24位大学教授的访谈，探讨学者作为数字仇恨目标对施害者和旁观者的感知，强调权力失衡与战略挑衅，发现旁观者干预不足，需集体应对。"
+    },
+    {
+      "id": 1897,
+      "title": "Twitter Conversations: Gendered Issue Publics Among Women",
+      "journal": "Communication Research",
+      "published_date": "2026-08-03",
+      "summary": "利用2020和2022选举期间Twitter数据，分析性别与党派如何影响女性政治议题讨论，发现精英与非精英用户差异。"
+    },
+    {
+      "id": 13,
+      "title": "Social media, social identity, and the construction of perceived gender conflict: evidence from a national survey in South Korea",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
+    },
+    {
+      "id": 57,
+      "title": "Everyday feminist tagging as techno-rhetorical strategy: interference and curation through Instagram hashtags in #Kvinnostrejk",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-22",
+      "summary": "研究瑞典女性主义倡议#Kvinnostreik的日常标签实践，提出技术修辞策略概念，分析标签如何影响可见性并串联叙事，属数字文化研究。"
+    },
+    {
+      "id": 68,
+      "title": "Linking names with frames: the interplay of moral entities and moral frames in Chinese online gender debates",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-07",
+      "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
+    },
+    {
+      "id": 284,
+      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
+    },
+    {
+      "id": 1908,
+      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
+    },
+    {
+      "id": 1998,
+      "title": "“Turns Out My Paternal Grandmother has 16% Native Blood”: Racialized DNA, Race Destabilization, and Digital Race-(re)making on Social Media",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
+    },
+    {
+      "id": 2026,
+      "title": "It Doesn’t Take Extremes to Trigger Hate: A Mixed-Methods Study on Meme Extremity and User Comments on 9GAG",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究以9GAG为对象，先用潜类别分析对343条迷因按极端程度分类，再质性分析六类代表性迷因的评论区，发现匿名与群体认同使仇恨被幽默化、常态化，且纯幽默迷因亦能引发仇恨评论，议题敏感度与所指外群体同样起作用。"
+    },
+    {
+      "id": 253,
+      "title": "No time or tech for online news: How social and digital inequalities contribute to gender gaps in online news consumption",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-29",
+      "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
+    },
+    {
+      "id": 86,
+      "title": "Reddit users’ reactance to the 2025 CDC Data Purge: Characterizing the removal of health information as a perceived threat to individual freedom",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-12",
+      "summary": "研究Reddit用户对2025年CDC数据清除的反应，基于心理抗拒理论，通过主题分析识别用户如何将信息删除视为自由威胁并采取存档行动。"
+    },
+    {
+      "id": 87,
+      "title": "The viral gender antagonism on social media: examining the role of multimodal framing and gender identity",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-11",
+      "summary": "研究基于微博22,925条帖子和115万条评论，运用广义线性混合模型分析多模态框架和性别身份对性别对抗性话语的影响，发现煽情化和个性化框架加剧对抗，娱乐化框架减弱对抗，且性别动态具有调节作用。"
+    },
+    {
+      "id": 218,
+      "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
+      "journal": "Political Communication",
+      "published_date": "2026-05-27",
+      "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
+    },
+    {
+      "id": 37,
+      "title": "Political Identity Threats on Social Media",
+      "journal": "Communication Research",
+      "published_date": "2026-05-08",
+      "summary": "研究社交媒体上政治身份威胁的识别与影响，通过两个实验发现威胁类型非离散且对强党派身份者影响更大。"
+    },
+    {
+      "id": 376,
+      "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-05-08",
+      "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
+    },
+    {
+      "id": 110,
+      "title": "Public discourses on sex work in Reddit digital communities: a computational approach",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-30",
+      "summary": "运用结构主题建模和定性内容分析，研究Reddit上r/SexWorkers和r/OnlyFans社区超3.8万条评论，归纳17个主题，揭示平台在污名化与支持之间的双重角色。"
+    },
+    {
+      "id": 118,
+      "title": "Navigating intersectional expectations: a computational multimodal analysis of the effects of identities and communication styles on public engagement with science on TikTok",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-16",
+      "summary": "基于10,800个视频和448,002条评论，分析TikTok科学传播中传播者性别、种族与沟通风格如何影响公众参与，发现交叉身份导致参与差异。"
+    },
+    {
+      "id": 125,
+      "title": "Social media platforms and the spreading of hate speech targeting sexual and gender minorities: a scoping review",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-11",
+      "summary": "通过范围综述和BERTopic主题建模，系统梳理了145篇研究，分析不同社交媒体平台特性（内容模态、可供性）与针对性少数群体仇恨言论传播的关系，发现Twitter/X研究最多，文本内容为主，并呼吁关注视觉内容与平台动态。"
+    },
+    {
+      "id": 128,
+      "title": "Racism, resistance, and Reddit: how popular culture sparks online reckonings",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-07",
+      "summary": "研究分析Reddit用户对两部种族主题剧集的评论，结合主题建模与批判话语分析，揭示用户角色流动及平台匿名性对种族讨论的影响。"
+    },
+    {
+      "id": 298,
+      "title": "Normative White Internet Practices: Performances at the Edge of a Digital Black Community",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "研究通过分析Reddit r/BlackPeopleTwitter上白人用户的盟友申请，揭示规范白人网络实践的表现及其潜在伤害，采用民族志与定性案例分析。"
+    },
+    {
+      "id": 304,
+      "title": "“My Non-Existing Organ”: Transitional Objects, Compensatory Romance, and the Affective Enclaves of Chinese Female Idol Fandom",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过多站点数字民族志研究中国女性粉丝在微博、豆瓣、微信群中的身份实践与情感表达，探讨女友粉和妈妈粉的补偿性浪漫及符号抵抗，形成情感飞地。"
+    },
+    {
+      "id": 135,
+      "title": "Examining the linguistic power of emotes: multimodal race discourse on Twitch",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-30",
+      "summary": "研究Twitch上三个表情符号在直播聊天中的使用、改造和挪用，如何再现和颠覆反黑人种族主义，通过多站点数字民族志分析这些表情的流通轨迹和意义制造。"
+    }
+  ],
+  "paper_edges": []
+}

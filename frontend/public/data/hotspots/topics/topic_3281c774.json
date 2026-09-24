@@ -1,26 +1,40 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "生成式人工智能与政治传播",
-  "description": "考察生成式人工智能作为新型行动者如何影响战略传播、新闻信任与公民参与。",
-  "why_hot": "近30天日均发表速度较前期小幅下降约17%，研究热度总体持平。",
-  "hot_score": 52,
-  "growth": -0.167,
-  "growth_rate": -0.167,
-  "recent_rate": 0.1333,
-  "baseline_rate": 0.16,
-  "recent_count": 4,
-  "baseline_count": 24,
-  "journal_count": 10,
+  "label": "人工智能与公民参与及战略传播",
+  "description": "考察公众对AI偏见与民主参与的感知，以及生成式AI在公关、倡导与政策中的角色。",
+  "why_hot": "近30天日均发表速度较前期上升约15%，议题持续升温。",
+  "hot_score": 66,
+  "growth": 0.154,
+  "growth_rate": 0.154,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.1733,
+  "recent_count": 6,
+  "baseline_count": 26,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "generative AI",
-    "strategic communication",
     "civic engagement",
-    "AI regulation",
-    "chatbot acceptance"
+    "AI bias",
+    "strategic communication",
+    "public relations"
   ],
   "papers": [
+    {
+      "id": 2063,
+      "title": "Perceptions of artificial intelligence bias and gender inclusivity: toward a gendered divergence",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-22",
+      "summary": "论文考察公众对人工智能偏见的感知及其与性别包容性态度的关系，提出性别分化（gendered divergence）的分析视角，探讨不同性别群体在AI偏见认知上的差异及其传播意涵。"
+    },
+    {
+      "id": 2069,
+      "title": "AI for democratic participation? Citizens’ perceptions of problems in online participation processes and AI-based solutions",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-09-22",
+      "summary": "基于德国全国调查（n=484），考察公民对在线公民参与问题的感知及对AI解决方案的态度，归纳出六类问题与三类AI应用，并发现问题感知越强越不支持AI方案。"
+    },
     {
       "id": 2060,
       "title": "Role, Position, and Control: Questioning Generative Artificial Intelligence’s Place as a New Actor within Strategic Communications for National Advocacy",
@@ -34,6 +48,13 @@
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-09-14",
       "summary": "基于美国成年人两波面板数据，运用 O-S-R-O-R 框架，考察 AI 相关新闻消费（电视、报纸、网站、社交媒体）如何经人际讨论与对 AI 生成新闻、传统媒体及机构的多元信任，影响 AI 相关线下公民参与，发现选择性传播路径。"
+    },
+    {
+      "id": 2023,
+      "title": "Examining the Mediating Effects of Mutuality and Openness in the Adoption of Generative Artificial Intelligence in Public Relations Practice: A Predictive PLS-SEM Approach",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-09-08",
+      "summary": "研究调查398名肯尼亚公关从业者，用PLS-SEM检验生成式AI采纳对组织-公众对话传播（互助性与开放性）的影响，以及AI增强的对话传播在信任与满意度关系中的中介作用，发现所有假设路径显著且呈部分中介。"
     },
     {
       "id": 1984,
@@ -50,6 +71,13 @@
       "summary": "基于四国调查，研究政治价值观、国家来源等对聊天机器人接受度的影响，验证TAM/UTAUT模型并发现政治感知作用。"
     },
     {
+      "id": 1950,
+      "title": "Calibration labour: making careers machine-legible under algorithmic hiring",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-21",
+      "summary": "通过两年民族志田野调查，探讨算法招聘如何改变求职沟通条件，提出算法可读性概念，分析求职者被迫进行校准劳动以适配机器系统，重塑社会认可与公民参与。"
+    },
+    {
       "id": 1931,
       "title": "The Policy Umwelt: How AI Problem Representations Render Governance Alternatives Unthinkable",
       "journal": "The International Journal of Press/Politics",
@@ -57,18 +85,18 @@
       "summary": "通过WPR方法分析三种AI叙事（存在风险、加速主义、批判AI）构建的Policy Umwelt，揭示其限制治理选项的认知框架。"
     },
     {
+      "id": 1928,
+      "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-13",
+      "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
+    },
+    {
       "id": 14,
       "title": "Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy",
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-07-29",
       "summary": "基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。"
-    },
-    {
-      "id": 56,
-      "title": "The echoes from social media: modeling how filter bubbles and network structure shape echo chamber emergence",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-27",
-      "summary": "通过agent-based模型整合社交网络与意见动态，模拟不同同质性和选择性暴露条件下回音室的形成，发现信息暴露显著影响回音室涌现，而算法过滤不一定保证其持续。"
     },
     {
       "id": 65,
@@ -83,6 +111,13 @@
       "journal": "Global Media and Communication",
       "published_date": "2026-07-02",
       "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
+    },
+    {
+      "id": 212,
+      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
+      "journal": "Political Communication",
+      "published_date": "2026-06-30",
+      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
     },
     {
       "id": 402,
@@ -125,13 +160,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-17",
       "summary": "基于2023-2024年意大利全国调查，分析公众对AI的信息获取、工具使用及态度差异，发现知识鸿沟和情境依赖，呈现批判性矛盾心态，强调多元公众参与治理。"
-    },
-    {
-      "id": 215,
-      "title": "Evaluating Echo Chambers, Rabbit Holes, and Radicalization Pathways on YouTube",
-      "journal": "Political Communication",
-      "published_date": "2026-06-10",
-      "summary": "通过估计YouTube视频意识形态和原创审计设计，发现用户处于轻度意识形态回音室，推荐算法产生内容兔子洞，但未发现激进路径，算法倾向推荐温和保守内容。"
     },
     {
       "id": 413,
@@ -211,11 +239,11 @@
       "summary": "通过预注册实验（N=244）探究不同新闻推荐来源（朋友、编辑、算法）对用户信任的影响，发现高NFM用户因机器启发式信任算法，并视朋友和算法与编辑同等权威。"
     },
     {
-      "id": 557,
-      "title": "Artificial Intelligence and Implications for Journalistic Responsibility And Media Organizational Policy",
-      "journal": "Communication and the Public",
-      "published_date": "2026-03-25",
-      "summary": "论文探讨人工智能在新闻业中的机遇与挑战，如自动化内容创作、个性化推荐等，并提出负责任整合框架，强调人类监督与新闻伦理。"
+      "id": 139,
+      "title": "Infusion of generative artificial intelligence: boosting organizational agility and effectiveness",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-03-29",
+      "summary": "基于TOE框架，通过615份问卷和结构方程模型，检验生成式AI融入对组织敏捷性和有效性的影响，发现AI融入、市场敏捷性和组织学习是有效性的主要预测因素。"
     }
   ],
   "paper_edges": []
