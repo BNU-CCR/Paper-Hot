@@ -1,33 +1,26 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "人工智能与公民参与及战略传播",
-  "description": "考察公众对AI偏见与民主参与的感知，以及生成式AI在公关、倡导与政策中的角色。",
-  "why_hot": "近30天日均发表速度较前期上升约15%，议题持续升温。",
-  "hot_score": 66,
-  "growth": 0.154,
-  "growth_rate": 0.154,
-  "recent_rate": 0.2,
-  "baseline_rate": 0.1733,
-  "recent_count": 6,
-  "baseline_count": 26,
-  "journal_count": 9,
+  "label": "人工智能与公民政治参与",
+  "description": "探讨人工智能新闻与智能参与工具如何影响公民信任、参与意愿与民主实践。",
+  "why_hot": "近30天2篇，日均发表速度较此前下降41%，研究热度明显降温。",
+  "hot_score": 39,
+  "growth": -0.412,
+  "growth_rate": -0.412,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.1133,
+  "recent_count": 2,
+  "baseline_count": 17,
+  "journal_count": 6,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
-    "generative AI",
+    "AI news",
     "civic engagement",
-    "AI bias",
-    "strategic communication",
-    "public relations"
+    "political participation",
+    "trust",
+    "communication mediation"
   ],
   "papers": [
-    {
-      "id": 2063,
-      "title": "Perceptions of artificial intelligence bias and gender inclusivity: toward a gendered divergence",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-22",
-      "summary": "论文考察公众对人工智能偏见的感知及其与性别包容性态度的关系，提出性别分化（gendered divergence）的分析视角，探讨不同性别群体在AI偏见认知上的差异及其传播意涵。"
-    },
     {
       "id": 2069,
       "title": "AI for democratic participation? Citizens’ perceptions of problems in online participation processes and AI-based solutions",
@@ -36,25 +29,11 @@
       "summary": "基于德国全国调查（n=484），考察公民对在线公民参与问题的感知及对AI解决方案的态度，归纳出六类问题与三类AI应用，并发现问题感知越强越不支持AI方案。"
     },
     {
-      "id": 2060,
-      "title": "Role, Position, and Control: Questioning Generative Artificial Intelligence’s Place as a New Actor within Strategic Communications for National Advocacy",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-09-17",
-      "summary": "研究考察加沙冲突期间以色列国家倡导传播中，生成式AI如何被纳入临时倡导场域。通过对15位战略传播从业者的半结构化访谈，结合行动者网络理论与布迪厄场域理论，发现AI被视为高效忠诚的助手，但被策略性地置于创作流程中段，源于对职业地位、创意真实性与可信度的顾虑。"
-    },
-    {
       "id": 2037,
       "title": "Modeling Civic Engagement in the Age of AI: A Communication Mediation Approach to AI News, Multifaceted Trust, and Participation in a Two-Wave Panel Study",
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-09-14",
       "summary": "基于美国成年人两波面板数据，运用 O-S-R-O-R 框架，考察 AI 相关新闻消费（电视、报纸、网站、社交媒体）如何经人际讨论与对 AI 生成新闻、传统媒体及机构的多元信任，影响 AI 相关线下公民参与，发现选择性传播路径。"
-    },
-    {
-      "id": 2023,
-      "title": "Examining the Mediating Effects of Mutuality and Openness in the Adoption of Generative Artificial Intelligence in Public Relations Practice: A Predictive PLS-SEM Approach",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-09-08",
-      "summary": "研究调查398名肯尼亚公关从业者，用PLS-SEM检验生成式AI采纳对组织-公众对话传播（互助性与开放性）的影响，以及AI增强的对话传播在信任与满意度关系中的中介作用，发现所有假设路径显著且呈部分中介。"
     },
     {
       "id": 1984,
@@ -71,25 +50,11 @@
       "summary": "基于四国调查，研究政治价值观、国家来源等对聊天机器人接受度的影响，验证TAM/UTAUT模型并发现政治感知作用。"
     },
     {
-      "id": 1950,
-      "title": "Calibration labour: making careers machine-legible under algorithmic hiring",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-21",
-      "summary": "通过两年民族志田野调查，探讨算法招聘如何改变求职沟通条件，提出算法可读性概念，分析求职者被迫进行校准劳动以适配机器系统，重塑社会认可与公民参与。"
-    },
-    {
       "id": 1931,
       "title": "The Policy Umwelt: How AI Problem Representations Render Governance Alternatives Unthinkable",
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-08-15",
       "summary": "通过WPR方法分析三种AI叙事（存在风险、加速主义、批判AI）构建的Policy Umwelt，揭示其限制治理选项的认知框架。"
-    },
-    {
-      "id": 1928,
-      "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-13",
-      "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
     },
     {
       "id": 14,
@@ -106,25 +71,11 @@
       "summary": "通过21国跨国调查，考察经济困难与AI态度对AI福利决策支持度的影响，并分析国家层面数字鸿沟的调节作用。"
     },
     {
-      "id": 613,
-      "title": "Exploring the forces driving ChatGPT diffusion on X: An integrated theoretical perspective",
-      "journal": "Global Media and Communication",
-      "published_date": "2026-07-02",
-      "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
-    },
-    {
       "id": 212,
       "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
       "journal": "Political Communication",
       "published_date": "2026-06-30",
       "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
-    },
-    {
-      "id": 402,
-      "title": "Epistemic Dislocation in AI Journalism: Fragmented Authority and the Reconfiguration of Knowledge Production",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-28",
-      "summary": "基于75个深度访谈，提出AI在新闻业中引发“认识论错位”，使知识生产的权威碎片化，并分析三种动态机制。"
     },
     {
       "id": 73,
@@ -169,13 +120,6 @@
       "summary": "基于美国全国配额调查（N=1506），考察受众对AI生成新闻的信任，发现结构化数据新闻更受信任，且信任受地方和国家新闻机构信任度影响，为AI新闻研究提供基线证据。"
     },
     {
-      "id": 175,
-      "title": "What Is Ethical AI Use in Journalism? Stakeholders’ Perceptions of Ethical Generative Artificial Intelligence (GenAI) Usage in Kenyan Newsrooms",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-05-31",
-      "summary": "通过访谈94名肯尼亚新闻业相关利益者，探讨他们关于GenAI的民俗理论及其伦理认知，揭示不同技术认知框架影响对新闻伦理风险的解读。"
-    },
-    {
       "id": 176,
       "title": "Ethics First: How Trust and Political Contexts Shape Public Acceptance of AI-Generated News Across Twenty-four Countries",
       "journal": "The International Journal of Press/Politics",
@@ -183,32 +127,11 @@
       "summary": "研究24国24000名受访者对AI生成新闻的接受度，发现伦理信任比能力信任更重要，且AI自我效能仅在伦理信任高时促进接受，政治环境调节这一关系。"
     },
     {
-      "id": 97,
-      "title": "Integrating farmers markets into a communication infrastructure model: the moderating role of physical community spaces for civic engagement",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-25",
-      "summary": "基于全国调查数据，考察不同传播渠道对公民参与的影响，并探讨农贸市场作为物理空间的调节作用，发现社交媒体平台效应各异。"
-    },
-    {
-      "id": 179,
-      "title": "Going with the Mainstream: Exploring GPT Representation of Journalistic Culture",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-05-09",
-      "summary": "本研究通过提示GPT-4o回答新闻业调查问卷，与美德英三国记者实际数据对比，发现模型偏向反映中翼全职电视背景记者观点，讨论AI在新闻生产中的文化偏向与记者能动性。"
-    },
-    {
       "id": 111,
       "title": "Socioeconomic disparities in AI awareness: examining the mediating roles of AI usage and familiarity",
       "journal": "Information Communication & Society",
       "published_date": "2026-04-30",
       "summary": "基于美国10087名成人调查，探究高低社会经济地位者在AI意识、熟悉度与使用上的差异，发现高SES者AI意识更强，且AI使用与熟悉度在SES与AI意识间起中介作用，揭示AI时代的数字不平等。"
-    },
-    {
-      "id": 181,
-      "title": "Simulated superiority and mediated geopolitics: affective responses to AI-generated political parody in Chinese digital space",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-04-30",
-      "summary": "通过397人实验探究AI生成政治模仿如何激发集体优越感、缓解对美敌对态度，并揭示视觉真实感的中介作用，扩展优越性理论。"
     },
     {
       "id": 113,
@@ -230,20 +153,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-04-03",
       "summary": "分析19国308篇新闻对深度伪造的行动者、威胁和解决方案的框架，基于俄乌战争案例，采用定性主题分析，揭示政治、技术、犯罪等主体及多维度威胁和应对措施。"
-    },
-    {
-      "id": 290,
-      "title": "When We Think “News Will Find Me”: Relative Credibility of Social-Media Friends, Algorithms, and Editors",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "通过预注册实验（N=244）探究不同新闻推荐来源（朋友、编辑、算法）对用户信任的影响，发现高NFM用户因机器启发式信任算法，并视朋友和算法与编辑同等权威。"
-    },
-    {
-      "id": 139,
-      "title": "Infusion of generative artificial intelligence: boosting organizational agility and effectiveness",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-29",
-      "summary": "基于TOE框架，通过615份问卷和结构方程模型，检验生成式AI融入对组织敏捷性和有效性的影响，发现AI融入、市场敏捷性和组织学习是有效性的主要预测因素。"
     }
   ],
   "paper_edges": []

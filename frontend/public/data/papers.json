@@ -10889,7 +10889,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "We extend agenda building theory by integrating social movement and connective action research to explain how marginalized groups elevate issue salience. Our framework comprises three dynamics: exogenous conditions (key events &amp; real-world indicators), interpublic processes on social media, and intermedia processes between news and social media. We apply this framework to the #StopAsianHate movement on Twitter/X using network and time-series analyses. Results show that the Atlanta spa shootings, a key event, intensified attention to anti-Asian hate among AAPI activists’ allies (liberals &amp; K-pop fans) and elite media, whereas hate crime indicators had limited impact. AAPI activists had modest influence on other Twitter users and elite news, but their allies, especially liberals, proved influential. Elite media attention was driven by attention from both liberals and aggregate Twitter, with liberals’ effect lasting longer. The framework illuminates how key events, networked publics, and movement resources interact to build issue salience in digital media.",
-    "abstract_zh": "我们通过整合社会运动理论和连接性行动研究（connective action research），扩展了“议程构建理论”（agenda building theory），以解释边缘化群体如何提升特定问题的关注度。我们的研究框架包含三个关键要素：外部条件（关键事件及现实世界中的指标）、社交媒体上的公众互动过程，以及新闻与社交媒体之间的中介作用过程。我们运用这一框架，通过对Twitter/X平台上的#StopAsianHate运动进行网络分析和时间序列分析，来研究该运动的传播机制。研究结果表明，亚特兰大水疗中心枪击案这一关键事件显著增强了亚裔美国人（AAPI）活动家及其盟友（自由派人士和K-pop粉丝）以及精英媒体对反亚裔仇恨行为的关注；然而，仇恨犯罪相关的指标对公众舆论的影响较为有限。亚裔美国人活动家对其他Twitter用户和精英媒体的影响力较为有限，但他们的盟友（尤其是自由派人士）发挥了重要作用。精英媒体的关注度既受到自由派人士的影响，也受到整个Twitter社区的影响，其中自由派人士的影响更为持久。这一研究框架揭示了关键事件、网络化的公众群体以及社会运动资源如何共同作用，在数字媒体环境中提升特定问题的关注度。",
+    "abstract_zh": "我们通过整合社会运动理论和连接性行动研究（connective action research），扩展了“议程构建理论”（agenda building theory），以解释边缘化群体如何提升某些问题的关注度。我们的研究框架包含三个关键要素：外部条件（关键事件和现实世界的指标）、社交媒体上的公众互动过程，以及新闻与社交媒体之间的中介作用过程。我们运用这一框架，通过对Twitter/X平台上的#StopAsianHate运动进行网络分析和时间序列分析，来研究这一现象。研究结果表明，亚特兰大水疗中心枪击案这一关键事件显著增强了亚裔美国人（APIA）活动家及其盟友（自由派人士和K-pop粉丝）以及精英媒体对反亚裔仇恨行为的关注；然而，仇恨犯罪的相关指标对公众舆论的影响较为有限。亚裔美国人活动家对其他Twitter用户和精英媒体的影响力较为有限，但他们的盟友，尤其是自由派人士，发挥了重要作用。精英媒体的关注度既受到自由派人士的影响，也受到整个Twitter社区的影响，其中自由派人士的影响更为持久。该研究框架揭示了关键事件、网络化的公众群体以及社会运动资源如何相互作用，在数字媒体中提升特定问题的关注度。",
     "summary": "整合社会运动与连接行动理论，通过#StopAsianHate案例，用网络和时间序列分析探究事件、公众与媒体间的议程建构过程。",
     "reason": "使用Twitter数据和网络分析、时间序列分析研究社交媒体议程建构，属于计算传播学。",
     "tags": [
@@ -11001,7 +11001,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Against the backdrop of escalating global climate change and the increasing frequency of extreme weather events, China has experienced numerous extreme weather disasters in recent years. These events have triggered widespread nationwide concern and large-scale discussions on social media. To understand the association between public online climate concerns and the reality of climate change, this study analysed a dataset of 173,635 messages on climate change discussions from Sina Weibo, one of China's biggest social media platforms and the corresponding meteorological data in 12 Chinese cities that were categorised based on the presence or absence of climate pattern shifts. Results showed that the occurrence of climate events significantly increases public concern about climate issues. Public climate concern in cities with emerging climate patterns is much higher than in cities with traditional climate patterns, suggesting that emerging extreme events heighten short-term awareness, while prolonged exposure to the same event may reduce sensitivity. Additionally, factors such as government policies and secondary disasters were found to influence public attention to climate issues. The study concludes by discussing theoretical and policy implications.",
-    "abstract_zh": "在全球气候变化加剧以及极端天气事件频发的大背景下，中国近年来经历了多次极端天气灾害。这些事件引发了全国范围内的广泛关注，并在社交媒体上引发了大规模的讨论。为了了解公众在线上对气候问题的关注与气候变化现实之间的关联，本研究分析了来自中国最大社交媒体平台之一新浪微博的173,635条关于气候变化的讨论信息，以及12个中国城市的相应气象数据。这些数据根据是否存在气候模式变化进行了分类。研究结果表明，气候事件的发生显著增加了公众对气候问题的关注度。在那些气候模式正在发生变化的城市中，公众对气候问题的关注度明显高于那些气候模式较为稳定的城市，这表明新出现的极端事件能够提高公众的短期意识；而长期持续面对同一事件可能会降低公众的敏感度。此外，政府政策和其他次生灾害等因素也被发现会影响公众对气候问题的关注。研究最后讨论了这一研究的理论意义和政策启示。",
+    "abstract_zh": "在全球气候变化加剧和极端天气事件频发的背景下，中国近年来经历了多次极端天气灾害。这些事件引发了全国范围内的广泛关注，并在社交媒体上引发了大规模的讨论。为了了解公众在线上对气候问题的关注与气候变化现实之间的关联，本研究分析了来自中国最大社交媒体平台之一新浪微博的173,635条关于气候变化的讨论信息，以及12个中国城市的相应气象数据。这些数据根据是否存在气候模式变化进行了分类。研究结果表明，气候事件的发生显著增加了公众对气候问题的关注。在那些气候模式正在发生变化的城市中，公众对气候问题的关注度明显高于那些气候模式较为稳定的城市，这表明新出现的极端事件能够提高公众的短期意识；而长期持续面对同一事件可能会降低公众的敏感度。此外，政府政策和次生灾害等因素也被发现会影响公众对气候问题的关注。研究最后讨论了这一研究的理论和政策意义。",
     "summary": "分析173,635条微博气候讨论与气象数据，发现气候事件显著提升公众关注，且新兴气候模式城市关注度更高。",
     "reason": "使用新浪微博大数据分析公众气候关注，属于社交媒体数据与计算方法研究。",
     "tags": [
@@ -11022,7 +11022,7 @@
   {
     "id": 773,
     "title": "‘Limited container’ or ‘Rubik’s cube’: re-evaluating attention relationships among sub-topics in online scientific discussions on social media",
-    "title_zh": "“有限容器”还是“魔方”：重新评估社交媒体上在线科学讨论中子主题之间的关注关系",
+    "title_zh": "“有限容器”还是“魔方”：重新审视社交媒体上在线科学讨论中子主题之间的关注关系",
     "authors": [
       "Yang Zheng",
       "Yuanting Huang",
@@ -11037,7 +11037,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "It is commonly believed that public online discussions among different topics compete in a ‘zero-sum game’, with public attention seen as a limited ‘container’. This study analyses public discussions about genetically modified organisms (GMOs), climate change, and artificial intelligence (AI) on the Chinese social media platform Weibo. It employs computational methods, including Latent Dirichlet Allocation (LDA), Granger Causality Test, and Impulse Response Analysis, to reveal the relationships between sub-topics within these discussions. The results indicate that the relationship between public attention on scientific and non-scientific sub-topics is not predominantly competitive, and there is a lack of robust evidence supporting a ‘zero-sum game’ dynamic. Instead, allocation patterns of public attention are complex and diverse. This suggests the need to reassess the ‘container’ metaphor, as it oversimplifies the interactive nature of public attention in online scientific discussions, and use a ‘Rubik’s Cube’ metaphor to replace the ‘container’ in future public attention studies.",
-    "abstract_zh": "人们普遍认为，不同主题的公共在线讨论之间存在“零和博弈”关系，即公众注意力被视为一个有限的“容器”。本研究分析了在中国社交媒体平台微博上关于转基因生物（GMOs）、气候变化和人工智能（AI）的公共讨论。研究采用了计算方法，包括潜在狄利克雷分配（LDA）、格兰杰因果关系检验（Granger Causality Test）和脉冲响应分析（Impulse Response Analysis），以揭示这些讨论中各个子主题之间的关系。研究结果表明，公众对科学类和非科学类子主题的关注之间并非主要以竞争为主，而且缺乏强有力的证据支持“零和博弈”的动态。相反，公众注意力的分配模式是复杂多样的。这表明我们需要重新评估“容器”这一比喻，因为它过于简化了在线科学讨论中公众注意力的互动性质；在未来关于公众注意力的研究中，应该用“魔方”（Rubik’s Cube）这一比喻来替代“容器”。",
+    "abstract_zh": "人们普遍认为，不同主题在公共在线讨论中的竞争是一种“零和游戏”，其中公众注意力被视为一个有限的“容器”。本研究分析了在中国社交媒体平台微博上关于转基因生物（GMOs）、气候变化和人工智能（AI）的公共讨论。研究采用了计算方法，包括潜在狄利克雷分配（LDA）、格兰杰因果关系检验（Granger Causality Test）和脉冲响应分析（Impulse Response Analysis），以揭示这些讨论中各个子主题之间的关系。研究结果表明，公众对科学类和非科学类子主题的关注之间的关系并非主要是竞争性的，并且缺乏强有力的证据支持“零和游戏”的动态。相反，公众注意力的分配模式是复杂且多样的。这表明我们需要重新评估“容器”这一比喻，因为它过于简化了在线科学讨论中公众注意力的互动性质；在未来的公众注意力研究中，应该用“魔方”（Rubik’s Cube）这一比喻来替代“容器”。",
     "summary": "基于微博数据，采用LDA、格兰杰因果检验和脉冲响应分析，探究GMO、气候变化和AI讨论中子话题间的注意力关系，质疑‘零和博弈’假设，提出‘魔方’隐喻。",
     "reason": "使用微博平台数据和LDA、格兰杰因果等计算方法研究科学议题讨论的注意力关系，明确属于计算传播学。",
     "tags": [
@@ -11060,7 +11060,7 @@
   {
     "id": 1139,
     "title": "Local Experience, National Media, and Misperceptions of the COVID-19 Pandemic",
-    "title_zh": "本地经验、全国性媒体与对COVID-19疫情的误解",
+    "title_zh": "本地经验、国家媒体与对COVID-19大流行的误解",
     "authors": [
       "David L. Beavers",
       "Jennifer L. Hochschild"
@@ -11073,7 +11073,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This paper examines conditions under which under- and overestimations about the scale of nationwide COVID-19 deaths attenuate. From May through November 2020, more than a quarter of Americans thought there would be fewer COVID-19 deaths by year’s end than had already occurred at the time of their interview; nearly one-in-ten thought there would be over 1 million COVID-19 deaths, a toll that was not reached until May 2022. We develop a theory that high national media attention to the pandemic and high local coronavirus incidence jointly attenuate misperceptions. Evidence from a large-n survey, county-level COVID-19 incidence data, and text analysis of national news outlets partially supports this theory: when activated by national media attention, local experience attenuates underestimations and, to a lesser degree, overestimations. However, in the absence of local experience, national media attention exacerbates underestimations. We also show that underestimations about the COVID-19 pandemic are personally and politically consequential. This paper advances understanding of conditions under which factual misperceptions may be attenuated and of the interplay between local experience and national media attention.",
-    "abstract_zh": "本文探讨了在何种情况下，人们对全国范围内COVID-19死亡人数的低估和高估会减弱。2020年5月至11月期间，超过四分之一的美国人认为到年底COVID-19的死亡人数会低于他们在接受调查时的预期；近十分之一的人认为死亡人数会超过100万，而这一数字直到2022年5月才真正达到。我们提出了一种理论，认为全国范围内媒体对疫情的广泛关注以及地方层面的新冠病毒感染率共同作用，有助于减少人们的错误认知。来自大规模调查的数据、县级COVID-19感染率数据以及对全国新闻媒体的文本分析部分支持了这一理论：当地方层面的疫情情况被媒体报道时，这些信息有助于减少人们对死亡人数的低估；而在缺乏地方疫情信息的情况下，媒体的关注反而会加剧这种低估。此外，我们还发现，人们对COVID-19疫情的错误认知在个人层面和政治层面上都具有重要影响。本文加深了我们对在何种条件下事实性错误认知可能被纠正的理解，并揭示了地方疫情情况与全国媒体关注之间的相互作用。",
+    "abstract_zh": "本文探讨了在何种条件下，人们对全国范围内COVID-19死亡人数的低估和高估会减弱。2020年5月至11月期间，超过四分之一的美国人认为到年底COVID-19的死亡人数会低于他们在接受调查时的预期；近十分之一的人认为死亡人数会超过100万，而这一数字直到2022年5月才真正达到。我们提出了一种理论，认为全国范围内对疫情的媒体关注度以及地方层面的新冠病毒感染率共同作用，有助于减少人们的错误认知。来自大规模调查的数据、县级COVID-19感染率数据以及对全国新闻媒体的文本分析部分支持了这一理论：当地方层面的疫情情况被媒体广泛报道时，这些信息有助于减少人们对死亡人数的低估；而在缺乏地方疫情信息的情况下，媒体的关注反而会加剧人们的低估。此外，我们还发现，人们对COVID-19疫情的错误认知在个人层面和政治层面上都具有重要影响。本文加深了我们对在何种条件下事实性错误认知可能被纠正的理解，并揭示了地方疫情情况与全国媒体关注度之间的相互作用。",
     "summary": "研究美国2020年疫情期间，国家媒体关注与本地新冠发病率如何共同影响公众对全国死亡人数的误估，发现本地经验在媒体关注激活下减少低估，媒体单独关注反而加剧低估。",
     "reason": "使用文本分析、大规模调查与县级数据结合，研究媒体与本地经验对疫情误认知的影响，属计算传播。",
     "tags": [
@@ -11095,7 +11095,7 @@
   {
     "id": 1190,
     "title": "How TikTok works for digital diplomacy during conflict/war times: the cases of Russia-Ukraine and Israel-Gaza conflicts",
-    "title_zh": "TikTok在冲突/战争时期如何服务于数字外交：以俄罗斯-乌克兰和以色列-加沙冲突为例",
+    "title_zh": "TikTok在冲突/战争时期对数字外交的作用：以俄罗斯-乌克兰和以色列-加沙冲突为例",
     "authors": [
       "Beris Artan Ozoran",
       "Ilgar Seyidov",
@@ -11142,7 +11142,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Online support communities play an important role in providing access to quality social support. Additionally, those who experience health concerns that face social stigma, such as depression, are more likely to seek support online. To identify effective strategies that help individuals seeking support for depression receive high-quality social support online, we explore the role of two linguistic features in encouraging polite responses to their posts. This study employed a 2 (agency: human vs. depression) × 2 (causality: biological vs. nonbiological) factorial design. The politeness package for R was used to identify linguistic indicators of negative politeness and our results demonstrated that attributions of agency and causality did not have a significant direct effect on the prevalence of negative politeness in support responses. This suggests that support seekers’ understanding of the etiology of depression, and how they present it to support providers, has little impact on the quality of support provided in terms of negative politeness.",
-    "abstract_zh": "在线支持社区在提供高质量的社会支持方面发挥着重要作用。此外，那些面临社会污名（如抑郁症）的健康问题的人更有可能在网上寻求支持。为了确定有效的策略，帮助寻求抑郁症支持的个体在网上获得高质量的社会支持，我们研究了两种语言特征在鼓励他人对其帖子做出礼貌回应中的作用。本研究采用了2（主体性：人类 vs. 抑郁症）× 2（因果关系：生物性 vs. 非生物性）的因子设计。我们使用了R语言中的“politeness package”来识别语言中表达负面礼貌的指标，研究结果表明，主体性和因果关系的归因对支持回应中负面礼貌的出现频率没有显著直接影响。这表明，寻求支持的人对抑郁症病因的理解以及他们如何向支持提供者描述病情，对所提供的支持在负面礼貌方面的质量影响很小。",
+    "abstract_zh": "在线支持社区在提供高质量的社会支持方面发挥着重要作用。此外，那些面临社会污名（如抑郁症）的健康问题的人更有可能在网上寻求支持。为了确定有效的策略，帮助寻求抑郁症支持的个体在网上获得高质量的社会支持，我们研究了两种语言特征在鼓励他人对其帖子做出礼貌回应中的作用。本研究采用了2（主体性：人类 vs. 抑郁症）× 2（因果关系：生物性 vs. 非生物性）的因子设计。我们使用了R语言中的“politeness package”来识别语言上的负面礼貌表现，研究结果表明，主体性和因果关系的归因对支持回复中负面礼貌行为的出现频率没有显著直接影响。这表明，寻求支持者对抑郁症病因的理解以及他们向支持提供者描述病情的方式，对所提供的支持在负面礼貌方面的质量影响很小。",
     "summary": "通过2×2因子设计，分析抑郁症求助帖中agency和causality表达对回复负面礼貌的影响，利用R的politeness包进行文本分析，发现无显著直接效应。",
     "reason": "使用politeness包等计算文本分析方法，研究在线支持社区的求助语言与回复礼貌，属于计算传播研究。",
     "tags": [
@@ -11178,7 +11178,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article analyzes how the Israel Defense Forces (IDF) use TikTok’s platform—specific aesthetics, affective dynamics, and algorithmic visibility to construct state legitimacy in the context of ongoing geopolitical conflict. Through content analysis of all 750 videos published between September 2020 and March 2025, the research reveals how the military integrates short-form visual styles with emotionally charged messaging centered on themes such as hope, threat, and national mourning to produce curated narratives. Platform-native elements like music, hashtags, and meme-driven trends function not only to enhance engagement but also as tools of symbolic warfare and selective representation. The videos, categorized by format, emotional tone, spokesperson identity, and demographic portrayal, revealed a strategically consistent narrative that emphasized Israeli heroism, resilience, and collective mourning, while omitting representations of Palestinian civilian suffering in a manner aligned with the communicative logic of military public diplomacy. This study contributes to digital militarism and soft power literature by illustrating how military institutions adapt to media ecosystems where visibility and emotion are strategic resources. In particular, it demonstrates how the IDF deploys personalization, storytelling, and cultural commemorations as platform-native soft power strategies, reconfiguring military communication into forms of emotional diplomacy tailored to TikTok’s algorithmic logics.",
-    "abstract_zh": "本文分析了以色列国防军（IDF）如何利用TikTok平台——包括其特定的美学风格、情感表达机制以及算法驱动的传播机制——在当前的地缘政治冲突背景下构建国家合法性。通过对2020年9月至2025年3月期间发布的750个视频的内容分析，研究发现军队如何将短视频形式与充满情感的信息相结合，这些信息围绕希望、威胁和国家哀悼等主题展开，从而构建出精心策划的叙事内容。TikTok平台自身的元素，如音乐、标签和基于模因的流行趋势，不仅增强了用户的参与度，还被用作象征性斗争和选择性信息传播的工具。这些视频根据格式、情感基调、发言人身份以及受众特征进行了分类，显示出一种策略上一致的主题：强调以色列的英雄主义、韧性以及集体哀悼；同时，它们以符合军事公共外交逻辑的方式，刻意忽略了巴勒斯坦平民的苦难。这项研究为数字军事主义和软实力理论做出了贡献，揭示了军事机构如何适应那些将可见性和情感作为战略资源的媒体生态系统。特别是，它展示了以色列国防军如何运用个性化表达、故事讲述以及文化纪念活动作为TikTok平台特有的软实力策略，将军事沟通方式重新塑造成符合该平台算法逻辑的情感外交形式。",
+    "abstract_zh": "本文分析了以色列国防军（IDF）如何利用TikTok平台——包括其特有的视觉风格、情感表达机制以及算法驱动的传播机制——在当前的地缘政治冲突背景下构建国家合法性。通过对2020年9月至2025年3月期间发布的750个视频的内容分析，研究发现军队如何将短视频形式与充满情感的信息相结合，这些信息围绕希望、威胁和国家哀悼等主题进行创作，从而形成精心策划的叙事内容。TikTok平台自身的元素，如音乐、标签和基于模因的流行趋势，不仅增强了用户的参与度，还被用作象征性斗争和选择性信息传播的工具。这些视频根据格式、情感基调、发言者身份以及人物形象等因素进行分类，显示出一种策略上一致的主题：强调以色列的英雄主义、韧性以及集体哀悼；同时，它们以符合军事公共外交逻辑的方式，刻意忽略了巴勒斯坦平民的苦难。这项研究为数字军事主义和软实力理论做出了贡献，揭示了军事机构如何适应那些将可见性和情感作为战略资源的媒体生态系统。特别是，它展示了以色列国防军如何运用个性化表达、故事讲述以及文化纪念活动等TikTok平台特有的策略，将军事沟通方式转变为符合该平台算法逻辑的情感外交形式。",
     "summary": "分析以色列国防军2020-2025年间在TikTok发布的750个视频，揭示其利用平台美学、情感叙事和算法逻辑构建国家合法性，实施数字军事公共外交。",
     "reason": "研究社交媒体平台TikTok，分析军事传播与算法可见性，属计算传播领域议题。",
     "tags": [
@@ -11214,7 +11214,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Social media have impacted political communication processes in relation to how information is produced, distributed, and consumed – particularly during elections. Here, we address the role of emotions in Facebook posts by parties and leaders to understand the complex relationship between politics, platforms, emotions, and voters in Scandinavia. Through a quantitative study of Facebook posts from political actors, the study identifies clear content differences in the posts eliciting strong emotions among Facebook audiences – expressed through the two Facebook Reactions love and angry. Posts expressing gratitude – featuring expressions like ‘thank you for the electoral support’ – and anniversary celebrations received most love reactions. Posts from populist parties expressing criticism, confrontation of opponents, or calls to actions received more angry reactions. Populist parties were most successful in gaining visibility and mobilization through shares on Facebook during the studied recent national election campaigns in Scandinavia.",
-    "abstract_zh": "社交媒体对政治传播过程产生了影响，尤其是在信息的生产、传播和消费方式上——尤其是在选举期间。本文探讨了政党及领导人在Facebook帖子中表达的情感所起的作用，以理解政治、社交媒体平台、情感与选民之间的复杂关系。通过对政治人物在Facebook上发布的帖子进行定量分析，研究发现：能够引发强烈情感的帖子（这些情感通过Facebook的“喜欢”和“愤怒”两种反应来表达）在内容上存在明显差异。表达感激之情的帖子（例如“感谢您的选举支持”）以及庆祝活动相关的帖子获得了最多的“喜欢”反应；而那些来自民粹主义政党的帖子，如果包含批评、对抗对手或呼吁采取行动的内容，则更可能引发“愤怒”反应。在最近斯堪的纳维亚地区的全国性选举活动中，民粹主义政党通过Facebook上的分享在提高自身知名度和动员选民方面最为成功。",
+    "abstract_zh": "社交媒体对政治传播过程产生了影响，尤其是在信息的生产、传播和消费方式上——尤其是在选举期间。本文探讨了政党及领导人在Facebook帖子中表达的情感所起的作用，以理解政治、社交媒体平台、情感与选民之间的复杂关系。通过对政治人物发布的Facebook帖子进行定量分析，研究发现：能够引发强烈情感的帖子（这些情感通过Facebook的“喜欢”和“愤怒”两种反应来表达）在内容上存在明显差异。表达感激之情的帖子（例如“感谢您的选举支持”）以及庆祝活动相关的帖子获得了最多的“喜欢”反应；而那些来自民粹主义政党的帖子，如果包含批评、对抗对手或呼吁采取行动的内容，则更可能引发“愤怒”反应。在斯堪的纳维亚最近举行的全国性选举活动中，民粹主义政党通过Facebook分享其内容，在提高自身知名度和动员选民方面最为成功。",
     "summary": "通过定量分析斯堪的纳维亚选举期间Facebook政治帖子的反应（love/angry），探究情感、政党和选民关系，发现民粹主义政党通过批评内容获得更多分享和可见性。",
     "reason": "研究社交媒体平台Facebook上的政治传播与情感反应，属于计算传播核心议题。",
     "tags": [
@@ -11249,7 +11249,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Utilizing a network analysis of all 871,095 tweets from 205,116 unique authors, this study examines the #savewomenssports social movement on Twitter/X from September 2019 to August 2024. The findings of this study reveal three distinct peaks of public engagement within this social network, with each peak surpassing the previous one regarding engagement. Each peak witnessed stronger frame alignment among actors who actively advocated for the movement and those who might not choose to use the #savewomenssports hashtags themselves but still involved in the mobilization by others. This study also discovers frame alignment by analyzing the hashtag networks of all three peaks. The #savewomenssports movement gradually evolved from focusing on individual athletes or sporting events to align with a larger social debate on gender fluidity and the sex binary. Theoretical and empirical implications are discussed.",
-    "abstract_zh": "本文利用对205,116位不同作者发布的871,095条推文的网络分析，研究了2019年9月至2024年8月期间在Twitter/X平台上开展的#savewomenssports社会运动。研究结果发现，该社交网络中的公众参与度出现了三次明显的高峰，每次高峰的参与度都超过了前一次。在每次高峰期间，积极倡导这一运动的参与者与那些虽然不使用#savewomenssports标签，但仍然通过他人参与动员的人之间的观点一致性（即“框架一致性”）更为强烈。研究还通过分析这三个高峰时期的标签网络进一步发现了这种观点一致性。#savewomenssports运动逐渐从关注个别运动员或体育赛事，演变为与关于性别流动性和性别二元论的更广泛社会议题相契合。文章讨论了这一研究的理论意义和实证意义。",
+    "abstract_zh": "本文利用对205,116位不同作者发布的871,095条推文的网络分析，研究了2019年9月至2024年8月期间在Twitter/X平台上开展的#savewomenssports社会运动。研究结果表明，在这个社交网络中存在三个公众参与度的高峰期，每个高峰期的参与度都超过了前一个高峰期。在每个高峰期，积极倡导该运动的参与者与那些虽然不使用#savewomenssports标签，但仍然通过他人参与动员活动的个体之间，都表现出更强的观点一致性（即框架一致性）。研究还通过分析这三个高峰期的标签网络发现了这种观点一致性。#savewomenssports运动逐渐从关注个别运动员或体育赛事，演变为与关于性别流动性和性别二元论的更广泛的社会辩论相契合。文章讨论了这一现象的理论和实证意义。",
     "summary": "通过分析2019至2024年871,095条#savewomenssports推文，利用网络分析探究框架对齐过程，揭示运动从具体事件扩展到性别二元辩论。",
     "reason": "使用大规模推特数据与网络分析方法研究社交媒体社会运动，属于典型计算传播研究。",
     "tags": [
@@ -11271,7 +11271,7 @@
   {
     "id": 648,
     "title": "Revisiting the digital jukebox in daily life: applying Mood Management Theory to algorithmically curated music streaming environments",
-    "title_zh": "重新审视日常生活中的数字点唱机：将情绪管理理论应用于算法推荐的音乐流媒体服务",
+    "title_zh": "重新审视日常生活中的数字自动点唱机：将情绪管理理论应用于算法推荐的音乐流媒体服务",
     "authors": [
       "Alicia Ernst",
       "Felix Dietrich",
@@ -11287,7 +11287,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract A large body of experimental evidence has contributed to our understanding of Mood Management Theory (MMT) in the context of music. Extant research, however, lacks insights into everyday mood regulation through music listening, especially on music streaming services, where users’ choices are shaped by both self-selection and algorithmically personalized recommendations. Hence, we tested MMT using a novel in situ approach and investigated whether variations in self- versus algorithmically personalized music choices would moderate MMT’s proposed relationships between mood and music use. In a preregistered, two-week study, we combined experience sampling surveys with logged music streaming and audio feature metadata obtained via the Spotify API, utilizing 6,864 surveys from 144 listeners. Results largely indicated no support for MMT’s predictions. In addition, higher algorithmic personalization did not reinforce or distort MMT-related patterns. Our findings suggest re-specifying classic entertainment theories, such as MMT, for novel technological and methodological conditions.",
-    "abstract_zh": "大量实验性证据有助于我们理解音乐背景下的情绪管理理论（Mood Management Theory, MMT）。然而，现有研究缺乏关于通过音乐聆听（尤其是在音乐流媒体服务中）进行日常情绪调节的见解，因为在这些服务中，用户的选择既受到个人偏好的影响，也受到算法个性化推荐的影响。因此，我们采用了一种新颖的现场研究方法来测试情绪管理理论，并探讨了个人选择与算法个性化音乐选择之间的差异是否会影响情绪管理与音乐使用之间的关系。在这项为期两周的预注册研究中，我们将体验抽样调查与通过Spotify API获取的音乐流媒体记录及音频特征元数据相结合，共收集了144名听众的6,864份调查数据。研究结果基本上不支持情绪管理理论的预测；此外，更高的算法个性化程度既没有强化也没有扭曲与情绪管理理论相关的模式。我们的发现表明，需要根据新的技术条件和方法论背景重新审视诸如情绪管理理论这样的经典娱乐理论。",
+    "abstract_zh": "大量实验性证据为我们理解音乐背景下的情绪管理理论（Mood Management Theory, MMT）提供了帮助。然而，现有研究缺乏关于通过音乐聆听（尤其是在音乐流媒体服务中）来调节日常情绪的见解，因为在这些服务中，用户的选择既受到个人偏好的影响，也受到算法个性化推荐的影响。因此，我们采用了一种新颖的现场研究方法来测试MMT，并探讨了个人选择与算法个性化音乐选择之间的差异是否会影响MMT所提出的情绪与音乐使用之间的关系。在这项为期两周的预注册研究中，我们结合了体验抽样调查以及通过Spotify API获取的音乐流媒体数据和音频特征元数据，共收集了144名听众的6,864份调查数据。研究结果基本上不支持MMT的预测；此外，更高的算法个性化程度既没有强化也没有扭曲与MMT相关的模式。我们的发现表明，需要根据新的技术条件和方法论背景重新审视诸如MMT这样的经典娱乐理论。",
     "summary": "通过两周经验抽样与Spotify日志数据，检验情绪管理理论在算法个性化音乐推荐情境中的适用性，发现传统理论需修正。",
     "reason": "研究算法推荐下的音乐流媒体使用，结合Spotify API日志与经验抽样，属于计算传播研究。",
     "tags": [
@@ -11309,7 +11309,7 @@
   {
     "id": 789,
     "title": "Artificial intelligence and the image war: does exposing AI-generated images as fake limit the images’ influence on perceptions about wars and conflicts?",
-    "title_zh": "人工智能与图像战争：揭露人工智能生成的图像为伪造品是否能够限制这些图像对人们对战争和冲突认知的影响？",
+    "title_zh": "人工智能与图像战争：揭露人工智能生成的图像为伪造品，是否能够限制这些图像对人们对战争和冲突认知的影响？",
     "authors": [
       "Moran Yarchi",
       "Ela Blatt"
@@ -11323,7 +11323,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The emergence of artificial intelligence (AI) has reshaped how visual narratives influence public perception during conflicts, challenging long-held assumptions about wartime image credibility and emotional impact. While research has explored AI’s role in disinformation, its influence on wartime narrative formation remains under-studied. Through an experimental survey conducted in the United States in August 2024 (N = 1812) using the 2023–2024 Israel-Hamas conflict as a case study, participants were exposed to four AI-generated images presenting the Palestinian narrative. The study measured attitudinal changes toward conflict actors before and after image exposure, with half the participants being subsequently informed of the images’ artificial nature. Initial findings revealed that AI-generated images effectively influenced attitudes regardless of disclosure status, with both groups showing increased support for the Palestinian narrative. However, when informed about the artificial nature of the images, participants demonstrated a significant attitudinal shift compared to those who were kept unaware, exhibiting increased support for Israel rather than the Palestinians whose narrative the images portrayed. This ‘backfire effect’ persisted even when controlling for pre-existing attitudes and demographic factors. The findings extend our understanding of both visual framing and algorithm aversion theories in conflict settings, suggesting that, in warfare communication, algorithm aversion manifests more powerfully than previously theorized. These results have significant implications for political actors’ strategic communication choices and media organizations’ disclosure policies regarding AI-generated content in conflict coverage.",
-    "abstract_zh": "人工智能（AI）的出现改变了视觉叙事在冲突期间影响公众认知的方式，挑战了长期以来关于战时图像可信度和情感影响的假设。虽然已有研究探讨了AI在传播虚假信息中的作用，但其对战时叙事形成的影响仍缺乏足够的关注。2024年8月，研究人员在美国进行了一项实验性调查（样本量N=1812），以2023-2024年的以色列-哈马斯冲突为案例研究，让参与者观看了四张由AI生成的、呈现巴勒斯坦立场的图像。研究测量了参与者在观看图像前后对冲突各方的态度变化，并有一半的参与者后来被告知这些图像是人工生成的。初步结果显示，无论是否被告知图像的真实性，AI生成的图像都有效影响了参与者的态度，两组参与者都对巴勒斯坦立场表现出更多的支持。然而，当参与者得知这些图像是人工生成的之后，他们的态度发生了显著变化，转而更支持以色列而非图像所描绘的巴勒斯坦一方。这种“反效果”即使在控制了参与者原有的态度和人口统计因素后仍然存在。这些发现扩展了我们对冲突情境中视觉框架理论和算法厌恶理论的理解，表明在战争传播中，算法厌恶的作用比之前理论所认为的更为显著。这些结果对政治行为体的战略传播决策以及媒体机构在冲突报道中关于AI生成内容的披露政策具有重要的启示意义。",
+    "abstract_zh": "人工智能（AI）的出现改变了视觉叙事在冲突期间影响公众认知的方式，挑战了长期以来关于战时图像可信度和情感影响的假设。虽然已有研究探讨了AI在传播虚假信息中的作用，但其对战时叙事形成的影响仍缺乏足够的关注。2024年8月，研究人员在美国进行了一项实验性调查（样本量N=1812），以2023-2024年的以色列-哈马斯冲突为案例研究，让参与者观看了四张由AI生成的、呈现巴勒斯坦立场的图像。研究测量了参与者在观看图像前后对冲突各方的态度变化，其中一半的参与者后来被告知这些图像是人工生成的。初步结果显示，无论是否被告知图像的真实性，AI生成的图像都有效影响了参与者的态度，两组参与者都对巴勒斯坦立场表示了更多的支持。然而，当参与者得知这些图像是人工生成的之后，他们的态度发生了显著变化，转而更支持以色列而非图像所描绘的巴勒斯坦一方。这种“反效果”即使在控制了参与者原有的态度和人口统计因素后仍然存在。这些发现扩展了我们对冲突情境中视觉框架理论和算法厌恶理论的理解，表明在战争传播中，算法厌恶的作用比之前理论所认为的更为显著。这些结果对政治行为体的战略沟通决策以及媒体机构在冲突报道中关于AI生成内容的披露政策具有重要的启示意义。",
     "summary": "通过美国实验调查（N=1812），测试AI生成图像对巴以冲突态度的影响，发现披露图像为AI生成后产生反效果，增强了对以色列的支持。",
     "reason": "研究AI生成图像对冲突认知的影响，属于AI社会影响与传播效果议题，符合特别条款。",
     "tags": [
@@ -11360,7 +11360,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Despite a growing body of literature on computational propaganda, significant gaps remain in the existing literature, particularly in its Western-centric focus and emphasis on leading platforms, such as Twitter. This symposium attempts to address these gaps and extend our understanding of computational propaganda beyond Western contexts. The contributions of this symposium offer new theoretical insights, such as Performative Propaganda Engagement and the Reference Point Adjustment, to the literature. It also presents new empirical evidence from underexplored contexts, including Indonesia, the Philippines, China, Turkey, and Thailand. The papers published in the symposium provide a fresh understanding of these non-Western governments’ novel tactics and practices in sharing computational propaganda, which is not necessarily limited to conventional forms of disinformation or social platforms. This essay introduces the collection by outlining the concept of computational propaganda, examining its core components, and identifying enduring gaps in the literature, before demonstrating how the included contributions address these gaps.",
-    "abstract_zh": "尽管关于计算传播（computational propaganda）的文献越来越多，但现有研究仍存在显著不足，尤其是在研究范围上过于侧重于西方，并且主要关注Twitter等主流平台。本次研讨会旨在填补这些空白，拓展我们对计算传播的理解，使其不再局限于西方背景。研讨会的论文提出了新的理论见解，例如“表演性传播参与”（Performative Propaganda Engagement）和“参照点调整”（Reference Point Adjustment）等概念。此外，研讨会还提供了来自印度尼西亚、菲律宾、中国、土耳其和泰国等较少被研究的地区的实证证据。这些论文为我们提供了对这些非西方国家在传播计算传播方面的新策略和做法的深刻理解，这些策略和做法并不一定局限于传统的虚假信息传播或社交媒体平台。本文首先介绍了该论文集的内容，阐述了计算传播的概念，分析了其核心组成部分，并指出了现有研究中的不足之处，随后展示了各篇论文是如何填补这些不足的。",
+    "abstract_zh": "尽管关于计算传播（computational propaganda）的文献日益增多，但现有研究仍存在显著不足，尤其是在研究视角上过于侧重西方，并且主要关注Twitter等主流平台。本次研讨会旨在填补这些空白，拓展我们对计算传播的理解，使其不再局限于西方背景。研讨会的论文提出了新的理论见解，例如“表演性传播参与”（Performative Propaganda Engagement）和“参考点调整”（Reference Point Adjustment）等概念。此外，这些论文还提供了来自印度尼西亚、菲律宾、中国、土耳其和泰国等较少被研究的地区的实证证据，揭示了这些非西方政府在传播计算内容方面的创新策略与实践。这些策略并不一定局限于传统的虚假信息传播或社交媒体平台。本文首先介绍了该研讨会的研究内容，阐述了计算传播的概念，分析了其核心组成部分，并指出了现有研究中的不足之处，随后展示了各论文是如何填补这些缺口的。",
     "summary": "该论文集介绍性文章，探讨计算宣传在非西方平台和语境中的表现，提出新理论观点并呈现多国实证案例。",
     "reason": "主题聚焦计算宣传，属于计算传播核心议题，讨论平台与语境扩展。",
     "tags": [
@@ -11394,7 +11394,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Disinformation during nuclear emergencies poses critical challenges as state actors exploit information asymmetries to shape public narratives. While contemporary propaganda theories emphasize algorithm-driven disinformation in decentralized networks, traditional state-led propaganda models’ relevance during nuclear crises remains underexplored. This study examines disinformation campaigns during the Zaporizhzhia and Fukushima nuclear emergencies through Jowett and O’Donnell’s (2014|1986|) pre-digital Legitimizing Source Model (LSM) and Deflective Source Model (DSM) in Propaganda and Persuasion. Through multilingual analysis of 522 disinformation instances across state media, private outlets, and social platforms, the authors demonstrate how classical propaganda frameworks effectively capture state actors’ disinformation mechanisms. Their findings reveal two key evolutions: traditional linear propagandist–intermediary–recipient structures have transformed into transnational networks operating across multiple platforms, and digital technologies enable unprecedented temporal responsiveness in narrative deployment and strategic reactivation. These adaptations show how legitimization and deflection mechanisms persist as core propaganda strategies. The study provides theoretical extensions for analyzing state-sponsored disinformation in future nuclear crises.",
-    "abstract_zh": "在核紧急情况下，虚假信息传播带来了严峻的挑战，因为国家行为体利用信息不对称来塑造公众舆论。尽管当代的传播理论主要关注去中心化网络中的算法驱动型虚假信息传播，但传统国家主导的传播模式在核危机中的作用仍被忽视。本研究通过Jowett和O’Donnell（1986/2014）提出的“合法化信息来源模型”（LSM）和“偏离信息来源模型”（DSM）来分析扎波罗热和福岛核危机期间的虚假信息传播活动。通过对来自国家媒体、私营媒体和社交平台的522个虚假信息案例进行多语言分析，作者证明了传统传播框架能够有效解释国家行为体的虚假信息传播机制。研究结果揭示了两个关键变化：传统的线性传播结构（传播者-中介-接收者）已经演变为跨多个平台运作的跨国网络；数字技术使得信息传播在时间和策略上的响应能力达到了前所未有的水平。这些变化表明，合法化和偏离信息来源的策略仍然是核心的传播手段。该研究为未来核危机中分析国家支持的虚假信息传播提供了理论上的补充和拓展。",
+    "abstract_zh": "在核紧急情况下，虚假信息传播带来了严峻的挑战，因为国家行为者会利用信息不对称来塑造公众舆论。尽管当代的宣传理论主要关注去中心化网络中的算法驱动型虚假信息传播，但传统国家主导的宣传模式在核危机中的作用仍尚未得到充分研究。本研究通过Jowett和O’Donnell（1986/2014）提出的“合法化信息来源模型”（Legitimizing Source Model, LSM）和“偏离信息来源模型”（Deflective Source Model, DSM）来分析扎波罗热和福岛核危机期间的虚假信息传播行为。通过对来自国家媒体、私营媒体和社交平台的522个虚假信息案例进行多语言分析，作者证明了传统宣传框架能够有效解释国家行为者的虚假信息传播机制。研究结果揭示了两个关键变化：传统的线性宣传结构（即宣传者-中介-接收者）已经演变为跨多个平台运作的跨国网络；数字技术使得信息传播在时间和策略上的响应能力达到了前所未有的水平。这些变化表明，合法化和偏离信息来源的策略仍然是核心的宣传手段。该研究为未来核危机中分析国家支持的虚假信息传播提供了理论上的补充和拓展。",
     "summary": "研究福岛和扎波罗热核事故中的虚假信息，通过522个多语言实例分析验证经典宣传模型在数字时代的适用性及演变。",
     "reason": "研究社交媒体虚假信息，使用多语言实例分析，涉及计算传播核心议题。",
     "tags": [
@@ -11416,7 +11416,7 @@
   {
     "id": 682,
     "title": "Gendered News Coverage at the Apex of Political Leadership: Validating and Applying a Visual Character Frame Instrument to the Campaigns of Merkel, Clinton, and Their Male Opponents",
-    "title_zh": "政治领导层高层中的性别化新闻报道：运用“视觉特征框架”工具对默克尔、克林顿及其男性对手的竞选活动进行验证与分析",
+    "title_zh": "政治领导层高层中的性别化新闻报道：通过视觉特征框架工具验证并分析默克尔、克林顿及其男性对手的竞选活动",
     "authors": [
       "Dennis Steffan",
       "Maria Elizabeth Grabe"
@@ -11430,7 +11430,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This cross-national, two-study project examines leadership at the intersection of gender, politics, and visual framing. In Study 1, an online experiment, we used AI-generated images of synthetic women and men candidates ( N = 996) to validate an existing visual character frame instrument and examine if voters associate gender with these frames. We found strong consistency between German and US voters in attributing gender-variant leadership qualities to synthetic politicians. Study 2 applied the validated instrument in a comparative content analysis of TV election stories ( N = 318) about Angela Merkel (2017) and Hillary Clinton (2016) and their male opponents. Both women received more masculine framing than men, either signaling strategic success in side-stepping femininity or journalists were over-compensating for decades of gender role stereotyping. Merkel’s visual masculinity was part of a winning campaign while Clinton’s was associated with a loss, underscoring the complexities of visual masculinity for women in politics.",
-    "abstract_zh": "这项跨国性的双研究项目探讨了领导力在性别、政治和视觉呈现之间的相互作用。在第一项研究中（一项在线实验），我们使用了人工智能生成的合成女性和男性候选人的图像（样本量：996），来验证现有的视觉特征框架测量工具，并考察选民是否将这些图像与特定的性别特征联系起来。研究发现，德国和美国选民在将不同的领导力特质与这些合成政治人物的形象联系起来时表现出高度一致性。在第二项研究中，我们使用经过验证的测量工具对关于安格拉·默克尔（2017年）和希拉里·克林顿（2016年）及其男性对手的电视选举报道（样本量：318篇）进行了比较分析。结果显示，这两位女性都被赋予了比男性更“男性化”的视觉特征；这种特征要么暗示了她们在规避性别刻板印象方面的策略性成功，要么表明记者们在试图弥补长期存在的性别角色刻板印象。默克尔的“男性化”视觉形象是她竞选成功的一部分，而克林顿的“男性化”形象则与她的竞选失败相关联，这凸显了女性在政治领域中运用“男性化”视觉特征所面临的复杂性。",
+    "abstract_zh": "这个跨国性的双研究项目探讨了性别、政治和视觉框架在领导力问题上的交叉影响。在第一项研究中（一项在线实验），我们使用了人工智能生成的合成女性和男性候选人的图像（共996张），来验证现有的视觉特征框架测量工具，并考察选民是否将这些图像与特定的性别特征联系起来。研究发现，德国和美国选民在将不同的领导力特质与这些合成政治人物的形象联系起来时表现出高度一致性。在第二项研究中，我们使用经过验证的测量工具，对关于安格拉·默克尔（2017年）和希拉里·克林顿（2016年）及其男性对手的电视选举报道（共318篇）进行了比较性内容分析。结果显示，这两位女性都比她们的男性对手被赋予了更多“男性化”的视觉特征；这种男性化特征要么暗示了她们在规避性别刻板印象方面的策略性成功，要么表明记者们在长期存在的性别角色刻板印象下过度进行了补偿。默克尔的“男性化”视觉形象是她竞选成功的一部分，而克林顿的“男性化”形象则与她的竞选失败相关联，这凸显了女性在政治领域中运用“男性化”视觉特征所面临的复杂性。",
     "summary": "通过两项研究验证视觉角色框架工具，并应用于默克尔和克林顿竞选报道的内容分析，探讨性别与领导力视觉呈现。",
     "reason": "使用AI生成图像进行实验验证视觉框架工具，涉及AI与政治传播交叉议题，符合计算传播纳入标准。",
     "tags": [
@@ -11452,7 +11452,7 @@
   {
     "id": 1531,
     "title": "“We are the Last Generation”: Exploring Gender, Power, and Resistance in China’s Digital Childfree Movement",
-    "title_zh": "“我们是最后一代人”：探讨中国数字时代“不生育”运动中的性别、权力与抵抗现象",
+    "title_zh": "《我们是最后一代人》：探讨中国“数字无孩”运动中的性别、权力与抵抗现象",
     "authors": [
       "Tongtong Hou",
       "Lu Tang"
@@ -11465,7 +11465,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Today, young people in China are advocating for a childfree lifestyle and sharing reasonings, stories, and memes on social media, contributing to a quiet yet significant resistance movement. This article examined the childfree discourse, exploring how men and women resist social expectations and pursue individual aspirations. A thematic analysis of Weibo related to the Childfree movement identified three themes: the unbearable cost of raising a family, the embrace of individualism, and women’s evolving views on motherhood. These discussions reject neoliberal ideals of success and government-supported fertility narratives such as patriotism and cultural tradition. Women also revolt against patriarchal gender roles.",
-    "abstract_zh": "如今，中国的年轻人正在倡导无孩生活方式，并在社交媒体上分享他们的理由、故事和相关内容，从而形成了一场虽低调但意义重大的抵抗运动。本文研究了这一无孩理念的传播情况，探讨了男性和女性是如何反抗社会期望、追求个人理想的。通过对微博上与“无孩运动”相关内容的主题分析，发现了三个主要主题：抚养家庭的沉重负担、对个人主义的认同，以及女性对母亲角色的看法的变化。这些讨论拒绝了新自由主义关于成功的观念，以及政府所推崇的生育观念（如爱国主义和文化传统）。同时，女性也在反抗父权制的性别角色。",
+    "abstract_zh": "如今，中国的年轻人正在倡导无子女的生活方式，并在社交媒体上分享他们的理由、故事和相关内容，从而形成了一场虽低调但意义重大的反抗运动。本文研究了这一无子女理念的传播情况，探讨了男性和女性是如何抵制社会期望、追求个人理想的。通过对微博上与“无子女运动”相关内容的主题分析，发现了三个主要主题：抚养家庭的沉重负担、对个人主义的认同，以及女性对母亲角色的看法的变化。这些讨论拒绝新自由主义所倡导的成功观念，也反对政府推行的生育观念（如爱国主义和文化传统）。同时，女性也在反抗父权制的性别角色。",
     "summary": "通过主题分析微博上的无子女运动话语，探讨性别、权力与抵抗，发现三类主题：养育成本、个人主义、女性母亲观转变。",
     "reason": "使用社交媒体（微博）数据进行数字运动分析，主题涉及性别与传播，属于计算传播研究。",
     "tags": [
@@ -11488,7 +11488,7 @@
   {
     "id": 792,
     "title": "Can affordable internet increase employment opportunities for low-income workers? Evidence from the Affordable Connectivity Program",
-    "title_zh": "价格合理的互联网服务能否增加低收入工人的就业机会？来自‘可负担连接计划’的证据",
+    "title_zh": "价格合理的互联网服务能否增加低收入劳动者的就业机会？来自‘可负担连接计划’（Affordable Connectivity Program）的证据",
     "authors": [
       "Hernán Galperín",
       "François Bar",
@@ -11503,7 +11503,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study investigates the labor market impacts of the Affordable Connectivity Program (ACP), the largest U.S. initiative to date aimed at reducing income-based disparities in Internet access. We assess ACP’s effects on labor force participation and employment and test the hypothesis that a key impact mechanism is the expansion of remote work opportunities for program recipients. Using large-scale national datasets, we also explore heterogeneity in program effects by gender, occupation, and connection type (fixed vs. mobile). The analysis employs two complementary empirical strategies: (1) difference-in-differences estimators based on repeated cross-sectional data from the American Community Survey for 2016–2023 (N ≈ 29.8 million), and (2) augmented inverse propensity weighting (AIPW) models using cross-sectional data from the 2023 Current Population Survey (N = 35,561). The results provide robust evidence that ACP participation is associated with improved labor market outcomes, particularly among women and individuals with high-speed residential connections. These gains appear to be driven, in part, by increases in both the incidence and intensity of remote work. The findings suggest that a narrow focus on first-level adoption outcomes underestimates the broader socioeconomic benefits of affordable broadband initiatives. Theoretically, they indicate that the so-called Matthew effect – whereby digitization amplifies existing social inequalities – is not inevitable and can be partially offset by well-designed, targeted policy interventions.",
-    "abstract_zh": "本研究探讨了“可负担连接计划”（Affordable Connectivity Program, ACP）对劳动力市场的影响。该计划是美国迄今为止规模最大的旨在缩小互联网接入方面收入差异的举措。我们评估了ACP对劳动力参与度和就业的影响，并检验了这样一个假设：其关键影响机制是增加了计划受益者的远程工作机会。通过使用大规模的全国性数据集，我们还分析了不同性别、职业以及连接类型（固定网络 vs. 移动网络）下该计划效果的差异性。研究采用了两种互补的实证方法：（1）基于2016–2023年美国社区调查（American Community Survey）的重复横截面数据的差异-in-differences（DID）估计方法（样本量约为2980万）；（2）利用2023年当前人口调查（Current Population Survey）的横截面数据建立的增强型逆概率加权（AIPW）模型（样本量为35,561）。研究结果提供了有力证据，表明参与ACP与劳动力市场表现的改善有关，尤其是在女性和拥有高速家庭网络连接的个体中。这些积极变化部分得益于远程工作发生频率和强度的增加。研究结果表明，仅仅关注计划的初步采纳效果会低估了可负担宽带计划所带来的更广泛的社会经济效益。从理论上讲，这些发现表明所谓的“马太效应”（即数字化加剧现有社会不平等现象）并非不可避免，通过精心设计、有针对性的政策干预可以在一定程度上加以缓解。",
+    "abstract_zh": "本文研究了“可负担连接计划”（Affordable Connectivity Program, ACP）对劳动力市场的影响。该计划是美国迄今为止规模最大的旨在缩小互联网接入方面收入差异的倡议。我们评估了ACP对劳动力参与度和就业的影响，并检验了这样一个假设：其关键影响机制是增加了该计划受益者的远程工作机会。通过使用大规模的全国性数据集，我们还探讨了该计划效果在性别、职业和连接类型（固定网络 vs. 移动网络）方面的差异性。分析采用了两种互补的实证方法：（1）基于2016–2023年美国社区调查（American Community Survey）的重复横截面数据的差异-in-differences（DID）估计方法（样本量约为2980万）；（2）使用2023年当前人口调查（Current Population Survey）的横截面数据的增强逆概率加权（AIPW）模型（样本量为35,561）。研究结果提供了有力证据，表明参与ACP与劳动力市场结果的改善有关，尤其是在女性和拥有高速住宅网络连接的个体中。这些改善在很大程度上是由于远程工作的发生频率和强度的增加所推动的。研究结果表明，仅仅关注计划的初步采纳效果会低估了可负担宽带倡议带来的更广泛的社会经济效益。从理论上讲，这些发现表明所谓的“马太效应”（即数字化加剧了现有的社会不平等）并非不可避免，通过设计合理的、有针对性的政策干预措施，可以在一定程度上抵消这一效应。",
     "summary": "利用美国ACS和CPS大规模数据，通过双重差分和AIPW方法评估平价互联网计划（ACP）对低收入群体就业的影响，发现其改善劳动力市场结果，尤其在女性和高速宽带用户中，并促进远程工作。",
     "reason": "采用大规模全国数据与计量模型分析互联网接入政策对就业的影响，属于数字不平等与计算社会科学交叉议题。",
     "tags": [
@@ -11538,7 +11538,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Authoritarian regimes have increasingly co-opted non-state actors such as celebrities and fans to extend the reach of state propaganda in fragmented digital environments. Despite this growing trend, there remains limited understanding of how fans in authoritarian contexts respond to such efforts. This paper identified a novel phenomenon, performative propaganda engagement, to explain why and how celebrity fans in informational autocracies engage with state propaganda. Combining quantitative analysis of fan engagement with People’s Daily on Weibo and qualitative interviews with celebrity fans in China, this exploratory research finds that celebrity fans actively incorporate the promotion of state propaganda into their daily activities, aiming to enhance the visibility and reputation of their celebrities. Fans primarily engage with celebrity-signaling propaganda, and some of this engagement is instrumental. This research contributes to political communication theory by offering an alternative view of the downstream effects of digital propaganda in authoritarian contexts. The findings shed light on how non-state actors are strategically incorporated into state communication efforts and how fans may behave under a compliance-based logic shaped by political constraints and platform incentives, bridging scholarship on authoritarian information control, fandom politics, and algorithmic media environments.",
-    "abstract_zh": "威权政权越来越多地利用非国家行为体（如名人和粉丝）来扩大国家宣传在碎片化数字环境中的影响力。尽管这一趋势日益明显，但人们对威权环境下粉丝如何应对这些宣传手段仍知之甚少。本文提出了一种新的现象——“表演性宣传参与”（performative propaganda engagement），用以解释为什么以及如何信息专制体制下的名人粉丝会参与国家宣传。通过定量分析《人民日报》在微博上的粉丝互动情况，以及对中国名人粉丝的定性访谈，研究发现这些粉丝会主动将国家宣传内容融入到日常生活中，目的是提升自己所支持名人的知名度和声誉。他们主要参与那些由名人发起的宣传活动，其中部分行为具有实际作用（即对宣传效果有直接影响）。这项研究为政治传播理论提供了新的视角，揭示了数字宣传在威权环境中的传播机制。研究结果还揭示了非国家行为体是如何被战略性地纳入国家宣传体系的，以及粉丝在受到政治限制和平台激励的影响下可能采取的行为方式，从而架起了威权信息控制、粉丝群体政治学以及算法驱动的媒体环境之间的研究桥梁。",
+    "abstract_zh": "威权政权越来越多地利用非国家行为体（如名人和粉丝）来扩大国家宣传在碎片化数字环境中的影响力。尽管这一趋势日益明显，但人们对威权背景下粉丝如何应对这些宣传手段仍知之甚少。本文提出了一种新的现象——“表演性宣传参与”（performative propaganda engagement），用以解释为什么以及如何信息专制体制下的名人粉丝会参与国家宣传。通过定量分析《人民日报》在微博上的粉丝互动情况，以及对中国名人粉丝的定性访谈，研究发现这些粉丝会主动将国家宣传内容融入自己的日常活动中，目的是提升名人的知名度和声誉。他们主要参与那些由名人发布的宣传内容，其中部分互动行为具有实际作用（即有助于实现宣传目标）。这项研究为政治传播理论提供了新的视角，揭示了数字宣传在威权环境中的传播效果。研究结果还揭示了非国家行为体是如何被战略性地纳入国家宣传体系的，以及粉丝在受到政治限制和平台激励的影响下可能表现出的行为模式，从而架起了威权信息控制、粉丝政治学以及算法驱动的媒体环境之间的研究桥梁。",
     "summary": "探讨威权环境下粉丝如何通过微博参与国家宣传，发现粉丝为提升偶像声誉而策略性传播宣传内容，结合定量与定性方法揭示数字宣传的下游效应。",
     "reason": "研究微博平台上的国家宣传与粉丝参与，结合数字数据定量分析与访谈，属计算传播议题。",
     "tags": [
@@ -11578,7 +11578,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study investigates the transition of Twitter to ‘X’ under Elon Musk's ownership, focusing on its impact on climate change discourse. Historically, Twitter has served as a public sphere for political and social communication, but Musk's takeover has made the platform and the information behaviors of its users undergo drastic transitions. Using Ruthven's information behavior theory of transitions, this paper finds that not only do individuals experience stages of transitions, but the same process can occur at the community level, though in a more non-linear way. We analyzed more than 7 million tweets posted during the transition and captured users' understanding and negotiating behaviors. We employed large language models (LLMs) with human validation for stance detection, constructed conversation networks and endorsing networks, and tested hypotheses regarding negotiating through linear regression models. Our findings reveal more active interaction patterns between climate change believers and deniers, and a growing concentration of opinion leadership among believers. These results highlight the complex and dynamic nature of the transitions that Twitter/X, as a public sphere, has been undergoing due to its leadership changes.",
-    "abstract_zh": "本研究探讨了在埃隆·马斯克接管Twitter后，该平台向“X”（目前称为TikTok）的转型过程，重点分析了这一转型对气候变化相关讨论的影响。历史上，Twitter一直是一个用于政治和社会交流的公共平台；然而，马斯克的收购使得该平台及其用户的信息行为发生了巨大变化。本文运用Ruthven的信息行为理论，发现不仅个人会经历不同的转型阶段，社区层面也会经历类似的转型过程，只不过这种转型更为非线性。我们分析了转型期间发布的700多万条推文，研究了用户的信息理解与协商行为。我们使用了大型语言模型（LLMs）并结合人工验证来识别用户的立场，构建了对话网络和意见领袖网络，并通过线性回归模型检验了相关假设。研究结果表明：气候变化的支持者与反对者之间的互动更加频繁；同时，支持者中的意见领袖地位日益凸显。这些发现揭示了由于领导层变更，Twitter/X作为公共平台所经历的转型过程的复杂性和动态性。",
+    "abstract_zh": "本研究探讨了在埃隆·马斯克接管Twitter后，该平台向“X”（目前称为TikTok）的转型过程，重点分析了这一转型对气候变化相关讨论的影响。历史上，Twitter一直是一个用于政治和社会交流的公共平台；然而，马斯克的收购使得该平台及其用户的信息行为发生了巨大变化。本文运用Ruthven的信息行为转变理论，发现不仅个体用户会经历不同的转变阶段，社区层面也会出现类似的转变过程，只不过这种转变更为非线性。我们分析了转型期间发布的700多万条推文，研究了用户的信息理解能力和协商行为。我们使用了大型语言模型（LLMs）并结合人工验证来识别用户的立场，构建了对话网络和意见领袖网络，并通过线性回归模型检验了相关假设。研究结果表明：气候变化支持者与反对者之间的互动更加频繁；同时，支持者中的意见领袖角色日益集中。这些发现凸显了由于领导层变更，Twitter/X作为公共平台所经历的复杂且动态的转型过程。",
     "summary": "通过分析Twitter向X转型期间的700万条推文，使用LLM检测立场并构建对话与支持网络，发现气候变化信念者与否认者互动更活跃，意见领袖集中于信念者，揭示平台领导层变动对公共领域话语的影响。",
     "reason": "使用700万条推文、LLM立场检测和网络分析，研究平台转型中的气候传播，议题与方法均为计算传播核心。",
     "tags": [
@@ -11601,7 +11601,7 @@
   {
     "id": 1191,
     "title": "Using computational methods to examine the framing of China in Latin America",
-    "title_zh": "使用计算方法研究拉丁美洲对中国形象的构建（或：利用计算方法分析拉丁美洲对中国认知的框架）",
+    "title_zh": "使用计算方法研究拉丁美洲对中国形象的构建",
     "authors": [
       "Itai Himelboim",
       "Guy J. Golan",
@@ -11614,7 +11614,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This stuy examines the relationship between China’s investment in Latin America and Twitter discussions, focusing on Spanish-language conversations in 16 countries. It identifies 34 topics, which come together as five frames: foreign affairs, economy, internal crisis, health, and culture. We find that higher Chinese investment correlates with more negative Twitter discussions, with unique differences across frames, challenging the idea that financial investment alone can improve a nation’s image. Using computational methods like topic modeling, examining a random sample of 5,000 tweets about China from each of the 16 Latin American Spanish-speaking countries, the research highlights China’s global image struggles on social media, suggesting that soft power efforts may be less effective in shaping public perceptions.",
-    "abstract_zh": "本研究探讨了中国对拉丁美洲的投资与Twitter上的讨论之间的关系，重点关注了16个西班牙语国家的网民讨论。研究识别出了34个主要话题，这些话题可以归纳为五个类别：外交事务、经济、国内危机、健康和文化。研究发现，中国的投资规模越大，Twitter上的负面讨论越多；不同话题类别之间的差异也较为明显。这一发现挑战了“仅靠金融投资就能提升一个国家形象”的观点。通过使用主题建模等计算方法，研究人员分析了来自这16个拉丁美洲西班牙语国家的5,000条关于中国的推文，揭示了中国在社交媒体上的全球形象面临的困境，并表明软实力在塑造公众认知方面的作用可能较为有限。",
+    "abstract_zh": "本文研究了中国对拉丁美洲的投资与Twitter上的讨论之间的关系，重点关注了16个西班牙语国家的用户讨论。研究识别出了34个主要话题，这些话题可以归纳为五个类别：外交事务、经济、国内危机、健康和文化。研究发现，中国的投资规模越大，Twitter上的负面讨论越多；而且不同话题类别之间的差异也较为明显。这一发现挑战了“仅靠金融投资就能提升一个国家形象”的观点。通过使用主题建模等计算方法，研究人员分析了来自这16个拉丁美洲西班牙语国家的5,000条关于中国的推文样本，揭示了中国在社交媒体上的全球形象面临的困境，并表明软实力在塑造公众认知方面的作用可能较为有限。",
     "summary": "研究通过主题建模分析16个拉美西语国家关于中国的5,000条推文，识别34个主题和五个框架，发现中国投资与负面讨论正相关，质疑投资提升国家形象的有效性。",
     "reason": "使用主题建模等计算方法分析Twitter讨论，议题涉及国家形象与软实力，属于计算传播研究。",
     "tags": [
@@ -11636,7 +11636,7 @@
   {
     "id": 685,
     "title": "Is Knowledge Hiding Contagious Within Organizational Teams? Examining Its Diffusion Through Workplace and Social Communication Networks",
-    "title_zh": "知识隐藏在组织团队中是否具有传染性？通过工作场所和社交沟通网络考察其传播过程",
+    "title_zh": "知识隐藏在组织团队中是否具有传染性？探讨其通过工作场所和社会交流网络的传播机制",
     "authors": [
       "Chunke Su"
     ],
@@ -11648,7 +11648,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Knowledge hiding, the deliberate withholding of knowledge, can undermine team effectiveness and organizational performance. However, little is known about its diffusion within organizational teams. Drawing on social contagion theory, this study uses Autologistic Actor Attribute Models (ALAAMs) to examine knowledge hiding across workplace and social communication networks. Whole-network survey data from 200 employees in 31 teams in the U.S. and China reveal that, overall, knowledge hiding does not spread through communication networks. Certain network structures, however, facilitate its transmission: individuals centrally connected to multiple teammates or embedded in closed triads with both a hider and a non-hider are more likely to hide knowledge, whereas those bridging structural holes between hiders and non-hiders tend to avoid it. These findings advance social contagion theory and knowledge hiding research by showing how norm-violating behavior diffuses across different network structures and by characterizing knowledge hiding as network-embedded rather than solely an individual act.",
-    "abstract_zh": "知识隐藏（即故意隐瞒信息）会削弱团队效率和组织绩效。然而，关于知识隐藏在组织团队中的传播机制，目前了解甚少。本研究基于社会传染理论，运用自体演员属性模型（Autologistic Actor Attribute Models, ALAAMs）来分析工作场所和社会交流网络中的知识隐藏现象。通过对美国和中国31个团队中200名员工的全面网络调查数据进行分析，研究发现：总体而言，知识隐藏并不会通过交流网络传播。不过，某些网络结构会促进知识隐藏的传播——那些与多名团队成员有紧密联系的个体，或者处于包含隐藏者与非隐藏者的封闭三人组中的个体，更有可能隐藏信息；而那些在隐藏者与非隐藏者之间起到桥梁作用的个体则倾向于避免这种行为。这些发现丰富了社会传染理论和知识隐藏研究，揭示了违规行为如何在不同网络结构中传播，并将知识隐藏视为一种嵌入网络中的现象，而不仅仅是个人行为。",
+    "abstract_zh": "知识隐藏（即故意隐瞒信息）会削弱团队效率和组织绩效。然而，关于这种现象在组织团队中的传播机制，目前了解甚少。本研究基于社会传染理论，运用自体演员属性模型（Autologistic Actor Attribute Models, ALAAMs）来分析工作场所和社会交流网络中的知识隐藏行为。通过对美国和中国31个团队中200名员工的全面网络调查数据进行分析，研究发现：总体而言，知识隐藏并不会通过交流网络传播。不过，某些网络结构会促进这种行为的传播——那些与多名团队成员有紧密联系的个体，或者处于包含隐藏信息者和不隐藏信息者的封闭三人组中的个体，更有可能隐藏信息；而那些在隐藏信息者和不隐藏信息者之间起到桥梁作用的个体则倾向于避免这种行为。这些发现丰富了社会传染理论和知识隐藏研究，揭示了违规行为如何在不同网络结构中传播，并将知识隐藏行为视为一种嵌入在网络中的现象，而不仅仅是个人行为。",
     "summary": "基于31个团队200名员工的整体网络调查数据，运用ALAAM模型检验知识隐藏在工作与社交沟通网络中的扩散机制，发现特定网络结构促进其传播。",
     "reason": "使用ALAAM社会网络分析方法研究知识隐藏的传播，属于计算传播学核心议题。",
     "tags": [
@@ -11670,7 +11670,7 @@
   {
     "id": 797,
     "title": "Forgetful by design? A critical audit of YouTube’s search API for academic research",
-    "title_zh": "故意设计出的“健忘”功能？对 YouTube 搜索 API 在学术研究中的使用的批判性评估",
+    "title_zh": "故意设计得容易遗忘吗？对 YouTube 搜索 API 在学术研究中的使用的批判性评估",
     "authors": [
       "Bernhard Rieder",
       "Adrián Padilla",
@@ -11686,7 +11686,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This paper critically audits the search endpoint of YouTube’s Data API (v3), a common tool for academic research. Through systematic weekly searches over six months using eleven queries, we identify major limitations regarding completeness, representativeness, consistency, and bias. Our findings reveal substantial differences between ranking parameters like relevance and date in terms of video recall and precision, with relevance often retrieving numerous off-topic videos. We also observe severe temporal decay in video discoverability: the number of retrievable videos for a given period drops dramatically within just 20–60 days of publication, even though these videos remain on the platform. This potentially undermines research designs that rely on systematic data collection. Furthermore, search results lack consistency, with identical queries yielding different video sets over time, compromising replicability. A case study on the European Parliament elections highlights how these issues impact research outcomes. While the paper offers several mitigation strategies, it concludes that the API’s search function, potentially prioritizing ‘freshness’ over comprehensive retrieval, is not adequate for robust academic research, especially concerning Digital Services Act requirements.",
-    "abstract_zh": "本文对 YouTube 数据 API（v3）的搜索功能进行了批判性评估。该 API 是学术研究中常用的工具。通过六个月内每周系统性地使用十一个查询进行搜索，我们发现了该 API 在数据完整性、代表性、一致性和偏见方面的主要问题。研究结果表明，诸如相关性（relevance）和日期（date）等排名参数在视频检索的召回率和精确度方面存在显著差异：相关性参数经常返回大量与主题无关的视频。我们还观察到视频的可发现性存在严重的时间衰减现象：即使在视频发布后的 20 至 60 天内，该平台仍能检索到的视频数量也会急剧下降。这可能会影响那些依赖系统化数据收集的研究设计。此外，搜索结果缺乏一致性，相同的查询在不同时间可能会返回不同的视频集，从而影响研究的可重复性。通过对欧洲议会选举的案例研究，我们进一步了解了这些问题对研究结果的影响。尽管本文提出了一些缓解策略，但结论认为，该 API 的搜索功能可能更倾向于优先考虑“新鲜度”而非全面性，因此不适合用于严谨的学术研究，尤其是在涉及《数字服务法》（Digital Services Act）要求的场景中。",
+    "abstract_zh": "本文对 YouTube 数据 API（v3）的搜索功能进行了批判性评估。该 API 是学术研究中常用的工具。通过六个月内每周系统性地使用十一个查询进行搜索，我们发现了该 API 在数据完整性、代表性、一致性和偏见方面的主要问题。研究结果表明，诸如相关性（relevance）和日期（date）等排名参数在视频检索的召回率和精确度方面存在显著差异：相关性参数经常返回大量与主题无关的视频。我们还观察到视频的可发现性存在严重的时间衰减现象：即使这些视频仍然存在于平台上，但在发布后的 20 至 60 天内，可检索到的视频数量也会急剧下降。这可能会影响那些依赖系统化数据收集的研究设计。此外，搜索结果缺乏一致性，相同的查询在不同时间点可能会返回不同的视频集，从而影响研究的可重复性。通过对欧洲议会选举的案例研究，我们进一步了解了这些问题对研究结果的影响。尽管本文提出了一些缓解策略，但结论认为，该 API 的搜索功能可能更倾向于优先考虑视频的“新鲜度”而非全面性，因此不适合用于严谨的学术研究，尤其是在符合《数字服务法》要求的情况下。",
     "summary": "论文对YouTube Data API搜索端点进行六个月系统审计，发现完整性、代表性、一致性和偏差等问题，评估其用于学术研究的可靠性。",
     "reason": "使用API审计方法研究YouTube平台数据检索问题，属计算传播学。",
     "tags": [

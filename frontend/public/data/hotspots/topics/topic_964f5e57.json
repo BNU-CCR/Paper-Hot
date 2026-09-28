@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "政党与政治精英的社交媒体竞选策略",
-  "description": "考察选举与议会情境下政党及政治精英跨平台的议题策略、瞄准方式与传播效果。",
-  "why_hot": "近30天日均发表速度较前期增长逾一倍，议题快速升温。",
-  "hot_score": 79,
-  "growth": 1.308,
-  "growth_rate": 1.308,
-  "recent_rate": 0.2,
-  "baseline_rate": 0.0867,
-  "recent_count": 6,
-  "baseline_count": 13,
-  "journal_count": 6,
+  "label": "平台政治传播与选举动员",
+  "description": "研究政治行动者在社交平台上的竞选传播、病毒化策略与选民定向动员方式。",
+  "why_hot": "近30天4篇，日均发表速度较此前上升18%，研究热度温和升温。",
+  "hot_score": 64,
+  "growth": 0.176,
+  "growth_rate": 0.176,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.1133,
+  "recent_count": 4,
+  "baseline_count": 17,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "election campaigns",
-    "political parties",
-    "social media strategies",
+    "political communication",
+    "virality",
     "electoral targeting",
-    "political satire"
+    "political satire",
+    "social media campaigning"
   ],
   "papers": [
     {
@@ -78,6 +78,13 @@
       "summary": "分析比利时和瑞典政党在Facebook上的链接分享实践，基于2014-2022竞选期间帖子内容，发现链接和新闻分享减少，反映传播策略变化。"
     },
     {
+      "id": 1959,
+      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-18",
+      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
+    },
+    {
       "id": 1934,
       "title": "Affective Legitimacy and Digital Populism: Evidence from Romania’s Annulled Presidential Elections",
       "journal": "Political Communication",
@@ -127,13 +134,6 @@
       "summary": "研究奥地利大选中政治人物与政党账号在 Facebook 和 Instagram 上的专业与私人个性化策略，基于2028条帖子的定量内容分析和混合效应逻辑回归，发现候选账号更倾向私人个性化，且平台间无显著差异。"
     },
     {
-      "id": 84,
-      "title": "Fixing election interference, safeguarding election integrity? Developments and dynamics of election-related policies on social media platforms",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-14",
-      "summary": "论文比较分析YouTube、Facebook等平台的选举相关政策及其演变，划分三个阶段，并探讨平台责任话语变化及美国选举影响。"
-    },
-    {
       "id": 100,
       "title": "Targeting and/or tailoring?! A theoretical framework and its application to political social media advertising",
       "journal": "Information Communication & Society",
@@ -141,11 +141,25 @@
       "summary": "提出targeting与tailoring的理论框架，基于2021年德国大选Facebook和Instagram广告数据，测量政党广告策略及其对曝光量的影响。"
     },
     {
+      "id": 200,
+      "title": "Exploring temporal dynamics in digital trace data: mining user-sequences for communication research",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-05-09",
+      "summary": "论文系统梳理了利用数字追踪数据中的时间信息进行传播研究的方法，介绍序列分析、事件史分析、隐马尔可夫模型等六种方法，并以30万条用户序列数据为例进行演示。"
+    },
+    {
       "id": 223,
       "title": "“Everything for the Front, Everything for Victory”? Elite Incentives and Rhetorical Adaptation of Russia’s Members of Parliament on Social Media",
       "journal": "Political Communication",
       "published_date": "2026-05-05",
       "summary": "研究俄罗斯议员在2022-23年乌克兰冲突期间社交媒体帖子的修辞适应，基于14.4万条帖子，用词嵌入和主题分类发现议员帖子反映官方宣传及个人政治激励，揭示威权体制下政治沟通与外部冲突的关系。"
+    },
+    {
+      "id": 127,
+      "title": "Evaluating the potential and limits of trace-based interviews when studying news use",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-08",
+      "summary": "论文评估基于数字追踪的访谈法在新闻使用研究中的潜力与局限，基于英巴73次访谈，揭示该方法能反映习惯性、偶然性及跨平台新闻实践。"
     },
     {
       "id": 268,

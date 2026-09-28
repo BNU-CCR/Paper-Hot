@@ -1,39 +1,39 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "数字空间治理与冲突中的信息行动",
-  "description": "探讨数字身份、平台控制与信息行动在冲突和外交情境中的运作机制与叙事策略。",
-  "why_hot": "近30天日均发表速度较前期上升约25%，研究关注度上升。",
-  "hot_score": 70,
-  "growth": 0.25,
-  "growth_rate": 0.25,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.1867,
-  "recent_count": 7,
-  "baseline_count": 28,
-  "journal_count": 8,
+  "label": "战时数字空间与信息行动",
+  "description": "聚焦冲突情境下数字平台、信息行动与数字外交如何参与国家叙事与归属建构。",
+  "why_hot": "近30天4篇，日均发表速度较此前下降39%，研究热度有所回落。",
+  "hot_score": 46,
+  "growth": -0.394,
+  "growth_rate": -0.394,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.22,
+  "recent_count": 4,
+  "baseline_count": 33,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "digital governance",
-    "information operations",
     "digital diplomacy",
-    "wartime disinformation",
-    "platform control"
+    "information operations",
+    "platformized statecraft",
+    "digital citizenship",
+    "conflict communication"
   ],
   "papers": [
+    {
+      "id": 2092,
+      "title": "Filipino migrant workers navigating war online: Digital performative citizenship and the construction of belonging during the Israel–Hamas war",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-09-25",
+      "summary": "研究以色列的菲律宾住家看护在2023年10月7日哈马斯袭击及随后的战争期间如何使用Facebook。基于Facebook数字民族志，发现其帖文表达哀悼、赞颂英雄与团结，既强化菲社群内部的认同，又建构与以色列社会的联结，提出'数字表演性公民身份'概念，说明社交媒体可见性与联结性可供性如何让边缘移民在战时重构归属。"
+    },
     {
       "id": 2020,
       "title": "The control of digital spaces in India, Pakistan, and Bangladesh: a comparative analysis",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-09-08",
       "summary": "论文比较印度、巴基斯坦、孟加拉国对数字空间的控制，结合法律框架梳理与OONI、Internet Society网络干扰数据，分析各国审查与监控实践的差异及其成因，发现不同政权安全关切导致控制手段分化。"
-    },
-    {
-      "id": 1979,
-      "title": "Digital ID as surreptitious experimentation in the humanitarian-tech industry: an ethnography of a biometric pilot in a refugee camp in the Thailand-Myanmar border",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-03",
-      "summary": "通过18个月民族志研究，分析泰国-缅甸边境难民营中数字ID试点如何作为隐秘实验实施，揭示其缺乏知情同意、加剧权力不对称，并延续殖民逻辑。"
     },
     {
       "id": 2009,
@@ -78,6 +78,13 @@
       "summary": "论文提出“创伤自拍”概念，分析2023年10月7日音乐节袭击中约300个受害者生成视频，构建动机与美学类型学，探讨当代战争中手机拍摄的见证形式及“主动受害者”身份的政治意涵。"
     },
     {
+      "id": 1963,
+      "title": "Reclaiming Place Through Symbolic Geographies: Visual Resistance on Palestinian Instagram",
+      "journal": "Political Communication",
+      "published_date": "2026-08-16",
+      "summary": "分析2023-2024年巴勒斯坦Instagram用户的9126条帖子，识别三种视觉主题，并与国际新闻标题比较，展示用户生成内容如何抵抗主流叙事和算法压制。"
+    },
+    {
       "id": 483,
       "title": "Weaponized narratives: A social psychological theory of story-based influence in cognitive warfare",
       "journal": "Media War & Conflict",
@@ -90,13 +97,6 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-07-23",
       "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
-    },
-    {
-      "id": 395,
-      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-19",
-      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
     },
     {
       "id": 210,
@@ -253,11 +253,25 @@
       "summary": "从生态视角探讨平台化放大如何通过注意力竞争、目击内容和算法信息流强化恐怖主义报道，间接助力恐怖主义目标。"
     },
     {
+      "id": 124,
+      "title": "Digital resistance and gendered dispossession: Palestinian women’s struggles for inheritance justice",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-11",
+      "summary": "通过分析巴勒斯坦两个Facebook支持小组的305条帖子，探讨女性继承权被剥夺现象，揭示法律、文化和家庭压力如何导致女性被迫放弃继承权，并呼吁法律与社会改革。"
+    },
+    {
       "id": 556,
       "title": "From digital diplomacy to AI-driven diplomacies? Mapping the potential impact of AI on Diplomacy",
       "journal": "Communication and the Public",
       "published_date": "2026-04-02",
       "summary": "论文分析12年数字外交研究，提出AI驱动外交的三种情景和两大悖论，探讨AI对当代外交的潜在影响。"
+    },
+    {
+      "id": 291,
+      "title": "Performing Identity: Repetition, Emoji, and Candidate Indicators of Amplified Visibility in Jordanian–Palestinian Facebook Discourse",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
     },
     {
       "id": 307,

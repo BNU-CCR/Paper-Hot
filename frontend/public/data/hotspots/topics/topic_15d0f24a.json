@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "人工智能生成内容与健康传播效果",
-  "description": "研究AI作者身份、情感化叙事与思维倾向如何影响健康信息的可信度评估与污名消解。",
-  "why_hot": "近30天日均发表速度较前期下降约63%，议题热度明显回落。",
-  "hot_score": 33,
-  "growth": -0.63,
-  "growth_rate": -0.63,
-  "recent_rate": 0.0667,
-  "baseline_rate": 0.18,
-  "recent_count": 2,
-  "baseline_count": 27,
+  "label": "生成式人工智能与传播实践",
+  "description": "考察生成式人工智能在传播研究、公共关系与健康传播中的角色定位、使用规范与伦理关切。",
+  "why_hot": "近30天5篇，日均发表速度较此前变化约-4%，研究热度基本持平。",
+  "hot_score": 61,
+  "growth": -0.038,
+  "growth_rate": -0.038,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.1733,
+  "recent_count": 5,
+  "baseline_count": 26,
   "journal_count": 8,
   "lineage_status": "continued",
-  "status": "emerging",
+  "status": "hot",
   "keywords": [
+    "generative AI",
     "AI authorship",
-    "health communication",
-    "emotional tone",
-    "narrative persuasion",
-    "stigma"
+    "communication science",
+    "public relations",
+    "health communication"
   ],
   "papers": [
+    {
+      "id": 2081,
+      "title": "Guidance over guidelines? Unpacking the uses and concerns of generative AI in communication science",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-25",
+      "summary": "通过对1138名传播学者的问卷调查与四组焦点小组访谈，系统描绘生成式AI在传播学研究各阶段的使用情况，揭示普遍使用与持续担忧的悖论、个体与机构间的期望冲突及文化语言差异，并提出多层次负责任使用建议。"
+    },
     {
       "id": 2072,
       "title": "Authority Over Sympathy: How AI Emotional Tone and Thinking Dispositions Shape Hallucination Detection in Health Communication",
@@ -29,11 +36,25 @@
       "summary": "基于误导信息识别与回应模型，采用Wizard-of-Oz实验（N=476）考察AI生成健康回答中权威与共情语气对用户幻觉识别敏感度的影响，发现权威语气显著降低识别敏感度，共情语气无显著效应，思维倾向无显著调节作用。"
     },
     {
+      "id": 2060,
+      "title": "Role, Position, and Control: Questioning Generative Artificial Intelligence’s Place as a New Actor within Strategic Communications for National Advocacy",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-09-17",
+      "summary": "研究考察加沙冲突期间以色列国家倡导传播中，生成式AI如何被纳入临时倡导场域。通过对15位战略传播从业者的半结构化访谈，结合行动者网络理论与布迪厄场域理论，发现AI被视为高效忠诚的助手，但被策略性地置于创作流程中段，源于对职业地位、创意真实性与可信度的顾虑。"
+    },
+    {
       "id": 2047,
       "title": "Mitigating mental illness stigma through narrative identification: The impact of AI authorship, emotionalization, and perspective",
       "journal": "Communication Research Reports",
       "published_date": "2026-09-16",
       "summary": "通过实验操纵AI/人类/无署名标签、情绪化程度与叙事视角，考察AI撰写的抑郁症叙事能否通过认同降低污名化，发现各变量间存在有条件的调节中介关系。"
+    },
+    {
+      "id": 2023,
+      "title": "Examining the Mediating Effects of Mutuality and Openness in the Adoption of Generative Artificial Intelligence in Public Relations Practice: A Predictive PLS-SEM Approach",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-09-08",
+      "summary": "研究调查398名肯尼亚公关从业者，用PLS-SEM检验生成式AI采纳对组织-公众对话传播（互助性与开放性）的影响，以及AI增强的对话传播在信任与满意度关系中的中介作用，发现所有假设路径显著且呈部分中介。"
     },
     {
       "id": 1945,
@@ -48,20 +69,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-07-12",
       "summary": "通过2x4被试间实验，考察不同解释策略（开发者、程序、组合、无）对AI生成新闻可信度的影响，发现程序性和组合解释提升可信度，且机器启发式起中介作用。"
-    },
-    {
-      "id": 4,
-      "title": "The Anatomy of Resilient Talk: Linguistic Features of Relational and Psychological Health in Couples’ Conversations About Stress",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-07-10",
-      "summary": "运用NLP分析夫妻应对压力的对话语言特征，发现义务、不确定等语言与关系压力相关，包容性语言与韧性相关，揭示微观语言反映关系健康。"
-    },
-    {
-      "id": 27,
-      "title": "Chatbots and Loneliness: How Linguistic Dynamics in Conversations with Chatbots Shape Young Adults’ Loneliness",
-      "journal": "Communication Research",
-      "published_date": "2026-07-10",
-      "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
     },
     {
       "id": 539,
@@ -85,11 +92,11 @@
       "summary": "通过Twitter数据分析用户如何拟人化ChatGPT，识别出人格化、情感归因等五类拟人化形式，探讨社交媒体对拟人化叙事的形塑及其对信任和传播的影响。"
     },
     {
-      "id": 1999,
-      "title": "Social Robots and the Dialectics of Presence and Absence",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "基于关系辩证理论与符号学，考察103名青年与社交机器人的首次互动，揭示在场与缺席等辩证张力，强调机器人作为交流基础设施的作用。"
+      "id": 402,
+      "title": "Epistemic Dislocation in AI Journalism: Fragmented Authority and the Reconfiguration of Knowledge Production",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-28",
+      "summary": "基于75个深度访谈，提出AI在新闻业中引发“认识论错位”，使知识生产的权威碎片化，并分析三种动态机制。"
     },
     {
       "id": 403,
@@ -141,18 +148,18 @@
       "summary": "调查335名传播管理者，发现AI伦理焦虑预测事实核查行为，感知可信度调节对事实核查网站的使用，但对AI事实核查无显著调节作用。"
     },
     {
+      "id": 175,
+      "title": "What Is Ethical AI Use in Journalism? Stakeholders’ Perceptions of Ethical Generative Artificial Intelligence (GenAI) Usage in Kenyan Newsrooms",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-05-31",
+      "summary": "通过访谈94名肯尼亚新闻业相关利益者，探讨他们关于GenAI的民俗理论及其伦理认知，揭示不同技术认知框架影响对新闻伦理风险的解读。"
+    },
+    {
       "id": 415,
       "title": "Does AI Amplify or Mitigate Media Bias? A Comparative Analysis of Coverage, Gatekeeping, and Statement Bias in AI-Generated and Human-Written News",
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-05-27",
       "summary": "基于18,282篇AI生成和18,210篇人工文章，比较覆盖、守门和陈述偏见，发现AI重构而非减少媒体偏见，成为现有模式的镜像与选择性放大器。"
-    },
-    {
-      "id": 541,
-      "title": "We’re just chatting: perceptions of everyday communication with chatbots",
-      "journal": "Communication Research Reports",
-      "published_date": "2026-05-27",
-      "summary": "基于美国全国样本，考察人机闲聊中的沟通偶然性对感知响应性、参与度和满意度的影响，发现陪伴感调节作用。"
     },
     {
       "id": 416,
@@ -174,6 +181,13 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-05-11",
       "summary": "通过在线实验（N=123）比较AI决策者（标注、辟谣）与AI决策助手（助推）在降低健康错误信息可信度方面的效果，发现辟谣与标注效果相近，而助推对高控制需求者更有效，且感知自主性起中介作用。"
+    },
+    {
+      "id": 179,
+      "title": "Going with the Mainstream: Exploring GPT Representation of Journalistic Culture",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-05-09",
+      "summary": "本研究通过提示GPT-4o回答新闻业调查问卷，与美德英三国记者实际数据对比，发现模型偏向反映中翼全职电视背景记者观点，讨论AI在新闻生产中的文化偏向与记者能动性。"
     },
     {
       "id": 633,

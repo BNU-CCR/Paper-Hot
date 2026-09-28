@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "平台可供性与政治表达效应",
-  "description": "研究平台可供性如何塑造政治表达、阴谋论话语、虚假信息框架与精英传播行为。",
-  "why_hot": "近30天日均发表速度较前期上升约28%，研究活跃度提升。",
-  "hot_score": 78,
-  "growth": 0.282,
-  "growth_rate": 0.282,
-  "recent_rate": 0.3333,
-  "baseline_rate": 0.26,
-  "recent_count": 10,
-  "baseline_count": 39,
-  "journal_count": 11,
+  "label": "平台中介的政治表达与阴谋话语",
+  "description": "探讨平台可供性如何塑造政治精英与用户的表达效果、阴谋论话语及虚假信息框架。",
+  "why_hot": "近30天8篇，日均速度较此前下降9%，发文量仍居各主题前列。",
+  "hot_score": 68,
+  "growth": -0.091,
+  "growth_rate": -0.091,
+  "recent_rate": 0.2667,
+  "baseline_rate": 0.2933,
+  "recent_count": 8,
+  "baseline_count": 44,
+  "journal_count": 12,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "platform affordances",
-    "expression effects",
     "conspiratorial discourse",
-    "political communication",
-    "disinformation framing"
+    "disinformation framing",
+    "expression effects",
+    "political elites"
   ],
   "papers": [
     {
@@ -106,6 +106,20 @@
       "summary": "论文介绍MORESPulse模型，基于XLM-RoBERTa检测七种语言政治文本的五种情绪，并分析匈牙利议会1998-2022年超五百万句语料，发现情绪化语言自2010年持续上升，与政党角色和政策议题相关。"
     },
     {
+      "id": 1964,
+      "title": "Enemies Abroad, Animosity at Home: Media Influence on U.S.-China Policy and Anti-Asian Sentiment",
+      "journal": "Political Communication",
+      "published_date": "2026-08-16",
+      "summary": "通过分析2010-2020年CNN和福克斯新闻文本及全国调查实验，考察中国威胁叙事如何影响美国对华政策支持与反亚裔情绪，发现威胁叙事加剧鹰派态度和种族偏见，尤其在共和党人中。"
+    },
+    {
+      "id": 1933,
+      "title": "Entertainment as Trojan Horse: Voluntary Consumption of Propaganda in China",
+      "journal": "Political Communication",
+      "published_date": "2026-08-13",
+      "summary": "研究中国宣传电影中娱乐元素如何提升观众自愿消费和接受政治教化，采用观察数据与预注册调查实验。"
+    },
+    {
       "id": 1936,
       "title": "Policing the Political Boundary: How the r/BarstoolSports Audience Confronts Politicization",
       "journal": "Political Communication",
@@ -146,6 +160,13 @@
       "journal": "Political Communication",
       "published_date": "2026-07-23",
       "summary": "通过计算分析比较Reddit政治与体育社区中跨党派政治讨论的数量、语气和内容，发现体育社区更促进跨党派讨论，但毒性水平无显著差异。"
+    },
+    {
+      "id": 488,
+      "title": "Social media and protest planning: An examination of the 2024 #EndBadGovernance protests in Nigeria",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-07-23",
+      "summary": "基于尼日利亚400份调查数据，检验Instagram、Facebook、WhatsApp和X在2024年#EndBadGovernance抗议规划中的作用，发现前三者增加首日参与概率，X则降低，强调平台使用因国家而异。"
     },
     {
       "id": 206,
@@ -232,6 +253,13 @@
       "summary": "通过审计ChatGPT-4o mini在2024年美国大选前的输出，发现其存在不准确、遗漏和胡扯等问题，提出从 curative governance 到 generative governance 的转变，揭示生成式AI对民主信息环境的潜在危害。"
     },
     {
+      "id": 84,
+      "title": "Fixing election interference, safeguarding election integrity? Developments and dynamics of election-related policies on social media platforms",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-14",
+      "summary": "论文比较分析YouTube、Facebook等平台的选举相关政策及其演变，划分三个阶段，并探讨平台责任话语变化及美国选举影响。"
+    },
+    {
       "id": 18,
       "title": "How Mass and Social Media (De) polarize America: Exposure to News Media, Expression on Social Media, and Affective Polarization",
       "journal": "Communication and the Public",
@@ -253,6 +281,13 @@
       "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
     },
     {
+      "id": 181,
+      "title": "Simulated superiority and mediated geopolitics: affective responses to AI-generated political parody in Chinese digital space",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-30",
+      "summary": "通过397人实验探究AI生成政治模仿如何激发集体优越感、缓解对美敌对态度，并揭示视觉真实感的中介作用，扩展优越性理论。"
+    },
+    {
       "id": 182,
       "title": "“Liar, Liar, Pants on Fire!” An Automated Analysis of Polarities of Mediated Truth Contestation in Austrian and Czech News Media",
       "journal": "The International Journal of Press/Politics",
@@ -272,6 +307,13 @@
       "journal": "Journal of Language and Social Psychology",
       "published_date": "2026-04-29",
       "summary": "论文开发并验证极化语言编码工具，识别八种语言策略，通过四项研究（州长演讲、受众感知、国会推文）结合手动和计算方法验证框架的效度与泛化性。"
+    },
+    {
+      "id": 635,
+      "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
     },
     {
       "id": 116,
@@ -316,6 +358,13 @@
       "summary": "论文批判主流反虚假信息领域的北方主导、自上而下和提取式协作，基于2022-2024年百余名全球南方参与者的项目经验，主张南南方法论和社区驱动干预。"
     },
     {
+      "id": 184,
+      "title": "Evaluating the Impact of China’s “Wolf Warrior Diplomacy” in East Asia: An Experimental Approach",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-02",
+      "summary": "通过在日本、韩国、台湾的预注册在线实验，检验中国‘战狼外交’信息对三地公众对华态度的影响，发现负面效果有限但存在，分享意愿低。"
+    },
+    {
       "id": 639,
       "title": "Designed for discourse: how reactions and replies create trade-offs in political participation",
       "journal": "Journal of Computer-Mediated Communication",
@@ -335,27 +384,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "研究在线第三方空间（育儿论坛）在危机事件中的集体身份协商，分析近2500条帖子，发现论坛虽提供支持但排斥少数意见，可能导致边缘化激进化。"
-    },
-    {
-      "id": 46,
-      "title": "Adolescents’ Trust in Political Content From Influencers: The Roles of Motive Attribution and Parental Mediation",
-      "journal": "Communication Research",
-      "published_date": "2026-03-30",
-      "summary": "研究探讨青少年对社交媒体影响者政治内容的信任，考察动机归因、数字素养和父母中介的作用，基于三波面板调查数据。"
-    },
-    {
-      "id": 136,
-      "title": "Mobilization in motion: how radical movements adapt their communication on Telegram amid evolving crises",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-29",
-      "summary": "研究分析德国极右翼和Querdenken运动在2022年危机变化下如何通过Telegram调整传播策略，基于151个频道8852条消息的内容分析，发现不同运动的适应模式差异。"
-    },
-    {
-      "id": 138,
-      "title": "Between disclosure and conspiracy: the transparency effect on r/UFO and r/UAP subreddits",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-03-29",
-      "summary": "论文分析UFO/UAP子版块的帖子和评论，结合政府披露时间线，用时间序列模型检验官方透明度是否减少阴谋论叙事，发现披露能缓解信任侵蚀，并讨论披露概念的局限。"
     }
   ],
   "paper_edges": []

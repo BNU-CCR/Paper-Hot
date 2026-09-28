@@ -1,24 +1,23 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "平台选择与社交媒体市场信息",
-  "description": "研究用户的跨平台选择行为与社交媒体情绪对市场信息传播的影响。",
-  "why_hot": "近30天日均发表速度较前期下降约23%，研究活动温和降温。",
-  "hot_score": 44,
-  "growth": -0.231,
-  "growth_rate": -0.231,
+  "label": "社交媒体情绪与金融市场信息",
+  "description": "研究社交媒体情绪、平台选择组合与金融市场信息效率之间的关系。",
+  "why_hot": "近30天2篇，日均发表速度较此前上升25%，研究热度有所上升。",
+  "hot_score": 59,
+  "growth": 0.25,
+  "growth_rate": 0.25,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.0867,
+  "baseline_rate": 0.0533,
   "recent_count": 2,
-  "baseline_count": 13,
-  "journal_count": 7,
+  "baseline_count": 8,
+  "journal_count": 4,
   "lineage_status": "continued",
   "status": "emerging",
   "keywords": [
-    "platform choice",
-    "media repertoires",
     "social media sentiment",
     "stock price informativeness",
-    "substitutability"
+    "platform choice",
+    "media substitution"
   ],
   "papers": [
     {
@@ -34,13 +33,6 @@
       "journal": "Journal of Media Economics",
       "published_date": "2026-09-10",
       "summary": "基于韩国在线视频市场5年调查数据，用多元概率模型刻画消费者在四种服务类别（全球SVoD、本土SVoD、UGC/社交、TVoD）间的组合选择，揭示付费类别的互补性与UGC与付费服务间的替代性，并将不使用行为作为伴随结果分析其能力型进入壁垒。"
-    },
-    {
-      "id": 1959,
-      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-08-18",
-      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
     },
     {
       "id": 1909,
@@ -92,39 +84,11 @@
       "summary": "提出用深度学习方法对智能手机屏幕内容进行分布建模，基于53名青少年六个月的屏幕数据，分析内容模式与心理健康的关系，超越传统屏幕时间测量。"
     },
     {
-      "id": 282,
-      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
-    },
-    {
-      "id": 200,
-      "title": "Exploring temporal dynamics in digital trace data: mining user-sequences for communication research",
-      "journal": "Communication Methods and Measures",
-      "published_date": "2026-05-09",
-      "summary": "论文系统梳理了利用数字追踪数据中的时间信息进行传播研究的方法，介绍序列分析、事件史分析、隐马尔可夫模型等六种方法，并以30万条用户序列数据为例进行演示。"
-    },
-    {
-      "id": 38,
-      "title": "Examining the Effects of Viewing Positive Aging TikTok Videos on Aging Outcomes and Attitudes Among Young, Middle-Aged, and Older Women",
-      "journal": "Communication Research",
-      "published_date": "2026-05-07",
-      "summary": "实验检验观看积极老龄化TikTok视频对不同年龄女性老龄化结果和态度的影响，扩展CEMSA模型，发现间接效应。"
-    },
-    {
       "id": 345,
       "title": "Media sentiment and IPO underpricing: evidence from China",
       "journal": "Journal of Media Economics",
       "published_date": "2026-04-29",
       "summary": "研究中国媒体情绪对IPO抑价的影响，属于媒体经济学领域，可能结合文本情感分析与计量方法，但计算传播属性较弱。"
-    },
-    {
-      "id": 127,
-      "title": "Evaluating the potential and limits of trace-based interviews when studying news use",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-08",
-      "summary": "论文评估基于数字追踪的访谈法在新闻使用研究中的潜力与局限，基于英巴73次访谈，揭示该方法能反映习惯性、偶然性及跨平台新闻实践。"
     }
   ],
   "paper_edges": []

@@ -1,26 +1,40 @@
 {
   "topic_id": "topic_3812ca6c",
-  "label": "社交媒体影响者与品牌说服效果",
-  "description": "研究影响者特征与品牌社交媒体广告如何塑造受众态度、期待与亲社会行为意向。",
-  "why_hot": "近30天日均发表速度较前期下降约29%，研究节奏趋缓。",
-  "hot_score": 41,
-  "growth": -0.286,
-  "growth_rate": -0.286,
-  "recent_rate": 0.0667,
-  "baseline_rate": 0.0933,
-  "recent_count": 2,
-  "baseline_count": 14,
-  "journal_count": 6,
-  "lineage_status": "new",
-  "status": "emerging",
+  "label": "性别视角下的传播说服效果",
+  "description": "从性别视角考察社会运动、竞选信息与影响者营销对态度和亲社会意向的影响。",
+  "why_hot": "近30天4篇，日均发表速度较此前下降31%，研究热度走低。",
+  "hot_score": 48,
+  "growth": -0.31,
+  "growth_rate": -0.31,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.1933,
+  "recent_count": 4,
+  "baseline_count": 29,
+  "journal_count": 10,
+  "lineage_status": "continued",
+  "status": "hot",
   "keywords": [
+    "gender",
+    "political campaigns",
     "social media influencers",
-    "brand advertising",
     "persuasion",
-    "prosocial intentions",
-    "audience effects"
+    "social movements"
   ],
   "papers": [
+    {
+      "id": 2065,
+      "title": "When Movement Widens the Gap: The Contingent Effect of the Chinese #MeToo Movement on Feminist Attitudes",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-09-21",
+      "summary": "论文基于中国综合社会调查2010—2023年全国代表性数据，检验中国#MeToo运动对公众女性主义态度的影响，发现亲女性主义态度总体上升但沿性别身份与数字鸿沟呈现不均衡分化，提出社会技术权变框架解释运动的文化后果。"
+    },
+    {
+      "id": 2054,
+      "title": "Does Office Type Determine Gendered Campaign Messages?",
+      "journal": "Political Communication",
+      "published_date": "2026-09-18",
+      "summary": "研究考察候选人性别如何影响不同机构与层级下的竞选信息。基于2000-2022年韩国17次全国与地方选举中46,966份官方竞选手册，以关系性语言和女性相关政策词汇测量性别化信息。发现女性候选人更强调关系身份与女性政策议题，且性别差异在立法选举中大于行政选举，并随选举层级下沉而扩大。"
+    },
     {
       "id": 2028,
       "title": "How Do Social Media Influencers Motivate Prosocial Intentions? The Interaction of SMI Gender and Expertise",
@@ -36,11 +50,18 @@
       "summary": "通过在线实验考察大麻品牌社交媒体广告中的性/浪漫/娱乐脚本对大学生性前使用大麻预期与意向的影响，发现性别差异及机制。"
     },
     {
-      "id": 1963,
-      "title": "Reclaiming Place Through Symbolic Geographies: Visual Resistance on Palestinian Instagram",
-      "journal": "Political Communication",
-      "published_date": "2026-08-16",
-      "summary": "分析2023-2024年巴勒斯坦Instagram用户的9126条帖子，识别三种视觉主题，并与国际新闻标题比较，展示用户生成内容如何抵抗主流叙事和算法压制。"
+      "id": 1949,
+      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-21",
+      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
+    },
+    {
+      "id": 1957,
+      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-08-18",
+      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
     },
     {
       "id": 1929,
@@ -50,6 +71,13 @@
       "summary": "研究在线电子烟广告暴露如何影响美国性少数青年对电子烟的易感性，关注数字广告的传播效果。"
     },
     {
+      "id": 1897,
+      "title": "Twitter Conversations: Gendered Issue Publics Among Women",
+      "journal": "Communication Research",
+      "published_date": "2026-08-03",
+      "summary": "利用2020和2022选举期间Twitter数据，分析性别与党派如何影响女性政治议题讨论，发现精英与非精英用户差异。"
+    },
+    {
       "id": 8,
       "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
       "journal": "Political Communication",
@@ -57,11 +85,53 @@
       "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
     },
     {
-      "id": 488,
-      "title": "Social media and protest planning: An examination of the 2024 #EndBadGovernance protests in Nigeria",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-07-23",
-      "summary": "基于尼日利亚400份调查数据，检验Instagram、Facebook、WhatsApp和X在2024年#EndBadGovernance抗议规划中的作用，发现前三者增加首日参与概率，X则降低，强调平台使用因国家而异。"
+      "id": 13,
+      "title": "Social media, social identity, and the construction of perceived gender conflict: evidence from a national survey in South Korea",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
+    },
+    {
+      "id": 57,
+      "title": "Everyday feminist tagging as techno-rhetorical strategy: interference and curation through Instagram hashtags in #Kvinnostrejk",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-22",
+      "summary": "研究瑞典女性主义倡议#Kvinnostreik的日常标签实践，提出技术修辞策略概念，分析标签如何影响可见性并串联叙事，属数字文化研究。"
+    },
+    {
+      "id": 395,
+      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-19",
+      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
+    },
+    {
+      "id": 68,
+      "title": "Linking names with frames: the interplay of moral entities and moral frames in Chinese online gender debates",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-07",
+      "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
+    },
+    {
+      "id": 284,
+      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
+    },
+    {
+      "id": 285,
+      "title": "“You Might Like Each Other”: Mass Customization and the Structuring of Sociality Among Chinese Generation Z on the Soul App",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过参与观察和访谈，研究Soul app的算法匹配与标签系统如何重塑中国Z世代社交，既促进情感连接又强化文化经济分层。"
+    },
+    {
+      "id": 288,
+      "title": "Liminal Intelligibility Among Chinese Young Gay Men in an Algorithmic Age",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过65个访谈，探讨中国年轻男同性恋者在算法环境下如何协商（不）智能性，提出“liminal intelligibility”概念，强调人机交互与人人交互的交叉。"
     },
     {
       "id": 1942,
@@ -69,6 +139,27 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
+    },
+    {
+      "id": 253,
+      "title": "No time or tech for online news: How social and digital inequalities contribute to gender gaps in online news consumption",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-29",
+      "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
+    },
+    {
+      "id": 32,
+      "title": "When the Algorithm Understands You (or Doesn’t): LGBTQ+ Youth’s Identity-Related Interactions with Algorithmic Media",
+      "journal": "Communication Research",
+      "published_date": "2026-06-13",
+      "summary": "研究LGBTQ+青年与算法媒体的互动，通过日记和调查考察算法响应性、不敏感性和算法训练对身份认同的影响，发现算法推荐可增强身份自豪感。"
+    },
+    {
+      "id": 87,
+      "title": "The viral gender antagonism on social media: examining the role of multimodal framing and gender identity",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-11",
+      "summary": "研究基于微博22,925条帖子和115万条评论，运用广义线性混合模型分析多模态框架和性别身份对性别对抗性话语的影响，发现煽情化和个性化框架加剧对抗，娱乐化框架减弱对抗，且性别动态具有调节作用。"
     },
     {
       "id": 441,
@@ -85,6 +176,27 @@
       "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
     },
     {
+      "id": 93,
+      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-27",
+      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
+    },
+    {
+      "id": 218,
+      "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
+      "journal": "Political Communication",
+      "published_date": "2026-05-27",
+      "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
+    },
+    {
+      "id": 98,
+      "title": "Algorithmic ambivalence: LGBTQ+ social media and mental health among Chinese gay men",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-25",
+      "summary": "研究中国男同性恋者在社交媒体中算法矛盾心理及其对心理健康的影响，结合算法与社媒使用议题。"
+    },
+    {
       "id": 99,
       "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
       "journal": "Information Communication & Society",
@@ -92,11 +204,18 @@
       "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
     },
     {
-      "id": 124,
-      "title": "Digital resistance and gendered dispossession: Palestinian women’s struggles for inheritance justice",
+      "id": 376,
+      "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-05-08",
+      "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
+    },
+    {
+      "id": 118,
+      "title": "Navigating intersectional expectations: a computational multimodal analysis of the effects of identities and communication styles on public engagement with science on TikTok",
       "journal": "Information Communication & Society",
-      "published_date": "2026-04-11",
-      "summary": "通过分析巴勒斯坦两个Facebook支持小组的305条帖子，探讨女性继承权被剥夺现象，揭示法律、文化和家庭压力如何导致女性被迫放弃继承权，并呼吁法律与社会改革。"
+      "published_date": "2026-04-16",
+      "summary": "基于10,800个视频和448,002条评论，分析TikTok科学传播中传播者性别、种族与沟通风格如何影响公众参与，发现交叉身份导致参与差异。"
     },
     {
       "id": 126,
@@ -104,13 +223,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-04-08",
       "summary": "通过分析巴西贫民窟网红Blô的452条Instagram帖子，提出“贫民窟美学”概念，探讨边缘群体如何通过数字内容抵抗污名化、重构文化身份，挑战主流影响者审美与精英叙事。"
-    },
-    {
-      "id": 291,
-      "title": "Performing Identity: Repetition, Emoji, and Candidate Indicators of Amplified Visibility in Jordanian–Palestinian Facebook Discourse",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "该研究分析约旦-巴勒斯坦Facebook评论中的身份表演与放大可见性，结合数字民族志和系统编码及协调检测协议，识别方言、表情符号等策略及可能的操作化标记，提供开放脚本。"
     },
     {
       "id": 302,
@@ -125,6 +237,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-04-01",
       "summary": "通过民族志和访谈研究60个西语生态网红账号，分析其在TikTok上应对病毒式传播与社区建设的矛盾，提出“扁平病毒式传播”概念。"
+    },
+    {
+      "id": 304,
+      "title": "“My Non-Existing Organ”: Transitional Objects, Compensatory Romance, and the Affective Enclaves of Chinese Female Idol Fandom",
+      "journal": "Social Media + Society",
+      "published_date": "2026-04-01",
+      "summary": "通过多站点数字民族志研究中国女性粉丝在微博、豆瓣、微信群中的身份实践与情感表达，探讨女友粉和妈妈粉的补偿性浪漫及符号抵抗，形成情感飞地。"
     },
     {
       "id": 308,
