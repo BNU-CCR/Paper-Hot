@@ -1,5 +1,74 @@
 [
   {
+    "id": 2100,
+    "title": "Skin Tone as a Visual Cue in Political Campaigns: Evidence from Elections in Mexico",
+    "title_zh": "肤色作为政治竞选中的视觉线索：来自墨西哥选举的证据",
+    "authors": [
+      "Silvia Téliz",
+      "Sandra González‐Bailón"
+    ],
+    "institutions": [],
+    "journal": "The International Journal of Press/Politics",
+    "published_date": "2026-09-30",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Research has long established that physical appearance and phenotypical traits influence how people evaluate political candidates. Skin color is one of the visual cues the electorate perceives during campaigns and media coverage, and a possible source of prejudice and bias. Here we use computational visual analysis to investigate the association between skin tone and electoral success during the 2024 Mexican Federal Elections. Our analyses incorporate important correlates not considered in prior research, most prominently news coverage, political ads, and social media use. We also account for geographic differences in average skin tone, explicitly modeling a source of variation that is obscured when skin tone is analyzed disregarding contextual baselines. We use fixed effects generalized linear models to control for state and party variation as well as candidate-level demographics, political experience, incumbency status, and media presence (news coverage, political ads, and social media use). Consistent with past work, we find that as candidates’ skin tone becomes darker, their predicted vote share declines. However, news coverage, political ads, and social media use are, together, more important predictors of electoral success than skin tone, indicating that this phenotypical trait is not as prominent a visual cue as earlier research suggested.",
+    "abstract_zh": "研究早已表明，外貌和表型特征会影响人们对政治候选人的评价。肤色是选民在竞选活动和媒体报道中能够察觉到的视觉线索之一，也可能成为偏见和歧视的来源。在这项研究中，我们利用计算视觉分析方法来探讨2024年墨西哥联邦选举期间肤色与选举成功之间的关联。我们的分析纳入了以往研究未考虑的重要因素，尤其是新闻报道、政治广告以及社交媒体的使用情况。同时，我们也考虑了平均肤色的地理差异，这些差异在忽略背景信息的情况下容易被忽视。我们采用固定效应广义线性模型来控制州和党派之间的差异，以及候选人的人口统计特征、政治经验、现任状态和媒体曝光度（新闻报道、政治广告和社交媒体使用情况）。与以往的研究结果一致，我们发现候选人的肤色越深，其预测得票率就越低。然而，新闻报道、政治广告和社交媒体的使用共同作用时，对选举成功的影响比肤色更为显著，这表明肤色这一表型特征并不像早期研究所认为的那样是一个重要的视觉线索。",
+    "summary": "论文利用计算视觉分析考察2024年墨西哥联邦选举中候选人肤色与选举成功的关系，并纳入新闻报道、政治广告和社交媒体使用等变量，发现肤色虽与得票率负相关，但媒体因素更重要。",
+    "reason": "使用计算视觉分析研究肤色、媒体覆盖与社交媒体对选举的影响，属计算传播研究。",
+    "tags": [
+      "计算视觉分析",
+      "政治传播",
+      "社交媒体",
+      "选举"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/19401612261484045",
+    "source_url": "https://doi.org/10.1177/19401612261484045",
+    "detail_slug": "skin-tone-as-a-visual-cue-in-political-campaigns-evidence-from-elections-in-mexico",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "The International Journal of Press/Politics",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2099,
+    "title": "Writing the Situated Self: Intersectional and Geographic Patterning in College Admissions Essays",
+    "title_zh": "撰写“情境中的自我”：大学入学申请文书中的交叉性分析与地理因素模式",
+    "authors": [
+      "AJ Alvero",
+      "anthony lising antonio",
+      "Leslie Luqueño",
+      "Francis Pearman"
+    ],
+    "institutions": [],
+    "journal": "Journal of Language and Social Psychology",
+    "published_date": "2026-09-28",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Written language is often considered a reflection of the author's internal thoughts, states, and characteristics. This is why writing is used in evaluation to make inferences about authors, but also why social scientists use text as a lens into psychological states. We present a complementary perspective: that writing systematically reflects the social environments of authors. We explore these dynamics in a large corpus of college admissions essays ( n = 232,838 essays submitted by 76,510 self-identified Hispanic applicants from 2015 to 2017) and metadata about author sociodemographics, including the ZIP code of their high school, gender identity, and household income. We find that intersectional demographic markers are highly salient. We further demonstrate that ZIP code-level socioeconomic measures are strongly correlated with the writing style and content of local applicants. Finally, we show that misclassification rates vary geographically and are modestly associated with local demographic composition and social capital, indicating that writing is influenced both socially and geographically. By documenting strong alignment between text and authors that is observable through machine reading, our findings clarify how author demographics and context structure what is written and, stylistically, how. Framing text as an external, social process rather than purely internal creates opportunities to bridge psychological and sociological data, methods, and theories to better understand the connections between language and society, especially in moments of evaluation. Because these texts were produced before the popularization of large language models (LLMs), our results serve as useful benchmarks for archival work and also generate new questions as LLMs mediate written self-presentation.",
+    "abstract_zh": "书面语言通常被视为作者内心思想、情感和个性的反映。因此，写作被用于评估中，以推断作者的特征；同时，社会科学家也利用文本来洞察人们的内心心理状态。我们提出了一个不同的观点：写作在很大程度上反映了作者所处的社会环境。我们通过分析大量大学入学申请文书（共232,838篇，来自2015至2017年间76,510名自认为是西班牙裔的申请者）及其相关的元数据（包括他们高中的邮政编码、性别身份和家庭收入）来探讨这一现象。研究发现，这些申请者的社会人口统计特征具有很高的显著性。进一步分析表明，邮政编码所反映的社会经济状况与当地申请者的写作风格和内容之间存在密切关联。此外，不同地区的误分类率存在差异，并且这些误分类率与当地的人口构成和社会资本水平有一定关联，这说明写作既受到社会因素的影响，也受到地理因素的影响。通过机器阅读技术，我们发现了文本与作者之间的强烈对应关系，这有助于阐明作者的人口统计特征和所处的社会环境如何影响他们的写作内容及写作风格。将写作视为一个外部社会过程，而不仅仅是个人内部活动的结果，为整合心理学和社会学的数据、方法及理论提供了可能性，从而更好地理解语言与社会之间的联系，尤其是在评估环节。由于这些文本是在大型语言模型（LLMs）普及之前的产物，我们的研究结果不仅为档案研究提供了有价值的参考，也为研究语言模型如何影响书面自我表达方式提出了新的问题。",
+    "summary": "研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。",
+    "reason": "使用23万篇文书大规模语料搭配机器学习文本分析，考察语言与社会结构关系，典型的计算传播研究。",
+    "tags": [
+      "文本分析",
+      "机器学习",
+      "计算社会科学",
+      "语言与社会",
+      "大语言模型"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/0261927x261489626",
+    "source_url": "https://doi.org/10.1177/0261927x261489626",
+    "detail_slug": "writing-the-situated-self-intersectional-and-geographic-patterning-in-college-admissions-essays",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Language and Social Psychology",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2063,
     "title": "Perceptions of artificial intelligence bias and gender inclusivity: toward a gendered divergence",
     "title_zh": "对人工智能偏见和性别包容性的认知：一种基于性别的差异视角",
@@ -11723,7 +11792,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The rise of beauty apps with artificial intelligence (AI) capabilities has transformed how users perceive, evaluate, and engage with their and others’ appearance. While such apps offer entertainment, concerns persist about their ethical implications and psychological effects. In this study, we focus on the concept of algorithmic invasiveness – defined as the tendency of AI algorithms to increasingly influence and integrate into our daily lives. Using a conjoint survey experiment, we empirically assess public attitudes and social acceptability of beauty app functionalities with varying degrees of invasiveness, from removing blemishes to collecting medical data. Results show that functionalities with high degree of algorithmic invasiveness, such as AI-generated attractiveness rankings, are viewed as significantly less socially acceptable than less invasive functionalities. However, acceptability depends on context: functionalities tied to commercial applications, like personalised product recommendations, are often deemed less problematic despite similar data-use practices. User demographics and attitudes further shape perceptions. Older adults display greater acceptance of highly invasive functionalities compared to younger users. Participants with higher self-objectification or positive views of AI show increased tolerance of invasive functionalities. These findings highlight how both technological design and user predisposition influence both ethical attitudes and preferences in beauty-related technologies. This study showcases how we can elicit moral intuitions about new technologies by exploring how the public form preferences around specific functionalities. Moreover, it provides novel insight about how individuals make normative distinction between degrees of invasiveness, contributing to broader discourse about responsible AI design and digital well-being.",
-    "abstract_zh": "随着具备人工智能（AI）功能的美容应用程序的兴起，用户对自己和他人的外貌的感知、评价以及互动方式发生了显著变化。虽然这些应用程序提供了娱乐功能，但人们仍然对其伦理影响和心理效应表示担忧。在这项研究中，我们关注“算法侵入性”这一概念——即AI算法逐渐影响并融入我们日常生活的趋势。通过联合调查实验，我们实证评估了公众对不同侵入性程度的美容应用程序功能的看法和社会接受度，这些功能涵盖了从去除瑕疵到收集医疗数据等多种用途。研究结果表明，具有高度算法侵入性的功能（例如由AI生成的吸引力排名）在社会上被认为比侵入性较低的功能更不可接受。然而，接受度取决于具体情境：与商业应用相关的功能（如个性化产品推荐）尽管涉及类似的数据使用方式，却往往被认为问题较小。用户的人口统计特征和态度也进一步影响了他们的看法。与年轻用户相比，老年人对高度侵入性功能的接受度更高。那些具有较高自我物化倾向或对AI持有积极看法的参与者，对侵入性功能的容忍度也更高。这些发现表明，技术设计和用户自身的倾向共同影响了人们对美容相关技术的伦理态度和偏好。本研究展示了我们如何通过探索公众对特定功能的偏好来了解他们对新技术的道德直觉。此外，它还提供了关于个体如何区分不同侵入性程度的新见解，为负责任的AI设计和数字福祉这一更广泛的话题做出了贡献。",
+    "abstract_zh": "随着具备人工智能（AI）功能的美容应用程序的兴起，用户对自己和他人的外貌的感知、评价以及互动方式都发生了变化。虽然这些应用程序提供了娱乐功能，但人们仍然对其伦理影响和心理效应表示担忧。在这项研究中，我们关注“算法侵入性”这一概念——即AI算法逐渐影响并融入我们日常生活的趋势。通过一项联合调查实验，我们实证评估了公众对不同侵入性程度的美容应用程序功能的看法和社会接受度，这些功能涵盖了从去除瑕疵到收集医疗数据等各个方面。研究结果表明，具有高度算法侵入性的功能（例如由AI生成的吸引力排名）在社会上被认为比侵入性较低的功能更不可接受。然而，接受度取决于具体情境：与商业应用相关的功能（如个性化产品推荐）尽管涉及类似的数据使用方式，却往往被认为问题不大。用户的人口统计特征和态度也进一步影响了他们的看法。与年轻用户相比，老年人对高度侵入性功能的接受度更高。那些具有较高自我物化倾向或对AI持有积极看法的参与者，对侵入性功能的容忍度也更高。这些发现表明，技术设计和用户自身的倾向共同影响了人们对美容相关技术的伦理态度和偏好。本研究展示了我们如何通过探究公众对特定功能的偏好来了解他们对新技术的道德直觉。此外，它还提供了关于个体如何区分不同侵入性程度的新见解，为关于负责任的人工智能设计和数字福祉的更广泛讨论做出了贡献。",
     "summary": "通过联合调查实验评估公众对美妆APP中不同侵入性AI功能的态度，发现高侵入性功能接受度低，但受应用场景、人口特征及AI态度影响。",
     "reason": "研究AI算法在美妆APP中的伦理影响与社会接受度，属于AI社会影响议题，符合纳入标准。",
     "tags": [
@@ -11746,7 +11815,7 @@
   {
     "id": 1142,
     "title": "Twitter to Yell at Them, Facebook to Ask Questions and Instagram to Show Support? Exploring Platform Effects in Responses to Women Politicians On Social Media",
-    "title_zh": "在社交媒体上，Twitter用于批评女性政治家，Facebook用于提问，Instagram用于表达支持？——探讨不同平台对女性政治家回应方式的影响",
+    "title_zh": "在社交媒体上，Twitter用于对女性政治家发泄不满，Facebook用于提出问题，Instagram用于表达支持？——探究不同平台对女性政治家回应方式的影响",
     "authors": [
       "Emily Harmer",
       "Rosalynd Southern"
@@ -11759,7 +11828,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Previous research has shown that women politicians are often subject to more incivility, hate speech, and sexualized abuse on social media. Until now, studies tend to analyze one platform, and there has been no research to establish whether these experiences are the same across different platforms. This study deploys a two-stage design to isolate a platform effect in online incivility and abuse. We selected 18 women politicians from a range of UK political parties because they shared identical posts across three platforms – Facebook, Instagram, and Twitter. We collected all identical posts and replies to them, across each platform. The replies were content analyzed for elements of incivility and legitimate criticism but also for support and respectful responses. Multi-level binary logistic models were run on these data to assess platform effect, controlling for party and whether the original post mentioned a gendered topic. The replies were then subject to a qualitative analysis. The results showed a clear platform effect with Twitter being the source of the majority of uncivil, insulting and othering replies to women politicians. Twitter posts also received the least support and the fewest polite messages. Conversely, Instagram appeared to be less hostile. The platform had more polite interaction and a high proportion of supportive responses, accounting for well over half of all supportive responses across the sample.",
-    "abstract_zh": "先前的研究表明，女性政治家在社交媒体上经常面临更多的不礼貌行为、仇恨言论和性化辱骂。迄今为止，相关研究大多只分析一个社交媒体平台，尚未有研究探讨这些现象是否在不同平台上具有共性。本研究采用了两阶段设计方法，以区分在线不礼貌行为和辱骂行为中的平台差异。我们选取了来自英国不同政党的18位女性政治家，因为她们在Facebook、Instagram和Twitter这三个平台上发布了完全相同的帖子。我们收集了这些帖子及其在每个平台上的所有回复内容。我们对回复内容进行了分析，既考察了其中的不礼貌和恶意言论，也分析了支持性和尊重的回应。通过多层二元逻辑模型对这些数据进行了分析，以控制政党因素以及原始帖子是否涉及性别相关话题的影响。随后，我们对回复内容进行了定性分析。研究结果表明，Twitter是针对女性政治家发布不礼貌、侮辱性言论的主要平台；同时，Twitter上的帖子获得的支持最少，礼貌的回复也最少。相比之下，Instagram的攻击性较低，该平台上的互动更为礼貌，支持性回应的比例超过了样本总数的一半。",
+    "abstract_zh": "先前的研究表明，女性政治家在社交媒体上经常面临更多的不礼貌行为、仇恨言论和性化辱骂。迄今为止，相关研究往往只分析一个平台，尚未有研究探讨这些现象是否在不同平台上具有共性。本研究采用了两阶段设计方法，以确定在线不礼貌行为和辱骂行为中的平台效应。我们选取了来自英国多个政党的18位女性政治家，因为她们在Facebook、Instagram和Twitter三个平台上发布了完全相同的帖子。我们收集了这些帖子及其在每个平台上的所有回复内容。我们对回复内容进行了分析，既考察了其中的不礼貌和恶意言论，也分析了支持性和尊重的回应。通过多层二元逻辑模型对这些数据进行了分析，同时控制了政党因素以及原始帖子是否涉及性别相关话题的影响。随后，我们对回复内容进行了定性分析。研究结果表明存在明显的平台效应：Twitter是针对女性政治家发布不礼貌、侮辱性言论的主要平台；在这些平台上，她的帖子获得的支持最少，礼貌的回复也最少。相比之下，Instagram的攻击性较低，平台上出现了更多的礼貌互动和支持性回应，这类回应占样本中所有支持性回应的半数以上。",
     "summary": "选取英国18位女性政治家在三平台发布的相同帖子及回复，进行内容编码与多水平模型分析，发现Twitter最不文明而Instagram最友好。",
     "reason": "研究社交媒体平台对女性政治家不文明评论的影响，使用跨平台数字数据与统计建模，属于计算传播研究。",
     "tags": [
@@ -11801,7 +11870,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "What political significance do widely-shared sources on social media carry? Efforts at documenting media content have produced useful insights about political phenomena, including right-wing populist movements that have recently been theorized as comprising defensive publics which seek to preserve social, economic, and cultural hierarchies that privilege white “nationals.” In France, the concept of defensive publics is particularly useful for understanding how right-wing identitarian and nationalist actors use social media to mobilize publics to defend hierarchies framed as under siege by immigration, multiculturalism, and global liberal elites. Building on literature about illiberal communication and the illiberal public sphere, we argue that patterns of sources’ visibility – not just content – also serve defensive purposes. Using computational analysis of 1.16 million French language immigration-related posts on Twitter/X and ideological embeddings of 44,810 of these users, we show how far-right-leaning users flood feeds with hyper-partisan sources, particularly on immigration, although they also share ideologically varied sources. Then, interviews with 13 high-profile far-right-affiliated posters who include senior French politicians reveal how these practices support defensive political aims. Sharing hyper-partisan sources outside the “elitist” mainstream redresses perceived censorship by mainstream media, while sharing mainstream sources signals credibility and respectability, even as these actors maintain critiques of the very same media. Meanwhile, reposting sources with statistical and quantitative evidence serves to obscure overtly white supremacist ideologies while advancing anti-immigration agendas. We conclude that sharing practices themselves function as rhetorical resources that highly-visible members of defensive publics use to reassert symbolic and political dominance in a contested media environment.",
-    "abstract_zh": "在社交媒体上广泛传播的内容具有怎样的政治意义？对媒体内容的记录和分析为我们提供了有关政治现象的宝贵见解，尤其是关于右翼民粹主义运动的理解。这些运动被理论化为一种“防御性公众”行为，这类公众试图维护社会、经济和文化上的等级制度，从而维护白人“民族”的特权地位。在法国，这一“防御性公众”的概念特别有助于理解右翼身份认同论者和民族主义者如何利用社交媒体来动员公众，捍卫那些被移民、多元文化主义和全球自由主义精英所威胁的等级制度。基于关于非自由主义传播和非自由主义公共领域的现有研究，我们认为，不仅仅是内容本身，信息来源的可见性模式也具有防御性作用。通过对Twitter/X上116万条与移民相关的法语帖子以及其中44,810位用户的意识形态特征进行分析，我们发现极右翼用户会在自己的信息流中大量分享具有强烈党派倾向的内容，尤其是在移民问题上；尽管他们也会分享观点各异的来源。此外，对13位与极右翼有关联的知名用户的访谈显示，这些分享行为实际上服务于防御性的政治目的。他们通过分享极端党派倾向的内容来对抗主流媒体的审查制度，而分享主流媒体的内容则能提升自己的可信度和合法性——尽管这些用户本身也对主流媒体持批评态度。同时，他们还会转发那些包含统计数据和定量证据的内容，以此掩盖明显的白人至上主义意识形态，同时推动反移民议程。我们得出结论：分享行为本身是一种修辞工具，被这些“防御性公众”的核心成员用来在充满争议的媒体环境中重新确立他们的象征性和政治主导地位。",
+    "abstract_zh": "在社交媒体上广泛传播的内容具有怎样的政治意义？对媒体内容的记录和分析为我们提供了关于政治现象的宝贵见解，尤其是关于右翼民粹主义运动的研究。这些运动被理论化为一种“防御性公众”行为，这类公众试图维护社会、经济和文化上的等级制度，从而维护白人“民族”的特权地位。在法国，这一“防御性公众”的概念特别有助于理解右翼身份认同主义者和民族主义者如何利用社交媒体来动员公众，捍卫那些被移民、多元文化主义和全球自由主义精英所威胁的等级制度。基于关于非自由主义传播和非自由主义公共领域的现有研究，我们认为，不仅仅是内容本身，信息来源的可见性模式也同样具有防御性作用。通过对Twitter/X上116万条与移民相关的法语帖子以及其中44,810位用户的意识形态特征进行分析，我们发现极右翼用户会在信息流中大量分享具有强烈党派倾向的内容，尤其是在移民问题上；尽管他们也会分享观点各异的来源。此外，通过对13位与极右翼有关联的知名用户的访谈（其中包括法国高级政治人物），我们发现这些行为实际上服务于防御性的政治目的。在主流媒体被视为存在审查制度的情况下，分享极端党派倾向的内容可以抵消这种审查；而分享主流媒体的内容则能提升这些用户的可信度和合法性，尽管他们本身也对主流媒体持批评态度。同时，分享带有统计数据和定量证据的内容有助于掩盖明显的白人至上主义意识形态，同时推动反移民议程。总之，分享行为本身成为了一种修辞工具，被这些“防御性公众”的核心成员用来在充满争议的媒体环境中重新确立他们的象征性和政治主导地位。",
     "summary": "通过计算分析116万条法语移民相关推文及意识形态嵌入，结合访谈，揭示法国极右翼防御性公众如何分享超党派来源以维护政治主导权。",
     "reason": "使用计算分析处理116万条推文和意识形态嵌入，研究社交媒体分享政治，属典型计算传播研究。",
     "tags": [
@@ -11833,7 +11902,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study offers a multidimensional analysis of gendered patterns in online negative campaigning during the 2019 and 2024 Belgian elections. Drawing on six months of Twitter data – all 25,111 tweets from 437 viable candidates – it examines four distinct aspects of negative campaigning: general attack behavior, tone/incivility, and content (issue- vs. trait-based), while also considering the gender of the targets. Surprisingly, women candidates are less likely to attack but not less likely to be uncivil. They prefer issue-based criticism and both men and women candidates are less likely to target women. These findings highlight persistent gender norms in digital politics, even in a gender-equal, party-centered context.",
-    "abstract_zh": "本研究对2019年和2024年比利时选举期间网络负面竞选活动中的性别差异进行了多维度分析。通过分析六个月的Twitter数据（共25,111条推文，来自437名候选人），研究了负面竞选活动的四个方面：总体攻击行为、语气/不礼貌行为以及内容（基于问题 vs. 基于个人特质），同时考虑了目标对象的性别。令人惊讶的是，女性候选人较少采取攻击性言论，但她们同样可能表现出不礼貌的行为；她们更倾向于基于问题的批评；而无论是男性还是女性候选人，都较少针对女性进行攻击。这些发现表明，即使在性别平等、以政党为中心的政治环境中，数字政治中的性别规范仍然存在。",
+    "abstract_zh": "本研究对2019年和2024年比利时选举期间网络负面竞选活动中的性别差异进行了多维度分析。通过分析六个月的Twitter数据（共25,111条推文，来自437名候选人），研究了负面竞选活动的四个方面：总体攻击行为、语气/不礼貌行为以及内容（基于问题 vs. 基于个人特质），同时考虑了目标对象的性别。令人惊讶的是，女性候选人较少采取攻击性言论，但在言语上不礼貌的情况并不罕见；她们更倾向于基于问题的批评。此外，无论是男性还是女性候选人，都较少针对女性进行攻击。这些发现表明，即使在性别平等、以政党为中心的政治环境中，数字政治中的性别规范依然存在。",
     "summary": "基于2019和2024年比利时选举的25111条推文，分析男女候选人在负面竞选中的攻击行为、不文明程度及议题/特质内容差异。",
     "reason": "使用Twitter大数据和文本分析研究社交媒体负面竞选中的性别差异，属于计算传播学核心议题。",
     "tags": [
@@ -11873,7 +11942,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract This paper proposes a framework for understanding people’s relational introspections with machines. Through a social information processing lens, we argue that such introspections begin with relative perceptions of two basic traits: communion (prosocial intentionality) and agency (goal-pursuit capacities) for both machine and user. These relative perceptions are then interpreted through relational schemas in the short term and regulated by trust in the long term––jointly shaping relational behaviors toward the machine (e.g., intention to use). We surveyed three US samples of various AI-technology users (college students, N = 438; MTurk participants, N = 1,023; Prolific participants, N = 726, matched to census demographics). Results consistently showed that (a) intention to use such a machine was driven by self-agency followed by machine-communion, whereas machine-agency and self-communion had no direct impact, and (b) the relative importance of these trait perceptions was mediated by certain relational schemas and moderated by trust across respondents.",
-    "abstract_zh": "本文提出了一个框架，用于理解人们与机器之间的关系性内省（即人们对与机器互动的思考和感受）。从社会信息处理的视角出发，我们认为这种内省始于对两个基本特质的相对感知：一是机器与用户之间的“共情性”（即双方都具备的亲社会倾向），二是“能动性”（即双方实现目标的能力）。这些相对感知在短期内通过关系性图式（即人们关于机器和自身行为的认知结构）来解释，并在长期内受到信任的影响——两者共同塑造了人们与机器互动的行为（例如，使用机器的意图）。我们调查了三个美国不同群体的AI技术用户：大学生（N = 438人）、MTurk平台参与者（N = 1,023人）以及Prolific平台参与者（N = 726人，这些参与者在人口统计特征上与普通人群相匹配）。研究结果一致表明：（a）使用机器的意图首先受到用户自身能动性的驱动，其次是机器与用户之间的共情性；而机器的能动性和用户的共情性本身对使用意图没有直接影响；（b）这些特质感知的相对重要性受到特定关系性图式的调节，并且这种调节作用因受访者之间的信任程度而异。",
+    "abstract_zh": "本文提出了一个框架，用于理解人们与机器之间的关系性内省（即人们对与机器互动的思考和感受）。从社会信息处理的视角出发，我们认为这种内省始于对两个基本特质的相对认知：一是机器与用户之间的“共鸣”（即双方都具备亲社会性或合作意愿），二是双方的“能动性”（即追求目标的能力）。这些相对认知在短期内通过关系性图式（即人们关于机器和自身行为的认知结构）来解释，并在长期内受到信任的影响——这些因素共同塑造了人们与机器互动的行为（例如，使用机器的意图）。我们调查了三个美国不同群体的AI技术用户：大学生（N = 438人）、MTurk平台参与者（N = 1,023人）以及Prolific平台参与者（N = 726人，这些参与者在人口统计特征上与普通人群相匹配）。研究结果一致表明：（a）使用机器的意愿首先受到用户自身能动性的影响，其次是机器与用户之间的共鸣；而机器的能动性或用户的共鸣本身对使用意愿没有直接影响；（b）这些特质认知的相对重要性受到特定关系性图式的调节，并且这种调节作用因受访者之间的信任程度而异。",
     "summary": "提出社会认知框架，通过三个美国样本调查，检验特质感知、关系图式和信任对AI使用意图的影响。",
     "reason": "研究AI使用行为与意图，符合AI特别条款，即使方法为传统调查也纳入。",
     "tags": [
@@ -11895,7 +11964,7 @@
   {
     "id": 1577,
     "title": "The Rise of Autonomous Agents? A Content Analysis of How Agency is Constituted in Trade Journal Coverage of Automated Communication Phenomena",
-    "title_zh": "自主代理的崛起？——对贸易期刊中关于自动化通信现象报道中“代理性”概念构建的内容分析",
+    "title_zh": "自主代理的崛起？——贸易期刊对自动化通信现象报道中“代理性”概念构建的内容分析",
     "authors": [
       "Teresa Weller",
       "Irina Lock"
@@ -11908,7 +11977,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study examines how automated communication phenomena (e.g. chatbots) are depicted in the professional debate (here, trade journals) and discusses the implications of their portrayals for strategic communication research and practice. How these phenomena are described to communication professionals is likely to inform their understanding of and relation to them. Drawing on Actor-Network-Theory and the Communicative Constitution of Organisations perspective, it is observed that automated communication phenomena are often portrayed as autonomous agents, indicating they are viewed as actants. A longitudinal manual and automated quantitative content analysis of 136 phenomena from ten communication trade journals (1993–2024) covered in 116 articles’ text and visuals was conducted. Their anthropomorphisation, agency ascription, and relationship construction (based on the Organisation–Public Relationship framework) were coded, revealing frequent anthropomorphisation, agency ascription, and portrayals as active participants. However, simultaneously humanised and described neutrally, they are ambiguously characterised as both autonomous and dependent. Hence, the constitution of organization-public relationships needs to be reconceptualised, accounting for the emergence of automated communication phenomena as actants. Their positive exaggeration in trade journals, often concealing the human effort in their application, may inspire misconceptions and prejudiced relationships, potentially exacerbating communication professionals’ fears related to automated communication, affecting their work and relationships.",
-    "abstract_zh": "本文研究了自动化通信现象（如聊天机器人）在专业辩论（此处指贸易期刊）中的呈现方式，并探讨了这些呈现方式对战略传播研究与实践的影响。这些现象在传播专业人士眼中的描述方式可能会影响他们对这些现象的理解及其与这些现象的关系。基于“行动者网络理论”（Actor-Network-Theory）和“组织的沟通构成”（Communicative Constitution of Organizations）的观点，研究发现自动化通信现象通常被描绘为具有自主性的主体，即被视为能够自主行动的“行动者”（actants）。研究者对1993年至2024年间10种贸易期刊中的136个自动化通信现象进行了纵向分析，这些现象分布在116篇文章的文本和视觉材料中。通过对这些现象进行编码分析（包括拟人化处理、主体归因以及基于“组织-公众关系”框架的关系构建），发现这些现象经常被赋予人类特征、被视为主动参与者；但同时，它们也被描述为既具有自主性又依赖于人类操作。因此，需要重新概念化“组织-公众关系”的构成方式，以充分考虑自动化通信现象作为“行动者”这一新角色的出现。贸易期刊中对这些现象的正面夸大描述往往掩盖了其背后的人类努力，可能会引发误解和偏见，从而加剧传播专业人士对自动化通信的恐惧，进而影响他们的工作和人际关系。",
+    "abstract_zh": "本文研究了自动化通信现象（如聊天机器人）在专业辩论（此处指贸易期刊）中的呈现方式，并探讨了这些呈现方式对战略传播研究与实践的影响。这些现象在传播专业人士眼中的描述方式可能会影响他们对这些现象的理解及其与这些现象之间的关系。基于“行动者网络理论”（Actor-Network-Theory）和“组织的沟通构成”（Communicative Constitution of Organizations）的视角，研究发现自动化通信现象通常被描绘为具有自主性的主体，即被视为“行动者”（actants）。研究人员对1993年至2024年间10种贸易期刊中的136个自动化通信现象进行了纵向分析，这些现象出现在116篇文章的文本和视觉材料中。通过对这些现象进行编码分析（包括拟人化处理、主体归因以及基于“组织-公众关系”框架的关系构建），发现这些现象经常被赋予人性特征，并被视为积极的参与者。然而，这些现象有时也被描述得既具有自主性又具有依赖性，这种描述方式存在矛盾。因此，需要重新概念化“组织-公众关系”的构成方式，以充分考虑自动化通信现象作为“行动者”这一角色的出现。贸易期刊中对这些现象的正面夸大描述往往掩盖了其背后的人类努力，可能会引发误解和偏见，从而加剧传播专业人士对自动化通信的恐惧，进而影响他们的工作和人际关系。",
     "summary": "通过分析10本行业期刊1993-2024年116篇文章中136个自动化传播现象的文本与视觉，揭示其被拟人化、赋予自主性并视为行动者，讨论对战略传播研究的影响。",
     "reason": "研究自动化传播现象（AI/聊天机器人），方法含自动化定量内容分析，主题与方法均属计算传播。",
     "tags": [
@@ -11944,7 +12013,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The study of news avoidance has been hindered by conceptual fuzziness and a lack of consistent operationalization and measurement methods. This leaves us unclear about what really constitutes news avoidance, impeding our understanding of this phenomenon and its democratic implications. This paper brings conceptual clarity by combining survey with web tracking data from five Western democracies, using both direct and indirect measures of news avoidance. We propose a new conceptual typology that disentangles intent to avoid news from observed online news consumption behavior, identifying, among others, ‘intentional consistent news avoidance’ – a declared intention to avoid news coupled with consistently low or non-existent online news consumption. Our findings show that this form of avoidance is most strongly associated with lower levels of uncontested, surveillance, and contested political knowledge – more so than either avoidance intent or behavior alone – reinforcing concerns about its democratic relevance. However, once interaction effects are considered, we find that online news consumption itself – regardless of avoidance intent – is the more robust predictor of political knowledge. Avoidance intent still matters in specific cases, notably for belief accuracy on contested issues. Overall, our findings support the value of distinguishing between avoidance intent and behavior, while highlighting the central role of actual news exposure in shaping political knowledge.",
-    "abstract_zh": "对“新闻回避”现象的研究一直受到概念模糊性以及缺乏一致的操作化和测量方法的阻碍。这导致我们无法明确究竟什么才构成“新闻回避”，从而影响了我们对这一现象及其民主影响的理解。本文通过结合来自五个西方民主国家的调查数据与网络追踪数据，采用了直接和间接的测量方法，为这一概念提供了更清晰的界定。我们提出了一种新的概念分类体系，将“回避新闻的意图”与实际的在线新闻消费行为区分开来，并特别识别出“有意且持续的新闻回避”——即明确表示要避免新闻的同时，实际在线新闻消费量始终很低或完全不存在的情况。研究结果表明，这种形式的新闻回避与较低水平的“无争议政治知识”和“有争议政治知识”密切相关（其关联性甚至超过了单纯的回避意图或行为本身），这进一步引发了人们对这一现象在民主制度中的意义的担忧。然而，当考虑到交互效应后，我们发现在线新闻消费本身（无论是否具有回避意图）才是预测政治知识的更可靠因素。在某些特定情况下，回避意图仍然很重要，尤其是在涉及有争议问题的观点准确性方面。总体而言，我们的研究结果支持了区分回避意图与行为的必要性，并强调了实际新闻接触在塑造政治知识过程中的核心作用。",
+    "abstract_zh": "对“新闻回避”现象的研究一直受到概念模糊性以及缺乏一致的操作化和测量方法的阻碍。这导致我们无法明确究竟什么是“新闻回避”，从而影响了我们对这一现象及其民主影响的理解。本文通过结合来自五个西方民主国家的调查数据和网络追踪数据，采用了直接和间接的测量方法，为这一概念提供了更清晰的界定。我们提出了一种新的概念分类体系，将“回避新闻的意图”与实际的在线新闻消费行为区分开来，并特别识别出了“有意且持续的新闻回避”——即明确表示要避免新闻，并且在线新闻消费量始终很低或完全不存在的情况。研究结果表明，这种形式的新闻回避与较低水平的“无争议政治知识”和“有争议政治知识”密切相关（其关联性比单纯的回避意图或行为都要强），这进一步引发了人们对这一现象在民主制度中的意义的担忧。然而，当考虑到交互效应后，我们发现在线新闻消费本身（无论是否具有回避意图）才是预测政治知识的更可靠因素。在某些特定情况下，回避意图仍然很重要，尤其是在涉及有争议问题的观点准确性方面。总体而言，我们的研究结果支持了区分回避意图与行为的必要性，并强调了实际新闻接触在塑造政治知识过程中的核心作用。",
     "summary": "利用五国调查与网络追踪数据，区分回避意图与实际在线新闻消费行为，提出类型学，发现实际消费对政治知识更具预测力。",
     "reason": "结合调查与网页追踪数据，采用数字行为测量新闻回避，属计算传播学方法。",
     "tags": [
@@ -11983,7 +12052,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Technological innovations are being developed and introduced at a rapid pace to manage increasing demand on the healthcare system. Artificial intelligence (AI) tools promise to improve patient access to quality care and reduce work burden for staff. While healthcare stakeholders have shown increasing interest in AI, the complexity of healthcare provision makes it difficult to integrate these ‘black box’ technologies. Understanding and trusting these technologies is essential to address technical, medical, organizational, ethical, and legal issues, and allow stakeholders to collaborate. Explanations that increase the transparency of black-box tools can improve understanding and trust. Policymakers, regulators and technology developers therefore increasingly turn to explainable AI (XAI) to aid acceptance and adoption of AI technologies. However, there is still disagreement about what XAI for healthcare means in practice and what kind of transparency will improve understanding of and trust in AI technologies. We explored the meaning and importance of XAI through a Q-methodology study involving 37 professional healthcare stakeholders. Our participants included medical professionals, researchers, hospital administrators, policy advisors, domain experts, and developers of AI healthcare tools. We used mixed methods to produce a typology of four perspectives on XAI. We explore each perspective to clarify the rationale and needs of stakeholders who hold each perspective. Each perspective represents different values and meanings placed on XAI for healthcare, potentially impacting the development, acceptance, adoption, and implementation of AI technologies. We discuss the implications of these different perspectives for both future research and practical provision of explanations for healthcare.",
-    "abstract_zh": "随着医疗需求的不断增长，技术创新正在以惊人的速度被开发并引入医疗系统。人工智能（AI）工具有望改善患者获得优质医疗服务的机会，并减轻医护人员的工作负担。尽管医疗行业的利益相关者对AI表现出越来越大的兴趣，但由于医疗服务的复杂性，将这些“黑箱”技术整合到实际应用中仍然面临诸多挑战。要解决技术、医学、组织、伦理和法律方面的问题，并促进各利益相关者之间的合作，理解并信任这些技术至关重要。提高这些黑箱工具透明度的解释措施有助于增强人们的理解与信任。因此，政策制定者、监管机构和技术开发者越来越倾向于使用“可解释人工智能”（XAI）来促进AI技术的接受与普及。然而，关于XAI在医疗领域的具体含义以及哪种透明度能够真正提升人们对AI技术的理解与信任，目前仍存在争议。我们通过一项基于Q方法论的研究（共有37名医疗行业专业人士参与）探讨了XAI的含义及其重要性。研究对象包括医疗专业人员、研究人员、医院管理人员、政策顾问、领域专家以及AI医疗工具的开发者。我们采用混合研究方法，归纳出了四种关于XAI的观点类型，并深入分析了每种观点背后的理由及持有这些观点的利益相关者的需求。每种观点都反映了人们对XAI在医疗领域不同价值观和理解，这些观点可能会影响AI技术的开发、接受度、采用及实施过程。我们讨论了这些不同观点对未来医疗领域研究及实际解释工作的影响。",
+    "abstract_zh": "为了应对医疗系统日益增长的需求，各种技术创新正在以惊人的速度被开发并引入。人工智能（AI）工具有望改善患者获得优质医疗服务的机会，并减轻医护人员的工作负担。尽管医疗行业的利益相关者对AI表现出越来越大的兴趣，但由于医疗服务的复杂性，将这些“黑箱”技术整合到实际应用中仍然面临诸多挑战。要解决技术、医学、组织、伦理和法律方面的问题，并促进各利益相关者之间的合作，理解并信任这些技术至关重要。提高这些“黑箱”工具透明度的解释措施有助于增强人们的理解与信任。因此，政策制定者、监管机构和技术开发者越来越倾向于使用“可解释的人工智能”（Explainable AI，简称XAI）来促进AI技术的接受和普及。然而，关于XAI在医疗领域的具体含义以及哪种透明度能够真正提升人们对AI技术的理解与信任，目前仍存在争议。我们通过一项基于Q方法论的研究（共有37名医疗行业专业人士参与）探讨了XAI的意义和重要性。参与者包括医疗专业人员、研究人员、医院管理人员、政策顾问、领域专家以及AI医疗工具的开发者。我们采用混合研究方法，归纳出了四种关于XAI的观点类型，并深入分析了每种观点背后的理由和利益相关者的需求。每种观点都反映了人们对XAI在医疗领域所赋予的不同价值与意义，这些观点可能会影响AI技术的开发、接受度、采用及实施过程。我们讨论了这些不同观点对未来医疗领域研究以及实际提供技术解释工作的影响。",
     "summary": "通过Q方法论对37位医疗利益相关者进行混合方法研究，识别出关于医疗可解释AI的四种观点，探讨其含义与对AI采用的影响。",
     "reason": "讨论AI在医疗中的可解释性及利益相关者认知，属AI社会影响议题，虽方法传统但符合AI特别条款。",
     "tags": [
@@ -12005,7 +12074,7 @@
   {
     "id": 811,
     "title": "Othering discourse online in the UK during a time of crisis: a case study of opinion expressed on Twitter during the COVID-19 pandemic",
-    "title_zh": "危机时期英国网络上的“他者化”话语：以COVID-19疫情期间Twitter上的观点表达为例",
+    "title_zh": "危机时期英国网络中的“他者化”话语：以COVID-19疫情期间Twitter上的观点表达为例",
     "authors": [
       "Yimei Zhu",
       "Shiyi Zhang",
@@ -12023,7 +12092,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "During major public crises, racially motivated blame is common when ethnic minorities are portrayed by the mainstream media as ‘others’ to whom blame is ascribed. In response to crises, social media platforms such as Twitter (currently X) are often used by the public to discuss social issues and share opinions. Taking COVID-19 as an example of a major public crisis, recent studies on blaming discourse on social media have examined public opinions on Twitter, with the majority of the literature focused on the US context. There is little research on blaming minorities on social media during the pandemic in the UK, a country with a relatively high level of ethnic and religious diversity. This case study collected and analysed UK-based tweets which contained keywords from the pandemic in order to determine whether there was othering discourse toward minorities and if so, what opinions and sentiments about minorities were expressed? The results reveal the existence of both positive narratives towards ethnic and racial communities and blaming discourses on Twitter, with the supporting narratives outweighing the negative discourses. Though the overall sentiment is negative when Twitter users referred to minorities, the themes identified from topic modelling and thematic analysis are mostly sympathetic and supportive towards ethnic and religious minorities in the UK. Our findings illustrate the complexity and non-linearity of discourses on ethnic and racial minorities one can find online and on social media in particular, and have implications for understanding the blaming of minorities on social media during crises more generally.",
-    "abstract_zh": "在这篇论文的摘要中，作者指出：在重大公共危机期间，当主流媒体将少数民族描绘成“异类”并归咎于他们时，基于种族的指责行为十分普遍。作为应对危机的手段，社交媒体平台（如Twitter，现名为X）常被公众用来讨论社会问题并分享观点。以COVID-19为例，近期关于社交媒体上指责言论的研究主要关注了美国的实际情况。然而，在英国这个种族和宗教多样性较高的国家，关于疫情期间社交媒体上对少数民族的指责行为的研究却相对较少。本研究收集并分析了包含疫情相关关键词的英国用户发布的推文，旨在探讨是否存在针对少数民族的排斥性言论，以及这些言论中表达了哪些观点和情感。研究结果表明，Twitter上既有对少数民族的正面描述，也存在指责言论，但正面描述的数量占多数。尽管当Twitter用户提到少数民族时整体情绪偏向负面，但通过主题建模和主题分析发现，大多数观点实际上是对英国的少数民族表示同情和支持的。我们的发现揭示了网络上，尤其是社交媒体上关于少数民族的言论的复杂性和非线性特征，并为更全面地理解危机期间社交媒体上对少数民族的指责行为提供了启示。",
+    "abstract_zh": "在重大公共危机期间，当主流媒体将少数民族描绘成“他者”时，基于种族的指责行为十分普遍。作为应对危机的手段，社交媒体平台（如Twitter，现名为X）常被公众用来讨论社会问题并分享观点。以COVID-19为例，近期关于社交媒体上指责言论的研究主要关注了美国的实际情况。然而，在英国这一种族和宗教多样性较高的国家，关于疫情期间社交媒体上对少数民族的指责行为的研究却相对较少。本研究收集并分析了包含疫情相关关键词的英国用户发布的推文，旨在探讨是否存在针对少数民族的排斥性言论，以及这些言论中表达了哪些观点和情感。研究结果表明，Twitter上既有对少数民族的积极描述，也存在指责性言论，但积极描述的内容占多数。尽管Twitter用户在对少数民族的评论中总体上持负面态度，但从主题建模和主题分析中可以看出，英国公众对少数民族的同情和支持情绪占主导。我们的发现揭示了网络上，尤其是社交媒体上关于少数民族的言论的复杂性和非线性特征，并为更全面地理解危机期间社交媒体上对少数民族的指责行为提供了启示。",
     "summary": "通过分析英国疫情期间的推文，探究针对少数族裔的排斥话语，发现支持性叙事多于指责性话语，但整体情感偏负面。",
     "reason": "研究Twitter上的排斥话语，使用API采集、主题建模与情感分析，属于计算传播学。",
     "tags": [
@@ -12059,7 +12128,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Image-generating AI is among the most popular generative AI applications, likely changing the visual mediated environments humans are exposed to on a mass scale. Prior work found that AI can be biased against women and minorities (algorithmic bias), whereas humans attribute rather high objectivity to AI. We focused on image-generating AI, analyzing the extent of algorithmic bias in AI-generated pictures and human responses to bias in image-generating AI. Study 1 showed that AI-generated portraits of people in STEM professions were almost exclusively depicting male, white (and older) individuals. Study 2 (experimental, N = 495) showed that the responses to AI-generated pictures vary depending on the portrayed group. Participants perceived pictures as less biased if they were introduced as AI-generated, but only if pictures showed college students (vs. older people). If images showed older people, participants reported higher moral outrage if pictures were supposedly generated by AI (vs. human creators).",
-    "abstract_zh": "图像生成人工智能（Image-generating AI）是最受欢迎的生成式人工智能应用之一，它可能会在很大程度上改变人类所接触的视觉环境。先前的研究发现，人工智能可能存在对女性和少数群体的偏见（即算法偏见），而人们却认为人工智能具有很高的客观性。我们专注于图像生成人工智能，分析了人工智能生成的图片中的算法偏见程度以及人类对这种偏见的反应。研究1表明，人工智能生成的STEM领域专业人士的肖像几乎全部描绘的是男性、白人（且年龄较大）的个体。研究2（实验性研究，样本量N=495）发现，人们对人工智能生成图片的反应因所描绘的群体而异：当图片被标注为人工智能生成时，参与者认为这些图片的偏见较小——但这种情况仅发生在图片中描绘的是大学生而非老年人的情况下。如果图片中描绘的是老年人，当图片被认为是由人工智能生成而非人类创作时，参与者会表现出更强烈的道德愤怒。",
+    "abstract_zh": "图像生成人工智能（Image-generating AI）是最受欢迎的生成式人工智能应用之一，它可能会在很大程度上改变人类所接触到的视觉媒介环境。先前的研究发现，人工智能可能存在对女性和少数群体的偏见（即算法偏见），而人们却认为人工智能具有很高的客观性。我们专注于图像生成人工智能，分析了人工智能生成的图片中的算法偏见程度以及人类对这种偏见的反应。研究1表明，人工智能生成的STEM领域专业人士的肖像几乎全部都是男性、白人（且年龄较大）的形象。研究2（实验性研究，参与者人数为495人）发现，人们对人工智能生成图片的反应因所描绘的群体而异：当图片被标注为人工智能生成时，参与者认为这些图片的偏见较小——但这仅适用于描绘大学生的情况；如果图片中的人物是老年人，那么当图片被声称是由人工智能生成而非人类创作时，参与者会表现出更强烈的道德愤怒。",
     "summary": "通过两项研究分析AI生成图像中的算法偏见：研究1发现STEM职业人像多为白人男性；研究2实验(N=495)表明AI标签影响用户对偏见的感知和道德愤怒。",
     "reason": "研究AI生成图像的算法偏见及用户感知，属于AI社会影响与传播效果，符合AI特别条款。",
     "tags": [
@@ -12094,7 +12163,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study investigates the role of encrypted messaging apps, specifically WhatsApp, in disseminating political disinformation during South Africa’s 2024 general elections. Drawing on a dataset of 22,384 messages from 47 politically active WhatsApp groups and 6,283 unique users, the study identifies how AI-generated deepfakes, emotional manipulation, and ideological group structures facilitated the spread of false political narratives. Using MyFactChecker, an AI-powered sentiment and verification tool, we reveal that disinformation most frequently relied on fear-based appeals (41%), identity-driven rhetoric (32%), and content mimicking credible journalism (27%). The findings show that disinformation gained traction not through factual accuracy but through emotional resonance and relational trust within ideologically cohesive groups. Even when flagged as false, corrective content was often dismissed as propaganda or foreign interference, thus underscoring how truth contests unfold within closed, affective networks.",
-    "abstract_zh": "本研究调查了加密消息应用程序（尤其是WhatsApp）在南非2024年大选期间传播政治虚假信息中的作用。通过对来自47个政治活跃的WhatsApp群组和6,283名独特用户的22,384条消息的数据进行分析，研究发现人工智能生成的深度伪造内容、情感操控以及意识形态群体结构如何促进了虚假政治信息的传播。利用MyFactChecker这一基于人工智能的情绪分析和事实验证工具，我们发现虚假信息主要通过基于恐惧的诉求（41%）、身份驱动的言论（32%）以及模仿可信新闻的内容（27%）来进行传播。研究结果表明，虚假信息的传播并非依赖于事实的准确性，而是通过情感共鸣和意识形态上紧密联系的群体内的信任关系来实现的。即使这些虚假信息被标记为错误，纠正性内容也常常被视为宣传或外来干涉，这凸显了在封闭的、以情感为主导的网络中，真相争夺是如何进行的。",
+    "abstract_zh": "本研究探讨了加密消息应用程序（尤其是WhatsApp）在南非2024年大选期间传播政治虚假信息中的作用。通过对来自47个政治活跃的WhatsApp群组和6,283名独特用户的22,384条消息的数据进行分析，研究发现人工智能生成的深度伪造内容、情感操控以及意识形态群体结构如何促进了虚假政治信息的传播。利用MyFactChecker这一基于人工智能的情绪分析和事实验证工具，我们发现虚假信息主要通过以下方式传播：基于恐惧的诉求（41%）、身份认同驱动的言论（32%）以及模仿可信新闻的内容（27%）。研究结果表明，虚假信息的传播并非依赖于事实的准确性，而是通过情感共鸣和意识形态上紧密联系的群体内的信任关系来实现的。即使这些虚假信息被标记为错误，纠正性内容也常常被视为宣传或外国干涉，这凸显了在封闭、情感化的网络环境中真相争夺的复杂过程。",
     "summary": "研究基于南非2024大选期间47个政治WhatsApp群组的22,384条消息，使用AI工具MyFactChecker分析虚假信息传播机制，发现恐惧诉求、身份认同和模仿新闻风格是主要策略，且错误信息依赖情感共鸣在封闭网络中扩散。",
     "reason": "研究使用WhatsApp大规模消息数据与AI工具分析选举虚假信息，属于典型计算传播研究。",
     "tags": [
@@ -12117,7 +12186,7 @@
   {
     "id": 1061,
     "title": "Climate Action and Native Advertising: How Fossil Fuel Companies Present Environmental Commitment in American and British News Media",
-    "title_zh": "气候行动与原生广告：化石燃料公司如何在美英新闻媒体中展示其环保承诺",
+    "title_zh": "气候行动与原生广告：化石燃料公司如何在美国和英国的新闻媒体中展示其环保承诺",
     "authors": [
       "Chris Wells",
       "Michelle A. Amazeen",
@@ -12131,7 +12200,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Confronting severe economic challenges in the twenty-first century, many news media are forging new relationships with advertisers, including the focus of this study: native advertising. At the same time, as the climate crisis worsens, and political pressures and news coverage increase, we are seeing the fossil fuel industry expand and shift its communication about the topic. This study sits at the intersection of these trends: we ask to what extent, and how, native advertisements are being employed in fossil fuel communication campaigns. We analyze 252 native ads sponsored by fossil fuel companies between 2014 and 2022 in leading English-language news outlets. Led by human quantitative content analysis, with supplementary automated text analysis, we show that the style of climate science denial documented by, for example, Oreskes and Conway, is absent from native ad communications; in its place are frequent mentions of the environment, the reality of climate change, and the need to decarbonize. In fact, the primary position of fossil fuel companies in our data is the assertion that they are leading the decarbonization of energy systems. To do so, they strongly emphasize the relative virtues of natural gas and promote investments in unproven new technologies. A secondary tactic emphasizes the importance of energy to development and quality of life. Our discussion explores the challenges of analyzing claims that are often superficially true but misleading in context and the questions misleading native advertising raises for news media in a challenging digital media landscape.",
-    "abstract_zh": "面对二十一世纪严重的经济挑战，许多新闻媒体正在与广告商建立新的合作关系，这也是本研究关注的焦点：原生广告（native advertising）。与此同时，随着气候危机的加剧以及政治压力和新闻报道的增加，化石燃料行业也在扩大其在该领域的传播活动。本研究正是这些趋势的交汇点：我们探讨了原生广告在化石燃料行业传播活动中被使用的程度和方式。我们分析了2014年至2022年间由化石燃料公司赞助的252条原生广告，这些广告发布在主要的英语新闻媒体上。研究主要采用定量内容分析方法，并辅以自动化文本分析技术。结果表明，例如Oreskes和Conway所记录的那种否认气候科学的事实在原生广告中并不存在；取而代之的是对环境的频繁提及、对气候变化现实的承认以及减少碳排放的必要性。实际上，在我们的数据中，化石燃料公司的主要立场是声称自己正在引领能源系统的脱碳进程。为此，它们极力强调天然气的优势，并推动对未经验证的新技术的投资。另一种策略则强调能源对经济发展和生活质量的重要性。我们的讨论还探讨了分析这些看似正确但实际上具有误导性的声明所面临的挑战，以及这种误导性原生广告在充满竞争的数字媒体环境中对新闻媒体所带来的问题。",
+    "abstract_zh": "面对二十一世纪严重的经济挑战，许多新闻媒体正在与广告商建立新的合作关系，这也是本研究关注的焦点：原生广告（native advertising）。与此同时，随着气候危机的加剧以及政治压力和新闻报道的增多，化石燃料行业也在扩大其在该领域的传播活动。本研究正是这些趋势的交汇点：我们探讨了原生广告在化石燃料行业传播活动中被使用的程度和方式。我们分析了2014年至2022年间由化石燃料公司赞助的252条原生广告，这些广告刊登在主要的英文新闻媒体上。研究主要采用定量内容分析方法，并辅以自动化文本分析技术。结果表明，Oreskes和Conway所记录的那种否认气候科学的事实在原生广告中并不存在；取而代之的是对环境的频繁提及、对气候变化现实的承认以及减少碳排放的必要性。实际上，在我们的数据中，化石燃料公司的主要立场是声称自己正在引领能源系统的脱碳进程。为此，它们极力强调天然气的优势，并推动对未经验证的新技术的投资。另一种策略则强调能源对经济发展和生活质量的重要性。我们的讨论还探讨了分析这些看似正确但实际上具有误导性的声明所带来的挑战，以及在这种充满竞争的数字媒体环境中，原生广告对新闻媒体所带来的问题。",
     "summary": "分析2014-2022年英美主流新闻媒体中化石燃料公司赞助的252则原生广告，发现其否认气候科学的情况少见，转而强调环境承诺和能源转型，但存在误导性表述。",
     "reason": "研究涉及新闻媒体、原生广告与气候传播，使用人工内容分析与自动化文本分析相结合的方法，属于计算传播研究。",
     "tags": [
@@ -12154,7 +12223,7 @@
   {
     "id": 1195,
     "title": "Cute politics!: increasing positive emotions, attractiveness and online public participation in social media platforms",
-    "title_zh": "可爱的政治学！：在社交媒体平台上提升积极情绪、吸引力和公众参与度",
+    "title_zh": "“可爱的政治”：在社交媒体平台上提升积极情绪、吸引力和公众参与度",
     "authors": [
       "Lu Zhang",
       "Guohua Wang"
@@ -12165,7 +12234,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Cute discourse, as a communication approach that combines informative content with interesting and soft expression, has drawn substantial attention in information communication and social media platforms studies. However, existing research has primarily concentrated on marketing effectiveness within Western frameworks, thereby leaving unanswered questions about the persuasion of cute discourse within the political sphere in non-Western contexts. Focusing on social media data, this study analyzed 5,462 government’s posts on Chinese Weibo and examined the effect of the use of cute discourse on public participation under a mixed research method that combined a coding procedure and regression model. Our results identify that the government’s posts employing cute discourse achieve higher levels of public participation, and that greater degrees of cute discourse further enhance this effect. Among these posts, cute discourse was associated with positive emotions and attraction and had a positive effect on public participation. Additionally, the influence of both the use and degree of government’s cute discourse on public participation varied across information themes. These results contribute to enriching the discourse content of social media platforms and broadening the channels for public political participation.",
-    "abstract_zh": "“可爱话语”作为一种沟通方式，它将信息内容与有趣、温和的表达方式相结合，在信息传播和社交媒体平台的研究中引起了广泛关注。然而，现有的研究主要集中在西方框架下的营销效果上，因此对于非西方背景下“可爱话语”在政治领域中的说服力仍存在许多未解之谜。本研究以社交媒体数据为研究对象，分析了中国微博上5,462条政府发布的帖子，并采用编码程序和回归模型相结合的混合研究方法，探讨了“可爱话语”使用对公众参与度的影响。研究结果表明，使用“可爱话语”的政府帖子能够提高公众参与度，而且使用“可爱话语”的程度越高，这种效果越明显。在这些帖子中，“可爱话语”与积极的情绪和吸引力相关联，并对公众参与度产生了积极影响。此外，政府使用“可爱话语”的程度及其对公众参与度的影响因信息主题的不同而有所差异。这些研究结果有助于丰富社交媒体平台的话语内容，并拓宽公众参与政治的渠道。",
+    "abstract_zh": "“可爱话语”作为一种沟通方式，它将信息内容与有趣、温和的表达方式相结合，在信息传播和社交媒体平台的研究中引起了广泛关注。然而，现有的研究主要集中在西方框架下的营销效果上，因此对于非西方背景下“可爱话语”在政治领域的说服力这一问题仍缺乏解答。本研究以社交媒体数据为研究对象，分析了中国微博上5,462条政府发布的帖子，并采用编码程序和回归模型相结合的混合研究方法，探讨了“可爱话语”使用对公众参与度的影响。研究结果表明，使用“可爱话语”的政府帖子能够提高公众的参与度，而且使用更多“可爱话语”会进一步增强这种效果。在这些帖子中，“可爱话语”与积极的情绪和吸引力相关联，并对公众参与度产生了积极影响。此外，政府使用“可爱话语”的程度及其对公众参与度的影响因信息主题的不同而有所差异。这些研究结果有助于丰富社交媒体平台的话语内容，并拓宽公众参与政治的渠道。",
     "summary": "分析5462条中国政府微博，结合编码和回归模型，发现可爱话语提升公众参与，且正面情绪和吸引力起中介作用。",
     "reason": "使用微博大数据与编码、回归等计算方法研究政治传播与公众参与，属于计算传播学。",
     "tags": [
@@ -12199,7 +12268,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Heightened geopolitical tensions give rise to digital diplomacy scholarship that frames social media as a digital battleground where rival states amply diplomatic messaging. Yet, interactions between ambassadors and host countries amidst geopolitical tensions remain underexplored. This study used mixed methods to analyze the 2022–2023 X posts of China’s ambassadors in Washington, DC, and their US counterpart in Beijing. Computational analysis reveals different sentiment curves and diplomatic priorities on ambassadorial accounts. Qualitative interpretation reveals that ambassadors were positive on topics of bilateral cooperation, interaction and historical connections. Whereas Chinese ambassadors were critical of the US on Taiwan and human rights, the US ambassador was negative on China’s human rights, geopolitical actions and censorship.",
-    "abstract_zh": "日益加剧的地缘政治紧张局势推动了数字外交研究的发展，这些研究将社交媒体视为一个数字战场，在这里各国通过数字渠道大量传递外交信息。然而，在地缘政治紧张背景下，大使与东道国之间的互动仍鲜有研究。本研究采用混合方法分析了2022至2023年间中国驻华盛顿特区大使以及美国驻北京大使在社交媒体上的发文情况。计算分析显示，两国大使的社交媒体账号在情感表达和外交重点上存在差异。定性分析表明，大使们在双边合作、交流及历史联系等议题上持积极态度；而中国大使对美国在台湾问题及人权问题上的立场表示批评，美国大使则对中国的人权状况、地缘政治行为及审查制度持负面看法。",
+    "abstract_zh": "日益加剧的地缘政治紧张局势推动了数字外交研究的发展，这些研究将社交媒体视为一个数字战场，在这里各国通过数字手段进行广泛的外交交流。然而，在地缘政治紧张背景下，大使与东道国之间的互动仍鲜有研究。本研究采用混合方法分析了2022至2023年间中国驻华盛顿特区大使以及美国驻北京大使在社交媒体（X平台）上的发文情况。计算分析显示，两国大使的社交媒体账号在情感表达和外交重点上存在差异。定性分析表明，大使们在双边合作、交流及历史联系等议题上持积极态度；而中国大使对美国在台湾问题及人权问题上的立场表示批评；美国大使则对中国的人权状况、地缘政治行为及审查制度持负面看法。",
     "summary": "比较中美驻对方大使2022-2023年在X上的发帖，通过计算分析揭示情感曲线和外交优先议题，结合定性解读分析双边关系中的积极与批评话语。",
     "reason": "研究聚焦社交媒体X上的数字外交，使用计算情感分析与定性解释，符合计算传播学方法加领域议题。",
     "tags": [
@@ -12237,7 +12306,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The rise of social media has allowed the rapid manifestation of collective actions that are both large in scale and persist over extended periods of time. Yet, little is known about how the mobilization strategies within protests vary over time. By drawing on literature on online mobilization patterns, the concept of cycles of contention and Resource Mobilization Theory, we develop and test a theoretical framework of the development of protest collectives’ communication strategies during episodes of sustained protest. We employ the large language model (LLM) GPT-4 Turbo to analyze a sample of 8,583 posts published on Twitter (now X) by supporters of the 2022 Freedom Convoy in Canada. Our findings show that political mobilization strategies are prevalent at times when there is potential to motivate large numbers of people to join the protest, with coordination efforts being used to facilitate logistics during these times. Conversely, as the protest progresses, shared information and discussions become increasingly marked by anger and fear, which may reflect efforts to sustain participation of a shrinking core of committed supporters. Beyond these theoretical contributions, our study adds to the growing literature demonstrating that LLMs can produce accurate classifications for text as data, even when tasks are complex.",
-    "abstract_zh": "社交媒体的兴起使得大规模且持续时间较长的集体行动得以迅速形成。然而，关于抗议活动中的动员策略如何随时间变化，目前知之甚少。通过借鉴有关在线动员模式的文献以及“争议周期”（cycles of contention）和“资源动员理论”（Resource Mobilization Theory），我们构建并验证了一个理论框架，用于解释抗议团体在持续抗议期间沟通策略的发展过程。我们使用了大型语言模型（LLM）GPT-4 Turbo来分析2022年加拿大“自由车队”（Freedom Convoy）支持者在Twitter（现为X）上发布的8,583条帖子。研究结果表明，在有可能动员大量民众参与抗议的时候，政治动员策略尤为普遍，此时会通过协调工作来保障抗议活动的后勤支持。相反，随着抗议活动的进展，共享的信息和讨论内容越来越多地表现出愤怒和恐惧的情绪，这可能反映了抗议者试图维持那些坚定支持者的参与度。除了这些理论贡献外，我们的研究还进一步证明了大型语言模型能够在数据任务复杂的情况下，对文本进行准确的分类。",
+    "abstract_zh": "社交媒体的兴起使得大规模且持续时间较长的集体行动得以迅速形成。然而，关于抗议活动中的动员策略如何随时间变化，目前知之甚少。通过借鉴有关在线动员模式的文献以及“争议周期”（cycles of contention）和“资源动员理论”（Resource Mobilization Theory），我们构建并验证了一个理论框架，用于解释抗议团体在持续抗议期间沟通策略的发展过程。我们使用了大型语言模型（LLM）GPT-4 Turbo来分析2022年加拿大“自由车队”（Freedom Convoy）活动支持者在Twitter（现为X）上发布的8,583条帖子。研究结果表明，在有可能动员大量民众参与抗议的时候，政治动员策略尤为普遍，此时会通过协调工作来保障抗议活动的后勤支持。相反，随着抗议活动的进展，分享的信息和讨论内容越来越多地表现出愤怒和恐惧的情绪，这可能反映了抗议者试图维持核心支持者参与度的努力。除了这些理论贡献外，我们的研究还进一步证明了大型语言模型即使在面对复杂任务时，也能对文本进行准确的分类。",
     "summary": "研究2022年加拿大自由车队抗议中X平台帖子，用GPT-4 Turbo分析8,583条帖子，揭示不同阶段动员策略变化。",
     "reason": "使用LLM分析Twitter抗议动员数据，结合计算方法和传播议题，明确属于计算传播学。",
     "tags": [
@@ -12259,7 +12328,7 @@
   {
     "id": 1062,
     "title": "Legacy Media as a Moral Compass: A Computational Study of the Politicization of a Migrant Crime on Twitter in France",
-    "title_zh": "遗产媒体作为道德指南针：一项关于法国Twitter上移民犯罪政治化的计算研究",
+    "title_zh": "遗产媒体作为道德指南针：一项关于法国Twitter上移民犯罪问题政治化的计算研究",
     "authors": [
       "Sylvain Parasie",
       "Antoine Machut",
@@ -12274,7 +12343,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article explores the role played by legacy media in the pervasive situation where far-right activists highly politicize migrant crimes on social media. Focusing on particular crimes they consider indicative of a state’s failure to secure borders and protect its citizens, they utilize social media platforms to mobilize and garner political and media attention. However, little is known about the dynamics of influence between far-right activism on social media and legacy media in the process of politicizing migrant crimes. To overcome the analytical and methodological limitations of current research, we have developed a computational method to capture the public discussion that took place in France around a single event – the murder of a young teenager in Paris in October 2022. Applying an event identification algorithm to a vast corpus of Twitter data has enabled us to analyze the dynamics of public discussion held in various arenas, both quantitatively and qualitatively. This article’s main argument is that legacy media act as a “moral compass” vis-à-vis far-right mobilizations that politicize migrant crimes on social media. While they were unable to influence the volume of attention that social media users pay to this murder, the French legacy media have contributed to setting limits to the form and spread of politicization by the far right on social media. More specifically, they were able to influence the attention paid to the facts that serve as the basis for discussion on social media and to steer that discussion toward questioning the relevance of politicizing the crime.",
-    "abstract_zh": "本文探讨了传统媒体在当前这种普遍现象中的作用：极右翼活动人士在社交媒体上过度政治化移民犯罪问题。他们选择某些特定的犯罪事件作为例证，认为这些事件反映了国家在维护边境安全及保护公民方面的失职，并利用社交媒体平台来动员公众并吸引政治和媒体的关注。然而，关于极右翼势力在社交媒体上的活动与传统媒体之间在政治化移民犯罪过程中的互动机制，目前知之甚少。为克服现有研究的分析和方法论局限，我们开发了一种计算方法，用于分析法国2022年10月巴黎一名青少年遇害事件引发的公众讨论。通过将事件识别算法应用于庞大的Twitter数据集，我们能够从定量和定性的角度分析各种讨论场域中的公众舆论动态。本文的主要观点是：传统媒体在面对极右翼势力在社交媒体上政治化移民犯罪的行为时，起到了“道德导向”的作用。尽管传统媒体无法改变社交媒体用户对这一事件的关注程度，但它们确实限制了极右翼势力在社交媒体上政治化行为的表达方式和传播范围。具体而言，传统媒体影响了公众对相关事实的关注焦点，并引导讨论朝着质疑这种政治化行为的合理性方向发展。",
+    "abstract_zh": "本文探讨了传统媒体在当前这种普遍现象中的作用：极右翼活动人士在社交媒体上过度政治化移民犯罪问题。他们选择某些特定的犯罪事件作为例证，认为这些事件反映了国家在维护边境安全及保护公民方面的失职，并利用社交媒体平台来动员公众并吸引政治和媒体的关注。然而，关于极右翼势力在社交媒体上的活动与传统媒体之间在政治化移民犯罪过程中的互动机制，目前知之甚少。为克服现有研究的分析和方法论局限，我们开发了一种计算方法，用于分析法国2022年10月巴黎一名青少年遇害事件引发的公众讨论。通过将事件识别算法应用于庞大的Twitter数据集，我们能够从定量和定性的角度分析各种讨论场所中的公众舆论动态。本文的主要观点是：传统媒体在面对极右翼势力在社交媒体上政治化移民犯罪的行为时，起到了“道德导向”的作用。尽管传统媒体无法改变社交媒体用户对这一事件的关注程度，但它们确实限制了极右翼势力在社交媒体上政治化行为的表达方式和传播范围。具体而言，传统媒体影响了公众对相关事实的关注焦点，并引导讨论朝着质疑这种政治化行为的合理性方向发展。",
     "summary": "开发计算方法分析法国一起移民犯罪在Twitter上的讨论，探究传统媒体对极右政治化的影响，发现媒体作为道德指南针限制政治化的形式与扩展。",
     "reason": "使用Twitter大数据和事件识别算法，研究社交媒体与媒体互动，明确属于计算传播。",
     "tags": [
@@ -12313,7 +12382,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Social media platforms now play a central role in election campaigns for parties and politicians. Yet comparatively little research has compared how these actors use these platforms during and outside of campaign periods longitudinally, with much focus on single elections. Given narratives about the prevalence of a permanent campaign, we examine how German national and state actors used Twitter and Facebook between 2010 and 2021—a period that included forty-three state, national, or European elections. We demonstrate a surge and decline in the volume of party posts, contrasting with continued increases among politicians. Political actors’ communication was distinct during campaign periods, with more positive rhetoric and increased use of platform affordances. Engagement was also different during campaign periods, with posts receiving more likes and shares in the month prior to an election. We demonstrate how platform campaigning evolved over a thirteen-year period, potentially exacerbating the personalization of politics, and show how platforms’ features and affordances structure both the supply of and demand for political communication at election time.",
-    "abstract_zh": "社交媒体平台在政党及政治家的竞选活动中发挥着核心作用。然而，迄今为止，关于这些主体在竞选期间及非竞选期间如何使用这些平台的研究相对较少，大多数研究都集中在单次选举上。鉴于有关“永久性竞选”现象的普遍描述，我们研究了2010年至2021年间德国国家级和州级政治主体如何使用Twitter和Facebook——这一时期共发生了43次州级、国家级或欧洲层面的选举。研究发现，政党发布的帖子数量出现了先增加后减少的趋势，而政治家发布的帖子数量则持续增长。政治主体在竞选期间的沟通方式有所不同，他们使用了更多积极的言辞，并更多地利用了社交媒体平台提供的功能。选民的参与度在竞选期间也有所变化：选举前的一个月里，相关帖子获得了更多的点赞和分享。研究还揭示了社交媒体平台在十三年间的演变过程，这一过程可能加剧了政治领域的个性化趋势，并表明平台的特点和功能如何影响了选举期间政治信息的供给与需求。",
+    "abstract_zh": "社交媒体平台在政党及政治家的竞选活动中发挥着核心作用。然而，迄今为止，关于这些主体在竞选期间及非竞选期间如何使用这些平台的研究相对较少，大多数研究都集中在单次选举上。鉴于有关“永久性竞选”现象的普遍描述，我们研究了2010年至2021年间德国国家级和州级政治主体如何使用Twitter和Facebook——这一时期共发生了43次州级、国家级或欧洲层面的选举。研究发现，政党发布的帖子数量出现了先增加后减少的趋势，而政治家的帖子数量则持续增长。政治主体在竞选期间的沟通方式有所不同，他们使用了更多积极的言辞，并更充分利用了社交平台的各项功能。选民的参与度在竞选期间也有所变化：选举前的一个月里，相关帖子获得了更多的点赞和分享。研究揭示了社交媒体平台在十三年间的演变过程，这一过程可能加剧了政治领域的个性化趋势，并表明平台的特性和功能如何影响了选举期间政治信息的供给与需求。",
     "summary": "分析德国政党和政治人物2010-2021年间在Twitter和Facebook上的竞选传播，发现竞选期间发帖量、正面修辞和参与度显著变化。",
     "reason": "使用Twitter和Facebook大规模数据，结合计算文本分析研究政治传播，符合计算传播学范畴。",
     "tags": [
@@ -12347,7 +12416,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "An analysis of Ukrainian President Zelenskyy’s Instagram before and after the outbreak of the Russia–Ukraine War indicates that the wartime leader generated media events on the platform. The findings point to the expansion of media events—traditionally rooted in television—into digital spaces. These events also exhibited characteristics of a recent type—disruptive media events: they were subordinated to conflictual functions; marked by a traumatic, unwelcome, unscripted nature; led by the establishment (the president); impacted by anti-establishment agencies (Russia); and mediated by a non-television medium (Instagram). The routine eventization and urgent, frequent uploads of the president’s wartime activities embodied marathon-type coverage and liveness—further characteristics of disruptive media events. Regarding audience effects, these Instagram events attracted high user engagement and global media attention, aiming to ease trauma and restore solidarity. The observed emergence of platform-based events reaffirms the continued relevance of media event theory in wartime digital media environments.",
-    "abstract_zh": "对乌克兰总统泽连斯基在俄乌战争爆发前后在Instagram上的活动的分析表明，这位战时领导人通过该平台引发了媒体关注。研究结果指出，传统上主要发生在电视上的媒体事件开始扩展到数字空间。这些事件还具备一种新型媒体事件的特征：它们具有破坏性（即对现有秩序产生冲击）；其性质具有创伤性、令人不适且不可预测；由政府（总统）主导；同时受到反政府势力的影响（如俄罗斯）；并且通过非电视媒介（Instagram）进行传播。总统在战时活动的频繁发布和实时更新体现了“马拉松式”的报道方式，这也是破坏性媒体事件的典型特征。从受众反应来看，这些Instagram事件吸引了大量用户参与，并引起了全球媒体的广泛关注，其目的是缓解人们的心理创伤并增强社会凝聚力。观察到的基于平台的媒体事件的出现再次证明了媒体事件理论在战时数字媒体环境中的持续相关性。",
+    "abstract_zh": "对乌克兰总统泽连斯基在俄乌战争爆发前后在Instagram上的活动的分析表明，这位战时领导人通过该平台引发了诸多媒体事件。研究结果指出，这些媒体事件的传统发源地是电视，但现在已扩展到了数字空间。这些事件还具备一种新型媒体事件的特征：它们具有破坏性（即它们服务于冲突目的）；具有创伤性、出乎意料且非预先安排的性质；由当权者（总统）主导；受到反体制势力的影响（如俄罗斯）；并且通过非电视媒介（Instagram）进行传播。总统在战争期间的日常活动被频繁、紧急地上传到Instagram上，形成了类似马拉松式的持续报道和实时互动，这进一步体现了这些破坏性媒体事件的特性。从受众反应来看，这些Instagram事件吸引了大量用户参与，并引起了全球媒体的广泛关注，其目的是缓解人们的创伤情绪并增强社会凝聚力。观察到的基于平台的媒体事件的出现再次证明了媒体事件理论在战时数字媒体环境中的持续相关性。",
     "summary": "分析泽连斯基在俄乌战争期间发布的Instagram帖子，探讨媒体事件从电视向数字平台扩展，并呈现破坏性媒体事件特征。",
     "reason": "研究社交媒体平台Instagram上的战时媒体事件，涉及数字平台与传播理论，属于计算传播领域。",
     "tags": [
@@ -12390,7 +12459,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study is focused on how social media activism is politicized over time, attending to diverse groups of users and their response to real-world events on social media. Extending the scholarship on politicization, we hypothesize three temporal dimensions of this process: partisan voices (1) crowd out activist voices, (2) show sustained participation, and (3) respond to events selectively through partisan references and criticisms. Situating our question in the #MeToo movement, we analyzed 83 million #MeToo-related posts on Twitter/X and comprehensive event data between 2017–2020. We conducted user cluster analysis to identify key user groups and supervised machine learning to detect different discourse categories, followed by formal time-series analysis. Results show episodic, asymmetric, and elite-cued politicization of #MeToo. Partisan voices were more dominant at the initial stage of the movement than during the entire timeframe, but they were always more persistent than activist voices. Also, liberals’ references to conservatives were spurred by conservative culprits, while conservatives’ partisan references spiked when the culprit was either liberal or conservative. Lastly, partisan participation in the discourse was more elite driven than activist participation. We discuss the theoretical and methodological implications for studying the evolution of social media activism in a polarized era.",
-    "abstract_zh": "本文的研究重点在于社交媒体活动如何随着时间的推移而被政治化，同时关注不同用户群体对社交媒体上现实世界事件的反应。为了扩展关于政治化的学术研究，我们提出了这一过程的三个时间维度：（1）党派声音逐渐压制活动家的声音；（2）用户表现出持续的参与度；（3）通过党派立场对事件进行选择性回应和批评。我们将研究问题置于#MeToo运动背景下，分析了2017年至2020年间Twitter/X平台上与#MeToo相关的8300万条帖子以及相关的事件数据。我们采用了用户聚类分析来识别关键用户群体，并通过监督式机器学习方法来识别不同的话语类别，随后进行了正式的时间序列分析。研究结果表明，#MeToo运动的政治化过程具有阶段性、不对称性，并且主要由精英阶层推动。在运动初期，党派声音比整个时间段内都更为主导，但它们的影响力始终比活动家的声音更为持久。此外，自由派提及保守派的行为往往是由保守派的过错行为引发的；而当过错方是自由派或保守派时，保守派的党派言论会显著增加。最后，党派在话语中的参与度更多地受到精英阶层的驱动，而非活动家的参与。本文还讨论了这一研究对于理解极化时代社交媒体活动演变过程的理论和方法论意义。",
+    "abstract_zh": "本文的研究重点在于社交媒体活动如何随着时间的推移而被政治化，同时关注不同用户群体对社交媒体上现实世界事件的反应。为了扩展关于政治化现象的学术研究，我们提出了这一过程的三个时间维度：（1）党派声音逐渐压制活动家的声音；（2）用户表现出持续的参与度；（3）通过党派立场对事件进行选择性回应和批评。以#MeToo运动为例，我们分析了2017年至2020年间Twitter/X平台上与#MeToo相关的8300万条帖子以及相关的事件数据。我们通过用户聚类分析识别出关键的用户群体，并利用监督式机器学习方法来区分不同的言论类型，随后进行了正式的时间序列分析。研究结果表明，#MeToo运动的政治化过程具有阶段性、不对称性，并且主要由精英阶层推动。在运动初期，党派声音比整个时间段内都更为主导；不过党派声音始终比活动家的声音更具持久性。此外，自由派提及保守派的行为往往是由保守派的过错行为引发的，而当过错方是自由派或保守派时，保守派的党派言论会显著增加。最后，党派在舆论中的参与更多地受到精英阶层的影响，而非活动家本身。本文还讨论了这一研究对于理解极化时代社交媒体活动演变过程的理论和方法论意义。",
     "summary": "分析8300万条#MeToo推文，通过用户聚类和监督机器学习识别话语类别，结合时间序列分析揭示运动政治化的时间动态：党派声音挤出活动家声音、持续参与、选择性回应事件且精英驱动。",
     "reason": "使用Twitter/X大规模数据，结合机器学习、用户聚类和时间序列分析，研究#MeToo运动的政治化过程，属于典型计算传播研究。",
     "tags": [
@@ -12429,7 +12498,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Existing research on public attitudes toward the application of AI in mental health care primarily focused on small-sample, cross-sectional analyses, with limited attention to the dynamic evolution of public perceptions. To address this gap, this study draws on user-generated content from the Weibo platform and applies a combined approach of sentiment analysis and dynamic topic modeling to systematically examine the expression of positive and negative emotions, as well as the evolution of associated topics, in public discourse on AI-based mental health care. The findings reveal a declining trend in positive sentiment and a continuous rise in negative sentiment over time, indicating a shift from initial novelty-driven acceptance to more rational evaluation. Topic evolution analysis further shows that positive sentiment is primarily associated with topics such as user experience and development potential, which gradually extend to professional domains including education and healthcare. In contrast, negative sentiment evolves from usage hesitation to negative user experiences and eventually to systemic concerns. These findings suggest that technology acceptance is not a static decision-making process, but a dynamic one shaped by emotional engagement, experiential learning, and broader sociocultural contexts. This study offers theoretical insights and practical implications for the optimization and sustainable development of AI mental health care.",
-    "abstract_zh": "现有关于公众对人工智能在心理健康护理中应用态度的研究主要集中在小样本、横断面分析上，对公众认知的动态变化关注较少。为填补这一空白，本研究利用来自微博平台的用户生成内容，结合情感分析和动态主题建模的方法，系统地研究了公众讨论中关于基于人工智能的心理健康护理的正面和负面情绪表达以及相关主题的演变。研究结果表明，正面情绪呈下降趋势，而负面情绪持续上升，这表明公众的态度从最初的新奇接受转变为更为理性的评估。主题演变分析进一步显示，正面情绪主要与用户体验和发展潜力等主题相关，这些主题逐渐扩展到教育和医疗保健等专业领域。相比之下，负面情绪则从使用上的犹豫发展到负面的用户体验，最终演变为对整个系统的担忧。这些发现表明，技术的接受并非一个静态的决策过程，而是一个受到情感参与、经验学习以及更广泛的社会文化背景影响的动态过程。本研究为人工智能在心理健康护理领域的优化和可持续发展提供了理论见解和实践意义。",
+    "abstract_zh": "现有关于公众对人工智能在心理健康护理中应用态度的研究主要集中在小样本、横断面分析上，对公众认知的动态变化关注较少。为填补这一空白，本研究利用来自微博平台的用户生成内容，结合情感分析和动态主题建模的方法，系统地研究了公众讨论中关于基于人工智能的心理健康护理的正面和负面情绪表达以及相关主题的演变。研究结果表明，正面情绪呈下降趋势，而负面情绪持续上升，这表明公众的态度从最初的新奇接受转变为更为理性的评估。主题演变分析进一步显示，正面情绪主要与用户体验和发展潜力等主题相关，这些主题逐渐扩展到教育和医疗保健等专业领域。相比之下，负面情绪则从使用犹豫发展为负面用户体验，最终演变为对整个系统的担忧。这些发现表明，技术的接受并非一个静态的决策过程，而是一个受到情感参与、经验学习以及更广泛的社会文化背景影响的动态过程。本研究为人工智能在心理健康护理领域的优化和可持续发展提供了理论见解和实践意义。",
     "summary": "基于微博用户生成内容，运用情感分析与动态主题建模，探究公众对AI心理健康的接受与拒绝态度及其动态演变。",
     "reason": "使用微博社交媒体数据，结合情感分析与动态主题建模，属于计算传播学核心方法。",
     "tags": [
@@ -12463,7 +12532,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "When authoritarian regime makes a policy U-turn from restrictive to easing measures, how does the propaganda adjust its narratives to avoid ridiculing oneself? Drawing on the policy agenda control framework, this study investigates how Chinese state media deployed nationalistic narratives to cover ‘dynamic zeroing’ and ‘living with the virus’ policies in the news before and after the major policy change. Between January 2020 and March 2023, this study collected 1.24 million Weibo news posts from 832 central and provincial Chinese state media outlets and analyzed the data using document embedding approach. The findings indicate that Chinese propaganda adapted its strategies using nationalistic narratives in different stages of the pandemic in response to specific policy needs. Central and provincial media adhered to the official propagandist role in various extents. By invoking Mao Zedong’s ‘On Protracted War’, this study identifies three guiding principles underlying Chinese propaganda’s effort to navigate the complexities of manipulating public opinion during the period of significant policy change.",
-    "abstract_zh": "当专制政权从限制性措施转向宽松措施时，宣传机构如何调整其叙事方式以避免自嘲？本研究基于“政策议程控制框架”，探讨了中国国家媒体在重大政策变化前后如何运用民族主义叙事来报道“动态清零”和“与病毒共存”政策。2020年1月至2023年3月期间，研究人员收集了来自832家中国中央和省级媒体的124万条微博新闻帖子，并使用文档嵌入方法对数据进行了分析。研究结果表明，中国宣传机构在疫情的不同阶段根据具体政策需求调整了其叙事策略。中央和省级媒体在不同程度上遵循了官方宣传者的角色。通过引用毛泽东的《论持久战》，本研究确定了中国宣传机构在重大政策变化期间试图操纵公众舆论时所遵循的三个指导原则。",
+    "abstract_zh": "当专制政权从限制性措施转向宽松措施时，宣传机构如何调整其叙事方式以避免自嘲？本研究基于“政策议程控制框架”，探讨了中国国家媒体在重大政策变化前后如何运用民族主义叙事来报道“动态清零”和“与病毒共存”政策。2020年1月至2023年3月期间，研究人员收集了来自832家中国中央和省级媒体的124万条微博新闻帖子，并使用文档嵌入方法对数据进行了分析。研究结果表明，中国宣传机构在疫情的不同阶段根据具体政策需求调整了其叙事策略。中央和省级媒体在不同程度上遵循了官方宣传者的角色定位。通过引用毛泽东的《论持久战》，本研究揭示了中国宣传机构在政策重大变化期间试图操纵公众舆论时所遵循的三个指导原则。",
     "summary": "研究中国官方媒体在防疫政策转变前后如何调整民族主义叙事，通过分析832家媒体124万条微博帖子，揭示中央与地方媒体的宣传策略差异。",
     "reason": "使用124万微博数据与文档嵌入方法分析国家媒体叙事，属计算传播学。",
     "tags": [
@@ -12485,7 +12554,7 @@
   {
     "id": 1499,
     "title": "Fake news across Asian countries",
-    "title_zh": "亚洲国家的虚假新闻",
+    "title_zh": "亚洲各国中的假新闻",
     "authors": [
       "C Cox"
     ],
@@ -12497,7 +12566,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "In Fake News Across Asian Countries, Edson C. Tandoc Jr assembles a multidisciplinary team of scholars to grapple with one of the most urgent challenges in contemporary media landscapes: the prolif...",
-    "abstract_zh": "在《亚洲各国的虚假新闻》一文中，Edson C. Tandoc Jr. 组建了一个跨学科的学者团队，致力于研究当代媒体领域中最紧迫的挑战之一：虚假新闻的泛滥问题……",
+    "abstract_zh": "在《亚洲各国的虚假新闻》一文中，Edson C. Tandoc Jr. 组建了一个跨学科的学者团队，致力于解决当代媒体领域中最紧迫的挑战之一：虚假新闻的泛滥问题……",
     "summary": "该书由Tandoc Jr主编，多学科团队探讨亚洲国家假新闻现象，关注当代媒体环境中的虚假信息挑战。",
     "reason": "研究主题涉及虚假信息，属于计算传播核心议题，虽方法未知但选题明确相关。",
     "tags": [
@@ -12532,7 +12601,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Integrating prospect theory, loss aversion, and the heuristic–systematic model (HSM), this study examines how gain and loss framing shapes employees’ intentions to adopt AI in the workplace. Prospect theory explains that individuals with high loss aversion are more sensitive to loss framing, while HSM predicts that low involvement amplifies heuristic-driven responses, such as loss aversion. An experiment revealed that loss framing significantly increased adoption intentions, with a three-way interaction showing that employees with high loss aversion and low involvement were most responsive to loss framing. These findings offer theoretical insights and practical guidance for organizational communication, emphasizing how integrating framing, involvement, and loss aversion can inform strategies to promote AI adoption.",
-    "abstract_zh": "本文综合了前景理论（Prospect Theory）、损失厌恶（Loss Aversion）以及启发式-系统模型（Heuristic-Systematic Model, HSM），探讨了收益与损失的不同表述方式如何影响员工在工作场所采用人工智能（AI）的意愿。前景理论指出，具有较高损失厌恶倾向的个体对损失相关的信息更为敏感；而启发式-系统模型则认为，当员工的参与度较低时，他们的决策更受启发式思维（如损失厌恶）的影响。实验结果表明，损失框架（loss framing）显著增强了员工采用AI的意愿，其中一项三因素交互分析显示，那些同时具有较高损失厌恶倾向和较低参与度的员工对损失框架的反应最为强烈。这些发现为组织沟通提供了理论依据和实践指导，强调了如何通过整合信息框架、员工参与度以及他们的损失厌恶心理来制定促进AI采纳的策略。",
+    "abstract_zh": "本文综合了前景理论（Prospect Theory）、损失厌恶（Loss Aversion）以及启发式-系统模型（Heuristic-Systematic Model, HSM），探讨了收益与损失的不同表述方式如何影响员工在工作场所采用人工智能（AI）的意愿。前景理论指出，具有较高损失厌恶倾向的个体对损失相关的信息更为敏感；而启发式-系统模型则认为，当员工的参与度较低时，他们的决策行为更受启发式因素（如损失厌恶）的影响。实验结果表明，损失框架（loss framing）显著增强了员工采用AI的意愿，其中一项三因素交互分析显示，那些同时具有较高损失厌恶倾向和较低参与度的员工对损失框架的反应最为强烈。这些发现为组织沟通提供了理论依据和实践指导，强调了如何通过整合信息框架、员工参与度以及损失厌恶因素来制定策略，以促进AI的普及与应用。",
     "summary": "基于前景理论和启发-系统模型，通过实验探究得失框架对员工AI采用意愿的影响，发现高损失厌恶和低卷入者更受损失框架影响。",
     "reason": "涉及AI在组织中的采用，属于AI社会影响议题；虽用实验方法，但按特别条款纳入。",
     "tags": [

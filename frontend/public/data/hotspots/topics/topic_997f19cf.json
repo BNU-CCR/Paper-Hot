@@ -1,0 +1,124 @@
+{
+  "topic_id": "topic_997f19cf",
+  "label": "网络仇恨言论的治理与反制",
+  "description": "关注极端主义内容的平台审核困境，以及反制言论对受攻击少数群体集体行动意愿的影响。",
+  "why_hot": "近30天2篇，日均发表速度较前期下降约17%，研究分布在5本期刊。",
+  "hot_score": 48,
+  "growth": -0.167,
+  "growth_rate": -0.167,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.08,
+  "recent_count": 2,
+  "baseline_count": 12,
+  "journal_count": 5,
+  "lineage_status": "continued",
+  "status": "emerging",
+  "keywords": [
+    "hate speech",
+    "content moderation",
+    "counter-speech",
+    "online extremism",
+    "targeted minorities"
+  ],
+  "papers": [
+    {
+      "id": 2097,
+      "title": "Safe havens for hate: the challenge of moderating online extremism",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-30",
+      "summary": "论文探讨在线极端主义内容审核面临的困境，聚焦仇恨言论在平台上的“避风港”现象及治理挑战，属社交媒体平台治理议题。"
+    },
+    {
+      "id": 2095,
+      "title": "From Hate Speech to Collective Action Intentions: The Role of Counter-Speech and Accuracy Cues Among Targeted Minorities",
+      "journal": "Communication Research",
+      "published_date": "2026-09-29",
+      "summary": "基于社会认同集体行动模型（SIMCA），通过两项实验（穆斯林 N=328、拉丁裔 N=583）检验网络仇恨言论对少数群体集体行动意向的影响机制与边界条件，发现仇恨言论经由群体不公感提升集体行动意向，信息被标记为不准确或反驳言论可调节该效应。"
+    },
+    {
+      "id": 1968,
+      "title": "Crowd-moderation of hateful content on social media: mobilizing bystanders through scalable interventions",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-19",
+      "summary": "通过美国与澳大利亚大规模调查实验，检验短视频和信息图干预能否提升用户举报和回应仇恨内容的意愿。"
+    },
+    {
+      "id": 1954,
+      "title": "Toward inclusive online safety: evaluating the role of intersectionality on online abuse in the United Kingdom",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-17",
+      "summary": "论文评估交叉性因素在英国在线滥用中的作用，旨在促进包容性在线安全，可能采用数据驱动方法分析网络言论。"
+    },
+    {
+      "id": 1925,
+      "title": "Where digital hate finds its home: perpetrators' preferred affordances and their experiences with content moderation and user intervention",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-15",
+      "summary": "研究数字仇恨散布者偏好的平台功能及其对内容审核和用户干预的体验。"
+    },
+    {
+      "id": 1927,
+      "title": "The strategic provocation of digital hate: empowered targets’ perceptions of perpetrators and bystanders",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-13",
+      "summary": "通过对24位大学教授的访谈，探讨学者作为数字仇恨目标对施害者和旁观者的感知，强调权力失衡与战略挑衅，发现旁观者干预不足，需集体应对。"
+    },
+    {
+      "id": 250,
+      "title": "Integrating corrective action theory into the social identity model of collective action to explain U.S. Latinos/as’ social media political expression",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-05",
+      "summary": "研究整合SIMCA与纠正行动理论，基于995名美国拉丁裔调查数据，考察集体效能、群体认同和社交媒体新闻接触对集体表达的影响。"
+    },
+    {
+      "id": 2026,
+      "title": "It Doesn’t Take Extremes to Trigger Hate: A Mixed-Methods Study on Meme Extremity and User Comments on 9GAG",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究以9GAG为对象，先用潜类别分析对343条迷因按极端程度分类，再质性分析六类代表性迷因的评论区，发现匿名与群体认同使仇恨被幽默化、常态化，且纯幽默迷因亦能引发仇恨评论，议题敏感度与所指外群体同样起作用。"
+    },
+    {
+      "id": 2088,
+      "title": "Like Walking a Tightrope: User-Centric Perspectives on Content in Need of Moderation",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究以焦点小组探讨用户自身认为哪些内容需要被审核，发现用户除关注极化议题与不文明言论外，更在意发布者动机与受害者脆弱性，主张平台在设计自动化审核系统时应纳入用户视角，采取更具针对性的措施并配套问责与保护机制。"
+    },
+    {
+      "id": 33,
+      "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
+      "journal": "Communication Research",
+      "published_date": "2026-06-13",
+      "summary": "研究创意众包挑战社区中地位、职业、价值等多维同质性对创意者间评论网络形成的影响，采用关系事件模型和潜在类别分析。"
+    },
+    {
+      "id": 37,
+      "title": "Political Identity Threats on Social Media",
+      "journal": "Communication Research",
+      "published_date": "2026-05-08",
+      "summary": "研究社交媒体上政治身份威胁的识别与影响，通过两个实验发现威胁类型非离散且对强党派身份者影响更大。"
+    },
+    {
+      "id": 634,
+      "title": "Human versus machine as content moderators: examining the effects of moderation strategies on Reddit",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "基于Reddit 2022年5.3亿条参与记录和1330万条审核动作，分析硬性/软性审核策略、人工/机器审核者身份对不同活跃度用户参与度的影响。"
+    },
+    {
+      "id": 635,
+      "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-23",
+      "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
+    },
+    {
+      "id": 125,
+      "title": "Social media platforms and the spreading of hate speech targeting sexual and gender minorities: a scoping review",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-11",
+      "summary": "通过范围综述和BERTopic主题建模，系统梳理了145篇研究，分析不同社交媒体平台特性（内容模态、可供性）与针对性少数群体仇恨言论传播的关系，发现Twitter/X研究最多，文本内容为主，并呼吁关注视觉内容与平台动态。"
+    }
+  ],
+  "paper_edges": []
+}

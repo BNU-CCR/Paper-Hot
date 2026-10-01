@@ -1,25 +1,33 @@
 {
   "topic_id": "topic_5bc0b040",
   "label": "社交媒体情绪与金融市场信息",
-  "description": "研究社交媒体情绪、平台选择组合与金融市场信息效率之间的关系。",
-  "why_hot": "近30天2篇，日均发表速度较此前上升25%，研究热度有所上升。",
-  "hot_score": 59,
-  "growth": 0.25,
-  "growth_rate": 0.25,
-  "recent_rate": 0.0667,
+  "description": "探讨网络舆论操控、社交媒体情绪与媒介平台选择如何影响股票定价与投资决策。",
+  "why_hot": "近30天3篇，日均发表速度较前期上升约88%，为近期升温明显的议题。",
+  "hot_score": 72,
+  "growth": 0.875,
+  "growth_rate": 0.875,
+  "recent_rate": 0.1,
   "baseline_rate": 0.0533,
-  "recent_count": 2,
+  "recent_count": 3,
   "baseline_count": 8,
   "journal_count": 4,
   "lineage_status": "continued",
-  "status": "emerging",
+  "status": "hot",
   "keywords": [
     "social media sentiment",
     "stock price informativeness",
-    "platform choice",
-    "media substitution"
+    "investor behavior",
+    "media platform choice",
+    "information intermediaries"
   ],
   "papers": [
+    {
+      "id": 2104,
+      "title": "Do internet water armies facilitate managerial opportunistic stock selling? –evidence from China",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-09-27",
+      "summary": "论文以2006—2023年中国A股上市公司为样本，考察网络水军干预对企业高管机会主义减持的影响，发现水军通过加剧信息不对称和扰动投资者情绪为高管套现创造条件，并在竞争激烈、媒体关注高、分析师覆盖低的公司中更明显。"
+    },
     {
       "id": 2043,
       "title": "Investor proximity, social media sentiment, and stock price informativeness in the UK market",

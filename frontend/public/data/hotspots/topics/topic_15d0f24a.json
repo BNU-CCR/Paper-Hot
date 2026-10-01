@@ -1,46 +1,32 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式人工智能与传播实践",
-  "description": "考察生成式人工智能在传播研究、公共关系与健康传播中的角色定位、使用规范与伦理关切。",
-  "why_hot": "近30天5篇，日均发表速度较此前变化约-4%，研究热度基本持平。",
-  "hot_score": 61,
-  "growth": -0.038,
-  "growth_rate": -0.038,
-  "recent_rate": 0.1667,
+  "label": "人工智能叙事与健康传播效果",
+  "description": "研究AI作者身份、情感语气与叙事认同如何影响健康信息中的幻觉识别与疾病污名。",
+  "why_hot": "近30天2篇，日均发表速度较前期下降约62%，研究活动明显降温。",
+  "hot_score": 35,
+  "growth": -0.615,
+  "growth_rate": -0.615,
+  "recent_rate": 0.0667,
   "baseline_rate": 0.1733,
-  "recent_count": 5,
+  "recent_count": 2,
   "baseline_count": 26,
-  "journal_count": 8,
+  "journal_count": 7,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
-    "generative AI",
     "AI authorship",
-    "communication science",
-    "public relations",
-    "health communication"
+    "health communication",
+    "narrative persuasion",
+    "emotional tone",
+    "stigma"
   ],
   "papers": [
-    {
-      "id": 2081,
-      "title": "Guidance over guidelines? Unpacking the uses and concerns of generative AI in communication science",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-25",
-      "summary": "通过对1138名传播学者的问卷调查与四组焦点小组访谈，系统描绘生成式AI在传播学研究各阶段的使用情况，揭示普遍使用与持续担忧的悖论、个体与机构间的期望冲突及文化语言差异，并提出多层次负责任使用建议。"
-    },
     {
       "id": 2072,
       "title": "Authority Over Sympathy: How AI Emotional Tone and Thinking Dispositions Shape Hallucination Detection in Health Communication",
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-09-21",
       "summary": "基于误导信息识别与回应模型，采用Wizard-of-Oz实验（N=476）考察AI生成健康回答中权威与共情语气对用户幻觉识别敏感度的影响，发现权威语气显著降低识别敏感度，共情语气无显著效应，思维倾向无显著调节作用。"
-    },
-    {
-      "id": 2060,
-      "title": "Role, Position, and Control: Questioning Generative Artificial Intelligence’s Place as a New Actor within Strategic Communications for National Advocacy",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-09-17",
-      "summary": "研究考察加沙冲突期间以色列国家倡导传播中，生成式AI如何被纳入临时倡导场域。通过对15位战略传播从业者的半结构化访谈，结合行动者网络理论与布迪厄场域理论，发现AI被视为高效忠诚的助手，但被策略性地置于创作流程中段，源于对职业地位、创意真实性与可信度的顾虑。"
     },
     {
       "id": 2047,
@@ -50,18 +36,11 @@
       "summary": "通过实验操纵AI/人类/无署名标签、情绪化程度与叙事视角，考察AI撰写的抑郁症叙事能否通过认同降低污名化，发现各变量间存在有条件的调节中介关系。"
     },
     {
-      "id": 2023,
-      "title": "Examining the Mediating Effects of Mutuality and Openness in the Adoption of Generative Artificial Intelligence in Public Relations Practice: A Predictive PLS-SEM Approach",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-09-08",
-      "summary": "研究调查398名肯尼亚公关从业者，用PLS-SEM检验生成式AI采纳对组织-公众对话传播（互助性与开放性）的影响，以及AI增强的对话传播在信任与满意度关系中的中介作用，发现所有假设路径显著且呈部分中介。"
-    },
-    {
-      "id": 1945,
-      "title": "From Ally – Enemy Conflict to Emotional Communion: Exploring an Attitudinal Ambivalence Toward Emotional Artificial Intelligence",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-08-11",
-      "summary": "基于911名中国用户调查，探究感知情感能力通过自我披露影响对对话AI的态度矛盾，并提出情感共融效应。"
+      "id": 1898,
+      "title": "Corporate digital responsibility: what drives public expectations towards companies’ role in the digital society?",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-07",
+      "summary": "研究公众对企业数字责任角色的期望，探讨企业在数字社会中的责任认知，但缺乏具体方法与数据信息。"
     },
     {
       "id": 398,
@@ -78,13 +57,6 @@
       "summary": "通过在线实验比较AI与人类健康信息的说服效果，发现AI来源降低感知相似性、可信度及信息有效性，验证了相似性中介机制。"
     },
     {
-      "id": 400,
-      "title": "Privacy Divide: Digital Competence, Privacy Vulnerability, and Changing Trajectories of Privacy Protection Intention Amid AI Expansion",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-02",
-      "summary": "基于保护动机理论，通过三波纵向调查考察AI扩张中数字能力对隐私保护意图的影响及隐私脆弱性的中介作用，发现低能力用户增长更快且中介方向反转。"
-    },
-    {
       "id": 1905,
       "title": "Anthropomorphizing AI: Perceptions, Interpretations, and the Humanization of Generative AI",
       "journal": "Social Media + Society",
@@ -92,11 +64,11 @@
       "summary": "通过Twitter数据分析用户如何拟人化ChatGPT，识别出人格化、情感归因等五类拟人化形式，探讨社交媒体对拟人化叙事的形塑及其对信任和传播的影响。"
     },
     {
-      "id": 402,
-      "title": "Epistemic Dislocation in AI Journalism: Fragmented Authority and the Reconfiguration of Knowledge Production",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-28",
-      "summary": "基于75个深度访谈，提出AI在新闻业中引发“认识论错位”，使知识生产的权威碎片化，并分析三种动态机制。"
+      "id": 2022,
+      "title": "Constructing Online Harms: How “Trust and Safety” Translates Safety Into Risk",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过对42位“信任与安全”从业者的访谈及行业论坛观察，作者揭示平台内部如何将用户伤害建构为可操作的公司风险（法律责任、声誉、营收），并描述其倡导者定位、风险转译与行业展演三重机制。"
     },
     {
       "id": 403,
@@ -113,6 +85,13 @@
       "summary": "通过实验考察AI事实核查工具采用奉承语气时，用户虽更偏好使用该工具，但降低了对信息的回忆和核对行为，且不受初始答案正确性影响。"
     },
     {
+      "id": 405,
+      "title": "AI as “Artificial Immigrants”? A Content Analysis of the U.S. News Media Framing of AI Threats",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-26",
+      "summary": "分析美国四家媒体1005篇报道，探讨AI被视为“人工移民”的威胁框架，发现现实威胁强调多于象征威胁，技术报道偏向现实框架。"
+    },
+    {
       "id": 407,
       "title": "Beyond the Black Box: Human-AI Collaboration and Algorithmic Accountability in Arabic-Language Fact-Checking",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -127,6 +106,13 @@
       "summary": "基于社会风险放大框架和机器启发式概念，调查1038名中国GenAI健康信息用户，发现社交媒体关注降低风险感知，幻觉风险影响态度和使用意愿，机器启发式起调节作用。"
     },
     {
+      "id": 409,
+      "title": "The Power of AI Transparency, Rewards, and Tracking: How Mobile App Features Drive the Adoption of Smart Trash Bins Through Trust and Perceived Value",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-22",
+      "summary": "基于助推理论与SOR框架，通过在线实验检验AI透明度、奖励和追踪功能对智能垃圾桶采纳意愿的影响，发现信任和感知价值的中介作用及交互效应。"
+    },
+    {
       "id": 411,
       "title": "Fact-Checking as News Framing in the Age of AI: Challenges, Cues, Coverage, and Culture",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -134,11 +120,18 @@
       "summary": "文章探讨AI时代事实核查作为新闻框架的实践，提出挑战、线索、覆盖和文化四原则，属理论性研究。"
     },
     {
-      "id": 632,
-      "title": "Chatting with confidants or corporations? Privacy management with AI companions",
-      "journal": "Journal of Computer-Mediated Communication",
+      "id": 412,
+      "title": "Effects of Generative AI Bias on Adoption Through Trust: Interactions Between Engagement Cues, Information Cues, and Social Norms",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-07",
+      "summary": "通过在线实验探究AI偏见认知对采纳意愿的影响，发现偏见体验、偏见提示与社会规范三重交互影响AI信任，进而影响采纳。"
+    },
+    {
+      "id": 2036,
+      "title": "Indigenous digital life: the practice and politics of being Indigenous on social media",
+      "journal": "Information Communication & Society",
       "published_date": "2026-06-02",
-      "summary": "通过访谈15位AI伴侣用户，基于CPM理论分析隐私决策，发现拟人化设计降低披露门槛，用户采用预期性策略如假名，且更担心关系重置而非数据泄露。"
+      "summary": "该文（书评性质）围绕原住民在社交媒体上的数字生活展开，讨论其线上身份实践与政治表达，关注平台空间中边缘群体的数字生存与权力关系。"
     },
     {
       "id": 414,
@@ -146,13 +139,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-06-01",
       "summary": "调查335名传播管理者，发现AI伦理焦虑预测事实核查行为，感知可信度调节对事实核查网站的使用，但对AI事实核查无显著调节作用。"
-    },
-    {
-      "id": 175,
-      "title": "What Is Ethical AI Use in Journalism? Stakeholders’ Perceptions of Ethical Generative Artificial Intelligence (GenAI) Usage in Kenyan Newsrooms",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-05-31",
-      "summary": "通过访谈94名肯尼亚新闻业相关利益者，探讨他们关于GenAI的民俗理论及其伦理认知，揭示不同技术认知框架影响对新闻伦理风险的解读。"
     },
     {
       "id": 415,
@@ -183,13 +169,6 @@
       "summary": "通过在线实验（N=123）比较AI决策者（标注、辟谣）与AI决策助手（助推）在降低健康错误信息可信度方面的效果，发现辟谣与标注效果相近，而助推对高控制需求者更有效，且感知自主性起中介作用。"
     },
     {
-      "id": 179,
-      "title": "Going with the Mainstream: Exploring GPT Representation of Journalistic Culture",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-05-09",
-      "summary": "本研究通过提示GPT-4o回答新闻业调查问卷，与美德英三国记者实际数据对比，发现模型偏向反映中翼全职电视背景记者观点，讨论AI在新闻生产中的文化偏向与记者能动性。"
-    },
-    {
       "id": 633,
       "title": "Chat but verify: Combating misinformation in conversational Generative AI with verification affordance",
       "journal": "Journal of Computer-Mediated Communication",
@@ -204,11 +183,25 @@
       "summary": "通过793名美国成年人的2×4实验，考察AI幻觉与纠错回应如何影响用户对准确性、信任和议题态度，并发现信念更新可预测后续信息寻求行为。"
     },
     {
+      "id": 421,
+      "title": "Attributional Ambiguity in AI-Mediated Harm: How Perceived AI System Limitations Shape Forgiveness and Regulatory Demand",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-04-25",
+      "summary": "基于归因理论，通过在线调查(N=705)探究AI媒介伤害中公众的危机责任感知如何影响愤怒/共情，进而影响组织宽恕与AI监管诉求，揭示归因模糊的双路径作用。"
+    },
+    {
       "id": 422,
       "title": "To Disclose or Not to Disclose: How AI Use Transparency Increases Trust in Fact-Checking",
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-04-20",
       "summary": "通过N=393的在线实验，操纵AI使用披露方式（不披露、简单披露、详细披露、第三方披露），发现详细披露提升感知透明度和可信度，第三方披露未披露的AI使用会损害可信度和错误信息纠正效果。"
+    },
+    {
+      "id": 512,
+      "title": "“The architect of the invasion” vs. “a symbol of resilience”: How AI chatbots frame Zelenskyy, Putin and the Russia–Ukraine war",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-19",
+      "summary": "2024年11月对ChatGPT、Copilot、Gemini、Claude四个AI聊天机器人进行定性内容分析，发现其框架与欧美媒体相似，将俄罗斯视为侵略者、乌克兰为受害者，但对俄宣传语境理解不足，存在偏见和可靠性问题。"
     },
     {
       "id": 638,
@@ -223,20 +216,6 @@
       "journal": "Asian Journal of Communication",
       "published_date": "2026-04-07",
       "summary": "基于期望不一致理论，通过2×2实验考察用户从AI转向人类心理咨询师的意向，发现AI表现是满意度和切换意向的主因，高期望增强AI表现对满意度的影响。"
-    },
-    {
-      "id": 132,
-      "title": "Emotional responses to privacy invasion on algorithmic social media: insights from in-depth interviews linking agency, emotions, and privacy",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-05",
-      "summary": "通过32名美新用户的深度访谈，研究算法社交媒体隐私侵犯引发的情绪及其行为后果，发现意识与感知控制影响情绪，情绪导致不同隐私保护策略。"
-    },
-    {
-      "id": 295,
-      "title": "We Are Equally Vulnerable? An Examination of the Third-Person Effect in AI-Generated Misinformation",
-      "journal": "Social Media + Society",
-      "published_date": "2026-04-01",
-      "summary": "基于726份问卷，考察个体对AI生成虚假信息的感知，发现人们认为自己同样易受影响，且感知影响正向关联纠错行为。"
     }
   ],
   "paper_edges": []
