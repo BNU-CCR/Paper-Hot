@@ -1,32 +1,32 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "算法想象与平台化监控实践",
-  "description": "研究算法想象、平台化监控与数字身份实践中的隐私、照护与社会不平等问题。",
-  "why_hot": "近30天5篇，日均发表速度较前期下降约29%，但研究仍分布于10本期刊。",
-  "hot_score": 54,
-  "growth": -0.286,
-  "growth_rate": -0.286,
+  "label": "算法偏见与平台化不平等",
+  "description": "关注算法系统的刻板印象与放大效应如何塑造图像生成、平台实践与性别化匹配。",
+  "why_hot": "近30天日均发表速度与前期持平，成果分布于9本期刊，议题保持稳定热度。",
+  "hot_score": 62,
+  "growth": 0.0,
+  "growth_rate": 0.0,
   "recent_rate": 0.1667,
-  "baseline_rate": 0.2333,
+  "baseline_rate": 0.1667,
   "recent_count": 5,
-  "baseline_count": 35,
-  "journal_count": 10,
+  "baseline_count": 25,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
+    "algorithmic bias",
     "algorithmic imaginaries",
     "platformization",
-    "surveillance",
-    "digital identity",
-    "digital inequality"
+    "gender",
+    "stereotyping"
   ],
   "papers": [
     {
-      "id": 2099,
-      "title": "Writing the Situated Self: Intersectional and Geographic Patterning in College Admissions Essays",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-09-28",
-      "summary": "研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。"
+      "id": 2108,
+      "title": "Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-01",
+      "summary": "该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。"
     },
     {
       "id": 2084,
@@ -41,6 +41,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-09-23",
       "summary": "研究基于深度访谈与观察，考察中国自闭症儿童家长在抖音上如何想象并实践与算法的关系，提出算法扮演法官、管家和工具三种角色。"
+    },
+    {
+      "id": 2063,
+      "title": "Perceptions of artificial intelligence bias and gender inclusivity: toward a gendered divergence",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-22",
+      "summary": "论文考察公众对人工智能偏见的感知及其与性别包容性态度的关系，提出性别分化（gendered divergence）的分析视角，探讨不同性别群体在AI偏见认知上的差异及其传播意涵。"
     },
     {
       "id": 2034,
@@ -71,11 +78,11 @@
       "summary": "通过两年民族志田野调查，探讨算法招聘如何改变求职沟通条件，提出算法可读性概念，分析求职者被迫进行校准劳动以适配机器系统，重塑社会认可与公民参与。"
     },
     {
-      "id": 1957,
-      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
-      "journal": "Journal of Language and Social Psychology",
+      "id": 1959,
+      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
+      "journal": "The International Journal of Press/Politics",
       "published_date": "2026-08-18",
-      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
+      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
     },
     {
       "id": 1928,
@@ -83,13 +90,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-08-13",
       "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
-    },
-    {
-      "id": 1945,
-      "title": "From Ally – Enemy Conflict to Emotional Communion: Exploring an Attitudinal Ambivalence Toward Emotional Artificial Intelligence",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-08-11",
-      "summary": "基于911名中国用户调查，探究感知情感能力通过自我披露影响对对话AI的态度矛盾，并提出情感共融效应。"
     },
     {
       "id": 15,
@@ -113,27 +113,6 @@
       "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
     },
     {
-      "id": 4,
-      "title": "The Anatomy of Resilient Talk: Linguistic Features of Relational and Psychological Health in Couples’ Conversations About Stress",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-07-10",
-      "summary": "运用NLP分析夫妻应对压力的对话语言特征，发现义务、不确定等语言与关系压力相关，包容性语言与韧性相关，揭示微观语言反映关系健康。"
-    },
-    {
-      "id": 27,
-      "title": "Chatbots and Loneliness: How Linguistic Dynamics in Conversations with Chatbots Shape Young Adults’ Loneliness",
-      "journal": "Communication Research",
-      "published_date": "2026-07-10",
-      "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
-    },
-    {
-      "id": 400,
-      "title": "Privacy Divide: Digital Competence, Privacy Vulnerability, and Changing Trajectories of Privacy Protection Intention Amid AI Expansion",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-02",
-      "summary": "基于保护动机理论，通过三波纵向调查考察AI扩张中数字能力对隐私保护意图的影响及隐私脆弱性的中介作用，发现低能力用户增长更快且中介方向反转。"
-    },
-    {
       "id": 282,
       "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
       "journal": "Social Media + Society",
@@ -153,27 +132,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过65个访谈，探讨中国年轻男同性恋者在算法环境下如何协商（不）智能性，提出“liminal intelligibility”概念，强调人机交互与人人交互的交叉。"
-    },
-    {
-      "id": 1908,
-      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
-    },
-    {
-      "id": 1998,
-      "title": "“Turns Out My Paternal Grandmother has 16% Native Blood”: Racialized DNA, Race Destabilization, and Digital Race-(re)making on Social Media",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
-    },
-    {
-      "id": 1999,
-      "title": "Social Robots and the Dialectics of Presence and Absence",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "基于关系辩证理论与符号学，考察103名青年与社交机器人的首次互动，揭示在场与缺席等辩证张力，强调机器人作为交流基础设施的作用。"
     },
     {
       "id": 2087,
@@ -232,32 +190,18 @@
       "summary": "研究台湾女性使用经期追踪应用时，如何与算法系统、文化期望和身体经验协商，提出亲密数据表演性概念，探讨预测协商、自我优化和数据共享中的赋能与控制张力。"
     },
     {
-      "id": 173,
-      "title": "Identity–Policy Fusion and Polarization in United States House Campaign Language",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-06-04",
-      "summary": "研究提出身份-政策融合框架，分析美国众议院候选人竞选语言。通过计算文本分析4万余条政策声明，发现融合策略与语言极化显著相关，且共和党效应更强，揭示精英信息加剧党派界限的机制。"
-    },
-    {
-      "id": 632,
-      "title": "Chatting with confidants or corporations? Privacy management with AI companions",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-06-02",
-      "summary": "通过访谈15位AI伴侣用户，基于CPM理论分析隐私决策，发现拟人化设计降低披露门槛，用户采用预期性策略如假名，且更担心关系重置而非数据泄露。"
-    },
-    {
-      "id": 541,
-      "title": "We’re just chatting: perceptions of everyday communication with chatbots",
-      "journal": "Communication Research Reports",
-      "published_date": "2026-05-27",
-      "summary": "基于美国全国样本，考察人机闲聊中的沟通偶然性对感知响应性、参与度和满意度的影响，发现陪伴感调节作用。"
-    },
-    {
       "id": 98,
       "title": "Algorithmic ambivalence: LGBTQ+ social media and mental health among Chinese gay men",
       "journal": "Information Communication & Society",
       "published_date": "2026-05-25",
       "summary": "研究中国男同性恋者在社交媒体中算法矛盾心理及其对心理健康的影响，结合算法与社媒使用议题。"
+    },
+    {
+      "id": 200,
+      "title": "Exploring temporal dynamics in digital trace data: mining user-sequences for communication research",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-05-09",
+      "summary": "论文系统梳理了利用数字追踪数据中的时间信息进行传播研究的方法，介绍序列分析、事件史分析、隐马尔可夫模型等六种方法，并以30万条用户序列数据为例进行演示。"
     },
     {
       "id": 38,
@@ -274,13 +218,6 @@
       "summary": "通过意大利两地区调查，构建整合框架，分析平台素养、数字资本和算法素养对用户适应性能动性的影响，发现平台素养是主要预测因素。"
     },
     {
-      "id": 156,
-      "title": "Understanding Polarizing Language: Developing a Coding Instrument",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-04-29",
-      "summary": "论文开发并验证极化语言编码工具，识别八种语言策略，通过四项研究（州长演讲、受众感知、国会推文）结合手动和计算方法验证框架的效度与泛化性。"
-    },
-    {
       "id": 637,
       "title": "Intimate surveillance of the ordinary: youth’s negotiation of digital location tracking with parents and peers",
       "journal": "Journal of Computer-Mediated Communication",
@@ -288,18 +225,11 @@
       "summary": "基于比利时147名青少年的21场焦点小组，探讨青年与父母同伴协商数字位置跟踪的边界规则与策略，揭示其对日常监控文化的接受与抵抗。"
     },
     {
-      "id": 118,
-      "title": "Navigating intersectional expectations: a computational multimodal analysis of the effects of identities and communication styles on public engagement with science on TikTok",
+      "id": 127,
+      "title": "Evaluating the potential and limits of trace-based interviews when studying news use",
       "journal": "Information Communication & Society",
-      "published_date": "2026-04-16",
-      "summary": "基于10,800个视频和448,002条评论，分析TikTok科学传播中传播者性别、种族与沟通风格如何影响公众参与，发现交叉身份导致参与差异。"
-    },
-    {
-      "id": 132,
-      "title": "Emotional responses to privacy invasion on algorithmic social media: insights from in-depth interviews linking agency, emotions, and privacy",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-05",
-      "summary": "通过32名美新用户的深度访谈，研究算法社交媒体隐私侵犯引发的情绪及其行为后果，发现意识与感知控制影响情绪，情绪导致不同隐私保护策略。"
+      "published_date": "2026-04-08",
+      "summary": "论文评估基于数字追踪的访谈法在新闻使用研究中的潜力与局限，基于英巴73次访谈，揭示该方法能反映习惯性、偶然性及跨平台新闻实践。"
     }
   ],
   "paper_edges": []

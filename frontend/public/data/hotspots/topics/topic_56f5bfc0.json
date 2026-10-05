@@ -1,23 +1,22 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "数字空间治理与跨国离散传播",
-  "description": "关注数字空间的管控机制、军事媒体数字化以及离散群体在冲突中的数字公民与归属实践。",
-  "why_hot": "近30天4篇，日均发表速度较前期下降约52%，研究活跃度明显回落。",
-  "hot_score": 44,
-  "growth": -0.524,
-  "growth_rate": -0.524,
-  "recent_rate": 0.1333,
-  "baseline_rate": 0.28,
-  "recent_count": 4,
-  "baseline_count": 42,
-  "journal_count": 10,
+  "label": "数字空间的公民身份与平台治理",
+  "description": "比较不同政治语境下数字空间中的公民身份建构、归属感形成与平台管控逻辑。",
+  "why_hot": "近30天日均发表速度较前期下降约五成，研究活动降温。",
+  "hot_score": 40,
+  "growth": -0.5,
+  "growth_rate": -0.5,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.2,
+  "recent_count": 3,
+  "baseline_count": 30,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "digital citizenship",
     "platform governance",
-    "diasporic media",
-    "military media",
+    "diaspora",
     "democratic resilience"
   ],
   "papers": [
@@ -55,13 +54,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-08-30",
       "summary": "研究国家与非国家冲突中数字外交与信息操作共生关系，提出平台操纵和话语捕获的共构模型，采用Botometer与网络分析等计算方法。"
-    },
-    {
-      "id": 1993,
-      "title": "Networked advocacy in sustainability governance: how NGOs adapt communication across stakeholder relationships on Twitter/X",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-08-28",
-      "summary": "研究NGO在土耳其可持续性话语中如何针对不同利益相关者调整传播，结合社交网络与情感分析8万余条推文。"
     },
     {
       "id": 2011,
@@ -106,25 +98,11 @@
       "summary": "分析2023-2024年巴勒斯坦Instagram用户的9126条帖子，识别三种视觉主题，并与国际新闻标题比较，展示用户生成内容如何抵抗主流叙事和算法压制。"
     },
     {
-      "id": 1901,
-      "title": "Replatformization and the expansion of the alt-tech ecosystem on kiwi farms",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-03",
-      "summary": "通过Kiwi Farms案例提出'replatformization'概念，分析另类平台如何在市场治理下通过社会、技术、组织策略规避去平台化，并揭示其扩展机制。"
-    },
-    {
       "id": 483,
       "title": "Weaponized narratives: A social psychological theory of story-based influence in cognitive warfare",
       "journal": "Media War & Conflict",
       "published_date": "2026-07-30",
       "summary": "论文提出武器化叙事的四阶段心理影响模型，涵盖身份、威胁、道德和阴谋叙事策略，并以俄罗斯2014年克里米亚叙事行动为例，探讨AI在叙事扩散中的放大作用及反叙事策略。"
-    },
-    {
-      "id": 243,
-      "title": "Navigating the hybrid media landscape? Danish green NGOs’ use of digital platforms for internal and external communication",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-27",
-      "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
     },
     {
       "id": 246,
@@ -134,25 +112,11 @@
       "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
     },
     {
-      "id": 395,
-      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-19",
-      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
-    },
-    {
       "id": 210,
       "title": "Vengeance or Hope? A Role-Based Analysis of Hashtag Activism for the War in Gaza",
       "journal": "Political Communication",
       "published_date": "2026-07-14",
       "summary": "基于X平台跨语言趋势数据，采用角色分析框架研究加沙战争期间亲巴勒斯坦与亲以色列哈希标签行动主义的修辞分布与不对称性，提出权力中心解释。"
-    },
-    {
-      "id": 248,
-      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-13",
-      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
     },
     {
       "id": 489,
@@ -162,25 +126,11 @@
       "summary": "论文通过多方法分析（NLP、社交网络分析）研究Mare Aperto 2025军事演习中封闭社交媒体平台的互动，探讨战略模糊如何影响注意力和归因，并促进冲突升级。"
     },
     {
-      "id": 69,
-      "title": "Selling speed, suspending citizenship: data throttling, instantaneous downgrading, and the politics of connectivity in China",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-07",
-      "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
-    },
-    {
       "id": 249,
       "title": "Factors that influence a country to exercise its capacity for digital repression",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-07-06",
       "summary": "基于172国2003-2022年面板数据，发现数字压制能力与实际压制正相关，但强隐私保护和政治稳定削弱该关系，选举年无显著影响。"
-    },
-    {
-      "id": 251,
-      "title": "Disinformation, social inequalities and young people’s digital citizenship during conflict and crisis in Ethiopia",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-02",
-      "summary": "研究埃塞俄比亚冲突期间青年数字公民身份中的性别与地域不平等，探讨其如何影响虚假信息传播及政治参与。"
     },
     {
       "id": 490,
@@ -204,27 +154,6 @@
       "summary": "研究COPSTV频道YouTube上的犯罪娱乐内容，分析平台推荐可见性如何强化惩罚性叙事，基于200个视频的质性主题分析。"
     },
     {
-      "id": 614,
-      "title": "The digital panopticon: China’s Social Credit System and the postmodern surveillance state",
-      "journal": "Global Media and Communication",
-      "published_date": "2026-06-29",
-      "summary": "论文以福柯全景监狱理论分析中国社会信用体系，认为其融合儒家道德治理与算法监控，强化国家权力与意识形态，但缺乏经验数据支撑。"
-    },
-    {
-      "id": 74,
-      "title": "From records to actions: mediating civic data and environmental activism in Taiwan",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-26",
-      "summary": "基于台湾环保NGO与公民科技社群合作的案例，探讨环境数据行动主义中NGO作为公民数据中介的角色，提出数据正义的实践理论。"
-    },
-    {
-      "id": 88,
-      "title": "Mediated information grounds: living with(in) pareshani , social networks and gendered media practices among the Rohingya refugees",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-08",
-      "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
-    },
-    {
       "id": 492,
       "title": "Constructing war in news: Discursive logics of the Pahalgam crisis in the Indian and Pakistani press",
       "journal": "Media War & Conflict",
@@ -232,25 +161,11 @@
       "summary": "通过计算文本分析印巴媒体对2025年Pahalgam危机的报道，检验归因、条约安全化和情感框架假设，发现前两项成立而第三项逆转。"
     },
     {
-      "id": 440,
-      "title": "Strategic Communication as an Integrative Governance Function: A Bibliometric Review and an Integrated PR–OC–CC Model",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-06-03",
-      "summary": "通过文献计量综述316篇WoS论文，梳理公关、组织传播与企业传播的融合，提出战略传播作为整合性治理功能的理论模型。"
-    },
-    {
       "id": 494,
       "title": "Social media as functional actors in securitization: Institutionalizing Israel’s digital strategy during the 2014 Gaza War",
       "journal": "Media War & Conflict",
       "published_date": "2026-06-03",
       "summary": "论文研究2014年加沙战争中以色列国防军的社交媒体数字战略，分析其多平台传播内容，探讨社交媒体作为安全化行为体的功能角色，采用混合方法分析大量帖文与视频。"
-    },
-    {
-      "id": 217,
-      "title": "Moving Targets, Moving Politics: The State of Play in Social Media Data Access",
-      "journal": "Political Communication",
-      "published_date": "2026-05-30",
-      "summary": "论文探讨社交媒体数据获取的现状与挑战，涉及数据访问政策及其对政治传播研究的影响。"
     },
     {
       "id": 495,
@@ -295,20 +210,6 @@
       "summary": "研究俄罗斯议员在2022-23年乌克兰冲突期间社交媒体帖子的修辞适应，基于14.4万条帖子，用词嵌入和主题分类发现议员帖子反映官方宣传及个人政治激励，揭示威权体制下政治沟通与外部冲突的关系。"
     },
     {
-      "id": 507,
-      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-05-02",
-      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
-    },
-    {
-      "id": 452,
-      "title": "Of Scams and Failures: Analyzing International Environmental NGOs’ Narratives After COP 29",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-04-30",
-      "summary": "研究WWF和绿色和平在COP29后如何通过网站和社交媒体传播失败叙事，采用主题分析揭示叙事差异，属于战略传播研究。"
-    },
-    {
       "id": 510,
       "title": "‘Don’t Thai to me’: A critical discourse and linguistic analysis of border crisis in the Cambodia–Thailand armed conflict",
       "journal": "Media War & Conflict",
@@ -321,6 +222,13 @@
       "journal": "Communication and the Public",
       "published_date": "2026-04-21",
       "summary": "首个系统比较中国对海湾六国AI外交的研究，提出多中心谈判框架，分析海湾国家如何选择性吸收、过滤或调整中国技术供给与监管模式，突出其数字主权与战略对冲，揭示区域内分歧及对AI规范扩散的影响。"
+    },
+    {
+      "id": 512,
+      "title": "“The architect of the invasion” vs. “a symbol of resilience”: How AI chatbots frame Zelenskyy, Putin and the Russia–Ukraine war",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-19",
+      "summary": "2024年11月对ChatGPT、Copilot、Gemini、Claude四个AI聊天机器人进行定性内容分析，发现其框架与欧美媒体相似，将俄罗斯视为侵略者、乌克兰为受害者，但对俄宣传语境理解不足，存在偏见和可靠性问题。"
     },
     {
       "id": 514,

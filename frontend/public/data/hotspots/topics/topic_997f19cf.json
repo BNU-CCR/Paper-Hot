@@ -1,15 +1,15 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "网络仇恨言论的治理与反制",
-  "description": "关注极端主义内容的平台审核困境，以及反制言论对受攻击少数群体集体行动意愿的影响。",
-  "why_hot": "近30天2篇，日均发表速度较前期下降约17%，研究分布在5本期刊。",
-  "hot_score": 48,
-  "growth": -0.167,
-  "growth_rate": -0.167,
+  "label": "网络极端主义与仇恨言论治理",
+  "description": "聚焦平台对极端主义内容的审核困境，以及反击言论与准确性提示对目标群体的作用。",
+  "why_hot": "近30天日均发表速度较前期下降约三成，研究热度有所回落。",
+  "hot_score": 43,
+  "growth": -0.286,
+  "growth_rate": -0.286,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.08,
+  "baseline_rate": 0.0933,
   "recent_count": 2,
-  "baseline_count": 12,
+  "baseline_count": 14,
   "journal_count": 5,
   "lineage_status": "continued",
   "status": "emerging",
@@ -17,8 +17,7 @@
     "hate speech",
     "content moderation",
     "counter-speech",
-    "online extremism",
-    "targeted minorities"
+    "online extremism"
   ],
   "papers": [
     {
@@ -92,11 +91,25 @@
       "summary": "研究创意众包挑战社区中地位、职业、价值等多维同质性对创意者间评论网络形成的影响，采用关系事件模型和潜在类别分析。"
     },
     {
+      "id": 86,
+      "title": "Reddit users’ reactance to the 2025 CDC Data Purge: Characterizing the removal of health information as a perceived threat to individual freedom",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-12",
+      "summary": "研究Reddit用户对2025年CDC数据清除的反应，基于心理抗拒理论，通过主题分析识别用户如何将信息删除视为自由威胁并采取存档行动。"
+    },
+    {
       "id": 37,
       "title": "Political Identity Threats on Social Media",
       "journal": "Communication Research",
       "published_date": "2026-05-08",
       "summary": "研究社交媒体上政治身份威胁的识别与影响，通过两个实验发现威胁类型非离散且对强党派身份者影响更大。"
+    },
+    {
+      "id": 110,
+      "title": "Public discourses on sex work in Reddit digital communities: a computational approach",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-30",
+      "summary": "运用结构主题建模和定性内容分析，研究Reddit上r/SexWorkers和r/OnlyFans社区超3.8万条评论，归纳17个主题，揭示平台在污名化与支持之间的双重角色。"
     },
     {
       "id": 634,

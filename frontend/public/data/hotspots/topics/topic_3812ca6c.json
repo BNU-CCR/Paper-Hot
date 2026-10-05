@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_3812ca6c",
-  "label": "性别议题的数字动员与传播效果",
-  "description": "考察性别运动、候选人性别与影响者性别如何塑造公众态度、竞选信息与亲社会传播效果。",
-  "why_hot": "近30天3篇，日均发表速度较前期下降约55%，但仍覆盖9本期刊。",
-  "hot_score": 40,
-  "growth": -0.545,
-  "growth_rate": -0.545,
-  "recent_rate": 0.1,
-  "baseline_rate": 0.22,
-  "recent_count": 3,
-  "baseline_count": 33,
+  "label": "性别与交叉性视角下的传播实践",
+  "description": "考察性别与交叉身份如何影响社会运动话语、竞选信息设计与意见领袖的说服效果。",
+  "why_hot": "近30天日均发表速度与前期持平，覆盖9本期刊，议题维持稳定关注。",
+  "hot_score": 59,
+  "growth": 0.0,
+  "growth_rate": 0.0,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.1333,
+  "recent_count": 4,
+  "baseline_count": 20,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "gender",
+    "intersectionality",
     "social movements",
-    "political campaigns",
-    "social media influencers",
-    "prosocial intentions"
+    "campaign messages",
+    "influencers"
   ],
   "papers": [
+    {
+      "id": 2099,
+      "title": "Writing the Situated Self: Intersectional and Geographic Patterning in College Admissions Essays",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-09-28",
+      "summary": "研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。"
+    },
     {
       "id": 2065,
       "title": "When Movement Widens the Gap: The Contingent Effect of the Chinese #MeToo Movement on Feminist Attitudes",
@@ -50,32 +57,11 @@
       "summary": "通过在线实验考察大麻品牌社交媒体广告中的性/浪漫/娱乐脚本对大学生性前使用大麻预期与意向的影响，发现性别差异及机制。"
     },
     {
-      "id": 1949,
-      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-21",
-      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
-    },
-    {
-      "id": 1952,
-      "title": "Generational warfare online? Social media use and intergroup attitudes in a national survey",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-20",
-      "summary": "利用美国全国调查数据（n=1,221），检验社交媒体使用与代际态度关联，发现总体关联微弱，平台特异性影响有限，讨论极端话语的可见性机制。"
-    },
-    {
-      "id": 1966,
-      "title": "Hierarchical barriers: how media-flow networks reproduce inequality on X",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-08-20",
-      "summary": "研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。"
-    },
-    {
-      "id": 1959,
-      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
-      "journal": "The International Journal of Press/Politics",
+      "id": 1957,
+      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
+      "journal": "Journal of Language and Social Psychology",
       "published_date": "2026-08-18",
-      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
+      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
     },
     {
       "id": 1929,
@@ -83,13 +69,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-08-10",
       "summary": "研究在线电子烟广告暴露如何影响美国性少数青年对电子烟的易感性，关注数字广告的传播效果。"
-    },
-    {
-      "id": 1940,
-      "title": "Multi-platform research in the light of technology affordances: networks of the far right in Germany",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-08-10",
-      "summary": "通过网络分析比较德国极右翼在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构，揭示平台技术可供性对网络模式的影响。"
     },
     {
       "id": 1897,
@@ -113,13 +92,6 @@
       "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
     },
     {
-      "id": 56,
-      "title": "The echoes from social media: modeling how filter bubbles and network structure shape echo chamber emergence",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-27",
-      "summary": "通过agent-based模型整合社交网络与意见动态，模拟不同同质性和选择性暴露条件下回音室的形成，发现信息暴露显著影响回音室涌现，而算法过滤不一定保证其持续。"
-    },
-    {
       "id": 68,
       "title": "Linking names with frames: the interplay of moral entities and moral frames in Chinese online gender debates",
       "journal": "Information Communication & Society",
@@ -127,11 +99,11 @@
       "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
     },
     {
-      "id": 284,
-      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "id": 1908,
+      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
+      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
     },
     {
       "id": 1942,
@@ -141,11 +113,11 @@
       "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
     },
     {
-      "id": 1994,
-      "title": "“Fairness Labels” in Feeds: Process Disclosures, Provenance, and User Choice Among Short‑Video Creators in Mainland China",
+      "id": 1998,
+      "title": "“Turns Out My Paternal Grandmother has 16% Native Blood”: Racialized DNA, Race Destabilization, and Digital Race-(re)making on Social Media",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "通过移动在线实验，研究面向中国短视频创作者的公平性披露对感知程序正义、分配公平及合法性的影响。"
+      "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
     },
     {
       "id": 253,
@@ -155,20 +127,6 @@
       "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
     },
     {
-      "id": 256,
-      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-15",
-      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
-    },
-    {
-      "id": 85,
-      "title": "Latent communicative figurations: mapping quasi-visible strategic relational structures on Facebook",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-13",
-      "summary": "本文提出潜在传播构型概念，利用Facebook可再生能源相关品牌帖子构建双模网络，揭示战略伙伴与页面间的隐性关系，并探讨平台逻辑对新闻媒体角色的影响。"
-    },
-    {
       "id": 87,
       "title": "The viral gender antagonism on social media: examining the role of multimodal framing and gender identity",
       "journal": "Information Communication & Society",
@@ -176,18 +134,11 @@
       "summary": "研究基于微博22,925条帖子和115万条评论，运用广义线性混合模型分析多模态框架和性别身份对性别对抗性话语的影响，发现煽情化和个性化框架加剧对抗，娱乐化框架减弱对抗，且性别动态具有调节作用。"
     },
     {
-      "id": 215,
-      "title": "Evaluating Echo Chambers, Rabbit Holes, and Radicalization Pathways on YouTube",
-      "journal": "Political Communication",
-      "published_date": "2026-06-10",
-      "summary": "通过估计YouTube视频意识形态和原创审计设计，发现用户处于轻度意识形态回音室，推荐算法产生内容兔子洞，但未发现激进路径，算法倾向推荐温和保守内容。"
-    },
-    {
-      "id": 258,
-      "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-05",
-      "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
+      "id": 173,
+      "title": "Identity–Policy Fusion and Polarization in United States House Campaign Language",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-06-04",
+      "summary": "研究提出身份-政策融合框架，分析美国众议院候选人竞选语言。通过计算文本分析4万余条政策声明，发现融合策略与语言极化显著相关，且共和党效应更强，揭示精英信息加剧党派界限的机制。"
     },
     {
       "id": 441,
@@ -204,13 +155,6 @@
       "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
     },
     {
-      "id": 93,
-      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-27",
-      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
-    },
-    {
       "id": 218,
       "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
       "journal": "Political Communication",
@@ -225,39 +169,18 @@
       "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
     },
     {
-      "id": 102,
-      "title": "Clustered governance: how Chinese social media platforms curate and control influencers’ content creation",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-12",
-      "summary": "研究小红书通过“集群治理”组织网红群体，结合人工与算法策展控制内容创作，削弱创作者自主性，基于访谈与民族志方法。"
+      "id": 156,
+      "title": "Understanding Polarizing Language: Developing a Coding Instrument",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-04-29",
+      "summary": "论文开发并验证极化语言编码工具，识别八种语言策略，通过四项研究（州长演讲、受众感知、国会推文）结合手动和计算方法验证框架的效度与泛化性。"
     },
     {
-      "id": 200,
-      "title": "Exploring temporal dynamics in digital trace data: mining user-sequences for communication research",
-      "journal": "Communication Methods and Measures",
-      "published_date": "2026-05-09",
-      "summary": "论文系统梳理了利用数字追踪数据中的时间信息进行传播研究的方法，介绍序列分析、事件史分析、隐马尔可夫模型等六种方法，并以30万条用户序列数据为例进行演示。"
-    },
-    {
-      "id": 376,
-      "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
-      "journal": "Asian Journal of Communication",
-      "published_date": "2026-05-08",
-      "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
-    },
-    {
-      "id": 114,
-      "title": "Signalling sustainability under uncertainty: how institutionalized digital platforms shape corporate green transformation in China",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-19",
-      "summary": "研究利用2007-2023年3851家中国上市公司及340万条微博帖子数据，通过DID设计发现国家运营的环境微薄平台通过政策信号和声誉压力促进企业绿色转型，增加环保投资并提高披露质量。"
-    },
-    {
-      "id": 119,
-      "title": "Regulation by users – the crowdsourced adjudication entities and emerging regulabour on Douyin",
+      "id": 118,
+      "title": "Navigating intersectional expectations: a computational multimodal analysis of the effects of identities and communication styles on public engagement with science on TikTok",
       "journal": "Information Communication & Society",
       "published_date": "2026-04-16",
-      "summary": "通过民族志与访谈，研究抖音社区审核实体在算法协调下形成众包裁决系统，提出‘规训劳动’概念，揭示平台资本主义中用户无偿劳动被用于监管。"
+      "summary": "基于10,800个视频和448,002条评论，分析TikTok科学传播中传播者性别、种族与沟通风格如何影响公众参与，发现交叉身份导致参与差异。"
     },
     {
       "id": 126,
@@ -265,13 +188,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-04-08",
       "summary": "通过分析巴西贫民窟网红Blô的452条Instagram帖子，提出“贫民窟美学”概念，探讨边缘群体如何通过数字内容抵抗污名化、重构文化身份，挑战主流影响者审美与精英叙事。"
-    },
-    {
-      "id": 127,
-      "title": "Evaluating the potential and limits of trace-based interviews when studying news use",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-08",
-      "summary": "论文评估基于数字追踪的访谈法在新闻使用研究中的潜力与局限，基于英巴73次访谈，揭示该方法能反映习惯性、偶然性及跨平台新闻实践。"
     }
   ],
   "paper_edges": []

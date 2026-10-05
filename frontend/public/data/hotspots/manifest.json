@@ -1,17 +1,17 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-01T11:35:24",
+  "generated_at": "2026-10-05T12:11:15",
   "embedding_model": "BAAI/bge-small-en-v1.5",
   "embedding_dimension": 384,
   "period": {
-    "recent_start": "2026-09-01",
-    "recent_end": "2026-10-01",
-    "baseline_start": "2026-04-04",
-    "baseline_end": "2026-09-01"
+    "recent_start": "2026-09-05",
+    "recent_end": "2026-10-05",
+    "baseline_start": "2026-04-08",
+    "baseline_end": "2026-09-05"
   },
-  "paper_count": 337,
-  "topic_count": 9,
-  "active_topic_count": 9,
-  "inactive_topic_count": 9,
-  "edge_count": 27
+  "paper_count": 335,
+  "topic_count": 8,
+  "active_topic_count": 8,
+  "inactive_topic_count": 10,
+  "edge_count": 21
 }

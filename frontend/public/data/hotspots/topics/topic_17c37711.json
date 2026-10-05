@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "虚假信息的精英叙事与公众解读",
-  "description": "关注政治精英与机构如何建构虚假信息与阴谋论话语，以及不同世代公众的解读策略。",
-  "why_hot": "近30天4篇，日均发表速度与前期基本持平（约-5%），研究保持稳定。",
-  "hot_score": 59,
-  "growth": -0.048,
-  "growth_rate": -0.048,
-  "recent_rate": 0.1333,
-  "baseline_rate": 0.14,
-  "recent_count": 4,
-  "baseline_count": 21,
+  "label": "虚假信息与平台阴谋话语",
+  "description": "研究虚假信息的可信度判断、代际解读策略，以及政治精英在社交平台散布的阴谋话语。",
+  "why_hot": "近30天日均发表速度较前期小幅下降约一成，热度略有回落。",
+  "hot_score": 57,
+  "growth": -0.138,
+  "growth_rate": -0.138,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.1933,
+  "recent_count": 5,
+  "baseline_count": 29,
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "disinformation",
+    "credibility",
     "conspiracy discourse",
-    "framing",
-    "interpretive strategies",
-    "political elites"
+    "platforms",
+    "trust"
   ],
   "papers": [
+    {
+      "id": 2062,
+      "title": "Where belief is filtered: how truthfulness and source credibility shape trust, skepticism, and worry in vaccine communication",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-22",
+      "summary": "通过 2×2 被试间实验（N=210）考察社交媒体癌症疫苗信息的真假、来源可信度与欺骗识别自我效能如何影响信任、怀疑与担忧，发现真信息提升信任、来源可信度放大该效应，而欺骗识别信心反而增强怀疑。"
+    },
     {
       "id": 2066,
       "title": "Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024",
@@ -64,6 +71,20 @@
       "summary": "通过调查719名美国成年人，结合反应时数据，研究News-Finds-Me与情感极化对政治假新闻易感性的交互影响，发现处理精力差异。"
     },
     {
+      "id": 1960,
+      "title": "Hold That Thought: Enhancing the Durability of Fact-Checking Effects Through Low-Cost Accuracy Reminders",
+      "journal": "Political Communication",
+      "published_date": "2026-08-21",
+      "summary": "通过大规模纵向实验（N=7188）检验准确性提醒能否增强事实核查效果的持久性，发现提醒可延长信念纠正至四周。"
+    },
+    {
+      "id": 1952,
+      "title": "Generational warfare online? Social media use and intergroup attitudes in a national survey",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-20",
+      "summary": "利用美国全国调查数据（n=1,221），检验社交媒体使用与代际态度关联，发现总体关联微弱，平台特异性影响有限，讨论极端话语的可见性机制。"
+    },
+    {
       "id": 1936,
       "title": "Policing the Political Boundary: How the r/BarstoolSports Audience Confronts Politicization",
       "journal": "Political Communication",
@@ -90,13 +111,6 @@
       "journal": "Political Communication",
       "published_date": "2026-07-23",
       "summary": "通过计算分析比较Reddit政治与体育社区中跨党派政治讨论的数量、语气和内容，发现体育社区更促进跨党派讨论，但毒性水平无显著差异。"
-    },
-    {
-      "id": 57,
-      "title": "Everyday feminist tagging as techno-rhetorical strategy: interference and curation through Instagram hashtags in #Kvinnostrejk",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-22",
-      "summary": "研究瑞典女性主义倡议#Kvinnostreik的日常标签实践，提出技术修辞策略概念，分析标签如何影响可见性并串联叙事，属数字文化研究。"
     },
     {
       "id": 207,
@@ -127,11 +141,32 @@
       "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
     },
     {
+      "id": 287,
+      "title": "Divisive or Bridging? Personal Stories in Cross-Cutting Political Discussions on Reddit",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过分析2015-2021年Reddit上约40万次政治互动，发现跨立场讨论中带个人故事的评论获得更多正面评价和回复，但未能减少毒性回复，且用户较少分享个人故事，影响有限。"
+    },
+    {
       "id": 1904,
       "title": "Revisiting the Communication Mediation Model in the Age of Social Media: Longitudinal Evidence From Climate Misinformation Responses in China",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "基于中国三波面板调查，检验社交媒体时代传播中介模型，发现媒体关注通过人际讨论影响气候错误信息纠正行为，且具有同时性。"
+    },
+    {
+      "id": 1907,
+      "title": "Unpacking the Relationship Between Algorithmic Literacy and Misinformation: A Multidimensional Approach Using Two Sequential Studies",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于智利两项概率调查，分析算法素养的认知与行为维度对错误信息接触、分享和知识的影响，发现认知维度关联更强。"
+    },
+    {
+      "id": 2103,
+      "title": "Scrolling for the Truth: Source Factors, Persuasion, and a Test of Misinformation Interventions on TikTok",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "论文通过两项实验考察TikTok用户对猴痘相关信息视频的感知，测试信源类型（记者vs网红）与信息真伪的影响，并评估横幅标签、贴片视频、点击警告三种虚假信息干预的效果及心理逆反的中介作用。"
     },
     {
       "id": 29,
@@ -141,11 +176,60 @@
       "summary": "利用准实验设计，比较有无本地报纸的县域居民，发现缺乏本地报纸减少主流媒体使用，加剧自由派选择性接触，并影响两党虚假信息信念。"
     },
     {
-      "id": 86,
-      "title": "Reddit users’ reactance to the 2025 CDC Data Purge: Characterizing the removal of health information as a perceived threat to individual freedom",
+      "id": 78,
+      "title": "The consequences of alternative media and disinformation-prone alternative media consumption on political beliefs over the course of the COVID-19 pandemic",
       "journal": "Information Communication & Society",
+      "published_date": "2026-06-22",
+      "summary": "基于捷克2019-2024面板调查，区分另类媒体（AM）与易散布虚假信息的另类媒体（DPAM），发现DPAM消费增加政治犬儒主义和内在效能，AM则降低犬儒主义，挑战对另类媒体一概负面的假设。"
+    },
+    {
+      "id": 18,
+      "title": "How Mass and Social Media (De) polarize America: Exposure to News Media, Expression on Social Media, and Affective Polarization",
+      "journal": "Communication and the Public",
       "published_date": "2026-06-12",
-      "summary": "研究Reddit用户对2025年CDC数据清除的反应，基于心理抗拒理论，通过主题分析识别用户如何将信息删除视为自由威胁并采取存档行动。"
+      "summary": "基于2020年美国大选两波面板调查，检验大众媒体、社交媒体和人际讨论对情感极化的影响，发现同质新闻加剧极化，跨域新闻缓解极化。"
+    },
+    {
+      "id": 34,
+      "title": "Two Forms of Media Distrust: Cynicism, Skepticism, and Online News Exposure",
+      "journal": "Communication Research",
+      "published_date": "2026-06-10",
+      "summary": "研究区分犬儒主义与怀疑主义两种媒体不信任，结合调查与739名德国选民网页追踪数据，发现二者在人格、政治取向及实际新闻消费上存在差异。"
+    },
+    {
+      "id": 216,
+      "title": "Multi-Platform Referrers of Misinformation: A Comparative Analysis of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok",
+      "journal": "Political Communication",
+      "published_date": "2026-06-09",
+      "summary": "论文提出嵌入参考范式，用美国1240人3个月2100万次网页浏览数据，评估七种社交媒体平台在直接和嵌入范式下对错误信息访问的影响，发现直接范式低估了社交媒体的作用。"
+    },
+    {
+      "id": 90,
+      "title": "Mistrust as a precondition for critical thinking and media literacy",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-03",
+      "summary": "通过两项在线调查（n=2115）研究不信任、新闻消费与媒体素养教育对信息核实信心和实际能力的影响，发现不信任预测信心，新闻消费预测实际辨别能力。"
+    },
+    {
+      "id": 260,
+      "title": "Heat and affiliation: platform incentives in party leaders’ Facebook communication during COVID-19",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-05-16",
+      "summary": "分析挪威政党领袖疫情期间的Facebook帖子，识别情感反应（怒、悲、爱、关心）与危机传播策略的关系，揭示不同情感信号对传播激励的影响。"
+    },
+    {
+      "id": 101,
+      "title": "Examining the influence of social media cues and platform perceptions on fake news detection",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-14",
+      "summary": "通过在线实验探究来源可信度、集体社会认可和用户对Twitter有用性感知对虚假新闻检测的影响，发现真实性偏差及平台感知降低虚假新闻识别准确性。"
+    },
+    {
+      "id": 261,
+      "title": "Mapping persuasion strategies of Turkish anti-vaccine advocates on Instagram: a McGuire-based analysis of digital misinformation and political discourse",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-05-13",
+      "summary": ""
     },
     {
       "id": 108,
@@ -155,11 +239,11 @@
       "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
     },
     {
-      "id": 110,
-      "title": "Public discourses on sex work in Reddit digital communities: a computational approach",
-      "journal": "Information Communication & Society",
+      "id": 41,
+      "title": "Gains, Limits, and Side-Effects of Disinformation Interventions: Corrective Information and Self-Affirmation Assessed With Signal Detection Theory",
+      "journal": "Communication Research",
       "published_date": "2026-04-30",
-      "summary": "运用结构主题建模和定性内容分析，研究Reddit上r/SexWorkers和r/OnlyFans社区超3.8万条评论，归纳17个主题，揭示平台在污名化与支持之间的双重角色。"
+      "summary": "通过两波在线实验考察纠正信息和自我肯定对政治声明评估的影响，使用信号检测理论区分真相辨别力和反应偏差，发现纠正信息提升辨别力但可能增加怀疑倾向。"
     },
     {
       "id": 182,
@@ -174,27 +258,6 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-04-13",
       "summary": "该研究基于EUvsDisinfo数据库构建英语语料，结合语料库语言学和批判性话语分析，检验亲克里姆林宫新闻中的虚假信息语言标记，揭示其话语策略。"
-    },
-    {
-      "id": 128,
-      "title": "Racism, resistance, and Reddit: how popular culture sparks online reckonings",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-07",
-      "summary": "研究分析Reddit用户对两部种族主题剧集的评论，结合主题建模与批判话语分析，揭示用户角色流动及平台匿名性对种族讨论的影响。"
-    },
-    {
-      "id": 425,
-      "title": "AI-Assisted Mapping of Political Orientation in Fact-Checked News: Evidence from South Korea",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-04-07",
-      "summary": "研究利用韩国预训练语言模型，对选举期间的事实核查文章进行政治倾向映射分析，比较模型在目标、证据和评估维度上的表现，并验证结合外部知识可提升效果。"
-    },
-    {
-      "id": 131,
-      "title": "What counter-disinformation funders got wrong: Global South critiques of the field",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-06",
-      "summary": "论文批判主流反虚假信息领域的北方主导、自上而下和提取式协作，基于2022-2024年百余名全球南方参与者的项目经验，主张南南方法论和社区驱动干预。"
     }
   ],
   "paper_edges": []

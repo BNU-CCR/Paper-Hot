@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-10-01 19:35 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-10-05 20:11 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-10-04 | [From Facebook to front page: the influence of the Gilets Jaunes’ social media on local press language and framing](<https://doi.org/10.1080/1369118x.2026.2740032>) | Information Communication & Society | 考察法国黄马甲运动在 Facebook 上的话语如何影响地方报纸的语言使用与新闻框架，涉及社交媒体与主流媒体间的话语流动与议程互动。 |
+| 2026-10-01 | [When Populism? Consistent and Opportunistic Populist Communication in the 2022 Brazilian Presidential Elections](<https://doi.org/10.1080/10584609.2026.2735922>) | Political Communication | 基于2022年巴西大选九名候选人11,885条推文，用微调BERT分类器测量民粹主义话语与政策领域，发现民粹传播因候选人策略和议题而异，提出机会型与一致型民粹主义者类型学。 |
+| 2026-10-01 | [Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images](<https://doi.org/10.1080/1369118x.2026.2740745>) | Information Communication & Society | 该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。 |
 | 2026-09-30 | [Skin Tone as a Visual Cue in Political Campaigns: Evidence from Elections in Mexico](<https://doi.org/10.1177/19401612261484045>) | The International Journal of Press/Politics | 论文利用计算视觉分析考察2024年墨西哥联邦选举中候选人肤色与选举成功的关系，并纳入新闻报道、政治广告和社交媒体使用等变量，发现肤色虽与得票率负相关，但媒体因素更重要。 |
 | 2026-09-28 | [Writing the Situated Self: Intersectional and Geographic Patterning in College Admissions Essays](<https://doi.org/10.1177/0261927x261489626>) | Journal of Language and Social Psychology | 研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。 |
-| 2026-09-22 | [Perceptions of artificial intelligence bias and gender inclusivity: toward a gendered divergence](<https://doi.org/10.1080/1369118x.2026.2737402>) | Information Communication & Society | 论文考察公众对人工智能偏见的感知及其与性别包容性态度的关系，提出性别分化（gendered divergence）的分析视角，探讨不同性别群体在AI偏见认知上的差异及其传播意涵。 |
-| 2026-09-21 | [Authority Over Sympathy: How AI Emotional Tone and Thinking Dispositions Shape Hallucination Detection in Health Communication](<https://doi.org/10.1080/08838151.2026.2735592>) | Journal of Broadcasting & Electronic Media | 基于误导信息识别与回应模型，采用Wizard-of-Oz实验（N=476）考察AI生成健康回答中权威与共情语气对用户幻觉识别敏感度的影响，发现权威语气显著降低识别敏感度，共情语气无显著效应，思维倾向无显著调节作用。 |
-| 2026-09-21 | [Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024](<https://doi.org/10.7195/ri14.v24i1.2413>) | Revista ICONO14 | 研究采集2024巴黎奥运会期间X平台35676条帖子，用Tweet Binder与NLP情感分析考察伊曼·哈利夫参赛引发的性别认同与公平性争论，发现正负帖量接近但负面内容曝光量翻倍，公众人物放大争议，虚假信息助推简化叙事。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-10-01 19:35 GMT+8
+> 最近更新：2026-10-05 20:11 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 2106 |
-| 当期新增 | 45 |
-| High / Medium / Low | 595 / 662 / 849 |
-| Pending / Screened / Quarantined / Error | 0 / 2106 / 0 / 0 |
-| 已发布精选 | 595 |
-| 期刊全量导出 | 2106 |
+| 数据库论文 | 2113 |
+| 当期新增 | 36 |
+| High / Medium / Low | 598 / 663 / 852 |
+| Pending / Screened / Quarantined / Error | 0 / 2112 / 0 / 1 |
+| 已发布精选 | 598 |
+| 期刊全量导出 | 2113 |
 
-覆盖验证：OpenAlex DOI 2092，Crossref DOI 859，匹配 816，Crossref 中尚缺 43。
+覆盖验证：OpenAlex DOI 2099，Crossref DOI 862，匹配 817，Crossref 中尚缺 45。
 
 <!-- paper-hot:auto-stats:end -->
 
