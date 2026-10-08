@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式人工智能与传播参与",
-  "description": "关注生成式人工智能作为新型传播行动者的角色，及其对信任、参与和说服效果的影响。",
-  "why_hot": "近30天日均发表速度与前期基本持平，议题持续受到关注。",
-  "hot_score": 67,
-  "growth": -0.028,
-  "growth_rate": -0.028,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.24,
-  "recent_count": 7,
-  "baseline_count": 36,
-  "journal_count": 8,
+  "label": "生成式人工智能与传播研究",
+  "description": "探讨生成式人工智能作为新行动者与工具，如何影响叙事建构、情感表达及健康与战略传播效果。",
+  "why_hot": "近30天日均发表速度较前期略升约8%，新作8篇，研究热度稳中有升。",
+  "hot_score": 73,
+  "growth": 0.081,
+  "growth_rate": 0.081,
+  "recent_rate": 0.2667,
+  "baseline_rate": 0.2467,
+  "recent_count": 8,
+  "baseline_count": 37,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "generative AI",
-    "trust",
-    "civic engagement",
-    "strategic communication",
-    "persuasion"
+    "AI authorship",
+    "emotional tone",
+    "health communication",
+    "strategic communication"
   ],
   "papers": [
+    {
+      "id": 2110,
+      "title": "How Artificial Intelligence Shapes Human Narratives",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-09-30",
+      "summary": "论文提出“叙事能动性”的心理学解释，刻画人类群体在数字情境中如何学习、传播与影响叙事，并据此讨论AI模型（如写作、在线共识形成）如何通过人的叙事能动性影响结果，主张围绕维护叙事能动性来设计人机系统。"
+    },
     {
       "id": 2081,
       "title": "Guidance over guidelines? Unpacking the uses and concerns of generative AI in communication science",
@@ -92,11 +99,11 @@
       "summary": "通过WPR方法分析三种AI叙事（存在风险、加速主义、批判AI）构建的Policy Umwelt，揭示其限制治理选项的认知框架。"
     },
     {
-      "id": 14,
-      "title": "Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy",
+      "id": 1945,
+      "title": "From Ally – Enemy Conflict to Emotional Communion: Exploring an Attitudinal Ambivalence Toward Emotional Artificial Intelligence",
       "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-29",
-      "summary": "基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。"
+      "published_date": "2026-08-11",
+      "summary": "基于911名中国用户调查，探究感知情感能力通过自我披露影响对对话AI的态度矛盾，并提出情感共融效应。"
     },
     {
       "id": 65,
@@ -153,13 +160,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-26",
       "summary": "分析2010-2024年全球南北12家报纸6829篇AI报道，结合主题建模与情感分析，揭示政治化阶段及南北情绪差异，强调地缘政治对AI叙事的影响。"
-    },
-    {
-      "id": 254,
-      "title": "Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-26",
-      "summary": "探讨ChatGPT使用频率、对大语言模型的威胁感知及政治意识形态如何影响用户对ChatGPT用于政治信息消费的信任，发现使用与信任正相关，威胁感知负相关，且存在交互效应。"
     },
     {
       "id": 405,
@@ -321,6 +321,13 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-04-20",
       "summary": "通过N=393的在线实验，操纵AI使用披露方式（不披露、简单披露、详细披露、第三方披露），发现详细披露提升感知透明度和可信度，第三方披露未披露的AI使用会损害可信度和错误信息纠正效果。"
+    },
+    {
+      "id": 638,
+      "title": "Machine agency attribution in human–AI interaction: developing and validating an analytical framework",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-04-17",
+      "summary": "论文提出并验证了人-AI互动中机器能动性归因的三阶段分析框架，通过两项调查和一项实验揭示感知、推断与评价阶段的关系，深化对AI代理机制的理解。"
     }
   ],
   "paper_edges": []

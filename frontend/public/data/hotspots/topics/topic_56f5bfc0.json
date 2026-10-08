@@ -1,23 +1,24 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "数字空间的公民身份与平台治理",
-  "description": "比较不同政治语境下数字空间中的公民身份建构、归属感形成与平台管控逻辑。",
-  "why_hot": "近30天日均发表速度较前期下降约五成，研究活动降温。",
-  "hot_score": 40,
-  "growth": -0.5,
-  "growth_rate": -0.5,
-  "recent_rate": 0.1,
-  "baseline_rate": 0.2,
-  "recent_count": 3,
-  "baseline_count": 30,
-  "journal_count": 7,
+  "label": "数字公民身份与民主韧性话语",
+  "description": "研究跨国流动群体的数字公民实践与归属建构，以及政治人物关于民主韧性与衰退的修辞。",
+  "why_hot": "近30天日均发表速度较前期下降约63%，仅2篇新作，研究活动显著降温。",
+  "hot_score": 34,
+  "growth": -0.63,
+  "growth_rate": -0.63,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.18,
+  "recent_count": 2,
+  "baseline_count": 27,
+  "journal_count": 6,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
-    "digital citizenship",
-    "platform governance",
-    "diaspora",
-    "democratic resilience"
+    "digital performative citizenship",
+    "belonging",
+    "democratic resilience",
+    "political communication",
+    "comparative discourse"
   ],
   "papers": [
     {
@@ -33,13 +34,6 @@
       "journal": "Political Communication",
       "published_date": "2026-09-11",
       "summary": "比较瑞典与匈牙利政客在 Facebook 上的传播语言，探讨民主韧性与衰退的话语特征，属社交媒体政治传播的比较研究。"
-    },
-    {
-      "id": 2020,
-      "title": "The control of digital spaces in India, Pakistan, and Bangladesh: a comparative analysis",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-09-08",
-      "summary": "论文比较印度、巴基斯坦、孟加拉国对数字空间的控制，结合法律框架梳理与OONI、Internet Society网络干扰数据，分析各国审查与监控实践的差异及其成因，发现不同政权安全关切导致控制手段分化。"
     },
     {
       "id": 2009,
@@ -105,13 +99,6 @@
       "summary": "论文提出武器化叙事的四阶段心理影响模型，涵盖身份、威胁、道德和阴谋叙事策略，并以俄罗斯2014年克里米亚叙事行动为例，探讨AI在叙事扩散中的放大作用及反叙事策略。"
     },
     {
-      "id": 246,
-      "title": "Digital transformation and contested sovereignty in humanitarian action",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-23",
-      "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
-    },
-    {
       "id": 210,
       "title": "Vengeance or Hope? A Role-Based Analysis of Hashtag Activism for the War in Gaza",
       "journal": "Political Communication",
@@ -124,13 +111,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-07-13",
       "summary": "论文通过多方法分析（NLP、社交网络分析）研究Mare Aperto 2025军事演习中封闭社交媒体平台的互动，探讨战略模糊如何影响注意力和归因，并促进冲突升级。"
-    },
-    {
-      "id": 249,
-      "title": "Factors that influence a country to exercise its capacity for digital repression",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-06",
-      "summary": "基于172国2003-2022年面板数据，发现数字压制能力与实际压制正相关，但强隐私保护和政治稳定削弱该关系，选举年无显著影响。"
     },
     {
       "id": 490,
@@ -187,13 +167,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-05-19",
       "summary": "研究澳大利亚五家主流媒体对以色列-加沙冲突的报道框架，分析5183篇文章，发现从外交政治框架转向危机冲突框架，提出冲突启动理论。"
-    },
-    {
-      "id": 375,
-      "title": "Depicting digital authoritarianism in China and Vietnam: a mixed-method analysis of convergent and divergent patterns in cybersecurity narratives",
-      "journal": "Asian Journal of Communication",
-      "published_date": "2026-05-13",
-      "summary": "通过混合方法比较中越国家媒体网络安全话语，揭示两种数字威权主义的沟通逻辑，分别强调全球竞争与内部安全化。"
     },
     {
       "id": 506,

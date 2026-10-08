@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-10-05 20:11 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-10-08 19:55 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-10-05 | [Does the TikTok Feed Lean Right? Exposure to Political Content Among Non-Partisan Users in Germany](<https://doi.org/10.1080/10584609.2026.2733320>) | Political Communication | 研究在德国三场州选与2025联邦选举前，用118个自动化非党派账号审计TikTok推荐流（26.6万条视频），发现政治内容占5%–7%，且非党派用户更易接触极右翼AfD相关内容，该党账号量与爆款视频也更多。 |
 | 2026-10-04 | [From Facebook to front page: the influence of the Gilets Jaunes’ social media on local press language and framing](<https://doi.org/10.1080/1369118x.2026.2740032>) | Information Communication & Society | 考察法国黄马甲运动在 Facebook 上的话语如何影响地方报纸的语言使用与新闻框架，涉及社交媒体与主流媒体间的话语流动与议程互动。 |
 | 2026-10-01 | [When Populism? Consistent and Opportunistic Populist Communication in the 2022 Brazilian Presidential Elections](<https://doi.org/10.1080/10584609.2026.2735922>) | Political Communication | 基于2022年巴西大选九名候选人11,885条推文，用微调BERT分类器测量民粹主义话语与政策领域，发现民粹传播因候选人策略和议题而异，提出机会型与一致型民粹主义者类型学。 |
 | 2026-10-01 | [Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images](<https://doi.org/10.1080/1369118x.2026.2740745>) | Information Communication & Society | 该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。 |
 | 2026-09-30 | [Skin Tone as a Visual Cue in Political Campaigns: Evidence from Elections in Mexico](<https://doi.org/10.1177/19401612261484045>) | The International Journal of Press/Politics | 论文利用计算视觉分析考察2024年墨西哥联邦选举中候选人肤色与选举成功的关系，并纳入新闻报道、政治广告和社交媒体使用等变量，发现肤色虽与得票率负相关，但媒体因素更重要。 |
-| 2026-09-28 | [Writing the Situated Self: Intersectional and Geographic Patterning in College Admissions Essays](<https://doi.org/10.1177/0261927x261489626>) | Journal of Language and Social Psychology | 研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-10-05 20:11 GMT+8
+> 最近更新：2026-10-08 19:55 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 2113 |
-| 当期新增 | 36 |
-| High / Medium / Low | 598 / 663 / 852 |
-| Pending / Screened / Quarantined / Error | 0 / 2112 / 0 / 1 |
-| 已发布精选 | 598 |
-| 期刊全量导出 | 2113 |
+| 数据库论文 | 2117 |
+| 当期新增 | 23 |
+| High / Medium / Low | 599 / 665 / 853 |
+| Pending / Screened / Quarantined / Error | 0 / 2117 / 0 / 0 |
+| 已发布精选 | 599 |
+| 期刊全量导出 | 2117 |
 
-覆盖验证：OpenAlex DOI 2099，Crossref DOI 862，匹配 817，Crossref 中尚缺 45。
+覆盖验证：OpenAlex DOI 2103，Crossref DOI 872，匹配 820，Crossref 中尚缺 52。
 
 <!-- paper-hot:auto-stats:end -->
 

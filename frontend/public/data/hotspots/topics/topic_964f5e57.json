@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "数字竞选传播与民粹主义动员",
-  "description": "研究政治行动者如何借助受众数据分析、视觉线索与平台传播开展民粹动员和竞选沟通。",
-  "why_hot": "近30天日均发表速度较前期增长逾五成，研究活动明显升温。",
-  "hot_score": 83,
-  "growth": 0.538,
-  "growth_rate": 0.538,
-  "recent_rate": 0.2667,
-  "baseline_rate": 0.1733,
-  "recent_count": 8,
-  "baseline_count": 26,
-  "journal_count": 7,
+  "label": "竞选传播中的受众数据与视觉线索",
+  "description": "研究代表政治中的受众分析、视觉竞选线索与数字痕迹推断，及其对传播效果与民主运作的影响。",
+  "why_hot": "近30天日均发表速度较前期微降14%，新作5篇，整体研究活动基本持平。",
+  "hot_score": 57,
+  "growth": -0.138,
+  "growth_rate": -0.138,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.1933,
+  "recent_count": 5,
+  "baseline_count": 29,
+  "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "political communication",
-    "populism",
-    "campaign",
     "audience analytics",
-    "digital trace"
+    "political campaigns",
+    "visual cues",
+    "digital trace inference",
+    "virality"
   ],
   "papers": [
     {
@@ -27,13 +27,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-10-01",
       "summary": "通过对巴西国会议员的访谈，研究其如何将受众分析纳入传播策略，提出忠诚者、追随者与受众库的受众感知框架，指出平台语境使选区受众被重构为影响目标，导致代议制扭曲。"
-    },
-    {
-      "id": 2111,
-      "title": "When Populism? Consistent and Opportunistic Populist Communication in the 2022 Brazilian Presidential Elections",
-      "journal": "Political Communication",
-      "published_date": "2026-10-01",
-      "summary": "基于2022年巴西大选九名候选人11,885条推文，用微调BERT分类器测量民粹主义话语与政策领域，发现民粹传播因候选人策略和议题而异，提出机会型与一致型民粹主义者类型学。"
     },
     {
       "id": 2100,
@@ -113,6 +106,13 @@
       "summary": "通过分析丹麦部长2020-2024年Facebook活动与传统媒体曝光数据，结合32次全国民调，发现传统媒体活动仅小幅提升知名度，社交媒体活动收效甚微，且存在触及与好感权衡。"
     },
     {
+      "id": 1961,
+      "title": "Rethinking Assumptions About Moral Content Selection: Moral-Emotional Content May Be Less Appealing Than Assumed",
+      "journal": "Political Communication",
+      "published_date": "2026-08-21",
+      "summary": "通过三个预注册研究考察用户是否主动选择道德情感内容，发现人们并不偏好此类信息，对既有传播研究提出补充。"
+    },
+    {
       "id": 1951,
       "title": "Echoes across the divide: incivility and the fragmentation of issue publics in immigration discourse",
       "journal": "Information Communication & Society",
@@ -134,13 +134,6 @@
       "summary": "论文介绍MORESPulse模型，基于XLM-RoBERTa检测七种语言政治文本的五种情绪，并分析匈牙利议会1998-2022年超五百万句语料，发现情绪化语言自2010年持续上升，与政党角色和政策议题相关。"
     },
     {
-      "id": 1934,
-      "title": "Affective Legitimacy and Digital Populism: Evidence from Romania’s Annulled Presidential Elections",
-      "journal": "Political Communication",
-      "published_date": "2026-08-13",
-      "summary": "研究罗马尼亚总统选举被取消后公众对宪法法院决策合法性的感知，基于调查数据发现TikTok使用、负面情绪和政治不信任增加非法性认知，并以媒体标题分析为补充。"
-    },
-    {
       "id": 1935,
       "title": "Kamala is Brat: TikTok and the Affective Politics of Memes",
       "journal": "Political Communication",
@@ -155,11 +148,18 @@
       "summary": "通过三波面板调查，研究16-30岁青年接触各类社交媒体主体政治内容对时事知识的影响，及感知意见领袖满足感的中介作用。"
     },
     {
-      "id": 1902,
-      "title": "Anti-Elitism Gets the Views: Populist Communication and Popularity on German Political YouTube",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-08-04",
-      "summary": "研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。"
+      "id": 14,
+      "title": "Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-29",
+      "summary": "基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。"
+    },
+    {
+      "id": 394,
+      "title": "The Costs of Governing Truth: Fact-Checking, Perceived Censorship, and Political Participation Across Governance Contexts",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-27",
+      "summary": "基于新加坡、中国、美国调查数据，探讨深度伪造担忧、事实核查与感知审查如何影响社交媒体政治参与，发现感知审查是参与退出的关键条件。"
     },
     {
       "id": 206,
@@ -183,13 +183,6 @@
       "summary": "通过肯尼亚7000人调查实验，考察社交评论对政治深度伪造效果的影响，发现质疑评论可部分恢复政治家支持，且党派偏见影响判断，强调集体意义建构的作用。"
     },
     {
-      "id": 1941,
-      "title": "From Fringe to Power in the TikTok Age: Libertarian Ideology and Transgressive Performances in Milei’s ‘Populism Without the People’",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过分析米莱在TikTok的传播，结合文本、视觉和表演维度，发现其民粹主义缺少“人民”元素，且越轨表演带来更高互动。"
-    },
-    {
       "id": 1943,
       "title": "Make Campaigns Dance Again: The Trumpdance and the Memeaesthetic Logic of TikTok",
       "journal": "Social Media + Society",
@@ -211,6 +204,20 @@
       "summary": "论文比较六种政治影响者定义，并应用于2020年美国大选期间597,815名Twitter用户数据。研究发现不同定义识别出不同影响者群体，且概念选择会系统影响影响者及其受众特征。"
     },
     {
+      "id": 254,
+      "title": "Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-26",
+      "summary": "探讨ChatGPT使用频率、对大语言模型的威胁感知及政治意识形态如何影响用户对ChatGPT用于政治信息消费的信任，发现使用与信任正相关，威胁感知负相关，且存在交互效应。"
+    },
+    {
+      "id": 79,
+      "title": "Inaccuracies, omissions, and bullshit: 2024 U.S. elections through the eyes of ChatGPT",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-22",
+      "summary": "通过审计ChatGPT-4o mini在2024年美国大选前的输出，发现其存在不准确、遗漏和胡扯等问题，提出从 curative governance 到 generative governance 的转变，揭示生成式AI对民主信息环境的潜在危害。"
+    },
+    {
       "id": 255,
       "title": "The multimodal use of Instagram in Italian politics: how do candidates use verbal and non-verbal strategies during regional elections?",
       "journal": "Journal of Information Technology & Politics",
@@ -223,6 +230,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-14",
       "summary": "研究奥地利大选中政治人物与政党账号在 Facebook 和 Instagram 上的专业与私人个性化策略，基于2028条帖子的定量内容分析和混合效应逻辑回归，发现候选账号更倾向私人个性化，且平台间无显著差异。"
+    },
+    {
+      "id": 84,
+      "title": "Fixing election interference, safeguarding election integrity? Developments and dynamics of election-related policies on social media platforms",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-14",
+      "summary": "论文比较分析YouTube、Facebook等平台的选举相关政策及其演变，划分三个阶段，并探讨平台责任话语变化及美国选举影响。"
     },
     {
       "id": 100,
@@ -239,18 +253,11 @@
       "summary": "研究德国语境下X平台三类危机话语中极化社区的结构持续性，结合回声室分数与定性分析发现，回声室在议题内稳定并在跨议题中重现，少数高可见用户通过激活熟悉叙事起核心作用。"
     },
     {
-      "id": 43,
-      "title": "Disentangling the Longitudinal Relationship Between Social Media Use, Political Expression and Political Participation: What Do We Really Know?",
-      "journal": "Communication Research",
-      "published_date": "2026-04-09",
-      "summary": "论文使用三波面板数据，通过CLPM与RI-CLPM比较，发现社交媒体使用与政治表达、参与的关系主要源于个体间差异而非个体内变化，挑战以往结论。"
-    },
-    {
-      "id": 268,
-      "title": "Attributing digital election advertising to races and candidates: a multimodal approach to measuring outside group influence",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-04-08",
-      "summary": "开发可扩展的多模态系统，结合文本与图像归因数字广告至竞选层级，分析2020年140万Meta广告，估算外部团体支出并评估其选举影响。"
+      "id": 116,
+      "title": "How civil society coalition-building affects information integrity during elections: evidence from four African countries",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-04-17",
+      "summary": "基于四个非洲国家的36次访谈，探讨公民社会联盟如何通过合作促进选举期间信息完整性，涉及平台问责与政策框架。"
     }
   ],
   "paper_edges": []

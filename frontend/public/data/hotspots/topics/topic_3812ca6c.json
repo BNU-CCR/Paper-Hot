@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_3812ca6c",
-  "label": "性别与交叉性视角下的传播实践",
-  "description": "考察性别与交叉身份如何影响社会运动话语、竞选信息设计与意见领袖的说服效果。",
-  "why_hot": "近30天日均发表速度与前期持平，覆盖9本期刊，议题维持稳定关注。",
-  "hot_score": 59,
-  "growth": 0.0,
-  "growth_rate": 0.0,
+  "label": "性别化政治传播与交叉性",
+  "description": "考察性别与交叉身份如何塑造竞选信息、社会运动态度及意见领袖对亲社会行为的影响。",
+  "why_hot": "近30天日均发表速度较前期微降5%，新作4篇，研究活动总体持平。",
+  "hot_score": 57,
+  "growth": -0.048,
+  "growth_rate": -0.048,
   "recent_rate": 0.1333,
-  "baseline_rate": 0.1333,
+  "baseline_rate": 0.14,
   "recent_count": 4,
-  "baseline_count": 20,
+  "baseline_count": 21,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "gender",
     "intersectionality",
-    "social movements",
+    "feminist attitudes",
     "campaign messages",
-    "influencers"
+    "social media influencers"
   ],
   "papers": [
     {
@@ -55,6 +55,13 @@
       "journal": "Communication Research",
       "published_date": "2026-08-31",
       "summary": "通过在线实验考察大麻品牌社交媒体广告中的性/浪漫/娱乐脚本对大学生性前使用大麻预期与意向的影响，发现性别差异及机制。"
+    },
+    {
+      "id": 1952,
+      "title": "Generational warfare online? Social media use and intergroup attitudes in a national survey",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-20",
+      "summary": "利用美国全国调查数据（n=1,221），检验社交媒体使用与代际态度关联，发现总体关联微弱，平台特异性影响有限，讨论极端话语的可见性机制。"
     },
     {
       "id": 1957,
@@ -134,6 +141,13 @@
       "summary": "研究基于微博22,925条帖子和115万条评论，运用广义线性混合模型分析多模态框架和性别身份对性别对抗性话语的影响，发现煽情化和个性化框架加剧对抗，娱乐化框架减弱对抗，且性别动态具有调节作用。"
     },
     {
+      "id": 258,
+      "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-05",
+      "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
+    },
+    {
       "id": 173,
       "title": "Identity–Policy Fusion and Polarization in United States House Campaign Language",
       "journal": "The International Journal of Press/Politics",
@@ -181,13 +195,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-04-16",
       "summary": "基于10,800个视频和448,002条评论，分析TikTok科学传播中传播者性别、种族与沟通风格如何影响公众参与，发现交叉身份导致参与差异。"
-    },
-    {
-      "id": 126,
-      "title": "Favela aesthetics: digital influencers in Brazil contesting Instagram visual cultures and favela stigmas",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-08",
-      "summary": "通过分析巴西贫民窟网红Blô的452条Instagram帖子，提出“贫民窟美学”概念，探讨边缘群体如何通过数字内容抵抗污名化、重构文化身份，挑战主流影响者审美与精英叙事。"
     }
   ],
   "paper_edges": []

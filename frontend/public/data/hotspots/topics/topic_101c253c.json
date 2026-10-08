@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "算法偏见与平台化不平等",
-  "description": "关注算法系统的刻板印象与放大效应如何塑造图像生成、平台实践与性别化匹配。",
-  "why_hot": "近30天日均发表速度与前期持平，成果分布于9本期刊，议题保持稳定热度。",
-  "hot_score": 62,
-  "growth": 0.0,
-  "growth_rate": 0.0,
+  "label": "算法偏见与性别化平台实践",
+  "description": "考察生成式图像、约会平台与监控技术中的算法刻板印象、性别分化及用户的算法想象与实践。",
+  "why_hot": "近30天日均发表速度较前期下降约31%，但期刊分布达13本，议题仍保持较广关注。",
+  "hot_score": 51,
+  "growth": -0.306,
+  "growth_rate": -0.306,
   "recent_rate": 0.1667,
-  "baseline_rate": 0.1667,
+  "baseline_rate": 0.24,
   "recent_count": 5,
-  "baseline_count": 25,
-  "journal_count": 9,
+  "baseline_count": 36,
+  "journal_count": 13,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "algorithmic bias",
-    "algorithmic imaginaries",
-    "platformization",
-    "gender",
-    "stereotyping"
+    "algorithmic stereotyping",
+    "AI-generated images",
+    "gendered assortative mating",
+    "algorithmic imaginaries"
   ],
   "papers": [
     {
@@ -57,13 +57,6 @@
       "summary": "论文考察欧洲在线约会平台中的性别化同质择偶现象，探讨平台化婚恋市场如何与性别化的匹配模式相互作用，但缺少摘要，具体数据与方法不明。"
     },
     {
-      "id": 1979,
-      "title": "Digital ID as surreptitious experimentation in the humanitarian-tech industry: an ethnography of a biometric pilot in a refugee camp in the Thailand-Myanmar border",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-03",
-      "summary": "通过18个月民族志研究，分析泰国-缅甸边境难民营中数字ID试点如何作为隐秘实验实施，揭示其缺乏知情同意、加剧权力不对称，并延续殖民逻辑。"
-    },
-    {
       "id": 1980,
       "title": "Blindness and epistemic injustice: a critical autoethnography of digital disablement in Thailand",
       "journal": "Information Communication & Society",
@@ -76,6 +69,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-08-21",
       "summary": "通过两年民族志田野调查，探讨算法招聘如何改变求职沟通条件，提出算法可读性概念，分析求职者被迫进行校准劳动以适配机器系统，重塑社会认可与公民参与。"
+    },
+    {
+      "id": 1966,
+      "title": "Hierarchical barriers: how media-flow networks reproduce inequality on X",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-20",
+      "summary": "研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。"
     },
     {
       "id": 1959,
@@ -99,6 +99,13 @@
       "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
     },
     {
+      "id": 56,
+      "title": "The echoes from social media: modeling how filter bubbles and network structure shape echo chamber emergence",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-27",
+      "summary": "通过agent-based模型整合社交网络与意见动态，模拟不同同质性和选择性暴露条件下回音室的形成，发现信息暴露显著影响回音室涌现，而算法过滤不一定保证其持续。"
+    },
+    {
       "id": 58,
       "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
       "journal": "Information Communication & Society",
@@ -111,6 +118,34 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-07-14",
       "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
+    },
+    {
+      "id": 4,
+      "title": "The Anatomy of Resilient Talk: Linguistic Features of Relational and Psychological Health in Couples’ Conversations About Stress",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-07-10",
+      "summary": "运用NLP分析夫妻应对压力的对话语言特征，发现义务、不确定等语言与关系压力相关，包容性语言与韧性相关，揭示微观语言反映关系健康。"
+    },
+    {
+      "id": 27,
+      "title": "Chatbots and Loneliness: How Linguistic Dynamics in Conversations with Chatbots Shape Young Adults’ Loneliness",
+      "journal": "Communication Research",
+      "published_date": "2026-07-10",
+      "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
+    },
+    {
+      "id": 400,
+      "title": "Privacy Divide: Digital Competence, Privacy Vulnerability, and Changing Trajectories of Privacy Protection Intention Amid AI Expansion",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-02",
+      "summary": "基于保护动机理论，通过三波纵向调查考察AI扩张中数字能力对隐私保护意图的影响及隐私脆弱性的中介作用，发现低能力用户增长更快且中介方向反转。"
+    },
+    {
+      "id": 613,
+      "title": "Exploring the forces driving ChatGPT diffusion on X: An integrated theoretical perspective",
+      "journal": "Global Media and Communication",
+      "published_date": "2026-07-02",
+      "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
     },
     {
       "id": 282,
@@ -132,6 +167,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过65个访谈，探讨中国年轻男同性恋者在算法环境下如何协商（不）智能性，提出“liminal intelligibility”概念，强调人机交互与人人交互的交叉。"
+    },
+    {
+      "id": 1999,
+      "title": "Social Robots and the Dialectics of Presence and Absence",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于关系辩证理论与符号学，考察103名青年与社交机器人的首次互动，揭示在场与缺席等辩证张力，强调机器人作为交流基础设施的作用。"
     },
     {
       "id": 2087,
@@ -176,11 +218,25 @@
       "summary": "基于中国男性农民工调查数据，整合使用与满足和社会学习理论，考察约会应用采用的影响因素及对线下勾搭意图的中介作用，发现动机、社会认同、社会比较等通过采用影响意图，且受伦理疑虑调节。"
     },
     {
+      "id": 256,
+      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-15",
+      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
+    },
+    {
       "id": 32,
       "title": "When the Algorithm Understands You (or Doesn’t): LGBTQ+ Youth’s Identity-Related Interactions with Algorithmic Media",
       "journal": "Communication Research",
       "published_date": "2026-06-13",
       "summary": "研究LGBTQ+青年与算法媒体的互动，通过日记和调查考察算法响应性、不敏感性和算法训练对身份认同的影响，发现算法推荐可增强身份自豪感。"
+    },
+    {
+      "id": 85,
+      "title": "Latent communicative figurations: mapping quasi-visible strategic relational structures on Facebook",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-13",
+      "summary": "本文提出潜在传播构型概念，利用Facebook可再生能源相关品牌帖子构建双模网络，揭示战略伙伴与页面间的隐性关系，并探讨平台逻辑对新闻媒体角色的影响。"
     },
     {
       "id": 373,
@@ -190,18 +246,39 @@
       "summary": "研究台湾女性使用经期追踪应用时，如何与算法系统、文化期望和身体经验协商，提出亲密数据表演性概念，探讨预测协商、自我优化和数据共享中的赋能与控制张力。"
     },
     {
+      "id": 215,
+      "title": "Evaluating Echo Chambers, Rabbit Holes, and Radicalization Pathways on YouTube",
+      "journal": "Political Communication",
+      "published_date": "2026-06-10",
+      "summary": "通过估计YouTube视频意识形态和原创审计设计，发现用户处于轻度意识形态回音室，推荐算法产生内容兔子洞，但未发现激进路径，算法倾向推荐温和保守内容。"
+    },
+    {
+      "id": 632,
+      "title": "Chatting with confidants or corporations? Privacy management with AI companions",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-06-02",
+      "summary": "通过访谈15位AI伴侣用户，基于CPM理论分析隐私决策，发现拟人化设计降低披露门槛，用户采用预期性策略如假名，且更担心关系重置而非数据泄露。"
+    },
+    {
+      "id": 541,
+      "title": "We’re just chatting: perceptions of everyday communication with chatbots",
+      "journal": "Communication Research Reports",
+      "published_date": "2026-05-27",
+      "summary": "基于美国全国样本，考察人机闲聊中的沟通偶然性对感知响应性、参与度和满意度的影响，发现陪伴感调节作用。"
+    },
+    {
+      "id": 97,
+      "title": "Integrating farmers markets into a communication infrastructure model: the moderating role of physical community spaces for civic engagement",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-25",
+      "summary": "基于全国调查数据，考察不同传播渠道对公民参与的影响，并探讨农贸市场作为物理空间的调节作用，发现社交媒体平台效应各异。"
+    },
+    {
       "id": 98,
       "title": "Algorithmic ambivalence: LGBTQ+ social media and mental health among Chinese gay men",
       "journal": "Information Communication & Society",
       "published_date": "2026-05-25",
       "summary": "研究中国男同性恋者在社交媒体中算法矛盾心理及其对心理健康的影响，结合算法与社媒使用议题。"
-    },
-    {
-      "id": 200,
-      "title": "Exploring temporal dynamics in digital trace data: mining user-sequences for communication research",
-      "journal": "Communication Methods and Measures",
-      "published_date": "2026-05-09",
-      "summary": "论文系统梳理了利用数字追踪数据中的时间信息进行传播研究的方法，介绍序列分析、事件史分析、隐马尔可夫模型等六种方法，并以30万条用户序列数据为例进行演示。"
     },
     {
       "id": 38,
@@ -225,11 +302,11 @@
       "summary": "基于比利时147名青少年的21场焦点小组，探讨青年与父母同伴协商数字位置跟踪的边界规则与策略，揭示其对日常监控文化的接受与抵抗。"
     },
     {
-      "id": 127,
-      "title": "Evaluating the potential and limits of trace-based interviews when studying news use",
+      "id": 122,
+      "title": "Online interactions and the gravity model",
       "journal": "Information Communication & Society",
-      "published_date": "2026-04-08",
-      "summary": "论文评估基于数字追踪的访谈法在新闻使用研究中的潜力与局限，基于英巴73次访谈，揭示该方法能反映习惯性、偶然性及跨平台新闻实践。"
+      "published_date": "2026-04-13",
+      "summary": "论文基于《帝国时代II》2500万场多人比赛数据，构建在线互动模型并用结构重力模型估计，发现文化邻近性和外部社交网络对跨国在线互动有重要影响，为数字全球化和在线社区研究提供实证。"
     }
   ],
   "paper_edges": []
