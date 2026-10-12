@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-10-08 19:55 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-10-12 20:53 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-10-09 | [ChangeMyView: Unpacking the Complex Emotional, Cognitive, and Communicator-Related Processes Underlying Persuasion](<https://doi.org/10.1177/0261927x261496534>) | Journal of Language and Social Psychology | 基于r/ChangeMyView约6万帖子，用LIWC、主成分分析和多层逻辑回归，检验认知推理、情感表达与真实沟通风格对说服成功的影响。 |
+| 2026-10-09 | [From mobilization to diversion: a comparative study of wartime communication tactics of Ukrainian and Russian political elites on Telegram](<https://doi.org/10.1080/1369118x.2026.2736808>) | Information Communication & Society | 研究比较俄乌战争期间两国政治精英在 Telegram 上的传播策略，基于 2019—2024 年帖文数据，分析发文量、主题内容与行为体参与度变化，发现乌克兰精英侧重战争动员而俄罗斯精英采用转移注意力的策略，且传播模式因政党规模而异。 |
 | 2026-10-05 | [Does the TikTok Feed Lean Right? Exposure to Political Content Among Non-Partisan Users in Germany](<https://doi.org/10.1080/10584609.2026.2733320>) | Political Communication | 研究在德国三场州选与2025联邦选举前，用118个自动化非党派账号审计TikTok推荐流（26.6万条视频），发现政治内容占5%–7%，且非党派用户更易接触极右翼AfD相关内容，该党账号量与爆款视频也更多。 |
 | 2026-10-04 | [From Facebook to front page: the influence of the Gilets Jaunes’ social media on local press language and framing](<https://doi.org/10.1080/1369118x.2026.2740032>) | Information Communication & Society | 考察法国黄马甲运动在 Facebook 上的话语如何影响地方报纸的语言使用与新闻框架，涉及社交媒体与主流媒体间的话语流动与议程互动。 |
 | 2026-10-01 | [When Populism? Consistent and Opportunistic Populist Communication in the 2022 Brazilian Presidential Elections](<https://doi.org/10.1080/10584609.2026.2735922>) | Political Communication | 基于2022年巴西大选九名候选人11,885条推文，用微调BERT分类器测量民粹主义话语与政策领域，发现民粹传播因候选人策略和议题而异，提出机会型与一致型民粹主义者类型学。 |
-| 2026-10-01 | [Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images](<https://doi.org/10.1080/1369118x.2026.2740745>) | Information Communication & Society | 该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。 |
-| 2026-09-30 | [Skin Tone as a Visual Cue in Political Campaigns: Evidence from Elections in Mexico](<https://doi.org/10.1177/19401612261484045>) | The International Journal of Press/Politics | 论文利用计算视觉分析考察2024年墨西哥联邦选举中候选人肤色与选举成功的关系，并纳入新闻报道、政治广告和社交媒体使用等变量，发现肤色虽与得票率负相关，但媒体因素更重要。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-10-08 19:55 GMT+8
+> 最近更新：2026-10-12 20:53 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 2117 |
-| 当期新增 | 23 |
-| High / Medium / Low | 599 / 665 / 853 |
-| Pending / Screened / Quarantined / Error | 0 / 2117 / 0 / 0 |
-| 已发布精选 | 599 |
-| 期刊全量导出 | 2117 |
+| 数据库论文 | 2143 |
+| 当期新增 | 37 |
+| High / Medium / Low | 601 / 672 / 870 |
+| Pending / Screened / Quarantined / Error | 0 / 2143 / 0 / 0 |
+| 已发布精选 | 601 |
+| 期刊全量导出 | 2143 |
 
-覆盖验证：OpenAlex DOI 2103，Crossref DOI 872，匹配 820，Crossref 中尚缺 52。
+覆盖验证：OpenAlex DOI 2129，Crossref DOI 895，匹配 842，Crossref 中尚缺 53。
 
 <!-- paper-hot:auto-stats:end -->
 

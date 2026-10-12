@@ -1,5 +1,77 @@
 [
   {
+    "id": 2122,
+    "title": "ChangeMyView: Unpacking the Complex Emotional, Cognitive, and Communicator-Related Processes Underlying Persuasion",
+    "title_zh": "ChangeMyView：解析说服行为背后的复杂情感、认知及沟通相关过程",
+    "authors": [
+      "Isabella M. Swafford",
+      "Alfonso Carballo",
+      "Ryan L. Boyd",
+      "Vanessa Kountakis",
+      "Lucy McGregor et al."
+    ],
+    "institutions": [],
+    "journal": "Journal of Language and Social Psychology",
+    "published_date": "2026-10-09",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Persuasion is shaped by complex emotional triggers, cognitive reasoning, and communicator-related characteristics. However, theories of persuasion have often examined different features of persuasive communication in controlled research settings, resulting in questions about how these characteristics exist within naturally occurring persuasive messages. This study addresses this gap by examining theoretically relevant linguistic characteristics associated with successful persuasion using r/ChangeMyView , an online debate forum where users attempt to change others’ views on any topic, and posts resulting in successful persuasion are marked. In Study 1, Linguistic Inquiry and Word Count was used to analyze n = 9020 r/ChangeMyView posts from 2013 to 2018. Principal component analyses identified three broad linguistic dimensions reflecting cognitive reasoning, emotional expression, and authentic communication style. These components were then entered into a multilevel logistic regression analysis, revealing that greater scores on the cognitive reasoning dimension were associated with lower persuasive likelihood, whereas emotional expression and authentic communication were not significantly associated with persuasion. Study 2 analyzed 51,394 posts from 2019 to 2023 and identified a similar three-component structure, demonstrating consistency in how the selected linguistic characteristics grouped across samples. Cognitive reasoning again predicted lower persuasive likelihood, while greater emotional expression predicted lower persuasive likelihood and authentic communication predicted greater persuasive likelihood. The results suggest that naturally occurring persuasive language organizes into reproducible but nuanced dimensions, and that multiple forms of linguistic information contribute to persuasive messaging. Overall, the findings provide naturalistic evidence relevant to theoretical accounts that conceptualize persuasion as involving multiple, potentially overlapping forms of information processing.",
+    "abstract_zh": "说服过程受到复杂的情感触发因素、认知推理以及沟通者自身特征的影响。然而，关于说服的理论往往在受控的研究环境中探讨说服性沟通的不同方面，这就引发了一个问题：这些特征在自然产生的说服性信息中究竟是如何体现的？本研究通过分析r/ChangeMyView这一在线辩论论坛来解决这一空白。在该论坛中，用户试图改变他人对任何话题的看法，而那些成功说服他人的帖子会被特别标记出来。研究1利用语言分析和词频统计方法，分析了2013年至2018年间r/ChangeMyView上的9020篇帖子。通过主成分分析，研究者发现了三个主要的语言维度：认知推理、情感表达和真实的沟通风格。随后将这些维度纳入多层次逻辑回归分析中，结果发现：在认知推理维度上得分较高的帖子其说服效果较差；而情感表达和真实的沟通风格与说服效果之间没有显著关联。研究2进一步分析了2019年至2023年的51,394篇帖子，同样发现了这三个维度，并证实了这些语言特征在不同样本中的稳定性。结果再次表明，认知推理能力较强的帖子说服效果较差；而情感表达较强或沟通风格较为真实的帖子则具有较好的说服效果。这些结果表明，自然产生的说服性语言可以归纳为具有可重复性但细微差别的维度，且多种形式的语言信息共同作用于说服过程。总体而言，这些发现为将说服过程视为涉及多种（可能相互重叠的信息处理方式）的理论提供了实证支持。",
+    "summary": "基于r/ChangeMyView约6万帖子，用LIWC、主成分分析和多层逻辑回归，检验认知推理、情感表达与真实沟通风格对说服成功的影响。",
+    "reason": "使用Reddit大规模文本与LIWC计算分析，研究在线说服这一传播议题。",
+    "tags": [
+      "计算文本分析",
+      "在线说服",
+      "Reddit",
+      "LIWC",
+      "传播效果"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/0261927x261496534",
+    "source_url": "https://doi.org/10.1177/0261927x261496534",
+    "detail_slug": "changemyview-unpacking-the-complex-emotional-cognitive-and-communicator-related-processes-underlying-persuasion",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Language and Social Psychology",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2119,
+    "title": "From mobilization to diversion: a comparative study of wartime communication tactics of Ukrainian and Russian political elites on Telegram",
+    "title_zh": "从动员到转移：乌克兰和俄罗斯政治精英在 Telegram 上的战时沟通策略的比较研究",
+    "authors": [
+      "Mykola Makhortykh",
+      "Aytalina Kulichkina",
+      "Kateryna Maikovska"
+    ],
+    "institutions": [],
+    "journal": "Information Communication & Society",
+    "published_date": "2026-10-09",
+    "relevance": "High",
+    "score": null,
+    "abstract": "This study examines how Ukrainian and Russian political elites communicate on Telegram during the ongoing Russo-Ukrainian war. Using a dataset of Telegram public posts from 2019 to 2024, we analyze changes in communication volume, thematic content, and actor engagement before and after Russia’s 2022 full-scale invasion. While the invasion triggered a massive spike in elites’ activity on Telegram in both countries—most notably among actors associated with Russia’s ruling pro-regime party—the focus of this communication diverged sharply. While Ukrainian elites initially prioritized war-related mobilization, this emphasis has declined over time. By contrast, Russian elites from the start adopted a tactic of strategic diversion, avoiding discussion of the war and shifting public attention to unrelated issues, such as crises in the West. Finally, we show that communication patterns are stratified by party size, with smaller parties specializing in narrow policy niches. These findings shed light on how political elites adapt their communication strategies in online environments during wartime.",
+    "abstract_zh": "本研究探讨了在持续的俄乌战争期间，乌克兰和俄罗斯政治精英如何在Telegram平台上进行交流。通过分析2019年至2024年间Telegram上的公开帖子数据，我们研究了俄罗斯2022年全面入侵前后交流量的变化、主题内容以及参与者的活跃程度。虽然入侵导致两国政治精英在Telegram上的活动显著增加（尤其是与俄罗斯执政党相关的人员），但他们的交流重点却发生了显著变化：乌克兰精英最初更注重与战争相关的动员工作，但随着时间的推移，这种重点逐渐减弱；而俄罗斯精英从一开始就采取了“战略转移”的策略，避免讨论战争问题，将公众注意力转向西方危机等无关议题。此外，我们还发现交流模式存在差异，不同规模的政党在交流内容上有所侧重——规模较小的政党往往专注于特定的政策领域。这些发现揭示了政治精英在战时如何调整其在线交流策略。",
+    "summary": "研究比较俄乌战争期间两国政治精英在 Telegram 上的传播策略，基于 2019—2024 年帖文数据，分析发文量、主题内容与行为体参与度变化，发现乌克兰精英侧重战争动员而俄罗斯精英采用转移注意力的策略，且传播模式因政党规模而异。",
+    "reason": "基于 Telegram 大规模帖文数据，分析战时政治精英传播策略，属社交媒体计算方法与政治传播议题结合。",
+    "tags": [
+      "Telegram",
+      "政治传播",
+      "社交媒体",
+      "战争传播",
+      "计算传播学"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/1369118x.2026.2736808",
+    "source_url": "https://doi.org/10.1080/1369118x.2026.2736808",
+    "detail_slug": "from-mobilization-to-diversion-a-comparative-study-of-wartime-communication-tactics-of-ukrainian-and-russian-political-elites-on-telegram",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Information, Communication & Society",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2116,
     "title": "Does the TikTok Feed Lean Right? Exposure to Political Content Among Non-Partisan Users in Germany",
     "title_zh": "TikTok的信息流是否偏向正确方向？德国非党派用户接触政治内容的情况",
@@ -15111,7 +15183,7 @@
   {
     "id": 1134,
     "title": "The public that engages invisibly: what visible engagement fails to capture in online political communication",
-    "title_zh": "那些默默参与的公众：在线政治传播中那些可见的互动方式所无法捕捉到的现象",
+    "title_zh": "那些以“无形”方式参与的公众：在线政治传播中那些“可见的”互动方式所无法捕捉到的现象",
     "authors": [
       "Yijing Chen",
       "Zoltán Kmetty",
@@ -15130,7 +15202,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Measurements of political polarization online have so far largely focused on visible traces accessible through platform APIs, neglecting invisible traces that are not recorded or otherwise unavailable to researchers, which can reveal key aspects of political engagement online. Our study addresses this gap by investigating the polarization measurement bias that arises when only visible engagement is analyzed, uncovering disparities at both the user and channel levels. Analyzing a combined dataset that links survey responses with YouTube digital traces through data donation from a sample of Hungarian Internet users (N=758), we find that users who engage visibly through commenting are more politically polarized, and exhibit a greater level of selective exposure to content than users who engage invisibly through viewing. Moreover, ideologically heterogeneous channels are more likely to share viewers than subscribers or commenters. Thus, relying solely on public comment data may simplify, even overstate the segregation of political channels. Our results suggest that research using only visible engagement may overestimate the extent of polarization and the prevalence of echo chambers on YouTube. We highlight the benefits of using combined datasets to address measurement bias in online political communication, and contribute to the polarization literature by providing a fresh evaluation of potential biases in platform-focused research.",
-    "abstract_zh": "迄今为止，关于网络政治极化的测量主要集中在通过平台应用程序接口（APIs）可以获取的可见数据上，而忽视了那些未被记录或对研究人员不可用的“隐形数据”。这些隐形数据实际上能够揭示网络政治参与的关键方面。我们的研究旨在弥补这一不足，通过分析仅基于可见参与行为所导致的测量偏差，发现了用户层面和渠道层面存在的差异。我们利用一组来自匈牙利互联网用户（样本量N=758）的数据集，将调查反馈与YouTube上的数字行为数据相结合（这些数据是通过用户捐赠获得的）。研究发现，那些通过评论等方式积极参与网络活动的用户表现出更强的政治极化倾向，并且比那些仅通过观看内容进行参与的用户表现出更高的内容选择性暴露（即用户更倾向于关注与自己观点一致的内容）。此外，意识形态多样化的YouTube频道更有可能同时拥有大量观众和订阅者，而非仅仅只有评论者。因此，如果仅依赖公开评论数据，可能会简化甚至夸大网络政治渠道之间的分化程度。我们的研究结果表明，仅基于可见参与行为的研究可能会高估YouTube上的政治极化程度以及回音室效应的普遍性。我们强调了使用综合数据集来纠正测量偏差的重要性，并为网络政治传播研究提供了新的视角，有助于进一步理解相关研究中的潜在偏差问题。",
+    "abstract_zh": "迄今为止，关于网络政治极化的测量主要集中在通过平台应用程序编程接口（APIs）可以获取的可见数据上，而忽视了那些未被记录或无法被研究人员获取的“不可见数据”。这些不可见数据实际上能够揭示网络政治参与的关键方面。我们的研究旨在弥补这一不足，通过分析仅基于可见参与行为所导致的测量偏差，发现了用户层面和渠道层面存在的差异。我们利用来自匈牙利互联网用户样本（N=758）的数据捐赠，将调查反馈与YouTube上的数字行为数据相结合进行了分析。研究发现，那些通过评论等方式进行可见参与的用户表现出更强的政治极化倾向，并且比那些仅通过观看内容进行参与的用户表现出更高的内容选择性暴露（即用户更倾向于关注与自己观点相符的内容）。此外，意识形态多样化的YouTube频道更有可能同时拥有大量观众和订阅者，而非仅仅拥有评论者。因此，仅依赖公开评论数据可能会简化甚至夸大网络政治渠道之间的分化程度。我们的研究结果表明，仅使用可见参与数据进行的分析可能会高估YouTube上的政治极化程度以及回音室效应的普遍性。我们强调了使用综合数据集来纠正测量偏差的重要性，并为网络政治传播研究提供了新的视角，有助于进一步理解相关研究中的潜在偏差问题。",
     "summary": "通过数据捐赠整合调查与YouTube行为数据，发现仅依赖可见评论会高估政治极化与回声室，可见参与者更极化且选择暴露更强，渠道层面共享观众比订阅者/评论者更异质。",
     "reason": "结合调查与YouTube数字痕迹，分析可见/不可见参与的极化偏差，使用网络分析等计算方法，属计算传播研究。",
     "tags": [
@@ -15153,7 +15225,7 @@
   {
     "id": 1649,
     "title": "Framing of the wartime economic situation in Polish business journalism during the Russian–Ukrainian conflict",
-    "title_zh": "在俄乌冲突期间，波兰商业新闻中对战时经济形势的报道框架",
+    "title_zh": "在俄乌冲突期间，波兰商业新闻中对战时经济形势的报道与呈现",
     "authors": [
       "Rafał Krzysztof Matusiak",
       "Robert Radziej"
@@ -15167,7 +15239,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article examines how Polish business journalism framed wartime economic developments during the Russia–Ukraine conflict (2022–mid-2024). Drawing on a mixed-methods analysis of 395 headlines from major financial news outlets, the authors combine thematic categorization with sentiment analysis to trace how the media represented key sectors such as energy, agriculture and finance. The findings reveal an early dominance of negative sentiment, followed by a gradual shift toward neutral and notably ambivalent framing – especially in response to complex issues like the grain import crisis and transport sector disruptions. The study highlights ambivalence as a strategic framing device that resists binary evaluations, and reflects the layered economic realities of prolonged conflict. The authors argue that business journalism plays a critical role not only in conveying economic information, but also in shaping public interpretation and institutional response during periods of systemic uncertainty.",
-    "abstract_zh": "本文探讨了波兰商业新闻在俄罗斯-乌克兰冲突（2022年至2024年中期）期间如何报道战时的经济发展情况。通过对主要财经新闻媒体发布的395条新闻标题进行混合方法分析，作者结合主题分类和情感分析，研究了媒体如何报道能源、农业和金融等关键行业。研究结果表明，最初媒体报道中负面情绪占主导地位，随后逐渐转向中立甚至矛盾的报道方式——尤其是在应对粮食进口危机和运输行业中断等复杂问题时。研究指出，这种矛盾的报道方式是一种策略性工具，有助于避免简单的二元对立判断，并反映了长期冲突下复杂的经济现实。作者认为，商业新闻不仅在传递经济信息方面发挥着重要作用，还在系统不确定性时期塑造公众认知和政府决策方面发挥着关键作用。",
+    "abstract_zh": "本文探讨了波兰商业新闻在俄罗斯-乌克兰冲突（2022年至2024年中期）期间如何报道战时的经济发展情况。通过对主要财经新闻媒体发布的395条新闻标题进行混合方法分析，作者结合主题分类和情感分析，研究了媒体如何报道能源、农业和金融等关键行业。研究结果表明，初期媒体报道中负面情绪占主导地位，随后逐渐转向中立甚至矛盾的报道方式——尤其是在应对粮食进口危机和交通运输中断等复杂问题时。研究强调，这种矛盾的报道方式是一种策略性工具，有助于避免简单的二元对立判断，并反映了长期冲突下复杂的经济现实。作者认为，商业新闻不仅在传递经济信息方面发挥着重要作用，而且在系统不确定性时期，还影响着公众的理解和政府的应对措施。",
     "summary": "研究波兰商业新闻如何框架战时经济形势，结合主题分类与情感分析分析395条标题，发现早期负面情绪主导，后转向中立和矛盾框架。",
     "reason": "使用情感分析等计算方法研究商业新闻框架，议题属于传播学，方法具有计算性。",
     "tags": [
@@ -15201,7 +15273,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Given previous findings regarding YouTube’s pathways toward radicalization, this research investigated to what extent YouTube’s recommendation algorithm contributes to the affective polarization of Dutch watchers of political parties’ content. To investigate this, content networks around parties’ YouTube presence were generated and video subtitles and titles were extracted for analysis. Sentiment classifiers were trained to recognize the presence of polarization and negative sentiment. Statistical analyses were then employed to test for differences between different political parties’ content networks. Results indicate that the negativity of a video title is positively associated with its polarization level, and that videos from right-wing parties produce more polarizing recommendations. This analysis reveals the recommendation algorithm’s role in the spread of increasingly polarizing content. Currently, it contributes to the increased spread of polarizing content, especially for users who are watching content within right-wing party networks.",
-    "abstract_zh": "鉴于之前关于YouTube在促进极端化方面的研究发现，本研究探讨了YouTube的推荐算法在多大程度上加剧了荷兰观众对政党内容的情感倾向两极分化。为此，研究人员构建了各政党在YouTube上的内容网络，并提取了相关视频的字幕和标题以供分析。随后训练了情感分类器来识别内容中的两极分化现象及负面情绪。通过统计分析，研究者比较了不同政党内容网络之间的差异。研究结果表明，视频标题的负面程度与其内容的两极分化程度呈正相关；来自右翼政党的视频产生的推荐内容更具两极分化倾向。这一分析揭示了推荐算法在传播日益极端化内容中的作用——尤其是对于那些观看右翼政党相关内容的用户而言，该算法进一步加剧了这类内容的传播。",
+    "abstract_zh": "鉴于之前关于YouTube在促进极端主义方面的作用的研究结果，本研究探讨了YouTube的推荐算法在多大程度上加剧了荷兰观众对政党内容的情感倾向两极分化。为此，研究人员构建了各政党在YouTube上的内容网络，并提取了相关视频的字幕和标题以供分析。他们训练了情感分类器来识别内容中的两极分化现象和负面情绪。随后通过统计分析来比较不同政党内容网络之间的差异。研究结果表明，视频标题的负面程度与其内容的两极分化程度呈正相关；来自右翼政党的视频产生的推荐内容更具两极分化倾向。这一分析揭示了推荐算法在传播日益两极分化内容中的作用。目前，该算法正在加速这类内容的传播，尤其是对于那些观看右翼政党相关内容的用户而言。",
     "summary": "通过生成荷兰政党YouTube内容网络，训练情感分类器分析字幕和标题，探究推荐算法对情感极化的影响，发现负面标题与极化正相关，右翼政党推荐更具极化性。",
     "reason": "研究YouTube推荐算法与政治极化，使用内容网络和情感分类器等计算方法，属于计算传播学。",
     "tags": [
@@ -15236,7 +15308,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The public release of high-profile generative AI models in late 2022 and early 2023 spurred widespread concerns over ‘existential threats’ to humanity from AI. This paper explores how this AI ‘crisis’ impacted ongoing approaches to AI, altering policymakers’ strategies to govern these technologies. Drawing on policy analysis approaches that highlight the role of ideas, this paper finds that, in response to perceived crisis and a frame of threat to humanity’s public interest, the UK shifted their governance approach to AI. It suggests that digital agenda-setting power in the policymaking arena is emerging as a distinct site of power in the digital era – one with the potential to mitigate or exacerbate the myriad effects from using digital technologies. Exploring AI policymaking as a site of contestation, between actors, ideas and interests, supports understandings of dimensions of power and control in the digital era.",
-    "abstract_zh": "2022年末和2023年初，一些备受瞩目的生成式人工智能模型被公开发布，这引发了人们对人工智能可能对人类构成“生存威胁”的广泛担忧。本文探讨了这场人工智能“危机”如何影响了现有的人工智能治理方式，以及它如何改变了政策制定者管理这些技术的策略。通过运用强调思想在政策制定中作用的分析方法，本文发现：在应对这种危机以及认为人工智能威胁到人类公共利益的情况下，英国改变了其人工智能治理方式。文章指出，在数字时代，政策制定领域的议程设定权正在成为一种新的权力形式——这种权力有可能缓解或加剧使用数字技术所带来的各种影响。将人工智能政策制定视为一个充满争议的领域，其中各种行为者、思想和利益相互博弈，有助于我们理解数字时代中的权力与控制机制。",
+    "abstract_zh": "2022年末和2023年初，一些备受瞩目的生成式人工智能模型被公开发布，这引发了人们对人工智能可能对人类构成“生存威胁”的广泛担忧。本文探讨了这场人工智能“危机”如何影响了现有的人工智能治理方式，以及它如何改变了政策制定者管理这些技术的策略。通过运用强调思想在政策制定中作用的政策分析方法，本文发现：在应对这种危机以及认为人工智能对人类公共利益构成威胁的背景下，英国改变了其人工智能治理方式。文章指出，在数字时代，政策制定领域的议程设定权正在成为一种新的权力形式——这种权力有可能缓解或加剧使用数字技术所带来的各种影响。将人工智能政策制定视为不同参与者、思想和利益之间博弈的场所，有助于我们理解数字时代权力与控制的本质。",
     "summary": "探讨生成式AI引发的危机如何影响英国AI治理政策，分析政策制定中的议程设置权力。",
     "reason": "选题涉及生成式AI治理与社会影响，符合AI/大模型特别条款，虽方法传统仍纳入。",
     "tags": [
@@ -15257,7 +15329,7 @@
   {
     "id": 868,
     "title": "Meaningful informed consent? How participants experience and understand data donation",
-    "title_zh": "有意义的知情同意：参与者如何体验和理解数据捐赠",
+    "title_zh": "“有意义的知情同意？”：参与者如何体验和理解数据捐赠的过程",
     "authors": [
       "Tim Groot Kormelink",
       "Fiore Houwing",
@@ -15275,7 +15347,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Data donation makes it possible to invite participants to request and share their data from digital platforms for research purposes. While it is a user-centric approach to digital trace data collection, little is known about how participants experience and understand the data donation process. This study therefore asked twenty participants to verbalize their thoughts and actions as they went through data donation (from Google, YouTube, Facebook, X, Instagram, TikTok, LinkedIn), and interviewed them about their experiences. Using a workflow that visualized participants’ own data and enabled them to inspect and delete data prior to donation, we not only identified strengths and obstacles within the data donation process from a user perspective, but also gained insight into how participants make sense of data donation. Overall, we find that while participants enjoyed gaining insight into their own media behavior, their understanding of data donation was problematic. Most participants misunderstood or overlooked the option to search through and delete their data, raising questions about meaningful informed consent. Another key finding was that participants interpreted data visualizations as objective representations of their media use, even when these data were incomplete or contradicted their own ideas about their platform use. Privacy considerations were at play during platform selection, but less during the actual donation process.",
-    "abstract_zh": "数据捐赠使得研究人员能够邀请参与者从数字平台上请求并分享他们的数据以用于研究目的。尽管这是一种以用户为中心的数字追踪数据收集方法，但人们对参与者如何体验和理解数据捐赠过程知之甚少。因此，本研究邀请了20名参与者，在他们进行数据捐赠（来自Google、YouTube、Facebook、X（前称Twitter）、Instagram、TikTok、LinkedIn）的过程中，让他们表达自己的想法和行为，并对他们进行了访谈。通过使用一种可视化参与者自身数据的工作流程，使参与者能够在捐赠前查看和删除数据，我们不仅从用户的角度识别了数据捐赠过程中的优点和障碍，还了解了参与者是如何理解数据捐赠的。总体而言，虽然参与者乐于了解自己的媒体使用情况，但他们对数据捐赠的理解存在问题：大多数参与者误解或忽略了搜索和删除自己数据的选项，这引发了关于“知情同意”是否真正具有意义的问题。另一个关键发现是，参与者将数据可视化结果视为其媒体使用的客观反映，即使这些数据不完整或与他们对自己平台使用情况的认知相矛盾。在平台选择阶段，参与者会考虑隐私问题；而在实际的数据捐赠过程中，隐私问题则较少被提及。",
+    "abstract_zh": "数据捐赠使得研究人员能够邀请参与者从数字平台请求并分享他们的数据以用于研究目的。尽管这是一种以用户为中心的数字追踪数据收集方法，但人们对参与者如何体验和理解数据捐赠过程知之甚少。因此，本研究邀请了20名参与者，在他们进行数据捐赠（来自Google、YouTube、Facebook、X（前称Twitter）、Instagram、TikTok、LinkedIn）的过程中，让他们表达自己的想法和行为，并对他们进行了访谈。通过使用一种可视化参与者自身数据的工作流程，使参与者能够在捐赠前查看和删除数据，我们不仅从用户的角度识别出了数据捐赠过程中的优点和障碍，还了解了参与者是如何理解数据捐赠的。总体而言，虽然参与者乐于了解自己的媒体使用情况，但他们对数据捐赠的理解存在问题：大多数参与者误解或忽略了搜索和删除自己数据的选项，这引发了关于“知情同意”是否真正具有意义的问题。另一个关键发现是，参与者将数据可视化结果视为其媒体使用的客观反映，即使这些数据不完整或与他们对自己平台使用的认知相矛盾。在平台选择阶段，参与者会考虑隐私问题；而在实际的数据捐赠过程中，隐私问题则显得不那么重要。",
     "summary": "通过20名参与者的出声思考和访谈，探究用户对数据捐赠过程的理解与体验，发现多数人误解或忽略数据检查删除选项，并视数据可视化为客观真相。",
     "reason": "研究聚焦数字平台数据捐赠，涉及数字痕迹数据采集与用户理解，属于计算传播议题。",
     "tags": [
@@ -15309,7 +15381,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Los escenarios comunicativos online están reconfigurando el panorama mediático, introduciendo modelos comunicativos basados en la hiperpersonalización y la gamificación. El fenómeno del live-streaming, en plataformas líderes como Twitch, fusiona la información, el entretenimiento y la interacción social, posicionándose como un fenómeno sociocultural relevante en nuestros días. El objetivo de esta investigación es examinar el estado actual de la investigación científica internacional sobre Twitch y el fenómeno del live-streaming. A tal efecto, se ha llevado a cabo una revisión sistematizada de la literatura siguiendo el protocolo PRISMA 2020, en las bases de datos Scopus y WOS desde 2008 hasta 2023. Los resultados señalan un incremento de la producción científica especialmente a partir de 2019, reflejando el creciente interés que despierta este fenómeno. Los estudios se han centrado principalmente en la importancia de la interacción social y sus consecuencias tanto positivas como negativas, así como en la figura del streamer y en la influencia de la plataforma. El estudio concluye con la identificación de diversas áreas que merecen una mayor atención en futuras investigaciones para comprender la evolución del modelo comunicativo y su influencia extendida más allá del mundo de los videojuegos.",
-    "abstract_zh": "在线交流场景正在重塑媒体格局，引入了基于高度个性化和游戏化的交流模式。在Twitch等领先平台上，直播现象将信息、娱乐和社交互动融为一体，成为当今一个重要的社会文化现象。本研究的目的是探讨国际学术界对Twitch及直播现象的研究现状。为此，我们遵循PRISMA 2020协议，对2008年至2023年间Scopus和WOS数据库中的相关文献进行了系统梳理。研究结果表明，尤其是自2019年以来，相关学术产出显著增加，这反映了该现象日益受到关注。现有研究主要关注社交互动的重要性及其正面与负面影响，同时也探讨了主播的角色以及平台本身的影响力。研究最后指出了未来研究需要重点关注的几个领域，以便更深入地理解这种交流模式的演变及其在游戏领域之外的广泛影响。",
+    "abstract_zh": "在线交流场景正在重塑媒体格局，引入了基于高度个性化和游戏化的交流模式。在Twitch等领先平台上，直播现象将信息、娱乐和社交互动融为一体，成为当今一个重要的社会文化现象。本研究的目的是探讨国际学术界对Twitch及直播现象的研究现状。为此，我们遵循PRISMA 2020协议，对2008年至2023年间Scopus和WOS数据库中的相关文献进行了系统梳理。研究结果表明，尤其是自2019年以来，相关学术产出显著增加，这反映了该现象日益受到关注。现有研究主要关注社交互动的重要性及其正面与负面影响，同时也探讨了主播的角色以及平台本身的影响力。研究最后指出了未来研究需要重点关注的几个领域，以便更深入地理解这种交流模式的演变及其在电子游戏领域之外的广泛影响。",
     "summary": "通过PRISMA协议系统综述2008-2023年Twitch直播研究，发现该领域自2019年增长迅速，聚焦社交互动、主播角色及平台影响，并指出未来研究方向。",
     "reason": "选题直接涉及社交媒体平台Twitch的直播现象，符合计算传播领域议题，但方法为文献综述。",
     "tags": [
@@ -15349,7 +15421,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The (re)creation and distribution of cultural products such as music are increasingly shaped by digital platforms. This study explores how TikTok and Spotify, situated in different governance and user contexts, could influence digital music production and reception within each platform and between each other. Focusing on daily hit song charts as the embodiment of platformization, we collected and analyzed a two-year longitudinal dataset on TikTok and Spotify. We tested the relationships between elements of platformization and hit song popularity within each platform, and examined cross-platform influence flow. Results reveal significant differences in major label, genre, and content features among hit songs on TikTok and Spotify, which can be explained by their distinct platformization practices. We also found some evidence that hit song popularity on Spotify might precede that on TikTok. This study illustrates both the platform-specific mechanisms of TikTok and Spotify and their interconnectedness in the cultural production ecosystem.",
-    "abstract_zh": "音乐等文化产品的创作与传播越来越受到数字平台的影响。本研究探讨了TikTok和Spotify这两种处于不同治理结构和用户环境下的平台，如何分别影响其内部的数字音乐创作与传播，以及它们之间的相互影响。以每日热门歌曲排行榜作为平台化现象的体现，我们收集并分析了TikTok和Spotify两年间的纵向数据。我们研究了平台化因素与各平台内热门歌曲人气之间的关系，并考察了跨平台的影响力流动。研究结果表明，TikTok和Spotify上的热门歌曲在主流唱片公司、音乐类型和内容特征方面存在显著差异，这些差异可以归因于它们各自独特的平台化策略。我们还发现了一些证据，表明Spotify上的热门歌曲往往比TikTok上的更早走红。本研究不仅揭示了TikTok和Spotify各自的平台特定机制，还展示了它们在文化生产生态系统中的相互关联性。",
+    "abstract_zh": "音乐等文化产品的创作与传播越来越受到数字平台的影响。本研究探讨了TikTok和Spotify这两种处于不同治理结构和用户环境下的平台，如何影响各自平台内的数字音乐创作与传播，以及它们之间的相互影响。以每日热门歌曲排行榜作为平台化现象的体现，我们收集并分析了两年来TikTok和Spotify的数据。我们研究了平台化因素与各平台内热门歌曲人气之间的关系，并考察了跨平台的影响力流动。研究结果表明，TikTok和Spotify上的热门歌曲在主流唱片公司、音乐类型和内容特征方面存在显著差异，这些差异可以归因于它们各自独特的平台化策略。我们还发现了一些证据，表明Spotify上的热门歌曲往往比TikTok上的更早走红。本研究揭示了TikTok和Spotify各自独特的平台机制，以及它们在文化生产生态系统中的相互关联性。",
     "summary": "收集两平台日榜歌曲两年数据，分析平台化要素与流行度关系及跨平台影响，发现平台治理差异塑造音乐特征，Spotify热度可能先于TikTok。",
     "reason": "使用纵向大数据集和计算方法分析TikTok与Spotify平台化对音乐的影响，议题和方法均为计算传播学核心。",
     "tags": [
@@ -15384,7 +15456,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "As the phrase ‘no issue, no public’ signifies, attention to shared issues brings strangers together. The erosion of shared issue awareness threatens social consensus-building and democratic decision-making. In an era increasingly characterized by personalized news curation, understanding what fosters issue overlap between individuals becomes crucial. Using stochastic actor-oriented modeling with digital log data and survey data, we identified underlying mechanisms that lead to the formation of a shared-issue network and its interplay with personalized news curation during a presidential election – a period that increases political issue salience and likely catalyzes the formation of shared awareness. We examined how this likelihood unfolds differently by the level of involvement in politics. Our findings reveal that the likelihood of forming shared-issue relations increases over time through reduced susceptibility to ideological homophily, greater accumulation of political knowledge, and active manual filtering promoting genre-diverse news exposure. Notably, highly involved individuals diversified, rather than narrowed, their exposure as the election approached. The co-evolution dynamics between personalized news curation and shared issue relations further highlight the importance of diverse genre exposure for increasing issue overlap. Our findings show that general interests tend to develop into specialized interests across a wider array of issues, whereas specialized interests are less likely to broaden back into more general interests. This research extends scholarly discourse beyond individual-level news consumption to network-level issue-sharing dynamics. It provides implications for digital news platform designs and news literacy education, while enhancing our understanding of the evolving public discourse landscape shaped by both low-and-high involvement citizens.",
-    "abstract_zh": "正如“没有问题，就没有公众”这一说法所表明的那样，对共同问题的关注能够将陌生人联系在一起。然而，人们对共同问题的认识逐渐减弱，这威胁到了社会共识的建立和民主决策的过程。在当前这个以个性化新闻推荐为特征的时代，了解是什么因素促进了个体之间的共同问题意识变得至关重要。我们利用随机行为建模方法，结合数字日志数据和调查数据，揭示了在总统选举期间形成共同问题网络及其与个性化新闻推荐之间相互作用的背后机制——这一时期政治问题的重要性显著增加，可能促进了公众共同意识的形成。我们研究了这种共同问题意识形成的可能性如何因个人参与政治的程度而有所不同。研究发现，随着时间的推移，形成共同问题关系的可能性会增加：人们对意识形态同质性的敏感度降低，政治知识的积累增多，以及主动进行多样化新闻筛选的行为促进了不同类型新闻的接触。值得注意的是，高度参与政治的个体在选举临近时反而扩大了他们的信息来源范围，而不是缩小它。个性化新闻推荐与共同问题关系之间的共同演化动态进一步强调了多样化新闻接触对于增加问题共识的重要性。研究结果表明，一般性兴趣往往会发展成涉及更广泛议题的专门兴趣，而专门兴趣则不太可能再转变为更一般的兴趣。这项研究将学术讨论从个体层面的新闻消费扩展到了网络层面的问题共享动态。它为数字新闻平台的设计和新闻素养教育提供了启示，同时也加深了我们对公众话语格局演变的理解，这种格局受到低参与度和高参与度公民的共同影响。",
+    "abstract_zh": "正如“没有共同问题，就没有公众”这一说法所表明的那样，对共同问题的关注能够将陌生人联系在一起。然而，人们对共同问题的认识逐渐减弱，这威胁到了社会共识的建立和民主决策的过程。在当今这个个性化新闻推荐日益普遍的时代，了解是什么因素促进了个体之间在问题认知上的重叠变得至关重要。通过运用随机行为建模方法，并结合数字日志数据和调查数据，我们揭示了在总统选举期间形成共同问题网络及其与个性化新闻推荐之间相互作用的背后机制。这一时期政治问题的重要性显著增加，可能促进了公众对这些问题共同认知的形成。我们研究了这种共同认知形成的可能性如何因个人参与政治的程度而有所不同。研究发现，随着时间的推移，形成共同问题关系的可能性会增加：人们对意识形态同质性的敏感度降低，政治知识的积累增多，以及主动进行多样化新闻筛选的行为促进了不同类型新闻的接触。值得注意的是，高度参与政治的个体在选举临近时反而扩大了他们的信息来源范围，而不是将其限制在特定范围内。个性化新闻推荐与共同问题关系之间的共同演化动态进一步强调了多样化新闻接触对于促进问题认知重叠的重要性。研究结果表明，一般兴趣往往会发展成涉及更广泛议题的专门兴趣，而专门兴趣则不太可能再转变为更普遍的兴趣。这项研究将学术讨论从个体层面的新闻消费扩展到了网络层面的问题共享动态。它为数字新闻平台的设计和新闻素养教育提供了启示，同时也加深了我们对公众话语格局演变的理解——这种格局既受到低参与度公民的影响，也受到高参与度公民的影响。",
     "summary": "基于数字日志与调查数据，运用随机行动者模型探究选举期间个性化新闻策展与共享议题网络的形成机制，发现高涉入者的多样接触促进议题重叠。",
     "reason": "使用数字日志数据与随机行动者模型，研究个性化新闻策展对共享议题网络的影响，属计算传播研究。",
     "tags": [
@@ -15416,7 +15488,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Today, autocracies widely use information communication technologies as tools for digital repression and information control online. I build on the framework of digital repression and use principles of Russia’s disinformation dissemination and social network approaches to investigate the strategies that state and pro-government actors employ in digital communication spaces. Using a unique dataset, I investigate the activity of state and pro-government agents, in comparison to opposition and neutral actors, on the messaging app Telegram during the 2020–21 protests in Belarus and the 2022 anti-war protests in Russia. The results demonstrate that pro-government actors increase interconnectivity between their growing number of channels and become more consistent in how quickly they forward messages, suggesting a coordinated action. Such activities aim to increase the visibility – through forwarding and message multiplication – and acceptability – through the validity effect created by repeated exposure – of the information favorable to the regime and deny attention to opposition actors. The opposition actors in Belarus also demonstrate similar signs of coordination.",
-    "abstract_zh": "如今，专制政权广泛利用信息通信技术作为在线数字压制和信息控制的工具。我在数字压制框架的基础上，结合俄罗斯的虚假信息传播策略以及社交网络分析方法，研究了国家和亲政府势力在数字通信空间中采用的策略。通过使用独特的数据集，我对比了2020–2021年白俄罗斯抗议活动期间以及2022年俄罗斯反战抗议活动期间，国家和亲政府势力与反对派及中立势力在即时通讯应用Telegram上的活动情况。研究结果表明，亲政府势力加强了其众多渠道之间的互联互通性，并在信息转发速度上表现出更高的一致性，这表明他们的行动是协调一致的。此类活动的目的在于提高有利于政权的信息的可见度（通过信息转发和传播）及其可接受性（通过反复曝光所产生的“有效性效应”），同时忽视反对派的声音。白俄罗斯的反对派势力也显示出类似的协调迹象。",
+    "abstract_zh": "如今，专制政权广泛利用信息通信技术作为在线数字压制和信息控制的工具。我在数字压制框架的基础上，结合俄罗斯的虚假信息传播策略以及社交网络分析方法，研究了国家和亲政府势力在数字通信空间中采用的策略。通过使用独特的数据集，我对比了白俄罗斯2020–2021年抗议活动期间以及俄罗斯2022年反战抗议活动期间，国家和亲政府势力与反对派及中立势力在即时通讯应用Telegram上的活动情况。研究结果表明，亲政府势力加强了其众多渠道之间的互联互通性，并在信息转发速度上表现出更高的一致性，这表明他们的行动是协调一致的。此类活动的目的在于提高有利于政权的信息的可见度（通过信息转发和传播）和可接受度（通过反复曝光产生的“有效性效应”），同时忽视反对派的声音。白俄罗斯的反对派势力也显示出类似的协调迹象。",
     "summary": "研究利用Telegram数据，分析2020-21白俄罗斯和2022俄罗斯抗议期间亲政府渠道的协调活动，发现其通过转发网络增强信息可见性与可接受性。",
     "reason": "使用Telegram数据与网络分析方法识别亲政府渠道协调行为，属于计算传播研究。",
     "tags": [
@@ -15450,7 +15522,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This paper empirically analyses the way Russian, Iranian, Arab (Saudi, Emirati and Egyptian), and Chinese trolls targeted Canada with their Twitter campaigns, which often contained disinformation. The multimodal findings of this empirical study confirm that all these trolls promoted their respective countries and attacked Canada for its foreign policies that conflicted with their political agenda and geo-strategic interests, with the trolls only diverging in some areas. The more sophisticated trolls are found to be the Russian and Iranian ones due to their focus upon internal divisive issues in Canada.",
-    "abstract_zh": "本文通过实证分析研究了俄罗斯、伊朗、阿拉伯国家（沙特阿拉伯、阿联酋和埃及）以及中国的网络喷子如何利用Twitter发起针对加拿大的攻击活动，这些攻击活动通常包含虚假信息。这项实证研究的多模态分析结果证实，所有这些网络喷子都在宣扬各自国家的利益，并攻击加拿大的外交政策，因为这些政策与他们的政治议程和地缘战略利益相冲突；不过他们在某些具体策略上存在差异。其中，俄罗斯和伊朗的网络喷子表现得更为“高明”，因为他们更关注加拿大国内的分裂性问题。",
+    "abstract_zh": "本文通过实证研究分析了俄罗斯、伊朗、阿拉伯国家（沙特阿拉伯、阿联酋和埃及）以及中国的网络喷子如何利用Twitter发起针对加拿大的攻击活动，这些攻击活动通常包含虚假信息。这项实证研究的多模态分析结果证实，所有这些网络喷子都在宣扬各自国家的利益，并攻击加拿大的外交政策，因为这些政策与他们的政治议程和地缘战略利益相冲突；不过他们在某些具体策略上存在差异。其中，俄罗斯和伊朗的网络喷子表现得更为“高明”，因为他们更关注加拿大国内的分裂性问题。",
     "summary": "实证分析俄罗斯、伊朗、阿拉伯和中国trolls针对加拿大的推特运动，揭示其推广本国立场并攻击加拿大外交政策，俄伊trolls更关注内部分裂议题。",
     "reason": "研究推特trolls和虚假信息，属社交媒体与计算宣传领域，使用实证数据分析。",
     "tags": [
@@ -15487,7 +15559,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "As the widespread adoption of conversational artificial intelligence (AI) systems has raised concerns about social bias, especially towards vulnerable groups, this study explores how these systems respond to and regulate discriminatory content. Through a cross-lingual, cross-platform comparative analysis, this study systematically examines six leading conversational AI systems: ChatGPT, Gemini, Llama, Ernie Bot, ChatGLM, and Tongyi. Using a mixed-method approach, the study reveals that refusal sensitivity and answering strategies vary significantly across systems, languages, and topics. This paper provides new insights into the moderation strategies of conversational AI systems and introduces a framework for auditing AI content moderation concerning social discrimination.",
-    "abstract_zh": "随着对话式人工智能（AI）系统的广泛采用，人们开始担忧其可能存在的社会偏见，尤其是对弱势群体的偏见。本研究探讨了这些系统如何识别和应对歧视性内容。通过跨语言、跨平台的比较分析，系统地研究了六款主流的对话式AI系统：ChatGPT、Gemini、Llama、Ernie Bot、ChatGLM和Tongyi。采用混合方法进行研究后，发现不同系统在处理歧视性内容时的拒绝敏感性和回答策略存在显著差异。本文为对话式AI系统的内容审核策略提供了新的见解，并提出了一种用于评估AI内容在防止社会歧视方面表现的方法框架。",
+    "abstract_zh": "随着对话式人工智能（AI）系统的广泛采用，人们开始担忧其可能存在的社会偏见，尤其是对弱势群体的偏见。本研究探讨了这些系统如何识别和应对歧视性内容。通过跨语言、跨平台的比较分析，系统地研究了六款主流的对话式AI系统：ChatGPT、Gemini、Llama、Ernie Bot、ChatGLM和Tongyi。采用混合方法进行研究后，发现不同系统在处理歧视性内容时的拒绝敏感性和回答策略存在显著差异。本文为对话式AI系统的内容审核策略提供了新的见解，并提出了一种用于评估AI内容在社交歧视方面表现的评价框架。",
     "summary": "通过混合方法系统比较六种对话AI（如ChatGPT、Gemini等）在不同语言和平台上对歧视性内容的回应，揭示拒绝敏感性和回答策略差异，提出AI内容审核审计框架。",
     "reason": "研究对话AI系统对歧视性内容的治理，采用跨平台跨语言审计方法，属于计算传播领域。",
     "tags": [
@@ -15509,7 +15581,7 @@
   {
     "id": 1211,
     "title": "Twitter polarity and computational propaganda: the case of the Woman, Life, Freedom movement in Iran",
-    "title_zh": "Twitter上的两极分化与计算宣传：以伊朗的“妇女、生命、自由”运动为例",
+    "title_zh": "Twitter上的两极分化与计算传播：以伊朗的“妇女、生命、自由”运动为例",
     "authors": [
       "Masoumeh Mohajer Rahbari",
       "Philippe Blanchard",
@@ -15521,7 +15593,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Twitter/X has played a key role in the Iranian political landscape, particularly following the beginning of the Woman, Life, Freedom (WLF) movement, during which numerous users disseminated news of protest. By analyzing six distinct events that occurred before and after the start of the WLF movement, we investigate how this movement affected polarization in the Persian Twittersphere and what factors contributed to these changes. Employing a social network analysis and PageRank metric, we distinguish several clusters of users in each event. By tracing the evolution of the share of every cluster within the retweet network, we observe a transition from a polarized (pro-state versus anti-state) to a unipolar structure. We further analyze the Twitter corpus and find evidence suggesting that this observed shift was influenced by computational propaganda, especially orchestrated hashtag movements. This finding contradicts prior studies of Persian Twitter polarization. Our study contributes to understanding how Twitter/X can be used to manipulate public discourse, in Iran and beyond. It also provides novel insights into political polarization and how computational propaganda impacts it.",
-    "abstract_zh": "Twitter在伊朗的政治格局中发挥了关键作用，尤其是在“妇女、生命、自由”（WLF）运动开始之后。在该运动期间，大量用户传播了抗议活动的信息。通过分析WLF运动前后发生的六起事件，我们研究了这一运动如何影响波斯语Twitter用户群体的两极分化现象，以及导致这些变化的因素。我们运用社会网络分析和PageRank指标，将每起事件中的用户群体划分为不同的集群。通过追踪每个集群在转发网络中的传播情况，我们观察到从两极分化（支持政府与反对政府）向单极化结构的转变。进一步分析Twitter上的内容后，我们发现这种变化受到了计算宣传的影响，尤其是那些有组织的标签传播活动。这一发现与之前关于波斯语Twitter用户群体两极分化的研究结果相矛盾。我们的研究有助于理解Twitter如何被用来操纵公共舆论，不仅在伊朗，也在其他地区。同时，它也为政治两极分化现象及其受计算宣传影响的方式提供了新的见解。",
+    "abstract_zh": "Twitter在伊朗的政治格局中发挥了关键作用，尤其是在“妇女、生命、自由”（WLF）运动开始之后。在该运动期间，大量用户传播了抗议活动的信息。通过分析WLF运动前后发生的六起事件，我们研究了这一运动如何影响波斯语Twitter用户群体的两极分化现象，以及导致这些变化的因素。我们运用社会网络分析和PageRank指标，将每起事件中的用户群体划分为不同的集群。通过追踪每个集群在转发网络中的传播情况，我们观察到从两极分化（支持政府与反对政府）向单极化结构的转变。进一步分析Twitter上的内容后，我们发现这种变化受到了计算宣传的影响，尤其是那些有组织的标签传播活动。这一发现与之前关于波斯语Twitter两极分化的研究结果相矛盾。我们的研究有助于理解Twitter如何被用来操纵公共舆论，不仅在伊朗，也在其他地区。同时，它也为政治两极分化现象及其受计算宣传影响的方式提供了新的见解。",
     "summary": "通过分析伊朗WLF运动前后六个事件的波斯语推特转发网络，发现从两极结构转向单极结构，并证据表明该转变受计算宣传和操纵标签影响。",
     "reason": "使用Twitter数据、社交网络分析和PageRank研究政治极化与计算宣传，明确属于计算传播学。",
     "tags": [
@@ -15543,7 +15615,7 @@
   {
     "id": 1539,
     "title": "Tracking the Roots of Low News Usage on Smartphones – Do Individual Interests, Political Attitudes, and Media Consumption Habits Affect the Mobile News Use of Young Adults?",
-    "title_zh": "追踪智能手机上低频新闻使用的根源——个人兴趣、政治态度和媒体消费习惯是否影响年轻人的移动新闻使用行为？",
+    "title_zh": "追踪智能手机上低频新闻使用的根源——个人兴趣、政治态度和媒体消费习惯是否影响年轻人的移动新闻使用？",
     "authors": [
       "Morley Weston",
       "Daniel Vogler",
@@ -15561,7 +15633,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "While democratic opinion formation relies on citizens receiving vital information from the news, an increasing number of people consistently consume very little of it. To address this concern, we tracked the mobile news consumption of 382 young adults in Switzerland and combined it with survey data of the participants to determine the effect of topical interests, political attitudes, and media consumption habits on news usage. We found that interest in domestic politics was a strong predictor of news consumption. Additional predictors within our 18–25-year-old participant group were age and time spent online. These findings have implications for policymakers; fostering an informed citizenry may be more effective when targeting the underlying interest in politics rather than directly attempting to boost news use.",
-    "abstract_zh": "虽然民主舆论的形成依赖于公民从新闻中获取重要信息，但越来越多的人几乎不阅读或收听任何新闻。为了解决这一问题，我们追踪了瑞士382名年轻人的移动新闻消费情况，并将其与参与者的调查数据相结合，以研究兴趣主题、政治态度和媒体消费习惯对新闻使用的影响。研究发现，对国内政治的兴趣是预测新闻消费行为的强烈因素。在18至25岁的参与者群体中，年龄和上网时间也是影响新闻消费的重要因素。这些发现对政策制定者具有重要意义：要想培养有见识的公民，或许应该针对人们对政治的兴趣来进行引导，而不是直接试图增加他们的新闻消费量。",
+    "abstract_zh": "虽然民主舆论的形成依赖于公民从新闻中获取重要信息，但越来越多的人几乎不阅读或收听任何新闻。为了解决这一问题，我们追踪了瑞士382名年轻人的移动新闻消费情况，并将其与参与者的调查数据相结合，以研究兴趣主题、政治态度和媒体消费习惯对新闻使用的影响。研究发现，对国内政治的兴趣是预测新闻消费行为的强烈因素。在18至25岁的参与者群体中，年龄和上网时间也是影响新闻消费的重要因素。这些发现对政策制定者具有重要意义：要想培养有见识的公民，或许应该针对人们对政治的兴趣来进行引导，而不是直接试图增加他们的新闻阅读量。",
     "summary": "追踪382名瑞士青年的手机新闻使用，结合调查数据分析兴趣、政治态度和媒体习惯对新闻消费的影响，发现国内政治兴趣是强预测因子。",
     "reason": "使用手机数字追踪数据结合调查，研究新闻消费影响因素，属计算传播学。",
     "tags": [
@@ -15594,7 +15666,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study examines the dynamic journey of Over-The-Top (OTT) users as they transfer from light to heavy viewers, employing a Hidden Markov Model (HMM) approach to capture the evolving nature of viewer engagement. Unlike previous static analyses, we model the consumer learning process through which viewers discover their utility of OTT services and adjust their time allocation decisions. Analysis of three-year panel data from the Korean Media Panel survey reveals three distinct engagement states – light, moderate, and heavy viewers – with substantial transition probabilities between states. Service preferences (Netflix, YouTube, local OTT) and infrastructure factors (unlimited data plans, tablet ownership) significantly influence state transitions, while socio-demographic characteristics and motivational innovativeness dimensions affect viewing time differently across engagement states. Netflix preference shows stronger association with transitions to higher engagement states, while YouTube demonstrates better retention of heavy viewers. Age consistently predicts viewing time, while income and innovativeness dimensions exhibit complex patterns that vary between weekday and weekend viewing, reflecting different opportunity costs. These findings contribute to understanding the state-dependent nature of OTT consumption and provide implications for content strategy, platform competition, and customer retention in the evolving OTT market.",
-    "abstract_zh": "本文研究了OTT（Over-The-Top）用户的动态变化过程，特别是他们从轻度用户转变为重度用户的历程。研究采用了隐马尔可夫模型（Hidden Markov Model, HMM）来捕捉用户参与度的变化特征。与以往的静态分析方法不同，本文模型化了消费者的学习过程——即用户如何发现OTT服务的价值，并据此调整自己的时间分配决策。通过对韩国媒体调查（Korean Media Panel）中三年来的面板数据进行分析，研究发现用户存在三种不同的参与度状态：轻度用户、中度用户和重度用户，这些状态之间的转换概率相当高。服务偏好（如Netflix、YouTube、本地OTT平台）以及基础设施因素（如无限数据流量套餐、平板电脑拥有情况）对用户状态转换有显著影响；而社会人口统计特征和用户创新性因素则在不同参与度状态下对观看时间的影响各不相同。具体而言，用户对Netflix的偏好与向更高参与度状态的转变有更强的关联性，而YouTube在留住重度用户方面表现更为出色。年龄因素始终能够预测用户的观看时间，而收入和创新性因素则表现出复杂的模式，这种模式在工作日和周末的观看行为中存在差异，反映了不同的机会成本。这些发现有助于我们理解OTT消费的阶段性特征，并为内容策略、平台竞争以及客户留存策略提供了有益的启示，尤其是在不断发展的OTT市场中。",
+    "abstract_zh": "本文研究了Over-The-Top（OTT）用户的动态变化过程，特别是他们从轻度用户转变为重度用户的过程。研究采用了隐马尔可夫模型（HMM）来捕捉用户参与度的演变特征。与以往的静态分析不同，我们模拟了用户的学习过程，即用户如何发现OTT服务的价值并调整自己的时间分配决策。通过对韩国媒体调查（Korean Media Panel）中三年来的面板数据进行分析，我们发现了三种不同的用户参与度状态：轻度用户、中度用户和重度用户，并发现这些状态之间的转换概率相当高。服务偏好（如Netflix、YouTube、本地OTT平台）和基础设施因素（如无限数据套餐、平板电脑拥有情况）对用户状态的转换有显著影响；而社会人口统计特征和用户创新性因素则在不同参与度状态下对观看时间的影响各不相同。研究发现，对Netflix的偏好与用户向更高参与度状态的转变有更强的关联，而YouTube在留住重度用户方面表现更好。年龄因素始终能够预测用户的观看时间，而收入和创新性因素则表现出复杂的模式，这种模式在工作日和周末的观看行为中存在差异，反映了不同的机会成本。这些发现有助于我们理解OTT消费的阶段性特征，并为内容策略、平台竞争以及客户留存提供了有益的启示，尤其是在不断发展的OTT市场中。",
     "summary": "基于三年面板数据，用HMM建模OTT用户从轻度到重度观看的动态转换，揭示服务偏好与基础设施对状态转移的影响。",
     "reason": "使用Hidden Markov Model分析OTT用户行为动态，属于计算方法与数字平台议题。",
     "tags": [

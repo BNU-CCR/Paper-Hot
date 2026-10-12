@@ -1,0 +1,166 @@
+{
+  "topic_id": "topic_81f5e828",
+  "label": "平台政治暴露与民粹性别话语",
+  "description": "考察短视频等平台的政治内容暴露如何与民粹传播、性别议题及竞选信息策略相互交织。",
+  "why_hot": "近30天4篇，日均发表速度较前期提升约25%，覆盖7本期刊，热度温和上升。",
+  "hot_score": 65,
+  "growth": 0.25,
+  "growth_rate": 0.25,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.1067,
+  "recent_count": 4,
+  "baseline_count": 16,
+  "journal_count": 7,
+  "lineage_status": "drifted",
+  "status": "hot",
+  "keywords": [
+    "TikTok",
+    "political exposure",
+    "populist communication",
+    "gender",
+    "campaign messages"
+  ],
+  "papers": [
+    {
+      "id": 2116,
+      "title": "Does the TikTok Feed Lean Right? Exposure to Political Content Among Non-Partisan Users in Germany",
+      "journal": "Political Communication",
+      "published_date": "2026-10-05",
+      "summary": "研究在德国三场州选与2025联邦选举前，用118个自动化非党派账号审计TikTok推荐流（26.6万条视频），发现政治内容占5%–7%，且非党派用户更易接触极右翼AfD相关内容，该党账号量与爆款视频也更多。"
+    },
+    {
+      "id": 2111,
+      "title": "When Populism? Consistent and Opportunistic Populist Communication in the 2022 Brazilian Presidential Elections",
+      "journal": "Political Communication",
+      "published_date": "2026-10-01",
+      "summary": "基于2022年巴西大选九名候选人11,885条推文，用微调BERT分类器测量民粹主义话语与政策领域，发现民粹传播因候选人策略和议题而异，提出机会型与一致型民粹主义者类型学。"
+    },
+    {
+      "id": 2065,
+      "title": "When Movement Widens the Gap: The Contingent Effect of the Chinese #MeToo Movement on Feminist Attitudes",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-09-21",
+      "summary": "论文基于中国综合社会调查2010—2023年全国代表性数据，检验中国#MeToo运动对公众女性主义态度的影响，发现亲女性主义态度总体上升但沿性别身份与数字鸿沟呈现不均衡分化，提出社会技术权变框架解释运动的文化后果。"
+    },
+    {
+      "id": 2054,
+      "title": "Does Office Type Determine Gendered Campaign Messages?",
+      "journal": "Political Communication",
+      "published_date": "2026-09-18",
+      "summary": "研究考察候选人性别如何影响不同机构与层级下的竞选信息。基于2000-2022年韩国17次全国与地方选举中46,966份官方竞选手册，以关系性语言和女性相关政策词汇测量性别化信息。发现女性候选人更强调关系身份与女性政策议题，且性别差异在立法选举中大于行政选举，并随选举层级下沉而扩大。"
+    },
+    {
+      "id": 1952,
+      "title": "Generational warfare online? Social media use and intergroup attitudes in a national survey",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-20",
+      "summary": "利用美国全国调查数据（n=1,221），检验社交媒体使用与代际态度关联，发现总体关联微弱，平台特异性影响有限，讨论极端话语的可见性机制。"
+    },
+    {
+      "id": 1966,
+      "title": "Hierarchical barriers: how media-flow networks reproduce inequality on X",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-20",
+      "summary": "研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。"
+    },
+    {
+      "id": 1959,
+      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-18",
+      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
+    },
+    {
+      "id": 1934,
+      "title": "Affective Legitimacy and Digital Populism: Evidence from Romania’s Annulled Presidential Elections",
+      "journal": "Political Communication",
+      "published_date": "2026-08-13",
+      "summary": "研究罗马尼亚总统选举被取消后公众对宪法法院决策合法性的感知，基于调查数据发现TikTok使用、负面情绪和政治不信任增加非法性认知，并以媒体标题分析为补充。"
+    },
+    {
+      "id": 1940,
+      "title": "Multi-platform research in the light of technology affordances: networks of the far right in Germany",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-10",
+      "summary": "通过网络分析比较德国极右翼在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构，揭示平台技术可供性对网络模式的影响。"
+    },
+    {
+      "id": 1902,
+      "title": "Anti-Elitism Gets the Views: Populist Communication and Popularity on German Political YouTube",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-04",
+      "summary": "研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。"
+    },
+    {
+      "id": 1897,
+      "title": "Twitter Conversations: Gendered Issue Publics Among Women",
+      "journal": "Communication Research",
+      "published_date": "2026-08-03",
+      "summary": "利用2020和2022选举期间Twitter数据，分析性别与党派如何影响女性政治议题讨论，发现精英与非精英用户差异。"
+    },
+    {
+      "id": 13,
+      "title": "Social media, social identity, and the construction of perceived gender conflict: evidence from a national survey in South Korea",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
+    },
+    {
+      "id": 68,
+      "title": "Linking names with frames: the interplay of moral entities and moral frames in Chinese online gender debates",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-07",
+      "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
+    },
+    {
+      "id": 1941,
+      "title": "From Fringe to Power in the TikTok Age: Libertarian Ideology and Transgressive Performances in Milei’s ‘Populism Without the People’",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过分析米莱在TikTok的传播，结合文本、视觉和表演维度，发现其民粹主义缺少“人民”元素，且越轨表演带来更高互动。"
+    },
+    {
+      "id": 253,
+      "title": "No time or tech for online news: How social and digital inequalities contribute to gender gaps in online news consumption",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-29",
+      "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
+    },
+    {
+      "id": 256,
+      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-15",
+      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
+    },
+    {
+      "id": 85,
+      "title": "Latent communicative figurations: mapping quasi-visible strategic relational structures on Facebook",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-13",
+      "summary": "本文提出潜在传播构型概念，利用Facebook可再生能源相关品牌帖子构建双模网络，揭示战略伙伴与页面间的隐性关系，并探讨平台逻辑对新闻媒体角色的影响。"
+    },
+    {
+      "id": 87,
+      "title": "The viral gender antagonism on social media: examining the role of multimodal framing and gender identity",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-11",
+      "summary": "研究基于微博22,925条帖子和115万条评论，运用广义线性混合模型分析多模态框架和性别身份对性别对抗性话语的影响，发现煽情化和个性化框架加剧对抗，娱乐化框架减弱对抗，且性别动态具有调节作用。"
+    },
+    {
+      "id": 258,
+      "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-05",
+      "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
+    },
+    {
+      "id": 218,
+      "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
+      "journal": "Political Communication",
+      "published_date": "2026-05-27",
+      "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
+    }
+  ],
+  "paper_edges": []
+}

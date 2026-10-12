@@ -1,23 +1,24 @@
 {
   "topic_id": "topic_997f19cf",
   "label": "网络极端主义与仇恨言论治理",
-  "description": "聚焦平台对极端主义内容的审核困境，以及反击言论与准确性提示对目标群体的作用。",
-  "why_hot": "近30天日均发表速度较前期下降约三成，研究热度有所回落。",
-  "hot_score": 43,
-  "growth": -0.286,
-  "growth_rate": -0.286,
+  "description": "关注网络极端主义内容的内容审核困境，以及反言论与准确性提示对受攻击群体的作用。",
+  "why_hot": "近30天2篇，日均发表速度较前期下降约41%，研究热度有所降温。",
+  "hot_score": 39,
+  "growth": -0.412,
+  "growth_rate": -0.412,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.0933,
+  "baseline_rate": 0.1133,
   "recent_count": 2,
-  "baseline_count": 14,
-  "journal_count": 5,
+  "baseline_count": 17,
+  "journal_count": 6,
   "lineage_status": "continued",
   "status": "emerging",
   "keywords": [
+    "online extremism",
     "hate speech",
     "content moderation",
     "counter-speech",
-    "online extremism"
+    "collective action"
   ],
   "papers": [
     {
@@ -33,6 +34,20 @@
       "journal": "Communication Research",
       "published_date": "2026-09-29",
       "summary": "基于社会认同集体行动模型（SIMCA），通过两项实验（穆斯林 N=328、拉丁裔 N=583）检验网络仇恨言论对少数群体集体行动意向的影响机制与边界条件，发现仇恨言论经由群体不公感提升集体行动意向，信息被标记为不准确或反驳言论可调节该效应。"
+    },
+    {
+      "id": 2025,
+      "title": "The Language of Democratic Resilience and Decline: A Comparative Study of Politicians’ Communication on Facebook in Sweden and Hungary",
+      "journal": "Political Communication",
+      "published_date": "2026-09-11",
+      "summary": "比较瑞典与匈牙利政客在 Facebook 上的传播语言，探讨民主韧性与衰退的话语特征，属社交媒体政治传播的比较研究。"
+    },
+    {
+      "id": 1991,
+      "title": "Creator-led political satire on TikTok: youth expression in post-election Indonesia",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-09-05",
+      "summary": "通过定性数字话语分析25集TikTok讽刺课堂视频，探讨印尼大选后青年政治表达和平台化政治批判。"
     },
     {
       "id": 1968,
@@ -63,11 +78,25 @@
       "summary": "通过对24位大学教授的访谈，探讨学者作为数字仇恨目标对施害者和旁观者的感知，强调权力失衡与战略挑衅，发现旁观者干预不足，需集体应对。"
     },
     {
+      "id": 1935,
+      "title": "Kamala is Brat: TikTok and the Affective Politics of Memes",
+      "journal": "Political Communication",
+      "published_date": "2026-08-12",
+      "summary": "研究TikTok上“Kamala is Brat”迷因的形式、功能与情感共鸣，分析创作者如何重构哈里斯形象，揭示平台迷因文化作为选举中介机制。"
+    },
+    {
       "id": 250,
       "title": "Integrating corrective action theory into the social identity model of collective action to explain U.S. Latinos/as’ social media political expression",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-07-05",
       "summary": "研究整合SIMCA与纠正行动理论，基于995名美国拉丁裔调查数据，考察集体效能、群体认同和社交媒体新闻接触对集体表达的影响。"
+    },
+    {
+      "id": 1943,
+      "title": "Make Campaigns Dance Again: The Trumpdance and the Memeaesthetic Logic of TikTok",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究特朗普YMCA舞蹈在TikTok上的传播，基于API采集6799个视频，分析参与模式与算法可见性，提出迷因美学逻辑。"
     },
     {
       "id": 2026,
@@ -124,13 +153,6 @@
       "journal": "Journal of Computer-Mediated Communication",
       "published_date": "2026-04-23",
       "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
-    },
-    {
-      "id": 125,
-      "title": "Social media platforms and the spreading of hate speech targeting sexual and gender minorities: a scoping review",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-11",
-      "summary": "通过范围综述和BERTopic主题建模，系统梳理了145篇研究，分析不同社交媒体平台特性（内容模态、可供性）与针对性少数群体仇恨言论传播的关系，发现Twitter/X研究最多，文本内容为主，并呼吁关注视觉内容与平台动态。"
     }
   ],
   "paper_edges": []

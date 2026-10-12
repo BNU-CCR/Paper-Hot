@@ -1,32 +1,39 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式人工智能与传播研究",
-  "description": "探讨生成式人工智能作为新行动者与工具，如何影响叙事建构、情感表达及健康与战略传播效果。",
-  "why_hot": "近30天日均发表速度较前期略升约8%，新作8篇，研究热度稳中有升。",
-  "hot_score": 73,
-  "growth": 0.081,
-  "growth_rate": 0.081,
+  "label": "生成式AI的传播角色与信任",
+  "description": "关注生成式AI作为新兴传播行动者的角色定位，以及公众对AI权威、AI生成内容与算法决策的感知与信任。",
+  "why_hot": "近30天8篇，日均发表速度较前期提升约25%，覆盖8本期刊，研究热度小幅升温。",
+  "hot_score": 77,
+  "growth": 0.25,
+  "growth_rate": 0.25,
   "recent_rate": 0.2667,
-  "baseline_rate": 0.2467,
+  "baseline_rate": 0.2133,
   "recent_count": 8,
-  "baseline_count": 37,
-  "journal_count": 9,
+  "baseline_count": 32,
+  "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "generative AI",
-    "AI authorship",
-    "emotional tone",
-    "health communication",
+    "algorithmic authority",
+    "AI-generated images",
+    "trust",
     "strategic communication"
   ],
   "papers": [
     {
-      "id": 2110,
-      "title": "How Artificial Intelligence Shapes Human Narratives",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-09-30",
-      "summary": "论文提出“叙事能动性”的心理学解释，刻画人类群体在数字情境中如何学习、传播与影响叙事，并据此讨论AI模型（如写作、在线共识形成）如何通过人的叙事能动性影响结果，主张围绕维护叙事能动性来设计人机系统。"
+      "id": 2127,
+      "title": "Algorithmic authority in Spain: relative deprivation, hierarchy, and support for AI rule",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-10",
+      "summary": "论文考察西班牙公众对AI统治（算法权威）的支持度，以相对剥夺感与等级观念作为解释变量，属AI政治合法性与公众态度的实证研究。"
+    },
+    {
+      "id": 2129,
+      "title": "Seeing Is Believing? Most People Struggle to Detect AI-Generated Images",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "通过预注册调查实验，检验人们辨别AI生成图像与真实照片的能力。发现人们平均仅相当于随机猜测，仅25岁以下年轻人、分析型思维者及AI熟练用户表现较好，且图像情境不影响辨别信心。"
     },
     {
       "id": 2081,
@@ -99,13 +106,6 @@
       "summary": "通过WPR方法分析三种AI叙事（存在风险、加速主义、批判AI）构建的Policy Umwelt，揭示其限制治理选项的认知框架。"
     },
     {
-      "id": 1945,
-      "title": "From Ally – Enemy Conflict to Emotional Communion: Exploring an Attitudinal Ambivalence Toward Emotional Artificial Intelligence",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-08-11",
-      "summary": "基于911名中国用户调查，探究感知情感能力通过自我披露影响对对话AI的态度矛盾，并提出情感共融效应。"
-    },
-    {
       "id": 65,
       "title": "Socioeconomic and digital divides in public support for AI-driven welfare decisions: cross-national evidence from 21 countries",
       "journal": "Information Communication & Society",
@@ -125,13 +125,6 @@
       "journal": "Communication Research Reports",
       "published_date": "2026-07-05",
       "summary": "通过在线实验比较AI与人类健康信息的说服效果，发现AI来源降低感知相似性、可信度及信息有效性，验证了相似性中介机制。"
-    },
-    {
-      "id": 1905,
-      "title": "Anthropomorphizing AI: Perceptions, Interpretations, and the Humanization of Generative AI",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过Twitter数据分析用户如何拟人化ChatGPT，识别出人格化、情感归因等五类拟人化形式，探讨社交媒体对拟人化叙事的形塑及其对信任和传播的影响。"
     },
     {
       "id": 402,
@@ -190,13 +183,6 @@
       "summary": "基于社会风险放大框架和机器启发式概念，调查1038名中国GenAI健康信息用户，发现社交媒体关注降低风险感知，幻觉风险影响态度和使用意愿，机器启发式起调节作用。"
     },
     {
-      "id": 409,
-      "title": "The Power of AI Transparency, Rewards, and Tracking: How Mobile App Features Drive the Adoption of Smart Trash Bins Through Trust and Perceived Value",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-22",
-      "summary": "基于助推理论与SOR框架，通过在线实验检验AI透明度、奖励和追踪功能对智能垃圾桶采纳意愿的影响，发现信任和感知价值的中介作用及交互效应。"
-    },
-    {
       "id": 81,
       "title": "Italians’ attitudes towards AI: how technology issues travel across social conversation",
       "journal": "Information Communication & Society",
@@ -209,13 +195,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-06-08",
       "summary": "文章探讨AI时代事实核查作为新闻框架的实践，提出挑战、线索、覆盖和文化四原则，属理论性研究。"
-    },
-    {
-      "id": 412,
-      "title": "Effects of Generative AI Bias on Adoption Through Trust: Interactions Between Engagement Cues, Information Cues, and Social Norms",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-07",
-      "summary": "通过在线实验探究AI偏见认知对采纳意愿的影响，发现偏见体验、偏见提示与社会规范三重交互影响AI信任，进而影响采纳。"
     },
     {
       "id": 413,
@@ -321,13 +300,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-04-20",
       "summary": "通过N=393的在线实验，操纵AI使用披露方式（不披露、简单披露、详细披露、第三方披露），发现详细披露提升感知透明度和可信度，第三方披露未披露的AI使用会损害可信度和错误信息纠正效果。"
-    },
-    {
-      "id": 638,
-      "title": "Machine agency attribution in human–AI interaction: developing and validating an analytical framework",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-04-17",
-      "summary": "论文提出并验证了人-AI互动中机器能动性归因的三阶段分析框架，通过两项调查和一项实验揭示感知、推断与评价阶段的关系，深化对AI代理机制的理解。"
     }
   ],
   "paper_edges": []
