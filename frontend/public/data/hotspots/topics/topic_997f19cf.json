@@ -1,26 +1,54 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "网络极端主义与仇恨言论治理",
-  "description": "关注网络极端主义内容的内容审核困境，以及反言论与准确性提示对受攻击群体的作用。",
-  "why_hot": "近30天2篇，日均发表速度较前期下降约41%，研究热度有所降温。",
-  "hot_score": 39,
-  "growth": -0.412,
-  "growth_rate": -0.412,
-  "recent_rate": 0.0667,
-  "baseline_rate": 0.1133,
-  "recent_count": 2,
-  "baseline_count": 17,
-  "journal_count": 6,
+  "label": "平台极化与网络极端主义",
+  "description": "考察社交平台信息流如何助推极化、极端话语与仇恨言论的传播及其治理难题。",
+  "why_hot": "近30天日均发表速度约为前期的1.9倍，升温明显，覆盖7本期刊。",
+  "hot_score": 80,
+  "growth": 0.875,
+  "growth_rate": 0.875,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.1067,
+  "recent_count": 6,
+  "baseline_count": 16,
+  "journal_count": 7,
   "lineage_status": "continued",
-  "status": "emerging",
+  "status": "hot",
   "keywords": [
-    "online extremism",
+    "polarization",
+    "extremism",
     "hate speech",
-    "content moderation",
-    "counter-speech",
-    "collective action"
+    "radicalism",
+    "content moderation"
   ],
   "papers": [
+    {
+      "id": 2146,
+      "title": "Hearts for hating Activists: how far-right actors dominate polarized TikTok debates on climate protest",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-11",
+      "summary": "研究自动转录1700条德国政客TikTok视频及5.3万条评论，结合大模型框架分类、立场检测与网络分析，比较气候运动、改革派与破坏性抗议讨论的极化程度，发现极右翼政客主导对抗性网络并从极化中获益。"
+    },
+    {
+      "id": 2128,
+      "title": "From feeds to fury: how social media news use fuels radicalism and contentious politics",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-08",
+      "summary": "基于美国成年人配额在线样本（N=760）调查，检验社交媒体政治新闻接触如何经由左右翼激进主义与系统性受害者感知，影响争议性政治参与及政治暴力支持。"
+    },
+    {
+      "id": 2116,
+      "title": "Does the TikTok Feed Lean Right? Exposure to Political Content Among Non-Partisan Users in Germany",
+      "journal": "Political Communication",
+      "published_date": "2026-10-05",
+      "summary": "研究在德国三场州选与2025联邦选举前，用118个自动化非党派账号审计TikTok推荐流（26.6万条视频），发现政治内容占5%–7%，且非党派用户更易接触极右翼AfD相关内容，该党账号量与爆款视频也更多。"
+    },
+    {
+      "id": 2111,
+      "title": "When Populism? Consistent and Opportunistic Populist Communication in the 2022 Brazilian Presidential Elections",
+      "journal": "Political Communication",
+      "published_date": "2026-10-01",
+      "summary": "基于2022年巴西大选九名候选人11,885条推文，用微调BERT分类器测量民粹主义话语与政策领域，发现民粹传播因候选人策略和议题而异，提出机会型与一致型民粹主义者类型学。"
+    },
     {
       "id": 2097,
       "title": "Safe havens for hate: the challenge of moderating online extremism",
@@ -34,20 +62,6 @@
       "journal": "Communication Research",
       "published_date": "2026-09-29",
       "summary": "基于社会认同集体行动模型（SIMCA），通过两项实验（穆斯林 N=328、拉丁裔 N=583）检验网络仇恨言论对少数群体集体行动意向的影响机制与边界条件，发现仇恨言论经由群体不公感提升集体行动意向，信息被标记为不准确或反驳言论可调节该效应。"
-    },
-    {
-      "id": 2025,
-      "title": "The Language of Democratic Resilience and Decline: A Comparative Study of Politicians’ Communication on Facebook in Sweden and Hungary",
-      "journal": "Political Communication",
-      "published_date": "2026-09-11",
-      "summary": "比较瑞典与匈牙利政客在 Facebook 上的传播语言，探讨民主韧性与衰退的话语特征，属社交媒体政治传播的比较研究。"
-    },
-    {
-      "id": 1991,
-      "title": "Creator-led political satire on TikTok: youth expression in post-election Indonesia",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-09-05",
-      "summary": "通过定性数字话语分析25集TikTok讽刺课堂视频，探讨印尼大选后青年政治表达和平台化政治批判。"
     },
     {
       "id": 1968,
@@ -78,11 +92,18 @@
       "summary": "通过对24位大学教授的访谈，探讨学者作为数字仇恨目标对施害者和旁观者的感知，强调权力失衡与战略挑衅，发现旁观者干预不足，需集体应对。"
     },
     {
-      "id": 1935,
-      "title": "Kamala is Brat: TikTok and the Affective Politics of Memes",
+      "id": 1934,
+      "title": "Affective Legitimacy and Digital Populism: Evidence from Romania’s Annulled Presidential Elections",
       "journal": "Political Communication",
-      "published_date": "2026-08-12",
-      "summary": "研究TikTok上“Kamala is Brat”迷因的形式、功能与情感共鸣，分析创作者如何重构哈里斯形象，揭示平台迷因文化作为选举中介机制。"
+      "published_date": "2026-08-13",
+      "summary": "研究罗马尼亚总统选举被取消后公众对宪法法院决策合法性的感知，基于调查数据发现TikTok使用、负面情绪和政治不信任增加非法性认知，并以媒体标题分析为补充。"
+    },
+    {
+      "id": 1902,
+      "title": "Anti-Elitism Gets the Views: Populist Communication and Popularity on German Political YouTube",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-04",
+      "summary": "研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。"
     },
     {
       "id": 250,
@@ -92,11 +113,11 @@
       "summary": "研究整合SIMCA与纠正行动理论，基于995名美国拉丁裔调查数据，考察集体效能、群体认同和社交媒体新闻接触对集体表达的影响。"
     },
     {
-      "id": 1943,
-      "title": "Make Campaigns Dance Again: The Trumpdance and the Memeaesthetic Logic of TikTok",
+      "id": 1941,
+      "title": "From Fringe to Power in the TikTok Age: Libertarian Ideology and Transgressive Performances in Milei’s ‘Populism Without the People’",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "研究特朗普YMCA舞蹈在TikTok上的传播，基于API采集6799个视频，分析参与模式与算法可见性，提出迷因美学逻辑。"
+      "summary": "通过分析米莱在TikTok的传播，结合文本、视觉和表演维度，发现其民粹主义缺少“人民”元素，且越轨表演带来更高互动。"
     },
     {
       "id": 2026,

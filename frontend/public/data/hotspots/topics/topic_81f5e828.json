@@ -1,39 +1,32 @@
 {
   "topic_id": "topic_81f5e828",
-  "label": "平台政治暴露与民粹性别话语",
-  "description": "考察短视频等平台的政治内容暴露如何与民粹传播、性别议题及竞选信息策略相互交织。",
-  "why_hot": "近30天4篇，日均发表速度较前期提升约25%，覆盖7本期刊，热度温和上升。",
-  "hot_score": 65,
+  "label": "平台性别议题与话语争议",
+  "description": "聚焦性别身份、女权态度及相关争议在社交平台上的话语建构与传播效应。",
+  "why_hot": "近30天日均发表速度较前期上升25%，覆盖9本期刊，热度温和上升。",
+  "hot_score": 74,
   "growth": 0.25,
   "growth_rate": 0.25,
-  "recent_rate": 0.1333,
-  "baseline_rate": 0.1067,
-  "recent_count": 4,
-  "baseline_count": 16,
-  "journal_count": 7,
-  "lineage_status": "drifted",
+  "recent_rate": 0.2333,
+  "baseline_rate": 0.1867,
+  "recent_count": 7,
+  "baseline_count": 28,
+  "journal_count": 9,
+  "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "TikTok",
-    "political exposure",
-    "populist communication",
-    "gender",
-    "campaign messages"
+    "gender identity",
+    "feminist attitudes",
+    "digital discourse",
+    "social media debate",
+    "misinformation"
   ],
   "papers": [
     {
-      "id": 2116,
-      "title": "Does the TikTok Feed Lean Right? Exposure to Political Content Among Non-Partisan Users in Germany",
-      "journal": "Political Communication",
-      "published_date": "2026-10-05",
-      "summary": "研究在德国三场州选与2025联邦选举前，用118个自动化非党派账号审计TikTok推荐流（26.6万条视频），发现政治内容占5%–7%，且非党派用户更易接触极右翼AfD相关内容，该党账号量与爆款视频也更多。"
-    },
-    {
-      "id": 2111,
-      "title": "When Populism? Consistent and Opportunistic Populist Communication in the 2022 Brazilian Presidential Elections",
-      "journal": "Political Communication",
-      "published_date": "2026-10-01",
-      "summary": "基于2022年巴西大选九名候选人11,885条推文，用微调BERT分类器测量民粹主义话语与政策领域，发现民粹传播因候选人策略和议题而异，提出机会型与一致型民粹主义者类型学。"
+      "id": 2145,
+      "title": "(In)congruent synergies? Discursive boundary-spanning between the Italian anti-gender galaxy and anti-trans groups",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-12",
+      "summary": "论文研究意大利反性别与反跨性别群体在社交媒体上的话语结盟，采集 2021–2023 年 22 个行动者的 Facebook/Instagram 帖文，用主题模型、计算化框架语义语法与质性框架分析，揭示跨部门话语趋同及其脆弱性与保留的意识形态分歧。"
     },
     {
       "id": 2065,
@@ -43,11 +36,46 @@
       "summary": "论文基于中国综合社会调查2010—2023年全国代表性数据，检验中国#MeToo运动对公众女性主义态度的影响，发现亲女性主义态度总体上升但沿性别身份与数字鸿沟呈现不均衡分化，提出社会技术权变框架解释运动的文化后果。"
     },
     {
+      "id": 2066,
+      "title": "Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-09-21",
+      "summary": "研究采集2024巴黎奥运会期间X平台35676条帖子，用Tweet Binder与NLP情感分析考察伊曼·哈利夫参赛引发的性别认同与公平性争论，发现正负帖量接近但负面内容曝光量翻倍，公众人物放大争议，虚假信息助推简化叙事。"
+    },
+    {
+      "id": 2049,
+      "title": "Generational differences in responses to disinformation: from ‘vulnerability’ to interpretive strategies",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-19",
+      "summary": "论文考察不同代际群体对虚假信息的回应方式，主张从'易感性'视角转向'解释性策略'视角。因无摘要，具体方法与数据不详，推测基于访谈或定性受众分析。"
+    },
+    {
       "id": 2054,
       "title": "Does Office Type Determine Gendered Campaign Messages?",
       "journal": "Political Communication",
       "published_date": "2026-09-18",
       "summary": "研究考察候选人性别如何影响不同机构与层级下的竞选信息。基于2000-2022年韩国17次全国与地方选举中46,966份官方竞选手册，以关系性语言和女性相关政策词汇测量性别化信息。发现女性候选人更强调关系身份与女性政策议题，且性别差异在立法选举中大于行政选举，并随选举层级下沉而扩大。"
+    },
+    {
+      "id": 2052,
+      "title": "The few, the loud: platform-mediated articulation of conspiratorial discourse by political elites on X and Facebook",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-17",
+      "summary": "论文识别比利时、芬兰、波兰三国政治精英中的“阴谋论企业家”，基于 702 条人工标注帖文，用梯度阈值分析与逻辑回归考察其意识形态特征、跨平台差异及互动效果，发现阴谋论话语主要由少数极右政客驱动，Facebook 偏完整叙事、X 偏碎片化表达。"
+    },
+    {
+      "id": 2033,
+      "title": "Weapon and poison? Framing disinformation in European Commission Speeches, 2016–2024",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-16",
+      "summary": "分析2016至2024年欧盟委员会238篇演讲，运用主题模型、文本社群检测与质性内容分析，揭示其对虚假信息的自我免责与宿命论框架：将虚假信息自然化为技术必然，责任外化至敌对国家、坏行为者与平台，并以战争与传染隐喻推行平台治理、检测下架与媒介素养政策，2023-24年转向AI放大议题。"
+    },
+    {
+      "id": 1989,
+      "title": "From #StayWoke to “Culture Wars”: How Social Justice Discourse is Separately and Synergistically Politicized on Twitter and YouTube",
+      "journal": "Political Communication",
+      "published_date": "2026-08-31",
+      "summary": "利用Twitter和YouTube 2012-2022数据，分析“woke”话语如何被政治化，比较平台差异及跨平台协调传播。"
     },
     {
       "id": 1952,
@@ -64,18 +92,11 @@
       "summary": "研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。"
     },
     {
-      "id": 1959,
-      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-08-18",
-      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
-    },
-    {
-      "id": 1934,
-      "title": "Affective Legitimacy and Digital Populism: Evidence from Romania’s Annulled Presidential Elections",
+      "id": 1936,
+      "title": "Policing the Political Boundary: How the r/BarstoolSports Audience Confronts Politicization",
       "journal": "Political Communication",
-      "published_date": "2026-08-13",
-      "summary": "研究罗马尼亚总统选举被取消后公众对宪法法院决策合法性的感知，基于调查数据发现TikTok使用、负面情绪和政治不信任增加非法性认知，并以媒体标题分析为补充。"
+      "published_date": "2026-08-12",
+      "summary": "通过批判性话语分析2019-2025年Barstool Sports子版块16个帖子，提出\"反政治空间\"概念，探讨粉丝如何区分流行文化与制度政治，对抗政治化。"
     },
     {
       "id": 1940,
@@ -83,13 +104,6 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-08-10",
       "summary": "通过网络分析比较德国极右翼在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构，揭示平台技术可供性对网络模式的影响。"
-    },
-    {
-      "id": 1902,
-      "title": "Anti-Elitism Gets the Views: Populist Communication and Popularity on German Political YouTube",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-08-04",
-      "summary": "研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。"
     },
     {
       "id": 1897,
@@ -106,6 +120,41 @@
       "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
     },
     {
+      "id": 56,
+      "title": "The echoes from social media: modeling how filter bubbles and network structure shape echo chamber emergence",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-27",
+      "summary": "通过agent-based模型整合社交网络与意见动态，模拟不同同质性和选择性暴露条件下回音室的形成，发现信息暴露显著影响回音室涌现，而算法过滤不一定保证其持续。"
+    },
+    {
+      "id": 204,
+      "title": "Networked Counterpublics and Contentious Publicity: A Cross-Platform Analysis of QAnon on Parler and Twitter",
+      "journal": "Political Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于affordance理论，跨平台分析QAnon在Parler和Twitter上2018-2021年的可见性、关联性和持续性实践，探讨极端网络反公众的身份建构与公共竞争动态。"
+    },
+    {
+      "id": 205,
+      "title": "Common Identities and Political Talk: Evaluating Cross-Cutting Political Discussions in Sports Communities on Reddit",
+      "journal": "Political Communication",
+      "published_date": "2026-07-23",
+      "summary": "通过计算分析比较Reddit政治与体育社区中跨党派政治讨论的数量、语气和内容，发现体育社区更促进跨党派讨论，但毒性水平无显著差异。"
+    },
+    {
+      "id": 57,
+      "title": "Everyday feminist tagging as techno-rhetorical strategy: interference and curation through Instagram hashtags in #Kvinnostrejk",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-22",
+      "summary": "研究瑞典女性主义倡议#Kvinnostreik的日常标签实践，提出技术修辞策略概念，分析标签如何影响可见性并串联叙事，属数字文化研究。"
+    },
+    {
+      "id": 207,
+      "title": "Studying Propaganda as a Social Process",
+      "journal": "Political Communication",
+      "published_date": "2026-07-22",
+      "summary": "论文主张将虚假信息置于更广泛的宣传社会过程中研究，提出关注宣传的反民主目标，并勾勒未来研究议程，属理论性干预文章。"
+    },
+    {
       "id": 68,
       "title": "Linking names with frames: the interplay of moral entities and moral frames in Chinese online gender debates",
       "journal": "Information Communication & Society",
@@ -113,11 +162,32 @@
       "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
     },
     {
-      "id": 1941,
-      "title": "From Fringe to Power in the TikTok Age: Libertarian Ideology and Transgressive Performances in Milei’s ‘Populism Without the People’",
+      "id": 613,
+      "title": "Exploring the forces driving ChatGPT diffusion on X: An integrated theoretical perspective",
+      "journal": "Global Media and Communication",
+      "published_date": "2026-07-02",
+      "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
+    },
+    {
+      "id": 281,
+      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "通过分析米莱在TikTok的传播，结合文本、视觉和表演维度，发现其民粹主义缺少“人民”元素，且越轨表演带来更高互动。"
+      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
+    },
+    {
+      "id": 284,
+      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
+    },
+    {
+      "id": 1904,
+      "title": "Revisiting the Communication Mediation Model in the Age of Social Media: Longitudinal Evidence From Climate Misinformation Responses in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于中国三波面板调查，检验社交媒体时代传播中介模型，发现媒体关注通过人际讨论影响气候错误信息纠正行为，且具有同时性。"
     },
     {
       "id": 253,
@@ -148,6 +218,13 @@
       "summary": "研究基于微博22,925条帖子和115万条评论，运用广义线性混合模型分析多模态框架和性别身份对性别对抗性话语的影响，发现煽情化和个性化框架加剧对抗，娱乐化框架减弱对抗，且性别动态具有调节作用。"
     },
     {
+      "id": 215,
+      "title": "Evaluating Echo Chambers, Rabbit Holes, and Radicalization Pathways on YouTube",
+      "journal": "Political Communication",
+      "published_date": "2026-06-10",
+      "summary": "通过估计YouTube视频意识形态和原创审计设计，发现用户处于轻度意识形态回音室，推荐算法产生内容兔子洞，但未发现激进路径，算法倾向推荐温和保守内容。"
+    },
+    {
       "id": 258,
       "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
       "journal": "Journal of Information Technology & Politics",
@@ -160,6 +237,34 @@
       "journal": "Political Communication",
       "published_date": "2026-05-27",
       "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
+    },
+    {
+      "id": 97,
+      "title": "Integrating farmers markets into a communication infrastructure model: the moderating role of physical community spaces for civic engagement",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-25",
+      "summary": "基于全国调查数据，考察不同传播渠道对公民参与的影响，并探讨农贸市场作为物理空间的调节作用，发现社交媒体平台效应各异。"
+    },
+    {
+      "id": 376,
+      "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-05-08",
+      "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
+    },
+    {
+      "id": 108,
+      "title": "Bridging disinformation and cybersecurity in the social sciences: a scoping review",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-04",
+      "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
+    },
+    {
+      "id": 182,
+      "title": "“Liar, Liar, Pants on Fire!” An Automated Analysis of Polarities of Mediated Truth Contestation in Austrian and Czech News Media",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-04-30",
+      "summary": "本文分析奥地利和捷克新闻媒体中关于移民报道的真相争议，基于16万篇新闻文章，使用自动化内容分析和命名实体识别，探讨媒体类型和政治背景对真伪表述的影响。"
     }
   ],
   "paper_edges": []

@@ -1,15 +1,15 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "社交媒体情绪与资本市场信息",
-  "description": "考察社交媒体情绪、网络舆论操纵与投资者行为如何影响股价信息含量与市场信息环境。",
-  "why_hot": "近30天2篇，日均发表速度较前期提升约11%，覆盖4本期刊，热度大致持平。",
-  "hot_score": 55,
-  "growth": 0.111,
-  "growth_rate": 0.111,
+  "label": "社交媒体情绪与资本市场",
+  "description": "研究网络舆论操纵与社交媒体情绪如何影响投资者行为、股价信息含量与市场效率。",
+  "why_hot": "近30天日均发表速度与前期持平，覆盖4本期刊，热度保持稳定。",
+  "hot_score": 52,
+  "growth": 0.0,
+  "growth_rate": 0.0,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.06,
+  "baseline_rate": 0.0667,
   "recent_count": 2,
-  "baseline_count": 9,
+  "baseline_count": 10,
   "journal_count": 4,
   "lineage_status": "continued",
   "status": "emerging",
@@ -17,8 +17,7 @@
     "social media sentiment",
     "stock price informativeness",
     "investor behavior",
-    "water armies",
-    "financial communication"
+    "online manipulation"
   ],
   "papers": [
     {

@@ -1,14 +1,14 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "算法想象与日常数据化实践",
-  "description": "研究用户如何想象与应对算法，聚焦日常数据化体验、算法刻板印象及监控技术的公共化。",
-  "why_hot": "近30天8篇，日均发表速度较前期提升约14%，覆盖9本期刊，热度温和上升。",
-  "hot_score": 75,
-  "growth": 0.143,
-  "growth_rate": 0.143,
-  "recent_rate": 0.2667,
+  "label": "算法想象与日常数据化",
+  "description": "探讨算法系统与数据监控如何嵌入日常生活，并塑造用户的感知、信任与亲密关系。",
+  "why_hot": "近30天日均发表速度与前期持平，研究热度稳定，覆盖9本期刊。",
+  "hot_score": 68,
+  "growth": 0.0,
+  "growth_rate": 0.0,
+  "recent_rate": 0.2333,
   "baseline_rate": 0.2333,
-  "recent_count": 8,
+  "recent_count": 7,
   "baseline_count": 35,
   "journal_count": 9,
   "lineage_status": "continued",
@@ -16,8 +16,8 @@
   "keywords": [
     "algorithmic imaginaries",
     "datafication",
-    "algorithmic stereotyping",
     "surveillance",
+    "algorithmic bias",
     "everyday life"
   ],
   "papers": [
@@ -43,11 +43,11 @@
       "summary": "该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。"
     },
     {
-      "id": 2110,
-      "title": "How Artificial Intelligence Shapes Human Narratives",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-09-30",
-      "summary": "论文提出“叙事能动性”的心理学解释，刻画人类群体在数字情境中如何学习、传播与影响叙事，并据此讨论AI模型（如写作、在线共识形成）如何通过人的叙事能动性影响结果，主张围绕维护叙事能动性来设计人机系统。"
+      "id": 2155,
+      "title": "Careful Dis/Connection: Bringing Digital (Inter)Dependent Relations Out From the Shadows of Autonomy",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "基于女性主义关怀伦理，对20名成人进行民族志田野研究，分析三个案例，探讨关怀与数字（不）连接实践如何相互塑造，提出\"谨慎的不/连接\"框架，认为数字福祉取决于技术所维系的关怀关系而非个体媒介使用。"
     },
     {
       "id": 2084,
@@ -99,6 +99,20 @@
       "summary": "通过两年民族志田野调查，探讨算法招聘如何改变求职沟通条件，提出算法可读性概念，分析求职者被迫进行校准劳动以适配机器系统，重塑社会认可与公民参与。"
     },
     {
+      "id": 1957,
+      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-08-18",
+      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
+    },
+    {
+      "id": 1959,
+      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-18",
+      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
+    },
+    {
       "id": 1928,
       "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
       "journal": "Information Communication & Society",
@@ -111,13 +125,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-08-11",
       "summary": "基于911名中国用户调查，探究感知情感能力通过自我披露影响对对话AI的态度矛盾，并提出情感共融效应。"
-    },
-    {
-      "id": 15,
-      "title": "Inclusive Crisis Communication: Addressing Diverse Audiences in the Digital Age",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-07-27",
-      "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
     },
     {
       "id": 58,
@@ -202,13 +209,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过生态瞬时干预训练260名被试在Instagram上运用明智共情，结合5,902次经验取样追踪其共情与幸福感，发现干预提升在线明智共情并改善幸福感，共情变化起中介作用。"
-    },
-    {
-      "id": 72,
-      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-29",
-      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
     },
     {
       "id": 76,
@@ -314,13 +314,6 @@
       "journal": "Journal of Computer-Mediated Communication",
       "published_date": "2026-04-23",
       "summary": "基于比利时147名青少年的21场焦点小组，探讨青年与父母同伴协商数字位置跟踪的边界规则与策略，揭示其对日常监控文化的接受与抵抗。"
-    },
-    {
-      "id": 638,
-      "title": "Machine agency attribution in human–AI interaction: developing and validating an analytical framework",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-04-17",
-      "summary": "论文提出并验证了人-AI互动中机器能动性归因的三阶段分析框架，通过两项调查和一项实验揭示感知、推断与评价阶段的关系，深化对AI代理机制的理解。"
     }
   ],
   "paper_edges": []

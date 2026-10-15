@@ -1,39 +1,46 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "网络话语中的说服与阴谋论",
-  "description": "聚焦在线讨论中的说服机制、情绪与认知过程，以及极化、虚假信息与阴谋论话语的生成与扩散。",
-  "why_hot": "近30天7篇，日均发表速度较前期提升约35%，覆盖10本期刊，研究热度上升。",
-  "hot_score": 77,
-  "growth": 0.346,
-  "growth_rate": 0.346,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.1733,
-  "recent_count": 7,
-  "baseline_count": 26,
-  "journal_count": 10,
+  "label": "数字视觉政治与身份抗争",
+  "description": "关注社交平台上的视觉表达、身份政治与抗争行动如何交织，及其对边缘群体的影响。",
+  "why_hot": "近30天日均发表速度较前期上升约54%，研究分布扩展至8本期刊，热度升温。",
+  "hot_score": 71,
+  "growth": 0.538,
+  "growth_rate": 0.538,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.0867,
+  "recent_count": 4,
+  "baseline_count": 13,
+  "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "persuasion",
-    "disinformation",
-    "conspiratorial discourse",
-    "radicalism",
-    "online deliberation"
+    "visual politics",
+    "digital activism",
+    "intersectionality",
+    "racial trauma",
+    "AI-generated avatars"
   ],
   "papers": [
     {
-      "id": 2122,
-      "title": "ChangeMyView: Unpacking the Complex Emotional, Cognitive, and Communicator-Related Processes Underlying Persuasion",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-10-09",
-      "summary": "基于r/ChangeMyView约6万帖子，用LIWC、主成分分析和多层逻辑回归，检验认知推理、情感表达与真实沟通风格对说服成功的影响。"
+      "id": 2150,
+      "title": "Humor on the street, humor on the screen: protest banners, AI-generated avatars, and the visual politics of dissent after the arrest of Istanbul’s mayor",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-13",
+      "summary": "研究伊斯坦布尔市长被捕后国家禁令下的视觉抵抗：分析105幅街头横幅与106个AI生成头像，论证线下横幅与线上头像构成同一“可见性经济”，幽默作为符号工具放大政治意义，讨论AI中介政治图像与混合政体中的视觉抗争。"
     },
     {
-      "id": 2128,
-      "title": "From feeds to fury: how social media news use fuels radicalism and contentious politics",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-10-08",
-      "summary": "基于美国成年人配额在线样本（N=760）调查，检验社交媒体政治新闻接触如何经由左右翼激进主义与系统性受害者感知，影响争议性政治参与及政治暴力支持。"
+      "id": 2115,
+      "title": "Whose voices and which effects? A scoping review of migration and social media effects",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-04",
+      "summary": "该文对2020—2025年65项移民语境下社交媒体效果研究进行范围综述，基于差异易感性模型分析内容类型、样本特征、效果类型及中介调节因素，发现宿主群体量化研究与移民群体质性研究相互脱节，呼吁整合性研究。"
+    },
+    {
+      "id": 2153,
+      "title": "Algorithms of Injustice: An Ethnographic Content Analysis of Black Youth’s Experiences with Racial Trauma Online",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "研究以批判种族技术理论为框架，用民族志内容分析考察社交媒体上种族创伤性内容（黑人死亡、数字骚扰、深伪、战争内容）对黑人青少年心理的影响，指出算法放大此类内容并造成替代性创伤，同时平台也是行动主义与互助空间。"
     },
     {
       "id": 2099,
@@ -43,151 +50,60 @@
       "summary": "研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。"
     },
     {
-      "id": 2066,
-      "title": "Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024",
-      "journal": "Revista ICONO14",
-      "published_date": "2026-09-21",
-      "summary": "研究采集2024巴黎奥运会期间X平台35676条帖子，用Tweet Binder与NLP情感分析考察伊曼·哈利夫参赛引发的性别认同与公平性争论，发现正负帖量接近但负面内容曝光量翻倍，公众人物放大争议，虚假信息助推简化叙事。"
-    },
-    {
-      "id": 2049,
-      "title": "Generational differences in responses to disinformation: from ‘vulnerability’ to interpretive strategies",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-19",
-      "summary": "论文考察不同代际群体对虚假信息的回应方式，主张从'易感性'视角转向'解释性策略'视角。因无摘要，具体方法与数据不详，推测基于访谈或定性受众分析。"
-    },
-    {
-      "id": 2052,
-      "title": "The few, the loud: platform-mediated articulation of conspiratorial discourse by political elites on X and Facebook",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-17",
-      "summary": "论文识别比利时、芬兰、波兰三国政治精英中的“阴谋论企业家”，基于 702 条人工标注帖文，用梯度阈值分析与逻辑回归考察其意识形态特征、跨平台差异及互动效果，发现阴谋论话语主要由少数极右政客驱动，Facebook 偏完整叙事、X 偏碎片化表达。"
-    },
-    {
-      "id": 2033,
-      "title": "Weapon and poison? Framing disinformation in European Commission Speeches, 2016–2024",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-16",
-      "summary": "分析2016至2024年欧盟委员会238篇演讲，运用主题模型、文本社群检测与质性内容分析，揭示其对虚假信息的自我免责与宿命论框架：将虚假信息自然化为技术必然，责任外化至敌对国家、坏行为者与平台，并以战争与传染隐喻推行平台治理、检测下架与媒介素养政策，2023-24年转向AI放大议题。"
-    },
-    {
-      "id": 2004,
-      "title": "How Platform Affordances Shape Expression Effects: Comment Length and Audience in Political News Engagement",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-09-07",
-      "summary": "实验(N=775)探究新闻平台评论长度与受众类型对表达效应的影响，发现评论条件交互作用，并通过计算语言学分析揭示词汇使用差异。"
-    },
-    {
-      "id": 1989,
-      "title": "From #StayWoke to “Culture Wars”: How Social Justice Discourse is Separately and Synergistically Politicized on Twitter and YouTube",
+      "id": 2025,
+      "title": "The Language of Democratic Resilience and Decline: A Comparative Study of Politicians’ Communication on Facebook in Sweden and Hungary",
       "journal": "Political Communication",
-      "published_date": "2026-08-31",
-      "summary": "利用Twitter和YouTube 2012-2022数据，分析“woke”话语如何被政治化，比较平台差异及跨平台协调传播。"
+      "published_date": "2026-09-11",
+      "summary": "比较瑞典与匈牙利政客在 Facebook 上的传播语言，探讨民主韧性与衰退的话语特征，属社交媒体政治传播的比较研究。"
     },
     {
-      "id": 1977,
-      "title": "Less Effort to Believe and More Effort to Disbelieve: Examining the Interplay between News-Finds-Me and Affective Polarization in Political Fake News Susceptibility in the United States",
-      "journal": "Communication Research",
-      "published_date": "2026-08-26",
-      "summary": "通过调查719名美国成年人，结合反应时数据，研究News-Finds-Me与情感极化对政治假新闻易感性的交互影响，发现处理精力差异。"
-    },
-    {
-      "id": 1951,
-      "title": "Echoes across the divide: incivility and the fragmentation of issue publics in immigration discourse",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-20",
-      "summary": "基于X平台数据，用LLM识别移民立场和语言不文明度，构建提及网络追踪不文明言论在意识形态对立群体间的扩散。"
-    },
-    {
-      "id": 1957,
-      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-08-18",
-      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
-    },
-    {
-      "id": 1969,
-      "title": "Political emotionalization in large text corpora: detecting affective cues with MORESPulse and its scientific uses",
+      "id": 1991,
+      "title": "Creator-led political satire on TikTok: youth expression in post-election Indonesia",
       "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-08-18",
-      "summary": "论文介绍MORESPulse模型，基于XLM-RoBERTa检测七种语言政治文本的五种情绪，并分析匈牙利议会1998-2022年超五百万句语料，发现情绪化语言自2010年持续上升，与政党角色和政策议题相关。"
+      "published_date": "2026-09-05",
+      "summary": "通过定性数字话语分析25集TikTok讽刺课堂视频，探讨印尼大选后青年政治表达和平台化政治批判。"
     },
     {
-      "id": 1936,
-      "title": "Policing the Political Boundary: How the r/BarstoolSports Audience Confronts Politicization",
+      "id": 1935,
+      "title": "Kamala is Brat: TikTok and the Affective Politics of Memes",
       "journal": "Political Communication",
       "published_date": "2026-08-12",
-      "summary": "通过批判性话语分析2019-2025年Barstool Sports子版块16个帖子，提出\"反政治空间\"概念，探讨粉丝如何区分流行文化与制度政治，对抗政治化。"
+      "summary": "研究TikTok上“Kamala is Brat”迷因的形式、功能与情感共鸣，分析创作者如何重构哈里斯形象，揭示平台迷因文化作为选举中介机制。"
     },
     {
-      "id": 242,
-      "title": "Search engines in polarized media environment: auditing political information curation on Google and Bing prior to 2024 US elections",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-28",
-      "summary": "该研究在2024年美国大选前审计Google和Bing的搜索结果，分析查询主题、用户位置和时间对政治信息偏向的影响，发现两大引擎优先呈现左倾媒体，且不同主题下意识形态偏向程度不同。"
-    },
-    {
-      "id": 204,
-      "title": "Networked Counterpublics and Contentious Publicity: A Cross-Platform Analysis of QAnon on Parler and Twitter",
-      "journal": "Political Communication",
-      "published_date": "2026-07-27",
-      "summary": "基于affordance理论，跨平台分析QAnon在Parler和Twitter上2018-2021年的可见性、关联性和持续性实践，探讨极端网络反公众的身份建构与公共竞争动态。"
-    },
-    {
-      "id": 205,
-      "title": "Common Identities and Political Talk: Evaluating Cross-Cutting Political Discussions in Sports Communities on Reddit",
-      "journal": "Political Communication",
+      "id": 488,
+      "title": "Social media and protest planning: An examination of the 2024 #EndBadGovernance protests in Nigeria",
+      "journal": "Media War & Conflict",
       "published_date": "2026-07-23",
-      "summary": "通过计算分析比较Reddit政治与体育社区中跨党派政治讨论的数量、语气和内容，发现体育社区更促进跨党派讨论，但毒性水平无显著差异。"
+      "summary": "基于尼日利亚400份调查数据，检验Instagram、Facebook、WhatsApp和X在2024年#EndBadGovernance抗议规划中的作用，发现前三者增加首日参与概率，X则降低，强调平台使用因国家而异。"
     },
     {
-      "id": 206,
-      "title": "Affective Publics in the YouTube Live Chat: Multimodal Emotional Contagion During the 2024 U.S. Presidential Debate",
-      "journal": "Political Communication",
-      "published_date": "2026-07-22",
-      "summary": "研究2024年美国总统辩论期间YouTube直播聊天中的多模态情绪传染，结合面部、语音、文本情绪识别与时间序列分析（N=53,095），发现候选人情绪影响观众，且效果因参与度和政治立场而异。"
-    },
-    {
-      "id": 207,
-      "title": "Studying Propaganda as a Social Process",
-      "journal": "Political Communication",
-      "published_date": "2026-07-22",
-      "summary": "论文主张将虚假信息置于更广泛的宣传社会过程中研究，提出关注宣传的反民主目标，并勾勒未来研究议程，属理论性干预文章。"
-    },
-    {
-      "id": 208,
-      "title": "Political Fact-Checking Efforts are Constrained by Deficiencies in Coverage, Speed, and Reach",
-      "journal": "Political Communication",
+      "id": 395,
+      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
+      "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-07-19",
-      "summary": "研究评估2022年美国中期选举期间政治事实核查的局限性，发现其覆盖不足、发布滞后、在党派社群中传播受限，并反驳党派偏见假设。"
+      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
     },
     {
-      "id": 211,
-      "title": "Does the Method Affect the Outcome? How Measures of Partisan Slant of Media Outlets and Affective Polarization Drive Results About Polarization in the United States",
-      "journal": "Political Communication",
-      "published_date": "2026-07-05",
-      "summary": "基于2020年美国大选调查数据，系统检验测量党派媒体倾向和极化的不同方法如何影响研究结果，通过504种操作化方式的规范曲线分析发现方法选择显著影响关系强度。"
+      "id": 248,
+      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-13",
+      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
     },
     {
-      "id": 281,
-      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
+      "id": 1908,
+      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
+      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
     },
     {
-      "id": 287,
-      "title": "Divisive or Bridging? Personal Stories in Cross-Cutting Political Discussions on Reddit",
+      "id": 1943,
+      "title": "Make Campaigns Dance Again: The Trumpdance and the Memeaesthetic Logic of TikTok",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "通过分析2015-2021年Reddit上约40万次政治互动，发现跨立场讨论中带个人故事的评论获得更多正面评价和回复，但未能减少毒性回复，且用户较少分享个人故事，影响有限。"
-    },
-    {
-      "id": 1904,
-      "title": "Revisiting the Communication Mediation Model in the Age of Social Media: Longitudinal Evidence From Climate Misinformation Responses in China",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "基于中国三波面板调查，检验社交媒体时代传播中介模型，发现媒体关注通过人际讨论影响气候错误信息纠正行为，且具有同时性。"
+      "summary": "研究特朗普YMCA舞蹈在TikTok上的传播，基于API采集6799个视频，分析参与模式与算法可见性，提出迷因美学逻辑。"
     },
     {
       "id": 1998,
@@ -197,60 +113,32 @@
       "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
     },
     {
-      "id": 29,
-      "title": "Partisanship in Context: The (A)symmetric Influence of Local Newspaper Availability and Selective Exposure on Political Misperceptions in the U.S.",
-      "journal": "Communication Research",
-      "published_date": "2026-06-29",
-      "summary": "利用准实验设计，比较有无本地报纸的县域居民，发现缺乏本地报纸减少主流媒体使用，加剧自由派选择性接触，并影响两党虚假信息信念。"
-    },
-    {
-      "id": 18,
-      "title": "How Mass and Social Media (De) polarize America: Exposure to News Media, Expression on Social Media, and Affective Polarization",
-      "journal": "Communication and the Public",
-      "published_date": "2026-06-12",
-      "summary": "基于2020年美国大选两波面板调查，检验大众媒体、社交媒体和人际讨论对情感极化的影响，发现同质新闻加剧极化，跨域新闻缓解极化。"
-    },
-    {
-      "id": 173,
-      "title": "Identity–Policy Fusion and Polarization in United States House Campaign Language",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-06-04",
-      "summary": "研究提出身份-政策融合框架，分析美国众议院候选人竞选语言。通过计算文本分析4万余条政策声明，发现融合策略与语言极化显著相关，且共和党效应更强，揭示精英信息加剧党派界限的机制。"
-    },
-    {
-      "id": 39,
-      "title": "Shaping Interpersonal Communication About Persuasive Media Campaigns by Inducing Critical Versus Collective Orientations",
-      "journal": "Communication Research",
-      "published_date": "2026-05-07",
-      "summary": "实验考察讨论提示（批判/集体导向）如何影响含糖饮料减少广告的人际讨论，发现引导性讨论可缓解反效果，文本分析揭示机制。"
-    },
-    {
-      "id": 108,
-      "title": "Bridging disinformation and cybersecurity in the social sciences: a scoping review",
+      "id": 88,
+      "title": "Mediated information grounds: living with(in) pareshani , social networks and gendered media practices among the Rohingya refugees",
       "journal": "Information Communication & Society",
-      "published_date": "2026-05-04",
-      "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
+      "published_date": "2026-06-08",
+      "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
     },
     {
-      "id": 182,
-      "title": "“Liar, Liar, Pants on Fire!” An Automated Analysis of Polarities of Mediated Truth Contestation in Austrian and Czech News Media",
+      "id": 93,
+      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-27",
+      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
+    },
+    {
+      "id": 507,
+      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-05-02",
+      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
+    },
+    {
+      "id": 181,
+      "title": "Simulated superiority and mediated geopolitics: affective responses to AI-generated political parody in Chinese digital space",
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-04-30",
-      "summary": "本文分析奥地利和捷克新闻媒体中关于移民报道的真相争议，基于16万篇新闻文章，使用自动化内容分析和命名实体识别，探讨媒体类型和政治背景对真伪表述的影响。"
-    },
-    {
-      "id": 156,
-      "title": "Understanding Polarizing Language: Developing a Coding Instrument",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-04-29",
-      "summary": "论文开发并验证极化语言编码工具，识别八种语言策略，通过四项研究（州长演讲、受众感知、国会推文）结合手动和计算方法验证框架的效度与泛化性。"
-    },
-    {
-      "id": 118,
-      "title": "Navigating intersectional expectations: a computational multimodal analysis of the effects of identities and communication styles on public engagement with science on TikTok",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-16",
-      "summary": "基于10,800个视频和448,002条评论，分析TikTok科学传播中传播者性别、种族与沟通风格如何影响公众参与，发现交叉身份导致参与差异。"
+      "summary": "通过397人实验探究AI生成政治模仿如何激发集体优越感、缓解对美敌对态度，并揭示视觉真实感的中介作用，扩展优越性理论。"
     }
   ],
   "paper_edges": []

@@ -1,8 +1,8 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式AI的传播角色与信任",
-  "description": "关注生成式AI作为新兴传播行动者的角色定位，以及公众对AI权威、AI生成内容与算法决策的感知与信任。",
-  "why_hot": "近30天8篇，日均发表速度较前期提升约25%，覆盖8本期刊，研究热度小幅升温。",
+  "label": "生成式人工智能的信任与认知",
+  "description": "关注公众对AI生成内容的识别、信任与态度，以及生成式AI在传播实践中的应用与治理。",
+  "why_hot": "近30天日均发表速度较前期上升25%，覆盖9本期刊，热度持续升温。",
   "hot_score": 77,
   "growth": 0.25,
   "growth_rate": 0.25,
@@ -10,15 +10,15 @@
   "baseline_rate": 0.2133,
   "recent_count": 8,
   "baseline_count": 32,
-  "journal_count": 8,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "generative AI",
-    "algorithmic authority",
-    "AI-generated images",
     "trust",
-    "strategic communication"
+    "AI-generated content",
+    "algorithmic authority",
+    "detection"
   ],
   "papers": [
     {
@@ -34,6 +34,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "通过预注册调查实验，检验人们辨别AI生成图像与真实照片的能力。发现人们平均仅相当于随机猜测，仅25岁以下年轻人、分析型思维者及AI熟练用户表现较好，且图像情境不影响辨别信心。"
+    },
+    {
+      "id": 2110,
+      "title": "How Artificial Intelligence Shapes Human Narratives",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-09-30",
+      "summary": "论文提出“叙事能动性”的心理学解释，刻画人类群体在数字情境中如何学习、传播与影响叙事，并据此讨论AI模型（如写作、在线共识形成）如何通过人的叙事能动性影响结果，主张围绕维护叙事能动性来设计人机系统。"
     },
     {
       "id": 2081,
@@ -279,13 +286,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-04-30",
       "summary": "基于美国10087名成人调查，探究高低社会经济地位者在AI意识、熟悉度与使用上的差异，发现高SES者AI意识更强，且AI使用与熟悉度在SES与AI意识间起中介作用，揭示AI时代的数字不平等。"
-    },
-    {
-      "id": 181,
-      "title": "Simulated superiority and mediated geopolitics: affective responses to AI-generated political parody in Chinese digital space",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-04-30",
-      "summary": "通过397人实验探究AI生成政治模仿如何激发集体优越感、缓解对美敌对态度，并揭示视觉真实感的中介作用，扩展优越性理论。"
     },
     {
       "id": 113,
