@@ -1,5 +1,78 @@
 [
   {
+    "id": 2163,
+    "title": "Propaganda as infrastructure: reconceptualizing information operations through the Pravda network",
+    "title_zh": "宣传作为一种基础设施：通过“真理报”网络重新概念化信息运作",
+    "authors": [
+      "Tom Willaert",
+      "Serge Poliakoff",
+      "Lera Malchenko",
+      "Stanislas Yahi"
+    ],
+    "institutions": [],
+    "journal": "Journal of Information Technology & Politics",
+    "published_date": "2026-10-18",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Dataset accompanying the paper 'Propaganda as infrastructure: Reconceptualizing information operations through the Pravda network'. The file 'pravda.parquet' contains the full dataset of pravda articles and metadata analysed in the study.",
+    "abstract_zh": "本文附带了一个数据集，名为“Propaganda as infrastructure: Reconceptualizing information operations through the Pravda network”。文件‘pravda.parquet’中包含了研究中分析的所有‘Pravda’文章及其元数据。",
+    "summary": "论文重新概念化信息行动为“宣传基础设施”，以Pravda网络文章及元数据为数据集，分析宣传网络的结构与运作机制。",
+    "reason": "聚焦计算宣传与信息行动，基于Pravda文章数据集开展网络/文本分析，属计算传播。",
+    "tags": [
+      "计算宣传",
+      "信息行动",
+      "Pravda网络",
+      "数据集",
+      "数字方法"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/19331681.2026.2747171",
+    "source_url": "https://doi.org/10.1080/19331681.2026.2747171",
+    "detail_slug": "propaganda-as-infrastructure-reconceptualizing-information-operations-through-the-pravda-network",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Information Technology & Politics",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2159,
+    "title": "Two Paths of Conversation: How Stories and Statistics are Associated With Community Engagement in Online Debate Surrounding Vaccine Science Skeptical Content",
+    "title_zh": "两种对话方式：故事与统计数据如何影响在线辩论中公众对疫苗科学质疑内容的参与度",
+    "authors": [
+      "Han Zao Li",
+      "Inhwan Bae",
+      "Pengfei Zhao",
+      "Natalya N. Bazarova",
+      "Drew Margolin"
+    ],
+    "institutions": [],
+    "journal": "Communication Research",
+    "published_date": "2026-10-17",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Statistical and narrative evidence represent two distinct ways of substantiating claims in public reasoning, but does this distinction matter for how people engage with vaccine science skeptical (VSS) content and the discursive spaces surrounding it? This study addresses this question through a large-scale, LLM-assisted observational analysis of online engagement with VSS posts and comments that support or counter such content using statistical versus narrative evidence in the Reddit community r/DebateVaccines . Building on Fisher’s distinction between rational and narrative paradigms , we theorize two paths of conversation through which evidentiary forms are associated with audience engagement with contentious vaccine discourses in a naturalistic social media setting: a rational pathway, marked by concentrated participation and corrective contestation around statistical claims and counterclaims, tending toward a single evidence-based truth “approved” by one-click reactions; and a narrative pathway, characterized by generative engagement featuring broader and more distributed participation, more discursive and generative engagement, and greater acceptance of competing viewpoints. These findings provide a springboard for theorizing evidentiary form as a key epistemic logic associated with how conversations evolve in real-world engagement with contentious, socially consequential issues such as vaccine misinformation, while informing hybrid approaches to addressing skepticism toward established vaccine science.",
+    "abstract_zh": "统计证据和叙事证据是公共讨论中用来支持各种观点的两种不同方式，但这种区别是否会影响人们对疫苗科学相关怀疑内容（VSS）的认知方式，以及围绕这些内容的讨论空间呢？本研究通过大规模的观察分析来探讨这一问题，分析了Reddit社区r/DebateVaccines中用户对支持或反驳疫苗科学观点的帖子和评论的互动情况，这些帖子和评论分别使用了统计证据和叙事证据。研究基于费希尔（Fisher）提出的理性与叙事范式之间的区别，提出了两种可能的对话路径：一种是理性路径，其特征是围绕统计主张和反驳意见的集中讨论与辩论，最终形成一种基于证据的“共识”（通过用户的一键投票来表达认可）；另一种是叙事路径，其特点是参与度更高、讨论更为广泛和深入，用户更愿意接受不同的观点。这些发现为理解证据形式如何影响人们在现实世界中讨论具有社会影响力的争议性话题（如疫苗错误信息）提供了理论基础，同时也为应对对疫苗科学的怀疑态度提供了新的思路和方法。",
+    "summary": "该研究基于Reddit r/DebateVaccines大规模数据，结合LLM辅助观察分析，考察叙事与统计证据如何关联疫苗科学怀疑内容的社区参与和对话演化。",
+    "reason": "使用LLM辅助大规模分析Reddit疫苗怀疑论辩论，属计算传播与虚假信息议题。",
+    "tags": [
+      "LLM辅助文本分析",
+      "Reddit",
+      "疫苗 misinformation",
+      "在线辩论",
+      "社区参与"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/00936502261496144",
+    "source_url": "https://doi.org/10.1177/00936502261496144",
+    "detail_slug": "two-paths-of-conversation-how-stories-and-statistics-are-associated-with-community-engagement-in-online-debate-surrounding-vaccine-science-skeptical-content",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication Research",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2145,
     "title": "(In)congruent synergies? Discursive boundary-spanning between the Italian anti-gender galaxy and anti-trans groups",
     "title_zh": "不一致的协同效应？意大利反性别群体与反跨性别群体之间的话语跨越",
@@ -210,6 +283,73 @@
     "tracked_journal": "Information, Communication & Society",
     "volume": "",
     "issue": ""
+  },
+  {
+    "id": 2167,
+    "title": "Social Media Platform Repertoires in Everyday Life: Measuring Social Media Use With Passive Metering",
+    "title_zh": "社交媒体平台在日常生活中的应用：通过被动计量方法来衡量社交媒体使用情况",
+    "authors": [
+      "Moreno Mancosu",
+      "Mario Quaranta",
+      "Fabio Torreggiani"
+    ],
+    "institutions": [],
+    "journal": "Social Media + Society",
+    "published_date": "2026-10-01",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Social media platforms structure the ways in which billions of citizens access information. Nevertheless, to assess social media time use, most research relies on limited data sources, such as self-reported survey measures or behavioral data from single platforms or convenience samples. Using 6 weeks of passive metering of smartphone and computer activity from a quota sample of Italian adults (18–70, n = 1,457), this study provides a behaviorally measured account of platform-specific social media use across the adult population. We quantify time allocation across Facebook, Instagram, TikTok, YouTube, and Twitter/X and examine how use varies by sociodemographic factors. Results show that Facebook and YouTube dominate everyday social media time, accounting for nearly three-quarters of consumption, while Instagram attracts comparable average time from a narrower user base, and TikTok shows concentrated usage among younger adopters. Twitter/X occupies a marginal niche. Use is overwhelmingly app-based (>90%), a pattern that browser-based measurement cannot capture. Age is the strongest demographic predictor: Gen Z concentrates attention on Instagram and TikTok, while older cohorts favor Facebook; YouTube shows weak demographic patterning. Gender and education are consistent secondary predictors: women devote more time to Facebook, Instagram, and social media overall, and higher education is associated with lower aggregate use and a smaller share on Facebook and TikTok. Employment and income show null effects. Together, these behavioral, cross-platform figures provide a more accurate basis for weighting platforms by their actual audiences than self-reported or single-platform evidence allows.",
+    "abstract_zh": "社交媒体平台塑造了数十亿公民获取信息的方式。然而，在评估人们的社交媒体使用时间时，大多数研究依赖于有限的数据来源，例如自我报告的调查数据或来自单一平台或方便样本的行为数据。本研究通过对意大利成年人（18-70岁，n=1,457）进行为期6周的智能手机和电脑活动被动监测，提供了关于不同社交媒体平台使用情况的实证数据。我们量化了用户在Facebook、Instagram、TikTok、YouTube以及Twitter/X上的时间分配情况，并分析了这些使用模式如何受到社会人口统计因素的影响。研究结果表明，Facebook和YouTube占据了人们日常社交媒体使用时间的大部分（接近四分之三）；Instagram虽然用户基数较小，但平均使用时间与之相当；而TikTok的使用则主要集中在年轻用户群体中。Twitter/X则处于较为边缘化的地位。绝大多数社交媒体使用是通过应用程序进行的（超过90%），这种使用模式无法通过基于浏览器的测量方法来捕捉。年龄是影响社交媒体使用时间的最重要人口统计因素：Z世代更倾向于使用Instagram和TikTok，而年龄较大的群体则更喜欢Facebook；YouTube在人口统计特征上的差异不明显。性别和教育水平也是重要的影响因素：女性在Facebook、Instagram以及整个社交媒体上的使用时间更长；受教育程度较高的人总体使用时间较少，并且在Facebook和TikTok上的使用比例也较低。就业状况和收入水平对社交媒体使用时间没有显著影响。综上所述，这些跨平台的行为数据为根据实际用户群体来评估各社交媒体的重要性提供了更准确的基础，比自我报告的数据或单一平台的数据更为可靠。",
+    "summary": "研究对1457名意大利成年人进行6周手机与电脑被动计量，量化Facebook、Instagram、TikTok、YouTube、Twitter/X的使用时间及社会人口差异。发现Facebook与YouTube占近四分之三使用时长，超90%为App端使用，年龄是最强预测因素。",
+    "reason": "使用被动计量采集六周跨平台行为数据，属数字痕迹与计算方法研究社交媒体使用。",
+    "tags": [
+      "社交媒体使用",
+      "被动计量",
+      "数字痕迹数据",
+      "平台差异"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/20563051261488115",
+    "source_url": "https://doi.org/10.1177/20563051261488115",
+    "detail_slug": "social-media-platform-repertoires-in-everyday-life-measuring-social-media-use-with-passive-metering",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Social Media + Society",
+    "volume": "12",
+    "issue": "4"
+  },
+  {
+    "id": 2166,
+    "title": "Automated Influence: How Social Bots Reshape Discursive Opportunities in Online Activism",
+    "title_zh": "自动化影响：社交机器人如何重塑在线抗议活动中的话语机会",
+    "authors": [
+      "Linda Li",
+      "Helen Margetts"
+    ],
+    "institutions": [],
+    "journal": "Social Media + Society",
+    "published_date": "2026-10-01",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Social bots are an increasingly prominent presence in online protest discourse. We adapt the discursive opportunity structure (DOS) framework for digital protest, refining its dimensions of visibility, resonance and legitimacy to account for platform-mediated discourse and automated activity. Applying the refined framework through computer-assisted content analysis of bot activity in two major protests – Black Lives Matter (BLM) and Extinction Rebellion (XR) – we move beyond treating bots as a monolithic or uniformly disruptive force, identifying competing pro- and counter-protest strategies distributed differently across the three dimensions. In BLM, pro-protest bot content concentrates on cultural resonance, whereas counter-bot content targets legitimacy; in XR, pro-protest bots are used to build legitimacy and participatory visibility, whereas counter-bots more often work to downplay the movement’s salience. The framework’s granularity discriminates between movement types in ways coarser accounts of ‘political bots’ cannot, showing that understanding contemporary movements requires attending to how automated activity is deployed within their discourse.",
+    "abstract_zh": "社交机器人（social bots）在网络抗议话语中扮演着越来越重要的角色。我们借鉴了“话语机会结构”（Discursive Opportunity Structure, DOS）框架来分析数字抗议活动，对该框架中的“可见性”（visibility）、“共鸣”（resonance）和“合法性”（legitimacy）这三个维度进行了调整，以更好地解释平台中介的话语过程和自动化行为。通过对“黑人的命也是命”（Black Lives Matter, BLM）和“灭绝抵抗运动”（Extinction Rebellion, XR）这两场重大抗议活动中机器人的行为进行计算机辅助内容分析，我们不再将机器人视为一种单一的、具有破坏性的力量，而是发现了在这三个维度上存在不同的支持抗议和反对抗议的策略。在BLM运动中，支持抗议的机器人内容主要侧重于引发文化共鸣；而在XR运动中，支持抗议的机器人则致力于提升运动的合法性和参与度；相反，反对抗议的机器人则试图削弱该运动的关注度。这一框架的细致分析能力是更粗略的“政治机器人”（political bots）模型所无法实现的，它表明要理解当代抗议运动，就必须关注自动化行为在这些话语中的具体运用方式。",
+    "summary": "论文改进话语机会结构框架，用计算机辅助内容分析比较BLM和XR抗议中支持与反对机器人的话语策略。",
+    "reason": "研究社交媒体机器人参与抗议话语，采用计算机辅助内容分析，属于计算传播核心议题。",
+    "tags": [
+      "社交机器人",
+      "在线 activism",
+      "内容分析",
+      "话语机会结构"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/20563051261490338",
+    "source_url": "https://doi.org/10.1177/20563051261490338",
+    "detail_slug": "automated-influence-how-social-bots-reshape-discursive-opportunities-in-online-activism",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Social Media + Society",
+    "volume": "12",
+    "issue": "4"
   },
   {
     "id": 2154,
@@ -16393,7 +16533,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The article provides an overview of family, parenting, and kid influencers in Thailand by focusing on the intersection of family dynamics, cultural values, and child development to maintain social media presence, gain social support, and monetize content. Specifically, I explore the narrative strategies that are commonly used in family-oriented social media content by drawing from my observation of 494 social media posts by 13 of the winners of the family influencer awards category from Thailand Social Awards by Wisesight (2018–2025) and Thailand Influencer Awards by Tellscore (2019–2024). For each influencer, I analyze the 12 most viewed videos of the account and two most viewed videos per month from April 2024 to April 2025, including the comments on each video. In this article, I discuss the themes of “Representing close-knit family relationships,” “Reinforcing Thai cultural competence,” and “Recognizing kids’ development and talents.”",
-    "abstract_zh": "本文概述了泰国家庭、育儿以及儿童网红的现象，重点探讨了家庭动态、文化价值观与儿童发展之间的相互作用，这些因素如何影响他们在社交媒体上的影响力、社会支持以及内容变现的方式。具体而言，我通过分析2018年至2025年间Wisesight颁发的“泰国家庭网红奖”以及2019年至2024年间Tellscore颁发的“泰国网红奖”中13位获奖者的494条社交媒体帖子，研究了他们在家庭相关社交媒体内容中常用的叙事策略。对于每位网红，我分析了他们账户中2024年4月至2025年4月期间观看次数最多的12个视频以及每月观看次数最多的2个视频，并对这些视频的评论进行了分析。本文讨论了以下几个主题：“展现亲密的家庭关系”、“强化泰国文化特质”以及“关注儿童的发展和才能”。",
+    "abstract_zh": "本文概述了泰国家庭、育儿以及儿童网红的现象，重点探讨了家庭关系、文化价值观与儿童发展之间的相互作用，这些因素影响着他们在社交媒体上的影响力、社会支持以及内容的盈利方式。具体而言，我通过分析2018年至2025年间Wisesight颁发的“泰国家庭网红奖”以及2019年至2024年间Tellscore颁发的“泰国网红奖”中13位获奖者的494条社交媒体帖子，研究了他们在家庭相关社交媒体内容中常用的叙事策略。对于每位网红，我分析了他们账户中2024年4月至2025年4月期间观看次数最多的12个视频，以及每月观看次数最多的两个视频，并对这些视频下的评论进行了分析。本文讨论的主题包括“展现紧密的家庭关系”、“强化泰国文化认同感”，以及“关注儿童的发展和才能”。",
     "summary": "文章通过分析泰国家庭网红获奖者的社交媒体帖子，探讨家庭价值观、文化与儿童发展的平衡，识别出家庭关系、文化能力和儿童发展等主题。",
     "reason": "研究涉及社交媒体平台上的网红内容，属于计算传播领域议题，但方法为质性分析。",
     "tags": [
@@ -16415,7 +16555,7 @@
   {
     "id": 1293,
     "title": "Kidfluencers in India: Commodification, Consumption, and Perpetuation of Dominant Culture",
-    "title_zh": "印度的小众网红：商品化、消费行为与主导文化的延续",
+    "title_zh": "印度的小红人：商品化、消费行为以及对主流文化的延续",
     "authors": [
       "Devina Sarwatay"
     ],
@@ -16427,7 +16567,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Despite online risks and child labor concerns, Indian kidfluencers appear to thrive as they amass followers and engage in brand collaborations, thus significantly contributing to India’s influencer industry. I studied and analyzed selected kidfluencers’ profiles and their most popular videos and found that their parents manage their accounts and direct their content. This content often reflects dominant Indian culture using language, the portrayal of religious identities, and the enactment of family values. This strategy increases their follower counts but also exposes them to online risks and reinforces cultural stereotypes. Kidfluencers face exploitation as they scale their presence—that is, get more followers on a specific platform and get multiple accounts across platforms—on social media, especially in India where regulation is lacking. Abuse, bullying, and mental health issues are prevalent, necessitating urgent policy and advocacy efforts.",
-    "abstract_zh": "尽管存在网络风险和童工问题，印度的儿童网红（kidfluencers）仍然蓬勃发展，他们不断积累粉丝并参与品牌合作，从而为印度的网红产业做出了重要贡献。我研究并分析了部分儿童网红的个人资料及其最受欢迎的视频，发现他们的父母负责管理他们的账号并指导他们的内容创作。这些内容往往反映了印度主流文化，体现在语言使用、宗教身份的描绘以及家庭价值观的体现上。这种策略虽然增加了他们的粉丝数量，但也使他们面临网络风险，并加剧了文化刻板印象。随着儿童网红在社交媒体上的影响力不断扩大（即在特定平台上获得更多粉丝，并在多个平台上开设账号），尤其是在监管不足的印度，他们更容易受到剥削。虐待、欺凌和心理健康问题十分普遍，因此迫切需要制定相关政策和开展倡导工作。",
+    "abstract_zh": "尽管存在网络风险和童工问题，印度的儿童网红（kidfluencers）仍然蓬勃发展，他们不断积累粉丝并参与品牌合作，从而为印度的网红产业做出了重要贡献。我研究并分析了部分儿童网红的个人资料及其最受欢迎的视频，发现他们的父母负责管理他们的账号并指导他们的内容创作。这些内容通常体现了印度主流文化，体现在语言使用、宗教身份的描绘以及家庭价值观的体现上。这种策略虽然增加了他们的粉丝数量，但也使他们面临网络风险，并加剧了文化刻板印象。随着儿童网红在社交媒体上的影响力不断扩大（即在特定平台上获得更多粉丝或在多个平台上开设账号），尤其是在监管不足的印度，他们更容易受到剥削。虐待、欺凌和心理健康问题十分普遍，因此亟需制定相关政策并开展倡导工作。",
     "summary": "研究印度儿童网红（kidfluencers）如何通过父母管理账户和内容，反映主流文化、宗教与家庭价值观，获得关注但面临剥削和风险。",
     "reason": "研究社交媒体平台上的儿童网红现象，属于数字媒体与传播领域议题，纳入计算传播范畴。",
     "tags": [
@@ -16449,7 +16589,7 @@
   {
     "id": 1296,
     "title": "Perceptions of the European Green Deal: Understanding Public Sentiment",
-    "title_zh": "对《欧洲绿色协议》的看法：理解公众情绪",
+    "title_zh": "对欧洲绿色协议的看法：理解公众情绪",
     "authors": [
       "Steve Borchardt",
       "Matteo Trane",
@@ -16467,7 +16607,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Launched in December 2019, the European Green Deal (EGD) represents the European Union’s (EU) ambitious policy framework to achieve climate neutrality by 2050. This study employs a sentiment analysis of 582,156 tweets from the beginning of 2020 to April 2024 to understand the evolution of public sentiment toward the EGD. Grounded in Social Representations Theory and Framing Theory, we analyze sentiment trends, topic distributions, and the impact of key policy and external events (e.g. COVID-19 spread) on public sentiment. The results reveal predominantly neutral sentiment (61.68%), with more positive (28.26%) than negative (10.06%) sentiment overall and a substantially stable trend over time. EU-affiliated accounts showed higher positive sentiment compared to non-EU-affiliated accounts. Sentiment trends were correlated with key policy announcements and global events, demonstrating the intricate relationship between policy communication and the formation of public opinion. The study identified key themes and specific initiatives driving positive sentiment, including those linked to the first EU climate law and climate targets, Farm to Fork, and New European Bauhaus. Conversely, economic concerns, challenges in policy implementation challenges, ecosystem conservation status, and food system, and energy security issues appeared as associated with negative sentiment. The findings highlight the importance of targeted communication strategies, transparent response to skepticism, communication of policy processes, and stakeholder feedback collection tool enhancement to leverage public sentiment in support of the EU green transition, paving the way for future research to explore regional nuances and sentiment monitoring.",
-    "abstract_zh": "欧洲绿色协议（European Green Deal，简称EGD）于2019年12月正式启动，是欧盟为实现2050年气候中和目标而制定的雄心勃勃的政策框架。本研究通过对2020年初至2024年4月期间发布的582,156条推文进行情感分析，来探讨公众对欧洲绿色协议的态度演变。研究基于社会表征理论（Social Representations Theory）和框架理论（Framing Theory），分析了情感趋势、话题分布以及关键政策和外部事件（如COVID-19的传播）对公众情绪的影响。研究结果显示，公众情绪总体呈中性（61.68%），其中积极情绪（28.26%）略高于消极情绪（10.06%），且情绪趋势较为稳定。与非欧盟相关账户相比，欧盟相关账户的积极情绪更为明显。情感趋势与关键政策公告和全球事件密切相关，这表明政策沟通与公众意见的形成之间存在密切联系。研究发现，一些具体举措（如欧盟首部气候法律、农业到餐桌（Farm to Fork）计划以及新欧洲建筑风格（New European Bauhaus）倡议）对积极情绪的形成起到了推动作用；相反，经济问题、政策实施中的挑战、生态系统保护状况、食品系统问题以及能源安全问题则与消极情绪相关。研究结果强调了制定有针对性的沟通策略、透明回应公众质疑、公开政策制定过程以及改进利益相关者反馈收集机制的重要性，这些措施有助于调动公众对欧盟绿色转型计划的支持。同时，也为未来研究探索地区差异和情绪变化提供了方向。",
+    "abstract_zh": "欧洲绿色协议（European Green Deal，简称EGD）于2019年12月正式启动，是欧盟为实现2050年气候中和目标而制定的雄心勃勃的政策框架。本研究通过对2020年初至2024年4月期间发布的582,156条推文进行情感分析，来探讨公众对欧洲绿色协议的态度演变。研究基于社会表征理论（Social Representations Theory）和框架理论（Framing Theory），分析了情感趋势、话题分布以及关键政策和外部事件（如COVID-19的传播）对公众情绪的影响。研究结果显示，公众情绪总体呈中性态度（61.68%），其中积极情绪（28.26%）略高于消极情绪（10.06%），且情绪趋势较为稳定。与非欧盟相关账户相比，欧盟相关账户的积极情绪更为明显。情感趋势与关键政策公告和全球事件密切相关，这表明政策沟通与公众意见的形成之间存在密切联系。研究发现，推动积极情绪的关键因素包括欧盟首部气候法律及相关气候目标、从农场到餐桌（Farm to Fork）计划以及新欧洲建筑风格（New European Bauhaus）等具体举措；相反，经济担忧、政策实施中的挑战、生态系统保护状况、食品系统问题以及能源安全问题则与消极情绪相关。研究结果强调了制定有针对性的沟通策略、透明地回应公众质疑、及时传达政策进展以及完善利益相关者反馈机制的重要性，这些措施有助于调动公众对欧盟绿色转型计划的支持。同时，也为未来研究探索地区差异和情绪变化提供了方向。",
     "summary": "基于582,156条推文进行情感分析，探究2020-2024年公众对欧洲绿色新政的情绪演变、主题分布及事件影响，发现中性情绪主导，政策沟通与公众舆论关系密切。",
     "reason": "使用大规模推特数据与情感分析方法研究公众对政策议题的情绪，属计算传播学典型研究。",
     "tags": [
@@ -16505,7 +16645,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Social media have transformed political campaigning by enabling direct interaction between politicians and voters, becoming a key tool for shaping public opinion. Moral language is pivotal in this dynamic as it captures attention in an overly information-saturated social media environment and wields significant influence over political opinions. Populists thrive on social media by fostering distrust in elites, using emotional language, and reducing complex issues to simple “us vs. them” binaries. We argue these factors are rooted in moral underpinnings, which may play a significant role in the appeal of populist parties and have thus far received limited scholarly attention. Consequently, this paper addresses the research question: To what extent, and in what ways, do populist parties exhibit a distinct moral-rhetorical profile on social media that sets them apart from mainstream politicians? Using Moral Foundations Theory, natural language processing, and a computational semantic network approach, we analyzed 11,205 social media posts from Dutch political parties and leaders during the 2023 Dutch election campaign across X, Facebook, and Instagram. Our findings reveal that populist parties emphasize Care and Authority over other moral foundations, while mainstream parties exhibit a different moral foundation distribution. These results align with the part of populist communication logic that frames populist actors as defenders against corrupt elites and external threats, as well as representatives of the people’s demand for sovereignty. Moreover, we found populist parties exhibit less internal consistency in their moral rhetoric across platforms than mainstream parties, suggesting a potentially higher adeptness at tailoring messages to different platforms and their affordances.",
-    "abstract_zh": "社交媒体通过实现政治家与选民之间的直接互动，彻底改变了政治竞选的方式，成为塑造公众舆论的关键工具。在这种动态中，道德语言至关重要，因为它能够在信息过载的社交媒体环境中吸引人们的注意力，并对政治观点产生重大影响。民粹主义者在社交媒体上表现出色，他们通过煽动对精英阶层的不信任、使用情感化的语言，以及将复杂问题简化为简单的“我们与他们”的对立关系来获得支持。我们认为这些现象植根于道德基础，而这些道德基础可能在民粹主义政党的吸引力中起着重要作用，但迄今为止学术界对此关注较少。因此，本文提出了以下研究问题：民粹主义政党在社交媒体上表现出何种独特的道德修辞特征，这些特征使它们与主流政党有何不同？我们运用道德基础理论（Moral Foundations Theory）、自然语言处理（natural language processing）和计算语义网络（computational semantic network）方法，分析了2023年荷兰大选期间来自荷兰各政党及其领导人的11,205条社交媒体帖子（这些帖子发布在X、Facebook和Instagram平台上）。研究结果表明，民粹主义政党更强调“关怀”（Care）和“权威”（Authority）这两种道德基础，而主流政党则表现出不同的道德基础分布。这些发现与民粹主义传播逻辑相符，即民粹主义者被描绘成反对腐败精英和外部威胁的捍卫者，同时也是人民主权要求的代表。此外，我们还发现民粹主义政党在不同平台上的道德修辞表现缺乏一致性，这表明它们可能更善于根据不同平台的特性来调整自己的信息传播策略。",
+    "abstract_zh": "社交媒体通过实现政治家与选民之间的直接互动，彻底改变了政治竞选的方式，成为塑造公众舆论的关键工具。在这样一个信息过载的社交媒体环境中，道德语言至关重要，因为它能够吸引人们的注意力，并对政治观点产生重大影响。民粹主义者在社交媒体上表现出色，他们通过煽动对精英阶层的不信任、使用情感化的语言，以及将复杂问题简化为简单的“我们与他们”的对立关系来吸引支持者。我们认为这些行为背后都蕴含着道德层面的原因，而这些道德因素可能在民粹主义政党的吸引力中起着重要作用，但迄今为止学术界对此关注较少。因此，本文提出了以下研究问题：民粹主义政党在社交媒体上究竟在多大程度上、以何种方式展现出不同于主流政治家的道德修辞特征？我们运用道德基础理论（Moral Foundations Theory）、自然语言处理技术（natural language processing）和计算语义网络（computational semantic network）方法，分析了2023年荷兰大选期间来自荷兰各政党及其领导人的11,205条社交媒体帖子（这些帖子发布在X、Facebook和Instagram平台上）。研究结果表明，民粹主义政党更强调“关怀”（Care）和“权威”（Authority）这两种道德价值观，而主流政党则表现出不同的道德价值观分布。这些发现与民粹主义传播逻辑相符——即民粹主义者被描绘成反对腐败精英和外部威胁的捍卫者，同时也是人民主权诉求的代表人物。此外，我们还发现民粹主义政党在不同平台上的道德修辞表现缺乏一致性，这可能表明他们在根据不同平台的特性调整信息传递策略方面更为灵活。",
     "summary": "分析2023荷兰大选中政党社交媒体帖文，发现民粹政党更强调关怀和权威道德基础，且跨平台一致性较低。",
     "reason": "使用NLP和语义网络分析社交媒体政治话语，属于计算传播研究。",
     "tags": [
@@ -16543,7 +16683,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Black Twitter, now operating on X (formerly Twitter), is a crucial online platform that shapes cultural production, political activism, and educational exchange within the global Black community. This study broadens the scope to examine the global influence of Black Twitter, with a focus on the hashtag #diasporawars. This hashtag serves as a lens through which we can observe the tensions and interactions across the global Black community. Black Twitter’s significance extends beyond the United States, deeply embedded in the historical and cultural contexts of Blackness, which inform global conversations on identity. By employing both quantitative and qualitative research methods to analyze #diasporawars, this study aims to shed light on the complexities of global Blackness and how social media platforms contribute to shaping these identities and connections. Our findings reveal that #diasporawars reflects broader dynamics within the global Black community, highlighting how platforms like X both facilitate positive engagement and exacerbate conflicts. This research underscores the multifaceted nature of Black digital spaces, illustrating how they serve as arenas for collaboration and contention, influenced by diverse experiences and perspectives within the global Black diaspora.",
-    "abstract_zh": "“Black Twitter”（现在在X平台上运营，X平台曾被称为Twitter）是一个重要的在线平台，它影响着全球黑人社区的文化创作、政治活动以及知识交流。本研究进一步探讨了“Black Twitter”的全球影响力，重点关注了标签#diasporawars。这个标签为我们观察全球黑人社区中的紧张关系和互动提供了窗口。Black Twitter的重要性不仅限于美国，它深深植根于黑人的历史和文化背景中，这些背景塑造了全球关于身份认同的讨论。通过运用定量和定性研究方法来分析#diasporawars，本研究旨在揭示全球黑人社区的复杂性，以及社交媒体平台如何塑造这些身份认同和社区联系。研究发现表明，#diasporawars反映了全球黑人社区中的多种动态，既促进了积极的互动，也加剧了冲突。这项研究强调了黑人数字空间的多面性，表明这些空间既是合作的场所，也是争议的舞台，其发展受到全球黑人散居群体中多样化经历和观点的影响。",
+    "abstract_zh": "“Black Twitter”（现在在X平台上运营，X平台之前被称为Twitter）是一个重要的在线平台，它影响着全球黑人社区的文化创作、政治活动以及知识交流。本研究进一步探讨了“Black Twitter”的全球影响力，重点关注了标签#diasporawars。这个标签为我们观察全球黑人社区中的紧张关系和互动提供了窗口。Black Twitter的重要性不仅限于美国，它深深植根于黑人的历史和文化背景中，这些背景塑造了全球关于身份认同的讨论。通过运用定量和定性研究方法来分析#diasporawars，本研究旨在揭示全球黑人社区的复杂性，以及社交媒体平台如何塑造这些身份认同和社区联系。研究结果表明，#diasporawars反映了全球黑人社区中的多种动态，表明像X这样的平台既能促进积极的互动，也可能加剧冲突。这项研究强调了黑人数字空间的多面性，说明这些空间既是合作的场所，也是争议的舞台，其运作受到全球黑人散居群体中多样化经历和观点的影响。",
     "summary": "研究探讨Black Twitter上#diasporawars标签所反映的全球黑人群体互动，通过分析推文揭示平台促进合作与加剧冲突的双重作用。",
     "reason": "研究社交媒体平台上的标签传播与身份议题，采用定量与定性方法分析推文数据，符合计算传播学标准。",
     "tags": [
@@ -16843,7 +16983,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Sustainability in the fashion industry is receiving increasing attention, but there are few studies about sustainable fashion communication in social media. Although fashion sustainability-related communication has gained attention as part of social marketing, research is lacking on what types of messages and message senders effectively engage the public’s response (i.e. engagement). Thus, the present study examines the role of different levels of message disseminators (i.e. individuals, organizations, businesses) and message types on the public’s response through attribution and role theories to fill the gap. Using computational methods, the researchers collected and analyzed 40,732 sustainable fashion tweets. The results revealed that fashion-sustainable conversations on Twitter remain nascent. Among environmental, social, and economic sustainability messages, the public responded to the messages published by a sender with a prominent presentation of sustainability-related words on the profile. The findings of this study contribute to the business literature by depicting the role of the message sender in public engagement. Further, this study is one of a few studies that used metadata to examine the impacts of social media on opinion leadership.",
-    "abstract_zh": "时尚行业的可持续性正受到越来越多的关注，但关于社交媒体中可持续时尚传播的研究却很少。尽管与时尚可持续性相关的传播内容作为社会营销的一部分已经引起了人们的注意，但目前仍缺乏关于哪些类型的信息以及哪些信息发布者能够有效激发公众反应（即公众参与度）的研究。因此，本研究通过归因理论和角色理论，探讨了不同类型的信息传播者（个人、组织、企业）以及信息类型对公众反应的影响，以填补这一研究空白。研究人员利用计算方法收集并分析了40,732条关于可持续时尚的推文。研究结果表明，Twitter上的可持续时尚相关讨论仍处于起步阶段。在环境、社会和经济可持续性方面，公众对那些在个人资料中突出展示可持续性相关词汇的信息发布者的推文反应最为积极。本研究通过揭示信息发布者在公众参与中的作用，为商业领域的研究提供了新的见解。此外，这也是少数利用元数据来研究社交媒体对意见领袖影响力的研究之一。",
+    "abstract_zh": "时尚行业的可持续性正受到越来越多的关注，但关于社交媒体中可持续时尚传播的研究却很少。尽管与时尚可持续性相关的传播内容作为社会营销的一部分已经引起了人们的注意，但目前仍缺乏关于哪些类型的信息以及哪些信息发布者能够有效激发公众反应（即公众的参与度）的研究。因此，本研究通过归因理论和角色理论，探讨了不同类型的信息传播者（个人、组织、企业）以及信息类型对公众反应的影响，以填补这一研究空白。研究人员利用计算方法收集并分析了40,732条关于可持续时尚的推文。研究结果表明，Twitter上的可持续时尚相关讨论仍处于起步阶段。在环境、社会和经济可持续性方面，公众对那些在个人资料中突出展示与可持续性相关词汇的信息发布者的推文反应最为积极。本研究通过揭示信息发布者在公众参与中的作用，为商业研究领域做出了贡献。此外，这也是少数利用元数据来研究社交媒体对意见领袖影响力的研究之一。",
     "summary": "研究通过计算方式收集并分析40,732条可持续时尚推文，考察不同传播者类型和信息类型对公众参与的影响，发现传播者个人资料中可持续相关词显著影响公众响应。",
     "reason": "使用计算方法采集分析4万余条推文，研究社交媒体意见领袖与公众参与，属于计算传播研究。",
     "tags": [
@@ -16866,7 +17006,7 @@
   {
     "id": 1083,
     "title": "Can AI-Attributed News Challenge Partisan News Selection? Evidence from a Conjoint Experiment",
-    "title_zh": "人工智能生成的新闻能否挑战党派性的新闻选择？来自一项联合实验的证据",
+    "title_zh": "人工智能生成的新闻能否挑战党派性新闻的选择？来自一项联合实验的证据",
     "authors": [
       "Alon Zoizner",
       "Jörg Matthes",
@@ -16890,7 +17030,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "With artificial intelligence (AI) increasingly shaping newsroom practices, scholars debate how citizens perceive news attributed to algorithms versus human journalists. Yet, little is known about these preferences in today’s polarized media environment, where partisan news consumption has surged. The current study explores this issue by providing a comprehensive and systematic examination of how citizens evaluate AI-attributed news compared to human-based news from like-minded and cross-cutting partisan sources. Using a preregistered conjoint experiment in the United States ( N = 2,011) that mimics a high-choice media environment, we find that citizens evaluate AI-attributed news as negatively as cross-cutting news sources, both in terms of attitudes (perceived trustworthiness) and behavior (willingness to read the news story), while strongly preferring like-minded sources. These patterns remain stable across polarizing and non-polarizing issues and persist regardless of citizens’ preexisting attitudes toward AI, political extremity, and media trust. Our findings thus challenge more optimistic views about AI’s potential to facilitate exposure to diverse viewpoints. Moreover, they suggest that increased automation of news production faces both public mistrust and substantial reader resistance, raising concerns about the future viability of AI in journalism.",
-    "abstract_zh": "随着人工智能（AI）越来越多地影响新闻编辑室的运作方式，学者们一直在讨论公民如何看待那些由算法生成的新闻与由人类记者撰写的新闻。然而，在当今两极分化的媒体环境中，人们对这些偏好的了解仍然非常有限——尤其是在党派倾向强烈的新闻消费日益增多的情况下。本研究通过一项全面而系统的调查来探讨这一议题，比较了公民对由AI生成的新闻与来自相同党派或跨党派来源的人类撰写的新闻的评估。我们在美国进行了一项预先注册的联合实验（样本量N=2,011），该实验模拟了高选择性的媒体环境。实验结果表明，无论是在态度（感知的可信度）还是行为（阅读新闻的意愿）方面，公民对由AI生成的新闻的评价都同样负面；同时，他们更倾向于选择与自己观点一致的媒体来源。这些模式在涉及两极分化问题和非两极分化问题的情况下都保持稳定，并且不受公民对AI的预先态度、政治立场极端性以及媒体信任度的影响。因此，我们的研究结果对那些过于乐观地认为AI能够促进人们接触多样化观点的观点提出了质疑。此外，这些发现还表明，新闻制作的自动化程度越高，就越可能引发公众的不信任和读者的抵制，从而引发了人们对AI在新闻业中未来发展前景的担忧。",
+    "abstract_zh": "随着人工智能（AI）越来越多地影响新闻编辑室的运作方式，学者们一直在讨论公民如何看待那些由算法生成的新闻与由人类记者撰写的新闻。然而，在当今两极分化的媒体环境中，人们对这些偏好的了解仍然非常有限——尤其是在党派倾向强烈的新闻消费日益增多的情况下。本研究通过一项全面而系统的调查来探讨这一议题，比较了公民对由AI生成的新闻与来自相同党派或跨党派来源的新闻的评估。我们在美国进行了一项预先注册的联合实验（样本量N=2,011），该实验模拟了高选择性的媒体环境。实验结果表明，无论是在态度（感知的可信度）还是行为（阅读新闻的意愿）方面，公民对由AI生成的新闻的评价都同样负面；同时，他们更倾向于选择与自己观点一致的媒体来源。这些模式在涉及两极分化问题和非两极分化问题的情况下都保持稳定，并且不受公民对AI的预先态度、政治立场极端性以及媒体信任度的影响。因此，我们的发现对那些过于乐观地认为AI能够促进人们接触多样化观点的观点提出了挑战。此外，这些结果还表明，新闻制作的自动化程度越高，就越可能引发公众的不信任和读者的抵制，这引发了人们对AI在新闻行业未来发展可行性的担忧。",
     "summary": "通过美国联合实验(N=2011)发现受众对AI归因新闻的信任和阅读意愿低，与跨党派新闻类似，而偏好同党派来源，挑战AI促进多元接触的乐观观点。",
     "reason": "研究AI新闻归因对受众选择的影响，属于AI社会影响与传播效果，符合AI特别条款。",
     "tags": [
@@ -16911,7 +17051,7 @@
   {
     "id": 1512,
     "title": "Whose story is prevailing on Twitter? The international discourse battle over Japan's nuclear wastewater discharge",
-    "title_zh": "在推特上，谁的观点占上风？关于日本核废水排放问题的国际舆论之争",
+    "title_zh": "在推特上，谁的观点占上风？关于日本核废水排放问题的国际舆论斗争",
     "authors": [
       "Yaohui Cai",
       "Huili Qi",
@@ -16930,7 +17070,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The discharge of nuclear wastewater into the ocean by Japan was one of the most serious environmental pollution events in recent years. The controversy surrounding the event has extended to international social media platforms. By using the Vector Autoregression models and Granger causality tests, we automatically extracted agenda attributes and networks from 337,610 posts on Twitter from four countries (China, the United States, Japan, and South Korea). We examined the relationship between national agendas, as well as the interplay between national news agendas and public agendas. The research indicates that the United States still holds media hegemony in the international public opinion arena, with its agenda shaping public agendas on international social media platforms. While opposing forces represented by China were unable to influence the overall public opinion agenda in this event, their discussions on certain controversial topics significantly affect the public opinion arena.",
-    "abstract_zh": "日本将核废水排放到海洋中，是近年来最严重的环境污染事件之一。围绕这一事件的争议已经蔓延到了国际社交媒体平台。通过使用向量自回归模型（Vector Autoregression models）和格兰杰因果关系检验（Granger causality tests），我们从来自四个国家（中国、美国、日本和韩国）的337,610条Twitter帖子中自动提取了相关议题属性和网络信息。我们研究了各国议程之间的关系，以及国家新闻议程与公众议程之间的相互作用。研究结果表明，美国在国际舆论领域仍占据着媒体霸权地位，其议程主导了国际社交媒体平台上的公众舆论走向。虽然以中国为代表的反对力量未能影响这一事件的整体舆论走向，但他们在某些争议性话题上的讨论对舆论产生了显著影响。",
+    "abstract_zh": "日本将核废水排放到海洋中，是近年来最严重的环境污染事件之一。围绕这一事件的争议已经蔓延到了国际社交媒体平台。通过使用向量自回归模型（Vector Autoregression models）和格兰杰因果关系检验（Granger causality tests），我们从来自四个国家（中国、美国、日本和韩国）的337,610条Twitter帖子中自动提取了相关议题属性和网络信息。我们研究了各国议题之间的关系，以及国家新闻议程与公众议程之间的相互作用。研究结果表明，美国在国际舆论领域仍占据着媒体霸权地位，其议程主导了国际社交媒体平台上的公众舆论走向。虽然以中国为代表的反对力量未能影响这一事件的整体舆论走向，但他们在某些争议性话题上的讨论对舆论产生了显著影响。",
     "summary": "基于四国337,610条Twitter帖子，运用VAR模型和Granger因果检验分析日本核废水排放事件的国际议程博弈，发现美国主导国际舆论议程，中国在争议话题上影响舆论场。",
     "reason": "使用Twitter大规模数据和VAR/Granger因果等计算方法研究国际议程设置，属于典型计算传播研究。",
     "tags": [
@@ -16965,7 +17105,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study utilizes network evolutionary theory to investigate the diffusion of misinformation and the impact of platform interventions on social media. Using two years of Facebook URL diffusion data concerning the safety of COVID-19 vaccines, the study analyzes the evolution of URL-sharing networks for both misinformation and factual content in the presence of platform intervention. The findings reveal significant disparities in the application of platform interventions between English and Spanish information ecologies, where the English content has been significantly more intensely intervened by Facebook. Notably, while initial misinformation popularity in the English information ecology was gradually reversed over time, it became increasingly prevalent in the Spanish ecology. In addition, alongside URL sharing, English users continued to engage in diverse discussions, whereas such diversity was gradually suppressed in the Spanish ecology.",
-    "abstract_zh": "本研究运用网络进化理论来探讨错误信息的传播以及平台干预对社交媒体产生的影响。通过分析两年间Facebook上关于COVID-19疫苗安全性的URL传播数据，研究了在平台干预的情况下，错误信息和真实内容在URL共享网络中的传播演变过程。研究结果表明，Facebook在处理英语和西班牙语信息时的干预措施存在显著差异：对于英语内容，Facebook的干预力度明显更大。值得注意的是，虽然英语信息生态系统中错误信息的初始传播势头逐渐减弱，但在西班牙语信息生态系统中，错误信息的传播却变得越来越普遍。此外，与URL共享行为相比，英语用户仍保持着多样化的讨论氛围，而在西班牙语信息生态系统中，这种多样性逐渐被抑制了。",
+    "abstract_zh": "本研究运用网络进化理论来探讨错误信息的传播以及平台干预对社交媒体产生的影响。通过分析两年间Facebook上关于COVID-19疫苗安全性的URL传播数据，研究了在平台干预的情况下，错误信息和事实性内容的URL分享网络是如何演变的。研究结果发现，英语和西班牙语信息生态系统中平台干预的实施存在显著差异：Facebook对英语内容的干预力度明显更大。值得注意的是，虽然英语信息生态系统中错误信息的初始传播势头逐渐减弱，但在西班牙语信息生态系统中错误信息却变得越来越普遍。此外，与URL分享行为相比，英语用户仍保持着多样的讨论形式，而在西班牙语信息生态系统中这种多样性逐渐被抑制了。",
     "summary": "利用两年Facebook URL数据，分析新冠疫苗错误信息与事实信息的扩散网络，发现平台干预在英语和西班牙语生态中存在显著差异。",
     "reason": "使用两年Facebook大数据，结合网络演化理论分析错误信息传播与平台干预，属计算传播研究。",
     "tags": [
@@ -17002,7 +17142,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "We examined how the amount of violence depicted in a webcomic episode was related to readers’ ratings of the episode and their perceptions of violence. Furthermore, we investigated how the relationships varied depending on whether the webcomic was action-oriented. To measure violence and readers’ perceptions, we used computational methods based on deep learning, and the relationships between the variables were analyzed using regression models. We analyzed 251 episodes from 23 webcomics. The results revealed that the number of violent scenes in a webcomic episode was negatively associated with the ratings of the episode, regardless of whether the webcomic was action-oriented. However, the negative association was stronger for non-action-oriented webcomics than for action-oriented ones. We found that the number of violent scenes in an episode was positively associated with the number of viewers who perceived violence in the episode negatively and that this relationship was stronger for non-action-oriented webcomics.",
-    "abstract_zh": "我们研究了网络漫画某一集中描绘的暴力场景数量与读者对该集的评分以及他们对暴力的看法之间的关系。此外，我们还探讨了这种关系是否因漫画的类型（动作导向或非动作导向）而有所不同。为了测量暴力程度和读者的看法，我们采用了基于深度学习的计算方法，并通过回归模型分析了这些变量之间的关系。我们分析了23部网络漫画中的251个集。研究结果表明，无论漫画的类型如何，网络漫画集中暴力场景的数量都与该集的评分呈负相关；不过，这种负相关在非动作导向的漫画中比在动作导向的漫画中更为明显。我们还发现，集中暴力场景的数量与那些认为该集中的暴力内容具有负面影响的观众数量呈正相关，且这种关系在非动作导向的漫画中更为显著。",
+    "abstract_zh": "我们研究了网络漫画某一集中描绘的暴力场景数量与读者对该集的评分以及他们对暴力的看法之间的关系。此外，我们还探讨了这种关系是否因漫画的类型（动作导向或非动作导向）而有所不同。为了衡量暴力程度和读者的看法，我们采用了基于深度学习的计算方法，并通过回归模型分析了这些变量之间的关系。我们分析了23部网络漫画中的251个集。研究结果表明，无论漫画是否属于动作导向类型，某一集中的暴力场景数量都与该集的评分呈负相关；不过，这种负相关在非动作导向漫画中比在动作导向漫画中更为显著。我们还发现，某一集中的暴力场景数量与那些认为该集中暴力内容负面的观众数量呈正相关，且这种关系在非动作导向漫画中更为明显。",
     "summary": "基于深度学习计算网络漫画中的暴力场景，分析其与读者评分和暴力感知的关系，并比较动作类与非动作类漫画的差异。",
     "reason": "使用深度学习计算暴力内容，分析网络漫画评分与感知，属计算传播学研究。",
     "tags": [
@@ -17024,7 +17164,7 @@
   {
     "id": 902,
     "title": "Remediated marketing: leveraging computer vision and rule-based classification models to detect e-cigarette warning labels across social media",
-    "title_zh": "改进的营销策略：利用计算机视觉和基于规则的分类模型在社交媒体上检测电子香烟警告标签",
+    "title_zh": "改进的营销策略：利用计算机视觉和基于规则的分类模型在社交媒体上检测电子烟警告标签",
     "authors": [
       "Kellen Sharp",
       "Marzieh Babaeianjelodar",
@@ -17042,7 +17182,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Big Tobacco and other stakeholders, such as vape shops and smaller e-cigarette manufacturers, have adapted traditional tobacco marketing techniques to digital platforms. Warning labels are essential for informing consumers about the potential harms of tobacco use, including e-cigarettes. However, in a rapidly changing digital landscape, social media platform policies often lag behind, leaving digital marketing largely unchecked. This has allowed Big Tobacco to modernize traditional cigarette marketing in the digital sphere with e-cigarettes, a phenomenon we term 'remediated marketing'. Without adequate warning labels, exposure to tobacco promotion may increase e-cigarette use among youth, who engage with social media at particularly high rates. This article presents a rule-based classifier developed to detect warning labels in TikTok and YouTube videos by combining computer vision technology with rule-based classification. Our classifier achieved 97.33% accuracy in detecting posts with warning labels. However, only 2.32% of YouTube video frames (240 out of 10,344 frames) and 1.32% of TikTok video frames (61 out of 4639 frames) contained warning labels, suggesting that warning messages are infrequent across e-cigarette content on platforms popular among youth, including TikTok and YouTube. Among the detected warning labels, there was notable diversity in wording and length, indicating a lack of standardization. Additionally, within YouTube and TikTok video frames, 63.7% and 30.0% of the warnings appeared in the first five seconds of the videos, respectively. These results highlight the need for improved policies and standardized warning labels to better protect young adults from e-cigarette promotion on social media.",
-    "abstract_zh": "大型烟草公司以及其他利益相关者（如电子烟商店和小型电子烟制造商）已将传统的烟草营销手段应用于数字平台。警告标签对于向消费者传达烟草使用（包括电子烟）的潜在危害至关重要。然而，在快速变化的数字环境中，社交媒体平台的政策往往滞后，导致数字营销几乎处于不受监管的状态。这使得大型烟草公司能够将传统的香烟营销方式现代化，并将其应用于电子烟产品上，我们将这种现象称为“改良型营销”。由于缺乏足够的警告标签，青少年（他们使用社交媒体的频率非常高）可能会更容易接触到烟草产品的推广信息。本文提出了一种基于规则的分类器，通过结合计算机视觉技术和规则分类方法来检测TikTok和YouTube视频中的警告标签。该分类器的准确率达到了97.33%。然而，在所有YouTube视频帧中，仅有2.32%（10,344帧中的240帧）和TikTok视频帧中仅有1.32%（4,639帧中的61帧）包含警告标签，这表明在青少年喜爱的平台（如TikTok和YouTube）上，电子烟相关内容中的警告信息非常少见。在检测到的警告标签中，其内容和长度存在显著差异，表明这些警告标签缺乏标准化。此外，在YouTube和TikTok的视频中，63.7%的警告标签出现在视频的前五秒内，而在TikTok中这一比例为30.0%。这些结果凸显了需要制定更完善的政策并统一警告标签的内容，以更好地保护年轻人免受社交媒体上电子烟推广的影响。",
+    "abstract_zh": "大型烟草公司以及其他利益相关者（如电子烟商店和小型电子烟制造商）已将传统的烟草营销手段应用于数字平台。警告标签对于向消费者普及烟草使用（包括电子烟）的潜在危害至关重要。然而，在快速变化的数字环境中，社交媒体的政策往往滞后于市场发展，导致数字营销几乎处于不受监管的状态。这使得大型烟草公司能够将传统的香烟营销方式现代化，并将其应用于电子烟产品上，我们将这种现象称为“改良型营销”。由于缺乏足够的警告标签，青少年（他们使用社交媒体的频率非常高）可能会更容易接触到烟草产品的宣传信息，从而增加电子烟的使用量。本文提出了一种基于规则的分类器，通过结合计算机视觉技术和规则分类方法来检测TikTok和YouTube视频中的警告标签。该分类器的准确率为97.33%，但仅在2.32%的YouTube视频帧（10,344帧中的240帧）和1.32%的TikTok视频帧（4,639帧中的61帧）中检测到了警告标签。这表明，在青少年喜爱的TikTok和YouTube等平台上，电子烟相关内容中的警告信息非常少见。在检测到的警告标签中，其表述方式和长度存在显著差异，显示出缺乏标准化的问题。此外，在YouTube和TikTok的视频中，63.7%的警告标签出现在视频的前五秒内，而在TikTok中这一比例为30.0%。这些结果凸显了需要制定更完善的政策并统一警告标签的内容，以更好地保护年轻人免受社交媒体上电子烟广告的侵害。",
     "summary": "研究利用计算机视觉和规则分类器检测TikTok和YouTube电子烟视频中的警告标签，发现警告标签出现频率低且缺乏标准化，呼吁加强政策监管。",
     "reason": "使用计算机视觉和规则分类模型分析社交媒体电子烟视频，涉及平台与计算方法，属计算传播研究。",
     "tags": [
@@ -17080,7 +17220,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article theorizes worker-led AI governance through the 2023 Hollywood writers' strike, arguing that workers can shape the governance of generative AI from below. Drawing on the power resources approach, it examines how the Writers Guild of America (WGA) mobilized institutional, structural, and discursive power to negotiate the first enforceable agreement on generative AI in the workplace. Through analysis of strike campaigns, social media discourse, and interviews with organizers, the article explores the parameters for this paradigmatic case of worker-led AI governance. While institutional power was grounded in decades of collective bargaining and historical struggles over technological change, structural power emerged from writers' capacity to stop the production in the sector. Crucially, the article emphasizes the decisive role of discursive power. Through slogans, media interventions, and alliances with fans, writers reframed AI as a labor issue. This case contributes to debates on AI governance by demonstrating how worker power, under specific historical and structural conditions, can struggle for the governance of generative AI.",
-    "abstract_zh": "本文通过2023年好莱坞编剧罢工事件，探讨了工人主导的人工智能（AI）治理模式，认为工人可以从底层层面影响生成式AI的治理方式。文章借鉴了“权力资源”（power resources）理论，分析了美国编剧工会（Writers Guild of America, WGA）如何运用制度性、结构性和话语性权力，成功谈判出了首个关于工作场所中生成式AI使用的具有强制力的协议。通过研究罢工活动、社交媒体上的讨论以及与罢工组织者的访谈，本文揭示了这种工人主导的AI治理模式的运作机制。虽然制度性权力源于数十年的集体谈判和针对技术变革的历史斗争，但结构性权力则体现在编剧们有能力中断该行业的生产活动上。尤为关键的是，文章强调了话语性权力的决定性作用：编剧们通过口号、媒体宣传以及与粉丝的联盟，将AI问题重新定义为劳动权益问题。这一案例为AI治理的讨论提供了重要参考，表明在特定的历史和结构条件下，工人可以通过自身的力量推动生成式AI的治理变革。",
+    "abstract_zh": "本文通过2023年好莱坞编剧工会的罢工事件，探讨了工人主导的人工智能（AI）治理模式。文章认为，工人可以从底层层面影响生成式AI的治理方式。基于“权力资源”（power resources）的分析框架，研究了美国编剧工会（Writers Guild of America, WGA）如何运用制度性、结构性和话语性权力，成功谈判出了首个关于工作场所中生成式AI使用的具有法律约束力的协议。通过分析罢工活动、社交媒体上的讨论以及与工会组织者的访谈，本文揭示了这种工人主导的AI治理模式的运作机制。虽然制度性权力源于数十年的集体谈判历史以及工人对技术变革的长期抗争，但结构性权力则体现在编剧们有能力中断整个行业的生产活动上。尤为关键的是，文章强调了话语性权力的决定性作用：编剧们通过口号、媒体宣传以及与粉丝的联盟，将AI问题重新定义为劳动权益问题。这一案例为AI治理的讨论提供了重要参考，表明在特定的历史和结构条件下，工人阶级完全有能力推动AI治理方式的变革。",
     "summary": "以2023年好莱坞编剧罢工为例，运用权力资源方法分析工人如何通过制度、结构及话语权力参与生成式AI治理。",
     "reason": "讨论生成式AI的劳工治理与社会影响，符合AI特别条款，即使方法传统也纳入。",
     "tags": [
@@ -17116,7 +17256,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Political knowledge is essential to deliberative democracy, yet exposure to political information can polarize a citizen, which poses a threat to democracy. Considering this dilemma, the present study examines a method to inform the electorate that does not polarize them. Conversational artificial intelligence chatbots have this potential. Utilizing a pre-test/posttest experimental design, the differing influences of an AI interaction and exposure to a partisan news article are examined. The results reveal that exposure to a partisan news article promotes belief perseverance, while AI interaction mitigates ideological polarization and increases the pro-democratic outcomes of information seeking and political discussion.",
-    "abstract_zh": "政治知识对于协商民主至关重要，然而接触政治信息可能会导致公民产生极端化立场，从而对民主制度构成威胁。鉴于这一困境，本研究探讨了一种能够向选民传递信息而不加剧其极端化的方法。对话式人工智能聊天机器人在这方面具有潜力。通过采用前测/后测的实验设计，本研究分析了人工智能交互与接触党派性新闻文章对公民态度的不同影响。研究结果表明，接触党派性新闻文章会强化人们的固有信念；而人工智能交互则有助于缓解意识形态上的两极分化，并提升公民在信息寻求和政治讨论中的民主倾向。",
+    "abstract_zh": "政治知识对协商民主至关重要，然而接触政治信息可能会导致公民产生极端化立场，这对民主制度构成威胁。鉴于这一困境，本研究探讨了一种不会使选民产生极端化倾向的信息传递方法。对话式人工智能聊天机器人具有这种潜力。通过采用前测/后测的实验设计，本研究分析了人工智能交互与接触党派性新闻文章对选民的不同影响。研究结果表明，接触党派性新闻文章会强化人们的固有信念；而人工智能交互则有助于缓解意识形态上的两极分化，并提升信息获取和政治讨论中的民主倾向。",
     "summary": "通过前测/后测实验，比较AI互动与党派新闻文章对信念坚持和极化及信息寻求的影响，发现AI互动降低极化并促进民主行为。",
     "reason": "研究AI聊天机器人的政治传播效果，属AI社会影响议题，尽管方法为实验但仍纳入。",
     "tags": [
@@ -17156,7 +17296,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "A recurring finding in communication studies is that political actors with formal-institutional power are highly visible in the media. The relationship between informal power and media visibility remains less understood. This study examines whether central roles in networks of political collaboration—as indicators of informal power—are associated with increased visibility in mainstream news media. We hypothesize that organizations with central roles are more visible in the media because informal power increases their newsworthiness. Using social network methods and Bayesian regressions on survey and media data on organizations involved in climate policy in Finland, we find that central organizations with many collaboration partners receive more media coverage. Other central roles, such as brokerage or coalition leadership, are not associated with media visibility. This study advances knowledge of media visibility by showing that informal power is associated with media visibility, and that some power positions are more important than others.",
-    "abstract_zh": "在传播学研究中，一个反复出现的发现是：拥有正式制度权力的政治人物在媒体上具有很高的曝光度。而非正式权力与媒体曝光度之间的关系则尚未得到充分理解。本研究探讨了在政治合作网络中担任核心角色（这些角色被视为非正式权力的体现）是否与在主流新闻媒体中获得更多曝光度有关。我们假设，那些在网络中处于核心地位的组织之所以在媒体上更受关注，是因为非正式权力提升了它们的新闻价值。通过对芬兰气候政策相关组织的调查数据和媒体数据进行社会网络分析及贝叶斯回归分析，我们发现：那些拥有众多合作伙伴的核心组织获得了更多的媒体报道。然而，其他核心角色（如中介角色或联盟领导角色）并未与媒体曝光度显著相关。本研究通过证明非正式权力与媒体曝光度之间存在关联，并指出某些权力职位比其他职位更为重要，从而丰富了我们对媒体曝光度的认识。",
+    "abstract_zh": "在传播学研究中，一个反复出现的发现是：拥有正式制度权力的政治人物在媒体上具有很高的可见度。而非正式权力与媒体可见度之间的关系则尚未得到充分理解。本研究探讨了在政治合作网络中担任核心角色（这些角色被视为非正式权力的体现）是否与在主流新闻媒体中的更高可见度相关。我们假设，那些在网络中处于核心地位的组织之所以在媒体上更受关注，是因为非正式权力提升了它们的新闻价值。通过对芬兰气候政策相关组织的调查数据和媒体数据进行分析（使用了社会网络分析方法和贝叶斯回归分析），我们发现：那些拥有众多合作伙伴的核心组织获得了更多的媒体报道。然而，其他核心角色（如中介角色或联盟领导角色）与媒体可见度之间并未显示出显著关联。本研究通过证明非正式权力与媒体可见度之间存在关联，并指出某些权力职位比其他职位更为重要，从而丰富了我们对媒体可见度的认识。",
     "summary": "研究芬兰气候政策组织中政治网络的核心角色（如合作中心性）与媒体可见性的关系，发现拥有多合作对象的中心组织获得更多媒体报道，而中介或联盟领导角色无此效应。",
     "reason": "使用社会网络分析和贝叶斯回归，结合媒体数据研究政治网络与媒体可见性，属于计算传播学。",
     "tags": [
@@ -17178,7 +17318,7 @@
   {
     "id": 1217,
     "title": "How does social media content go viral across platforms? Modelling the spread of Kamala is brat across X, TikTok, and Instagram",
-    "title_zh": "社交媒体内容是如何在多个平台上迅速传播的？以Kamala is brat为例，研究其在X（前称Twitter）、TikTok和Instagram上的传播机制",
+    "title_zh": "社交媒体内容如何在各个平台上迅速传播？以Kamala is brat为例，研究其在X（原Twitter）、TikTok和Instagram上的传播机制",
     "authors": [
       "Emma Connolly"
     ],
@@ -17188,7 +17328,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The article addresses cross-platform movement of viral social media content in the context of high-profile election campaigns. Social media is influential in election outcomes but understanding the scope, reach, and spread of viral content is challenging as it increasingly travels across platforms. Applying an innovative form of social network analysis (SNA) to datasets collected from X, Instagram, and TikTok (N = 396), the paper maps the spread of the kamala is brat meme in the run-up to the 2024 US presidential election. It demonstrates a five-stage process of cross-platform spread, showing how content emerges on X, is adapted on TikTok and Instagram, and molds to the contours of individual platforms, before resurging on X. A viral contagion model is proposed that can be used to leverage the soft-power of social media for political success, putting forward recommendations for doing so. The paper’s methodologically innovative approach – mapping viral spread on small datasets – looks to the future of a rapidly evolving technological landscape, and is well-suited for continued change.",
-    "abstract_zh": "本文探讨了在高调的选举活动背景下，病毒式社交媒体内容在跨平台传播的现象。社交媒体对选举结果具有重要影响，但鉴于这类内容在各个平台间的传播日益频繁，要准确理解其传播范围、影响力和扩散路径仍然具有挑战性。本文采用了一种创新的社会网络分析（SNA）方法，分析了来自X平台、Instagram和TikTok的数据集（样本量N=396），追踪了“Kamala is Brat”这一网络迷因在2024年美国总统大选前的传播过程。研究揭示了该内容在跨平台传播中的五个关键阶段：首先在X平台上出现，随后被TikTok和Instagram改编并适应各自平台的特性，最后再次在X平台上重新流行起来。文章提出了一种病毒式传播模型，旨在利用社交媒体的软实力来实现政治目标，并为此提供了相应的建议。这种基于小规模数据集的创新分析方法，为快速变化的技术环境提供了有益的视角，非常适合用于持续性的研究与发展。",
+    "abstract_zh": "本文探讨了在高调的选举活动背景下，病毒式社交媒体内容在跨平台传播的现象。社交媒体对选举结果具有重要影响，但鉴于这类内容在各个平台间的传播日益频繁，要准确理解其传播范围、影响力和传播机制仍然具有挑战性。本文采用了一种创新的社会网络分析（SNA）方法，分析了来自X平台、Instagram和TikTok的数据集（样本量N=396），追踪了“Kamala is Brat”这一网络模因在2024年美国总统大选前的传播过程。研究揭示了该内容在跨平台传播的五个阶段：首先在X平台上出现，随后被TikTok和Instagram改编并适应各自平台的特性，最后再次在X平台上重新流行起来。文章提出了一种病毒式传播模型，旨在利用社交媒体的软实力来实现政治目标，并为此提供了相应的建议。本文在方法论上的创新之处在于——即使面对数据量较小的情况，也能有效追踪内容的传播路径——这一方法对于快速变化的技术环境具有前瞻性，非常适合用于持续性的研究与应用。",
     "summary": "通过社会网络分析映射“kamala is brat”迷因在X、TikTok、Instagram的跨平台传播，提出五阶段传播模型。",
     "reason": "使用社会网络分析研究跨平台病毒式传播，明确涉及社交媒体与计算方法，属计算传播学。",
     "tags": [
@@ -17210,7 +17350,7 @@
   {
     "id": 907,
     "title": "Twitch aggression profile: exploring aggression on a live mixed-media platform",
-    "title_zh": "Twitch攻击性行为特征分析：探究这一实时多媒体平台上的攻击行为",
+    "title_zh": "Twitch平台的攻击性行为特征：探究这一实时多媒体平台上的攻击行为",
     "authors": [
       "Seung Woo Chae"
     ],
@@ -17222,7 +17362,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The current study addresses an emerging social issue: violence and aggression on live-streaming social media. It employs Twitch as a target platform for exploration and Cultivation Theory as the theoretical framework. As the originator of the theory, George Gerbner, conducted content analysis of television content to probe violence on the medium in his Cultural Indicators (CI) project, this study seeks to conduct a partial replication of his project on Twitch. Both manual content analysis and computational text analysis were utilized to observe aggression in each of the three media dimensions of Twitch – video game play, streamer broadcast speech, and viewer chat. The results of this study revealed that aggression is prevalent on Twitch across all three media dimensions. Surprisingly, the percentage of violent game play on Twitch is almost the same as the percentage of violent television programs that the original CI team averaged the results between 1967 and 2015. In addition, this study showed that intersections of different types of aggression are common on Twitch. Taken together, although more than half a century has passed since Gerbner and his team's first CI data collection, media platforms still appeal to their users with aggressive content. Accordingly, the cultural function of storytelling with aggressive messages may still hold in the current era of social media. The findings are further discussed in the context of the current media landscape.",
-    "abstract_zh": "当前的研究关注一个日益严重的社会问题：在直播社交媒体上的暴力和攻击行为。本研究以Twitch作为研究平台，采用“培养理论”（Cultivation Theory）作为理论框架。作为该理论的创始人，乔治·格伯纳（George Gerbner）在其“文化指标”（Cultural Indicators, CI）项目中通过对电视内容进行分析来探究电视媒体上的暴力现象。本研究旨在对格伯纳的这项研究在Twitch平台上进行部分复制。研究采用了手动内容分析和计算文本分析的方法，来观察Twitch平台上的三种媒体形式中的攻击行为——电子游戏玩法、主播的直播言论以及观众评论。研究结果表明，在Twitch的这三种媒体形式中，攻击行为普遍存在。令人惊讶的是，Twitch上暴力游戏内容的比例与格伯纳团队在1967年至2015年间统计的电视暴力节目比例几乎相同。此外，研究还发现不同类型的攻击行为在Twitch上经常同时出现。尽管距离格伯纳团队首次收集数据已经过去了半个多世纪，但媒体平台仍然在向用户提供具有攻击性的内容。因此，在当前的社交媒体时代，传递攻击性信息的叙事功能可能仍然具有影响力。研究结果进一步在当前媒体环境的背景下进行了讨论。",
+    "abstract_zh": "当前的研究关注一个日益严重的社会问题：在直播社交媒体上的暴力和攻击行为。该研究以Twitch作为研究平台，采用“培养理论”（Cultivation Theory）作为理论框架。作为这一理论的创始人，乔治·格伯纳（George Gerbner）在其“文化指标”（Cultural Indicators, CI）项目中通过对电视内容进行分析来探讨电视媒体中的暴力现象。本研究旨在对格伯纳的这一研究进行部分复制，具体方法包括手动内容分析和计算文本分析，以观察Twitch平台上的三种媒体形式中的攻击行为：电子游戏玩法、主播的直播言论以及观众评论。研究结果表明，在Twitch的这三种媒体形式中，攻击行为普遍存在。令人惊讶的是，Twitch上暴力游戏内容的比例与格伯纳团队在1967年至2015年间统计的电视暴力节目比例几乎相同。此外，研究发现不同类型的攻击行为在Twitch上经常同时出现。尽管距离格伯纳团队首次收集数据已经过去了半个多世纪，但媒体平台仍然在吸引用户的同时提供具有攻击性的内容。因此，在当前的社交媒体时代，传递攻击性信息的叙事功能可能仍然具有影响力。研究结果进一步在当前媒体环境的背景下进行了讨论。",
     "summary": "以涵化理论为框架，通过人工和计算文本分析考察Twitch游戏、主播和聊天中的攻击性，发现其普遍且与电视暴力相似。",
     "reason": "研究社交媒体平台Twitch上的攻击性内容，结合人工与计算文本分析，属于计算传播学。",
     "tags": [
@@ -17260,7 +17400,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "While social media allow practitioners to talk directly to audiences, their unstructured nature often advantages opposition actors not tied to bureaucratic structures. Simultaneously, traditional methods of information dissemination via the mass media continue to exist. Using a large dataset of tweets (N = 62.400) collected during a breaking news public health event (the JUUL Marketing Denial Order), this paper examines the discursive power (Jungherr et al. [2019]. Discursive power in contemporary media systems: A comparative framework. The International Journal of Press/Politics, 24(4), 404–425. https://doi.org/10.1177/1940161219841543) of public health bodies and opposition actors to frame the event. Results show while ‘corruption’, ‘misplaced priorities’ and ‘harm reduction’ were the most used frames, many accounts using these frames had little reach. Instead, the least used frame – ‘youth protection’ – had the greatest reach due to use by legacy mass media accounts who were by far the most followed accounts. This work suggests practitioners should engage legacy mass media to share public health messaging and researchers should consider the reach of social media messages and not just the number of posts to understand influence.",
-    "abstract_zh": "虽然社交媒体让从业者能够直接与受众交流，但其非结构化的特性往往使那些不隶属于官僚体系的反对者更具优势。与此同时，通过大众媒体进行信息传播的传统方式仍然存在。本文利用在一场突发公共卫生事件（JUUL电子烟营销禁令）期间收集的大量推文数据（N = 62,400条），研究了公共卫生机构和反对者在事件舆论塑造中的话语权力（参见Jungherr等人[2019]的研究：《当代媒体系统中的话语权力：一个比较框架》，《国际新闻/政治杂志》，24(4)，404–425页；网址：https://doi.org/10.1177/1940161219841543）。研究结果表明，“腐败”、“优先级错误”和“减少危害”是最常被使用的论调，但使用这些论调的许多账号的传播范围非常有限。相反，最不常被使用的论调——“保护青少年”——却因为得到了传统大众媒体账号的传播而具有最大的影响力，而这些传统媒体账号的粉丝数量远远超过其他账号。本文建议从业者应与传统大众媒体合作传播公共卫生信息，同时研究人员在评估社交媒体信息的影响力时，不应仅关注帖子的数量，而应考虑其实际传播范围。",
+    "abstract_zh": "虽然社交媒体让从业者能够直接与受众交流，但其非结构化的特性往往使那些不隶属于官僚体系的反对者更具优势。与此同时，通过大众媒体进行信息传播的传统方式仍然存在。本文利用在一场突发公共卫生事件（JUUL电子烟营销禁令）期间收集的大量推文数据（N = 62,400条），研究了公共卫生机构和反对者在事件舆论塑造中的话语权力（参见Jungherr等人[2019]的研究：《当代媒体系统中的话语权力：一个比较框架》，《国际新闻/政治杂志》，24(4)，404–425页；网址：https://doi.org/10.1177/1940161219841543）。研究结果表明，“腐败”、“优先级错误”和“减少危害”是最常被使用的论调，但使用这些论调的许多账号的传播范围非常有限。相反，最不常被使用的论调——“保护青少年”——却因为得到了传统大众媒体账号的传播而具有最大的影响力，这些传统媒体账号的粉丝数量远远超过其他账号。本文建议从业者应与传统大众媒体合作传播公共卫生信息，同时研究人员在评估社交媒体信息的影响力时，不应仅关注帖子的数量，而应考虑其实际传播范围。",
     "summary": "基于JUUL营销禁令事件的6.24万条推文，分析公共卫生机构与反对派在突发新闻中的话语权，发现青年保护框架虽使用最少但触及最广，建议重视传统大众媒体的影响力。",
     "reason": "使用大规模推文数据集（N=62,400）分析健康事件中的框架与影响力，属于社交媒体计算研究。",
     "tags": [
@@ -17294,7 +17434,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Deepfakes pose significant challenges to information credibility and user discernment. While public and scholarly interest in deepfakes has grown, little is known about the cognitive processes that shape individuals’ judgments of their credibility. This study investigates how users assess deepfakes by examining the role of heuristic cues and contextual features in influencing evaluative judgments. Drawing on dual-process theories of cognition, the study develops a model that explores how heuristic processing (e.g., bandwagon cues, source attribution) and perceptions of verisimilitude affect users’ systematic decision-making and behavioral intentions, particularly regarding the sharing of deepfake content. Findings reveal that users who perceive deepfakes as highly realistic are more likely to evaluate them systematically and consider sharing them. Reliance on cognitive shortcuts often overrides analytical reasoning. Notably, users’ ability to discern the authenticity of deepfakes–diagnosticity–improves when they are exposed to relevant cues and transparent explanatory information. This study enhances our understanding of how individuals assess the credibility of deepfakes and lays the groundwork for developing interventions to counter the spread of misinformation.",
-    "abstract_zh": "深度伪造（deepfakes）对信息的可信度以及用户的辨别能力构成了重大挑战。尽管公众和学术界对深度伪造的关注日益增加，但关于影响个人对其可信度判断的认知过程却知之甚少。本研究通过探讨启发式线索（heuristic cues）和上下文特征（contextual features）在评估深度伪造可信度中的作用，来分析用户是如何判断这些伪造内容的。基于双过程认知理论（dual-process theories of cognition），该研究建立了一个模型，用以解释启发式处理方式（如从众行为、信息来源的归因等）以及对真实感的感知如何影响用户的系统化决策和行为倾向，尤其是在分享深度伪造内容方面。研究结果表明，那些认为深度伪造内容非常逼真的用户更倾向于对其进行系统化的评估，并考虑将其分享出去。在面对深度伪造时，人们往往更依赖认知捷径（cognitive shortcuts）而非分析性推理。值得注意的是，当用户接触到相关的线索和透明的解释性信息时，他们辨别深度伪造真实性的能力会得到提升。这项研究加深了我们对个人如何评估深度伪造可信度的理解，并为制定遏制错误信息传播的干预措施奠定了基础。",
+    "abstract_zh": "深度伪造（deepfakes）对信息的可信度以及用户的辨别能力构成了重大挑战。尽管公众和学术界对深度伪造的关注日益增加，但关于影响个人对其可信度判断的认知过程却知之甚少。本研究通过探讨启发式线索（heuristic cues）和上下文特征（contextual features）在评估深度伪造可信度中的作用，来分析用户是如何对其进行判断的。基于双过程认知理论（dual-process theories of cognition），该研究构建了一个模型，用以解释启发式处理方式（如从众行为、信息来源的归因等）以及对真实感的感知如何影响用户的系统化决策和行为倾向，尤其是在分享深度伪造内容方面。研究结果表明，那些认为深度伪造非常逼真的用户更倾向于对其进行系统化的评估，并考虑分享这些内容。在面对深度伪造时，人们往往更依赖认知捷径（cognitive shortcuts）而非分析性推理。值得注意的是，当用户接触到相关的线索和透明的解释性信息时，他们辨别深度伪造真实性的能力会得到提升。这项研究加深了我们对个人如何评估深度伪造可信度的理解，并为制定应对虚假信息传播的干预措施奠定了基础。",
     "summary": "基于双过程理论，探究用户如何通过启发式线索和情境特征评估deepfake可信度，并影响分享行为，发现感知真实性与诊断性作用。",
     "reason": "研究deepfakes（AI生成内容）的用户认知与可信度判断，属于AI社会影响议题，符合纳入标准。",
     "tags": [
@@ -17332,7 +17472,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Recent technological advancements have significantly enhanced AI chatbots’ ability to engage in meaningful conversations and empathic interactions, creating new opportunities for human-AI interaction while also introducing ethical considerations. This study surveyed 789 U.S. users of AI chatbots to examine how their perceptions of empathy and ethics in these chatbots influence trust in the company. The results show that perceived empathy and ethics are strongly linked to users’ trust in the company, which, in turn, affects their intention to continue using the chatbots and their likelihood of providing positive word of mouth. This study highlights the importance of empathy and ethics in AI chatbot usage from the end user’s perspective, with both theoretical and practical implications discussed.",
-    "abstract_zh": "近期技术进步显著提升了人工智能聊天机器人在进行有意义的对话和富有同理心的互动方面的能力，为人类与人工智能的互动带来了新的机遇，同时也引发了伦理方面的考量。本研究调查了789名美国人工智能聊天机器人的用户，探讨了他们对聊天机器人同理心和伦理行为的看法如何影响他们对公司的信任。研究结果表明，用户对聊天机器人的同理心和伦理行为的认知与他们对公司的信任之间存在密切关联，而这又进一步影响了他们继续使用这些聊天机器人的意愿以及他们愿意给予正面评价的可能性。该研究从最终用户的角度强调了同理心和伦理行为在人工智能聊天机器人使用中的重要性，并讨论了相关的理论意义和实践意义。",
+    "abstract_zh": "近期技术进步显著提升了人工智能聊天机器人在进行有意义的对话和富有同理心的互动方面的能力，为人类与人工智能的互动带来了新的机遇，同时也引发了伦理方面的考量。本研究调查了789名美国人工智能聊天机器人的用户，以探讨他们对这些聊天机器人的同理心和伦理行为的看法如何影响他们对公司的信任。研究结果表明，用户感知到的同理心和伦理行为与他们对公司的信任之间存在密切联系，而这又进一步影响了他们继续使用这些聊天机器人的意愿以及他们愿意给予正面评价的可能性。该研究从最终用户的角度强调了同理心和伦理行为在人工智能聊天机器人使用中的重要性，并讨论了相关的理论和实践意义。",
     "summary": "调查789名美国AI聊天机器人用户，发现感知共情和伦理正向影响对公司信任，进而提升持续使用意愿和正面口碑。",
     "reason": "研究AI聊天机器人用户感知与行为，符合AI社会影响特别条款，虽用调查但议题相关。",
     "tags": [
@@ -17368,7 +17508,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The rise of generative AI, such as ChatGPT, has transformed platform governance, affecting not only their own frameworks but also those of interconnected platforms like Twitter/X, TikTok, and Facebook. This study explores the evolution, interdependence, and assembling of platform governance through a comparative analysis of policy documents, including Community Guidelines, Privacy Policies, and Terms of Service. By examining OpenAI’s policies alongside those of major social media platforms from 2022 to 2024, we trace the co-evolution of platform values such as privacy, engagement, and accountability. Using longitudinal lexical and time-series analyses, we identify three prominent value patterns: positively-aligned values, divergent values, and floating values. These findings suggest that OpenAI’s policy have a significant influence on other platforms, particularly in aligning privacy and accountability while revealing divergences in values such as user choice and platform power. Drawing on assemblage thinking, we argue that governance is an ongoing process contingent on the interplay between heterogeneous entities, where platforms engage in private ordering to shape and legitimize their governance structures. The study highlights the interconnectedness of platform governance and the complex ways in which generative AI reshapes policy frameworks across the digital ecosystem. We conclude by reflecting on the implications for both platforms and policymakers, emphasizing the need for coordinated regulation in the face of evolving AI governance.",
-    "abstract_zh": "生成式人工智能（如ChatGPT）的兴起彻底改变了平台治理方式，不仅影响了这些人工智能平台自身的治理框架，也影响了Twitter/X、TikTok和Facebook等相互关联的平台。本研究通过对比分析政策文件（包括社区准则、隐私政策和服务条款），探讨了平台治理的演变、相互依赖性及其构成机制。通过对比2022年至2024年间OpenAI的政策与主要社交媒体平台的相关政策，我们追踪了平台价值观（如隐私保护、用户参与度和责任机制）的共同演变过程。利用纵向词汇分析和时间序列分析方法，我们发现了三种主要的价值观模式：价值观趋于一致的情况、价值观存在分歧的情况，以及价值观处于变动中的情况。研究结果表明，OpenAI的政策对其他平台具有显著影响，尤其是在隐私保护和责任机制方面；同时，也揭示了用户在平台选择权和平台权力等方面的价值观差异。基于“组合思维”（assemblage thinking）的理论，我们认为平台治理是一个持续的过程，其结果取决于不同实体之间的相互作用，各平台通过私下协商来塑造和合法化自身的治理结构。研究强调了平台治理之间的相互关联性，以及生成式人工智能如何以复杂的方式重塑整个数字生态系统中的政策框架。最后，我们反思了这一现象对平台运营者和政策制定者的影响，指出在人工智能治理不断发展的背景下，需要加强协调监管。",
+    "abstract_zh": "生成式人工智能（如ChatGPT）的兴起彻底改变了平台治理模式，不仅影响了这些人工智能平台自身的治理框架，也影响了Twitter/X、TikTok和Facebook等相互关联的平台。本研究通过对比分析政策文件（包括社区准则、隐私政策和服务条款），探讨了平台治理的演变过程、相互依赖关系以及治理结构的形成机制。通过对比2022年至2024年间OpenAI的政策与主要社交媒体平台的相关政策，我们追踪了平台价值观（如隐私保护、用户参与度和责任机制）的共同演变过程。利用纵向词汇分析和时间序列分析方法，我们发现了三种主要的价值观模式：价值观趋于一致的情况、价值观存在分歧的情况，以及价值观处于变动中的情况。研究结果表明，OpenAI的政策对其他平台具有显著影响，尤其是在隐私保护和责任机制方面；同时，也揭示了用户选择权和平台权力等价值观方面的差异。基于“组合思维”（assembly thinking）的理论，我们认为平台治理是一个持续进行的过程，其结果取决于不同实体之间的相互作用，各平台通过私下协商来塑造和合法化自身的治理结构。研究强调了平台治理之间的相互关联性，以及生成式人工智能如何以复杂的方式重塑整个数字生态系统中的政策框架。最后，我们反思了这一现象对平台运营者和政策制定者的影响，指出在面对不断发展的AI治理环境时，需要加强协调监管。",
     "summary": "通过分析OpenAI及主流社交平台2022-2024年政策文本，追踪隐私、参与、问责等价值演变，发现OpenAI政策显著影响其他平台，存在对齐、分歧和浮动三种价值模式，体现平台间治理互依性。",
     "reason": "研究生成式AI对平台治理的影响，使用政策文本的纵向词汇和时间序列分析等计算方法，属计算传播领域。",
     "tags": [
@@ -17410,7 +17550,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Agency, pertaining to planning and executing actions, is a core feature of the political landscape. Our study examines the temporal dynamics of agentic language in political online discourse during the 2020 U.S. Congressional Elections, spanning 180 days before and after Election Day, and before the Capitol Hill riots. We coded 495,252 messages posted by Democratic and Republican candidates on Twitter for agentic language, which was more prevalent in tweets of politicians who won elections. Temporal analyses revealed increased agency as critical political events approached, whether a planned democratic event (Election Day) or a sudden disruptive protest (Capitol riots). The study enhances our understanding of the role of agency expression in political social media communication. Politicians may strive to evoke agency among voters to encourage political engagement, and voters may be cautioned by our results about this subtle (possibly unaware) manipulative strategy.",
-    "abstract_zh": "能动性（agency），即规划与执行行动的能力，是政治格局中的一个核心特征。本研究考察了2020年美国国会选举期间政治网络话语中能动性语言的使用动态，时间跨度为选举日之前和之后的180天，以及国会山骚乱发生之前。我们分析了民主党和共和党候选人发布的495,252条推文中的能动性语言使用情况，发现这种语言在获胜政客的推文中更为普遍。时间序列分析表明，随着关键政治事件的临近（无论是预定的民主选举活动还是突然发生的破坏性抗议事件），能动性的表达频率有所增加。这项研究加深了我们对政治社交媒体交流中能动性表达作用的理解。政客可能会试图激发选民的能动性以促进政治参与，而选民则应警惕这种可能未被察觉的操纵策略。",
+    "abstract_zh": "能动性（agency），即规划和执行行动的能力，是政治格局中的一个核心特征。本研究分析了2020年美国国会选举期间政治网络话语中能动性语言的使用动态，时间跨度为选举日之前和之后的180天，以及国会山骚乱发生之前。我们统计了民主党和共和党候选人在Twitter上发布的495,252条推文中的能动性语言使用情况，发现这种语言在获胜政客的推文中更为普遍。时间分析表明，随着关键政治事件的临近（无论是预定的民主选举活动还是突然发生的破坏性抗议事件），能动性的表达明显增强。这项研究加深了我们对政治社交媒体交流中能动性表达作用的理解。政客可能会试图激发选民的能动性以促进政治参与，而选民则应从研究结果中警惕这种可能具有操纵性的、但却不易被察觉的策略。",
     "summary": "研究分析2020年美国国会选举前后候选人在Twitter上的代理性语言，发现其与选举胜选及关键事件时间动态相关，揭示动员策略。",
     "reason": "研究使用大规模Twitter数据和文本编码分析政治话语，属于计算传播学范畴",
     "tags": [

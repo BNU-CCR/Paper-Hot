@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "平台社群、直播打赏与组织传播",
-  "description": "研究直播中的准社会关系与社群认同、创作者经济，以及组织的社交媒体采纳行为。",
-  "why_hot": "近30天日均发表速度较前期下降约55%，研究热度回落，但仍覆盖9本期刊。",
-  "hot_score": 39,
+  "label": "危机传播与数字民族主义",
+  "description": "考察组织与公众如何在社交媒体上开展危机沟通，以及民族主义、爱国情绪如何转化为政治参与。",
+  "why_hot": "近30天日均发表速度较前期下降约55%，近期发表明显降温。",
+  "hot_score": 35,
   "growth": -0.545,
   "growth_rate": -0.545,
-  "recent_rate": 0.1,
-  "baseline_rate": 0.22,
-  "recent_count": 3,
-  "baseline_count": 33,
-  "journal_count": 9,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.1467,
+  "recent_count": 2,
+  "baseline_count": 22,
+  "journal_count": 8,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
-    "live streaming",
-    "parasocial interaction",
-    "community identification",
+    "crisis communication",
     "social media adoption",
-    "crisis communication"
+    "nationalism",
+    "patriotism",
+    "political participation"
   ],
   "papers": [
     {
@@ -29,11 +29,11 @@
       "summary": "论文比较2018与2023年越南公共关系从业者的访谈数据，探讨社交媒体在危机传播中角色的演变，结合创新扩散理论分析媒体特征与文化因素对社交媒体采纳的影响，聚焦非西方快速数字化转型情境。"
     },
     {
-      "id": 2154,
-      "title": "Webs of Ainu Mosir: Indigenous Creative Networks on YouTube",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "研究利用YouTube API采集428个阿伊努相关视频，分类合作者并量化网络关系，分析个人、社群等合作模式及中心性，探讨原住民在虚拟Mosir中的多媒体生产与社交网络协作。"
+      "id": 2165,
+      "title": "From Facebook to political actions: nationalism, patriotism, and participation in Vietnam’s digital sphere",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-13",
+      "summary": "以越南为背景，通过问卷调查考察三类 Facebook 使用行为与四类政治参与的关系，并检验民族主义与爱国情感的中介作用，发现主动非社交使用正向预测民族主义与爱国态度，民族主义态度负向关联对抗性参与。"
     },
     {
       "id": 2058,
@@ -43,25 +43,11 @@
       "summary": "论文探讨VTuber直播中观众的准社会卷入与社群认同如何解释其付费打赏行为，属直播平台受众行为的传播学研究。"
     },
     {
-      "id": 2028,
-      "title": "How Do Social Media Influencers Motivate Prosocial Intentions? The Interaction of SMI Gender and Expertise",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-09-10",
-      "summary": "研究探讨社交媒体影响者的性别与专业度如何交互影响受众的亲社会行为意向，属战略传播领域的说服效果研究，采用实验或调查方法验证假设。"
-    },
-    {
       "id": 2020,
       "title": "The control of digital spaces in India, Pakistan, and Bangladesh: a comparative analysis",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-09-08",
       "summary": "论文比较印度、巴基斯坦、孟加拉国对数字空间的控制，结合法律框架梳理与OONI、Internet Society网络干扰数据，分析各国审查与监控实践的差异及其成因，发现不同政权安全关切导致控制手段分化。"
-    },
-    {
-      "id": 1976,
-      "title": "Sex, Romance, or Recreation? An Experiment Testing the Effects of Cannabis Brand-generated Social Media Ads on College Students’ Expectancies and Intentions to Use Cannabis Prior to Sex",
-      "journal": "Communication Research",
-      "published_date": "2026-08-31",
-      "summary": "通过在线实验考察大麻品牌社交媒体广告中的性/浪漫/娱乐脚本对大学生性前使用大麻预期与意向的影响，发现性别差异及机制。"
     },
     {
       "id": 1993,
@@ -71,39 +57,11 @@
       "summary": "研究NGO在土耳其可持续性话语中如何针对不同利益相关者调整传播，结合社交网络与情感分析8万余条推文。"
     },
     {
-      "id": 1949,
-      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-21",
-      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
-    },
-    {
-      "id": 1929,
-      "title": "‘Cool! I wanna try it!’: online exposure to e-cigarette advertisements increases e-cigarette susceptibility among U.S. sexual minority young adults",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-10",
-      "summary": "研究在线电子烟广告暴露如何影响美国性少数青年对电子烟的易感性，关注数字广告的传播效果。"
-    },
-    {
-      "id": 1898,
-      "title": "Corporate digital responsibility: what drives public expectations towards companies’ role in the digital society?",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-07",
-      "summary": "研究公众对企业数字责任角色的期望，探讨企业在数字社会中的责任认知，但缺乏具体方法与数据信息。"
-    },
-    {
       "id": 1901,
       "title": "Replatformization and the expansion of the alt-tech ecosystem on kiwi farms",
       "journal": "Information Communication & Society",
       "published_date": "2026-08-03",
       "summary": "通过Kiwi Farms案例提出'replatformization'概念，分析另类平台如何在市场治理下通过社会、技术、组织策略规避去平台化，并揭示其扩展机制。"
-    },
-    {
-      "id": 8,
-      "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
-      "journal": "Political Communication",
-      "published_date": "2026-07-29",
-      "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
     },
     {
       "id": 15,
@@ -120,6 +78,34 @@
       "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
     },
     {
+      "id": 246,
+      "title": "Digital transformation and contested sovereignty in humanitarian action",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-23",
+      "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
+    },
+    {
+      "id": 58,
+      "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-22",
+      "summary": "探讨智能音箱如何支持处于数字排斥风险的老年人的独立性、能力感和关联性，属于AI技术在社会情境中的应用研究。"
+    },
+    {
+      "id": 63,
+      "title": "Platforming pocket money: family finance apps and the datafication of child economies",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-15",
+      "summary": "分析儿童理财APP的特征，探讨其如何通过数据追踪与管理重塑儿童的经济参与，并讨论数据化对儿童金融主体与客体的构建。"
+    },
+    {
+      "id": 64,
+      "title": "Disability and AI in smart cities: centering access, agency, and awareness in hybrid spaces",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-14",
+      "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
+    },
+    {
       "id": 69,
       "title": "Selling speed, suspending citizenship: data throttling, instantaneous downgrading, and the politics of connectivity in China",
       "journal": "Information Communication & Society",
@@ -134,39 +120,11 @@
       "summary": "基于172国2003-2022年面板数据，发现数字压制能力与实际压制正相关，但强隐私保护和政治稳定削弱该关系，选举年无显著影响。"
     },
     {
-      "id": 1942,
-      "title": "Negotiating the Influencer Imaginary: How Everyday Professionals Construct Legitimacy on Social Media",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
-    },
-    {
-      "id": 1994,
-      "title": "“Fairness Labels” in Feeds: Process Disclosures, Provenance, and User Choice Among Short‑Video Creators in Mainland China",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过移动在线实验，研究面向中国短视频创作者的公平性披露对感知程序正义、分配公平及合法性的影响。"
-    },
-    {
-      "id": 2022,
-      "title": "Constructing Online Harms: How “Trust and Safety” Translates Safety Into Risk",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过对42位“信任与安全”从业者的访谈及行业论坛观察，作者揭示平台内部如何将用户伤害建构为可操作的公司风险（法律责任、声誉、营收），并描述其倡导者定位、风险转译与行业展演三重机制。"
-    },
-    {
       "id": 71,
       "title": "Infrastructural hubris and platform power: the failed scalability of Google Stadia",
       "journal": "Information Communication & Society",
       "published_date": "2026-06-30",
       "summary": "通过分析170份专业媒体、Reddit和YouTube文档，探讨Google Stadia云游戏平台失败原因，提出“基础设施傲慢”概念，强调技术能力需配合平台层面的利益相关者参与。"
-    },
-    {
-      "id": 212,
-      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
-      "journal": "Political Communication",
-      "published_date": "2026-06-30",
-      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
     },
     {
       "id": 72,
@@ -190,46 +148,11 @@
       "summary": "基于台湾环保NGO与公民科技社群合作的案例，探讨环境数据行动主义中NGO作为公民数据中介的角色，提出数据正义的实践理论。"
     },
     {
-      "id": 440,
-      "title": "Strategic Communication as an Integrative Governance Function: A Bibliometric Review and an Integrated PR–OC–CC Model",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-06-03",
-      "summary": "通过文献计量综述316篇WoS论文，梳理公关、组织传播与企业传播的融合，提出战略传播作为整合性治理功能的理论模型。"
-    },
-    {
-      "id": 2036,
-      "title": "Indigenous digital life: the practice and politics of being Indigenous on social media",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-02",
-      "summary": "该文（书评性质）围绕原住民在社交媒体上的数字生活展开，讨论其线上身份实践与政治表达，关注平台空间中边缘群体的数字生存与权力关系。"
-    },
-    {
-      "id": 441,
-      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-06-01",
-      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
-    },
-    {
-      "id": 443,
-      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-05-31",
-      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
-    },
-    {
       "id": 217,
       "title": "Moving Targets, Moving Politics: The State of Play in Social Media Data Access",
       "journal": "Political Communication",
       "published_date": "2026-05-30",
       "summary": "论文探讨社交媒体数据获取的现状与挑战，涉及数据访问政策及其对政治传播研究的影响。"
-    },
-    {
-      "id": 99,
-      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-24",
-      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
     },
     {
       "id": 375,
@@ -239,11 +162,18 @@
       "summary": "通过混合方法比较中越国家媒体网络安全话语，揭示两种数字威权主义的沟通逻辑，分别强调全球竞争与内部安全化。"
     },
     {
-      "id": 102,
-      "title": "Clustered governance: how Chinese social media platforms curate and control influencers’ content creation",
+      "id": 105,
+      "title": "From player to asset: venture labor in axie infinity",
       "journal": "Information Communication & Society",
-      "published_date": "2026-05-12",
-      "summary": "研究小红书通过“集群治理”组织网红群体，结合人工与算法策展控制内容创作，削弱创作者自主性，基于访谈与民族志方法。"
+      "published_date": "2026-05-08",
+      "summary": "通过爬取Discord社区数据，分析Axie Infinity奖学金申请者的申请文本，揭示其自我资产化策略，即玩家将劳动与困境呈现为投资资产以争取机会。"
+    },
+    {
+      "id": 376,
+      "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-05-08",
+      "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
     },
     {
       "id": 452,
@@ -253,25 +183,11 @@
       "summary": "研究WWF和绿色和平在COP29后如何通过网站和社交媒体传播失败叙事，采用主题分析揭示叙事差异，属于战略传播研究。"
     },
     {
-      "id": 421,
-      "title": "Attributional Ambiguity in AI-Mediated Harm: How Perceived AI System Limitations Shape Forgiveness and Regulatory Demand",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-04-25",
-      "summary": "基于归因理论，通过在线调查(N=705)探究AI媒介伤害中公众的危机责任感知如何影响愤怒/共情，进而影响组织宽恕与AI监管诉求，揭示归因模糊的双路径作用。"
-    },
-    {
-      "id": 114,
-      "title": "Signalling sustainability under uncertainty: how institutionalized digital platforms shape corporate green transformation in China",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-19",
-      "summary": "研究利用2007-2023年3851家中国上市公司及340万条微博帖子数据，通过DID设计发现国家运营的环境微薄平台通过政策信号和声誉压力促进企业绿色转型，增加环保投资并提高披露质量。"
-    },
-    {
-      "id": 115,
-      "title": "Reshaping platform governmentality: the curious case of the moderation strike on the stack exchange",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-19",
-      "summary": "以福柯政府性概念分析Stack Exchange审核罢工，探讨平台所有者与社区间的权力动态，以及AI政策如何引发抵抗并重塑平台机制。"
+      "id": 510,
+      "title": "‘Don’t Thai to me’: A critical discourse and linguistic analysis of border crisis in the Cambodia–Thailand armed conflict",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-04-24",
+      "summary": "研究2025年柬泰武装冲突中的‘Don’t Thai to me’话语，分析柬埔寨官方媒体及Facebook内容，结合Fairclough话语分析探讨民族身份污名化及数字传播下的舆论动员。"
     }
   ],
   "paper_edges": []

@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "算法想象与日常数据化",
-  "description": "探讨算法系统与数据监控如何嵌入日常生活，并塑造用户的感知、信任与亲密关系。",
-  "why_hot": "近30天日均发表速度与前期持平，研究热度稳定，覆盖9本期刊。",
-  "hot_score": 68,
-  "growth": 0.0,
-  "growth_rate": 0.0,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.2333,
-  "recent_count": 7,
-  "baseline_count": 35,
+  "label": "算法体验与数据化的日常生活",
+  "description": "考察算法推荐与数据化如何塑造日常生活中的信任、刻板印象及边缘群体的切身经验。",
+  "why_hot": "近30天日均发表速度较前期上升约41%，覆盖9本期刊，热度上升。",
+  "hot_score": 80,
+  "growth": 0.406,
+  "growth_rate": 0.406,
+  "recent_rate": 0.3,
+  "baseline_rate": 0.2133,
+  "recent_count": 9,
+  "baseline_count": 32,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "algorithmic imaginaries",
-    "datafication",
-    "surveillance",
     "algorithmic bias",
-    "everyday life"
+    "datafication",
+    "trust",
+    "stereotyping",
+    "digital disconnection"
   ],
   "papers": [
     {
@@ -43,11 +43,25 @@
       "summary": "该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。"
     },
     {
+      "id": 2153,
+      "title": "Algorithms of Injustice: An Ethnographic Content Analysis of Black Youth’s Experiences with Racial Trauma Online",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "研究以批判种族技术理论为框架，用民族志内容分析考察社交媒体上种族创伤性内容（黑人死亡、数字骚扰、深伪、战争内容）对黑人青少年心理的影响，指出算法放大此类内容并造成替代性创伤，同时平台也是行动主义与互助空间。"
+    },
+    {
       "id": 2155,
       "title": "Careful Dis/Connection: Bringing Digital (Inter)Dependent Relations Out From the Shadows of Autonomy",
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "基于女性主义关怀伦理，对20名成人进行民族志田野研究，分析三个案例，探讨关怀与数字（不）连接实践如何相互塑造，提出\"谨慎的不/连接\"框架，认为数字福祉取决于技术所维系的关怀关系而非个体媒介使用。"
+    },
+    {
+      "id": 2099,
+      "title": "Writing the Situated Self: Intersectional and Geographic Patterning in College Admissions Essays",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-09-28",
+      "summary": "研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。"
     },
     {
       "id": 2084,
@@ -106,13 +120,6 @@
       "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
     },
     {
-      "id": 1959,
-      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-08-18",
-      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
-    },
-    {
       "id": 1928,
       "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
       "journal": "Information Communication & Society",
@@ -125,27 +132,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-08-11",
       "summary": "基于911名中国用户调查，探究感知情感能力通过自我披露影响对对话AI的态度矛盾，并提出情感共融效应。"
-    },
-    {
-      "id": 58,
-      "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-22",
-      "summary": "探讨智能音箱如何支持处于数字排斥风险的老年人的独立性、能力感和关联性，属于AI技术在社会情境中的应用研究。"
-    },
-    {
-      "id": 63,
-      "title": "Platforming pocket money: family finance apps and the datafication of child economies",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-15",
-      "summary": "分析儿童理财APP的特征，探讨其如何通过数据追踪与管理重塑儿童的经济参与，并讨论数据化对儿童金融主体与客体的构建。"
-    },
-    {
-      "id": 64,
-      "title": "Disability and AI in smart cities: centering access, agency, and awareness in hybrid spaces",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-14",
-      "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
     },
     {
       "id": 4,
@@ -169,13 +155,6 @@
       "summary": "基于保护动机理论，通过三波纵向调查考察AI扩张中数字能力对隐私保护意图的影响及隐私脆弱性的中介作用，发现低能力用户增长更快且中介方向反转。"
     },
     {
-      "id": 282,
-      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
-    },
-    {
       "id": 285,
       "title": "“You Might Like Each Other”: Mass Customization and the Structuring of Sociality Among Chinese Generation Z on the Soul App",
       "journal": "Social Media + Society",
@@ -195,6 +174,20 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过Twitter数据分析用户如何拟人化ChatGPT，识别出人格化、情感归因等五类拟人化形式，探讨社交媒体对拟人化叙事的形塑及其对信任和传播的影响。"
+    },
+    {
+      "id": 1908,
+      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
+    },
+    {
+      "id": 1998,
+      "title": "“Turns Out My Paternal Grandmother has 16% Native Blood”: Racialized DNA, Race Destabilization, and Digital Race-(re)making on Social Media",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
     },
     {
       "id": 1999,
@@ -260,6 +253,13 @@
       "summary": "研究台湾女性使用经期追踪应用时，如何与算法系统、文化期望和身体经验协商，提出亲密数据表演性概念，探讨预测协商、自我优化和数据共享中的赋能与控制张力。"
     },
     {
+      "id": 88,
+      "title": "Mediated information grounds: living with(in) pareshani , social networks and gendered media practices among the Rohingya refugees",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-08",
+      "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
+    },
+    {
       "id": 412,
       "title": "Effects of Generative AI Bias on Adoption Through Trust: Interactions Between Engagement Cues, Information Cues, and Social Norms",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -288,25 +288,18 @@
       "summary": "研究中国男同性恋者在社交媒体中算法矛盾心理及其对心理健康的影响，结合算法与社媒使用议题。"
     },
     {
-      "id": 105,
-      "title": "From player to asset: venture labor in axie infinity",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-08",
-      "summary": "通过爬取Discord社区数据，分析Axie Infinity奖学金申请者的申请文本，揭示其自我资产化策略，即玩家将劳动与困境呈现为投资资产以争取机会。"
-    },
-    {
-      "id": 38,
-      "title": "Examining the Effects of Viewing Positive Aging TikTok Videos on Aging Outcomes and Attitudes Among Young, Middle-Aged, and Older Women",
-      "journal": "Communication Research",
-      "published_date": "2026-05-07",
-      "summary": "实验检验观看积极老龄化TikTok视频对不同年龄女性老龄化结果和态度的影响，扩展CEMSA模型，发现间接效应。"
-    },
-    {
       "id": 107,
       "title": "Agency in social media platforms: the role of capitals and literacies under algorithmic environments",
       "journal": "Information Communication & Society",
       "published_date": "2026-05-05",
       "summary": "通过意大利两地区调查，构建整合框架，分析平台素养、数字资本和算法素养对用户适应性能动性的影响，发现平台素养是主要预测因素。"
+    },
+    {
+      "id": 507,
+      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-05-02",
+      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
     },
     {
       "id": 637,

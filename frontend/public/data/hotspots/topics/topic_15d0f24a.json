@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式人工智能的信任与认知",
-  "description": "关注公众对AI生成内容的识别、信任与态度，以及生成式AI在传播实践中的应用与治理。",
-  "why_hot": "近30天日均发表速度较前期上升25%，覆盖9本期刊，热度持续升温。",
-  "hot_score": 77,
-  "growth": 0.25,
-  "growth_rate": 0.25,
-  "recent_rate": 0.2667,
-  "baseline_rate": 0.2133,
-  "recent_count": 8,
-  "baseline_count": 32,
-  "journal_count": 9,
+  "label": "生成式人工智能的信任与接受",
+  "description": "关注公众对生成式AI与算法决策的信任、能力感知，及其在职场沟通与民主参与中的应用。",
+  "why_hot": "近30天日均发表速度较前期上升约6%，覆盖10本期刊，研究热度持续。",
+  "hot_score": 67,
+  "growth": 0.061,
+  "growth_rate": 0.061,
+  "recent_rate": 0.2333,
+  "baseline_rate": 0.22,
+  "recent_count": 7,
+  "baseline_count": 33,
+  "journal_count": 10,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "generative AI",
-    "trust",
-    "AI-generated content",
     "algorithmic authority",
-    "detection"
+    "AI-generated images",
+    "trust",
+    "democratic participation"
   ],
   "papers": [
+    {
+      "id": 2162,
+      "title": "Navigating GenAI in the workplace: skills transformation & tension",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-16",
+      "summary": "通过对20名知识工作者的深度访谈，基于社会塑造技术（SST）视角，考察GenAI如何改变其工作方式与角色（从创作者转为编辑/核查者），并揭示效率提升与真实性、创造力、成就感及技能退化之间的张力。"
+    },
     {
       "id": 2127,
       "title": "Algorithmic authority in Spain: relative deprivation, hierarchy, and support for AI rule",
@@ -134,6 +141,13 @@
       "summary": "通过在线实验比较AI与人类健康信息的说服效果，发现AI来源降低感知相似性、可信度及信息有效性，验证了相似性中介机制。"
     },
     {
+      "id": 212,
+      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
+      "journal": "Political Communication",
+      "published_date": "2026-06-30",
+      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
+    },
+    {
       "id": 402,
       "title": "Epistemic Dislocation in AI Journalism: Fragmented Authority and the Reconfiguration of Knowledge Production",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -146,13 +160,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-06-28",
       "summary": "通过2x3在线实验(N=682)考察AI事实核查中，假新闻党派一致性与引用来源一致性如何共同影响信念纠正和感知，发现同向配置（用内群体来源辟谣内群体假新闻）效果最佳，强调来源引用和期望机制的作用。"
-    },
-    {
-      "id": 404,
-      "title": "Is Flattery in AI Fact-Checking Helpful or Harmful? Effects on Tool Favorability and Epistemic Verification",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-28",
-      "summary": "通过实验考察AI事实核查工具采用奉承语气时，用户虽更偏好使用该工具，但降低了对信息的回忆和核对行为，且不受初始答案正确性影响。"
     },
     {
       "id": 73,
@@ -293,13 +300,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-04-26",
       "summary": "特刊探讨生成式AI治理作为多地点争议过程，强调劳动、知识与价值在制度中的重排，揭示治理在机构、地理和基础设施间的分布。"
-    },
-    {
-      "id": 422,
-      "title": "To Disclose or Not to Disclose: How AI Use Transparency Increases Trust in Fact-Checking",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-04-20",
-      "summary": "通过N=393的在线实验，操纵AI使用披露方式（不披露、简单披露、详细披露、第三方披露），发现详细披露提升感知透明度和可信度，第三方披露未披露的AI使用会损害可信度和错误信息纠正效果。"
     }
   ],
   "paper_edges": []

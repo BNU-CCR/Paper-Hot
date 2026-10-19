@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "政治传播中的受众策展与说服",
-  "description": "研究个性化策展、受众分析与说服机制如何塑造政治参与、竞选传播与信息可信度。",
-  "why_hot": "近30天日均发表速度较前期上升14%，覆盖9本期刊，热度稳中有升。",
-  "hot_score": 75,
-  "growth": 0.143,
-  "growth_rate": 0.143,
-  "recent_rate": 0.2667,
-  "baseline_rate": 0.2333,
-  "recent_count": 8,
-  "baseline_count": 35,
+  "label": "政治传播中的策展、说服与可信度",
+  "description": "研究政治行动者与受众如何借内容策展、视觉线索、事实核查与受众分析影响说服与政治参与。",
+  "why_hot": "近30天日均发表速度较前期下降约32%，研究热度有所回落。",
+  "hot_score": 49,
+  "growth": -0.324,
+  "growth_rate": -0.324,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.2467,
+  "recent_count": 5,
+  "baseline_count": 37,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "political engagement",
     "personal curation",
     "persuasion",
+    "credibility",
     "audience analytics",
-    "campaign communication"
+    "visual cues"
   ],
   "papers": [
     {

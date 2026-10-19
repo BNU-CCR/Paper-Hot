@@ -1,144 +1,88 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "数字视觉政治与身份抗争",
-  "description": "关注社交平台上的视觉表达、身份政治与抗争行动如何交织，及其对边缘群体的影响。",
-  "why_hot": "近30天日均发表速度较前期上升约54%，研究分布扩展至8本期刊，热度升温。",
-  "hot_score": 71,
-  "growth": 0.538,
-  "growth_rate": 0.538,
+  "label": "数字传播伦理与危机中的道德",
+  "description": "探讨AI辅助危机管理、虚假信息治理与平台内容生产中的伦理责任、道德判断与关怀伦理。",
+  "why_hot": "近30天日均发表速度约为前期的4倍，基数虽小但近期活跃度明显上升。",
+  "hot_score": 78,
+  "growth": 3.0,
+  "growth_rate": 3.0,
   "recent_rate": 0.1333,
-  "baseline_rate": 0.0867,
+  "baseline_rate": 0.0333,
   "recent_count": 4,
-  "baseline_count": 13,
-  "journal_count": 8,
-  "lineage_status": "continued",
+  "baseline_count": 5,
+  "journal_count": 4,
+  "lineage_status": "drifted",
   "status": "hot",
   "keywords": [
-    "visual politics",
-    "digital activism",
-    "intersectionality",
-    "racial trauma",
-    "AI-generated avatars"
+    "ethics",
+    "moral courage",
+    "crisis communication",
+    "disinformation management",
+    "care ethics"
   ],
   "papers": [
     {
-      "id": 2150,
-      "title": "Humor on the street, humor on the screen: protest banners, AI-generated avatars, and the visual politics of dissent after the arrest of Istanbul’s mayor",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-10-13",
-      "summary": "研究伊斯坦布尔市长被捕后国家禁令下的视觉抵抗：分析105幅街头横幅与106个AI生成头像，论证线下横幅与线上头像构成同一“可见性经济”，幽默作为符号工具放大政治意义，讨论AI中介政治图像与混合政体中的视觉抗争。"
+      "id": 2169,
+      "title": "Moral Courage vs. Moral Deference: Ethical Leadership and Employee Outcomes During AI-Assisted Internal Crises",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-10-15",
+      "summary": "通过3×2在线实验（N=570）考察内部价值型危机中CEO领导立场（勇气/适应/顺从）与AI披露对员工感知伦理领导力、倡导意愿与组织准备度的影响，检验信息真诚度与负面道德情绪的中介及风险感知的调节。"
     },
     {
-      "id": 2115,
-      "title": "Whose voices and which effects? A scoping review of migration and social media effects",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-04",
-      "summary": "该文对2020—2025年65项移民语境下社交媒体效果研究进行范围综述，基于差异易感性模型分析内容类型、样本特征、效果类型及中介调节因素，发现宿主群体量化研究与移民群体质性研究相互脱节，呼吁整合性研究。"
+      "id": 2170,
+      "title": "Legal Tactics Versus Communication Strategy: The Ethics of Arbitration Clauses in Crisis Management",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-10-15",
+      "summary": "论文讨论数字平台在用户协议中嵌入强制仲裁条款的伦理问题，指出其将纠纷私有化、削弱危机应对能力，并以情境危机传播理论与READINESS框架分析其与道歉、纠正行动等容纳性策略的张力；同时用训练好的分类器对50家主要平台的861份协议做纵向文本分析，记录仲裁条款的扩散趋势。"
     },
     {
-      "id": 2153,
-      "title": "Algorithms of Injustice: An Ethnographic Content Analysis of Black Youth’s Experiences with Racial Trauma Online",
+      "id": 2172,
+      "title": "Supporting Ethics of Care for Disinformation Management Through a Mixed Methods Investigation",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-10-15",
+      "summary": "基于社会认同理论，用混合方法考察组织关怀伦理如何通过伦理文化、组织认同与情感投入的链式中介，促使战略传播从业者参与虚假信息治理，并归纳出认知停顿、身份把关、数字分流与关系性守护四个主题。"
+    },
+    {
+      "id": 2154,
+      "title": "Webs of Ainu Mosir: Indigenous Creative Networks on YouTube",
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
-      "summary": "研究以批判种族技术理论为框架，用民族志内容分析考察社交媒体上种族创伤性内容（黑人死亡、数字骚扰、深伪、战争内容）对黑人青少年心理的影响，指出算法放大此类内容并造成替代性创伤，同时平台也是行动主义与互助空间。"
+      "summary": "研究利用YouTube API采集428个阿伊努相关视频，分类合作者并量化网络关系，分析个人、社群等合作模式及中心性，探讨原住民在虚拟Mosir中的多媒体生产与社交网络协作。"
     },
     {
-      "id": 2099,
-      "title": "Writing the Situated Self: Intersectional and Geographic Patterning in College Admissions Essays",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-09-28",
-      "summary": "研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。"
+      "id": 1898,
+      "title": "Corporate digital responsibility: what drives public expectations towards companies’ role in the digital society?",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-07",
+      "summary": "研究公众对企业数字责任角色的期望，探讨企业在数字社会中的责任认知，但缺乏具体方法与数据信息。"
     },
     {
-      "id": 2025,
-      "title": "The Language of Democratic Resilience and Decline: A Comparative Study of Politicians’ Communication on Facebook in Sweden and Hungary",
-      "journal": "Political Communication",
-      "published_date": "2026-09-11",
-      "summary": "比较瑞典与匈牙利政客在 Facebook 上的传播语言，探讨民主韧性与衰退的话语特征，属社交媒体政治传播的比较研究。"
+      "id": 2022,
+      "title": "Constructing Online Harms: How “Trust and Safety” Translates Safety Into Risk",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过对42位“信任与安全”从业者的访谈及行业论坛观察，作者揭示平台内部如何将用户伤害建构为可操作的公司风险（法律责任、声誉、营收），并描述其倡导者定位、风险转译与行业展演三重机制。"
     },
     {
-      "id": 1991,
-      "title": "Creator-led political satire on TikTok: youth expression in post-election Indonesia",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-09-05",
-      "summary": "通过定性数字话语分析25集TikTok讽刺课堂视频，探讨印尼大选后青年政治表达和平台化政治批判。"
+      "id": 440,
+      "title": "Strategic Communication as an Integrative Governance Function: A Bibliometric Review and an Integrated PR–OC–CC Model",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-03",
+      "summary": "通过文献计量综述316篇WoS论文，梳理公关、组织传播与企业传播的融合，提出战略传播作为整合性治理功能的理论模型。"
     },
     {
-      "id": 1935,
-      "title": "Kamala is Brat: TikTok and the Affective Politics of Memes",
-      "journal": "Political Communication",
-      "published_date": "2026-08-12",
-      "summary": "研究TikTok上“Kamala is Brat”迷因的形式、功能与情感共鸣，分析创作者如何重构哈里斯形象，揭示平台迷因文化作为选举中介机制。"
+      "id": 2036,
+      "title": "Indigenous digital life: the practice and politics of being Indigenous on social media",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-02",
+      "summary": "该文（书评性质）围绕原住民在社交媒体上的数字生活展开，讨论其线上身份实践与政治表达，关注平台空间中边缘群体的数字生存与权力关系。"
     },
     {
-      "id": 488,
-      "title": "Social media and protest planning: An examination of the 2024 #EndBadGovernance protests in Nigeria",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-07-23",
-      "summary": "基于尼日利亚400份调查数据，检验Instagram、Facebook、WhatsApp和X在2024年#EndBadGovernance抗议规划中的作用，发现前三者增加首日参与概率，X则降低，强调平台使用因国家而异。"
-    },
-    {
-      "id": 395,
-      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
+      "id": 421,
+      "title": "Attributional Ambiguity in AI-Mediated Harm: How Perceived AI System Limitations Shape Forgiveness and Regulatory Demand",
       "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-19",
-      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
-    },
-    {
-      "id": 248,
-      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-13",
-      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
-    },
-    {
-      "id": 1908,
-      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
-    },
-    {
-      "id": 1943,
-      "title": "Make Campaigns Dance Again: The Trumpdance and the Memeaesthetic Logic of TikTok",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究特朗普YMCA舞蹈在TikTok上的传播，基于API采集6799个视频，分析参与模式与算法可见性，提出迷因美学逻辑。"
-    },
-    {
-      "id": 1998,
-      "title": "“Turns Out My Paternal Grandmother has 16% Native Blood”: Racialized DNA, Race Destabilization, and Digital Race-(re)making on Social Media",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
-    },
-    {
-      "id": 88,
-      "title": "Mediated information grounds: living with(in) pareshani , social networks and gendered media practices among the Rohingya refugees",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-08",
-      "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
-    },
-    {
-      "id": 93,
-      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-27",
-      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
-    },
-    {
-      "id": 507,
-      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-05-02",
-      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
-    },
-    {
-      "id": 181,
-      "title": "Simulated superiority and mediated geopolitics: affective responses to AI-generated political parody in Chinese digital space",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-04-30",
-      "summary": "通过397人实验探究AI生成政治模仿如何激发集体优越感、缓解对美敌对态度，并揭示视觉真实感的中介作用，扩展优越性理论。"
+      "published_date": "2026-04-25",
+      "summary": "基于归因理论，通过在线调查(N=705)探究AI媒介伤害中公众的危机责任感知如何影响愤怒/共情，进而影响组织宽恕与AI监管诉求，揭示归因模糊的双路径作用。"
     }
   ],
   "paper_edges": []

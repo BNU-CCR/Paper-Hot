@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "平台极化与网络极端主义",
-  "description": "考察社交平台信息流如何助推极化、极端话语与仇恨言论的传播及其治理难题。",
-  "why_hot": "近30天日均发表速度约为前期的1.9倍，升温明显，覆盖7本期刊。",
-  "hot_score": 80,
-  "growth": 0.875,
-  "growth_rate": 0.875,
+  "label": "平台极化与极端主义话语",
+  "description": "研究信息流与平台使用如何助推右翼民粹、仇恨言论及对抗性政治动员，并检验反制话语效果。",
+  "why_hot": "近30天日均发表速度较前期上升约76%，覆盖7本期刊，热度显著升温。",
+  "hot_score": 77,
+  "growth": 0.765,
+  "growth_rate": 0.765,
   "recent_rate": 0.2,
-  "baseline_rate": 0.1067,
+  "baseline_rate": 0.1133,
   "recent_count": 6,
-  "baseline_count": 16,
+  "baseline_count": 17,
   "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "polarization",
-    "extremism",
+    "far-right",
+    "populism",
     "hate speech",
-    "radicalism",
-    "content moderation"
+    "counter-speech"
   ],
   "papers": [
     {
@@ -153,6 +153,13 @@
       "journal": "Communication Research",
       "published_date": "2026-05-08",
       "summary": "研究社交媒体上政治身份威胁的识别与影响，通过两个实验发现威胁类型非离散且对强党派身份者影响更大。"
+    },
+    {
+      "id": 106,
+      "title": "Bad domains: exposure to malicious content online",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-08",
+      "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
     },
     {
       "id": 110,
