@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_81f5e828",
-  "label": "性别议题的网络话语与行动主义",
-  "description": "关注社交平台上性别议题的争议话语、自动化账号与女权运动如何塑造公众态度与话语机会。",
-  "why_hot": "近30天日均发表速度较前期下降约43%，虽覆盖11本期刊，近期活跃度回落。",
-  "hot_score": 43,
-  "growth": -0.429,
-  "growth_rate": -0.429,
-  "recent_rate": 0.1333,
-  "baseline_rate": 0.2333,
-  "recent_count": 4,
-  "baseline_count": 35,
+  "label": "平台化行动主义与话语机会",
+  "description": "关注社交机器人与平台生态如何重塑社会运动的话语机会、联盟建构与日常使用。",
+  "why_hot": "近30天日均发表速度较前期下降约56%，研究热度有所降温。",
+  "hot_score": 37,
+  "growth": -0.559,
+  "growth_rate": -0.559,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.2267,
+  "recent_count": 3,
+  "baseline_count": 34,
   "journal_count": 11,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "gender discourse",
     "online activism",
     "social bots",
-    "feminist attitudes",
-    "discursive opportunity"
+    "discursive opportunities",
+    "platform repertoires",
+    "social movements"
   ],
   "papers": [
     {
@@ -36,18 +36,18 @@
       "summary": "论文改进话语机会结构框架，用计算机辅助内容分析比较BLM和XR抗议中支持与反对机器人的话语策略。"
     },
     {
+      "id": 2167,
+      "title": "Social Media Platform Repertoires in Everyday Life: Measuring Social Media Use With Passive Metering",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "研究对1457名意大利成年人进行6周手机与电脑被动计量，量化Facebook、Instagram、TikTok、YouTube、Twitter/X的使用时间及社会人口差异。发现Facebook与YouTube占近四分之三使用时长，超90%为App端使用，年龄是最强预测因素。"
+    },
+    {
       "id": 2065,
       "title": "When Movement Widens the Gap: The Contingent Effect of the Chinese #MeToo Movement on Feminist Attitudes",
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-09-21",
       "summary": "论文基于中国综合社会调查2010—2023年全国代表性数据，检验中国#MeToo运动对公众女性主义态度的影响，发现亲女性主义态度总体上升但沿性别身份与数字鸿沟呈现不均衡分化，提出社会技术权变框架解释运动的文化后果。"
-    },
-    {
-      "id": 2066,
-      "title": "Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024",
-      "journal": "Revista ICONO14",
-      "published_date": "2026-09-21",
-      "summary": "研究采集2024巴黎奥运会期间X平台35676条帖子，用Tweet Binder与NLP情感分析考察伊曼·哈利夫参赛引发的性别认同与公平性争论，发现正负帖量接近但负面内容曝光量翻倍，公众人物放大争议，虚假信息助推简化叙事。"
     },
     {
       "id": 2054,
@@ -57,11 +57,11 @@
       "summary": "研究考察候选人性别如何影响不同机构与层级下的竞选信息。基于2000-2022年韩国17次全国与地方选举中46,966份官方竞选手册，以关系性语言和女性相关政策词汇测量性别化信息。发现女性候选人更强调关系身份与女性政策议题，且性别差异在立法选举中大于行政选举，并随选举层级下沉而扩大。"
     },
     {
-      "id": 2028,
-      "title": "How Do Social Media Influencers Motivate Prosocial Intentions? The Interaction of SMI Gender and Expertise",
-      "journal": "International Journal of Strategic Communication",
+      "id": 2027,
+      "title": "Dynamics of media platform choice portfolios: identifying inter-channel substitutability and complementarity",
+      "journal": "Journal of Media Economics",
       "published_date": "2026-09-10",
-      "summary": "研究探讨社交媒体影响者的性别与专业度如何交互影响受众的亲社会行为意向，属战略传播领域的说服效果研究，采用实验或调查方法验证假设。"
+      "summary": "基于韩国在线视频市场5年调查数据，用多元概率模型刻画消费者在四种服务类别（全球SVoD、本土SVoD、UGC/社交、TVoD）间的组合选择，揭示付费类别的互补性与UGC与付费服务间的替代性，并将不使用行为作为伴随结果分析其能力型进入壁垒。"
     },
     {
       "id": 1976,
@@ -78,13 +78,6 @@
       "summary": "利用Twitter和YouTube 2012-2022数据，分析“woke”话语如何被政治化，比较平台差异及跨平台协调传播。"
     },
     {
-      "id": 1949,
-      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-21",
-      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
-    },
-    {
       "id": 1952,
       "title": "Generational warfare online? Social media use and intergroup attitudes in a national survey",
       "journal": "Information Communication & Society",
@@ -99,11 +92,11 @@
       "summary": "研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。"
     },
     {
-      "id": 1936,
-      "title": "Policing the Political Boundary: How the r/BarstoolSports Audience Confronts Politicization",
-      "journal": "Political Communication",
-      "published_date": "2026-08-12",
-      "summary": "通过批判性话语分析2019-2025年Barstool Sports子版块16个帖子，提出\"反政治空间\"概念，探讨粉丝如何区分流行文化与制度政治，对抗政治化。"
+      "id": 1959,
+      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-18",
+      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
     },
     {
       "id": 1929,
@@ -118,6 +111,20 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-08-10",
       "summary": "通过网络分析比较德国极右翼在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构，揭示平台技术可供性对网络模式的影响。"
+    },
+    {
+      "id": 1903,
+      "title": "The Knowledge Gap in a High-Choice Media Environment: Experimental Evidence from Online Search",
+      "journal": "Political Communication",
+      "published_date": "2026-08-06",
+      "summary": "通过在线搜索实验探究高选择媒体环境中的知识差距，属于政治传播与数字媒介交叉研究。"
+    },
+    {
+      "id": 1900,
+      "title": "Did you make this for me? A two-country study on individuals’ perceptions of tailoring in online political ads",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-05",
+      "summary": "跨国研究个体对在线政治广告定制化程度的感知及其影响，属于政治传播领域。"
     },
     {
       "id": 1897,
@@ -155,13 +162,6 @@
       "summary": "基于affordance理论，跨平台分析QAnon在Parler和Twitter上2018-2021年的可见性、关联性和持续性实践，探讨极端网络反公众的身份建构与公共竞争动态。"
     },
     {
-      "id": 205,
-      "title": "Common Identities and Political Talk: Evaluating Cross-Cutting Political Discussions in Sports Communities on Reddit",
-      "journal": "Political Communication",
-      "published_date": "2026-07-23",
-      "summary": "通过计算分析比较Reddit政治与体育社区中跨党派政治讨论的数量、语气和内容，发现体育社区更促进跨党派讨论，但毒性水平无显著差异。"
-    },
-    {
       "id": 488,
       "title": "Social media and protest planning: An examination of the 2024 #EndBadGovernance protests in Nigeria",
       "journal": "Media War & Conflict",
@@ -174,6 +174,20 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-07-22",
       "summary": "研究瑞典女性主义倡议#Kvinnostreik的日常标签实践，提出技术修辞策略概念，分析标签如何影响可见性并串联叙事，属数字文化研究。"
+    },
+    {
+      "id": 61,
+      "title": "Media effects, selection effects, or no effects? A longitudinal analysis of the relationship between media use and misperceptions",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-17",
+      "summary": "论文通过纵向数据分析媒体使用与错误认知的关系，探讨媒体效应与选择效应，但未说明计算方法。"
+    },
+    {
+      "id": 7,
+      "title": "Beyond apps: a method to model full distributions of screen content over time to study media effects",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-07-10",
+      "summary": "提出用深度学习方法对智能手机屏幕内容进行分布建模，基于53名青少年六个月的屏幕数据，分析内容模式与心理健康的关系，超越传统屏幕时间测量。"
     },
     {
       "id": 68,
@@ -190,18 +204,11 @@
       "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
     },
     {
-      "id": 284,
-      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "id": 282,
+      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
-    },
-    {
-      "id": 1942,
-      "title": "Negotiating the Influencer Imaginary: How Everyday Professionals Construct Legitimacy on Social Media",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
+      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
     },
     {
       "id": 1994,
@@ -253,20 +260,6 @@
       "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
     },
     {
-      "id": 441,
-      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-06-01",
-      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
-    },
-    {
-      "id": 443,
-      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-05-31",
-      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
-    },
-    {
       "id": 218,
       "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
       "journal": "Political Communication",
@@ -286,13 +279,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-05-24",
       "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
-    },
-    {
-      "id": 102,
-      "title": "Clustered governance: how Chinese social media platforms curate and control influencers’ content creation",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-12",
-      "summary": "研究小红书通过“集群治理”组织网红群体，结合人工与算法策展控制内容创作，削弱创作者自主性，基于访谈与民族志方法。"
     }
   ],
   "paper_edges": []

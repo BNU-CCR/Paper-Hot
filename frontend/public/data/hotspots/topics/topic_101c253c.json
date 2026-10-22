@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "算法体验与数据化的日常生活",
-  "description": "考察算法推荐与数据化如何塑造日常生活中的信任、刻板印象及边缘群体的切身经验。",
-  "why_hot": "近30天日均发表速度较前期上升约41%，覆盖9本期刊，热度上升。",
-  "hot_score": 80,
-  "growth": 0.406,
-  "growth_rate": 0.406,
+  "label": "算法偏见与日常数据化体验",
+  "description": "关注算法推荐与数据化实践如何制造刻板印象、不平等及用户的信任与断连策略。",
+  "why_hot": "近30天日均发表速度较前期增约32%，研究热度持续上升。",
+  "hot_score": 79,
+  "growth": 0.324,
+  "growth_rate": 0.324,
   "recent_rate": 0.3,
-  "baseline_rate": 0.2133,
+  "baseline_rate": 0.2267,
   "recent_count": 9,
-  "baseline_count": 32,
+  "baseline_count": 34,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "algorithmic bias",
     "datafication",
-    "trust",
-    "stereotyping",
-    "digital disconnection"
+    "algorithmic stereotyping",
+    "digital disconnection",
+    "trust in algorithms"
   ],
   "papers": [
     {
@@ -34,6 +34,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-10-07",
       "summary": "文章扩展 Beer 的“数据凝视”概念，基于质性经验材料，考察青年在金融科技与修图应用中如何被算法分类、想象，又如何反向凝视，揭示数据产业凝视下的不平等与排斥再生产。"
+    },
+    {
+      "id": 2115,
+      "title": "Whose voices and which effects? A scoping review of migration and social media effects",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-04",
+      "summary": "该文对2020—2025年65项移民语境下社交媒体效果研究进行范围综述，基于差异易感性模型分析内容类型、样本特征、效果类型及中介调节因素，发现宿主群体量化研究与移民群体质性研究相互脱节，呼吁整合性研究。"
     },
     {
       "id": 2108,
@@ -64,13 +71,6 @@
       "summary": "研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。"
     },
     {
-      "id": 2084,
-      "title": "Turning a private surveillance service into a public disclosure: the case of Amazon's ring doorbell",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-23",
-      "summary": "研究亚马逊Ring门铃如何将日常互动转为大规模监控，重构无罪推定并影响隐私感知。基于平台使用观察、Facebook调查及荷兰鹿特丹四个社区73位用户的深度访谈展开分析。"
-    },
-    {
       "id": 2085,
       "title": "Judge, butler, and tool: algorithmic imaginaries and practices of Chinese parent vloggers of autistic children on Douyin",
       "journal": "Information Communication & Society",
@@ -92,6 +92,13 @@
       "summary": "论文考察欧洲在线约会平台中的性别化同质择偶现象，探讨平台化婚恋市场如何与性别化的匹配模式相互作用，但缺少摘要，具体数据与方法不明。"
     },
     {
+      "id": 2028,
+      "title": "How Do Social Media Influencers Motivate Prosocial Intentions? The Interaction of SMI Gender and Expertise",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-09-10",
+      "summary": "研究探讨社交媒体影响者的性别与专业度如何交互影响受众的亲社会行为意向，属战略传播领域的说服效果研究，采用实验或调查方法验证假设。"
+    },
+    {
       "id": 1979,
       "title": "Digital ID as surreptitious experimentation in the humanitarian-tech industry: an ethnography of a biometric pilot in a refugee camp in the Thailand-Myanmar border",
       "journal": "Information Communication & Society",
@@ -106,18 +113,18 @@
       "summary": "通过政策文档分析和批判性自传民族志，探讨泰国盲人在数字转型中遭遇的排斥，提出数字致残循环及认知不正义等机制。"
     },
     {
+      "id": 1949,
+      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-21",
+      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
+    },
+    {
       "id": 1950,
       "title": "Calibration labour: making careers machine-legible under algorithmic hiring",
       "journal": "Information Communication & Society",
       "published_date": "2026-08-21",
       "summary": "通过两年民族志田野调查，探讨算法招聘如何改变求职沟通条件，提出算法可读性概念，分析求职者被迫进行校准劳动以适配机器系统，重塑社会认可与公民参与。"
-    },
-    {
-      "id": 1957,
-      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-08-18",
-      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
     },
     {
       "id": 1928,
@@ -127,32 +134,25 @@
       "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
     },
     {
-      "id": 1945,
-      "title": "From Ally – Enemy Conflict to Emotional Communion: Exploring an Attitudinal Ambivalence Toward Emotional Artificial Intelligence",
+      "id": 395,
+      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
       "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-08-11",
-      "summary": "基于911名中国用户调查，探究感知情感能力通过自我披露影响对对话AI的态度矛盾，并提出情感共融效应。"
+      "published_date": "2026-07-19",
+      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
     },
     {
-      "id": 4,
-      "title": "The Anatomy of Resilient Talk: Linguistic Features of Relational and Psychological Health in Couples’ Conversations About Stress",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-07-10",
-      "summary": "运用NLP分析夫妻应对压力的对话语言特征，发现义务、不确定等语言与关系压力相关，包容性语言与韧性相关，揭示微观语言反映关系健康。"
+      "id": 248,
+      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-13",
+      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
     },
     {
-      "id": 27,
-      "title": "Chatbots and Loneliness: How Linguistic Dynamics in Conversations with Chatbots Shape Young Adults’ Loneliness",
-      "journal": "Communication Research",
-      "published_date": "2026-07-10",
-      "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
-    },
-    {
-      "id": 400,
-      "title": "Privacy Divide: Digital Competence, Privacy Vulnerability, and Changing Trajectories of Privacy Protection Intention Amid AI Expansion",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-02",
-      "summary": "基于保护动机理论，通过三波纵向调查考察AI扩张中数字能力对隐私保护意图的影响及隐私脆弱性的中介作用，发现低能力用户增长更快且中介方向反转。"
+      "id": 284,
+      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
     },
     {
       "id": 285,
@@ -183,25 +183,18 @@
       "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
     },
     {
+      "id": 1942,
+      "title": "Negotiating the Influencer Imaginary: How Everyday Professionals Construct Legitimacy on Social Media",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
+    },
+    {
       "id": 1998,
       "title": "“Turns Out My Paternal Grandmother has 16% Native Blood”: Racialized DNA, Race Destabilization, and Digital Race-(re)making on Social Media",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
-    },
-    {
-      "id": 1999,
-      "title": "Social Robots and the Dialectics of Presence and Absence",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "基于关系辩证理论与符号学，考察103名青年与社交机器人的首次互动，揭示在场与缺席等辩证张力，强调机器人作为交流基础设施的作用。"
-    },
-    {
-      "id": 2087,
-      "title": "Wise Empathy Improves Well-Being on Instagram",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过生态瞬时干预训练260名被试在Instagram上运用明智共情，结合5,902次经验取样追踪其共情与幸福感，发现干预提升在线明智共情并改善幸福感，共情变化起中介作用。"
     },
     {
       "id": 76,
@@ -267,18 +260,25 @@
       "summary": "通过在线实验探究AI偏见认知对采纳意愿的影响，发现偏见体验、偏见提示与社会规范三重交互影响AI信任，进而影响采纳。"
     },
     {
-      "id": 632,
-      "title": "Chatting with confidants or corporations? Privacy management with AI companions",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-06-02",
-      "summary": "通过访谈15位AI伴侣用户，基于CPM理论分析隐私决策，发现拟人化设计降低披露门槛，用户采用预期性策略如假名，且更担心关系重置而非数据泄露。"
+      "id": 441,
+      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-01",
+      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
     },
     {
-      "id": 541,
-      "title": "We’re just chatting: perceptions of everyday communication with chatbots",
-      "journal": "Communication Research Reports",
+      "id": 443,
+      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-05-31",
+      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
+    },
+    {
+      "id": 93,
+      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
+      "journal": "Information Communication & Society",
       "published_date": "2026-05-27",
-      "summary": "基于美国全国样本，考察人机闲聊中的沟通偶然性对感知响应性、参与度和满意度的影响，发现陪伴感调节作用。"
+      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
     },
     {
       "id": 98,
@@ -286,6 +286,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-05-25",
       "summary": "研究中国男同性恋者在社交媒体中算法矛盾心理及其对心理健康的影响，结合算法与社媒使用议题。"
+    },
+    {
+      "id": 102,
+      "title": "Clustered governance: how Chinese social media platforms curate and control influencers’ content creation",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-12",
+      "summary": "研究小红书通过“集群治理”组织网红群体，结合人工与算法策展控制内容创作，削弱创作者自主性，基于访谈与民族志方法。"
     },
     {
       "id": 107,
@@ -302,11 +309,11 @@
       "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
     },
     {
-      "id": 637,
-      "title": "Intimate surveillance of the ordinary: youth’s negotiation of digital location tracking with parents and peers",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-04-23",
-      "summary": "基于比利时147名青少年的21场焦点小组，探讨青年与父母同伴协商数字位置跟踪的边界规则与策略，揭示其对日常监控文化的接受与抵抗。"
+      "id": 451,
+      "title": "Case Study of an Online Brand Crisis: A Typology of User Engagement in the Scandinavian Airlines Advertisement Controversy",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-04-30",
+      "summary": "分析2020年SAS争议广告引发的Facebook用户评论，对2160条评论进行定量内容分析，识别出粉丝、朋友、反对者、仇恨持有者四类用户群体，挑战传统爱恨二元框架，揭示参与动态与态度流动性。"
     }
   ],
   "paper_edges": []

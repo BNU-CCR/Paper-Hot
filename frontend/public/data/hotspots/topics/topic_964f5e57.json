@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "政治传播中的策展、说服与可信度",
-  "description": "研究政治行动者与受众如何借内容策展、视觉线索、事实核查与受众分析影响说服与政治参与。",
-  "why_hot": "近30天日均发表速度较前期下降约32%，研究热度有所回落。",
-  "hot_score": 49,
-  "growth": -0.324,
-  "growth_rate": -0.324,
+  "label": "政治传播中的受众与说服",
+  "description": "研究个人化信息策展、说服机制与视觉线索如何影响政治参与和竞选传播效果。",
+  "why_hot": "近30天日均发表速度较前期降约39%，但仍保持较高产出水平。",
+  "hot_score": 47,
+  "growth": -0.39,
+  "growth_rate": -0.39,
   "recent_rate": 0.1667,
-  "baseline_rate": 0.2467,
+  "baseline_rate": 0.2733,
   "recent_count": 5,
-  "baseline_count": 37,
-  "journal_count": 9,
+  "baseline_count": 41,
+  "journal_count": 10,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
+    "political engagement",
     "personal curation",
     "persuasion",
-    "credibility",
-    "audience analytics",
-    "visual cues"
+    "campaign visuals",
+    "audience analytics"
   ],
   "papers": [
     {
@@ -55,6 +55,13 @@
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-09-30",
       "summary": "论文利用计算视觉分析考察2024年墨西哥联邦选举中候选人肤色与选举成功的关系，并纳入新闻报道、政治广告和社交媒体使用等变量，发现肤色虽与得票率负相关，但媒体因素更重要。"
+    },
+    {
+      "id": 2066,
+      "title": "Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-09-21",
+      "summary": "研究采集2024巴黎奥运会期间X平台35676条帖子，用Tweet Binder与NLP情感分析考察伊曼·哈利夫参赛引发的性别认同与公平性争论，发现正负帖量接近但负面内容曝光量翻倍，公众人物放大争议，虚假信息助推简化叙事。"
     },
     {
       "id": 2055,
@@ -141,11 +148,25 @@
       "summary": "分析比利时和瑞典政党在Facebook上的链接分享实践，基于2014-2022竞选期间帖子内容，发现链接和新闻分享减少，反映传播策略变化。"
     },
     {
+      "id": 1957,
+      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-08-18",
+      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
+    },
+    {
       "id": 1969,
       "title": "Political emotionalization in large text corpora: detecting affective cues with MORESPulse and its scientific uses",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-08-18",
       "summary": "论文介绍MORESPulse模型，基于XLM-RoBERTa检测七种语言政治文本的五种情绪，并分析匈牙利议会1998-2022年超五百万句语料，发现情绪化语言自2010年持续上升，与政党角色和政策议题相关。"
+    },
+    {
+      "id": 1936,
+      "title": "Policing the Political Boundary: How the r/BarstoolSports Audience Confronts Politicization",
+      "journal": "Political Communication",
+      "published_date": "2026-08-12",
+      "summary": "通过批判性话语分析2019-2025年Barstool Sports子版块16个帖子，提出\"反政治空间\"概念，探讨粉丝如何区分流行文化与制度政治，对抗政治化。"
     },
     {
       "id": 1938,
@@ -174,6 +195,13 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-07-27",
       "summary": "基于新加坡、中国、美国调查数据，探讨深度伪造担忧、事实核查与感知审查如何影响社交媒体政治参与，发现感知审查是参与退出的关键条件。"
+    },
+    {
+      "id": 205,
+      "title": "Common Identities and Political Talk: Evaluating Cross-Cutting Political Discussions in Sports Communities on Reddit",
+      "journal": "Political Communication",
+      "published_date": "2026-07-23",
+      "summary": "通过计算分析比较Reddit政治与体育社区中跨党派政治讨论的数量、语气和内容，发现体育社区更促进跨党派讨论，但毒性水平无显著差异。"
     },
     {
       "id": 206,

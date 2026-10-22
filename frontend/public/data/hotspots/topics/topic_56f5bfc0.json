@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "信息行动与战时数字宣传",
-  "description": "研究国家与非国家行为体的信息行动、宣传叙事及AI生成视觉内容如何影响受众态度、情绪与行为意向。",
-  "why_hot": "近30天日均发表速度较前期上升约17%，覆盖7本期刊，热度稳中有升。",
-  "hot_score": 71,
-  "growth": 0.167,
-  "growth_rate": 0.167,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.2,
-  "recent_count": 7,
-  "baseline_count": 30,
-  "journal_count": 7,
+  "label": "信息行动与战时宣传",
+  "description": "考察宣传基础设施、AI生成战争影像与平台动员策略如何塑造冲突信息环境与公众态度。",
+  "why_hot": "近30天日均发表速度较前期增约11%，维持活跃但增幅平缓。",
+  "hot_score": 66,
+  "growth": 0.111,
+  "growth_rate": 0.111,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.18,
+  "recent_count": 6,
+  "baseline_count": 27,
+  "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "information operations",
     "propaganda",
-    "AI-generated media",
-    "wedge strategies",
-    "wartime communication"
+    "AI-generated video",
+    "wartime communication",
+    "visual politics"
   ],
   "papers": [
     {
@@ -55,13 +55,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-10-09",
       "summary": "研究比较俄乌战争期间两国政治精英在 Telegram 上的传播策略，基于 2019—2024 年帖文数据，分析发文量、主题内容与行为体参与度变化，发现乌克兰精英侧重战争动员而俄罗斯精英采用转移注意力的策略，且传播模式因政党规模而异。"
-    },
-    {
-      "id": 2115,
-      "title": "Whose voices and which effects? A scoping review of migration and social media effects",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-04",
-      "summary": "该文对2020—2025年65项移民语境下社交媒体效果研究进行范围综述，基于差异易感性模型分析内容类型、样本特征、效果类型及中介调节因素，发现宿主群体量化研究与移民群体质性研究相互脱节，呼吁整合性研究。"
     },
     {
       "id": 2092,
@@ -169,25 +162,11 @@
       "summary": "论文提出武器化叙事的四阶段心理影响模型，涵盖身份、威胁、道德和阴谋叙事策略，并以俄罗斯2014年克里米亚叙事行动为例，探讨AI在叙事扩散中的放大作用及反叙事策略。"
     },
     {
-      "id": 395,
-      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-19",
-      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
-    },
-    {
       "id": 210,
       "title": "Vengeance or Hope? A Role-Based Analysis of Hashtag Activism for the War in Gaza",
       "journal": "Political Communication",
       "published_date": "2026-07-14",
       "summary": "基于X平台跨语言趋势数据，采用角色分析框架研究加沙战争期间亲巴勒斯坦与亲以色列哈希标签行动主义的修辞分布与不对称性，提出权力中心解释。"
-    },
-    {
-      "id": 248,
-      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-13",
-      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
     },
     {
       "id": 489,
@@ -237,13 +216,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-05-30",
       "summary": "研究乌克兰宣传组织United24 Media如何适应Instagram和YouTube的平台特性，通过定性分析2500余条短视频，揭示不同平台叙事策略差异及战争合法化机制。"
-    },
-    {
-      "id": 93,
-      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-27",
-      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
     },
     {
       "id": 498,

@@ -1,24 +1,25 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "平台极化与极端主义话语",
-  "description": "研究信息流与平台使用如何助推右翼民粹、仇恨言论及对抗性政治动员，并检验反制话语效果。",
-  "why_hot": "近30天日均发表速度较前期上升约76%，覆盖7本期刊，热度显著升温。",
-  "hot_score": 77,
-  "growth": 0.765,
-  "growth_rate": 0.765,
+  "label": "平台信息流与极化动员",
+  "description": "考察推荐信息流、民粹话语与仇恨内容如何推动极化、激进主义与集体行动。",
+  "why_hot": "近30天日均发表速度较前期增约131%，为近期升温最快的议题之一。",
+  "hot_score": 80,
+  "growth": 1.308,
+  "growth_rate": 1.308,
   "recent_rate": 0.2,
-  "baseline_rate": 0.1133,
+  "baseline_rate": 0.0867,
   "recent_count": 6,
-  "baseline_count": 17,
-  "journal_count": 7,
+  "baseline_count": 13,
+  "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "polarization",
-    "far-right",
+    "TikTok",
+    "political polarization",
+    "extremism",
     "populism",
     "hate speech",
-    "counter-speech"
+    "news use"
   ],
   "papers": [
     {
@@ -134,13 +135,6 @@
       "summary": "研究以焦点小组探讨用户自身认为哪些内容需要被审核，发现用户除关注极化议题与不文明言论外，更在意发布者动机与受害者脆弱性，主张平台在设计自动化审核系统时应纳入用户视角，采取更具针对性的措施并配套问责与保护机制。"
     },
     {
-      "id": 33,
-      "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
-      "journal": "Communication Research",
-      "published_date": "2026-06-13",
-      "summary": "研究创意众包挑战社区中地位、职业、价值等多维同质性对创意者间评论网络形成的影响，采用关系事件模型和潜在类别分析。"
-    },
-    {
       "id": 86,
       "title": "Reddit users’ reactance to the 2025 CDC Data Purge: Characterizing the removal of health information as a perceived threat to individual freedom",
       "journal": "Information Communication & Society",
@@ -155,32 +149,11 @@
       "summary": "研究社交媒体上政治身份威胁的识别与影响，通过两个实验发现威胁类型非离散且对强党派身份者影响更大。"
     },
     {
-      "id": 106,
-      "title": "Bad domains: exposure to malicious content online",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-08",
-      "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
-    },
-    {
       "id": 110,
       "title": "Public discourses on sex work in Reddit digital communities: a computational approach",
       "journal": "Information Communication & Society",
       "published_date": "2026-04-30",
       "summary": "运用结构主题建模和定性内容分析，研究Reddit上r/SexWorkers和r/OnlyFans社区超3.8万条评论，归纳17个主题，揭示平台在污名化与支持之间的双重角色。"
-    },
-    {
-      "id": 634,
-      "title": "Human versus machine as content moderators: examining the effects of moderation strategies on Reddit",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-04-23",
-      "summary": "基于Reddit 2022年5.3亿条参与记录和1330万条审核动作，分析硬性/软性审核策略、人工/机器审核者身份对不同活跃度用户参与度的影响。"
-    },
-    {
-      "id": 635,
-      "title": "Real-time artificial intelligence sentiment feedback promotes self-moderation in contentious online discussion",
-      "journal": "Journal of Computer-Mediated Communication",
-      "published_date": "2026-04-23",
-      "summary": "通过两项实验检验AI实时情感评分反馈能否促进在线争论中的自我节制，发现其增加评论修改率并改善第三方感知的讨论氛围。"
     }
   ],
   "paper_edges": []

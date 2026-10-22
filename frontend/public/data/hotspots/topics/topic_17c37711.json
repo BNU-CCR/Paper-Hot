@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "数字传播伦理与危机中的道德",
-  "description": "探讨AI辅助危机管理、虚假信息治理与平台内容生产中的伦理责任、道德判断与关怀伦理。",
-  "why_hot": "近30天日均发表速度约为前期的4倍，基数虽小但近期活跃度明显上升。",
-  "hot_score": 78,
-  "growth": 3.0,
-  "growth_rate": 3.0,
-  "recent_rate": 0.1333,
-  "baseline_rate": 0.0333,
-  "recent_count": 4,
-  "baseline_count": 5,
-  "journal_count": 4,
-  "lineage_status": "drifted",
+  "label": "数字传播研究的伦理与方法创新",
+  "description": "关注多模态数据工具、AI辅助危机沟通与虚假信息治理中的伦理规范与方法反思。",
+  "why_hot": "近30天日均发表速度较前期提升约67%，期刊分布扩展至10本，活跃度上升。",
+  "hot_score": 76,
+  "growth": 0.667,
+  "growth_rate": 0.667,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.12,
+  "recent_count": 6,
+  "baseline_count": 18,
+  "journal_count": 10,
+  "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "ethics",
-    "moral courage",
+    "research ethics",
+    "multimodal signals",
     "crisis communication",
     "disinformation management",
-    "care ethics"
+    "AI-assisted communication"
   ],
   "papers": [
+    {
+      "id": 2175,
+      "title": "DIMS: a no-code dashboard linking multimodal dynamic signals to communication practices",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-10-20",
+      "summary": "介绍开源工具 DIMS 仪表盘，将生理、行为、视听与转录等多模态时间序列与同步视频对齐，便于研究者检视统计模式与传播事件的对应关系，并通过人际对话脑间同步与广告观看面部肌电两个探索性案例展示定量—质性迭代流程。"
+    },
     {
       "id": 2169,
       "title": "Moral Courage vs. Moral Deference: Ethical Leadership and Employee Outcomes During AI-Assisted Internal Crises",
@@ -43,11 +50,25 @@
       "summary": "基于社会认同理论，用混合方法考察组织关怀伦理如何通过伦理文化、组织认同与情感投入的链式中介，促使战略传播从业者参与虚假信息治理，并归纳出认知停顿、身份把关、数字分流与关系性守护四个主题。"
     },
     {
+      "id": 2124,
+      "title": "It Must Have Been Love (But It's Over Now): Thematic Changes in Popular U.S. Song Lyrics Across 4+ Decades",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-10-07",
+      "summary": "研究运用 LIWC-22 的意义提取模块，分析 1980—2024 年 Billboard Hot 100 前 25 名歌曲共 1,129 首歌词的四个主题，发现恋爱主题减少、联系与性化主题增多，并讨论意义提取方法处理大数据的优势。"
+    },
+    {
       "id": 2154,
       "title": "Webs of Ainu Mosir: Indigenous Creative Networks on YouTube",
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "研究利用YouTube API采集428个阿伊努相关视频，分类合作者并量化网络关系，分析个人、社群等合作模式及中心性，探讨原住民在虚拟Mosir中的多媒体生产与社交网络协作。"
+    },
+    {
+      "id": 1945,
+      "title": "From Ally – Enemy Conflict to Emotional Communion: Exploring an Attitudinal Ambivalence Toward Emotional Artificial Intelligence",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-08-11",
+      "summary": "基于911名中国用户调查，探究感知情感能力通过自我披露影响对对话AI的态度矛盾，并提出情感共融效应。"
     },
     {
       "id": 1898,
@@ -57,11 +78,60 @@
       "summary": "研究公众对企业数字责任角色的期望，探讨企业在数字社会中的责任认知，但缺乏具体方法与数据信息。"
     },
     {
+      "id": 2,
+      "title": "The Bio-Functional Audience: Shared Physiological Alignment to Narrative Media",
+      "journal": "Communication Research",
+      "published_date": "2026-07-28",
+      "summary": "通过眼动、心率、皮肤电等生理数据，提出生物功能受众概念，验证叙事内容能引发个体间生理同步，为受众研究提供信号基础。"
+    },
+    {
+      "id": 26,
+      "title": "Music Was My First Love: Biographic Resonance Makes Everyday Music Listening Meaningful",
+      "journal": "Communication Research",
+      "published_date": "2026-07-26",
+      "summary": "通过密集纵向研究，结合自我报告与Spotify数字使用记录，探讨日常音乐聆听中传记共鸣的产生机制，发现其受内容与算法环境因素影响，促进情境化意义感形成。"
+    },
+    {
+      "id": 4,
+      "title": "The Anatomy of Resilient Talk: Linguistic Features of Relational and Psychological Health in Couples’ Conversations About Stress",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-07-10",
+      "summary": "运用NLP分析夫妻应对压力的对话语言特征，发现义务、不确定等语言与关系压力相关，包容性语言与韧性相关，揭示微观语言反映关系健康。"
+    },
+    {
+      "id": 27,
+      "title": "Chatbots and Loneliness: How Linguistic Dynamics in Conversations with Chatbots Shape Young Adults’ Loneliness",
+      "journal": "Communication Research",
+      "published_date": "2026-07-10",
+      "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
+    },
+    {
+      "id": 400,
+      "title": "Privacy Divide: Digital Competence, Privacy Vulnerability, and Changing Trajectories of Privacy Protection Intention Amid AI Expansion",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-02",
+      "summary": "基于保护动机理论，通过三波纵向调查考察AI扩张中数字能力对隐私保护意图的影响及隐私脆弱性的中介作用，发现低能力用户增长更快且中介方向反转。"
+    },
+    {
+      "id": 1999,
+      "title": "Social Robots and the Dialectics of Presence and Absence",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于关系辩证理论与符号学，考察103名青年与社交机器人的首次互动，揭示在场与缺席等辩证张力，强调机器人作为交流基础设施的作用。"
+    },
+    {
       "id": 2022,
       "title": "Constructing Online Harms: How “Trust and Safety” Translates Safety Into Risk",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过对42位“信任与安全”从业者的访谈及行业论坛观察，作者揭示平台内部如何将用户伤害建构为可操作的公司风险（法律责任、声誉、营收），并描述其倡导者定位、风险转译与行业展演三重机制。"
+    },
+    {
+      "id": 2087,
+      "title": "Wise Empathy Improves Well-Being on Instagram",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过生态瞬时干预训练260名被试在Instagram上运用明智共情，结合5,902次经验取样追踪其共情与幸福感，发现干预提升在线明智共情并改善幸福感，共情变化起中介作用。"
     },
     {
       "id": 440,
@@ -71,11 +141,46 @@
       "summary": "通过文献计量综述316篇WoS论文，梳理公关、组织传播与企业传播的融合，提出战略传播作为整合性治理功能的理论模型。"
     },
     {
+      "id": 632,
+      "title": "Chatting with confidants or corporations? Privacy management with AI companions",
+      "journal": "Journal of Computer-Mediated Communication",
+      "published_date": "2026-06-02",
+      "summary": "通过访谈15位AI伴侣用户，基于CPM理论分析隐私决策，发现拟人化设计降低披露门槛，用户采用预期性策略如假名，且更担心关系重置而非数据泄露。"
+    },
+    {
       "id": 2036,
       "title": "Indigenous digital life: the practice and politics of being Indigenous on social media",
       "journal": "Information Communication & Society",
       "published_date": "2026-06-02",
       "summary": "该文（书评性质）围绕原住民在社交媒体上的数字生活展开，讨论其线上身份实践与政治表达，关注平台空间中边缘群体的数字生存与权力关系。"
+    },
+    {
+      "id": 541,
+      "title": "We’re just chatting: perceptions of everyday communication with chatbots",
+      "journal": "Communication Research Reports",
+      "published_date": "2026-05-27",
+      "summary": "基于美国全国样本，考察人机闲聊中的沟通偶然性对感知响应性、参与度和满意度的影响，发现陪伴感调节作用。"
+    },
+    {
+      "id": 361,
+      "title": "Multimodal semiotic content analysis: combining quantitative large-data analysis with qualitative semiotic coding",
+      "journal": "Visual Communication",
+      "published_date": "2026-05-22",
+      "summary": "提出混合方法框架，整合定性符号学编码与定量大规模数据分析，通过277个抑郁相关网络模因案例，揭示抑郁主题与符号资源的关联模式。"
+    },
+    {
+      "id": 106,
+      "title": "Bad domains: exposure to malicious content online",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-08",
+      "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
+    },
+    {
+      "id": 38,
+      "title": "Examining the Effects of Viewing Positive Aging TikTok Videos on Aging Outcomes and Attitudes Among Young, Middle-Aged, and Older Women",
+      "journal": "Communication Research",
+      "published_date": "2026-05-07",
+      "summary": "实验检验观看积极老龄化TikTok视频对不同年龄女性老龄化结果和态度的影响，扩展CEMSA模型，发现间接效应。"
     },
     {
       "id": 421,

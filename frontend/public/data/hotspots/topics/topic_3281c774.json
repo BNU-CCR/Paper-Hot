@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "危机传播与数字民族主义",
-  "description": "考察组织与公众如何在社交媒体上开展危机沟通，以及民族主义、爱国情绪如何转化为政治参与。",
-  "why_hot": "近30天日均发表速度较前期下降约55%，近期发表明显降温。",
+  "label": "社交媒体、民族主义与政治参与",
+  "description": "考察社交平台如何承载民族主义情绪、政治参与及组织危机沟通实践。",
+  "why_hot": "近30天日均发表速度较前期下降约52%，议题活跃度明显回落。",
   "hot_score": 35,
-  "growth": -0.545,
-  "growth_rate": -0.545,
+  "growth": -0.524,
+  "growth_rate": -0.524,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.1467,
+  "baseline_rate": 0.14,
   "recent_count": 2,
-  "baseline_count": 22,
-  "journal_count": 8,
+  "baseline_count": 21,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "emerging",
   "keywords": [
-    "crisis communication",
-    "social media adoption",
+    "social media",
     "nationalism",
-    "patriotism",
-    "political participation"
+    "political participation",
+    "crisis communication",
+    "patriotism"
   ],
   "papers": [
     {
@@ -181,13 +181,6 @@
       "journal": "International Journal of Strategic Communication",
       "published_date": "2026-04-30",
       "summary": "研究WWF和绿色和平在COP29后如何通过网站和社交媒体传播失败叙事，采用主题分析揭示叙事差异，属于战略传播研究。"
-    },
-    {
-      "id": 510,
-      "title": "‘Don’t Thai to me’: A critical discourse and linguistic analysis of border crisis in the Cambodia–Thailand armed conflict",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-04-24",
-      "summary": "研究2025年柬泰武装冲突中的‘Don’t Thai to me’话语，分析柬埔寨官方媒体及Facebook内容，结合Fairclough话语分析探讨民族身份污名化及数字传播下的舆论动员。"
     }
   ],
   "paper_edges": []

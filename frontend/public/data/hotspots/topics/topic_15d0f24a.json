@@ -1,15 +1,15 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式人工智能的信任与接受",
-  "description": "关注公众对生成式AI与算法决策的信任、能力感知，及其在职场沟通与民主参与中的应用。",
-  "why_hot": "近30天日均发表速度较前期上升约6%，覆盖10本期刊，研究热度持续。",
-  "hot_score": 67,
-  "growth": 0.061,
-  "growth_rate": 0.061,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.22,
-  "recent_count": 7,
-  "baseline_count": 33,
+  "label": "生成式人工智能的信任与治理",
+  "description": "研究公众对AI生成内容与算法决策的感知、信任及其在传播实践中的规范使用。",
+  "why_hot": "近30天日均发表速度较前期降约14%，但仍维持较高产出规模。",
+  "hot_score": 58,
+  "growth": -0.143,
+  "growth_rate": -0.143,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.2333,
+  "recent_count": 6,
+  "baseline_count": 35,
   "journal_count": 10,
   "lineage_status": "continued",
   "status": "hot",
@@ -18,7 +18,7 @@
     "algorithmic authority",
     "AI-generated images",
     "trust",
-    "democratic participation"
+    "AI governance"
   ],
   "papers": [
     {
