@@ -1,25 +1,24 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "平台信息流与极化动员",
-  "description": "考察推荐信息流、民粹话语与仇恨内容如何推动极化、激进主义与集体行动。",
-  "why_hot": "近30天日均发表速度较前期增约131%，为近期升温最快的议题之一。",
-  "hot_score": 80,
-  "growth": 1.308,
-  "growth_rate": 1.308,
-  "recent_rate": 0.2,
-  "baseline_rate": 0.0867,
-  "recent_count": 6,
-  "baseline_count": 13,
+  "label": "平台信息流与政治极端化",
+  "description": "研究平台信息流如何塑造政治内容暴露、民粹传播与极端化参与，以及极端内容的审核挑战。",
+  "why_hot": "近30天日均发表速度较前期增长106%，研究活动显著升温。",
+  "hot_score": 87,
+  "growth": 1.059,
+  "growth_rate": 1.059,
+  "recent_rate": 0.2333,
+  "baseline_rate": 0.1133,
+  "recent_count": 7,
+  "baseline_count": 17,
   "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "TikTok",
     "political polarization",
-    "extremism",
-    "populism",
-    "hate speech",
-    "news use"
+    "radicalization",
+    "populist communication",
+    "content moderation"
   ],
   "papers": [
     {
@@ -49,6 +48,13 @@
       "journal": "Political Communication",
       "published_date": "2026-10-01",
       "summary": "基于2022年巴西大选九名候选人11,885条推文，用微调BERT分类器测量民粹主义话语与政策领域，发现民粹传播因候选人策略和议题而异，提出机会型与一致型民粹主义者类型学。"
+    },
+    {
+      "id": 2154,
+      "title": "Webs of Ainu Mosir: Indigenous Creative Networks on YouTube",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "研究利用YouTube API采集428个阿伊努相关视频，分类合作者并量化网络关系，分析个人、社群等合作模式及中心性，探讨原住民在虚拟Mosir中的多媒体生产与社交网络协作。"
     },
     {
       "id": 2097,
@@ -100,6 +106,13 @@
       "summary": "研究罗马尼亚总统选举被取消后公众对宪法法院决策合法性的感知，基于调查数据发现TikTok使用、负面情绪和政治不信任增加非法性认知，并以媒体标题分析为补充。"
     },
     {
+      "id": 1898,
+      "title": "Corporate digital responsibility: what drives public expectations towards companies’ role in the digital society?",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-07",
+      "summary": "研究公众对企业数字责任角色的期望，探讨企业在数字社会中的责任认知，但缺乏具体方法与数据信息。"
+    },
+    {
       "id": 1902,
       "title": "Anti-Elitism Gets the Views: Populist Communication and Popularity on German Political YouTube",
       "journal": "The International Journal of Press/Politics",
@@ -119,6 +132,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过分析米莱在TikTok的传播，结合文本、视觉和表演维度，发现其民粹主义缺少“人民”元素，且越轨表演带来更高互动。"
+    },
+    {
+      "id": 2022,
+      "title": "Constructing Online Harms: How “Trust and Safety” Translates Safety Into Risk",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过对42位“信任与安全”从业者的访谈及行业论坛观察，作者揭示平台内部如何将用户伤害建构为可操作的公司风险（法律责任、声誉、营收），并描述其倡导者定位、风险转译与行业展演三重机制。"
     },
     {
       "id": 2026,
@@ -142,11 +162,25 @@
       "summary": "研究Reddit用户对2025年CDC数据清除的反应，基于心理抗拒理论，通过主题分析识别用户如何将信息删除视为自由威胁并采取存档行动。"
     },
     {
+      "id": 2036,
+      "title": "Indigenous digital life: the practice and politics of being Indigenous on social media",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-02",
+      "summary": "该文（书评性质）围绕原住民在社交媒体上的数字生活展开，讨论其线上身份实践与政治表达，关注平台空间中边缘群体的数字生存与权力关系。"
+    },
+    {
       "id": 37,
       "title": "Political Identity Threats on Social Media",
       "journal": "Communication Research",
       "published_date": "2026-05-08",
       "summary": "研究社交媒体上政治身份威胁的识别与影响，通过两个实验发现威胁类型非离散且对强党派身份者影响更大。"
+    },
+    {
+      "id": 106,
+      "title": "Bad domains: exposure to malicious content online",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-08",
+      "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
     },
     {
       "id": 110,

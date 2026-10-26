@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "算法偏见与日常数据化体验",
-  "description": "关注算法推荐与数据化实践如何制造刻板印象、不平等及用户的信任与断连策略。",
-  "why_hot": "近30天日均发表速度较前期增约32%，研究热度持续上升。",
-  "hot_score": 79,
-  "growth": 0.324,
-  "growth_rate": 0.324,
-  "recent_rate": 0.3,
-  "baseline_rate": 0.2267,
-  "recent_count": 9,
-  "baseline_count": 34,
+  "label": "算法与数据化的日常不平等",
+  "description": "考察算法信任、数据凝视与数字断连的日常体验，关注交叉性身份与结构性不平等。",
+  "why_hot": "近30天日均发表速度较前期下降23%，研究热度有所回落。",
+  "hot_score": 60,
+  "growth": -0.231,
+  "growth_rate": -0.231,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.26,
+  "recent_count": 6,
+  "baseline_count": 39,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "algorithmic bias",
     "datafication",
-    "algorithmic stereotyping",
+    "algorithmic trust",
     "digital disconnection",
-    "trust in algorithms"
+    "intersectionality",
+    "racial trauma"
   ],
   "papers": [
     {
@@ -41,13 +41,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-10-04",
       "summary": "该文对2020—2025年65项移民语境下社交媒体效果研究进行范围综述，基于差异易感性模型分析内容类型、样本特征、效果类型及中介调节因素，发现宿主群体量化研究与移民群体质性研究相互脱节，呼吁整合性研究。"
-    },
-    {
-      "id": 2108,
-      "title": "Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-01",
-      "summary": "该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。"
     },
     {
       "id": 2153,
@@ -106,6 +99,13 @@
       "summary": "通过18个月民族志研究，分析泰国-缅甸边境难民营中数字ID试点如何作为隐秘实验实施，揭示其缺乏知情同意、加剧权力不对称，并延续殖民逻辑。"
     },
     {
+      "id": 1976,
+      "title": "Sex, Romance, or Recreation? An Experiment Testing the Effects of Cannabis Brand-generated Social Media Ads on College Students’ Expectancies and Intentions to Use Cannabis Prior to Sex",
+      "journal": "Communication Research",
+      "published_date": "2026-08-31",
+      "summary": "通过在线实验考察大麻品牌社交媒体广告中的性/浪漫/娱乐脚本对大学生性前使用大麻预期与意向的影响，发现性别差异及机制。"
+    },
+    {
       "id": 1980,
       "title": "Blindness and epistemic injustice: a critical autoethnography of digital disablement in Thailand",
       "journal": "Information Communication & Society",
@@ -127,11 +127,25 @@
       "summary": "通过两年民族志田野调查，探讨算法招聘如何改变求职沟通条件，提出算法可读性概念，分析求职者被迫进行校准劳动以适配机器系统，重塑社会认可与公民参与。"
     },
     {
+      "id": 1957,
+      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-08-18",
+      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
+    },
+    {
       "id": 1928,
       "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
       "journal": "Information Communication & Society",
       "published_date": "2026-08-13",
       "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
+    },
+    {
+      "id": 1929,
+      "title": "‘Cool! I wanna try it!’: online exposure to e-cigarette advertisements increases e-cigarette susceptibility among U.S. sexual minority young adults",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-10",
+      "summary": "研究在线电子烟广告暴露如何影响美国性少数青年对电子烟的易感性，关注数字广告的传播效果。"
     },
     {
       "id": 395,
@@ -286,6 +300,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-05-25",
       "summary": "研究中国男同性恋者在社交媒体中算法矛盾心理及其对心理健康的影响，结合算法与社媒使用议题。"
+    },
+    {
+      "id": 99,
+      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-24",
+      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
     },
     {
       "id": 102,

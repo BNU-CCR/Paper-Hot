@@ -1,26 +1,40 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "政治传播中的受众与说服",
-  "description": "研究个人化信息策展、说服机制与视觉线索如何影响政治参与和竞选传播效果。",
-  "why_hot": "近30天日均发表速度较前期降约39%，但仍保持较高产出水平。",
-  "hot_score": 47,
-  "growth": -0.39,
-  "growth_rate": -0.39,
-  "recent_rate": 0.1667,
-  "baseline_rate": 0.2733,
-  "recent_count": 5,
-  "baseline_count": 41,
+  "label": "平台政治传播与参与",
+  "description": "研究社交媒体中政党议题策略、个人策展与政治参与，以及在线讨论质量与说服机制。",
+  "why_hot": "近30天日均发表速度较前期微降5%，基本持平，仍分散于10本期刊。",
+  "hot_score": 69,
+  "growth": -0.054,
+  "growth_rate": -0.054,
+  "recent_rate": 0.2333,
+  "baseline_rate": 0.2467,
+  "recent_count": 7,
+  "baseline_count": 37,
   "journal_count": 10,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "political engagement",
+    "social media",
+    "agenda-setting",
     "personal curation",
-    "persuasion",
-    "campaign visuals",
-    "audience analytics"
+    "persuasion"
   ],
   "papers": [
+    {
+      "id": 2187,
+      "title": "Enhancing Democratic Listening in Online Discussions: The Role of Reaction Buttons, Discussion Moderation, and Large Language Models",
+      "journal": "Political Communication",
+      "published_date": "2026-10-23",
+      "summary": "论文开发带倾听导向反应按钮及人类/GPT-4审核的在线讨论平台，对740名被试开展40组实验，分析4355条评论，发现按钮需结合AI审核才能提升民主倾听水平。"
+    },
+    {
+      "id": 2189,
+      "title": "The logics of agenda-setting: how political parties form their issue strategies across social media",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-23",
+      "summary": "论文提出融合媒介化与议程设置理论的概念框架，用人工标准化内容分析 2021 年挪威 9 个政党及党魁在 Facebook、Instagram、Twitter 的 1616 条帖子，检验议题所有、追波与互动三种议题策略逻辑，发现传统媒介逻辑仍主导。"
+    },
     {
       "id": 2147,
       "title": "How Personal Curation Shapes Political Engagement on Social Media? Examining The Politics of Personal Curation Model",
@@ -148,13 +162,6 @@
       "summary": "分析比利时和瑞典政党在Facebook上的链接分享实践，基于2014-2022竞选期间帖子内容，发现链接和新闻分享减少，反映传播策略变化。"
     },
     {
-      "id": 1957,
-      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-08-18",
-      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
-    },
-    {
       "id": 1969,
       "title": "Political emotionalization in large text corpora: detecting affective cues with MORESPulse and its scientific uses",
       "journal": "Journal of Information Technology & Politics",
@@ -174,13 +181,6 @@
       "journal": "Political Communication",
       "published_date": "2026-08-10",
       "summary": "通过三波面板调查，研究16-30岁青年接触各类社交媒体主体政治内容对时事知识的影响，及感知意见领袖满足感的中介作用。"
-    },
-    {
-      "id": 14,
-      "title": "Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-29",
-      "summary": "基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。"
     },
     {
       "id": 242,
@@ -267,13 +267,6 @@
       "summary": "利用准实验设计，比较有无本地报纸的县域居民，发现缺乏本地报纸减少主流媒体使用，加剧自由派选择性接触，并影响两党虚假信息信念。"
     },
     {
-      "id": 254,
-      "title": "Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-26",
-      "summary": "探讨ChatGPT使用频率、对大语言模型的威胁感知及政治意识形态如何影响用户对ChatGPT用于政治信息消费的信任，发现使用与信任正相关，威胁感知负相关，且存在交互效应。"
-    },
-    {
       "id": 79,
       "title": "Inaccuracies, omissions, and bullshit: 2024 U.S. elections through the eyes of ChatGPT",
       "journal": "Information Communication & Society",
@@ -314,13 +307,6 @@
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-06-04",
       "summary": "研究提出身份-政策融合框架，分析美国众议院候选人竞选语言。通过计算文本分析4万余条政策声明，发现融合策略与语言极化显著相关，且共和党效应更强，揭示精英信息加剧党派界限的机制。"
-    },
-    {
-      "id": 100,
-      "title": "Targeting and/or tailoring?! A theoretical framework and its application to political social media advertising",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-14",
-      "summary": "提出targeting与tailoring的理论框架，基于2021年德国大选Facebook和Instagram广告数据，测量政党广告策略及其对曝光量的影响。"
     },
     {
       "id": 39,

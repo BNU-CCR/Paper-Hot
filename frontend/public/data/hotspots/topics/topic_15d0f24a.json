@@ -1,26 +1,40 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式人工智能的信任与治理",
-  "description": "研究公众对AI生成内容与算法决策的感知、信任及其在传播实践中的规范使用。",
-  "why_hot": "近30天日均发表速度较前期降约14%，但仍维持较高产出规模。",
-  "hot_score": 58,
-  "growth": -0.143,
-  "growth_rate": -0.143,
+  "label": "生成式AI的可信度与认知影响",
+  "description": "研究生成式AI文本与图像的可信度评估、刻板印象放大及对人类叙事、信任与认知的影响。",
+  "why_hot": "近30天日均发表速度较前期下降19%，研究活动有所降温。",
+  "hot_score": 61,
+  "growth": -0.189,
+  "growth_rate": -0.189,
   "recent_rate": 0.2,
-  "baseline_rate": 0.2333,
+  "baseline_rate": 0.2467,
   "recent_count": 6,
-  "baseline_count": 35,
+  "baseline_count": 37,
   "journal_count": 10,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "generative AI",
-    "algorithmic authority",
-    "AI-generated images",
     "trust",
-    "AI governance"
+    "AI-generated images",
+    "algorithmic stereotyping",
+    "accountability"
   ],
   "papers": [
+    {
+      "id": 2190,
+      "title": "Recognition without obligation: AI, asset position, and the limits of structural explanations",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-22",
+      "summary": "通过调查实验比较人类与AI来源的结构性解释如何影响因果归因、公共责任与政策支持，并考察受访者资产状况的调节作用；发现来源差异在责任与政策支持上依资产位置而异，财政含义明确的政策差异最大。"
+    },
+    {
+      "id": 2193,
+      "title": "Building and Maintaining Trust in AI Chatbots: Introducing Generative Information Retrieval Accountability Assessment Framework (GIRAAF)",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-10-21",
+      "summary": "提出GIRAAF框架，从信息准备度、事实正确性、规范一致性、来源实践、透明度与可解释性、响应适应性六个维度评估大模型与AI聊天机器人的问责性，为学者、开发者与政策制定者提供诊断工具与共享话语。"
+    },
     {
       "id": 2162,
       "title": "Navigating GenAI in the workplace: skills transformation & tension",
@@ -29,11 +43,11 @@
       "summary": "通过对20名知识工作者的深度访谈，基于社会塑造技术（SST）视角，考察GenAI如何改变其工作方式与角色（从创作者转为编辑/核查者），并揭示效率提升与真实性、创造力、成就感及技能退化之间的张力。"
     },
     {
-      "id": 2127,
-      "title": "Algorithmic authority in Spain: relative deprivation, hierarchy, and support for AI rule",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-10-10",
-      "summary": "论文考察西班牙公众对AI统治（算法权威）的支持度，以相对剥夺感与等级观念作为解释变量，属AI政治合法性与公众态度的实证研究。"
+      "id": 2108,
+      "title": "Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-01",
+      "summary": "该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。"
     },
     {
       "id": 2129,
@@ -120,6 +134,13 @@
       "summary": "通过WPR方法分析三种AI叙事（存在风险、加速主义、批判AI）构建的Policy Umwelt，揭示其限制治理选项的认知框架。"
     },
     {
+      "id": 14,
+      "title": "Feeling Informed and Feeling Heard: Recommender Systems Usage and Political Efficacy",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-29",
+      "summary": "基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。"
+    },
+    {
       "id": 65,
       "title": "Socioeconomic and digital divides in public support for AI-driven welfare decisions: cross-national evidence from 21 countries",
       "journal": "Information Communication & Society",
@@ -167,6 +188,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-26",
       "summary": "分析2010-2024年全球南北12家报纸6829篇AI报道，结合主题建模与情感分析，揭示政治化阶段及南北情绪差异，强调地缘政治对AI叙事的影响。"
+    },
+    {
+      "id": 254,
+      "title": "Trust in ChatGPT for political information consumption: the roles of use, perceived threat, and political ideology",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-26",
+      "summary": "探讨ChatGPT使用频率、对大语言模型的威胁感知及政治意识形态如何影响用户对ChatGPT用于政治信息消费的信任，发现使用与信任正相关，威胁感知负相关，且存在交互效应。"
     },
     {
       "id": 405,
@@ -293,13 +321,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-04-30",
       "summary": "基于美国10087名成人调查，探究高低社会经济地位者在AI意识、熟悉度与使用上的差异，发现高SES者AI意识更强，且AI使用与熟悉度在SES与AI意识间起中介作用，揭示AI时代的数字不平等。"
-    },
-    {
-      "id": 113,
-      "title": "Generative AI governance: from regulatory design to institutional reordering",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-26",
-      "summary": "特刊探讨生成式AI治理作为多地点争议过程，强调劳动、知识与价值在制度中的重排，揭示治理在机构、地理和基础设施间的分布。"
     }
   ],
   "paper_edges": []

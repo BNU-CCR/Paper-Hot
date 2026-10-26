@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-10-22 17:58 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-10-26 18:59 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-10-23 | [Enhancing Democratic Listening in Online Discussions: The Role of Reaction Buttons, Discussion Moderation, and Large Language Models](<https://doi.org/10.1080/10584609.2026.2749531>) | Political Communication | 论文开发带倾听导向反应按钮及人类/GPT-4审核的在线讨论平台，对740名被试开展40组实验，分析4355条评论，发现按钮需结合AI审核才能提升民主倾听水平。 |
 | 2026-10-18 | [Propaganda as infrastructure: reconceptualizing information operations through the Pravda network](<https://doi.org/10.1080/19331681.2026.2747171>) | Journal of Information Technology & Politics | 论文重新概念化信息行动为“宣传基础设施”，以Pravda网络文章及元数据为数据集，分析宣传网络的结构与运作机制。 |
 | 2026-10-17 | [Two Paths of Conversation: How Stories and Statistics are Associated With Community Engagement in Online Debate Surrounding Vaccine Science Skeptical Content](<https://doi.org/10.1177/00936502261496144>) | Communication Research | 该研究基于Reddit r/DebateVaccines大规模数据，结合LLM辅助观察分析，考察叙事与统计证据如何关联疫苗科学怀疑内容的社区参与和对话演化。 |
 | 2026-10-12 | [(In)congruent synergies? Discursive boundary-spanning between the Italian anti-gender galaxy and anti-trans groups](<https://doi.org/10.1080/1369118x.2026.2743936>) | Information Communication & Society | 论文研究意大利反性别与反跨性别群体在社交媒体上的话语结盟，采集 2021–2023 年 22 个行动者的 Facebook/Instagram 帖文，用主题模型、计算化框架语义语法与质性框架分析，揭示跨部门话语趋同及其脆弱性与保留的意识形态分歧。 |
 | 2026-10-11 | [Hearts for hating Activists: how far-right actors dominate polarized TikTok debates on climate protest](<https://doi.org/10.1080/1369118x.2026.2737399>) | Information Communication & Society | 研究自动转录1700条德国政客TikTok视频及5.3万条评论，结合大模型框架分类、立场检测与网络分析，比较气候运动、改革派与破坏性抗议讨论的极化程度，发现极右翼政客主导对抗性网络并从极化中获益。 |
-| 2026-10-09 | [ChangeMyView: Unpacking the Complex Emotional, Cognitive, and Communicator-Related Processes Underlying Persuasion](<https://doi.org/10.1177/0261927x261496534>) | Journal of Language and Social Psychology | 基于r/ChangeMyView约6万帖子，用LIWC、主成分分析和多层逻辑回归，检验认知推理、情感表达与真实沟通风格对说服成功的影响。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-10-22 17:58 GMT+8
+> 最近更新：2026-10-26 18:59 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 2177 |
-| 当期新增 | 34 |
-| High / Medium / Low | 608 / 686 / 883 |
-| Pending / Screened / Quarantined / Error | 0 / 2177 / 0 / 0 |
-| 已发布精选 | 608 |
-| 期刊全量导出 | 2177 |
+| 数据库论文 | 2195 |
+| 当期新增 | 37 |
+| High / Medium / Low | 609 / 694 / 892 |
+| Pending / Screened / Quarantined / Error | 0 / 2193 / 0 / 2 |
+| 已发布精选 | 609 |
+| 期刊全量导出 | 2195 |
 
-覆盖验证：OpenAlex DOI 2163，Crossref DOI 918，匹配 867，Crossref 中尚缺 51。
+覆盖验证：OpenAlex DOI 2181，Crossref DOI 933，匹配 884，Crossref 中尚缺 49。
 
 <!-- paper-hot:auto-stats:end -->
 

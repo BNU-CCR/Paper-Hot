@@ -1,26 +1,54 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "社交媒体、民族主义与政治参与",
-  "description": "考察社交平台如何承载民族主义情绪、政治参与及组织危机沟通实践。",
-  "why_hot": "近30天日均发表速度较前期下降约52%，议题活跃度明显回落。",
-  "hot_score": 35,
-  "growth": -0.524,
-  "growth_rate": -0.524,
-  "recent_rate": 0.0667,
-  "baseline_rate": 0.14,
-  "recent_count": 2,
-  "baseline_count": 21,
-  "journal_count": 7,
+  "label": "危机传播的伦理与策略",
+  "description": "探讨组织在危机与虚假信息情境下的传播策略、伦理领导与关怀伦理，以及数字平台采用。",
+  "why_hot": "近30天日均发表速度较前期增长75%，研究热度明显升温。",
+  "hot_score": 85,
+  "growth": 0.75,
+  "growth_rate": 0.75,
+  "recent_rate": 0.2333,
+  "baseline_rate": 0.1333,
+  "recent_count": 7,
+  "baseline_count": 20,
+  "journal_count": 8,
   "lineage_status": "continued",
-  "status": "emerging",
+  "status": "hot",
   "keywords": [
-    "social media",
-    "nationalism",
-    "political participation",
     "crisis communication",
-    "patriotism"
+    "ethics",
+    "disinformation management",
+    "ethical leadership",
+    "social media adoption"
   ],
   "papers": [
+    {
+      "id": 2182,
+      "title": "Data visualisation as an ‘emotional repository’",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-21",
+      "summary": "论文提出“情感仓库”概念，基于34个半结构化访谈和13个随访访谈，分析社交媒体用户对气候数据可视化的情感反应，强调视觉、数据与社会政治语境共同塑造情感附着与意义生成。"
+    },
+    {
+      "id": 2169,
+      "title": "Moral Courage vs. Moral Deference: Ethical Leadership and Employee Outcomes During AI-Assisted Internal Crises",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-10-15",
+      "summary": "通过3×2在线实验（N=570）考察内部价值型危机中CEO领导立场（勇气/适应/顺从）与AI披露对员工感知伦理领导力、倡导意愿与组织准备度的影响，检验信息真诚度与负面道德情绪的中介及风险感知的调节。"
+    },
+    {
+      "id": 2170,
+      "title": "Legal Tactics Versus Communication Strategy: The Ethics of Arbitration Clauses in Crisis Management",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-10-15",
+      "summary": "论文讨论数字平台在用户协议中嵌入强制仲裁条款的伦理问题，指出其将纠纷私有化、削弱危机应对能力，并以情境危机传播理论与READINESS框架分析其与道歉、纠正行动等容纳性策略的张力；同时用训练好的分类器对50家主要平台的861份协议做纵向文本分析，记录仲裁条款的扩散趋势。"
+    },
+    {
+      "id": 2172,
+      "title": "Supporting Ethics of Care for Disinformation Management Through a Mixed Methods Investigation",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-10-15",
+      "summary": "基于社会认同理论，用混合方法考察组织关怀伦理如何通过伦理文化、组织认同与情感投入的链式中介，促使战略传播从业者参与虚假信息治理，并归纳出认知停顿、身份把关、数字分流与关系性守护四个主题。"
+    },
     {
       "id": 2156,
       "title": "Evolution of Crisis Communication: Exploring Organizational Perceptions and Social Media Adoption in Vietnam’s Dynamic Digital Landscape",
@@ -36,18 +64,18 @@
       "summary": "以越南为背景，通过问卷调查考察三类 Facebook 使用行为与四类政治参与的关系，并检验民族主义与爱国情感的中介作用，发现主动非社交使用正向预测民族主义与爱国态度，民族主义态度负向关联对抗性参与。"
     },
     {
+      "id": 2127,
+      "title": "Algorithmic authority in Spain: relative deprivation, hierarchy, and support for AI rule",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-10",
+      "summary": "论文考察西班牙公众对AI统治（算法权威）的支持度，以相对剥夺感与等级观念作为解释变量，属AI政治合法性与公众态度的实证研究。"
+    },
+    {
       "id": 2058,
       "title": "From Parasocial Involvement to Community Identification: Explaining Monetized Support in VTuber Live Streaming",
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-09-18",
       "summary": "论文探讨VTuber直播中观众的准社会卷入与社群认同如何解释其付费打赏行为，属直播平台受众行为的传播学研究。"
-    },
-    {
-      "id": 2020,
-      "title": "The control of digital spaces in India, Pakistan, and Bangladesh: a comparative analysis",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-09-08",
-      "summary": "论文比较印度、巴基斯坦、孟加拉国对数字空间的控制，结合法律框架梳理与OONI、Internet Society网络干扰数据，分析各国审查与监控实践的差异及其成因，发现不同政权安全关切导致控制手段分化。"
     },
     {
       "id": 1993,
@@ -78,13 +106,6 @@
       "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
     },
     {
-      "id": 246,
-      "title": "Digital transformation and contested sovereignty in humanitarian action",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-23",
-      "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
-    },
-    {
       "id": 58,
       "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
       "journal": "Information Communication & Society",
@@ -113,11 +134,11 @@
       "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
     },
     {
-      "id": 249,
-      "title": "Factors that influence a country to exercise its capacity for digital repression",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-06",
-      "summary": "基于172国2003-2022年面板数据，发现数字压制能力与实际压制正相关，但强隐私保护和政治稳定削弱该关系，选举年无显著影响。"
+      "id": 1904,
+      "title": "Revisiting the Communication Mediation Model in the Age of Social Media: Longitudinal Evidence From Climate Misinformation Responses in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于中国三波面板调查，检验社交媒体时代传播中介模型，发现媒体关注通过人际讨论影响气候错误信息纠正行为，且具有同时性。"
     },
     {
       "id": 71,
@@ -146,6 +167,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-26",
       "summary": "基于台湾环保NGO与公民科技社群合作的案例，探讨环境数据行动主义中NGO作为公民数据中介的角色，提出数据正义的实践理论。"
+    },
+    {
+      "id": 440,
+      "title": "Strategic Communication as an Integrative Governance Function: A Bibliometric Review and an Integrated PR–OC–CC Model",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-03",
+      "summary": "通过文献计量综述316篇WoS论文，梳理公关、组织传播与企业传播的融合，提出战略传播作为整合性治理功能的理论模型。"
     },
     {
       "id": 217,
