@@ -1,5 +1,144 @@
 [
   {
+    "id": 2208,
+    "title": "Conversations about air pollution in New Delhi on X: Causes, solutions and perceived effects",
+    "title_zh": "关于新德里空气污染的讨论：原因、解决方案及人们所感知的影响",
+    "authors": [
+      "Nandini Bhalla",
+      "Ali Zain",
+      "Jane O’Boyle"
+    ],
+    "institutions": [],
+    "journal": "Global Media and Communication",
+    "published_date": "2026-10-26",
+    "relevance": "High",
+    "score": null,
+    "abstract": "New Delhi faces severe air pollution and is projected to become the world’s most populous city by 2030, and, as a result, public discussion of smog has intensified on X. This study analysed more than 100,000 X posts to examine public perceptions of the causes, solutions and effects of air pollution. Framing analysis revealed notable differences between citizen discourse and mainstream media narratives. Users most often blamed crop stubble burning and holiday fireworks rather than vehicles or industrial emissions. Suggested solutions emphasized stronger environmental enforcement and green initiatives. The impact of air pollution on public life and the economy, including lost wages and missed school days, was discussed more frequently than its direct effects on public health.",
+    "abstract_zh": "新德里面临着严重的空气污染问题，预计到2030年将成为世界上人口最多的城市。因此，关于雾霾的公众讨论在社交媒体平台X上变得更加激烈。本研究分析了超过10万条相关帖子，以探讨公众对空气污染原因、解决方案及其影响的看法。分析结果显示，公民的言论与主流媒体的报道之间存在显著差异：用户最常将空气污染归咎于农作物秸秆焚烧和节日烟花燃放，而非车辆排放或工业污染。人们提出的解决方案主要集中在加强环境监管和推行绿色环保措施上。与空气污染对公众健康的直接影响相比，空气污染对公众生活和经济的影响（如工资损失和缺课天数）被讨论得更为频繁。",
+    "summary": "研究分析新德里10万余条X帖子，考察公众对空气污染成因、解决方案与影响的认知框架，发现公民话语与主流媒体叙事存在显著差异：用户更多归咎秸秆焚烧与节日烟花，并突出经济与生活影响。",
+    "reason": "采集超10万条X帖子进行框架分析，属社交媒体大数据与计算传播研究",
+    "tags": [
+      "社交媒体",
+      "X/Twitter",
+      "框架分析",
+      "环境传播",
+      "大数据"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/17427665261489795",
+    "source_url": "https://doi.org/10.1177/17427665261489795",
+    "detail_slug": "conversations-about-air-pollution-in-new-delhi-on-x-causes-solutions-and-perceived-effects",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Global Media and Communication",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2199,
+    "title": "Enhancing Online Deliberation Through AI-Driven Counter-Attitudinal Interventions: Direct and Indirect Effects on Users’ Perceptions and Behavior",
+    "title_zh": "通过人工智能驱动的逆向态度干预措施增强在线讨论效果：这些措施对用户认知和行为的直接影响与间接影响",
+    "authors": [
+      "John J. Peters",
+      "Marc Ziegele",
+      "Carina Weinmann"
+    ],
+    "institutions": [],
+    "journal": "Journal of Language and Social Psychology",
+    "published_date": "2026-10-26",
+    "relevance": "High",
+    "score": null,
+    "abstract": "This study tests whether an AI-based counter-attitudinal comment recommender (AI-CAR) enhances participants’ subjective deliberative experiences and reduces incivility by restructuring the visibility of dissenting viewpoints. We analyzed three-wave data from 827 participants in a 10-day simulated digital citizens’ council in Germany. Participants discussed one of two political issues asynchronously and were randomly assigned to one of three conditions: counter-attitudinal AI recommendations, randomly selected recommendations, or no recommendations. Assignment to AI-CAR increased perceived equality of viewpoints. Higher perceived equality at wave 2 was associated with greater internal deliberation and discussion satisfaction at wave 3, controlling for their wave-2 levels. The corresponding model-based indirect effects were statistically significant, whereas comparable indirect effects were not statistically significant for randomly selected recommendations. AI-CAR did not reduce incivility in participants’ contributions. Overall, the findings highlight the potential of AI-driven structural curation to support subjective deliberative experiences, while effects on incivility remain limited.",
+    "abstract_zh": "这项研究探讨了基于人工智能的反对性评论推荐系统（AI-CAR）是否能够通过改变不同观点的可见性来提升参与者的主观审议体验，并减少不文明行为。我们分析了来自德国一个为期10天的模拟数字公民委员会的827名参与者的三波数据。参与者异步讨论了两个政治议题中的一个，并被随机分配到三种不同的条件中：接受反对性的人工智能推荐、随机选择的推荐，或者不接受任何推荐。被分配到AI-CAR组的参与者对观点平等性的感知有所提高。在第二波数据中，较高的观点平等性感知与第三波数据中的更深入的自我审议和更高的讨论满意度相关（这一结果在控制了他们在第二波数据中的表现后仍然成立）。基于模型的间接效应在统计上是显著的，而随机选择的推荐系统所产生的类似间接效应则没有达到显著性水平。此外，AI-CAR并未减少参与者在讨论中的不文明行为。总体而言，研究结果强调了人工智能驱动的结构化推荐系统在支持主观审议体验方面的潜力，但其对减少不文明行为的影响仍然有限。",
+    "summary": "通过10天模拟公民议会三波实验，检验AI反态度评论推荐是否提升观点平等感知、审议体验并减少不文明表达，发现其对主观审议体验有间接效应，但对不文明行为作用有限。",
+    "reason": "研究AI推荐对在线审议体验与行为的影响，属AI社会影响与传播效果；方法为随机实验量化分析。",
+    "tags": [
+      "AI推荐",
+      "在线审议",
+      "政治传播",
+      "实验研究",
+      "不文明行为"
+    ],
+    "method": "量化分析",
+    "doi": "10.1177/0261927x261500682",
+    "source_url": "https://doi.org/10.1177/0261927x261500682",
+    "detail_slug": "enhancing-online-deliberation-through-ai-driven-counter-attitudinal-interventions-direct-and-indirect-effects-on-users-perceptions-and-behavior",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Language and Social Psychology",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2196,
+    "title": "Narrative character networks are associated with storytelling success",
+    "title_zh": "叙事角色网络与故事讲述的成功密切相关",
+    "authors": [
+      "Xuanjun Gong",
+      "Allison Eden",
+      "Frederic R. Hopp",
+      "Anna Wiederhold Wolfe",
+      "Matthew Grizzard"
+    ],
+    "institutions": [],
+    "journal": "Human Communication Research",
+    "published_date": "2026-10-26",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Abstract Narratives are central to human communication and entertainment, yet why some stories captivate audiences better than others remains poorly understood. Building on theories emphasizing character interdependence, this study introduces a network-based framework for examining storytelling success. We conceptualize narratives as networks composed of characters and their interactions and apply large-scale computational analysis to over 10,000 novels and 1,000 film screenplays. Structural features of these networks are related to storytelling success: lower clustering is associated with greater novel popularity and higher film ratings, whereas higher modularity is associated only with novel popularity and shorter path lengths only with film ratings. These findings demonstrate that storytelling success is related to how characters are structurally connected and organized. By formalizing story architecture as a measurable network, we provide a scalable framework for advancing media entertainment theory, linking cognitive models of graph learning with the structural organization of stories at scale.",
+    "abstract_zh": "叙事在人类交流和娱乐中起着核心作用，然而为什么某些故事比其他故事更能吸引观众，这一点至今仍不甚明了。本研究基于强调角色相互依赖性的理论，提出了一种基于网络的框架来分析叙事的成功因素。我们将叙事视为由角色及其互动关系构成的网络，并对超过10,000部小说和1,000部电影剧本进行了大规模的计算分析。这些网络的结构特征与叙事的成功密切相关：较低的聚类程度与更高的小说受欢迎程度和更高的电影评分相关；而较高的模块化程度仅与小说的受欢迎程度相关，较短的路径长度则仅与电影评分相关。这些发现表明，叙事的成功与角色在结构上的连接和组织方式有关。通过将故事结构形式化为一个可测量的网络，我们为推进媒体娱乐理论提供了可扩展的框架，将图学习的认知模型与大规模故事的结构组织联系起来。",
+    "summary": "将叙事视为角色互动网络，对1万余部小说和1000部电影剧本进行大规模计算分析，发现网络聚类、模块度、路径长度与故事流行度和评分相关。",
+    "reason": "运用网络分析对万部小说和千部剧本建模，研究叙事结构与传播效果，属计算传播。",
+    "tags": [
+      "网络分析",
+      "叙事结构",
+      "计算传播",
+      "媒介娱乐"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1093/hcr/hqag004",
+    "source_url": "https://doi.org/10.1093/hcr/hqag004",
+    "detail_slug": "narrative-character-networks-are-associated-with-storytelling-success",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Human Communication Research",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2198,
+    "title": "Testing Hypotheses From the Social Approval Theory of Online Hate: An Analysis of 110 Million Messages From Parler",
+    "title_zh": "从“在线仇恨的社会认同理论”角度检验假设：对Parler平台上1.1亿条消息的分析",
+    "authors": [
+      "David M. Markowitz",
+      "Samuel Hardman Taylor"
+    ],
+    "institutions": [],
+    "journal": "Communication Research",
+    "published_date": "2026-10-25",
+    "relevance": "High",
+    "score": null,
+    "abstract": "We examined how social approval motivates online hate via the social approval theory, which argues social approval signals on hate messages predict (1) more hate speech, and (2) more toxicity. Using 110 million messages from Parler (2018–2021), we observed that upvotes on hate speech posts (messages broadcast on users’ profiles to followers’ feeds) predicted a lower probability of hate speech in the next immediate post but more in the following week’s posts. Additionally, upvotes on comments (messages embedded within conversational threads) negatively predicted hate speech in the next comment but positively predicted the degree of toxicity during the next week and month. Between-person effects revealed negative immediate short-term effects but positive longer-term effects for hate speech. For comments , social disapproval (downvotes) moderated these relationships, making them less positive at weekly through quarterly time-intervals and more strongly negative at 6-months. Social approval predicts online hate in time- and message-dependent ways.",
+    "abstract_zh": "我们研究了社会认同如何通过“社会认同理论”来激发网络上的仇恨行为。该理论认为，对仇恨言论的社会认同信号会：（1）导致更多的仇恨言论出现；（2）增加言论的毒性（即言论中的攻击性或负面内容）。通过对 Parler 平台（2018–2021 年间）的 1.1 亿条消息进行分析，我们发现：对仇恨言论帖子的点赞（这些帖子会显示在用户的个人资料页面上，并推送给他们的关注者）会降低用户接下来立即发布的仇恨言论的概率，但会增加接下来一周内发布的仇恨言论的数量。此外，对评论的点赞（评论嵌入在对话线程中）会降低用户接下来发表的评论中的仇恨言论数量，但会增加接下来一周和一个月内评论的毒性程度。从个体间的影响来看，点赞对仇恨言论在短期内具有负面影响，但在长期内则具有正面影响。而对于评论而言，社会不认同（点踩）会调节这些关系，使得这种影响在周、季度时间间隔内变得不那么明显，而在 6 个月的时间间隔内则变得更为负面。社会认同对网络仇恨行为的影响既与时间有关，也与具体的言论内容有关。",
+    "summary": "研究基于Parler 2018—2021年1.1亿条消息，检验社会认可理论，发现点赞等认可信号对仇恨言论与毒性程度存在即时负向、长期正向的差异化预测效应。",
+    "reason": "使用1.1亿条Parler消息与计算方法检测仇恨言论，属计算传播学核心议题。",
+    "tags": [
+      "仇恨言论",
+      "社交媒体平台",
+      "大数据文本分析",
+      "社会认可理论"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/00936502261494874",
+    "source_url": "https://doi.org/10.1177/00936502261494874",
+    "detail_slug": "testing-hypotheses-from-the-social-approval-theory-of-online-hate-an-analysis-of-110-million-messages-from-parler",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication Research",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2187,
     "title": "Enhancing Democratic Listening in Online Discussions: The Role of Reaction Buttons, Discussion Moderation, and Large Language Models",
     "title_zh": "提高在线讨论中的民主倾听效果：反应按钮、讨论管理以及大型语言模型的作用",
@@ -320,6 +459,40 @@
     "tracked_journal": "Information, Communication & Society",
     "volume": "",
     "issue": ""
+  },
+  {
+    "id": 2202,
+    "title": "Exploring the Predictors and Outcomes of Perceived Algorithm Responsiveness in Social Media Feeds: Combining Longitudinal and Computational Methods",
+    "title_zh": "探索社交媒体信息流中感知到的算法响应性的预测因素和结果：结合纵向研究与计算方法",
+    "authors": [
+      "Samuel Hardman Taylor",
+      "David M. Markowitz"
+    ],
+    "institutions": [],
+    "journal": "Social Media + Society",
+    "published_date": "2026-10-01",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Perceptions of how algorithms curate content are integral to how people use social media and its effects. Building on the algorithm responsiveness process, we explore whether perceived algorithm responsiveness (PAR) was associated with the message cues of algorithmically curated content. We coupled longitudinal data from a 7-day, twice-daily diary survey with computational digital traces from Twitter (now X) to operationalize algorithmic message characteristics and to understand the antecedents and outcomes of PAR ( N = 10,337 tweets). Results suggested that message cues from algorithmic content in social feeds (i.e., closeness, popularity, valence, and format) were associated with perceived message personalization, but message personalization was the only message characteristic associated with PAR. PAR predicted feeling more connected to others on Twitter, along with message-level factors: closeness to the poster and message personalization. This work contributes to the algorithm responsiveness process, demonstrating that characteristics of algorithmically curated messages predict how individuals experience algorithms.",
+    "abstract_zh": "人们对算法如何筛选内容的认知，对于人们使用社交媒体及其所产生的影响至关重要。在算法响应性（algorithm responsiveness）研究的基础上，我们探讨了感知到的算法响应性（perceived algorithm responsiveness, PAR）是否与算法筛选内容所传递的信息特征有关。我们结合了为期7天、每天两次的日记调查数据以及来自Twitter（现称为X）的数字追踪数据，以量化算法生成的信息特征，并分析感知到的算法响应性的前因后果（样本量：10,337条推文）。研究结果表明，社交媒体信息流中算法筛选内容的信息特征（如信息的亲近感、受欢迎程度、情感倾向和格式）与用户感知到的信息个性化程度有关，但信息个性化是唯一一个与感知到的算法响应性显著相关的特征。感知到的算法响应性能够预测用户在Twitter上与他人建立更紧密联系的感受，此外，信息发布者的亲近感以及信息本身的个性化程度也是影响这一感受的重要因素。这项研究为算法响应性理论做出了贡献，证明了算法筛选信息的特征能够预测用户对算法的使用体验。",
+    "summary": "论文结合7天日记调查与Twitter计算痕迹，分析算法策展信息线索如何影响感知算法响应性及其社交连接结果。",
+    "reason": "研究算法感知与社交媒体信息流，结合推特计算痕迹与纵向日记数据，属计算传播研究。",
+    "tags": [
+      "算法感知",
+      "社交媒体",
+      "Twitter/X",
+      "计算痕迹",
+      "纵向调查"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/20563051261496376",
+    "source_url": "https://doi.org/10.1177/20563051261496376",
+    "detail_slug": "exploring-the-predictors-and-outcomes-of-perceived-algorithm-responsiveness-in-social-media-feeds-combining-longitudinal-and-computational-methods",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Social Media + Society",
+    "volume": "12",
+    "issue": "4"
   },
   {
     "id": 2167,
@@ -18983,7 +19156,7 @@
   {
     "id": 958,
     "title": "Exploring psyop-based conspiracy theories on social media",
-    "title_zh": "探索社交媒体上基于心理操作（psyop）的阴谋论",
+    "title_zh": "探索社交媒体上基于心理战的阴谋论",
     "authors": [
       "Justin Bonest Phillips"
     ],
@@ -18995,7 +19168,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Psychological operations, or ‘psyops’ are routinely cited by conspiracy theorists online. The term, derived from strategic military actions designed to psychologically manipulate the enemy into a desired outcome, now (also) represents a conspiracy of a small group of actors to nefariously manipulate the general public into – for example – major social, economic, or political change. While psyops have been briefly acknowledged by academic research into conspiracy beliefs, to date no study has sought to comprehensively explore the growth and spread of the term’s use online. Utilizing soft clustering of large language model embeddings from half a million social media posts on Facebook, Instagram, 4chan, and Telegram, this study explores psyop content on social media over the past decade. The results point to a considerably wide use of the term as a conspiracy theory, both in public (i.e., Meta) and private social media settings. As the data reveals, the term’s popularity has gradually increased over the last decade, with a notable spike across all platforms near the March 2020 COVID-19 restrictions – offering some empirical evidence that the expression of psyop-based conspiracy theories has increased since the pandemic. The findings also show key (linguistic and topical) differences in how psyop conspiracy beliefs are discussed on Meta and extreme forums, though critically there remains considerable overlap across the platforms. From a theoretical perspective, the data also offers valuable – mass – evidence toward the existing psychological motivations we currently use to explain conspiratorial beliefs.",
-    "abstract_zh": "心理战（Psychological Operations，简称“psyops”）经常被网络上的阴谋论者所引用。这一术语最初指的是旨在通过心理手段操纵敌人以达到预期结果的军事策略，如今也被用来指代一小群人通过阴谋手段恶意影响公众，从而引发重大的社会、经济或政治变革。尽管学术研究在一定程度上承认了心理战在阴谋论中的存在，但迄今为止还没有任何研究全面探讨这一术语在网络上的传播和发展过程。本研究利用来自Facebook、Instagram、4chan和Telegram上50万条社交媒体帖子的语言模型嵌入数据进行软聚类分析，探讨了过去十年中社交媒体上关于心理战的言论。研究结果表明，这一术语被广泛用作阴谋论的表述，无论是在公开的（如Meta平台）还是私密的社交媒体环境中都是如此。数据显示，该术语的流行度在过去十年中逐渐上升，在2020年3月新冠疫情限制措施实施前后，所有平台的使用频率都出现了显著增加——这为疫情期间基于心理战的阴谋论言论增多提供了实证证据。研究还发现了Meta平台与极端论坛上讨论心理战阴谋论时的语言和主题差异，但各平台之间存在相当大的重叠。从理论角度来看，这些数据也为我们目前用来解释阴谋论信念的心理动机提供了宝贵的实证支持。",
+    "abstract_zh": "心理战（Psychological Operations，简称“psyops”）经常被网络上的阴谋论者引用。这一术语最初指的是旨在通过心理手段操纵敌人以达到预期结果的军事策略，如今也被用来指代一小群人通过不正当手段操纵公众，从而引发重大的社会、经济或政治变革。尽管学术研究曾简要提及过与阴谋论相关的心理战行为，但迄今为止还没有任何研究全面探讨过这一术语在网络上的传播与使用情况。本研究利用来自Facebook、Instagram、4chan和Telegram上50万条社交媒体帖子的语言模型嵌入数据进行软聚类分析，研究了过去十年中社交媒体上关于心理战的讨论内容。研究结果表明，这一术语被广泛用作阴谋论的标签，无论是在公开的（如Meta平台）还是私密的社交媒体环境中都是如此。数据显示，该术语的流行度在过去十年中逐渐上升，在2020年3月新冠疫情限制措施实施前后，所有平台的使用频率都出现了显著增长，这为疫情以来基于心理战的阴谋论言论增加提供了实证支持。研究还发现了Meta平台与极端论坛上讨论心理战阴谋论时的语言和主题差异，但各平台之间仍存在相当大的重叠。从理论角度来看，这些数据为解释人们形成阴谋论信念的心理动机提供了宝贵的实证依据。",
     "summary": "利用LLM嵌入软聚类分析Facebook、Instagram、4chan和Telegram上50万帖子，探索psyop阴谋论在过去十年的增长、平台差异及理论启示。",
     "reason": "使用LLM嵌入和聚类分析大规模社交媒体数据，研究阴谋论传播，属典型的计算传播研究。",
     "tags": [
@@ -19029,7 +19202,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article examines social media’s role in the “online-offline nexus,” focusing on how digital interactions translate into sustained, large-scale, right-wing protests. Using Brazil as a case study, the research combines document analysis with non-participant observation in open right-wing Telegram groups and participant observation at the largest of Brazil’s 100 protest camps. At this camp in Brasília, supporters of former president Jair Bolsonaro, as in many other cities, gathered for 70 days between 2022 and 2023 to protest the 2022 presidential election won by Lula da Silva. The camps and online groups prominently displayed nationalist symbols and similar slogans such as “Stolen Election”, “SOS Armed Forces” and “Save Brazil,” reflecting the unified ideology of the self-called “patriots.” Social media—mainly through the (re)circulation of videos, posts, and dedicated content produced by and to demonstrators in Telegram and WhatsApp groups—proved essential in four stages: mobilizing , organizing , sustaining , and reorganizing . Introducing the concept of “boom-and-burst,” this study shows how the online-offline nexus both fostered collective identity and facilitated the logistical and ideological underpinnings of prolonged, site-specific demonstrations, actively encouraging violence. In Brazil, the overt support of many state actors, especially the army and police, also played a role. The cycle of intense digital enthusiasm translated into protest camps and, instead of the expected bust, ultimately escalated into acts of violence, with demonstrators planning bombings and vandalizing institutional sites in a disturbing sequel to the 6 January 2021 attack on the US Capitol.",
-    "abstract_zh": "本文探讨了社交媒体在“线上-线下互动”中的作用，重点关注数字互动如何转化为持续、大规模的右翼抗议活动。以巴西为案例研究，该研究结合了文献分析、对公开右翼Telegram群组的非参与观察以及对巴西100个抗议营地中规模最大的一个的参与观察。在2022年至2023年间，前总统雅伊尔·博索纳罗的支持者在巴西利亚的这个营地与其他许多城市一样聚集了70天，以抗议卢拉·达席尔瓦赢得的2022年总统选举。这些营地和线上群组显著展示了民族主义符号以及诸如“选举被窃取”、“武装部队求救”和“拯救巴西”之类的口号，反映了这些自称为“爱国者”的人群的统一意识形态。社交媒体——主要通过在Telegram和WhatsApp群组中传播视频、帖子以及由示威者制作的内容——在四个阶段发挥了关键作用：动员、组织、维持抗议活动以及重新组织抗议行动。本文引入了“爆发-消退”（boom-and-bust）的概念，展示了线上-线下互动如何既促进了集体身份的形成，又为这些长期、特定地点的抗议活动提供了后勤和意识形态支持，并积极煽动了暴力行为。在巴西，许多国家行为者（尤其是军队和警察）的公开支持也起到了重要作用。这种强烈的数字热情最终转化为抗议活动，但并未像预期那样消退，反而升级为暴力行为，示威者策划了爆炸事件并破坏了公共设施，这一情况令人担忧，因为它与2021年1月6日美国国会大厦遭袭事件有着相似的背景。",
+    "abstract_zh": "本文探讨了社交媒体在“线上-线下互动”中的作用，重点关注数字互动如何转化为持续、大规模的右翼抗议活动。以巴西为案例研究，该研究结合了文献分析、对公开右翼Telegram群组的非参与观察以及对巴西100个抗议营地中规模最大的一个的参与观察。在巴西利亚的这个营地中，前总统雅伊尔·博索纳罗的支持者在2022年至2023年间聚集了70天，抗议卢拉·达席尔瓦赢得的2022年总统选举。这些营地和线上群体显著展示了民族主义符号以及类似的口号，如“选举被窃取”、“武装部队求救”和“拯救巴西”，反映了这些自称为“爱国者”的人群的统一意识形态。社交媒体——主要通过在Telegram和WhatsApp群组中传播视频、帖子以及由示威者制作的内容——在四个阶段发挥了关键作用：动员、组织、维持抗议活动以及重新组织抗议行动。本文引入了“爆发-消退”（boom-and-bust）的概念，展示了线上-线下互动如何既促进了集体身份的形成，又为长期、特定地点的抗议活动提供了后勤和意识形态支持，并积极鼓励了暴力行为的发生。在巴西，许多国家行为体（尤其是军队和警察）的公开支持也起到了重要作用。这种强烈的数字热情最终转化为抗议活动，但并未像预期的那样逐渐平息，反而升级为暴力行为，示威者策划了爆炸事件并破坏了公共设施，这一现象令人担忧，因为它与2021年1月6日美国国会大厦遭袭事件有着相似的背景。",
     "summary": "以巴西为例，分析社交媒体在右翼抗议营地动员、组织、维持和重组中的作用，提出“boom-and-burst”概念，揭示线上线下互动如何促成暴力升级。",
     "reason": "研究社交媒体（Telegram/WhatsApp）在右翼抗议中的作用，属计算传播领域议题，但方法以观察为主。",
     "tags": [
@@ -19051,7 +19224,7 @@
   {
     "id": 1341,
     "title": "Language, Power, and Misinformation: A Mixed-Method Analysis of COVID-19 Discourses on Norwegian Twitter",
-    "title_zh": "语言、权力与虚假信息：对挪威推特上关于COVID-19的言论的混合方法分析",
+    "title_zh": "语言、权力与虚假信息：对挪威推特上关于COVID-19讨论的混合方法分析",
     "authors": [
       "Siri Frisli"
     ],
@@ -19063,7 +19236,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study investigates COVID-19-related misinformation on Norwegian Twitter (X), using a mixed-method approach to analyze a large corpus of 426,000 Norwegian-language tweets posted over the course of 3 years, focusing on the interplay between discursive strategies, ideological dynamics, and power relations. The quantitative analysis uses Structural Topic Modeling (STM) to identify and map the prevalence of key discourses. The STM revealed how the COVID-19 misinformation on the platforms was mainly concentrated around two discourses: politics and health. A qualitative critical discourse analysis was used to explore how vaccine-related misinformation reinforced or challenged broader power dynamics and hegemonic ideologies around health, science, and freedom. Informed by the quantitative analysis, the discourse analysis focused on two prevalent misinformation topics, revealing how vaccine-critical discourses contest the authority of health institutions and the government by framing vaccines as dangerous, experimental, and illegal. These findings contribute to the broader understanding of how misinformation circulates and evolves in specific sociopolitical contexts. By analyzing the intersections of ideology, power, and discourse, the study highlights social media’s role in mediating public debates during health crises. The results emphasize that misinformation is not merely false or misleading information but a strategic challenge to hegemony, ideology, and power. Implications include the need for more nuanced approaches to combating misinformation, addressing its ideological and discursive appeal.",
-    "abstract_zh": "本研究调查了挪威Twitter（X）上与COVID-19相关的错误信息，采用混合方法分析了3年间发布的426,000条挪威语推文。研究重点关注话语策略、意识形态动态和权力关系之间的相互作用。定量分析运用结构主题建模（Structural Topic Modeling, STM）来识别和梳理关键话语的传播情况。结果显示，Twitter上的COVID-19错误信息主要集中在两个主题上：政治和健康。定性批判性话语分析进一步探讨了与疫苗相关的错误信息如何强化或挑战关于健康、科学和自由的权力动态及霸权意识形态。在定量分析的基础上，话语分析重点关注两个常见的错误信息主题，发现质疑疫苗有效性的言论通过将疫苗描述为危险、实验性且非法的物品来挑战卫生机构和政府的权威。这些发现有助于更深入地理解错误信息在特定社会政治背景下的传播与演变过程。通过分析意识形态、权力和话语之间的相互作用，本研究揭示了社交媒体在健康危机期间调节公众辩论中的作用。研究结果表明，错误信息不仅仅是虚假或具有误导性的信息，而是对霸权、意识形态和权力的战略性挑战。因此，需要采取更加细致的方法来应对错误信息，同时考虑其背后的意识形态和话语逻辑。",
+    "abstract_zh": "本研究调查了挪威Twitter（X）上与COVID-19相关的错误信息，采用混合方法分析了3年间发布的426,000条挪威语推文。研究重点关注话语策略、意识形态动态和权力关系之间的相互作用。定量分析运用结构主题建模（Structural Topic Modeling, STM）来识别和梳理关键话语的传播情况。结果显示，Twitter上的COVID-19错误信息主要集中在两个主题上：政治和健康。定性批判性话语分析进一步探讨了与疫苗相关的错误信息如何强化或挑战有关健康、科学和自由的权力动态及霸权意识形态。在定量分析的基础上，话语分析聚焦于两个常见的错误信息主题，发现质疑疫苗有效性的言论通过将疫苗描述为危险、实验性或非法的产品来挑战卫生机构和政府的权威。这些发现有助于更深入地理解错误信息在特定社会政治背景下的传播与演变机制。通过分析意识形态、权力和话语之间的相互作用，本研究揭示了社交媒体在健康危机期间调节公众辩论中的作用。研究结果表明，错误信息不仅仅是虚假或具有误导性的信息，而是对霸权、意识形态和权力的战略性挑战。因此，需要采取更加细致的方法来应对错误信息，同时考虑其背后的意识形态和话语逻辑。",
     "summary": "分析挪威Twitter上42.6万条COVID-19相关推文，用STM识别政治与健康两类主要虚假信息话语，并结合批判话语分析探讨权力与意识形态动态。",
     "reason": "使用大规模Twitter数据和主题建模分析虚假信息，属于计算传播学研究。",
     "tags": [
@@ -19086,7 +19259,7 @@
   {
     "id": 1343,
     "title": "In the Mood for Likes: A Longitudinal Study of Civil Society Organizations’ Emotional Communication on Social Media",
-    "title_zh": "渴望获得点赞：一项关于民间社会组织在社交媒体上情感交流的纵向研究",
+    "title_zh": "渴望获得点赞：一项关于民间社会组织在社交媒体上情感表达的纵向研究",
     "authors": [
       "Nils Gustafsson",
       "Nils Holmberg",
@@ -19103,7 +19276,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Emotional communication, especially through social media platforms, has become a contemporary populist threat. While this phenomenon has been studied in for example news media and social movements, we know less about its influence on civil society organizations, despite their pluralism being a centerpiece in a vibrant democracy. More specifically, we do not know if social media make civil society organizations more isomorphic and thus decreasing the diversity of their emotional communication over time. This question is relevant given the broad range of organizational fields that civil society engages in, as well as the documented push toward especially extreme positivity on social media platforms. Given this background, the article explores the use of positive and negative sentiment, as well as of sentiment intensity, over time in the social media communication of different organizational fields of civil society. We employ sentiment analysis to analyze approximately 100,000 organizational posts on Facebook from 125 Swedish nonprofit organizations during 2015–2020. We find that the pluralism of civil society organizations across different fields, as regards emotional communication, is retained over time, thus not threatening the pluralism of civil society in this way. In addition, emotional communication, and especially positivity, increases over time in all fields in absolute terms. However, considering post length, the relative amount of emotional communication exhibits less of an increase. Rather, across all fields there is an unexpected isomorphism relating to posts becoming longer, while enticing less user engagement. This development, rather than the lack of pluralism, raises democratic concerns.",
-    "abstract_zh": "情感交流，尤其是通过社交媒体平台进行的交流，已成为当代民主社会中的一个潜在威胁。尽管这一现象已在新闻媒体和社会运动等领域得到研究，但我们对它对民间社会组织的影响知之甚少——而民间社会的多元性正是民主活力的核心。具体来说，我们尚不清楚社交媒体是否会使民间社会组织变得更加同质化，从而逐渐减少它们在情感交流方面的多样性。鉴于民间社会组织涉及的领域广泛，以及社交媒体上普遍存在的极端积极倾向，这一问题显得尤为重要。本文探讨了不同民间社会组织在社交媒体交流中使用的积极情绪、消极情绪及其强度随时间的变化情况。我们通过对2015至2020年间瑞典125个非营利组织在Facebook上发布的约10万条帖子进行情感分析，发现民间社会组织在情感交流方面的多元性并未随时间减弱，因此并未对民主社会的多元性构成威胁。此外，从绝对数量上看，所有领域的情感交流（尤其是积极情绪）都有所增加；然而考虑到帖子的长度，情感交流的相对比例增长并不明显。相反，所有领域的帖子长度都在增加，但这种增长反而降低了用户的参与度。这种发展趋势，而非多元性的缺失，引发了民主方面的担忧。",
+    "abstract_zh": "情感交流，尤其是通过社交媒体平台进行的交流，已成为当代民主制度中的一个威胁。虽然这种现象在新闻媒体和社会运动等领域已经得到了研究，但我们对它对民间社会组织的影响了解甚少，尽管民间社会的多元性是民主制度的核心要素。具体来说，我们尚不清楚社交媒体是否会使民间社会组织变得更加同质化，从而逐渐减少它们在情感交流方面的多样性。鉴于民间社会组织涉及的领域广泛，以及社交媒体平台上普遍存在的极端积极情绪倾向，这个问题显得尤为重要。基于此背景，本文探讨了不同民间社会组织在社交媒体交流中使用的积极情绪、消极情绪以及情绪强度的变化趋势。我们通过对2015年至2020年间瑞典125个非营利组织在Facebook上发布的约10万条帖子进行情感分析，发现民间社会组织在情感交流方面的多元性并未随时间而减弱，因此并未对民主制度的多元性构成威胁。此外，从绝对数量上看，所有领域的情感交流（尤其是积极情绪）都有所增加。然而，考虑到帖子的长度，情感交流的相对比例增幅较小。相反，在所有领域中，帖子长度的增加反而导致了用户参与度的下降。这种发展趋势，而非多元性的缺失，引发了民主方面的担忧。",
     "summary": "纵向分析125个瑞典非营利组织2015-2020年约10万条Facebook帖子的情感表达，发现情绪沟通随时间增加但多样性保留，帖子变长且用户参与度降低。",
     "reason": "使用情感分析处理10万条Facebook帖子，结合社交媒体平台与组织传播议题，属于计算传播研究。",
     "tags": [
@@ -19136,7 +19309,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article draws on the theories of Max Weber to explore how social media can redefine organization and hierarchy in the contemporary labor movement. Through a mixed-methods approach combining quantitative analysis of social media posts and in-depth interviews with key grassroots activists in Denmark, the article highlights how the personal, affective, and participatory nature of social media challenges traditional union legitimacy. The findings suggest that as affect and individual narratives become increasingly powerful tools for the labor movement, unions must explore ways to incorporate these new modes of communication. This includes a deep understanding of the interplay between different forms of legitimacy on digital platforms, and how these can complement each other rather than compete in the pursuit of labor rights and democratic organization. This study contributes to a broader discussion on the impact of digital platforms on organizations, offering a unique perspective on the intersection of technology and power.",
-    "abstract_zh": "本文借鉴了马克斯·韦伯的理论，探讨了社交媒体如何在当代劳工运动中重新定义组织结构和层级关系。通过结合定量分析（对社交媒体帖子的分析）与对丹麦基层活动家的深入访谈的混合方法，文章指出了社交媒体的个人化、情感化及参与性特征如何挑战传统的工会合法性。研究结果表明，随着情感表达和个人叙事成为劳工运动中越来越有力的工具，工会必须探索将这些新的沟通方式纳入自身运作的方式。这需要深入理解数字平台上不同形式的合法性之间的相互作用，以及它们如何能够相互补充，而非在争取劳工权利和民主组织的过程中相互竞争。本研究为关于数字平台对组织影响的更广泛讨论做出了贡献，提供了关于技术与权力交汇点的独特视角。",
+    "abstract_zh": "本文借鉴了马克斯·韦伯的理论，探讨了社交媒体如何在当代劳工运动中重新定义组织结构和层级关系。通过结合定量分析（对社交媒体帖子的分析）与对丹麦基层活动家的深入访谈的混合方法，文章指出了社交媒体的个人化、情感化以及参与性特征如何挑战传统工会的合法性。研究结果表明，随着情感表达和个人叙事成为劳工运动中越来越有力的工具，工会必须探索将这些新的沟通方式纳入自身运作的方式。这需要深入理解数字平台上不同形式合法性之间的相互作用，以及它们如何能够相互补充，而不是在争取劳工权利和民主组织的过程中相互竞争。本研究为关于数字平台对组织影响的更广泛讨论做出了贡献，提供了关于技术与人权之间关系的独特视角。",
     "summary": "基于韦伯理论，结合社交媒体帖子的定量分析与丹麦活动家深度访谈，探讨社交媒体如何重塑劳工运动的组织与合法性，提出情感和个人叙事挑战传统工会合法性。",
     "reason": "研究社交媒体对劳工运动的影响，使用定量分析社交媒体帖子与访谈的混合方法，属于计算传播议题和方法。",
     "tags": [
@@ -19174,7 +19347,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article introduces the analytical approach of practice mapping , using vector embeddings of network actions and interactions to map commonalities and disjunctures in the practices of social media users, as a framework for methodological advancement beyond the limitations of conventional network analysis and visualization. In particular, the methodological framework we outline here has the potential to incorporate multiple distinct modes of interaction into a single practice map; can be further enriched with account-level attributes such as information gleaned from textual analysis, profile information, available demographic details, and other features; and can be applied even to a cross-platform analysis of communicative patterns and practices. The article presents practice mapping as an analytical framework and outlines its key methodological considerations. Given its prominence in past social media research, we draw on examples and data from the platform formerly known as Twitter to enable experienced scholars to translate their approaches to a practice mapping paradigm more easily, but point out how data from other platforms may be used in equivalent ways in practice mapping studies. We illustrate the utility of the approach by applying it to a dataset where the application of conventional network analysis and visualization approaches has produced few meaningful insights.",
-    "abstract_zh": "本文介绍了“实践映射”（practice mapping）的分析方法，该方法利用网络行为和互动的向量嵌入来揭示社交媒体用户实践中的共性和差异，从而为方法论的发展提供新的框架，超越了传统网络分析和可视化的局限性。具体而言，我们提出的方法论框架能够将多种不同的互动模式整合到一张实践映射图中；还可以通过账户级别的属性（如文本分析所得的信息、个人资料信息、可用的人口统计细节等）进一步丰富该映射图的内容；此外，该方法甚至可以用于跨平台的沟通模式和实践分析。文章将“实践映射”作为一种分析框架进行介绍，并概述了其关键的方法论考量。鉴于该方法在以往的社交媒体研究中的重要性，我们以曾经被称为Twitter的社交平台为例和数据，帮助有经验的学者更容易地将他们的研究方法转化为“实践映射”的范式；同时我们也指出，其他平台的数据同样可以用于“实践映射”研究中。通过将这种方法应用于一个传统网络分析和可视化方法难以产生有意义见解的数据集，我们展示了该方法的实用性。",
+    "abstract_zh": "本文介绍了“实践映射”（practice mapping）的分析方法。该方法利用网络行为和互动的向量嵌入（vector embeddings）来揭示社交媒体用户行为中的共性和差异性，从而为方法论的发展提供新的框架，克服了传统网络分析和可视化的局限性。具体而言，我们提出的方法论框架能够将多种不同的互动模式整合到一张实践映射图中；还可以通过账户级别的属性（如文本分析所得的信息、个人资料信息、可用的人口统计数据等）进一步丰富该映射图的内容；此外，该方法甚至可以用于跨平台的沟通模式和行为分析。文章将“实践映射”作为一种分析工具进行介绍，并阐述了其关键的方法论考量。鉴于该方法在以往的社交媒体研究中的重要性，我们以曾经被称为Twitter的社交平台为例，帮助有经验的学者更容易地将他们的研究方法转化为“实践映射”的分析框架。同时，我们也指出其他平台的数据同样可以用于“实践映射”研究。最后，我们通过一个实际案例来说明该方法的有效性：在该案例中，传统的网络分析和可视化方法几乎无法提供有意义的洞察。",
     "summary": "提出实践映射方法，用向量嵌入表示社交媒体的网络行为和多模态互动，克服传统网络分析局限，可跨平台分析，并以Twitter数据示例验证。",
     "reason": "使用向量嵌入分析社交媒体互动，属于计算方法与平台研究的结合",
     "tags": [
@@ -19532,7 +19705,7 @@
   {
     "id": 1561,
     "title": "How Autonomy of Artificial Intelligence Technology and User Agency Influence AI Perceptions and Attitudes: Applying the Theory of Psychological Reactance",
-    "title_zh": "人工智能技术的自主性与用户能动性如何影响人们对人工智能的认知和态度：运用心理抗拒理论进行探讨",
+    "title_zh": "人工智能技术的自主性与用户的能动性如何影响人们对人工智能的认知和态度：运用心理抗拒理论进行探讨",
     "authors": [
       "Jeeyun Oh",
       "Soya Nah",
@@ -19547,7 +19720,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Artificial intelligence (AI) technology is increasingly taking over various aspects of our daily decision-making processes. The current study investigates how media users emotionally and cognitively respond to the increasing autonomy of AI technology. A survey (N = 297) measured the perceived autonomy of AI applications that individuals currently use and examined its relationship with psychological reactance, user agency, and perceived personalization. Findings show that AI autonomy is positively related to threat to freedom and psychological reactance. However, AI autonomy is also positively associated with personalization, which cancels out the negative impact of psychological reactance on attitudes. Those who feel a higher agency perceive a higher threat to freedom as perceived AI autonomy increases. Theoretical and practical implications are discussed.",
-    "abstract_zh": "人工智能（AI）技术正在逐渐渗透到我们日常决策过程的各个方面。本研究探讨了媒体用户对AI技术日益增强的自主性在情感和认知层面的反应。通过一项调查（样本量N=297），研究人员测量了人们目前使用的AI应用程序所具有的自主性，并分析了这种自主性与心理抗拒（psychological reactance）、用户能动性（user agency）以及感知到的个性化（perceived personalization）之间的关系。研究结果表明，AI的自主性与对自由的威胁以及心理抗拒之间存在正相关关系。然而，AI的自主性也与个性化之间存在正相关关系，这种正向关系抵消了心理抗拒对用户态度的负面影响。当用户感到自身的能动性较低时，随着AI自主性的增加，他们会对自由感到更大的威胁。文章还讨论了这一研究的理论和实践意义。",
+    "abstract_zh": "人工智能（AI）技术正在逐渐渗透到我们日常决策过程的各个方面。本研究探讨了媒体用户对AI技术日益增强的自主性在情感和认知层面的反应。通过一项针对297名受访者的调查，研究人员测量了人们目前使用的AI应用程序所具有的自主性，并分析了这种自主性与心理抗拒（psychological reactance）、用户能动性（user agency）以及感知到的个性化（perceived personalization）之间的关系。研究结果表明，AI的自主性与对自由的威胁以及心理抗拒之间存在正相关关系；然而，AI的自主性也与个性化之间存在正相关关系，这种正向关系抵消了心理抗拒对用户态度的负面影响。当用户感到自身的能动性较低时，随着AI自主性的增加，他们会对自由感到更大的威胁。文章还讨论了这一研究的理论和实践意义。",
     "summary": "通过问卷调查（N=297）探究AI自主性与心理抗拒、用户能动性及个性化感知的关系，发现AI自主性既引发威胁感也提升个性化，两者对态度影响相互抵消。",
     "reason": "研究AI技术自主性对用户感知与态度的影响，属于AI社会影响议题，符合特别纳入条款。",
     "tags": [
@@ -19569,7 +19742,7 @@
   {
     "id": 1241,
     "title": "Recognizing fake news spreading in social networks using ensemble learning",
-    "title_zh": "利用集成学习方法识别在社交网络中传播的虚假新闻",
+    "title_zh": "使用集成学习方法识别在社交网络中传播的虚假新闻",
     "authors": [
       "Fengjiao Zhou",
       "Rui Ma",
@@ -19582,7 +19755,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Fake news on social media is rapidly spreading, causing significant damage and highlighting the need for effective communication strategies to detect and combat its spread. This study introduces a method that utilizes a combination of Deep Learning (DL) techniques for identifying fake news-related messages on social networks. Each deep model receives unique representations of the message’s content features, and the process begins with preprocessing the content to obtain a standardized intermediate form. Three DL models are employed: the first is a multilayer perceptron with two hidden layers, which processes statistical features of the message and detects fakeness based on content properties and dissemination statistics. The second and third models are convolutional neural networks (CNNs) trained using TF-IDF and Word2Vec attributes, considering the content features of the message in detecting fake news. After training these models, they are then used for recognizing fake news in new samples. The presented method used a decision tree-based learning model in the final step for result ensemble. In comparison to conventional ensemble systems like majority voting, this approach significantly increases the flexibility of the model. In our experiments, we utilized two databases: GossipCop and PolitiFact. Our proposed method performed well in both databases, achieving an average accuracy of 99% and 96% respectively. This demonstrates that our approach outperforms comparative methods in detection.",
-    "abstract_zh": "社交媒体上的虚假新闻正在迅速传播，造成了严重的后果，这凸显了制定有效沟通策略以检测和遏制其传播的必要性。本研究介绍了一种方法，该方法结合了深度学习（DL）技术来识别社交网络中的虚假新闻相关内容。每个深度学习模型都会接收消息内容的独特表示，整个过程首先通过对内容进行预处理来获得一个标准化的中间形式。研究使用了三种深度学习模型：第一种是具有两个隐藏层的多层感知器，它通过处理消息的统计特征并根据内容属性和传播统计数据来检测虚假性；第二和第三种模型是卷积神经网络（CNN），它们使用TF-IDF和Word2Vec属性进行训练，在检测虚假新闻时考虑了消息的内容特征。在训练这些模型之后，它们被用于识别新样本中的虚假新闻。在最后一步，该方法还使用了一个基于决策树的学习模型来进行结果集成。与传统的集成系统（如多数投票）相比，这种方法显著提高了模型的灵活性。在我们的实验中，我们使用了两个数据库：GossipCop和PolitiFact。我们提出的方法在这两个数据库中的表现都很好，平均准确率分别达到了99%和96%。这表明我们的方法在检测虚假新闻方面优于其他方法。",
+    "abstract_zh": "社交媒体上的虚假新闻正在迅速传播，造成了严重的后果，并凸显了制定有效沟通策略以检测和遏制其传播的必要性。本研究介绍了一种方法，该方法结合了深度学习（DL）技术来识别社交媒体网络中的虚假新闻相关内容。每个深度学习模型都会接收消息内容的独特表示形式，整个过程首先对内容进行预处理，以获得标准化的中间形式。研究使用了三种深度学习模型：第一种是具有两个隐藏层的多层感知器，它处理消息的统计特征，并根据内容属性和传播统计数据来检测虚假性；第二种和第三种模型是卷积神经网络（CNN），它们使用TF-IDF和Word2Vec属性进行训练，在检测虚假新闻时考虑了消息的内容特征。训练这些模型后，它们被用于识别新样本中的虚假新闻。在最后一步，研究采用了基于决策树的学习模型来进行结果集成。与传统的集成系统（如多数投票）相比，这种方法显著提高了模型的灵活性。在实验中，我们使用了两个数据库：GossipCop和PolitiFact。我们提出的方法在这两个数据库中的表现都非常好，平均准确率分别达到了99%和96%。这表明我们的方法在检测虚假新闻方面优于其他方法。",
     "summary": "提出结合多层感知机与CNN的集成模型，利用TF-IDF和Word2Vec特征检测社交网络假新闻，在GossipCop和PolitiFact数据集上准确率高达99%和96%。",
     "reason": "研究社交媒体假新闻检测，使用深度学习与集成学习方法，明确属于计算传播领域。",
     "tags": [
@@ -19622,7 +19795,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "As the exploration of digital behavioral data revolutionizes communication research, understanding the nuances of data collection methodologies becomes increasingly pertinent. This study focuses on one prominent data collection approach, web scraping;specifically, its application in the growing field of research relying on web browsing data. We investigate discrepancies between content obtained directly during user interaction with a website (in-situ) and content scraped using the URLs of participants’ logged visits (ex-situ) with various time delays (0, 30, 60, and 90 days). We find substantial disparities between the methodologies, uncovering that errors are not uniformly distributed across news categories regardless of the classification method (domain, URL, or content analysis). These biases compromise the precision of measurements used in the existing literature. The ex-situ collection environment is the primary source of the discrepancies (~33.8%), while the time delays in the scraping process play a smaller role (adding ~6.5% points in 90 days). Our research emphasizes the need for data collection methods that capture web content directly in the user’s environment. However, acknowledging its complexities, we further explore strategies to mitigate biases in web-scraped browsing histories, offering recommendations for researchers who rely on this method and laying the groundwork for developing error-correction frameworks.",
-    "abstract_zh": "随着对数字行为数据的探索彻底改变了传播研究，理解数据收集方法的细微差别变得越来越重要。本研究重点关注一种主要的数据收集方法——网络爬虫技术，特别是其在依赖网页浏览数据的研究领域中的应用。我们调查了在用户与网站交互过程中直接获取的内容（原位数据）与通过用户记录的访问URL进行爬取的内容（异地数据）之间的差异，这些爬取操作在不同的时间延迟下（0天、30天、60天和90天）进行。研究发现，无论采用何种分类方法（领域、URL或内容分析），不同方法之间都存在显著差异；这些差异表明错误并不是均匀分布的。这些偏差影响了现有研究中测量结果的准确性。异地数据收集方法是导致差异的主要来源（约占33.8%），而爬取过程中的时间延迟则起到了较小的作用（在90天的情况下增加了约6.5%的误差）。我们的研究强调了需要采用能够在用户环境中直接获取网页内容的数据收集方法。然而，鉴于这种方法存在的复杂性，我们进一步探讨了减少网络爬取浏览记录中偏差的策略，为依赖该方法的研究人员提供了建议，并为开发错误校正框架奠定了基础。",
+    "abstract_zh": "随着对数字行为数据的探索彻底改变了传播研究，理解数据收集方法的细微差别变得越来越重要。本研究重点关注一种主要的数据收集方法——网络爬虫技术，特别是其在依赖网页浏览数据的研究领域中的应用。我们调查了用户在网站交互过程中直接获取的内容（原位数据）与通过用户访问记录的URL进行爬取的内容（异地数据）之间的差异，这些爬取操作在不同的时间延迟下（0天、30天、60天和90天）进行。研究发现，无论采用何种分类方法（领域、URL或内容分析），不同方法之间都存在显著差异；这些误差并不是均匀分布的。这些偏差影响了现有研究中测量结果的准确性。异地数据收集方法是导致差异的主要因素（约占33.8%），而爬取过程中的时间延迟则起到了较小的作用（在90天的时间延迟下增加了约6.5%的误差）。我们的研究强调了需要采用能够在用户环境中直接获取网页内容的数据收集方法。然而，鉴于其复杂性，我们进一步探讨了减少网络爬取数据中偏差的策略，为依赖这种方法的研究人员提供了建议，并为开发误差校正框架奠定了基础。",
     "summary": "研究对比用户访问网站时原位获取内容与事后按URL爬取内容的差异，发现爬取环境及时滞导致新闻类别测量偏差，并提出纠偏策略。",
     "reason": "使用网络爬虫与数字行为数据评估新闻消费测量偏差，属计算方法与传播议题结合。",
     "tags": [
@@ -19657,7 +19830,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Social media narratives are considered crucial in shaping the attention of digital assets. The interactive narrative model posits that online interactions and narrative structures affect individuals’ attention. Yet, the conceptualization of narrative structure’s temporal and spatial dimensions and their effects remain limited. Furthermore, few studies have addressed how online interactions influence narrative structure. We construct a three-wave panel data for 1,226 active users based on 16 million tweets and quantify narrative circuitousness, speed, and volume using the Word2Vec model. The results of two-way fixed-effects models reveal that high-speed, low-circuitousness, low-volume, and emotional narrative increase transaction attention. In addition, narrative structures mediate the relationship between online interactions and transaction attention. We contribute to the interactive narrative model by formulating and quantifying the temporal and spatial dimensions of narrative structure.",
-    "abstract_zh": "社交媒体叙事在塑造人们对数字资产的关注度方面起着关键作用。交互式叙事模型认为，在线互动和叙事结构会影响个人的注意力。然而，关于叙事结构的时间和空间维度的概念化及其影响仍存在局限性。此外，很少有研究探讨在线互动如何影响叙事结构。我们基于1600万条推文，对1226名活跃用户进行了三波面板数据分析，并利用Word2Vec模型量化了叙事的迂回程度、速度和信息量。双向固定效应模型的研究结果表明，高速传播、低迂回程度、低信息量以及具有情感色彩的叙事能够提高用户的交易关注度。此外，叙事结构在在线互动与交易关注度之间起到了中介作用。我们通过明确和量化叙事结构的时间和空间维度，为交互式叙事模型做出了贡献。",
+    "abstract_zh": "社交媒体叙事在塑造人们对数字资产的关注度方面起着关键作用。交互式叙事模型认为，在线互动和叙事结构会影响个人的注意力。然而，关于叙事结构的时间和空间维度的概念化及其影响仍存在局限性。此外，很少有研究探讨在线互动如何影响叙事结构。我们基于1600万条推文，对1226名活跃用户进行了三波面板数据分析，并利用Word2Vec模型量化了叙事的迂回程度、速度和信息量。双向固定效应模型的研究结果表明，高速传播、低迂回程度、低信息量以及具有情感色彩的叙事能够增加用户的交易关注度。此外，叙事结构还起到了调节在线互动与交易关注度之间关系的作用。通过明确和量化叙事结构的时间和空间维度，我们对交互式叙事模型做出了贡献。",
     "summary": "基于1600万条推文构建1226名活跃用户的三波面板数据，用Word2Vec量化叙事结构，分析在线互动与叙事结构对数字资产交易注意力的影响。",
     "reason": "使用1600万推文数据与Word2Vec模型，研究社交媒体叙事对数字资产交易注意力的影响，属典型计算传播研究。",
     "tags": [
@@ -19695,7 +19868,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The generation of online conversations depend on participants’ ability to engage others. Existing approaches to measuring conversational influence rely on limited metrices, such as the number of ‘likes’ and ‘shares’. Drawing from Cooperative Game Theory, this study introduces Content Engagement Capacity (CEC), an innovative network-based method for measuring the ability of content to facilitate conversations. Instead of testing each post in a vacuum, CEC operationalizes the capacity to engage others as a group effort, measuring the relationship between content features and engagement, accounting for the unique contribution of other posts. We test the method’s validity and applicability in the context of political frames, identified using the Analysis of Topic Model Network (ANTMN) approach. Results show that, on average, horserace framing produced the highest engagement on Twitter while strategy framing had the same effect on Reddit. As for facilitating conversations of specific frames, on Twitter, the use of specific frames consistently yielded more discussion of the same frames but on Reddit, all frames yielded discussion of political identity.",
-    "abstract_zh": "在线对话的生成取决于参与者与他人互动的能力。现有的衡量对话影响力的方法主要依赖于有限的指标，例如“点赞”和“分享”的数量。本文借鉴合作博弈论（Cooperative Game Theory）的概念，提出了一种名为“内容参与能力”（Content Engagement Capacity, CEC）的创新网络分析方法，用于评估内容促进对话的能力。与传统方法不同，CEC将“与他人互动的能力”视为一种集体行为，通过分析内容特征与用户参与度之间的关系来衡量这种能力，并充分考虑其他帖子的潜在影响。我们在使用“主题模型网络分析”（Analysis of Topic Model Network, ANTMN）方法识别的政治框架背景下，验证了该方法的有效性和适用性。研究结果表明：在Twitter上，“赛马式框架”（horserace framing）平均能产生最高的用户参与度；而在Reddit上，“策略式框架”（strategy framing）也具有类似的效果。至于特定政治框架的讨论情况，Twitter上使用特定框架能够显著促进对该框架的讨论，而Reddit上所有类型的框架都能引发关于政治身份的讨论。",
+    "abstract_zh": "在线对话的生成取决于参与者与他人互动的能力。现有的衡量对话影响力的方法主要依赖于有限的指标，例如“点赞”和“分享”的数量。本文借鉴合作博弈论（Cooperative Game Theory）的理论，提出了一种名为“内容参与能力”（Content Engagement Capacity，简称CEC）的创新网络分析方法，用于评估内容促进对话的能力。与传统方法不同，CEC将“与他人互动的能力”视为一种集体行为，通过分析内容特征与用户参与度之间的关系来衡量这种能力，并充分考虑其他帖子的潜在影响。我们在使用“主题模型网络分析”（Analysis of Topic Model Network，简称ANTMN）方法识别出的政治框架背景下，验证了该方法的有效性和适用性。研究结果表明：在Twitter上，“赛马式框架”（horserace framing）平均能引发最高的用户参与度；而在Reddit上，“策略式框架”（strategy framing）同样具有类似的效果。至于特定政治框架的讨论促进作用，在Twitter上使用特定框架确实能增加对该框架的讨论；而在Reddit上，所有类型的政治框架都能引发关于用户政治身份的讨论。",
     "summary": "提出基于网络的内容参与能力（CEC）方法，结合ANTMN识别政治框架，比较Twitter和Reddit上框架对在线对话的影响。",
     "reason": "使用网络方法和主题模型分析社交媒体政治话语，属典型计算传播研究。",
     "tags": [
@@ -19732,7 +19905,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Domestic violence is a global issue with devastating consequences, which can be mitigated through disclosure in supportive communications. Proxy disclosure, a special form of disclosure, involves individuals disclosing experiences of victims who are supportively connected with them. This study explores proxy disclosure within the context of domestic violence in Chinese online support groups. Using data from three support groups, the study employs content analysis, structural topic modeling, and propensity score matching to examine the disclosers, content, and supportive effects. Findings reveal proxy disclosers in China are predominantly male and often advocate for mothers and siblings. Six themes emerged, with childhood trauma memories and judicial intervention significantly affecting supportive communication. In addition, self-disclosure generally receives more replies than proxy disclosure. This study introduces and conceptualizes proxy disclosure, providing insights into disclosure for silent victims, and extending the understanding of online antidomestic-violence support systems in non-Western settings. It enhances the theoretical framework of online disclosure and offers practical implications for social work and domestic violence interventions.",
-    "abstract_zh": "家庭暴力是一个全球性问题，其后果极其严重，但可以通过在支持性的交流中公开相关信息来减轻这种危害。代理披露（proxy disclosure）是一种特殊的披露方式，指的是那些与受害者有密切联系的人代为受害者公开他们的经历。本研究探讨了中国在线支持群体中代理披露的现象。通过分析三个支持群体的数据，研究者运用内容分析、结构主题建模和倾向得分匹配等方法，研究了披露者、披露内容以及这些披露行为所产生的支持效果。研究发现，中国的代理披露者主要为男性，他们通常会为受害者（尤其是母亲和兄弟姐妹）发声。研究共识别出六个主要主题，其中童年创伤经历和司法干预对支持性交流产生了显著影响。此外，自我披露通常比代理披露获得更多的回应。本研究首次对代理披露这一现象进行了系统性的探讨和概念化，为沉默的受害者提供了新的支持途径，并加深了对非西方地区在线反家庭暴力支持系统的理解。该研究不仅丰富了关于在线信息披露的理论框架，还为社会工作和家庭暴力干预工作提供了实际参考。",
+    "abstract_zh": "家庭暴力是一个全球性问题，其后果极其严重，但可以通过在支持性的交流中公开相关信息来减轻这种危害。代理披露（proxy disclosure）是一种特殊的披露方式，指的是那些与受害者有亲密关系的人代表受害者公开他们的经历。本研究探讨了中国在线支持群体中代理披露的现象。通过分析三个支持群体的数据，研究者运用内容分析、结构主题建模和倾向得分匹配等方法，研究了披露者、披露内容以及这些披露行为所产生的支持效果。研究发现，中国的代理披露者主要为男性，他们通常会为受害者（尤其是母亲和兄弟姐妹）发声。研究共识别出六个核心主题，其中童年创伤经历和司法干预对支持性交流产生了显著影响。此外，自我披露通常比代理披露获得更多的回应。本文首次对代理披露这一现象进行了系统阐述，并为沉默的受害者提供了新的支持途径，同时扩展了人们对非西方地区在线反家庭暴力支持系统的理解。该研究不仅丰富了关于在线信息披露的理论框架，还为社会工作和家庭暴力干预措施提供了实践指导。",
     "summary": "研究中国在线家暴支持群体中的代理披露现象，通过内容分析、结构主题建模和倾向得分匹配，揭示披露者特征、主题内容及支持效果，发现自我披露获得更多回复。",
     "reason": "使用在线社区数据，结合主题建模与倾向得分匹配等计算方法，研究社媒中的披露行为，属计算传播学。",
     "tags": [
@@ -19755,7 +19928,7 @@
   {
     "id": 1090,
     "title": "Newspaper Favorites? A Comparative Assessment of Political Parallelism Across Two Decades",
-    "title_zh": "报纸上的热门话题？对过去二十年政治类报道中平行结构的比较研究",
+    "title_zh": "报纸上的热门话题？对过去二十年政治报道中平行结构的比较研究",
     "authors": [
       "Erik De Vries",
       "Gunnar Thesen"
@@ -19768,7 +19941,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Newspapers in most West European countries have historically had strong ties to specific political parties. While formal bonds have vanished, parallelism in news content might still remain; for instance, in a tendency to report more often and more favorably on parties that align with the political leaning of a newspaper. In this article, we ask whether political parallelism exists in newspapers today, and whether or not it has decreased over the last two decades. These questions are answered using a dataset of 5.4 million newspaper articles from three countries (Denmark, the Netherlands, and the United Kingdom) over 20 years, annotated with the presence of political parties, and the sentiment of party news, at the sentence level. Findings suggest that newspapers pay more attention to the mainstream party with which they share political leaning, but that this pattern of parallelism has weakened over time.",
-    "abstract_zh": "大多数西欧国家的报纸在历史上都与特定的政党有着密切的联系。虽然这种正式的关联已经消失，但在新闻内容上仍可能存在某种“平行性”；例如，报纸更倾向于频繁且更正面地报道与自身政治立场相符的政党。在本文中，我们探讨了当今报纸中是否仍然存在这种政治上的“平行性”，以及这种平行性在过去二十年里是否有所减弱。我们使用了来自三个国家（丹麦、荷兰和英国）的540万篇报纸文章的数据集来回答这些问题，这些数据集涵盖了20年的时间跨度，并对文章中涉及政党的内容以及政党相关新闻的情感倾向进行了标注（标注到句子层面）。研究结果表明，报纸确实会更加关注与自己政治立场一致的主流政党，但这种“平行性”模式已经逐渐减弱。",
+    "abstract_zh": "大多数西欧国家的报纸在历史上都与特定的政党有着密切的联系。虽然这种正式的关联已经消失，但在新闻内容上仍可能存在某种“平行性”；例如，报纸更倾向于频繁且更正面地报道与自身政治立场相符的政党。在本文中，我们探讨了当今报纸中是否仍然存在这种政治上的“平行性”，以及这种平行性在过去二十年里是否有所减弱。我们使用了来自三个国家（丹麦、荷兰和英国）的540万篇报纸文章的数据集来回答这些问题，这些数据集涵盖了20年的时间跨度，并对每篇文章中涉及政党的内容以及相关新闻的情感倾向进行了标注（具体到句子层面）。研究结果表明，报纸仍然会更加关注与自己政治立场一致的主流政党，但这种“平行性”模式已经逐渐减弱。",
     "summary": "基于丹麦、荷兰、英国20年540万篇报纸文章，利用句子级政党提及和情感分析，考察报纸对政党的报道偏向及其历时变化。",
     "reason": "使用540万篇报纸文章和句子级情感分析，属于大规模数字数据与计算方法，议题为新闻政治平行。",
     "tags": [
@@ -19790,7 +19963,7 @@
   {
     "id": 1563,
     "title": "‘Zero Human Emotion’: AI Anchors and the Normative Repercussions",
-    "title_zh": "《零人类情感》：人工智能主播及其对规范的影响",
+    "title_zh": "“零人类情感”：人工智能主播与规范层面的影响",
     "authors": [
       "Muhammad Ali",
       "Patrick Ferrucci"
@@ -19803,7 +19976,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study utilizes thematic analysis to analyze content disseminated by Artificial Intelligence (AI) anchors. Researchers analyzed content from a private TV channel from Pakistan. The channel produces a news program that delivers content to viewers, but said content is delivered through broadcast anchors generated by AI. The findings are analyzed through the lens of the hierarchy of influences, which allows researchers to understand influences on content from multiple levels of analyses. The study not only illustrates why AI anchors pose a threat to journalism’s normative notions undergirding the field, but also how utilizing AI anchors opens avenues to non-journalistic actors to have increasing influence over news production.",
-    "abstract_zh": "本研究采用主题分析法来分析人工智能（AI）主播传播的内容。研究人员分析了来自巴基斯坦一家私营电视台的内容。该电视台制作了一档新闻节目，但其节目内容是通过由AI生成的主播来呈现给观众的。研究结果通过“影响层级”这一视角进行解读，这使研究人员能够从多个层面理解对内容产生的各种影响。该研究不仅揭示了为什么AI主播会对新闻行业的规范观念构成威胁，还说明了利用AI主播如何为非新闻从业者提供了更多机会，使他们能够对新闻制作产生越来越大的影响。",
+    "abstract_zh": "本研究采用主题分析法来分析人工智能（AI）主播传播的内容。研究人员分析了来自巴基斯坦一家私营电视台的内容。该电视台制作了一档新闻节目，但其节目内容是通过由AI生成的主播来呈现给观众的。研究结果通过“影响层次结构”的视角进行解读，这使研究人员能够从多个层面理解对内容产生的各种影响。该研究不仅揭示了为什么AI主播会对新闻业的基本规范构成威胁，还说明了利用AI主播如何为非新闻从业者提供了更多机会，使他们能够对新闻制作产生越来越大的影响。",
     "summary": "通过主题分析巴基斯坦AI主播新闻内容，借助层级影响模型探讨AI主播对新闻规范及非新闻行动者影响的威胁。",
     "reason": "主题涉及AI主播的社会影响，符合AI特别条款，虽方法为质性但纳入。",
     "tags": [
@@ -19824,7 +19997,7 @@
   {
     "id": 1243,
     "title": "Living with COVID-19 conspiracies on Chinese TikTok (Douyin): unpacking multimodal features, national identity, and user engagement",
-    "title_zh": "在中国抖音（TikTok）上与COVID-19阴谋论共存：解析多模态特征、国家认同感以及用户参与度",
+    "title_zh": "在中国TikTok（抖音）上与COVID-19阴谋论共存：解析多模态特征、国家认同感以及用户参与度",
     "authors": [
       "Zituo Wang",
       "Zituo Wang",
@@ -19838,7 +20011,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Conspiracy theories, recognized as alternative interpretations of historical or ongoing events suggesting the malevolent involvement of individuals or groups in secretive plotting, have drawn substantial attention in political communication and information technology studies. However, prevailing research has primarily concentrated on their manifestations within Western frameworks, thereby leaving unanswered questions about the allure and persuasiveness of conspiracy theories in non-Western and authoritarian contexts. Building on social identity theory and focusing on multimodal social media data, this study identified 182 videos on Chinese TikTok (Douyin) and uncovered their multimodal features and national identity strategies under a multimodal video analysis framework. Our results underscored that Douyin conspiracy videos exhibited significantly longer lengths and unique visual characteristics with lower brightness and entropy but more human faces. Among these videos, shorter length and faster tempo were associated with more likes, while higher loudness was associated with more comments. In contrast to in-group national identity strategies, videos of out-group national identity strategies received significantly more likes, comments, and shares. The broader practical implications of this study on the detection, countering, and governance of conspiracy videos were also discussed.",
-    "abstract_zh": "阴谋论被视为对历史事件或当前事件的另一种解释，认为某些个人或团体在背后暗中策划恶行。阴谋论在政治传播和信息技术研究中引起了广泛关注。然而，现有的研究主要集中在西方社会的背景下，因此对于阴谋论在非西方社会和威权体制中的吸引力及其说服力仍存在许多未解之谜。本研究基于社会认同理论，并利用多模态社交媒体数据进行分析，从中国的抖音（Douyin）平台上筛选出了182个阴谋论相关视频，探讨了这些视频的多模态特征及其所体现的国家认同策略。研究结果表明，抖音上的阴谋论视频通常时长较长，具有独特的视觉风格（如较低的亮度和较低的熵值），同时视频中包含更多的人脸元素。视频的时长较短、节奏较快时，获得的点赞数较多；而音量较大时，则会引发更多的评论。与强调本群体国家认同的视频相比，那些强调其他群体国家认同的视频获得了更多的点赞、评论和分享。此外，本文还讨论了这一研究在识别、应对和治理阴谋论视频方面的实际应用意义。",
+    "abstract_zh": "阴谋论被视为对历史事件或当前事件的另一种解释，认为某些个人或团体在幕后密谋实施恶意行为。这类理论在政治传播和信息技术研究中引起了广泛关注。然而，现有的研究主要集中在西方社会的背景下，因此对于阴谋论在非西方社会和威权体制中的吸引力及其说服力仍存在许多未解之谜。本研究基于社会认同理论，并利用多模态社交媒体数据进行分析，从中国的抖音（TikTok）平台上筛选出了182个与阴谋论相关的视频，探讨了这些视频的多模态特征及其所体现的国家认同策略。研究结果表明，抖音上的阴谋论视频通常长度较长，视觉风格独特（亮度较低、信息熵较低），但包含更多人类面孔。视频长度较短、节奏较快时，获得的点赞数较多；而音量较大时，评论数量也会增加。与强调本群体国家认同的视频相比，那些强调他群体国家认同的视频获得了更多的点赞、评论和分享。此外，本文还讨论了这项研究在识别、反驳和治理阴谋论视频方面的实际应用价值。",
     "summary": "基于社会认同理论，分析182条抖音阴谋论视频的多模态特征（时长、亮度、人脸等）及国家身份策略，发现外群体身份策略获得更多互动，为平台治理提供启示。",
     "reason": "研究抖音平台阴谋论视频的多模态特征与用户参与，属于社交媒体计算传播研究。",
     "tags": [
@@ -19877,7 +20050,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The Roe v. Wade leaked draft opinion, and the subsequent Supreme Court decision overturning Roe, drew a wave of media attention to the issue of abortion. This study sought to examine the topical and attribute salience of abortion in the tweets of CNN, Fox News, and ABC News after the leak. Findings reveal a gap in abortion salience, with Fox News more likely to tweet about abortion than CNN and ABC News. Moreover, Fox News and CNN were more likely to frame abortion politically, and Fox News had a more negative sentiment in its tweets about abortion. Implications on public opinion and policymaking are discussed.",
-    "abstract_zh": "罗诉韦德案（Roe v. Wade）的裁决草案被泄露后，最高法院随后作出的推翻该裁决的判决引发了媒体对堕胎问题的广泛关注。本研究旨在分析在这一事件发生后，CNN、福克斯新闻（Fox News）和ABC新闻（ABC News）的推文中关于堕胎话题的关注程度及其属性。研究结果表明，这三家媒体在报道堕胎问题时的关注度存在差异：福克斯新闻比CNN和ABC新闻更频繁地发布相关推文。此外，福克斯新闻和CNN更倾向于从政治角度来讨论堕胎问题，且福克斯新闻在相关推文中表现出更为负面的态度。文章还探讨了这一现象对公众舆论和政策制定的潜在影响。",
+    "abstract_zh": "罗诉韦德案（Roe v. Wade）的裁决草案被泄露后，最高法院随后作出的推翻该裁决的判决引发了媒体对堕胎问题的广泛关注。本研究旨在探讨在这一事件发生后，CNN、福克斯新闻（Fox News）和ABC新闻（ABC News）的推文中关于堕胎话题的关注程度及其属性（即这些推文所传达的信息或情感倾向）。研究结果表明，这三家媒体在报道堕胎问题时的关注度存在差异：福克斯新闻比CNN和ABC新闻更频繁地发布相关推文。此外，福克斯新闻和CNN在报道堕胎问题时更倾向于从政治角度进行分析，且福克斯新闻的推文中表达的负面情绪更为强烈。文章还讨论了这一现象对公众舆论和政策制定的潜在影响。",
     "summary": "研究Roe v. Wade泄密后CNN、Fox News和ABC News在推特上关于堕胎话题的显著性和框架差异，发现Fox News推文更多、更政治化且情感更负面。",
     "reason": "使用计算内容分析法分析社交媒体推文，涉及政治传播与议程设置，符合计算传播学标准。",
     "tags": [

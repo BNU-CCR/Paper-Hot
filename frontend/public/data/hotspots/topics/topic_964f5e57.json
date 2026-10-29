@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "平台政治传播与参与",
-  "description": "研究社交媒体中政党议题策略、个人策展与政治参与，以及在线讨论质量与说服机制。",
-  "why_hot": "近30天日均发表速度较前期微降5%，基本持平，仍分散于10本期刊。",
-  "hot_score": 69,
-  "growth": -0.054,
-  "growth_rate": -0.054,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.2467,
-  "recent_count": 7,
-  "baseline_count": 37,
-  "journal_count": 10,
+  "label": "社交媒体竞选传播与议题策略",
+  "description": "关注政党与选民在社交平台上的议题设置、内容策展与政治参与行为。",
+  "why_hot": "近30天日均发表速度较前期下降约12%，研究活动略有降温但基数仍高。",
+  "hot_score": 61,
+  "growth": -0.118,
+  "growth_rate": -0.118,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.2267,
+  "recent_count": 6,
+  "baseline_count": 34,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "political engagement",
-    "social media",
+    "political communication",
+    "election campaigns",
     "agenda-setting",
     "personal curation",
-    "persuasion"
+    "voter engagement"
   ],
   "papers": [
     {
@@ -36,6 +36,13 @@
       "summary": "论文提出融合媒介化与议程设置理论的概念框架，用人工标准化内容分析 2021 年挪威 9 个政党及党魁在 Facebook、Instagram、Twitter 的 1616 条帖子，检验议题所有、追波与互动三种议题策略逻辑，发现传统媒介逻辑仍主导。"
     },
     {
+      "id": 2181,
+      "title": "Calls to action and voter engagement on Facebook: a comparative study of eight European election campaigns",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-21",
+      "summary": "比较八国选举中政治行动者在Facebook上的行动呼吁类型及其对选民参与的影响，分析动员、告知与互动策略及国别差异。"
+    },
+    {
       "id": 2147,
       "title": "How Personal Curation Shapes Political Engagement on Social Media? Examining The Politics of Personal Curation Model",
       "journal": "The International Journal of Press/Politics",
@@ -50,25 +57,11 @@
       "summary": "研究考察坦桑尼亚2025年大选期间AI事实核查工具与社区可信度实践的互动，基于五地区342份媒体材料、87次访谈与田野观察，发现三类核查断裂：AI翻译改写原意、更正与谣言渠道错位、社区更信任亲身经验与人际讨论，据此解释准确核查为何仍难以影响公众。"
     },
     {
-      "id": 2122,
-      "title": "ChangeMyView: Unpacking the Complex Emotional, Cognitive, and Communicator-Related Processes Underlying Persuasion",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-10-09",
-      "summary": "基于r/ChangeMyView约6万帖子，用LIWC、主成分分析和多层逻辑回归，检验认知推理、情感表达与真实沟通风格对说服成功的影响。"
-    },
-    {
       "id": 2109,
       "title": "From constituencies to audiences: lessons from Brazil about audience analytics in representative politics",
       "journal": "Information Communication & Society",
       "published_date": "2026-10-01",
       "summary": "通过对巴西国会议员的访谈，研究其如何将受众分析纳入传播策略，提出忠诚者、追随者与受众库的受众感知框架，指出平台语境使选区受众被重构为影响目标，导致代议制扭曲。"
-    },
-    {
-      "id": 2100,
-      "title": "Skin Tone as a Visual Cue in Political Campaigns: Evidence from Elections in Mexico",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-09-30",
-      "summary": "论文利用计算视觉分析考察2024年墨西哥联邦选举中候选人肤色与选举成功的关系，并纳入新闻报道、政治广告和社交媒体使用等变量，发现肤色虽与得票率负相关，但媒体因素更重要。"
     },
     {
       "id": 2066,
@@ -146,13 +139,6 @@
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-08-24",
       "summary": "通过分析丹麦部长2020-2024年Facebook活动与传统媒体曝光数据，结合32次全国民调，发现传统媒体活动仅小幅提升知名度，社交媒体活动收效甚微，且存在触及与好感权衡。"
-    },
-    {
-      "id": 1951,
-      "title": "Echoes across the divide: incivility and the fragmentation of issue publics in immigration discourse",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-20",
-      "summary": "基于X平台数据，用LLM识别移民立场和语言不文明度，构建提及网络追踪不文明言论在意识形态对立群体间的扩散。"
     },
     {
       "id": 1967,
@@ -260,6 +246,13 @@
       "summary": "论文比较六种政治影响者定义，并应用于2020年美国大选期间597,815名Twitter用户数据。研究发现不同定义识别出不同影响者群体，且概念选择会系统影响影响者及其受众特征。"
     },
     {
+      "id": 212,
+      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
+      "journal": "Political Communication",
+      "published_date": "2026-06-30",
+      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
+    },
+    {
       "id": 29,
       "title": "Partisanship in Context: The (A)symmetric Influence of Local Newspaper Availability and Selective Exposure on Political Misperceptions in the U.S.",
       "journal": "Communication Research",
@@ -302,32 +295,11 @@
       "summary": "基于2020年美国大选两波面板调查，检验大众媒体、社交媒体和人际讨论对情感极化的影响，发现同质新闻加剧极化，跨域新闻缓解极化。"
     },
     {
-      "id": 173,
-      "title": "Identity–Policy Fusion and Polarization in United States House Campaign Language",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-06-04",
-      "summary": "研究提出身份-政策融合框架，分析美国众议院候选人竞选语言。通过计算文本分析4万余条政策声明，发现融合策略与语言极化显著相关，且共和党效应更强，揭示精英信息加剧党派界限的机制。"
-    },
-    {
-      "id": 39,
-      "title": "Shaping Interpersonal Communication About Persuasive Media Campaigns by Inducing Critical Versus Collective Orientations",
-      "journal": "Communication Research",
-      "published_date": "2026-05-07",
-      "summary": "实验考察讨论提示（批判/集体导向）如何影响含糖饮料减少广告的人际讨论，发现引导性讨论可缓解反效果，文本分析揭示机制。"
-    },
-    {
-      "id": 112,
-      "title": "Temporal stability and cross-topic re-emergence of ideological divides on X",
+      "id": 100,
+      "title": "Targeting and/or tailoring?! A theoretical framework and its application to political social media advertising",
       "journal": "Information Communication & Society",
-      "published_date": "2026-04-29",
-      "summary": "研究德国语境下X平台三类危机话语中极化社区的结构持续性，结合回声室分数与定性分析发现，回声室在议题内稳定并在跨议题中重现，少数高可见用户通过激活熟悉叙事起核心作用。"
-    },
-    {
-      "id": 156,
-      "title": "Understanding Polarizing Language: Developing a Coding Instrument",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-04-29",
-      "summary": "论文开发并验证极化语言编码工具，识别八种语言策略，通过四项研究（州长演讲、受众感知、国会推文）结合手动和计算方法验证框架的效度与泛化性。"
+      "published_date": "2026-05-14",
+      "summary": "提出targeting与tailoring的理论框架，基于2021年德国大选Facebook和Instagram广告数据，测量政党广告策略及其对曝光量的影响。"
     }
   ],
   "paper_edges": []

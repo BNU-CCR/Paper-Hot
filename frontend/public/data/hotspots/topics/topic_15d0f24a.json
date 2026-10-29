@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式AI的可信度与认知影响",
-  "description": "研究生成式AI文本与图像的可信度评估、刻板印象放大及对人类叙事、信任与认知的影响。",
-  "why_hot": "近30天日均发表速度较前期下降19%，研究活动有所降温。",
-  "hot_score": 61,
-  "growth": -0.189,
-  "growth_rate": -0.189,
+  "label": "生成式人工智能的信任与偏见",
+  "description": "研究生成式人工智能的可信度建构、算法刻板印象及其对用户认知与说服的影响。",
+  "why_hot": "近30天日均发表速度较前期上升约11%，研究活动保持温和升温。",
+  "hot_score": 68,
+  "growth": 0.111,
+  "growth_rate": 0.111,
   "recent_rate": 0.2,
-  "baseline_rate": 0.2467,
+  "baseline_rate": 0.18,
   "recent_count": 6,
-  "baseline_count": 37,
-  "journal_count": 10,
+  "baseline_count": 27,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "generative AI",
     "trust",
+    "algorithmic bias",
     "AI-generated images",
-    "algorithmic stereotyping",
-    "accountability"
+    "persuasion"
   ],
   "papers": [
+    {
+      "id": 2199,
+      "title": "Enhancing Online Deliberation Through AI-Driven Counter-Attitudinal Interventions: Direct and Indirect Effects on Users’ Perceptions and Behavior",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-10-26",
+      "summary": "通过10天模拟公民议会三波实验，检验AI反态度评论推荐是否提升观点平等感知、审议体验并减少不文明表达，发现其对主观审议体验有间接效应，但对不文明行为作用有限。"
+    },
     {
       "id": 2190,
       "title": "Recognition without obligation: AI, asset position, and the limits of structural explanations",
@@ -34,13 +41,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-10-21",
       "summary": "提出GIRAAF框架，从信息准备度、事实正确性、规范一致性、来源实践、透明度与可解释性、响应适应性六个维度评估大模型与AI聊天机器人的问责性，为学者、开发者与政策制定者提供诊断工具与共享话语。"
-    },
-    {
-      "id": 2162,
-      "title": "Navigating GenAI in the workplace: skills transformation & tension",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-16",
-      "summary": "通过对20名知识工作者的深度访谈，基于社会塑造技术（SST）视角，考察GenAI如何改变其工作方式与角色（从创作者转为编辑/核查者），并揭示效率提升与真实性、创造力、成就感及技能退化之间的张力。"
     },
     {
       "id": 2108,
@@ -64,13 +64,6 @@
       "summary": "论文提出“叙事能动性”的心理学解释，刻画人类群体在数字情境中如何学习、传播与影响叙事，并据此讨论AI模型（如写作、在线共识形成）如何通过人的叙事能动性影响结果，主张围绕维护叙事能动性来设计人机系统。"
     },
     {
-      "id": 2081,
-      "title": "Guidance over guidelines? Unpacking the uses and concerns of generative AI in communication science",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-25",
-      "summary": "通过对1138名传播学者的问卷调查与四组焦点小组访谈，系统描绘生成式AI在传播学研究各阶段的使用情况，揭示普遍使用与持续担忧的悖论、个体与机构间的期望冲突及文化语言差异，并提出多层次负责任使用建议。"
-    },
-    {
       "id": 2069,
       "title": "AI for democratic participation? Citizens’ perceptions of problems in online participation processes and AI-based solutions",
       "journal": "Journal of Information Technology & Politics",
@@ -78,39 +71,11 @@
       "summary": "基于德国全国调查（n=484），考察公民对在线公民参与问题的感知及对AI解决方案的态度，归纳出六类问题与三类AI应用，并发现问题感知越强越不支持AI方案。"
     },
     {
-      "id": 2072,
-      "title": "Authority Over Sympathy: How AI Emotional Tone and Thinking Dispositions Shape Hallucination Detection in Health Communication",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-09-21",
-      "summary": "基于误导信息识别与回应模型，采用Wizard-of-Oz实验（N=476）考察AI生成健康回答中权威与共情语气对用户幻觉识别敏感度的影响，发现权威语气显著降低识别敏感度，共情语气无显著效应，思维倾向无显著调节作用。"
-    },
-    {
-      "id": 2060,
-      "title": "Role, Position, and Control: Questioning Generative Artificial Intelligence’s Place as a New Actor within Strategic Communications for National Advocacy",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-09-17",
-      "summary": "研究考察加沙冲突期间以色列国家倡导传播中，生成式AI如何被纳入临时倡导场域。通过对15位战略传播从业者的半结构化访谈，结合行动者网络理论与布迪厄场域理论，发现AI被视为高效忠诚的助手，但被策略性地置于创作流程中段，源于对职业地位、创意真实性与可信度的顾虑。"
-    },
-    {
-      "id": 2047,
-      "title": "Mitigating mental illness stigma through narrative identification: The impact of AI authorship, emotionalization, and perspective",
-      "journal": "Communication Research Reports",
-      "published_date": "2026-09-16",
-      "summary": "通过实验操纵AI/人类/无署名标签、情绪化程度与叙事视角，考察AI撰写的抑郁症叙事能否通过认同降低污名化，发现各变量间存在有条件的调节中介关系。"
-    },
-    {
       "id": 2037,
       "title": "Modeling Civic Engagement in the Age of AI: A Communication Mediation Approach to AI News, Multifaceted Trust, and Participation in a Two-Wave Panel Study",
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-09-14",
       "summary": "基于美国成年人两波面板数据，运用 O-S-R-O-R 框架，考察 AI 相关新闻消费（电视、报纸、网站、社交媒体）如何经人际讨论与对 AI 生成新闻、传统媒体及机构的多元信任，影响 AI 相关线下公民参与，发现选择性传播路径。"
-    },
-    {
-      "id": 2023,
-      "title": "Examining the Mediating Effects of Mutuality and Openness in the Adoption of Generative Artificial Intelligence in Public Relations Practice: A Predictive PLS-SEM Approach",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-09-08",
-      "summary": "研究调查398名肯尼亚公关从业者，用PLS-SEM检验生成式AI采纳对组织-公众对话传播（互助性与开放性）的影响，以及AI增强的对话传播在信任与满意度关系中的中介作用，发现所有假设路径显著且呈部分中介。"
     },
     {
       "id": 1984,
@@ -153,20 +118,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-07-12",
       "summary": "通过2x4被试间实验，考察不同解释策略（开发者、程序、组合、无）对AI生成新闻可信度的影响，发现程序性和组合解释提升可信度，且机器启发式起中介作用。"
-    },
-    {
-      "id": 539,
-      "title": "Birds of a feather? How perceived similarity shapes responses to AI versus human health messages",
-      "journal": "Communication Research Reports",
-      "published_date": "2026-07-05",
-      "summary": "通过在线实验比较AI与人类健康信息的说服效果，发现AI来源降低感知相似性、可信度及信息有效性，验证了相似性中介机制。"
-    },
-    {
-      "id": 212,
-      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
-      "journal": "Political Communication",
-      "published_date": "2026-06-30",
-      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
     },
     {
       "id": 402,
@@ -218,13 +169,6 @@
       "summary": "通过访谈和案例比较，研究AI在阿拉伯语事实核查中的整合，发现人机协同模式，强调程序透明和人类主导。"
     },
     {
-      "id": 408,
-      "title": "Social Media Attention, Risk Perception, and Generative AI-Based Health Information Seeking: A Multigroup Comparison Across Varying Levels of Machine Heuristics",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-24",
-      "summary": "基于社会风险放大框架和机器启发式概念，调查1038名中国GenAI健康信息用户，发现社交媒体关注降低风险感知，幻觉风险影响态度和使用意愿，机器启发式起调节作用。"
-    },
-    {
       "id": 81,
       "title": "Italians’ attitudes towards AI: how technology issues travel across social conversation",
       "journal": "Information Communication & Society",
@@ -251,13 +195,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-06-01",
       "summary": "调查335名传播管理者，发现AI伦理焦虑预测事实核查行为，感知可信度调节对事实核查网站的使用，但对AI事实核查无显著调节作用。"
-    },
-    {
-      "id": 175,
-      "title": "What Is Ethical AI Use in Journalism? Stakeholders’ Perceptions of Ethical Generative Artificial Intelligence (GenAI) Usage in Kenyan Newsrooms",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-05-31",
-      "summary": "通过访谈94名肯尼亚新闻业相关利益者，探讨他们关于GenAI的民俗理论及其伦理认知，揭示不同技术认知框架影响对新闻伦理风险的解读。"
     },
     {
       "id": 176,
@@ -314,13 +251,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-05-07",
       "summary": "通过793名美国成年人的2×4实验，考察AI幻觉与纠错回应如何影响用户对准确性、信任和议题态度，并发现信念更新可预测后续信息寻求行为。"
-    },
-    {
-      "id": 111,
-      "title": "Socioeconomic disparities in AI awareness: examining the mediating roles of AI usage and familiarity",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-04-30",
-      "summary": "基于美国10087名成人调查，探究高低社会经济地位者在AI意识、熟悉度与使用上的差异，发现高SES者AI意识更强，且AI使用与熟悉度在SES与AI意识间起中介作用，揭示AI时代的数字不平等。"
     }
   ],
   "paper_edges": []

@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "算法与数据化的日常不平等",
-  "description": "考察算法信任、数据凝视与数字断连的日常体验，关注交叉性身份与结构性不平等。",
-  "why_hot": "近30天日均发表速度较前期下降23%，研究热度有所回落。",
-  "hot_score": 60,
-  "growth": -0.231,
-  "growth_rate": -0.231,
-  "recent_rate": 0.2,
-  "baseline_rate": 0.26,
-  "recent_count": 6,
-  "baseline_count": 39,
+  "label": "数据化生活与算法不平等",
+  "description": "考察数据化与算法系统如何形塑日常经验、算法信任及群体间的结构性不平等。",
+  "why_hot": "近30天日均发表速度与前期基本持平，研究热度稳定。",
+  "hot_score": 71,
+  "growth": 0.0,
+  "growth_rate": 0.0,
+  "recent_rate": 0.2667,
+  "baseline_rate": 0.2667,
+  "recent_count": 8,
+  "baseline_count": 40,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "datafication",
-    "algorithmic trust",
-    "digital disconnection",
-    "intersectionality",
-    "racial trauma"
+    "algorithmic bias",
+    "trust in algorithms",
+    "digital inequality",
+    "digital disconnection"
   ],
   "papers": [
+    {
+      "id": 2179,
+      "title": "Black technofeminism as critique of biological essentialism in AI anthropomorphization",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-22",
+      "summary": "文章以Black technofeminism批判AI拟人化中的种族化与性别化去人性化，质性审计YouTube搜索结果及Gemini、ChatGPT生成图像，揭示AI视觉文化默认白人化并扭曲黑人女性形象。"
+    },
     {
       "id": 2120,
       "title": "Trust in algorithms biased appraisal and boosted affect in online dating",
@@ -55,6 +62,20 @@
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "基于女性主义关怀伦理，对20名成人进行民族志田野研究，分析三个案例，探讨关怀与数字（不）连接实践如何相互塑造，提出\"谨慎的不/连接\"框架，认为数字福祉取决于技术所维系的关怀关系而非个体媒介使用。"
+    },
+    {
+      "id": 2201,
+      "title": "Do Experts Agree About Misinformation? Evidence From Three Annual Surveys",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "基于三轮国际专家调查（2023–2025，覆盖76国），考察专家对虚假信息规模、传播速度和影响的七项流行主张的认同度，发现共识程度有限，且受学科与地域影响。"
+    },
+    {
+      "id": 2202,
+      "title": "Exploring the Predictors and Outcomes of Perceived Algorithm Responsiveness in Social Media Feeds: Combining Longitudinal and Computational Methods",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "论文结合7天日记调查与Twitter计算痕迹，分析算法策展信息线索如何影响感知算法响应性及其社交连接结果。"
     },
     {
       "id": 2099,
@@ -188,6 +209,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过Twitter数据分析用户如何拟人化ChatGPT，识别出人格化、情感归因等五类拟人化形式，探讨社交媒体对拟人化叙事的形塑及其对信任和传播的影响。"
+    },
+    {
+      "id": 1907,
+      "title": "Unpacking the Relationship Between Algorithmic Literacy and Misinformation: A Multidimensional Approach Using Two Sequential Studies",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于智利两项概率调查，分析算法素养的认知与行为维度对错误信息接触、分享和知识的影响，发现认知维度关联更强。"
     },
     {
       "id": 1908,
@@ -328,13 +356,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-05-02",
       "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
-    },
-    {
-      "id": 451,
-      "title": "Case Study of an Online Brand Crisis: A Typology of User Engagement in the Scandinavian Airlines Advertisement Controversy",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-04-30",
-      "summary": "分析2020年SAS争议广告引发的Facebook用户评论，对2160条评论进行定量内容分析，识别出粉丝、朋友、反对者、仇恨持有者四类用户群体，挑战传统爱恨二元框架，揭示参与动态与态度流动性。"
     }
   ],
   "paper_edges": []

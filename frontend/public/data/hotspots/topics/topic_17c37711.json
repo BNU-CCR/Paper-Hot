@@ -1,26 +1,40 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "多模态传播信号的计算分析",
-  "description": "开发工具将多模态动态信号与传播实践相连接，并分析文化文本的长期主题变迁。",
-  "why_hot": "近30天日均发表速度较前期下降17%，总体处于低位。",
-  "hot_score": 48,
-  "growth": -0.167,
-  "growth_rate": -0.167,
-  "recent_rate": 0.0667,
-  "baseline_rate": 0.08,
-  "recent_count": 2,
-  "baseline_count": 12,
-  "journal_count": 8,
+  "label": "计算传播方法与多模态分析工具",
+  "description": "聚焦计算传播范式、叙事网络分析与多模态数据工具的开发及科研应用。",
+  "why_hot": "近30天日均发表速度较前期增长约19%，覆盖13本期刊，热度稳中有升。",
+  "hot_score": 67,
+  "growth": 0.19,
+  "growth_rate": 0.19,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.14,
+  "recent_count": 5,
+  "baseline_count": 21,
+  "journal_count": 13,
   "lineage_status": "continued",
-  "status": "emerging",
+  "status": "hot",
   "keywords": [
+    "computational communication",
+    "narrative networks",
+    "machine behavior",
     "multimodal signals",
-    "computational methods",
-    "dashboard",
-    "song lyrics",
-    "thematic change"
+    "generative AI"
   ],
   "papers": [
+    {
+      "id": 2196,
+      "title": "Narrative character networks are associated with storytelling success",
+      "journal": "Human Communication Research",
+      "published_date": "2026-10-26",
+      "summary": "将叙事视为角色互动网络，对1万余部小说和1000部电影剧本进行大规模计算分析，发现网络聚类、模块度、路径长度与故事流行度和评分相关。"
+    },
+    {
+      "id": 2206,
+      "title": "Machine Behavior: Paradigm Shift of Communication Research in AI Era",
+      "journal": "Communication and the Public",
+      "published_date": "2026-10-25",
+      "summary": "文章主张在 AI 时代建立“机器行为范式”，将智能机器纳入传播研究对象，从研究对象、研究关系与方法三个维度扩展学科边界，倡导结合文本生成温度、活跃度等计算指标应对 AI 黑箱，并讨论议程设置、沉默螺旋等理论在 AI 环境下的局限，提出个体、集体与人机混合行为的系统框架与伦理规范。"
+    },
     {
       "id": 2175,
       "title": "DIMS: a no-code dashboard linking multimodal dynamic signals to communication practices",
@@ -29,11 +43,53 @@
       "summary": "介绍开源工具 DIMS 仪表盘，将生理、行为、视听与转录等多模态时间序列与同步视频对齐，便于研究者检视统计模式与传播事件的对应关系，并通过人际对话脑间同步与广告观看面部肌电两个探索性案例展示定量—质性迭代流程。"
     },
     {
+      "id": 2162,
+      "title": "Navigating GenAI in the workplace: skills transformation & tension",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-16",
+      "summary": "通过对20名知识工作者的深度访谈，基于社会塑造技术（SST）视角，考察GenAI如何改变其工作方式与角色（从创作者转为编辑/核查者），并揭示效率提升与真实性、创造力、成就感及技能退化之间的张力。"
+    },
+    {
       "id": 2124,
       "title": "It Must Have Been Love (But It's Over Now): Thematic Changes in Popular U.S. Song Lyrics Across 4+ Decades",
       "journal": "Journal of Language and Social Psychology",
       "published_date": "2026-10-07",
       "summary": "研究运用 LIWC-22 的意义提取模块，分析 1980—2024 年 Billboard Hot 100 前 25 名歌曲共 1,129 首歌词的四个主题，发现恋爱主题减少、联系与性化主题增多，并讨论意义提取方法处理大数据的优势。"
+    },
+    {
+      "id": 2081,
+      "title": "Guidance over guidelines? Unpacking the uses and concerns of generative AI in communication science",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-25",
+      "summary": "通过对1138名传播学者的问卷调查与四组焦点小组访谈，系统描绘生成式AI在传播学研究各阶段的使用情况，揭示普遍使用与持续担忧的悖论、个体与机构间的期望冲突及文化语言差异，并提出多层次负责任使用建议。"
+    },
+    {
+      "id": 2072,
+      "title": "Authority Over Sympathy: How AI Emotional Tone and Thinking Dispositions Shape Hallucination Detection in Health Communication",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-09-21",
+      "summary": "基于误导信息识别与回应模型，采用Wizard-of-Oz实验（N=476）考察AI生成健康回答中权威与共情语气对用户幻觉识别敏感度的影响，发现权威语气显著降低识别敏感度，共情语气无显著效应，思维倾向无显著调节作用。"
+    },
+    {
+      "id": 2060,
+      "title": "Role, Position, and Control: Questioning Generative Artificial Intelligence’s Place as a New Actor within Strategic Communications for National Advocacy",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-09-17",
+      "summary": "研究考察加沙冲突期间以色列国家倡导传播中，生成式AI如何被纳入临时倡导场域。通过对15位战略传播从业者的半结构化访谈，结合行动者网络理论与布迪厄场域理论，发现AI被视为高效忠诚的助手，但被策略性地置于创作流程中段，源于对职业地位、创意真实性与可信度的顾虑。"
+    },
+    {
+      "id": 2047,
+      "title": "Mitigating mental illness stigma through narrative identification: The impact of AI authorship, emotionalization, and perspective",
+      "journal": "Communication Research Reports",
+      "published_date": "2026-09-16",
+      "summary": "通过实验操纵AI/人类/无署名标签、情绪化程度与叙事视角，考察AI撰写的抑郁症叙事能否通过认同降低污名化，发现各变量间存在有条件的调节中介关系。"
+    },
+    {
+      "id": 2023,
+      "title": "Examining the Mediating Effects of Mutuality and Openness in the Adoption of Generative Artificial Intelligence in Public Relations Practice: A Predictive PLS-SEM Approach",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-09-08",
+      "summary": "研究调查398名肯尼亚公关从业者，用PLS-SEM检验生成式AI采纳对组织-公众对话传播（互助性与开放性）的影响，以及AI增强的对话传播在信任与满意度关系中的中介作用，发现所有假设路径显著且呈部分中介。"
     },
     {
       "id": 1945,
@@ -71,6 +127,13 @@
       "summary": "研究96名孤独大学生与Replika聊天机器人一周，发现聊天可降低孤独感，语言分析揭示积极/消极情绪镜像对幸福感的不同影响。"
     },
     {
+      "id": 539,
+      "title": "Birds of a feather? How perceived similarity shapes responses to AI versus human health messages",
+      "journal": "Communication Research Reports",
+      "published_date": "2026-07-05",
+      "summary": "通过在线实验比较AI与人类健康信息的说服效果，发现AI来源降低感知相似性、可信度及信息有效性，验证了相似性中介机制。"
+    },
+    {
       "id": 400,
       "title": "Privacy Divide: Digital Competence, Privacy Vulnerability, and Changing Trajectories of Privacy Protection Intention Amid AI Expansion",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -92,11 +155,32 @@
       "summary": "通过生态瞬时干预训练260名被试在Instagram上运用明智共情，结合5,902次经验取样追踪其共情与幸福感，发现干预提升在线明智共情并改善幸福感，共情变化起中介作用。"
     },
     {
+      "id": 408,
+      "title": "Social Media Attention, Risk Perception, and Generative AI-Based Health Information Seeking: A Multigroup Comparison Across Varying Levels of Machine Heuristics",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-06-24",
+      "summary": "基于社会风险放大框架和机器启发式概念，调查1038名中国GenAI健康信息用户，发现社交媒体关注降低风险感知，幻觉风险影响态度和使用意愿，机器启发式起调节作用。"
+    },
+    {
+      "id": 33,
+      "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
+      "journal": "Communication Research",
+      "published_date": "2026-06-13",
+      "summary": "研究创意众包挑战社区中地位、职业、价值等多维同质性对创意者间评论网络形成的影响，采用关系事件模型和潜在类别分析。"
+    },
+    {
       "id": 632,
       "title": "Chatting with confidants or corporations? Privacy management with AI companions",
       "journal": "Journal of Computer-Mediated Communication",
       "published_date": "2026-06-02",
       "summary": "通过访谈15位AI伴侣用户，基于CPM理论分析隐私决策，发现拟人化设计降低披露门槛，用户采用预期性策略如假名，且更担心关系重置而非数据泄露。"
+    },
+    {
+      "id": 175,
+      "title": "What Is Ethical AI Use in Journalism? Stakeholders’ Perceptions of Ethical Generative Artificial Intelligence (GenAI) Usage in Kenyan Newsrooms",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-05-31",
+      "summary": "通过访谈94名肯尼亚新闻业相关利益者，探讨他们关于GenAI的民俗理论及其伦理认知，揭示不同技术认知框架影响对新闻伦理风险的解读。"
     },
     {
       "id": 541,

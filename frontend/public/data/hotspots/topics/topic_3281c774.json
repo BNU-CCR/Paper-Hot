@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "危机传播的伦理与策略",
-  "description": "探讨组织在危机与虚假信息情境下的传播策略、伦理领导与关怀伦理，以及数字平台采用。",
-  "why_hot": "近30天日均发表速度较前期增长75%，研究热度明显升温。",
-  "hot_score": 85,
-  "growth": 0.75,
-  "growth_rate": 0.75,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.1333,
-  "recent_count": 7,
-  "baseline_count": 20,
+  "label": "危机传播与组织伦理",
+  "description": "聚焦组织危机中的传播策略、伦理决策与社交媒体应对及关护伦理。",
+  "why_hot": "近30天日均发表速度约为前期的两倍，升温明显。",
+  "hot_score": 88,
+  "growth": 1.105,
+  "growth_rate": 1.105,
+  "recent_rate": 0.2667,
+  "baseline_rate": 0.1267,
+  "recent_count": 8,
+  "baseline_count": 19,
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "crisis communication",
-    "ethics",
-    "disinformation management",
-    "ethical leadership",
-    "social media adoption"
+    "organizational ethics",
+    "social media",
+    "ethics of care",
+    "strategic communication"
   ],
   "papers": [
+    {
+      "id": 2184,
+      "title": "Digital communication of Spanish art museums on Instagram",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-10-22",
+      "summary": "分析12家西班牙艺术博物馆在Instagram上的3646条帖子，考察文本、视听呈现与参与度的关系，发现视频/轮播图参与度更高且机构传播以遗产为中心。"
+    },
     {
       "id": 2182,
       "title": "Data visualisation as an ‘emotional repository’",
@@ -85,6 +92,13 @@
       "summary": "研究NGO在土耳其可持续性话语中如何针对不同利益相关者调整传播，结合社交网络与情感分析8万余条推文。"
     },
     {
+      "id": 1963,
+      "title": "Reclaiming Place Through Symbolic Geographies: Visual Resistance on Palestinian Instagram",
+      "journal": "Political Communication",
+      "published_date": "2026-08-16",
+      "summary": "分析2023-2024年巴勒斯坦Instagram用户的9126条帖子，识别三种视觉主题，并与国际新闻标题比较，展示用户生成内容如何抵抗主流叙事和算法压制。"
+    },
+    {
       "id": 1901,
       "title": "Replatformization and the expansion of the alt-tech ecosystem on kiwi farms",
       "journal": "Information Communication & Society",
@@ -132,13 +146,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-07-07",
       "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
-    },
-    {
-      "id": 1904,
-      "title": "Revisiting the Communication Mediation Model in the Age of Social Media: Longitudinal Evidence From Climate Misinformation Responses in China",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "基于中国三波面板调查，检验社交媒体时代传播中介模型，发现媒体关注通过人际讨论影响气候错误信息纠正行为，且具有同时性。"
     },
     {
       "id": 71,
@@ -202,13 +209,6 @@
       "journal": "Asian Journal of Communication",
       "published_date": "2026-05-08",
       "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
-    },
-    {
-      "id": 452,
-      "title": "Of Scams and Failures: Analyzing International Environmental NGOs’ Narratives After COP 29",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-04-30",
-      "summary": "研究WWF和绿色和平在COP29后如何通过网站和社交媒体传播失败叙事，采用主题分析揭示叙事差异，属于战略传播研究。"
     }
   ],
   "paper_edges": []

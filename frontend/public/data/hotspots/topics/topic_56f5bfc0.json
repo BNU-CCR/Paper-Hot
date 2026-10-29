@@ -1,39 +1,53 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "数字宣传与信息行动",
-  "description": "关注宣传、虚假信息与影响力行动的策略逻辑、基础设施化及其对受众态度与情感的影响。",
-  "why_hot": "近30天日均发表速度较前期下降9%，热度略降但保持稳定。",
-  "hot_score": 65,
-  "growth": -0.091,
-  "growth_rate": -0.091,
-  "recent_rate": 0.2,
-  "baseline_rate": 0.22,
-  "recent_count": 6,
-  "baseline_count": 33,
-  "journal_count": 7,
+  "label": "数字宣传与虚假信息生态",
+  "description": "考察虚假信息、宣传与信息作战的生产机制、基础设施化传播及受众参与效果。",
+  "why_hot": "近30天日均发表速度较前期提升约33%，并有研究扩散至6本期刊，热度上升。",
+  "hot_score": 80,
+  "growth": 0.333,
+  "growth_rate": 0.333,
+  "recent_rate": 0.2667,
+  "baseline_rate": 0.2,
+  "recent_count": 8,
+  "baseline_count": 30,
+  "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "propaganda",
     "disinformation",
+    "propaganda",
     "information operations",
-    "influence operations",
-    "wartime communication"
+    "AI-generated video",
+    "strategic communication"
   ],
   "papers": [
+    {
+      "id": 2200,
+      "title": "Deceit between Falshoods and Morality: Unpacking Audience Engagement with Disinformation",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-10-27",
+      "summary": "研究在波兰、罗马尼亚和塞尔维亚开展18个焦点小组，考察受众对涉俄乌战争与LGBTQ+议题的亲俄虚假信息的解读，发现受众判断不仅基于可信度，也基于道德正当性与争议边界。"
+    },
+    {
+      "id": 2204,
+      "title": "Digital hauntings: Spectral demands and the politics of war memory on YouTube",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-10-27",
+      "summary": "论文提出“数字萦绕”概念，区分动员型与驯化型萦绕，比较两部关于日军暴行的菲律宾纪录片下的 1024 条 YouTube 评论，解释为何慰安妇题材更易激发追责诉求，而马尼拉大屠杀题材则被驯化为遗产与私人哀悼。"
+    },
+    {
+      "id": 2205,
+      "title": "Paratexts for strategic communication: The US Army Esports Team on Twitch",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-10-27",
+      "summary": "以美国陆军电竞队在Twitch直播被封禁事件为切入，将直播视频与聊天记录视为副文本，质性分析识别出游戏话语、直播话语与军队话语三种言说形式，揭示游戏文化参与规范与军方机构约束之间的结构性错配。"
+    },
     {
       "id": 2188,
       "title": "Projecting norms, protecting power: decoding state rhetoric and disinformation governance in India and Indonesia",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-10-23",
       "summary": "论文比较印度与印尼在联合国论坛、区域准则和国内立法中的虚假信息治理话语，指出两国转向“数字主权”，将虚假信息视为国家安全威胁并加强内容控制，进而影响言论自由与全球合作。"
-    },
-    {
-      "id": 2184,
-      "title": "Digital communication of Spanish art museums on Instagram",
-      "journal": "Revista ICONO14",
-      "published_date": "2026-10-22",
-      "summary": "分析12家西班牙艺术博物馆在Instagram上的3646条帖子，考察文本、视听呈现与参与度的关系，发现视频/轮播图参与度更高且机构传播以遗产为中心。"
     },
     {
       "id": 2163,
@@ -76,13 +90,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-09-19",
       "summary": "论文考察不同代际群体对虚假信息的回应方式，主张从'易感性'视角转向'解释性策略'视角。因无摘要，具体方法与数据不详，推测基于访谈或定性受众分析。"
-    },
-    {
-      "id": 2052,
-      "title": "The few, the loud: platform-mediated articulation of conspiratorial discourse by political elites on X and Facebook",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-17",
-      "summary": "论文识别比利时、芬兰、波兰三国政治精英中的“阴谋论企业家”，基于 702 条人工标注帖文，用梯度阈值分析与逻辑回归考察其意识形态特征、跨平台差异及互动效果，发现阴谋论话语主要由少数极右政客驱动，Facebook 偏完整叙事、X 偏碎片化表达。"
     },
     {
       "id": 2033,
@@ -146,13 +153,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-08-22",
       "summary": "论文提出“创伤自拍”概念，分析2023年10月7日音乐节袭击中约300个受害者生成视频，构建动机与美学类型学，探讨当代战争中手机拍摄的见证形式及“主动受害者”身份的政治意涵。"
-    },
-    {
-      "id": 1963,
-      "title": "Reclaiming Place Through Symbolic Geographies: Visual Resistance on Palestinian Instagram",
-      "journal": "Political Communication",
-      "published_date": "2026-08-16",
-      "summary": "分析2023-2024年巴勒斯坦Instagram用户的9126条帖子，识别三种视觉主题，并与国际新闻标题比较，展示用户生成内容如何抵抗主流叙事和算法压制。"
     },
     {
       "id": 1964,
@@ -225,11 +225,11 @@
       "summary": "研究阿富汗-巴基斯坦背景下的混合冲突，分析四平台2400条帖文的虚假信息传播与反国家叙事，结合300人调查，发现数字冲突加剧。"
     },
     {
-      "id": 281,
-      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
+      "id": 1904,
+      "title": "Revisiting the Communication Mediation Model in the Age of Social Media: Longitudinal Evidence From Climate Misinformation Responses in China",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
+      "summary": "基于中国三波面板调查，检验社交媒体时代传播中介模型，发现媒体关注通过人际讨论影响气候错误信息纠正行为，且具有同时性。"
     },
     {
       "id": 492,
@@ -286,13 +286,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-05-04",
       "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
-    },
-    {
-      "id": 182,
-      "title": "“Liar, Liar, Pants on Fire!” An Automated Analysis of Polarities of Mediated Truth Contestation in Austrian and Czech News Media",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-04-30",
-      "summary": "本文分析奥地利和捷克新闻媒体中关于移民报道的真相争议，基于16万篇新闻文章，使用自动化内容分析和命名实体识别，探讨媒体类型和政治背景对真伪表述的影响。"
     }
   ],
   "paper_edges": []
