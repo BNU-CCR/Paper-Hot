@@ -1,58 +1,59 @@
 {
-  "period_start": "2026-09-26",
-  "period_end": "2026-10-26",
-  "generated_at": "2026-10-29T11:26:46",
+  "period_start": "2026-09-30",
+  "period_end": "2026-10-30",
+  "generated_at": "2026-11-02T13:17:52",
   "source_paper_count": 21,
   "topics": [
     {
-      "title": "AI介入与在线审议质量",
-      "description": "检验AI反态度推荐与LLM审核如何影响审议体验和民主倾听。",
+      "title": "生成式AI的传播线索与算法审计",
+      "description": "ChatGPT提示框架与DALL·E图像审计关注AI线索生产及刻板呈现。",
       "paper_ids": [
-        2199,
-        2187
-      ]
-    },
-    {
-      "title": "平台算法审计与用户算法感知",
-      "description": "关注推荐流政治暴露、感知响应性与生成式图像偏见。",
-      "paper_ids": [
-        2116,
-        2202,
+        2210,
         2108
       ]
     },
     {
-      "title": "平台政治传播中的极化与动员",
-      "description": "比较TikTok极化、Telegram战时动员与巴西大选民粹话语。",
+      "title": "在线审议、AI干预与说服机制",
+      "description": "AI反态度推荐、LLM审核与ChangeMyView语言分析检验干预与说服。",
       "paper_ids": [
+        2199,
+        2187,
+        2122
+      ]
+    },
+    {
+      "title": "平台算法曝光与政治极化",
+      "description": "TikTok推荐流审计、气候抗议与巴西民粹推文揭示极化和机会结构。",
+      "paper_ids": [
+        2116,
         2146,
-        2119,
         2111
       ]
     },
     {
-      "title": "仇恨言论与自动化行动者",
-      "description": "分析Parler认可机制与社交机器人如何重塑抗议话语机会。",
+      "title": "宣传基础设施与有害信息生态",
+      "description": "Parler仇恨认可、Pravda宣传网络与机器人话语机会构成信息环境风险。",
       "paper_ids": [
         2198,
+        2163,
         2166
       ]
     },
     {
-      "title": "环境与疫苗争议的平台话语",
-      "description": "考察空气污染归因与疫苗怀疑内容的叙事、参与和对话演化。",
+      "title": "计算网络分析与叙事文化生产",
+      "description": "角色网络、YouTube合作网络与话语联盟揭示内容成功及协作结构。",
       "paper_ids": [
-        2208,
-        2159
+        2196,
+        2154,
+        2145
       ]
     },
     {
-      "title": "数字痕迹与网络结构方法",
-      "description": "结合被动计量、API采集与叙事网络，拓展计算传播测量。",
+      "title": "数字痕迹与算法感知测量",
+      "description": "被动计量与纵向计算痕迹推进平台使用和算法响应性的测量。",
       "paper_ids": [
         2167,
-        2196,
-        2154
+        2202
       ]
     }
   ]

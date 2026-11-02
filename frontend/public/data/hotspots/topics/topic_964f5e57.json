@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "社交媒体竞选传播与议题策略",
-  "description": "关注政党与选民在社交平台上的议题设置、内容策展与政治参与行为。",
-  "why_hot": "近30天日均发表速度较前期下降约12%，研究活动略有降温但基数仍高。",
-  "hot_score": 61,
-  "growth": -0.118,
-  "growth_rate": -0.118,
-  "recent_rate": 0.2,
+  "label": "社交媒体政治传播与议程建构",
+  "description": "考察政党与选民在平台上的议程策略、个人化策展与民主倾听机制，以及生成式人工智能在事实核查中的角色。",
+  "why_hot": "近30天日均发表速度较前期下降26%，研究产出稳中略降。",
+  "hot_score": 50,
+  "growth": -0.265,
+  "growth_rate": -0.265,
+  "recent_rate": 0.1667,
   "baseline_rate": 0.2267,
-  "recent_count": 6,
+  "recent_count": 5,
   "baseline_count": 34,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "political communication",
-    "election campaigns",
     "agenda-setting",
+    "political engagement",
     "personal curation",
-    "voter engagement"
+    "democratic listening",
+    "election campaigns"
   ],
   "papers": [
     {
@@ -244,13 +244,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "论文比较六种政治影响者定义，并应用于2020年美国大选期间597,815名Twitter用户数据。研究发现不同定义识别出不同影响者群体，且概念选择会系统影响影响者及其受众特征。"
-    },
-    {
-      "id": 212,
-      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
-      "journal": "Political Communication",
-      "published_date": "2026-06-30",
-      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
     },
     {
       "id": 29,

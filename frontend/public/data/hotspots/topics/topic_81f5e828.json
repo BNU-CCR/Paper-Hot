@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_81f5e828",
-  "label": "民粹与极右翼的平台话语极化",
-  "description": "研究民粹及极右行动者如何借平台算法、自动化账号与话语联盟制造极化。",
-  "why_hot": "近30天日均发表速度较前期小幅上升约9%，研究热度延续。",
-  "hot_score": 70,
-  "growth": 0.094,
-  "growth_rate": 0.094,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.2133,
-  "recent_count": 7,
-  "baseline_count": 32,
+  "label": "平台推荐与极化政治的动员机制",
+  "description": "考察算法信息流与社交媒体新闻使用如何助推激进主义、极右话语扩散与议题联盟的跨界联结。",
+  "why_hot": "近30天日均发表速度较前期下降36%，覆盖9本期刊但产出趋缓。",
+  "hot_score": 44,
+  "growth": -0.355,
+  "growth_rate": -0.355,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.2067,
+  "recent_count": 4,
+  "baseline_count": 31,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "populism",
-    "far-right",
-    "polarization",
-    "social bots",
-    "discursive opportunity"
+    "algorithmic recommendation",
+    "political polarization",
+    "far-right discourse",
+    "radicalism",
+    "social media news"
   ],
   "papers": [
     {
@@ -155,13 +155,6 @@
       "summary": "利用2020和2022选举期间Twitter数据，分析性别与党派如何影响女性政治议题讨论，发现精英与非精英用户差异。"
     },
     {
-      "id": 8,
-      "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
-      "journal": "Political Communication",
-      "published_date": "2026-07-29",
-      "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
-    },
-    {
       "id": 13,
       "title": "Social media, social identity, and the construction of perceived gender conflict: evidence from a national survey in South Korea",
       "journal": "Asian Journal of Communication",
@@ -211,13 +204,6 @@
       "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
     },
     {
-      "id": 281,
-      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
-    },
-    {
       "id": 282,
       "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
       "journal": "Social Media + Society",
@@ -230,13 +216,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过分析米莱在TikTok的传播，结合文本、视觉和表演维度，发现其民粹主义缺少“人民”元素，且越轨表演带来更高互动。"
-    },
-    {
-      "id": 1994,
-      "title": "“Fairness Labels” in Feeds: Process Disclosures, Provenance, and User Choice Among Short‑Video Creators in Mainland China",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过移动在线实验，研究面向中国短视频创作者的公平性披露对感知程序正义、分配公平及合法性的影响。"
     },
     {
       "id": 253,
@@ -286,13 +265,6 @@
       "journal": "Political Communication",
       "published_date": "2026-05-27",
       "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
-    },
-    {
-      "id": 97,
-      "title": "Integrating farmers markets into a communication infrastructure model: the moderating role of physical community spaces for civic engagement",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-25",
-      "summary": "基于全国调查数据，考察不同传播渠道对公民参与的影响，并探讨农贸市场作为物理空间的调节作用，发现社交媒体平台效应各异。"
     }
   ],
   "paper_edges": []

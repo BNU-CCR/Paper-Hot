@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "危机传播与组织伦理",
-  "description": "聚焦组织危机中的传播策略、伦理决策与社交媒体应对及关护伦理。",
-  "why_hot": "近30天日均发表速度约为前期的两倍，升温明显。",
-  "hot_score": 88,
-  "growth": 1.105,
-  "growth_rate": 1.105,
-  "recent_rate": 0.2667,
-  "baseline_rate": 0.1267,
-  "recent_count": 8,
-  "baseline_count": 19,
-  "journal_count": 8,
+  "label": "数字传播伦理与危机沟通的关怀取向",
+  "description": "关注文化机构与组织在危机与虚假信息治理中的伦理决策、关怀伦理实践与数据可视化的情感功能。",
+  "why_hot": "近30天日均发表速度较前期增长92%，为本批主题中升温最快者。",
+  "hot_score": 74,
+  "growth": 0.923,
+  "growth_rate": 0.923,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.0867,
+  "recent_count": 5,
+  "baseline_count": 13,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "crisis communication",
-    "organizational ethics",
-    "social media",
     "ethics of care",
-    "strategic communication"
+    "crisis communication",
+    "data visualisation",
+    "AI ethics",
+    "cultural institutions"
   ],
   "papers": [
     {
@@ -57,27 +57,6 @@
       "summary": "基于社会认同理论，用混合方法考察组织关怀伦理如何通过伦理文化、组织认同与情感投入的链式中介，促使战略传播从业者参与虚假信息治理，并归纳出认知停顿、身份把关、数字分流与关系性守护四个主题。"
     },
     {
-      "id": 2156,
-      "title": "Evolution of Crisis Communication: Exploring Organizational Perceptions and Social Media Adoption in Vietnam’s Dynamic Digital Landscape",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-10-13",
-      "summary": "论文比较2018与2023年越南公共关系从业者的访谈数据，探讨社交媒体在危机传播中角色的演变，结合创新扩散理论分析媒体特征与文化因素对社交媒体采纳的影响，聚焦非西方快速数字化转型情境。"
-    },
-    {
-      "id": 2165,
-      "title": "From Facebook to political actions: nationalism, patriotism, and participation in Vietnam’s digital sphere",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-10-13",
-      "summary": "以越南为背景，通过问卷调查考察三类 Facebook 使用行为与四类政治参与的关系，并检验民族主义与爱国情感的中介作用，发现主动非社交使用正向预测民族主义与爱国态度，民族主义态度负向关联对抗性参与。"
-    },
-    {
-      "id": 2127,
-      "title": "Algorithmic authority in Spain: relative deprivation, hierarchy, and support for AI rule",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-10-10",
-      "summary": "论文考察西班牙公众对AI统治（算法权威）的支持度，以相对剥夺感与等级观念作为解释变量，属AI政治合法性与公众态度的实证研究。"
-    },
-    {
       "id": 2058,
       "title": "From Parasocial Involvement to Community Identification: Explaining Monetized Support in VTuber Live Streaming",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -106,13 +85,6 @@
       "summary": "通过Kiwi Farms案例提出'replatformization'概念，分析另类平台如何在市场治理下通过社会、技术、组织策略规避去平台化，并揭示其扩展机制。"
     },
     {
-      "id": 15,
-      "title": "Inclusive Crisis Communication: Addressing Diverse Audiences in the Digital Age",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-07-27",
-      "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
-    },
-    {
       "id": 243,
       "title": "Navigating the hybrid media landscape? Danish green NGOs’ use of digital platforms for internal and external communication",
       "journal": "Journal of Information Technology & Politics",
@@ -120,25 +92,11 @@
       "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
     },
     {
-      "id": 58,
-      "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-22",
-      "summary": "探讨智能音箱如何支持处于数字排斥风险的老年人的独立性、能力感和关联性，属于AI技术在社会情境中的应用研究。"
-    },
-    {
       "id": 63,
       "title": "Platforming pocket money: family finance apps and the datafication of child economies",
       "journal": "Information Communication & Society",
       "published_date": "2026-07-15",
       "summary": "分析儿童理财APP的特征，探讨其如何通过数据追踪与管理重塑儿童的经济参与，并讨论数据化对儿童金融主体与客体的构建。"
-    },
-    {
-      "id": 64,
-      "title": "Disability and AI in smart cities: centering access, agency, and awareness in hybrid spaces",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-14",
-      "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
     },
     {
       "id": 69,
@@ -153,13 +111,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-30",
       "summary": "通过分析170份专业媒体、Reddit和YouTube文档，探讨Google Stadia云游戏平台失败原因，提出“基础设施傲慢”概念，强调技术能力需配合平台层面的利益相关者参与。"
-    },
-    {
-      "id": 72,
-      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-29",
-      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
     },
     {
       "id": 614,
@@ -190,25 +141,11 @@
       "summary": "论文探讨社交媒体数据获取的现状与挑战，涉及数据访问政策及其对政治传播研究的影响。"
     },
     {
-      "id": 375,
-      "title": "Depicting digital authoritarianism in China and Vietnam: a mixed-method analysis of convergent and divergent patterns in cybersecurity narratives",
-      "journal": "Asian Journal of Communication",
-      "published_date": "2026-05-13",
-      "summary": "通过混合方法比较中越国家媒体网络安全话语，揭示两种数字威权主义的沟通逻辑，分别强调全球竞争与内部安全化。"
-    },
-    {
       "id": 105,
       "title": "From player to asset: venture labor in axie infinity",
       "journal": "Information Communication & Society",
       "published_date": "2026-05-08",
       "summary": "通过爬取Discord社区数据，分析Axie Infinity奖学金申请者的申请文本，揭示其自我资产化策略，即玩家将劳动与困境呈现为投资资产以争取机会。"
-    },
-    {
-      "id": 376,
-      "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
-      "journal": "Asian Journal of Communication",
-      "published_date": "2026-05-08",
-      "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
     }
   ],
   "paper_edges": []

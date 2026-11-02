@@ -1,32 +1,60 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "数据化生活与算法不平等",
-  "description": "考察数据化与算法系统如何形塑日常经验、算法信任及群体间的结构性不平等。",
-  "why_hot": "近30天日均发表速度与前期基本持平，研究热度稳定。",
-  "hot_score": 71,
-  "growth": 0.0,
-  "growth_rate": 0.0,
-  "recent_rate": 0.2667,
-  "baseline_rate": 0.2667,
-  "recent_count": 8,
-  "baseline_count": 40,
-  "journal_count": 9,
+  "label": "算法权威与社会公平感知",
+  "description": "关注算法决策的合法性来源、公众信任与相对剥夺感，以及智能治理中边缘群体的参与与数据化照护。",
+  "why_hot": "近30天日均发表速度较前期上升17%，覆盖7本期刊，研究活动温和升温。",
+  "hot_score": 69,
+  "growth": 0.167,
+  "growth_rate": 0.167,
+  "recent_rate": 0.2333,
+  "baseline_rate": 0.2,
+  "recent_count": 7,
+  "baseline_count": 30,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "datafication",
-    "algorithmic bias",
+    "algorithmic authority",
     "trust in algorithms",
-    "digital inequality",
-    "digital disconnection"
+    "smart city",
+    "anthropomorphism",
+    "datafication"
   ],
   "papers": [
+    {
+      "id": 2212,
+      "title": "Participation in the smart city: disability and autonomous public transport in Singapore",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-29",
+      "summary": "研究新加坡自动驾驶公共交通发展中的残障人士参与问题，通过对86篇新闻报道的质性内容分析与20名行动障碍者的线上焦点小组，发现残障者缺乏民主参与机会，且公共传播中残障议题被消隐。"
+    },
+    {
+      "id": 2213,
+      "title": "What counts as ‘good work’? Data-driven approaches and situated judgement in frontline eldercare",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-29",
+      "summary": "论文通过民族志研究瑞典市政非工作时间养老照护服务中拟议的LLM反馈系统，分析数据驱动治理逻辑与一线照护情境判断之间的张力，探讨照护质量如何被定义和认可。"
+    },
+    {
+      "id": 2214,
+      "title": "Synthetic humanitarianism and algorithmic witnessing: generative AI and the politics of humanitarian representation",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-28",
+      "summary": "文章提出“合成人道主义”与“算法见证”概念，分析2022至2025年间13个生成式AI图像用于人道传播的案例，批判其延续殖民与提取逻辑并削弱受影响社群的表征参与。"
+    },
     {
       "id": 2179,
       "title": "Black technofeminism as critique of biological essentialism in AI anthropomorphization",
       "journal": "Information Communication & Society",
       "published_date": "2026-10-22",
       "summary": "文章以Black technofeminism批判AI拟人化中的种族化与性别化去人性化，质性审计YouTube搜索结果及Gemini、ChatGPT生成图像，揭示AI视觉文化默认白人化并扭曲黑人女性形象。"
+    },
+    {
+      "id": 2127,
+      "title": "Algorithmic authority in Spain: relative deprivation, hierarchy, and support for AI rule",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-10",
+      "summary": "论文考察西班牙公众对AI统治（算法权威）的支持度，以相对剥夺感与等级观念作为解释变量，属AI政治合法性与公众态度的实证研究。"
     },
     {
       "id": 2120,
@@ -43,11 +71,11 @@
       "summary": "文章扩展 Beer 的“数据凝视”概念，基于质性经验材料，考察青年在金融科技与修图应用中如何被算法分类、想象，又如何反向凝视，揭示数据产业凝视下的不平等与排斥再生产。"
     },
     {
-      "id": 2115,
-      "title": "Whose voices and which effects? A scoping review of migration and social media effects",
+      "id": 2108,
+      "title": "Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images",
       "journal": "Information Communication & Society",
-      "published_date": "2026-10-04",
-      "summary": "该文对2020—2025年65项移民语境下社交媒体效果研究进行范围综述，基于差异易感性模型分析内容类型、样本特征、效果类型及中介调节因素，发现宿主群体量化研究与移民群体质性研究相互脱节，呼吁整合性研究。"
+      "published_date": "2026-10-01",
+      "summary": "该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。"
     },
     {
       "id": 2153,
@@ -62,13 +90,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "基于女性主义关怀伦理，对20名成人进行民族志田野研究，分析三个案例，探讨关怀与数字（不）连接实践如何相互塑造，提出\"谨慎的不/连接\"框架，认为数字福祉取决于技术所维系的关怀关系而非个体媒介使用。"
-    },
-    {
-      "id": 2201,
-      "title": "Do Experts Agree About Misinformation? Evidence From Three Annual Surveys",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "基于三轮国际专家调查（2023–2025，覆盖76国），考察专家对虚假信息规模、传播速度和影响的七项流行主张的认同度，发现共识程度有限，且受学科与地域影响。"
     },
     {
       "id": 2202,
@@ -106,13 +127,6 @@
       "summary": "论文考察欧洲在线约会平台中的性别化同质择偶现象，探讨平台化婚恋市场如何与性别化的匹配模式相互作用，但缺少摘要，具体数据与方法不明。"
     },
     {
-      "id": 2028,
-      "title": "How Do Social Media Influencers Motivate Prosocial Intentions? The Interaction of SMI Gender and Expertise",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-09-10",
-      "summary": "研究探讨社交媒体影响者的性别与专业度如何交互影响受众的亲社会行为意向，属战略传播领域的说服效果研究，采用实验或调查方法验证假设。"
-    },
-    {
       "id": 1979,
       "title": "Digital ID as surreptitious experimentation in the humanitarian-tech industry: an ethnography of a biometric pilot in a refugee camp in the Thailand-Myanmar border",
       "journal": "Information Communication & Society",
@@ -120,25 +134,11 @@
       "summary": "通过18个月民族志研究，分析泰国-缅甸边境难民营中数字ID试点如何作为隐秘实验实施，揭示其缺乏知情同意、加剧权力不对称，并延续殖民逻辑。"
     },
     {
-      "id": 1976,
-      "title": "Sex, Romance, or Recreation? An Experiment Testing the Effects of Cannabis Brand-generated Social Media Ads on College Students’ Expectancies and Intentions to Use Cannabis Prior to Sex",
-      "journal": "Communication Research",
-      "published_date": "2026-08-31",
-      "summary": "通过在线实验考察大麻品牌社交媒体广告中的性/浪漫/娱乐脚本对大学生性前使用大麻预期与意向的影响，发现性别差异及机制。"
-    },
-    {
       "id": 1980,
       "title": "Blindness and epistemic injustice: a critical autoethnography of digital disablement in Thailand",
       "journal": "Information Communication & Society",
       "published_date": "2026-08-31",
       "summary": "通过政策文档分析和批判性自传民族志，探讨泰国盲人在数字转型中遭遇的排斥，提出数字致残循环及认知不正义等机制。"
-    },
-    {
-      "id": 1949,
-      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-21",
-      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
     },
     {
       "id": 1950,
@@ -155,39 +155,25 @@
       "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
     },
     {
-      "id": 1928,
-      "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
+      "id": 58,
+      "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
       "journal": "Information Communication & Society",
-      "published_date": "2026-08-13",
-      "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
+      "published_date": "2026-07-22",
+      "summary": "探讨智能音箱如何支持处于数字排斥风险的老年人的独立性、能力感和关联性，属于AI技术在社会情境中的应用研究。"
     },
     {
-      "id": 1929,
-      "title": "‘Cool! I wanna try it!’: online exposure to e-cigarette advertisements increases e-cigarette susceptibility among U.S. sexual minority young adults",
+      "id": 64,
+      "title": "Disability and AI in smart cities: centering access, agency, and awareness in hybrid spaces",
       "journal": "Information Communication & Society",
-      "published_date": "2026-08-10",
-      "summary": "研究在线电子烟广告暴露如何影响美国性少数青年对电子烟的易感性，关注数字广告的传播效果。"
+      "published_date": "2026-07-14",
+      "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
     },
     {
-      "id": 395,
-      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-19",
-      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
-    },
-    {
-      "id": 248,
-      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
+      "id": 251,
+      "title": "Disinformation, social inequalities and young people’s digital citizenship during conflict and crisis in Ethiopia",
       "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-13",
-      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
-    },
-    {
-      "id": 284,
-      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
+      "published_date": "2026-07-02",
+      "summary": "研究埃塞俄比亚冲突期间青年数字公民身份中的性别与地域不平等，探讨其如何影响虚假信息传播及政治参与。"
     },
     {
       "id": 285,
@@ -204,20 +190,6 @@
       "summary": "通过65个访谈，探讨中国年轻男同性恋者在算法环境下如何协商（不）智能性，提出“liminal intelligibility”概念，强调人机交互与人人交互的交叉。"
     },
     {
-      "id": 1905,
-      "title": "Anthropomorphizing AI: Perceptions, Interpretations, and the Humanization of Generative AI",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过Twitter数据分析用户如何拟人化ChatGPT，识别出人格化、情感归因等五类拟人化形式，探讨社交媒体对拟人化叙事的形塑及其对信任和传播的影响。"
-    },
-    {
-      "id": 1907,
-      "title": "Unpacking the Relationship Between Algorithmic Literacy and Misinformation: A Multidimensional Approach Using Two Sequential Studies",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "基于智利两项概率调查，分析算法素养的认知与行为维度对错误信息接触、分享和知识的影响，发现认知维度关联更强。"
-    },
-    {
       "id": 1908,
       "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
       "journal": "Social Media + Society",
@@ -225,18 +197,18 @@
       "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
     },
     {
-      "id": 1942,
-      "title": "Negotiating the Influencer Imaginary: How Everyday Professionals Construct Legitimacy on Social Media",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
-    },
-    {
       "id": 1998,
       "title": "“Turns Out My Paternal Grandmother has 16% Native Blood”: Racialized DNA, Race Destabilization, and Digital Race-(re)making on Social Media",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
+    },
+    {
+      "id": 72,
+      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-29",
+      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
     },
     {
       "id": 76,
@@ -302,60 +274,11 @@
       "summary": "通过在线实验探究AI偏见认知对采纳意愿的影响，发现偏见体验、偏见提示与社会规范三重交互影响AI信任，进而影响采纳。"
     },
     {
-      "id": 441,
-      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-06-01",
-      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
-    },
-    {
-      "id": 443,
-      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-05-31",
-      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
-    },
-    {
-      "id": 93,
-      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-27",
-      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
-    },
-    {
       "id": 98,
       "title": "Algorithmic ambivalence: LGBTQ+ social media and mental health among Chinese gay men",
       "journal": "Information Communication & Society",
       "published_date": "2026-05-25",
       "summary": "研究中国男同性恋者在社交媒体中算法矛盾心理及其对心理健康的影响，结合算法与社媒使用议题。"
-    },
-    {
-      "id": 99,
-      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-24",
-      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
-    },
-    {
-      "id": 102,
-      "title": "Clustered governance: how Chinese social media platforms curate and control influencers’ content creation",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-12",
-      "summary": "研究小红书通过“集群治理”组织网红群体，结合人工与算法策展控制内容创作，削弱创作者自主性，基于访谈与民族志方法。"
-    },
-    {
-      "id": 107,
-      "title": "Agency in social media platforms: the role of capitals and literacies under algorithmic environments",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-05",
-      "summary": "通过意大利两地区调查，构建整合框架，分析平台素养、数字资本和算法素养对用户适应性能动性的影响，发现平台素养是主要预测因素。"
-    },
-    {
-      "id": 507,
-      "title": "From solidarity to rejection: Moral panic toward Rohingya refugees in Aceh (Indonesia)",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-05-02",
-      "summary": "研究印尼亚齐对罗兴亚难民的道德恐慌，结合新闻内容分析和社交媒体话语分析，揭示道德恐慌通过主流媒体与社交媒体双环放大形成。"
     }
   ],
   "paper_edges": []

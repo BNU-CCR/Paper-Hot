@@ -1,5 +1,39 @@
 [
   {
+    "id": 2210,
+    "title": "Cue production and evaluative uptake: prompt framing and user judgments in AI-Mediated health communication",
+    "title_zh": "提示生成与评估性接受：人工智能中介的健康传播中的提示框架与用户判断",
+    "authors": [
+      "Zhan Xu",
+      "Hao Guo"
+    ],
+    "institutions": [],
+    "journal": "Information Communication & Society",
+    "published_date": "2026-10-30",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Conversational AI systems are increasingly embedded in everyday information and support-seeking practices, including health-related interactions in which users seek advice, reassurance, or emotional acknowledgment. Yet less is known about how users’ own communicative framing shapes what AI systems produce, and whether such AI-generated emotional and supportive cues are subsequently taken up in users’ evaluations of the interaction. Drawing on research on human-like social cues and cue-based credibility processing, this study distinguishes between cue production and cue uptake in AI-mediated communication. Using a randomized, naturalistic prompt-based experiment, participants engaged in a brief two-turn exchange with ChatGPT using one of three prompt exemplars about sleep difficulty that varied in solution orientation, distress expression, and help-seeking structure. The study combined experimental manipulation, computational analysis of AI-generated responses, and pre–post measures of perceived emotional understanding, credibility, trust, and intended future use. Prompt framing shaped the emotional and supportive cues of AI responses: distress-expressive prompts elicited higher anxiety-related language scores, solution-oriented prompts produced more positive emotional tone, and mixed help-seeking prompts elicited more reassuring language. However, variation in these features was not reliably associated with differential pre–post changes in users’ evaluations. Across conditions, users reported modest increases in perceived emotional understanding, credibility, and intended future use after the interaction. The findings suggest that conversational AI can adapt its language to users’ framing, but such cue production does not necessarily lead to credibility uptake. The study contributes to research on AI-mediated communication by examining emotional cueing in a live, ecologically realistic interaction context.",
+    "abstract_zh": "对话式人工智能系统正越来越多地融入人们的日常信息获取和支持寻求活动中，包括与健康相关的互动场景，用户在这些场景中寻求建议、安慰或情感上的认同。然而，关于用户自身的沟通方式如何影响人工智能系统的输出，以及这些由人工智能生成的情感支持性线索是否会被用户在接受互动后的评价中采纳，目前了解得还很少。本研究基于关于类似人类社交线索和基于线索的可信度处理的研究，区分了人工智能中介沟通中的线索生成与线索采纳过程。通过一项随机、自然主义的实验，参与者使用三种不同的提示与ChatGPT进行了简短的两轮对话，这些提示分别关注睡眠问题，它们在解决问题的导向、表达痛苦的程度以及寻求帮助的结构上有所不同。研究结合了实验操控、对人工智能生成响应的计算分析，以及对参与者在互动前后的情感理解、可信度、信任感和未来使用意向的测量。结果表明，提示的框架影响了人工智能响应中的情感和支持性内容：表达痛苦的提示引发了更多与焦虑相关的语言；以解决问题为导向的提示产生了更积极的情感基调；而混合型的寻求帮助的提示则引发了更令人安心的表达。然而，这些特征的变化并未与参与者评价的显著变化产生可靠的相关性。在所有条件下，参与者在互动后都报告了对人工智能的情感理解、可信度和未来使用意向有所提升。研究结果表明，对话式人工智能能够根据用户的沟通方式调整其语言表达，但这种线索生成并不一定会导致用户对其可信度的认可。该研究通过在一个真实、生态学上符合实际的互动环境中考察情感线索的作用，为人工智能中介沟通的研究做出了贡献。",
+    "summary": "通过随机提示实验考察用户提示框架如何影响ChatGPT的情感与支持性线索生产，以及这些线索是否影响用户可信度与信任评价。",
+    "reason": "研究ChatGPT提示框架与用户评价，结合实验和AI文本计算分析，属AI传播议题。",
+    "tags": [
+      "ChatGPT",
+      "AI中介传播",
+      "提示框架",
+      "计算文本分析",
+      "健康传播"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/1369118x.2026.2752107",
+    "source_url": "https://doi.org/10.1080/1369118x.2026.2752107",
+    "detail_slug": "cue-production-and-evaluative-uptake-prompt-framing-and-user-judgments-in-ai-mediated-health-communication",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Information, Communication & Society",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2208,
     "title": "Conversations about air pollution in New Delhi on X: Causes, solutions and perceived effects",
     "title_zh": "关于新德里空气污染的讨论：原因、解决方案及人们所感知的影响",
@@ -20082,7 +20116,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The interplay between artificial intelligence (AI) development and democracy has been of significant debate. While some scholars suggest that AI expansion can enhance democratic health by improving public services, fostering citizen trust, and boosting economic opportunities, others argue that AI poses a substantial threat to democratic values. A comprehensive review of the literature reveals a scarcity of comparative studies that evaluate AI’s impact on democracy across multiple nations, with most existing research focusing on qualitative or theoretical discussions. Addressing these gaps, this research employs a two-way fixed effect model to evaluate the impact of AI development on democratic health in 72 countries that have developed and published their national AI strategies between 2010 and 2023. The findings indicate that AI development is negatively associated with democracy levels. This means that higher AI development is associated with lower levels of democracy. This study also highlights the importance of political factors. Countries with well-established parliamentary systems, rather than presidential systems, may be better equipped to manage and mitigate the negative impacts of AI on democracy.",
-    "abstract_zh": "人工智能（AI）的发展与民主之间的相互作用一直是学术界热议的话题。一些学者认为，AI的普及可以通过改善公共服务、增强公民信任以及促进经济发展来提升民主制度的健康状况；而另一些学者则认为，AI对民主价值观构成了严重威胁。对相关文献的全面回顾发现，很少有比较性研究评估AI对多个国家民主制度的影响，现有的大多数研究都停留在定性分析或理论探讨阶段。为填补这一空白，本研究采用了双向固定效应模型，分析了2010年至2023年间制定并发布了国家AI战略的72个国家的AI发展对民主制度的影响。研究结果表明，AI的发展与民主水平呈负相关关系，即AI发展程度越高，民主水平越低。此外，该研究还强调了政治因素的重要性：拥有完善议会制度的国家可能比总统制国家更能有效管理和缓解AI对民主的负面影响。",
+    "abstract_zh": "人工智能（AI）的发展与民主之间的关系一直备受争议。一些学者认为，AI的普及可以通过改善公共服务、增强公民信任以及促进经济发展来提升民主制度的健康状况；而另一些学者则认为AI对民主价值观构成了严重威胁。对相关文献的全面回顾发现，很少有比较性研究评估AI对多个国家民主制度的影响，现有的研究大多局限于定性分析或理论探讨。为填补这一空白，本研究采用了双向固定效应模型，分析了2010年至2023年间制定并发布了国家AI战略的72个国家的AI发展对民主制度的影响。研究结果表明，AI的发展与民主水平呈负相关关系，即AI发展程度越高，民主水平越低。此外，该研究还强调了政治因素的重要性：拥有健全议会制度的国家可能比总统制国家更能有效管理和缓解AI对民主的负面影响。",
     "summary": "使用双向固定效应模型分析2010-2023年72个国家的数据，发现AI发展与民主水平呈负相关，议会制国家更能缓解负面影响。",
     "reason": "研究AI对民主的影响，符合AI社会影响特别条款，虽使用传统计量方法但议题明确属于计算传播领域。",
     "tags": [
@@ -20103,7 +20137,7 @@
   {
     "id": 969,
     "title": "Digital economy of dignity: children’s belonging(s) and digital facework",
-    "title_zh": "数字时代的尊严经济：儿童的归属感与数字层面的社交礼仪",
+    "title_zh": "尊严的数字经济：儿童的归属感与数字层面的社交礼仪",
     "authors": [
       "Clara Julia Reich",
       "Kamilla Knutsen Steinnes",
@@ -20117,7 +20151,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Children draw on consumer culture to create sameness, engage in conversation, be recognized by peers, and belong. They engage in facework to overcome inequalities and participate in ‘economies of dignity’ coined by Pugh (2009) in longing and belonging: parents, children, and consumer culture. Social media platforms are an important part of children’s lives; their digital and non-digital spheres are intertwined, and their lives are datafied. Building on this, we extend Pugh’s (2009) concept to the digital economy of dignity. Taking a child-centered approach, this article scrutinizes social media platforms’ role in children’s social practices forming their digital economies of dignity situated in the datafication of childhood. The empirical data set includes 51 semi-structured interviews and three focus group discussions with 40 Norwegian children aged 10–13 years. We highlight how children negotiate meaning on, across, and beyond social media platforms as they navigate parental restrictions, social media trends promoted by content creators, and platform recommender systems. Our informants engage in self-presentation and enact parts of their identities (e.g., class, age, gender) in practices following peer group norms. Social media platforms amplify opportunities for creating belonging yet may also make inequalities visible; here, children engage in digital facework that entails bridging differences via knowing instead of owning, planning, and monitoring prices, exposing, and claiming. This article contributes to the ongoing discourse on the complex and evolving role of social media in children’s consumption and identity practices in the data-driven landscape of childhood.",
-    "abstract_zh": "儿童借助消费文化来寻求认同感、参与社交互动、获得同龄人的认可以及建立归属感。他们通过各种社交策略来克服社会不平等，并参与到Pugh（2009）所提出的“尊严经济”中。社交媒体平台已成为儿童生活的重要组成部分；他们的数字生活与非数字生活紧密相连，且他们的行为数据化程度日益提高。基于这一背景，我们将Pugh（2009）提出的“尊严经济”概念扩展到了数字领域。本文采用以儿童为中心的研究视角，探讨了社交媒体平台在儿童社交行为中的作用，以及这些行为如何塑造他们在数字化环境中的“尊严经济”。研究数据包括51次半结构化访谈和3次焦点小组讨论，对象为40名10至13岁的挪威儿童。研究发现，儿童在面对父母设定的限制、内容创作者推广的社交媒体趋势以及平台推荐系统时，会在社交媒体平台上协商各种意义。他们在自我表达过程中展现出不同的身份特征（如阶级、年龄、性别），并遵循同龄群体的规范。虽然社交媒体为儿童提供了建立归属感的机会，但也可能加剧社会不平等；在这种情况下，儿童通过了解他人、规划行为、监控价格等方式进行数字层面的社交互动，以弥合差异。本文为探讨社交媒体在儿童消费和身份构建中的复杂且不断演变的作用提供了新的见解，尤其是在数据驱动的童年背景下。",
+    "abstract_zh": "儿童借助消费文化来寻求认同感、参与社交互动、获得同龄人的认可以及建立归属感。他们通过各种社交策略来克服社会不平等，并参与到Pugh（2009）所提出的“尊严经济”中。社交媒体平台已成为儿童生活的重要组成部分；他们的数字世界与非数字世界紧密相连，且他们的日常生活正在被数据化。基于这一背景，我们将Pugh（2009）提出的“尊严经济”概念扩展到了数字领域。本文采用以儿童为中心的研究视角，探讨了社交媒体平台在儿童社交行为中的作用，以及这些行为如何塑造他们在数字化环境中的“尊严经济”。研究数据来源于51次半结构化访谈和3次焦点小组讨论，参与者为40名10至13岁的挪威儿童。研究发现，儿童在面对父母设定的限制、内容创作者推广的社交媒体趋势以及平台推荐系统时，会在社交媒体平台上协商各种意义表达方式。他们在这些互动中展示自我，并根据同伴群体的规范来构建自己的身份（如阶级、年龄、性别等）。虽然社交媒体为儿童提供了建立归属感的机会，但也可能加剧社会不平等；在这种情况下，儿童通过了解他人、规划行为、监控价格等方式来进行数字层面的社交互动，以弥合差异。本文为探讨社交媒体在儿童消费和身份构建中的复杂且不断演变的作用提供了新的见解，尤其是在当前这个以数据驱动的童年时代背景下。",
     "summary": "基于挪威儿童访谈，探讨社交媒体如何影响儿童的数字尊严经济、归属感与身份实践。",
     "reason": "主题涉及社交媒体平台与儿童数字实践，属计算传播领域议题。",
     "tags": [
@@ -20139,7 +20173,7 @@
   {
     "id": 1608,
     "title": "Applying Ethics of Care-Based Response Strategies to Mitigate AI-Related Corporate Crisis: The Moderating Role of Crisis Involvement",
-    "title_zh": "将基于关怀的应对策略的伦理原则应用于缓解与人工智能相关的企业危机：危机参与度的调节作用",
+    "title_zh": "将基于关怀的伦理响应策略应用于缓解与人工智能相关的企业危机：危机参与度的调节作用",
     "authors": [
       "Juan Liu"
     ],
@@ -20151,7 +20185,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "As corporations increasingly adopt artificial intelligence (AI) tools, the number of crisis cases where AI application violates social norms and values rises. Research is sparse on the dynamics of ethics of care messaging and crisis involvement in mitigating AI-related corporate crises. To fill this gap, the study employs a 2 (crisis response strategy: excuse vs. apology) × 2 (ethics of care messaging: absence vs. presence) between-subjects experimental design by integrating situational crisis communication theory with ethics of care. Results show that both crisis response strategy and ethics of care messaging, respectively, interact with crisis involvement to affect corporate reputation. Moreover, corporate reputation mediates the interaction effect between crisis response strategy and crisis involvement on product evaluation and purchasing intention. Theoretical and practical implications are addressed.",
-    "abstract_zh": "随着企业越来越多地采用人工智能（AI）工具，因AI应用违反社会规范和价值观而引发的危机案例也在增加。关于如何在危机沟通中运用伦理关怀原则来缓解与AI相关的企业危机，相关研究仍然非常有限。为了填补这一研究空白，本研究采用了一种2×2的被试间实验设计（危机应对策略：道歉 vs. 原谅；伦理关怀沟通方式：缺席 vs. 存在），并将情境危机沟通理论与伦理关怀原则相结合。研究结果表明，危机应对策略和伦理关怀沟通方式分别与危机参与程度相互作用，从而影响企业的声誉。此外，企业声誉在危机应对策略与危机参与程度对产品评价和购买意愿的交互作用中起到了中介作用。本文还探讨了这一研究的理论和实践意义。",
+    "abstract_zh": "随着企业越来越多地采用人工智能（AI）工具，因AI应用违反社会规范和价值观而引发的危机案例也在增加。关于关怀伦理（ethics of care）在危机沟通中的作用以及这些伦理因素如何帮助缓解与AI相关的企业危机，相关研究仍然非常有限。为了填补这一研究空白，本研究采用了一种2×2的被试间实验设计（危机应对策略：道歉 vs. 原谅；关怀伦理信息：缺失 vs. 存在），并将情境危机沟通理论（situational crisis communication theory）与关怀伦理相结合。研究结果表明，危机应对策略和关怀伦理信息各自都会与危机应对方式相互作用，从而影响企业的声誉。此外，企业声誉在危机应对策略与危机应对方式对产品评价和购买意愿的影响中起到了中介作用。本文还探讨了这些研究的理论和实践意义。",
     "summary": "通过2x2实验探究关怀伦理信息与危机应对策略对AI相关企业危机中声誉、产品评价及购买意愿的影响，危机卷入度为调节变量。",
     "reason": "议题涉及AI相关企业危机传播，符合AI社会影响条款，虽用实验法但纳入。",
     "tags": [
@@ -20172,7 +20206,7 @@
   {
     "id": 973,
     "title": "Algorithmic recommendations in the everyday life of young people: imaginaries of agency and resources",
-    "title_zh": "算法推荐在年轻人日常生活中的应用：关于能动性与资源的想象",
+    "title_zh": "算法推荐在年轻人日常生活中的作用：能动性与资源的想象",
     "authors": [
       "Ville Jylhä",
       "Noora Hirvonen",
@@ -20187,7 +20221,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Algorithmic recommender systems have become a regularised part of the current information infrastructure, as they have been increasingly integrated into many online platforms. This study aims to examine and thus improve our understanding of young people’s agency and their imaginaries related to algorithmic recommendations within the information infrastructure by applying Giddens’s (Citation1984) conception of resources to the domain of recommender systems. The study is guided by the following research questions: How do imaginaries of algorithmic recommendations shape young people’s agency? How do different resources constitute information and information infrastructure in this context? Thematic interviews were conducted with 20 young Finnish people, and the material was analysed using qualitative content analysis with a focus on agency, resources and imaginaries in relation to algorithmic recommendations on different online platforms. The key findings of the study depict the duality of power relations: recommender systems limit young people’s agency by offering them scarce opportunities for self-expression and determining how their data is being used, yet young people were able to use resources for their own benefit. The notion of allocative resources was useful for noticing how participants’ imagined their personal information being utilised to generate recommendations, while authoritative resources offered insights into how users expressed placing trust on different platforms based on their size and the kind of opportunities participants had for self-expression on these platforms. This study contributes new knowledge regarding the ways algorithmic recommendations shape the agency of young people by making them adapt to the logic of recommender systems.",
-    "abstract_zh": "算法推荐系统已成为当前信息基础设施的常规组成部分，因为它们被越来越多地集成到各种在线平台中。本研究旨在通过将吉登斯（Giddens，1984年）关于资源的概念应用于推荐系统领域，来探讨并加深我们对年轻人在这种信息基础设施中自主性及其与算法推荐相关想象力的理解。研究围绕以下问题展开：算法推荐的想象力如何塑造年轻人的自主性？在不同背景下，各种资源是如何构成信息及信息基础设施的？研究通过对20名芬兰年轻人进行主题访谈，并运用定性内容分析法来分析数据，重点关注与不同在线平台上的算法推荐相关的自主性、资源及想象力。研究的主要发现揭示了权力关系的双重性：推荐系统通过限制年轻人的自我表达机会以及决定其数据的使用方式来削弱他们的自主性；然而，年轻人仍能够利用某些资源为自己谋利。所谓“分配性资源”的概念有助于理解参与者如何想象自己的个人信息被用于生成推荐结果；而“权威性资源”则揭示了用户如何根据平台的规模以及自己在这些平台上自我表达的机会来决定是否信任该平台。本研究为理解算法推荐如何通过迫使年轻人适应推荐系统的逻辑来塑造他们的自主性提供了新的见解。",
+    "abstract_zh": "算法推荐系统已成为当前信息基础设施的重要组成部分，因为它们被越来越多地集成到各种在线平台中。本研究旨在通过将吉登斯（Giddens，1984年）关于资源的概念应用于推荐系统领域，来探讨并加深我们对年轻人在这种信息基础设施中自主性及其与算法推荐相关想象力的理解。研究围绕以下问题展开：算法推荐的想象力如何塑造年轻人的自主性？在不同背景下，各种资源又是如何构成信息及信息基础设施的？研究通过对20名芬兰年轻人的主题访谈收集数据，并采用定性内容分析法进行分析，重点关注与不同在线平台上的算法推荐相关的自主性、资源及想象力。研究的主要发现揭示了权力关系的双重性：推荐系统通过限制年轻人的自我表达机会以及决定其数据的使用方式来削弱他们的自主性；然而，年轻人仍能够利用某些资源为自己谋利。所谓“分配性资源”的概念有助于理解参与者如何想象自己的个人信息被用于生成推荐结果；而“权威性资源”则揭示了用户如何根据平台的规模以及自己在这些平台上自我表达的机会来决定是否信任该平台。本研究为理解算法推荐如何通过迫使年轻人适应推荐系统的逻辑来塑造他们的自主性提供了新的见解。",
     "summary": "通过对20名芬兰青年的主题访谈，探究算法推荐如何塑造青年人的能动性，以及资源与信息基础设施在其中的作用，揭示权力关系的双重性。",
     "reason": "议题涉及算法推荐系统的社会影响与用户能动性，属AI社会影响研究，即使方法传统也纳入计算传播范畴。",
     "tags": [
@@ -20222,7 +20256,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Algorithmic tools are increasingly used to automate corruption reporting on social media platforms. Based on the use case of an existing bot, this study investigates how to design the communication of a bot to effectively and responsibly mobilize people for collective action against corruption. In a pre-registered choice-based conjoint survey (n = 1,331), we test six message design features: type of injustice, degree of injustice, anger, political partisanship, gender, and efficacy cues. Our results show that calling out cases of severe corruption increased people’s intention to engage in collective action against corruption. We find no empirical support for in-group favoritism based on political affiliation and gender. Yet, some commonly used design features can have contrasting effects on different audiences. We call for more social science research accompanying the technical development of algorithmic tools to fight corruption.",
-    "abstract_zh": "算法工具被越来越多地用于自动化社交媒体平台上的腐败举报工作。基于现有机器人的使用案例，本研究探讨了如何设计机器人的沟通方式，以有效且负责任地动员人们共同采取行动打击腐败。在一项预先注册的、基于选择的联合调查（样本量n=1,331）中，我们测试了六个信息设计要素：不公正的类型、不公正的程度、愤怒情绪、政治立场、性别以及信息中的效能暗示。研究结果表明，揭露严重的腐败行为能够增强人们参与集体行动的意愿。研究未发现基于政治归属或性别的群体偏好的现象；然而，某些常用的信息设计要素对不同受众可能会产生不同的影响。我们呼吁在算法工具的技术开发过程中，应伴随更多的社会科学研究。",
+    "abstract_zh": "算法工具被越来越多地用于自动化社交媒体平台上的腐败举报工作。基于现有机器人的使用案例，本研究探讨了如何设计机器人的沟通方式，以有效且负责任地动员人们共同采取行动打击腐败。在一份预先注册的、基于选择的联合调查（样本量：1,331人）中，我们测试了六个信息设计要素：不公正的类型、不公正的程度、人们的愤怒情绪、政治立场、性别以及信息中的效能暗示。研究结果表明，揭露严重的腐败行为能够增强人们参与集体行动的意愿。研究未发现基于政治归属或性别的群体偏好的现象；然而，某些常用的信息设计要素对不同受众可能会产生不同的影响。我们呼吁在算法工具的技术开发过程中，应同时开展更多的社会科学研究。",
     "summary": "通过联合调查实验（n=1331）测试机器人沟通特征对反腐败集体行动意愿的影响，发现严重腐败呼吁有效，党派和性别偏好不显著。",
     "reason": "主题涉及AI算法工具反腐的社会影响与传播，符合AI特别条款，虽用调查实验但相关。",
     "tags": [
@@ -20259,7 +20293,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article investigates the effectiveness of three different two-dimensional models in representing political competition using user data from the EU and I Voting Advice Application for the EU elections from 2009 to 2019. We test different ways of aggregating economic, cultural, and European integration issues to determine which configuration best captures voter preferences across all member states. Our findings show that combining economic and cultural issues into a left-right “super-dimension” alongside a separate dimension for European integration generally offers the most accurate representation across time and space. However, regional variations reveal that this model performs better in Western Europe compared to Central/Eastern Europe, where other models may fit better. To address these regional disparities, we recommend implementing more rigorous pre-testing of common items and considering country-specific or regional adaptations in scaling. These measures could enhance the relevance and precision of VAAs, ensuring they effectively reflect the political landscapes of diverse European regions.",
-    "abstract_zh": "本文研究了三种不同的二维模型在利用2009年至2019年欧盟选举期间的用户数据来表示政治竞争方面的有效性。我们测试了多种聚合经济、文化和欧洲一体化问题的方法，以确定哪种配置能够最好地反映所有成员国的选民偏好。研究结果表明，将经济和文化问题合并为一个“左右”超级维度，并另外设置一个代表欧洲一体化的维度，通常能够在时间和空间上提供最准确的表示。然而，区域差异表明，这种模型在西欧的表现优于中欧/东欧，在这些地区其他模型可能更为适用。为了解决这些区域差异，我们建议对常见项目进行更严格的预测试，并考虑根据国家或地区特点对模型进行相应的调整。这些措施可以提高投票建议应用程序（VAAs）的相关性和准确性，确保它们能够有效反映欧洲不同地区的政治格局。",
+    "abstract_zh": "本文研究了三种不同的二维模型在利用欧盟用户数据及“I Voting Advice Application”提供的2009至2019年欧盟选举信息来表示政治竞争方面的有效性。我们测试了多种聚合经济、文化和欧洲一体化问题的方法，以确定哪种配置能够最准确地反映所有成员国的选民偏好。研究结果表明，将经济和文化问题合并为一个“左右”超级维度，并另设一个代表欧洲一体化的维度，通常能够在时间和空间上提供最准确的表示。然而，区域差异表明，这种模型在西欧的表现优于中欧/东欧，在这些地区其他模型可能更为适用。为了解决这些区域差异，我们建议对常用指标进行更严格的预测试，并考虑根据各国或地区的具体情况对模型进行调整。这些措施可以提高“I Voting Advice Applications”的相关性和准确性，确保它们能够有效反映欧洲不同地区的政治格局。",
     "summary": "利用2009-2019年EU和I投票建议应用数据，测试三种二维模型表征欧洲政治竞争的效果，发现经济文化超级维度加欧洲一体化维度最优，但存在区域差异。",
     "reason": "使用VAA大规模用户数据，通过统计建模比较政治维度模型，属于计算社会科学方法。",
     "tags": [
@@ -20295,7 +20329,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Linguistic bias is the differential use of abstraction, or other linguistic mechanisms, for the same behavior by members of different groups. Abstraction is defined by the Linguistic Category Model (LCM), which defines a continuum of words from concrete to abstract. Linguistic Intergroup Bias (LIB) characterizes the tendency for people to use abstract words for undesirable outgroup and desirable ingroup behavior and concrete words for desirable outgroup and undesirable ingroup behavior. Thus, by examining abstraction in a text, we can understand the implicit attitudes of the author. Yet, research is currently stifled by the time-consuming and resource-intensive method of manual coding. In this study, we aim to develop an automated method to code for LIB. We compiled various techniques, including forms of sentence tokenization, sentiment analysis, and abstraction coding. All methods provided scores that were a good approximation of manually coded scores, which is promising and suggests that more complex methods for LIB coding may be unnecessary. We recommend automated approaches using CoreNLP sentiment analysis and LCM Dictionary abstraction coding.",
-    "abstract_zh": "语言偏见指的是不同群体成员在描述相同行为时，对抽象概念或其他语言机制的使用存在差异。根据“语言范畴模型”（Linguistic Category Model, LCM），词语可以被划分为从具体到抽象的连续体。语言群体间偏见（Linguistic Intergroup Bias, LIB）表现为：人们倾向于用抽象词汇来描述外群体的负面行为和内群体的正面行为，而用具体词汇来描述外群体的正面行为和内群体的负面行为。因此，通过分析文本中的抽象程度，我们可以了解作者的隐性态度。然而，目前的研究工作受到手动编码方法耗时且资源密集的限制。在这项研究中，我们旨在开发一种自动化的方法来识别语言群体间偏见。我们综合运用了多种技术，包括句子分词、情感分析以及抽象程度编码等方法。所有方法得出的评分都与手动编码的结果非常接近，这表明可能无需采用更复杂的语言群体间偏见编码方法。我们推荐使用CoreNLP情感分析工具和LCM词典进行抽象程度编码的自动化处理。",
+    "abstract_zh": "语言偏见指的是不同群体成员在描述相同行为时，对抽象概念或其他语言机制的使用存在差异。根据“语言类别模型”（Linguistic Category Model, LCM）的定义，词汇可以从具体到抽象的连续体上进行分类。语言群体间偏见（Linguistic Intergroup Bias, LIB）表现为：人们倾向于用抽象词汇来描述外群体的负面行为和内群体的正面行为，而用具体词汇来描述外群体的正面行为和内群体的负面行为。因此，通过分析文本中的抽象程度，我们可以了解作者的隐性态度。然而，目前的研究受到手动编码方法耗时且资源密集的限制。在这项研究中，我们旨在开发一种自动化的方法来检测语言群体间偏见。我们综合运用了多种技术，包括句子分词、情感分析以及抽象程度编码等方法。所有方法得出的评分都与手动编码的结果非常接近，这表明可能无需使用更复杂的语言群体间偏见编码方法。我们推荐使用CoreNLP情感分析工具和LCM词典进行抽象程度编码的自动化处理方法。",
     "summary": "研究开发自动化方法检测语言间群体偏见（LIB），比较多种NLP技术并推荐CoreNLP情感分析与LCM词典抽象编码，替代人工编码。",
     "reason": "使用计算机化语言分析（NLP、情感分析）自动化检测群体间语言偏见，属计算传播方法。",
     "tags": [
@@ -20329,7 +20363,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study integrates the perspectives of issue niche theory and issue ownership theory to examine how variations in issue salience affect the resources available to political organizations affiliated with different parties. Analyzing a database with millions of donors’ political donation records, our time series analysis reveals a nuanced interplay: When some issues associated with Democrats assume the spotlight, there is a discernible increase in left-leaning donations. Simultaneously, when other Democrats issue raises to prominence, there is a notable suppression of right-leaning contributions. These findings underline the persuasive force of issue ownership for each party, which either bolsters fundraising for affiliated political organizations or obstructs donations to opposing groups. Furthermore, we observe that competence-related issues, such as COVID-19 and the economy and inflation, exert a substantial influence on political contributions among both left- and right-leaning donors. Notably, competence issues demonstrate a more pronounced influence on donor behavior compared to associative issues. Overall, our study suggests a refined issue niche theory tailored to the political context, where issue niches are shaped not only by issue salience but also by the precise issue ownership type.",
-    "abstract_zh": "本文结合了“议题生态位理论”（issue niche theory）和“议题所有权理论”（issue ownership theory）的观点，探讨了议题重要性的变化如何影响与不同政党相关的政治组织所能获得的资源。通过对包含数百万捐赠者政治捐款记录的数据库进行时间序列分析，我们发现了一种复杂的相互作用：当与民主党相关的某些议题受到关注时，左翼倾向的捐款显著增加；而当其他民主党议题受到重视时，右翼倾向的捐款则明显减少。这些发现凸显了议题所有权对各个政党的影响力——它要么有助于相关政治组织的资金筹集，要么会阻碍对反对派的捐款。此外，我们还观察到与政府能力相关的问题（如COVID-19疫情、经济状况和通货膨胀）对左右翼捐赠者的政治捐款行为都产生了显著影响。值得注意的是，与纯粹的意识形态议题相比，与政府能力相关的问题对捐赠者行为的影响更为显著。总体而言，我们的研究提出了一种经过修正的“议题生态位理论”，该理论认为议题生态位的形成不仅受议题重要性的影响，还受到议题所有权类型的具体制约。",
+    "abstract_zh": "本文结合了“议题生态位理论”（issue niche theory）和“议题所有权理论”（issue ownership theory）的观点，探讨了议题重要性的变化如何影响不同政党所属的政治组织所能获得的资源。通过对包含数百万捐赠者政治捐款记录的数据库进行时间序列分析，我们发现了一种复杂的相互作用：当与民主党相关的某些议题受到关注时，左翼倾向的捐款显著增加；而当其他民主党议题受到重视时，右翼倾向的捐款则明显减少。这些发现凸显了议题所有权对各个政党的影响力——这种影响力要么有助于增强所属政治组织的资金筹集，要么会阻碍对反对派的捐款。此外，我们还观察到与政府能力相关的问题（如COVID-19疫情、经济状况和通货膨胀）对左右翼捐赠者的政治捐款行为都产生了显著影响。值得注意的是，与纯粹的意识形态议题相比，与政府能力相关的问题对捐赠者行为的影响更为显著。总体而言，我们的研究提出了一种经过调整的“议题生态位理论”，该理论认为议题生态位的形成不仅受议题重要性的影响，还受到具体议题所有权类型的影响。",
     "summary": "研究结合议题利基理论与议题所有权理论，分析2020年美国大选中议题显著性变化对不同党派政治组织捐赠的影响，发现议题所有权对左右翼捐赠产生促进或抑制作用。",
     "reason": "使用数百万政治捐赠记录的大规模数据和时间序列分析，属于计算传播学方法，研究政治传播议题。",
     "tags": [
@@ -20352,7 +20386,7 @@
   {
     "id": 974,
     "title": "Mainstreaming and transnationalization of anti-gender ideas through social media: the case of CitizenGO",
-    "title_zh": "通过社交媒体将反性别观念主流化与国际化：以CitizenGO为例",
+    "title_zh": "通过社交媒体将反性别观念主流化及跨国传播：以CitizenGO为例",
     "authors": [
       "Nicola Righetti",
       "Aytalina Kulichkina",
@@ -20369,7 +20403,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Social media platforms can be effective tools for mainstreaming and transnationalization of radical positions. Anti-gender ideas have particularly gained traction transnationally in recent years. Despite extensive research on the anti-gender movement, the specific role of social media remains underexplored. How do anti-gender organizations use social media to strategically mainstream and transnationalize their agenda? This study addresses this overarching question by focusing on CitizenGO, a digital advocacy organization that holds a key position within the anti-gender transnational advocacy network. We examine its multilingual social media network and activities over a decade (2013–2022) using computational and digital methods. The findings indicate that CitizenGO uses a sophisticated network of social media accounts to coordinate and amplify anti-gender messages across different languages and regions. The study suggests that CitizenGO’s strategic use of social media is aimed at mainstreaming and globalizing anti-gender agendas, contributing new insights into the mechanisms of digital advocacy and the transnational expansion of anti-gender networks.",
-    "abstract_zh": "社交媒体平台可以成为主流化和推广激进观点的有效工具。近年来，反性别观念在跨国范围内尤其获得了广泛传播。尽管关于反性别运动的研究已经相当丰富，但社交媒体在其中的具体作用仍尚未得到充分探讨。反性别组织是如何利用社交媒体来战略性地推广和传播其议程的？本研究通过关注CitizenGO这一数字倡导组织来回答这一核心问题。CitizenGO在反性别跨国倡导网络中占据着关键地位。我们利用计算和数字方法，分析了该组织在2013年至2022年十年间的多语言社交媒体网络及其活动。研究结果表明，CitizenGO通过一个复杂的社交媒体账户网络，在不同语言和地区协调和传播反性别信息。研究表明，CitizenGO对社交媒体的战略运用旨在推动反性别议程的主流化与全球化，为数字倡导机制以及反性别网络的跨国扩展提供了新的见解。",
+    "abstract_zh": "社交媒体平台可以成为主流化和推广激进观点的有效工具。近年来，反性别观念在跨国范围内尤其得到了广泛传播。尽管关于反性别运动的研究已经相当丰富，但社交媒体在其中的具体作用仍尚未得到充分探讨。反性别组织是如何利用社交媒体来战略性地推广和传播其议程的？本研究通过关注CitizenGO这一数字倡导组织来回答这一核心问题。CitizenGO在反性别跨国倡导网络中占据着关键地位。我们运用计算和数字方法，分析了该组织在2013年至2022年十年间的多语言社交媒体网络及其活动。研究结果表明，CitizenGO通过一个复杂的社交媒体账户网络，在不同语言和地区协调和传播反性别信息。研究表明，CitizenGO对社交媒体的战略性运用旨在推动反性别议程的主流化与全球化，为数字倡导机制以及反性别网络的跨国扩展提供了新的见解。",
     "summary": "以CitizenGO为例，使用计算和数字方法分析其2013-2022年多语言社交媒体网络，揭示其协调和放大反性别信息，推动议程主流化与跨国化。",
     "reason": "研究反性别组织通过社交媒体的传播策略，使用多语言网络分析和数字方法，属计算传播学。",
     "tags": [
@@ -20402,7 +20436,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study explores the strategic spread of conspiracy theories by far-right groups during the “Stop the Steal” election denial rallies, focusing on their online efforts to undermine the Black Lives Matter movement. Based on the Discursive Opportunity Structure framework, we conducted a computer-assisted content analysis of Parler posts (N = 9,714), supplemented with qualitative textual analysis. We analyzed three key messaging strategies that promoted the “Stop the Steal” messages: leveraging hashtags for visibility, making moral appeals to establish legitimacy, and using group identity markers to enhance resonance. Our findings reveal that the integration of in-group identity cues with appeals to moral virtue (morally right), as well as pairing the #BLM hashtag with moral vice (morally wrong), generates greater attention from social media users. We discuss the implications of these findings as reflections of entrenched racism in the post-truth era.",
-    "abstract_zh": "本研究探讨了极右翼组织在“阻止盗窃”（“Stop the Steal”）选举否认集会期间传播阴谋论的战略手段，重点关注他们通过在线渠道破坏“黑人的命也是命”（Black Lives Matter, BLM）运动的努力。基于“话语机会结构”（Discursive Opportunity Structure）框架，我们对Parler平台上的帖子（共9,714条）进行了计算机辅助内容分析，并结合了定性文本分析。我们分析了三种关键的传播策略：利用标签（hashtags）提高帖子的可见度；通过道德诉求来建立其合法性；以及使用群体身份标识来增强信息的影响力。研究结果表明，将群体身份特征与道德上的正确价值观相结合，或将#BLM标签与道德上的错误行为联系起来，能够吸引更多社交媒体用户的关注。我们讨论了这些发现所揭示的问题，即它们反映了后真相时代（post-truth era）中根深蒂固的种族主义现象。",
+    "abstract_zh": "本研究探讨了极右翼团体在“阻止盗窃”（“Stop the Steal”）选举否认集会期间传播阴谋论的战略手段，重点关注他们在线上努力破坏“黑人的命也是命”（Black Lives Matter, BLM）运动的行为。基于“话语机会结构”（Discursive Opportunity Structure）框架，我们对Parler平台上的帖子（共9,714条）进行了计算机辅助内容分析，并结合了定性文本分析。我们分析了三种关键的传播策略：利用标签（hashtags）提高帖子的可见度；通过道德诉求来建立其传播的合法性；以及使用群体身份标识来增强信息的影响力。研究结果表明，将群体身份特征与道德上的“正确行为”相结合，或将#BLM标签与道德上的“错误行为”联系起来，能够吸引更多社交媒体用户的关注。我们讨论了这些发现所揭示的问题，即它们反映了后真相时代（post-truth era）中根深蒂固的种族主义现象。",
     "summary": "基于话语机会结构框架，分析Parler上9700多条帖子，探究极右翼如何通过道德诉求、群体身份和#BLM标签策略传播“Stop the Steal”阴谋论并获取关注。",
     "reason": "研究社交媒体平台Parler上的虚假信息传播，使用计算机辅助内容分析大规模数据，属于计算传播研究。",
     "tags": [
@@ -20441,7 +20475,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Libraries have long embedded social media platforms into their work practices, TikTok being a comparatively new addition. After its international launch, TikTok quickly became a popular platform, especially a space for ‘book talk’, called BookTok. The literature on libraries and TikTok is sparse, and little research has been done to investigate actual TikTok usage by libraries systematically. There is also a methodological advancement to be made in how to approach hashtags as chains when analyzing social media content. In this paper, we explore how Norwegian public libraries use TikTok, employing a dataset of 3248 posts as the basis for our analysis. The study combines digital methods approaches for data collection and analysis with traditional knowledge organization approaches, focusing on hashtags and hashtag chains as part of the complex socio-technical and algorithmic system. Our study has focused on the interpretive possibilities of hashtags as a constitutive element of the platform vernacular. We find that libraries contribute to the ongoing construction and maintenance of BookTok and LibraryTok, and the intersection of these sides through book recommendations and events. We further introduce the concept of daisy chains, signifying a deliberate but unsystematic tactic of tagging posts, part of the platform vernacular, serving the dual act of influencing distribution and communication in a complex algorithmic system.",
-    "abstract_zh": "图书馆长期以来一直在其工作实践中整合社交媒体平台，而TikTok则是相对较新的一个补充。自TikTok在全球范围内推出以来，它迅速成为了一个受欢迎的社交平台，尤其是在“图书讨论”（称为BookTok）方面。关于图书馆与TikTok的文献非常有限，目前还没有太多系统性的研究来探讨图书馆实际使用TikTok的情况。在分析社交媒体内容时，如何将标签（hashtags）视为相互关联的链条（chains），这方面还需要在方法论上有所改进。在本文中，我们研究了挪威公共图书馆如何使用TikTok，分析了3248条帖子的数据集。该研究结合了数字方法的数据收集与分析手段以及传统的知识组织方法，重点关注标签及其在复杂的社交技术及算法系统中的作用。我们发现，图书馆通过图书推荐和活动等方式，为BookTok和LibraryTok这两个社交空间的持续构建与维护做出了贡献。此外，我们还引入了“雏菊链”（daisy chains）的概念，这是一种有意识但非系统性的帖子标记策略，属于该平台特有的表达方式，它在复杂的算法系统中同时影响着内容的传播和交流。",
+    "abstract_zh": "图书馆长期以来一直在其工作实践中整合社交媒体平台，而TikTok则是相对较新的一个补充。自TikTok在全球范围内推出后，它迅速成为了一个受欢迎的社交平台，尤其是在“图书讨论”（称为BookTok）方面。关于图书馆与TikTok的文献非常有限，目前还没有太多系统性的研究来探讨图书馆实际使用TikTok的情况。在分析社交媒体内容时，如何将标签（hashtags）视为相互关联的链条（chains），这方面还需要在方法论上有所改进。在本文中，我们研究了挪威公共图书馆如何使用TikTok，分析了3248条帖子的数据集。该研究结合了数字方法的数据收集与分析手段以及传统的知识组织方法，重点关注标签及其相互关联的链条，这些标签和链条构成了一个复杂的社会技术及算法系统。我们发现，图书馆通过图书推荐和活动等方式，参与了BookTok和LibraryTok这两个社交平台的持续构建与维护。此外，我们还引入了“雏菊链”（daisy chains）的概念，这是一种有意识但非系统性的帖子标记策略，属于该平台特有的表达方式，它在复杂的算法系统中同时影响着内容的传播和交流。",
     "summary": "论文研究挪威公共图书馆在TikTok上的使用，基于3248条帖子数据，结合数字方法与知识组织分析标签链，提出‘daisy chains’概念，探讨图书馆参与BookTok和LibraryTok的传播实践。",
     "reason": "研究TikTok平台使用，采用数字方法收集和分析3248条帖子，探讨标签链与算法系统，符合计算传播学标准。",
     "tags": [
@@ -20483,7 +20517,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The use of emotional appeals in political conversations can be an effective strategy to trigger short-term engagement but also result in detrimental societal outcomes as alienation, polarization, and extremism. Whereas scholars examined different individual types of emotional appeals, this study proposes a multifaceted approach to understanding emotional appeals. It applies computational methods to extract tone, discrete emotions and topic modeling to extract topics later classified into appraisal types. Findings show that whereas users primarily posted content that was negative in tone, angry in emotion, and critical in appraisal, Twitter users engaged more with positive, joyful, supportive, or just neutral content.",
-    "abstract_zh": "在政治对话中使用情感诉求可以作为一种有效的策略来激发短期的关注度，但同时也可能导致一些负面的社会后果，如疏离感、两极分化以及极端主义。虽然学者们研究了不同类型的情感诉求，但本研究提出了一种多方面的方法来理解这些情感诉求。该方法运用计算技术来提取文本的语气、具体情感，并通过主题建模来识别讨论的主题，随后将这些主题分类为不同的评价类型。研究结果表明，尽管用户发布的内容主要以负面语气、愤怒的情感和批判性的评价为主，但Twitter用户更倾向于关注那些积极、愉快、支持性或中立的内容。",
+    "abstract_zh": "在政治对话中使用情感诉求可以作为一种有效的策略来激发短期的关注度，但同时也可能导致一些负面的社会后果，如疏离感、两极分化以及极端主义。尽管学者们研究了不同类型的情感诉求，本研究提出了一种多方面的方法来理解这些情感诉求。该方法运用计算技术来提取文本的语气、具体情感，并通过主题建模来识别文本的主题，随后将这些主题分类为不同的评价类型。研究结果表明，虽然用户发布的内容主要以负面语气、愤怒的情感和批判性的评价为主，但Twitter用户更倾向于关注那些积极、愉快、支持性或中立的内容。",
     "summary": "该研究运用计算文本分析方法提取Twitter上移民与选举对话的情绪、情感和主题，发现负面愤怒内容虽多，但用户更倾向于参与积极或中性的内容。",
     "reason": "使用计算方法（情感分析与主题建模）研究Twitter政治对话情绪与参与度，属于计算传播研究。",
     "tags": [
@@ -20506,7 +20540,7 @@
   {
     "id": 1612,
     "title": "I Trust You, but Let Me Talk to AI: The Role of the Chat Agents, Empathy, and Health Issues in Misinformation Guidance",
-    "title_zh": "我信任你，但让我先和人工智能谈谈：聊天机器人、同理心以及健康问题在错误信息引导中的作用",
+    "title_zh": "我信任你，但让我先和人工智能谈谈：聊天机器人、同理心以及在错误信息引导中的作用",
     "authors": [
       "EunHae Park"
     ],
@@ -20518,7 +20552,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study was designed to examine the impact of the chat agents (human vs. artificial intelligence [AI]) and communication style (empathy vs. advice only) on the user’s willingness to trust, attitudes, intention to follow advice, and intention to use online chats, all in contexts misinformation. The moderating role of public health topics based on varying levels of embarrassment was also explored to propose strategies for tailored chat elements. A total number of 280 adults participated in an experimental survey, and the results highlighted the role of the human agent in increasing trust and the positive effects of an AI agent in discussing embarrassing health topics like sexually transmitted diseases. Empathetic communication was essential for enhancing user’s attitudes, intention to use the online chat. AI-delivered empathy was more effective for embarrassing issues, whereas human-delivered empathy was more effective for neutral topics. This study extends the application of the effect of the agency effect and empathy to public health misinformation and supports the theory known as “computers are social actors”. Findings offer practical insights, presenting a clear combination of agent and empathy tailored for various public health issues, guiding the development of customized online chat to address health concerns and misinformation effectively.",
-    "abstract_zh": "本研究旨在探讨聊天机器人（人工智能 [AI] 与人类）以及沟通方式（富有同情心 vs. 仅提供建议）对用户信任度、态度、遵循建议的意愿以及使用在线聊天的意愿的影响，所有这些都在错误信息的背景下进行。研究还探讨了基于不同尴尬程度的公共卫生话题在其中的调节作用，以提出针对不同情况的聊天策略。共有 280 名成年人参与了这项实验性调查，结果表明，人类聊天机器人在提升用户信任度方面发挥了重要作用，而 AI 聊天机器人在讨论性传播疾病等令人尴尬的公共卫生话题时也表现出积极效果。富有同情心的沟通方式对于改善用户态度和使用在线聊天的意愿至关重要：在处理令人尴尬的问题时，AI 提供的同情心更为有效；而在处理中性话题时，人类提供的同情心更为有效。本研究将“代理效应”和“同情心”的影响扩展到了公共卫生错误信息的领域，并支持了“计算机是社会行为体”这一理论。研究结果提供了实用的见解，为针对不同公共卫生问题定制聊天内容和同情心表达方式提供了明确的方向，有助于开发出能够有效解决健康问题和错误信息的个性化在线聊天服务。",
+    "abstract_zh": "本研究旨在探讨聊天机器人（人类 vs. 人工智能 [AI]）以及沟通方式（富有同理心 vs. 仅提供建议）对用户信任度、态度、遵循建议的意愿以及使用在线聊天的意愿的影响，所有这些都在错误信息的背景下进行。研究还探讨了基于不同尴尬程度的公共卫生话题在调节这些关系中的作用，以提出针对不同情况的聊天策略。共有 280 名成年人参与了这项实验性调查，结果表明，人类聊天机器人在提升用户信任度方面发挥了重要作用，而人工智能聊天机器人在讨论性传播疾病等令人尴尬的公共卫生话题时也表现出积极效果。富有同理心的沟通方式对于改善用户态度和使用在线聊天的意愿至关重要：对于令人尴尬的问题，人工智能提供的同理心更为有效；而对于中性话题，则人类提供的同理心更为有效。本研究将“代理效应”和“同理心”的影响扩展到了公共卫生错误信息的领域，并支持了“计算机是社交行为体”这一理论。研究结果提供了实用的见解，为针对不同公共卫生问题定制聊天内容和同理心表达方式提供了明确的方向，有助于开发出能够有效解决健康问题和错误信息的个性化在线聊天服务。",
     "summary": "通过280人实验调查，比较人类与AI聊天代理及共情风格对用户信任、态度和行为意图的影响，并考察健康话题尴尬程度的调节作用。",
     "reason": "议题涉及AI在错误信息引导中的作用，属AI社会影响，即使方法为实验调查也纳入。",
     "tags": [
@@ -20540,7 +20574,7 @@
   {
     "id": 1095,
     "title": "Beyond Neutrality: A Longitudinal Analysis of Gender, Party, and Media Visibility in the Tone of US Political Coverage",
-    "title_zh": "超越中立性：美国政治报道中性别、政党与媒体曝光度的纵向分析",
+    "title_zh": "超越中立性：美国政治报道中性别、政党及媒体曝光度的纵向分析",
     "authors": [
       "Aliya Andrich"
     ],
@@ -20552,7 +20586,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Research shows that female politicians often receive more negative news coverage than their male counterparts, which can undermine voter support and contribute to their underrepresentation in politics. Despite the increase in politically active women and heightened attention to gender issues in political discourse in the United States, the past decade has also witnessed a rise in divisive rhetoric and political polarization. These changes not only transformed the political environment but also may have impacted media coverage of political figures. Despite the evolving sociopolitical landscape, existing research on news sentiment lacks a longitudinal perspective. This study uses transformer-based classifiers for sentiment detection and state space models for time series analysis to provide new longitudinal evidence on the evolution of positive and negative coverage of 1,095 US politicians in almost 900,000 news articles during the 2010s. The results indicate that while some female politicians experienced more negative coverage than men, the pattern varied depending on the politicians’ party affiliation and media visibility. In both election and routine periods, the media portrayed female Democrats, who received moderate levels of media coverage, less negatively than male Republicans, but more critically than female Republicans and male Democrats. Notably, Democratic and Republican women received slightly more positive coverage in most election years of the 2010s. Highly visible politicians, especially women, received more negative attention overall. The study and its findings advance our understanding of how news sentiment varies across different groups of politicians and how it fluctuates between election and nonelection periods.",
-    "abstract_zh": "研究表明，女性政治家往往比男性政治家受到更多的负面新闻报道，这可能会削弱选民对她的支持，并导致她们在政治中的代表性不足。尽管在美国积极参与政治的女性人数有所增加，人们对性别问题的关注也有所提高，但在过去十年中，分裂性的言论和政治极化现象也在加剧。这些变化不仅改变了政治环境，也可能影响了媒体对政治人物的报道方式。尽管社会政治格局在不断演变，但目前关于新闻情感的研究缺乏纵向视角（即对同一主题在不同时间点的连续观察）。本研究使用基于Transformer的模型进行情感分析，并采用状态空间模型进行时间序列分析，提供了关于2010年代近90万篇新闻文章中1,095位美国政治家正面和负面报道变化的新纵向证据。研究结果表明，虽然一些女性政治家受到的负面报道确实多于男性政治家，但这种模式因政治家的党派归属和媒体曝光度而异。在选举期间和平常时期，媒体对获得中等媒体曝光度的民主党女性的负面描述都少于对男性共和党人的负面描述，但对女性共和党人和男性民主党人的批评则更为严厉。值得注意的是，在2010年代的大多数选举年份中，无论是民主党女性还是共和党女性，都获得了略多的正面报道。尤其是那些高度受关注的政客（尤其是女性政客），总体上受到了更多的负面关注。这项研究及其发现有助于我们更好地理解新闻情感如何因不同政治群体而异，以及它在选举期间和非选举期间之间的波动情况。",
+    "abstract_zh": "研究表明，女性政治家往往比男性政治家受到更多的负面新闻报道，这可能会削弱选民对她的支持，并导致她们在政治中的代表性不足。尽管在美国积极参与政治的女性人数有所增加，人们对性别问题的关注也有所提高，但在过去十年中，分裂性的言论和政治极化现象也在加剧。这些变化不仅改变了政治环境，也可能影响了媒体对政治人物的报道方式。尽管社会政治格局在不断演变，但目前关于新闻情感的研究仍然缺乏纵向视角（即对同一群体在不同时间点的报道变化进行跟踪分析）。本研究使用基于Transformer的模型进行情感检测，并采用状态空间模型进行时间序列分析，提供了关于2010年代近90万篇新闻文章中1,095位美国政治家正面和负面报道变化的新纵向证据。研究结果表明，虽然一些女性政治家受到的负面报道确实多于男性政治家，但这种模式因政治家的党派归属和媒体曝光度而异。在选举期间和平常时期，媒体对获得中等媒体曝光度的民主党女性的负面描述都少于对男性共和党人的负面描述，但对女性共和党人和男性民主党人的批评则更为严厉。值得注意的是，在2010年代的大多数选举年份中，无论是民主党女性还是共和党女性，都获得了略多的正面报道。尤其是那些高度受关注的政客（尤其是女性政客），总体上受到了更多的负面关注。这项研究及其发现有助于我们更好地理解新闻情感如何因不同政治群体而异，以及它在选举期间和非选举期间之间的波动情况。",
     "summary": "该研究用Transformer情感分类和状态空间模型分析2010年代近90万篇新闻中1095位美国政治家的报道语气，揭示性别、党派与媒体可见性对报道正负面的影响。",
     "reason": "使用大规模新闻数据与机器学习模型分析政治报道语气，属典型计算传播研究",
     "tags": [
@@ -20575,7 +20609,7 @@
   {
     "id": 1098,
     "title": "Deepfakes as a Democratic Threat: Experimental Evidence Shows Noxious Effects That Are Reducible Through Journalistic Fact Checks",
-    "title_zh": "深度伪造作为民主的威胁：实验证据表明其具有有害影响，而这些影响可以通过新闻媒体的事实核查来消除",
+    "title_zh": "深度伪造对民主的威胁：实验证据表明其具有有害影响，但这些影响可以通过新闻媒体的事实核查来消除",
     "authors": [
       "Viorela Dan"
     ],
@@ -20587,7 +20621,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Concerns have been raised over AI-generated deepfakes and their impact on democracy. Unlike earlier forms of disinformation relying on text or traditional video-editing techniques (cheapfakes), deepfakes employ artificial intelligence, provoking speculations that they may be even more persuasive and harder to debunk. Using an experiment with a multiple-message design ( N = 2,085), we found that fake videos suggesting a sex, corruption, or prejudice scandal—but not text-only fakes—elicited substantial reputational damage for an innocent politician, regardless of whether the underlying technique was “cheap” or “deep.” This was visible in altered attitudes, emotions, and voting intentions. However, exposure to a journalistic fact-check substantially reduced and even eliminated the detrimental effects. These findings have important implications for our theoretical understanding related to the effects of and mitigation strategies for deepfakes. While clearly highlighting the significant persuasive potential of deepfakes (and visual disinformation in general), the present study paints a more nuanced picture than was previously possible.",
-    "abstract_zh": "关于人工智能生成的深度伪造内容及其对民主制度的影响，人们已经表达了担忧。与早期依赖文本或传统视频编辑技术的虚假信息（如“廉价伪造”）不同，深度伪造利用了人工智能技术，这引发了人们对于其可能更具说服力且更难以被揭穿的猜测。通过一项包含多条信息的实验（样本量N=2,085），我们发现，那些涉及性丑闻、腐败或偏见丑闻的虚假视频（而非仅包含文本的虚假信息）会对无辜的政治人物造成严重的声誉损害，无论所使用的技术是“廉价”的还是“高级”的。这种损害体现在人们态度、情绪和投票意愿的变化上。然而，当人们接触到新闻机构的事实核查内容后，这些负面效应显著减弱甚至消失了。这些发现对于我们理解深度伪造的影响及其缓解策略具有重要的理论意义。虽然这项研究清楚地揭示了深度伪造（以及一般意义上的视觉虚假信息）的强大说服力，但它呈现出的情况比以往更为复杂和细致。",
+    "abstract_zh": "关于人工智能生成的深度伪造内容及其对民主的影响，人们已经表达了担忧。与早期依赖文本或传统视频编辑技术的虚假信息（如“廉价伪造”）不同，深度伪造利用了人工智能技术，这引发了人们对于它们可能更具说服力且更难以揭穿的猜测。通过一项包含多条信息的实验（样本量N=2,085），我们发现，那些涉及性丑闻、腐败或偏见丑闻的虚假视频（而非仅包含文本的虚假信息）会对无辜的政治人物造成严重的声誉损害，无论其制作技术是“廉价”的还是“高级”的。这种损害体现在人们态度、情绪和投票意愿的变化上。然而，当人们接触到新闻机构的事实核查内容后，这些负面效应显著减轻甚至消失了。这些发现对于我们理解深度伪造的影响及其缓解策略具有重要的理论意义。虽然这项研究清楚地揭示了深度伪造（以及一般意义上的视觉虚假信息）的强大说服力，但它呈现出的情况比以往更为复杂和细致。",
     "summary": "通过实验（N=2085）考察deepfakes对政治家声誉的损害效应及事实核查的缓解作用，发现视频虚假信息（含deepfakes）显著影响态度与投票意向，但事实核查可消除负面影响。",
     "reason": "研究AI生成deepfakes的社会影响与传播效果，属于AI与大模型社会影响议题，纳入计算传播领域。",
     "tags": [
@@ -20609,7 +20643,7 @@
   {
     "id": 986,
     "title": "MOSS-6 : a multi-label dataset and deep learning model for detecting diverse social support-seeking behaviours in online mental health communities",
-    "title_zh": "MOSS-6：一个多标签数据集及用于检测在线心理健康社区中多种社会支持寻求行为的深度学习模型",
+    "title_zh": "MOSS-6：一个多标签数据集以及用于检测在线心理健康社区中多种寻求社会支持行为的深度学习模型",
     "authors": [
       "Jihye Kim",
       "On-yu Park",
@@ -20625,7 +20659,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Peer-based social support has proven to be an effective approach for enhancing recovery and coping mechanisms among individuals with mental disorders. Early intervention is crucial in treating mental disorders, as delays can lead to chronic conditions requiring sustained management. However, social stigma and limited public funding for mental health services in Korea have severely restricted access, creating a significant gap between the demand for therapeutic interventions and the available resources. The rapid growth of online platforms offers new opportunities to address this gap by providing tailored support through digital communities. Despite the potential of online social support, existing research has primarily focussed on face-to-face interactions or a narrow range of support types, leaving a significant gap in understanding the full spectrum of support-seeking behaviours in digital environments. To address this issue, we present the MOSS-6 dataset, the first Korean dataset specifically developed to comprehensively identify and classify six distinct types of social support-seeking behaviours in online mental health communities. The dataset was meticulously curated and annotated by mental health professionals/clinicians. Additionally, we developed a deep-learning model to accurately classify these support types. This research not only contributes to the understanding of diverse mental health needs within digital platforms but also lays the groundwork for more effective and personalized online mental health support systems. The MOSS-6 dataset is publicly accessible at https://github.com/dxlabskku/MOSS-6.",
-    "abstract_zh": "基于同伴的社会支持已被证明是增强患有精神障碍个体康复能力和应对机制的有效方法。早期干预对于治疗精神障碍至关重要，因为延迟可能会导致需要持续管理的慢性疾病。然而，韩国社会对精神健康的污名化以及公共资金投入的不足严重限制了人们获得这些服务的机会，从而在人们对治疗干预的需求与可用资源之间形成了巨大差距。在线平台的快速发展为通过数字社区提供定制化支持提供了新的机会。尽管在线社会支持具有潜力，但现有的研究主要集中在面对面的互动或有限类型的支持上，对于数字环境中各种寻求支持的行为仍缺乏全面的理解。为了解决这一问题，我们推出了MOSS-6数据集，这是首个专门为识别和分类在线心理健康社区中六种不同类型寻求社会支持行为而开发的韩国数据集。该数据集由心理健康专业人士/临床医生精心策划和标注。此外，我们还开发了一个深度学习模型来准确分类这些支持类型。这项研究不仅有助于了解数字平台中的多样化心理健康需求，还为更有效和个性化的在线心理健康支持系统奠定了基础。MOSS-6数据集可在以下链接公开获取：https://github.com/dxlabskku/MOSS-6。",
+    "abstract_zh": "基于同伴的社会支持已被证明是增强患有精神障碍个体康复能力和应对机制的有效方法。早期干预对于治疗精神障碍至关重要，因为延迟可能会导致需要持续管理的慢性疾病。然而，韩国社会对精神健康的污名化以及公共资金投入的不足严重限制了人们获得精神健康服务的机会，从而在人们对治疗干预的需求与可用资源之间形成了巨大差距。在线平台的迅速发展为通过数字社区提供定制化支持提供了新的机会。尽管在线社会支持具有潜力，但现有的研究主要集中在面对面的互动或有限类型的支持上，对于数字环境中各种寻求支持的行为仍缺乏全面了解。为了解决这一问题，我们推出了MOSS-6数据集，这是首个专门为全面识别和分类在线心理健康社区中六种不同类型寻求社会支持行为而开发的韩国数据集。该数据集由心理健康专业人士/临床医生精心策划和标注。此外，我们还开发了一个深度学习模型来准确分类这些支持类型。这项研究不仅有助于理解数字平台中的多样化心理健康需求，也为更有效和个性化的在线心理健康支持系统奠定了基础。MOSS-6数据集可在以下链接公开获取：https://github.com/dxlabskku/MOSS-6。",
     "summary": "论文构建韩语MOSS-6数据集，标注六类社会支持寻求行为，并开发深度学习模型进行分类，旨在促进在线心理健康支持系统的个性化。",
     "reason": "研究使用深度学习模型和自建数据集分析在线心理健康社区中的社会支持寻求行为，属于社交媒体与计算文本分析。",
     "tags": [
@@ -20647,7 +20681,7 @@
   {
     "id": 1673,
     "title": "Demystifying, delegitimizing, debunking: Discursive editorial strategies of neutralizing the rationales for Russia’s intervention in Ukraine",
-    "title_zh": "揭开神秘面纱、质疑其合法性、驳斥论点：削弱俄罗斯干预乌克兰理由的编辑话语策略",
+    "title_zh": "揭开谜团、质疑其合法性、驳斥论点：削弱俄罗斯干预乌克兰理由的舆论编辑策略",
     "authors": [
       "Katarzyna Molek‐Kozakowska",
       "Isabela‐Anda Dragomir"
@@ -20662,7 +20696,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study explores the ongoing coverage of the war in Ukraine with special attention paid to how media editors of 15 most prominent mainstream outlets in Poland, a country known for its pro-Ukrainian stance, neutralize Russia’s justifications for the invasion. It uses a special-purpose corpus of self-collected online publications released between February 2022 and June 2024. With both automated and manual methods of analysing collocates of such keywords as ‘Kremlin’ (753 instances), ‘special operation’ (139) and ‘NATO’ (1162), the study identifies a range of thematic domains, salient linguistic framings and rhetorical devices. It documents specific discursive strategies – demystification, delegitimation and debunking – used by editors to recontextualize Russia’s claims to wage preemptive war in Ukraine. The results show how editors use language to gauge audiences’ understandings of war and reactions to it. The findings can be used for journalism training or for raising critical media literacy and resilience to disinformation.",
-    "abstract_zh": "本研究探讨了媒体对乌克兰战争的持续报道，特别关注了波兰15家主流媒体的编辑们是如何处理俄罗斯为入侵乌克兰所提供的正当理由的。波兰作为一个亲乌克兰的国家，其媒体在报道中通常采取较为中立的立场。研究使用了2022年2月至2024年6月期间这些媒体发布的在线出版物作为分析材料。通过自动化和手动分析方法，研究者研究了诸如“克里姆林宫”（753次出现）、“特别行动”（139次）和“北约”（1162次）等关键词的使用情况，从而识别出一系列主题领域、显著的语言框架和修辞手法。研究还记录了编辑们所采用的特定话语策略——包括揭露真相、质疑俄罗斯的合法性以及驳斥其侵略行为——以重新解读俄罗斯关于在乌克兰发动预防性战争的声明。研究结果表明，编辑们通过语言来影响受众对战争的认知及其反应。这些发现可以为新闻从业者的培训提供参考，同时也有助于提高公众的媒体素养，增强他们辨别虚假信息的能力。",
+    "abstract_zh": "本研究探讨了媒体对乌克兰战争的持续报道，特别关注了波兰15家主流媒体的编辑们是如何处理俄罗斯为入侵乌克兰所提供的理由的。波兰是一个以支持乌克兰立场而闻名的国家。研究使用了2022年2月至2024年6月期间这些媒体自行收集的在线出版物作为分析材料。通过自动化和手动分析方法，研究者分析了诸如“克里姆林宫”（753次出现）、“特别行动”（139次）和“北约”（1162次）等关键词的使用情况，从而识别出一系列主题领域、显著的语言框架和修辞手法。研究记录了编辑们所采用的特定话语策略——包括揭露真相、质疑俄罗斯行为的合法性以及驳斥其借口——以重新解读俄罗斯关于在乌克兰发动预防性战争的声明。研究结果表明，编辑们通过语言来影响受众对战争的认知及其反应。这些发现可以为新闻从业者提供培训素材，同时也有助于提高公众的媒体素养，增强他们辨别虚假信息的能力。",
     "summary": "基于波兰15家主流媒体的自建语料库，结合自动与人工分析，考察编辑如何通过去神秘化、去合法化和揭穿策略中和俄罗斯的战争理由，揭示媒体话语对抗宣传的机制。",
     "reason": "使用语料库和自动文本分析方法考察媒体话语策略，属于计算文本分析、话语与传播的交叉研究。",
     "tags": [
@@ -20684,7 +20718,7 @@
   {
     "id": 1835,
     "title": "The memeification of China’s Twitter diplomacy, 2019–2022: Adding memes to the toolkit of China’s wolf warrior diplomats",
-    "title_zh": "2019–2022年中国推特外交的“模因化”现象：将模因纳入中国“狼性外交官”的工具箱",
+    "title_zh": "2019–2022年中国推特外交的“模因化”现象：将模因纳入中国“狼性外交官”的工具箱中",
     "authors": [
       "Mette Thunø",
       "Kristoffer Laigaard Nielbo",
@@ -20699,7 +20733,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study examines the use of memes as part of China’s digital diplomacy between 2019 and 2022. Few studies have examined how memes are used to advance state interests in relation to China’s public diplomacy. In this context, the main objective of this study is to provide a preliminary but comprehensive analysis of the content, objectives and novel practice of using memes to communicate China’s foreign policy goals on Twitter. To achieve this, we conduct multiple analyses through a combination of computational techniques and manual coding. The dataset comprises 725,000 tweets from 68 Chinese diplomats’ accounts and 13 state media accounts. Drawing on a theoretical framework regarding the use of humour in international relations, our findings reveal that Chinese diplomats’ use of images in their tweets resulted in significantly more retweets and tweets featuring playful memes achieved a high degree of virality. These memes employed sarcasm to amplify ideological contention, and in doing so, challenged traditional diplomatic decorum.",
-    "abstract_zh": "本研究探讨了2019年至2022年间模因在中国数字外交中的使用情况。目前很少有研究关注模因如何被用来推动中国的国家利益，尤其是在中国的公共外交领域。本研究的主要目的是对利用模因在Twitter上传达中国外交政策目标的内容、目的及创新实践进行初步但全面的分析。为此，我们采用了计算技术和人工编码相结合的方法进行了多次分析。数据集包含了来自68位中国外交官账户和13家官方媒体账户的725,000条推文。基于关于国际关系中幽默使用的理论框架，我们的研究发现：中国外交官在推文中使用图片后，获得了更多的转发；而那些包含幽默元素的模因具有很高的传播性。这些模因通过讽刺手法加剧了意识形态上的争议，从而挑战了传统的外交礼仪。",
+    "abstract_zh": "本研究探讨了2019年至2022年间模因在中国数字外交中的应用。目前很少有研究关注模因是如何被用来推动国家利益的，尤其是在中国的公共外交领域。本研究的主要目的是对利用模因在Twitter上传达中国外交政策目标的内容、目的及创新实践进行初步但全面的分析。为此，我们结合了计算技术和人工编码方法进行了多项分析。数据集包含了来自68位中国外交官账户和13家官方媒体账户的725,000条推文。基于关于国际关系中幽默运用的理论框架，我们的研究发现：中国外交官在推文中使用图片能够显著增加推文的转发次数；那些包含幽默元素的模因具有很高的传播性。这些模因通过讽刺手法加剧了意识形态上的争议，从而挑战了传统的外交礼仪规范。",
     "summary": "分析2019-2022年中国外交官与官方媒体在Twitter上使用meme进行数字外交的实践，基于72.5万条推文，结合计算技术与人工编码，发现meme增强了传播力并挑战传统外交礼仪。",
     "reason": "使用大量Twitter数据和计算技术分析中国外交官meme传播，属于计算传播学研究。",
     "tags": [
@@ -20721,7 +20755,7 @@
   {
     "id": 1048,
     "title": "Detecting Deception Through Linguistic Cues: From Reality Monitoring to Natural Language Processing",
-    "title_zh": "通过语言线索检测欺骗：从现实监控到自然语言处理",
+    "title_zh": "通过语言线索检测欺骗行为：从现实监控到自然语言处理",
     "authors": [
       "Riccardo Loconte",
       "Chiara Battaglini",
@@ -20740,7 +20774,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Detecting deception in interpersonal communication is a pivotal issue in social psychology, with significant implications for court and criminal proceedings. In this study, four experiments were designed to compare the performance of natural language processing (NLP) techniques and human judges in detecting deception from linguistic cues in a dataset of 62 transcriptions of video-taped interviews (32 genuine and 30 deceptive). The results showed that machine-learning algorithms significantly outperform naïve (accuracy = 54.7%) and expert judges (accuracy = 59.4%) when trained on features from the reality monitoring (RM) and cognitive load frameworks (accuracy = 69.4%) or on features automatically extracted through NLP techniques (accuracy = 77.3%) but not when trained on the RM criteria alone. This evidence suggests that NLP algorithms, due to their ability to handle complex patterns of linguistic data, might be useful for better disentangling truthful from deceptive narratives, outperforming traditional theoretical models.",
-    "abstract_zh": "检测人际交流中的欺骗行为是社会心理学中的一个关键问题，对法庭和刑事诉讼具有重要的意义。在这项研究中，设计了四个实验来比较自然语言处理（NLP）技术和人类裁判在识别视频访谈记录（共62份，其中32份为真实对话，30份为欺骗性对话）中的语言线索时的表现。结果表明，当机器学习算法基于“现实监控”（RM）和“认知负荷”框架的特征进行训练时（准确率为69.4%），或者基于通过NLP技术自动提取的特征进行训练时（准确率为77.3%），其表现显著优于简单的判断方法（准确率为54.7%）和专家裁判（准确率为59.4%）；然而，当仅基于“现实监控”框架的特征进行训练时，机器学习算法的优势并不明显。这一证据表明，由于NLP算法能够处理复杂的语言数据模式，它们可能在区分真实陈述和欺骗性陈述方面优于传统的理论模型。",
+    "abstract_zh": "检测人际交流中的欺骗行为是社会心理学中的一个关键问题，对法庭和刑事诉讼具有重要的意义。在这项研究中，设计了四个实验来比较自然语言处理（NLP）技术和人类裁判在识别语言线索中的欺骗行为方面的表现。实验使用了62段视频访谈的转录文本（其中32段为真实对话，30段为欺骗性对话）。结果表明，当机器学习算法基于“现实监控”（RM）和“认知负荷”（CL）框架的特征进行训练时（准确率为69.4%），或者基于通过NLP技术自动提取的特征进行训练时（准确率为77.3%），其表现显著优于简单的判断方法（准确率为54.7%）和专家裁判（准确率为59.4%）；然而，当仅基于“现实监控”框架的特征进行训练时，机器学习算法的优势并不明显。这一证据表明，由于NLP算法能够处理复杂的语言数据模式，它们可能更有效地区分真实陈述和欺骗性陈述，从而优于传统的理论模型。",
     "summary": "通过四项实验比较NLP算法与人类判断在视频访谈数据中检测欺骗的表现，结果显示NLP算法准确率显著高于人类。",
     "reason": "使用NLP和机器学习检测欺骗，属于计算方法分析传播/语言线索，议题和计算方法均契合。",
     "tags": [
@@ -20761,7 +20795,7 @@
   {
     "id": 1254,
     "title": "The bad citizen? Framing non-voting on Twitter during the 2020 U.S. election",
-    "title_zh": "坏公民？2020年美国大选期间推特上对不投票行为的解读",
+    "title_zh": "坏公民？2020年美国大选期间推特上对不投票行为的舆论塑造",
     "authors": [
       "Chelsea Butkowski",
       "Sam R. Wilson",
@@ -20774,7 +20808,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Although voting is considered a cornerstone of democratic citizenship, the U.S. has grappled with low voter turnouts for over a century. We examine America’s “non-voters problem” by adopting a mixed methods behavioral approach to analyze nonvoting discourses on Twitter during the 2020 U.S. election. Our findings suggest that tweets about nonvoting from self-proclaimed voters as well as eligible and ineligible non-voters reflect distinct citizenship norms and sense-making approaches to election nonparticipation. This research underscores social media’s role as an outlet for those who are unable or unwilling to express their political opinions through conventional civic channels.",
-    "abstract_zh": "尽管投票被视为民主公民身份的基石，但美国一个多世纪以来一直面临着选民投票率低的问题。我们采用混合方法的行为学研究方法，分析了2020年美国大选期间Twitter上关于不投票的言论，以此来探讨美国的“非选民问题”。研究结果表明，自称选民的人以及有投票资格和无投票资格的非选民所发布的关于不投票的推文，反映了不同的公民规范以及对选举不参与的不同认知方式。这项研究强调了社交媒体在那些无法或不愿意通过传统公民渠道表达政治观点的人中的作用。",
+    "abstract_zh": "尽管投票被视为民主公民身份的基石，但美国一个多世纪以来一直面临着选民投票率低的问题。我们采用混合方法的行为学研究方法，分析了2020年美国大选期间Twitter上关于不投票的言论，以此来探讨美国的“非选民问题”。研究结果表明，无论是自称选民的人，还是符合条件的或不符合条件的非选民，他们发布的关于不投票的推文都反映了不同的公民规范以及对选举不参与的不同认知方式。这项研究强调了社交媒体在那些无法或不愿意通过传统公民渠道表达政治观点的人中的作用。",
     "summary": "采用混合方法分析2020年美国大选期间Twitter上关于非投票的推文，探讨不同身份用户的公民规范与意义建构。",
     "reason": "研究Twitter上非投票话语，涉及社交媒体平台与政治传播，属计算传播领域。",
     "tags": [
@@ -20807,7 +20841,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The debate surrounding the religious dimension of the Nagorno-Karabakh conflict is practically as old as the conflict itself. Despite credible historical evidence that religious differences are not a causal factor of the war between Armenia and Azerbaijan, Western media coverage of the region has frequently relied on a ‘Christians vs Muslims’ framing. This article examines the origins of this media narrative, arguing that it stems primarily from a combination of concerted efforts by the Armenian diaspora to describe the conflict in religious terms, as well as a reductive Western perspective of the South Caucasus region. Then, leveraging a large dataset of English-language news articles dating back to 1988, I trace the evolution of Nagorno-Karabakh coverage and find that the emphasis on religion has generally decreased over time. I conclude by specifically examining journalism on the Second Nagorno-Karabakh War and demonstrating that an outlet’s choice to highlight religion is often a function of its political affiliation.",
-    "abstract_zh": "关于纳戈尔诺-卡拉巴赫冲突的宗教层面的争论几乎与冲突本身一样悠久。尽管有可靠的历史证据表明，宗教差异并非亚美尼亚和阿塞拜疆之间战争的根源，但西方媒体对该地区的报道却经常采用“基督徒 vs 穆斯林”的框架。本文探讨了这种媒体叙事的出现原因，认为其主要源于亚美尼亚侨民试图用宗教角度来描述冲突的集体努力，以及西方对南高加索地区的片面认知。随后，通过分析自1988年以来的大量英文新闻文章，本文追踪了纳戈尔诺-卡拉巴赫相关报道的发展趋势，发现媒体对宗教问题的关注度总体上有所下降。最后，本文特别研究了第二次纳戈尔诺-卡拉巴赫战争期间的新闻报道，指出媒体是否强调宗教问题往往取决于其政治立场。",
+    "abstract_zh": "关于纳戈尔诺-卡拉巴赫冲突的宗教层面的争论几乎与冲突本身一样悠久。尽管有可靠的历史证据表明，宗教差异并非亚美尼亚和阿塞拜疆之间战争的根源，但西方媒体对该地区的报道却经常采用“基督徒与穆斯林对立”的框架。本文探讨了这种媒体叙事的出现原因，认为其主要源于亚美尼亚侨民试图从宗教角度描述冲突的共同努力，以及西方对南高加索地区片面的认知。随后，通过分析自1988年以来的大量英文新闻文章，本文追踪了纳戈尔诺-卡拉巴赫相关报道的发展趋势，发现媒体对宗教问题的关注度总体上有所下降。最后，本文特别研究了第二次纳戈尔诺-卡拉巴赫战争期间的新闻报道，指出媒体是否强调宗教问题往往取决于其政治立场。",
     "summary": "研究西方媒体对纳卡冲突报道中宗教框架的演变，利用1988年以来的大量英文新闻数据，发现宗教强调随时间减少，且与媒体政治立场相关。",
     "reason": "使用大规模新闻数据集追踪报道演变，属于计算传播学方法。",
     "tags": [

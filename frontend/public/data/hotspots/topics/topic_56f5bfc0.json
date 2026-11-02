@@ -1,23 +1,23 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "数字宣传与虚假信息生态",
-  "description": "考察虚假信息、宣传与信息作战的生产机制、基础设施化传播及受众参与效果。",
-  "why_hot": "近30天日均发表速度较前期提升约33%，并有研究扩散至6本期刊，热度上升。",
-  "hot_score": 80,
-  "growth": 0.333,
-  "growth_rate": 0.333,
-  "recent_rate": 0.2667,
+  "label": "虚假信息与信息行动的宣传机制",
+  "description": "研究虚假信息受众参与、宣传基础设施化与生成式内容在战争记忆和战略传播中的效果。",
+  "why_hot": "近30天日均发表速度较前期增长67%，为各主题中升温最明显者之一。",
+  "hot_score": 84,
+  "growth": 0.667,
+  "growth_rate": 0.667,
+  "recent_rate": 0.3333,
   "baseline_rate": 0.2,
-  "recent_count": 8,
+  "recent_count": 10,
   "baseline_count": 30,
-  "journal_count": 6,
+  "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "disinformation",
     "propaganda",
     "information operations",
-    "AI-generated video",
+    "AI-generated media",
     "strategic communication"
   ],
   "papers": [
@@ -62,6 +62,20 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-10-14",
       "summary": "研究通过随机实验比较真实与AI生成战争视频对社交媒体用户感知真实性、信任、情绪唤醒、态度及行为意向的影响。"
+    },
+    {
+      "id": 2156,
+      "title": "Evolution of Crisis Communication: Exploring Organizational Perceptions and Social Media Adoption in Vietnam’s Dynamic Digital Landscape",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-10-13",
+      "summary": "论文比较2018与2023年越南公共关系从业者的访谈数据，探讨社交媒体在危机传播中角色的演变，结合创新扩散理论分析媒体特征与文化因素对社交媒体采纳的影响，聚焦非西方快速数字化转型情境。"
+    },
+    {
+      "id": 2165,
+      "title": "From Facebook to political actions: nationalism, patriotism, and participation in Vietnam’s digital sphere",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-13",
+      "summary": "以越南为背景，通过问卷调查考察三类 Facebook 使用行为与四类政治参与的关系，并检验民族主义与爱国情感的中介作用，发现主动非社交使用正向预测民族主义与爱国态度，民族主义态度负向关联对抗性参与。"
     },
     {
       "id": 2151,
@@ -141,13 +155,6 @@
       "summary": "研究通过分析近300个国家对齐Telegram频道，网络追踪“斯大林格勒”文本的流通，揭示其情感动员形成“环境战争”氛围，连接二战与当前俄乌战争。"
     },
     {
-      "id": 2015,
-      "title": "(Elite) Monologues on social media during Cyprus’ peace negotiations: Twitter as a mirror of offline politics in divided societies",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-08-27",
-      "summary": "以社交网络视角分析2021年塞浦路斯和平谈判期间Twitter精英影响者的互动，揭示其主导讨论且缺乏跨阵营对话，反映并再生产线下政治分裂。"
-    },
-    {
       "id": 1972,
       "title": "Trauma-Selfie: Active victimhood in war",
       "journal": "Media War & Conflict",
@@ -174,6 +181,13 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-07-30",
       "summary": "论文提出武器化叙事的四阶段心理影响模型，涵盖身份、威胁、道德和阴谋叙事策略，并以俄罗斯2014年克里米亚叙事行动为例，探讨AI在叙事扩散中的放大作用及反叙事策略。"
+    },
+    {
+      "id": 15,
+      "title": "Inclusive Crisis Communication: Addressing Diverse Audiences in the Digital Age",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-07-27",
+      "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
     },
     {
       "id": 246,
@@ -267,25 +281,25 @@
       "summary": "研究澳大利亚五家主流媒体对以色列-加沙冲突的报道框架，分析5183篇文章，发现从外交政治框架转向危机冲突框架，提出冲突启动理论。"
     },
     {
+      "id": 375,
+      "title": "Depicting digital authoritarianism in China and Vietnam: a mixed-method analysis of convergent and divergent patterns in cybersecurity narratives",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-05-13",
+      "summary": "通过混合方法比较中越国家媒体网络安全话语，揭示两种数字威权主义的沟通逻辑，分别强调全球竞争与内部安全化。"
+    },
+    {
+      "id": 376,
+      "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-05-08",
+      "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
+    },
+    {
       "id": 506,
       "title": "Not only compatriots: A typology of foreign Facebook audiences engaging with Russia’s domestic news",
       "journal": "Media War & Conflict",
       "published_date": "2026-05-07",
       "summary": "分析912个外国Facebook公共空间分享俄罗斯国内新闻的情况，构建基于俄罗斯联系和主题倾向的类型学，揭示语言邻近性、意识形态空间和前社会主义国家空间的传播模式。"
-    },
-    {
-      "id": 223,
-      "title": "“Everything for the Front, Everything for Victory”? Elite Incentives and Rhetorical Adaptation of Russia’s Members of Parliament on Social Media",
-      "journal": "Political Communication",
-      "published_date": "2026-05-05",
-      "summary": "研究俄罗斯议员在2022-23年乌克兰冲突期间社交媒体帖子的修辞适应，基于14.4万条帖子，用词嵌入和主题分类发现议员帖子反映官方宣传及个人政治激励，揭示威权体制下政治沟通与外部冲突的关系。"
-    },
-    {
-      "id": 108,
-      "title": "Bridging disinformation and cybersecurity in the social sciences: a scoping review",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-04",
-      "summary": "该综述系统梳理截至2024年社会科学领域关于错误/虚假信息与网络安全交叉的研究，分析术语定义、主题关联、理论框架及概念演化，发现研究重心从技术应对转向伦理法律与社会考量。"
     }
   ],
   "paper_edges": []

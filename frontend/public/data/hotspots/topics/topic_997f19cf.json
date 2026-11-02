@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "网络仇恨言论与说服机制",
-  "description": "探讨网络仇恨与极端内容的表达、审核治理，以及反制言论和说服的情感认知过程。",
-  "why_hot": "近30天日均发表速度较前期提升约58%，为各主题中升温较明显者。",
-  "hot_score": 77,
-  "growth": 0.579,
-  "growth_rate": 0.579,
-  "recent_rate": 0.2,
-  "baseline_rate": 0.1267,
-  "recent_count": 6,
-  "baseline_count": 19,
+  "label": "网络敌意与说服过程的情感机制",
+  "description": "聚焦在线仇恨言论的社会认可动因，以及说服过程中情绪、认知与传播者特征的作用路径。",
+  "why_hot": "近30天日均发表速度较前期下降41%，主题热度明显降温。",
+  "hot_score": 38,
+  "growth": -0.412,
+  "growth_rate": -0.412,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.1133,
+  "recent_count": 2,
+  "baseline_count": 17,
   "journal_count": 6,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
     "online hate",
-    "hate speech",
-    "counter-speech",
-    "content moderation",
-    "persuasion"
+    "persuasion",
+    "emotion",
+    "social approval",
+    "message features"
   ],
   "papers": [
     {
@@ -27,13 +27,6 @@
       "journal": "Communication Research",
       "published_date": "2026-10-25",
       "summary": "研究基于Parler 2018—2021年1.1亿条消息，检验社会认可理论，发现点赞等认可信号对仇恨言论与毒性程度存在即时负向、长期正向的差异化预测效应。"
-    },
-    {
-      "id": 2150,
-      "title": "Humor on the street, humor on the screen: protest banners, AI-generated avatars, and the visual politics of dissent after the arrest of Istanbul’s mayor",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-10-13",
-      "summary": "研究伊斯坦布尔市长被捕后国家禁令下的视觉抵抗：分析105幅街头横幅与106个AI生成头像，论证线下横幅与线上头像构成同一“可见性经济”，幽默作为符号工具放大政治意义，讨论AI中介政治图像与混合政体中的视觉抗争。"
     },
     {
       "id": 2122,
@@ -62,20 +55,6 @@
       "journal": "Communication Research",
       "published_date": "2026-09-29",
       "summary": "基于社会认同集体行动模型（SIMCA），通过两项实验（穆斯林 N=328、拉丁裔 N=583）检验网络仇恨言论对少数群体集体行动意向的影响机制与边界条件，发现仇恨言论经由群体不公感提升集体行动意向，信息被标记为不准确或反驳言论可调节该效应。"
-    },
-    {
-      "id": 2025,
-      "title": "The Language of Democratic Resilience and Decline: A Comparative Study of Politicians’ Communication on Facebook in Sweden and Hungary",
-      "journal": "Political Communication",
-      "published_date": "2026-09-11",
-      "summary": "比较瑞典与匈牙利政客在 Facebook 上的传播语言，探讨民主韧性与衰退的话语特征，属社交媒体政治传播的比较研究。"
-    },
-    {
-      "id": 1991,
-      "title": "Creator-led political satire on TikTok: youth expression in post-election Indonesia",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-09-05",
-      "summary": "通过定性数字话语分析25集TikTok讽刺课堂视频，探讨印尼大选后青年政治表达和平台化政治批判。"
     },
     {
       "id": 1961,
@@ -113,13 +92,6 @@
       "summary": "通过对24位大学教授的访谈，探讨学者作为数字仇恨目标对施害者和旁观者的感知，强调权力失衡与战略挑衅，发现旁观者干预不足，需集体应对。"
     },
     {
-      "id": 1935,
-      "title": "Kamala is Brat: TikTok and the Affective Politics of Memes",
-      "journal": "Political Communication",
-      "published_date": "2026-08-12",
-      "summary": "研究TikTok上“Kamala is Brat”迷因的形式、功能与情感共鸣，分析创作者如何重构哈里斯形象，揭示平台迷因文化作为选举中介机制。"
-    },
-    {
       "id": 1898,
       "title": "Corporate digital responsibility: what drives public expectations towards companies’ role in the digital society?",
       "journal": "Information Communication & Society",
@@ -132,13 +104,6 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-07-05",
       "summary": "研究整合SIMCA与纠正行动理论，基于995名美国拉丁裔调查数据，考察集体效能、群体认同和社交媒体新闻接触对集体表达的影响。"
-    },
-    {
-      "id": 1943,
-      "title": "Make Campaigns Dance Again: The Trumpdance and the Memeaesthetic Logic of TikTok",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究特朗普YMCA舞蹈在TikTok上的传播，基于API采集6799个视频，分析参与模式与算法可见性，提出迷因美学逻辑。"
     },
     {
       "id": 2022,

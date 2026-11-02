@@ -1,0 +1,173 @@
+{
+  "topic_id": "topic_048453e4",
+  "label": "数字抗争的视觉政治与幽默表达",
+  "description": "研究抗议横幅、生成式虚拟形象与幽默话语如何构成 dissent 的视觉政治，并反思迁移议题的媒介效果。",
+  "why_hot": "近30天日均发表速度较前期下降47%，主题热度有所回落。",
+  "hot_score": 36,
+  "growth": -0.474,
+  "growth_rate": -0.474,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.1267,
+  "recent_count": 2,
+  "baseline_count": 19,
+  "journal_count": 6,
+  "lineage_status": "new",
+  "status": "emerging",
+  "keywords": [
+    "visual politics",
+    "protest",
+    "humor",
+    "AI avatars",
+    "media effects"
+  ],
+  "papers": [
+    {
+      "id": 2150,
+      "title": "Humor on the street, humor on the screen: protest banners, AI-generated avatars, and the visual politics of dissent after the arrest of Istanbul’s mayor",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-13",
+      "summary": "研究伊斯坦布尔市长被捕后国家禁令下的视觉抵抗：分析105幅街头横幅与106个AI生成头像，论证线下横幅与线上头像构成同一“可见性经济”，幽默作为符号工具放大政治意义，讨论AI中介政治图像与混合政体中的视觉抗争。"
+    },
+    {
+      "id": 2115,
+      "title": "Whose voices and which effects? A scoping review of migration and social media effects",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-04",
+      "summary": "该文对2020—2025年65项移民语境下社交媒体效果研究进行范围综述，基于差异易感性模型分析内容类型、样本特征、效果类型及中介调节因素，发现宿主群体量化研究与移民群体质性研究相互脱节，呼吁整合性研究。"
+    },
+    {
+      "id": 2025,
+      "title": "The Language of Democratic Resilience and Decline: A Comparative Study of Politicians’ Communication on Facebook in Sweden and Hungary",
+      "journal": "Political Communication",
+      "published_date": "2026-09-11",
+      "summary": "比较瑞典与匈牙利政客在 Facebook 上的传播语言，探讨民主韧性与衰退的话语特征，属社交媒体政治传播的比较研究。"
+    },
+    {
+      "id": 2028,
+      "title": "How Do Social Media Influencers Motivate Prosocial Intentions? The Interaction of SMI Gender and Expertise",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-09-10",
+      "summary": "研究探讨社交媒体影响者的性别与专业度如何交互影响受众的亲社会行为意向，属战略传播领域的说服效果研究，采用实验或调查方法验证假设。"
+    },
+    {
+      "id": 1991,
+      "title": "Creator-led political satire on TikTok: youth expression in post-election Indonesia",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-09-05",
+      "summary": "通过定性数字话语分析25集TikTok讽刺课堂视频，探讨印尼大选后青年政治表达和平台化政治批判。"
+    },
+    {
+      "id": 1949,
+      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-21",
+      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
+    },
+    {
+      "id": 1928,
+      "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-13",
+      "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
+    },
+    {
+      "id": 1935,
+      "title": "Kamala is Brat: TikTok and the Affective Politics of Memes",
+      "journal": "Political Communication",
+      "published_date": "2026-08-12",
+      "summary": "研究TikTok上“Kamala is Brat”迷因的形式、功能与情感共鸣，分析创作者如何重构哈里斯形象，揭示平台迷因文化作为选举中介机制。"
+    },
+    {
+      "id": 8,
+      "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
+      "journal": "Political Communication",
+      "published_date": "2026-07-29",
+      "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
+    },
+    {
+      "id": 395,
+      "title": "Tactics of the Weak: Digital Resistance and Identity Reconstruction of TikTok Refugees on RedNote",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-19",
+      "summary": "研究美国TikTok用户迁移至RedNote后的数字抵抗策略，基于de Certeau理论分析426个视频，总结情感动员、狂欢表演和基础设施抵抗三种战术。"
+    },
+    {
+      "id": 248,
+      "title": "“TikTok refugees”: motivations and political correlates of international platform migration",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-13",
+      "summary": "探讨国际用户从TikTok迁移至其他平台的动机及其政治相关因素，属于社交媒体平台与政治传播交叉研究。"
+    },
+    {
+      "id": 284,
+      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
+    },
+    {
+      "id": 1942,
+      "title": "Negotiating the Influencer Imaginary: How Everyday Professionals Construct Legitimacy on Social Media",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
+    },
+    {
+      "id": 1943,
+      "title": "Make Campaigns Dance Again: The Trumpdance and the Memeaesthetic Logic of TikTok",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究特朗普YMCA舞蹈在TikTok上的传播，基于API采集6799个视频，分析参与模式与算法可见性，提出迷因美学逻辑。"
+    },
+    {
+      "id": 1994,
+      "title": "“Fairness Labels” in Feeds: Process Disclosures, Provenance, and User Choice Among Short‑Video Creators in Mainland China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过移动在线实验，研究面向中国短视频创作者的公平性披露对感知程序正义、分配公平及合法性的影响。"
+    },
+    {
+      "id": 212,
+      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
+      "journal": "Political Communication",
+      "published_date": "2026-06-30",
+      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
+    },
+    {
+      "id": 441,
+      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-01",
+      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
+    },
+    {
+      "id": 443,
+      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-05-31",
+      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
+    },
+    {
+      "id": 93,
+      "title": "Calling out disclosures, protecting followers: the new governors of influencer culture on TikTok",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-27",
+      "summary": "探讨TikTok上网红信息披露行为及其对关注者的保护，分析平台治理中的新机制。"
+    },
+    {
+      "id": 99,
+      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-24",
+      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
+    },
+    {
+      "id": 102,
+      "title": "Clustered governance: how Chinese social media platforms curate and control influencers’ content creation",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-12",
+      "summary": "研究小红书通过“集群治理”组织网红群体，结合人工与算法策展控制内容创作，削弱创作者自主性，基于访谈与民族志方法。"
+    }
+  ],
+  "paper_edges": []
+}
