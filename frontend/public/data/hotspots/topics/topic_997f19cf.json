@@ -3,16 +3,16 @@
   "label": "网络敌意与说服过程的情感机制",
   "description": "聚焦在线仇恨言论的社会认可动因，以及说服过程中情绪、认知与传播者特征的作用路径。",
   "why_hot": "近30天日均发表速度较前期下降41%，主题热度明显降温。",
-  "hot_score": 38,
-  "growth": -0.412,
-  "growth_rate": -0.412,
-  "recent_rate": 0.0667,
-  "baseline_rate": 0.1133,
-  "recent_count": 2,
-  "baseline_count": 17,
+  "hot_score": 65,
+  "growth": 0.5,
+  "growth_rate": 0.5,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.0667,
+  "recent_count": 3,
+  "baseline_count": 10,
   "journal_count": 6,
   "lineage_status": "continued",
-  "status": "emerging",
+  "status": "hot",
   "keywords": [
     "online hate",
     "persuasion",
@@ -36,11 +36,11 @@
       "summary": "基于r/ChangeMyView约6万帖子，用LIWC、主成分分析和多层逻辑回归，检验认知推理、情感表达与真实沟通风格对说服成功的影响。"
     },
     {
-      "id": 2154,
-      "title": "Webs of Ainu Mosir: Indigenous Creative Networks on YouTube",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "研究利用YouTube API采集428个阿伊努相关视频，分类合作者并量化网络关系，分析个人、社群等合作模式及中心性，探讨原住民在虚拟Mosir中的多媒体生产与社交网络协作。"
+      "id": 2128,
+      "title": "From feeds to fury: how social media news use fuels radicalism and contentious politics",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-08",
+      "summary": "基于美国成年人配额在线样本（N=760）调查，检验社交媒体政治新闻接触如何经由左右翼激进主义与系统性受害者感知，影响争议性政治参与及政治暴力支持。"
     },
     {
       "id": 2097,
@@ -92,25 +92,11 @@
       "summary": "通过对24位大学教授的访谈，探讨学者作为数字仇恨目标对施害者和旁观者的感知，强调权力失衡与战略挑衅，发现旁观者干预不足，需集体应对。"
     },
     {
-      "id": 1898,
-      "title": "Corporate digital responsibility: what drives public expectations towards companies’ role in the digital society?",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-07",
-      "summary": "研究公众对企业数字责任角色的期望，探讨企业在数字社会中的责任认知，但缺乏具体方法与数据信息。"
-    },
-    {
       "id": 250,
       "title": "Integrating corrective action theory into the social identity model of collective action to explain U.S. Latinos/as’ social media political expression",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-07-05",
       "summary": "研究整合SIMCA与纠正行动理论，基于995名美国拉丁裔调查数据，考察集体效能、群体认同和社交媒体新闻接触对集体表达的影响。"
-    },
-    {
-      "id": 2022,
-      "title": "Constructing Online Harms: How “Trust and Safety” Translates Safety Into Risk",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过对42位“信任与安全”从业者的访谈及行业论坛观察，作者揭示平台内部如何将用户伤害建构为可操作的公司风险（法律责任、声誉、营收），并描述其倡导者定位、风险转译与行业展演三重机制。"
     },
     {
       "id": 2026,
@@ -125,34 +111,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "研究以焦点小组探讨用户自身认为哪些内容需要被审核，发现用户除关注极化议题与不文明言论外，更在意发布者动机与受害者脆弱性，主张平台在设计自动化审核系统时应纳入用户视角，采取更具针对性的措施并配套问责与保护机制。"
-    },
-    {
-      "id": 2036,
-      "title": "Indigenous digital life: the practice and politics of being Indigenous on social media",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-02",
-      "summary": "该文（书评性质）围绕原住民在社交媒体上的数字生活展开，讨论其线上身份实践与政治表达，关注平台空间中边缘群体的数字生存与权力关系。"
-    },
-    {
-      "id": 37,
-      "title": "Political Identity Threats on Social Media",
-      "journal": "Communication Research",
-      "published_date": "2026-05-08",
-      "summary": "研究社交媒体上政治身份威胁的识别与影响，通过两个实验发现威胁类型非离散且对强党派身份者影响更大。"
-    },
-    {
-      "id": 106,
-      "title": "Bad domains: exposure to malicious content online",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-08",
-      "summary": "利用美国千人代表性样本的域名级浏览数据，结合恶意域名库，分析不同人口特征群体对恶意网站的暴露差异，发现暴露集中于少数用户，且差异主要由上网强度解释。"
-    },
-    {
-      "id": 39,
-      "title": "Shaping Interpersonal Communication About Persuasive Media Campaigns by Inducing Critical Versus Collective Orientations",
-      "journal": "Communication Research",
-      "published_date": "2026-05-07",
-      "summary": "实验考察讨论提示（批判/集体导向）如何影响含糖饮料减少广告的人际讨论，发现引导性讨论可缓解反效果，文本分析揭示机制。"
     }
   ],
   "paper_edges": []

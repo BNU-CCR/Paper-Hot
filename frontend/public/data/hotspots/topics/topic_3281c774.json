@@ -3,13 +3,13 @@
   "label": "数字传播伦理与危机沟通的关怀取向",
   "description": "关注文化机构与组织在危机与虚假信息治理中的伦理决策、关怀伦理实践与数据可视化的情感功能。",
   "why_hot": "近30天日均发表速度较前期增长92%，为本批主题中升温最快者。",
-  "hot_score": 74,
-  "growth": 0.923,
-  "growth_rate": 0.923,
+  "hot_score": 73,
+  "growth": 0.786,
+  "growth_rate": 0.786,
   "recent_rate": 0.1667,
-  "baseline_rate": 0.0867,
+  "baseline_rate": 0.0933,
   "recent_count": 5,
-  "baseline_count": 13,
+  "baseline_count": 14,
   "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
@@ -57,11 +57,11 @@
       "summary": "基于社会认同理论，用混合方法考察组织关怀伦理如何通过伦理文化、组织认同与情感投入的链式中介，促使战略传播从业者参与虚假信息治理，并归纳出认知停顿、身份把关、数字分流与关系性守护四个主题。"
     },
     {
-      "id": 2058,
-      "title": "From Parasocial Involvement to Community Identification: Explaining Monetized Support in VTuber Live Streaming",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-09-18",
-      "summary": "论文探讨VTuber直播中观众的准社会卷入与社群认同如何解释其付费打赏行为，属直播平台受众行为的传播学研究。"
+      "id": 2154,
+      "title": "Webs of Ainu Mosir: Indigenous Creative Networks on YouTube",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "研究利用YouTube API采集428个阿伊努相关视频，分类合作者并量化网络关系，分析个人、社群等合作模式及中心性，探讨原住民在虚拟Mosir中的多媒体生产与社交网络协作。"
     },
     {
       "id": 1993,
@@ -78,6 +78,13 @@
       "summary": "分析2023-2024年巴勒斯坦Instagram用户的9126条帖子，识别三种视觉主题，并与国际新闻标题比较，展示用户生成内容如何抵抗主流叙事和算法压制。"
     },
     {
+      "id": 1898,
+      "title": "Corporate digital responsibility: what drives public expectations towards companies’ role in the digital society?",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-07",
+      "summary": "研究公众对企业数字责任角色的期望，探讨企业在数字社会中的责任认知，但缺乏具体方法与数据信息。"
+    },
+    {
       "id": 1901,
       "title": "Replatformization and the expansion of the alt-tech ecosystem on kiwi farms",
       "journal": "Information Communication & Society",
@@ -92,11 +99,11 @@
       "summary": "探讨20个丹麦绿色NGO在混合媒体环境中对数字平台的内外沟通使用，发现其平台偏好相似但策略不同，外部以受众为导向，内部采用工具拼凑，Facebook占据核心但存在依赖悖论。"
     },
     {
-      "id": 63,
-      "title": "Platforming pocket money: family finance apps and the datafication of child economies",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-07-15",
-      "summary": "分析儿童理财APP的特征，探讨其如何通过数据追踪与管理重塑儿童的经济参与，并讨论数据化对儿童金融主体与客体的构建。"
+      "id": 246,
+      "title": "Digital transformation and contested sovereignty in humanitarian action",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-23",
+      "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
     },
     {
       "id": 69,
@@ -106,11 +113,11 @@
       "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
     },
     {
-      "id": 71,
-      "title": "Infrastructural hubris and platform power: the failed scalability of Google Stadia",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-30",
-      "summary": "通过分析170份专业媒体、Reddit和YouTube文档，探讨Google Stadia云游戏平台失败原因，提出“基础设施傲慢”概念，强调技术能力需配合平台层面的利益相关者参与。"
+      "id": 2022,
+      "title": "Constructing Online Harms: How “Trust and Safety” Translates Safety Into Risk",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过对42位“信任与安全”从业者的访谈及行业论坛观察，作者揭示平台内部如何将用户伤害建构为可操作的公司风险（法律责任、声誉、营收），并描述其倡导者定位、风险转译与行业展演三重机制。"
     },
     {
       "id": 614,
@@ -134,18 +141,18 @@
       "summary": "通过文献计量综述316篇WoS论文，梳理公关、组织传播与企业传播的融合，提出战略传播作为整合性治理功能的理论模型。"
     },
     {
+      "id": 2036,
+      "title": "Indigenous digital life: the practice and politics of being Indigenous on social media",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-02",
+      "summary": "该文（书评性质）围绕原住民在社交媒体上的数字生活展开，讨论其线上身份实践与政治表达，关注平台空间中边缘群体的数字生存与权力关系。"
+    },
+    {
       "id": 217,
       "title": "Moving Targets, Moving Politics: The State of Play in Social Media Data Access",
       "journal": "Political Communication",
       "published_date": "2026-05-30",
       "summary": "论文探讨社交媒体数据获取的现状与挑战，涉及数据访问政策及其对政治传播研究的影响。"
-    },
-    {
-      "id": 105,
-      "title": "From player to asset: venture labor in axie infinity",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-08",
-      "summary": "通过爬取Discord社区数据，分析Axie Infinity奖学金申请者的申请文本，揭示其自我资产化策略，即玩家将劳动与困境呈现为投资资产以争取机会。"
     }
   ],
   "paper_edges": []

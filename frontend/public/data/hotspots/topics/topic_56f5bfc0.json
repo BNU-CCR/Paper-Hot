@@ -3,13 +3,13 @@
   "label": "虚假信息与信息行动的宣传机制",
   "description": "研究虚假信息受众参与、宣传基础设施化与生成式内容在战争记忆和战略传播中的效果。",
   "why_hot": "近30天日均发表速度较前期增长67%，为各主题中升温最明显者之一。",
-  "hot_score": 84,
-  "growth": 0.667,
-  "growth_rate": 0.667,
+  "hot_score": 85,
+  "growth": 0.786,
+  "growth_rate": 0.786,
   "recent_rate": 0.3333,
-  "baseline_rate": 0.2,
+  "baseline_rate": 0.1867,
   "recent_count": 10,
-  "baseline_count": 30,
+  "baseline_count": 28,
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
@@ -21,6 +21,13 @@
     "strategic communication"
   ],
   "papers": [
+    {
+      "id": 2227,
+      "title": "Shifting priorities? Coverage of the Russia-Ukraine war in Central European online news media (2022–2026)",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-11-01",
+      "summary": "论文分析2022至2026年中欧八家在线新闻媒体对俄乌战争的报道，考察战争显著性及官僚、国防、经济、人道四维度随时间变化，并检验国家语境与政治倾向的影响。"
+    },
     {
       "id": 2200,
       "title": "Deceit between Falshoods and Morality: Unpacking Audience Engagement with Disinformation",
@@ -69,13 +76,6 @@
       "journal": "International Journal of Strategic Communication",
       "published_date": "2026-10-13",
       "summary": "论文比较2018与2023年越南公共关系从业者的访谈数据，探讨社交媒体在危机传播中角色的演变，结合创新扩散理论分析媒体特征与文化因素对社交媒体采纳的影响，聚焦非西方快速数字化转型情境。"
-    },
-    {
-      "id": 2165,
-      "title": "From Facebook to political actions: nationalism, patriotism, and participation in Vietnam’s digital sphere",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-10-13",
-      "summary": "以越南为背景，通过问卷调查考察三类 Facebook 使用行为与四类政治参与的关系，并检验民族主义与爱国情感的中介作用，发现主动非社交使用正向预测民族主义与爱国态度，民族主义态度负向关联对抗性参与。"
     },
     {
       "id": 2151,
@@ -162,6 +162,13 @@
       "summary": "论文提出“创伤自拍”概念，分析2023年10月7日音乐节袭击中约300个受害者生成视频，构建动机与美学类型学，探讨当代战争中手机拍摄的见证形式及“主动受害者”身份的政治意涵。"
     },
     {
+      "id": 1949,
+      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-21",
+      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
+    },
+    {
       "id": 1964,
       "title": "Enemies Abroad, Animosity at Home: Media Influence on U.S.-China Policy and Anti-Asian Sentiment",
       "journal": "Political Communication",
@@ -188,13 +195,6 @@
       "journal": "International Journal of Strategic Communication",
       "published_date": "2026-07-27",
       "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
-    },
-    {
-      "id": 246,
-      "title": "Digital transformation and contested sovereignty in humanitarian action",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-23",
-      "summary": "研究人道主义组织数字化转型对主权和治理的影响，通过内容分析和调查揭示数字效率话语与治理关切的张力。"
     },
     {
       "id": 207,
@@ -286,20 +286,6 @@
       "journal": "Asian Journal of Communication",
       "published_date": "2026-05-13",
       "summary": "通过混合方法比较中越国家媒体网络安全话语，揭示两种数字威权主义的沟通逻辑，分别强调全球竞争与内部安全化。"
-    },
-    {
-      "id": 376,
-      "title": "The interplay of gender, fandom, and nationalism: an anatomy of a female-led cyber-nationalist movement",
-      "journal": "Asian Journal of Communication",
-      "published_date": "2026-05-08",
-      "summary": "研究通过参与观察和访谈，探讨女性主导的网络民族主义运动中性别、粉丝文化与民族主义的交织，提出'无为而治'的治理机制。"
-    },
-    {
-      "id": 506,
-      "title": "Not only compatriots: A typology of foreign Facebook audiences engaging with Russia’s domestic news",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-05-07",
-      "summary": "分析912个外国Facebook公共空间分享俄罗斯国内新闻的情况，构建基于俄罗斯联系和主题倾向的类型学，揭示语言邻近性、意识形态空间和前社会主义国家空间的传播模式。"
     }
   ],
   "paper_edges": []

@@ -3,16 +3,16 @@
   "label": "平台推荐与极化政治的动员机制",
   "description": "考察算法信息流与社交媒体新闻使用如何助推激进主义、极右话语扩散与议题联盟的跨界联结。",
   "why_hot": "近30天日均发表速度较前期下降36%，覆盖9本期刊但产出趋缓。",
-  "hot_score": 44,
-  "growth": -0.355,
-  "growth_rate": -0.355,
-  "recent_rate": 0.1333,
-  "baseline_rate": 0.2067,
-  "recent_count": 4,
-  "baseline_count": 31,
+  "hot_score": 31,
+  "growth": -0.722,
+  "growth_rate": -0.722,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.24,
+  "recent_count": 2,
+  "baseline_count": 36,
   "journal_count": 9,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
     "algorithmic recommendation",
     "political polarization",
@@ -36,13 +36,6 @@
       "summary": "研究自动转录1700条德国政客TikTok视频及5.3万条评论，结合大模型框架分类、立场检测与网络分析，比较气候运动、改革派与破坏性抗议讨论的极化程度，发现极右翼政客主导对抗性网络并从极化中获益。"
     },
     {
-      "id": 2128,
-      "title": "From feeds to fury: how social media news use fuels radicalism and contentious politics",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-10-08",
-      "summary": "基于美国成年人配额在线样本（N=760）调查，检验社交媒体政治新闻接触如何经由左右翼激进主义与系统性受害者感知，影响争议性政治参与及政治暴力支持。"
-    },
-    {
       "id": 2116,
       "title": "Does the TikTok Feed Lean Right? Exposure to Political Content Among Non-Partisan Users in Germany",
       "journal": "Political Communication",
@@ -62,13 +55,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "论文改进话语机会结构框架，用计算机辅助内容分析比较BLM和XR抗议中支持与反对机器人的话语策略。"
-    },
-    {
-      "id": 2167,
-      "title": "Social Media Platform Repertoires in Everyday Life: Measuring Social Media Use With Passive Metering",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "研究对1457名意大利成年人进行6周手机与电脑被动计量，量化Facebook、Instagram、TikTok、YouTube、Twitter/X的使用时间及社会人口差异。发现Facebook与YouTube占近四分之三使用时长，超90%为App端使用，年龄是最强预测因素。"
     },
     {
       "id": 2065,
@@ -92,18 +78,18 @@
       "summary": "论文识别比利时、芬兰、波兰三国政治精英中的“阴谋论企业家”，基于 702 条人工标注帖文，用梯度阈值分析与逻辑回归考察其意识形态特征、跨平台差异及互动效果，发现阴谋论话语主要由少数极右政客驱动，Facebook 偏完整叙事、X 偏碎片化表达。"
     },
     {
+      "id": 2028,
+      "title": "How Do Social Media Influencers Motivate Prosocial Intentions? The Interaction of SMI Gender and Expertise",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-09-10",
+      "summary": "研究探讨社交媒体影响者的性别与专业度如何交互影响受众的亲社会行为意向，属战略传播领域的说服效果研究，采用实验或调查方法验证假设。"
+    },
+    {
       "id": 1989,
       "title": "From #StayWoke to “Culture Wars”: How Social Justice Discourse is Separately and Synergistically Politicized on Twitter and YouTube",
       "journal": "Political Communication",
       "published_date": "2026-08-31",
       "summary": "利用Twitter和YouTube 2012-2022数据，分析“woke”话语如何被政治化，比较平台差异及跨平台协调传播。"
-    },
-    {
-      "id": 1951,
-      "title": "Echoes across the divide: incivility and the fragmentation of issue publics in immigration discourse",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-20",
-      "summary": "基于X平台数据，用LLM识别移民立场和语言不文明度，构建提及网络追踪不文明言论在意识形态对立群体间的扩散。"
     },
     {
       "id": 1952,
@@ -118,13 +104,6 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-08-20",
       "summary": "研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。"
-    },
-    {
-      "id": 1959,
-      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-08-18",
-      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
     },
     {
       "id": 1934,
@@ -153,6 +132,13 @@
       "journal": "Communication Research",
       "published_date": "2026-08-03",
       "summary": "利用2020和2022选举期间Twitter数据，分析性别与党派如何影响女性政治议题讨论，发现精英与非精英用户差异。"
+    },
+    {
+      "id": 8,
+      "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
+      "journal": "Political Communication",
+      "published_date": "2026-07-29",
+      "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
     },
     {
       "id": 13,
@@ -197,18 +183,11 @@
       "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
     },
     {
-      "id": 613,
-      "title": "Exploring the forces driving ChatGPT diffusion on X: An integrated theoretical perspective",
-      "journal": "Global Media and Communication",
-      "published_date": "2026-07-02",
-      "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
-    },
-    {
-      "id": 282,
-      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
+      "id": 284,
+      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
+      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
     },
     {
       "id": 1941,
@@ -216,6 +195,20 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过分析米莱在TikTok的传播，结合文本、视觉和表演维度，发现其民粹主义缺少“人民”元素，且越轨表演带来更高互动。"
+    },
+    {
+      "id": 1942,
+      "title": "Negotiating the Influencer Imaginary: How Everyday Professionals Construct Legitimacy on Social Media",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
+    },
+    {
+      "id": 1994,
+      "title": "“Fairness Labels” in Feeds: Process Disclosures, Provenance, and User Choice Among Short‑Video Creators in Mainland China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过移动在线实验，研究面向中国短视频创作者的公平性披露对感知程序正义、分配公平及合法性的影响。"
     },
     {
       "id": 253,
@@ -260,11 +253,39 @@
       "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
     },
     {
+      "id": 441,
+      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-01",
+      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
+    },
+    {
+      "id": 443,
+      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-05-31",
+      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
+    },
+    {
       "id": 218,
       "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
       "journal": "Political Communication",
       "published_date": "2026-05-27",
       "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
+    },
+    {
+      "id": 99,
+      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-24",
+      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
+    },
+    {
+      "id": 102,
+      "title": "Clustered governance: how Chinese social media platforms curate and control influencers’ content creation",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-05-12",
+      "summary": "研究小红书通过“集群治理”组织网红群体，结合人工与算法策展控制内容创作，削弱创作者自主性，基于访谈与民族志方法。"
     }
   ],
   "paper_edges": []

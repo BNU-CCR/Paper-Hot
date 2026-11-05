@@ -1,5 +1,73 @@
 [
   {
+    "id": 2226,
+    "title": "AI Chatbot’s Self-Confidence Cues Shape Users’ Impressions of the Chatbot, but Not Accuracy Judgments of Hallucinated Responses",
+    "title_zh": "AI聊天机器人的自信表现会影响用户对聊天机器人的印象，但不会影响用户对其生成内容（即“幻觉式回答”）准确性的判断",
+    "authors": [
+      "Eun-Ju Lee",
+      "Jin Won Park",
+      "Sukyoung Choi",
+      "Sungwon Hwang"
+    ],
+    "institutions": [],
+    "journal": "Journal of Broadcasting & Electronic Media",
+    "published_date": "2026-11-02",
+    "relevance": "High",
+    "score": null,
+    "abstract": "A 2 × 2 × 2 (confidence level × confidence variability × confidence modality) between-subjectsonline experiment (N = 738) examined how an AI chatbot’s self-confidence influences users’ evaluations of the chatbot and its hallucinated outputs. When confidence variability was low, more dominant participants evaluated the verbal (vs. numerical) chatbot more positively and indicated greater willingness to use it, whereas less dominant participants favored the numerical chatbot. In the high-variability condition, these patterns disappeared. Post-hoc analyses show that attributing greater dominance to a verbal chatbot triggered the similarity-attraction heuristic, but it did not affect users’ perceived accuracy of the chatbot’s outputs.",
+    "abstract_zh": "这是一项2×2×2（置信水平×置信度变异×置信度类型）的在线实验（样本量N=738），旨在研究人工智能聊天机器人的自信心如何影响用户对聊天机器人及其生成内容的评价。当置信度变异较低时，更具主导性的参与者对文本型聊天机器人的评价更为积极，并表示更愿意使用它；而相对不具主导性的参与者则更倾向于使用数字型聊天机器人。在置信度变异较高的情况下，这些差异消失了。事后分析表明，将更高的主导性归因于文本型聊天机器人会触发“相似性吸引”心理机制（即人们倾向于选择与自己相似的聊天机器人），但这并不影响用户对聊天机器人生成内容的准确性的感知。",
+    "summary": "通过2×2×2在线实验（N=738）考察AI聊天机器人自信水平、变异性与呈现模态如何影响用户对机器人及幻觉输出的评价。",
+    "reason": "研究AI聊天机器人自信线索对用户评价与幻觉信息判断的影响，属AI社会影响与传播效果。",
+    "tags": [
+      "AI聊天机器人",
+      "幻觉信息",
+      "用户感知",
+      "实验"
+    ],
+    "method": "量化分析",
+    "doi": "10.1080/08838151.2026.2752936",
+    "source_url": "https://doi.org/10.1080/08838151.2026.2752936",
+    "detail_slug": "ai-chatbot-s-self-confidence-cues-shape-users-impressions-of-the-chatbot-but-not-accuracy-judgments-of-hallucinated-responses",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Broadcasting & Electronic Media",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2227,
+    "title": "Shifting priorities? Coverage of the Russia-Ukraine war in Central European online news media (2022–2026)",
+    "title_zh": "优先事项的转变？中欧在线新闻媒体对俄乌战争的报道（2022–2026年）",
+    "authors": [
+      "Orsolya Ring",
+      "Ákos Holányi"
+    ],
+    "institutions": [],
+    "journal": "Media War & Conflict",
+    "published_date": "2026-11-01",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Media coverage plays an important role in shaping people’s understanding of wars and conflicts. To understand how the emphasis of war reporting shifts over time, the article analyses the bureaucratic, defence, economic and humanitarian dimensions of Russia–Ukraine War coverage between January 2022 and February 2026. Drawing on previous research on issue dynamics, framing and war fatigue, it asks how salience of the war and these dimensions changed over time, and whether outlets’ national contexts and political leanings influenced their reporting. It applies computational social science methods to an original dataset of eight Central European news outlets. We find no evidence of war fatigue in the thematic salience of war-related coverage; instead, the war became a routine issue in Central European media. National contexts and political leanings shaped the temporal dynamics of the four dimensions, but not their overall salience.",
+    "abstract_zh": "媒体报道在塑造人们对战争和冲突的理解方面起着重要作用。为了了解战争报道的侧重点如何随时间变化，本文分析了2022年1月至2026年2月期间俄罗斯-乌克兰战争报道在官僚体制、国防、经济和人道主义方面的特征。基于以往关于问题动态、报道框架以及“战争疲劳”（即人们对战争报道产生厌倦感）的研究，本文探讨了战争及其相关方面的关注度是如何随时间变化的，以及媒体机构的国家背景和政治倾向是否影响了它们的报道方式。研究使用了计算社会科学方法，分析了来自八个中欧新闻媒体的原始数据。研究结果并未发现战争报道的关注度出现下降（即“战争疲劳”现象）；相反，战争成为了中欧媒体中的常规议题。国家背景和政治倾向影响了这四个方面的报道动态，但并未改变它们的整体关注度。",
+    "summary": "论文分析2022至2026年中欧八家在线新闻媒体对俄乌战争的报道，考察战争显著性及官僚、国防、经济、人道四维度随时间变化，并检验国家语境与政治倾向的影响。",
+    "reason": "使用计算社会科学方法分析八家新闻媒体战争报道，属于计算传播与数字新闻内容分析。",
+    "tags": [
+      "计算社会科学",
+      "新闻内容分析",
+      "战争报道",
+      "框架研究"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/17506352261493702",
+    "source_url": "https://doi.org/10.1177/17506352261493702",
+    "detail_slug": "shifting-priorities-coverage-of-the-russia-ukraine-war-in-central-european-online-news-media-2022-2026",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Media, War & Conflict",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2210,
     "title": "Cue production and evaluative uptake: prompt framing and user judgments in AI-Mediated health communication",
     "title_zh": "提示生成与评估性接受：人工智能中介的健康传播中的提示框架与用户判断",
@@ -493,6 +561,39 @@
     "tracked_journal": "Information, Communication & Society",
     "volume": "",
     "issue": ""
+  },
+  {
+    "id": 2224,
+    "title": "“I Share Your Sentiment”—A Longitudinal Study of Facebook Post Sentiment and Sharing",
+    "title_zh": "“我理解你的感受”——一项关于Facebook帖子情感及其分享行为的纵向研究",
+    "authors": [
+      "Anders Olof Larsson"
+    ],
+    "institutions": [],
+    "journal": "Social Media + Society",
+    "published_date": "2026-10-01",
+    "relevance": "High",
+    "score": null,
+    "abstract": "This study examines how Norwegian political parties used negative, positive or neutral sentiment on Facebook over a 10-year period (2016–2025) and how such sentiment affected the sharing of their posts. Drawing on a full population of posts from all major parliamentary parties, the study investigates (a) whether negative sentiment increases over time, (b) how sentiment varies with party ideology and incumbency status, and (c) how positive and negative sentiment relate to sharing overall and at the party level. Demonstrating an approach using large language models in combination with human annotation for sentiment analysis, the study finds that while positive sentiment remains dominant, negative sentiment has increased over time, especially among challenger and left-wing parties. Extremist parties on both the far-left and far-right post more negative content, but this does not consistently translate into higher sharing. Overall, negative posts tend to receive more shares, but this advantage appears to weaken over time, suggesting strategic adaptation and possible audience fatigue.",
+    "abstract_zh": "本研究考察了挪威政党在2016年至2025年这10年间如何在Facebook上使用负面、正面或中立的言论，以及这些言论如何影响他们帖子的分享情况。该研究基于所有主要议会政党的全部帖子数据，探讨了以下问题：(a) 负面言论是否随时间增加；(b) 言论情绪如何随政党意识形态和执政地位的变化而变化；(c) 正面和负面言论与整体分享情况以及政党层面的分享情况之间的关系。通过结合使用大型语言模型和人工注释进行情感分析，研究发现虽然正面言论仍然占主导地位，但负面言论的数量确实有所增加，尤其是在挑战党和左翼政党中。极左翼和极右翼政党发布的负面内容更多，但这并不一定意味着这些帖子的分享量会更高。总体而言，负面帖子获得的分享次数更多，但这种优势似乎随着时间的推移而减弱，这表明政党可能采取了策略性调整，也可能是受众对此类内容产生了疲劳感。",
+    "summary": "研究挪威主要政党2016–2025年Facebook帖文情感倾向及其对分享的影响，结合大语言模型与人工标注做情感分析，发现正面情感仍占主导但负面情感随时间上升，负面帖文总体获更多分享但优势逐渐减弱。",
+    "reason": "使用大语言模型对十年Facebook政党帖文做情感分析，属社交媒体计算方法研究",
+    "tags": [
+      "社交媒体",
+      "情感分析",
+      "大语言模型",
+      "政治传播",
+      "分享行为"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/20563051261501463",
+    "source_url": "https://doi.org/10.1177/20563051261501463",
+    "detail_slug": "i-share-your-sentiment-a-longitudinal-study-of-facebook-post-sentiment-and-sharing",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Social Media + Society",
+    "volume": "12",
+    "issue": "4"
   },
   {
     "id": 2202,
@@ -20874,7 +20975,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article contributes to the understanding of the role of the media in peace processes. By applying Wolfsfeld’s politics–media–politics model, the author assesses the role that the Colombian media played at the moment of the worst escalation of the conflict – in 2015 – during the peace negotiation (2012–2016) between the Colombian government and FARC. He does this by drawing upon a triangulation of methods that combines Structural Topic Modelling on 17,688 news articles, thematic analysis (n = 146), and interviews (n = 26) with politicians and journalists. Findings show that the Colombian media considerably amplified the escalation of the conflict and provided a pessimistic narrative with regard to the future of the negotiations. Importantly, the news media embraced an elite-driven approach to report on the events: they tended to deem only FARC accountable for the loss of trust around the negotiations during the crisis (although the government also committed violent attacks). This shows that the news media sided with the government’s communication strategy which aimed to make FARC politically accountable for the crisis. In the end, the crisis reached a positive outcome: an agreement to de-escalate the conflict was reached after the government publicly threatened FARC to end the negotiations in its first public interview. Considering these findings, this article argues that the news media intervened by amplifying the crisis, worsening the political atmosphere of the negotiations and pressuring both delegations to come to an agreement to change the approach of negotiating amidst the conflict.",
-    "abstract_zh": "本文有助于理解媒体在和平进程中的作用。作者运用沃尔夫斯菲尔德（Wolfsfeld）提出的“政治-媒体-政治”（politics–media–politics）模型，评估了哥伦比亚媒体在冲突最激烈时期（2015年）以及哥伦比亚政府与FARC（哥伦比亚革命武装力量）之间的和平谈判（2012–2016年）期间所扮演的角色。研究采用了多种方法相结合的方式，包括对17,688篇新闻文章进行结构化主题建模（Structural Topic Modelling）、主题分析（n = 146），以及对政治家和记者进行的访谈（n = 26）。研究结果表明，哥伦比亚媒体显著加剧了冲突的紧张局势，并对谈判的未来持悲观态度。值得注意的是，新闻媒体在报道这些事件时采取了精英主导的立场：它们倾向于将谈判过程中信任危机的根源归咎于FARC（尽管政府也实施了暴力攻击）。这表明新闻媒体支持了政府的沟通策略，即试图让FARC为危机承担政治责任。最终，这场危机取得了积极的结果：在政府首次公开表示将终止谈判后，双方达成了缓和冲突的协议。基于这些发现，本文认为新闻媒体通过放大危机的影响，恶化了谈判的政治氛围，并迫使双方代表团改变谈判方式，从而促成了协议的达成。",
+    "abstract_zh": "本文有助于理解媒体在和平进程中的作用。作者运用沃尔夫斯菲尔德（Wolfsfeld）提出的“政治-媒体-政治”（politics–media–politics）模型，评估了哥伦比亚媒体在冲突最激烈的时期（2015年）以及哥伦比亚政府与FARC（哥伦比亚革命武装力量）之间的和平谈判（2012–2016年）期间所扮演的角色。研究采用了多种方法相结合的方式，包括对17,688篇新闻文章的结构化主题建模（Structural Topic Modelling）、主题分析（n = 146），以及对政治家和记者的访谈（n = 26）。研究结果表明，哥伦比亚媒体大幅放大了冲突的紧张程度，并对谈判的未来持悲观态度。值得注意的是，新闻媒体在报道这些事件时采取了精英主导的立场：它们倾向于将谈判过程中信任危机的根源归咎于FARC（尽管政府也实施了暴力攻击）。这表明新闻媒体支持了政府的沟通策略，即试图让FARC为危机承担政治责任。最终，这场危机取得了积极的结果：在政府首次公开表示将终止谈判后，双方达成了缓和冲突的协议。基于这些发现，本文认为新闻媒体通过放大危机的影响，恶化了谈判的政治氛围，并迫使双方代表团改变谈判方式，从而促成了协议的达成。",
     "summary": "运用Wolfsfeld模型，通过结构主题模型分析17688篇新闻文章、主题分析和访谈，探讨2015年哥伦比亚媒体在和平谈判危机中的角色，发现媒体放大冲突并偏向政府立场。",
     "reason": "使用结构主题模型分析大量新闻文本，结合计算文本分析与传播议题，属计算传播研究。",
     "tags": [
@@ -20914,7 +21015,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This essay reports three projects that integrate linguistic features of speaking turns into the identification of conversational motifs, which are multiturn segments of dialog within interpersonal interactions. Study 1 focused on support for bereavement, used Linguistic Inquiry and Word Count data to augment characterizations of speaking turns based on speech act, and identified seven 5-turn conversational motifs. Study 2 examined serial argument conversations, used ratings of features and word count to differentiate speaking turns, and identified four conversational motifs within 1-minute segments of interaction. Study 3 analyzed conversations about public health campaign messages, considered functional and structural features of speaking turns, and identified four 4-turn conversational motifs. By elaborating the library of linguistic elements considered when operationalizing speaking turn types and showcasing alternative strategies for identifying conversation motifs, this essay extends recent advancements in a dynamic dyadic systems perspective on interpersonal communication.",
-    "abstract_zh": "本文报告了三个项目，这些项目将说话轮次中的语言特征整合起来，用于识别对话中的“对话主题”（conversational motifs）。这些对话主题是指人际互动中由多个说话轮次组成的对话片段。研究1聚焦于对丧亲之痛的支持行为，通过语言分析方法和词汇计数数据来补充基于言语行为（speech act）的说话轮次描述，并识别出七个由5个说话轮次组成的对话主题。研究2分析了连续的争论性对话，利用特征评分和词汇计数来区分不同的说话轮次，并在1分钟的对话片段中识别出四个对话主题。研究3则分析了关于公共卫生宣传信息的对话，考虑了说话轮次的功能性和结构特征，最终识别出四个由4个说话轮次组成的对话主题。通过详细阐述在划分说话轮次类型时所考虑的语言元素，并展示识别对话主题的多种策略，本文扩展了最近在动态双向系统视角下对人际沟通研究的进展。",
+    "abstract_zh": "本文报告了三个项目，这些项目将说话轮次中的语言特征整合起来，用于识别对话中的“对话主题”（即人际互动中的多轮次对话片段）。研究1关注了对丧亲之痛的支持行为，利用“语言探究”（Linguistic Inquiry）和“词频统计”（Word Count）数据来补充基于言语行为（speech act）的说话轮次描述，并识别出七个由5个轮次组成的对话主题。研究2分析了连续的争论性对话，通过特征评分和词频统计来区分不同的说话轮次，并在1分钟的对话片段中识别出四个对话主题。研究3则分析了关于公共卫生宣传信息的对话，考虑了说话轮次的功能性和结构特征，并识别出四个由4个轮次组成的对话主题。通过详细阐述在划分说话轮次类型时所考虑的语言元素，并展示识别对话主题的多种策略，本文扩展了最近在动态双向系统视角下对人际沟通研究的进展。",
     "summary": "三项研究整合语言特征（如LIWC、词数、功能结构）识别人际互动中的会话主题，分别涉及丧亲支持、连续争吵和公共卫生宣传对话，扩展了动态二元系统视角。",
     "reason": "使用LIWC等文本计算方法分析对话结构，属于计算传播学议题与方法。",
     "tags": [
@@ -20954,7 +21055,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Algorithmic news recommender systems (NRS) are present in many digital platforms. A decade after Eli Pariser introduced the infamous ‘filter bubble’ hypothesis, empirical evidence challenges the assumption that recommendation algorithms predominantly create homogeneous opinion environments. Studies indicate that algorithmic platform use may amplify users’ political polarization. Whether the link between platform use and polarization can be causally explained by ideological news filtering, however, is still an unanswered question as rigid causal designs to test the notion of ‘filter bubble’ effects are still largely lacking. To fill this gap, we conducted two experimental studies in Germany (n = 1,786) and the U.S. (n = 1,306) with running NRS selecting news items based on the political orientation and political interest of its users. For both national contexts, results indicate that an NRS with a bias towards users’ political preferences increases ideological polarization among politically moderate individuals, supporting the notion of ‘filter bubble’ effects for this group. No such pattern could be found for affective polarization. Yet, in the German data, affective polarization among moderate users was reduced by a politically balanced NRS (as compared to a randomized news diet), while the same NRS increased affective polarization of politically extreme participants. We discuss the democratic implications of these findings against the backdrop of increasing digital news consumption.",
-    "abstract_zh": "算法驱动的新闻推荐系统（NRS）广泛应用于许多数字平台上。在Eli Pariser提出著名的“信息过滤泡沫”假说十年后，实证研究开始质疑这一观点，即推荐算法主要会创造一个观点趋同的环境。研究表明，使用这些算法平台可能会加剧用户之间的政治极化现象。然而，平台使用与政治极化之间的因果关系是否确实可以通过新闻内容的意识形态过滤来解释，仍然是一个未解之谜，因为目前缺乏严谨的实验设计来验证“信息过滤泡沫”效应的存在。为了填补这一研究空白，我们在德国（n=1,786）和美国（n=1,306）进行了两项实验研究，这些研究中的推荐系统会根据用户的政治倾向和政治兴趣来选择新闻内容。研究结果表明，偏向用户政治偏好的推荐系统会加剧政治立场较为温和的用户之间的意识形态极化，从而支持了“信息过滤泡沫”效应的存在。但在情感极化方面并未发现类似的现象。不过，在德国的数据中，一个政治立场较为中立的推荐系统反而减少了温和用户之间的情感极化（相比随机推荐的新闻内容），而同一个推荐系统却加剧了政治立场极端用户之间的情感极化。我们结合日益增长的数字新闻消费趋势，讨论了这些发现对民主制度的潜在影响。",
+    "abstract_zh": "算法驱动的新闻推荐系统（NRS）广泛应用于许多数字平台上。在Eli Pariser提出著名的“信息过滤泡沫”假说十年后，实证研究开始质疑这一观点，即推荐算法主要会创造一个观点趋同的环境。研究表明，使用这些算法平台可能会加剧用户之间的政治极化现象。然而，平台使用与政治极化之间的因果关系是否确实可以通过新闻内容的意识形态过滤来解释，仍然是一个未解之谜，因为目前缺乏严谨的实验设计来验证“信息过滤泡沫”效应的存在。为了填补这一研究空白，我们在德国（n=1,786）和美国（n=1,306）进行了两项实验研究，这些研究中的推荐系统会根据用户的政治倾向和政治兴趣来选择新闻内容。研究结果表明，偏向用户政治偏好的推荐系统会加剧政治立场较为中立的用户的意识形态极化，从而支持了“信息过滤泡沫”效应的存在。但在情感极化方面并未发现类似的现象。不过，在德国的数据中，政治立场中立的用户的情绪极化程度在政治立场较为平衡的推荐系统下有所降低（相比之下，随机推荐的新闻内容反而加剧了他们的情绪极化）；而在美国的数据中，同样的推荐系统却加剧了政治立场极端的用户的情感极化。我们结合日益增长的数字新闻消费趋势，讨论了这些发现对民主制度的潜在影响。",
     "summary": "通过德国和美国两个实验，考察基于意识形态的新闻推荐算法对用户政治极化的因果影响，发现对温和群体有极化效应。",
     "reason": "研究算法新闻推荐系统对政治极化的影响，涉及过滤气泡与计算实验，属计算传播核心议题。",
     "tags": [
@@ -20989,7 +21090,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The transformative potential of Artificial Intelligence (AI) in strategic communication is widely acknowledged, yet existing academic research provides insufficient guidance on both understanding this transformation theoretically and optimizing AI’s benefits. This study addresses these critical gaps in the literature by focusing on the effective use and theoretical comprehension of AI in public relations. We investigate the perceived knowledge gaps among senior public relations professionals regarding AI integration in organizational operations. Using a mixed methods study approach involving a survey and focus group with senior industry leaders, this research explores AI applications in public relations. Drawing on the Model of Personal Computing Utilization (MPCU) from the field of Information Systems, this interdisciplinary study offers a robust framework to analyze AI’s role and its impact on reshaping public relations practices. The findings emphasize the critical influence of organizational dynamics on AI adoption, highlighting the importance of dynamic capabilities in leveraging AI as a source of competitive advantage. We provide key insights into the effective integration of AI in strategic communication, address important ethical considerations, and propose avenues for future research.",
-    "abstract_zh": "人工智能（AI）在战略传播中的变革潜力已得到广泛认可，但现有的学术研究在理论层面对于理解这一变革以及如何最大化AI的效益方面仍缺乏足够的指导。本研究旨在填补这一学术空白，重点探讨AI在公共关系（PR）中的有效应用及其理论基础。我们调查了高级公共关系专业人士对AI在组织运营中应用的认识差距，并通过结合调查和焦点小组讨论的方法（与行业领军人物进行交流）来深入分析AI在公共关系领域的实际应用。本研究借鉴了信息系统领域的“个人计算利用模型”（MPCU），构建了一个跨学科的分析框架，用以评估AI在重塑公共关系实践中的作用及其影响。研究结果强调了组织内部动态因素对AI采纳的关键影响，指出了具备动态适应能力对于将AI作为竞争优势来源的重要性。我们提供了关于如何在战略传播中有效整合AI的关键见解，讨论了相关的伦理问题，并为未来的研究方向提出了建议。",
+    "abstract_zh": "人工智能（AI）在战略传播中的变革潜力已被广泛认可，然而现有的学术研究在理论上理解这一变革以及优化AI的益处方面仍存在不足。本研究旨在填补这些文献中的空白，重点探讨AI在公共关系（PR）中的有效应用及其理论基础。我们调查了高级公共关系专业人士对AI在组织运营中应用的认识差距。通过结合调查和焦点小组的方法（与行业领军人物进行交流），本研究深入分析了AI在公共关系领域的应用。借鉴信息系统领域的“个人计算利用模型”（Model of Personal Computing Utilization, MPCU），这项跨学科研究提供了一个扎实的框架，用于分析AI在重塑公共关系实践中的作用及其影响。研究结果强调了组织动态对AI采纳的关键影响，指出了具备动态能力在利用AI作为竞争优势来源方面的重要性。我们提供了关于如何在战略传播中有效整合AI的关键见解，讨论了重要的伦理问题，并为未来的研究方向提出了建议。",
     "summary": "探讨高层公关从业者对AI整合的认知差距，基于MPCU模型，采用调查与焦点小组混合方法，强调组织动态对AI采纳的影响。",
     "reason": "研究涉及AI在战略传播中的采用，属于AI社会影响与使用行为，符合AI特别条款。",
     "tags": [
@@ -21023,7 +21124,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "In recent years, research on the existence and impact of echo chambers has proposed mixed perspectives. Several studies have pointed out that actual social media networks are segregated based on users’ preferences regarding specific topics, limiting opportunities for exposure to opposing opinions and thus suggesting the formation of echo chambers. On the other hand, several studies suggest that echo chambers are overstated, as the followers of mainstream media provided opportunities to be exposed to information that contradicts their own preferences. We assumed that these conflicting perspectives arise from variations in the diversity of topics in their research area. Therefore, we examined how the increase in topics within communication spaces on social media affects the formation of echo chambers. Experiments based on Multi-Agent Simulations reveal that echo chambers were formed when the number of topics was small, but as the number of topics increased, the formation of echo chambers was inhibited. However, in situations involving multiple topics, it is improbable that individuals will address all topics equally. To address this, we applied the concept of agenda-setting effects, enabling agents to recognize topics with more exposure as important and adding conditions to assign weights to those topics in additional experiments. As a result, the network of agents became echo chambers regarding topics recognized as important by most agents. From these results, our study suggests that the contradictory perspectives regarding the existence of echo chambers in related research can be reconciled by considering the ‘number of topics’ and ‘the weights of topics.’",
-    "abstract_zh": "近年来，关于“回音室”（echo chambers）的存在及其影响的研究得出了不同的观点。一些研究表明，社交媒体网络实际上是根据用户对特定话题的偏好进行分层的，这限制了用户接触到相反观点的机会，从而导致了回音室的形成。另一方面，也有研究认为回音室的现象被夸大了，因为主流媒体的追随者有机会接触到与他们自身偏好相悖的信息。我们认为这些相互矛盾的观点源于研究领域中话题多样性的差异。因此，我们研究了社交媒体交流空间中话题数量的增加如何影响回音室的形成。基于多智能体模拟（Multi-Agent Simulations）的实验表明，当话题数量较少时，回音室确实会形成；但随着话题数量的增加，回音室的形成受到了抑制。然而，在涉及多个话题的情况下，个体不太可能平等地关注所有话题。为了解决这个问题，我们引入了“议程设置效应”（agenda-setting effects）的概念，使智能体能够识别出更受关注的话题，并在后续实验中为这些话题分配不同的权重。结果发现，智能体网络会围绕大多数智能体认为重要的话题形成回音室。根据这些研究结果，我们认为，通过考虑“话题数量”和“话题的权重”，可以调和相关研究中关于回音室存在与否的矛盾观点。",
+    "abstract_zh": "近年来，关于“回音室”（echo chambers）的存在及其影响的研究得出了不同的观点。一些研究表明，社交媒体网络实际上是根据用户对特定话题的偏好进行分化的，这限制了用户接触到相反观点的机会，从而导致了回音室的形成。另一方面，也有研究认为回音室的现象被夸大了，因为主流媒体的追随者有机会接触到与他们自身偏好相悖的信息。我们认为这些相互矛盾的观点源于研究中涉及话题多样性的差异。因此，我们研究了社交媒体交流空间中话题数量的增加如何影响回音室的形成。基于多智能体模拟（Multi-Agent Simulations）的实验表明，当话题数量较少时，回音室确实会形成；但随着话题数量的增加，回音室的形成受到了抑制。然而，在涉及多个话题的情况下，个体不太可能平等地关注所有话题。为了解决这个问题，我们引入了“议程设置效应”（agenda-setting effects）的概念，使智能体能够识别出更受关注的话题，并在后续实验中为这些话题分配不同的权重。结果发现，智能体网络会围绕大多数智能体认为重要的话题形成回音室。根据这些研究结果，我们认为，通过考虑“话题数量”和“话题的权重”，可以调和相关研究中关于回音室存在与否的矛盾观点。",
     "summary": "通过多主体仿真实验，考察社交媒体中话题数量与权重对回声室形成的影响，发现话题增多抑制回声室，但高权重话题仍会形成回声室。",
     "reason": "研究社交媒体回声室形成机制，使用多主体仿真计算方法，属于计算传播学核心议题。",
     "tags": [
@@ -21064,7 +21165,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Critical Race Theory (CRT) has recently garnered considerable political attention. This study examines how partisan news headlines discussed CRT, specifically analyzing how the incorporated language can resonate with white Americans’ shared imaginaries to reframe CRT. We employ a critical disinformation approach to interpret the computationally analyzed partisan news headlines (N = 7320) from January 1, 2016, to December 31, 2022. Right-leaning sources overwhelmingly discussed CRT, including language evocative of white Americans’ racial consciousness and racial resentment. We discuss our findings considering the impact of identity-based disinformation amid increasing opposition to diversity. Discussion reflects upon the need for critical approaches to disinformation research that center historical and sociopolitical contexts.",
-    "abstract_zh": "批判种族理论（Critical Race Theory, CRT）最近引起了广泛的政治关注。本研究探讨了党派性新闻标题是如何讨论批判种族理论的，特别分析了其中使用的语言如何与白人美国人的共同认知产生共鸣，从而重新塑造人们对批判种族理论的理解。我们采用了一种批判性的虚假信息分析方法，对2016年1月1日至2022年12月31日期间发布的7320条党派性新闻标题进行了分析。右翼媒体在报道批判种族理论时，大量使用了能够唤起白人美国人种族意识及种族不满情绪的措辞。在日益增长的反对多样性的背景下，我们讨论了这些基于身份的虚假信息所带来的影响。研究还强调了在虚假信息研究中需要采取批判性方法，并将这些方法置于历史和社会政治的背景下进行考量。",
+    "abstract_zh": "批判种族理论（Critical Race Theory, CRT）最近引起了相当大的政治关注。本研究探讨了党派性新闻标题是如何讨论CRT的，特别分析了其中使用的语言如何与白人美国人的共同认知产生共鸣，从而重新塑造人们对CRT的理解。我们采用了一种批判性的虚假信息分析方法，对2016年1月1日至2022年12月31日期间发布的7320条党派性新闻标题进行了分析。右翼媒体在报道CRT时大量使用了能够唤起白人美国人种族意识及种族不满情绪的措辞。在日益增长的反对多样性的背景下，我们讨论了这些基于身份的虚假信息所带来的影响。研究还强调了在虚假信息研究中需要采用批判性方法，并将这些方法置于历史和社会政治的背景下进行考量。",
     "summary": "研究通过计算分析2016-2022年7320条党派新闻标题，探讨CRT话语如何融入白人身份政治与种族怨恨，揭示基于身份的虚假信息传播。",
     "reason": "使用计算分析方法分析7320条党派新闻标题，研究基于身份的虚假信息，属计算传播学。",
     "tags": [
@@ -21087,7 +21188,7 @@
   {
     "id": 1258,
     "title": "How do parties use political advertising in election campaigns? Examining issue competition in advertising campaigns on Facebook and Instagram for the 2021 federal election in Germany",
-    "title_zh": "政党在选举活动中如何使用政治广告？以2021年德国联邦选举为例，研究Facebook和Instagram上的广告活动中议题竞争的情况",
+    "title_zh": "政党在选举活动中如何使用政治广告？以2021年德国联邦选举为例，研究Facebook和Instagram上的广告活动中议题竞争情况",
     "authors": [
       "Lukas Thiele",
       "Oke Seliger"
@@ -21098,7 +21199,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "We examine how political parties use advertising on Facebook and Instagram to compete over policy issues in the 2021 German federal election. Using data from the Meta Ad Library, we apply a semi-supervised topic model to examine how parties’ issue attention differs between parties and over time. We find that most parties focus on owned issues in their advertising campaigns, but also engage in rival parties’ issues to larger degrees than expected. The extent to which parties emphasize owned issues throughout the campaign is related to ideological positions, targeting sophistication, and the roles social media played in overall campaign strategies.",
-    "abstract_zh": "我们研究了各政党在2021年德国联邦选举中如何利用Facebook和Instagram上的广告来就政策问题展开竞争。通过使用Meta Ad Library的数据，我们应用了一种半监督的主题模型来分析不同政党在议题关注度上的差异以及这些差异随时间的变化情况。研究发现，大多数政党在广告活动中主要关注与自身立场相关的问题，但同时也比预期更多地关注竞争对手所关注的问题。政党在整个竞选过程中对自身议题的重视程度与其意识形态立场、目标受众的复杂性以及社交媒体在整体竞选策略中的作用密切相关。",
+    "abstract_zh": "我们研究了在2021年德国联邦选举中，各政党如何利用Facebook和Instagram上的广告来在政策议题上展开竞争。通过使用Meta Ad Library的数据，我们应用了一种半监督主题模型来分析不同政党在议题关注度上的差异以及这些差异随时间的变化情况。研究发现，大多数政党在广告活动中主要关注与自身相关的议题，但同时也比预期更多地涉及竞争对手的议题。政党在整个竞选过程中强调自身议题的程度与其意识形态立场、目标受众的复杂性以及社交媒体在整体竞选策略中所扮演的角色有关。",
     "summary": "利用Meta Ad Library数据，通过半监督主题模型分析德国2021年大选中政党在Facebook和Instagram上的广告议题关注，发现政党主要关注自有议题但也涉足对手议题，强调程度与意识形态、定向策略等相关。",
     "reason": "使用Meta Ad Library数据与主题模型分析社交媒体广告，属计算传播研究。",
     "tags": [
@@ -21132,7 +21233,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Many online spaces allow individuals to connect and get to know each other without ever meeting face-to-face. This research explored the contents of the conversations between individuals who met online (N = 79 participants, 158 chats), analyzing their first conversation and a second conversation two days later. Text network analysis was used to identify key words and topic clusters in conversations; qualitative analysis was used in finding exemplars for topic clusters. Findings reveal that individuals shared more personal information at time 2, used positively valenced words throughout their conversations, and engaged in support seeking as they interacted with their chat partner.",
-    "abstract_zh": "许多在线平台允许人们在不面对面见面的情况下建立联系并相互了解。本研究分析了79名参与者（共进行了158次聊天）在网络上初次交流的内容，以及两天后他们的第二次交流。研究采用了文本网络分析方法来识别聊天中的关键词和主题群组，并通过定性分析来选取这些主题群组的典型实例。研究结果表明，参与者在第二次交流中分享了更多的个人信息，在整个聊天过程中使用了带有积极情感色彩的词汇，并在与聊天对象互动时表现出寻求支持的行为。",
+    "abstract_zh": "许多在线平台允许人们在不面对面见面的情况下建立联系并相互了解。本研究探讨了在线结识的参与者（N=79人，共进行了158次聊天）之间的对话内容，分析了他们的第一次对话以及两天后的第二次对话。研究采用了文本网络分析方法来识别对话中的关键词和主题群组，并通过定性分析来选取这些主题群组的代表性实例。研究结果表明：在第二次对话中，参与者分享了更多的个人信息；他们在整个对话过程中使用了带有积极情感色彩的词汇；并且在与聊天对象互动时表现出寻求支持的行为。",
     "summary": "研究陌生人线上初次及二次对话，用文本网络分析识别关键词和话题簇，发现信息分享增加、积极情绪和支持寻求。",
     "reason": "使用文本网络分析研究在线互动内容，属计算方法与传播议题结合。",
     "tags": [
@@ -21153,7 +21254,7 @@
   {
     "id": 994,
     "title": "‘Google this!’ How performative links and search engines organise information disorders in a climate obstruction network",
-    "title_zh": "‘Google this！’：表演性链接与搜索引擎如何在信息混乱的网络中组织信息秩序",
+    "title_zh": "“谷歌一下！”：表演性链接和搜索引擎如何在信息混乱的网络中组织信息",
     "authors": [
       "Malte Rödl",
       "Jutta Haider"
@@ -21167,7 +21268,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "In recent years, information disorders, including on environmental issues, have grown in strength and influence, making research involving detailed analyses of how they are organised increasingly important. This article focuses on a Swedish climate obstruction network and investigates the keyphrases (search queries) they suggest people should google. An analysis of keyphrases suggested between 2014 and 2022 on the network's blog and in other publications shows how these suggestions function akin to hyperlinks in organising an alternative media ecosystem. The article introduces the idea of ‘performative links’ as a way to conceptualise how strategically recommended keyphrases operationalise data voids. Performative links encourage users to ‘do their own research’ by suggesting specific keyphrases as search queries. They connect the technical properties of web search engines with society's demands for individual responsibility and media and information literacy, and they help to promote data voids and feeds into information disorders. The analysis of the keyphrases suggested by the studied climate obstruction network focuses on how these keyphrases are composed, where they are published, how they spread, and what search results and thus information they result in. The findings indicate that performative links are crucial in controlling cross-media alternative media ecosystems. They exploit ideological dialects to construct and maintain data voids but also amplify the climate obstruction message and its reach. The article concludes by emphasising the need for more research on information disorders across different media and platforms, as well as the potential risks associated with performative links and data voids.",
-    "abstract_zh": "近年来，包括环境问题在内的信息混乱现象日益严重，其影响范围也在不断扩大，因此对这些现象的组织结构进行详细分析的研究变得越来越重要。本文聚焦于一个瑞典的气候阻挠网络（climate obstruction network），并研究了该网络建议人们通过谷歌搜索的关键短语（search queries）。通过对2014年至2022年间该网络博客及其他出版物中出现的关键词短语的分析，本文揭示了这些关键词短语在组织替代媒体生态系统（alternative media ecosystem）中的作用机制。文章提出了“表演性链接”（performative links）这一概念，用以解释这些策略性推荐的关键词短语是如何利用数据空白（data voids）来发挥作用的。表演性链接通过向用户推荐特定的搜索关键词短语，鼓励他们自行进行信息检索。它们将搜索引擎的技术特性与社会对个人责任、媒体素养和信息素养的要求联系起来，同时促进了数据空白的出现，并进一步加剧了信息混乱现象。通过对这一气候阻挠网络所推荐关键词短语的分析，本文探讨了这些关键词短语的构成方式、发布渠道、传播途径，以及它们所产生的搜索结果和相应信息。研究结果表明，表演性链接在控制跨媒体的替代媒体生态系统中起着关键作用：它们利用意识形态手段来构建和维持数据空白，同时也放大了气候阻挠信息的影响范围。文章最后强调，需要进一步研究不同媒体和平台上的信息混乱现象，同时也要关注表演性链接和数据空白所带来的潜在风险。",
+    "abstract_zh": "近年来，包括环境问题在内的信息混乱现象日益严重，其影响范围也在不断扩大，因此对这些现象进行详细分析的研究变得越来越重要。本文聚焦于一个瑞典的气候阻挠网络，并探讨了该网络建议人们使用哪些关键词（搜索查询）。通过对2014年至2022年间该网络博客及其他出版物中出现的关键词进行分析，研究发现这些关键词在组织替代媒体生态系统中起到了类似于超链接的作用。文章提出了“表演性链接”（performative links）这一概念，用以解释这些策略性推荐的关键词是如何利用数据空白（data voids）的。表演性链接通过向用户推荐特定的搜索关键词，鼓励他们自行进行信息搜索。它们将搜索引擎的技术特性与社会对个人责任、媒体素养和信息素养的要求联系起来，同时推动了信息混乱现象的发展。研究重点分析了这些关键词的构成方式、发布渠道、传播途径，以及它们所产生的搜索结果和相应信息。研究结果表明，表演性链接在控制跨媒体的替代媒体生态系统中起着关键作用：它们利用意识形态工具来构建和维持数据空白，同时也放大了气候阻挠信息的影响力。文章最后强调，需要进一步研究不同媒体和平台上的信息混乱现象，以及表演性链接和数据空白可能带来的风险。",
     "summary": "研究瑞典气候阻碍网络建议的关键词查询，提出“表演性链接”概念，分析其如何组织信息失序、利用数据空洞并放大传播。",
     "reason": "研究信息失序、搜索引擎和替代媒体生态系统，分析关键短语的传播，属于计算传播议题。",
     "tags": [
@@ -21190,7 +21291,7 @@
   {
     "id": 1102,
     "title": "All The (Fake) News That’s Fit to Share? News Values in Perceived Misinformation across Twenty-Four Countries",
-    "title_zh": "所有那些适合分享的（虚假）新闻？二十四个国家中对错误信息的看法与新闻价值",
+    "title_zh": "所有那些适合分享的（虚假）新闻？二十四个国家中对错误信息的看法与新闻价值的关联",
     "authors": [
       "Sami Nenno",
       "Cornelius Puschmann"
@@ -21204,7 +21305,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "While there is a strong scholarly interest surrounding the content of political misinformation online, much of this research concerns misinformation in Western, Educated, Industrialized, Rich and Democratic (WEIRD) countries. Although such research has investigated the topical and stylistic characteristics of misinformation, its findings are frequently not interpreted systematically in relation to properties that journalists rely on to capture the attention of audiences, that is, in relation to news values . We close the gap on comparative studies of news values in misinformation with a perspective that emphasizes non-WEIRD countries. Relying on a dataset of URLs that were shared on Facebook in twenty-four countries and reported by users as containing false news, we compile a large corpus of online news items and use an array of computational tools to analyze its content with respect to a set of five news values (conflict, negativity, proximity, individualization, and informativeness). We find salient differences for almost all news values and regarding the WEIRD/non-WEIRD and flagged/unflagged distinction. Moreover, the prevalence of individual news values differs strongly for individual countries. However, while almost all differences are significant, the effects we encounter are mostly small.",
-    "abstract_zh": "尽管学术界对网络上的政治虚假信息内容非常关注，但大多数相关研究都集中在西方、受教育程度高、工业化程度高、经济富裕且民主制度健全（即“WEIRD”）的国家。虽然这些研究探讨了虚假信息在主题和风格上的特征，但其研究结果往往没有系统地与记者用来吸引受众注意力的因素（即新闻价值）进行关联分析。我们通过关注非“WEIRD”国家的视角，填补了在虚假信息新闻价值研究方面的空白。我们利用来自24个国家的Facebook分享链接数据集（这些链接被用户报告为包含虚假新闻），收集了大量在线新闻样本，并运用一系列计算工具对这些新闻内容进行了分析，重点考察了五个新闻价值维度：冲突性、负面性、贴近性、个性化以及信息量。研究发现，几乎所有新闻价值维度在“WEIRD”国家与非“WEIRD”国家之间都存在显著差异；同时，被标记为虚假新闻的新闻在各个新闻价值维度上的表现也存在明显差异。此外，不同国家之间某些新闻价值的普遍程度也存在显著差异。不过，尽管这些差异大多具有统计学意义，但其影响程度通常较小。",
+    "abstract_zh": "尽管学术界对网上政治错误信息的内容非常感兴趣，但大多数相关研究都集中在西方、受教育程度高、工业化程度高、经济富裕且民主程度高的国家（即“WEIRD”国家）。虽然这些研究探讨了错误信息的主题和风格特征，但其研究结果往往没有系统地与记者用来吸引受众注意力的因素（即新闻价值）进行关联分析。我们通过关注非“WEIRD”国家的视角，填补了在错误信息领域关于新闻价值比较研究的空白。我们利用来自24个国家的Facebook分享链接的数据集（这些链接被用户报告为包含虚假新闻），收集了大量在线新闻内容，并运用一系列计算工具对这些内容进行了分析，重点考察了五个新闻价值维度：冲突性、负面性、贴近性、个性化以及信息量。研究发现，几乎所有新闻价值维度在“WEIRD”国家与非“WEIRD”国家之间都存在显著差异；同时，被标记为虚假新闻的新闻在各个国家中的普遍程度也有所不同。然而，尽管这些差异大多具有统计学意义，但其影响程度通常较小。",
     "summary": "利用Facebook分享的虚假新闻URL构建大规模语料，用计算方法分析五类新闻价值在24国的差异，发现WEIRD与非WEIRD国家间存在显著但效应较小的差异。",
     "reason": "研究虚假新闻内容，使用Facebook数据和计算工具分析跨国新闻价值，属计算传播学。",
     "tags": [
@@ -21226,7 +21327,7 @@
   {
     "id": 1126,
     "title": "Estrategias del Ministerio de Sanidad de España en Instagram: Un estudio comparativo antes, durante y después de la pandemia COVID-19",
-    "title_zh": "西班牙卫生部在Instagram上的策略：一项关于新冠疫情前、中、后的比较研究",
+    "title_zh": "西班牙卫生部的Instagram策略：一项关于新冠疫情前、期间和之后的比较研究",
     "authors": [
       "Douglas Farias Cordeiro",
       "Carlos Lopezosa",
@@ -21239,7 +21340,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Este estudio analiza el uso de Instagram por el Ministerio de Sanidad de España con el objetivo de comprender cómo se ha utilizado esta plataforma para difundir contenido y comprometer al público en temas sanitarios. Se consideran las publicaciones realizadas entre 2018 y 2023, segmentadas en tres períodos: antes de la pandemia de COVID-19, durante la pandemia y después de la pandemia. Se realiza un análisis cuantitativo sobre los datos para comprender el volumen, tipo de publicaciones, métricas de participación, y el uso de hashtags y menciones. Se utiliza un modelo de inteligencia artificial para la identificación de nombres de personas mencionados en los textos de las publicaciones. Los resultados obtenidos indicaron que durante la pandemia, el aumento de publicaciones y el uso de vídeos incrementaron la interacción, mientras que las menciones y nombres de personas redujeron la participación. Además, en todos los períodos, los textos más cortos y el uso de carruseles y hashtags específicos se asociaron con un mayor engagement, destacando la importancia de estas tácticas en la comunicación institucional en redes sociales.",
-    "abstract_zh": "本研究分析了西班牙卫生部在Instagram上的使用情况，旨在了解该平台是如何被用来传播健康相关内容并吸引公众关注的。研究涵盖了2018年至2023年期间的所有发布内容，并将这些内容分为三个时间段：新冠疫情之前、疫情期间以及疫情之后。通过对相关数据进行了定量分析，研究了发布内容的数量、类型、参与度指标，以及标签（hashtags）和提及（menciones）的使用情况。研究还运用了人工智能模型来识别发布文本中提及的人名。研究结果表明，在疫情期间，发布内容的增加和视频的使用提升了用户的互动频率；然而，提及的人名和具体个人名称反而降低了用户的参与度。此外，在所有时间段内，较短的文章文本、轮播图（carousels）以及特定标签的使用都与更高的用户参与度相关联，这凸显了这些策略在社交媒体机构传播中的重要性。",
+    "abstract_zh": "本研究分析了西班牙卫生部在Instagram上的使用情况，旨在了解该平台是如何被用来传播健康相关信息并吸引公众关注健康议题的。研究范围涵盖了2018年至2023年期间的所有发布内容，并将这些内容分为三个时间段：新冠疫情之前、疫情期间以及疫情之后。通过对相关数据进行了定量分析，研究了发布内容的数量、类型、参与度指标，以及标签（hashtags）和提及人名的使用情况。研究还运用了人工智能模型来识别发布文本中提及的人名。研究结果表明，在疫情期间，发布内容的增加和视频的使用提升了用户的互动频率；然而，提及人名和具体人名的行为反而降低了用户的参与度。此外，在所有时间段中，较短的文章文本、轮播图（carousels）以及特定标签的使用都与更高的用户参与度相关联，这凸显了这些策略在社交媒体机构传播中的重要性。",
     "summary": "分析西班牙卫生部2018-2023年Instagram发帖策略，比较疫情前后，使用AI识别提及人名，发现视频和短文本提升互动。",
     "reason": "研究社交媒体平台Instagram，使用量化分析和AI模型识别文本，结合计算方法和传播议题。",
     "tags": [
@@ -21261,7 +21362,7 @@
   {
     "id": 1186,
     "title": "Rhetorical Promises: Gender Diversity Among Congressional Black Caucus Members’ Representation on Twitter",
-    "title_zh": "修辞性承诺：国会黑人党团成员在推特上的性别多样性表现",
+    "title_zh": "修辞性的承诺：国会黑人党团成员在推特上的性别多样性表现",
     "authors": [
       "Michael Strawbridge",
       "Christopher J. Clark",
@@ -21279,7 +21380,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "In 1971, Shirley Chisholm (D-NY) was the only female founder of the Congressional Black Caucus (CBC). Today, Black women comprise about half of the legislative caucus. As the members of the CBC become more diverse and prioritize intersectional identities in the political representation of Black communities, race as the single-axis priority of the caucus may complicate the coalition’s ability to form consensus. Building on extant studies focusing on the diversity within the Congressional Black Caucus (CBC), we find substantial differences in how Black Congresswomen and men communicate on Twitter. Relative to Democratic Black men, Democratic Black women are more likely to discuss substantive public policy issues and to frame them as raced and gendered. Our findings have implications not only for the CBC but also for any single-axis legislative caucus’ ability to represent their constituents.",
-    "abstract_zh": "1971年，雪莉·奇泽姆（Shirley Chisholm，纽约州民主党议员）成为国会黑人核心小组（Congressional Black Caucus，简称CBC）的唯一女性创始人。如今，黑人女性在该核心小组中占比约为一半。随着CBC成员构成的日益多样化，以及她们在代表黑人社区的政治活动中更加重视跨性别身份问题，将种族作为该小组的核心议题可能会影响其形成共识的能力。基于现有关于国会黑人核心小组内部多样性的研究，我们发现黑人女性国会议员与男性国会议员在Twitter上的交流方式存在显著差异：与黑人男性国会议员相比，黑人女性国会议员更倾向于讨论实质性的公共政策问题，并倾向于将这些问题与种族和性别因素联系起来进行分析。我们的研究结果不仅对国会黑人核心小组具有启示意义，也对任何以单一议题为核心的工作小组如何代表其选民具有参考价值。",
+    "abstract_zh": "1971年，雪莉·奇泽姆（Shirley Chisholm，纽约州民主党籍）成为国会黑人核心小组（Congressional Black Caucus，简称CBC）的唯一女性创始人。如今，黑人女性在该核心小组中占比约为一半。随着CBC成员组成的日益多样化，以及她们在代表黑人社区的政治过程中更加重视跨性别身份问题，将种族作为该小组的核心议题可能会影响其形成共识的能力。基于现有关于国会黑人核心小组内部多样性的研究，我们发现黑人女国会议员与黑人男国会议员在Twitter上的交流方式存在显著差异：与黑人男性国会议员相比，黑人女性国会议员更倾向于讨论实质性的公共政策问题，并倾向于将这些问题与种族和性别因素联系起来进行分析。我们的研究结果不仅对国会黑人核心小组具有启示意义，也对任何以单一议题为核心的小组在代表选民方面的能力具有参考价值。",
     "summary": "研究美国国会黑人核心小组成员在Twitter上的传播差异，发现黑人女性议员更常讨论实质性公共政策并采用种族与性别框架。",
     "reason": "使用Twitter大数据分析政治传播中的性别差异，涉及社交媒体与文本内容研究，属计算传播学。",
     "tags": [
@@ -21301,7 +21402,7 @@
   {
     "id": 996,
     "title": "Giving the outrage a name – how researchers are challenging employment conditions under the hashtags #IchBinHanna and #IchBinReyhan",
-    "title_zh": "给这种愤怒一个名称——研究人员如何通过标签#IchBinHanna和#IchBinReyhan来揭露就业不公的现象",
+    "title_zh": "给这种愤怒一个名称——研究人员如何通过标签#IchBinHanna和#IchBinReyhan来揭露就业不公现象",
     "authors": [
       "Ahmadou Wagne",
       "Elen Le Foll",
@@ -21321,7 +21422,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Outraged by the release of a ministerial video in which short-term employment contracts in German academia were lauded through the embodiment of fictitious doctoral researcher Hanna, thousands of researchers rallied behind the hashtags #IchBinHanna & #IchBinReyhan to vent their frustrations about precarious academic employment in Germany. The emerging connective action attracted a comparatively large number of researchers in a short period of time, stayed active for over two years, elicited reactions from policymakers and the media, and influenced current legislative developments in Germany. We analyse the discourse of over 45,000 tweets related to the movement from its onset in June 2021 to March 2023. Using a mixed-methods approach that combines machine-learning, corpus-linguistic, and qualitative analysis methods, we aim to distil the factors that led to the movement’s considerable success. The fast growth of the movement was likely driven by the use of an easy-to-personalise action frame and the large variety of discussion topics, facilitating the involvement of different groups of academics across career levels and employment conditions. Our analysis of the linguistic characteristics of the discourse reveals largely positive, constructive, and active exchanges, in which many of the most salient keywords are lexical verbs. Our analyses offer an explanation for the continued involvement of many activists and the successful translation of solutions developed by the movement to news reports and proposed law amendments, despite an absence of coordination by any formal organisation.",
-    "abstract_zh": "由于一部政府视频的发布，数千名研究人员感到愤怒。该视频通过虚构的博士研究员汉娜（Hanna）的形象，对德国学术界中存在的短期雇佣合同现象进行了美化。这些研究人员使用#IchBinHanna和#IchBinReyhan等标签来表达他们对德国学术界不稳定就业状况的不满。这一自发的抗议活动在短时间内吸引了大量参与者的关注，持续了两年多时间，并引起了政策制定者和媒体的关注，对德国当前的立法进程产生了影响。我们分析了从2021年6月到2023年3月期间与这场抗议活动相关的45,000多条推文的内容。通过结合机器学习、语料库语言学和定性分析方法的混合研究方法，我们试图找出导致该活动取得显著成功的关键因素。该活动之所以能够迅速发展，很可能是因为其采用了易于个人化的行动框架，以及涵盖了多种讨论主题，从而吸引了不同职业背景和就业条件的学者参与。我们对这些推文的语言特征进行分析后发现，其中大部分交流内容都是积极、建设性的；其中使用频率最高的词汇是动词。我们的研究结果解释了为什么尽管没有任何正式组织进行协调，仍有许多参与者持续参与其中，以及该活动提出的解决方案为何能够成功被媒体报道和纳入法律修正案中。",
+    "abstract_zh": "由于德国教育部发布了一段视频，该视频通过虚构的博士研究员汉娜（Hanna）的形象来赞扬德国学术界中的短期雇佣合同，数千名研究人员纷纷使用#IchBinHanna和#IchBinReyhan等标签来表达他们对德国学术界不稳定就业状况的愤怒。这一自发的抗议活动在短时间内吸引了大量研究人员的参与，持续了两年多时间，并引起了政策制定者和媒体的关注，对德国当前的立法进程产生了影响。我们分析了从2021年6月到2023年3月期间与这场运动相关的45,000多条推文的内容。通过结合机器学习、语料库语言学和定性分析方法的混合研究方法，我们试图找出这场运动取得显著成功的原因。这场运动之所以能够迅速发展，很可能是因为它采用了易于个人化的行动框架，并且讨论的主题非常多样，从而吸引了不同职业层次和就业条件下的学者参与。我们对这些推文的语言特征进行分析后发现，其中大部分交流内容都是积极、建设性的；其中使用频率最高的关键词是动词。我们的分析解释了为什么尽管没有任何正式组织进行协调，仍有许多参与者持续参与其中，以及为什么该运动提出的解决方案能够成功被媒体报道和纳入法律修正案中。",
     "summary": "研究#IchBinHanna和#IchBinReyhan标签下的德国学术劳工抗议，分析4.5万条推文，混合机器学习与语料库方法，揭示运动成功因素及话语特征。",
     "reason": "使用超4.5万条推文，结合机器学习与语料库方法分析社交媒体运动，属于计算传播学。",
     "tags": [
@@ -21357,7 +21458,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study discusses the use of TikTok during the war that began with the Russian attack on Ukraine in February 2022. TikTok has been the fastest growing social media channel and is known for its young user base. Although associated with lifestyle and light entertainment, it also become an important arena in the war. Young people abroad used TikTok to obtain information about the conflict and to comment on or share it. This article presents a case study of five young Ukrainian women who captured the attention and sympathy of international audiences via TikTok. The authors study how the women succeeded as influencers and the variety of roles they took on in their performances. For the latter, they suggest a classification scheme for war influencer roles. In addition, they analyse data on the reactions from their audiences, as they appeared in the comments field. In a longer discussion section, the article goes deeper into the gender dimension of war and social media, as well as the possibilities of cosmopolitanism or affective publics. Finally, the authors suggest directions for future research.",
-    "abstract_zh": "本文探讨了2022年2月俄罗斯对乌克兰发动攻击后，TikTok在战争期间的使用情况。TikTok是增长最快的社交媒体平台，以其年轻的用户群体而闻名。尽管它通常与生活方式和轻松娱乐相关联，但在战争中也成为了重要的信息传播渠道。国外的年轻人通过TikTok获取有关冲突的信息，并对此发表评论或分享自己的观点。文章以五位年轻的乌克兰女性为例，研究了她们如何通过TikTok吸引国际观众的关注和同情。作者分析了这些女性如何成为影响者，以及她们在内容创作中扮演的各种角色，并提出了一种用于分类战争时期影响者角色的框架。此外，文章还分析了观众在评论区中的反应数据。在更深入的讨论部分，文章探讨了战争与社交媒体之间的性别差异，以及“世界主义”或“情感型公众”（affective publics）的可能性。最后，作者为未来的研究提出了方向建议。",
+    "abstract_zh": "本文探讨了2022年2月俄罗斯对乌克兰发动攻击后，TikTok在战争期间的使用情况。TikTok是增长最快的社交媒体平台，以其年轻用户群体而闻名。尽管它主要与生活方式和轻松娱乐相关，但在战争中也成为了重要的信息传播渠道。国外的年轻人通过TikTok获取有关冲突的信息，并对此发表评论或分享自己的观点。文章以五位乌克兰年轻女性的案例为例，展示了她们如何通过TikTok吸引国际观众的关注和同情。作者研究了这些女性如何成为影响者，以及她们在内容创作中扮演的各种角色，并提出了一种用于分类战争时期影响者角色的框架。此外，文章还分析了观众在评论区中的反应数据。在更深入的讨论部分，文章探讨了战争与社交媒体之间的性别差异，以及“世界主义”或“情感型公众”（affective publics）的概念。最后，作者为未来的研究提出了方向建议。",
     "summary": "案例研究五位乌克兰女性TikTok博主在战争中的表演与角色，分析国际受众评论反应，提出战争影响者角色分类，并探讨性别与情感公众。",
     "reason": "研究TikTok在俄乌战争中的传播，涉及社交媒体平台及受众评论数据分析，属于计算传播议题。",
     "tags": [
@@ -21379,7 +21480,7 @@
   {
     "id": 1678,
     "title": "Gender and narrative in digital political communication during Russia’s full-scale invasion of Ukraine",
-    "title_zh": "俄罗斯全面入侵乌克兰期间数字政治传播中的性别与叙事",
+    "title_zh": "在俄罗斯全面入侵乌克兰期间，数字政治传播中的性别与叙事",
     "authors": [
       "Alexandra Pavliuc"
     ],
@@ -21391,7 +21492,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This article analyses the gendered differences in digital political communication of Ukrainian politicians and international figures on Twitter/X during Russia’s 2022 full-scale invasion. Narratives are captured using a structural topic model of 130,000 tweets by 74 Ukrainian politicians and the 223 international figures they targeted most to understand how men and women use different narratives during war. Men’s communications concentrated on military and diplomatic narratives while those of women focused on civilian trauma and Russian war crimes but contained no calls for compromise, disproving Western theories that women are more pacifist than men. A gender affinity effect was evident between men Ukrainian politicians and international figures, possibly due to men’s higher positions of power. These findings contribute knowledge to how gender impacts narrative use during armed conflict.",
-    "abstract_zh": "本文分析了2022年俄罗斯全面入侵期间，乌克兰政治家与国际人物在Twitter/X上的数字政治传播中的性别差异。研究通过分析74位乌克兰政治家及其最常针对的223位国际人物发布的13万条推文，运用结构化主题模型来捕捉这些推文中的叙事内容，以了解男性和女性在战争期间如何使用不同的叙事方式。男性的言论主要集中在军事和外交方面，而女性的言论则更多地关注平民的苦难和俄罗斯的战争罪行，但并未提出任何妥协的呼吁，这反驳了西方认为女性比男性更倾向于和平主义的观点。研究发现，乌克兰男性政治家与国际人物之间存在明显的性别相似性，这可能源于男性在权力结构中的较高地位。这些发现为探讨性别如何影响武装冲突期间的叙事方式提供了新的见解。",
+    "abstract_zh": "本文分析了2022年俄罗斯全面入侵期间，乌克兰政治家和国际人物在Twitter/X上的数字政治传播中的性别差异。研究通过分析74位乌克兰政治家及其最常针对的223位国际人物发布的13万条推文，运用结构化主题模型来捕捉这些推文中的叙事内容，以了解男性和女性在战争期间如何使用不同的叙事方式。男性的言论主要集中在军事和外交方面，而女性的言论则更多地关注平民的苦难和俄罗斯的战争罪行，但并未提出任何妥协的呼吁，这反驳了西方认为女性比男性更倾向于和平主义的观点。研究发现，乌克兰男性政治家与国际人物之间存在明显的性别相似性，这可能源于男性在权力结构中的较高地位。这些发现为理解性别如何影响武装冲突期间的叙事方式提供了新的见解。",
     "summary": "通过结构主题模型分析俄乌战争期间乌克兰政客及国际人物的13万条推文，探究性别在数字政治传播中的叙事差异，发现男性聚焦军事外交，女性聚焦平民创伤与战争罪行。",
     "reason": "使用结构主题模型分析13万条推文，结合社交媒体与政治传播议题，属于计算传播研究。",
     "tags": [
@@ -21413,7 +21514,7 @@
   {
     "id": 1104,
     "title": "When Do Parties Lie? Misinformation and Radical-Right Populism Across 26 Countries",
-    "title_zh": "“政党何时说谎？”：26个国家中的虚假信息与极右翼民粹主义",
+    "title_zh": "当政党说谎时：26个国家的虚假信息与极右翼民粹主义",
     "authors": [
       "Petter Törnberg",
       "Juliana Chueri"
@@ -21427,7 +21528,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The spread of misinformation has emerged as a global concern. Academic attention has recently shifted to emphasize the role of political elites as drivers of misinformation. Yet, little is known of the relationship between party politics and the spread of misinformation—in part due to a dearth of cross-national empirical data needed for comparative study. This article examines which parties are more likely to spread misinformation, by drawing on a comprehensive database of 32M tweets from parliamentarians in 26 countries, spanning 6 years and several election periods. The dataset is combined with external databases such as Parlgov and V-Dem, linking the spread of misinformation to detailed information about political parties and cabinets, thus enabling a comparative politics approach to misinformation. Using multilevel analysis with random country intercepts, we find that radical-right populism is the strongest determinant for the propensity to spread misinformation. Populism, left-wing populism, and right-wing politics are not linked to the spread of misinformation. These results suggest that political misinformation should be understood as part and parcel of the current wave of radical right populism, and its opposition to liberal democratic institution.",
-    "abstract_zh": "错误信息的传播已成为一个全球性的问题。学术界最近开始关注政治精英在传播错误信息中的作用。然而，关于政党政治与错误信息传播之间的关系，目前知之甚少——部分原因是缺乏用于比较研究的跨国实证数据。本文通过分析来自26个国家3200万条议员推文的数据集（这些数据涵盖了6年和多个选举周期），来探讨哪些政党更有可能传播错误信息。该数据集与Parlgov和V-Dem等外部数据库相结合，将错误信息的传播情况与有关政党和内阁的详细信息联系起来，从而采用比较政治学的方法来研究这一问题。通过使用带有随机国家截距的多层分析方法，我们发现极右翼民粹主义是导致错误信息传播的最重要因素。左翼民粹主义和右翼政治与错误信息的传播无关。这些结果表明，政治错误信息应被视为当前极右翼民粹主义浪潮的一部分，以及其对自由民主制度的反对。",
+    "abstract_zh": "错误信息的传播已成为一个全球性的问题。学术界最近开始关注政治精英在传播错误信息中的作用。然而，关于政党政治与错误信息传播之间的关系，目前知之甚少——部分原因是缺乏用于比较研究的跨国实证数据。本文通过分析来自26个国家3200万条议员推文的数据（这些数据涵盖了6年和多个选举周期），探讨了哪些政党更有可能传播错误信息。该数据集与Parlgov和V-Dem等外部数据库相结合，将错误信息的传播情况与有关政党和内阁的详细信息联系起来，从而采用比较政治学的方法来研究这一问题。通过使用带有随机国家截距的多层次分析方法，我们发现极右翼民粹主义是导致错误信息传播的最重要因素。左翼民粹主义和右翼政治与错误信息的传播无关。这些结果表明，政治错误信息应被视为当前极右翼民粹主义浪潮的一部分，以及其对自由民主制度的反对。",
     "summary": "基于26国议员3200万条推文，结合政党数据，发现激进右翼民粹主义是传播虚假信息的最强预测因素。",
     "reason": "使用3200万条推文数据，结合多层级模型分析政党虚假信息传播，属计算传播研究。",
     "tags": [
@@ -21449,7 +21550,7 @@
   {
     "id": 1261,
     "title": "Blending positivity energy and fun: dominant discourse patterns of popular short videos in China’s mobile media communication",
-    "title_zh": "将积极能量与趣味元素相结合：中国移动媒体传播中流行短视频的主导话语模式",
+    "title_zh": "将积极能量与趣味融合：中国移动媒体传播中流行短视频的主导话语模式",
     "authors": [
       "Chuanlin Ning"
     ],
@@ -21459,7 +21560,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The proliferation of mobile short video apps has transformed the dynamics of discourse circulation in contemporary society. However, limited research has been conducted on this phenomenon. This exploratory study employs topic modeling and social network analysis to examine discourse patterns within popular content (n = 10,000) on China’s leading mobile short video apps, Douyin and Kuaishou. The analysis reveals two primary discourse patterns: “positive energy” and “fun.” Remarkably, these popular short videos are predominantly produced by institutional-certified creators, including government departments and Chinese state-affiliated media, exerting a significant influence on mainstream discourse. These videos serve as essential instruments for the Chinese government to disseminate information and shape public opinion through mobile media platforms to a considerable degree. The tension between the “positive energy” and “fun” discourse patterns reflects the intricate nature of China’s short video mobile platforms under social media logic. This complexity is shaped by the entertainment-oriented nature of these platforms, government regulation, audience preferences, and the promotion of mainstream values within Chinese society.",
-    "abstract_zh": "移动短视频应用的普及改变了当代社会信息传播的格局。然而，关于这一现象的研究还非常有限。本研究采用主题建模和社会网络分析方法，对中国主流移动短视频应用（如抖音和快手）上的热门内容（共计10,000条视频）进行了分析。研究发现两种主要的 discourse patterns（话语模式）：“正能量”和“娱乐性”。值得注意的是，这些热门短视频主要由经过官方认证的创作者制作，其中包括政府部门和中国国有媒体，他们对主流舆论产生了显著影响。这些视频成为中国政府通过移动媒体平台传播信息和塑造公众舆论的重要工具。 “正能量”与“娱乐性”这两种话语模式之间的张力，反映了在中国社交媒体环境下短视频平台的复杂性。这种复杂性受到平台本身的娱乐导向、政府监管、用户偏好以及中国社会主流价值观推广等多方面因素的共同影响。",
+    "abstract_zh": "移动短视频应用的普及改变了当代社会信息传播的格局。然而，关于这一现象的研究还非常有限。本研究采用主题建模和社会网络分析方法，对中国主流移动短视频应用（如抖音和快手）上的热门内容（共计10,000条视频）进行了分析。研究发现两种主要的 discourse patterns（话语模式）：“正能量”和“娱乐性”。值得注意的是，这些热门短视频主要由经过官方认证的创作者制作，其中包括政府部门和中国国有媒体，他们对主流舆论产生了显著影响。这些视频成为中国政府通过移动媒体平台传播信息和塑造公众舆论的重要工具。在“正能量”与“娱乐性”这两种话语模式之间的张力，反映了在中国社交媒体环境下短视频平台的复杂性。这种复杂性受到平台本身的娱乐导向、政府监管、用户偏好以及中国社会主流价值观推广等多重因素的影响。",
     "summary": "基于抖音和快手1万条热门短视频，运用主题建模与社会网络分析，揭示‘正能量’和‘趣味’两种主导话语模式，探讨政府机构与国有媒体如何通过移动平台塑造主流舆论。",
     "reason": "使用主题建模和社会网络分析研究短视频平台话语模式，方法属于计算传播，议题聚焦社交媒体与主流话语。",
     "tags": [
@@ -21495,7 +21596,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The volunteerism of Wikipedia editors has been conceptualised as an altruistic form of social production and a form of social activism. However, notions of linguistic activism and cultural identity as motivators, and the ways in which editors representing the Global South have sought to counter knowledge inequities online, have not been addressed. Drawing on theoretical frameworks of digital colonialism and social justice; a grounded theory approach that included semi-structured interviews with prominent editors; and digital data analysis from Wikipedia, we present a culturally situated case study of Indian language Wikipedia editors during the Covid-19 pandemic. We identify them as ‘Wiki Warriors’ and offer their motivations and work practices as instructive for rethinking assumptions about digital colonialism. We find that during the urgency of the global health crisis, the editors in the Global South developed a range of decolonialist practices as they negotiated the tensions of western medicine and traditional non-Western healing systems, such as Ayurveda and Unnani, ‘universal’ facts, and the spreadability of vernacular, localised health information in the digital space. Such decolonialist strategies were shaped by the responses towards religious disharmony and misinformation.",
-    "abstract_zh": "维基百科编辑的志愿行为被理解为一种利他主义的社会生产形式和社会活动形式。然而，关于语言活动主义和文化身份作为驱动力的概念，以及代表全球南方的编辑们如何努力应对网络上的知识不平等问题，这些方面尚未得到充分探讨。本文基于数字殖民主义和社会正义的理论框架，采用扎根理论方法（包括对知名编辑的半结构化访谈）以及来自维基百科的数字数据分析，对新冠疫情期间印度语维基百科编辑的行为进行了案例研究。我们将这些编辑称为“维基战士”（Wiki Warriors），并分析了他们的动机和工作实践，认为这些案例有助于重新审视关于数字殖民主义的现有假设。研究发现，在全球健康危机的特殊背景下，全球南方的编辑们发展出了一系列去殖民化的策略，以应对西方医学与传统非西方医疗体系（如阿育吠陀医学和Unnani疗法）之间的矛盾、“普世”观念的争议，以及本土化健康信息在数字空间中的传播问题。这些去殖民化策略的形成，还受到了人们对宗教冲突和错误信息的反应的影响。",
+    "abstract_zh": "维基百科编辑的志愿行为被视为一种利他主义的社会生产形式和社会活动形式。然而，关于语言活动主义和文化身份作为驱动力的概念，以及代表全球南方地区的编辑们如何努力应对网络上的知识不平等问题，这些方面尚未得到充分探讨。本文基于数字殖民主义和社会正义的理论框架，采用扎根理论方法（包括对知名编辑的半结构化访谈）以及维基百科的数字数据分析，对新冠疫情期间印度语维基百科编辑的行为进行了文化背景下的案例研究。我们将这些编辑称为“维基战士”（Wiki Warriors），并分析了他们的动机和工作实践，认为这些案例有助于重新审视关于数字殖民主义的现有假设。研究发现，在全球健康危机的特殊时期，全球南方的编辑们发展出了一系列去殖民化的策略，以应对西方医学与传统非西方医疗体系（如阿育吠陀医学和Unnani疗法）之间的矛盾、“普世”观念的争议，以及在数字空间中传播本地化健康信息所面临的挑战。这些去殖民化策略的形成，还受到了人们对宗教冲突和错误信息反应的影响。",
     "summary": "论文以印度语言维基百科编辑者为案例，通过访谈和维基百科数字数据分析，探讨疫情期间全球南方编辑者如何以非殖民化实践挑战知识等级与信息不平等。",
     "reason": "研究涉及维基百科平台及数字数据分析，属于社交媒体与计算传播议题，结合计算方法。",
     "tags": [
@@ -21518,7 +21619,7 @@
   {
     "id": 1755,
     "title": "Polarization and Disinformation in the Context of the Letter Revolution in Türkiye: Analyzing the Dynamics of X",
-    "title_zh": "土耳其“信件革命”背景下的两极分化与虚假信息：分析X的动态",
+    "title_zh": "土耳其“信件革命”背景下的两极分化与虚假信息：对X动态的分析",
     "authors": [
       "Sami Çöteli"
     ],
@@ -21530,7 +21631,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "This study examines the dynamics of disinformation spread on X (formerly Twitter) in the context of Türkiye’s Letter Revolution, employing the Hypodermic Needle Model and Cultivation Theory as primary theoretical frameworks. By applying these theories to social media disinformation, we offer a novel approach to understanding both the immediate impact and long-term effects of false narratives on public perception. Our research analyzes a unique dataset of 36.9 million tweets from accounts closed due to disinformation spread, focusing on the #harfdevrimi hashtag. The purpose of this paper is to demonstrate how these communication theories can be effectively applied to modern digital environments, providing insights into the mechanisms of disinformation dissemination and its role in societal polarization. A comprehensive theoretical framework for analyzing social media disinformation, methodological innovations in large-scale social media data analysis, and critical insights into the challenges of maintaining an informed citizenry in politically sensitive contexts will be presented. This research contributes to the growing body of literature on media manipulation and offers a model for future studies on disinformation in digital spaces.",
-    "abstract_zh": "本文研究了在土耳其“字母革命”（Türkiye’s Letter Revolution）背景下，虚假信息在X平台（前身为Twitter）上的传播动态。研究主要采用了“皮下注射模型”（Hypodermic Needle Model）和“培养理论”（Cultivation Theory）作为理论框架。通过将这些理论应用于社交媒体中的虚假信息传播现象，我们提出了一种新的方法，以理解虚假信息对公众认知的即时影响和长期效应。研究分析了来自因传播虚假信息而被封禁的账户的3690万条推文，重点关注了#harfdevrimi这个话题标签。本文旨在展示如何将这些传播理论有效地应用于现代数字环境，从而揭示虚假信息传播的机制及其在社会分化中的作用。研究将提供一个分析社交媒体虚假信息的综合性理论框架，介绍大规模社交媒体数据分析的方法创新，并深入探讨在政治敏感环境下维护公众知情权的挑战。这项研究为媒体操纵相关的文献做出了贡献，并为未来关于数字空间中虚假信息传播的研究提供了模型。",
+    "abstract_zh": "本文研究了在土耳其“字母革命”（Türkiye’s Letter Revolution）背景下，X平台（前身为Twitter）上虚假信息传播的动态。研究主要采用了“皮下注射模型”（Hypodermic Needle Model）和“培养理论”（Cultivation Theory）作为理论框架。通过将这些理论应用于社交媒体中的虚假信息传播现象，我们提出了一种新的方法来理解虚假信息对公众认知的即时影响和长期效应。研究分析了来自因传播虚假信息而被封禁的账户的3690万条推文，重点关注了#harfdevrimi这个话题标签。本文旨在展示这些传播理论如何有效地应用于现代数字环境，从而揭示虚假信息传播的机制及其在社会分化中的作用。研究还将提出一个用于分析社交媒体虚假信息的综合性理论框架、大规模社交媒体数据分析的方法创新，以及对政治敏感环境下维护公民知情权的挑战的深刻见解。这项研究为媒体操纵相关的文献做出了贡献，并为未来关于数字空间中虚假信息传播的研究提供了模型。",
     "summary": "研究以土耳其字母革命为背景，分析X平台3690万条推文中虚假信息的传播动态，结合皮下注射模型和涵化理论，探讨虚假叙事对公众认知的影响及社会极化作用。",
     "reason": "使用3690万条推文大规模数据，结合计算方法分析虚假信息与极化，明确属于计算传播学。",
     "tags": [
@@ -22247,7 +22348,7 @@
   {
     "id": 1891,
     "title": "Attribute and Network Agenda Setting on Chinese Environmental Issues: Examining the Interplay Between News Media, Government, and the Public on Twitter",
-    "title_zh": "在中国环境问题上的属性与网络议程设置：研究新闻媒体、政府与公众在推特上的互动",
+    "title_zh": "在中国环境问题上的属性与网络议程设置：探讨新闻媒体、政府与公众在推特上的互动",
     "authors": [
       "Nan Zhang",
       "Hailong Peng",
@@ -22264,7 +22365,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Abstract This study investigated agenda attributes and attribute networks in discussions on Chinese environmental issues on Twitter, exploring interactions among various user types. Drawing upon attribute agenda-setting and network agenda-setting theories, we automatically extracted data from 94,076 tweets (2006–2022). First, causal relationships were analyzed through time series analysis, revealing diverse correlations across different agenda attributes. Furthermore, attribute networks of user groups were compared, showing significant associations between the public, foreign governments, and foreign media networks. However, the Chinese media and government had a limited impact on public attribute networks and were less influenced by others. These results highlight the contrasting roles of centralized and decentralized systems in agenda-setting processes, emphasizing the need to analyze agenda-setting effects at both the attribute and network levels.",
-    "abstract_zh": "本研究探讨了Twitter上关于中国环境问题的讨论中议程属性及其网络结构，分析了不同用户类型之间的互动关系。基于议程设置理论和网络议程设置理论，我们从2006年至2022年的94,076条推文中自动提取了数据。首先，通过时间序列分析研究了各种议程属性之间的因果关系，发现这些属性之间存在显著的相关性。其次，比较了不同用户群体的议程属性网络，发现公众、外国政府和外国媒体网络之间存在显著关联；然而，中国媒体和政府对公众议程网络的影响较为有限，同时它们自身也受到其他群体的较小影响。这些结果凸显了集中式和分散式系统在议程设置过程中的不同作用，强调了需要在属性层面和网络层面同时分析议程设置的影响。",
+    "abstract_zh": "本研究探讨了Twitter上关于中国环境问题的讨论中议程属性及其网络结构，分析了不同用户类型之间的互动关系。基于议程设置理论和网络议程设置理论，我们从2006年至2022年的94,076条推文中自动提取了数据。首先，通过时间序列分析研究了各种议程属性之间的因果关系，发现这些属性之间存在显著的相关性。其次，比较了不同用户群体的议程属性网络，发现公众、外国政府和外国媒体网络之间存在显著关联；然而，中国媒体和政府对公众议程网络的影响较为有限，同时它们自身也较少受到其他群体的影响。这些结果凸显了集中式和分散式系统在议程设置过程中的不同作用，强调了需要在属性层面和网络层面同时分析议程设置的影响。",
     "summary": "基于94,076条推文，运用时间序列和网络议程设置方法，分析中国环境议题中媒体、政府与公众的互动及其属性网络。",
     "reason": "使用Twitter大数据和网络分析研究议程设置，属于计算传播学。",
     "tags": [

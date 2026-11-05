@@ -3,12 +3,12 @@
   "label": "算法权威与社会公平感知",
   "description": "关注算法决策的合法性来源、公众信任与相对剥夺感，以及智能治理中边缘群体的参与与数据化照护。",
   "why_hot": "近30天日均发表速度较前期上升17%，覆盖7本期刊，研究活动温和升温。",
-  "hot_score": 69,
-  "growth": 0.167,
-  "growth_rate": 0.167,
-  "recent_rate": 0.2333,
+  "hot_score": 61,
+  "growth": 0.0,
+  "growth_rate": 0.0,
+  "recent_rate": 0.2,
   "baseline_rate": 0.2,
-  "recent_count": 7,
+  "recent_count": 6,
   "baseline_count": 30,
   "journal_count": 7,
   "lineage_status": "continued",
@@ -57,25 +57,11 @@
       "summary": "论文考察西班牙公众对AI统治（算法权威）的支持度，以相对剥夺感与等级观念作为解释变量，属AI政治合法性与公众态度的实证研究。"
     },
     {
-      "id": 2120,
-      "title": "Trust in algorithms biased appraisal and boosted affect in online dating",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-09",
-      "summary": "通过实验操纵165名美国成年人对算法效能的信任信念，评估同一组在线约会档案，检验信任信念如何影响约会评价与情绪。结果显示高信任组感知约会更成功，进而更自信愉悦、更少焦虑悲伤，提示算法信念存在自我实现预言效应。"
-    },
-    {
       "id": 2121,
       "title": "Young people and the data gaze: experiencing datafication in everyday life",
       "journal": "Information Communication & Society",
       "published_date": "2026-10-07",
       "summary": "文章扩展 Beer 的“数据凝视”概念，基于质性经验材料，考察青年在金融科技与修图应用中如何被算法分类、想象，又如何反向凝视，揭示数据产业凝视下的不平等与排斥再生产。"
-    },
-    {
-      "id": 2108,
-      "title": "Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-01",
-      "summary": "该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。"
     },
     {
       "id": 2153,
@@ -90,6 +76,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "基于女性主义关怀伦理，对20名成人进行民族志田野研究，分析三个案例，探讨关怀与数字（不）连接实践如何相互塑造，提出\"谨慎的不/连接\"框架，认为数字福祉取决于技术所维系的关怀关系而非个体媒介使用。"
+    },
+    {
+      "id": 2201,
+      "title": "Do Experts Agree About Misinformation? Evidence From Three Annual Surveys",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "基于三轮国际专家调查（2023–2025，覆盖76国），考察专家对虚假信息规模、传播速度和影响的七项流行主张的认同度，发现共识程度有限，且受学科与地域影响。"
     },
     {
       "id": 2202,
@@ -155,11 +148,25 @@
       "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
     },
     {
+      "id": 1928,
+      "title": "Digital Footprint Capital: AI, identity, and the algorithmic governance of creative work",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-13",
+      "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
+    },
+    {
       "id": 58,
       "title": "An exploration of smart speakers to support independence, competence, and relatedness for older adults at risk of digital exclusion in public and social housing",
       "journal": "Information Communication & Society",
       "published_date": "2026-07-22",
       "summary": "探讨智能音箱如何支持处于数字排斥风险的老年人的独立性、能力感和关联性，属于AI技术在社会情境中的应用研究。"
+    },
+    {
+      "id": 63,
+      "title": "Platforming pocket money: family finance apps and the datafication of child economies",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-15",
+      "summary": "分析儿童理财APP的特征，探讨其如何通过数据追踪与管理重塑儿童的经济参与，并讨论数据化对儿童金融主体与客体的构建。"
     },
     {
       "id": 64,
@@ -169,11 +176,11 @@
       "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
     },
     {
-      "id": 251,
-      "title": "Disinformation, social inequalities and young people’s digital citizenship during conflict and crisis in Ethiopia",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-02",
-      "summary": "研究埃塞俄比亚冲突期间青年数字公民身份中的性别与地域不平等，探讨其如何影响虚假信息传播及政治参与。"
+      "id": 281,
+      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
     },
     {
       "id": 285,
@@ -188,6 +195,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过65个访谈，探讨中国年轻男同性恋者在算法环境下如何协商（不）智能性，提出“liminal intelligibility”概念，强调人机交互与人人交互的交叉。"
+    },
+    {
+      "id": 1907,
+      "title": "Unpacking the Relationship Between Algorithmic Literacy and Misinformation: A Multidimensional Approach Using Two Sequential Studies",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于智利两项概率调查，分析算法素养的认知与行为维度对错误信息接触、分享和知识的影响，发现认知维度关联更强。"
     },
     {
       "id": 1908,
@@ -216,13 +230,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-23",
       "summary": "通过18位专家访谈，探究老年人社交辅助机器人开发中个性化与隐私的张力，揭示数据化悖论，提出四类机器人分类。"
-    },
-    {
-      "id": 409,
-      "title": "The Power of AI Transparency, Rewards, and Tracking: How Mobile App Features Drive the Adoption of Smart Trash Bins Through Trust and Perceived Value",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-22",
-      "summary": "基于助推理论与SOR框架，通过在线实验检验AI透明度、奖励和追踪功能对智能垃圾桶采纳意愿的影响，发现信任和感知价值的中介作用及交互效应。"
     },
     {
       "id": 80,
@@ -258,20 +265,6 @@
       "journal": "Asian Journal of Communication",
       "published_date": "2026-06-11",
       "summary": "研究台湾女性使用经期追踪应用时，如何与算法系统、文化期望和身体经验协商，提出亲密数据表演性概念，探讨预测协商、自我优化和数据共享中的赋能与控制张力。"
-    },
-    {
-      "id": 88,
-      "title": "Mediated information grounds: living with(in) pareshani , social networks and gendered media practices among the Rohingya refugees",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-08",
-      "summary": "研究罗兴亚难民在流离失所中的媒介使用与信息行为，提出‘中介信息场域’概念，探讨焦虑、性别、信任与社交媒体实践，基于定性数据。"
-    },
-    {
-      "id": 412,
-      "title": "Effects of Generative AI Bias on Adoption Through Trust: Interactions Between Engagement Cues, Information Cues, and Social Norms",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-07",
-      "summary": "通过在线实验探究AI偏见认知对采纳意愿的影响，发现偏见体验、偏见提示与社会规范三重交互影响AI信任，进而影响采纳。"
     },
     {
       "id": 98,

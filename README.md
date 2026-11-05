@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-11-02 21:20 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-11-05 21:05 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-11-02 | [AI Chatbot’s Self-Confidence Cues Shape Users’ Impressions of the Chatbot, but Not Accuracy Judgments of Hallucinated Responses](<https://doi.org/10.1080/08838151.2026.2752936>) | Journal of Broadcasting & Electronic Media | 通过2×2×2在线实验（N=738）考察AI聊天机器人自信水平、变异性与呈现模态如何影响用户对机器人及幻觉输出的评价。 |
+| 2026-11-01 | [Shifting priorities? Coverage of the Russia-Ukraine war in Central European online news media (2022–2026)](<https://doi.org/10.1177/17506352261493702>) | Media War & Conflict | 论文分析2022至2026年中欧八家在线新闻媒体对俄乌战争的报道，考察战争显著性及官僚、国防、经济、人道四维度随时间变化，并检验国家语境与政治倾向的影响。 |
 | 2026-10-30 | [Cue production and evaluative uptake: prompt framing and user judgments in AI-Mediated health communication](<https://doi.org/10.1080/1369118x.2026.2752107>) | Information Communication & Society | 通过随机提示实验考察用户提示框架如何影响ChatGPT的情感与支持性线索生产，以及这些线索是否影响用户可信度与信任评价。 |
 | 2026-10-26 | [Conversations about air pollution in New Delhi on X: Causes, solutions and perceived effects](<https://doi.org/10.1177/17427665261489795>) | Global Media and Communication | 研究分析新德里10万余条X帖子，考察公众对空气污染成因、解决方案与影响的认知框架，发现公民话语与主流媒体叙事存在显著差异：用户更多归咎秸秆焚烧与节日烟花，并突出经济与生活影响。 |
 | 2026-10-26 | [Enhancing Online Deliberation Through AI-Driven Counter-Attitudinal Interventions: Direct and Indirect Effects on Users’ Perceptions and Behavior](<https://doi.org/10.1177/0261927x261500682>) | Journal of Language and Social Psychology | 通过10天模拟公民议会三波实验，检验AI反态度评论推荐是否提升观点平等感知、审议体验并减少不文明表达，发现其对主观审议体验有间接效应，但对不文明行为作用有限。 |
-| 2026-10-26 | [Narrative character networks are associated with storytelling success](<https://doi.org/10.1093/hcr/hqag004>) | Human Communication Research | 将叙事视为角色互动网络，对1万余部小说和1000部电影剧本进行大规模计算分析，发现网络聚类、模块度、路径长度与故事流行度和评分相关。 |
-| 2026-10-25 | [Testing Hypotheses From the Social Approval Theory of Online Hate: An Analysis of 110 Million Messages From Parler](<https://doi.org/10.1177/00936502261494874>) | Communication Research | 研究基于Parler 2018—2021年1.1亿条消息，检验社会认可理论，发现点赞等认可信号对仇恨言论与毒性程度存在即时负向、长期正向的差异化预测效应。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-11-02 21:20 GMT+8
+> 最近更新：2026-11-05 21:05 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 2220 |
-| 当期新增 | 43 |
-| High / Medium / Low | 615 / 704 / 901 |
-| Pending / Screened / Quarantined / Error | 0 / 2220 / 0 / 0 |
-| 已发布精选 | 615 |
-| 期刊全量导出 | 2220 |
+| 数据库论文 | 2228 |
+| 当期新增 | 33 |
+| High / Medium / Low | 618 / 706 / 904 |
+| Pending / Screened / Quarantined / Error | 0 / 2228 / 0 / 0 |
+| 已发布精选 | 618 |
+| 期刊全量导出 | 2228 |
 
-覆盖验证：OpenAlex DOI 2206，Crossref DOI 954，匹配 903，Crossref 中尚缺 51。
+覆盖验证：OpenAlex DOI 2214，Crossref DOI 965，匹配 911，Crossref 中尚缺 54。
 
 <!-- paper-hot:auto-stats:end -->
 

@@ -3,13 +3,13 @@
   "label": "社交媒体政治传播与议程建构",
   "description": "考察政党与选民在平台上的议程策略、个人化策展与民主倾听机制，以及生成式人工智能在事实核查中的角色。",
   "why_hot": "近30天日均发表速度较前期下降26%，研究产出稳中略降。",
-  "hot_score": 50,
-  "growth": -0.265,
-  "growth_rate": -0.265,
-  "recent_rate": 0.1667,
-  "baseline_rate": 0.2267,
-  "recent_count": 5,
-  "baseline_count": 34,
+  "hot_score": 56,
+  "growth": -0.143,
+  "growth_rate": -0.143,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.2333,
+  "recent_count": 6,
+  "baseline_count": 35,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
@@ -43,6 +43,13 @@
       "summary": "比较八国选举中政治行动者在Facebook上的行动呼吁类型及其对选民参与的影响，分析动员、告知与互动策略及国别差异。"
     },
     {
+      "id": 2165,
+      "title": "From Facebook to political actions: nationalism, patriotism, and participation in Vietnam’s digital sphere",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-13",
+      "summary": "以越南为背景，通过问卷调查考察三类 Facebook 使用行为与四类政治参与的关系，并检验民族主义与爱国情感的中介作用，发现主动非社交使用正向预测民族主义与爱国态度，民族主义态度负向关联对抗性参与。"
+    },
+    {
       "id": 2147,
       "title": "How Personal Curation Shapes Political Engagement on Social Media? Examining The Politics of Personal Curation Model",
       "journal": "The International Journal of Press/Politics",
@@ -62,6 +69,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-10-01",
       "summary": "通过对巴西国会议员的访谈，研究其如何将受众分析纳入传播策略，提出忠诚者、追随者与受众库的受众感知框架，指出平台语境使选区受众被重构为影响目标，导致代议制扭曲。"
+    },
+    {
+      "id": 2224,
+      "title": "“I Share Your Sentiment”—A Longitudinal Study of Facebook Post Sentiment and Sharing",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "研究挪威主要政党2016–2025年Facebook帖文情感倾向及其对分享的影响，结合大语言模型与人工标注做情感分析，发现正面情感仍占主导但负面情感随时间上升，负面帖文总体获更多分享但优势逐渐减弱。"
     },
     {
       "id": 2066,
@@ -139,6 +153,13 @@
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-08-24",
       "summary": "通过分析丹麦部长2020-2024年Facebook活动与传统媒体曝光数据，结合32次全国民调，发现传统媒体活动仅小幅提升知名度，社交媒体活动收效甚微，且存在触及与好感权衡。"
+    },
+    {
+      "id": 1951,
+      "title": "Echoes across the divide: incivility and the fragmentation of issue publics in immigration discourse",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-20",
+      "summary": "基于X平台数据，用LLM识别移民立场和语言不文明度，构建提及网络追踪不文明言论在意识形态对立群体间的扩散。"
     },
     {
       "id": 1967,
@@ -286,13 +307,6 @@
       "journal": "Communication and the Public",
       "published_date": "2026-06-12",
       "summary": "基于2020年美国大选两波面板调查，检验大众媒体、社交媒体和人际讨论对情感极化的影响，发现同质新闻加剧极化，跨域新闻缓解极化。"
-    },
-    {
-      "id": 100,
-      "title": "Targeting and/or tailoring?! A theoretical framework and its application to political social media advertising",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-14",
-      "summary": "提出targeting与tailoring的理论框架，基于2021年德国大选Facebook和Instagram广告数据，测量政党广告策略及其对曝光量的影响。"
     }
   ],
   "paper_edges": []
