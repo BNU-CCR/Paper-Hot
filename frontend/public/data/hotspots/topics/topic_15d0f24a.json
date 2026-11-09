@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "人工智能中介传播的信任与调适",
-  "description": "考察生成式人工智能介入健康、协商等传播场景时，提示框架、用户评价与信任建构机制及其在工作场景中的技能调适。",
-  "why_hot": "近30天日均发表速度较前期下降约21%，研究热度有所回落但期刊分布仍广。",
-  "hot_score": 38,
-  "growth": -0.464,
-  "growth_rate": -0.464,
+  "label": "AI介入在线协商与信任问责",
+  "description": "研究AI驱动的反驳性干预如何影响在线协商质量，以及AI系统的信任建构与问责框架。",
+  "why_hot": "近30天日均发表速度较前期下降约四成，关注度有所回落。",
+  "hot_score": 41,
+  "growth": -0.4,
+  "growth_rate": -0.4,
   "recent_rate": 0.1,
-  "baseline_rate": 0.1867,
+  "baseline_rate": 0.1667,
   "recent_count": 3,
-  "baseline_count": 28,
-  "journal_count": 7,
+  "baseline_count": 25,
+  "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "AI-mediated communication",
-    "trust",
-    "prompt framing",
-    "generative AI",
-    "machine behavior"
+    "online deliberation",
+    "counter-attitudinal intervention",
+    "AI trust",
+    "accountability",
+    "chatbot"
   ],
   "papers": [
     {
@@ -111,13 +111,6 @@
       "journal": "Global Media and Communication",
       "published_date": "2026-07-02",
       "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
-    },
-    {
-      "id": 212,
-      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
-      "journal": "Political Communication",
-      "published_date": "2026-06-30",
-      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
     },
     {
       "id": 402,
@@ -223,20 +216,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-05-16",
       "summary": "通过3×2×2混合实验，考察来源（人类/AI/人机混合）与纠正策略对错误信息纠正可信度的影响，发现AI使用权威策略降低可信度，但机器启发式信念和权威人格可缓解此效应。"
-    },
-    {
-      "id": 419,
-      "title": "Label, Debunk, or Nudge? The Effectiveness of AI Decision Makers and AI Decision Assistants in Reducing Perceived Health Misinformation Credibility",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-05-11",
-      "summary": "通过在线实验（N=123）比较AI决策者（标注、辟谣）与AI决策助手（助推）在降低健康错误信息可信度方面的效果，发现辟谣与标注效果相近，而助推对高控制需求者更有效，且感知自主性起中介作用。"
-    },
-    {
-      "id": 179,
-      "title": "Going with the Mainstream: Exploring GPT Representation of Journalistic Culture",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-05-09",
-      "summary": "本研究通过提示GPT-4o回答新闻业调查问卷，与美德英三国记者实际数据对比，发现模型偏向反映中翼全职电视背景记者观点，讨论AI在新闻生产中的文化偏向与记者能动性。"
     }
   ],
   "paper_edges": []

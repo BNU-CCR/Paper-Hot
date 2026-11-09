@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "算法权威与社会公平感知",
-  "description": "关注算法决策的合法性来源、公众信任与相对剥夺感，以及智能治理中边缘群体的参与与数据化照护。",
-  "why_hot": "近30天日均发表速度较前期上升17%，覆盖7本期刊，研究活动温和升温。",
-  "hot_score": 61,
-  "growth": 0.0,
-  "growth_rate": 0.0,
-  "recent_rate": 0.2,
+  "label": "算法治理与AI社会批判",
+  "description": "探讨算法决策与生成式AI在治理、照护与公共服务中的权力结构、公平与批判议题。",
+  "why_hot": "近30天日均速度小幅下降17%，仍覆盖7本期刊，热度趋稳。",
+  "hot_score": 55,
+  "growth": -0.167,
+  "growth_rate": -0.167,
+  "recent_rate": 0.1667,
   "baseline_rate": 0.2,
-  "recent_count": 6,
+  "recent_count": 5,
   "baseline_count": 30,
   "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "algorithmic authority",
-    "trust in algorithms",
+    "AI governance",
     "smart city",
-    "anthropomorphism",
-    "datafication"
+    "algorithmic witnessing",
+    "equity"
   ],
   "papers": [
     {
@@ -76,13 +76,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "基于女性主义关怀伦理，对20名成人进行民族志田野研究，分析三个案例，探讨关怀与数字（不）连接实践如何相互塑造，提出\"谨慎的不/连接\"框架，认为数字福祉取决于技术所维系的关怀关系而非个体媒介使用。"
-    },
-    {
-      "id": 2201,
-      "title": "Do Experts Agree About Misinformation? Evidence From Three Annual Surveys",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "基于三轮国际专家调查（2023–2025，覆盖76国），考察专家对虚假信息规模、传播速度和影响的七项流行主张的认同度，发现共识程度有限，且受学科与地域影响。"
     },
     {
       "id": 2202,
@@ -176,13 +169,6 @@
       "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
     },
     {
-      "id": 281,
-      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
-    },
-    {
       "id": 285,
       "title": "“You Might Like Each Other”: Mass Customization and the Structuring of Sociality Among Chinese Generation Z on the Soul App",
       "journal": "Social Media + Society",
@@ -197,13 +183,6 @@
       "summary": "通过65个访谈，探讨中国年轻男同性恋者在算法环境下如何协商（不）智能性，提出“liminal intelligibility”概念，强调人机交互与人人交互的交叉。"
     },
     {
-      "id": 1907,
-      "title": "Unpacking the Relationship Between Algorithmic Literacy and Misinformation: A Multidimensional Approach Using Two Sequential Studies",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "基于智利两项概率调查，分析算法素养的认知与行为维度对错误信息接触、分享和知识的影响，发现认知维度关联更强。"
-    },
-    {
       "id": 1908,
       "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
       "journal": "Social Media + Society",
@@ -216,6 +195,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
+    },
+    {
+      "id": 2087,
+      "title": "Wise Empathy Improves Well-Being on Instagram",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过生态瞬时干预训练260名被试在Instagram上运用明智共情，结合5,902次经验取样追踪其共情与幸福感，发现干预提升在线明智共情并改善幸福感，共情变化起中介作用。"
     },
     {
       "id": 72,

@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "数字传播伦理与危机沟通的关怀取向",
-  "description": "关注文化机构与组织在危机与虚假信息治理中的伦理决策、关怀伦理实践与数据可视化的情感功能。",
-  "why_hot": "近30天日均发表速度较前期增长92%，为本批主题中升温最快者。",
-  "hot_score": 73,
-  "growth": 0.786,
-  "growth_rate": 0.786,
+  "label": "数字传播伦理与危机沟通",
+  "description": "聚焦组织在危机与虚假信息情境中的传播伦理、道德领导与视觉化数据表达。",
+  "why_hot": "近30天日均速度较前期提升近五成，议题扩散至8本期刊。",
+  "hot_score": 70,
+  "growth": 0.471,
+  "growth_rate": 0.471,
   "recent_rate": 0.1667,
-  "baseline_rate": 0.0933,
+  "baseline_rate": 0.1133,
   "recent_count": 5,
-  "baseline_count": 14,
-  "journal_count": 7,
+  "baseline_count": 17,
+  "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "ethics of care",
     "crisis communication",
+    "ethics of care",
     "data visualisation",
-    "AI ethics",
-    "cultural institutions"
+    "moral courage",
+    "organizational communication"
   ],
   "papers": [
     {
@@ -62,6 +62,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "研究利用YouTube API采集428个阿伊努相关视频，分类合作者并量化网络关系，分析个人、社群等合作模式及中心性，探讨原住民在虚拟Mosir中的多媒体生产与社交网络协作。"
+    },
+    {
+      "id": 2058,
+      "title": "From Parasocial Involvement to Community Identification: Explaining Monetized Support in VTuber Live Streaming",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-09-18",
+      "summary": "论文探讨VTuber直播中观众的准社会卷入与社群认同如何解释其付费打赏行为，属直播平台受众行为的传播学研究。"
     },
     {
       "id": 1993,
@@ -113,11 +120,25 @@
       "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
     },
     {
+      "id": 10,
+      "title": "Co-Producing Endurance: Strava and the Construction of the Professional Endurance Athlete",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过访谈25名精英耐力运动员及其经纪人，探讨Strava如何通过平台逻辑共同塑造职业耐力运动员的身份、实践与职业可持续性，并分析运动员对平台逻辑的肯定、内化与抵抗。"
+    },
+    {
       "id": 2022,
       "title": "Constructing Online Harms: How “Trust and Safety” Translates Safety Into Risk",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过对42位“信任与安全”从业者的访谈及行业论坛观察，作者揭示平台内部如何将用户伤害建构为可操作的公司风险（法律责任、声誉、营收），并描述其倡导者定位、风险转译与行业展演三重机制。"
+    },
+    {
+      "id": 71,
+      "title": "Infrastructural hubris and platform power: the failed scalability of Google Stadia",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-30",
+      "summary": "通过分析170份专业媒体、Reddit和YouTube文档，探讨Google Stadia云游戏平台失败原因，提出“基础设施傲慢”概念，强调技术能力需配合平台层面的利益相关者参与。"
     },
     {
       "id": 614,

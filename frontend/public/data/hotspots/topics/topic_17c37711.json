@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "叙事结构与多模态信号的计算分析",
-  "description": "运用计算方法刻画叙事角色网络、歌词主题变迁与多模态动态信号，连接文本结构与传播效果。",
-  "why_hot": "近30天日均发表速度较前期上升15%，覆盖9本期刊，呈小幅升温态势。",
-  "hot_score": 78,
-  "growth": 0.538,
-  "growth_rate": 0.538,
-  "recent_rate": 0.2667,
-  "baseline_rate": 0.1733,
-  "recent_count": 8,
-  "baseline_count": 26,
+  "label": "生成式AI交互线索与用户判断",
+  "description": "考察聊天机器人自信线索、提示框架如何影响用户印象、准确性判断与人机信任。",
+  "why_hot": "近30天日均速度较前期升11%，议题扩散至13本期刊，研究持续升温。",
+  "hot_score": 66,
+  "growth": 0.111,
+  "growth_rate": 0.111,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.18,
+  "recent_count": 6,
+  "baseline_count": 27,
   "journal_count": 13,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "narrative networks",
-    "multimodal analysis",
-    "computational text analysis",
-    "storytelling",
-    "visualization dashboard"
+    "AI chatbot",
+    "prompt framing",
+    "machine behavior",
+    "hallucination",
+    "human-AI communication"
   ],
   "papers": [
     {
@@ -188,13 +188,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "基于关系辩证理论与符号学，考察103名青年与社交机器人的首次互动，揭示在场与缺席等辩证张力，强调机器人作为交流基础设施的作用。"
-    },
-    {
-      "id": 2087,
-      "title": "Wise Empathy Improves Well-Being on Instagram",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过生态瞬时干预训练260名被试在Instagram上运用明智共情，结合5,902次经验取样追踪其共情与幸福感，发现干预提升在线明智共情并改善幸福感，共情变化起中介作用。"
     },
     {
       "id": 404,

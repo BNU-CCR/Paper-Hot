@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "虚假信息与信息行动的宣传机制",
-  "description": "研究虚假信息受众参与、宣传基础设施化与生成式内容在战争记忆和战略传播中的效果。",
-  "why_hot": "近30天日均发表速度较前期增长67%，为各主题中升温最明显者之一。",
-  "hot_score": 85,
-  "growth": 0.786,
-  "growth_rate": 0.786,
-  "recent_rate": 0.3333,
+  "label": "宣传基础设施与虚假信息治理",
+  "description": "聚焦国家宣传、信息运作与虚假信息治理，及其在多平台上的传播机制与受众参与。",
+  "why_hot": "近30天日均发表速度较前期提升约六成，为本期最活跃议题。",
+  "hot_score": 83,
+  "growth": 0.607,
+  "growth_rate": 0.607,
+  "recent_rate": 0.3,
   "baseline_rate": 0.1867,
-  "recent_count": 10,
+  "recent_count": 9,
   "baseline_count": 28,
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "disinformation",
     "propaganda",
+    "disinformation",
     "information operations",
-    "AI-generated media",
-    "strategic communication"
+    "strategic communication",
+    "platform governance"
   ],
   "papers": [
     {
@@ -160,13 +160,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-08-22",
       "summary": "论文提出“创伤自拍”概念，分析2023年10月7日音乐节袭击中约300个受害者生成视频，构建动机与美学类型学，探讨当代战争中手机拍摄的见证形式及“主动受害者”身份的政治意涵。"
-    },
-    {
-      "id": 1949,
-      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-21",
-      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
     },
     {
       "id": 1964,
