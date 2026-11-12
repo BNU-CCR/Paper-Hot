@@ -1,0 +1,152 @@
+{
+  "topic_id": "topic_5bc0b040",
+  "label": "数字媒介组合与使用测量",
+  "description": "借助被动测量与追踪数据刻画多平台媒介组合、新闻来源选择及其市场效应。",
+  "why_hot": "近30天无新增论文，日均速度较前期骤降，研究活动处于低谷。",
+  "hot_score": 57,
+  "growth": 0.0,
+  "growth_rate": 0.0,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.1,
+  "recent_count": 3,
+  "baseline_count": 15,
+  "journal_count": 8,
+  "lineage_status": "continued",
+  "status": "hot",
+  "keywords": [
+    "media repertoires",
+    "passive metering",
+    "platform choice",
+    "tracking data",
+    "agenda-setting"
+  ],
+  "papers": [
+    {
+      "id": 2238,
+      "title": "Seeing and Hearing YouTube: Linking Media Design to Children’s Attention Span and Viewing Control",
+      "journal": "Communication Research",
+      "published_date": "2026-11-08",
+      "summary": "该研究通过两波纵向调查与YouTube视频内容编码，考察视听特征与儿童注意力及观看控制的关联，发现对话等音频特征负向关联最强。"
+    },
+    {
+      "id": 2196,
+      "title": "Narrative character networks are associated with storytelling success",
+      "journal": "Human Communication Research",
+      "published_date": "2026-10-26",
+      "summary": "将叙事视为角色互动网络，对1万余部小说和1000部电影剧本进行大规模计算分析，发现网络聚类、模块度、路径长度与故事流行度和评分相关。"
+    },
+    {
+      "id": 2175,
+      "title": "DIMS: a no-code dashboard linking multimodal dynamic signals to communication practices",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-10-20",
+      "summary": "介绍开源工具 DIMS 仪表盘，将生理、行为、视听与转录等多模态时间序列与同步视频对齐，便于研究者检视统计模式与传播事件的对应关系，并通过人际对话脑间同步与广告观看面部肌电两个探索性案例展示定量—质性迭代流程。"
+    },
+    {
+      "id": 2124,
+      "title": "It Must Have Been Love (But It's Over Now): Thematic Changes in Popular U.S. Song Lyrics Across 4+ Decades",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-10-07",
+      "summary": "研究运用 LIWC-22 的意义提取模块，分析 1980—2024 年 Billboard Hot 100 前 25 名歌曲共 1,129 首歌词的四个主题，发现恋爱主题减少、联系与性化主题增多，并讨论意义提取方法处理大数据的优势。"
+    },
+    {
+      "id": 2104,
+      "title": "Do internet water armies facilitate managerial opportunistic stock selling? –evidence from China",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-09-27",
+      "summary": "论文以2006—2023年中国A股上市公司为样本，考察网络水军干预对企业高管机会主义减持的影响，发现水军通过加剧信息不对称和扰动投资者情绪为高管套现创造条件，并在竞争激烈、媒体关注高、分析师覆盖低的公司中更明显。"
+    },
+    {
+      "id": 2043,
+      "title": "Investor proximity, social media sentiment, and stock price informativeness in the UK market",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-09-15",
+      "summary": "基于2017—2022年英国上市公司地理标记Twitter数据，用FinBERT构建本地与非本地投资者情感指标，考察其与股价同步性的关系。发现仅本地情感显著负向关联同步性，体现更强公司特质信息融入，且该效应在大公司中更弱，凸显地理因素对社交媒体情感信息含量的塑造作用。"
+    },
+    {
+      "id": 2027,
+      "title": "Dynamics of media platform choice portfolios: identifying inter-channel substitutability and complementarity",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-09-10",
+      "summary": "基于韩国在线视频市场5年调查数据，用多元概率模型刻画消费者在四种服务类别（全球SVoD、本土SVoD、UGC/社交、TVoD）间的组合选择，揭示付费类别的互补性与UGC与付费服务间的替代性，并将不使用行为作为伴随结果分析其能力型进入壁垒。"
+    },
+    {
+      "id": 1909,
+      "title": "Agenda setting in mutual fund markets: news, social media, and fund marketing in China",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-08-07",
+      "summary": "利用3782只基金和24万篇新闻数据，分析传统新闻与社会媒体关注对基金净流入的影响，发现多源注意力协同效应。"
+    },
+    {
+      "id": 1903,
+      "title": "The Knowledge Gap in a High-Choice Media Environment: Experimental Evidence from Online Search",
+      "journal": "Political Communication",
+      "published_date": "2026-08-06",
+      "summary": "通过在线搜索实验探究高选择媒体环境中的知识差距，属于政治传播与数字媒介交叉研究。"
+    },
+    {
+      "id": 1900,
+      "title": "Did you make this for me? A two-country study on individuals’ perceptions of tailoring in online political ads",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-05",
+      "summary": "跨国研究个体对在线政治广告定制化程度的感知及其影响，属于政治传播领域。"
+    },
+    {
+      "id": 2,
+      "title": "The Bio-Functional Audience: Shared Physiological Alignment to Narrative Media",
+      "journal": "Communication Research",
+      "published_date": "2026-07-28",
+      "summary": "通过眼动、心率、皮肤电等生理数据，提出生物功能受众概念，验证叙事内容能引发个体间生理同步，为受众研究提供信号基础。"
+    },
+    {
+      "id": 26,
+      "title": "Music Was My First Love: Biographic Resonance Makes Everyday Music Listening Meaningful",
+      "journal": "Communication Research",
+      "published_date": "2026-07-26",
+      "summary": "通过密集纵向研究，结合自我报告与Spotify数字使用记录，探讨日常音乐聆听中传记共鸣的产生机制，发现其受内容与算法环境因素影响，促进情境化意义感形成。"
+    },
+    {
+      "id": 11,
+      "title": "Unilateral effects in the US video streaming market: a merger simulation of the Netflix-HBO Max and HBO Max-Paramount+ consolidations",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-07-19",
+      "summary": "通过校准的结构性合并模拟评估Netflix-HBO Max等合并案的单边效应，发现市场主导者收购会显著提价并加剧集中，而次级竞争者合并影响较小。"
+    },
+    {
+      "id": 61,
+      "title": "Media effects, selection effects, or no effects? A longitudinal analysis of the relationship between media use and misperceptions",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-17",
+      "summary": "论文通过纵向数据分析媒体使用与错误认知的关系，探讨媒体效应与选择效应，但未说明计算方法。"
+    },
+    {
+      "id": 340,
+      "title": "Going global or fleeing abroad? Scandal coverage and corporate internationalization in China",
+      "journal": "Journal of Media Economics",
+      "published_date": "2026-07-13",
+      "summary": "利用中国A股上市公司数据，发现丑闻报道强度促进企业国际化，机制包括监管压力、融资中断和声誉损害，且影响受媒体报道范围与负面情绪调节。"
+    },
+    {
+      "id": 7,
+      "title": "Beyond apps: a method to model full distributions of screen content over time to study media effects",
+      "journal": "Communication Methods and Measures",
+      "published_date": "2026-07-10",
+      "summary": "提出用深度学习方法对智能手机屏幕内容进行分布建模，基于53名青少年六个月的屏幕数据，分析内容模式与心理健康的关系，超越传统屏幕时间测量。"
+    },
+    {
+      "id": 33,
+      "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
+      "journal": "Communication Research",
+      "published_date": "2026-06-13",
+      "summary": "研究创意众包挑战社区中地位、职业、价值等多维同质性对创意者间评论网络形成的影响，采用关系事件模型和潜在类别分析。"
+    },
+    {
+      "id": 361,
+      "title": "Multimodal semiotic content analysis: combining quantitative large-data analysis with qualitative semiotic coding",
+      "journal": "Visual Communication",
+      "published_date": "2026-05-22",
+      "summary": "提出混合方法框架，整合定性符号学编码与定量大规模数据分析，通过277个抑郁相关网络模因案例，揭示抑郁主题与符号资源的关联模式。"
+    }
+  ],
+  "paper_edges": []
+}

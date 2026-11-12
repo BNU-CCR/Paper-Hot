@@ -1,5 +1,39 @@
 [
   {
+    "id": 2240,
+    "title": "Morale in Political Campaigning: Are Political Candidates’ Moral Concerns Coherent with Their Campaign Rhetoric?",
+    "title_zh": "政治竞选中的道德问题：政治候选人的道德诉求与其竞选言论是否一致？",
+    "authors": [
+      "Corinna Oschatz",
+      "Frederic R. Hopp"
+    ],
+    "institutions": [],
+    "journal": "Political Communication",
+    "published_date": "2026-11-09",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Political elites increasingly use moral language to influence voting decisions by signaling moral concerns. Yet, it remains unknown whether political candidates’ moral language use correlates with their endorsed moral beliefs. Previous research with citizens showed that moral values do not always align with moral expressions, raising the question of to what extent candidates’ self-reported moral foundations correspond with the moral foundations present in their campaign communication. To this end, we developed a research program combining candidate surveys and annotations of these candidates’ campaign communication. We collected survey data on the moral foundations of political candidates (N = 949) running for office in four German state elections, as well as these candidates’ Meta posts (N = 17,646 observations). We conducted crowd-sourced annotations of the posts (N = 320 coders) to fine-tune a transformer model that predicts moral labels for the entire corpus. Results show that candidates tend to express the moral concerns they indicate they endorse in their campaign communication. The study also finds variation in the coherence across the political spectrum, both at the individual and the party level. Parties on the political left and the extreme political right show significantly greater coherence than centrist and liberal-conservative parties.",
+    "abstract_zh": "政治精英越来越多地使用道德语言来影响选民的投票决策，以此表达他们的道德立场。然而，目前尚不清楚政治候选人的道德语言使用与其所倡导的道德信念之间是否存在关联。以往针对公民的研究表明，道德价值观并不总是与他们的道德表达相一致，这就引发了这样一个问题：候选人自我宣称的道德基础在多大程度上与其竞选宣传中的道德内容是一致的。为此，我们设计了一个研究项目，结合了对候选人的调查以及对他们竞选宣传内容的分析。我们收集了参加德国四次州选举的949名政治候选人的道德基础相关数据，以及这些候选人在社交媒体上发布的17,646条帖子的内容。我们还邀请了320名志愿者对这些帖子进行注释，以帮助改进一个用于预测整个文本集道德标签的Transformer模型。研究结果表明，候选人倾向于在他们的竞选宣传中表达他们所宣称支持的道德立场。研究还发现，在政治光谱的不同阵营中，这种一致性存在差异——无论是从个体层面还是政党层面来看，左翼和极右翼政党的一致性都要显著高于中间派和自由保守派政党。",
+    "summary": "研究结合德国州选举候选人调查与其Meta帖子，通过众包标注和Transformer模型预测道德标签，检验候选人道德信念与竞选修辞的一致性及党派差异。",
+    "reason": "结合候选人调查与Meta帖子，用Transformer文本分类分析道德语言，属计算传播。",
+    "tags": [
+      "计算传播",
+      "自然语言处理",
+      "社交媒体",
+      "政治竞选",
+      "道德基础"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/10584609.2026.2757594",
+    "source_url": "https://doi.org/10.1080/10584609.2026.2757594",
+    "detail_slug": "morale-in-political-campaigning-are-political-candidates-moral-concerns-coherent-with-their-campaign-rhetoric",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Political Communication",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2226,
     "title": "AI Chatbot’s Self-Confidence Cues Shape Users’ Impressions of the Chatbot, but Not Accuracy Judgments of Hallucinated Responses",
     "title_zh": "AI聊天机器人的自信表现会影响用户对聊天机器人的印象，但不会影响用户对其生成内容（即“幻觉式回答”）准确性的判断",
@@ -21654,7 +21688,7 @@
   {
     "id": 1392,
     "title": "Mobilization and Latency Dynamics in the #StopLine3 Discourse",
-    "title_zh": "#StopLine3 讨论中的动员与潜伏期动态",
+    "title_zh": "#StopLine3话语中的动员与潜伏期动态",
     "authors": [
       "Adina Gitomer",
       "Erika Melder",
@@ -21668,7 +21702,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "After the Canadian oil corporation Enbridge proposed replacing its Line 3 pipeline in 2014, activists began protesting against its environmental risks and violations of Indigenous rights, among other concerns. As the pipeline’s construction progressed and resistance intensified, a parallel discourse emerged online under the hashtag #StopLine3. This study explores the temporal evolution of that discourse and its alignment with on-the-ground developments. Specifically, we assess whether the discourse conforms to a phasic model of collective action inspired by Melucci, which contends that social movements oscillate between phases of visibility and latency. This oscillation is mediated by key mobilizing events, which drive activists to focus their energy toward fighting a target. Once a resolution is reached (positive or negative), the movement progresses into a latent phase, where participants regroup, reflect, and build unity. The ideas behind this model were developed before the digital turn. Given how social media complicates temporality, it remains unclear how well the model explains discursive resistance online. We use #StopLine3 as a case study to test the phasic model, examining all tweets with the hashtag posted between 2016 and 2023. We break up the data into temporal segments based on peaks and lulls in overall activity and explore how both tweet content and forms of engagement shift from segment to segment. In line with the model, we find that the shifts between segments are mediated by key events; however, we also find that the Twitter discourse consistently favors mobilization-oriented forms of engagement and content over latency. Our results suggest that Twitter primarily facilitates mobilization work, and call into question the importance of latency work, what it looks like, and where it takes place on platforms such as Twitter. We argue that Twitter may not be an effective venue for latency processes, or alternatively, may alter how those processes manifest. Overall, we trouble the application of the phasic model to #StopLine3 and other similar public-facing discourses.",
-    "abstract_zh": "2014年，加拿大石油公司Enbridge提出更换其3号输油管道后，活动人士开始抗议该计划所带来的环境风险以及对原住民权利的侵犯等问题。随着管道建设的推进和抗议活动的加剧，网络上出现了以#StopLine3为标签的讨论热潮。本研究探讨了这一讨论热潮的时间演变过程及其与实际抗议活动的发展之间的关联。具体而言，我们分析了这一讨论是否符合Melucci提出的集体行动阶段性模型——该模型认为社会运动会在“可见性”阶段和“潜伏期”阶段之间交替进行。这种交替是由关键性的动员事件所驱动的，这些事件促使活动人士将精力集中在对抗特定目标上。一旦问题得到解决（无论是积极的还是消极的结果），运动就会进入潜伏期，在此期间参与者会重新集结、反思并增强团结。Melucci的这一模型形成于数字媒体时代之前。然而，鉴于社交媒体对时间概念的复杂化影响，目前尚不清楚该模型在解释网络上的讨论活动时是否仍然适用。我们以#StopLine3为例，分析了2016年至2023年间所有使用该标签发布的推文，根据整体活动的高峰期和低谷期将数据划分为不同的时间段，并研究了推文内容及参与形式在这些时间段内的变化。研究结果发现，不同时间段之间的转变确实受到关键事件的驱动；但同时也发现，Twitter上的讨论更倾向于促进动员性的参与行为和内容。我们的研究结果表明，Twitter主要起到了推动社会动员的作用，从而对“潜伏期”阶段的重要性、其具体表现形式以及在Twitter等平台上的存在方式提出了质疑。我们认为，Twitter可能并不适合用于促进社会活动的“潜伏期”阶段，或者至少会改变这些过程在平台上的表现形式。总体而言，我们的研究对将Melucci的阶段性模型应用于#StopLine3及其他类似的社会讨论现象提出了质疑。",
+    "abstract_zh": "2014年，加拿大石油公司Enbridge提出更换其3号输油管道后，活动人士开始抗议该计划所带来的环境风险以及对原住民权利的侵犯等问题。随着管道建设的推进和抗议活动的加剧，网络上出现了以#StopLine3为标签的讨论热潮。本研究探讨了这一网络讨论的发展过程及其与现实中的抗争活动之间的关联。具体而言，我们分析了这一讨论是否符合Melucci提出的集体行动阶段性模型——该模型认为社会运动会在“可见性”阶段和“潜伏期”阶段之间交替进行。这种交替是由关键性的动员事件所驱动的，这些事件促使活动人士将精力集中在对抗特定目标上。一旦问题得到解决（无论是积极的还是消极的结果），运动就会进入潜伏期，在此期间参与者会重新集结、反思并增强团结。Melucci的这一模型形成于数字媒体出现之前。然而，鉴于社交媒体对时间性的复杂影响，目前尚不清楚该模型在解释网络抗议活动时是否仍然适用。我们以#StopLine3为例，分析了2016年至2023年间所有使用该标签发布的推文，根据整体活动的高峰期和低谷期将数据划分为不同的时间段，并研究了推文内容及参与形式在这些时间段内的变化。研究结果发现，不同时间段之间的转变确实受到关键事件的驱动；但同时也发现，Twitter上的讨论更倾向于促进动员性的参与方式和内容。我们的研究结果表明，Twitter主要起到了推动社会动员的作用，从而对“潜伏期”阶段的重要性、其具体表现形式以及在Twitter等平台上的存在方式提出了质疑。我们认为，Twitter可能并不适合用于促进社会活动的“潜伏期”阶段，或者至少会改变这些过程在平台上的表现形式。总体而言，我们对将Melucci的阶段性模型应用于#StopLine3及其他类似的社会抗议活动表示质疑。",
     "summary": "基于2016-2023年#StopLine3标签的全部推文，检验Melucci集体行动阶段模型，发现Twitter话语始终偏向动员而非潜伏期，质疑平台对潜伏期工作的支持。",
     "reason": "研究使用Twitter大规模数据探讨#StopLine3话语演化，涉及社交媒体分析与计算文本方法。",
     "tags": [
@@ -21702,7 +21736,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Generative chatbots based on artificial intelligence technology have become an essential channel for people to obtain health information. They provide not only comprehensive health information but also real-time virtual companionship. However, the health information provided by AI may not be completely accurate. Employing a 3 × 2 × 2 experimental design, the research examines the effects of interaction types with AI-generated content (AIGC), specifically under virtual companionship and knowledge acquisition scenarios, on the willingness to share health-related rumors. In addition, it explores the impact of the nature of the rumors (fear vs hope) and the role of altruistic tendencies in this context. The results show that people are more willing to share rumors in a knowledge acquisition situation. Fear-type rumors can stimulate people’s willingness to share more than hope-type rumors. Altruism plays a moderating role, increasing the willingness to share health rumors in the scenario of virtual companionship, while decreasing the willingness to share health rumors in the scenario of knowledge acquisition. These findings support Kelley’s three-dimensional attribution theory and negativity bias theory, and extend these results to the field of human–computer interaction. The results of this study help to understand the rumor spreading mechanism in the context of human–computer interaction and provide theoretical support for the improvement of health chatbots.",
-    "abstract_zh": "基于人工智能技术的生成式聊天机器人已成为人们获取健康信息的重要渠道。它们不仅提供全面的健康信息，还提供实时的虚拟陪伴。然而，人工智能提供的健康信息可能并不完全准确。本研究采用3×2×2的实验设计，探讨了与人工智能生成内容（AIGC）的互动类型（特别是在虚拟陪伴和知识获取场景下）对人们分享健康相关谣言意愿的影响。此外，研究还分析了谣言的性质（恐惧 vs 希望）以及利他倾向在这一过程中的作用。结果表明，在知识获取场景下，人们更愿意分享谣言；恐惧类型的谣言比希望类型的谣言更能激发人们的分享意愿。利他主义在这一过程中起到了调节作用：在虚拟陪伴场景下，利他主义会增加人们分享健康谣言的意愿；而在知识获取场景下，利他主义则会降低这种意愿。这些发现支持了凯利的三维归因理论和消极偏见理论，并将这些结果扩展到了人机交互领域。本研究的结果有助于理解人机交互背景下谣言传播的机制，为改进健康聊天机器人提供了理论支持。",
+    "abstract_zh": "基于人工智能技术的生成式聊天机器人已成为人们获取健康信息的重要渠道。它们不仅提供全面的健康信息，还提供实时的虚拟陪伴。然而，人工智能提供的健康信息可能并不完全准确。本研究采用3 × 2 × 2的实验设计，探讨了与人工智能生成内容（AIGC）的互动类型（特别是在虚拟陪伴和知识获取场景下）对人们分享健康相关谣言意愿的影响。此外，研究还分析了谣言的性质（恐惧 vs 希望）以及利他倾向在这一过程中的作用。结果表明，在知识获取场景下，人们更愿意分享谣言；恐惧类型的谣言比希望类型的谣言更能激发人们的分享意愿。利他主义在这一过程中起到了调节作用：在虚拟陪伴场景下，利他主义会增加人们分享健康谣言的意愿，而在知识获取场景下则会降低这种意愿。这些发现支持了凯利的三维归因理论和消极偏见理论，并将这些结果扩展到了人机交互领域。本研究的结果有助于理解人机交互背景下谣言传播的机制，为改进健康聊天机器人提供了理论支持。",
     "summary": "通过3×2×2实验探究AI交互类型、谣言性质与利他倾向对健康谣言分享意愿的影响，发现知识获取情境和恐惧型谣言更易促分享，利他倾向起调节作用。",
     "reason": "研究AI生成内容与健康谣言分享意愿，属AI社会影响议题，符合纳入标准。",
     "tags": [
@@ -21724,7 +21758,7 @@
   {
     "id": 1403,
     "title": "Journalists, Emotions, and the Introduction of Generative AI Chatbots: A Large-Scale Analysis of Tweets Before and After the Launch of ChatGPT",
-    "title_zh": "记者、情绪与生成式AI聊天机器人的引入：ChatGPT发布前后推文的大规模分析",
+    "title_zh": "记者、情感与生成式AI聊天机器人的引入：ChatGPT发布前后推文的大规模分析",
     "authors": [
       "Seth C. Lewis",
       "David M. Markowitz",
@@ -21740,7 +21774,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "As part of a broader look at the impact of generative AI, this study investigated the emotional responses of journalists to the release of ChatGPT at the time of its launch. By analyzing nearly 1 million Tweets from journalists at major US news outlets, we tracked changes in emotion, tone, and sentiment before and after the introduction of ChatGPT in November 2022. Using various computational and natural language processing techniques to measure emotional shifts in response to ChatGPT’s release, we found an increase in positive emotion and a more favorable tone post-launch, suggesting initial optimism toward AI’s potential. This research underscores the pivotal role of journalists as interpreters of technological innovation and disruption, highlighting how their emotional reactions may shape public narratives around emerging technologies. The study contributes to understanding the intersection of journalism, emotion, and AI, offering insights into the broader societal impact of generative AI tools.",
-    "abstract_zh": "作为对生成式人工智能（Generative AI）影响进行更广泛研究的一部分，本研究调查了记者在ChatGPT发布时的情感反应。通过分析来自美国主要新闻媒体的近100万条推文，我们追踪了2022年11月ChatGPT推出前后记者情绪、语气和情感倾向的变化。利用各种计算和自然语言处理技术来衡量人们对ChatGPT发布的情绪变化，我们发现发布后积极情绪有所增加，语气也变得更加积极，这表明人们对人工智能的潜力最初持乐观态度。这项研究强调了记者作为技术创新和变革诠释者的重要角色，揭示了他们的情绪反应如何影响公众对新兴技术的看法。该研究有助于理解新闻业、情绪与人工智能之间的相互作用，为理解生成式人工智能工具的更广泛社会影响提供了见解。",
+    "abstract_zh": "作为对生成式人工智能（Generative AI）影响进行更广泛研究的一部分，本研究调查了记者们在ChatGPT发布时的情绪反应。通过分析来自美国主要新闻媒体的近100万条推文，我们追踪了2022年11月ChatGPT推出前后记者情绪、语气和情感倾向的变化。利用多种计算和自然语言处理技术来衡量人们对ChatGPT发布的情绪变化，我们发现发布后积极情绪有所增加，语气也变得更加积极，这表明人们对人工智能的潜力最初持乐观态度。这项研究强调了记者作为技术创新和颠覆性变革的解读者所扮演的关键角色，揭示了他们的情绪反应如何影响公众对新兴技术的看法。该研究有助于理解新闻业、情绪与人工智能之间的相互作用，为理解生成式人工智能工具对社会的更广泛影响提供了见解。",
     "summary": "通过分析美国记者近百万条推文，运用NLP技术测量ChatGPT发布前后情绪变化，发现发布后积极情绪增加，体现记者对AI的初始乐观态度。",
     "reason": "使用NLP分析近百万推文，聚焦记者对生成式AI的情感反应，兼具计算方法和传播议题。",
     "tags": [
@@ -21778,7 +21812,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Emotionality is a well-established strategy for boosting audience engagement on social media. While fact-checking is positioned to provide objective information, fact-checking posts on social media often involve heightened emotionality. How much emotionality is present and how emotionality influences audience engagement and public sentiment toward fact-checked targets remain largely understudied. Informed by social psychological frameworks explicating message-level factors influencing public engagement and sentiment, the present study examines emotionality in 49,270 fact-checking posts created by 10 United States fact-checking organizations on Facebook from 2017 to 2022. Results showed that emotionality in fact-checking posts significantly increased by 13.5% over the years. Editorial fact-checkers (e.g., Washington Post) used higher levels of emotionality than independent fact-checkers (e.g., snopes.com). Emotionality positively indicated public engagement as predicted. However, in both fact-checked true and false information, emotionality was negatively associated with the public’s sentiment toward fact-checked targets, suggesting a potential spillover effect on stories verified to be true. This study reveals that emotionality in fact-checking posts boosts social media engagement yet with the potential of compromising fact-checking effectiveness.",
-    "abstract_zh": "在社交媒体上，运用情感化表达是一种被广泛采用的提升受众参与度的策略。尽管事实核查旨在提供客观信息，但社交媒体上的事实核查帖子往往也包含强烈的情感色彩。然而，这些帖子中的情感成分究竟有多强，以及情感成分如何影响受众的参与度和公众对事实核查对象的态度，目前仍缺乏系统的研究。本研究基于社会心理学框架，探讨了2017年至2022年间美国10家事实核查机构在Facebook上发布的49,270条事实核查帖子中的情感表达特征。研究结果显示，这些帖子中的情感成分逐年增加了13.5%。其中，官方事实核查机构（如《华盛顿邮报》）使用的情感表达手段比独立事实核查机构（如snopes.com）更为强烈。研究预测，情感表达确实能够提升公众的参与度；但无论事实核查的内容是真实的还是虚假的，情感表达都与公众对事实核查对象的态度呈负相关，这可能对那些被证实为真实的信息产生负面影响。研究表明，虽然情感化表达有助于提高社交媒体的参与度，但也可能削弱事实核查的客观性和有效性。",
+    "abstract_zh": "在社交媒体上，运用情感化表达是一种被广泛采用的提高受众参与度的策略。尽管事实核查旨在提供客观信息，但社交媒体上的事实核查帖子往往也包含强烈的情感表达。然而，这些帖子中的情感成分究竟有多少，以及情感表达如何影响受众的参与度和公众对事实核查对象的态度，目前仍缺乏足够的研究。本研究基于社会心理学框架，探讨了2017年至2022年间美国10家事实核查机构在Facebook上发布的49,270条事实核查帖子中的情感表达特征。研究结果显示，这些帖子中的情感成分逐年增加了13.5%。其中，官方事实核查机构（如《华盛顿邮报》）使用的情感表达程度高于独立事实核查机构（如snopes.com）。研究预测，情感表达确实能够提升公众的参与度；然而，无论事实核查的内容是真实的还是虚假的，情感表达都与公众对事实核查对象的态度呈负相关，这可能对那些被证实为真实的信息产生负面影响。研究表明，虽然情感化表达能够提高社交媒体的参与度，但也可能削弱事实核查的客观性。",
     "summary": "研究2017-2022年美国10个事实核查组织在Facebook上49,270条帖子的情感性，发现情感性逐年增加，提升公众参与但损害对核查目标的公众情绪。",
     "reason": "使用49,270条Facebook事实核查帖子的大规模数据，涉及情感分析与用户参与，属计算传播研究。",
     "tags": [
@@ -21813,7 +21847,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The Twitter Moderation Research Consortium is a database of network propaganda and influence operations that includes 115,474 unique Twitter accounts, millions of tweets, and over one terabyte of media removed from the platform between 2017 and 2022. We probe this database using Google’s Vision API and Keras with TensorFlow to test whether foreign influence operations can be identified based on the visual presentation of fake user profiles emphasizing gender, race, camera angle, sensuality, and emotion. Our results show that sensuality is a variable associated with operations that replicate the Kremlin-linked Internet Research Agency campaign, being particularly prevalent in influence operations that targeted communities in North and South America, but also in Indonesia, Turkey, and Pakistan. Our results also show that the visual identities of fake social media profiles are predictive of influence operations given their reliance on selfies, sensual young women, K-pop aesthetics, or alternatively nationalistic iconography overlaid with text to convey ideological positioning.",
-    "abstract_zh": "“Twitter Moderation Research Consortium”是一个数据库，其中包含了网络宣传和影响力操作的相关信息。该数据库涵盖了115,474个独特的Twitter账户、数百万条推文，以及2017年至2022年间从Twitter平台上删除的超过1太字节的媒体内容。我们利用Google的Vision API和基于TensorFlow的Keras框架来分析这些数据，旨在探究是否可以通过虚假用户资料的视觉特征（如性别、种族、拍摄角度、性感元素和情感表达）来识别外国的影响力操作。研究结果表明，“性感元素”是一个与某些特定影响力操作相关的特征；这类操作尤其常见于针对北美、南美、印度尼西亚、土耳其和巴基斯坦等地区的宣传活动。此外，虚假社交媒体账号的视觉特征（如自拍照的使用、性感年轻女性的形象、K-pop风格的视觉元素，或是带有文字信息的民族主义象征）能够预示这些账号所参与的影响力操作的性质。",
+    "abstract_zh": "“Twitter Moderation Research Consortium”是一个数据库，其中包含了网络宣传和影响力操作的相关信息，涵盖了115,474个独特的Twitter账户、数百万条推文，以及2017年至2022年间从该平台上删除的超过1太字节的媒体内容。我们利用Google的Vision API和基于TensorFlow的Keras框架来分析这个数据库，旨在探究是否可以通过虚假用户资料的视觉特征（如性别、种族、拍摄角度、性感元素和情感表达）来识别外国的影响力操作。研究结果表明，“性感元素”是一个与某些特定影响力操作相关的特征；这类操作尤其常见于针对北美、南美、印度尼西亚、土耳其和巴基斯坦等地区的宣传活动。此外，虚假社交媒体账号的视觉特征（如自拍照的使用、性感年轻女性的形象、K-pop风格的视觉元素，或是带有文字信息的民族主义象征）能够预示这些账号所参与的影响力操作的性质。",
     "summary": "研究利用Twitter Moderation Research Consortium数据库，通过Google Vision API和Keras分析115,474个虚假账号的视觉身份，发现性感形象、自拍、K-pop美学等视觉特征可预测影响力操作。",
     "reason": "使用机器学习与视觉API分析社交媒体虚假账号视觉特征，属于计算传播研究。",
     "tags": [
@@ -21849,7 +21883,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Reddit, one of the largest global social media platforms, has undergone significant transformations since its inception in 2005. From a loosely structured, niche platform to a globally recognized company with a standardized and regulated governance system, Reddit’s evolution has been marked by a shift in the power dynamics between its owners, moderators, and users. 2015 and 2023 were marked by the occurrence of two prominent protests, termed “blackouts.” Moderators of numerous subreddits, though not all, disabled public access to their subreddits, thereby protesting the company’s policies and policy changes and challenging the company’s endeavors to exert further control over the platform. Drawing on Bourdieusian theory and relational methodology, we establish a computational social science approach to investigate the structural causes behind the two blackouts and contextualize the differences between them. We argue that these blackouts signify growing tensions within the socio-technical space of Reddit and an ongoing political, cultural, and economic reconfiguration of its power structure and political economy.",
-    "abstract_zh": "Reddit是全球最大的社交媒体平台之一，自2005年成立以来经历了重大变革。它从一个结构松散、专注于特定领域的平台，发展成为一个拥有标准化和规范化治理体系的全球知名企业。在这一演变过程中，Reddit的所有者、版主和用户之间的权力关系发生了变化。2015年和2023年，Reddit发生了两次著名的抗议活动，被称为“黑屏事件”（blackouts）。虽然并非所有版主都参与了这些抗议，但许多版主暂时关闭了其子版块的公共访问权限，以此来反对公司的政策变更，并挑战公司试图进一步控制该平台的企图。本文借鉴了布尔迪厄（Bourdieu）的理论和关系方法论，采用计算社会科学的方法来探究这两次“黑屏事件”背后的结构性原因，并分析了它们之间的差异。我们认为，这些事件反映了Reddit社会技术环境中日益加剧的紧张关系，以及其权力结构和政治经济体系的持续政治、文化和经济重构。",
+    "abstract_zh": "Reddit是全球最大的社交媒体平台之一，自2005年成立以来经历了重大变革。它从一个结构松散、小众化的平台发展成为一家拥有标准化和规范化治理体系的全球知名企业。在这一演变过程中，Reddit的所有者、版主和用户之间的权力关系发生了变化。2015年和2023年，Reddit发生了两次著名的抗议活动，被称为“黑屏事件”（blackouts）。虽然并非所有版主的子版块都参与了这些抗议活动，但许多版主暂时关闭了子版块的公众访问权限，以此来反对公司的政策变更，并质疑公司试图进一步控制该平台的企图。本文借鉴了布尔迪厄（Bourdieu）的理论和关系方法论，采用计算社会科学的方法来探究这两次“黑屏事件”的根本原因，并分析了它们之间的差异。我们认为，这些事件反映了Reddit社会技术空间内的紧张关系日益加剧，同时也表明了其权力结构及政治经济体系的持续政治、文化和经济重构。",
     "summary": "基于Bourdieusian理论和关系方法论，计算分析2015和2023年Reddit黑屏抗议的结构性原因，揭示平台权力重构。",
     "reason": "研究Reddit平台blackouts，使用计算社会科学方法分析参与结构，属于计算传播学。",
     "tags": [
@@ -21886,7 +21920,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Online platforms have enacted various policies to maintain a safe and trustworthy advertising environment. However, the extent to which these policies are adhered to and enforced remains a subject of interest and concern. In this work, we present a large-scale audit of adult advertising on Twitter (now X), specifically focusing on compliance with its adult (sexual) content advertising policy. Twitter is an interesting case study in that it—uniquely from other social media platforms—allows posting of adult content but prohibits adult content in advertising. We analyze approximately 35,000 ads on Twitter with respect to their compliance with the adult content ad policy through Perspective API and manual annotations. Among other things, we find that nearly 38% of ads violate Twitter’s adult content advertising policy—of which, the platform eventually removed only about 63% of these non-compliant adult ads. We also find inconsistencies in the moderation of such ads across languages, highlighting the need for more reliable and consistent moderation practices across different languages. Overall, our findings highlight blindspots in Twitter’s adult ad policy enforcement for certain languages and countries. Our work underscores the importance of external audits to monitor compliance and improve transparency in online advertising.",
-    "abstract_zh": "在线平台已经实施了各种政策，以维护一个安全、可信的广告环境。然而，这些政策在多大程度上得到了遵守和执行，仍然是一个值得关注和探讨的问题。在这项研究中，我们对Twitter（现称为X）上的成人广告进行了大规模审计，特别关注其成人（性内容）广告政策的遵守情况。Twitter是一个有趣的案例研究，因为它与其他社交媒体平台不同——它允许发布成人内容，但禁止在广告中使用成人内容。我们通过 Perspective API 和手动注释，分析了大约 35,000 条 Twitter 广告，以评估它们是否符合成人内容广告政策。研究发现，近 38% 的广告违反了 Twitter 的成人内容广告政策，而平台最终只删除了其中约 63% 的违规广告。我们还发现，不同语言对这类广告的审核标准存在不一致性，这凸显了需要在不同语言之间采用更可靠、更一致的审核机制。总体而言，我们的研究结果揭示了 Twitter 在针对某些语言和国家的成人广告政策执行方面的漏洞。我们的工作强调了外部审计在监督合规性以及提高在线广告透明度方面的重要性。",
+    "abstract_zh": "在线平台已经实施了各种政策，以维护一个安全、可信的广告环境。然而，这些政策在多大程度上得到了遵守和执行，仍然是一个值得关注和探讨的问题。在这项研究中，我们对Twitter（现为X）上的成人广告进行了大规模审计，特别关注其成人（性内容）广告政策的遵守情况。Twitter是一个有趣的案例研究，因为它与其他社交媒体平台不同——它允许发布成人内容，但禁止在广告中使用成人内容。我们通过 Perspective API 和手动注释，分析了大约35,000条Twitter广告，以评估它们是否符合成人内容广告政策。研究发现，近38%的广告违反了Twitter的成人内容广告政策，而平台最终只删除了其中约63%的违规广告。我们还发现，不同语言对这类广告的审核标准存在不一致性，这凸显了需要在不同语言之间采用更可靠、更一致的审核机制的必要性。总体而言，我们的研究结果揭示了Twitter在针对某些语言和国家的成人广告政策执行方面存在的漏洞。我们的工作强调了外部审计在监督合规性以及提高在线广告透明度方面的重要性。",
     "summary": "通过分析约3.5万条Twitter广告，使用Perspective API和人工标注审计成人内容广告政策执行情况，发现违规广告占比高且审核存在语言差异。",
     "reason": "使用大规模Twitter广告数据和Perspective API进行政策合规审计，属于计算传播研究。",
     "tags": [
@@ -21908,7 +21942,7 @@
   {
     "id": 1421,
     "title": "#StopAsianHate as Hashtag Activism: Provocateurs, Celebrities, and Fan Practices of Collective Action Against Racism",
-    "title_zh": "#“StopAsianHate”作为标签行动主义：煽动者、名人以及公众集体行动对抗种族主义的方式",
+    "title_zh": "#“StopAsianHate”作为标签行动主义：煽动者、名人与公众集体行动反对种族主义",
     "authors": [
       "Saif Shahin",
       "Mingyi Hou"
@@ -21921,7 +21955,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The #StopAsianHate hashtag movement emerged as a challenge to the rising tide of racism in the United States during the coronavirus pandemic and contributed to the legislation of the Covid-19 Hate Crimes Act. Our research brings together concepts from social movement studies as well as network science and celebrity-fandom studies to examine a corpus of tweets about the movement. We employ a mixed-methods design combining structural topic modeling with digital discourse analysis. Even though the movement rose up against White Supremacist structural racism, we find that right-wing provocateurs with large followings often hijacked its hashtags to amplify sporadic Black-on-Asian violence. But the active participation of Asian celebrities such as BTS, with their own huge followings online, bolstered the movement. Their posts and statements about anti-Asian violence were heavily reposted and dominated the digital discourse. Crucially, we show how their fans helped boost the movement’s anti-racist agenda by repeatedly posting similar messages in concert, which we compare with the offline fan practice of “chanting” as a form of collective identity performance. While theories like the logic of connective action view digital activism as individualized and decentralized, our research elucidates its hierarchical structure and the oversized role of provocateurs and celebrities in raising the visibility of competing claims and agendas by re-contextualizing hashtags. At the same time, culture industries and practices can create bottom-up solidarities that can have a political impact by raising particular agendas in the digital attention economy.",
-    "abstract_zh": "#StopAsianHate 这一标签运动是在新冠病毒疫情期间，针对美国日益严重的种族主义现象而兴起的。该运动为《Covid-19仇恨犯罪法案》的制定起到了推动作用。我们的研究结合了社会运动研究、网络科学以及名人粉丝群体研究的理论，分析了大量关于该运动的推文数据。我们采用了混合方法论，将结构化主题建模与数字话语分析相结合来进行分析。尽管这一运动最初是针对白人至上主义的结构性种族主义而发起的，但我们发现，一些拥有大量粉丝的右翼煽动者常常利用这些标签来放大针对亚洲人的暴力事件。然而，像 BTS 这样的亚洲明星的积极参与极大地增强了这一运动的影响力——他们的帖子和关于反亚裔暴力的言论被广泛转发，主导了网络舆论。尤为关键的是，这些明星的粉丝通过反复发布类似的内容，帮助推动了运动的反种族主义议程；这种行为类似于现实生活中的“集体呼喊”行为，属于一种集体身份表达的形式。虽然一些理论认为数字 activism 是一种个体化且去中心化的现象，但我们的研究揭示了其背后的层级结构，以及煽动者和明星在通过重新解读标签来提升不同观点和议程可见性方面所起的关键作用。同时，文化产业和相关的社会实践能够促成自下而上的团结，从而在数字注意力经济中产生政治影响力，推动特定议程的传播。",
+    "abstract_zh": "#StopAsianHate 这一标签运动是在新冠病毒疫情期间，针对美国日益严重的种族主义现象而兴起的。该运动为《Covid-19仇恨犯罪法案》的制定起到了推动作用。我们的研究结合了社会运动研究、网络科学以及名人粉丝群体研究的理论，对相关推文进行了分析。我们采用了混合方法论，结合了结构化主题建模和数字话语分析技术。尽管这一运动最初是针对白人至上主义的结构性种族主义而发起的，但我们发现，一些拥有大量粉丝的右翼煽动者常常利用这些标签来放大针对亚洲人的暴力事件。然而，像 BTS 这样的亚洲明星的积极参与极大地增强了这一运动的影响力。他们的帖子和关于反亚裔暴力的声明被大量转发，主导了网络舆论。关键在于，这些明星的粉丝通过反复发布类似的信息，共同支持了运动的反种族主义议程，这种行为类似于现实生活中的“集体呼喊”行为，即一种集体身份表达的方式。虽然一些理论将数字 activism 视为个体化且去中心化的现象，但我们的研究揭示了其背后的层级结构，以及煽动者和明星在通过重新解读标签来提升不同观点和议程可见性方面所起的关键作用。同时，文化产业和相关的社会实践能够形成自下而上的团结力量，在数字注意力经济中推动特定政治议题的传播。",
     "summary": "研究#StopAsianHate标签运动中的煽动者、名人与粉丝行为，结合主题建模与数字话语分析，揭示行动主义的层级结构与话语竞争。",
     "reason": "聚焦社交媒体行动主义，使用结构性主题建模等计算方法分析推特数据，属典型计算传播研究。",
     "tags": [

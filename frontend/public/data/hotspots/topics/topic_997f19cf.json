@@ -3,16 +3,16 @@
   "label": "平台内容治理与在线讨论质量",
   "description": "关注算法审核、互动按钮与AI工具如何影响网络仇恨言论、民主倾听与信息可信度。",
   "why_hot": "近30天日均速度较前期下降逾四成，但议题仍分散于9本期刊。",
-  "hot_score": 41,
-  "growth": -0.423,
-  "growth_rate": -0.423,
-  "recent_rate": 0.1,
-  "baseline_rate": 0.1733,
-  "recent_count": 3,
-  "baseline_count": 26,
-  "journal_count": 9,
+  "hot_score": 38,
+  "growth": -0.474,
+  "growth_rate": -0.474,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.1267,
+  "recent_count": 2,
+  "baseline_count": 19,
+  "journal_count": 5,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
     "online hate",
     "content moderation",
@@ -29,18 +29,11 @@
       "summary": "研究基于Parler 2018—2021年1.1亿条消息，检验社会认可理论，发现点赞等认可信号对仇恨言论与毒性程度存在即时负向、长期正向的差异化预测效应。"
     },
     {
-      "id": 2187,
-      "title": "Enhancing Democratic Listening in Online Discussions: The Role of Reaction Buttons, Discussion Moderation, and Large Language Models",
-      "journal": "Political Communication",
-      "published_date": "2026-10-23",
-      "summary": "论文开发带倾听导向反应按钮及人类/GPT-4审核的在线讨论平台，对740名被试开展40组实验，分析4355条评论，发现按钮需结合AI审核才能提升民主倾听水平。"
-    },
-    {
-      "id": 2148,
-      "title": "Who Verifies the Verifiers? AI, Local Knowledge Production, and Credibility in Tanzania’s 2025 Election",
-      "journal": "Political Communication",
-      "published_date": "2026-10-11",
-      "summary": "研究考察坦桑尼亚2025年大选期间AI事实核查工具与社区可信度实践的互动，基于五地区342份媒体材料、87次访谈与田野观察，发现三类核查断裂：AI翻译改写原意、更正与谣言渠道错位、社区更信任亲身经验与人际讨论，据此解释准确核查为何仍难以影响公众。"
+      "id": 2179,
+      "title": "Black technofeminism as critique of biological essentialism in AI anthropomorphization",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-22",
+      "summary": "文章以Black technofeminism批判AI拟人化中的种族化与性别化去人性化，质性审计YouTube搜索结果及Gemini、ChatGPT生成图像，揭示AI视觉文化默认白人化并扭曲黑人女性形象。"
     },
     {
       "id": 2122,
@@ -57,6 +50,13 @@
       "summary": "基于美国成年人配额在线样本（N=760）调查，检验社交媒体政治新闻接触如何经由左右翼激进主义与系统性受害者感知，影响争议性政治参与及政治暴力支持。"
     },
     {
+      "id": 2153,
+      "title": "Algorithms of Injustice: An Ethnographic Content Analysis of Black Youth’s Experiences with Racial Trauma Online",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "研究以批判种族技术理论为框架，用民族志内容分析考察社交媒体上种族创伤性内容（黑人死亡、数字骚扰、深伪、战争内容）对黑人青少年心理的影响，指出算法放大此类内容并造成替代性创伤，同时平台也是行动主义与互助空间。"
+    },
+    {
       "id": 2097,
       "title": "Safe havens for hate: the challenge of moderating online extremism",
       "journal": "Information Communication & Society",
@@ -71,32 +71,25 @@
       "summary": "基于社会认同集体行动模型（SIMCA），通过两项实验（穆斯林 N=328、拉丁裔 N=583）检验网络仇恨言论对少数群体集体行动意向的影响机制与边界条件，发现仇恨言论经由群体不公感提升集体行动意向，信息被标记为不准确或反驳言论可调节该效应。"
     },
     {
-      "id": 2066,
-      "title": "Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024",
-      "journal": "Revista ICONO14",
-      "published_date": "2026-09-21",
-      "summary": "研究采集2024巴黎奥运会期间X平台35676条帖子，用Tweet Binder与NLP情感分析考察伊曼·哈利夫参赛引发的性别认同与公平性争论，发现正负帖量接近但负面内容曝光量翻倍，公众人物放大争议，虚假信息助推简化叙事。"
+      "id": 2099,
+      "title": "Writing the Situated Self: Intersectional and Geographic Patterning in College Admissions Essays",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-09-28",
+      "summary": "研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。"
     },
     {
-      "id": 2004,
-      "title": "How Platform Affordances Shape Expression Effects: Comment Length and Audience in Political News Engagement",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-09-07",
-      "summary": "实验(N=775)探究新闻平台评论长度与受众类型对表达效应的影响，发现评论条件交互作用，并通过计算语言学分析揭示词汇使用差异。"
+      "id": 2063,
+      "title": "Perceptions of artificial intelligence bias and gender inclusivity: toward a gendered divergence",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-22",
+      "summary": "论文考察公众对人工智能偏见的感知及其与性别包容性态度的关系，提出性别分化（gendered divergence）的分析视角，探讨不同性别群体在AI偏见认知上的差异及其传播意涵。"
     },
     {
-      "id": 1977,
-      "title": "Less Effort to Believe and More Effort to Disbelieve: Examining the Interplay between News-Finds-Me and Affective Polarization in Political Fake News Susceptibility in the United States",
-      "journal": "Communication Research",
-      "published_date": "2026-08-26",
-      "summary": "通过调查719名美国成年人，结合反应时数据，研究News-Finds-Me与情感极化对政治假新闻易感性的交互影响，发现处理精力差异。"
-    },
-    {
-      "id": 1961,
-      "title": "Rethinking Assumptions About Moral Content Selection: Moral-Emotional Content May Be Less Appealing Than Assumed",
-      "journal": "Political Communication",
-      "published_date": "2026-08-21",
-      "summary": "通过三个预注册研究考察用户是否主动选择道德情感内容，发现人们并不偏好此类信息，对既有传播研究提出补充。"
+      "id": 2034,
+      "title": "Platformed partner markets: online dating and gendered assortative mating in Europe",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-14",
+      "summary": "论文考察欧洲在线约会平台中的性别化同质择偶现象，探讨平台化婚恋市场如何与性别化的匹配模式相互作用，但缺少摘要，具体数据与方法不明。"
     },
     {
       "id": 1968,
@@ -104,6 +97,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-08-19",
       "summary": "通过美国与澳大利亚大规模调查实验，检验短视频和信息图干预能否提升用户举报和回应仇恨内容的意愿。"
+    },
+    {
+      "id": 1957,
+      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-08-18",
+      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
     },
     {
       "id": 1954,
@@ -127,48 +127,6 @@
       "summary": "通过对24位大学教授的访谈，探讨学者作为数字仇恨目标对施害者和旁观者的感知，强调权力失衡与战略挑衅，发现旁观者干预不足，需集体应对。"
     },
     {
-      "id": 1936,
-      "title": "Policing the Political Boundary: How the r/BarstoolSports Audience Confronts Politicization",
-      "journal": "Political Communication",
-      "published_date": "2026-08-12",
-      "summary": "通过批判性话语分析2019-2025年Barstool Sports子版块16个帖子，提出\"反政治空间\"概念，探讨粉丝如何区分流行文化与制度政治，对抗政治化。"
-    },
-    {
-      "id": 242,
-      "title": "Search engines in polarized media environment: auditing political information curation on Google and Bing prior to 2024 US elections",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-07-28",
-      "summary": "该研究在2024年美国大选前审计Google和Bing的搜索结果，分析查询主题、用户位置和时间对政治信息偏向的影响，发现两大引擎优先呈现左倾媒体，且不同主题下意识形态偏向程度不同。"
-    },
-    {
-      "id": 394,
-      "title": "The Costs of Governing Truth: Fact-Checking, Perceived Censorship, and Political Participation Across Governance Contexts",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-07-27",
-      "summary": "基于新加坡、中国、美国调查数据，探讨深度伪造担忧、事实核查与感知审查如何影响社交媒体政治参与，发现感知审查是参与退出的关键条件。"
-    },
-    {
-      "id": 205,
-      "title": "Common Identities and Political Talk: Evaluating Cross-Cutting Political Discussions in Sports Communities on Reddit",
-      "journal": "Political Communication",
-      "published_date": "2026-07-23",
-      "summary": "通过计算分析比较Reddit政治与体育社区中跨党派政治讨论的数量、语气和内容，发现体育社区更促进跨党派讨论，但毒性水平无显著差异。"
-    },
-    {
-      "id": 208,
-      "title": "Political Fact-Checking Efforts are Constrained by Deficiencies in Coverage, Speed, and Reach",
-      "journal": "Political Communication",
-      "published_date": "2026-07-19",
-      "summary": "研究评估2022年美国中期选举期间政治事实核查的局限性，发现其覆盖不足、发布滞后、在党派社群中传播受限，并反驳党派偏见假设。"
-    },
-    {
-      "id": 211,
-      "title": "Does the Method Affect the Outcome? How Measures of Partisan Slant of Media Outlets and Affective Polarization Drive Results About Polarization in the United States",
-      "journal": "Political Communication",
-      "published_date": "2026-07-05",
-      "summary": "基于2020年美国大选调查数据，系统检验测量党派媒体倾向和极化的不同方法如何影响研究结果，通过504种操作化方式的规范曲线分析发现方法选择显著影响关系强度。"
-    },
-    {
       "id": 250,
       "title": "Integrating corrective action theory into the social identity model of collective action to explain U.S. Latinos/as’ social media political expression",
       "journal": "Journal of Information Technology & Politics",
@@ -176,18 +134,18 @@
       "summary": "研究整合SIMCA与纠正行动理论，基于995名美国拉丁裔调查数据，考察集体效能、群体认同和社交媒体新闻接触对集体表达的影响。"
     },
     {
-      "id": 286,
-      "title": "Making Sense of AI-Generated Disinformation: How Audience Interpretations Influence the Impact of Deepfakes in Kenya",
+      "id": 1908,
+      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "通过肯尼亚7000人调查实验，考察社交评论对政治深度伪造效果的影响，发现质疑评论可部分恢复政治家支持，且党派偏见影响判断，强调集体意义建构的作用。"
+      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
     },
     {
-      "id": 287,
-      "title": "Divisive or Bridging? Personal Stories in Cross-Cutting Political Discussions on Reddit",
+      "id": 1998,
+      "title": "“Turns Out My Paternal Grandmother has 16% Native Blood”: Racialized DNA, Race Destabilization, and Digital Race-(re)making on Social Media",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "通过分析2015-2021年Reddit上约40万次政治互动，发现跨立场讨论中带个人故事的评论获得更多正面评价和回复，但未能减少毒性回复，且用户较少分享个人故事，影响有限。"
+      "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
     },
     {
       "id": 2026,
@@ -204,25 +162,11 @@
       "summary": "研究以焦点小组探讨用户自身认为哪些内容需要被审核，发现用户除关注极化议题与不文明言论外，更在意发布者动机与受害者脆弱性，主张平台在设计自动化审核系统时应纳入用户视角，采取更具针对性的措施并配套问责与保护机制。"
     },
     {
-      "id": 29,
-      "title": "Partisanship in Context: The (A)symmetric Influence of Local Newspaper Availability and Selective Exposure on Political Misperceptions in the U.S.",
-      "journal": "Communication Research",
-      "published_date": "2026-06-29",
-      "summary": "利用准实验设计，比较有无本地报纸的县域居民，发现缺乏本地报纸减少主流媒体使用，加剧自由派选择性接触，并影响两党虚假信息信念。"
-    },
-    {
-      "id": 79,
-      "title": "Inaccuracies, omissions, and bullshit: 2024 U.S. elections through the eyes of ChatGPT",
+      "id": 82,
+      "title": "From swipes to intimacy: dating app adoption and offline hookup intention among male rural migrant workers",
       "journal": "Information Communication & Society",
-      "published_date": "2026-06-22",
-      "summary": "通过审计ChatGPT-4o mini在2024年美国大选前的输出，发现其存在不准确、遗漏和胡扯等问题，提出从 curative governance 到 generative governance 的转变，揭示生成式AI对民主信息环境的潜在危害。"
-    },
-    {
-      "id": 18,
-      "title": "How Mass and Social Media (De) polarize America: Exposure to News Media, Expression on Social Media, and Affective Polarization",
-      "journal": "Communication and the Public",
-      "published_date": "2026-06-12",
-      "summary": "基于2020年美国大选两波面板调查，检验大众媒体、社交媒体和人际讨论对情感极化的影响，发现同质新闻加剧极化，跨域新闻缓解极化。"
+      "published_date": "2026-06-15",
+      "summary": "基于中国男性农民工调查数据，整合使用与满足和社会学习理论，考察约会应用采用的影响因素及对线下勾搭意图的中介作用，发现动机、社会认同、社会比较等通过采用影响意图，且受伦理疑虑调节。"
     }
   ],
   "paper_edges": []

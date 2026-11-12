@@ -3,14 +3,14 @@
   "label": "社交媒体竞选传播与政治参与",
   "description": "考察政党议题策略、行动号召与个人化策展如何塑造社交媒体上的选民参与。",
   "why_hot": "近30天日均速度与前期基本持平（-5%），研究活动保持稳定。",
-  "hot_score": 55,
-  "growth": -0.048,
-  "growth_rate": -0.048,
+  "hot_score": 45,
+  "growth": -0.474,
+  "growth_rate": -0.474,
   "recent_rate": 0.1333,
-  "baseline_rate": 0.14,
+  "baseline_rate": 0.2533,
   "recent_count": 4,
-  "baseline_count": 21,
-  "journal_count": 5,
+  "baseline_count": 38,
+  "journal_count": 9,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
@@ -21,6 +21,13 @@
     "voter engagement"
   ],
   "papers": [
+    {
+      "id": 2187,
+      "title": "Enhancing Democratic Listening in Online Discussions: The Role of Reaction Buttons, Discussion Moderation, and Large Language Models",
+      "journal": "Political Communication",
+      "published_date": "2026-10-23",
+      "summary": "论文开发带倾听导向反应按钮及人类/GPT-4审核的在线讨论平台，对740名被试开展40组实验，分析4355条评论，发现按钮需结合AI审核才能提升民主倾听水平。"
+    },
     {
       "id": 2189,
       "title": "The logics of agenda-setting: how political parties form their issue strategies across social media",
@@ -50,6 +57,13 @@
       "summary": "研究提出个人策展政治学（PPC）模型，基于美国全国代表性面板数据（N=1270），检验平台广度、内容异质性、新闻关注与来源归属四种社交媒体验证性策展行为对政治参与的影响，发现前两者提升参与，来源归属降低参与，认知精细化起中介作用，跨立场讨论起调节作用。"
     },
     {
+      "id": 2148,
+      "title": "Who Verifies the Verifiers? AI, Local Knowledge Production, and Credibility in Tanzania’s 2025 Election",
+      "journal": "Political Communication",
+      "published_date": "2026-10-11",
+      "summary": "研究考察坦桑尼亚2025年大选期间AI事实核查工具与社区可信度实践的互动，基于五地区342份媒体材料、87次访谈与田野观察，发现三类核查断裂：AI翻译改写原意、更正与谣言渠道错位、社区更信任亲身经验与人际讨论，据此解释准确核查为何仍难以影响公众。"
+    },
+    {
       "id": 2109,
       "title": "From constituencies to audiences: lessons from Brazil about audience analytics in representative politics",
       "journal": "Information Communication & Society",
@@ -62,6 +76,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "研究挪威主要政党2016–2025年Facebook帖文情感倾向及其对分享的影响，结合大语言模型与人工标注做情感分析，发现正面情感仍占主导但负面情感随时间上升，负面帖文总体获更多分享但优势逐渐减弱。"
+    },
+    {
+      "id": 2066,
+      "title": "Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-09-21",
+      "summary": "研究采集2024巴黎奥运会期间X平台35676条帖子，用Tweet Binder与NLP情感分析考察伊曼·哈利夫参赛引发的性别认同与公平性争论，发现正负帖量接近但负面内容曝光量翻倍，公众人物放大争议，虚假信息助推简化叙事。"
     },
     {
       "id": 2055,
@@ -85,6 +106,13 @@
       "summary": "通过2×3模拟社交媒体平台实验，比较政治与非政治内容的注意力（停留时长）与参与行为（点赞、分享、评论），发现政治内容存在更大的注意力—参与缺口，且该缺口不受信息流策展逻辑影响，提示以数字痕迹推断注意力与舆情存在偏差。"
     },
     {
+      "id": 2004,
+      "title": "How Platform Affordances Shape Expression Effects: Comment Length and Audience in Political News Engagement",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-09-07",
+      "summary": "实验(N=775)探究新闻平台评论长度与受众类型对表达效应的影响，发现评论条件交互作用，并通过计算语言学分析揭示词汇使用差异。"
+    },
+    {
       "id": 1992,
       "title": "Defining political influencers: a scoping review and young adults’ perspectives",
       "journal": "Journal of Information Technology & Politics",
@@ -97,6 +125,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-08-30",
       "summary": "研究瑞典2022年大选中政党的Facebook和Instagram付费广告策略，基于2395条广告样本，分析负面竞选、呼吁行动及人口定向差异。"
+    },
+    {
+      "id": 1977,
+      "title": "Less Effort to Believe and More Effort to Disbelieve: Examining the Interplay between News-Finds-Me and Affective Polarization in Political Fake News Susceptibility in the United States",
+      "journal": "Communication Research",
+      "published_date": "2026-08-26",
+      "summary": "通过调查719名美国成年人，结合反应时数据，研究News-Finds-Me与情感极化对政治假新闻易感性的交互影响，发现处理精力差异。"
     },
     {
       "id": 1990,
@@ -141,6 +176,13 @@
       "summary": "论文介绍MORESPulse模型，基于XLM-RoBERTa检测七种语言政治文本的五种情绪，并分析匈牙利议会1998-2022年超五百万句语料，发现情绪化语言自2010年持续上升，与政党角色和政策议题相关。"
     },
     {
+      "id": 1936,
+      "title": "Policing the Political Boundary: How the r/BarstoolSports Audience Confronts Politicization",
+      "journal": "Political Communication",
+      "published_date": "2026-08-12",
+      "summary": "通过批判性话语分析2019-2025年Barstool Sports子版块16个帖子，提出\"反政治空间\"概念，探讨粉丝如何区分流行文化与制度政治，对抗政治化。"
+    },
+    {
       "id": 1938,
       "title": "Trending Topics, Growing Knowledge? How Curating Actors’ Political Social Media Content Affects Youth’s Political Knowledge",
       "journal": "Political Communication",
@@ -148,11 +190,67 @@
       "summary": "通过三波面板调查，研究16-30岁青年接触各类社交媒体主体政治内容对时事知识的影响，及感知意见领袖满足感的中介作用。"
     },
     {
+      "id": 242,
+      "title": "Search engines in polarized media environment: auditing political information curation on Google and Bing prior to 2024 US elections",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-28",
+      "summary": "该研究在2024年美国大选前审计Google和Bing的搜索结果，分析查询主题、用户位置和时间对政治信息偏向的影响，发现两大引擎优先呈现左倾媒体，且不同主题下意识形态偏向程度不同。"
+    },
+    {
+      "id": 394,
+      "title": "The Costs of Governing Truth: Fact-Checking, Perceived Censorship, and Political Participation Across Governance Contexts",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-27",
+      "summary": "基于新加坡、中国、美国调查数据，探讨深度伪造担忧、事实核查与感知审查如何影响社交媒体政治参与，发现感知审查是参与退出的关键条件。"
+    },
+    {
+      "id": 205,
+      "title": "Common Identities and Political Talk: Evaluating Cross-Cutting Political Discussions in Sports Communities on Reddit",
+      "journal": "Political Communication",
+      "published_date": "2026-07-23",
+      "summary": "通过计算分析比较Reddit政治与体育社区中跨党派政治讨论的数量、语气和内容，发现体育社区更促进跨党派讨论，但毒性水平无显著差异。"
+    },
+    {
+      "id": 206,
+      "title": "Affective Publics in the YouTube Live Chat: Multimodal Emotional Contagion During the 2024 U.S. Presidential Debate",
+      "journal": "Political Communication",
+      "published_date": "2026-07-22",
+      "summary": "研究2024年美国总统辩论期间YouTube直播聊天中的多模态情绪传染，结合面部、语音、文本情绪识别与时间序列分析（N=53,095），发现候选人情绪影响观众，且效果因参与度和政治立场而异。"
+    },
+    {
+      "id": 208,
+      "title": "Political Fact-Checking Efforts are Constrained by Deficiencies in Coverage, Speed, and Reach",
+      "journal": "Political Communication",
+      "published_date": "2026-07-19",
+      "summary": "研究评估2022年美国中期选举期间政治事实核查的局限性，发现其覆盖不足、发布滞后、在党派社群中传播受限，并反驳党派偏见假设。"
+    },
+    {
       "id": 66,
       "title": "Measuring partisan community dynamics: a longitudinal analysis of affective engagement in pro-Bolsonaro Facebook networks",
       "journal": "Information Communication & Society",
       "published_date": "2026-07-08",
       "summary": "研究2021-2023年巴西亲博尔索纳罗Facebook群组的纵向情感参与模式，使用LLM分类和回归分析发现重大政治事件导致情感极化波动，挑战了传播极化稳定性的假设。"
+    },
+    {
+      "id": 211,
+      "title": "Does the Method Affect the Outcome? How Measures of Partisan Slant of Media Outlets and Affective Polarization Drive Results About Polarization in the United States",
+      "journal": "Political Communication",
+      "published_date": "2026-07-05",
+      "summary": "基于2020年美国大选调查数据，系统检验测量党派媒体倾向和极化的不同方法如何影响研究结果，通过504种操作化方式的规范曲线分析发现方法选择显著影响关系强度。"
+    },
+    {
+      "id": 286,
+      "title": "Making Sense of AI-Generated Disinformation: How Audience Interpretations Influence the Impact of Deepfakes in Kenya",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过肯尼亚7000人调查实验，考察社交评论对政治深度伪造效果的影响，发现质疑评论可部分恢复政治家支持，且党派偏见影响判断，强调集体意义建构的作用。"
+    },
+    {
+      "id": 287,
+      "title": "Divisive or Bridging? Personal Stories in Cross-Cutting Political Discussions on Reddit",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过分析2015-2021年Reddit上约40万次政治互动，发现跨立场讨论中带个人故事的评论获得更多正面评价和回复，但未能减少毒性回复，且用户较少分享个人故事，影响有限。"
     },
     {
       "id": 1997,
@@ -169,11 +267,18 @@
       "summary": "论文比较六种政治影响者定义，并应用于2020年美国大选期间597,815名Twitter用户数据。研究发现不同定义识别出不同影响者群体，且概念选择会系统影响影响者及其受众特征。"
     },
     {
-      "id": 212,
-      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
-      "journal": "Political Communication",
-      "published_date": "2026-06-30",
-      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
+      "id": 29,
+      "title": "Partisanship in Context: The (A)symmetric Influence of Local Newspaper Availability and Selective Exposure on Political Misperceptions in the U.S.",
+      "journal": "Communication Research",
+      "published_date": "2026-06-29",
+      "summary": "利用准实验设计，比较有无本地报纸的县域居民，发现缺乏本地报纸减少主流媒体使用，加剧自由派选择性接触，并影响两党虚假信息信念。"
+    },
+    {
+      "id": 79,
+      "title": "Inaccuracies, omissions, and bullshit: 2024 U.S. elections through the eyes of ChatGPT",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-22",
+      "summary": "通过审计ChatGPT-4o mini在2024年美国大选前的输出，发现其存在不准确、遗漏和胡扯等问题，提出从 curative governance 到 generative governance 的转变，揭示生成式AI对民主信息环境的潜在危害。"
     },
     {
       "id": 255,
@@ -195,6 +300,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-14",
       "summary": "论文比较分析YouTube、Facebook等平台的选举相关政策及其演变，划分三个阶段，并探讨平台责任话语变化及美国选举影响。"
+    },
+    {
+      "id": 18,
+      "title": "How Mass and Social Media (De) polarize America: Exposure to News Media, Expression on Social Media, and Affective Polarization",
+      "journal": "Communication and the Public",
+      "published_date": "2026-06-12",
+      "summary": "基于2020年美国大选两波面板调查，检验大众媒体、社交媒体和人际讨论对情感极化的影响，发现同质新闻加剧极化，跨域新闻缓解极化。"
     }
   ],
   "paper_edges": []

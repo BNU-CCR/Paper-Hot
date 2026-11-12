@@ -3,14 +3,14 @@
   "label": "生成式AI交互线索与用户判断",
   "description": "考察聊天机器人自信线索、提示框架如何影响用户印象、准确性判断与人机信任。",
   "why_hot": "近30天日均速度较前期升11%，议题扩散至13本期刊，研究持续升温。",
-  "hot_score": 66,
-  "growth": 0.111,
-  "growth_rate": 0.111,
-  "recent_rate": 0.2,
-  "baseline_rate": 0.18,
-  "recent_count": 6,
-  "baseline_count": 27,
-  "journal_count": 13,
+  "hot_score": 67,
+  "growth": 0.087,
+  "growth_rate": 0.087,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.1533,
+  "recent_count": 5,
+  "baseline_count": 23,
+  "journal_count": 11,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
@@ -21,6 +21,13 @@
     "human-AI communication"
   ],
   "papers": [
+    {
+      "id": 2241,
+      "title": "From Engagement to Advocacy: How AI Chatbot Gratifications Shape Attitudes and Organization–Public Relationships",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-11-10",
+      "summary": "基于美国聊天机器人用户的调查数据，检验不同满足类型如何影响情感反应，进而作用于购买意愿与公司倡导，强调 AI 聊天机器人作为关系促进者的角色。"
+    },
     {
       "id": 2226,
       "title": "AI Chatbot’s Self-Confidence Cues Shape Users’ Impressions of the Chatbot, but Not Accuracy Judgments of Hallucinated Responses",
@@ -36,25 +43,11 @@
       "summary": "通过随机提示实验考察用户提示框架如何影响ChatGPT的情感与支持性线索生产，以及这些线索是否影响用户可信度与信任评价。"
     },
     {
-      "id": 2196,
-      "title": "Narrative character networks are associated with storytelling success",
-      "journal": "Human Communication Research",
-      "published_date": "2026-10-26",
-      "summary": "将叙事视为角色互动网络，对1万余部小说和1000部电影剧本进行大规模计算分析，发现网络聚类、模块度、路径长度与故事流行度和评分相关。"
-    },
-    {
       "id": 2206,
       "title": "Machine Behavior: Paradigm Shift of Communication Research in AI Era",
       "journal": "Communication and the Public",
       "published_date": "2026-10-25",
       "summary": "文章主张在 AI 时代建立“机器行为范式”，将智能机器纳入传播研究对象，从研究对象、研究关系与方法三个维度扩展学科边界，倡导结合文本生成温度、活跃度等计算指标应对 AI 黑箱，并讨论议程设置、沉默螺旋等理论在 AI 环境下的局限，提出个体、集体与人机混合行为的系统框架与伦理规范。"
-    },
-    {
-      "id": 2175,
-      "title": "DIMS: a no-code dashboard linking multimodal dynamic signals to communication practices",
-      "journal": "Communication Methods and Measures",
-      "published_date": "2026-10-20",
-      "summary": "介绍开源工具 DIMS 仪表盘，将生理、行为、视听与转录等多模态时间序列与同步视频对齐，便于研究者检视统计模式与传播事件的对应关系，并通过人际对话脑间同步与广告观看面部肌电两个探索性案例展示定量—质性迭代流程。"
     },
     {
       "id": 2162,
@@ -69,13 +62,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-10-09",
       "summary": "通过实验操纵165名美国成年人对算法效能的信任信念，评估同一组在线约会档案，检验信任信念如何影响约会评价与情绪。结果显示高信任组感知约会更成功，进而更自信愉悦、更少焦虑悲伤，提示算法信念存在自我实现预言效应。"
-    },
-    {
-      "id": 2124,
-      "title": "It Must Have Been Love (But It's Over Now): Thematic Changes in Popular U.S. Song Lyrics Across 4+ Decades",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-10-07",
-      "summary": "研究运用 LIWC-22 的意义提取模块，分析 1980—2024 年 Billboard Hot 100 前 25 名歌曲共 1,129 首歌词的四个主题，发现恋爱主题减少、联系与性化主题增多，并讨论意义提取方法处理大数据的优势。"
     },
     {
       "id": 2108,
@@ -127,25 +113,18 @@
       "summary": "研究调查398名肯尼亚公关从业者，用PLS-SEM检验生成式AI采纳对组织-公众对话传播（互助性与开放性）的影响，以及AI增强的对话传播在信任与满意度关系中的中介作用，发现所有假设路径显著且呈部分中介。"
     },
     {
+      "id": 1960,
+      "title": "Hold That Thought: Enhancing the Durability of Fact-Checking Effects Through Low-Cost Accuracy Reminders",
+      "journal": "Political Communication",
+      "published_date": "2026-08-21",
+      "summary": "通过大规模纵向实验（N=7188）检验准确性提醒能否增强事实核查效果的持久性，发现提醒可延长信念纠正至四周。"
+    },
+    {
       "id": 1945,
       "title": "From Ally – Enemy Conflict to Emotional Communion: Exploring an Attitudinal Ambivalence Toward Emotional Artificial Intelligence",
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-08-11",
       "summary": "基于911名中国用户调查，探究感知情感能力通过自我披露影响对对话AI的态度矛盾，并提出情感共融效应。"
-    },
-    {
-      "id": 2,
-      "title": "The Bio-Functional Audience: Shared Physiological Alignment to Narrative Media",
-      "journal": "Communication Research",
-      "published_date": "2026-07-28",
-      "summary": "通过眼动、心率、皮肤电等生理数据，提出生物功能受众概念，验证叙事内容能引发个体间生理同步，为受众研究提供信号基础。"
-    },
-    {
-      "id": 26,
-      "title": "Music Was My First Love: Biographic Resonance Makes Everyday Music Listening Meaningful",
-      "journal": "Communication Research",
-      "published_date": "2026-07-26",
-      "summary": "通过密集纵向研究，结合自我报告与Spotify数字使用记录，探讨日常音乐聆听中传记共鸣的产生机制，发现其受内容与算法环境因素影响，促进情境化意义感形成。"
     },
     {
       "id": 4,
@@ -211,13 +190,6 @@
       "summary": "基于助推理论与SOR框架，通过在线实验检验AI透明度、奖励和追踪功能对智能垃圾桶采纳意愿的影响，发现信任和感知价值的中介作用及交互效应。"
     },
     {
-      "id": 33,
-      "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
-      "journal": "Communication Research",
-      "published_date": "2026-06-13",
-      "summary": "研究创意众包挑战社区中地位、职业、价值等多维同质性对创意者间评论网络形成的影响，采用关系事件模型和潜在类别分析。"
-    },
-    {
       "id": 412,
       "title": "Effects of Generative AI Bias on Adoption Through Trust: Interactions Between Engagement Cues, Information Cues, and Social Norms",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -244,13 +216,6 @@
       "journal": "Communication Research Reports",
       "published_date": "2026-05-27",
       "summary": "基于美国全国样本，考察人机闲聊中的沟通偶然性对感知响应性、参与度和满意度的影响，发现陪伴感调节作用。"
-    },
-    {
-      "id": 361,
-      "title": "Multimodal semiotic content analysis: combining quantitative large-data analysis with qualitative semiotic coding",
-      "journal": "Visual Communication",
-      "published_date": "2026-05-22",
-      "summary": "提出混合方法框架，整合定性符号学编码与定量大规模数据分析，通过277个抑郁相关网络模因案例，揭示抑郁主题与符号资源的关联模式。"
     }
   ],
   "paper_edges": []

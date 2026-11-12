@@ -3,14 +3,14 @@
   "label": "AI介入在线协商与信任问责",
   "description": "研究AI驱动的反驳性干预如何影响在线协商质量，以及AI系统的信任建构与问责框架。",
   "why_hot": "近30天日均发表速度较前期下降约四成，关注度有所回落。",
-  "hot_score": 41,
-  "growth": -0.4,
-  "growth_rate": -0.4,
+  "hot_score": 42,
+  "growth": -0.444,
+  "growth_rate": -0.444,
   "recent_rate": 0.1,
-  "baseline_rate": 0.1667,
+  "baseline_rate": 0.18,
   "recent_count": 3,
-  "baseline_count": 25,
-  "journal_count": 6,
+  "baseline_count": 27,
+  "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
@@ -111,6 +111,20 @@
       "journal": "Global Media and Communication",
       "published_date": "2026-07-02",
       "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
+    },
+    {
+      "id": 1994,
+      "title": "“Fairness Labels” in Feeds: Process Disclosures, Provenance, and User Choice Among Short‑Video Creators in Mainland China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过移动在线实验，研究面向中国短视频创作者的公平性披露对感知程序正义、分配公平及合法性的影响。"
+    },
+    {
+      "id": 212,
+      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
+      "journal": "Political Communication",
+      "published_date": "2026-06-30",
+      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
     },
     {
       "id": 402,

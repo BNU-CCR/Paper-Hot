@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-11-09 21:45 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-11-12 21:45 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-11-09 | [Morale in Political Campaigning: Are Political Candidates’ Moral Concerns Coherent with Their Campaign Rhetoric?](<https://doi.org/10.1080/10584609.2026.2757594>) | Political Communication | 研究结合德国州选举候选人调查与其Meta帖子，通过众包标注和Transformer模型预测道德标签，检验候选人道德信念与竞选修辞的一致性及党派差异。 |
 | 2026-11-02 | [AI Chatbot’s Self-Confidence Cues Shape Users’ Impressions of the Chatbot, but Not Accuracy Judgments of Hallucinated Responses](<https://doi.org/10.1080/08838151.2026.2752936>) | Journal of Broadcasting & Electronic Media | 通过2×2×2在线实验（N=738）考察AI聊天机器人自信水平、变异性与呈现模态如何影响用户对机器人及幻觉输出的评价。 |
 | 2026-11-01 | [Shifting priorities? Coverage of the Russia-Ukraine war in Central European online news media (2022–2026)](<https://doi.org/10.1177/17506352261493702>) | Media War & Conflict | 论文分析2022至2026年中欧八家在线新闻媒体对俄乌战争的报道，考察战争显著性及官僚、国防、经济、人道四维度随时间变化，并检验国家语境与政治倾向的影响。 |
 | 2026-10-30 | [Cue production and evaluative uptake: prompt framing and user judgments in AI-Mediated health communication](<https://doi.org/10.1080/1369118x.2026.2752107>) | Information Communication & Society | 通过随机提示实验考察用户提示框架如何影响ChatGPT的情感与支持性线索生产，以及这些线索是否影响用户可信度与信任评价。 |
 | 2026-10-26 | [Conversations about air pollution in New Delhi on X: Causes, solutions and perceived effects](<https://doi.org/10.1177/17427665261489795>) | Global Media and Communication | 研究分析新德里10万余条X帖子，考察公众对空气污染成因、解决方案与影响的认知框架，发现公民话语与主流媒体叙事存在显著差异：用户更多归咎秸秆焚烧与节日烟花，并突出经济与生活影响。 |
-| 2026-10-26 | [Enhancing Online Deliberation Through AI-Driven Counter-Attitudinal Interventions: Direct and Indirect Effects on Users’ Perceptions and Behavior](<https://doi.org/10.1177/0261927x261500682>) | Journal of Language and Social Psychology | 通过10天模拟公民议会三波实验，检验AI反态度评论推荐是否提升观点平等感知、审议体验并减少不文明表达，发现其对主观审议体验有间接效应，但对不文明行为作用有限。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-11-09 21:45 GMT+8
+> 最近更新：2026-11-12 21:45 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 2237 |
-| 当期新增 | 28 |
-| High / Medium / Low | 618 / 708 / 911 |
-| Pending / Screened / Quarantined / Error | 0 / 2237 / 0 / 0 |
-| 已发布精选 | 618 |
-| 期刊全量导出 | 2237 |
+| 数据库论文 | 2242 |
+| 当期新增 | 22 |
+| High / Medium / Low | 619 / 711 / 912 |
+| Pending / Screened / Quarantined / Error | 0 / 2242 / 0 / 0 |
+| 已发布精选 | 619 |
+| 期刊全量导出 | 2242 |
 
-覆盖验证：OpenAlex DOI 2223，Crossref DOI 973，匹配 919，Crossref 中尚缺 54。
+覆盖验证：OpenAlex DOI 2228，Crossref DOI 980，匹配 923，Crossref 中尚缺 57。
 
 <!-- paper-hot:auto-stats:end -->
 

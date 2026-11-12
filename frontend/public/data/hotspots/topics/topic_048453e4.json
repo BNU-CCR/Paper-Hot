@@ -3,14 +3,14 @@
   "label": "数字抗争表达与虚假信息韧性",
   "description": "关注幽默、抗议视觉与AI生成形象在数字抗争中的表达，以及社会对政治虚假信息的抵抗韧性。",
   "why_hot": "近30天日均发表速度较前期下降约47%，论文分散于6本期刊，研究热度回落。",
-  "hot_score": 36,
-  "growth": -0.474,
-  "growth_rate": -0.474,
+  "hot_score": 35,
+  "growth": -0.583,
+  "growth_rate": -0.583,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.1267,
+  "baseline_rate": 0.16,
   "recent_count": 2,
-  "baseline_count": 19,
-  "journal_count": 6,
+  "baseline_count": 24,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "emerging",
   "keywords": [
@@ -34,6 +34,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-10-13",
       "summary": "研究伊斯坦布尔市长被捕后国家禁令下的视觉抵抗：分析105幅街头横幅与106个AI生成头像，论证线下横幅与线上头像构成同一“可见性经济”，幽默作为符号工具放大政治意义，讨论AI中介政治图像与混合政体中的视觉抗争。"
+    },
+    {
+      "id": 2151,
+      "title": "The Threads that Fray: Wedge strategies and Chinese influence operations in the Indo-Pacific",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-12",
+      "summary": "论文考察中国在西方社交媒体平台上的影响力行动，结合楔子战略与网络颠覆，评估其对美国在印太（重点为澳大利亚与菲律宾）安全架构的挑战，包括正面宣传、削弱对美信任及干预他国国内政治。"
     },
     {
       "id": 2115,
@@ -64,11 +71,32 @@
       "summary": "通过定性数字话语分析25集TikTok讽刺课堂视频，探讨印尼大选后青年政治表达和平台化政治批判。"
     },
     {
+      "id": 1976,
+      "title": "Sex, Romance, or Recreation? An Experiment Testing the Effects of Cannabis Brand-generated Social Media Ads on College Students’ Expectancies and Intentions to Use Cannabis Prior to Sex",
+      "journal": "Communication Research",
+      "published_date": "2026-08-31",
+      "summary": "通过在线实验考察大麻品牌社交媒体广告中的性/浪漫/娱乐脚本对大学生性前使用大麻预期与意向的影响，发现性别差异及机制。"
+    },
+    {
       "id": 1949,
       "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
       "journal": "Information Communication & Society",
       "published_date": "2026-08-21",
       "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
+    },
+    {
+      "id": 1964,
+      "title": "Enemies Abroad, Animosity at Home: Media Influence on U.S.-China Policy and Anti-Asian Sentiment",
+      "journal": "Political Communication",
+      "published_date": "2026-08-16",
+      "summary": "通过分析2010-2020年CNN和福克斯新闻文本及全国调查实验，考察中国威胁叙事如何影响美国对华政策支持与反亚裔情绪，发现威胁叙事加剧鹰派态度和种族偏见，尤其在共和党人中。"
+    },
+    {
+      "id": 1933,
+      "title": "Entertainment as Trojan Horse: Voluntary Consumption of Propaganda in China",
+      "journal": "Political Communication",
+      "published_date": "2026-08-13",
+      "summary": "研究中国宣传电影中娱乐元素如何提升观众自愿消费和接受政治教化，采用观察数据与预注册调查实验。"
     },
     {
       "id": 1935,
@@ -78,18 +106,18 @@
       "summary": "研究TikTok上“Kamala is Brat”迷因的形式、功能与情感共鸣，分析创作者如何重构哈里斯形象，揭示平台迷因文化作为选举中介机制。"
     },
     {
+      "id": 1929,
+      "title": "‘Cool! I wanna try it!’: online exposure to e-cigarette advertisements increases e-cigarette susceptibility among U.S. sexual minority young adults",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-10",
+      "summary": "研究在线电子烟广告暴露如何影响美国性少数青年对电子烟的易感性，关注数字广告的传播效果。"
+    },
+    {
       "id": 8,
       "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
       "journal": "Political Communication",
       "published_date": "2026-07-29",
       "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
-    },
-    {
-      "id": 206,
-      "title": "Affective Publics in the YouTube Live Chat: Multimodal Emotional Contagion During the 2024 U.S. Presidential Debate",
-      "journal": "Political Communication",
-      "published_date": "2026-07-22",
-      "summary": "研究2024年美国总统辩论期间YouTube直播聊天中的多模态情绪传染，结合面部、语音、文本情绪识别与时间序列分析（N=53,095），发现候选人情绪影响观众，且效果因参与度和政治立场而异。"
     },
     {
       "id": 395,

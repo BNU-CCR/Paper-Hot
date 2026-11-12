@@ -1,5 +1,175 @@
 [
   {
+    "id": 2241,
+    "title": "From Engagement to Advocacy: How AI Chatbot Gratifications Shape Attitudes and Organization–Public Relationships",
+    "title_zh": "从参与度到倡导力：人工智能聊天机器人的反馈机制如何影响态度以及组织与公众之间的关系",
+    "authors": [
+      "Chun Shao",
+      "Young Kim"
+    ],
+    "institutions": [],
+    "journal": "Journal of Broadcasting & Electronic Media",
+    "published_date": "2026-11-10",
+    "relevance": "Medium",
+    "score": null,
+    "abstract": "Recent AI advances have driven widespread adoption of AI chatbots in consumer service sectors. While prior research has examined psychological drivers of chatbot adoption, their role in shaping attitudes and organization–public relationships (OPRs) remains largely underexplored. The current study investigates how gratifications obtained from chatbots are related to consumer attitudes and OPRs. Survey data from U.S. chatbot users show that multiple forms of gratification enhance affective responses, which in turn are positively related to users’ purchase intention and advocacy. The findings highlight AI chatbots as critical relationship facilitators, revealing the distinct effects of different gratifications on OPRs, purchase intention, and company advocacy.",
+    "abstract_zh": "近期的人工智能（AI）进展推动了AI聊天机器人在消费者服务领域的广泛应用。尽管以往的研究已经探讨了人们采用聊天机器人的心理动机，但它们在塑造组织与公众关系（OPR：Organization-Public Relationships）方面的作用仍很大程度上未被充分研究。本研究探讨了从聊天机器人中获得的满足感与消费者态度及组织与公众关系之间的关联。来自美国聊天机器人用户的调查数据显示，多种形式的满足感能够增强用户的情感反应，而这些情感反应又与用户的购买意愿和品牌倡导行为呈正相关。研究结果表明，AI聊天机器人是重要的关系促进者，揭示了不同类型的满足感对组织与公众关系、购买意愿以及消费者品牌倡导行为的不同影响。",
+    "summary": "基于美国聊天机器人用户的调查数据，检验不同满足类型如何影响情感反应，进而作用于购买意愿与公司倡导，强调 AI 聊天机器人作为关系促进者的角色。",
+    "reason": "选题涉及 AI 聊天机器人的使用与传播效果，符合 AI 条款；但方法为传统问卷调查，无计算元素。",
+    "tags": [
+      "AI 聊天机器人",
+      "人机传播",
+      "使用与满足",
+      "组织—公众关系"
+    ],
+    "method": "量化分析",
+    "doi": "10.1080/08838151.2026.2760828",
+    "source_url": "https://doi.org/10.1080/08838151.2026.2760828",
+    "detail_slug": "from-engagement-to-advocacy-how-ai-chatbot-gratifications-shape-attitudes-and-organization-public-relationships",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Broadcasting & Electronic Media",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2240,
+    "title": "Morale in Political Campaigning: Are Political Candidates’ Moral Concerns Coherent with Their Campaign Rhetoric?",
+    "title_zh": "政治竞选中的道德问题：政治候选人的道德诉求与其竞选言论是否一致？",
+    "authors": [
+      "Corinna Oschatz",
+      "Frederic R. Hopp"
+    ],
+    "institutions": [],
+    "journal": "Political Communication",
+    "published_date": "2026-11-09",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Political elites increasingly use moral language to influence voting decisions by signaling moral concerns. Yet, it remains unknown whether political candidates’ moral language use correlates with their endorsed moral beliefs. Previous research with citizens showed that moral values do not always align with moral expressions, raising the question of to what extent candidates’ self-reported moral foundations correspond with the moral foundations present in their campaign communication. To this end, we developed a research program combining candidate surveys and annotations of these candidates’ campaign communication. We collected survey data on the moral foundations of political candidates (N = 949) running for office in four German state elections, as well as these candidates’ Meta posts (N = 17,646 observations). We conducted crowd-sourced annotations of the posts (N = 320 coders) to fine-tune a transformer model that predicts moral labels for the entire corpus. Results show that candidates tend to express the moral concerns they indicate they endorse in their campaign communication. The study also finds variation in the coherence across the political spectrum, both at the individual and the party level. Parties on the political left and the extreme political right show significantly greater coherence than centrist and liberal-conservative parties.",
+    "abstract_zh": "政治精英越来越多地使用道德语言来影响选民的投票决策，以此表达他们的道德立场。然而，目前尚不清楚政治候选人的道德语言使用与其所倡导的道德信念之间是否存在关联。以往针对公民的研究表明，道德价值观并不总是与他们的道德表达相一致，这就引发了这样一个问题：候选人自我宣称的道德基础在多大程度上与其竞选宣传中的道德内容是一致的。为此，我们设计了一个研究项目，结合了对候选人的调查以及对他们竞选宣传内容的分析。我们收集了参加德国四次州选举的949名政治候选人的道德基础相关数据，以及这些候选人在社交媒体上发布的17,646条帖子的内容。我们还邀请了320名志愿者对这些帖子进行注释，以帮助改进一个用于预测整个文本集道德标签的Transformer模型。研究结果表明，候选人倾向于在他们的竞选宣传中表达他们所宣称支持的道德立场。研究还发现，在政治光谱的不同阵营中，这种一致性存在差异——无论是从个体层面还是政党层面来看，左翼和极右翼政党的一致性都要显著高于中间派和自由保守派政党。",
+    "summary": "研究结合德国州选举候选人调查与其Meta帖子，通过众包标注和Transformer模型预测道德标签，检验候选人道德信念与竞选修辞的一致性及党派差异。",
+    "reason": "结合候选人调查与Meta帖子，用Transformer文本分类分析道德语言，属计算传播。",
+    "tags": [
+      "计算传播",
+      "自然语言处理",
+      "社交媒体",
+      "政治竞选",
+      "道德基础"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1080/10584609.2026.2757594",
+    "source_url": "https://doi.org/10.1080/10584609.2026.2757594",
+    "detail_slug": "morale-in-political-campaigning-are-political-candidates-moral-concerns-coherent-with-their-campaign-rhetoric",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Political Communication",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2242,
+    "title": "Podcasting war: Zeteo, Gaza, and ethical media practice in the western-Islamic public sphere",
+    "title_zh": "播客战争：Zeteo、加沙以及西方-伊斯兰公共领域中的媒体伦理实践",
+    "authors": [
+      "Dilyana Mincheva"
+    ],
+    "institutions": [],
+    "journal": "Media War & Conflict",
+    "published_date": "2026-11-08",
+    "relevance": "Low",
+    "score": null,
+    "abstract": "This article examines how Zeteo’s We’re Not Kidding narrates, contests, and ethically frames war through long-form conversation. Drawing on close analysis of 17 purposively selected episodes, it asks how the podcast’s form, humour, guest heterogeneity, and evidentiary debate shape media practice during the Gaza war that began in October 2023, which participants describe as genocidal. Four practices organize the analysis: meta-journalistic critique, debunking as evidentiary care, positional witnessing, and humour as ethical attunement. The Western-Islamic public sphere provides the overarching framework, understood as a historically contingent space of encounter and transformation in which Muslim public interventions put established terms of authority and belonging into question. Sherman Jackson’s concept of the Islamic secular helps interpret Mehdi Hasan’s ethical orientation within this space without attributing the same orientation to every guest. Differently situated Palestinian, Arab, Muslim, Jewish American, Jewish-Israeli, Black American, and South Asian/British speakers converge on Palestinian personhood and freedom. The article argues that these conversations connect scrutiny of evidence to an anti-colonial commitment to Palestinian personhood, historical agency, and self-determination, while recognizing that podcast intimacy and humour can also normalize exclusion.",
+    "abstract_zh": "本文探讨了《Zeteo的“We’re Not Kidding”这一播客如何通过长篇对话来叙述、质疑并从伦理角度审视战争。通过对17个精心挑选的节目片段进行深入分析，本文探讨了该播客的形式、幽默元素、嘉宾的多样性以及证据讨论如何影响了2023年10月爆发的加沙战争期间的媒体传播实践。参与者将这场战争描述为种族灭绝行为。文章采用了四种分析方法：元新闻批评（meta-journalistic critique）、将“揭穿谎言”视为一种证据呈现方式（debunking as evidentiary care）、基于立场进行见证（positional witnessing），以及将幽默视为一种伦理上的共鸣方式（humour as ethical attunement）。西方-伊斯兰公共领域构成了这一分析的总体框架，这一领域被视为一个历史性的互动与变革空间，在其中穆斯林公众的发声挑战了既定的权威与归属观念。谢尔曼·杰克逊（Sherman Jackson）提出的“伊斯兰世俗主义”概念有助于解读梅赫迪·哈桑（Mehdi Hasan）在这一框架下的伦理取向，但并不认为所有嘉宾都持有相同的观点。来自不同背景的参与者——巴勒斯坦人、阿拉伯人、穆斯林美国人、犹太裔美国人、犹太裔以色列人、非裔美国人和南亚/英国人——在讨论巴勒斯坦人的身份与自由问题时达成了共识。文章认为，这些对话将证据的审查与反殖民主义立场联系起来，支持巴勒斯坦人的身份认同、历史能动性以及自决权；同时，也指出播客的亲密氛围和幽默元素可能加剧了对某些群体的排斥现象。",
+    "summary": "论文细读Zeteo播客《We're Not Kidding》的17期节目，分析其如何通过长对话、幽默、嘉宾多元性与证据辩论，伦理地框定加沙战争，并提出元新闻批评、事实核查、立场性见证与幽默作为伦理调适四种实践。",
+    "reason": "对17期播客进行近距离文本解读，属质性批判分析，无计算方法，也未涉及AI/计算议题。",
+    "tags": [
+      "播客",
+      "战争叙事",
+      "公共领域",
+      "伦理媒体实践"
+    ],
+    "method": "质性分析",
+    "doi": "10.1177/17506352261497961",
+    "source_url": "https://doi.org/10.1177/17506352261497961",
+    "detail_slug": "podcasting-war-zeteo-gaza-and-ethical-media-practice-in-the-western-islamic-public-sphere",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Media, War & Conflict",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2239,
+    "title": "Too Much, Too Little, or Just Right? Identity Processes and Motivations Explain Everyday Evaluations of Time Spent on Social Media",
+    "title_zh": "“太多、太少，还是恰到好处？”：身份认同过程与动机解释了人们对在社交媒体上花费时间的日常评价",
+    "authors": [
+      "Serena Jimyn Soh",
+      "Zhenchao Hu",
+      "Sanaz Talaifar",
+      "Alan Meca",
+      "Noah Vinoya et al."
+    ],
+    "institutions": [],
+    "journal": "Communication Research",
+    "published_date": "2026-11-08",
+    "relevance": "Medium",
+    "score": null,
+    "abstract": "Emerging adults use social media—and evaluate their use—while navigating the critical task of identity development. We investigate how evaluations of time spent on social media are associated with (a) individual differences in identity development and (b) situational fluctuations in identity-relevant social media motivations. In our longitudinal field study ( N = 2,251; 87,283 observations), emerging adults forming their identity tended to evaluate their social media time as balanced (i.e., the right amount), whereas those evaluating their identity tended to perceive imbalance (i.e., too much or too little time spent). Using social media to connect with others was associated with momentary perceptions of balanced use, whereas doing so to explore personal and professional goals was associated with imbalance. These findings suggest that emerging adults’ evaluations of their time spent on social media may depend on how well use aligns with identity-relevant needs. We discuss implications for psychological and digital well-being.",
+    "abstract_zh": "处于身份发展关键阶段的年轻人会使用社交媒体，并对其使用情况进行评估。我们研究了他们对社交媒体使用时间的评估如何与以下两个方面相关：（a）个体在身份发展方面的差异；（b）与身份相关的社交媒体使用动机的变化。在我们的纵向实地研究中（样本量N=2,251，观察次数共计87,283次），正在形成自我身份的年轻人倾向于认为自己的社交媒体使用时间是合理的（即使用量适中）；而那些正在探索自我身份的年轻人则倾向于认为自己的社交媒体使用时间存在不平衡（即使用时间过多或过少）。利用社交媒体与他人建立联系时，他们可能会暂时感受到使用时间的合理性；而当使用社交媒体的目的是为了实现个人或职业目标时，他们则更可能认为使用时间存在不平衡。这些发现表明，年轻人对社交媒体使用时间的评估可能取决于其使用行为与自身身份发展需求的契合程度。我们讨论了这一发现对心理健康和数字福祉的影响。",
+    "summary": "研究探讨新兴成年人对社交媒体使用时间的评价如何与身份发展差异及身份相关使用动机相关，基于纵向田野研究数据发现平衡感知取决于使用是否契合身份需求。",
+    "reason": "主题涉及社交媒体使用与心理福祉，但采用纵向问卷/经验取样，无计算方法",
+    "tags": [
+      "社交媒体",
+      "身份发展",
+      "数字福祉",
+      "纵向研究"
+    ],
+    "method": "量化分析",
+    "doi": "10.1177/00936502261497370",
+    "source_url": "https://doi.org/10.1177/00936502261497370",
+    "detail_slug": "too-much-too-little-or-just-right-identity-processes-and-motivations-explain-everyday-evaluations-of-time-spent-on-social-media",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication Research",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2238,
+    "title": "Seeing and Hearing YouTube: Linking Media Design to Children’s Attention Span and Viewing Control",
+    "title_zh": "观察与理解YouTube：将媒体设计与儿童的注意力持续时间及观看控制能力联系起来",
+    "authors": [
+      "Minjung Kim",
+      "Drew P. Cingel",
+      "Allyson L. Snyder"
+    ],
+    "institutions": [],
+    "journal": "Communication Research",
+    "published_date": "2026-11-08",
+    "relevance": "Medium",
+    "score": null,
+    "abstract": "To examine how audiovisual characteristics of YouTube content are associated with children’s attention span and viewing control, we conducted a two-wave longitudinal survey in 2023 and 2024. The final analytical sample consisted of 195 Korean parents of children aged 4 to 6 whose children reported the same most frequently viewed YouTube channel across both waves. Videos from children’s most frequently viewed YouTube channels were coded for visual (scene changes and special effects) and audio (dialogues and sound effects) features. Structural equation modeling (SEM) results indicated that greater exposure to visual and auditory features in Year 1 content was associated with lower levels of children’s attention span and viewing control one year later. Dialogues, an audio feature, demonstrated the strongest negative association with both children’s attention span and viewing control. These findings highlight the importance of considering the design features of children’s digital media when examining associations between media environments and children's attentional and self-regulatory behaviors.",
+    "abstract_zh": "为了研究YouTube内容的视听特征与儿童注意力持续时间及观看控制能力之间的关系，我们在2023年和2024年进行了一项双波纵向调查。最终的分析样本包括195位韩国父母，他们的孩子年龄在4到6岁之间，并且这些孩子在两次调查中都报告了相同的最常观看的YouTube频道。我们对孩子们最常观看的YouTube频道中的视频进行了编码，分析了其中的视觉（场景变化和特效）和音频（对话和音效）特征。结构方程建模（SEM）的结果表明，第一年接触更多的视觉和听觉特征与一年后儿童注意力持续时间及观看控制能力的下降有关。其中，作为音频特征的“对话”对儿童的注意力持续时间和观看控制能力产生了最显著的负面影响。这些发现强调了在研究媒体环境与儿童注意力及自我调节行为之间的关系时，考虑儿童数字媒体设计特征的重要性。",
+    "summary": "该研究通过两波纵向调查与YouTube视频内容编码，考察视听特征与儿童注意力及观看控制的关联，发现对话等音频特征负向关联最强。",
+    "reason": "议题涉及YouTube等社交媒体平台，但方法为纵向调查、人工内容编码与SEM，缺少计算传播方法。",
+    "tags": [
+      "YouTube",
+      "儿童媒介使用",
+      "注意力",
+      "内容特征",
+      "纵向调查"
+    ],
+    "method": "量化分析",
+    "doi": "10.1177/00936502261499806",
+    "source_url": "https://doi.org/10.1177/00936502261499806",
+    "detail_slug": "seeing-and-hearing-youtube-linking-media-design-to-children-s-attention-span-and-viewing-control",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Communication Research",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2233,
     "title": "Same news, different lens: How Nigerian and foreign media framed the US invasion threat against Nigeria",
     "title_zh": "同样的新闻，不同的视角：尼日利亚媒体与外国媒体如何看待美国对尼日利亚的入侵威胁",
@@ -73823,7 +73993,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "Using African Technocultural Feminist Theory (ATFT), this study explored how Nigerian Igbo women fashion designers use Instagram to perform digital identities. While there is extensive literature on self-presentation on social media, there is limited research on African women’s self-presentation from a feminist perspective. The Critical Technocultural Discourse Analysis (CTDA) of Instagram posts and interview data revealed that Instagram’s photo affordances allowed designers to showcase their intricate designs and facilitate the cultural digitization of Igbo-centric fashion. The result of the three-phased analysis revealed Nigerian Igbo women fashion designers employed visual aesthetics and authenticity in their entrepreneurial online presentation. The study also highlighted the reemergence of Nsibidi , a long-lost ideography within Igbo culture, facilitated by Instagram. In addition, the study revealed that Nigerian Igbo women fashion designers use Instagram to challenge societal norms related to femininity and womanhood. This study addresses the need to examine African women’s digital identities through a feminist lens, considering the impact of overlapping power structures on their self-representational choices on social media.",
-    "abstract_zh": "本研究运用非洲技术文化女性主义理论（ATFT），探讨了尼日利亚伊博族女性时装设计师如何通过Instagram来构建自己的数字身份。尽管关于社交媒体上自我呈现的文献较多，但从女性主义视角研究非洲女性自我呈现的案例却相对较少。通过对Instagram帖子的批判性技术文化话语分析（CTDA）以及访谈数据的分析，研究发现Instagram的图片功能使设计师能够展示他们精心设计的作品，并促进了以伊博文化为核心的时尚内容的数字化传播。研究结果表明，尼日利亚伊博族女性时装设计师在在线创业过程中注重视觉美学与真实性的表达。此外，研究发现Instagram促进了伊博文化中一种长期失传的符号系统——“Nsibidi”的重新兴起。同时，这些设计师还利用Instagram来挑战与女性气质和女性身份相关的社会规范。本研究强调了从女性主义角度审视非洲女性数字身份的必要性，分析了权力结构重叠如何影响她们在社交媒体上的自我表达选择。",
+    "abstract_zh": "本研究运用非洲技术文化女性主义理论（ATFT），探讨了尼日利亚伊博族女性时装设计师如何通过Instagram来构建自己的数字身份。尽管关于社交媒体上自我呈现的文献较多，但从女性主义视角研究非洲女性自我呈现的案例却相对较少。通过对Instagram帖子的批判性技术文化话语分析（CTDA）以及访谈数据的分析，研究发现Instagram的图片功能使设计师能够展示他们精心设计的作品，并促进了以伊博文化为核心的时尚内容的数字化传播。研究结果表明，这些尼日利亚伊博族女性时装设计师在在线创业过程中运用了视觉美学和真实性作为表达手段。此外，研究还指出Instagram促进了伊博文化中一种长期失传的符号系统——“Nsibidi”的重新兴起。同时，研究发现这些设计师利用Instagram来挑战与女性气质和女性身份相关的社会规范。本研究强调了从女性主义角度审视非洲女性数字身份的必要性，并分析了权力结构重叠如何影响她们在社交媒体上的自我表达选择。",
     "summary": "运用非洲技术文化女性主义理论，分析尼日利亚伊博族女性设计师在Instagram上的数字身份呈现，揭示平台功能对文化表达和性别规范的影响。",
     "reason": "议题涉及社交媒体平台与数字身份，但采用质性话语分析，无计算方法。",
     "tags": [
@@ -73845,7 +74015,7 @@
   {
     "id": 1388,
     "title": "Jalaiah Effect: A Story of a Stolen Dance on TikTok and Trans-Platformization of Ignorance",
-    "title_zh": "贾莱亚效应：TikTok上一段被窃取的舞蹈故事，以及无知如何在跨平台传播",
+    "title_zh": "贾拉亚效应：TikTok上一段被窃取的舞蹈故事，以及无知现象的跨平台传播",
     "authors": [
       "Mariam Betlemidze"
     ],
@@ -73857,7 +74027,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "This article explores how ignorance becomes a cultural affordance of trans-platformization, focusing on the Renegade dance’s evolution into a viral sensation that fueled TikTok’s rise and launched new teenage influencers. Employing new materialist feminist theory, Actor-Network Theory, and Critical Technocultural Discourse Analysis, this article operationalizes the concept of trans-platformization. It examines race-technology entanglements as they manifest during trans-platformization, highlighting the illusory progress in recognizing Black creators and the resistance against a predominantly White, techno-capitalist patriarchy. The tensions arising from these complexities intensify the demand for a more nuanced understanding of ignorance as the affordance of trans-platformization and the potential pivot point for speculative hope.",
-    "abstract_zh": "本文探讨了“无知”如何成为跨平台化（trans-platformization）的一种文化现象。研究重点关注“Renegade舞蹈”如何演变成为一种在TikTok上迅速传播的热门内容，从而推动了TikTok的崛起，并催生了新的青少年网红。本文运用了新唯物主义女性主义理论（New Materialist Feminism）、行动者网络理论（Actor-Network Theory）以及批判性技术文化话语分析（Critical Technocultural Discourse Analysis）来阐释“跨平台化”的概念。它分析了在跨平台化过程中种族与技术的交织关系，指出了在承认黑人创作者方面所取得的表面进展，以及人们对以白人为主导的技术资本主义父权制的抵制。这些复杂因素所带来的矛盾加剧了人们对“无知”这一概念的深入理解的需求——这种“无知”既是跨平台化的一种表现形式，也可能成为带来希望的转折点。",
+    "abstract_zh": "本文探讨了“无知”如何成为跨平台传播（trans-platformization）的一种文化现象。文章以“Renegade舞蹈”为例，分析了这一舞蹈如何迅速走红，成为TikTok平台上的热门内容，并催生了新的青少年网红。通过运用新唯物主义女性主义理论（New Materialist Feminism）、行动者网络理论（Actor-Network Theory）以及批判性技术文化话语分析（Critical Technocultural Discourse Analysis），本文具体阐释了“跨平台传播”的概念。文章分析了种族与技术之间的复杂关系在跨平台传播过程中的表现，指出了在认可黑人创作者方面所取得的所谓“进步”其实只是表面现象，并揭示了人们对以白人为主导的技术资本主义父权制的抵制情绪。这些矛盾与冲突凸显了人们对于“无知”这一概念的更深入理解的需求——这种“无知”既是跨平台传播的推动力，也可能成为带来希望的转折点。",
     "summary": "探讨TikTok上Renegade舞蹈被窃取事件，运用新物质主义女性主义、ANT和批判技术文化话语分析，分析跨平台化中无知作为文化可供性及种族与技术纠缠。",
     "reason": "虽涉及TikTok平台，但采用批判技术文化话语分析，属文化研究取径，无计算方法。",
     "tags": [
@@ -73878,7 +74048,7 @@
   {
     "id": 1389,
     "title": "“(Virtuous) Wives Don’t Have Anything to Hide”: Understanding Digital Privacy Perceptions and Behavior of Married Women in Rural India",
-    "title_zh": "“（品德高尚的）妻子没有什么可隐藏的”：理解印度农村已婚妇女对数字隐私的看法和行为",
+    "title_zh": "“（品德高尚的）妻子没有什么可隐藏的”：理解印度农村已婚妇女对数字隐私的看法与行为",
     "authors": [
       "Debjani Chakraborty",
       "Chhavi Garg"
@@ -73891,7 +74061,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "This study explores digital privacy perceptions and behaviors among married women in rural India, a rapidly expanding demographic of mobile media and Internet users in the Global South. This ethnographic study found that women’s experience of privacy entails balancing between norms related to “hide” and “having nothing to hide.” Specifically, conflicting practices of avoiding online visibility while sharing passwords and accounts with family members exist to conform to their expected gender performance. The study highlights the dual nature of privacy practices that relate to the horizontal dimensions of privacy among the study participants. Limited digital literacy levels affect their perception of privacy, with vertical dimensions absent from the discussions.",
-    "abstract_zh": "本研究探讨了印度农村已婚妇女对数字隐私的认知和行为。这一地区是全球南方移动媒体和互联网用户数量迅速增长的人群。通过这项民族志研究，发现妇女在处理隐私问题时需要在两种规范之间寻求平衡：一种是“隐藏个人信息”的规范，另一种则是“无需隐藏任何东西”的规范。具体来说，为了符合社会对她们性别角色的期望，这些妇女在避免在线曝光的同时，又会与家人共享密码和账户信息。研究强调了隐私行为的双重性——这种双重性既体现在参与者之间的横向隐私关系上（即她们如何与他人分享或保护自己的数字信息），也体现在她们自身的隐私观念中。由于数字素养水平较低，这些妇女对隐私的认知受到了一定影响；此外，研究中还忽略了隐私的“纵向维度”（即个人隐私与更广泛社会结构之间的关系）。",
+    "abstract_zh": "本研究探讨了印度农村已婚妇女对数字隐私的认知与行为。这一地区是全球南方移动媒体和互联网用户数量迅速增长的人群。通过民族志调查发现，妇女在处理隐私问题时需要在对“隐藏个人信息”与“无需隐藏任何东西”这两种规范之间进行权衡。具体而言，她们为了避免在网络上被他人看到，同时又会与家人分享密码和账户信息，这种矛盾的行为方式是为了符合社会对她们性别角色的期望。研究强调了隐私实践的双重性——这些实践既涉及参与者之间的横向隐私关系（即人与人之间的隐私互动），也受到她们数字素养水平的影响；然而，关于隐私的“纵向维度”（即个人数据被收集、使用和存储的方式）在讨论中并未被提及。",
     "summary": "通过民族志方法研究印度农村已婚女性的数字隐私感知与行为，探讨其隐私实践与性别规范的关系。",
     "reason": "研究涉及数字隐私议题，但采用民族志质性方法，无计算元素。",
     "tags": [
@@ -73924,7 +74094,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "Research on the beauty influencer economy highlights the role that racism plays in platform labor, as race is a prominent determinant in the hierarchy of influencers. While the literature on beauty influencers reveals the multi-faceted labor necessary for success in the genre, less attention is given to the ways that skin tone discrimination—or colorism—defines one’s subject position as a beauty influencer. I argue that skin tone is an identity characteristic that ultimately multiplies the labor required of beauty influencers, particularly for Black women with darker complexions. The extra labor required of persons from a marginalized subject position within a marginalized population is called Racial Phenotype Labor (RPL). Due to racist beauty standards and historical disdain for African phenotypes, Black people—and Black women specifically—with phenotypic features perceived as undesirable enter the digital influencing economy at an additional disadvantage. Societal preference for lighter skin impels darker-skinned creators to complete additional physical, emotional, and mental work in the beauty influencing community. This research asserts that the first layer of RPL involves skin tone work, where beauty influencers must combat the negative preconceptions and discourses typically associated with dark skin. I also suggest that they must combat these biases while simultaneously presenting themselves as marketable to cosmetics companies, viewers, and platform algorithms. This research study uses methodological triangulation through critical technocultural discourse analysis, thematic analysis, and autoethnography to analyze the beauty content of two prominent Black influencers—both advocates against colorism. Ultimately, I conclude that colorism remains especially gendered and functions as an agent of racial capitalism within the digital influencing economy.",
-    "abstract_zh": "关于美妆博主经济的研究强调了种族主义在平台劳动中的作用，因为种族是影响博主地位层级的一个重要因素。虽然关于美妆博主的文献揭示了在这一领域取得成功所需的多方面劳动，但较少关注肤色歧视（即“色主义”）如何定义一个人作为美妆博主的身份地位。我认为，肤色是一种身份特征，它实际上增加了美妆博主所需付出的劳动量，尤其是对于肤色较深的黑人女性而言。来自边缘化群体中的个体所面临的额外劳动被称为“种族表型劳动”（Racial Phenotype Labor, RPL）。由于种族主义的美貌标准以及对非洲人种特征的长期偏见，特别是黑人女性，那些具有被认为不理想的外貌特征的她们在进入数字美妆博主行业时处于更加不利的地位。社会对较浅肤色的偏好迫使肤色较深的内容创作者在美妆博主领域承担更多的身体、情感和心理负担。本研究指出，“种族表型劳动”的首要表现形式是与肤色相关的挑战，美妆博主必须对抗与深色皮肤相关的负面刻板印象和言论。同时，她们还需要在向化妆品公司、观众和平台算法展示自己市场价值的过程中与这些偏见作斗争。本研究采用了批判性技术文化话语分析、主题分析和自我民族志等方法，分析了两位知名黑人博主的美妆内容（这两位博主都反对色主义）。最终，研究得出结论：色主义具有明显的性别差异，并在数字美妆博主经济中充当了种族资本主义的推动力。",
+    "abstract_zh": "关于美妆博主经济的研究强调了种族主义在平台劳动中的作用，因为种族是影响博主地位的重要因素。虽然关于美妆博主的文献揭示了在这一领域取得成功所需的多方面劳动，但较少关注肤色歧视（即“色主义”）如何定义一个人作为美妆博主的身份地位。我认为，肤色是一种身份特征，它增加了美妆博主所需付出的劳动量，尤其是对于肤色较深的黑人女性而言。来自边缘化群体中的个体所承担的额外劳动被称为“种族表型劳动”（Racial Phenotype Labor, RPL）。由于种族主义的美貌标准以及对非洲人种特征的长期偏见，具有被认为不理想的外貌特征的黑色人种（尤其是黑人女性）在进入数字美妆博主行业时处于更加不利的地位。社会对较浅肤色的偏好迫使肤色较深的内容创作者在美妆博主领域付出更多的身体、情感和心理上的努力。本研究指出，“种族表型劳动”的首要表现形式是与肤色相关的挑战，美妆博主必须对抗与深色皮肤相关的负面刻板印象和言论。同时，他们还需要在向化妆品公司、观众和平台算法展示自己的市场价值的过程中与这些偏见作斗争。本研究采用了批判性技术文化话语分析、主题分析和自传民族志等方法，分析了两位知名黑人博主的美妆内容，这两位博主都积极反对色主义。最终，研究得出结论：色主义具有明显的性别差异，并在数字美妆博主经济中充当了种族资本主义的推动力。",
     "summary": "研究黑人美妆网红中肤色歧视导致的额外劳动，提出种族表型劳动概念，通过质性方法分析两个网红的反肤色主义内容。",
     "reason": "采用批判技术文化话语分析、主题分析和自我民族志，属质性批判研究，无计算方法。",
     "tags": [
@@ -73964,7 +74134,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "Using three U.S. public opinion survey datasets, this study examines whether use of specific social media platforms affects the gaps in factual and perceived knowledge of three wicked science issues among Americans with different racial and socioeconomic makeup. Less-educated Americans are less likely to gain factual knowledge but more likely to gain perceived knowledge from increased social media use than more-educated Americans. Racial minorities are more likely to gain both factual and perceived science knowledge than White Americans with increased social media use. Furthermore, social media use was linked to wider education-based gaps in factual knowledge and narrower education-based gaps in perceived knowledge among racial minorities than among Whites. Theoretical and practical implications for equitable science communication are discussed.",
-    "abstract_zh": "本文利用三个美国公众意见调查数据集，探讨了特定社交媒体平台的使用是否会影响不同种族和社会经济背景的美国人在这三个复杂科学问题上的事实认知与感知认知之间的差距。受教育程度较低的美国人通过增加社交媒体使用量，获取事实知识的可能性较低，但获取感知知识的可能性较高；而受教育程度较高的美国人则相反。种族少数群体在增加社交媒体使用后，无论是获取事实知识还是感知知识方面，都比白人美国人表现得更好。此外，研究发现，在种族少数群体中，社交媒体使用与基于教育程度的事实认知差距较大，而与基于教育程度的感知认知差距较小。文章还讨论了这些发现对公平科学传播的理论与实践意义。",
+    "abstract_zh": "本文利用三个美国公众意见调查数据集，探讨了特定社交媒体平台的使用是否会影响不同种族和社会经济背景的美国人在这三个复杂科学问题上的事实认知与主观认知之间的差异。受教育程度较低的美国人通过增加社交媒体使用量，获取事实知识的可能性较低，但获取主观认知的可能性较高；而受教育程度较高的美国人则相反。种族少数群体在增加社交媒体使用后，无论是获取事实知识还是主观认知方面，都比白人更具有优势。此外，研究发现，在种族少数群体中，社交媒体使用与基于教育程度的事实认知差异较大，而与基于教育程度的主观认知差异较小。文章还讨论了这些发现对公平科学传播的理论与实践意义。",
     "summary": "使用美国三组调查数据，考察社交媒体使用对不同种族和教育背景人群在科学议题上事实知识与感知知识差距的影响。",
     "reason": "议题涉及社交媒体使用与知识差距，但使用传统调查数据与统计方法，非计算传播学。",
     "tags": [
@@ -73985,7 +74155,7 @@
   {
     "id": 1392,
     "title": "Mobilization and Latency Dynamics in the #StopLine3 Discourse",
-    "title_zh": "#StopLine3 讨论中的动员与潜伏期动态",
+    "title_zh": "#StopLine3话语中的动员与潜伏期动态",
     "authors": [
       "Adina Gitomer",
       "Erika Melder",
@@ -73999,7 +74169,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "After the Canadian oil corporation Enbridge proposed replacing its Line 3 pipeline in 2014, activists began protesting against its environmental risks and violations of Indigenous rights, among other concerns. As the pipeline’s construction progressed and resistance intensified, a parallel discourse emerged online under the hashtag #StopLine3. This study explores the temporal evolution of that discourse and its alignment with on-the-ground developments. Specifically, we assess whether the discourse conforms to a phasic model of collective action inspired by Melucci, which contends that social movements oscillate between phases of visibility and latency. This oscillation is mediated by key mobilizing events, which drive activists to focus their energy toward fighting a target. Once a resolution is reached (positive or negative), the movement progresses into a latent phase, where participants regroup, reflect, and build unity. The ideas behind this model were developed before the digital turn. Given how social media complicates temporality, it remains unclear how well the model explains discursive resistance online. We use #StopLine3 as a case study to test the phasic model, examining all tweets with the hashtag posted between 2016 and 2023. We break up the data into temporal segments based on peaks and lulls in overall activity and explore how both tweet content and forms of engagement shift from segment to segment. In line with the model, we find that the shifts between segments are mediated by key events; however, we also find that the Twitter discourse consistently favors mobilization-oriented forms of engagement and content over latency. Our results suggest that Twitter primarily facilitates mobilization work, and call into question the importance of latency work, what it looks like, and where it takes place on platforms such as Twitter. We argue that Twitter may not be an effective venue for latency processes, or alternatively, may alter how those processes manifest. Overall, we trouble the application of the phasic model to #StopLine3 and other similar public-facing discourses.",
-    "abstract_zh": "2014年，加拿大石油公司Enbridge提出更换其3号输油管道后，活动人士开始抗议该计划所带来的环境风险以及对原住民权利的侵犯等问题。随着管道建设的推进和抗议活动的加剧，网络上出现了以#StopLine3为标签的讨论热潮。本研究探讨了这一讨论热潮的时间演变过程及其与实际抗议活动的发展之间的关联。具体而言，我们分析了这一讨论是否符合Melucci提出的集体行动阶段性模型——该模型认为社会运动会在“可见性”阶段和“潜伏期”阶段之间交替进行。这种交替是由关键性的动员事件所驱动的，这些事件促使活动人士将精力集中在对抗特定目标上。一旦问题得到解决（无论是积极的还是消极的结果），运动就会进入潜伏期，在此期间参与者会重新集结、反思并增强团结。Melucci的这一模型形成于数字媒体时代之前。然而，鉴于社交媒体对时间概念的复杂化影响，目前尚不清楚该模型在解释网络上的讨论活动时是否仍然适用。我们以#StopLine3为例，分析了2016年至2023年间所有使用该标签发布的推文，根据整体活动的高峰期和低谷期将数据划分为不同的时间段，并研究了推文内容及参与形式在这些时间段内的变化。研究结果发现，不同时间段之间的转变确实受到关键事件的驱动；但同时也发现，Twitter上的讨论更倾向于促进动员性的参与行为和内容。我们的研究结果表明，Twitter主要起到了推动社会动员的作用，从而对“潜伏期”阶段的重要性、其具体表现形式以及在Twitter等平台上的存在方式提出了质疑。我们认为，Twitter可能并不适合用于促进社会活动的“潜伏期”阶段，或者至少会改变这些过程在平台上的表现形式。总体而言，我们的研究对将Melucci的阶段性模型应用于#StopLine3及其他类似的社会讨论现象提出了质疑。",
+    "abstract_zh": "2014年，加拿大石油公司Enbridge提出更换其3号输油管道后，活动人士开始抗议该计划所带来的环境风险以及对原住民权利的侵犯等问题。随着管道建设的推进和抗议活动的加剧，网络上出现了以#StopLine3为标签的讨论热潮。本研究探讨了这一网络讨论的发展过程及其与现实中的抗争活动之间的关联。具体而言，我们分析了这一讨论是否符合Melucci提出的集体行动阶段性模型——该模型认为社会运动会在“可见性”阶段和“潜伏期”阶段之间交替进行。这种交替是由关键性的动员事件所驱动的，这些事件促使活动人士将精力集中在对抗特定目标上。一旦问题得到解决（无论是积极的还是消极的结果），运动就会进入潜伏期，在此期间参与者会重新集结、反思并增强团结。Melucci的这一模型形成于数字媒体出现之前。然而，鉴于社交媒体对时间性的复杂影响，目前尚不清楚该模型在解释网络抗议活动时是否仍然适用。我们以#StopLine3为例，分析了2016年至2023年间所有使用该标签发布的推文，根据整体活动的高峰期和低谷期将数据划分为不同的时间段，并研究了推文内容及参与形式在这些时间段内的变化。研究结果发现，不同时间段之间的转变确实受到关键事件的驱动；但同时也发现，Twitter上的讨论更倾向于促进动员性的参与方式和内容。我们的研究结果表明，Twitter主要起到了推动社会动员的作用，从而对“潜伏期”阶段的重要性、其具体表现形式以及在Twitter等平台上的存在方式提出了质疑。我们认为，Twitter可能并不适合用于促进社会活动的“潜伏期”阶段，或者至少会改变这些过程在平台上的表现形式。总体而言，我们对将Melucci的阶段性模型应用于#StopLine3及其他类似的社会抗议活动表示质疑。",
     "summary": "基于2016-2023年#StopLine3标签的全部推文，检验Melucci集体行动阶段模型，发现Twitter话语始终偏向动员而非潜伏期，质疑平台对潜伏期工作的支持。",
     "reason": "研究使用Twitter大规模数据探讨#StopLine3话语演化，涉及社交媒体分析与计算文本方法。",
     "tags": [
@@ -74037,7 +74207,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "Internet memes have emerged as the de facto language of the internet, where standardized memetic templates and characters distill and communicate narratives in simple, shareable formats. While prior research has highlighted their broad appeal as they traverse diverse audiences, their cultural function within online communities has received less attention. To investigate this function, we draw on cognitive anthropological conceptualizations of culture and theorize internet memes as “cultural representations.” We analyze 544 memes shared across two interconnected conspiratorial subreddits about COVID-19 between 2020 and 2022, employing a combination of content and thematic analysis. In doing so, we demonstrate that community members selectively engage with standardized memetic elements that resonate with their “conspiracist worldview.” Specifically, elements conveying the enduring “cultural themes” of Deception, Delusion, and Superiority function as “cultural resources” that stabilize the community’s culture. As such, we make three contributions. First, by theorizing internet memes as cultural representations, we demonstrate their stabilizing cultural function. Second, by showing how internet memes are used in online conspiratorial communities, we highlight their role in maintaining group cohesion and alleviating contention. Finally, we advance a revised methodological approach for the study of memetic communication.",
-    "abstract_zh": "互联网模因（Internet memes）已经成为了互联网上的“事实语言”：它们通过标准化的模因模板和符号，以简单、易于分享的形式来传递和传播各种叙事。虽然先前的研究已经强调了这些模因在吸引不同受众方面的广泛吸引力，但它们在在线社区中的文化功能却较少受到关注。为了探究这一功能，我们借鉴了认知人类学关于文化的理论，将互联网模因视为“文化表征”（cultural representations）。我们分析了2020年至2022年间在两个相互关联的阴谋论子版块（conspiracy subreddits）中分享的544个与COVID-19相关的模因，采用了内容分析和主题分析相结合的方法。研究发现，社区成员会选择性地使用那些与他们的“阴谋论世界观”相契合的标准化模因元素。具体来说，那些体现“欺骗”、“错觉”和“优越感”等“文化主题”的模因元素，起到了稳定社区文化的“文化资源”作用。因此，我们做出了三项贡献：首先，通过将互联网模因视为文化表征，我们证明了它们在稳定社区文化方面的作用；其次，通过展示互联网模因在在线阴谋论社区中的使用方式，我们强调了它们在维护群体凝聚力和缓解冲突中的作用；最后，我们提出了一种改进的模因传播研究方法论。",
+    "abstract_zh": "互联网模因已成为互联网上的“事实语言”，它们通过标准化的模因模板和符号，以简单、易于分享的形式来传递和传播信息。尽管先前的研究已经强调了这些模因在吸引不同受众方面的广泛吸引力，但它们在在线社区中的文化功能却较少受到关注。为了探讨这一功能，我们借鉴了认知人类学关于文化的理论，将互联网模因视为“文化表征”。我们分析了2020年至2022年间在两个相互关联的阴谋论子版块中传播的544个与COVID-19相关的模因，并采用了内容分析和主题分析相结合的方法。研究发现，社区成员会选择性地使用那些与他们的“阴谋论世界观”相契合的标准化模因元素。具体来说，那些体现“欺骗”、“错觉”和“优越感”等持久文化主题的模因元素，起到了稳定社区文化的“文化资源”作用。因此，我们做出了三项贡献：首先，通过将互联网模因视为文化表征，我们证明了它们的文化稳定功能；其次，通过展示互联网模因在在线阴谋论社区中的使用方式，我们强调了它们在维护群体凝聚力和缓解冲突中的作用；最后，我们提出了一种改进的模因传播研究方法论。",
     "summary": "基于认知人类学视角，分析544个Reddit上的COVID-19阴谋论迷因，探讨其作为文化表征稳定阴谋文化的功能，采用内容与主题分析法。",
     "reason": "议题涉及社交媒体迷因与阴谋文化，但方法为传统内容与主题分析，无计算元素。",
     "tags": [
@@ -74058,7 +74228,7 @@
   {
     "id": 1394,
     "title": "More-Than-Human, More-Than-Digital: Postdigital Intimacies as a Theoretical Framework",
-    "title_zh": "超越人类、超越数字：后数字时代的亲密关系作为理论框架",
+    "title_zh": "超越人类、超越数字：后数字时代的亲密关系作为一种理论框架",
     "authors": [
       "Adrienne Evans",
       "Jessica Ringrose"
@@ -74072,7 +74242,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "In this article, we extend the concept of “postdigital intimacies” by developing its more-than-human and more-than-digital capacities. We argue that while we have witnessed a gradual flattening out of the digital and non-digital, our institutions, regulations, laws, ethics, and policies still make distinctions between digital experiences and “real life.” This demands a refinement of critical understandings of intimacy. We locate postdigital intimacies in accounts that situate intimacy as ambivalent, and draw on posthuman and new feminist materialism to argue for the interdependencies between human and non-human agencies, making intimacy something always more-than-human. In turn, we develop accounts of the postdigital that suggest a more-than-digital by highlighting experiences of an entangled digital and non-digital, and the practical implications of this for how we advocate approaching health, safety, well-being, and anti-harassment. We bring these two bodies of work together through two distinct examples: one of the intimate therapeutics of AI chatbots and the other in how young people navigate technology-facilitated sexual violence in schools. We argue that a theory of postdigital intimacies demonstrates the importance of thinking through the more-than-human and more-than-digital of intimacy in relation to regulation, policy, and research pertaining to harms, risk, and vulnerability.",
-    "abstract_zh": "本文探讨了“后数字亲密关系”（postdigital intimacies）的概念，强调了这种亲密关系中超越人类范畴和数字界限的特质。我们认为，尽管数字世界与非数字世界之间的界限正在逐渐模糊，但我们的制度、法规、法律、伦理规范和政策仍然在数字体验与“现实生活”之间划清界限。这要求我们对亲密关系的本质有更深入、更批判性的理解。我们将后数字亲密关系定义为一种具有矛盾性的现象，并借鉴后人类理论（posthuman theory）和新女性主义（new feminism）的观点，强调人类与非人类因素之间的相互依存关系，从而认为亲密关系本质上总是超越人类范畴的。为此，我们通过两个具体案例来阐释后数字亲密关系的实质：一个是人工智能聊天机器人在提供亲密支持方面的应用，另一个是年轻人如何在技术环境下应对校园性暴力问题。我们认为，后数字亲密关系的理论有助于我们更全面地理解亲密关系的本质，特别是在涉及伤害、风险和脆弱性的监管、政策制定与研究领域。",
+    "abstract_zh": "本文扩展了“后数字亲密关系”（postdigital intimacies）的概念，强调了这种亲密关系中超越人类和超越数字技术的层面。我们认为，尽管数字世界与非数字世界之间的界限正在逐渐模糊，但我们的制度、法规、法律、伦理规范和政策仍然在数字体验与“现实生活”之间划清界限。这要求我们对亲密关系的理解进行进一步的深化和修正。我们将后数字亲密关系视为一种具有矛盾性的现象，并借鉴后人类理论（posthuman theory）和新女性主义（new feminism）的思想，来探讨人类与非人类主体之间的相互依存关系，从而认为亲密关系本质上总是超越人类范畴的。为此，我们通过两个具体案例来阐释后数字亲密关系的本质：一个是人工智能聊天机器人在亲密关系治疗中的应用，另一个是年轻人如何在技术背景下应对校园中的性暴力问题。我们认为，后数字亲密关系的理论有助于我们更全面地理解亲密关系中的超越人类和超越数字技术的因素，这对于制定相关法规、政策以及开展关于伤害、风险和脆弱性的研究具有重要意义。",
     "summary": "文章发展“后数字亲密关系”理论框架，结合后人类与女性主义唯物主义，通过AI聊天机器人和校园性暴力案例阐述数字与非数字的纠缠，但无实证数据。",
     "reason": "纯理论思辨，无经验数据，属文化研究取径，虽涉及AI但非计算传播研究。",
     "tags": [
@@ -74093,7 +74263,7 @@
   {
     "id": 1395,
     "title": "Banana Populism: Exploring the Emotionally Engaging, Authentic, and Memeable Rhetoric of Populist Visual Communication",
-    "title_zh": "香蕉民粹主义：探究民粹主义视觉传播中具有情感吸引力、真实感且易于传播的修辞手法",
+    "title_zh": "香蕉式民粹主义：探究民粹主义视觉传播中具有情感吸引力、真实感且易于传播的修辞手法",
     "authors": [
       "Zea Szebeni",
       "Ilana Hartikainen",
@@ -74110,7 +74280,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "This study conceptualizes “banana populism,” a novel analytical framework to examine how whimsical imagery functions in in contemporary populism. Banana populism utilizes the ordinary—exemplified by the banana—for its ubiquity, inherent humor, and absurdity, transforming these elements into powerful political tools. These articulations effectively mainstream extreme ideologies, invite affective investment from broad publics, and delineate antagonistic frontiers by employing familiar cultural symbols and everyday objects, such as military attire or MAGA hats. Such performative elements not only enhance the authenticity of populist leaders but also make their messages more accessible and emotionally engaging, increasing their appeal and relatability. Furthermore, the memetic nature of banana populism underlines its adaptability and potency on social media, where these performances become part of a participatory and dynamic political discourse. This framework shows how seemingly innocuous visual articulations can profoundly impact political communication and identity formation in contemporary political landscapes.",
-    "abstract_zh": "本研究提出了“香蕉民粹主义”（banana populism）这一新的分析框架，用以探讨奇思妙想的视觉元素在当代民粹主义中的运作方式。香蕉民粹主义利用了香蕉这一普通物品——因其无处不在、具有内在的幽默感以及荒诞的特性——将这些元素转化为强大的政治工具。通过使用这些元素，极端意识形态得以有效地传播，从而吸引广大公众的情感投入；同时，通过运用人们熟悉的文化符号和日常物品（如军装或“MAGA”帽子），民粹主义还划定了对立的界限。这些表演性的元素不仅增强了民粹主义领导者的可信度，还使他们的信息更加易于理解、更具情感吸引力，从而提高了他们的号召力和亲和力。此外，香蕉民粹主义的“模因”特性（即其在社交媒体上的快速传播能力）凸显了其在社交媒体上的适应性和影响力；在这些平台上，这些视觉表现形式成为了参与式、动态的政治话语的一部分。该框架揭示了看似无害的视觉表达如何深刻地影响当代政治格局中的政治传播和身份认同的形成。",
+    "abstract_zh": "本研究提出了“香蕉民粹主义”（banana populism）这一新的分析框架，用以探讨荒诞或幽默的视觉元素在当代民粹主义中的运作方式。香蕉民粹主义利用了香蕉这一普遍存在的、具有幽默感和荒诞性的日常物品，将其转化为强大的政治工具。通过这些视觉元素，极端意识形态得以有效地传播，吸引广大公众的情感共鸣；同时，通过使用军事服装或“MAGA”帽子等熟悉的文化符号和日常物品，民粹主义划定了对立的界限。这些表演性的视觉元素不仅增强了民粹主义领导者的可信度，还使他们的信息更加易于理解和具有情感吸引力，从而提高了他们的号召力和亲和力。此外，香蕉民粹主义的“病毒式传播”特性（即其通过社交媒体迅速扩散的能力）凸显了其在社交媒体上的适应性和影响力——在这些平台上，这些视觉表现成为了参与式、动态的政治话语的一部分。该框架揭示了看似无害的视觉表达如何深刻地影响当代政治格局中的政治传播和身份认同的形成过程。",
     "summary": "提出“香蕉民粹主义”框架，分析日常荒诞视觉符号如何被民粹领袖用于情感动员、意识形态传播与身份构建。",
     "reason": "概念性理论框架，无经验数据与计算方法，属纯理论分析",
     "tags": [
@@ -74132,7 +74302,7 @@
   {
     "id": 1396,
     "title": "Platformed Ritual in Emotions: (Dys)functional Construction of Intimacy in Digital Dating in China",
-    "title_zh": "数字化约会中的情感仪式化：亲密关系的（失）功能构建",
+    "title_zh": "数字化约会中的情感仪式：亲密关系的（失）功能构建",
     "authors": [
       "Xinning Cao",
       "Ping Sun"
@@ -74146,7 +74316,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "Previous studies have discussed digital dating by the “love-is-fast” metaphor and the successful and failed stories on dating platforms to debate the ideal of modern intimacy; however, the conceptualization of rituals and mechanisms for constructing intimacy in a continuum of online and offline everyday life has been left unstudied. Drawing on Eva Illouz’s argument on a regime of performativity of emotions and ritual scholarship, this study investigates the staged (dys)functioning of platform-constructed acts. Based on 35 interviews and 14-month user-led cross-platform walkthroughs, this study examines how users deployed and interpreted the platformed monetized ritual in emotions to (de)code and (de)construct intimacy, and how users act on encountering the “unconcealed concealment” of mundane considerations, as well as the discontinuity of online/offline experiences of constructing intimacy. Reflecting on users’ choices and gender dynamics entangling the hybrid social orientations of materialism, individualism, and intervention of social institutions, this study underscores the fragile mechanism of digital dating and users’ trade-offs in the conundrum of heterosexual intimacy.",
-    "abstract_zh": "以往的研究通过“爱情来得快”这一隐喻来探讨数字约会现象，并通过分析约会平台上的成功与失败案例来讨论现代亲密关系的理想模式；然而，关于在线上线下日常生活中构建亲密关系的仪式与机制的概念化过程尚未得到充分研究。本研究借鉴了Eva Illouz关于情感表演性以及仪式研究的观点，探讨了在平台上构建的互动行为中的“失灵”现象。通过对35名用户的访谈以及为期14个月的跨平台使用观察，本研究分析了用户如何运用这些平台化的、以货币化为驱动的仪式行为来解读和重构亲密关系，以及当用户面对日常生活中那些“显而易见却被忽视”的细节时他们的反应。同时，研究还关注了在线与线下构建亲密关系体验之间的不连续性。通过分析用户的选择以及物质主义、个人主义与社会机构干预等因素如何交织在一起，本研究揭示了数字约会的脆弱性，以及用户在处理异性亲密关系这一复杂问题时所面临的权衡与困境。",
+    "abstract_zh": "以往的研究通过“爱情来得快”这一隐喻来探讨数字约会现象，并通过分析约会平台上的成功与失败案例来讨论现代亲密关系的理想模式；然而，关于在线上线下日常生活中构建亲密关系的仪式与机制的概念化过程尚未得到充分研究。本研究借鉴了Eva Illouz关于情感表演性以及仪式研究的观点，探讨了在平台上构建的互动行为中的“失灵”现象。通过对35名用户的访谈以及为期14个月的跨平台使用观察，本研究分析了用户如何运用这些平台化的、以货币化为驱动的仪式行为来解读和重构亲密关系，以及当用户面对日常生活中那些看似“显而易见”但实际上被隐藏的琐碎因素时，他们的反应。同时，研究还关注了用户的选择以及性别动态如何影响物质主义、个人主义与社会机构干预之间的复杂互动，从而揭示了数字约会的脆弱性，以及用户在处理异性亲密关系这一复杂问题时所面临的权衡。",
     "summary": "基于35次访谈和14个月跨平台walkthroughs，研究中国数字约会中平台化情感仪式如何建构亲密关系，探讨性别动态与社会取向。",
     "reason": "研究数字约会平台与情感，议题相关但方法为访谈与walkthroughs，属纯质性分析。",
     "tags": [
@@ -74180,7 +74350,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "This article challenges the common tendency to pinpoint a “nationality” to a multi-national capitalist platform company. It calls for a close examination of how platform companies, as capitalist enterprises, organize themselves legally and spatially. The article first reviews how platforms have been studied in relation to space. I then use the case of the Sina model, also known as the Variable Interests Entities (VIE) model, to challenge the meaning of the “Chinese” prefix. This example illustrates that, Chinese or not, capitalist platform companies engineer a composite geography to guarantee maximum flexibility and mobility for the accumulation of private wealth and, in the process, generate great power differentials. In short, this commentary is a call to study digital platforms over the course of capitalism permutations as well as its interpolation and interdependence with existing systems of power.",
-    "abstract_zh": "本文质疑了将“国籍”归因于跨国资本主义平台公司的普遍倾向。它呼吁人们仔细研究这些平台公司作为资本主义企业，在法律和空间层面是如何进行组织的。文章首先回顾了以往关于平台公司与空间关系的研究。接着，以新浪（Sina）为例（该模式也被称为“变量利益实体”（Variable Interests Entities, VIE）模式），来探讨“中国”这一前缀所蕴含的意义。这一案例表明，无论是否具有“中国”特征，资本主义平台公司都会构建一种复杂的地理结构，以确保私人财富积累的最大灵活性和流动性；同时，在这一过程中也会产生巨大的权力差异。简而言之，本文呼吁人们从资本主义发展的不同阶段出发，研究数字平台，并探讨它们与现有权力体系的相互交织和依赖关系。",
+    "abstract_zh": "本文质疑了将“国籍”归因于跨国资本主义平台公司的普遍倾向。它呼吁我们仔细研究这些平台公司作为资本主义企业，在法律和空间层面是如何进行组织的。文章首先回顾了以往关于平台公司与空间关系的研究。接着，以新浪（Sina）为例（该模式也被称为“变量利益实体”（Variable Interests Entities, VIE）模式），来探讨“中国”这一前缀所蕴含的意义。这一案例表明，无论是否具有“中国”特征，资本主义平台公司都会构建一种复杂的地理结构，以确保私人财富积累的最大灵活性和流动性；同时，在这一过程中也会产生巨大的权力差异。简而言之，本文呼吁我们在研究数字平台时，应关注资本主义发展的各种变化及其与现有权力体系的相互作用和相互依赖关系。",
     "summary": "文章探讨平台公司如何通过法律和空间组织（如新浪VIE模型）构建复合地理，挑战“中国”标签，呼吁从资本主义权力体系角度研究平台。",
     "reason": "纯理论批判性评论，无经验数据或计算方法，属平台政治经济学而非计算传播。",
     "tags": [
@@ -74215,7 +74385,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "There have been global regulatory debates and efforts aimed at holding digital platforms accountable for the public interest. Utilizing mixed methods of documentary research and expert interviews, this article examines how the Chinese digital giant Tencent leverages its adaptive capabilities for corporate social responsibility (CSR) initiatives in response to increasingly stringent regulation in China. Specifically, it explores Tencent’s organizational restructuring, including the establishment of the sustainable social value (SSV) division, as well as the accompanying corporate practices and discursive strategies aimed at enhancing its legitimacy. As an exemplar of the “institutional chameleon,” Tencent has deftly navigated regulatory waters through organizational metamorphosis. However, while Tencent’s enhanced CSR initiatives have certainly yielded some social benefits, the SSV initiatives are increasingly emerging as a new business frontier for the company, leveraging its vast infrastructural capacities to capitalize on the very social fabric it purports to support. This underscores the complexities and contradictions inherent in its CSR practices and the significance of the intrinsic logic of digital platforms as a modern business.",
-    "abstract_zh": "全球范围内一直存在着关于如何让数字平台对公共利益负责的监管讨论和努力。本文采用文献研究和专家访谈相结合的方法，探讨了中国数字巨头腾讯如何利用其自身的适应能力来推进企业社会责任（CSR）举措，以应对中国日益严格的监管环境。具体而言，文章分析了腾讯的组织结构调整，包括成立可持续社会价值（SSV）部门，以及该公司为提升自身合法性而采取的相关企业实践和话语策略。作为“制度变色龙”的典型代表，腾讯通过组织变革巧妙地应对了各种监管挑战。然而，尽管腾讯加强CSR举措确实带来了一些社会效益，但其SSV项目正逐渐成为该公司新的业务增长点，该公司利用其庞大的基础设施能力，从自己声称要支持的社交网络中获取商业利益。这凸显了其CSR实践中的复杂性和矛盾性，同时也揭示了数字平台作为现代商业形态所具有的内在逻辑的重要性。",
+    "abstract_zh": "全球范围内一直存在着关于如何让数字平台为公共利益负责的监管讨论和努力。本文采用文献研究和专家访谈相结合的方法，探讨了中国数字巨头腾讯如何利用其自身的适应能力来推进企业社会责任（CSR）举措，以应对中国日益严格的监管环境。具体而言，文章分析了腾讯的组织结构调整，包括成立了可持续社会价值（SSV）部门，以及相应的企业实践和话语策略，这些举措旨在提升其合法性。作为“制度变色龙”的典范，腾讯通过组织变革巧妙地应对了各种监管挑战。然而，尽管腾讯在CSR方面的努力确实带来了一些社会效益，但其SSV项目逐渐成为该公司新的业务增长点，该公司利用其庞大的基础设施能力来利用自己所声称要支持的社交网络本身。这凸显了其CSR实践中的复杂性和矛盾性，同时也揭示了数字平台作为现代商业形态所具有的内在逻辑的重要性。",
     "summary": "通过文献与访谈分析腾讯CSR应对监管的策略，提出“制度变色龙”概念，指出SSV部门兼具社会价值与商业扩张。",
     "reason": "议题涉及数字平台与企业社会责任，但方法为文献研究与专家访谈，无计算要素。",
     "tags": [
@@ -74252,7 +74422,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "Transborder data flows offer opportunities, such as health data sharing, but they also bring risk. Research has explored the tensions between transnational and regional linkages, striving to understand when transborder flows of data bring benefits or drawbacks. By viewing global data flows as a social change process, this commentary strives to complement existing perspectives. It advocates embedding data studies within the framework of social transformation theory to transcend the distinction between theory and its empirical application across diverse social and cultural contexts. Inspired by Stephen Castles’ approach to human migration, it introduces the concept of “social data migration” as a dynamic social transformation. This approach enhances our understanding of the complex, interconnected, and context-dependent nature of transnational flows of data across platforms amid rapid global changes.",
-    "abstract_zh": "跨境数据流动带来了诸如健康数据共享等机会，但同时也伴随着风险。研究探讨了跨国与区域联系之间的矛盾，试图理解跨境数据流动何时会带来益处，何时会带来弊端。通过将全球数据流动视为一个社会变革过程，这篇评论旨在补充现有的观点。它提倡将数据研究纳入社会转型理论的框架中，以超越理论与其实证应用之间的界限，从而适应不同的社会和文化背景。受到斯蒂芬·卡斯尔斯（Stephen Castles）关于人口迁移的研究方法的启发，本文提出了“社会数据迁移”这一概念，将其视为一种动态的社会变革过程。这种方法有助于我们更好地理解在全球快速变化背景下，跨国数据流动所具有的复杂、相互关联且依赖于具体情境的本质。",
+    "abstract_zh": "跨境数据流动带来了诸如健康数据共享等机会，但同时也伴随着风险。研究探讨了跨国与区域联系之间的矛盾，试图理解跨境数据流动何时会带来益处，何时会带来弊端。通过将全球数据流动视为一个社会变革过程，本文旨在补充现有的观点。它提倡将数据研究纳入社会转型理论的框架中，以超越理论与其实证应用之间的界限，从而适应不同的社会和文化背景。受到斯蒂芬·卡斯尔斯（Stephen Castles）关于人口迁移的研究方法的启发，本文提出了“社会数据迁移”这一概念，将其视为一种动态的社会变革过程。这种方法有助于我们更好地理解在全球快速变化背景下，跨国数据流动所具有的复杂性、相互关联性以及依赖具体情境的特性。",
     "summary": "论文提出'社会数据迁移'概念，将全球数据流视为社会变革过程，呼吁嵌入社会转型理论，属理论性评论。",
     "reason": "纯理论评论，提出概念框架，无经验数据和计算方法，不属于计算传播研究。",
     "tags": [
@@ -74285,7 +74455,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Generative chatbots based on artificial intelligence technology have become an essential channel for people to obtain health information. They provide not only comprehensive health information but also real-time virtual companionship. However, the health information provided by AI may not be completely accurate. Employing a 3 × 2 × 2 experimental design, the research examines the effects of interaction types with AI-generated content (AIGC), specifically under virtual companionship and knowledge acquisition scenarios, on the willingness to share health-related rumors. In addition, it explores the impact of the nature of the rumors (fear vs hope) and the role of altruistic tendencies in this context. The results show that people are more willing to share rumors in a knowledge acquisition situation. Fear-type rumors can stimulate people’s willingness to share more than hope-type rumors. Altruism plays a moderating role, increasing the willingness to share health rumors in the scenario of virtual companionship, while decreasing the willingness to share health rumors in the scenario of knowledge acquisition. These findings support Kelley’s three-dimensional attribution theory and negativity bias theory, and extend these results to the field of human–computer interaction. The results of this study help to understand the rumor spreading mechanism in the context of human–computer interaction and provide theoretical support for the improvement of health chatbots.",
-    "abstract_zh": "基于人工智能技术的生成式聊天机器人已成为人们获取健康信息的重要渠道。它们不仅提供全面的健康信息，还提供实时的虚拟陪伴。然而，人工智能提供的健康信息可能并不完全准确。本研究采用3×2×2的实验设计，探讨了与人工智能生成内容（AIGC）的互动类型（特别是在虚拟陪伴和知识获取场景下）对人们分享健康相关谣言意愿的影响。此外，研究还分析了谣言的性质（恐惧 vs 希望）以及利他倾向在这一过程中的作用。结果表明，在知识获取场景下，人们更愿意分享谣言；恐惧类型的谣言比希望类型的谣言更能激发人们的分享意愿。利他主义在这一过程中起到了调节作用：在虚拟陪伴场景下，利他主义会增加人们分享健康谣言的意愿；而在知识获取场景下，利他主义则会降低这种意愿。这些发现支持了凯利的三维归因理论和消极偏见理论，并将这些结果扩展到了人机交互领域。本研究的结果有助于理解人机交互背景下谣言传播的机制，为改进健康聊天机器人提供了理论支持。",
+    "abstract_zh": "基于人工智能技术的生成式聊天机器人已成为人们获取健康信息的重要渠道。它们不仅提供全面的健康信息，还提供实时的虚拟陪伴。然而，人工智能提供的健康信息可能并不完全准确。本研究采用3 × 2 × 2的实验设计，探讨了与人工智能生成内容（AIGC）的互动类型（特别是在虚拟陪伴和知识获取场景下）对人们分享健康相关谣言意愿的影响。此外，研究还分析了谣言的性质（恐惧 vs 希望）以及利他倾向在这一过程中的作用。结果表明，在知识获取场景下，人们更愿意分享谣言；恐惧类型的谣言比希望类型的谣言更能激发人们的分享意愿。利他主义在这一过程中起到了调节作用：在虚拟陪伴场景下，利他主义会增加人们分享健康谣言的意愿，而在知识获取场景下则会降低这种意愿。这些发现支持了凯利的三维归因理论和消极偏见理论，并将这些结果扩展到了人机交互领域。本研究的结果有助于理解人机交互背景下谣言传播的机制，为改进健康聊天机器人提供了理论支持。",
     "summary": "通过3×2×2实验探究AI交互类型、谣言性质与利他倾向对健康谣言分享意愿的影响，发现知识获取情境和恐惧型谣言更易促分享，利他倾向起调节作用。",
     "reason": "研究AI生成内容与健康谣言分享意愿，属AI社会影响议题，符合纳入标准。",
     "tags": [
@@ -74321,7 +74491,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "The “platform turn” across various disciplines has introduced a new framework for analyzing the global digital economy. This special issue critically engages with existing discussions by adopting a broad political-economic perspective on the platform economy in China. Aiming to deconstruct and contextualize the dominant concepts of “platformization” and “infrastructuralization,” we focus on three central themes under the overarching framework of Digital China : “Platform cum Infrastructure along a Techno-developmental Path,” “Platform Governance,” and “Platform Spatiality and Geopolitics.” These themes collectively deepen our understanding of the temporal and spatial dynamics of platforms, as well as their conceptual significance as evolving processes and outcomes. More importantly, we highlight how the development of Chinese platforms reflects not only the contours of China’s contested integration into global capitalism but also the state’s shifting socio-economic priorities and its broader aspiration to establish a distinct “Chinese model of modernization.”",
-    "abstract_zh": "“平台转型”现象在各个学科中都得到了广泛关注，它为分析全球数字经济提供了一个新的框架。本期特刊从政治经济学的角度对中国平台经济进行了深入探讨，对现有的研究观点进行了批判性分析。我们的目标是解构并重新诠释“平台化”和“基础设施化”这两个核心概念，并围绕“数字中国”这一总体框架探讨三个核心主题：“技术发展路径下的平台与基础设施”、“平台治理”以及“平台的空间性与地缘政治”。这些主题共同帮助我们更深入地理解平台在时间和空间上的动态变化，以及它们作为不断演变的过程和结果所具有的概念意义。更重要的是，我们指出中国平台的发展不仅反映了该国融入全球资本主义的复杂过程，还体现了中国政府在社会经济政策上的调整，以及其建立独特“中国现代化模式”的长远目标。",
+    "abstract_zh": "“平台转型”现象在各个学科中都得到了广泛关注，它为分析全球数字经济提供了一个新的框架。本期特刊从政治经济学的角度对中国平台经济进行了深入探讨，对现有的研究观点进行了批判性分析。我们的目标是解构并重新诠释“平台化”和“基础设施化”这两个核心概念，并围绕“数字中国”这一总体框架探讨三个核心主题：“技术发展路径下的平台与基础设施”、“平台治理”以及“平台的空间性与地缘政治”。这些主题共同帮助我们更深入地理解平台在时间和空间上的动态变化，以及它们作为不断演变的过程和结果所具有的概念意义。更重要的是，我们指出中国平台的发展不仅反映了该国融入全球资本主义的复杂过程，也体现了中国政府在社会经济政策上的调整，以及其建立独特“中国现代化模式”的长远目标。",
     "summary": "特刊导言，从政治经济学视角探讨中国平台经济的技术发展路径、治理及地缘政治，反思平台化与基础设施化概念。",
     "reason": "从政治经济学视角分析中国平台经济，属理论批判性研究，无计算方法和数字数据。",
     "tags": [
@@ -74342,7 +74512,7 @@
   {
     "id": 1402,
     "title": "Men in Beauty Work and Feminization of Digital Labor Platforms",
-    "title_zh": "从事美妆行业工作的男性与数字劳动平台的女性化",
+    "title_zh": "从事美妆行业工作的男性与数字劳动力平台的女性化",
     "authors": [
       "Sai Amulya Komarraju",
       "Manisha Pathak‐Shelat",
@@ -74359,7 +74529,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "Extant research on the gendered dynamics on digital labor platforms and care work is divided in terms of focus: (migrant) men involved in supposedly “masculine” work such as driving and delivery, and home-based repair work, and the feminized invisible work performed by women in home-based care-work such as domestic work and beauty work. While such scholarship has merit, it completely dismisses the particularities of the South Asian context where beauty work, considered to be ritually impure work, has historically been performed by men from the marginalized Nai caste. Foregrounding the views of men in beauty work, particularly Nai-barbers (on and off platform), our findings reveal that Nai-barbers find the relocation of work from barbershop to customer’s home by platforms particularly humiliating. The transition from being entrepreneurs, in charge of their barbershops, to mere workers supervised by both platforms and customers, evokes memories of the servitude their ancestors endured. The humiliation and degradation of work they experience are rooted in caste and colonial histories. Our findings underscore the need to go beyond the immediate temporal context to identify the conditions of work that workers find degrading, and situate the feminization of platform economy within the context of coloniality and casticization of power, thus bringing a necessary intersectionality that recognizes but goes beyond gender.",
-    "abstract_zh": "关于数字劳动平台和护理工作中性别动态的现有研究，其关注点存在分歧：一方面是那些从事所谓“男性化”工作的（移民）男性，如驾驶、送货以及家庭维修工作；另一方面则是女性从事的家庭护理工作，如家务和美容服务。尽管这些研究有一定的价值，但它们完全忽视了南亚地区的特殊背景——在南亚，美容工作被视为具有仪式上的“不纯洁”性质，历史上一直由属于边缘化种姓的“Nai”种姓的男性来承担。通过重点关注从事美容工作的男性的观点（尤其是那些在平台上工作的Nai理发师），我们的研究发现，他们认为平台将工作从理发店转移到客户家中这一做法极具羞辱性。从自己经营理发店的创业者转变为受平台和客户双重监督的工人，让他们回忆起了祖先所经历的奴役。他们所感受到的羞辱和工作的贬低，根源在于种姓制度与殖民历史。我们的研究强调，需要超越眼前的时间背景，去揭示那些让工人感到屈辱的工作条件，并将平台经济中的女性化现象置于殖民主义和种姓权力结构的背景下进行考量。这样，我们才能建立起一种既能认识到性别差异，又能超越性别范畴的交叉性分析框架。",
+    "abstract_zh": "关于数字劳动平台和护理工作中性别动态的现有研究，其关注点存在分歧：一方面是那些从事所谓“男性化”工作的（移民）男性，如驾驶、送货以及家庭维修工作；另一方面则是女性从事的家庭护理工作，如家务和美容服务。尽管这些研究有一定的价值，但它们完全忽视了南亚地区的特殊背景——在南亚，美容工作被视为具有仪式性的“不纯洁”工作，历史上一直由属于边缘化种姓的“Nai”种姓的男性来承担。通过关注从事美容工作的男性的观点（尤其是那些在平台上工作的Nai理发师），我们的研究发现，他们认为平台将工作从理发店转移到客户家中这一做法极具羞辱性。从自己经营理发店的创业者转变为受平台和客户双重监督的工人，让他们想起了祖先所经历的奴役。他们所感受到的羞辱和工作的贬低，其实根植于种姓制度和殖民历史。我们的研究强调，需要超越眼前的时间背景，去探讨那些让工人感到屈辱的工作条件，并将平台经济中的女性化现象置于殖民主义和种姓权力结构的背景下进行审视，从而揭示出一种超越性别范畴的交叉性分析视角。",
     "summary": "研究南亚男性美妆工作者（Nai理发师）在数字平台上的经历，探讨平台劳动的女性化及种姓殖民历史。",
     "reason": "议题涉及数字劳动平台，但方法为质性访谈，无计算元素。",
     "tags": [
@@ -74381,7 +74551,7 @@
   {
     "id": 1403,
     "title": "Journalists, Emotions, and the Introduction of Generative AI Chatbots: A Large-Scale Analysis of Tweets Before and After the Launch of ChatGPT",
-    "title_zh": "记者、情绪与生成式AI聊天机器人的引入：ChatGPT发布前后推文的大规模分析",
+    "title_zh": "记者、情感与生成式AI聊天机器人的引入：ChatGPT发布前后推文的大规模分析",
     "authors": [
       "Seth C. Lewis",
       "David M. Markowitz",
@@ -74397,7 +74567,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "As part of a broader look at the impact of generative AI, this study investigated the emotional responses of journalists to the release of ChatGPT at the time of its launch. By analyzing nearly 1 million Tweets from journalists at major US news outlets, we tracked changes in emotion, tone, and sentiment before and after the introduction of ChatGPT in November 2022. Using various computational and natural language processing techniques to measure emotional shifts in response to ChatGPT’s release, we found an increase in positive emotion and a more favorable tone post-launch, suggesting initial optimism toward AI’s potential. This research underscores the pivotal role of journalists as interpreters of technological innovation and disruption, highlighting how their emotional reactions may shape public narratives around emerging technologies. The study contributes to understanding the intersection of journalism, emotion, and AI, offering insights into the broader societal impact of generative AI tools.",
-    "abstract_zh": "作为对生成式人工智能（Generative AI）影响进行更广泛研究的一部分，本研究调查了记者在ChatGPT发布时的情感反应。通过分析来自美国主要新闻媒体的近100万条推文，我们追踪了2022年11月ChatGPT推出前后记者情绪、语气和情感倾向的变化。利用各种计算和自然语言处理技术来衡量人们对ChatGPT发布的情绪变化，我们发现发布后积极情绪有所增加，语气也变得更加积极，这表明人们对人工智能的潜力最初持乐观态度。这项研究强调了记者作为技术创新和变革诠释者的重要角色，揭示了他们的情绪反应如何影响公众对新兴技术的看法。该研究有助于理解新闻业、情绪与人工智能之间的相互作用，为理解生成式人工智能工具的更广泛社会影响提供了见解。",
+    "abstract_zh": "作为对生成式人工智能（Generative AI）影响进行更广泛研究的一部分，本研究调查了记者们在ChatGPT发布时的情绪反应。通过分析来自美国主要新闻媒体的近100万条推文，我们追踪了2022年11月ChatGPT推出前后记者情绪、语气和情感倾向的变化。利用多种计算和自然语言处理技术来衡量人们对ChatGPT发布的情绪变化，我们发现发布后积极情绪有所增加，语气也变得更加积极，这表明人们对人工智能的潜力最初持乐观态度。这项研究强调了记者作为技术创新和颠覆性变革的解读者所扮演的关键角色，揭示了他们的情绪反应如何影响公众对新兴技术的看法。该研究有助于理解新闻业、情绪与人工智能之间的相互作用，为理解生成式人工智能工具对社会的更广泛影响提供了见解。",
     "summary": "通过分析美国记者近百万条推文，运用NLP技术测量ChatGPT发布前后情绪变化，发现发布后积极情绪增加，体现记者对AI的初始乐观态度。",
     "reason": "使用NLP分析近百万推文，聚焦记者对生成式AI的情感反应，兼具计算方法和传播议题。",
     "tags": [
@@ -74419,7 +74589,7 @@
   {
     "id": 1404,
     "title": "Dynamics of Platform Architecture and Labor Unrest: Mobilizing and Contesting Solidarity in the 2021–2022 Foodpanda Delivery Rider Strikes in Hong Kong",
-    "title_zh": "平台架构的动态与劳工动荡：2021–2022年香港Foodpanda外卖骑手罢工中的团结动员与抗争",
+    "title_zh": "平台架构动态与劳工动荡：2021–2022年香港Foodpanda外卖骑手罢工中的团结动员与抗争",
     "authors": [
       "Ngai Keung Chan"
     ],
@@ -74431,7 +74601,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "Weaving together relational approaches to collective action as well as the concepts of platform architecture and social media affordances, this qualitative study examines the manifestation and contestation of worker solidarity in the platform-mediated gig economy. Based on semi-structured interviews with 30 participants—including riders and labor rights group members involved in the 2021–2022 Foodpanda delivery rider strikes—this article offers a relational and processual view of how worker solidarity was formed, consolidated, and contested throughout the strikes in Hong Kong’s post-union era. The analysis reveals that riders’ grievances against Foodpanda emerged in response to the evolving platform architecture, while non-workplace factors such as the sociopolitical context further shaped riders’ repertoires of action. Riders strategically utilized interpersonal communication networks and various social media affordances to mobilize and strengthen solidarity. Worker solidarity, however, was contested due to internal conflicts among riders and the fear of police. Algorithmic control also serves as a repressive tool to demobilize workers. Thus, solidarity was fragmented and transient. This study theorizes the platform architecture as part of the dynamic process through which worker solidarity is mobilized and contested. It contributes to understanding the varieties of platform labor unrest by examining the relational dynamics of worker solidarity in the changing political context where labor power is likely to be weakened. As such, platform labor unrest is deeply embedded within a wider platform ecology and socio-political context, where workers mobilize among themselves and interact with their opponents, alliances, and other social actors.",
-    "abstract_zh": "通过结合集体行动的相关理论、平台架构的概念以及社交媒体的功能，这项定性研究探讨了在平台驱动的零工经济中工人团结的表现与争议。基于对30名参与者的半结构化访谈（其中包括2021–2022年Foodpanda外卖骑手罢工的骑手和劳工权益组织成员），本文从关系论和过程论的角度分析了香港后工会时代工人团结是如何形成、巩固以及受到挑战的。研究发现，骑手对Foodpanda的不满源于平台架构的演变，而非工作场所因素（如社会政治环境）也进一步影响了他们的行动方式。骑手们策略性地利用人际沟通网络和各种社交媒体功能来动员和加强团结。然而，由于骑手之间的内部矛盾以及对警方的恐惧，工人团结受到了冲击；算法控制也成为压制工人行动的工具。因此，工人团结呈现出碎片化且短暂的特征。本文将平台架构视为工人团结形成与受到挑战这一动态过程的一部分，并通过分析不断变化的政治背景下工人团结的关系动态，有助于理解平台劳动冲突的多样性。在这种背景下，劳动者的力量可能受到削弱。由此可见，平台劳动冲突深深植根于更广泛的平台生态和社会政治环境中，劳动者在内部相互动员，同时也与对手、盟友及其他社会力量进行互动。",
+    "abstract_zh": "通过结合集体行动的相关理论、平台架构的概念以及社交媒体的功能，这项定性研究探讨了在平台驱动的零工经济中工人团结的表现与争议。基于对30名参与者的半结构化访谈（其中包括2021–2022年Foodpanda外卖骑手罢工的骑手和劳工权益组织成员），本文从关系论和过程论的角度分析了香港后工会时代工人团结是如何形成、巩固以及受到挑战的。研究发现，骑手对Foodpanda的不满源于平台架构的演变，而非工作场所因素（如社会政治环境）也进一步影响了他们的行动方式。骑手们策略性地利用人际沟通网络和各种社交媒体工具来动员和加强团结。然而，由于骑手之间的内部矛盾以及对警方的恐惧，工人团结受到了冲击；算法控制也成为压制工人行动的机制。因此，工人团结呈现出碎片化且短暂的特征。本文将平台架构视为工人团结形成与受到挑战这一动态过程的一部分，并通过分析不断变化的政治背景下工人团结的关系动态，有助于理解平台劳动领域各种形式的动荡。在这种背景下，劳动者的力量可能受到削弱，平台劳动领域的动荡深深植根于更广泛的平台生态和社会政治环境中——劳动者在内部相互动员，同时也与对手、盟友及其他社会力量进行互动。",
     "summary": "通过30位参与者的访谈，质性分析2021-2022香港Foodpanda骑手罢工中，平台架构与社交媒体如何影响团结的形成、动员与争议。",
     "reason": "议题涉及平台劳动与社交媒体，但方法为半结构化访谈的质性研究，缺乏计算元素。",
     "tags": [
@@ -74453,7 +74623,7 @@
   {
     "id": 1405,
     "title": "Truth Default or Generalized Skepticism? The Role of Overconfidence in the Relationship Between Social Media News Use and Traditional Media Use",
-    "title_zh": "真相默认还是普遍的怀疑主义？过度自信在社交媒体新闻使用与传统媒体使用之间的关系中的作用",
+    "title_zh": "真相的默认设定还是普遍的怀疑态度？过度自信在社交媒体新闻使用与传统媒体使用之间的关系中的作用",
     "authors": [
       "Taewoo Kang",
       "Kjerstin Thorson",
@@ -74469,7 +74639,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "This article examines a model positing that overconfidence in political understanding resulting from social media use for news and politics hampers traditional media use. It confirms a positive relationship between Facebook political information experiences and overconfidence in political understanding. However, contrary to expectations, there is a positive relationship between overconfidence and traditional media use. An exploratory post hoc analysis, viewed through the lens of truth vs. false-default orientations, suggests overconfident users might use traditional news outlets to confirm their sense of knowledge, thereby exhibiting a false-default orientation on social media political information.",
-    "abstract_zh": "本文研究了一个模型，该模型认为：由于使用社交媒体获取新闻和政治信息而产生的对政治理解能力的过度自信，会阻碍人们对传统媒体的使用。研究结果证实了在Facebook上获取政治信息与对政治理解能力的过度自信之间存在正相关关系。然而，与预期相反的是，过度自信与对传统媒体的使用也存在正相关关系。通过“真相与错误假设”（truth vs. false-default）的视角进行的探索性事后分析表明，过度自信的用户可能会利用传统新闻媒体来验证自己的认知，从而在社交媒体上表现出“错误假设”的倾向（即倾向于相信错误的信息）。",
+    "abstract_zh": "本文研究了一个模型，该模型认为：由于使用社交媒体获取新闻和政治信息而产生的对政治理解能力的过度自信，会阻碍人们对传统媒体的使用。研究结果证实了在Facebook上获取政治信息与对政治理解能力的过度自信之间存在正相关关系。然而，与预期相反的是，过度自信与对传统媒体的使用之间也存在正相关关系。通过“真相与错误假设”（truth vs. false-default）的视角进行的探索性事后分析表明，过度自信的用户可能会使用传统新闻媒体来验证自己的知识体系，从而在社交媒体上表现出“错误假设”的倾向（即倾向于相信错误的信息）。",
     "summary": "研究社交媒体新闻使用与过度自信的关系，及其对传统媒体使用的影响，基于调查数据检验模型。",
     "reason": "议题涉及社交媒体新闻使用，属传播领域，但未使用计算分析方法，属传统量化研究。",
     "tags": [
@@ -74507,7 +74677,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Emotionality is a well-established strategy for boosting audience engagement on social media. While fact-checking is positioned to provide objective information, fact-checking posts on social media often involve heightened emotionality. How much emotionality is present and how emotionality influences audience engagement and public sentiment toward fact-checked targets remain largely understudied. Informed by social psychological frameworks explicating message-level factors influencing public engagement and sentiment, the present study examines emotionality in 49,270 fact-checking posts created by 10 United States fact-checking organizations on Facebook from 2017 to 2022. Results showed that emotionality in fact-checking posts significantly increased by 13.5% over the years. Editorial fact-checkers (e.g., Washington Post) used higher levels of emotionality than independent fact-checkers (e.g., snopes.com). Emotionality positively indicated public engagement as predicted. However, in both fact-checked true and false information, emotionality was negatively associated with the public’s sentiment toward fact-checked targets, suggesting a potential spillover effect on stories verified to be true. This study reveals that emotionality in fact-checking posts boosts social media engagement yet with the potential of compromising fact-checking effectiveness.",
-    "abstract_zh": "在社交媒体上，运用情感化表达是一种被广泛采用的提升受众参与度的策略。尽管事实核查旨在提供客观信息，但社交媒体上的事实核查帖子往往也包含强烈的情感色彩。然而，这些帖子中的情感成分究竟有多强，以及情感成分如何影响受众的参与度和公众对事实核查对象的态度，目前仍缺乏系统的研究。本研究基于社会心理学框架，探讨了2017年至2022年间美国10家事实核查机构在Facebook上发布的49,270条事实核查帖子中的情感表达特征。研究结果显示，这些帖子中的情感成分逐年增加了13.5%。其中，官方事实核查机构（如《华盛顿邮报》）使用的情感表达手段比独立事实核查机构（如snopes.com）更为强烈。研究预测，情感表达确实能够提升公众的参与度；但无论事实核查的内容是真实的还是虚假的，情感表达都与公众对事实核查对象的态度呈负相关，这可能对那些被证实为真实的信息产生负面影响。研究表明，虽然情感化表达有助于提高社交媒体的参与度，但也可能削弱事实核查的客观性和有效性。",
+    "abstract_zh": "在社交媒体上，运用情感化表达是一种被广泛采用的提高受众参与度的策略。尽管事实核查旨在提供客观信息，但社交媒体上的事实核查帖子往往也包含强烈的情感表达。然而，这些帖子中的情感成分究竟有多少，以及情感表达如何影响受众的参与度和公众对事实核查对象的态度，目前仍缺乏足够的研究。本研究基于社会心理学框架，探讨了2017年至2022年间美国10家事实核查机构在Facebook上发布的49,270条事实核查帖子中的情感表达特征。研究结果显示，这些帖子中的情感成分逐年增加了13.5%。其中，官方事实核查机构（如《华盛顿邮报》）使用的情感表达程度高于独立事实核查机构（如snopes.com）。研究预测，情感表达确实能够提升公众的参与度；然而，无论事实核查的内容是真实的还是虚假的，情感表达都与公众对事实核查对象的态度呈负相关，这可能对那些被证实为真实的信息产生负面影响。研究表明，虽然情感化表达能够提高社交媒体的参与度，但也可能削弱事实核查的客观性。",
     "summary": "研究2017-2022年美国10个事实核查组织在Facebook上49,270条帖子的情感性，发现情感性逐年增加，提升公众参与但损害对核查目标的公众情绪。",
     "reason": "使用49,270条Facebook事实核查帖子的大规模数据，涉及情感分析与用户参与，属计算传播研究。",
     "tags": [
@@ -74541,7 +74711,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "This article theorizes the politics and poetics of data infrastructure through an examination of Guizhou-Cloud Big Data (GCBD), the state-owned enterprise that landed the deal with Apple to build its first data center in China. I deploy the concept of “post-socialist imaginaries” to analyze how Guizhou, an economically lagging province, has positioned itself as a strategic hub for big data and cloud computing. The “politics” refers to the development policies promoting digital innovation as an engine of growth, while the “poetics” involves the discursive framing of big data through fantasies and desires. The qualifier “post-socialist” highlights the coexistence of multiple temporalities beyond linear developmentalism. By probing this peculiar case, the article aims to generate insights into how data infrastructures are being institutionally reconfigured in China vis-a-vis its modernization trajectory and divergent conditions compared to Western contexts. It calls for alternative theoretical frameworks to unpack the materiality and spatiality of data at the current conjuncture.",
-    "abstract_zh": "本文通过研究贵州云大数据（Guizhou-Cloud Big Data, GCBD）这一国有企业来探讨数据基础设施的政治学与诗学。贵州云大数据公司与苹果公司合作，在中国建立了苹果的首个数据中心。本文运用“后社会主义想象”（post-socialist imaginaries）的概念，分析这个经济相对落后的省份如何将自己定位为大数据和云计算的战略枢纽。“政治学”指的是那些将数字创新作为增长引擎的发展政策；“诗学”则涉及通过幻想和欲望来构建关于大数据的叙事框架。“后社会主义”这一限定词强调了超越线性发展模式的多种时间性的共存。通过研究这一特殊案例，本文旨在揭示中国数据基础设施是如何在其现代化进程中被重新构建的，以及这种构建与中国西方背景下的差异。文章呼吁采用新的理论框架来解读当前数据背后的物质性和空间性。",
+    "abstract_zh": "本文通过研究贵州云大数据（Guizhou-Cloud Big Data, GCBD）这一国有企业来探讨数据基础设施的政治学与诗学。该企业成功与苹果公司合作，在中国建立了苹果的首个数据中心。本文运用“后社会主义想象”（post-socialist imaginaries）的概念，分析经济相对落后的贵州省如何将自己定位为大数据和云计算的战略枢纽。“政治学”方面指的是那些将数字创新作为增长引擎的发展政策；“诗学”方面则涉及通过幻想和欲望来构建关于大数据的叙事框架。“后社会主义”这一限定词强调了超越线性发展模式的多种时间性的共存。通过剖析这一特殊案例，本文旨在揭示中国数据基础设施在现代化进程中的制度重构方式，以及其与西方背景相比所呈现的差异。同时，本文呼吁采用新的理论框架来解读当前数据背后的物质性和空间性特征。",
     "summary": "通过贵州云大数据案例，理论化数据基础设施的政治与诗学，提出后社会主义想象概念。",
     "reason": "纯理论批判分析，无经验数据或计算方法，不属计算传播",
     "tags": [
@@ -74575,7 +74745,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "Drawing on figured worlds and geographies of selves frameworks, we use critical ethnographic methods to explore three Latina teenagers’ experiences and ideas about social media and identity that were expressed throughout a Youth Participatory Action Research (YPAR) project. While their discussions show a clear awareness that these sites are often inaccurate and biased, teenagers still admit to comparing themselves with others online and feeling disconnected. By sharing stories about racial and linguistic discrimination in virtual spaces, participants highlight how many social inequities are being reproduced online. However, they also express optimism that social media has potential to offer new ways to connect with their communities and express multifaceted identities. Their experiences highlight a need for intentional opportunities in our schools and communities to critically reflect on ways that technology positions us and explore our power to redefine these roles.",
-    "abstract_zh": "基于“图式世界”（figured worlds）和“自我地理学”（geographies of selves）的理论框架，我们采用批判性民族志方法（critical ethnographic methods）来探讨三名拉丁裔青少年的经历与他们对社交媒体的看法及身份认同问题。这些探讨是在一个名为“青年参与式行动研究”（Youth Participatory Action Research, YPAR）的项目中进行的。尽管这些青少年清楚地意识到社交媒体上的信息往往不准确且存在偏见，但他们仍然会将自己与网络上的他人进行比较，并感到与现实世界脱节。通过分享在虚拟空间中遭遇的种族和语言歧视的经历，参与者指出了许多社会不平等现象是如何在网络上被复制的。然而，他们也表达了乐观的态度，认为社交媒体有可能为他们提供新的方式来与社区建立联系，并表达自己多元化的身份认同。他们的经历表明，我们的学校和社区需要提供有针对性的机会，帮助人们批判性地反思技术如何影响我们的地位，并探索我们重新定义这些社会角色的可能性。",
+    "abstract_zh": "基于“具象世界”（figured worlds）和“自我地理”（geographies of selves）的理论框架，我们采用批判性民族志方法（critical ethnographic methods）来探讨三名拉丁裔青少年的经历与他们对社交媒体的看法及其身份认同。这些探讨是在一个名为“青年参与式行动研究”（Youth Participatory Action Research, YPAR）的项目中进行的。尽管这些青少年清楚地意识到社交媒体上的信息往往不准确且存在偏见，但他们仍然会将自己与网络上的他人进行比较，并感到与现实世界脱节。通过分享在虚拟空间中遭遇的种族和语言歧视的经历，参与者指出了许多社会不平等现象是如何在网络上被复制的。然而，他们也表达了乐观的态度，认为社交媒体有可能为他们提供新的方式来与社区建立联系，并表达自己多元化的身份认同。他们的经历凸显了一个重要需求：我们的学校和社区需要提供有针对性的机会，帮助人们批判性地反思技术如何塑造我们的身份，并探索我们重新定义这些身份角色的可能性。",
     "summary": "通过批判民族志方法探究三位拉丁裔少女在YPAR项目中对社交媒体与身份的体验，发现其意识到网络偏见但仍会社会比较，并乐观看待社交媒体的联结潜力。",
     "reason": "议题涉及社交媒体与身份认同，但采用批判民族志等质性方法，无计算元素。",
     "tags": [
@@ -74613,7 +74783,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "With the abundance of social media content that promotes unrealistic beauty standards, there are growing concerns about the potential negative impact of social media use on body image satisfaction. While some studies highlight negative associations, others present null effects, pointing to methodological limitations like biased and unreliable self-reported screen time measures and a focus on singular platforms. Addressing these gaps, our study employed a daily diary method to objectively measure social media screen time across six major platforms ( Twitter, Reddit, TikTok, YouTube, Instagram, and Facebook), alongside daily body image dissatisfaction among 252 young adults ( M age = 21.67 years, 67.77% female) over 7 days. Through multilevel modeling, our analysis revealed no significant within- or between-person associations between social media screen time and body image dissatisfaction, a finding consistent across all platforms. In addition, the lack of association between social media screen time and body image dissatisfaction was consistent across several exploratory moderators such as sex, self-esteem, and perfectionistic self-presentation. The current study did not find strong evidence supporting the concerns surrounding the potential detrimental link between social media screen time and body image dissatisfaction.",
-    "abstract_zh": "随着社交媒体上大量宣扬不切实际 beauty standards（即不现实的美丽标准）的内容出现，人们越来越担心使用社交媒体可能对个人的身体形象满意度产生负面影响。虽然一些研究指出了这种负面关联，但也有研究得出了无显著影响的结论，这些研究指出了方法上的局限性，比如自我报告的屏幕使用时间存在偏差且不可靠，以及研究仅关注了少数几个社交媒体平台。为了解决这些问题，我们的研究采用了每日日记法，客观地测量了252名年轻成年人（平均年龄21.67岁，67.77%为女性）在7天内使用六大主要社交媒体平台（Twitter、Reddit、TikTok、YouTube、Instagram和Facebook）的时间，并同时记录了他们的每日身体形象满意度。通过多层次建模分析，我们发现社交媒体使用时间与身体形象满意度之间在个体内部或个体之间均不存在显著关联，这一结论在所有平台上都是一致的。此外，无论性别、自尊心或完美主义自我呈现等因素如何，社交媒体使用时间与身体形象满意度之间也不存在关联。当前的研究并未发现强有力的证据来支持那些关于社交媒体使用时间与身体形象满意度之间存在有害关系的担忧。",
+    "abstract_zh": "随着社交媒体上大量宣扬不切实际的美貌标准的内容出现，人们越来越担心使用社交媒体可能对个人的身体形象满意度产生负面影响。虽然一些研究指出了这种负面关联，但其他研究则得出了无显著影响的结论，这些研究指出了方法上的局限性，例如自我报告的屏幕使用时间存在偏差且不可靠，以及研究主要集中在单一平台上。为了解决这些问题，我们的研究采用每日日记法，客观地测量了252名年轻人（平均年龄21.67岁，67.77%为女性）在7天内使用六大主要社交媒体平台（Twitter、Reddit、TikTok、YouTube、Instagram和Facebook）的时间，并同时记录他们的每日身体形象不满情绪。通过多层次建模分析，我们发现社交媒体使用时间与身体形象不满情绪之间在个体内部或个体之间均不存在显著关联，这一结论在所有平台上都是一致的。此外，无论性别、自尊心或完美主义自我呈现等因素如何，社交媒体使用时间与身体形象不满情绪之间也不存在关联。当前的研究并未发现强有力的证据来支持关于社交媒体使用时间与身体形象不满情绪之间存在潜在有害联系的担忧。",
     "summary": "通过252名年轻成人7天日记，客观测量六大平台屏幕时间与身体形象不满，多层模型显示无显著关联。",
     "reason": "议题涉及社交媒体与身体形象，但采用日记法与多层模型，属传统量化分析，无计算传播学方法。",
     "tags": [
@@ -74648,7 +74818,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The Twitter Moderation Research Consortium is a database of network propaganda and influence operations that includes 115,474 unique Twitter accounts, millions of tweets, and over one terabyte of media removed from the platform between 2017 and 2022. We probe this database using Google’s Vision API and Keras with TensorFlow to test whether foreign influence operations can be identified based on the visual presentation of fake user profiles emphasizing gender, race, camera angle, sensuality, and emotion. Our results show that sensuality is a variable associated with operations that replicate the Kremlin-linked Internet Research Agency campaign, being particularly prevalent in influence operations that targeted communities in North and South America, but also in Indonesia, Turkey, and Pakistan. Our results also show that the visual identities of fake social media profiles are predictive of influence operations given their reliance on selfies, sensual young women, K-pop aesthetics, or alternatively nationalistic iconography overlaid with text to convey ideological positioning.",
-    "abstract_zh": "“Twitter Moderation Research Consortium”是一个数据库，其中包含了网络宣传和影响力操作的相关信息。该数据库涵盖了115,474个独特的Twitter账户、数百万条推文，以及2017年至2022年间从Twitter平台上删除的超过1太字节的媒体内容。我们利用Google的Vision API和基于TensorFlow的Keras框架来分析这些数据，旨在探究是否可以通过虚假用户资料的视觉特征（如性别、种族、拍摄角度、性感元素和情感表达）来识别外国的影响力操作。研究结果表明，“性感元素”是一个与某些特定影响力操作相关的特征；这类操作尤其常见于针对北美、南美、印度尼西亚、土耳其和巴基斯坦等地区的宣传活动。此外，虚假社交媒体账号的视觉特征（如自拍照的使用、性感年轻女性的形象、K-pop风格的视觉元素，或是带有文字信息的民族主义象征）能够预示这些账号所参与的影响力操作的性质。",
+    "abstract_zh": "“Twitter Moderation Research Consortium”是一个数据库，其中包含了网络宣传和影响力操作的相关信息，涵盖了115,474个独特的Twitter账户、数百万条推文，以及2017年至2022年间从该平台上删除的超过1太字节的媒体内容。我们利用Google的Vision API和基于TensorFlow的Keras框架来分析这个数据库，旨在探究是否可以通过虚假用户资料的视觉特征（如性别、种族、拍摄角度、性感元素和情感表达）来识别外国的影响力操作。研究结果表明，“性感元素”是一个与某些特定影响力操作相关的特征；这类操作尤其常见于针对北美、南美、印度尼西亚、土耳其和巴基斯坦等地区的宣传活动。此外，虚假社交媒体账号的视觉特征（如自拍照的使用、性感年轻女性的形象、K-pop风格的视觉元素，或是带有文字信息的民族主义象征）能够预示这些账号所参与的影响力操作的性质。",
     "summary": "研究利用Twitter Moderation Research Consortium数据库，通过Google Vision API和Keras分析115,474个虚假账号的视觉身份，发现性感形象、自拍、K-pop美学等视觉特征可预测影响力操作。",
     "reason": "使用机器学习与视觉API分析社交媒体虚假账号视觉特征，属于计算传播研究。",
     "tags": [
@@ -74682,7 +74852,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "This article examines how digital platforms construct imperialism in the Asian cultural markets. It discusses the increasing role of global digital platforms in cultural production, referring to the production and circulation of cultural content in Asia. It articulates how global digital platforms in the audio-visual sector, including broadcasting, film, and popular music, have expanded their market shares in Asian cultural markets to determine the similarities and differences between East Asia and other regions in the construction of platform imperialism. Finally, it examines whether Western digital platforms perpetuate a vicious circle in the local cultural sphere, despite the growth of local digital platforms in Asia, while contemplating its broader implications for global cultural markets.",
-    "abstract_zh": "本文探讨了数字平台如何在亚洲文化市场中构建帝国主义。文章分析了全球数字平台在文化生产中的日益重要作用，特别是这些平台在亚洲地区的文化内容制作与传播中的作用。文中指出，包括广播、电影和流行音乐在内的全球数字平台在亚洲文化市场中的市场份额不断扩大，从而揭示了东亚与其他地区在平台帝国主义构建方面的相似性和差异性。最后，文章还讨论了尽管亚洲地区的本地数字平台不断发展，西方数字平台是否仍在当地文化领域中延续着一种恶性循环，并思考了这一现象对全球文化市场的更广泛影响。",
+    "abstract_zh": "本文探讨了数字平台如何在亚洲文化市场中构建帝国主义。文章分析了全球数字平台在文化生产中的日益重要作用，特别是这些平台在亚洲地区的文化内容制作与传播中的作用。文中指出，包括广播、电影和流行音乐在内的全球数字平台在亚洲文化市场中的市场份额不断扩大，从而影响了东亚与其他地区在平台帝国主义构建方面的相似性和差异性。最后，文章还讨论了尽管亚洲地区的本地数字平台不断发展，西方数字平台是否仍在当地文化领域中延续着一种恶性循环，并思考了这一现象对全球文化市场的更广泛影响。",
     "summary": "从亚洲视角探讨数字平台如何在文化市场构建帝国主义，分析西方平台在亚洲的扩张及其对本地文化的影响。",
     "reason": "纯理论批判性分析，无经验数据和计算方法，属于平台帝国主义理论探讨。",
     "tags": [
@@ -74715,7 +74885,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "This article presents an analysis of YouTube videos wherein creators reveal the results of their direct-to-consumer genetic ancestry tests. I analyze these reveal videos, their comment threads, and the role of YouTube in hosting these videos, to capture the popular discourse around the relationship between DNA and racial identity. By employing critical technocultural discourse analysis (CTDA), I explore how Caribbean content creators discuss racial identity, and how online discourses negotiate, codify, or disrupt neoliberal notions of racial authenticity. I focus on videos made by creators who self-identify as being from the Caribbean or of the Caribbean diaspora. By bringing the Caribbean existentialist thought of Stuart Hall and Édouard Glissant into my analysis, I explore how Caribbean creators employ what C. Rhonda Cobham-Sander deems “the Creole imagination” to interrogate notions of racial authenticity while de-/re-constructing racial identity in digital spaces.",
-    "abstract_zh": "本文分析了YouTube上的视频，这些视频中创作者分享了他们直接面向消费者的基因 ancestry tests（基因祖先检测）的结果。我研究了这些分享结果的视频、其评论区，以及YouTube在发布这些视频中的作用，旨在探讨关于DNA与种族身份之间关系的公众讨论。通过运用批判性技术文化话语分析（Critical Technocultural Discourse Analysis, CTDA）的方法，我探讨了加勒比地区的创作者如何讨论种族身份，以及在线话语如何协商、固化或颠覆新自由主义关于种族真实性的观念。我的研究重点关注那些自认为是加勒比地区居民或加勒比移民后裔的创作者制作的视频。通过引入斯图尔特·霍尔（Stuart Hall）和爱德华·吉朗松（Édouard Glissant）的加勒比存在主义思想，我分析了加勒比创作者如何运用C·朗达·科巴姆-桑德（C. Rhonda Cobham-Sander）所称的“克里奥尔想象力”（Creole imagination），来质疑种族真实性的概念，并在数字空间中重新构建种族身份。",
+    "abstract_zh": "本文分析了YouTube上的视频，这些视频中创作者分享了他们直接面向消费者的基因 ancestry（基因血统）测试结果。我研究了这些分享视频及其评论区的内容，以及YouTube在发布这些视频中的作用，旨在探讨关于DNA与种族身份之间关系的公众讨论。通过运用批判性技术文化话语分析（Critical Technocultural Discourse Analysis, CTDA）的方法，我分析了加勒比地区的创作者如何讨论种族身份问题，以及在线讨论如何协商、固化或颠覆新自由主义关于种族真实性的观念。我的研究重点关注那些自称来自加勒比地区或加勒比移民后裔的创作者制作的视频。同时，我借鉴了斯图尔特·霍尔（Stuart Hall）和爱德华·吉朗桑（Édouard Glissant）的加勒比存在主义思想，探讨了加勒比创作者如何运用C·朗达·科巴姆-桑德（C. Rhonda Cobham-Sander）所称的“克里奥尔想象力”（Creole imagination），来质疑种族真实性的概念，并在数字空间中重新构建种族身份。",
     "summary": "分析加勒比创作者在YouTube上展示基因祖先测试结果的视频及其评论，探讨DNA与种族身份的话语建构，运用批判技术文化话语分析。",
     "reason": "选题涉及YouTube社交媒体平台，但采用批判性话语分析，无计算方法，属边缘相关。",
     "tags": [
@@ -74737,7 +74907,7 @@
   {
     "id": 1413,
     "title": "Toxic Communication on TikTok: Sigma Masculinities and Gendered Disinformation",
-    "title_zh": "TikTok上的有毒沟通：男性气质与性别化的虚假信息",
+    "title_zh": "TikTok上的有毒沟通：西格玛男性气质与性别化的虚假信息",
     "authors": [
       "Samuel Tanner",
       "François Gillardin"
@@ -74750,7 +74920,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "A growing body of research highlights digital platforms like TikTok’s pivotal role in shaping meaning for their users, particularly regarding gender perceptions. With TikTok increasingly serving as a search engine for teens, understanding how opinions are formed necessitates examining online content and interactions. Our article focuses on the construction of masculinity and gender dynamics with sigma videos on TikTok, emphasizing the digital practices that foster toxic communication. We define toxic communication as the deliberate framing and intensification of gender relations through the lens of male control and domination, alongside the denigration, devaluation, or defamation of feminine and non-binary identities associated with hegemonic masculinity. Adopting a socio-technical approach, we utilize a digital qualitative method of immersive observation to collect and analyze videos, posts, hashtags, and gender-related content. Our findings reveal that sigma toxic communication manifests in a spectrum ranging from subtle humor to explicit violence. This diversity of content functions as a “ready-to-think” framework, potentially appealing to a wide range of men across varying tastes, ages, and attitudes toward gender while perpetuating narratives that reflect and reinforce entrenched patterns of male dominance.",
-    "abstract_zh": "越来越多的研究强调了像TikTok这样的数字平台在塑造用户认知（尤其是性别认知）方面所起的关键作用。随着TikTok逐渐成为青少年的“搜索引擎”，要理解人们的观点是如何形成的，就必须研究在线内容及其互动方式。我们的文章重点关注TikTok上与“男性气质”和性别动态相关的视频内容，探讨了那些促进有害沟通的数字行为。我们将“有害沟通”定义为通过男性控制和支配的视角，刻意构建和加剧性别关系，同时贬低、贬低或诽谤与霸权主义男性气质相关的女性及非二元性别身份的行为。我们采用了一种社会技术学的方法，运用沉浸式观察的数字定性研究方法来收集和分析视频、帖子、标签以及与性别相关的内容。研究发现，这种有害沟通的表现形式多样，从微妙的幽默到明显的暴力行为都有。这些多样化的内容构成了一个“现成的思维框架”，可能吸引不同口味、年龄和对性别持有不同态度的男性群体，同时不断强化那些反映和巩固男性主导地位的固有观念。",
+    "abstract_zh": "越来越多的研究强调了像TikTok这样的数字平台在塑造用户认知（尤其是性别认知）方面所起的关键作用。随着TikTok逐渐成为青少年的“搜索引擎”，要理解人们的观点是如何形成的，就必须研究在线内容及其互动方式。我们的文章重点探讨了TikTok上与“男性气质”和性别动态相关的视频内容，特别关注那些促进有害沟通的数字行为。我们将“有害沟通”定义为通过男性控制和支配的视角，刻意构建和加剧性别关系，同时贬低、贬损或诽谤与霸权主义男性气质相关的女性及非二元性别身份的行为。我们采用了一种社会技术学的方法，运用沉浸式观察的数字定性研究方法来收集和分析视频、帖子、标签以及与性别相关的内容。研究结果表明，这种有害沟通的表现形式多样，从微妙的幽默到明显的暴力行为都有。这些多样化的内容构成了一个“现成的思维框架”，可能吸引不同口味、年龄以及对性别持有不同态度的男性群体，同时不断强化那些反映和巩固男性主导地位的固有观念。",
     "summary": "研究TikTok上sigma视频中的男性气质构建与毒性传播，通过数字质性观察分析视频、帖子及标签，发现内容涵盖从幽默到暴力，强化男性主导叙事。",
     "reason": "议题聚焦TikTok平台内容，但采用沉浸式观察的质性方法，缺乏计算分析元素。",
     "tags": [
@@ -74786,7 +74956,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "Digital media allow users the ability to engage in and be exposed to trolling. Although many people may enjoy the occasional opportunity to witness others being trolled, a relative minority directly troll others, those whom we can label overt trolls. Nevertheless, features afforded on social media and online communities (e.g., likes, upvotes) make it accessible for people to positively react to and support trolling, becoming supportive trolls, a potential steppingstone into overt trolling. In the theoretical contexts of social cognitive theory and the bystander effect, we advance a model in which enjoyment of observing trolling prompts supportive trolling, which could then lead to overt trolling. Analyses of data from an online survey conducted in the United States ( N = 604) show the positive link between enjoyment of observing trolling and supportive trolling is stronger among individuals with higher fear of punishment, while the subsequent link between supportive and overt trolling is stronger among those with higher online disinhibition. Our findings hold implications in understanding the effects of trolling on social media audiences and how trolling can be performed in nuanced ways.",
-    "abstract_zh": "数字媒体使用户能够参与或接触到网络欺凌行为（即“trolling”）。虽然许多人可能乐于偶尔看到他人受到欺凌，但只有少数人会主动去欺凌他人，这些人可以被归类为“明显的欺凌者”（overt trolls）。然而，社交媒体和在线社区提供的功能（如点赞、点赞数等）使得人们更容易对欺凌行为作出积极反应并予以支持，从而成为“支持性欺凌者”（supportive trolls），这可能是他们进一步发展为“明显欺凌者”的一个潜在途径。基于社会认知理论和旁观者效应的理论框架，我们提出了一个模型：观察欺凌行为的乐趣会促使人们采取支持性行为，而这些支持性行为又可能发展为明显的欺凌行为。通过对美国一项在线调查（样本量N=604）的数据进行分析，我们发现：对于那些更害怕受到惩罚的人来说，观察欺凌行为的乐趣与采取支持性行为之间的关联更为强烈；而对于那些在线行为抑制能力较低的人来说，支持性行为与明显欺凌行为之间的关联则更为显著。我们的研究结果有助于理解欺凌行为对社交媒体受众的影响，以及人们如何以复杂的方式实施欺凌行为。",
+    "abstract_zh": "数字媒体使用户能够参与或接触到网络欺凌行为（即“trolling”）。虽然许多人可能乐于偶尔看到他人受到欺凌，但只有少数人会主动去欺凌他人，这些人可以被归类为“明显的欺凌者”（overt trolls）。然而，社交媒体和在线社区提供的功能（如点赞、点赞数等）使得人们更容易对欺凌行为作出积极反应并予以支持，从而成为“支持性欺凌者”（supportive trolls），这可能是他们进一步发展为“明显欺凌者”的一个潜在途径。基于社会认知理论和旁观者效应的理论框架，我们提出了一种模型：观察欺凌行为的乐趣会促使人们采取支持性行为，而这些支持性行为又可能发展为明显的欺凌行为。通过对美国一项在线调查（样本量N=604）的数据分析发现，那些对惩罚有更强烈恐惧感的人，更倾向于从观察欺凌行为中获得乐趣，并且更有可能采取支持性行为；而那些在线行为抑制能力较低的人，其支持性行为与明显欺凌行为之间的关联更为紧密。我们的研究结果有助于理解网络欺凌行为对社交媒体受众的影响，以及人们如何以复杂多样的方式实施这种行为。",
     "summary": "基于美国604人调查，探究从享受旁观喷子到支持喷子再到公开喷子的路径，及恐惧惩罚和网络去抑制的调节作用。",
     "reason": "使用传统在线问卷调查，无计算元素，虽涉及社交媒体但属传统量化研究。",
     "tags": [
@@ -74821,7 +74991,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Reddit, one of the largest global social media platforms, has undergone significant transformations since its inception in 2005. From a loosely structured, niche platform to a globally recognized company with a standardized and regulated governance system, Reddit’s evolution has been marked by a shift in the power dynamics between its owners, moderators, and users. 2015 and 2023 were marked by the occurrence of two prominent protests, termed “blackouts.” Moderators of numerous subreddits, though not all, disabled public access to their subreddits, thereby protesting the company’s policies and policy changes and challenging the company’s endeavors to exert further control over the platform. Drawing on Bourdieusian theory and relational methodology, we establish a computational social science approach to investigate the structural causes behind the two blackouts and contextualize the differences between them. We argue that these blackouts signify growing tensions within the socio-technical space of Reddit and an ongoing political, cultural, and economic reconfiguration of its power structure and political economy.",
-    "abstract_zh": "Reddit是全球最大的社交媒体平台之一，自2005年成立以来经历了重大变革。它从一个结构松散、专注于特定领域的平台，发展成为一个拥有标准化和规范化治理体系的全球知名企业。在这一演变过程中，Reddit的所有者、版主和用户之间的权力关系发生了变化。2015年和2023年，Reddit发生了两次著名的抗议活动，被称为“黑屏事件”（blackouts）。虽然并非所有版主都参与了这些抗议，但许多版主暂时关闭了其子版块的公共访问权限，以此来反对公司的政策变更，并挑战公司试图进一步控制该平台的企图。本文借鉴了布尔迪厄（Bourdieu）的理论和关系方法论，采用计算社会科学的方法来探究这两次“黑屏事件”背后的结构性原因，并分析了它们之间的差异。我们认为，这些事件反映了Reddit社会技术环境中日益加剧的紧张关系，以及其权力结构和政治经济体系的持续政治、文化和经济重构。",
+    "abstract_zh": "Reddit是全球最大的社交媒体平台之一，自2005年成立以来经历了重大变革。它从一个结构松散、小众化的平台发展成为一家拥有标准化和规范化治理体系的全球知名企业。在这一演变过程中，Reddit的所有者、版主和用户之间的权力关系发生了变化。2015年和2023年，Reddit发生了两次著名的抗议活动，被称为“黑屏事件”（blackouts）。虽然并非所有版主的子版块都参与了这些抗议活动，但许多版主暂时关闭了子版块的公众访问权限，以此来反对公司的政策变更，并质疑公司试图进一步控制该平台的企图。本文借鉴了布尔迪厄（Bourdieu）的理论和关系方法论，采用计算社会科学的方法来探究这两次“黑屏事件”的根本原因，并分析了它们之间的差异。我们认为，这些事件反映了Reddit社会技术空间内的紧张关系日益加剧，同时也表明了其权力结构及政治经济体系的持续政治、文化和经济重构。",
     "summary": "基于Bourdieusian理论和关系方法论，计算分析2015和2023年Reddit黑屏抗议的结构性原因，揭示平台权力重构。",
     "reason": "研究Reddit平台blackouts，使用计算社会科学方法分析参与结构，属于计算传播学。",
     "tags": [
@@ -74843,7 +75013,7 @@
   {
     "id": 1416,
     "title": "Digital (Dis)connection, Agency, and Imagination in a French Rural Community",
-    "title_zh": "法国农村社区中的数字（去）连接、主体性与想象力",
+    "title_zh": "数字（去）连接、能动性与法国一个农村社区的想象力",
     "authors": [
       "Fabienne Darling‐Wolf"
     ],
@@ -74855,7 +75025,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "Common to scholarly analyses of the “digital revolution” is their inclination to deploy technology—the platforms, their affordances, the virtual spaces they create—as the main entry into evaluations of digital media’s impact on socio-cultural organization. While certainly useful in helping us understand the dynamics of digital practices and spaces, these narratives often fail to provide a fuller portrait of individuals’ broader relationship to the technological world shaped not (only) by their digital media use (or lack thereof) but also by their mere awareness of the existence of digital tools. Drawing from 14 months of ethnographic fieldwork in as small rural community in France, this project starts sketching such a portrait. Inspired by theories of mediation that encourage us to “rediscover” people as a methodological starting point by moving our focus from object (media) to process (mediation), it explores how residents experience, enjoy, resist, and negotiate the impact of digital and social media on the community’s culture, identity, and social organization.",
-    "abstract_zh": "在学术界对“数字革命”的分析中，一个共同的特点是倾向于将技术——包括各种平台、它们的功能以及它们所创造的虚拟空间——作为评估数字媒体对社会文化影响的主要切入点。虽然这些分析在帮助我们理解数字实践和空间的动态方面确实很有用，但它们往往无法全面展现个体与技术世界的复杂关系。这种关系不仅受到个体使用数字媒体（或未使用数字媒体）的影响，还受到他们对数字工具存在与否的认知的影响。本项目基于在法国一个小型农村社区进行的14个月民族志田野调查，开始尝试描绘这样的关系。该项目受到中介理论的启发，这些理论鼓励我们将研究重点从“对象”（即媒体）转移到“过程”（即中介作用）上，从而“重新发现”人类在数字世界中的角色。通过这一方法，该项目探讨了当地居民如何体验、利用、抵制以及协商数字媒体和社交媒体对该社区的文化、身份和社会组织所带来的影响。",
+    "abstract_zh": "在关于“数字革命”的学术研究中，一个共同的特点是研究者倾向于将技术——包括各种平台、它们的功能以及它们所创造的虚拟空间——作为评估数字媒体对社会文化影响的主要切入点。虽然这些研究方法确实有助于我们理解数字实践和数字空间的动态变化，但它们往往无法全面展现个体与技术世界的复杂关系。这种关系不仅受到个体使用数字媒体（或未使用数字媒体）的影响，还受到他们对数字工具存在与否的认知的影响。本项目基于在法国一个小型农村社区进行的14个月民族志田野调查，试图描绘出这样的关系图景。该项目受到中介理论（mediation theories）的启发，这些理论鼓励我们将研究重点从“对象”（即数字媒体）转移到“过程”（即数字媒体作为中介的作用）上，从而“重新发现”人类的行为和意义。通过这一方法，该项目探讨了当地居民如何体验、利用、抵制以及协商数字媒体和社交媒体对该社区文化、身份认同和社会组织的影响。",
     "summary": "基于法国农村社区14个月田野调查，探讨居民对数字和社交媒体的体验、抵抗与协商，关注媒介化过程中的能动性与想象。",
     "reason": "议题涉及数字媒体与社交媒体的社会影响，但采用民族志质性方法，无计算元素。",
     "tags": [
@@ -74890,7 +75060,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "This special issue explores connective democracy, a new theoretical approach to fighting and understanding political polarization and divisiveness online. Connective democracy asks scholars to think about solutions that bridge societal and political divides, particularly on social media. Our collection of six articles theorizes connective democracy and applies the theoretical concept to global situations, such as nurturing freedom of speech in Myanmar (Burma) and discussions of a new constitution in Chile. The articles in this special issue also consider how connective democracy is useful for understanding current problems related to polarization, such as misinformation and online vitriol, as well as how social media affordances support connective democracy. This body of work contributes to our understanding of how to deal with one of the most challenging problems facing democracy today, rampant polarization and divisiveness online.",
-    "abstract_zh": "本期特刊探讨了“连接型民主”（Connective Democracy）这一新的理论视角，旨在应对和理解网络上的政治两极分化与分裂现象。“连接型民主”鼓励学者们思考能够弥合社会与政治分歧的解决方案，尤其是在社交媒体领域。本期特刊收录了六篇文章，这些文章不仅对“连接型民主”进行了理论阐述，还将这一概念应用于全球范围内的实际案例，例如推动缅甸的言论自由以及智利新宪法的讨论。文章还分析了“连接型民主”在解决当前问题（如虚假信息和网络暴力）方面的作用，以及社交媒体如何为这种民主模式提供支持。这些研究有助于我们更好地理解如何应对当今民主面临的最严峻挑战之一——即网络上的极端两极分化与分裂趋势。",
+    "abstract_zh": "本期特刊探讨了“连接型民主”（Connective Democracy）这一新的理论框架，旨在应对和理解网络上的政治极化与分裂现象。“连接型民主”鼓励学者们思考能够弥合社会与政治分歧的解决方案，尤其是在社交媒体领域。本期共收录了六篇文章，这些文章不仅对“连接型民主”进行了理论阐述，还将其应用于全球范围内的实际案例，例如推动缅甸的言论自由以及智利关于新宪法的讨论。文章还分析了“连接型民主”在解决当前极化问题（如虚假信息和网络暴力）方面的作用，以及社交媒体如何为这种民主模式提供支持。这些研究有助于我们更好地理解如何应对当今民主面临的最严峻挑战之一——即网络上的极端极化与分裂趋势。",
     "summary": "特刊导论提出连接性民主理论，用于理解和解决社交媒体上的政治极化与分裂，并介绍六篇文章的应用场景。",
     "reason": "纯理论探讨，无经验数据或计算方法，属于理论性特刊导论。",
     "tags": [
@@ -74911,7 +75081,7 @@
   {
     "id": 1418,
     "title": "“Misogyny Was in the Atmosphere”: Feminist Perspectives on Social Media Use in the 2019 Algerian Pro-Democratic Demonstrations",
-    "title_zh": "“厌女情绪弥漫其中”：女性主义视角下的2019年阿尔及利亚民主示威活动中的社交媒体使用",
+    "title_zh": "“厌女情绪弥漫其中”：女性主义视角下的2019年阿尔及利亚民主抗议活动中社交媒体的使用",
     "authors": [
       "Rim H. Chaif",
       "Christopher E. Etheridge"
@@ -74924,7 +75094,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "Public and vocal calls by Algerian feminist groups to revise restrictive laws about women during the 2019 Hirak (“protest” in Arabic) were met with physical and online violence from both pro-government and reformist groups. Theories considering the role of public spaces in advancing democratic efforts differ on strategy and method for inclusion of marginalized voices. Through structured open-ended questionnaires with Algerian feminist demonstrators, this study probes the perceived efficacy of various democratic-advancing tactics. Findings show a reticence on the part of Algerian feminists in cultivating open social media spaces or efforts to assimilate into a single public and echo previous findings of those advocating for a more disputed perspective on democracy.",
-    "abstract_zh": "阿尔及利亚女权主义团体在2019年的“Hirak”（阿拉伯语中的“抗议”运动）期间公开呼吁修订限制妇女权利的法律，但这些呼吁遭到了亲政府派和改革派团体的暴力对待，包括肢体攻击和网络攻击。关于公共空间在推动民主进程中的作用，不同理论在策略和方法上存在分歧。本研究通过向阿尔及利亚女权主义示威者发放结构化的开放式问卷，探讨了她们对各种促进民主的策略的有效性的看法。调查结果表明，阿尔及利亚女权主义者在积极营造开放的社交媒体空间或努力融入统一的公共舆论方面表现得较为谨慎，这一现象与那些主张更为争议性的民主观点的人们的研究结果一致。",
+    "abstract_zh": "阿尔及利亚女权组织在2019年“Hirak”（阿拉伯语中的“抗议”运动）期间公开呼吁修订限制妇女权利的法律，但这些呼吁遭到了亲政府派和改革派团体的暴力对待，包括肢体攻击和网络攻击。关于公共空间在推动民主进程中的作用，不同理论在策略和方法上存在分歧。本研究通过向阿尔及利亚女权活动人士发放结构化开放式问卷，探讨了她们对各种促进民主策略的有效性的看法。调查结果表明，阿尔及利亚女权人士在积极利用社交媒体空间或努力融入统一的公共舆论方面表现得较为谨慎，这一现象与那些主张更具争议性的民主观点的人们的研究结果一致。",
     "summary": "通过开放式问卷探究阿尔及利亚女性示威者对社交媒体使用的看法，发现其对开放社交空间持保留态度。",
     "reason": "议题涉及社交媒体与抗议，但使用问卷调查方法，无计算元素。",
     "tags": [
@@ -74961,7 +75131,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "Online platforms have enacted various policies to maintain a safe and trustworthy advertising environment. However, the extent to which these policies are adhered to and enforced remains a subject of interest and concern. In this work, we present a large-scale audit of adult advertising on Twitter (now X), specifically focusing on compliance with its adult (sexual) content advertising policy. Twitter is an interesting case study in that it—uniquely from other social media platforms—allows posting of adult content but prohibits adult content in advertising. We analyze approximately 35,000 ads on Twitter with respect to their compliance with the adult content ad policy through Perspective API and manual annotations. Among other things, we find that nearly 38% of ads violate Twitter’s adult content advertising policy—of which, the platform eventually removed only about 63% of these non-compliant adult ads. We also find inconsistencies in the moderation of such ads across languages, highlighting the need for more reliable and consistent moderation practices across different languages. Overall, our findings highlight blindspots in Twitter’s adult ad policy enforcement for certain languages and countries. Our work underscores the importance of external audits to monitor compliance and improve transparency in online advertising.",
-    "abstract_zh": "在线平台已经实施了各种政策，以维护一个安全、可信的广告环境。然而，这些政策在多大程度上得到了遵守和执行，仍然是一个值得关注和探讨的问题。在这项研究中，我们对Twitter（现称为X）上的成人广告进行了大规模审计，特别关注其成人（性内容）广告政策的遵守情况。Twitter是一个有趣的案例研究，因为它与其他社交媒体平台不同——它允许发布成人内容，但禁止在广告中使用成人内容。我们通过 Perspective API 和手动注释，分析了大约 35,000 条 Twitter 广告，以评估它们是否符合成人内容广告政策。研究发现，近 38% 的广告违反了 Twitter 的成人内容广告政策，而平台最终只删除了其中约 63% 的违规广告。我们还发现，不同语言对这类广告的审核标准存在不一致性，这凸显了需要在不同语言之间采用更可靠、更一致的审核机制。总体而言，我们的研究结果揭示了 Twitter 在针对某些语言和国家的成人广告政策执行方面的漏洞。我们的工作强调了外部审计在监督合规性以及提高在线广告透明度方面的重要性。",
+    "abstract_zh": "在线平台已经实施了各种政策，以维护一个安全、可信的广告环境。然而，这些政策在多大程度上得到了遵守和执行，仍然是一个值得关注和探讨的问题。在这项研究中，我们对Twitter（现为X）上的成人广告进行了大规模审计，特别关注其成人（性内容）广告政策的遵守情况。Twitter是一个有趣的案例研究，因为它与其他社交媒体平台不同——它允许发布成人内容，但禁止在广告中使用成人内容。我们通过 Perspective API 和手动注释，分析了大约35,000条Twitter广告，以评估它们是否符合成人内容广告政策。研究发现，近38%的广告违反了Twitter的成人内容广告政策，而平台最终只删除了其中约63%的违规广告。我们还发现，不同语言对这类广告的审核标准存在不一致性，这凸显了需要在不同语言之间采用更可靠、更一致的审核机制的必要性。总体而言，我们的研究结果揭示了Twitter在针对某些语言和国家的成人广告政策执行方面存在的漏洞。我们的工作强调了外部审计在监督合规性以及提高在线广告透明度方面的重要性。",
     "summary": "通过分析约3.5万条Twitter广告，使用Perspective API和人工标注审计成人内容广告政策执行情况，发现违规广告占比高且审核存在语言差异。",
     "reason": "使用大规模Twitter广告数据和Perspective API进行政策合规审计，属于计算传播研究。",
     "tags": [
@@ -74983,7 +75153,7 @@
   {
     "id": 1420,
     "title": "Is There Room for Connective Democracy Within the Discussions About a New Constitution on Social Media? The Case of Chile in the Months Leading Up to the 2020 Plebiscite",
-    "title_zh": "在关于新宪法的社交媒体讨论中，是否还有空间容纳“连接型民主”（Connective Democracy）的理念？以2020年全民公投前的智利为例",
+    "title_zh": "在关于新宪法的社交媒体讨论中，是否有空间容纳“连接型民主”（Connective Democracy）的理念？以2020年全民公投前的智利为例",
     "authors": [
       "Ignacio López Escarcena",
       "Constanza Ortega‐Gunckel",
@@ -74997,7 +75167,7 @@
     "relevance": "Medium",
     "score": null,
     "abstract": "In October 2019, widespread protests began in Chile after the government announced an increase in transport fare, which gave way to several social demands. A month later, politicians from different sectors reached an understanding that would open the possibility of writing a new Constitution. Two clear sides emerged: those in favor (Approve) and those against (Reject) the new constitutional project, which would be voted on in a plebiscite in October 2020. In this article, we examine the extent to which this period in Chile involved feelings of dislike or even hatred toward those who think differently, a key element of affective polarization, an increasing phenomenon that sparked the emergence of the concept of connective democracy. The study focuses on the reactions on X/Twitter and YouTube to four TV programs ( Tolerancia cero , Pauta libre , A esta hora se improvisa , and Estado nacional ) that broadcasted political discussions in the months before the 2020 plebiscite. Our methodology is a qualitative textual analysis, which shows that even though the comments include both negative outparty feelings and negative trait perceptions, as well as positive, informative, and hybrid comments, this does not drift them away from connective democracy. On the contrary, connective democracy still values this type of exchanges, as they allow us to reflect on how the quality and interactions of these connections can be improved.",
-    "abstract_zh": "2019年10月，智利政府宣布提高交通费用后，全国范围内爆发了大规模抗议活动，这些抗议活动逐渐演变成了多种社会诉求。一个月后，来自不同政治派别的政治人士达成了共识，为制定新宪法奠定了基础。当时形成了两个明显的阵营：支持新宪法提案的一方（“赞成”）和反对的一方（“反对”），新宪法提案将在2020年10月通过全民公投进行表决。本文探讨了这一时期智利社会中人们对持不同意见者的厌恶甚至仇恨情绪的程度——这种情绪是情感极化的关键因素，而情感极化是一个日益严重的现象，它促使了“连接型民主”（connective democracy）这一概念的提出。研究重点关注了人们在X/Twitter和YouTube上对四档电视节目（《零容忍》（Tolerancia cero）、《自由议程》（Pauta libre）、《此刻即兴发挥》（A esta hora se improvisa）以及《国家状态》（Estado nacional）的反应。这些节目在2020年公投前的几个月内播出了政治讨论内容。我们的研究方法采用定性文本分析，结果表明：尽管评论中既有对反对派的负面情绪和负面刻板印象，也有积极的、提供信息的以及混合类型的评论，但这些评论并未使人们偏离“连接型民主”的理念。相反，“连接型民主”仍然重视这类交流，因为它们有助于我们思考如何提升这些交流的质量和互动效果。",
+    "abstract_zh": "2019年10月，智利政府宣布提高交通费用后，全国范围内爆发了大规模抗议活动，这些抗议活动逐渐演变成了多种社会诉求。一个月后，来自不同政治阵营的政界人士达成共识，决定启动制定新宪法的进程。在这个过程中，形成了两个明显的对立阵营：支持新宪法的人（“赞成派”）和反对新宪法的人（“反对派”），新宪法最终在2020年10月通过全民公投进行了表决。本文探讨了这一时期智利社会中人们对持不同意见者的厌恶甚至仇恨情绪的普遍程度——这种情绪是情感极化现象的关键因素，而情感极化正是导致“连接型民主”（connective democracy）概念产生的原因之一。研究重点分析了在2020年公投前几个月，社交媒体平台X/Twitter和YouTube上人们对四档政治讨论节目的评论（《零容忍》（Tolerancia cero）、《自由议程》（Pauta libre）、《此刻即兴发挥》（A esta hora se improvisa）以及《国家状态》（Estado nacional）的反应。研究采用定性文本分析方法，发现尽管评论中既有对反对派的负面评价，也有对相关议题的负面看法，同时还有积极的、提供信息的以及混合类型的评论，但这些评论并未偏离“连接型民主”的核心理念。事实上，“连接型民主”恰恰重视这类交流，因为它们有助于我们反思如何提升这些互动的质量和效果。",
     "summary": "分析2020年智利公投前社交媒体上电视节目的评论，探讨情感极化与连接性民主的关系，采用定性文本分析。",
     "reason": "研究社交媒体平台上的政治讨论，选题相关，但使用定性文本分析，无计算传播方法。",
     "tags": [
@@ -75019,7 +75189,7 @@
   {
     "id": 1421,
     "title": "#StopAsianHate as Hashtag Activism: Provocateurs, Celebrities, and Fan Practices of Collective Action Against Racism",
-    "title_zh": "#“StopAsianHate”作为标签行动主义：煽动者、名人以及公众集体行动对抗种族主义的方式",
+    "title_zh": "#“StopAsianHate”作为标签行动主义：煽动者、名人与公众集体行动反对种族主义",
     "authors": [
       "Saif Shahin",
       "Mingyi Hou"
@@ -75032,7 +75202,7 @@
     "relevance": "High",
     "score": null,
     "abstract": "The #StopAsianHate hashtag movement emerged as a challenge to the rising tide of racism in the United States during the coronavirus pandemic and contributed to the legislation of the Covid-19 Hate Crimes Act. Our research brings together concepts from social movement studies as well as network science and celebrity-fandom studies to examine a corpus of tweets about the movement. We employ a mixed-methods design combining structural topic modeling with digital discourse analysis. Even though the movement rose up against White Supremacist structural racism, we find that right-wing provocateurs with large followings often hijacked its hashtags to amplify sporadic Black-on-Asian violence. But the active participation of Asian celebrities such as BTS, with their own huge followings online, bolstered the movement. Their posts and statements about anti-Asian violence were heavily reposted and dominated the digital discourse. Crucially, we show how their fans helped boost the movement’s anti-racist agenda by repeatedly posting similar messages in concert, which we compare with the offline fan practice of “chanting” as a form of collective identity performance. While theories like the logic of connective action view digital activism as individualized and decentralized, our research elucidates its hierarchical structure and the oversized role of provocateurs and celebrities in raising the visibility of competing claims and agendas by re-contextualizing hashtags. At the same time, culture industries and practices can create bottom-up solidarities that can have a political impact by raising particular agendas in the digital attention economy.",
-    "abstract_zh": "#StopAsianHate 这一标签运动是在新冠病毒疫情期间，针对美国日益严重的种族主义现象而兴起的。该运动为《Covid-19仇恨犯罪法案》的制定起到了推动作用。我们的研究结合了社会运动研究、网络科学以及名人粉丝群体研究的理论，分析了大量关于该运动的推文数据。我们采用了混合方法论，将结构化主题建模与数字话语分析相结合来进行分析。尽管这一运动最初是针对白人至上主义的结构性种族主义而发起的，但我们发现，一些拥有大量粉丝的右翼煽动者常常利用这些标签来放大针对亚洲人的暴力事件。然而，像 BTS 这样的亚洲明星的积极参与极大地增强了这一运动的影响力——他们的帖子和关于反亚裔暴力的言论被广泛转发，主导了网络舆论。尤为关键的是，这些明星的粉丝通过反复发布类似的内容，帮助推动了运动的反种族主义议程；这种行为类似于现实生活中的“集体呼喊”行为，属于一种集体身份表达的形式。虽然一些理论认为数字 activism 是一种个体化且去中心化的现象，但我们的研究揭示了其背后的层级结构，以及煽动者和明星在通过重新解读标签来提升不同观点和议程可见性方面所起的关键作用。同时，文化产业和相关的社会实践能够促成自下而上的团结，从而在数字注意力经济中产生政治影响力，推动特定议程的传播。",
+    "abstract_zh": "#StopAsianHate 这一标签运动是在新冠病毒疫情期间，针对美国日益严重的种族主义现象而兴起的。该运动为《Covid-19仇恨犯罪法案》的制定起到了推动作用。我们的研究结合了社会运动研究、网络科学以及名人粉丝群体研究的理论，对相关推文进行了分析。我们采用了混合方法论，结合了结构化主题建模和数字话语分析技术。尽管这一运动最初是针对白人至上主义的结构性种族主义而发起的，但我们发现，一些拥有大量粉丝的右翼煽动者常常利用这些标签来放大针对亚洲人的暴力事件。然而，像 BTS 这样的亚洲明星的积极参与极大地增强了这一运动的影响力。他们的帖子和关于反亚裔暴力的声明被大量转发，主导了网络舆论。关键在于，这些明星的粉丝通过反复发布类似的信息，共同支持了运动的反种族主义议程，这种行为类似于现实生活中的“集体呼喊”行为，即一种集体身份表达的方式。虽然一些理论将数字 activism 视为个体化且去中心化的现象，但我们的研究揭示了其背后的层级结构，以及煽动者和明星在通过重新解读标签来提升不同观点和议程可见性方面所起的关键作用。同时，文化产业和相关的社会实践能够形成自下而上的团结力量，在数字注意力经济中推动特定政治议题的传播。",
     "summary": "研究#StopAsianHate标签运动中的煽动者、名人与粉丝行为，结合主题建模与数字话语分析，揭示行动主义的层级结构与话语竞争。",
     "reason": "聚焦社交媒体行动主义，使用结构性主题建模等计算方法分析推特数据，属典型计算传播研究。",
     "tags": [
@@ -75066,7 +75236,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "Erving Goffman’s dramaturgical model in The Presentation of Self in Everyday Life (1959) is frequently used to analyze online self-presentations in social media (SoMe) and other social network sites (SNS). The term “self-presentation” seems to be here to stay. We argue that Goffman’s dramaturgical model belongs to another era, and that online self-presentation needs new theoretical approaches and new content. Compared to its predominant usage in SoMe research, our approach involves a perspective shift from what do SoMe users present (e.g., social role, identity/identities, idealized self, authentic self, brand) to how they perform it, concerning the style of acting and dressing, the use of props, makeup, symbols and signs, emotions, and expressions. Since participation on SoMe platforms is largely about how SoMe users present themselves and how they want to be received, theatricality and performing arts theories can inform this how with a new and nuanced conceptual apparatus. Therefore, we create a theory-based typology on the concepts of theatricality, simple and complex acting, not-acting, not-not-me, imagined audience awareness, and absorption. We present six types of theatrical self-presentations and conditions, types suitable for analysis of SoMe performances.",
-    "abstract_zh": "埃文·戈夫曼（Erving Goffman）在《日常生活中的自我呈现》（The Presentation of Self in Everyday Life，1959年）中提出的戏剧理论模型，常被用于分析社交媒体（SoMe）和其他社交网络平台（SNS）上的在线自我呈现行为。虽然“自我呈现”这一概念似乎会长期存在，但我们认为戈夫曼的戏剧理论模型属于另一个时代，而在线自我呈现需要新的理论框架和新的研究方法。与目前SoMe研究中主流的关注点（如用户所呈现的社会角色、身份、理想化的自我、真实的自我或个人品牌）不同，我们的研究视角转向了用户如何进行自我呈现——具体包括他们的行为方式、着装风格、道具的使用、化妆、符号与标志的运用、情感表达等方面。由于在SoMe平台上的互动很大程度上取决于用户如何展示自己以及他们希望他人如何看待自己，因此戏剧理论和表演艺术的理论可以为这一现象提供新的、更为细致的概念框架。基于这些理论，我们构建了一个分类体系，涵盖了戏剧性表现、简单/复杂的表演行为、非表演行为、对想象中观众的感知以及用户完全投入情境的状态等概念。我们提出了六种类型的戏剧性自我呈现方式及其形成条件，这些分类适用于分析SoMe平台上的用户行为。",
+    "abstract_zh": "埃弗林·戈夫曼（Erving Goffman）在《日常生活中的自我呈现》（The Presentation of Self in Everyday Life，1959年）一书中提出的戏剧理论模型，常被用来分析社交媒体（SoMe）和其他社交网络平台（SNS）上的在线自我呈现行为。虽然“自我呈现”这一概念似乎会长期存在，但我们认为戈夫曼的戏剧理论模型属于另一个时代，而在线自我呈现需要新的理论框架和新的研究内容。与目前SoMe研究中主流的关注点（如用户所呈现的社会角色、身份、理想化的自我、真实的自我或个人品牌）不同，我们的研究视角转向了用户如何进行自我呈现——具体包括他们的行为方式、着装风格、道具的使用、化妆技巧、所使用的符号与标志、情感表达等方面。由于用户在SoMe平台上的互动很大程度上取决于他们希望如何被他人看待，因此戏剧理论和表演艺术的理论可以为这一现象提供新的、更为细致的概念性解释。基于这些理论，我们构建了一个分类体系，涵盖了戏剧性表现、简单与复杂的表演行为、非表演行为、对“非真实自我”的认知，以及用户对观众的想象等概念。我们提出了六种典型的戏剧性自我呈现类型及其相关条件，这些类型适用于分析SoMe平台上的用户行为。",
     "summary": "基于戈夫曼戏剧理论，提出社交媒体自我呈现的新戏剧类型学，从“呈现什么”转向“如何表演”。",
     "reason": "纯理论论文，无经验数据和计算方法，虽有社交媒体议题但属理论思辨。",
     "tags": [
@@ -75102,7 +75272,7 @@
     "relevance": "Low",
     "score": null,
     "abstract": "This article uses the dashboard camera (commonly, dashcam) to consider platformed logics of injury. Installed in cars, dashcams are often purposed to arbitrate accidents. In Singapore, however, dashcams have fostered huge communities on social media, who regularly post and comment on dashcam footage. Furthermore, due to the nature of their work, food delivery riders also constitute common subjects of these footages. The article explores these relationships by revealing, first, how dashcams have historically coupled exploitation and justice. It has relied on the broken bodies of platform workers for consumer interest, but attached with the promise that the technology can also address the structural injustice of platformed work. This capitalization of injury continues into the present, with dashcams also serving as the key site for the visibility of structural injury among food delivery riders.",
-    "abstract_zh": "本文利用车载摄像头（通常称为“dashcam”）来探讨与工作平台相关的伤害问题。车载摄像头安装在汽车上，其主要目的是用于记录交通事故。然而在新加坡，这些摄像头在社交媒体上催生了庞大的用户群体，人们经常在这些平台上发布和评论车载摄像头拍摄的视频。由于外卖骑手的职业特性，他们也成为这些视频中的常见拍摄对象。本文通过以下方式探讨了这些现象：首先，分析了车载摄像头如何在历史上将剥削与正义联系在一起；这些摄像头最初是为了满足消费者的好奇心而记录平台工作者的受伤情况，但同时也被宣传为能够解决平台工作所导致的结构性不公正问题。这种将伤害现象商业化的趋势一直持续至今，如今车载摄像头已成为揭示外卖骑手所遭受结构性伤害的关键工具。",
+    "abstract_zh": "本文利用车载摄像头（通常称为“行车记录仪”）来探讨与工作平台相关的伤害问题。这些摄像头安装在汽车上，其主要目的是用于记录交通事故。然而在新加坡，行车记录仪在社交媒体上催生了庞大的用户群体，人们经常在这些平台上发布和评论行车记录仪拍摄的视频。此外，由于外卖骑手的职业特性，他们也成为这些视频中的常见拍摄对象。本文通过以下方式探讨了这些现象：首先，分析了行车记录仪如何在历史上将剥削与正义联系在一起。行车记录仪最初被用来吸引消费者的兴趣（通过展示平台工作者受伤的情景），但同时也被宣传为能够解决平台工作所导致的结构性不公正问题。这种将伤害现象商业化的趋势一直持续至今，如今行车记录仪已成为揭示外卖骑手所遭受结构性伤害的关键工具。",
     "summary": "论文探讨行车记录仪如何与平台劳动伤害关联，分析新加坡社交媒体上的行车记录仪影像社区及食品配送骑手的可见性，属批判性技术研究。",
     "reason": "议题涉及社交媒体平台但为批判性分析，无计算数据与方法，属于文化研究取径。",
     "tags": [

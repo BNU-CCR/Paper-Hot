@@ -3,14 +3,14 @@
   "label": "算法治理与AI社会批判",
   "description": "探讨算法决策与生成式AI在治理、照护与公共服务中的权力结构、公平与批判议题。",
   "why_hot": "近30天日均速度小幅下降17%，仍覆盖7本期刊，热度趋稳。",
-  "hot_score": 55,
-  "growth": -0.167,
-  "growth_rate": -0.167,
-  "recent_rate": 0.1667,
-  "baseline_rate": 0.2,
-  "recent_count": 5,
-  "baseline_count": 30,
-  "journal_count": 7,
+  "hot_score": 47,
+  "growth": -0.286,
+  "growth_rate": -0.286,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.14,
+  "recent_count": 3,
+  "baseline_count": 21,
+  "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
@@ -43,13 +43,6 @@
       "summary": "文章提出“合成人道主义”与“算法见证”概念，分析2022至2025年间13个生成式AI图像用于人道传播的案例，批判其延续殖民与提取逻辑并削弱受影响社群的表征参与。"
     },
     {
-      "id": 2179,
-      "title": "Black technofeminism as critique of biological essentialism in AI anthropomorphization",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-22",
-      "summary": "文章以Black technofeminism批判AI拟人化中的种族化与性别化去人性化，质性审计YouTube搜索结果及Gemini、ChatGPT生成图像，揭示AI视觉文化默认白人化并扭曲黑人女性形象。"
-    },
-    {
       "id": 2127,
       "title": "Algorithmic authority in Spain: relative deprivation, hierarchy, and support for AI rule",
       "journal": "Journal of Information Technology & Politics",
@@ -62,13 +55,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-10-07",
       "summary": "文章扩展 Beer 的“数据凝视”概念，基于质性经验材料，考察青年在金融科技与修图应用中如何被算法分类、想象，又如何反向凝视，揭示数据产业凝视下的不平等与排斥再生产。"
-    },
-    {
-      "id": 2153,
-      "title": "Algorithms of Injustice: An Ethnographic Content Analysis of Black Youth’s Experiences with Racial Trauma Online",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "研究以批判种族技术理论为框架，用民族志内容分析考察社交媒体上种族创伤性内容（黑人死亡、数字骚扰、深伪、战争内容）对黑人青少年心理的影响，指出算法放大此类内容并造成替代性创伤，同时平台也是行动主义与互助空间。"
     },
     {
       "id": 2155,
@@ -85,32 +71,11 @@
       "summary": "论文结合7天日记调查与Twitter计算痕迹，分析算法策展信息线索如何影响感知算法响应性及其社交连接结果。"
     },
     {
-      "id": 2099,
-      "title": "Writing the Situated Self: Intersectional and Geographic Patterning in College Admissions Essays",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-09-28",
-      "summary": "研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。"
-    },
-    {
       "id": 2085,
       "title": "Judge, butler, and tool: algorithmic imaginaries and practices of Chinese parent vloggers of autistic children on Douyin",
       "journal": "Information Communication & Society",
       "published_date": "2026-09-23",
       "summary": "研究基于深度访谈与观察，考察中国自闭症儿童家长在抖音上如何想象并实践与算法的关系，提出算法扮演法官、管家和工具三种角色。"
-    },
-    {
-      "id": 2063,
-      "title": "Perceptions of artificial intelligence bias and gender inclusivity: toward a gendered divergence",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-22",
-      "summary": "论文考察公众对人工智能偏见的感知及其与性别包容性态度的关系，提出性别分化（gendered divergence）的分析视角，探讨不同性别群体在AI偏见认知上的差异及其传播意涵。"
-    },
-    {
-      "id": 2034,
-      "title": "Platformed partner markets: online dating and gendered assortative mating in Europe",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-14",
-      "summary": "论文考察欧洲在线约会平台中的性别化同质择偶现象，探讨平台化婚恋市场如何与性别化的匹配模式相互作用，但缺少摘要，具体数据与方法不明。"
     },
     {
       "id": 1979,
@@ -132,13 +97,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-08-21",
       "summary": "通过两年民族志田野调查，探讨算法招聘如何改变求职沟通条件，提出算法可读性概念，分析求职者被迫进行校准劳动以适配机器系统，重塑社会认可与公民参与。"
-    },
-    {
-      "id": 1957,
-      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-08-18",
-      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
     },
     {
       "id": 1928,
@@ -183,32 +141,11 @@
       "summary": "通过65个访谈，探讨中国年轻男同性恋者在算法环境下如何协商（不）智能性，提出“liminal intelligibility”概念，强调人机交互与人人交互的交叉。"
     },
     {
-      "id": 1908,
-      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
-    },
-    {
-      "id": 1998,
-      "title": "“Turns Out My Paternal Grandmother has 16% Native Blood”: Racialized DNA, Race Destabilization, and Digital Race-(re)making on Social Media",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
-    },
-    {
       "id": 2087,
       "title": "Wise Empathy Improves Well-Being on Instagram",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过生态瞬时干预训练260名被试在Instagram上运用明智共情，结合5,902次经验取样追踪其共情与幸福感，发现干预提升在线明智共情并改善幸福感，共情变化起中介作用。"
-    },
-    {
-      "id": 72,
-      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-29",
-      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
     },
     {
       "id": 76,
@@ -230,13 +167,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-06-16",
       "summary": "基于美国437名青少年全国调查，考察算法新闻消费与算法素养对新闻认知、动机、情感等多元取向的影响，发现关联有限且非决定性。"
-    },
-    {
-      "id": 82,
-      "title": "From swipes to intimacy: dating app adoption and offline hookup intention among male rural migrant workers",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-15",
-      "summary": "基于中国男性农民工调查数据，整合使用与满足和社会学习理论，考察约会应用采用的影响因素及对线下勾搭意图的中介作用，发现动机、社会认同、社会比较等通过采用影响意图，且受伦理疑虑调节。"
     },
     {
       "id": 32,
