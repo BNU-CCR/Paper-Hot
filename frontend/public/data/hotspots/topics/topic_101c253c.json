@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "算法治理与AI社会批判",
-  "description": "探讨算法决策与生成式AI在治理、照护与公共服务中的权力结构、公平与批判议题。",
-  "why_hot": "近30天日均速度小幅下降17%，仍覆盖7本期刊，热度趋稳。",
-  "hot_score": 47,
-  "growth": -0.286,
-  "growth_rate": -0.286,
+  "label": "算法治理与公共服务数字化",
+  "description": "考察算法与数据系统在智慧城市、照护和人道主义中的治理逻辑与不平等。",
+  "why_hot": "近30天3篇，日均发表速度较前期下降38%，研究热度有所回落。",
+  "hot_score": 46,
+  "growth": -0.375,
+  "growth_rate": -0.375,
   "recent_rate": 0.1,
-  "baseline_rate": 0.14,
+  "baseline_rate": 0.16,
   "recent_count": 3,
-  "baseline_count": 21,
+  "baseline_count": 24,
   "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "algorithmic authority",
-    "AI governance",
+    "algorithmic governance",
     "smart city",
-    "algorithmic witnessing",
-    "equity"
+    "public services",
+    "humanitarianism",
+    "disability"
   ],
   "papers": [
     {
@@ -57,6 +57,20 @@
       "summary": "文章扩展 Beer 的“数据凝视”概念，基于质性经验材料，考察青年在金融科技与修图应用中如何被算法分类、想象，又如何反向凝视，揭示数据产业凝视下的不平等与排斥再生产。"
     },
     {
+      "id": 2108,
+      "title": "Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-01",
+      "summary": "该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。"
+    },
+    {
+      "id": 2129,
+      "title": "Seeing Is Believing? Most People Struggle to Detect AI-Generated Images",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "通过预注册调查实验，检验人们辨别AI生成图像与真实照片的能力。发现人们平均仅相当于随机猜测，仅25岁以下年轻人、分析型思维者及AI熟练用户表现较好，且图像情境不影响辨别信心。"
+    },
+    {
       "id": 2155,
       "title": "Careful Dis/Connection: Bringing Digital (Inter)Dependent Relations Out From the Shadows of Autonomy",
       "journal": "Social Media + Society",
@@ -69,6 +83,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "论文结合7天日记调查与Twitter计算痕迹，分析算法策展信息线索如何影响感知算法响应性及其社交连接结果。"
+    },
+    {
+      "id": 2250,
+      "title": "Women Sustaining TikTok as Supplementary Information Infrastructure for Flexible Work Arrangements: Gendered Conditions, Community and Surveillance",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "研究将TikTok概念化为补充性信息基础设施，通过访谈14位发布灵活工作内容的女性创作者，分析其关系性信息实践、可信度维护、平台风险与职场监视，揭示性别化条件下的创作者劳动与信息正义的不均衡。"
     },
     {
       "id": 2085,

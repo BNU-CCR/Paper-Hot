@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-11-12 21:45 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-11-16 21:29 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-11-13 | [The platform prism: affordance attributions for affective group polarization in China’s public discourse](<https://doi.org/10.1080/19331681.2026.2762956>) | Journal of Information Technology & Politics | 该研究基于可供性理论，对微博与头条两平台用户评论做比较情感分析，论证社会、算法与规制可供性同用户想象可供性交互，将个体负面偏差放大为情感群体极化，提出“可供性棱镜折射效应”，并主张通过技术架构升级与算法透明度治理情绪升级。 |
+| 2026-11-12 | [Multum in Parvo: the impact of narrative structure in short video description texts on dissemination effectiveness](<https://doi.org/10.1504/ijmc.2027.10082283>) | International Journal of Mobile Communications | 论文探讨短视频描述文本中的叙事结构如何影响传播效果，可能通过文本特征提取与传播数据建模进行分析。 |
+| 2026-11-12 | [Digital bystanders to genocide: Moral expectations, social media, and passive outrage online](<https://doi.org/10.1177/17506352261501385>) | Media War & Conflict | 论文以维吾尔种族灭绝为例，采集Twitter数据并用数字文本分析构建数字旁观者行为矩阵，讨论技术道德变迁与旁观行为的媒介化。 |
 | 2026-11-09 | [Morale in Political Campaigning: Are Political Candidates’ Moral Concerns Coherent with Their Campaign Rhetoric?](<https://doi.org/10.1080/10584609.2026.2757594>) | Political Communication | 研究结合德国州选举候选人调查与其Meta帖子，通过众包标注和Transformer模型预测道德标签，检验候选人道德信念与竞选修辞的一致性及党派差异。 |
 | 2026-11-02 | [AI Chatbot’s Self-Confidence Cues Shape Users’ Impressions of the Chatbot, but Not Accuracy Judgments of Hallucinated Responses](<https://doi.org/10.1080/08838151.2026.2752936>) | Journal of Broadcasting & Electronic Media | 通过2×2×2在线实验（N=738）考察AI聊天机器人自信水平、变异性与呈现模态如何影响用户对机器人及幻觉输出的评价。 |
-| 2026-11-01 | [Shifting priorities? Coverage of the Russia-Ukraine war in Central European online news media (2022–2026)](<https://doi.org/10.1177/17506352261493702>) | Media War & Conflict | 论文分析2022至2026年中欧八家在线新闻媒体对俄乌战争的报道，考察战争显著性及官僚、国防、经济、人道四维度随时间变化，并检验国家语境与政治倾向的影响。 |
-| 2026-10-30 | [Cue production and evaluative uptake: prompt framing and user judgments in AI-Mediated health communication](<https://doi.org/10.1080/1369118x.2026.2752107>) | Information Communication & Society | 通过随机提示实验考察用户提示框架如何影响ChatGPT的情感与支持性线索生产，以及这些线索是否影响用户可信度与信任评价。 |
-| 2026-10-26 | [Conversations about air pollution in New Delhi on X: Causes, solutions and perceived effects](<https://doi.org/10.1177/17427665261489795>) | Global Media and Communication | 研究分析新德里10万余条X帖子，考察公众对空气污染成因、解决方案与影响的认知框架，发现公民话语与主流媒体叙事存在显著差异：用户更多归咎秸秆焚烧与节日烟花，并突出经济与生活影响。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-11-12 21:45 GMT+8
+> 最近更新：2026-11-16 21:29 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 2242 |
-| 当期新增 | 22 |
-| High / Medium / Low | 619 / 711 / 912 |
-| Pending / Screened / Quarantined / Error | 0 / 2242 / 0 / 0 |
-| 已发布精选 | 619 |
-| 期刊全量导出 | 2242 |
+| 数据库论文 | 2255 |
+| 当期新增 | 27 |
+| High / Medium / Low | 623 / 713 / 919 |
+| Pending / Screened / Quarantined / Error | 0 / 2253 / 0 / 2 |
+| 已发布精选 | 623 |
+| 期刊全量导出 | 2255 |
 
-覆盖验证：OpenAlex DOI 2228，Crossref DOI 980，匹配 923，Crossref 中尚缺 57。
+覆盖验证：OpenAlex DOI 2241，Crossref DOI 846，匹配 800，Crossref 中尚缺 46。
 
 <!-- paper-hot:auto-stats:end -->
 

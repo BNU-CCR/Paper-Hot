@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "AI介入在线协商与信任问责",
-  "description": "研究AI驱动的反驳性干预如何影响在线协商质量，以及AI系统的信任建构与问责框架。",
-  "why_hot": "近30天日均发表速度较前期下降约四成，关注度有所回落。",
-  "hot_score": 42,
-  "growth": -0.444,
-  "growth_rate": -0.444,
-  "recent_rate": 0.1,
-  "baseline_rate": 0.18,
-  "recent_count": 3,
-  "baseline_count": 27,
-  "journal_count": 8,
+  "label": "AI介入在线审议与信任",
+  "description": "探讨AI干预、讨论机制与生成式系统如何影响在线审议质量、民主倾听与用户信任。",
+  "why_hot": "近30天4篇，日均发表速度较前期下降31%，研究热度有所回落。",
+  "hot_score": 52,
+  "growth": -0.31,
+  "growth_rate": -0.31,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.1933,
+  "recent_count": 4,
+  "baseline_count": 29,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "online deliberation",
-    "counter-attitudinal intervention",
-    "AI trust",
-    "accountability",
-    "chatbot"
+    "AI intervention",
+    "democratic listening",
+    "trust",
+    "large language models"
   ],
   "papers": [
     {
@@ -27,6 +27,13 @@
       "journal": "Journal of Language and Social Psychology",
       "published_date": "2026-10-26",
       "summary": "通过10天模拟公民议会三波实验，检验AI反态度评论推荐是否提升观点平等感知、审议体验并减少不文明表达，发现其对主观审议体验有间接效应，但对不文明行为作用有限。"
+    },
+    {
+      "id": 2187,
+      "title": "Enhancing Democratic Listening in Online Discussions: The Role of Reaction Buttons, Discussion Moderation, and Large Language Models",
+      "journal": "Political Communication",
+      "published_date": "2026-10-23",
+      "summary": "论文开发带倾听导向反应按钮及人类/GPT-4审核的在线讨论平台，对740名被试开展40组实验，分析4355条评论，发现按钮需结合AI审核才能提升民主倾听水平。"
     },
     {
       "id": 2190,
@@ -41,6 +48,13 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-10-21",
       "summary": "提出GIRAAF框架，从信息准备度、事实正确性、规范一致性、来源实践、透明度与可解释性、响应适应性六个维度评估大模型与AI聊天机器人的问责性，为学者、开发者与政策制定者提供诊断工具与共享话语。"
+    },
+    {
+      "id": 2148,
+      "title": "Who Verifies the Verifiers? AI, Local Knowledge Production, and Credibility in Tanzania’s 2025 Election",
+      "journal": "Political Communication",
+      "published_date": "2026-10-11",
+      "summary": "研究考察坦桑尼亚2025年大选期间AI事实核查工具与社区可信度实践的互动，基于五地区342份媒体材料、87次访谈与田野观察，发现三类核查断裂：AI翻译改写原意、更正与谣言渠道错位、社区更信任亲身经验与人际讨论，据此解释准确核查为何仍难以影响公众。"
     },
     {
       "id": 2110,
@@ -92,6 +106,20 @@
       "summary": "基于荷兰样本（N=2930），分析推荐系统使用与政治内外部效能的关系，发现频繁使用通过感知信息接触和观点一致影响效能。"
     },
     {
+      "id": 394,
+      "title": "The Costs of Governing Truth: Fact-Checking, Perceived Censorship, and Political Participation Across Governance Contexts",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-07-27",
+      "summary": "基于新加坡、中国、美国调查数据，探讨深度伪造担忧、事实核查与感知审查如何影响社交媒体政治参与，发现感知审查是参与退出的关键条件。"
+    },
+    {
+      "id": 208,
+      "title": "Political Fact-Checking Efforts are Constrained by Deficiencies in Coverage, Speed, and Reach",
+      "journal": "Political Communication",
+      "published_date": "2026-07-19",
+      "summary": "研究评估2022年美国中期选举期间政治事实核查的局限性，发现其覆盖不足、发布滞后、在党派社群中传播受限，并反驳党派偏见假设。"
+    },
+    {
       "id": 65,
       "title": "Socioeconomic and digital divides in public support for AI-driven welfare decisions: cross-national evidence from 21 countries",
       "journal": "Information Communication & Society",
@@ -106,18 +134,11 @@
       "summary": "通过2x4被试间实验，考察不同解释策略（开发者、程序、组合、无）对AI生成新闻可信度的影响，发现程序性和组合解释提升可信度，且机器启发式起中介作用。"
     },
     {
-      "id": 613,
-      "title": "Exploring the forces driving ChatGPT diffusion on X: An integrated theoretical perspective",
-      "journal": "Global Media and Communication",
-      "published_date": "2026-07-02",
-      "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
-    },
-    {
-      "id": 1994,
-      "title": "“Fairness Labels” in Feeds: Process Disclosures, Provenance, and User Choice Among Short‑Video Creators in Mainland China",
+      "id": 286,
+      "title": "Making Sense of AI-Generated Disinformation: How Audience Interpretations Influence the Impact of Deepfakes in Kenya",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "通过移动在线实验，研究面向中国短视频创作者的公平性披露对感知程序正义、分配公平及合法性的影响。"
+      "summary": "通过肯尼亚7000人调查实验，考察社交评论对政治深度伪造效果的影响，发现质疑评论可部分恢复政治家支持，且党派偏见影响判断，强调集体意义建构的作用。"
     },
     {
       "id": 212,
@@ -176,6 +197,13 @@
       "summary": "通过访谈和案例比较，研究AI在阿拉伯语事实核查中的整合，发现人机协同模式，强调程序透明和人类主导。"
     },
     {
+      "id": 79,
+      "title": "Inaccuracies, omissions, and bullshit: 2024 U.S. elections through the eyes of ChatGPT",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-22",
+      "summary": "通过审计ChatGPT-4o mini在2024年美国大选前的输出，发现其存在不准确、遗漏和胡扯等问题，提出从 curative governance 到 generative governance 的转变，揭示生成式AI对民主信息环境的潜在危害。"
+    },
+    {
       "id": 81,
       "title": "Italians’ attitudes towards AI: how technology issues travel across social conversation",
       "journal": "Information Communication & Society",
@@ -223,13 +251,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-05-23",
       "summary": "文章以Truth-Default Theory为视角，探讨人类与AI、错误信息及算法事实核查的交互，分析人类易受错误信息影响的机制及其对AI应用的启示。"
-    },
-    {
-      "id": 418,
-      "title": "AI Claims Authority: How Source and Corrective Strategy Shape Perceived Credibility in Combating Misinformation",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-05-16",
-      "summary": "通过3×2×2混合实验，考察来源（人类/AI/人机混合）与纠正策略对错误信息纠正可信度的影响，发现AI使用权威策略降低可信度，但机器启发式信念和权威人格可缓解此效应。"
     }
   ],
   "paper_edges": []

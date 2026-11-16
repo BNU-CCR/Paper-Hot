@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "数字传播伦理与危机沟通",
-  "description": "聚焦组织在危机与虚假信息情境中的传播伦理、道德领导与视觉化数据表达。",
-  "why_hot": "近30天日均速度较前期提升近五成，议题扩散至8本期刊。",
-  "hot_score": 83,
-  "growth": 1.0,
-  "growth_rate": 1.0,
-  "recent_rate": 0.2,
-  "baseline_rate": 0.1,
-  "recent_count": 6,
-  "baseline_count": 15,
+  "label": "文化机构数字传播与视觉情感",
+  "description": "关注博物馆等文化机构的社交平台传播实践及数据可视化的情感表达。",
+  "why_hot": "近30天2篇，日均发表速度较前期下降47%，研究热度有所回落。",
+  "hot_score": 39,
+  "growth": -0.474,
+  "growth_rate": -0.474,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.1267,
+  "recent_count": 2,
+  "baseline_count": 19,
   "journal_count": 8,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
-    "crisis communication",
-    "ethics of care",
-    "data visualisation",
-    "moral courage",
-    "organizational communication"
+    "cultural institutions",
+    "museum communication",
+    "Instagram",
+    "data visualization",
+    "emotion"
   ],
   "papers": [
     {
@@ -146,6 +146,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-26",
       "summary": "基于台湾环保NGO与公民科技社群合作的案例，探讨环境数据行动主义中NGO作为公民数据中介的角色，提出数据正义的实践理论。"
+    },
+    {
+      "id": 256,
+      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-15",
+      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
     },
     {
       "id": 440,

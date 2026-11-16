@@ -1,15 +1,15 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "宣传基础设施与虚假信息治理",
-  "description": "聚焦国家宣传、信息运作与虚假信息治理，及其在多平台上的传播机制与受众参与。",
-  "why_hot": "近30天日均发表速度较前期提升约六成，为本期最活跃议题。",
-  "hot_score": 80,
-  "growth": 0.4,
-  "growth_rate": 0.4,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.1667,
-  "recent_count": 7,
-  "baseline_count": 25,
+  "label": "宣传、虚假信息与信息治理",
+  "description": "研究宣传与虚假信息的传播机制、受众参与及国家层面的信息治理策略。",
+  "why_hot": "近30天6篇，日均发表速度较前期微升7%，研究活动基本持平。",
+  "hot_score": 73,
+  "growth": 0.071,
+  "growth_rate": 0.071,
+  "recent_rate": 0.2,
+  "baseline_rate": 0.1867,
+  "recent_count": 6,
+  "baseline_count": 28,
   "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
@@ -17,8 +17,8 @@
     "propaganda",
     "disinformation",
     "information operations",
-    "strategic communication",
-    "platform governance"
+    "war coverage",
+    "governance"
   ],
   "papers": [
     {
@@ -69,6 +69,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-10-14",
       "summary": "研究通过随机实验比较真实与AI生成战争视频对社交媒体用户感知真实性、信任、情绪唤醒、态度及行为意向的影响。"
+    },
+    {
+      "id": 2151,
+      "title": "The Threads that Fray: Wedge strategies and Chinese influence operations in the Indo-Pacific",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-12",
+      "summary": "论文考察中国在西方社交媒体平台上的影响力行动，结合楔子战略与网络颠覆，评估其对美国在印太（重点为澳大利亚与菲律宾）安全架构的挑战，包括正面宣传、削弱对美信任及干预他国国内政治。"
     },
     {
       "id": 2119,
@@ -146,6 +153,20 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-08-22",
       "summary": "论文提出“创伤自拍”概念，分析2023年10月7日音乐节袭击中约300个受害者生成视频，构建动机与美学类型学，探讨当代战争中手机拍摄的见证形式及“主动受害者”身份的政治意涵。"
+    },
+    {
+      "id": 1964,
+      "title": "Enemies Abroad, Animosity at Home: Media Influence on U.S.-China Policy and Anti-Asian Sentiment",
+      "journal": "Political Communication",
+      "published_date": "2026-08-16",
+      "summary": "通过分析2010-2020年CNN和福克斯新闻文本及全国调查实验，考察中国威胁叙事如何影响美国对华政策支持与反亚裔情绪，发现威胁叙事加剧鹰派态度和种族偏见，尤其在共和党人中。"
+    },
+    {
+      "id": 1933,
+      "title": "Entertainment as Trojan Horse: Voluntary Consumption of Propaganda in China",
+      "journal": "Political Communication",
+      "published_date": "2026-08-13",
+      "summary": "研究中国宣传电影中娱乐元素如何提升观众自愿消费和接受政治教化，采用观察数据与预注册调查实验。"
     },
     {
       "id": 483,
@@ -237,13 +258,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-05-27",
       "summary": "提出冲突视觉道德化类型学，分析六家媒体736个以色列-加沙战争视频，发现不同道德维度及其参与度差异，扩展MFT并建立可复制多模态模型。"
-    },
-    {
-      "id": 502,
-      "title": "Beyond neutrality? Australian media coverage of the Israel–Gaza war",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-05-19",
-      "summary": "研究澳大利亚五家主流媒体对以色列-加沙冲突的报道框架，分析5183篇文章，发现从外交政治框架转向危机冲突框架，提出冲突启动理论。"
     }
   ],
   "paper_edges": []

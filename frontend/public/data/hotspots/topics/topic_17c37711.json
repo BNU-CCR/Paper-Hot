@@ -1,32 +1,46 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "生成式AI交互线索与用户判断",
-  "description": "考察聊天机器人自信线索、提示框架如何影响用户印象、准确性判断与人机信任。",
-  "why_hot": "近30天日均速度较前期升11%，议题扩散至13本期刊，研究持续升温。",
-  "hot_score": 67,
-  "growth": 0.087,
-  "growth_rate": 0.087,
-  "recent_rate": 0.1667,
+  "label": "人机亲密关系与AI拟人化",
+  "description": "考察AI聊天机器人的拟人化线索、满足感与信任如何影响人机亲密关系及用户评价。",
+  "why_hot": "近30天6篇，日均发表速度较前期上升30%，研究活动升温。",
+  "hot_score": 79,
+  "growth": 0.304,
+  "growth_rate": 0.304,
+  "recent_rate": 0.2,
   "baseline_rate": 0.1533,
-  "recent_count": 5,
+  "recent_count": 6,
   "baseline_count": 23,
   "journal_count": 11,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "AI chatbot",
-    "prompt framing",
-    "machine behavior",
-    "hallucination",
-    "human-AI communication"
+    "AI chatbots",
+    "anthropomorphism",
+    "human-AI relationships",
+    "intimacy",
+    "trust"
   ],
   "papers": [
+    {
+      "id": 2247,
+      "title": "“I Think of Myself as Other People's AI”: Robotomorphy, Self-Robotization, and AI's Influence on Human–Human Intimacy",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-11-12",
+      "summary": "研究通过29名与AI有亲密关系用户的半结构化访谈，探讨机器人化体验如何影响自我理解及人际亲密关系，提出“自我机器人化”概念。"
+    },
     {
       "id": 2241,
       "title": "From Engagement to Advocacy: How AI Chatbot Gratifications Shape Attitudes and Organization–Public Relationships",
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-11-10",
       "summary": "基于美国聊天机器人用户的调查数据，检验不同满足类型如何影响情感反应，进而作用于购买意愿与公司倡导，强调 AI 聊天机器人作为关系促进者的角色。"
+    },
+    {
+      "id": 2222,
+      "title": "Love Takes Time: Faster Romantic Onset, Lower Closeness, and Similarity Benefits in Human-AI Relationships",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-11-02",
+      "summary": "研究通过调查分析人-AI浪漫关系的发展速度、亲密度与相似性，发现与AI坠入爱河更快但亲密度低于人类伴侣，感知相似性正向关联关系质量。"
     },
     {
       "id": 2226,
@@ -62,20 +76,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-10-09",
       "summary": "通过实验操纵165名美国成年人对算法效能的信任信念，评估同一组在线约会档案，检验信任信念如何影响约会评价与情绪。结果显示高信任组感知约会更成功，进而更自信愉悦、更少焦虑悲伤，提示算法信念存在自我实现预言效应。"
-    },
-    {
-      "id": 2108,
-      "title": "Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-01",
-      "summary": "该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。"
-    },
-    {
-      "id": 2129,
-      "title": "Seeing Is Believing? Most People Struggle to Detect AI-Generated Images",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "通过预注册调查实验，检验人们辨别AI生成图像与真实照片的能力。发现人们平均仅相当于随机猜测，仅25岁以下年轻人、分析型思维者及AI熟练用户表现较好，且图像情境不影响辨别信心。"
     },
     {
       "id": 2081,
@@ -188,6 +188,13 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-06-22",
       "summary": "基于助推理论与SOR框架，通过在线实验检验AI透明度、奖励和追踪功能对智能垃圾桶采纳意愿的影响，发现信任和感知价值的中介作用及交互效应。"
+    },
+    {
+      "id": 82,
+      "title": "From swipes to intimacy: dating app adoption and offline hookup intention among male rural migrant workers",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-15",
+      "summary": "基于中国男性农民工调查数据，整合使用与满足和社会学习理论，考察约会应用采用的影响因素及对线下勾搭意图的中介作用，发现动机、社会认同、社会比较等通过采用影响意图，且受伦理疑虑调节。"
     },
     {
       "id": 412,
