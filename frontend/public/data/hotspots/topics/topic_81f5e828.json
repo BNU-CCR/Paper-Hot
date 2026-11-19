@@ -1,0 +1,243 @@
+{
+  "topic_id": "topic_81f5e828",
+  "label": "平台可供性与情感群体极化",
+  "description": "探讨平台可供性归因与身份认同过程如何塑造情感极化及社交媒体使用的时间评价。",
+  "why_hot": "近30天仅2篇，日均速度较前期降66%，研究活动明显降温但期刊分布仍广。",
+  "hot_score": 33,
+  "growth": -0.655,
+  "growth_rate": -0.655,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.1933,
+  "recent_count": 2,
+  "baseline_count": 29,
+  "journal_count": 9,
+  "lineage_status": "continued",
+  "status": "emerging",
+  "keywords": [
+    "affordances",
+    "affective polarization",
+    "social identity",
+    "social media use",
+    "group polarization"
+  ],
+  "papers": [
+    {
+      "id": 2248,
+      "title": "The platform prism: affordance attributions for affective group polarization in China’s public discourse",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-11-13",
+      "summary": "该研究基于可供性理论，对微博与头条两平台用户评论做比较情感分析，论证社会、算法与规制可供性同用户想象可供性交互，将个体负面偏差放大为情感群体极化，提出“可供性棱镜折射效应”，并主张通过技术架构升级与算法透明度治理情绪升级。"
+    },
+    {
+      "id": 2239,
+      "title": "Too Much, Too Little, or Just Right? Identity Processes and Motivations Explain Everyday Evaluations of Time Spent on Social Media",
+      "journal": "Communication Research",
+      "published_date": "2026-11-08",
+      "summary": "研究探讨新兴成年人对社交媒体使用时间的评价如何与身份发展差异及身份相关使用动机相关，基于纵向田野研究数据发现平衡感知取决于使用是否契合身份需求。"
+    },
+    {
+      "id": 2145,
+      "title": "(In)congruent synergies? Discursive boundary-spanning between the Italian anti-gender galaxy and anti-trans groups",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-10-12",
+      "summary": "论文研究意大利反性别与反跨性别群体在社交媒体上的话语结盟，采集 2021–2023 年 22 个行动者的 Facebook/Instagram 帖文，用主题模型、计算化框架语义语法与质性框架分析，揭示跨部门话语趋同及其脆弱性与保留的意识形态分歧。"
+    },
+    {
+      "id": 2166,
+      "title": "Automated Influence: How Social Bots Reshape Discursive Opportunities in Online Activism",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "论文改进话语机会结构框架，用计算机辅助内容分析比较BLM和XR抗议中支持与反对机器人的话语策略。"
+    },
+    {
+      "id": 2167,
+      "title": "Social Media Platform Repertoires in Everyday Life: Measuring Social Media Use With Passive Metering",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "研究对1457名意大利成年人进行6周手机与电脑被动计量，量化Facebook、Instagram、TikTok、YouTube、Twitter/X的使用时间及社会人口差异。发现Facebook与YouTube占近四分之三使用时长，超90%为App端使用，年龄是最强预测因素。"
+    },
+    {
+      "id": 2065,
+      "title": "When Movement Widens the Gap: The Contingent Effect of the Chinese #MeToo Movement on Feminist Attitudes",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-09-21",
+      "summary": "论文基于中国综合社会调查2010—2023年全国代表性数据，检验中国#MeToo运动对公众女性主义态度的影响，发现亲女性主义态度总体上升但沿性别身份与数字鸿沟呈现不均衡分化，提出社会技术权变框架解释运动的文化后果。"
+    },
+    {
+      "id": 2054,
+      "title": "Does Office Type Determine Gendered Campaign Messages?",
+      "journal": "Political Communication",
+      "published_date": "2026-09-18",
+      "summary": "研究考察候选人性别如何影响不同机构与层级下的竞选信息。基于2000-2022年韩国17次全国与地方选举中46,966份官方竞选手册，以关系性语言和女性相关政策词汇测量性别化信息。发现女性候选人更强调关系身份与女性政策议题，且性别差异在立法选举中大于行政选举，并随选举层级下沉而扩大。"
+    },
+    {
+      "id": 2052,
+      "title": "The few, the loud: platform-mediated articulation of conspiratorial discourse by political elites on X and Facebook",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-17",
+      "summary": "论文识别比利时、芬兰、波兰三国政治精英中的“阴谋论企业家”，基于 702 条人工标注帖文，用梯度阈值分析与逻辑回归考察其意识形态特征、跨平台差异及互动效果，发现阴谋论话语主要由少数极右政客驱动，Facebook 偏完整叙事、X 偏碎片化表达。"
+    },
+    {
+      "id": 1989,
+      "title": "From #StayWoke to “Culture Wars”: How Social Justice Discourse is Separately and Synergistically Politicized on Twitter and YouTube",
+      "journal": "Political Communication",
+      "published_date": "2026-08-31",
+      "summary": "利用Twitter和YouTube 2012-2022数据，分析“woke”话语如何被政治化，比较平台差异及跨平台协调传播。"
+    },
+    {
+      "id": 1952,
+      "title": "Generational warfare online? Social media use and intergroup attitudes in a national survey",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-20",
+      "summary": "利用美国全国调查数据（n=1,221），检验社交媒体使用与代际态度关联，发现总体关联微弱，平台特异性影响有限，讨论极端话语的可见性机制。"
+    },
+    {
+      "id": 1966,
+      "title": "Hierarchical barriers: how media-flow networks reproduce inequality on X",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-20",
+      "summary": "研究通过分析X上223家媒体及15613个账户的互动网络，运用ERGM揭示媒体间关系性可见性在国家地位层级间的等级性障碍，探讨平台化数字不平等。"
+    },
+    {
+      "id": 1959,
+      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-18",
+      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
+    },
+    {
+      "id": 1940,
+      "title": "Multi-platform research in the light of technology affordances: networks of the far right in Germany",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-08-10",
+      "summary": "通过网络分析比较德国极右翼在Facebook、Twitter、Instagram、YouTube和Telegram上的网络结构，揭示平台技术可供性对网络模式的影响。"
+    },
+    {
+      "id": 1897,
+      "title": "Twitter Conversations: Gendered Issue Publics Among Women",
+      "journal": "Communication Research",
+      "published_date": "2026-08-03",
+      "summary": "利用2020和2022选举期间Twitter数据，分析性别与党派如何影响女性政治议题讨论，发现精英与非精英用户差异。"
+    },
+    {
+      "id": 13,
+      "title": "Social media, social identity, and the construction of perceived gender conflict: evidence from a national survey in South Korea",
+      "journal": "Asian Journal of Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于韩国社会融合调查数据，分析通讯应用、视频平台和SNS使用与感知性别冲突的关系，并考察年龄、教育和政治倾向的调节作用。"
+    },
+    {
+      "id": 56,
+      "title": "The echoes from social media: modeling how filter bubbles and network structure shape echo chamber emergence",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-27",
+      "summary": "通过agent-based模型整合社交网络与意见动态，模拟不同同质性和选择性暴露条件下回音室的形成，发现信息暴露显著影响回音室涌现，而算法过滤不一定保证其持续。"
+    },
+    {
+      "id": 204,
+      "title": "Networked Counterpublics and Contentious Publicity: A Cross-Platform Analysis of QAnon on Parler and Twitter",
+      "journal": "Political Communication",
+      "published_date": "2026-07-27",
+      "summary": "基于affordance理论，跨平台分析QAnon在Parler和Twitter上2018-2021年的可见性、关联性和持续性实践，探讨极端网络反公众的身份建构与公共竞争动态。"
+    },
+    {
+      "id": 488,
+      "title": "Social media and protest planning: An examination of the 2024 #EndBadGovernance protests in Nigeria",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-07-23",
+      "summary": "基于尼日利亚400份调查数据，检验Instagram、Facebook、WhatsApp和X在2024年#EndBadGovernance抗议规划中的作用，发现前三者增加首日参与概率，X则降低，强调平台使用因国家而异。"
+    },
+    {
+      "id": 57,
+      "title": "Everyday feminist tagging as techno-rhetorical strategy: interference and curation through Instagram hashtags in #Kvinnostrejk",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-22",
+      "summary": "研究瑞典女性主义倡议#Kvinnostreik的日常标签实践，提出技术修辞策略概念，分析标签如何影响可见性并串联叙事，属数字文化研究。"
+    },
+    {
+      "id": 68,
+      "title": "Linking names with frames: the interplay of moral entities and moral frames in Chinese online gender debates",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-07-07",
+      "summary": "该研究通过词嵌入分析中国三起性别暴力事件评论，考察道德实体扩展与道德框架采用的关系，发现性别特定术语更贴近道德基础，而中性术语侧重程序性评价，揭示道德边界建构机制。"
+    },
+    {
+      "id": 613,
+      "title": "Exploring the forces driving ChatGPT diffusion on X: An integrated theoretical perspective",
+      "journal": "Global Media and Communication",
+      "published_date": "2026-07-02",
+      "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
+    },
+    {
+      "id": 282,
+      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
+    },
+    {
+      "id": 284,
+      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
+    },
+    {
+      "id": 1994,
+      "title": "“Fairness Labels” in Feeds: Process Disclosures, Provenance, and User Choice Among Short‑Video Creators in Mainland China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过移动在线实验，研究面向中国短视频创作者的公平性披露对感知程序正义、分配公平及合法性的影响。"
+    },
+    {
+      "id": 253,
+      "title": "No time or tech for online news: How social and digital inequalities contribute to gender gaps in online news consumption",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-29",
+      "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
+    },
+    {
+      "id": 256,
+      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-15",
+      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
+    },
+    {
+      "id": 85,
+      "title": "Latent communicative figurations: mapping quasi-visible strategic relational structures on Facebook",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-13",
+      "summary": "本文提出潜在传播构型概念，利用Facebook可再生能源相关品牌帖子构建双模网络，揭示战略伙伴与页面间的隐性关系，并探讨平台逻辑对新闻媒体角色的影响。"
+    },
+    {
+      "id": 87,
+      "title": "The viral gender antagonism on social media: examining the role of multimodal framing and gender identity",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-11",
+      "summary": "研究基于微博22,925条帖子和115万条评论，运用广义线性混合模型分析多模态框架和性别身份对性别对抗性话语的影响，发现煽情化和个性化框架加剧对抗，娱乐化框架减弱对抗，且性别动态具有调节作用。"
+    },
+    {
+      "id": 215,
+      "title": "Evaluating Echo Chambers, Rabbit Holes, and Radicalization Pathways on YouTube",
+      "journal": "Political Communication",
+      "published_date": "2026-06-10",
+      "summary": "通过估计YouTube视频意识形态和原创审计设计，发现用户处于轻度意识形态回音室，推荐算法产生内容兔子洞，但未发现激进路径，算法倾向推荐温和保守内容。"
+    },
+    {
+      "id": 258,
+      "title": "The impact of Facebook network heterogeneity on ethnic polarization in Afghanistan: a serial mediation analysis approach",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-05",
+      "summary": "基于阿富汗549份调查数据，通过序列中介分析探究Facebook网络异质性与民族极化的关系，发现网络异质性通过内容接触、感知学习、群际接触质量和信任间接减弱民族极化。"
+    },
+    {
+      "id": 218,
+      "title": "The Prevalence and Consequences of Women’s Algorithmic Underrepresentation in Cross-National Political Google Searches",
+      "journal": "Political Communication",
+      "published_date": "2026-05-27",
+      "summary": "论文研究跨国政治Google搜索中女性算法代表性不足的现象及其后果，属于计算传播领域。"
+    }
+  ],
+  "paper_edges": []
+}

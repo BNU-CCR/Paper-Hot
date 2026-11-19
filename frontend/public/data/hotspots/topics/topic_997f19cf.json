@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "网络仇恨与数字旁观者道德",
-  "description": "关注在线仇恨言论中的旁观者行为、社会认可与道德期待，兼及技术批判视角。",
-  "why_hot": "近30天3篇，日均发表速度较前期下降17%，研究热度小幅回落。",
-  "hot_score": 53,
-  "growth": -0.167,
-  "growth_rate": -0.167,
-  "recent_rate": 0.1,
-  "baseline_rate": 0.12,
-  "recent_count": 3,
-  "baseline_count": 18,
-  "journal_count": 6,
+  "label": "网络旁观行为与在线仇恨表达",
+  "description": "考察数字平台上的旁观者冷漠、道德期待与在线仇恨言论的社会认可机制。",
+  "why_hot": "近30天2篇，日均速度较前期降41%，研究热度趋于回落。",
+  "hot_score": 39,
+  "growth": -0.412,
+  "growth_rate": -0.412,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.1133,
+  "recent_count": 2,
+  "baseline_count": 17,
+  "journal_count": 8,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
     "online hate",
     "bystanders",
     "moral expectations",
     "social approval",
-    "digital activism"
+    "passive outrage"
   ],
   "papers": [
     {
@@ -36,11 +36,11 @@
       "summary": "研究基于Parler 2018—2021年1.1亿条消息，检验社会认可理论，发现点赞等认可信号对仇恨言论与毒性程度存在即时负向、长期正向的差异化预测效应。"
     },
     {
-      "id": 2179,
-      "title": "Black technofeminism as critique of biological essentialism in AI anthropomorphization",
+      "id": 2146,
+      "title": "Hearts for hating Activists: how far-right actors dominate polarized TikTok debates on climate protest",
       "journal": "Information Communication & Society",
-      "published_date": "2026-10-22",
-      "summary": "文章以Black technofeminism批判AI拟人化中的种族化与性别化去人性化，质性审计YouTube搜索结果及Gemini、ChatGPT生成图像，揭示AI视觉文化默认白人化并扭曲黑人女性形象。"
+      "published_date": "2026-10-11",
+      "summary": "研究自动转录1700条德国政客TikTok视频及5.3万条评论，结合大模型框架分类、立场检测与网络分析，比较气候运动、改革派与破坏性抗议讨论的极化程度，发现极右翼政客主导对抗性网络并从极化中获益。"
     },
     {
       "id": 2122,
@@ -50,18 +50,25 @@
       "summary": "基于r/ChangeMyView约6万帖子，用LIWC、主成分分析和多层逻辑回归，检验认知推理、情感表达与真实沟通风格对说服成功的影响。"
     },
     {
-      "id": 2153,
-      "title": "Algorithms of Injustice: An Ethnographic Content Analysis of Black Youth’s Experiences with Racial Trauma Online",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "研究以批判种族技术理论为框架，用民族志内容分析考察社交媒体上种族创伤性内容（黑人死亡、数字骚扰、深伪、战争内容）对黑人青少年心理的影响，指出算法放大此类内容并造成替代性创伤，同时平台也是行动主义与互助空间。"
+      "id": 2128,
+      "title": "From feeds to fury: how social media news use fuels radicalism and contentious politics",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-10-08",
+      "summary": "基于美国成年人配额在线样本（N=760）调查，检验社交媒体政治新闻接触如何经由左右翼激进主义与系统性受害者感知，影响争议性政治参与及政治暴力支持。"
     },
     {
-      "id": 2251,
-      "title": "Fandom Rupture in the Movement Society: Reactive Collective Participation Through Affective Practices",
-      "journal": "Social Media + Society",
+      "id": 2116,
+      "title": "Does the TikTok Feed Lean Right? Exposure to Political Content Among Non-Partisan Users in Germany",
+      "journal": "Political Communication",
+      "published_date": "2026-10-05",
+      "summary": "研究在德国三场州选与2025联邦选举前，用118个自动化非党派账号审计TikTok推荐流（26.6万条视频），发现政治内容占5%–7%，且非党派用户更易接触极右翼AfD相关内容，该党账号量与爆款视频也更多。"
+    },
+    {
+      "id": 2111,
+      "title": "When Populism? Consistent and Opportunistic Populist Communication in the 2022 Brazilian Presidential Elections",
+      "journal": "Political Communication",
       "published_date": "2026-10-01",
-      "summary": "论文以2023年蔡徐坤事件为例，结合13人深度访谈与13.9万微博帖子和20.5万评论的计算分析，提出“反应性集体参与”概念，识别定位、叙事、调适与校准四类情感实践。"
+      "summary": "基于2022年巴西大选九名候选人11,885条推文，用微调BERT分类器测量民粹主义话语与政策领域，发现民粹传播因候选人策略和议题而异，提出机会型与一致型民粹主义者类型学。"
     },
     {
       "id": 2097,
@@ -78,39 +85,11 @@
       "summary": "基于社会认同集体行动模型（SIMCA），通过两项实验（穆斯林 N=328、拉丁裔 N=583）检验网络仇恨言论对少数群体集体行动意向的影响机制与边界条件，发现仇恨言论经由群体不公感提升集体行动意向，信息被标记为不准确或反驳言论可调节该效应。"
     },
     {
-      "id": 2099,
-      "title": "Writing the Situated Self: Intersectional and Geographic Patterning in College Admissions Essays",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-09-28",
-      "summary": "研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。"
-    },
-    {
-      "id": 2063,
-      "title": "Perceptions of artificial intelligence bias and gender inclusivity: toward a gendered divergence",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-22",
-      "summary": "论文考察公众对人工智能偏见的感知及其与性别包容性态度的关系，提出性别分化（gendered divergence）的分析视角，探讨不同性别群体在AI偏见认知上的差异及其传播意涵。"
-    },
-    {
-      "id": 2034,
-      "title": "Platformed partner markets: online dating and gendered assortative mating in Europe",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-14",
-      "summary": "论文考察欧洲在线约会平台中的性别化同质择偶现象，探讨平台化婚恋市场如何与性别化的匹配模式相互作用，但缺少摘要，具体数据与方法不明。"
-    },
-    {
       "id": 1968,
       "title": "Crowd-moderation of hateful content on social media: mobilizing bystanders through scalable interventions",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-08-19",
       "summary": "通过美国与澳大利亚大规模调查实验，检验短视频和信息图干预能否提升用户举报和回应仇恨内容的意愿。"
-    },
-    {
-      "id": 1957,
-      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-08-18",
-      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
     },
     {
       "id": 1954,
@@ -134,6 +113,20 @@
       "summary": "通过对24位大学教授的访谈，探讨学者作为数字仇恨目标对施害者和旁观者的感知，强调权力失衡与战略挑衅，发现旁观者干预不足，需集体应对。"
     },
     {
+      "id": 1934,
+      "title": "Affective Legitimacy and Digital Populism: Evidence from Romania’s Annulled Presidential Elections",
+      "journal": "Political Communication",
+      "published_date": "2026-08-13",
+      "summary": "研究罗马尼亚总统选举被取消后公众对宪法法院决策合法性的感知，基于调查数据发现TikTok使用、负面情绪和政治不信任增加非法性认知，并以媒体标题分析为补充。"
+    },
+    {
+      "id": 1902,
+      "title": "Anti-Elitism Gets the Views: Populist Communication and Popularity on German Political YouTube",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-04",
+      "summary": "研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。"
+    },
+    {
       "id": 250,
       "title": "Integrating corrective action theory into the social identity model of collective action to explain U.S. Latinos/as’ social media political expression",
       "journal": "Journal of Information Technology & Politics",
@@ -141,18 +134,11 @@
       "summary": "研究整合SIMCA与纠正行动理论，基于995名美国拉丁裔调查数据，考察集体效能、群体认同和社交媒体新闻接触对集体表达的影响。"
     },
     {
-      "id": 1908,
-      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
+      "id": 1941,
+      "title": "From Fringe to Power in the TikTok Age: Libertarian Ideology and Transgressive Performances in Milei’s ‘Populism Without the People’",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
-    },
-    {
-      "id": 1998,
-      "title": "“Turns Out My Paternal Grandmother has 16% Native Blood”: Racialized DNA, Race Destabilization, and Digital Race-(re)making on Social Media",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
+      "summary": "通过分析米莱在TikTok的传播，结合文本、视觉和表演维度，发现其民粹主义缺少“人民”元素，且越轨表演带来更高互动。"
     },
     {
       "id": 2026,

@@ -1,23 +1,23 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "算法治理与公共服务数字化",
-  "description": "考察算法与数据系统在智慧城市、照护和人道主义中的治理逻辑与不平等。",
-  "why_hot": "近30天3篇，日均发表速度较前期下降38%，研究热度有所回落。",
-  "hot_score": 46,
-  "growth": -0.375,
-  "growth_rate": -0.375,
-  "recent_rate": 0.1,
-  "baseline_rate": 0.16,
-  "recent_count": 3,
-  "baseline_count": 24,
-  "journal_count": 6,
+  "label": "智慧城市与数据化公共服务参与",
+  "description": "关注智慧城市与照护服务中数据驱动决策对边缘群体参与和一线专业判断的影响。",
+  "why_hot": "近30天2篇，日均速度较前期降64%，覆盖7本期刊，研究活动明显降温。",
+  "hot_score": 33,
+  "growth": -0.643,
+  "growth_rate": -0.643,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.1867,
+  "recent_count": 2,
+  "baseline_count": 28,
+  "journal_count": 7,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
-    "algorithmic governance",
     "smart city",
-    "public services",
-    "humanitarianism",
+    "participation",
+    "data-driven governance",
+    "care work",
     "disability"
   ],
   "papers": [
@@ -36,13 +36,6 @@
       "summary": "论文通过民族志研究瑞典市政非工作时间养老照护服务中拟议的LLM反馈系统，分析数据驱动治理逻辑与一线照护情境判断之间的张力，探讨照护质量如何被定义和认可。"
     },
     {
-      "id": 2214,
-      "title": "Synthetic humanitarianism and algorithmic witnessing: generative AI and the politics of humanitarian representation",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-28",
-      "summary": "文章提出“合成人道主义”与“算法见证”概念，分析2022至2025年间13个生成式AI图像用于人道传播的案例，批判其延续殖民与提取逻辑并削弱受影响社群的表征参与。"
-    },
-    {
       "id": 2127,
       "title": "Algorithmic authority in Spain: relative deprivation, hierarchy, and support for AI rule",
       "journal": "Journal of Information Technology & Politics",
@@ -57,32 +50,11 @@
       "summary": "文章扩展 Beer 的“数据凝视”概念，基于质性经验材料，考察青年在金融科技与修图应用中如何被算法分类、想象，又如何反向凝视，揭示数据产业凝视下的不平等与排斥再生产。"
     },
     {
-      "id": 2108,
-      "title": "Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-01",
-      "summary": "该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。"
-    },
-    {
-      "id": 2129,
-      "title": "Seeing Is Believing? Most People Struggle to Detect AI-Generated Images",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "通过预注册调查实验，检验人们辨别AI生成图像与真实照片的能力。发现人们平均仅相当于随机猜测，仅25岁以下年轻人、分析型思维者及AI熟练用户表现较好，且图像情境不影响辨别信心。"
-    },
-    {
       "id": 2155,
       "title": "Careful Dis/Connection: Bringing Digital (Inter)Dependent Relations Out From the Shadows of Autonomy",
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "基于女性主义关怀伦理，对20名成人进行民族志田野研究，分析三个案例，探讨关怀与数字（不）连接实践如何相互塑造，提出\"谨慎的不/连接\"框架，认为数字福祉取决于技术所维系的关怀关系而非个体媒介使用。"
-    },
-    {
-      "id": 2202,
-      "title": "Exploring the Predictors and Outcomes of Perceived Algorithm Responsiveness in Social Media Feeds: Combining Longitudinal and Computational Methods",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "论文结合7天日记调查与Twitter计算痕迹，分析算法策展信息线索如何影响感知算法响应性及其社交连接结果。"
     },
     {
       "id": 2250,
@@ -99,11 +71,25 @@
       "summary": "研究基于深度访谈与观察，考察中国自闭症儿童家长在抖音上如何想象并实践与算法的关系，提出算法扮演法官、管家和工具三种角色。"
     },
     {
+      "id": 2028,
+      "title": "How Do Social Media Influencers Motivate Prosocial Intentions? The Interaction of SMI Gender and Expertise",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-09-10",
+      "summary": "研究探讨社交媒体影响者的性别与专业度如何交互影响受众的亲社会行为意向，属战略传播领域的说服效果研究，采用实验或调查方法验证假设。"
+    },
+    {
       "id": 1979,
       "title": "Digital ID as surreptitious experimentation in the humanitarian-tech industry: an ethnography of a biometric pilot in a refugee camp in the Thailand-Myanmar border",
       "journal": "Information Communication & Society",
       "published_date": "2026-09-03",
       "summary": "通过18个月民族志研究，分析泰国-缅甸边境难民营中数字ID试点如何作为隐秘实验实施，揭示其缺乏知情同意、加剧权力不对称，并延续殖民逻辑。"
+    },
+    {
+      "id": 1976,
+      "title": "Sex, Romance, or Recreation? An Experiment Testing the Effects of Cannabis Brand-generated Social Media Ads on College Students’ Expectancies and Intentions to Use Cannabis Prior to Sex",
+      "journal": "Communication Research",
+      "published_date": "2026-08-31",
+      "summary": "通过在线实验考察大麻品牌社交媒体广告中的性/浪漫/娱乐脚本对大学生性前使用大麻预期与意向的影响，发现性别差异及机制。"
     },
     {
       "id": 1980,
@@ -125,6 +111,27 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-08-13",
       "summary": "提出数字足迹资本概念，分析AI与算法如何影响创意工作者的身份、声誉和劳动，并讨论其不平等与脆弱性。"
+    },
+    {
+      "id": 1929,
+      "title": "‘Cool! I wanna try it!’: online exposure to e-cigarette advertisements increases e-cigarette susceptibility among U.S. sexual minority young adults",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-10",
+      "summary": "研究在线电子烟广告暴露如何影响美国性少数青年对电子烟的易感性，关注数字广告的传播效果。"
+    },
+    {
+      "id": 8,
+      "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
+      "journal": "Political Communication",
+      "published_date": "2026-07-29",
+      "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
+    },
+    {
+      "id": 15,
+      "title": "Inclusive Crisis Communication: Addressing Diverse Audiences in the Digital Age",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-07-27",
+      "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
     },
     {
       "id": 58,
@@ -162,11 +169,25 @@
       "summary": "通过65个访谈，探讨中国年轻男同性恋者在算法环境下如何协商（不）智能性，提出“liminal intelligibility”概念，强调人机交互与人人交互的交叉。"
     },
     {
+      "id": 1942,
+      "title": "Negotiating the Influencer Imaginary: How Everyday Professionals Construct Legitimacy on Social Media",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
+    },
+    {
       "id": 2087,
       "title": "Wise Empathy Improves Well-Being on Instagram",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过生态瞬时干预训练260名被试在Instagram上运用明智共情，结合5,902次经验取样追踪其共情与幸福感，发现干预提升在线明智共情并改善幸福感，共情变化起中介作用。"
+    },
+    {
+      "id": 72,
+      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-06-29",
+      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
     },
     {
       "id": 76,
@@ -183,20 +204,6 @@
       "summary": "研究青年如何通过算法互动进行自我关照的策展实践，基于四国125份访谈与自传数据，发现算法反应不当导致协商困难，提出设计“笨拙算法”以优化幸福感。"
     },
     {
-      "id": 410,
-      "title": "Algorithmized Teenagers in the Age of Artificial Intelligence: Information Cocoons, Algorithmic Literacy, and Media Literacy",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-16",
-      "summary": "基于美国437名青少年全国调查，考察算法新闻消费与算法素养对新闻认知、动机、情感等多元取向的影响，发现关联有限且非决定性。"
-    },
-    {
-      "id": 32,
-      "title": "When the Algorithm Understands You (or Doesn’t): LGBTQ+ Youth’s Identity-Related Interactions with Algorithmic Media",
-      "journal": "Communication Research",
-      "published_date": "2026-06-13",
-      "summary": "研究LGBTQ+青年与算法媒体的互动，通过日记和调查考察算法响应性、不敏感性和算法训练对身份认同的影响，发现算法推荐可增强身份自豪感。"
-    },
-    {
       "id": 373,
       "title": "Intimate data performativity: Taiwanese women’s self-care practices with menstrual tracking apps",
       "journal": "Asian Journal of Communication",
@@ -204,11 +211,25 @@
       "summary": "研究台湾女性使用经期追踪应用时，如何与算法系统、文化期望和身体经验协商，提出亲密数据表演性概念，探讨预测协商、自我优化和数据共享中的赋能与控制张力。"
     },
     {
-      "id": 98,
-      "title": "Algorithmic ambivalence: LGBTQ+ social media and mental health among Chinese gay men",
+      "id": 441,
+      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-01",
+      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
+    },
+    {
+      "id": 443,
+      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-05-31",
+      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
+    },
+    {
+      "id": 99,
+      "title": "Stigma to skepticism: online consumer narratives of obesity management medications",
       "journal": "Information Communication & Society",
-      "published_date": "2026-05-25",
-      "summary": "研究中国男同性恋者在社交媒体中算法矛盾心理及其对心理健康的影响，结合算法与社媒使用议题。"
+      "published_date": "2026-05-24",
+      "summary": "论文探讨在线消费者关于肥胖管理药物的叙事，分析从污名到怀疑的转变，可能基于社交媒体内容，但方法未明确。"
     }
   ],
   "paper_edges": []

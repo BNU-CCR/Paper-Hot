@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_5bc0b040",
   "label": "叙事结构与多模态传播效果",
-  "description": "探讨叙事结构、角色网络与视听设计如何影响短视频等内容的传播效果与受众注意。",
-  "why_hot": "近30天5篇，日均发表速度较前期上升39%，研究活动升温。",
-  "hot_score": 76,
-  "growth": 0.389,
-  "growth_rate": 0.389,
-  "recent_rate": 0.1667,
-  "baseline_rate": 0.12,
-  "recent_count": 5,
-  "baseline_count": 18,
-  "journal_count": 11,
+  "description": "分析短视频与视频平台的叙事结构、多模态动态信号如何影响传播效果与受众注意。",
+  "why_hot": "近30天4篇，日均速度较前期增33%，覆盖8本期刊，活跃度上升。",
+  "hot_score": 67,
+  "growth": 0.333,
+  "growth_rate": 0.333,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.1,
+  "recent_count": 4,
+  "baseline_count": 15,
+  "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "narrative structure",
-    "multimodal communication",
+    "multimodality",
     "short video",
-    "media design",
-    "attention"
+    "attention",
+    "dissemination effectiveness"
   ],
   "papers": [
     {
@@ -34,13 +34,6 @@
       "journal": "Communication Research",
       "published_date": "2026-11-08",
       "summary": "该研究通过两波纵向调查与YouTube视频内容编码，考察视听特征与儿童注意力及观看控制的关联，发现对话等音频特征负向关联最强。"
-    },
-    {
-      "id": 2239,
-      "title": "Too Much, Too Little, or Just Right? Identity Processes and Motivations Explain Everyday Evaluations of Time Spent on Social Media",
-      "journal": "Communication Research",
-      "published_date": "2026-11-08",
-      "summary": "研究探讨新兴成年人对社交媒体使用时间的评价如何与身份发展差异及身份相关使用动机相关，基于纵向田野研究数据发现平衡感知取决于使用是否契合身份需求。"
     },
     {
       "id": 2196,
@@ -64,13 +57,6 @@
       "summary": "研究运用 LIWC-22 的意义提取模块，分析 1980—2024 年 Billboard Hot 100 前 25 名歌曲共 1,129 首歌词的四个主题，发现恋爱主题减少、联系与性化主题增多，并讨论意义提取方法处理大数据的优势。"
     },
     {
-      "id": 2167,
-      "title": "Social Media Platform Repertoires in Everyday Life: Measuring Social Media Use With Passive Metering",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "研究对1457名意大利成年人进行6周手机与电脑被动计量，量化Facebook、Instagram、TikTok、YouTube、Twitter/X的使用时间及社会人口差异。发现Facebook与YouTube占近四分之三使用时长，超90%为App端使用，年龄是最强预测因素。"
-    },
-    {
       "id": 2104,
       "title": "Do internet water armies facilitate managerial opportunistic stock selling? –evidence from China",
       "journal": "Journal of Media Economics",
@@ -90,13 +76,6 @@
       "journal": "Journal of Media Economics",
       "published_date": "2026-09-10",
       "summary": "基于韩国在线视频市场5年调查数据，用多元概率模型刻画消费者在四种服务类别（全球SVoD、本土SVoD、UGC/社交、TVoD）间的组合选择，揭示付费类别的互补性与UGC与付费服务间的替代性，并将不使用行为作为伴随结果分析其能力型进入壁垒。"
-    },
-    {
-      "id": 1959,
-      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-08-18",
-      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
     },
     {
       "id": 1909,
@@ -162,25 +141,11 @@
       "summary": "提出用深度学习方法对智能手机屏幕内容进行分布建模，基于53名青少年六个月的屏幕数据，分析内容模式与心理健康的关系，超越传统屏幕时间测量。"
     },
     {
-      "id": 282,
-      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
-    },
-    {
       "id": 33,
       "title": "Co-Opetition in Crowdsourcing Challenges: Comment Network Dynamics and Relational Homophily Among Contestants in Crowdsourcing Challenge Communities",
       "journal": "Communication Research",
       "published_date": "2026-06-13",
       "summary": "研究创意众包挑战社区中地位、职业、价值等多维同质性对创意者间评论网络形成的影响，采用关系事件模型和潜在类别分析。"
-    },
-    {
-      "id": 361,
-      "title": "Multimodal semiotic content analysis: combining quantitative large-data analysis with qualitative semiotic coding",
-      "journal": "Visual Communication",
-      "published_date": "2026-05-22",
-      "summary": "提出混合方法框架，整合定性符号学编码与定量大规模数据分析，通过277个抑郁相关网络模因案例，揭示抑郁主题与符号资源的关联模式。"
     }
   ],
   "paper_edges": []

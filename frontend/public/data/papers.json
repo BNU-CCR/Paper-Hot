@@ -1,5 +1,40 @@
 [
   {
+    "id": 2258,
+    "title": "Generative AI Source Credibility in Fact-Checking: The Role of Layered Sources",
+    "title_zh": "生成式人工智能在事实核查中的信息可信度：多层次信息来源的作用**。",
+    "authors": [
+      "Joana Videira",
+      "Jingbo Meng",
+      "Bingjie Liu",
+      "Wei Peng"
+    ],
+    "institutions": [],
+    "journal": "Journal of Broadcasting & Electronic Media",
+    "published_date": "2026-11-15",
+    "relevance": "High",
+    "score": null,
+    "abstract": "This study examines how layered AI source cues shape credibility perceptions (expertise, trustworthiness, and goodwill) and belief change in AI fact-checking. AI as a source was conceptualized through two layered source cues: sponsorship (outer-layer cue) and training data (inner-layer cue). A 3 (sponsorship: government–CDC, nonprofit–Mayo Clinic, or for-profit–Pfizer) × 2 (training data: internet data or medical-journal fine-tuning) online experiment in vaccine misinformation fact-checking found no significant effects of sponsorship on any credibility dimensions, while training data fine-tuning increased perceived expertise. Neither cue indirectly affected belief correction through credibility. Findings clarify AI source cues’ value in fact-checking.",
+    "abstract_zh": "本研究探讨了分层的人工智能信息来源线索如何影响人们对人工智能在事实核查中的可信度（包括专业性、可靠性和善意）的认知，以及人们的信念变化。人工智能作为信息来源时，通过两个层面的线索来体现其特性：一是赞助方（外部线索），二是训练数据（内部线索）。在一项关于疫苗错误信息事实核查的在线实验中（实验设计为3个赞助方类别：政府–CDC、非营利组织–梅奥诊所、营利组织–辉瑞；2种训练数据类型：互联网数据或医学期刊数据），结果发现赞助方对任何可信度维度都没有显著影响；而使用医学期刊数据进行训练数据微调则提高了人们对人工智能专业性的认知。这两个线索都没有通过影响可信度来间接促进人们修正错误信念。研究结果明确了人工智能信息来源线索在事实核查中的重要作用。",
+    "summary": "通过3×2在线实验考察AI事实核查中赞助方与训练数据两层来源线索对专业性、可信赖性、善意感知及信念纠正的影响，发现训练数据微调提升专业性感知，但无间接信念纠正效应。",
+    "reason": "研究生成式AI事实核查中的来源可信度与信念改变，属AI传播效果议题，符合AI特别条款。",
+    "tags": [
+      "生成式AI",
+      "事实核查",
+      "来源可信度",
+      "在线实验"
+    ],
+    "method": "量化分析",
+    "doi": "10.1080/08838151.2026.2763546",
+    "source_url": "https://doi.org/10.1080/08838151.2026.2763546",
+    "detail_slug": "generative-ai-source-credibility-in-fact-checking-the-role-of-layered-sources",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Journal of Broadcasting & Electronic Media",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2248,
     "title": "The platform prism: affordance attributions for affective group polarization in China’s public discourse",
     "title_zh": "平台棱镜：中国公共话语中情感群体极化的形成机制（The platform prism: affordance attributions for affective group polarization in China’s public discourse）",

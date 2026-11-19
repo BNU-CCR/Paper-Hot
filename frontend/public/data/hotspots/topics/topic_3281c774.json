@@ -1,26 +1,34 @@
 {
   "topic_id": "topic_3281c774",
-  "label": "文化机构数字传播与视觉情感",
-  "description": "关注博物馆等文化机构的社交平台传播实践及数据可视化的情感表达。",
-  "why_hot": "近30天2篇，日均发表速度较前期下降47%，研究热度有所回落。",
-  "hot_score": 39,
-  "growth": -0.474,
-  "growth_rate": -0.474,
-  "recent_rate": 0.0667,
-  "baseline_rate": 0.1267,
-  "recent_count": 2,
-  "baseline_count": 19,
+  "label": "数字文化传播与粉丝情感参与",
+  "description": "研究博物馆、粉丝社群等文化主体在社交平台上的数字传播实践与情感化参与机制。",
+  "why_hot": "近30天3篇与此前15篇基本持平，日均速度无变化，覆盖8本期刊。",
+  "hot_score": 56,
+  "growth": 0.0,
+  "growth_rate": 0.0,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.1,
+  "recent_count": 3,
+  "baseline_count": 15,
   "journal_count": 8,
   "lineage_status": "continued",
-  "status": "emerging",
+  "status": "hot",
   "keywords": [
-    "cultural institutions",
-    "museum communication",
+    "digital engagement",
+    "fandom",
+    "museums",
     "Instagram",
-    "data visualization",
-    "emotion"
+    "data visualisation",
+    "emotional resonance"
   ],
   "papers": [
+    {
+      "id": 2257,
+      "title": "Engagement digital y participación del fandom de Critical Role en YouTube",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-11-16",
+      "summary": "分析Critical Role粉丝在YouTube六集共1864条评论的参与形式、讨论主题与情感倾向，发现观点类评论最多，但信息性评论引发最高互动并塑造争议话题，揭示数字粉丝行为与跨媒体内容接受中的社区能动性。"
+    },
     {
       "id": 2184,
       "title": "Digital communication of Spanish art museums on Instagram",
@@ -57,11 +65,11 @@
       "summary": "基于社会认同理论，用混合方法考察组织关怀伦理如何通过伦理文化、组织认同与情感投入的链式中介，促使战略传播从业者参与虚假信息治理，并归纳出认知停顿、身份把关、数字分流与关系性守护四个主题。"
     },
     {
-      "id": 2156,
-      "title": "Evolution of Crisis Communication: Exploring Organizational Perceptions and Social Media Adoption in Vietnam’s Dynamic Digital Landscape",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-10-13",
-      "summary": "论文比较2018与2023年越南公共关系从业者的访谈数据，探讨社交媒体在危机传播中角色的演变，结合创新扩散理论分析媒体特征与文化因素对社交媒体采纳的影响，聚焦非西方快速数字化转型情境。"
+      "id": 2251,
+      "title": "Fandom Rupture in the Movement Society: Reactive Collective Participation Through Affective Practices",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "论文以2023年蔡徐坤事件为例，结合13人深度访谈与13.9万微博帖子和20.5万评论的计算分析，提出“反应性集体参与”概念，识别定位、叙事、调适与校准四类情感实践。"
     },
     {
       "id": 2058,
@@ -92,13 +100,6 @@
       "summary": "通过Kiwi Farms案例提出'replatformization'概念，分析另类平台如何在市场治理下通过社会、技术、组织策略规避去平台化，并揭示其扩展机制。"
     },
     {
-      "id": 15,
-      "title": "Inclusive Crisis Communication: Addressing Diverse Audiences in the Digital Age",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-07-27",
-      "summary": "系统综述2020-2024年66篇文献，探讨数字化包容性危机传播的发展阶段、策略、平台效应与挑战，提出整合利益相关者理论与风险框架的四阶段模型。"
-    },
-    {
       "id": 243,
       "title": "Navigating the hybrid media landscape? Danish green NGOs’ use of digital platforms for internal and external communication",
       "journal": "Journal of Information Technology & Politics",
@@ -113,25 +114,11 @@
       "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
     },
     {
-      "id": 10,
-      "title": "Co-Producing Endurance: Strava and the Construction of the Professional Endurance Athlete",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过访谈25名精英耐力运动员及其经纪人，探讨Strava如何通过平台逻辑共同塑造职业耐力运动员的身份、实践与职业可持续性，并分析运动员对平台逻辑的肯定、内化与抵抗。"
-    },
-    {
       "id": 71,
       "title": "Infrastructural hubris and platform power: the failed scalability of Google Stadia",
       "journal": "Information Communication & Society",
       "published_date": "2026-06-30",
       "summary": "通过分析170份专业媒体、Reddit和YouTube文档，探讨Google Stadia云游戏平台失败原因，提出“基础设施傲慢”概念，强调技术能力需配合平台层面的利益相关者参与。"
-    },
-    {
-      "id": 72,
-      "title": "The digital health capital framework: cross-cutting digital health inequality and smart-aging in post-COVID Hong Kong",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-06-29",
-      "summary": "提出数字健康资本框架，基于混合模式调查数据，分析后疫情香港的数字健康不平等，发现社会经济地位影响多维健康资本，且中年夹心层易被忽视。"
     },
     {
       "id": 614,
@@ -146,13 +133,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-26",
       "summary": "基于台湾环保NGO与公民科技社群合作的案例，探讨环境数据行动主义中NGO作为公民数据中介的角色，提出数据正义的实践理论。"
-    },
-    {
-      "id": 256,
-      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-06-15",
-      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
     },
     {
       "id": 440,

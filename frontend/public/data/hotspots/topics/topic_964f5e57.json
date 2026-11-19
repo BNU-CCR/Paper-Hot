@@ -1,25 +1,33 @@
 {
   "topic_id": "topic_964f5e57",
-  "label": "社交媒体竞选与议程设置",
-  "description": "分析政党在社交媒体上的议题策略、行动号召与选民参与动员。",
-  "why_hot": "近30天2篇，日均发表速度较前期下降73%，研究热度明显回落。",
-  "hot_score": 35,
-  "growth": -0.73,
-  "growth_rate": -0.73,
-  "recent_rate": 0.0667,
-  "baseline_rate": 0.2467,
-  "recent_count": 2,
-  "baseline_count": 37,
-  "journal_count": 8,
+  "label": "数字竞选中的政党议程与选民参与",
+  "description": "研究政党在社交平台上的议程设置策略、行动号召与网络讨论中民主协商的质量。",
+  "why_hot": "近30天3篇，日均速度较前期降55%，覆盖9本期刊，活跃度回落。",
+  "hot_score": 38,
+  "growth": -0.545,
+  "growth_rate": -0.545,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.22,
+  "recent_count": 3,
+  "baseline_count": 33,
+  "journal_count": 9,
   "lineage_status": "continued",
-  "status": "emerging",
+  "status": "hot",
   "keywords": [
     "agenda-setting",
-    "social media campaigns",
+    "election campaigns",
+    "voter engagement",
     "political parties",
-    "voter engagement"
+    "deliberation"
   ],
   "papers": [
+    {
+      "id": 2187,
+      "title": "Enhancing Democratic Listening in Online Discussions: The Role of Reaction Buttons, Discussion Moderation, and Large Language Models",
+      "journal": "Political Communication",
+      "published_date": "2026-10-23",
+      "summary": "论文开发带倾听导向反应按钮及人类/GPT-4审核的在线讨论平台，对740名被试开展40组实验，分析4355条评论，发现按钮需结合AI审核才能提升民主倾听水平。"
+    },
     {
       "id": 2189,
       "title": "The logics of agenda-setting: how political parties form their issue strategies across social media",
@@ -49,27 +57,6 @@
       "summary": "研究提出个人策展政治学（PPC）模型，基于美国全国代表性面板数据（N=1270），检验平台广度、内容异质性、新闻关注与来源归属四种社交媒体验证性策展行为对政治参与的影响，发现前两者提升参与，来源归属降低参与，认知精细化起中介作用，跨立场讨论起调节作用。"
     },
     {
-      "id": 2146,
-      "title": "Hearts for hating Activists: how far-right actors dominate polarized TikTok debates on climate protest",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-11",
-      "summary": "研究自动转录1700条德国政客TikTok视频及5.3万条评论，结合大模型框架分类、立场检测与网络分析，比较气候运动、改革派与破坏性抗议讨论的极化程度，发现极右翼政客主导对抗性网络并从极化中获益。"
-    },
-    {
-      "id": 2128,
-      "title": "From feeds to fury: how social media news use fuels radicalism and contentious politics",
-      "journal": "Journal of Information Technology & Politics",
-      "published_date": "2026-10-08",
-      "summary": "基于美国成年人配额在线样本（N=760）调查，检验社交媒体政治新闻接触如何经由左右翼激进主义与系统性受害者感知，影响争议性政治参与及政治暴力支持。"
-    },
-    {
-      "id": 2116,
-      "title": "Does the TikTok Feed Lean Right? Exposure to Political Content Among Non-Partisan Users in Germany",
-      "journal": "Political Communication",
-      "published_date": "2026-10-05",
-      "summary": "研究在德国三场州选与2025联邦选举前，用118个自动化非党派账号审计TikTok推荐流（26.6万条视频），发现政治内容占5%–7%，且非党派用户更易接触极右翼AfD相关内容，该党账号量与爆款视频也更多。"
-    },
-    {
       "id": 2109,
       "title": "From constituencies to audiences: lessons from Brazil about audience analytics in representative politics",
       "journal": "Information Communication & Society",
@@ -77,18 +64,18 @@
       "summary": "通过对巴西国会议员的访谈，研究其如何将受众分析纳入传播策略，提出忠诚者、追随者与受众库的受众感知框架，指出平台语境使选区受众被重构为影响目标，导致代议制扭曲。"
     },
     {
-      "id": 2111,
-      "title": "When Populism? Consistent and Opportunistic Populist Communication in the 2022 Brazilian Presidential Elections",
-      "journal": "Political Communication",
-      "published_date": "2026-10-01",
-      "summary": "基于2022年巴西大选九名候选人11,885条推文，用微调BERT分类器测量民粹主义话语与政策领域，发现民粹传播因候选人策略和议题而异，提出机会型与一致型民粹主义者类型学。"
-    },
-    {
       "id": 2224,
       "title": "“I Share Your Sentiment”—A Longitudinal Study of Facebook Post Sentiment and Sharing",
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "研究挪威主要政党2016–2025年Facebook帖文情感倾向及其对分享的影响，结合大语言模型与人工标注做情感分析，发现正面情感仍占主导但负面情感随时间上升，负面帖文总体获更多分享但优势逐渐减弱。"
+    },
+    {
+      "id": 2066,
+      "title": "Identidad de género y deporte: debate en X sobre la participación de Imane Khelif en los Juegos Olímpicos de París 2024",
+      "journal": "Revista ICONO14",
+      "published_date": "2026-09-21",
+      "summary": "研究采集2024巴黎奥运会期间X平台35676条帖子，用Tweet Binder与NLP情感分析考察伊曼·哈利夫参赛引发的性别认同与公平性争论，发现正负帖量接近但负面内容曝光量翻倍，公众人物放大争议，虚假信息助推简化叙事。"
     },
     {
       "id": 2055,
@@ -182,11 +169,11 @@
       "summary": "论文介绍MORESPulse模型，基于XLM-RoBERTa检测七种语言政治文本的五种情绪，并分析匈牙利议会1998-2022年超五百万句语料，发现情绪化语言自2010年持续上升，与政党角色和政策议题相关。"
     },
     {
-      "id": 1934,
-      "title": "Affective Legitimacy and Digital Populism: Evidence from Romania’s Annulled Presidential Elections",
+      "id": 1936,
+      "title": "Policing the Political Boundary: How the r/BarstoolSports Audience Confronts Politicization",
       "journal": "Political Communication",
-      "published_date": "2026-08-13",
-      "summary": "研究罗马尼亚总统选举被取消后公众对宪法法院决策合法性的感知，基于调查数据发现TikTok使用、负面情绪和政治不信任增加非法性认知，并以媒体标题分析为补充。"
+      "published_date": "2026-08-12",
+      "summary": "通过批判性话语分析2019-2025年Barstool Sports子版块16个帖子，提出\"反政治空间\"概念，探讨粉丝如何区分流行文化与制度政治，对抗政治化。"
     },
     {
       "id": 1938,
@@ -196,18 +183,18 @@
       "summary": "通过三波面板调查，研究16-30岁青年接触各类社交媒体主体政治内容对时事知识的影响，及感知意见领袖满足感的中介作用。"
     },
     {
-      "id": 1902,
-      "title": "Anti-Elitism Gets the Views: Populist Communication and Popularity on German Political YouTube",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-08-04",
-      "summary": "研究德国政党YouTube频道，用PopBERT检测反精英与人民中心修辞，分析其对视频观看量的影响，发现反精英主义更易获得高观看量。"
-    },
-    {
       "id": 242,
       "title": "Search engines in polarized media environment: auditing political information curation on Google and Bing prior to 2024 US elections",
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-07-28",
       "summary": "该研究在2024年美国大选前审计Google和Bing的搜索结果，分析查询主题、用户位置和时间对政治信息偏向的影响，发现两大引擎优先呈现左倾媒体，且不同主题下意识形态偏向程度不同。"
+    },
+    {
+      "id": 205,
+      "title": "Common Identities and Political Talk: Evaluating Cross-Cutting Political Discussions in Sports Communities on Reddit",
+      "journal": "Political Communication",
+      "published_date": "2026-07-23",
+      "summary": "通过计算分析比较Reddit政治与体育社区中跨党派政治讨论的数量、语气和内容，发现体育社区更促进跨党派讨论，但毒性水平无显著差异。"
     },
     {
       "id": 206,
@@ -236,13 +223,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过分析2015-2021年Reddit上约40万次政治互动，发现跨立场讨论中带个人故事的评论获得更多正面评价和回复，但未能减少毒性回复，且用户较少分享个人故事，影响有限。"
-    },
-    {
-      "id": 1941,
-      "title": "From Fringe to Power in the TikTok Age: Libertarian Ideology and Transgressive Performances in Milei’s ‘Populism Without the People’",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "通过分析米莱在TikTok的传播，结合文本、视觉和表演维度，发现其民粹主义缺少“人民”元素，且越轨表演带来更高互动。"
     },
     {
       "id": 1997,

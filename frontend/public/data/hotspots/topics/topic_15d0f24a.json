@@ -1,39 +1,47 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "AI介入在线审议与信任",
-  "description": "探讨AI干预、讨论机制与生成式系统如何影响在线审议质量、民主倾听与用户信任。",
-  "why_hot": "近30天4篇，日均发表速度较前期下降31%，研究热度有所回落。",
-  "hot_score": 52,
-  "growth": -0.31,
-  "growth_rate": -0.31,
-  "recent_rate": 0.1333,
+  "label": "生成式AI可信度与虚假信息治理",
+  "description": "关注生成式AI在事实核查、在线协商与信息治理中的可信度建构、问责框架与民主韧性。",
+  "why_hot": "近30天5篇，日均速度较前期降14%，但仍覆盖7本期刊，属高位活跃议题。",
+  "hot_score": 57,
+  "growth": -0.138,
+  "growth_rate": -0.138,
+  "recent_rate": 0.1667,
   "baseline_rate": 0.1933,
-  "recent_count": 4,
+  "recent_count": 5,
   "baseline_count": 29,
   "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "online deliberation",
-    "AI intervention",
-    "democratic listening",
+    "generative AI",
+    "source credibility",
+    "fact-checking",
+    "disinformation governance",
     "trust",
-    "large language models"
+    "AI accountability"
   ],
   "papers": [
+    {
+      "id": 2258,
+      "title": "Generative AI Source Credibility in Fact-Checking: The Role of Layered Sources",
+      "journal": "Journal of Broadcasting & Electronic Media",
+      "published_date": "2026-11-15",
+      "summary": "通过3×2在线实验考察AI事实核查中赞助方与训练数据两层来源线索对专业性、可信赖性、善意感知及信念纠正的影响，发现训练数据微调提升专业性感知，但无间接信念纠正效应。"
+    },
+    {
+      "id": 2249,
+      "title": "AI governance, disinformation, and democratic resilience: mapping the 2019–2025 literature and developing a Taiwan-informed framework",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-11-12",
+      "summary": "研究以2019–2025年211篇文献构建语料，做文献计量图谱，识别AI、虚假信息、深度伪造、平台与信任的交叉，并结合台湾证据综合，提出民主韧性的瓶颈框架，强调验证、问责与学习接口的衔接。"
+    },
     {
       "id": 2199,
       "title": "Enhancing Online Deliberation Through AI-Driven Counter-Attitudinal Interventions: Direct and Indirect Effects on Users’ Perceptions and Behavior",
       "journal": "Journal of Language and Social Psychology",
       "published_date": "2026-10-26",
       "summary": "通过10天模拟公民议会三波实验，检验AI反态度评论推荐是否提升观点平等感知、审议体验并减少不文明表达，发现其对主观审议体验有间接效应，但对不文明行为作用有限。"
-    },
-    {
-      "id": 2187,
-      "title": "Enhancing Democratic Listening in Online Discussions: The Role of Reaction Buttons, Discussion Moderation, and Large Language Models",
-      "journal": "Political Communication",
-      "published_date": "2026-10-23",
-      "summary": "论文开发带倾听导向反应按钮及人类/GPT-4审核的在线讨论平台，对740名被试开展40组实验，分析4355条评论，发现按钮需结合AI审核才能提升民主倾听水平。"
     },
     {
       "id": 2190,

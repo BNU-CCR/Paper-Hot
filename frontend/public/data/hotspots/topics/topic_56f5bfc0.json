@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "宣传、虚假信息与信息治理",
-  "description": "研究宣传与虚假信息的传播机制、受众参与及国家层面的信息治理策略。",
-  "why_hot": "近30天6篇，日均发表速度较前期微升7%，研究活动基本持平。",
-  "hot_score": 73,
-  "growth": 0.071,
-  "growth_rate": 0.071,
-  "recent_rate": 0.2,
-  "baseline_rate": 0.1867,
-  "recent_count": 6,
-  "baseline_count": 28,
-  "journal_count": 6,
+  "label": "冲突传播与虚假信息的策略叙事",
+  "description": "研究战争与地缘冲突中的数字新闻叙事、记忆政治及虚假信息的策略性传播与治理话语。",
+  "why_hot": "近30天5篇，日均速度较前期减19%，覆盖7本期刊，热度小幅回落。",
+  "hot_score": 55,
+  "growth": -0.194,
+  "growth_rate": -0.194,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.2067,
+  "recent_count": 5,
+  "baseline_count": 31,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "propaganda",
+    "war communication",
     "disinformation",
-    "information operations",
-    "war coverage",
-    "governance"
+    "strategic communication",
+    "collective memory",
+    "news coverage"
   ],
   "papers": [
     {
@@ -69,6 +69,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-10-14",
       "summary": "研究通过随机实验比较真实与AI生成战争视频对社交媒体用户感知真实性、信任、情绪唤醒、态度及行为意向的影响。"
+    },
+    {
+      "id": 2156,
+      "title": "Evolution of Crisis Communication: Exploring Organizational Perceptions and Social Media Adoption in Vietnam’s Dynamic Digital Landscape",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-10-13",
+      "summary": "论文比较2018与2023年越南公共关系从业者的访谈数据，探讨社交媒体在危机传播中角色的演变，结合创新扩散理论分析媒体特征与文化因素对社交媒体采纳的影响，聚焦非西方快速数字化转型情境。"
     },
     {
       "id": 2151,
@@ -153,6 +160,13 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-08-22",
       "summary": "论文提出“创伤自拍”概念，分析2023年10月7日音乐节袭击中约300个受害者生成视频，构建动机与美学类型学，探讨当代战争中手机拍摄的见证形式及“主动受害者”身份的政治意涵。"
+    },
+    {
+      "id": 1949,
+      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-21",
+      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
     },
     {
       "id": 1964,
