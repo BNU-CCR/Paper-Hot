@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "冲突传播与虚假信息的策略叙事",
-  "description": "研究战争与地缘冲突中的数字新闻叙事、记忆政治及虚假信息的策略性传播与治理话语。",
-  "why_hot": "近30天5篇，日均速度较前期减19%，覆盖7本期刊，热度小幅回落。",
-  "hot_score": 55,
-  "growth": -0.194,
-  "growth_rate": -0.194,
+  "label": "战略传播与战争叙事竞争",
+  "description": "考察行为体如何通过叙事改编、平台内容与虚假信息参与战争记忆和战略传播竞争。",
+  "why_hot": "近30天发表5篇，日均速度较前期下降17%，覆盖6本期刊，热度略有回落。",
+  "hot_score": 58,
+  "growth": -0.167,
+  "growth_rate": -0.167,
   "recent_rate": 0.1667,
-  "baseline_rate": 0.2067,
+  "baseline_rate": 0.2,
   "recent_count": 5,
-  "baseline_count": 31,
-  "journal_count": 7,
+  "baseline_count": 30,
+  "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "war communication",
-    "disinformation",
     "strategic communication",
-    "collective memory",
-    "news coverage"
+    "narrative adaptation",
+    "war coverage",
+    "disinformation engagement",
+    "memory politics"
   ],
   "papers": [
+    {
+      "id": 2269,
+      "title": "Adapting the story: Russian narrative adaptation during Sweden’s NATO accession",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-11-20",
+      "summary": "文章提出并扩展“压制—摧毁—引导”（SDD）框架，分析俄罗斯在瑞典加入北约过程中如何随“杠杆点”变化调整对抗性叙事策略，并归纳出“杠杆条件性叙事重校准”机制。"
+    },
     {
       "id": 2227,
       "title": "Shifting priorities? Coverage of the Russia-Ukraine war in Central European online news media (2022–2026)",
@@ -69,13 +76,6 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-10-14",
       "summary": "研究通过随机实验比较真实与AI生成战争视频对社交媒体用户感知真实性、信任、情绪唤醒、态度及行为意向的影响。"
-    },
-    {
-      "id": 2156,
-      "title": "Evolution of Crisis Communication: Exploring Organizational Perceptions and Social Media Adoption in Vietnam’s Dynamic Digital Landscape",
-      "journal": "International Journal of Strategic Communication",
-      "published_date": "2026-10-13",
-      "summary": "论文比较2018与2023年越南公共关系从业者的访谈数据，探讨社交媒体在危机传播中角色的演变，结合创新扩散理论分析媒体特征与文化因素对社交媒体采纳的影响，聚焦非西方快速数字化转型情境。"
     },
     {
       "id": 2151,
@@ -160,13 +160,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-08-22",
       "summary": "论文提出“创伤自拍”概念，分析2023年10月7日音乐节袭击中约300个受害者生成视频，构建动机与美学类型学，探讨当代战争中手机拍摄的见证形式及“主动受害者”身份的政治意涵。"
-    },
-    {
-      "id": 1949,
-      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-08-21",
-      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
     },
     {
       "id": 1964,

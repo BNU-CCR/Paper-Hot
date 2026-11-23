@@ -1,15 +1,15 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "人机亲密关系与聊天机器人互动",
-  "description": "研究用户与AI聊天机器人的情感联结、印象形成及提示框架对健康传播判断的影响。",
-  "why_hot": "近30天8篇，日均速度较前期增11%，覆盖11本期刊，为持续升温议题。",
-  "hot_score": 74,
-  "growth": 0.111,
-  "growth_rate": 0.111,
-  "recent_rate": 0.2667,
-  "baseline_rate": 0.24,
-  "recent_count": 8,
-  "baseline_count": 36,
+  "label": "人机亲密关系与聊天机器人效应",
+  "description": "研究AI聊天机器人如何塑造人机与人际亲密关系、用户印象判断及健康传播中的评价。",
+  "why_hot": "近30天发表7篇，日均速度与前期基本持平，覆盖11本期刊，持续活跃。",
+  "hot_score": 72,
+  "growth": 0.029,
+  "growth_rate": 0.029,
+  "recent_rate": 0.2333,
+  "baseline_rate": 0.2267,
+  "recent_count": 7,
+  "baseline_count": 34,
   "journal_count": 11,
   "lineage_status": "continued",
   "status": "hot",
@@ -17,9 +17,8 @@
     "human-AI relationships",
     "chatbots",
     "intimacy",
-    "gratifications",
     "prompt framing",
-    "self-disclosure"
+    "anthropomorphism"
   ],
   "papers": [
     {
@@ -93,6 +92,13 @@
       "summary": "通过实验操纵165名美国成年人对算法效能的信任信念，评估同一组在线约会档案，检验信任信念如何影响约会评价与情绪。结果显示高信任组感知约会更成功，进而更自信愉悦、更少焦虑悲伤，提示算法信念存在自我实现预言效应。"
     },
     {
+      "id": 2122,
+      "title": "ChangeMyView: Unpacking the Complex Emotional, Cognitive, and Communicator-Related Processes Underlying Persuasion",
+      "journal": "Journal of Language and Social Psychology",
+      "published_date": "2026-10-09",
+      "summary": "基于r/ChangeMyView约6万帖子，用LIWC、主成分分析和多层逻辑回归，检验认知推理、情感表达与真实沟通风格对说服成功的影响。"
+    },
+    {
       "id": 2108,
       "title": "Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images",
       "journal": "Information Communication & Society",
@@ -112,13 +118,6 @@
       "journal": "Social Media + Society",
       "published_date": "2026-10-01",
       "summary": "研究以批判种族技术理论为框架，用民族志内容分析考察社交媒体上种族创伤性内容（黑人死亡、数字骚扰、深伪、战争内容）对黑人青少年心理的影响，指出算法放大此类内容并造成替代性创伤，同时平台也是行动主义与互助空间。"
-    },
-    {
-      "id": 2202,
-      "title": "Exploring the Predictors and Outcomes of Perceived Algorithm Responsiveness in Social Media Feeds: Combining Longitudinal and Computational Methods",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "论文结合7天日记调查与Twitter计算痕迹，分析算法策展信息线索如何影响感知算法响应性及其社交连接结果。"
     },
     {
       "id": 2099,
@@ -275,25 +274,11 @@
       "summary": "基于助推理论与SOR框架，通过在线实验检验AI透明度、奖励和追踪功能对智能垃圾桶采纳意愿的影响，发现信任和感知价值的中介作用及交互效应。"
     },
     {
-      "id": 410,
-      "title": "Algorithmized Teenagers in the Age of Artificial Intelligence: Information Cocoons, Algorithmic Literacy, and Media Literacy",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-06-16",
-      "summary": "基于美国437名青少年全国调查，考察算法新闻消费与算法素养对新闻认知、动机、情感等多元取向的影响，发现关联有限且非决定性。"
-    },
-    {
       "id": 82,
       "title": "From swipes to intimacy: dating app adoption and offline hookup intention among male rural migrant workers",
       "journal": "Information Communication & Society",
       "published_date": "2026-06-15",
       "summary": "基于中国男性农民工调查数据，整合使用与满足和社会学习理论，考察约会应用采用的影响因素及对线下勾搭意图的中介作用，发现动机、社会认同、社会比较等通过采用影响意图，且受伦理疑虑调节。"
-    },
-    {
-      "id": 32,
-      "title": "When the Algorithm Understands You (or Doesn’t): LGBTQ+ Youth’s Identity-Related Interactions with Algorithmic Media",
-      "journal": "Communication Research",
-      "published_date": "2026-06-13",
-      "summary": "研究LGBTQ+青年与算法媒体的互动，通过日记和调查考察算法响应性、不敏感性和算法训练对身份认同的影响，发现算法推荐可增强身份自豪感。"
     },
     {
       "id": 412,
@@ -322,13 +307,6 @@
       "journal": "Communication Research Reports",
       "published_date": "2026-05-27",
       "summary": "基于美国全国样本，考察人机闲聊中的沟通偶然性对感知响应性、参与度和满意度的影响，发现陪伴感调节作用。"
-    },
-    {
-      "id": 98,
-      "title": "Algorithmic ambivalence: LGBTQ+ social media and mental health among Chinese gay men",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-05-25",
-      "summary": "研究中国男同性恋者在社交媒体中算法矛盾心理及其对心理健康的影响，结合算法与社媒使用议题。"
     }
   ],
   "paper_edges": []

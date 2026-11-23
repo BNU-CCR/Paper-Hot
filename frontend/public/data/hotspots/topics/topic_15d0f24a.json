@@ -1,9 +1,9 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式AI可信度与虚假信息治理",
-  "description": "关注生成式AI在事实核查、在线协商与信息治理中的可信度建构、问责框架与民主韧性。",
-  "why_hot": "近30天5篇，日均速度较前期降14%，但仍覆盖7本期刊，属高位活跃议题。",
-  "hot_score": 57,
+  "label": "生成式AI与选举信息真实性",
+  "description": "研究生成式AI在选举中的信息风险、事实核查的可信度建构，以及AI治理与民主韧性的关系。",
+  "why_hot": "近30天发表5篇，日均速度较前期下降14%，但覆盖7本期刊，议题仍属活跃。",
+  "hot_score": 60,
   "growth": -0.138,
   "growth_rate": -0.138,
   "recent_rate": 0.1667,
@@ -15,13 +15,26 @@
   "status": "hot",
   "keywords": [
     "generative AI",
-    "source credibility",
     "fact-checking",
-    "disinformation governance",
-    "trust",
-    "AI accountability"
+    "disinformation",
+    "election integrity",
+    "democratic resilience"
   ],
   "papers": [
+    {
+      "id": 2261,
+      "title": "The Hype Versus the Reality of Generative AI in Elections: The Case of the 2024 Indian Elections",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-11-20",
+      "summary": "研究采集印度6000余个WhatsApp群组超550万条消息，检测生成式AI内容占比并分类，发现AI主要用于礼仪性图像生产而非深度伪造欺骗，挑战AI威胁选举的炒作。"
+    },
+    {
+      "id": 2263,
+      "title": "Disenchanting the Epistemic Authority and Inevitability of AI: An Analysis of Factcheckers’ Perspectives and Professional Guidelines",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-11-18",
+      "summary": "通过对欧洲和拉美50位事实核查者的访谈及18份AI指南的主题分析，发现从业者对AI持工具性乐观与认知祛魅并存的態度：利用AI提升监测与数据处理效率，但拒绝将判定真相的权威让渡给自主系统，并以人类在环要求划界。"
+    },
     {
       "id": 2258,
       "title": "Generative AI Source Credibility in Fact-Checking: The Role of Layered Sources",
@@ -149,13 +162,6 @@
       "summary": "通过肯尼亚7000人调查实验，考察社交评论对政治深度伪造效果的影响，发现质疑评论可部分恢复政治家支持，且党派偏见影响判断，强调集体意义建构的作用。"
     },
     {
-      "id": 212,
-      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
-      "journal": "Political Communication",
-      "published_date": "2026-06-30",
-      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
-    },
-    {
       "id": 402,
       "title": "Epistemic Dislocation in AI Journalism: Fragmented Authority and the Reconfiguration of Knowledge Production",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -252,13 +258,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-05-27",
       "summary": "基于18,282篇AI生成和18,210篇人工文章，比较覆盖、守门和陈述偏见，发现AI重构而非减少媒体偏见，成为现有模式的镜像与选择性放大器。"
-    },
-    {
-      "id": 416,
-      "title": "Automated Trust: Humans, AI, Misinformation, and Algorithmic Fact-Checking from the Perspective of Truth-Default Theory",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-05-23",
-      "summary": "文章以Truth-Default Theory为视角，探讨人类与AI、错误信息及算法事实核查的交互，分析人类易受错误信息影响的机制及其对AI应用的启示。"
     }
   ],
   "paper_edges": []

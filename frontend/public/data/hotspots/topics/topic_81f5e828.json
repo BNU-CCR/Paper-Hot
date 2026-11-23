@@ -1,23 +1,23 @@
 {
   "topic_id": "topic_81f5e828",
   "label": "平台可供性与情感群体极化",
-  "description": "探讨平台可供性归因与身份认同过程如何塑造情感极化及社交媒体使用的时间评价。",
-  "why_hot": "近30天仅2篇，日均速度较前期降66%，研究活动明显降温但期刊分布仍广。",
-  "hot_score": 33,
-  "growth": -0.655,
-  "growth_rate": -0.655,
+  "description": "探讨平台可供性归因如何助推情感极化，以及身份动机如何形塑社交媒体使用评价。",
+  "why_hot": "近30天仅2篇，日均发表速度较前期下降67%，议题热度明显降温。",
+  "hot_score": 34,
+  "growth": -0.667,
+  "growth_rate": -0.667,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.1933,
+  "baseline_rate": 0.2,
   "recent_count": 2,
-  "baseline_count": 29,
+  "baseline_count": 30,
   "journal_count": 9,
   "lineage_status": "continued",
   "status": "emerging",
   "keywords": [
     "affordances",
     "affective polarization",
-    "social identity",
     "social media use",
+    "identity",
     "group polarization"
   ],
   "papers": [
@@ -120,6 +120,13 @@
       "summary": "利用2020和2022选举期间Twitter数据，分析性别与党派如何影响女性政治议题讨论，发现精英与非精英用户差异。"
     },
     {
+      "id": 8,
+      "title": "Happiness in Political Communication by Men and Women Members of the US Congress",
+      "journal": "Political Communication",
+      "published_date": "2026-07-29",
+      "summary": "研究美国国会男女议员政治传播中的幸福感差异，可能基于文本分析，但具体方法未明示。"
+    },
+    {
       "id": 13,
       "title": "Social media, social identity, and the construction of perceived gender conflict: evidence from a national survey in South Korea",
       "journal": "Asian Journal of Communication",
@@ -169,18 +176,18 @@
       "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
     },
     {
+      "id": 281,
+      "title": "Conspiracies and Algorithms: How Reddit’s Conspiracy Community Perceives Algorithm-Driven Social Automation",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "研究通过分析Reddit上10,087个帖子，探讨阴谋社区如何感知和批判算法驱动的社会自动化，发现阴谋思维与对算法隐蔽动机的感知相关，强调算法治理需考虑社会文化背景。"
+    },
+    {
       "id": 282,
       "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
-    },
-    {
-      "id": 284,
-      "title": "When Herstory Goes Viral: Popular Resistance in the State-Platform Nexus in China",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "论文基于对抖音的数字化田野调查，提出“流行抵抗”概念，分析女性主义内容在平台与国家的双重结构下如何获得可见性并受制于算法与政治商业逻辑。"
     },
     {
       "id": 1994,

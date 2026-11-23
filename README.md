@@ -5,15 +5,15 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-preview:start -->
 ## 本期精选（自动更新）
 
-> 更新于 2026-11-19 22:06 GMT+8，展示最新 5 篇精选论文。
+> 更新于 2026-11-23 23:41 GMT+8，展示最新 5 篇精选论文。
 
 | 日期 | 论文 | 期刊 | 推荐摘要 |
 | --- | --- | --- | --- |
+| 2026-11-20 | [The Hype Versus the Reality of Generative AI in Elections: The Case of the 2024 Indian Elections](<https://doi.org/10.1177/19401612261494396>) | The International Journal of Press/Politics | 研究采集印度6000余个WhatsApp群组超550万条消息，检测生成式AI内容占比并分类，发现AI主要用于礼仪性图像生产而非深度伪造欺骗，挑战AI威胁选举的炒作。 |
+| 2026-11-18 | [YouTube como archivo cultural digital participativo: evolución del canal Onda Cádiz Carnaval (2014–2024)](<https://doi.org/10.7195/ri14.v24i1.2368>) | Revista ICONO14 | 论文将西班牙Onda Cádiz狂欢节YouTube频道视为参与式数字文化遗产档案，纵向分析2014—2024年3706个视频的发布量、观看量与互动率，并用LDA对52,593条评论做主题建模，发现互动率稳健上升、七个稳定话语维度及跨国地域认同。 |
 | 2026-11-15 | [Generative AI Source Credibility in Fact-Checking: The Role of Layered Sources](<https://doi.org/10.1080/08838151.2026.2763546>) | Journal of Broadcasting & Electronic Media | 通过3×2在线实验考察AI事实核查中赞助方与训练数据两层来源线索对专业性、可信赖性、善意感知及信念纠正的影响，发现训练数据微调提升专业性感知，但无间接信念纠正效应。 |
 | 2026-11-13 | [The platform prism: affordance attributions for affective group polarization in China’s public discourse](<https://doi.org/10.1080/19331681.2026.2762956>) | Journal of Information Technology & Politics | 该研究基于可供性理论，对微博与头条两平台用户评论做比较情感分析，论证社会、算法与规制可供性同用户想象可供性交互，将个体负面偏差放大为情感群体极化，提出“可供性棱镜折射效应”，并主张通过技术架构升级与算法透明度治理情绪升级。 |
 | 2026-11-12 | [Multum in Parvo: the impact of narrative structure in short video description texts on dissemination effectiveness](<https://doi.org/10.1504/ijmc.2027.10082283>) | International Journal of Mobile Communications | 论文探讨短视频描述文本中的叙事结构如何影响传播效果，可能通过文本特征提取与传播数据建模进行分析。 |
-| 2026-11-12 | [Digital bystanders to genocide: Moral expectations, social media, and passive outrage online](<https://doi.org/10.1177/17506352261501385>) | Media War & Conflict | 论文以维吾尔种族灭绝为例，采集Twitter数据并用数字文本分析构建数字旁观者行为矩阵，讨论技术道德变迁与旁观行为的媒介化。 |
-| 2026-11-09 | [Morale in Political Campaigning: Are Political Candidates’ Moral Concerns Coherent with Their Campaign Rhetoric?](<https://doi.org/10.1080/10584609.2026.2757594>) | Political Communication | 研究结合德国州选举候选人调查与其Meta帖子，通过众包标注和Transformer模型预测道德标签，检验候选人道德信念与竞选修辞的一致性及党派差异。 |
 
 <!-- paper-hot:auto-preview:end -->
 
@@ -54,18 +54,18 @@ Paper HOT 是一个面向计算传播研究的论文情报站。项目目标是�
 <!-- paper-hot:auto-stats:start -->
 ### 自动更新状态
 
-> 最近更新：2026-11-19 22:06 GMT+8
+> 最近更新：2026-11-23 23:41 GMT+8
 
 | 指标 | 数量 |
 | --- | ---: |
-| 数据库论文 | 2259 |
-| 当期新增 | 22 |
-| High / Medium / Low | 624 / 715 / 920 |
-| Pending / Screened / Quarantined / Error | 0 / 2258 / 0 / 1 |
-| 已发布精选 | 624 |
-| 期刊全量导出 | 2259 |
+| 数据库论文 | 2272 |
+| 当期新增 | 30 |
+| High / Medium / Low | 626 / 718 / 928 |
+| Pending / Screened / Quarantined / Error | 0 / 2271 / 0 / 1 |
+| 已发布精选 | 626 |
+| 期刊全量导出 | 2272 |
 
-覆盖验证：OpenAlex DOI 2245，Crossref DOI 994，匹配 935，Crossref 中尚缺 59。
+覆盖验证：OpenAlex DOI 2258，Crossref DOI 1001，匹配 947，Crossref 中尚缺 54。
 
 <!-- paper-hot:auto-stats:end -->
 

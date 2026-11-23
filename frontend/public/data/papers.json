@@ -1,5 +1,73 @@
 [
   {
+    "id": 2261,
+    "title": "The Hype Versus the Reality of Generative AI in Elections: The Case of the 2024 Indian Elections",
+    "title_zh": "生成式人工智能在选举中的炒作与现实：以2024年印度大选为例",
+    "authors": [
+      "Simon Chauchard",
+      "Kiran K. Garimella"
+    ],
+    "institutions": [],
+    "journal": "The International Journal of Press/Politics",
+    "published_date": "2026-11-20",
+    "relevance": "High",
+    "score": null,
+    "abstract": "The 2024 Indian General Election was defined by pervasive warnings that generative AI would unleash a tsunami of deepfakes and fundamentally destabilize democratic processes. To empirically test these predictions, we analyzed over 5.5 million messages from more than 6,000 WhatsApp groups, obtained through a large-scale data donation project in India. Our findings reveal a profound disconnect between pre-election hype and ground truth: generative AI constituted only about 1.1 percent of the image dataset once corrected for the measured recall of our detection pipeline, a figure we treat as a lower bound, with no evidence of a viral “deepfake” epidemic. Furthermore, a qualitative taxonomy of this content reveals that the technology was rarely deployed for deception. Instead, it was primarily utilized for “phatic” labor—automating the production of hyper-stylized “Good Morning” greetings, religious iconography, and patriotic art. We argue that AI adoption was constrained by technological friction and by economic incentives, as traditional “cheapfakes” remained comparatively more cost-effective alternatives for political actors. These results challenge the prevailing focus on the threat of AI-driven messaging, suggesting that the technology may not always lead to epistemic disruption, but rather to the efficient reproduction of existing social rituals.",
+    "abstract_zh": "2024年印度大选期间，普遍存在一种担忧，即生成式人工智能（Generative AI）会引发大量深度伪造（deepfakes）内容，从而从根本上破坏民主进程。为了验证这些预测，我们分析了来自6000多个WhatsApp群组的550多万条消息，这些数据是通过印度的一个大规模数据捐赠项目获得的。研究结果发现，选举前的炒作与实际情况之间存在巨大差距：在经过我们的检测系统校正后，生成式人工智能生成的内容仅占图像数据集的约1.1%，我们认为这一比例是最低估计值；并且没有证据表明存在大规模的深度伪造病毒式传播。此外，对这类内容的定性分析表明，该技术很少被用于欺骗目的，而主要用于“例行性”任务，例如自动生成风格夸张的“早上好”问候语、宗教图像以及爱国题材的艺术作品。我们认为，人工智能的应用受到技术限制和经济因素的制约，因为传统的“廉价伪造”（cheapfakes）对于政治参与者来说仍然是更具成本效益的选择。这些结果挑战了目前人们对人工智能驱动的信息传播所带来的威胁的普遍看法，表明这项技术并不一定会导致认知上的颠覆，反而可能只是使现有的社会仪式更加高效地得以复制。",
+    "summary": "研究采集印度6000余个WhatsApp群组超550万条消息，检测生成式AI内容占比并分类，发现AI主要用于礼仪性图像生产而非深度伪造欺骗，挑战AI威胁选举的炒作。",
+    "reason": "分析550万WhatsApp消息，检测生成式AI在选举中的实际使用，属计算传播研究。",
+    "tags": [
+      "生成式AI",
+      "WhatsApp",
+      "政治传播",
+      "虚假信息",
+      "大规模数据分析"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/19401612261494396",
+    "source_url": "https://doi.org/10.1177/19401612261494396",
+    "detail_slug": "the-hype-versus-the-reality-of-generative-ai-in-elections-the-case-of-the-2024-indian-elections",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "The International Journal of Press/Politics",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2265,
+    "title": "YouTube como archivo cultural digital participativo: evolución del canal Onda Cádiz Carnaval (2014–2024)",
+    "title_zh": "YouTube作为参与式数字文化档案：Onda Cádiz Carnaval频道的演变（2014–2024）",
+    "authors": [
+      "John Anzola-Gómez",
+      "Estrella Fernández Jiménez"
+    ],
+    "institutions": [],
+    "journal": "Revista ICONO14",
+    "published_date": "2026-11-18",
+    "relevance": "High",
+    "score": null,
+    "abstract": "Purpose: This research aimed to analyze the evolution of the Onda Cádiz Carnaval YouTube channel (2014-2024) as a participatory digital cultural archive of intangible heritage managed by a public broadcaster. Methodology: A quantitative approach was applied, with a longitudinal design, framed within cultural analytics. Publication volume, viewership, and normalized interaction were analyzed, along with the thematic discourse of 52,593 comments through LDA (K=7), Spearman correlation, and OLS regression. Results: A sustained production of 3,706 videos was found, along with content visibility per unit independent of publication volume. The Engagement Rate showed a robust increasing trend (ρ=0.873, p=0.0005), peaking in 2021, a year without a live event. LDA identified seven stable discursive dimensions, highlighting a transnational territorial identity. Conclusions: The channel evolved from a digital extension of a traditional broadcaster into a cultural archive with its own dynamic, actively inhabited by its audience.",
+    "abstract_zh": "研究目的**：本研究旨在分析Onda Cádiz Carnaval YouTube频道（2014–2024年）的演变过程，该频道是由一家公共广播机构运营的、用于记录非物质文化遗产的参与式数字文化档案。  \n**研究方法**：采用定量研究方法，采用纵向研究设计，并结合文化分析框架。研究内容涵盖了视频的发布数量、观看量以及用户互动数据；同时通过LDA（K=7）、斯皮尔曼相关性分析（Spearman correlation）和OLS回归分析（OLS regression）对52,593条评论的主题进行了分析。  \n**研究结果**：研究发现该频道共发布了3,706个视频，且内容的影响力与视频的发布数量无关。用户参与度（Engagement Rate）呈现出持续上升的趋势（ρ=0.873，p=0.0005），并在2021年达到峰值——这一年该频道并未举办任何现场活动。LDA分析识别出七个稳定的主题维度，这些维度体现了该频道的跨国性特征（即其内容具有跨地域的传播影响力）。  \n**研究结论**：该频道已从传统广播机构的数字延伸平台发展成为具有自身动态性的文化档案，其内容持续受到观众的高度关注和积极参与。",
+    "summary": "论文将西班牙Onda Cádiz狂欢节YouTube频道视为参与式数字文化遗产档案，纵向分析2014—2024年3706个视频的发布量、观看量与互动率，并用LDA对52,593条评论做主题建模，发现互动率稳健上升、七个稳定话语维度及跨国地域认同。",
+    "reason": "以YouTube频道37万级视频与5万余条评论为数据，用LDA、相关与回归分析传播互动，属计算传播研究。",
+    "tags": [
+      "YouTube",
+      "LDA主题模型",
+      "数字文化档案",
+      "受众参与",
+      "纵向分析"
+    ],
+    "method": "计算传播学",
+    "doi": "10.7195/ri14.v24i1.2368",
+    "source_url": "https://doi.org/10.7195/ri14.v24i1.2368",
+    "detail_slug": "youtube-como-archivo-cultural-digital-participativo-evoluci-n-del-canal-onda-c-diz-carnaval-2014-2024",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Revista Icono 14-Revista Cientifica de Comunicacion y Tecnologias",
+    "volume": "24",
+    "issue": "1"
+  },
+  {
     "id": 2258,
     "title": "Generative AI Source Credibility in Fact-Checking: The Role of Layered Sources",
     "title_zh": "生成式人工智能在事实核查中的信息可信度：多层次信息来源的作用**。",

@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "叙事结构与多模态传播效果",
-  "description": "分析短视频与视频平台的叙事结构、多模态动态信号如何影响传播效果与受众注意。",
-  "why_hot": "近30天4篇，日均速度较前期增33%，覆盖8本期刊，活跃度上升。",
-  "hot_score": 67,
-  "growth": 0.333,
-  "growth_rate": 0.333,
-  "recent_rate": 0.1333,
+  "label": "叙事结构与媒介传播效果",
+  "description": "考察叙事结构、角色网络与媒介设计如何影响内容传播效果和受众注意力。",
+  "why_hot": "近30天发表3篇，日均速度与前期持平，覆盖8本期刊，研究稳定。",
+  "hot_score": 57,
+  "growth": 0.0,
+  "growth_rate": 0.0,
+  "recent_rate": 0.1,
   "baseline_rate": 0.1,
-  "recent_count": 4,
+  "recent_count": 3,
   "baseline_count": 15,
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "narrative structure",
-    "multimodality",
     "short video",
-    "attention",
-    "dissemination effectiveness"
+    "dissemination effectiveness",
+    "media design",
+    "attention"
   ],
   "papers": [
     {

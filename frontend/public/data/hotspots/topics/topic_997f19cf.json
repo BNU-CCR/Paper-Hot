@@ -1,16 +1,16 @@
 {
   "topic_id": "topic_997f19cf",
-  "label": "网络旁观行为与在线仇恨表达",
-  "description": "考察数字平台上的旁观者冷漠、道德期待与在线仇恨言论的社会认可机制。",
-  "why_hot": "近30天2篇，日均速度较前期降41%，研究热度趋于回落。",
-  "hot_score": 39,
-  "growth": -0.412,
-  "growth_rate": -0.412,
+  "label": "网络仇恨与旁观者道德响应",
+  "description": "关注社交媒体仇恨言论的传播机制，以及旁观者的道德期待与被动愤怒反应。",
+  "why_hot": "近30天仅2篇，日均发表速度较前期下降38%，研究热度有所回落。",
+  "hot_score": 41,
+  "growth": -0.375,
+  "growth_rate": -0.375,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.1133,
+  "baseline_rate": 0.1067,
   "recent_count": 2,
-  "baseline_count": 17,
-  "journal_count": 8,
+  "baseline_count": 16,
+  "journal_count": 7,
   "lineage_status": "continued",
   "status": "emerging",
   "keywords": [
@@ -41,13 +41,6 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-10-11",
       "summary": "研究自动转录1700条德国政客TikTok视频及5.3万条评论，结合大模型框架分类、立场检测与网络分析，比较气候运动、改革派与破坏性抗议讨论的极化程度，发现极右翼政客主导对抗性网络并从极化中获益。"
-    },
-    {
-      "id": 2122,
-      "title": "ChangeMyView: Unpacking the Complex Emotional, Cognitive, and Communicator-Related Processes Underlying Persuasion",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-10-09",
-      "summary": "基于r/ChangeMyView约6万帖子，用LIWC、主成分分析和多层逻辑回归，检验认知推理、情感表达与真实沟通风格对说服成功的影响。"
     },
     {
       "id": 2128,
