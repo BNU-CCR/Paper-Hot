@@ -1,5 +1,37 @@
 [
   {
+    "id": 2279,
+    "title": "Epistemic mimicry in wartime: How Russia’s state-aligned media makes disinformation appear credible",
+    "title_zh": "战时的认知模仿：俄罗斯国家控制的媒体如何让虚假信息显得可信",
+    "authors": [
+      "Liliia Sablina"
+    ],
+    "institutions": [],
+    "journal": "Media War & Conflict",
+    "published_date": "2026-11-23",
+    "relevance": "High",
+    "score": null,
+    "abstract": "This article examines how Russia’s state-aligned media makes disinformation appear credible during wartime. Existing research has made important advances in tracing the content of disinformation and the ways it diffuses across media networks. Yet it pays less attention to a prior question: how misleading narratives are made to appear factual and persuasive in the first place. I argue that this procedural dimension is crucial for understanding contemporary authoritarian disinformation, which often relies less on outright fabrication than on the strategic articulation of selectively true and emotionally resonant claims. To capture this process, I introduce implementation as a third analytical dimension alongside content and diffusion, and conceptualize it as epistemic mimicry: the imitation of journalistic conventions such as factual anchoring, expert quotation, and source attribution in order to make geopolitically convenient narratives appear credible. Empirically, the article analyses 11,868 media items from Izvestia, RT, and Vladimir Solovyov’s Telegram channel covering Germany and the Czech Republic between February 2022 and July 2024. Combining structural topic modelling with qualitative coding of 286 sampled texts, it identifies five recurring implementation tactics: omission, expert manipulation, anti-establishment framing, enemization, and singling-out. The findings show that Russian wartime disinformation operates not primarily through blatant falsehoods but through calibrated credibility-building. These tactics constitute a stable set of practices across outlets, but their deployment varies by target salience and issue domain. The article therefore conceptualizes disinformation as a procedural strategy of authoritarian wartime legitimation, showing how state-aligned media turn selectively presented facts into political narratives that appear credible to their audiences.",
+    "abstract_zh": "本文探讨了俄罗斯与政府结盟的媒体在战时如何使虚假信息显得可信。现有研究在追踪虚假信息的内容及其在媒体网络中的传播方式方面取得了重要进展，但较少关注一个先决问题：即这些误导性叙事最初是如何被塑造成看似真实且有说服力的。我认为，这一程序性维度对于理解当代的威权主义虚假信息至关重要，因为这类虚假信息往往不依赖于彻头彻尾的捏造，而是通过策略性地选择一些看似真实且能引发情感共鸣的论点来进行传播。为了捕捉这一过程，我在内容分析和传播分析的基础上，引入了“实施策略”作为第三个分析维度，并将其定义为“认知模仿”（epistemic mimicry）——即模仿新闻业的惯例（如事实性表述、专家引述和信息来源的标注），从而使具有地缘政治意义的叙事显得可信。通过分析2022年2月至2024年7月期间《消息报》（Izvestia）、俄罗斯电视台（RT）以及弗拉基米尔·索洛维约夫（Vladimir Solovyov）的Telegram频道发布的11,868篇关于德国和捷克共和国的媒体报道，本文结合结构化主题建模和对286篇样本文本的定性分析，发现了五种常见的实施策略：信息遗漏、专家言论的操控、反体制的叙事框架、敌对情绪的营造以及针对特定对象的攻击。研究结果表明，俄罗斯在战时的虚假信息传播主要不是通过公然的谎言，而是通过精心构建的可信度来实现。这些策略在各类媒体中具有普遍性，但其运用方式会根据目标受众的敏感度和议题领域而有所不同。因此，本文将虚假信息视为一种威权主义在战时进行合法化的程序性策略，揭示了与政府结盟的媒体如何将经过筛选的事实转化为让受众信服的政治叙事。",
+    "summary": "文章提出“认知模仿”概念，分析 2022-2024 年 Izvestia、RT 与索洛维约夫 Telegram 共 11,868 条涉德、捷报道，结合结构主题模型与 286 篇质性编码，识别出省略、专家操纵、反建制框架、敌化、点名五种可信度建构策略。",
+    "reason": "聚焦国家媒体虚假信息传播，使用结构主题模型分析万余条文本，方法与议题均符合计算传播。",
+    "tags": [
+      "计算宣传/虚假信息",
+      "文本分析/主题模型",
+      "俄罗斯国家媒体",
+      "战争传播"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/17506352261489000",
+    "source_url": "https://doi.org/10.1177/17506352261489000",
+    "detail_slug": "epistemic-mimicry-in-wartime-how-russia-s-state-aligned-media-makes-disinformation-appear-credible",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Media, War & Conflict",
+    "volume": "",
+    "issue": ""
+  },
+  {
     "id": 2261,
     "title": "The Hype Versus the Reality of Generative AI in Elections: The Case of the 2024 Indian Elections",
     "title_zh": "生成式人工智能在选举中的炒作与现实：以2024年印度大选为例",

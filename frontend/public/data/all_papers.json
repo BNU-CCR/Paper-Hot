@@ -1,5 +1,240 @@
 [
   {
+    "id": 2280,
+    "title": "A fast insertion Tabu search with conflict-avoidance heuristic model for optimising the design of simulation-driven antenna using quantum-inspired Tabu search algorithm",
+    "title_zh": "一种基于冲突避免启发式模型的快速插入禁忌搜索算法，用于优化模拟驱动天线的设计；该算法采用了受量子启发的禁忌搜索算法。",
+    "authors": [
+      "Bhavana Majji",
+      "Md Rashid Mahmood",
+      "R. Prasanthi",
+      "V. A. Sankar Ponnapalli",
+      "J. Pandu et al."
+    ],
+    "institutions": [],
+    "journal": "International Journal of Mobile Communications",
+    "published_date": "2026-11-25",
+    "relevance": "Low",
+    "score": null,
+    "abstract": "",
+    "abstract_zh": "",
+    "summary": "提出一种结合冲突规避启发式的快速插入禁忌搜索模型，并用量子启发式禁忌搜索算法优化仿真驱动的天线设计，属电磁工程与优化算法研究。",
+    "reason": "论文研究天线设计的禁忌搜索优化算法，属电子工程领域，与计算传播学无任何议题或方法关联。",
+    "tags": [
+      "天线设计优化",
+      "禁忌搜索算法",
+      "工程优化"
+    ],
+    "method": "",
+    "doi": "10.1504/ijmc.2027.10082550",
+    "source_url": "https://doi.org/10.1504/ijmc.2027.10082550",
+    "detail_slug": "a-fast-insertion-tabu-search-with-conflict-avoidance-heuristic-model-for-optimising-the-design-of-simulation-driven-antenna-using-quantum-inspired-tabu-search-algorithm",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "International Journal of Mobile Communications",
+    "volume": "1",
+    "issue": "1"
+  },
+  {
+    "id": 2274,
+    "title": "The Promises and Limits of Solutions Journalism: How Controversy Conditions Effects on Emotions and Attitudes in Response to News About Climate Change",
+    "title_zh": "解决方案新闻（Solutions Journalism）的潜力与局限：争议性事件如何影响人们对气候变化相关新闻的情绪和态度。",
+    "authors": [
+      "Adam Shehata",
+      "Kim Viborg Andersen",
+      "Mats Ekström",
+      "Emil Östlund"
+    ],
+    "institutions": [],
+    "journal": "The International Journal of Press/Politics",
+    "published_date": "2026-11-25",
+    "relevance": "Low",
+    "score": null,
+    "abstract": "This study addresses an argument not considered in previous research on solutions journalism: that the emotional and attitudinal effects of solutions-focused news stories depend on the level of controversy of the solutions presented. Across two identically designed experiments focusing on reducing emissions from meat production (Study 1) and transportation (Study 2), we find that the promises of solutions journalism are conditioned by the real-world sociopolitical context in which it is embedded. Both levels of controversy and political predispositions among news consumers condition the effects of solutions journalism on the audience, even generating evidence of backfiring effects.",
+    "abstract_zh": "本研究探讨了一个在以往关于“解决方案新闻”（solutions journalism）的研究中未被考虑的观点：即以解决方案为中心的新闻报道所引发的情感和态度反应，取决于所提出的解决方案所涉及的争议程度。通过两项设计相同的实验（实验1关注减少肉类生产过程中的排放，实验2关注减少交通运输过程中的排放），我们发现解决方案新闻所传达的信息效果会受到其所处的现实社会政治环境的影响。无论是争议的激烈程度，还是新闻消费者的政治倾向，都会影响这些新闻报道对受众的影响；甚至在某些情况下，这些报道还可能产生适得其反的效果。",
+    "summary": "通过两项设计相同的实验，考察关于减少肉类生产与交通排放的解决方案新闻在不同争议程度下对受众情感与态度的影响，发现争议程度与政治倾向会调节效果，甚至产生反效果。",
+    "reason": "采用两个实验检验解决方案新闻的情感与态度效果，无计算方法，议题也不涉及计算传播核心主题",
+    "tags": [
+      "解决方案新闻",
+      "气候变化传播",
+      "实验研究",
+      "政治倾向"
+    ],
+    "method": "量化分析",
+    "doi": "10.1177/19401612261503699",
+    "source_url": "https://doi.org/10.1177/19401612261503699",
+    "detail_slug": "the-promises-and-limits-of-solutions-journalism-how-controversy-conditions-effects-on-emotions-and-attitudes-in-response-to-news-about-climate-change",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "The International Journal of Press/Politics",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2281,
+    "title": "Exploring the drivers of university students' behavioural intention and use behaviour: a study comparing mobile learning and mobile shopping",
+    "title_zh": "探索大学生行为意向和使用行为的驱动因素：一项比较移动学习和移动购物的研究",
+    "authors": [
+      "Yen Ruey Kuo",
+      "Chien Ruei Chen",
+      "Yi Shun Wang",
+      "Yu Min Wang"
+    ],
+    "institutions": [],
+    "journal": "International Journal of Mobile Communications",
+    "published_date": "2026-11-24",
+    "relevance": "Low",
+    "score": null,
+    "abstract": "",
+    "abstract_zh": "",
+    "summary": "比较大学生对移动学习与移动购物两种移动服务的行为意愿与使用行为驱动因素，基于技术接受类理论模型进行实证检验。",
+    "reason": "研究移动学习与移动购物使用意愿的比较，属技术接受/消费者行为议题，无计算传播元素",
+    "tags": [
+      "移动学习",
+      "技术接受模型",
+      "使用意愿"
+    ],
+    "method": "量化分析",
+    "doi": "10.1504/ijmc.2027.10082545",
+    "source_url": "https://doi.org/10.1504/ijmc.2027.10082545",
+    "detail_slug": "exploring-the-drivers-of-university-students-behavioural-intention-and-use-behaviour-a-study-comparing-mobile-learning-and-mobile-shopping",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "International Journal of Mobile Communications",
+    "volume": "1",
+    "issue": "1"
+  },
+  {
+    "id": 2278,
+    "title": "Diplomatic crisis and media–state relations: Online news coverage of the Thailand–Cambodia border conflict",
+    "title_zh": "外交危机与媒体-国家关系：关于泰国-柬埔寨边境冲突的在线新闻报道",
+    "authors": [
+      "Hong Hanh Dau",
+      "Thi Huong Tran",
+      "Huyen Ngoc Phan"
+    ],
+    "institutions": [],
+    "journal": "Media War & Conflict",
+    "published_date": "2026-11-24",
+    "relevance": "Low",
+    "score": null,
+    "abstract": "Diplomatic crises are no longer confined to elite negotiations, as expanded media has heightened their visibility and contestation. The 2025 Thailand–Cambodia diplomatic crisis reflects this shift, with media in both countries shaping how the dispute was interpreted and politicised. This research therefore explores how Thai and Cambodian media framed the diplomatic crisis and how their coverage reflects media–state relations within their political contexts. Methodologically, the research employs quantitative content analysis and expert interviews, drawing on a dataset of 1486 articles collected from 4 online foreign-oriented news outlets – Thai PBS World, The Nation Thailand, The Phnom Penh Post and Khmer Times – during an intensive phase of the diplomatic crisis in 2025. The findings show that while the media in both countries shared certain framing patterns, they also exhibited differences. Thai media tended to interpret the diplomatic crisis through the lens of domestic politics. In contrast, Cambodian media demonstrated a stronger tendency towards internationalisation, elevating the bilateral dispute to the regional agenda. These divergent ways of framing the crisis reflect the distinct political contexts of the two countries. These findings reinforce media theories on international conflicts, highlighting the media’s role in crisis governance and dialogue among relevant actors.",
+    "abstract_zh": "外交危机已不再局限于精英阶层的谈判之中，因为媒体覆盖范围的扩大提高了这些危机的可见度和公众的关注度。2025年泰国与柬埔寨之间的外交危机就体现了这一变化：两国媒体在报道和解读这一争端的过程中发挥了重要作用，甚至将其政治化。因此，本研究探讨了泰国和柬埔寨媒体是如何构建对这一外交危机的认知框架的，以及它们的报道方式如何反映各自国家内部的媒体与政府之间的关系。在方法论上，本研究采用了定量内容分析和技术访谈，并分析了2025年外交危机高峰期间从四家面向国际读者的在线新闻媒体（泰国PBS World、《The Nation Thailand》、《The Phnom Penh Post》和《Khmer Times》）收集到的1486篇文章。研究结果表明，尽管两国媒体在某些报道框架上存在相似之处，但也存在明显差异：泰国媒体更倾向于从国内政治的角度来解读这一外交危机；而柬埔寨媒体则更注重将这一双边争端提升到区域层面进行讨论。这种不同的报道方式反映了两国截然不同的政治背景。这些发现进一步印证了有关国际冲突的媒体理论，强调了媒体在危机治理及相关各方对话中的作用。",
+    "summary": "以2025年泰柬外交危机为例，收集四家英文网络媒体1486篇报道，结合量化内容分析与专家访谈，比较泰柬媒体的框架差异，发现泰媒侧重国内政治，柬媒倾向国际化，由此反映两国媒体与国家关系的不同政治语境。",
+    "reason": "网络新闻框架的量化内容分析，没有计算方法的特征，议题属于国际冲突与媒体国家关系，非计算传播核心议题",
+    "tags": [
+      "内容分析",
+      "新闻框架",
+      "媒介与国家关系",
+      "外交危机"
+    ],
+    "method": "量化分析",
+    "doi": "10.1177/17506352261503093",
+    "source_url": "https://doi.org/10.1177/17506352261503093",
+    "detail_slug": "diplomatic-crisis-and-media-state-relations-online-news-coverage-of-the-thailand-cambodia-border-conflict",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Media, War & Conflict",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2277,
+    "title": "News avoidance in times of crisis: How Egyptians engage with the Israel–Gaza war",
+    "title_zh": "危机时期的新闻回避行为：埃及人如何应对以色列-加沙战争",
+    "authors": [
+      "Mahmoud Sayed Mohamed Ali",
+      "Amr Mohamed Mahmoud Abdelhamid"
+    ],
+    "institutions": [],
+    "journal": "Media War & Conflict",
+    "published_date": "2026-11-24",
+    "relevance": "Medium",
+    "score": null,
+    "abstract": "Using social media during crises and wars exposes users to a vast wealth of news that overwhelms their ability to process it, resulting in cognitive and emotional fatigue; this, in turn, may lead to avoidance. Therefore, our study examines factors associated with news avoidance behavior on social media during the Israel–Gaza war. We conducted an online survey with adult users in Egypt. We found that news overload directly and strongly influences users’ news avoidance behavior. Furthermore, news fatigue, analysis paralysis, and affective load are strongly associated with news avoidance. However, demographic variables (gender, age, and education) did not have any statistically significant effect on the study population. Our study highlights the importance of understanding intentional news avoidance in a non-Western context and offers insights into why social media users choose to avoid news content involving wars or protracted armed conflicts.",
+    "abstract_zh": "在危机和战争期间使用社交媒体会让用户接触到海量的新闻信息，这些信息超出了他们处理的能力范围，从而导致认知和情绪上的疲劳；这反过来又可能促使用户选择回避相关新闻。因此，我们的研究探讨了在以色列-加沙战争期间，影响用户在社交媒体上回避新闻行为的各种因素。我们针对埃及的成年用户进行了一项在线调查。研究发现，新闻信息过载直接且显著地影响了用户的新闻回避行为。此外，新闻疲劳、分析瘫痪（即无法有效分析新闻内容）以及情感负担也与新闻回避行为密切相关。然而，人口统计变量（性别、年龄和教育水平）对研究结果没有产生统计学上的显著影响。我们的研究强调了在非西方背景下理解用户主动回避新闻行为的重要性，并为理解社交媒体用户为何会选择回避与战争或长期武装冲突相关的新闻内容提供了新的见解。",
+    "summary": "研究以埃及成年用户为对象，通过在线问卷调查以色列—加沙战争期间社交媒体新闻回避行为的成因，发现新闻过载、新闻疲劳、分析瘫痪与情感负荷显著相关，人口学变量无显著影响。",
+    "reason": "议题涉及社交媒体新闻回避，但方法为传统在线问卷，无计算元素，边缘相关",
+    "tags": [
+      "社交媒体",
+      "新闻回避",
+      "危机传播",
+      "问卷调查"
+    ],
+    "method": "量化分析",
+    "doi": "10.1177/17506352261503079",
+    "source_url": "https://doi.org/10.1177/17506352261503079",
+    "detail_slug": "news-avoidance-in-times-of-crisis-how-egyptians-engage-with-the-israel-gaza-war",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Media, War & Conflict",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2279,
+    "title": "Epistemic mimicry in wartime: How Russia’s state-aligned media makes disinformation appear credible",
+    "title_zh": "战时的认知模仿：俄罗斯国家控制的媒体如何让虚假信息显得可信",
+    "authors": [
+      "Liliia Sablina"
+    ],
+    "institutions": [],
+    "journal": "Media War & Conflict",
+    "published_date": "2026-11-23",
+    "relevance": "High",
+    "score": null,
+    "abstract": "This article examines how Russia’s state-aligned media makes disinformation appear credible during wartime. Existing research has made important advances in tracing the content of disinformation and the ways it diffuses across media networks. Yet it pays less attention to a prior question: how misleading narratives are made to appear factual and persuasive in the first place. I argue that this procedural dimension is crucial for understanding contemporary authoritarian disinformation, which often relies less on outright fabrication than on the strategic articulation of selectively true and emotionally resonant claims. To capture this process, I introduce implementation as a third analytical dimension alongside content and diffusion, and conceptualize it as epistemic mimicry: the imitation of journalistic conventions such as factual anchoring, expert quotation, and source attribution in order to make geopolitically convenient narratives appear credible. Empirically, the article analyses 11,868 media items from Izvestia, RT, and Vladimir Solovyov’s Telegram channel covering Germany and the Czech Republic between February 2022 and July 2024. Combining structural topic modelling with qualitative coding of 286 sampled texts, it identifies five recurring implementation tactics: omission, expert manipulation, anti-establishment framing, enemization, and singling-out. The findings show that Russian wartime disinformation operates not primarily through blatant falsehoods but through calibrated credibility-building. These tactics constitute a stable set of practices across outlets, but their deployment varies by target salience and issue domain. The article therefore conceptualizes disinformation as a procedural strategy of authoritarian wartime legitimation, showing how state-aligned media turn selectively presented facts into political narratives that appear credible to their audiences.",
+    "abstract_zh": "本文探讨了俄罗斯与政府结盟的媒体在战时如何使虚假信息显得可信。现有研究在追踪虚假信息的内容及其在媒体网络中的传播方式方面取得了重要进展，但较少关注一个先决问题：即这些误导性叙事最初是如何被塑造成看似真实且有说服力的。我认为，这一程序性维度对于理解当代的威权主义虚假信息至关重要，因为这类虚假信息往往不依赖于彻头彻尾的捏造，而是通过策略性地选择一些看似真实且能引发情感共鸣的论点来进行传播。为了捕捉这一过程，我在内容分析和传播分析的基础上，引入了“实施策略”作为第三个分析维度，并将其定义为“认知模仿”（epistemic mimicry）——即模仿新闻业的惯例（如事实性表述、专家引述和信息来源的标注），从而使具有地缘政治意义的叙事显得可信。通过分析2022年2月至2024年7月期间《消息报》（Izvestia）、俄罗斯电视台（RT）以及弗拉基米尔·索洛维约夫（Vladimir Solovyov）的Telegram频道发布的11,868篇关于德国和捷克共和国的媒体报道，本文结合结构化主题建模和对286篇样本文本的定性分析，发现了五种常见的实施策略：信息遗漏、专家言论的操控、反体制的叙事框架、敌对情绪的营造以及针对特定对象的攻击。研究结果表明，俄罗斯在战时的虚假信息传播主要不是通过公然的谎言，而是通过精心构建的可信度来实现。这些策略在各类媒体中具有普遍性，但其运用方式会根据目标受众的敏感度和议题领域而有所不同。因此，本文将虚假信息视为一种威权主义在战时进行合法化的程序性策略，揭示了与政府结盟的媒体如何将经过筛选的事实转化为让受众信服的政治叙事。",
+    "summary": "文章提出“认知模仿”概念，分析 2022-2024 年 Izvestia、RT 与索洛维约夫 Telegram 共 11,868 条涉德、捷报道，结合结构主题模型与 286 篇质性编码，识别出省略、专家操纵、反建制框架、敌化、点名五种可信度建构策略。",
+    "reason": "聚焦国家媒体虚假信息传播，使用结构主题模型分析万余条文本，方法与议题均符合计算传播。",
+    "tags": [
+      "计算宣传/虚假信息",
+      "文本分析/主题模型",
+      "俄罗斯国家媒体",
+      "战争传播"
+    ],
+    "method": "计算传播学",
+    "doi": "10.1177/17506352261489000",
+    "source_url": "https://doi.org/10.1177/17506352261489000",
+    "detail_slug": "epistemic-mimicry-in-wartime-how-russia-s-state-aligned-media-makes-disinformation-appear-credible",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Media, War & Conflict",
+    "volume": "",
+    "issue": ""
+  },
+  {
+    "id": 2275,
+    "title": "Pensamiento computacional. Alfabetización digital sin computadoras",
+    "title_zh": "计算思维：无需计算机的数字素养",
+    "authors": [
+      "Umberto Roncoroni Osio",
+      "Jaime Bailón"
+    ],
+    "institutions": [],
+    "journal": "Revista ICONO14",
+    "published_date": "2026-11-23",
+    "relevance": "Low",
+    "score": null,
+    "abstract": "Computational thinking has been introduced in schools to provide skills to survive in the digital world, but without proper attention to the fact that digital media are not just means of economic development, but a new way of thinking that modifies culture, communication and social relationships. We will try to demonstrate, with the help of literature, software development and the results of experimental workshops, first, that computational thinking must include humanities and, secondly, analogic skills and cultural traditions. Thus, this article’s goal is to rethink the computational thinking’s framework considering the cultural context and especially the rescue of cultural identity. To do this we will follow three main lines of thought: a) the discussion of the limits of technocentrism; b) a proper analysis of the characteristics of software; c) the analysis of alternative educational solutions like Turing machines and shape grammars. In the conclusions we will show that laptops, tablets and smartphones are not indispensable and can even jeopardize learning and creativity.",
+    "abstract_zh": "计算思维已被引入学校教育，旨在培养学生在数字世界中生存所需的技能。然而，人们往往忽视了一个重要事实：数字媒体不仅仅是推动经济发展的工具，更是一种全新的思维方式，它正在改变文化、沟通方式以及社会关系。我们将通过文献研究、软件开发以及实验研讨会的成果来论证：首先，计算思维应当包含人文素养；其次，还应当涵盖类比思维能力和传统文化元素。因此，本文的目标是重新审视计算思维的框架，充分考虑文化背景，尤其是如何保护文化身份。为此，我们将沿着三个主要思路展开讨论：a) 技术中心主义的局限性；b) 软件本身的特性分析；c) 替代性教育方法的研究（如图灵机模型和形状语法）。在结论部分，我们将指出笔记本电脑、平板电脑和智能手机并非学习与创造力的必备工具，反而可能对学习过程产生负面影响。",
+    "summary": "文章反思计算思维框架，主张其应纳入人文学科与本土文化传统，批判技术中心主义，论证笔记本电脑等设备并非学习必需。",
+    "reason": "讨论计算思维教育与数字素养，属教育学议题，非传播学计算研究",
+    "tags": [
+      "计算思维",
+      "数字素养",
+      "教育技术"
+    ],
+    "method": "理论分析",
+    "doi": "10.7195/ri14.v18i2.1570",
+    "source_url": "https://doi.org/10.7195/ri14.v18i2.1570",
+    "detail_slug": "pensamiento-computacional-alfabetizaci-n-digital-sin-computadoras",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Revista Icono 14-Revista Cientifica de Comunicacion y Tecnologias",
+    "volume": "18",
+    "issue": "2"
+  },
+  {
     "id": 2269,
     "title": "Adapting the story: Russian narrative adaptation during Sweden’s NATO accession",
     "title_zh": "故事的改编：瑞典加入北约期间俄罗斯的叙事改编",
@@ -196,6 +431,39 @@
     "tracked_journal": "The International Journal of Press/Politics",
     "volume": "",
     "issue": ""
+  },
+  {
+    "id": 2273,
+    "title": "Platform governance and elections in an era of democratic erosion",
+    "title_zh": "在民主制度逐渐衰落的时代：平台治理与选举",
+    "authors": [
+      "Chris Tenove",
+      "Heidi Tworek"
+    ],
+    "institutions": [],
+    "journal": "Information Communication & Society",
+    "published_date": "2026-11-18",
+    "relevance": "Low",
+    "score": null,
+    "abstract": "Democracy is foundering globally, and digital platforms both reflect and exacerbate its fragility. This special issue examines these trends and responses to them through the lens of elections, which serve as contests for power that illuminate deeper questions about how social media and AI shape democracy. This special issue’s eight research articles, along with a commentary and a response, converge on five arguments. First, citizens and scholars have become deeply pessimistic about platforms and AI, increasingly seen as ‘illiberal’ technologies controlled by companies with outsized economic and geopolitical power. Second, understanding how digital technologies influence democratic erosion or resilience requires careful comparison across global regions, regime types, social groups, and time periods. Third, myriad actors have responded, but on their own these efforts are fraught or partial; multi-institutional, whole-of-society action is needed. Fourth, governments, platforms, civil society groups, and researchers have differentiated capacities and normative obligations to protect democracy, but often lack the resolve or strategic clarity to fulfill them. Finally, researchers’ capacity to study these problems is itself at risk.",
+    "abstract_zh": "全球范围内的民主制度正在遭受严重挑战，而数字平台既反映了这种脆弱性，又加剧了这种趋势。本期特刊通过选举这一视角来探讨这些现象及其应对措施。选举实质上是权力争夺的场所，它们揭示了社交媒体和人工智能如何影响民主制度的更深层次问题。本期特刊的八篇研究文章，加上一篇评论和一篇回应，主要围绕五个论点展开讨论：首先，公民和学者对数字平台和人工智能持极度悲观的态度，认为这些技术被拥有巨大经济和地缘政治权力的公司所控制，属于“非自由”的工具；其次，要理解数字技术如何影响民主制度的衰落或韧性，需要仔细比较不同地区、政权类型、社会群体和时间段的情况；第三，虽然有许多主体对此做出了反应，但这些努力往往孤军奋战或不够全面，需要整个社会的多机构协作；第四，政府、数字平台、民间社会组织和研究人员在保护民主方面具有不同的能力和规范责任，但他们往往缺乏履行这些责任的决心和战略清晰度；最后，研究人员研究这些问题的能力本身也面临着风险。",
+    "summary": "该文是特刊导言，围绕平台与AI如何影响民主选举，总结八篇论文并提出五点论点，强调跨区域比较与多方治理。",
+    "reason": "特刊导言/综述，讨论平台治理与民主，但无计算方法或经验数据，不属计算传播研究。",
+    "tags": [
+      "平台治理",
+      "社交媒体",
+      "人工智能",
+      "民主选举"
+    ],
+    "method": "综述",
+    "doi": "10.1080/1369118x.2026.2750558",
+    "source_url": "https://doi.org/10.1080/1369118x.2026.2750558",
+    "detail_slug": "platform-governance-and-elections-in-an-era-of-democratic-erosion",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Information, Communication & Society",
+    "volume": "29",
+    "issue": "15"
   },
   {
     "id": 2271,
@@ -885,7 +1153,7 @@
     "abstract": "This work investigates three interrelated questions around false information targeting immigrants as a broad social group on U.S. social media (thereafter referred to as immigrant-targeting false SNS claims). Study 1 examines content-level features that potentially attract readers’ attention: a quantitative analysis of PolitiFact data showed that relative to those not specifically about immigrants, immigrant-targeting false SNS claims exhibited a stronger negative tone and were more about race-related issues. Study 2 experimentally investigates the effects of immigrant-targeting SNS claims with distinctive media frames (defined as claims emphasizing either economic or health-related concerns) and that of corrective approach (with vs. without fact-checking flags): participants who viewed immigrant-targeting SNS claims flagged as false reported lower threat and anxiety perceptions and higher positive trait perceptions than those who viewed unflagged claims. Regarding the reference groups—specifically, “legal” versus “illegal” immigrants—participants associated with their perceived anxiety, the effect of fact-checking flags was conditional on the SNS claims’ media frames. Study 2 also uncovered that cognitive reflection and actively open-minded thinking play distinct roles in shaping how people respond to immigrant-targeting misinformation and fact-checking labels.",
     "abstract_zh": "本文探讨了三个相互关联的问题，这些问题都与针对美国社交媒体上移民这一广泛社会群体的虚假信息有关（以下简称“针对移民的虚假社交媒体言论”）。研究1分析了可能吸引读者注意的内容特征：通过对PolitiFact数据的定量分析发现，与那些不专门针对移民的虚假言论相比，针对移民的虚假言论具有更强烈的负面倾向，并且更多地涉及种族相关问题。研究2通过实验方法研究了不同媒体框架（即强调经济问题或健康问题的言论）以及是否添加事实核查标记对人们认知的影响：那些看到被标记为虚假的针对移民的社交媒体言论的参与者，其感知到的威胁和焦虑程度较低，而对移民的正面印象较高。在涉及“合法”移民与“非法”移民的参照群体时，事实核查标记的效果取决于这些社交媒体言论的媒体框架。研究2还发现，认知反思和开放的心态在人们应对针对移民的虚假信息及事实核查标记的过程中起着不同的作用。",
     "summary": "",
-    "reason": "筛选出错: 无法解析AI响应: {\n  \"relevance\": \"Medium\",\n  \"reason\": \"议题涉及社交媒体虚假信息与事实核查，但方法以内容分析和实验为主，非典型计算方法。\",\n  \"tags\": [\"虚假信息\", \"社交媒体\", \"事实核查\", \"移民感知\"],\n  \"summary\": \"研究社交媒体上",
+    "reason": "筛选出错: 无法解析AI响应: {\n  \"relevance\": \"Medium\",\n  \"reason\": \"议题涉及社交媒体虚假信息与事实核查，但方法为内容分析与实验，非典型计算传播。\",\n  \"tags\": [\"虚假信息\", \"社交媒体\", \"事实核查\", \"移民\", \"实验\"],\n  \"summary\": \"研究美国社交媒体上针对移民的虚假信息：分析PolitiFact数据中的内容特征，并通过实验检验媒体框架与事实核查标",
     "tags": [],
     "method": "",
     "doi": "10.1177/00936502261501242",
@@ -4621,6 +4889,38 @@
     "issue": ""
   },
   {
+    "id": 2276,
+    "title": "Managing Visibility in the Gray Zone: Quasi-Visibility and the Relational Practice of Algorithmic Resistance",
+    "title_zh": "在“灰色地带”中管理可见性：准可见性与算法抵抗的关联实践",
+    "authors": [
+      "Boyuan Huangfu"
+    ],
+    "institutions": [],
+    "journal": "Social Media + Society",
+    "published_date": "2026-10-01",
+    "relevance": "Medium",
+    "score": null,
+    "abstract": "This article introduces the concept of quasi-visibility—a suspended, in-between condition that is neither fully visible nor entirely invisible—to challenge the binary presumption that has long dominated algorithmic visibility research. Drawing on textual analysis of 2,093 original Weibo posts and participant observation of the “naked child” incident, this study examines how algorithmic resistance unfolds under conditions of quasi-visibility. Our findings reveal two interconnected dimensions. In the actional dimension, users continuously recalibrate resistance through spatial appropriation and discursive maneuvering. In the relational dimension, they negotiate tensions with multiple actors through identity construction, boundary demarcation, and platform contestation. Theoretically, the article advances algorithmic resistance from a binary struggle “against invisibility” to a sustained practice of “managing visibility in the gray zone.” By foregrounding the lived experience of quasi-visibility, this study reveals how algorithmic resistance in China is not a unified collective act but a creative, sometimes concealed, and ambiguous political practice co-shaped by user groups, state censorship, platform governance, and the traffic economy.",
+    "abstract_zh": "本文提出了“准可见性”（quasi-visibility）的概念——这是一种介于完全可见与完全不可见之间的中间状态——旨在挑战长期以来主导算法可见性研究的二元对立假设。通过对2,093条原始微博帖子的文本分析以及对“裸体儿童”事件的参与观察，本研究探讨了在准可见性条件下算法抵抗行为是如何发生的。研究结果揭示了两个相互关联的维度：在行为层面，用户通过空间占用的方式和话语策略不断调整自己的抵抗方式；在关系层面，他们通过身份构建、边界划分以及与平台的互动来缓解各种矛盾。从理论角度来看，本文将算法抵抗从一种“对抗不可见性”的二元对立模式，发展为一种在“灰色地带”中持续管理可见性的实践。通过关注准可见性的实际体验，本研究揭示了中国境内的算法抵抗行为并非一种统一的集体行动，而是一种由用户群体、国家审查机制、平台治理以及网络流量经济共同塑造的、具有创造性、有时隐蔽且含义模糊的政治实践。",
+    "summary": "文章提出“准可见性”概念，基于2093条微博文本分析与“裸童”事件参与观察，探讨用户在灰色地带中通过空间、话语和关系实践管理算法可见性并展开抵抗。",
+    "reason": "议题涉及社交媒体、算法可见性与抵抗，但方法为文本分析与参与观察，未明确使用计算方法。",
+    "tags": [
+      "算法抵抗",
+      "可见性",
+      "微博",
+      "社交媒体"
+    ],
+    "method": "质性分析",
+    "doi": "10.1177/20563051261505590",
+    "source_url": "https://doi.org/10.1177/20563051261505590",
+    "detail_slug": "managing-visibility-in-the-gray-zone-quasi-visibility-and-the-relational-practice-of-algorithmic-resistance",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "Social Media + Society",
+    "volume": "12",
+    "issue": "4"
+  },
+  {
     "id": 2251,
     "title": "Fandom Rupture in the Movement Society: Reactive Collective Participation Through Affective Practices",
     "title_zh": "运动社会中的粉丝群体分裂：通过情感实践实现反应性集体参与",
@@ -6021,6 +6321,39 @@
     "tracked_journal": "Information, Communication & Society",
     "volume": "",
     "issue": ""
+  },
+  {
+    "id": 2282,
+    "title": "Driving the spiral: an exploratory study of defensive avoidance in longitudinal media-attitude dynamics",
+    "title_zh": "推动这种螺旋式趋势：一项关于防御性回避行为的探索性研究——基于媒体态度动态的纵向数据分析",
+    "authors": [
+      "Yi‐Hui Christine Huang",
+      "Haodong Liu"
+    ],
+    "institutions": [],
+    "journal": "International Journal of Public Opinion Research",
+    "published_date": "2026-09-21",
+    "relevance": "Low",
+    "score": null,
+    "abstract": "Building on recent empirical distinctions between selective exposure and defensive avoidance, we extend the reinforcing spirals model by proposing an exploratory additional pathway, defensive avoidance, to provide a more nuanced account of how attitudes become reinforced over time. This model conceptualizes selective exposure and defensive avoidance as parallel mediators in the attitude reinforcement process, with direct reciprocal relationships between attitudes and both selective exposure and defensive avoidance. We tested this framework using 3 waves of panel survey data (N = 920) collected in Hong Kong during the COVID-19 pandemic. Following the survey-based approach to studying media selectivity, we focus on the reinforcement process of “Live with COVID” attitudes and distinguish source categories according to their contextual pro-“Live with COVID” or anti-“Live with COVID” stance. The main results supported the hypothesized attitude reinforcement through a longitudinal decrease in anti-“Live with COVID” source use and a simultaneous increase in pro-“Live with COVID” source use. Defensive avoidance played a stronger mediating role in this context. Theoretical implications and limitations are discussed.",
+    "abstract_zh": "基于最近关于选择性接触（selective exposure）和防御性回避（defensive avoidance）之间差异的实证研究，我们通过提出一个额外的中介路径——防御性回避（defensive avoidance），对态度如何随时间得到强化提供了更为细致的解释。该模型将选择性接触和防御性回避视为态度强化过程中的两个平行中介因素，并认为态度与选择性接触及防御性回避之间存在直接的相互关系。我们利用在COVID-19疫情期间于香港收集的三波面板调查数据（N = 920）来验证这一框架。采用基于调查的方法研究媒体选择行为后，我们重点关注“与COVID共存”（Live with COVID）态度的强化过程，并根据信息来源的立场（支持或反对“与COVID共存”）对信息来源进行分类。主要研究结果支持了我们的假设：随着时间的推移，反对“与COVID共存”的信息来源的使用频率下降，而支持“与COVID共存”的信息来源的使用频率上升，从而强化了相关态度。在这一背景下，防御性回避起到了更为显著的中介作用。文章还讨论了这一理论模型的意义及其局限性。",
+    "summary": "研究以香港新冠疫情期间三轮面板数据（N=920）检验强化螺旋模型，将选择性接触与防御性回避并列为态度强化的平行中介，发现防御性回避的中介作用更强。",
+    "reason": "采用三轮面板问卷调查与结构方程分析，无任何计算方法或数字数据采集，议题为选择性接触与态度强化。",
+    "tags": [
+      "选择性接触",
+      "防御性回避",
+      "强化螺旋",
+      "面板调查"
+    ],
+    "method": "量化分析",
+    "doi": "10.1093/ijpor/edag034",
+    "source_url": "https://doi.org/10.1093/ijpor/edag034",
+    "detail_slug": "driving-the-spiral-an-exploratory-study-of-defensive-avoidance-in-longitudinal-media-attitude-dynamics",
+    "source_type": "openalex",
+    "screening_status": "screened",
+    "tracked_journal": "International Journal of Public Opinion Research",
+    "volume": "38",
+    "issue": "4"
   },
   {
     "id": 2073,

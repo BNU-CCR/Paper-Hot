@@ -1,26 +1,33 @@
 {
   "topic_id": "topic_101c253c",
-  "label": "数据驱动的公共服务与照护实践",
-  "description": "研究数据驱动治理在智慧城市出行与照护服务中的公众参与、情境判断与公平问题。",
-  "why_hot": "近30天仅2篇，日均发表速度较前期下降67%，研究活动明显降温。",
-  "hot_score": 34,
-  "growth": -0.667,
-  "growth_rate": -0.667,
-  "recent_rate": 0.0667,
-  "baseline_rate": 0.2,
-  "recent_count": 2,
-  "baseline_count": 30,
-  "journal_count": 7,
+  "label": "数据化公共服务与日常数字生活",
+  "description": "探讨数据驱动的算法治理如何重塑城市公共服务、照护劳动与个人媒介使用评估。",
+  "why_hot": "近30天日均发表速度较前期下降58%，研究热度有所回落。",
+  "hot_score": 39,
+  "growth": -0.583,
+  "growth_rate": -0.583,
+  "recent_rate": 0.1,
+  "baseline_rate": 0.24,
+  "recent_count": 3,
+  "baseline_count": 36,
+  "journal_count": 9,
   "lineage_status": "continued",
-  "status": "emerging",
+  "status": "hot",
   "keywords": [
-    "smart city",
     "data-driven governance",
+    "smart city",
+    "digital wellbeing",
     "care work",
-    "disability",
-    "situated judgment"
+    "public services"
   ],
   "papers": [
+    {
+      "id": 2239,
+      "title": "Too Much, Too Little, or Just Right? Identity Processes and Motivations Explain Everyday Evaluations of Time Spent on Social Media",
+      "journal": "Communication Research",
+      "published_date": "2026-11-08",
+      "summary": "研究探讨新兴成年人对社交媒体使用时间的评价如何与身份发展差异及身份相关使用动机相关，基于纵向田野研究数据发现平衡感知取决于使用是否契合身份需求。"
+    },
     {
       "id": 2212,
       "title": "Participation in the smart city: disability and autonomous public transport in Singapore",
@@ -64,6 +71,13 @@
       "summary": "基于女性主义关怀伦理，对20名成人进行民族志田野研究，分析三个案例，探讨关怀与数字（不）连接实践如何相互塑造，提出\"谨慎的不/连接\"框架，认为数字福祉取决于技术所维系的关怀关系而非个体媒介使用。"
     },
     {
+      "id": 2167,
+      "title": "Social Media Platform Repertoires in Everyday Life: Measuring Social Media Use With Passive Metering",
+      "journal": "Social Media + Society",
+      "published_date": "2026-10-01",
+      "summary": "研究对1457名意大利成年人进行6周手机与电脑被动计量，量化Facebook、Instagram、TikTok、YouTube、Twitter/X的使用时间及社会人口差异。发现Facebook与YouTube占近四分之三使用时长，超90%为App端使用，年龄是最强预测因素。"
+    },
+    {
       "id": 2201,
       "title": "Do Experts Agree About Misinformation? Evidence From Three Annual Surveys",
       "journal": "Social Media + Society",
@@ -99,11 +113,11 @@
       "summary": "通过 2×2 被试间实验（N=210）考察社交媒体癌症疫苗信息的真假、来源可信度与欺骗识别自我效能如何影响信任、怀疑与担忧，发现真信息提升信任、来源可信度放大该效应，而欺骗识别信心反而增强怀疑。"
     },
     {
-      "id": 1979,
-      "title": "Digital ID as surreptitious experimentation in the humanitarian-tech industry: an ethnography of a biometric pilot in a refugee camp in the Thailand-Myanmar border",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-03",
-      "summary": "通过18个月民族志研究，分析泰国-缅甸边境难民营中数字ID试点如何作为隐秘实验实施，揭示其缺乏知情同意、加剧权力不对称，并延续殖民逻辑。"
+      "id": 2028,
+      "title": "How Do Social Media Influencers Motivate Prosocial Intentions? The Interaction of SMI Gender and Expertise",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-09-10",
+      "summary": "研究探讨社交媒体影响者的性别与专业度如何交互影响受众的亲社会行为意向，属战略传播领域的说服效果研究，采用实验或调查方法验证假设。"
     },
     {
       "id": 1980,
@@ -118,6 +132,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-08-21",
       "summary": "通过两年民族志田野调查，探讨算法招聘如何改变求职沟通条件，提出算法可读性概念，分析求职者被迫进行校准劳动以适配机器系统，重塑社会认可与公民参与。"
+    },
+    {
+      "id": 1959,
+      "title": "How Recipients Compose Their News Sources Online: Utilizing Tracking Data to Investigate Digital News Media Repertoires",
+      "journal": "The International Journal of Press/Politics",
+      "published_date": "2026-08-18",
+      "summary": "基于805名德国受访者11周的行为追踪数据，通过潜在类别分析识别出八种数字新闻媒体使用模式，并比较其话题、多样性等差异。"
     },
     {
       "id": 1928,
@@ -148,6 +169,13 @@
       "summary": "探讨智能城市中AI系统对残障人士的无障碍、能动性与意识的影响，关注混合空间中的技术使用与社会公平问题。"
     },
     {
+      "id": 282,
+      "title": "Navigating, Selecting, and Engaging: A Multi-Method Study of Social Media Information Use Practices Among Older Adults",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过观察和访谈研究60岁以上德国老年人如何使用Facebook和Instagram进行信息导航、选择与参与，发现其信息实践多样且存在被动倾向，受媒体社会化影响。"
+    },
+    {
       "id": 285,
       "title": "“You Might Like Each Other”: Mass Customization and the Structuring of Sociality Among Chinese Generation Z on the Soul App",
       "journal": "Social Media + Society",
@@ -169,11 +197,11 @@
       "summary": "基于智利两项概率调查，分析算法素养的认知与行为维度对错误信息接触、分享和知识的影响，发现认知维度关联更强。"
     },
     {
-      "id": 2087,
-      "title": "Wise Empathy Improves Well-Being on Instagram",
+      "id": 1942,
+      "title": "Negotiating the Influencer Imaginary: How Everyday Professionals Construct Legitimacy on Social Media",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
-      "summary": "通过生态瞬时干预训练260名被试在Instagram上运用明智共情，结合5,902次经验取样追踪其共情与幸福感，发现干预提升在线明智共情并改善幸福感，共情变化起中介作用。"
+      "summary": "通过20次访谈，研究日常专业人士如何利用影响者工具箱建立职业合法性，提出“影响者想象”框架，揭示其协商的三重路径。"
     },
     {
       "id": 2103,
@@ -181,6 +209,13 @@
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "论文通过两项实验考察TikTok用户对猴痘相关信息视频的感知，测试信源类型（记者vs网红）与信息真伪的影响，并评估横幅标签、贴片视频、点击警告三种虚假信息干预的效果及心理逆反的中介作用。"
+    },
+    {
+      "id": 253,
+      "title": "No time or tech for online news: How social and digital inequalities contribute to gender gaps in online news consumption",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-29",
+      "summary": "研究结合英国和巴西的调查数据与浏览器/App被动跟踪数据，分析数字素养、技术问题、经济不安全感和照料时间等社会不平等指标如何中介性别与新闻消费的关系，发现女性新闻消费更少且选择性回避更多。"
     },
     {
       "id": 76,
@@ -244,6 +279,20 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-03",
       "summary": "通过两项在线调查（n=2115）研究不信任、新闻消费与媒体素养教育对信息核实信心和实际能力的影响，发现不信任预测信心，新闻消费预测实际辨别能力。"
+    },
+    {
+      "id": 441,
+      "title": "Exploring the Perception Gap: Human Vs. Virtual Influencers in Social Media Marketing",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-06-01",
+      "summary": "通过随机实验比较虚拟影响者与人类影响者在可信度、喜爱度和共鸣度上的差异，发现虚拟影响者显著低于人类影响者，但两者在关注意愿上无显著差异。"
+    },
+    {
+      "id": 443,
+      "title": "Health Influencers: Effects of Influencer Type and Expertise on Credibility, Trust, and Behavioral Intentions",
+      "journal": "International Journal of Strategic Communication",
+      "published_date": "2026-05-31",
+      "summary": "研究健康影响者类型和专业知识对可信度、信任及行为意图的影响，属于战略传播领域，但计算方法未知。"
     }
   ],
   "paper_edges": []

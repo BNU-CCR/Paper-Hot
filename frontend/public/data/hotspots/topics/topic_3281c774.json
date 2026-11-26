@@ -1,23 +1,24 @@
 {
   "topic_id": "topic_3281c774",
   "label": "视频平台的文化档案与粉丝参与",
-  "description": "关注视频平台作为参与式文化档案的演化，以及粉丝社群的数字参与实践。",
-  "why_hot": "近30天仅2篇，日均发表速度较前期下降58%，研究活跃度明显回落。",
-  "hot_score": 36,
-  "growth": -0.583,
-  "growth_rate": -0.583,
+  "description": "探讨视频平台作为参与式文化记忆档案与粉丝社群参与实践的空间属性。",
+  "why_hot": "近30天日均发表速度较前期下降67%，研究热度明显回落。",
+  "hot_score": 34,
+  "growth": -0.667,
+  "growth_rate": -0.667,
   "recent_rate": 0.0667,
-  "baseline_rate": 0.16,
+  "baseline_rate": 0.2,
   "recent_count": 2,
-  "baseline_count": 24,
+  "baseline_count": 30,
   "journal_count": 8,
   "lineage_status": "continued",
   "status": "emerging",
   "keywords": [
     "YouTube",
+    "cultural archive",
+    "fandom",
     "participatory culture",
-    "digital archive",
-    "fandom engagement"
+    "digital heritage"
   ],
   "papers": [
     {
@@ -91,6 +92,13 @@
       "summary": "论文以2023年蔡徐坤事件为例，结合13人深度访谈与13.9万微博帖子和20.5万评论的计算分析，提出“反应性集体参与”概念，识别定位、叙事、调适与校准四类情感实践。"
     },
     {
+      "id": 2049,
+      "title": "Generational differences in responses to disinformation: from ‘vulnerability’ to interpretive strategies",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-09-19",
+      "summary": "论文考察不同代际群体对虚假信息的回应方式，主张从'易感性'视角转向'解释性策略'视角。因无摘要，具体方法与数据不详，推测基于访谈或定性受众分析。"
+    },
+    {
       "id": 2058,
       "title": "From Parasocial Involvement to Community Identification: Explaining Monetized Support in VTuber Live Streaming",
       "journal": "Journal of Broadcasting & Electronic Media",
@@ -103,6 +111,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-08-28",
       "summary": "研究NGO在土耳其可持续性话语中如何针对不同利益相关者调整传播，结合社交网络与情感分析8万余条推文。"
+    },
+    {
+      "id": 1949,
+      "title": "Influence operations 2.0: the evolution of social media manipulation in Southeast Asia",
+      "journal": "Information Communication & Society",
+      "published_date": "2026-08-21",
+      "summary": "通过访谈分析泰国、印尼、菲律宾国内在线影响行动的演变，识别客户、外包、账号策略、内容与传播方式的五个转变。"
     },
     {
       "id": 1963,
@@ -147,6 +162,27 @@
       "summary": "基于访谈和社交媒体语料，探讨中国数据限速如何作为速度分配机制治理数字公民身份，提出以可用最低速度定义数字不平等。"
     },
     {
+      "id": 250,
+      "title": "Integrating corrective action theory into the social identity model of collective action to explain U.S. Latinos/as’ social media political expression",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-07-05",
+      "summary": "研究整合SIMCA与纠正行动理论，基于995名美国拉丁裔调查数据，考察集体效能、群体认同和社交媒体新闻接触对集体表达的影响。"
+    },
+    {
+      "id": 10,
+      "title": "Co-Producing Endurance: Strava and the Construction of the Professional Endurance Athlete",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过访谈25名精英耐力运动员及其经纪人，探讨Strava如何通过平台逻辑共同塑造职业耐力运动员的身份、实践与职业可持续性，并分析运动员对平台逻辑的肯定、内化与抵抗。"
+    },
+    {
+      "id": 1904,
+      "title": "Revisiting the Communication Mediation Model in the Age of Social Media: Longitudinal Evidence From Climate Misinformation Responses in China",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "基于中国三波面板调查，检验社交媒体时代传播中介模型，发现媒体关注通过人际讨论影响气候错误信息纠正行为，且具有同时性。"
+    },
+    {
       "id": 2022,
       "title": "Constructing Online Harms: How “Trust and Safety” Translates Safety Into Risk",
       "journal": "Social Media + Society",
@@ -180,6 +216,13 @@
       "journal": "Information Communication & Society",
       "published_date": "2026-06-26",
       "summary": "基于台湾环保NGO与公民科技社群合作的案例，探讨环境数据行动主义中NGO作为公民数据中介的角色，提出数据正义的实践理论。"
+    },
+    {
+      "id": 256,
+      "title": "Social media and online media diversity: a global comparison of 150 countries from 2014 to 2022",
+      "journal": "Journal of Information Technology & Politics",
+      "published_date": "2026-06-15",
+      "summary": "研究分析2014-2022年150个国家社交媒体与在线媒体多样性的关系，基于权力结构视角，发现社交媒体采纳和组织化在不同新闻自由国家中影响各异。"
     },
     {
       "id": 440,

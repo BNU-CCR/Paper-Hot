@@ -1,15 +1,15 @@
 {
   "topic_id": "topic_17c37711",
-  "label": "人机亲密关系与聊天机器人效应",
-  "description": "研究AI聊天机器人如何塑造人机与人际亲密关系、用户印象判断及健康传播中的评价。",
-  "why_hot": "近30天发表7篇，日均速度与前期基本持平，覆盖11本期刊，持续活跃。",
-  "hot_score": 72,
-  "growth": 0.029,
-  "growth_rate": 0.029,
-  "recent_rate": 0.2333,
-  "baseline_rate": 0.2267,
-  "recent_count": 7,
-  "baseline_count": 34,
+  "label": "聊天机器人互动与人机关系",
+  "description": "研究用户与AI聊天机器人的互动如何影响人机亲密关系、信任判断与说服效果。",
+  "why_hot": "近30天日均发表速度与前期基本持平，议题持续受关注。",
+  "hot_score": 64,
+  "growth": 0.0,
+  "growth_rate": 0.0,
+  "recent_rate": 0.1667,
+  "baseline_rate": 0.1667,
+  "recent_count": 5,
+  "baseline_count": 25,
   "journal_count": 11,
   "lineage_status": "continued",
   "status": "hot",
@@ -17,8 +17,8 @@
     "human-AI relationships",
     "chatbots",
     "intimacy",
-    "prompt framing",
-    "anthropomorphism"
+    "credibility cues",
+    "persuasion"
   ],
   "papers": [
     {
@@ -57,25 +57,11 @@
       "summary": "通过随机提示实验考察用户提示框架如何影响ChatGPT的情感与支持性线索生产，以及这些线索是否影响用户可信度与信任评价。"
     },
     {
-      "id": 2214,
-      "title": "Synthetic humanitarianism and algorithmic witnessing: generative AI and the politics of humanitarian representation",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-28",
-      "summary": "文章提出“合成人道主义”与“算法见证”概念，分析2022至2025年间13个生成式AI图像用于人道传播的案例，批判其延续殖民与提取逻辑并削弱受影响社群的表征参与。"
-    },
-    {
       "id": 2206,
       "title": "Machine Behavior: Paradigm Shift of Communication Research in AI Era",
       "journal": "Communication and the Public",
       "published_date": "2026-10-25",
       "summary": "文章主张在 AI 时代建立“机器行为范式”，将智能机器纳入传播研究对象，从研究对象、研究关系与方法三个维度扩展学科边界，倡导结合文本生成温度、活跃度等计算指标应对 AI 黑箱，并讨论议程设置、沉默螺旋等理论在 AI 环境下的局限，提出个体、集体与人机混合行为的系统框架与伦理规范。"
-    },
-    {
-      "id": 2179,
-      "title": "Black technofeminism as critique of biological essentialism in AI anthropomorphization",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-22",
-      "summary": "文章以Black technofeminism批判AI拟人化中的种族化与性别化去人性化，质性审计YouTube搜索结果及Gemini、ChatGPT生成图像，揭示AI视觉文化默认白人化并扭曲黑人女性形象。"
     },
     {
       "id": 2162,
@@ -92,20 +78,6 @@
       "summary": "通过实验操纵165名美国成年人对算法效能的信任信念，评估同一组在线约会档案，检验信任信念如何影响约会评价与情绪。结果显示高信任组感知约会更成功，进而更自信愉悦、更少焦虑悲伤，提示算法信念存在自我实现预言效应。"
     },
     {
-      "id": 2122,
-      "title": "ChangeMyView: Unpacking the Complex Emotional, Cognitive, and Communicator-Related Processes Underlying Persuasion",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-10-09",
-      "summary": "基于r/ChangeMyView约6万帖子，用LIWC、主成分分析和多层逻辑回归，检验认知推理、情感表达与真实沟通风格对说服成功的影响。"
-    },
-    {
-      "id": 2108,
-      "title": "Skewed toward uniformity? Investigating algorithmic stereotyping and amplification in AI-generated images",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-10-01",
-      "summary": "该研究以Draw-a-Scientist框架审计DALL·E 3生成的科学家图像，对比Google Images，通过16项刻板印象指标与潜类别分析识别六类刻板呈现模式，发现DALL·E强化了刻板印象并造成'认知窄化'，讨论算法可见性及缓解策略。"
-    },
-    {
       "id": 2129,
       "title": "Seeing Is Believing? Most People Struggle to Detect AI-Generated Images",
       "journal": "Social Media + Society",
@@ -113,32 +85,11 @@
       "summary": "通过预注册调查实验，检验人们辨别AI生成图像与真实照片的能力。发现人们平均仅相当于随机猜测，仅25岁以下年轻人、分析型思维者及AI熟练用户表现较好，且图像情境不影响辨别信心。"
     },
     {
-      "id": 2153,
-      "title": "Algorithms of Injustice: An Ethnographic Content Analysis of Black Youth’s Experiences with Racial Trauma Online",
-      "journal": "Social Media + Society",
-      "published_date": "2026-10-01",
-      "summary": "研究以批判种族技术理论为框架，用民族志内容分析考察社交媒体上种族创伤性内容（黑人死亡、数字骚扰、深伪、战争内容）对黑人青少年心理的影响，指出算法放大此类内容并造成替代性创伤，同时平台也是行动主义与互助空间。"
-    },
-    {
-      "id": 2099,
-      "title": "Writing the Situated Self: Intersectional and Geographic Patterning in College Admissions Essays",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-09-28",
-      "summary": "研究利用23万余篇大学申请文书及作者社会人口学与邮政编码元数据，通过机器阅读发现交叉性人口特征和地理社会经济指标显著塑造写作风格与内容，错误分类率亦随地区人口构成与社会资本变化，说明写作是社会与地理嵌入的过程。"
-    },
-    {
       "id": 2081,
       "title": "Guidance over guidelines? Unpacking the uses and concerns of generative AI in communication science",
       "journal": "Information Communication & Society",
       "published_date": "2026-09-25",
       "summary": "通过对1138名传播学者的问卷调查与四组焦点小组访谈，系统描绘生成式AI在传播学研究各阶段的使用情况，揭示普遍使用与持续担忧的悖论、个体与机构间的期望冲突及文化语言差异，并提出多层次负责任使用建议。"
-    },
-    {
-      "id": 2063,
-      "title": "Perceptions of artificial intelligence bias and gender inclusivity: toward a gendered divergence",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-22",
-      "summary": "论文考察公众对人工智能偏见的感知及其与性别包容性态度的关系，提出性别分化（gendered divergence）的分析视角，探讨不同性别群体在AI偏见认知上的差异及其传播意涵。"
     },
     {
       "id": 2072,
@@ -162,13 +113,6 @@
       "summary": "通过实验操纵AI/人类/无署名标签、情绪化程度与叙事视角，考察AI撰写的抑郁症叙事能否通过认同降低污名化，发现各变量间存在有条件的调节中介关系。"
     },
     {
-      "id": 2034,
-      "title": "Platformed partner markets: online dating and gendered assortative mating in Europe",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-14",
-      "summary": "论文考察欧洲在线约会平台中的性别化同质择偶现象，探讨平台化婚恋市场如何与性别化的匹配模式相互作用，但缺少摘要，具体数据与方法不明。"
-    },
-    {
       "id": 2023,
       "title": "Examining the Mediating Effects of Mutuality and Openness in the Adoption of Generative Artificial Intelligence in Public Relations Practice: A Predictive PLS-SEM Approach",
       "journal": "International Journal of Strategic Communication",
@@ -181,13 +125,6 @@
       "journal": "Political Communication",
       "published_date": "2026-08-21",
       "summary": "通过大规模纵向实验（N=7188）检验准确性提醒能否增强事实核查效果的持久性，发现提醒可延长信念纠正至四周。"
-    },
-    {
-      "id": 1957,
-      "title": "Internalized Cultural Heuristics of Warmth and Competence in Identity Labels: The Indirect Indexicality of Stereotype and Emotional Reaction Activation as a Function of Social Media Exposure",
-      "journal": "Journal of Language and Social Psychology",
-      "published_date": "2026-08-18",
-      "summary": "实验研究社交媒体暴露于身份标签如何激活温暖和能力刻板印象及情绪反应，基于刻板印象内容模型。"
     },
     {
       "id": 1945,
@@ -232,25 +169,18 @@
       "summary": "通过Twitter数据分析用户如何拟人化ChatGPT，识别出人格化、情感归因等五类拟人化形式，探讨社交媒体对拟人化叙事的形塑及其对信任和传播的影响。"
     },
     {
-      "id": 1908,
-      "title": "“Hearing My People, but Not Seeing My People”: Boundaries of Blackness on TikTok",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究黑人用户在TikTok上如何通过九种视频子类型维护群体边界，运用批判技术文化话语分析探讨新技术对种族化体验和身份形成的影响。"
-    },
-    {
-      "id": 1998,
-      "title": "“Turns Out My Paternal Grandmother has 16% Native Blood”: Racialized DNA, Race Destabilization, and Digital Race-(re)making on Social Media",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "研究Reddit r/23andMe用户如何结合基因检测结果进行数字种族重构，提出四阶段过程，分析话语策略与身份协商。"
-    },
-    {
       "id": 1999,
       "title": "Social Robots and the Dialectics of Presence and Absence",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "基于关系辩证理论与符号学，考察103名青年与社交机器人的首次互动，揭示在场与缺席等辩证张力，强调机器人作为交流基础设施的作用。"
+    },
+    {
+      "id": 2087,
+      "title": "Wise Empathy Improves Well-Being on Instagram",
+      "journal": "Social Media + Society",
+      "published_date": "2026-07-01",
+      "summary": "通过生态瞬时干预训练260名被试在Instagram上运用明智共情，结合5,902次经验取样追踪其共情与幸福感，发现干预提升在线明智共情并改善幸福感，共情变化起中介作用。"
     },
     {
       "id": 404,
@@ -300,13 +230,6 @@
       "journal": "The International Journal of Press/Politics",
       "published_date": "2026-05-31",
       "summary": "通过访谈94名肯尼亚新闻业相关利益者，探讨他们关于GenAI的民俗理论及其伦理认知，揭示不同技术认知框架影响对新闻伦理风险的解读。"
-    },
-    {
-      "id": 541,
-      "title": "We’re just chatting: perceptions of everyday communication with chatbots",
-      "journal": "Communication Research Reports",
-      "published_date": "2026-05-27",
-      "summary": "基于美国全国样本，考察人机闲聊中的沟通偶然性对感知响应性、参与度和满意度的影响，发现陪伴感调节作用。"
     }
   ],
   "paper_edges": []

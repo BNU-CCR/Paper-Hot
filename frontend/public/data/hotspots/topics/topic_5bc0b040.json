@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_5bc0b040",
-  "label": "叙事结构与媒介传播效果",
-  "description": "考察叙事结构、角色网络与媒介设计如何影响内容传播效果和受众注意力。",
-  "why_hot": "近30天发表3篇，日均速度与前期持平，覆盖8本期刊，研究稳定。",
-  "hot_score": 57,
-  "growth": 0.0,
-  "growth_rate": 0.0,
-  "recent_rate": 0.1,
-  "baseline_rate": 0.1,
-  "recent_count": 3,
-  "baseline_count": 15,
+  "label": "短视频叙事结构与传播效果",
+  "description": "考察短视频文本的叙事设计与媒介形式如何影响信息传播效果与受众注意力。",
+  "why_hot": "近30天日均发表速度较前期下降38%，产出规模有限。",
+  "hot_score": 41,
+  "growth": -0.375,
+  "growth_rate": -0.375,
+  "recent_rate": 0.0667,
+  "baseline_rate": 0.1067,
+  "recent_count": 2,
+  "baseline_count": 16,
   "journal_count": 8,
   "lineage_status": "continued",
-  "status": "hot",
+  "status": "emerging",
   "keywords": [
-    "narrative structure",
     "short video",
+    "narrative structure",
     "dissemination effectiveness",
-    "media design",
-    "attention"
+    "attention",
+    "media design"
   ],
   "papers": [
     {

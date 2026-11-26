@@ -1,24 +1,24 @@
 {
   "topic_id": "topic_15d0f24a",
-  "label": "生成式AI与选举信息真实性",
-  "description": "研究生成式AI在选举中的信息风险、事实核查的可信度建构，以及AI治理与民主韧性的关系。",
-  "why_hot": "近30天发表5篇，日均速度较前期下降14%，但覆盖7本期刊，议题仍属活跃。",
-  "hot_score": 60,
-  "growth": -0.138,
-  "growth_rate": -0.138,
-  "recent_rate": 0.1667,
-  "baseline_rate": 0.1933,
-  "recent_count": 5,
-  "baseline_count": 29,
-  "journal_count": 7,
+  "label": "生成式AI与事实核查治理",
+  "description": "关注生成式AI对选举信息生态的冲击、事实核查实践及虚假信息治理框架的建构。",
+  "why_hot": "近30天日均发表速度较前期下降33%，但产出仍属稳定。",
+  "hot_score": 49,
+  "growth": -0.333,
+  "growth_rate": -0.333,
+  "recent_rate": 0.1333,
+  "baseline_rate": 0.2,
+  "recent_count": 4,
+  "baseline_count": 30,
+  "journal_count": 8,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
     "generative AI",
     "fact-checking",
-    "disinformation",
-    "election integrity",
-    "democratic resilience"
+    "disinformation governance",
+    "elections",
+    "epistemic authority"
   ],
   "papers": [
     {
@@ -155,11 +155,25 @@
       "summary": "通过2x4被试间实验，考察不同解释策略（开发者、程序、组合、无）对AI生成新闻可信度的影响，发现程序性和组合解释提升可信度，且机器启发式起中介作用。"
     },
     {
+      "id": 613,
+      "title": "Exploring the forces driving ChatGPT diffusion on X: An integrated theoretical perspective",
+      "journal": "Global Media and Communication",
+      "published_date": "2026-07-02",
+      "summary": "该研究基于媒体效果与创新扩散理论，分析X平台上推动ChatGPT扩散的关键因素，发现感知有用性讨论多于政府监管，正面和中性情绪主导。"
+    },
+    {
       "id": 286,
       "title": "Making Sense of AI-Generated Disinformation: How Audience Interpretations Influence the Impact of Deepfakes in Kenya",
       "journal": "Social Media + Society",
       "published_date": "2026-07-01",
       "summary": "通过肯尼亚7000人调查实验，考察社交评论对政治深度伪造效果的影响，发现质疑评论可部分恢复政治家支持，且党派偏见影响判断，强调集体意义建构的作用。"
+    },
+    {
+      "id": 212,
+      "title": "Platform Collective Behavior as Democratic Infrastructure: Beyond Causal Effects in the DSA Era",
+      "journal": "Political Communication",
+      "published_date": "2026-06-30",
+      "summary": "提出平台集体行为概念，探讨人机协同产生的系统性风险，评估DSA数据访问对研究平台民主影响的充分性，属理论评述。"
     },
     {
       "id": 402,
@@ -244,20 +258,6 @@
       "journal": "Journal of Broadcasting & Electronic Media",
       "published_date": "2026-06-01",
       "summary": "调查335名传播管理者，发现AI伦理焦虑预测事实核查行为，感知可信度调节对事实核查网站的使用，但对AI事实核查无显著调节作用。"
-    },
-    {
-      "id": 176,
-      "title": "Ethics First: How Trust and Political Contexts Shape Public Acceptance of AI-Generated News Across Twenty-four Countries",
-      "journal": "The International Journal of Press/Politics",
-      "published_date": "2026-05-29",
-      "summary": "研究24国24000名受访者对AI生成新闻的接受度，发现伦理信任比能力信任更重要，且AI自我效能仅在伦理信任高时促进接受，政治环境调节这一关系。"
-    },
-    {
-      "id": 415,
-      "title": "Does AI Amplify or Mitigate Media Bias? A Comparative Analysis of Coverage, Gatekeeping, and Statement Bias in AI-Generated and Human-Written News",
-      "journal": "Journal of Broadcasting & Electronic Media",
-      "published_date": "2026-05-27",
-      "summary": "基于18,282篇AI生成和18,210篇人工文章，比较覆盖、守门和陈述偏见，发现AI重构而非减少媒体偏见，成为现有模式的镜像与选择性放大器。"
     }
   ],
   "paper_edges": []

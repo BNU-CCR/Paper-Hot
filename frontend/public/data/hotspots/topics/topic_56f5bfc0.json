@@ -1,26 +1,40 @@
 {
   "topic_id": "topic_56f5bfc0",
-  "label": "战略传播与战争叙事竞争",
-  "description": "考察行为体如何通过叙事改编、平台内容与虚假信息参与战争记忆和战略传播竞争。",
-  "why_hot": "近30天发表5篇，日均速度较前期下降17%，覆盖6本期刊，热度略有回落。",
-  "hot_score": 58,
-  "growth": -0.167,
-  "growth_rate": -0.167,
-  "recent_rate": 0.1667,
-  "baseline_rate": 0.2,
-  "recent_count": 5,
-  "baseline_count": 30,
+  "label": "战时宣传与虚假信息叙事",
+  "description": "考察战争与危机情境下国家媒体宣传、虚假信息叙事建构及受众新闻回避的互动机制。",
+  "why_hot": "近30天日均发表速度较前期上升13%，议题热度稳中有升。",
+  "hot_score": 75,
+  "growth": 0.129,
+  "growth_rate": 0.129,
+  "recent_rate": 0.2333,
+  "baseline_rate": 0.2067,
+  "recent_count": 7,
+  "baseline_count": 31,
   "journal_count": 6,
   "lineage_status": "continued",
   "status": "hot",
   "keywords": [
-    "strategic communication",
-    "narrative adaptation",
-    "war coverage",
-    "disinformation engagement",
-    "memory politics"
+    "disinformation",
+    "war narratives",
+    "news avoidance",
+    "state media",
+    "propaganda"
   ],
   "papers": [
+    {
+      "id": 2277,
+      "title": "News avoidance in times of crisis: How Egyptians engage with the Israel–Gaza war",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-11-24",
+      "summary": "研究以埃及成年用户为对象，通过在线问卷调查以色列—加沙战争期间社交媒体新闻回避行为的成因，发现新闻过载、新闻疲劳、分析瘫痪与情感负荷显著相关，人口学变量无显著影响。"
+    },
+    {
+      "id": 2279,
+      "title": "Epistemic mimicry in wartime: How Russia’s state-aligned media makes disinformation appear credible",
+      "journal": "Media War & Conflict",
+      "published_date": "2026-11-23",
+      "summary": "文章提出“认知模仿”概念，分析 2022-2024 年 Izvestia、RT 与索洛维约夫 Telegram 共 11,868 条涉德、捷报道，结合结构主题模型与 286 篇质性编码，识别出省略、专家操纵、反建制框架、敌化、点名五种可信度建构策略。"
+    },
     {
       "id": 2269,
       "title": "Adapting the story: Russian narrative adaptation during Sweden’s NATO accession",
@@ -99,13 +113,6 @@
       "summary": "研究以色列的菲律宾住家看护在2023年10月7日哈马斯袭击及随后的战争期间如何使用Facebook。基于Facebook数字民族志，发现其帖文表达哀悼、赞颂英雄与团结，既强化菲社群内部的认同，又建构与以色列社会的联结，提出'数字表演性公民身份'概念，说明社交媒体可见性与联结性可供性如何让边缘移民在战时重构归属。"
     },
     {
-      "id": 2049,
-      "title": "Generational differences in responses to disinformation: from ‘vulnerability’ to interpretive strategies",
-      "journal": "Information Communication & Society",
-      "published_date": "2026-09-19",
-      "summary": "论文考察不同代际群体对虚假信息的回应方式，主张从'易感性'视角转向'解释性策略'视角。因无摘要，具体方法与数据不详，推测基于访谈或定性受众分析。"
-    },
-    {
       "id": 2033,
       "title": "Weapon and poison? Framing disinformation in European Commission Speeches, 2016–2024",
       "journal": "Information Communication & Society",
@@ -118,6 +125,13 @@
       "journal": "Journal of Information Technology & Politics",
       "published_date": "2026-09-08",
       "summary": "论文比较印度、巴基斯坦、孟加拉国对数字空间的控制，结合法律框架梳理与OONI、Internet Society网络干扰数据，分析各国审查与监控实践的差异及其成因，发现不同政权安全关切导致控制手段分化。"
+    },
+    {
+      "id": 1975,
+      "title": "Investigating Conditional Macro-Level Media Effects Over a Long-Term: How Crisis Periods Moderate the Effects of Suicide Coverage on Suicide Rate Change (1861–2007)",
+      "journal": "Communication Research",
+      "published_date": "2026-09-03",
+      "summary": "通过分析《泰晤士报》1861-2007年自杀报道与英国自杀率数据，发现危机时期自杀报道增加与自杀率上升相关，支持条件性维特效应。"
     },
     {
       "id": 2009,
@@ -232,13 +246,6 @@
       "summary": "研究阿富汗-巴基斯坦背景下的混合冲突，分析四平台2400条帖文的虚假信息传播与反国家叙事，结合300人调查，发现数字冲突加剧。"
     },
     {
-      "id": 1904,
-      "title": "Revisiting the Communication Mediation Model in the Age of Social Media: Longitudinal Evidence From Climate Misinformation Responses in China",
-      "journal": "Social Media + Society",
-      "published_date": "2026-07-01",
-      "summary": "基于中国三波面板调查，检验社交媒体时代传播中介模型，发现媒体关注通过人际讨论影响气候错误信息纠正行为，且具有同时性。"
-    },
-    {
       "id": 492,
       "title": "Constructing war in news: Discursive logics of the Pahalgam crisis in the Indian and Pakistani press",
       "journal": "Media War & Conflict",
@@ -258,13 +265,6 @@
       "journal": "Media War & Conflict",
       "published_date": "2026-05-30",
       "summary": "研究乌克兰宣传组织United24 Media如何适应Instagram和YouTube的平台特性，通过定性分析2500余条短视频，揭示不同平台叙事策略差异及战争合法化机制。"
-    },
-    {
-      "id": 498,
-      "title": "Visual moralization of conflict on TikTok: A typology of journalistic framing",
-      "journal": "Media War & Conflict",
-      "published_date": "2026-05-27",
-      "summary": "提出冲突视觉道德化类型学，分析六家媒体736个以色列-加沙战争视频，发现不同道德维度及其参与度差异，扩展MFT并建立可复制多模态模型。"
     }
   ],
   "paper_edges": []
